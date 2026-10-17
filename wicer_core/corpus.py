@@ -167,6 +167,26 @@ def build_topic(profile: Profile, topic: str, *, force: bool = False) -> Corpus:
     return _build_from_frame(profile, topic, df, out)
 
 
+def _select_documents(sub, rule: str, n: int) -> list[str]:
+    """Choose which ``n`` documents of a topic make up the corpus.
+
+    ``shortest`` sorts by document word count, ties broken on ``document_id``;
+    ``lexicographic`` ignores length.  Either way the chosen ids come back
+    sorted, so the rendered context -- and the reader's KV prefix -- depends on
+    which documents were picked, never on how they were picked.
+    """
+    if rule == "lexicographic":
+        return sorted(sub["document_id"].unique())[:n]
+    if rule != "shortest":
+        raise ValueError(f"unknown doc_selection {rule!r}; choose shortest or lexicographic")
+    first = sub.drop_duplicates(subset=["document_id"])
+    lengths = [
+        (len(str(text).split()), str(doc_id))
+        for doc_id, text in zip(first["document_id"], first["document_extracted"])
+    ]
+    return sorted(doc_id for _, doc_id in sorted(lengths)[:n])
+
+
 def _build_from_frame(profile: Profile, topic: str, df, out: Path) -> Corpus:
     cfg = profile.corpus
     hf_topic = TOPICS[topic]
@@ -178,7 +198,7 @@ def _build_from_frame(profile: Profile, topic: str, df, out: Path) -> Corpus:
     sub = sub[~sub["answer"].map(_is_unanswerable)]
     dropped_unanswerable = n_before - len(sub)
 
-    doc_ids = sorted(sub["document_id"].unique())[: cfg.n_docs_per_topic]
+    doc_ids = _select_documents(sub, cfg.doc_selection, cfg.n_docs_per_topic)
     documents: list[Document] = []
     qa: list[QAPair] = []
     short_docs: list[str] = []
@@ -213,9 +233,15 @@ def _build_from_frame(profile: Profile, topic: str, df, out: Path) -> Corpus:
         "document_ids": [d.document_id for d in documents],
         "dropped_unanswerable": int(dropped_unanswerable),
         "documents_with_fewer_qa": short_docs,
+        "doc_selection": cfg.doc_selection,
         "subsample_rule": (
-            "split-restricted; unanswerable dropped; first N document_ids "
-            "lexicographically; first K question_ids per document"
+            "split-restricted; unanswerable dropped; "
+            + (
+                "N shortest documents by word count, ties on document_id"
+                if cfg.doc_selection == "shortest"
+                else "first N document_ids lexicographically"
+            )
+            + "; first K question_ids per document"
         ),
         "target_n_documents": cfg.n_docs_per_topic,
         "target_n_qa_per_doc": cfg.n_qa_per_doc,

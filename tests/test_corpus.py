@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 import pandas as pd
 import pytest
 
@@ -15,7 +17,10 @@ from wicer_core.corpus import (
 )
 
 
-def _frame(n_docs: int = 5, n_qa: int = 6, topic: str = "Company Policies") -> pd.DataFrame:
+def _frame(
+    n_docs: int = 5, n_qa: int = 6, topic: str = "Company Policies",
+    length_of=lambda d: 20,
+) -> pd.DataFrame:
     rows = []
     for d in range(n_docs):
         doc_id = f"doc{d:03d}"
@@ -23,7 +28,7 @@ def _frame(n_docs: int = 5, n_qa: int = 6, topic: str = "Company Policies") -> p
             rows.append({
                 "document_id": doc_id,
                 "document_topic": topic,
-                "document_extracted": f"Body of {doc_id}. " * 20,
+                "document_extracted": f"Body of {doc_id}. " * length_of(d),
                 "question_id": f"{doc_id}-q{q}",
                 "question": f"question {q} about {doc_id}?",
                 "answer": f"answer {q} for {doc_id}",
@@ -98,3 +103,65 @@ def test_fixture_topic_loads_with_one_document_per_id(profile, topic):
     assert corpus.doc_by_id("mini00").text.startswith("Ardenmoor")
     with pytest.raises(KeyError):
         corpus.doc_by_id("nope")
+
+
+# -- document selection ------------------------------------------------------
+#
+# The paper subsamples 80 of a topic's ~200 documents and never says which 80.
+# Its reported corpus sizes are only reachable by a length-biased selection --
+# see DEVIATIONS.md 2 -- so the rule is explicit and recorded, not implied.
+
+
+def _selection(profile, rule):
+    from dataclasses import replace
+    return replace(profile, corpus=replace(profile.corpus, doc_selection=rule))
+
+
+def test_shortest_selection_takes_the_smallest_documents(profile, tmp_path):
+    """doc000 is longest, doc019 shortest; the keepers are the short tail."""
+    df = _frame(n_docs=20, n_qa=6, length_of=lambda d: 100 - d)
+    n = profile.corpus.n_docs_per_topic
+    corpus = _build_from_frame(_selection(profile, "shortest"), "company_policies", df, tmp_path / "s")
+    assert [d.document_id for d in corpus.documents] == [
+        f"doc{i:03d}" for i in range(20 - n, 20)
+    ]
+
+
+def test_selected_documents_are_ordered_lexicographically(profile, tmp_path):
+    """Selection picks WHICH documents; order stays id-sorted so the rendered
+    context -- and the reader's KV prefix -- does not depend on the rule."""
+    df = _frame(n_docs=20, n_qa=6, length_of=lambda d: 100 - d)
+    corpus = _build_from_frame(_selection(profile, "shortest"), "company_policies", df, tmp_path / "s")
+    ids = [d.document_id for d in corpus.documents]
+    assert ids == sorted(ids)
+
+
+def test_equal_length_documents_fall_back_to_document_id(profile, tmp_path):
+    """Ties must break deterministically or two machines build different corpora."""
+    df = _frame(n_docs=20, n_qa=6)  # every document identical in length
+    n = profile.corpus.n_docs_per_topic
+    corpus = _build_from_frame(_selection(profile, "shortest"), "company_policies", df, tmp_path / "s")
+    assert [d.document_id for d in corpus.documents] == [f"doc{i:03d}" for i in range(n)]
+
+
+def test_lexicographic_selection_is_still_available(profile, tmp_path):
+    df = _frame(n_docs=20, n_qa=6, length_of=lambda d: 100 - d)
+    n = profile.corpus.n_docs_per_topic
+    corpus = _build_from_frame(_selection(profile, "lexicographic"), "company_policies", df, tmp_path / "l")
+    assert [d.document_id for d in corpus.documents] == [f"doc{i:03d}" for i in range(n)]
+
+
+def test_an_unknown_selection_rule_is_rejected(profile, tmp_path):
+    df = _frame(n_docs=20, n_qa=6)
+    with pytest.raises(ValueError, match="doc_selection"):
+        _build_from_frame(_selection(profile, "longest"), "company_policies", df, tmp_path / "x")
+
+
+def test_manifest_records_which_rule_built_it(profile, tmp_path):
+    """A corpus that does not say how it was subsampled cannot be compared to
+    another one."""
+    df = _frame(n_docs=20, n_qa=6, length_of=lambda d: 100 - d)
+    _build_from_frame(_selection(profile, "shortest"), "company_policies", df, tmp_path / "s")
+    manifest = json.loads((tmp_path / "s" / "manifest.json").read_text())
+    assert manifest["doc_selection"] == "shortest"
+    assert "shortest" in manifest["subsample_rule"]

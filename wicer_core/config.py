@@ -77,6 +77,12 @@ class CorpusConfig:
     split: str = "repliqa_0"
     n_docs_per_topic: int = 80
     n_qa_per_doc: int = 5
+    # Which 80 of a topic's ~200 documents.  The paper does not say, and its
+    # reported corpus sizes are only reachable by a length-biased selection:
+    # "shortest" reproduces them to under 1% and reproduces its two
+    # context-overflow topics exactly.  "lexicographic" is length-neutral and
+    # was the original guess.  See DEVIATIONS.md 2.
+    doc_selection: str = "shortest"
     data_dir: str = "data/repliqa"
     hf_cache_dir: str = "data/hf"
 
@@ -249,6 +255,8 @@ def get_profile(name: str | None = None) -> Profile:
         profile = replace(profile, compiler=replace(profile.compiler, effort=v))
     if v := os.environ.get("WICER_COMPILER_MAX_TOKENS"):
         profile = replace(profile, compiler=replace(profile.compiler, max_tokens=int(v)))
+    if v := os.environ.get("WICER_DOC_SELECTION"):
+        profile = replace(profile, corpus=replace(profile.corpus, doc_selection=v))
     if v := os.environ.get("WICER_RESULTS_DIR"):
         profile = replace(profile, results_dir=v)
     return profile

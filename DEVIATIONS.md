@@ -28,14 +28,50 @@ Our rule (`wicer_core/corpus.py`), recorded in every manifest:
 
 1. one split, `repliqa_0`;
 2. drop rows whose answer is marked unanswerable (in practice: none);
-3. first 80 `document_id` values lexicographically;
+3. the **80 shortest documents by word count**, ties broken on `document_id`;
 4. first 5 `question_id` values per document.
 
-This appears to land on the same documents the paper used. Per-topic word
-counts convert to token counts that match Table 11 closely -- Company Policies
-48,459 words against the paper's 54,987 tokens, Regional Folklore 80,905 words
-against 97,148 tokens -- and Company Policies comes out the clear outlier on
-size in both.
+Step 3 was `first 80 document_id values lexicographically` until it was
+measured against the reader's own tokeniser, and the earlier note here claimed
+that landed on the paper's documents. It does not. The conversion that claim
+rested on -- Company Policies 48,459 words against the paper's 54,987 tokens --
+implies 1.135 tokens per word. Llama 3.1 tokenises this corpus at **1.29-1.32**,
+measured through `/tokenize` on the model the paper itself specifies. The
+paper's token counts cannot come from those 48,459 words.
+
+What the measurements rule out, in order:
+
+* **not a dataset version** -- the HuggingFace `sha` is `bc880adc...`, dated
+  2025-06-09, and is what we build from;
+* **not a different split** -- `repliqa_0` through `repliqa_4` agree on
+  document length to within 2% (1,006-1,030 words/doc for Regional Cuisine);
+* **not selection bias in the old rule** -- the lexicographic 80 average
+  *exactly* the topic's population mean, 1.00x;
+* **not prompt scaffolding** -- document headers and the preamble are 1.2%;
+* **not a QA-count filter** -- every RepLiQA document carries exactly 5 QA
+  pairs, so no "needs 5 questions" rule can skew the set.
+
+What remains is a length-biased subsample, and `shortest` reproduces the paper
+on three independent axes:
+
+| topic | shortest-80 | paper | delta |
+|---|---|---|---|
+| Company Policies | 54,742 | 54,987 | -0.4% |
+| Regional Folklore | 96,586 | 97,148 | -0.6% |
+| Regional Cuisine | 96,546 | 97,251 | -0.7% |
+
+It also reproduces the *count* of full-context exclusions (15 of 17 topics fit
+a 96K window) and their *identity* -- Regional Cuisine and Regional Folklore,
+precisely the two Section 5 footnote 2 names. Under the lexicographic rule,
+sixteen topics overflowed and no recovery rate was computable for any of them.
+
+This is a reconstruction, and it should be read as one: the paper states no
+selection rule, and landing 0.4-0.7% *above* the shortest-possible floor means
+it was not literally "sort by length and take 80" either -- more likely
+documents packed against a token budget. `doc_selection: "lexicographic"`
+(or `WICER_DOC_SELECTION=lexicographic`) restores the length-neutral rule, and
+the manifest records which one built a corpus, because two corpora built by
+different rules are not comparable.
 
 ## 3. Judge model is pinned; the paper's is not
 
