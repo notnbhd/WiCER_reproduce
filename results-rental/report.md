@@ -1,6 +1,6 @@
 # WiCER reproduction report
 
-Profile: `paper`  ·  judge: `anthropic/claude-haiku-5.5`  ·  compiler: `anthropic/claude-haiku-5.5`
+Profile: `paper`  ·  judge: `claude-sonnet-5`  ·  compiler: `claude-sonnet-5`
 
 Reader: `models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf`, n_ctx=98304, KV=q8_0/q8_0
 
