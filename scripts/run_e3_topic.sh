@@ -6,6 +6,18 @@
 #   bash scripts/run_e3_topic.sh local_economy
 #   DRY_RUN=1 bash scripts/run_e3_topic.sh local_economy    # cost preview only
 #
+# Compiler and judge default to anthropic/claude-haiku-5.5, at the profile's
+# effort=high with max_tokens raised to 64,000 so reasoning and the wiki are not
+# competing for one budget.  A full 17-topic E3 sweep is roughly $13-17 on Haiku
+# against $114 on Sonnet, which is what fits the key's credit -- but reasoning
+# is billed, so effort=high lands above a low-effort estimate.  The one-topic
+# pilot measures it before 17 topics commit the budget.  For Sonnet instead:
+#   WICER_COMPILER_MODEL=anthropic/claude-sonnet-5.5 \
+#   WICER_JUDGE_MODEL=anthropic/claude-sonnet-5.5 bash scripts/run_e3_topic.sh ...
+# DRY_RUN prices every model at $3/$15 (wicer_core/config.py price_in/out, no
+# override), so its preview overestimates Haiku by 30-40x.  Trust
+# measured_cost_usd in run_meta.json instead.
+#
 # Starts llama-server itself if nothing is already answering on the profile's
 # reader port, so rental_setup.sh -> this script is the whole chain. Set
 # WICER_START_SERVER=0 to require a reader you launched yourself.
@@ -29,8 +41,20 @@ set -a; [[ -f .env ]] && source .env; set +a
 
 export WICER_COMPILER_BACKEND="${WICER_COMPILER_BACKEND:-openrouter}"
 export WICER_JUDGE_BACKEND="${WICER_JUDGE_BACKEND:-openrouter}"
-export WICER_COMPILER_MODEL="${WICER_COMPILER_MODEL:-anthropic/claude-sonnet-5.5}"
-export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-sonnet-5.5}"
+export WICER_COMPILER_MODEL="${WICER_COMPILER_MODEL:-anthropic/claude-haiku-5.5}"
+export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-haiku-5.5}"
+
+# Reasoning bills as completion tokens and counts against max_tokens, so the
+# compiler's budget is split between thinking and the wiki with no separate
+# thinking allowance.  Haiku once spent an entire 4,000-token budget on
+# reasoning and returned no wiki -- the fix is room, not less thinking: a
+# paper-scale wiki runs ~16K tokens (paper 6.2) and Haiku's output ceiling is
+# 128K, so 64,000 keeps reasoning and output from competing.  Effort stays at
+# the profile's high.  Any other compiler keeps the profile's 32,000, because
+# silently re-tuning Sonnet would change its output without saying so.
+if [[ "$WICER_COMPILER_MODEL" == *haiku* ]]; then
+  export WICER_COMPILER_MAX_TOKENS="${WICER_COMPILER_MAX_TOKENS:-64000}"
+fi
 
 say() { printf '\n\033[1m== %s\033[0m  (%s)\n' "$*" "$(date +%H:%M:%S)"; }
 die() { printf '\033[31mFAILED: %s\033[0m\n' "$*" >&2; exit 1; }
@@ -111,6 +135,12 @@ Done. Check, in order:
                                Well below 100% means the compiler ignored the
                                preservation instruction; the probe means beside
                                it are then not evidence about WiCER.
+                               Haiku reads ~0% here because it paraphrases
+                               pinned facts rather than copying them, so on a
+                               Haiku run this column cannot tell "dropped" from
+                               "reworded".  Check whether the facts' distinctive
+                               tokens (dates, proper nouns) reached the wiki
+                               before concluding anything was lost.
   2. Recovery               -- Table 4 section. Paper reports 82% for
                                $TOPIC (blind 2.16 -> WiCER 3.24, FC 3.48).
   3. measured_cost_usd      -- results/*/run_meta.json, cost_source=openrouter.
