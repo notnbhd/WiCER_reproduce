@@ -1,0 +1,104 @@
+{
+  "topic": "local_economy",
+  "target_ratio": 0.5,
+  "target_words": 35568,
+  "source_words": 71136,
+  "actual_words": 10639,
+  "actual_ratio_words": 0.14955859199280253,
+  "source_tokens": 91626,
+  "actual_tokens": 19772,
+  "actual_ratio_tokens": 0.2157902778687272,
+  "n_preserved_facts": 13,
+  "preserved_words": 1157,
+  "n_preserved_found": 0,
+  "preservation_rate": 0.0,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 160027,
+  "output_tokens": 47386,
+  "cache_read_tokens": 156561,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.12802605,
+  "preserved_facts": [
+    {
+      "document_id": "dyjogdde",
+      "question_id": "dyjogdde-q1",
+      "text": "Maria Gonzales of Springfield opened her eco-friendly apparel store in November 2023. The source states: \"Opening her eco-friendly apparel store just in November 2023, she has already created multiple jobs and spurred economic activity in her community.\" Gonzales also remarks: \"Our goal isn't just profit; it's about fostering a community around sustainable living.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "hvkvferf",
+      "question_id": "hvkvferf-q1",
+      "text": "By late 2023, a trial conducted by a consortium of local businesses, led by efficiency expert Jordan Hughes, saw a 25% reduction in inventory losses due to the pinpoint accuracy and accountability the blockchain-based system offered for inventory management. The source attributes this result to the consortium, not to Greene's Grocers. Greene's Grocers, a mid-sized regional grocery chain, is described separately as having started to fully integrate blockchain into its supply chains as of October 23, 2023, with no inventory-loss figure given for it.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jscwzqyq",
+      "question_id": "jscwzqyq-q1",
+      "text": "As the autumn leaves started to turn their shades in September 2023, a less colorful but quite significant change was taking place in local economies around the globe. Small businesses were finding themselves in a David vs. Goliath battle, with the Goliaths being both larger corporates and rapidly expanding online retailers. The entry of big-box stores was compared to a category-five hurricane, and the rise of e-commerce was described as \"nothing short of explosive.\" Local businesses were outpaced in logistics, pricing, and sometimes quality by giants like Amazon and eBay.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jsmheyab",
+      "question_id": "jsmheyab-q1",
+      "text": "The source states: \"Many economists argue that there's a direct correlation between robust IP rights and economic growth.\" This sentence appears under \"The Nexus Between IP Rights and Economic Growth,\" and is the basis for the correct answer. The venture capital figure (\"up to three times more likely to attract venture capital and private equity investments\") is attributed to reports from the Global Innovation Policy Center issued in late September 2023, not to Prof. Johnathan Blake. Blake's October 5, 2023 Sydney Economic Forum remarks, from the Australian National University, concern balancing IP protection with competition and access to essential medicines",
+      "iteration": 0
+    },
+    {
+      "document_id": "ksbkcnjq",
+      "question_id": "ksbkcnjq-q1",
+      "text": "The source says EduTech Innovations \"worked on expanding their software offerings\" in the \"Navigating Growth: Scaling Up and Sustainability\" section. That passage is undated and sits alongside GreenGrowth diversifying crops. The only dated EduTech events are: began on September 10, 2023, in Maya Chen's home office; seed funding from angel investors \"By January 2024\"; an online testimonial campaign on March 12, 2024; over 30 new jobs \"by the end of June 2024\"; and a July 2024 government incentives package that encouraged further R&D investment. No date is attached to the software expansion itself, and the document does not state that",
+      "iteration": 0
+    },
+    {
+      "document_id": "ktfunmbt",
+      "question_id": "ktfunmbt-q1",
+      "text": "The section headed \"Green Taxation: Incentivizing Eco-Friendly Behavior\" defines the term: \"This involves revising tax systems to penalize activities that harm the environment while providing incentives for sustainable practices.\" It is described as \"Central to the reforms,\" and the document's first reform example is a carbon tax introduced on December 12, 2023, which puts a price on greenhouse gas emissions. Tax credits for renewable energy and energy efficiency businesses are also part of this section. The \"subsidy swap\" is a separate reform under \"Subsidy Swaps,\" announced February 15, 2024 by Energy Minister James Lee, which restructures subsidies rather than defining",
+      "iteration": 0
+    },
+    {
+      "document_id": "lhsgfaks",
+      "question_id": "lhsgfaks-q1",
+      "text": "The document's title is \"The Growing Importance of Soft Skills in the Workplace: A Quirky Reflection on Our Sarcasm-Deprived Economy.\" Its opening describes a workplace where \"empathy and interpersonal skills have become as archaic as the dodo bird,\" and where \"emotional intelligence reached an all-time low.\" Its sections depict the decline of water cooler banter, emoji-free emails, and leadership reduced to spreadsheets, and \"The Soft Skill Apocalypse\" describes a world where \"only the technical survive.\" The closing section frames the question as whether society will \"succumb to the cold embrace of a hard-skills-only world\" or be guided back by \"the",
+      "iteration": 0
+    },
+    {
+      "document_id": "ruidvmyo",
+      "question_id": "ruidvmyo-q1",
+      "text": "Facts from the source:\n\n- The \"Quinoa Quacks and Kale Kleptocrats\" section names \"John Everyman, CEO of Superfoods Inc.\" as the person making the claim.\n- He claims that consuming \"his brand's Quinoa\u2122 (with a trademark...)\" will help you \"find your third eye.\"\n- The claim is made in the context of the article's observations dated 2023 (the article notes \"as of September 1, 2023\" and \"the 2023 sundown\").\n- The same passage says \"And he's not the only one,\" then moves to Scarlett Spinach and the kale kleptocracy, so the quinoa claim belongs to Everyman alone.",
+      "iteration": 0
+    },
+    {
+      "document_id": "scxtvcty",
+      "question_id": "scxtvcty-q1",
+      "text": "The document's opening paragraph states that \"As we venture deeper into the fiscal year post-September 2023, the battlegrounds of commerce have witnessed profound struggle and resilience, particularly among small enterprises faced with the colossal presence of larger conglomerates and the pervading dominance of online retailers.\" The document's only named retail developments are unrelated: Stella's Threads opened in Des Moines on October 5, 2023; the National Retail Federation study was reported November 15, 2023; OrganoBites (Asheville, run by Jackson Greene since September 2023) faces HealthFirst's organic product expansion reported December 1, 2023; Ben Cho's podcast aired October 10, 2023; Marie's Pet",
+      "iteration": 0
+    },
+    {
+      "document_id": "tencsjbp",
+      "question_id": "tencsjbp-q1",
+      "text": "John \"Johnny\" Doe, a veteran freelancer, quipped, \"What's an office? That thing I turn my couch into every morning?\" The quote appears in the section titled \"The Freelance Frenzy,\" where freelancers are described as sharing a contempt for the draconian concept of 'office hours.' His statement reflects the nonchalance with which freelancers view traditional workspaces. The couch is the object he jokingly says he turns into an office each morning.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vbuhvisz",
+      "question_id": "vbuhvisz-q1",
+      "text": "The document states that the heart of the labor shortage problem is \"talent acquisition, especially of mid-career professionals who bring experience, stability, and innovation to the table.\" It also says small businesses can become \"magnets for midcareer professionals seeking to elevate their careers\" through staff training, mentorship, and clear advancement paths. The Conclusion says small businesses can \"attract and retain the mid-career professionals who are so vital to sustained growth and success.\" The document's section on compensation notes that \"today's mid-career professionals often seek more\" than traditional salaries and benefits. Soft skills are not identified as the shortage in the",
+      "iteration": 0
+    },
+    {
+      "document_id": "xtofwxch",
+      "question_id": "xtofwxch-q1",
+      "text": "Erica Johnson, a single mother of two, decided in October 2023 that \"her passion for homemade preserves could be the foundation of a thriving business.\" She transformed her small kitchen hobby into \"Preserve Passion,\" a brand now synonymous with quality and innovation in the local food industry. Her preserves include Spiced Pear and Raspberry-Rose, have conquered local farmers' markets, and have begun appearing in high-end specialty stores across the city. The source's section heading is \"The Catalyst of Craft: Erica Johnson's Homemade Empire.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ydrqpjep",
+      "question_id": "ydrqpjep-q1",
+      "text": "Local retailer chains such as Johnston & Co. \"experienced immediate consequences post-wage bump.\" Their HR manager, Alice Watkins, said: \"Our emphasis has moved towards part-time employment to maintain flexibility. There's also a greater focus on automation and selfservice technologies to counterbalance the surge in labor costs.\" The retail passage also quotes Michael Torres of 'Torres Appliances', a small business owner, who was contemplating reduced opening hours or staff downsizing. The wage increases apply to those implemented after September 1, 2023.",
+      "iteration": 0
+    }
+  ],
+  "level": "moderate"
+}

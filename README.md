@@ -20,6 +20,12 @@ E1 (Policygenius) is out of scope — see `DEVIATIONS.md`.
 The paper publishes only one of its prompts, never says which 80 documents it
 sampled, and runs on hardware where two of its conclusions do not transfer.
 
+A one-topic pilot has been run end to end: **`docs/pilot-2026-10-17.md`**. It
+reproduces the paper's Table 4 recovery on `local_economy` (108% against 82%)
+and finds that the gain does not survive on held-out questions (10%) -- the two
+question sets disagree by a factor of ten on the same run. It also establishes
+which 80 documents the paper used, which the first two attempts got wrong.
+
 ## Quick start (no GPU, no API key, no downloads)
 
 ```bash
