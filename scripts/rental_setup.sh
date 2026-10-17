@@ -12,9 +12,13 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 
-# V100 = Volta = compute capability 7.0.  Set CUDA_ARCH for a different card:
-#   Ampere A100 80, A10/3090 86, Ada L40S/4090 89, Hopper H100 90, Blackwell 120
-CUDA_ARCH="${CUDA_ARCH:-70}"
+# 3090 = Ampere = compute capability 8.6.  Set CUDA_ARCH for a different card:
+#   Volta V100 70, Ampere A100 80, Ada L40S/4090 89, Hopper H100 90, Blackwell 120
+# A mismatch is not subtle: the sm_86 SASS will not match the device and
+# compute_86 PTX only JITs forward to newer cards, never back, so a V100 dies on
+# the first kernel launch with "no kernel image is available for execution on
+# the device".  CMake takes a list if you want one binary for both: "70;86".
+CUDA_ARCH="${CUDA_ARCH:-86}"
 MODEL="models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf"
 N_CTX="${N_CTX:-98304}"
 
