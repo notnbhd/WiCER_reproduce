@@ -9,7 +9,7 @@ import pytest
 from wicer_core.corpus import load_topic
 from wicer_core.judge import Judge
 from wicer_core.reader import ReaderClient
-from wicer.compile import Compiler, PreservedFact, compile_topic
+from wicer.compile import CompileTruncated, Compiler, PreservedFact, compile_topic
 from wicer.diagnose import Diagnoser, _clip_words
 from wicer.loop import BLIND_WIKI, run_loop
 from wicer.probe import split_probes
@@ -259,8 +259,9 @@ def test_random_pin_control_uses_an_independent_blind_compilation(profile, topic
 class _StubOR:
     """Stands in for wicer_core.openrouter.OpenRouterClient."""
 
-    def __init__(self, text="# Wiki\n\nCompiled body."):
+    def __init__(self, text="# Wiki\n\nCompiled body.", finish_reason="stop"):
         self.text = text
+        self.finish_reason = finish_reason
         self.calls: list[dict] = []
 
     def chat(self, **kw):
@@ -274,6 +275,7 @@ class _StubOR:
             cost_usd=0.042,
             served_model="anthropic/claude-sonnet-4.5-served",
             cache_read_tokens=4000,
+            finish_reason=self.finish_reason,
         )
 
 
@@ -313,6 +315,44 @@ def test_openrouter_compiler_sends_the_instruction_as_the_user_turn(profile, top
     stub = _StubOR()
     _or_compiler(profile, stub).compile(_corpus(profile, topic).documents, 0.5)
     assert "words" in stub.calls[0]["user"]
+
+
+def test_compile_records_the_finish_reason(profile, topic):
+    """Provenance: a wiki's meta says how its generation ended."""
+    stub = _StubOR()
+    result = _or_compiler(profile, stub).compile(_corpus(profile, topic).documents, 0.5)
+    assert result.finish_reason == "stop"
+
+
+def test_a_wiki_truncated_at_max_tokens_is_rejected(profile, topic):
+    """Reasoning bills against max_tokens, so a wiki can be cut off mid-sentence
+    while still being non-empty.  Scoring one measures the cap, not the method:
+    every question past the cut has no context to answer from, which reads as
+    compilation losing knowledge.  Fail and name the cap instead."""
+    stub = _StubOR(finish_reason="length")
+    with pytest.raises(CompileTruncated) as excinfo:
+        _or_compiler(profile, stub).compile(_corpus(profile, topic).documents, 0.5)
+    assert "max_tokens" in str(excinfo.value)
+
+
+def test_the_anthropic_stop_reason_for_truncation_is_rejected_too(profile, topic):
+    """The two backends spell it differently -- 'length' and 'max_tokens'."""
+    stub = _StubOR(finish_reason="max_tokens")
+    with pytest.raises(CompileTruncated):
+        _or_compiler(profile, stub).compile(_corpus(profile, topic).documents, 0.5)
+
+
+def test_a_truncated_compile_still_records_what_it_spent(profile, topic):
+    """The call was made and billed before the truncation was found.  Dropping
+    its usage would under-report the run's cost by exactly the calls that
+    failed."""
+    stub = _StubOR(finish_reason="length")
+    compiler = _or_compiler(profile, stub)
+    with pytest.raises(CompileTruncated):
+        compiler.compile(_corpus(profile, topic).documents, 0.5)
+    assert compiler.n_calls == 1
+    assert compiler.output_tokens == 900
+    assert compiler.measured_cost_usd == pytest.approx(0.042)
 
 
 def test_openrouter_compiler_passes_the_configured_effort(profile, topic):

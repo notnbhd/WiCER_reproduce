@@ -49,6 +49,18 @@ SYSTEM_PREFIX = (
 )
 
 
+# OpenRouter says "length"; the Anthropic SDK says "max_tokens".
+_TRUNCATED = frozenset({"length", "max_tokens"})
+
+
+class CompileTruncated(RuntimeError):
+    """A compile hit max_tokens and returned a wiki missing its tail.
+
+    Distinct from an empty completion (which wicer_core.openrouter rejects at
+    the call): here there IS text, so nothing downstream would notice.
+    """
+
+
 @dataclass
 class PreservedFact:
     """One diagnosed fact block, pinned into subsequent compilations."""
@@ -97,6 +109,9 @@ class CompileResult:
     # None (not 0.0) when nothing was pinned -- blind compilation.
     n_preserved_found: int = 0
     preservation_rate: float | None = None
+    # How the generation ended.  Recorded so a wiki's meta says whether it
+    # stopped because it was finished or because it ran out of budget.
+    finish_reason: str = ""
     model: str = ""
     seed: int = 0
     input_tokens: int = 0
@@ -212,6 +227,25 @@ class Compiler:
         self.cache_read_tokens += cr
         self.output_tokens += out_tok
 
+        # A wiki cut off at the cap is not a smaller wiki -- it is a wiki
+        # missing its tail.  Every question whose answer lived past the cut
+        # then scores as compilation having lost that knowledge, so scoring a
+        # truncated wiki measures max_tokens and reports it as a property of
+        # WiCER.  Fail here, after the usage above is banked, so the call that
+        # was billed is still counted.
+        finish_reason = str(usage.get("finish_reason") or "")
+        if finish_reason in _TRUNCATED:
+            raise CompileTruncated(
+                f"{usage.get('model', self.cfg.model)} truncated the wiki "
+                f"(finish_reason={finish_reason!r}, "
+                f"max_tokens={self.cfg.max_tokens}, "
+                f"completion_tokens={out_tok}, "
+                f"words={actual_words} against a target of {target_words}). "
+                f"Reasoning bills as completion tokens and counts against "
+                f"max_tokens: raise it (WICER_COMPILER_MAX_TOKENS) or lower the "
+                f"effort (WICER_COMPILER_EFFORT, currently {self.cfg.effort!r})."
+            )
+
         return CompileResult(
             text=wiki,
             topic=topic,
@@ -231,6 +265,7 @@ class Compiler:
             preserved_words=sum(f.n_words for f in preserve),
             n_preserved_found=n_found,
             preservation_rate=(n_found / len(preserve)) if preserve else None,
+            finish_reason=finish_reason,
             model=usage.get("model", "fake"),
             seed=seed,
             input_tokens=in_tok + cw,
@@ -276,6 +311,7 @@ class Compiler:
             "cache_read_input_tokens": reply.cache_read_tokens,
             "cache_creation_input_tokens": 0,
             "cost_usd": reply.cost_usd,
+            "finish_reason": reply.finish_reason,
         }
 
     def _compile_anthropic(self, source_text: str, instruction: str) -> tuple[str, dict[str, Any]]:
@@ -305,6 +341,7 @@ class Compiler:
             "output_tokens": u.output_tokens,
             "cache_read_input_tokens": getattr(u, "cache_read_input_tokens", 0) or 0,
             "cache_creation_input_tokens": getattr(u, "cache_creation_input_tokens", 0) or 0,
+            "finish_reason": getattr(message, "stop_reason", "") or "",
         }
 
     def estimate_cost_usd(self, source_words: int, n_calls: int = 1) -> float:
