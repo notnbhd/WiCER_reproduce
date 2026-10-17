@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wicer-repro"
+version = "0.1.0"
+description = "Reproduction of WiCER: Wiki-memory Compile, Evaluate, Refine (arXiv:2605.07068v1)"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40",
+    "huggingface-hub>=0.25",
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "numpy>=1.26",
+    "requests>=2.32",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+rag = ["sentence-transformers>=3.0"]
+openrouter = ["openai>=1.40"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.setuptools]
+packages = ["wicer_core", "wicer", "benchmark", "rag_benchmark"]
