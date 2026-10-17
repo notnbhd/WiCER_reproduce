@@ -6,6 +6,10 @@
 #   bash scripts/run_e3_topic.sh local_economy
 #   DRY_RUN=1 bash scripts/run_e3_topic.sh local_economy    # cost preview only
 #
+# Starts llama-server itself if nothing is already answering on the profile's
+# reader port, so rental_setup.sh -> this script is the whole chain. Set
+# WICER_START_SERVER=0 to require a reader you launched yourself.
+#
 # Resumability is uneven, so re-running is NOT uniformly free:
 #   benchmark/run_benchmark.py  --resume skips answered questions (the long stages)
 #   wicer/loop.py               reuses an existing blind wiki; later iterations recompile
@@ -29,6 +33,7 @@ export WICER_COMPILER_MODEL="${WICER_COMPILER_MODEL:-anthropic/claude-sonnet-5.5
 export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-sonnet-5.5}"
 
 say() { printf '\n\033[1m== %s\033[0m  (%s)\n' "$*" "$(date +%H:%M:%S)"; }
+die() { printf '\033[31mFAILED: %s\033[0m\n' "$*" >&2; exit 1; }
 
 if [[ "${DRY_RUN:-0}" == "1" ]]; then
   $PY wicer/loop.py --profile "$PROFILE" --topic "$TOPIC" --dry-run
@@ -36,13 +41,38 @@ if [[ "${DRY_RUN:-0}" == "1" ]]; then
   exit 0
 fi
 
-say "reader health"
-$PY - <<'PYEOF'
-import os, sys
+say "reader"
+read -r READER_HOST READER_PORT <<<"$($PY - "$PROFILE" <<'PYEOF'
+import sys
+from wicer_core.config import get_profile
+r = get_profile(sys.argv[1]).reader
+print(r.host, r.port)
+PYEOF
+)"
+
+# Nothing else in the chain starts llama-server: rental_setup.sh boots one only
+# to verify the profile fits, then kills it. Start it here -- but never touch a
+# server that is already answering, because reloading 96K of context costs a
+# minute and a re-run for --resume should not pay that again.  The health probe
+# is time-bounded so a stale WICER_READER_HOST fails fast instead of hanging
+# before any work has started.
+if curl -fsS --connect-timeout 3 --max-time 5 "http://$READER_HOST:$READER_PORT/health" >/dev/null 2>&1; then
+  echo "reader already up at $READER_HOST:$READER_PORT -- leaving it alone"
+elif [[ "${WICER_START_SERVER:-1}" != "1" ]]; then
+  die "no reader at $READER_HOST:$READER_PORT and WICER_START_SERVER=0"
+elif [[ "$READER_HOST" == "127.0.0.1" || "$READER_HOST" == "localhost" || "$READER_HOST" == "0.0.0.0" ]]; then
+  say "starting llama-server (loading 96K of context takes a minute)"
+  benchmark/start_server.sh --profile "$PROFILE"
+else
+  die "reader host $READER_HOST is remote -- start llama-server on that box, or unset WICER_READER_HOST"
+fi
+
+# Confirm the server the client will actually talk to serves the right model.
+$PY - "$PROFILE" <<'PYEOF'
+import sys
 from wicer_core.config import get_profile
 from wicer_core.reader import ReaderClient
-p = get_profile(os.environ.get("WICER_PROFILE", "paper"))
-r = ReaderClient(p.reader)
+r = ReaderClient(get_profile(sys.argv[1]).reader)
 r.wait_for_health(timeout_s=120)
 print("reader OK:", r.props().get("model_path", "?"))
 PYEOF
@@ -86,6 +116,11 @@ Done. Check, in order:
   3. measured_cost_usd      -- results/*/run_meta.json, cost_source=openrouter.
   4. cache_read_tokens      -- nonzero means the 1h prompt cache is working.
 
-Copy results off the box before the rental ends:
-  tar czf wicer-results.tgz results/ && echo "scp it down"
+Pull the results down from your laptop -- start this BEFORE the run finishes,
+since a reclaimed rental takes the only copy with it:
+
+  scripts/pull_results.sh --watch [user@]host[:port]
+
+The reader is still running (pid in results/server/llama-server-$PROFILE.pid),
+so a --resume re-run skips the context reload. Kill it when you are done.
 NEXT

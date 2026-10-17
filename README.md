@@ -155,6 +155,40 @@ uv run python benchmark/report.py   --profile paper
 
 Drop `--topic` to sweep all 17. **Pilot on three topics first.**
 
+### 5. On a rented GPU
+
+The reader speaks HTTP and 96K of q8_0 KV needs ~12.5 GB, so the `paper`
+profile usually means a rented box. Three scripts cover it:
+
+```bash
+# on the box, once the repo is there
+bash scripts/rental_setup.sh                 # deps, CUDA llama.cpp, model, corpus,
+                                             # then verifies the profile actually fits
+tmux new -s wicer
+bash scripts/run_e3_topic.sh local_economy   # starts llama-server itself, then runs E3
+
+# from your laptop, while that runs
+scripts/pull_results.sh --watch [user@]host[:port]
+```
+
+`rental_setup.sh --verify` is worth running alone before anything expensive: it
+reports VRAM in use, where ~18.5 GB instead of ~12.5 GB means flash attention
+is off and fp16 KV is being allocated.
+
+Everything a run produces lives in `results/` plus the judge cache in
+`.cache/judge/`, both gitignored. `pull_results.sh` copies the remote `results/`
+tree into `./results-rental` (`--with-cache` takes the judge cache too, which
+makes a local re-judge free rather than ~$7). Pull *during* the run — a
+reclaimed rental takes the only copy of the one artifact you cannot regenerate
+without spending the API budget again.
+
+`benchmark/report.py` reads nothing but the JSONL on disk, so the tables
+regenerate anywhere, with no GPU, reader or API key:
+
+```bash
+WICER_RESULTS_DIR=results-rental uv run python benchmark/report.py --profile paper
+```
+
 ### Cost and time
 
 Every stage that spends money takes `--dry-run`:

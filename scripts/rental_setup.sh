@@ -63,7 +63,7 @@ nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader
 say "Build dependencies"
 if command -v apt-get >/dev/null; then
   apt-get update -qq
-  apt-get install -y -qq cmake build-essential git curl libcurl4-openssl-dev tmux >/dev/null
+  apt-get install -y -qq cmake build-essential git curl libcurl4-openssl-dev tmux rsync >/dev/null
 fi
 
 say "llama.cpp (CUDA arch sm_${CUDA_ARCH})"
@@ -104,5 +104,10 @@ Setup complete. Next, inside tmux so an SSH drop does not kill the run:
 
   tmux new -s wicer
   bash scripts/run_e3_topic.sh local_economy
+
+It starts llama-server itself, so there is no separate step for that. From your
+laptop, pull the results down while it runs:
+
+  scripts/pull_results.sh --watch [user@]host[:port]
 
 NEXT
