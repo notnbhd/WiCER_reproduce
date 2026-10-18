@@ -99,6 +99,13 @@ llama-server --version 2>&1 | head -2 || true
 say "Python environment"
 command -v uv >/dev/null || curl -LsSf https://astral.sh/uv/install.sh | sh
 export PATH="$HOME/.local/bin:$PATH"
+# That export dies with this process. Persist it too, so a later tmux window or
+# ssh session -- which is where the run is actually launched from -- can still
+# find uv.
+if [[ -w "$HOME/.bashrc" || ! -e "$HOME/.bashrc" ]] &&
+   ! grep -qs '\.local/bin' "$HOME/.bashrc" 2>/dev/null; then
+  echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$HOME/.bashrc"
+fi
 uv venv --python 3.12
 uv pip install -e '.[openrouter,dev]' -q
 

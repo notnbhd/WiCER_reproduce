@@ -34,6 +34,16 @@ cd "$REPO_ROOT"
 
 TOPIC="${1:?usage: run_e3_topic.sh <topic>}"
 PROFILE="${WICER_PROFILE:-paper}"
+# uv installs to ~/.local/bin, and rental_setup.sh only puts that on PATH
+# inside its own process -- a later tmux or ssh session starts without it and
+# every `uv run` here dies as "command not found".  Same shape as the CUDA
+# toolkit problem one step earlier in the chain: the tool is installed, the
+# path is not inherited.
+if ! command -v uv >/dev/null && [[ -x "$HOME/.local/bin/uv" ]]; then
+  export PATH="$HOME/.local/bin:$PATH"
+fi
+command -v uv >/dev/null || { echo "FAILED: uv not on PATH; run scripts/rental_setup.sh first" >&2; exit 1; }
+
 PY="uv run python"
 
 set -a; [[ -f .env ]] && source .env; set +a
@@ -73,6 +83,12 @@ r = get_profile(sys.argv[1]).reader
 print(r.host, r.port)
 PYEOF
 )"
+
+# `read` swallows the exit status of the substitution above, so a profile that
+# fails to import leaves both of these empty and the dispatch below blames a
+# "remote" reader host that is simply the empty string.  Fail on the real cause.
+[[ -n "$READER_HOST" && -n "$READER_PORT" ]] ||
+  die "could not read reader host/port from profile '$PROFILE' -- the probe above failed"
 
 # Nothing else in the chain starts llama-server: rental_setup.sh boots one only
 # to verify the profile fits, then kills it. Start it here -- but never touch a
