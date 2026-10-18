@@ -70,8 +70,24 @@ if command -v apt-get >/dev/null; then
   apt-get install -y -qq cmake build-essential git curl libcurl4-openssl-dev tmux rsync >/dev/null
 fi
 
+# Docker ENV is not inherited by sshd sessions, so /usr/local/cuda/bin is off
+# PATH even on a -devel image that does have the toolkit.  nvcc then looks
+# missing and the CUDA build fails at configure time on a box that is in fact
+# fine -- put the path back before cmake goes looking.  A no-op when nvcc is
+# already reachable or when there is no CUDA directory to find.
+if ! command -v nvcc >/dev/null; then
+  for d in /usr/local/cuda/bin /usr/local/cuda-*/bin /opt/cuda/bin; do
+    if [[ -x "$d/nvcc" ]]; then
+      export PATH="$d:$PATH"
+      echo "added $d to PATH (sshd does not inherit the image's ENV)"
+      break
+    fi
+  done
+fi
+
 say "llama.cpp (CUDA arch sm_${CUDA_ARCH})"
 if ! command -v llama-server >/dev/null; then
+  command -v nvcc >/dev/null || die "nvcc not found: use a CUDA -devel image (nvidia/cuda:12.4.1-devel-ubuntu22.04); the runtime and PyTorch images ship no toolkit"
   [[ -d llama.cpp ]] || git clone --depth 1 https://github.com/ggml-org/llama.cpp
   cmake -S llama.cpp -B llama.cpp/build \
     -DGGML_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES="$CUDA_ARCH" -DCMAKE_BUILD_TYPE=Release
