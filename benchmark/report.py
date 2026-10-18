@@ -182,12 +182,108 @@ def _wicer_best(profile: Profile, topic: str, results: Sequence[CondResult]) -> 
     return max(cands, key=lambda r: r.scores.mean)
 
 
+def _arm_blind_and_best(ledger: dict[str, Any]) -> tuple[float, float]:
+    """An ablation arm's own blind score and its best-of-iterations score.
+
+    Each arm compiles its own blind wiki, so a gain is only meaningful against
+    that arm's blind.  The ablation row used to print the WiCER arm's blind
+    beside a delta computed from the random-pin arm's, which made the published
+    arithmetic ``3.16 | 3.20 | +0.00`` -- three numbers that cannot all be true
+    at once.
+    """
+    iters = ledger["iterations"]
+    return iters[0]["probe_mean"], max(r["probe_mean"] for r in iters)
+
+
+def _best_pinned(ledger: dict[str, Any]) -> float | None:
+    """Best score among the iterations that actually pinned something.
+
+    ``max`` over every iteration includes iteration 0, the unpinned blind, so an
+    arm whose pinning only ever made things worse reports its own baseline and a
+    delta of exactly zero -- reading as "pinning did nothing" when the truth is
+    "pinning hurt, and selection discarded it".  Identifies pinned iterations by
+    ``n_pinned_facts`` rather than by index, so it holds if the loop ever stops
+    numbering from zero.  Returns ``None`` when no iteration pinned anything.
+    """
+    pinned = [r["probe_mean"] for r in ledger["iterations"] if r.get("n_pinned_facts")]
+    return max(pinned) if pinned else None
+
+
+def _read_json(path: Path) -> dict[str, Any] | None:
+    try:
+        return json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def _distinct(values: Sequence[str | None]) -> list[str]:
+    out: list[str] = []
+    for v in values:
+        if v and v not in out:
+            out.append(v)
+    return out
+
+
+def _reader_desc(meta: dict[str, Any]) -> str | None:
+    r = meta.get("reader") or {}
+    if not r.get("model_path"):
+        return None
+    return (f"`{r['model_path']}`, n_ctx={r.get('n_ctx')}, "
+            f"KV={r.get('cache_type_k')}/{r.get('cache_type_v')}")
+
+
+def header_provenance(profile: Profile, topics: Sequence[str]) -> list[str]:
+    """Judge, compiler and reader as the run on disk recorded them.
+
+    These lines used to print ``profile.judge.model`` and friends -- the config
+    as it stands *now*, not what ran.  Regenerating a report without the run's
+    ``WICER_*`` overrides exported therefore relabelled a Haiku run as Sonnet,
+    the config default, which matters because the judge's identity is what the
+    bias correction hangs on.  So read it back off disk: the judge from each
+    condition's ``judge_usage.json`` (the client that actually scored), the
+    compiler and reader from the recorded metadata.  Distinct values are listed
+    rather than collapsed -- a results tree built by two different models is a
+    fact worth seeing, not something to average into one label.
+    """
+    metas, judges = [], []
+    for topic in topics:
+        for name in ("wicer", "random_pin"):
+            if m := _read_json(resolve(profile.results_dir) / topic / f"{name}_run_meta.json"):
+                metas.append(m)
+        for condition in CONDITIONS:
+            d = run_dir(profile, topic, condition)
+            if m := _read_json(d / "run_meta.json"):
+                metas.append(m)
+            if u := _read_json(d / "judge_usage.json"):
+                judges.append(u.get("judge_model"))
+
+    judge = _distinct(judges + [m.get("judge_model_resolved") for m in metas])
+    compiler = _distinct([m.get("compiler_model_resolved") for m in metas])
+    reader = _distinct([_reader_desc(m) for m in metas])
+
+    # Nothing on disk means nothing has run yet, so the live config is all there
+    # is -- say so, rather than presenting it as a record of a run.
+    suffix = "" if metas or judges else "  (config default -- no run metadata on disk)"
+    if not judge:
+        judge = [profile.judge.model]
+    if not compiler:
+        compiler = [profile.compiler.model]
+    if not reader:
+        reader = [
+            (f"`{profile.reader.model_path}`, n_ctx={profile.reader.n_ctx}, "
+             f"KV={profile.reader.cache_type_k}/{profile.reader.cache_type_v}")
+        ]
+
+    return [
+        (f"Profile: `{profile.name}`  ·  judge: `{'`, `'.join(judge)}`  ·  "
+         f"compiler: `{'`, `'.join(compiler)}`{suffix}\n"),
+        f"Reader: {'; '.join(reader)}\n",
+    ]
+
+
 def render(profile: Profile, results: list[CondResult], topics: Sequence[str]) -> str:
     parts: list[str] = ["# WiCER reproduction report\n"]
-    parts.append(f"Profile: `{profile.name}`  ·  judge: `{profile.judge.model}`  ·  "
-                 f"compiler: `{profile.compiler.model}`\n")
-    parts.append(f"Reader: `{profile.reader.model_path}`, n_ctx={profile.reader.n_ctx}, "
-                 f"KV={profile.reader.cache_type_k}/{profile.reader.cache_type_v}\n")
+    parts.extend(header_provenance(profile, topics))
 
     # -- per topic x condition
     parts.append("\n## Per topic and condition\n")
@@ -350,33 +446,76 @@ def render(profile: Profile, results: list[CondResult], topics: Sequence[str]) -
 
     # -- Table 5: ablation, on the probe set
     parts.append("\n## Ablation: diagnosed vs. random pinning, probe set (paper Table 5)\n")
-    rows, d_rand, d_wicer = [], [], []
+    rows: list[list[Any]] = []
+    d_wicer, d_wicer_pinned, d_rand, d_rand_pinned = [], [], [], []
     for topic in topics:
         led = ledgers.get(topic)
         rnd_led = load_ledger(profile, topic, "random_pin")
         if not led or not led.get("iterations"):
             continue
-        b = led["iterations"][0]["probe_mean"]
-        best_w = max(r["probe_mean"] for r in led["iterations"])
-        best_r = (
-            max(r["probe_mean"] for r in rnd_led["iterations"])
-            if rnd_led and rnd_led.get("iterations") else None
-        )
-        rows.append([topic, fmt(b), fmt(best_r) if best_r is not None else "--", fmt(best_w)])
-        d_wicer.append(best_w - b)
-        if best_r is not None and rnd_led["iterations"]:
-            d_rand.append(best_r - rnd_led["iterations"][0]["probe_mean"])
+        b_w, best_w = _arm_blind_and_best(led)
+        d_wicer.append(best_w - b_w)
+        row = [topic, fmt(b_w), f"{fmt(best_w)} ({best_w - b_w:+.2f})"]
+        pinned_w = _best_pinned(led)
+        if pinned_w is None:
+            row.append("--")
+        else:
+            d_wicer_pinned.append(pinned_w - b_w)
+            row.append(f"{fmt(pinned_w)} ({pinned_w - b_w:+.2f})")
+
+        if rnd_led and rnd_led.get("iterations"):
+            b_r, best_r = _arm_blind_and_best(rnd_led)
+            d_rand.append(best_r - b_r)
+            row += [fmt(b_r), f"{fmt(best_r)} ({best_r - b_r:+.2f})"]
+            pinned_r = _best_pinned(rnd_led)
+            if pinned_r is None:
+                row.append("--")
+            else:
+                d_rand_pinned.append(pinned_r - b_r)
+                row.append(f"{fmt(pinned_r)} ({pinned_r - b_r:+.2f})")
+        else:
+            row += ["--", "--", "--"]
+        rows.append(row)
+
     if rows:
         rows.append([
-            "**Mean delta vs. blind**", "--",
-            f"{mean(d_rand):+.2f}" if d_rand else "--",
+            "**Mean delta vs. own blind**", "--",
             f"{mean(d_wicer):+.2f}" if d_wicer else "--",
+            f"{mean(d_wicer_pinned):+.2f}" if d_wicer_pinned else "--", "--",
+            f"{mean(d_rand):+.2f}" if d_rand else "--",
+            f"{mean(d_rand_pinned):+.2f}" if d_rand_pinned else "--",
         ])
-    parts.append(md_table(["Topic", "Blind", "Random Pin", "WiCER"], rows))
+    parts.append(md_table(
+        ["Topic", "Blind (WiCER arm)", "WiCER (best-of)", "WiCER (pinned only)",
+         "Blind (abl. arm)", "Random pin (best-of)", "Random pin (pinned only)"],
+        rows,
+    ))
     parts.append(
         "\n> This is the load-bearing comparison (paper Section 7.5): it is the "
         "only thing separating 'diagnosis works' from 'pinning anything works'. "
         "The paper measures +0.16 for random pinning against +0.95 for WiCER.\n"
+    )
+    parts.append(
+        "\n> Each arm compiles its own blind wiki -- paper Section 7.5, 'each topic "
+        "uses an independent blind compilation; blind baselines differ slightly "
+        "from Table 4 due to LLM compiler non-determinism' -- so every delta here "
+        "is measured against the blind in its own column, never the other arm's. "
+        "'Best-of' follows the paper's 'best iteration per topic' and so includes "
+        "iteration 0, the unpinned blind: an arm whose pinning only ever hurt "
+        "therefore reports its own baseline and a delta of exactly +0.00. That is "
+        "not a null effect, it is a selection artifact, and it is visible in the "
+        "paper too -- seven of its seventeen topics print Random Pin identical to "
+        "Blind. The pinned-only columns drop that selection and report what "
+        "pinning actually did, for both arms alike -- an ablation that measured "
+        "its two arms differently is what produced the incoherent row this "
+        "replaced.\n"
+    )
+    parts.append(
+        "\n> One construction difference from the paper: its Table 5 compares the "
+        "Table 4 WiCER score against the ablation arm's independent blind, mixing "
+        "two compilations in one delta. Here each arm is measured against its own "
+        "blind, so our WiCER delta and the paper's +0.95 do not share a "
+        "denominator even when the method agrees.\n"
     )
 
     # -- Table 13: latency

@@ -239,3 +239,39 @@ RAG gap as 0.18 points (FC 3.47, RAG 3.64), so a condition-dependent bias of
 and tolerate far more. A group whose scores carry no variance is reported
 `n/a` rather than `FAIL` -- an undefined correlation is a property of the
 sample, not the judge.
+
+## 13. Ablation deltas are measured against each arm's own blind
+
+Paper Section 7.5 states that the random-pinning control uses "an independent
+blind compilation" per topic, and that "blind baselines differ slightly from
+Table 4 due to LLM compiler non-determinism". Its Table 5 therefore carries one
+Blind column -- the ablation arm's -- and compares *Table 4's* WiCER score
+against it. That mixes two compilations inside one delta.
+
+This repo measures each arm against its own blind and prints both, so the row
+is internally consistent. The cost is that our WiCER delta and the paper's
++0.95 do not share a denominator even when the method agrees; `report.py` says
+so under the table. The random-pinning delta is unaffected, because the paper
+already computes that one within the ablation arm.
+
+**Best-of selection is reported alongside what pinning did.** Table 5's caption
+is "best iteration per topic", and `max` over iterations includes iteration 0 --
+the unpinned blind. An arm whose pinning only ever made things worse therefore
+selects its own baseline and reports a delta of exactly +0.00, which reads as
+"pinning did nothing" when the truth is "pinning hurt, and selection discarded
+the evidence". This is visible in the paper: seven of its seventeen topics print
+Random Pin identical to Blind, so its +0.16 for random pinning is biased upward
+by the same mechanism.
+
+The best-of columns stay, because dropping them would make our numbers
+incomparable to the published ones. Beside each sits a **pinned only** column
+over the iterations that actually pinned something (identified by
+`n_pinned_facts`, not by index). Both arms get the column: the artifact is
+symmetric, it can hide a diagnosed-pinning regression exactly as well as a
+random one -- the paper's `local_education`, at 0% recovery, is such a topic --
+and an ablation that measures its two arms by different rules is what produced
+the incoherent `3.16 | 3.20 | +0.00` row this replaced.
+
+On `local_economy` the discarded number is the whole point: random pinning
+reports +0.00 best-of and **-0.14** pinned-only. It did not fail to help, it
+hurt, which strengthens the ablation rather than weakening it.

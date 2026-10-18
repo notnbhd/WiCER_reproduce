@@ -1,6 +1,6 @@
 # WiCER reproduction report
 
-Profile: `paper`  ·  judge: `claude-sonnet-5`  ·  compiler: `claude-sonnet-5`
+Profile: `paper`  ·  judge: `anthropic/claude-haiku-5.5`  ·  compiler: `anthropic/claude-haiku-5.5`
 
 Reader: `models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf`, n_ctx=98304, KV=q8_0/q8_0
 
@@ -56,13 +56,19 @@ Reader: `models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf`, n_ctx=98304, KV=q8_0/q8
 
 ## Ablation: diagnosed vs. random pinning, probe set (paper Table 5)
 
-| Topic | Blind | Random Pin | WiCER |
-|---|---|---|---|
-| local_economy | 3.16 | 3.20 | 3.66 |
-| **Mean delta vs. blind** | -- | +0.00 | +0.50 |
+| Topic | Blind (WiCER arm) | WiCER (best-of) | WiCER (pinned only) | Blind (abl. arm) | Random pin (best-of) | Random pin (pinned only) |
+|---|---|---|---|---|---|---|
+| local_economy | 3.16 | 3.66 (+0.50) | 3.66 (+0.50) | 3.20 | 3.20 (+0.00) | 3.06 (-0.14) |
+| **Mean delta vs. own blind** | -- | +0.50 | +0.50 | -- | +0.00 | -0.14 |
 
 
 > This is the load-bearing comparison (paper Section 7.5): it is the only thing separating 'diagnosis works' from 'pinning anything works'. The paper measures +0.16 for random pinning against +0.95 for WiCER.
+
+
+> Each arm compiles its own blind wiki -- paper Section 7.5, 'each topic uses an independent blind compilation; blind baselines differ slightly from Table 4 due to LLM compiler non-determinism' -- so every delta here is measured against the blind in its own column, never the other arm's. 'Best-of' follows the paper's 'best iteration per topic' and so includes iteration 0, the unpinned blind: an arm whose pinning only ever hurt therefore reports its own baseline and a delta of exactly +0.00. That is not a null effect, it is a selection artifact, and it is visible in the paper too -- seven of its seventeen topics print Random Pin identical to Blind. The pinned-only columns drop that selection and report what pinning actually did, for both arms alike -- an ablation that measured its two arms differently is what produced the incoherent row this replaced.
+
+
+> One construction difference from the paper: its Table 5 compares the Table 4 WiCER score against the ablation arm's independent blind, mixing two compilations in one delta. Here each arm is measured against its own blind, so our WiCER delta and the paper's +0.95 do not share a denominator even when the method agrees.
 
 
 ## Latency by condition (paper Table 13)
