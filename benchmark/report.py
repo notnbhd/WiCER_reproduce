@@ -26,7 +26,7 @@ from typing import Any, Callable, Sequence
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from benchmark.run_benchmark import build_wiki_context
-from wicer.loop import BLIND_CONDITION, BLIND_WIKI, best_pinned_iteration
+from wicer.loop import best_pinned_iteration
 from wicer.probe import probe_paths
 from wicer_core.config import TOPICS, Profile, add_profile_arg, get_profile, resolve
 from wicer_core.corpus import is_not_in_document
@@ -252,23 +252,28 @@ def _by(results: Sequence[CondResult], condition: str) -> dict[str, CondResult]:
     return {r.topic: r for r in results if r.condition == condition and r.scores.n}
 
 
-def _best_condition(ledger: dict[str, Any] | None) -> str | None:
-    """The condition ``loop.py --eval-full`` scored the loop's best wiki under.
+def _scored(results: Sequence[CondResult], topic: str, wiki: str | None) -> CondResult | None:
+    """The condition that scored ``wiki`` on the full set, by what it served.
 
-    The loop picks its best wiki on the probes.  Picking the best of several
-    full-set conditions instead would select on the held-out questions.
+    Read from each condition's context rather than from naming conventions: the
+    pilots' ``random_pin`` condition served the random arm's blind.
     """
-    name = (ledger or {}).get("best_wiki_name")
-    if not name:
+    if wiki is None:
         return None
-    return BLIND_CONDITION if name == BLIND_WIKI else name
-
-
-def _result(results: Sequence[CondResult], topic: str, condition: str | None) -> CondResult | None:
     return next(
-        (r for r in results if r.topic == topic and r.condition == condition and r.scores.n),
+        (r for r in results if r.topic == topic and r.served_wiki == wiki and r.scores.n),
         None,
     )
+
+
+def _held_out(
+    profile: Profile, results: Sequence[CondResult], topic: str
+) -> tuple[frozenset[str], frozenset[str]]:
+    """(answerable, unanswerable) questions the loop never saw on a topic."""
+    rs = [r for r in results if r.topic == topic]
+    held = frozenset().union(*(r.by_question for r in rs)) - _probe_ids(profile, topic)
+    unans = frozenset().union(*(r.unanswerable for r in rs))
+    return held - unans, held & unans
 
 
 def _arm_blind_and_best(ledger: dict[str, Any]) -> tuple[float, float]:
@@ -450,7 +455,6 @@ def render(profile: Profile, results: list[CondResult], topics: Sequence[str]) -
     # held-out numbers, on questions the loop never saw, follow in the next
     # section; they are the honest generalisation figure and can disagree.
     parts.append("\n## WiCER across topics, probe set (paper Table 4)\n")
-    blind = _by(results, "wiki_moderate")
     ledgers = {t: load_ledger(profile, t, "wicer") for t in topics}
     rows, rec_vals, best_means, best_s1, blind_means, fc_probe_means = [], [], [], [], [], []
     for topic in topics:
@@ -531,15 +535,16 @@ def render(profile: Profile, results: list[CondResult], topics: Sequence[str]) -
     rows = []
     for topic in topics:
         led = ledgers.get(topic)
-        b = blind.get(topic)
-        best = _result(results, topic, _best_condition(led))
+        if not led or not led.get("iterations"):
+            continue
+        pinned = best_pinned_iteration(led["iterations"])
+        b = _scored(results, topic, led["iterations"][0]["wiki_name"])
+        best = _scored(results, topic, pinned["wiki_name"] if pinned else None)
         if not b and not best:
             continue
         f = fc.get(topic)
-        arms = [r for r in (b, best, f) if r]
-        held = frozenset().union(*(r.by_question for r in arms)) - _probe_ids(profile, topic)
-        unans = frozenset().union(*(r.unanswerable for r in arms))
-        for label, subset in [("answerable", held - unans), ("unanswerable", held & unans)]:
+        answerable, unanswerable = _held_out(profile, results, topic)
+        for label, subset in [("answerable", answerable), ("unanswerable", unanswerable)]:
             sb, sw, sf = (_stats(r, subset.__contains__) if r else None for r in (b, best, f))
             n = (sb or sw).n
             if not n:
@@ -552,10 +557,10 @@ def render(profile: Profile, results: list[CondResult], topics: Sequence[str]) -
                 topic, label, n, _mean_and_s1(sb), _mean_and_s1(sw),
                 fmt(sf.mean) if sf and sf.n else "--",
                 f"{rec:.0f}%" if rec is not None else "--",
-                led.get("best_iteration", "--") if led else "--",
+                pinned["iteration"] if pinned else "--",
             ])
     parts.append(md_table(
-        ["Topic", "Questions", "n", "Blind (mean / score-1)", "Best WiCER", "FC raw",
+        ["Topic", "Questions", "n", "Blind (mean / score-1)", "Best pinned WiCER", "FC raw",
          "Recovery", "Iter"],
         rows,
     ))

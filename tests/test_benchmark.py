@@ -339,20 +339,52 @@ def _write_condition(profile, topic, condition, scores, context=None):
         (d / "context.txt").write_text(context)
 
 
-def _synthetic_wicer_topic(profile, topic):
+def _write_wiki(profile, topic, name, n_pinned):
+    """A compiled wiki on disk; returns the context a condition serving it holds."""
+    from wicer_core.records import wiki_paths
+
+    md, meta = wiki_paths(profile, topic, name)
+    md.parent.mkdir(parents=True, exist_ok=True)
+    md.write_text(f"# {name}\n\nCompiled body.")
+    meta.write_text(json.dumps({"n_preserved_facts": n_pinned}))
+    return build_wiki_context(md.read_text())
+
+
+def _arm_ledger(topic, iterations):
+    """A loop ledger from (wiki_name, probe_mean, n_pinned_facts) per iteration."""
+    return {"topic": topic, "iterations": [
+        {"iteration": i, "wiki_name": wiki, "probe_mean": m, "probe_score_1_pct": 10.0,
+         "n_failures": 1, "n_pinned_facts": n_pinned, "pinned_words": 100 * n_pinned,
+         "actual_ratio_words": 0.15}
+        for i, (wiki, m, n_pinned) in enumerate(iterations)
+    ]}
+
+
+def _write_probes(profile, topic, qids):
     from wicer.probe import probe_paths
+
+    path = probe_paths(profile, topic)[0]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps([
+        {"question_id": q, "document_id": f"doc-{q}", "question": f"{q}?",
+         "answer": _GOLD[q], "long_answer": ""} for q in qids
+    ]))
+
+
+def _synthetic_wicer_topic(profile, topic):
     from wicer_core.records import ledger_path
 
+    served = {
+        "wiki_moderate": _write_wiki(profile, topic, "blind_moderate", 0),
+        "wicer_iter1": _write_wiki(profile, topic, "wicer_iter1", 2),
+    }
     for condition, scores in _SCORES.items():
-        _write_condition(profile, topic, condition, scores)
-    probe_paths(profile, topic)[0].write_text(json.dumps([
-        {"question_id": q, "document_id": f"doc-{q}", "question": f"{q}?",
-         "answer": _GOLD[q], "long_answer": ""} for q in ("p1", "p2")
-    ]))
+        _write_condition(profile, topic, condition, scores, context=served.get(condition))
+    _write_probes(profile, topic, ("p1", "p2"))
     # The loop's own probe runs: blind 3.0, then 4.0 once two facts were pinned.
-    led = _ledger(topic, "wicer", [(3.0, 0), (4.0, 2)])
-    led["best_wiki_name"] = "wicer_iter1"
-    ledger_path(profile, topic, "wicer").write_text(json.dumps(led))
+    ledger_path(profile, topic, "wicer").write_text(json.dumps(
+        _arm_ledger(topic, [("blind_moderate", 3.0, 0), ("wicer_iter1", 4.0, 2)])
+    ))
 
 
 def _section(text: str, heading: str) -> str:
@@ -390,12 +422,12 @@ def test_held_out_excludes_the_probes_and_scores_unanswerable_questions_apart(pr
     ans = rows["answerable"]
     assert ans["n"] == "2"                               # h1 and h2, never p1 or p2
     assert ans["Blind (mean / score-1)"] == "2.00 / 0.0%"
-    assert ans["Best WiCER"] == "1.50 / 50.0%"
+    assert ans["Best pinned WiCER"] == "1.50 / 50.0%"
     assert ans["FC raw"] == "4.00"
     assert ans["Recovery"] == "-25%"                     # (1.5 - 2.0) / (4.0 - 2.0)
 
     un = rows["unanswerable"]
-    assert (un["n"], un["Blind (mean / score-1)"], un["Best WiCER"], un["FC raw"]) == (
+    assert (un["n"], un["Blind (mean / score-1)"], un["Best pinned WiCER"], un["FC raw"]) == (
         "2", "3.00 / 0.0%", "2.50 / 0.0%", "1.50")
     # The wiki beats FC here by abstaining more; there is no lost quality to recover.
     assert un["Recovery"] == "--"
@@ -404,12 +436,29 @@ def test_held_out_excludes_the_probes_and_scores_unanswerable_questions_apart(pr
 def test_held_out_scores_the_wiki_the_loop_chose_not_the_best_held_out_one(profile, topic):
     """Choosing among full-set conditions by their score would select on the test set."""
     _synthetic_wicer_topic(profile, topic)
-    # A later iteration that does far better on held-out questions; the loop,
-    # judging on its probes, still chose wicer_iter1.
-    _write_condition(profile, topic, "wicer_iter2", dict(zip(_GOLD, (1, 1, 5, 5, 5, 5))))
+    # A wiki that does far better on held-out questions; the loop, judging on
+    # its probes, never chose it.
+    _write_condition(profile, topic, "wicer_iter2", dict(zip(_GOLD, (1, 1, 5, 5, 5, 5))),
+                     context=_write_wiki(profile, topic, "wicer_iter2", 3))
     text = render(profile, collect(profile, [topic], [*_SCORES, "wicer_iter2"]), [topic])
     rows = {r["Questions"]: r for r in _table(_section(text, "## WiCER held-out"))}
-    assert rows["answerable"]["Best WiCER"] == "1.50 / 50.0%"    # wicer_iter1, not 5.00
+    assert rows["answerable"]["Best pinned WiCER"] == "1.50 / 50.0%"    # wicer_iter1, not 5.00
+
+
+def test_held_out_compares_the_best_pinned_wiki_even_when_best_of_is_the_blind(profile, topic):
+    """Best-of includes the unpinned blind; scoring it would print a WiCER effect
+    of exactly zero on held-out questions, whatever pinning did."""
+    from wicer_core.records import ledger_path
+
+    _synthetic_wicer_topic(profile, topic)
+    # The blind beat the pinned wiki on the probes, so best-of is the blind.
+    ledger_path(profile, topic, "wicer").write_text(json.dumps(
+        _arm_ledger(topic, [("blind_moderate", 4.5, 0), ("wicer_iter1", 4.0, 2)])
+    ))
+    text = render(profile, collect(profile, [topic], list(_SCORES)), [topic])
+    row = {r["Questions"]: r for r in _table(_section(text, "## WiCER held-out"))}["answerable"]
+    assert row["Best pinned WiCER"] == "1.50 / 50.0%"     # wicer_iter1, not the blind's 2.00
+    assert row["Iter"] == "1"
 
 
 def test_compilation_table_also_reports_the_gap_on_answerable_questions(profile, topic):
