@@ -27,7 +27,10 @@ The paper uses "17 topic domains with 80 documents and 400 QA pairs per topic"
 Our rule (`wicer_core/corpus.py`), recorded in every manifest:
 
 1. one split, `repliqa_0`;
-2. drop rows whose answer is marked unanswerable (in practice: none);
+2. drop rows whose answer is one of the markers in `UNANSWERABLE_MARKERS` (in
+   practice: none -- RepLiQA's unanswerable questions carry the gold "The
+   answer is not found in the document.", which is not one of them, so they
+   stay; see section 14);
 3. the **80 shortest documents by word count**, ties broken on `document_id`;
 4. first 5 `question_id` values per document.
 
@@ -155,12 +158,16 @@ components:
   right kind of answer with the wrong number, and the random-pinning control
   scores as well as diagnosis.
 
-## 10. Single seed by default
+## 10. One compilation per arm
 
-The paper reports no confidence intervals and its own blind baselines differ
-between Tables 4 and 5 through compiler non-determinism. `wicer/compile.py` and
-`wicer/loop.py` take `--seed`; spec.md Section 9 calls running >=3 compiler
-seeds the cheapest available improvement over the original. The default is one.
+The paper reports no confidence intervals, and its own blind baselines differ
+between Tables 4 and 5 through compiler non-determinism. This repo also
+compiles each arm once. Every run still compiles the blind prompt twice -- the
+WiCER arm's W_0 and the random arm's own blind -- so the ablation table's two
+blind columns show how far two compilations of the same prompt land apart: in
+the two pilots, 0.04 and 0.22 on the probes. A per-topic effect smaller than
+that gap is not distinguishable from compiler noise. `--seed` reaches only the
+offline fake compiler; the API takes no seed.
 
 ## 11. The OpenRouter backend is not the Anthropic path
 
@@ -272,6 +279,28 @@ random one -- the paper's `local_education`, at 0% recovery, is such a topic --
 and an ablation that measures its two arms by different rules is what produced
 the incoherent `3.16 | 3.20 | +0.00` row this replaced.
 
-On `local_economy` the discarded number is the whole point: random pinning
-reports +0.00 best-of and **-0.14** pinned-only. It did not fail to help, it
-hurt, which strengthens the ablation rather than weakening it.
+On `local_economy` random pinning reports +0.00 best-of and -0.14 pinned-only.
+That is not evidence that random pinning hurt: two blind compilations of the
+same prompt landed 0.04 and 0.22 apart in the two pilots (section 10), so a
+-0.14 is within compiler noise.
+
+On the full question set, `--eval-full` scores each arm's blind and its best
+*pinned* iteration. The pilots scored the random arm's best-of instead, which
+was its blind both times, so no random-pinned wiki was ever scored on held-out
+questions; the report marks that `random_pin` row with †.
+
+## 14. Probe selection
+
+Paper Algorithm 1 selects "one QA pair per source document" and never says
+which. This repo draws each document's probe uniformly from its five
+questions, seeded per document from `WicerConfig.probe_seed` and the document
+id, so a rerun probes the same questions. RepLiQA's unanswerable questions
+(gold: "The answer is not found in the document.", about one per document,
+almost always the 4th or 5th) are eligible like any other, so the probe set
+mirrors the full 400, as the paper's appears to: its probe blind (2.17)
+roughly equals its full-set blind (2.25).
+
+The two pilots took each document's first question instead. That never picked
+an unanswerable question and favoured questions about a document's main
+subject, which a compiler keeps: their probe-set blind ran 0.4-0.5 above the
+full set, so their probe-set numbers are not comparable to the paper's Table 4.

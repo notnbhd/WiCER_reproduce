@@ -10,6 +10,12 @@
 
 **Spec:** `docs/superpowers/specs/2026-10-21-representative-probes-and-noise-floor-design.md`
 
+> **Scope change, 2026-10-22.** At the user's request Task 4 (the compiler-noise
+> section) was dropped, Task 5 was trimmed to what changed, and Tasks 2-6 were
+> finished inline. Task 1's loop test was corrected after review to assert that
+> at least half the diagnosed probes recover (5cc1fb7): "all of them" held only
+> for this seed's draw. Task 6's expected noise rows no longer apply.
+
 ## Global Constraints
 
 - Probe pool: all five questions per document, drawn uniformly; unanswerable questions eligible.

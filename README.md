@@ -254,8 +254,11 @@ Corpus manifests carry a content hash. Probe selection, the RepLiQA subsample,
 and the random-pinning control are all deterministic — the control seeds from a
 SHA-256 of the topic name, not Python's per-process-salted `hash()`.
 
-For a stronger result than the paper's, run at least three compiler seeds:
-`wicer/compile.py --seed N` and `wicer/loop.py --seed N`.
+`--seed` on `wicer/compile.py` and `wicer/loop.py` reaches only the offline
+fake compiler: the API takes no seed, so on a real run it neither reproduces a
+compilation nor varies one. Each run does compile the blind prompt twice -- the
+WiCER arm's W_0 and the random arm's own blind -- and the ablation table prints
+both, which shows how far two compilations of the same prompt land apart.
 
 Before trusting a cheaper judge model, measure it against the one it replaces
 using the paper's own Appendix J statistics:

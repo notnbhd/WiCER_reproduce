@@ -2,6 +2,13 @@
 
 **Date:** 2026-10-21 · **Status:** design approved in chat; written up for review
 
+> **Scope change, 2026-10-22.** At the user's request the "Effects against
+> compiler noise" report section (section 3) was dropped: the ablation table
+> already prints both blind compilations side by side. The loop test asserts
+> that at least half the diagnosed probes recover, not all of them (commit
+> 5cc1fb7), because the fixture's shared sentence templates defeat the stub
+> reader on some probes.
+
 ## Why
 
 The two pilot runs (`results-rental/`, `results-arts/`) showed three problems

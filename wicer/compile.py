@@ -441,7 +441,10 @@ def main(argv: list[str] | None = None) -> int:
         "--level", action="append",
         help="light | moderate | aggressive (repeatable); default: all three",
     )
-    ap.add_argument("--seed", type=int, help="compiler seed; vary it to expose non-determinism")
+    ap.add_argument(
+        "--seed", type=int,
+        help="compiler seed; reaches only the offline fake compiler -- the API takes none",
+    )
     ap.add_argument("--name", help="wiki name override (single topic/level only)")
     ap.add_argument("--dry-run", action="store_true", help="estimate API cost and exit")
     args = ap.parse_args(argv)

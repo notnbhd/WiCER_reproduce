@@ -349,7 +349,10 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     add_profile_arg(ap)
     ap.add_argument("--topic", action="append", help="topic slug (repeatable); default: all")
-    ap.add_argument("--seed", type=int, help="compiler seed (run >=3 seeds if budget allows)")
+    ap.add_argument(
+        "--seed", type=int,
+        help="compiler seed; reaches only the offline fake compiler -- the API takes none",
+    )
     ap.add_argument("--force-blind", action="store_true", help="recompile W_0 even if present")
     ap.add_argument(
         "--eval-full",
