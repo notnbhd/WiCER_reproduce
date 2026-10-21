@@ -89,6 +89,19 @@ def _is_unanswerable(answer: str) -> bool:
     return answer.strip().lower() in UNANSWERABLE_MARKERS
 
 
+# RepLiQA's gold for a question its source document cannot answer.  It is none
+# of UNANSWERABLE_MARKERS, so no row is ever dropped for it: roughly one question
+# per document (mostly the 4th and 5th) stays in the 400 per topic, as it must
+# in the paper's 80 x 5 = 400.  Those questions measure whether the reader
+# abstains, not what its context retained, so the report scores them apart.
+NOT_IN_DOCUMENT = "The answer is not found in the document."
+
+
+def is_not_in_document(answer: str) -> bool:
+    """True when the gold says the source document does not answer the question."""
+    return answer.strip() == NOT_IN_DOCUMENT
+
+
 def _content_hash(documents: list[Document], qa: list[QAPair]) -> str:
     h = hashlib.sha256()
     for d in documents:

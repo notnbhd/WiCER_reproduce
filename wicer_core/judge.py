@@ -23,7 +23,7 @@ import os
 import re
 import threading
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, replace
 from pathlib import Path
 from typing import Any, Iterable, Sequence
 
@@ -132,12 +132,23 @@ class Judge:
         path = self._cache_path(user)
         if path.exists():
             try:
-                data = json.loads(path.read_text())
-                with self._lock:
-                    self.n_cache_hits += 1
-                return Judgement(**{**data, "cached": True})
+                hit: Judgement | None = Judgement(**{**json.loads(path.read_text()), "cached": True})
             except (json.JSONDecodeError, TypeError):
                 path.unlink(missing_ok=True)
+                hit = None
+            if hit is not None and hit.parse_failure:
+                # Cached before failures stopped being cached.  The stored reply
+                # may hold a verdict today's parser can read; if it does not,
+                # ask again rather than serve a 1 the judge never gave.
+                parsed = reparse_failure(hit.reasoning)
+                hit = (
+                    replace(hit, score=parsed[0], reasoning=parsed[1], parse_failure=False)
+                    if parsed else None
+                )
+            if hit is not None:
+                with self._lock:
+                    self.n_cache_hits += 1
+                return hit
 
         if self.backend == "fake":
             judgement = self._score_fake(req)
@@ -151,7 +162,10 @@ class Judge:
             self.output_tokens += judgement.output_tokens
             if judgement.parse_failure:
                 self.n_parse_failures += 1
-        path.write_text(json.dumps(judgement.to_dict()))
+        # A failure is not a judgement.  Cached, it would come back as the same
+        # 1 on every rerun, and the WiCER loop would diagnose it as a dropped fact.
+        if not judgement.parse_failure:
+            path.write_text(json.dumps(judgement.to_dict()))
         return judgement
 
     def score_many(self, requests: Sequence[JudgeRequest]) -> list[Judgement]:
@@ -348,9 +362,20 @@ def _numbers(text: str) -> set[str]:
 
 _JSON_RE = re.compile(r"\{.*?\}", re.DOTALL)
 
+# A verdict whose reasoning quotes the answer without escaping the quotes is not
+# JSON, so every candidate above fails on it -- yet its score is the object's
+# first key, exactly where the rubric's format puts it.  Only a leading key
+# counts: a "score" quoted inside the reasoning is somebody's words, not a
+# verdict.
+_LEADING_SCORE_RE = re.compile(r'\{\s*"score"\s*:\s*"?([1-5])"?\s*[,}]')
+_REASONING_RE = re.compile(r'"reasoning"\s*:\s*"(.*)', re.DOTALL)
+
 
 def _parse_judgement(text: str) -> tuple[int, str] | None:
-    """json.loads, then a braces-regex rescue.  Returns None if both fail."""
+    """json.loads, a braces-regex rescue, then a leading-score rescue.
+
+    Returns None if all of them fail.
+    """
     for candidate in _json_candidates(text):
         try:
             obj = json.loads(candidate)
@@ -364,7 +389,24 @@ def _parse_judgement(text: str) -> tuple[int, str] | None:
             continue
         if 1 <= score <= 5:
             return score, str(obj.get("reasoning", ""))
-    return None
+
+    m = _LEADING_SCORE_RE.search(text)
+    if m is None:
+        return None
+    r = _REASONING_RE.search(text, m.end())
+    reasoning = r.group(1).rstrip().removesuffix("}").rstrip().removesuffix('"') if r else ""
+    return int(m.group(1)), reasoning
+
+
+def reparse_failure(reasoning: str) -> tuple[int, str] | None:
+    """Read a recorded parse failure again with the current parser.
+
+    A failure's reasoning is a marker followed by the start of the judge's
+    reply, and the verdict is that reply's first key -- so a score the parser
+    once rejected can be recovered without asking the judge again.  None when
+    the reply holds no verdict, e.g. an API error.
+    """
+    return _parse_judgement(reasoning)
 
 
 def _json_candidates(text: str) -> Iterable[str]:

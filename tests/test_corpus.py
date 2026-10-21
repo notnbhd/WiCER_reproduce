@@ -13,6 +13,7 @@ from wicer_core.corpus import (
     _build_from_frame,
     _is_unanswerable,
     format_documents,
+    is_not_in_document,
     load_topic,
 )
 
@@ -79,6 +80,22 @@ def test_documents_with_too_few_qa_are_recorded_not_silently_short(profile, tmp_
 ])
 def test_unanswerable_detection(answer, expected):
     assert _is_unanswerable(answer) is expected
+
+
+@pytest.mark.parametrize("gold,expected", [
+    ("The answer is not found in the document.", True),
+    ("  The answer is not found in the document.\n", True),
+    # A real RepLiQA gold that only sounds like the marker: it answers the question.
+    ("Local honey offers a unique array of flavors that cannot be found in supermarket honey.", False),
+    ("Jonathan Perry.", False),
+])
+def test_repliqa_marks_its_unanswerable_questions_with_one_sentence(gold, expected):
+    assert is_not_in_document(gold) is expected
+
+
+def test_unanswerable_questions_stay_in_the_corpus():
+    """The paper's 400 per topic is 80 x 5, so it holds them too; the report splits them out."""
+    assert _is_unanswerable("The answer is not found in the document.") is False
 
 
 def test_format_documents_marks_every_document():

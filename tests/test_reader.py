@@ -83,6 +83,19 @@ def test_generation_records_ttft_total_and_throughput(profile):
     assert gen.n_prompt_tokens and gen.n_prompt_tokens > 0
 
 
+def test_non_ascii_answers_survive_the_stream(profile):
+    """llama-server streams UTF-8 under a bare ``text/event-stream`` header.
+
+    requests decodes any charset-less text/* response as ISO-8859-1, which put
+    "GarcÃ\xada" for "García" into 1-2% of the pilots' answers.
+    """
+    reader = ReaderClient(profile.reader)
+    system = "VirtualMarket was founded by Ana García in Málaga in late 2023. " * 5
+    gen = reader.chat(system, build_user_prompt("Who founded VirtualMarket?"))
+    assert "Ana García" in gen.text
+    assert "Málaga" in gen.text
+
+
 def test_priming_enables_prefix_reuse_on_the_next_query(profile):
     """Paper Section 3.4: the preflight request is what makes later TTFT warm."""
     reader = ReaderClient(profile.reader)

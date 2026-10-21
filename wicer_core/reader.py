@@ -242,6 +242,10 @@ def build_user_prompt(question: str) -> str:
 
 def _iter_sse(resp: requests.Response) -> Iterator[dict[str, Any]]:
     """Yield parsed JSON objects from an OpenAI-style SSE stream."""
+    # SSE is UTF-8 by definition, but llama-server sends a bare
+    # `text/event-stream` with no charset, and requests decodes any such text/*
+    # response as ISO-8859-1 -- "García" became "GarcÃ­a" in 1-2% of answers.
+    resp.encoding = "utf-8"
     for raw in resp.iter_lines(decode_unicode=True):
         if not raw:
             continue

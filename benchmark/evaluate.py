@@ -16,7 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from wicer_core.config import TOPICS, Profile, add_profile_arg, get_profile
-from wicer_core.judge import Judge, JudgeRequest
+from wicer_core.judge import Judge, JudgeRequest, reparse_failure
 from wicer_core.records import (
     JsonlWriter,
     ScoreRecord,
@@ -82,6 +82,36 @@ def evaluate_condition(
     }
 
 
+def reparse_failures(profile: Profile, topic: str, condition: str) -> list[dict]:
+    """Read recorded parse failures back with the current parser.  No judge call.
+
+    A verdict whose reasoning quoted the answer without escaping the quotes used
+    to be recorded as a failure scored 1.  The judge's reply is kept in that
+    row's reasoning, so its score can be recovered without asking again -- and
+    without rewriting judge_usage.json, the record of what the run spent, as a
+    re-run of evaluate_condition would.  Rows still holding no verdict stay
+    failures.  Returns the repaired rows.
+    """
+    path = scores_path(profile, topic, condition)
+    rows = read_jsonl(path)
+    fixed = []
+    for row in rows:
+        if not row.get("parse_failure"):
+            continue
+        parsed = reparse_failure(row.get("reasoning", ""))
+        if parsed is None:
+            continue
+        row["score"], row["reasoning"] = parsed
+        row["parse_failure"] = False
+        row["reparsed"] = True
+        fixed.append(row)
+    if fixed:
+        tmp = path.with_name(path.name + ".tmp")
+        tmp.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows))
+        tmp.replace(path)
+    return fixed
+
+
 def _conditions_present(profile: Profile, topic: str) -> list[str]:
     from wicer_core.config import resolve
 
@@ -102,13 +132,27 @@ def main(argv: list[str] | None = None, *, default_condition: str | None = None)
     )
     ap.add_argument("--limit", type=int, help="only score the first N answers")
     ap.add_argument("--no-resume", action="store_true", help="re-score everything")
+    ap.add_argument(
+        "--reparse-failures",
+        action="store_true",
+        help="re-read recorded parse failures with the current parser and exit; "
+        "no judge calls, judge_usage.json untouched",
+    )
     args = ap.parse_args(argv)
 
     profile = get_profile(args.profile)
-    judge = Judge(profile.judge)
     topics = args.topic or list(TOPICS)
     conditions = args.condition or ([default_condition] if default_condition else None)
 
+    if args.reparse_failures:
+        for topic in topics:
+            for condition in conditions or _conditions_present(profile, topic):
+                for row in reparse_failures(profile, topic, condition):
+                    print(f"{topic:<26} {condition:<16} {row['question_id']}: "
+                          f"recorded 1, verdict was {row['score']}")
+        return 0
+
+    judge = Judge(profile.judge)
     for topic in topics:
         for condition in conditions or _conditions_present(profile, topic):
             if skip_path(profile, topic, condition).exists():

@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+import json
 
 import pytest
 
 from wicer_core.judge import (
     JUDGE_SYSTEM_PROMPT,
+    USER_TEMPLATE,
     Judge,
     JudgeRequest,
     _numbers,
@@ -52,6 +54,33 @@ def test_parse_ladder_recovers_valid_scores(raw, expected):
 ])
 def test_parse_ladder_reports_failure_rather_than_guessing(raw):
     assert _parse_judgement(raw) is None
+
+
+# Verbatim from the local_economy run: a verdict of 3 whose reasoning quotes the
+# answer without escaping the quotes.  json.loads rejects it, and it used to be
+# recorded as a score of 1 -- a catastrophic failure the loop would diagnose.
+_UNESCAPED = (
+    '{"score": 3, "reasoning": "The generated answer correctly identifies the core '
+    'fact, a billboard typo, which matches the gold standard. However, it adds '
+    'specific wording ("Get a Leg Over Your Day" instead of the original) that the '
+    'gold does not mention."}'
+)
+
+
+@pytest.mark.parametrize("raw,expected", [
+    (_UNESCAPED, 3),
+    # As a failure was stored: the reply cut at 200 characters, closing brace lost.
+    (_UNESCAPED[:200], 3),
+    ('{"score": 4, "reasoning": "It rephrases "tightrope walk" but keeps the facts."}', 4),
+])
+def test_parse_ladder_reads_a_verdict_whose_reasoning_has_unescaped_quotes(raw, expected):
+    parsed = _parse_judgement(raw)
+    assert parsed is not None and parsed[0] == expected
+
+
+def test_the_quote_rescue_never_takes_a_score_from_inside_the_reasoning():
+    """Only a leading score key is the verdict; a quoted one is somebody's words."""
+    assert _parse_judgement('{"reasoning": "the gold says "score": 5, not 2"}') is None
 
 
 def test_fake_judge_scores_recall(profile):
@@ -250,3 +279,46 @@ def test_an_empty_openrouter_completion_is_a_parse_failure_not_a_dead_sweep(prof
     assert out.parse_failure is True
     assert out.score == 1
     assert j.n_parse_failures == 1
+
+
+# -- parse failures and the disk cache ----------------------------------------
+
+
+def _write_legacy_failure(judge, req, reasoning):
+    """A cache entry as the old code wrote one: an unreadable reply, cached as a 1."""
+    user = USER_TEMPLATE.format(question=req.question, gold=req.gold, generated=req.generated)
+    judge._cache_path(user).write_text(json.dumps({
+        "score": 1, "reasoning": reasoning, "model": "anthropic/claude-haiku-5.5",
+        "cached": False, "parse_failure": True, "input_tokens": 364, "output_tokens": 292,
+    }))
+
+
+def test_a_parse_failure_is_not_cached_so_the_next_run_asks_again(profile):
+    """A bad reply must not become a permanent catastrophic failure."""
+    stub = _StubOR(text="I think it's pretty good, honestly.")
+    j = _or_judge(profile, stub)
+    j.score(_req())
+    j.score(_req())
+    assert len(stub.calls) == 2
+
+
+def test_a_cached_legacy_failure_is_reread_with_the_current_parser(profile):
+    stub = _StubOR(text='{"score": 5, "reasoning": "a fresh call would say this"}')
+    j = _or_judge(profile, stub)
+    _write_legacy_failure(j, _req(), "PARSE FAILURE: " + _UNESCAPED[:200])
+
+    out = j.score(_req())
+
+    assert (out.score, out.parse_failure, out.cached) == (3, False, True)
+    assert stub.calls == [], "the stored reply already holds the verdict"
+
+
+def test_a_cached_failure_the_current_parser_still_cannot_read_is_asked_again(profile):
+    stub = _StubOR(text='{"score": 4, "reasoning": "fine"}')
+    j = _or_judge(profile, stub)
+    _write_legacy_failure(
+        j, _req(), "PARSE FAILURE: anthropic/x returned no text (finish_reason='length')"
+    )
+    out = j.score(_req())
+    assert out.score == 4
+    assert len(stub.calls) == 1

@@ -143,7 +143,10 @@ class FakeLlamaHandler(BaseHTTPRequestHandler):
         prompt_ms = (time.perf_counter() - started) * 1000.0
 
         def send(obj: dict) -> None:
-            self.wfile.write(f"data: {json.dumps(obj)}\n\n".encode())
+            # Raw UTF-8, as llama-server streams it, not json.dumps' default
+            # \u escapes -- those are plain ASCII and would hide a client that
+            # decodes the stream with the wrong charset.
+            self.wfile.write(f"data: {json.dumps(obj, ensure_ascii=False)}\n\n".encode())
             self.wfile.flush()
 
         try:
