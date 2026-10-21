@@ -55,7 +55,7 @@ Reader: `models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf`, n_ctx=98304, KV=q8_0/q8
 
 ## WiCER held-out evaluation (questions the loop never saw)
 
-| Topic | Questions | n | Blind (mean / score-1) | Best WiCER | FC raw | Recovery | Iter |
+| Topic | Questions | n | Blind (mean / score-1) | Best pinned WiCER | FC raw | Recovery | Iter |
 |---|---|---|---|---|---|---|---|
 | local_economy | answerable | 239 | 2.77 / 25.5% | 2.73 / 27.6% | 4.01 | -4% | 1 |
 | local_economy | unanswerable | 81 | 2.51 / 38.3% | 2.48 / 32.1% | 2.15 | -- | 1 |
