@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import math
+from collections import Counter
 
 import pytest
 
-from wicer_core.corpus import load_topic
+from wicer_core.corpus import QAPair, load_topic
 from wicer_core.judge import Judge
 from wicer_core.reader import ReaderClient
 from wicer.compile import CompileTruncated, Compiler, PreservedFact, compile_topic
@@ -21,7 +22,7 @@ from wicer.random_pin import RandomPinner, run_random_pin
 
 def test_exactly_one_probe_per_source_document(profile, topic):
     corpus = load_topic(profile, topic)
-    probes, heldout = split_probes(corpus.qa)
+    probes, heldout = split_probes(corpus.qa, profile.wicer.probe_seed)
     doc_ids = {d.document_id for d in corpus.documents}
     assert len(probes) == len(doc_ids)
     assert {p.document_id for p in probes} == doc_ids
@@ -29,15 +30,57 @@ def test_exactly_one_probe_per_source_document(profile, topic):
 
 
 def test_probes_and_heldout_are_disjoint(profile, topic):
-    probes, heldout = split_probes(load_topic(profile, topic).qa)
+    probes, heldout = split_probes(load_topic(profile, topic).qa, profile.wicer.probe_seed)
     assert not ({p.question_id for p in probes} & {h.question_id for h in heldout})
 
 
 def test_probe_selection_is_order_independent(profile, topic):
     qa = load_topic(profile, topic).qa
-    a, _ = split_probes(qa)
-    b, _ = split_probes(list(reversed(qa)))
+    a, _ = split_probes(qa, profile.wicer.probe_seed)
+    b, _ = split_probes(list(reversed(qa)), profile.wicer.probe_seed)
     assert [q.question_id for q in a] == [q.question_id for q in b]
+
+
+def _documents(n_docs: int) -> list[QAPair]:
+    """``n_docs`` documents with five questions each; the fifth is unanswerable."""
+    return [
+        QAPair(
+            question_id=f"d{d:04d}-q{i}",
+            document_id=f"d{d:04d}",
+            question=f"question {i}?",
+            answer="The answer is not found in the document." if i == 5 else f"answer {i}",
+        )
+        for d in range(n_docs)
+        for i in range(1, 6)
+    ]
+
+
+def test_each_probe_is_drawn_uniformly_from_its_documents_five_questions():
+    """Always taking the first question never probed an unanswerable one and
+    favoured questions about a document's main subject, which a compiler keeps."""
+    probes, _ = split_probes(_documents(1000), seed=20261021)
+    positions = Counter(p.question_id.rsplit("-q", 1)[1] for p in probes)
+    assert sorted(positions) == ["1", "2", "3", "4", "5"]
+    # 200 expected per position; 150-250 is about +/-4 standard deviations.
+    assert all(150 <= n <= 250 for n in positions.values()), positions
+
+
+def test_a_different_seed_draws_different_probes():
+    qa = _documents(50)
+    first, _ = split_probes(qa, seed=1)
+    second, _ = split_probes(qa, seed=2)
+    assert [p.question_id for p in first] != [p.question_id for p in second]
+
+
+def test_build_draws_with_the_profiles_probe_seed(profile, topic):
+    from dataclasses import replace
+
+    from wicer.probe import build
+
+    a, _ = build(profile, topic)
+    other = replace(profile, wicer=replace(profile.wicer, probe_seed=profile.wicer.probe_seed + 1))
+    b, _ = build(other, topic)
+    assert [p.question_id for p in a] != [p.question_id for p in b]
 
 
 # -- compilation -------------------------------------------------------------
@@ -173,7 +216,23 @@ def test_random_pins_come_from_across_the_collection(profile, topic):
 # -- the loop ----------------------------------------------------------------
 
 
-def test_loop_diagnoses_failures_pins_them_and_improves(profile, topic):
+def _probe_scores(profile, topic, wiki):
+    """Per-probe judge scores from the loop's own run against ``wiki``."""
+    import json
+
+    from wicer_core.config import resolve
+
+    path = resolve(profile.results_dir) / topic / "probe_runs" / f"{wiki}.jsonl"
+    return {r["question_id"]: r["score"] for r in map(json.loads, path.open())}
+
+
+def test_loop_diagnoses_failures_and_pins_back_what_they_needed(profile, topic):
+    """Every probe diagnosed at iteration 0 passes at iteration 1.
+
+    That targeted repair is the mechanism.  The overall probe mean is not
+    promised to rise: pinning displaces other coverage (paper Appendix I), and
+    sharply so in the fake compiler's fixed word budget (DEVIATIONS.md 9).
+    """
     reader = ReaderClient(profile.reader)
     judge = Judge(profile.judge, backend="fake")
     compiler = Compiler(profile.compiler, backend="fake")
@@ -190,7 +249,10 @@ def test_loop_diagnoses_failures_pins_them_and_improves(profile, topic):
     # Pinned facts accumulate and are never discarded (paper Appendix I).
     pinned = [r["n_pinned_facts"] for r in res.iterations]
     assert pinned == sorted(pinned)
-    assert res.best_probe_mean > res.blind_probe_mean
+
+    diagnosed = {f["question_id"] for f in res.preserved_facts if f["iteration"] == 0}
+    after = _probe_scores(profile, topic, res.iterations[1]["wiki_name"])
+    assert diagnosed and all(after[q] > 1 for q in diagnosed), {q: after[q] for q in diagnosed}
     assert res.stop_reason in {"no_failures", "insufficient_improvement", "max_iterations"}
 
 

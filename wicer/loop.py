@@ -389,7 +389,7 @@ def _dry_run(profile: Profile, topics: Sequence[str]) -> int:
     total = 0.0
     for topic in topics:
         corpus = load_topic(profile, topic)
-        probes, _ = probe_mod.split_probes(corpus.qa)
+        probes, _ = probe_mod.split_probes(corpus.qa, profile.wicer.probe_seed)
         iters = profile.wicer.max_iterations
         # Per iteration: 1 compilation, |probes| judge calls, <=|probes| diagnoses.
         compile_cost = compiler.estimate_cost_usd(corpus.n_words, iters)

@@ -130,6 +130,8 @@ class WicerConfig:
     diagnosis_min_words: int = 50
     diagnosis_max_words: int = 100
     random_pin_seed: int = 20260508
+    # Seeds which of a document's questions becomes its probe (wicer/probe.py).
+    probe_seed: int = 20261021
 
 
 @dataclass(frozen=True)
