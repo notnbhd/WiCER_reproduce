@@ -432,6 +432,16 @@ def test_per_question_csv_marks_probes_and_unanswerable_questions(profile, topic
     assert (rows["fc_raw", "u1"]["probe"], rows["fc_raw", "u1"]["unanswerable"]) == ("0", "1")
 
 
+def test_report_collects_every_condition_the_full_set_evaluation_can_write(profile, topic):
+    """--eval-full can score the random arm's blind and a third iteration's wiki."""
+    from wicer_core.records import CONDITIONS
+
+    for condition in ("random_blind", "wicer_iter3"):
+        _write_condition(profile, topic, condition, _SCORES["wiki_moderate"])
+    found = {r.condition for r in collect(profile, [topic], list(CONDITIONS))}
+    assert {"random_blind", "wicer_iter3"} <= found
+
+
 @pytest.mark.parametrize("served,labelled", [
     ("random_blind_moderate", True), ("random_pin_iter1", False),
 ])

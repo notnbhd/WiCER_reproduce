@@ -27,6 +27,10 @@ CONDITIONS = (
     "wiki_aggressive",
     "wicer_iter1",
     "wicer_iter2",
+    # max_iterations=3 lets the loop compile a third pinned wiki, and
+    # --eval-full scores it under its own name when it is the best pinned.
+    "wicer_iter3",
+    "random_blind",
     "random_pin",
 )
 

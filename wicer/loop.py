@@ -22,8 +22,9 @@ Notes that matter for reproduction:
   "random knowledge displacement".  That is why gains plateau after one or two
   iterations rather than accumulating, and why we do not raise T.
 * The loop scores probes.  Paper Table 4 reports on those same 80 probes, so we
-  record probe means for comparability -- and separately evaluate the winning
-  wiki over the full question set, which is the honest held-out number.
+  record probe means for comparability -- and, with --eval-full, score the
+  blind and the best pinned wiki over the full question set, so the report can
+  measure both on questions the loop never saw.
 """
 
 from __future__ import annotations
@@ -290,20 +291,51 @@ def _persist_probe_run(
             }, ensure_ascii=False) + "\n")
 
 
-def evaluate_wikis_full(
-    profile: Profile, topic: str, wiki_names: Sequence[str], *, reader: ReaderClient | None = None
-) -> list[dict[str, Any]]:
-    """Run a compiled wiki over the whole question set, as a normal condition.
+def best_pinned_iteration(iterations: Sequence[dict[str, Any]]) -> dict[str, Any] | None:
+    """The iteration with the best probe mean among those that pinned something.
 
-    The loop itself scores the 80 probes; this is the held-out number.  Wiki
-    ``wicer_iterN`` becomes condition ``wicer_iterN``; ``blind_moderate``
-    becomes ``wiki_moderate``.
+    The paper's "best W_t" ranges over every iteration, iteration 0 included --
+    the unpinned blind -- so it can name a wiki no pinning produced.  This is
+    the best wiki pinning did produce.  None when nothing was pinned.
+    """
+    pinned = [r for r in iterations if r.get("n_pinned_facts")]
+    return max(pinned, key=lambda r: r["probe_mean"]) if pinned else None
+
+
+def full_set_wikis(
+    result: LoopResult, blind_condition: str, pinned_condition: str | None = None
+) -> list[tuple[str, str]]:
+    """The (wiki, condition) pairs ``--eval-full`` scores on every question.
+
+    An arm's blind and its best pinned wiki: the pair that says what pinning
+    did on questions the loop never saw.  The pinned wiki's condition defaults
+    to the wiki's own name.
+    """
+    if not result.iterations:
+        return []
+    pairs = [(result.iterations[0]["wiki_name"], blind_condition)]
+    best = best_pinned_iteration(result.iterations)
+    if best is not None:
+        pairs.append((best["wiki_name"], pinned_condition or best["wiki_name"]))
+    return pairs
+
+
+def evaluate_wikis_full(
+    profile: Profile,
+    topic: str,
+    wikis: Sequence[tuple[str, str]],
+    *,
+    reader: ReaderClient | None = None,
+) -> list[dict[str, Any]]:
+    """Run compiled wikis over the whole question set, each as a normal condition.
+
+    The loop itself scores only the probes.  ``wikis`` holds (wiki, condition)
+    pairs, as ``full_set_wikis`` builds them.
     """
     reader = reader or ReaderClient(profile.reader)
     corpus = load_topic(profile, topic)
     out = []
-    for name in wiki_names:
-        condition = BLIND_CONDITION if name == BLIND_WIKI else name
+    for name, condition in wikis:
         text = wiki_paths(profile, topic, name)[0].read_text()
         out.append(
             run_condition(
@@ -322,7 +354,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument(
         "--eval-full",
         action="store_true",
-        help="after the loop, run blind and the best iteration over the full question set",
+        help="after the loop, run the blind wiki and the best pinned iteration "
+        "over the full question set",
     )
     ap.add_argument("--dry-run", action="store_true", help="estimate API cost and exit")
     args = ap.parse_args(argv)
@@ -371,8 +404,7 @@ def main(argv: list[str] | None = None) -> int:
         )
 
         if args.eval_full:
-            names = [BLIND_WIKI] + ([res.best_wiki_name] if res.best_wiki_name != BLIND_WIKI else [])
-            evaluate_wikis_full(profile, topic, names, reader=reader)
+            evaluate_wikis_full(profile, topic, full_set_wikis(res, BLIND_CONDITION), reader=reader)
 
         write_run_meta(
             resolve(profile.results_dir) / topic / "wicer_run_meta.json",

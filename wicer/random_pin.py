@@ -35,9 +35,10 @@ from wicer_core.judge import Judge
 from wicer_core.reader import ReaderClient
 from wicer.compile import Compiler, PreservedFact
 from wicer.diagnose import Diagnoser
-from wicer.loop import LoopResult, run_loop
+from wicer.loop import LoopResult, evaluate_wikis_full, full_set_wikis, run_loop
 
 BLIND_WIKI = "random_blind_moderate"
+BLIND_CONDITION = "random_blind"
 ITER_PREFIX = "random_pin_iter"
 CONDITION = "random_pin"
 
@@ -114,7 +115,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument(
         "--eval-full",
         action="store_true",
-        help="run the best random-pin iteration over the full question set as 'random_pin'",
+        help="run the arm's blind ('random_blind') and its best pinned iteration "
+        "('random_pin') over the full question set",
     )
     args = ap.parse_args(argv)
 
@@ -149,13 +151,8 @@ def main(argv: list[str] | None = None) -> int:
         )
 
         if args.eval_full:
-            from benchmark.run_benchmark import build_wiki_context, run_condition
-            from wicer_core.records import wiki_paths
-
-            text = wiki_paths(profile, topic, res.best_wiki_name)[0].read_text()
-            run_condition(
-                profile, topic, CONDITION, build_wiki_context(text),
-                load_topic(profile, topic).qa, reader=reader,
+            evaluate_wikis_full(
+                profile, topic, full_set_wikis(res, BLIND_CONDITION, CONDITION), reader=reader
             )
     return 0
 

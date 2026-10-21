@@ -12,7 +12,9 @@ from wicer_core.judge import Judge
 from wicer_core.reader import ReaderClient
 from wicer.compile import CompileTruncated, Compiler, PreservedFact, compile_topic
 from wicer.diagnose import Diagnoser, _clip_words
-from wicer.loop import BLIND_WIKI, run_loop
+from wicer.loop import (
+    BLIND_WIKI, LoopResult, best_pinned_iteration, evaluate_wikis_full, full_set_wikis, run_loop,
+)
 from wicer.probe import split_probes
 from wicer.random_pin import RandomPinner, run_random_pin
 
@@ -227,7 +229,7 @@ def _probe_scores(profile, topic, wiki):
 
 
 def test_loop_diagnoses_failures_and_pins_back_what_they_needed(profile, topic):
-    """Most probes diagnosed at iteration 0 pass at iteration 1.
+    """At least half the probes diagnosed at iteration 0 pass at iteration 1.
 
     Targeted repair is the mechanism, but the offline harness cannot show it
     for every probe: the fixture's documents share sentence templates, so the
@@ -318,6 +320,78 @@ def test_random_pin_control_uses_an_independent_blind_compilation(profile, topic
         assert {f["text"] for f in rp["preserved_facts"]} != {
             f["text"] for f in wicer_led["preserved_facts"]
         }
+
+
+def _iteration(i: int, wiki: str, probe_mean: float, n_pinned: int) -> dict:
+    return {"iteration": i, "wiki_name": wiki, "probe_mean": probe_mean,
+            "n_pinned_facts": n_pinned}
+
+
+def _loop_result(iterations: list[dict], best: str) -> LoopResult:
+    return LoopResult(
+        topic="t", best_iteration=0, best_wiki_name=best, best_probe_mean=0.0,
+        blind_probe_mean=0.0, stop_reason="insufficient_improvement", iterations=iterations,
+    )
+
+
+def test_best_pinned_iteration_never_returns_the_unpinned_blind():
+    iters = [_iteration(0, "blind", 3.20, 0), _iteration(1, "first", 3.06, 13),
+             _iteration(2, "second", 2.90, 17)]
+    assert best_pinned_iteration(iters)["wiki_name"] == "first"
+    assert best_pinned_iteration(iters[:1]) is None
+
+
+def test_eval_full_scores_the_pinned_wiki_even_when_best_of_is_the_blind():
+    """Both pilots' random arm peaked at its blind, so the condition labelled
+    random_pin was a second blind and no random-pinned wiki was ever scored."""
+    res = _loop_result(
+        [_iteration(0, "random_blind_moderate", 3.20, 0),
+         _iteration(1, "random_pin_iter1", 3.06, 13)],
+        best="random_blind_moderate",
+    )
+    assert full_set_wikis(res, "random_blind", "random_pin") == [
+        ("random_blind_moderate", "random_blind"),
+        ("random_pin_iter1", "random_pin"),
+    ]
+
+
+def test_eval_full_names_a_wicer_pinned_wiki_after_itself():
+    res = _loop_result(
+        [_iteration(0, "blind_moderate", 3.16, 0), _iteration(1, "wicer_iter1", 3.66, 13),
+         _iteration(2, "wicer_iter2", 3.30, 17)],
+        best="wicer_iter1",
+    )
+    assert full_set_wikis(res, "wiki_moderate") == [
+        ("blind_moderate", "wiki_moderate"), ("wicer_iter1", "wicer_iter1"),
+    ]
+
+
+def test_eval_full_scores_only_the_blind_when_nothing_was_pinned():
+    res = _loop_result([_iteration(0, "blind_moderate", 4.9, 0)], best="blind_moderate")
+    assert full_set_wikis(res, "wiki_moderate") == [("blind_moderate", "wiki_moderate")]
+
+
+def test_random_arm_scores_its_blind_and_its_pinned_wiki_on_every_question(profile, topic):
+    from benchmark.run_benchmark import build_wiki_context
+    from wicer.random_pin import BLIND_CONDITION, CONDITION
+    from wicer_core.records import answers_path, read_jsonl, run_dir, wiki_paths
+
+    res = run_random_pin(
+        profile, topic,
+        reader=ReaderClient(profile.reader),
+        judge=Judge(profile.judge, backend="fake"),
+        compiler=Compiler(profile.compiler, backend="fake"),
+        diagnoser=Diagnoser(profile.compiler.model, profile.wicer, backend="fake"),
+    )
+    pairs = full_set_wikis(res, BLIND_CONDITION, CONDITION)
+    assert len(pairs) == 2, "fixture must pin something"
+    evaluate_wikis_full(profile, topic, pairs, reader=ReaderClient(profile.reader))
+
+    n_questions = len(load_topic(profile, topic).qa)
+    for wiki, condition in pairs:
+        served = (run_dir(profile, topic, condition) / "context.txt").read_text()
+        assert served == build_wiki_context(wiki_paths(profile, topic, wiki)[0].read_text())
+        assert len(read_jsonl(answers_path(profile, topic, condition))) == n_questions
 
 
 # -- the openrouter backend ---------------------------------------------------

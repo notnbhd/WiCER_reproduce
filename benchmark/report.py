@@ -26,7 +26,7 @@ from typing import Any, Callable, Sequence
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from benchmark.run_benchmark import build_wiki_context
-from wicer.loop import BLIND_CONDITION, BLIND_WIKI
+from wicer.loop import BLIND_CONDITION, BLIND_WIKI, best_pinned_iteration
 from wicer.probe import probe_paths
 from wicer_core.config import TOPICS, Profile, add_profile_arg, get_profile, resolve
 from wicer_core.corpus import is_not_in_document
@@ -294,8 +294,8 @@ def _best_pinned(ledger: dict[str, Any]) -> float | None:
     ``n_pinned_facts`` rather than by index, so it holds if the loop ever stops
     numbering from zero.  Returns ``None`` when no iteration pinned anything.
     """
-    pinned = [r["probe_mean"] for r in ledger["iterations"] if r.get("n_pinned_facts")]
-    return max(pinned) if pinned else None
+    best = best_pinned_iteration(ledger["iterations"])
+    return best["probe_mean"] if best else None
 
 
 def _read_json(path: Path) -> dict[str, Any] | None:
