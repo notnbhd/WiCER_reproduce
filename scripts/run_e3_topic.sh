@@ -128,7 +128,7 @@ $PY wicer/compile.py --profile "$PROFILE" --topic "$TOPIC"
 for L in light moderate aggressive; do
   say "evaluating wiki_$L"
   $PY benchmark/run_benchmark.py --profile "$PROFILE" --topic "$TOPIC" \
-    --condition "wiki_$L" --context-file "results/$TOPIC/wikis/blind_$L.md" --resume
+    --condition "wiki_$L" --context-file "${WICER_RESULTS_DIR:-results}/$TOPIC/wikis/blind_$L.md" --resume
 done
 
 say "WiCER loop"

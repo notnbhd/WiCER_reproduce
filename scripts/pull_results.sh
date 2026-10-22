@@ -17,6 +17,8 @@
 #   WICER_RESULTS_DIR=results-rental uv run python benchmark/report.py \
 #     --profile paper --topic local_economy
 #
+# With WICER_RESULTS_DIR=result-sweep it pulls the remote result-sweep/ into the
+# local result-sweep/ instead.
 # Knobs: REMOTE_DIR (default /workspace/WiCER), DEST (results-rental),
 # INTERVAL (300), SSH_OPTS (extra ssh flags, e.g. -i ~/.ssh/vast).
 set -euo pipefail
@@ -40,7 +42,7 @@ done
 
 : "${TARGET:?usage: pull_results.sh [--watch] [--with-cache] [user@]host[:port]}"
 REMOTE_DIR="${REMOTE_DIR:-/workspace/WiCER}"
-DEST="${DEST:-results-rental}"
+DEST="${DEST:-${WICER_RESULTS_DIR:-results-rental}}"
 INTERVAL="${INTERVAL:-300}"
 
 # [user@]host[:port] -- providers hand out a nonstandard port far more often than not.
@@ -83,7 +85,7 @@ pull_dir() {
 
 pull() {
   probe_rsync
-  pull_dir "$REMOTE_DIR/results" "$DEST"
+  pull_dir "$REMOTE_DIR/${WICER_RESULTS_DIR:-results}" "$DEST"
   # Content-addressed by prompt hash, so merging the remote cache into the local
   # one is safe and makes a local re-judge free instead of ~$7. Optional extra:
   # early in a run nothing has been judged yet and the directory does not exist,
