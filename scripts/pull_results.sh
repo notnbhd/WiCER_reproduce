@@ -117,8 +117,9 @@ if [[ "$ON_DONE" == "1" ]]; then
   echo "pulling $HOSTSPEC:$REMOTE_DIR/$RES -> $DEST whenever a topic finishes (Ctrl-C to stop)"
   seen=""
   while :; do
-    # A failed ssh must not read as "no markers" and must not end the loop.
-    if now=$($SSH_E "$HOSTSPEC" "cd '$REMOTE_DIR/$RES' 2>/dev/null && ls -d */.e3_done 2>/dev/null" | sed 's#/.e3_done##' | sort); then
+    # A failed ssh must not read as "no markers" and must not end the loop; the
+    # remote `; true` keeps "no markers yet" from reading as a failed ssh.
+    if now=$($SSH_E "$HOSTSPEC" "cd '$REMOTE_DIR/$RES' 2>/dev/null && ls -d */.e3_done 2>/dev/null; true" | sed 's#/.e3_done##' | sort); then
       new=$(comm -13 <(printf '%s\n' "$seen") <(printf '%s\n' "$now") | grep . || true)
       if [[ -n "$new" ]]; then
         pull && { echo "done: $(echo $new)"; seen="$now"; } || echo "pull failed -- retrying" >&2
