@@ -4,6 +4,7 @@
 #   scripts/pull_results.sh root@ssh4.vast.ai:12345             # once
 #   scripts/pull_results.sh --watch root@ssh4.vast.ai:12345     # every 5 min, Ctrl-C to stop
 #   scripts/pull_results.sh --with-cache root@host:22           # also the judge score cache
+#   scripts/pull_results.sh --on-done root@ssh4.vast.ai:12345   # pull each time a topic finishes
 #
 # The results are the only thing on that box that cannot be recreated without
 # spending the API budget again, and a rental can be reclaimed without warning.
@@ -19,6 +20,10 @@
 #
 # With WICER_RESULTS_DIR=result-sweep it pulls the remote result-sweep/ into the
 # local result-sweep/ instead.
+# --on-done polls the box for sweep_e3.sh's <topic>/.e3_done markers every
+# INTERVAL seconds (60 in this mode), pulls the moment a new one appears, and
+# exits once EXPECTED topics (default 17) are done.  It pulls nothing mid-topic;
+# use --watch for that, which is what protects a topic in flight.
 # Knobs: REMOTE_DIR (default /workspace/WiCER), DEST (results-rental),
 # INTERVAL (300), SSH_OPTS (extra ssh flags, e.g. -i ~/.ssh/vast).
 set -euo pipefail
@@ -27,15 +32,17 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 
 WATCH=0
+ON_DONE=0
 WITH_CACHE=0
 TARGET=""
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --watch)      WATCH=1; shift ;;
+    --on-done)    ON_DONE=1; WITH_CACHE=1; shift ;;
     --with-cache) WITH_CACHE=1; shift ;;
     --interval)   INTERVAL="$2"; shift 2 ;;
-    -h|--help)    sed -n '2,22p' "$0"; exit 0 ;;
+    -h|--help)    sed -n '2,28p' "$0"; exit 0 ;;
     *)            TARGET="$1"; shift ;;
   esac
 done
@@ -43,7 +50,8 @@ done
 : "${TARGET:?usage: pull_results.sh [--watch] [--with-cache] [user@]host[:port]}"
 REMOTE_DIR="${REMOTE_DIR:-/workspace/WiCER}"
 DEST="${DEST:-${WICER_RESULTS_DIR:-results-rental}}"
-INTERVAL="${INTERVAL:-300}"
+INTERVAL="${INTERVAL:-$([[ "$ON_DONE" == 1 ]] && echo 60 || echo 300)}"
+EXPECTED="${EXPECTED:-17}"
 
 # [user@]host[:port] -- providers hand out a nonstandard port far more often than not.
 PORT=22
@@ -103,6 +111,27 @@ summarize() {
   sz=$(du -sh "$DEST" 2>/dev/null | cut -f1)
   printf '%s  %s files, %s in %s\n' "$(date +%H:%M:%S)" "$n" "${sz:-0}" "$DEST"
 }
+
+if [[ "$ON_DONE" == "1" ]]; then
+  RES="${WICER_RESULTS_DIR:-results}"
+  echo "pulling $HOSTSPEC:$REMOTE_DIR/$RES -> $DEST whenever a topic finishes (Ctrl-C to stop)"
+  seen=""
+  while :; do
+    # A failed ssh must not read as "no markers" and must not end the loop.
+    if now=$($SSH_E "$HOSTSPEC" "cd '$REMOTE_DIR/$RES' 2>/dev/null && ls -d */.e3_done 2>/dev/null" | sed 's#/.e3_done##' | sort); then
+      new=$(comm -13 <(printf '%s\n' "$seen") <(printf '%s\n' "$now") | grep . || true)
+      if [[ -n "$new" ]]; then
+        pull && { echo "done: $(echo $new)"; seen="$now"; } || echo "pull failed -- retrying" >&2
+        summarize
+      fi
+      n=$(printf '%s\n' "$now" | grep -c . || true)
+      if [[ "$n" -ge "$EXPECTED" && "$seen" == "$now" ]]; then echo "all $n topics pulled"; exit 0; fi
+    else
+      echo "ssh failed -- retrying in ${INTERVAL}s" >&2
+    fi
+    sleep "$INTERVAL"
+  done
+fi
 
 if [[ "$WATCH" == "1" ]]; then
   echo "pulling $HOSTSPEC:$REMOTE_DIR/results -> $DEST every ${INTERVAL}s (Ctrl-C to stop)"
