@@ -108,8 +108,9 @@ class Diagnoser:
             model=resolve_openrouter_model(self.model),
             system=DIAGNOSIS_SYSTEM,
             user=prompt,
-            # ~100 words of output; the cap is generous, not a target.
-            max_tokens=600,
+            # ~100 words of output, but Haiku's reasoning bills against this cap
+            # too: 600 once came back with all 600 spent thinking and no text.
+            max_tokens=2_000,
             effort="low",
             cache_system=False,
         )
