@@ -7,7 +7,7 @@
 #   DRY_RUN=1 bash scripts/run_e3_topic.sh local_economy    # cost preview only
 #
 # Compiler and judge default to anthropic/claude-haiku-5.5, at the profile's
-# effort=high with max_tokens raised to 64,000 so reasoning and the wiki are not
+# effort=high with max_tokens raised to 128,000 so reasoning and the wiki are not
 # competing for one budget.  A full 17-topic E3 sweep is roughly $13-17 on Haiku
 # against $114 on Sonnet, which is what fits the key's credit -- but reasoning
 # is billed, so effort=high lands above a low-effort estimate.  The one-topic
@@ -59,11 +59,13 @@ export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-haiku-5.5}"
 # thinking allowance.  Haiku once spent an entire 4,000-token budget on
 # reasoning and returned no wiki -- the fix is room, not less thinking: a
 # paper-scale wiki runs ~16K tokens (paper 6.2) and Haiku's output ceiling is
-# 128K, so 64,000 keeps reasoning and output from competing.  Effort stays at
-# the profile's high.  Any other compiler keeps the profile's 32,000, because
+# 128K, so 128,000 keeps reasoning and output from competing.  64,000 was
+# not enough once: incident_report spent ~45K tokens reasoning and the wiki was
+# cut off at 14K words.  Billing is per token used, so the higher cap costs
+# nothing unless a compile runs long.  Effort stays at the profile's high.  Any other compiler keeps the profile's 32,000, because
 # silently re-tuning Sonnet would change its output without saying so.
 if [[ "$WICER_COMPILER_MODEL" == *haiku* ]]; then
-  export WICER_COMPILER_MAX_TOKENS="${WICER_COMPILER_MAX_TOKENS:-64000}"
+  export WICER_COMPILER_MAX_TOKENS="${WICER_COMPILER_MAX_TOKENS:-128000}"
 fi
 
 say() { printf '\n\033[1m== %s\033[0m  (%s)\n' "$*" "$(date +%H:%M:%S)"; }
