@@ -27,4 +27,4 @@ testpaths = ["tests"]
 filterwarnings = ["ignore::DeprecationWarning"]
 
 [tool.setuptools]
-packages = ["wicer_core", "wicer", "benchmark", "rag_benchmark"]
+packages = ["wicer_core", "wicer", "benchmark", "rag_benchmark", "tact"]

@@ -26,6 +26,18 @@ and finds that the gain does not survive on held-out questions (10%) -- the two
 question sets disagree by a factor of ten on the same run. It also establishes
 which 80 documents the paper used, which the first two attempts got wrong.
 
+## TACT (a new method, not part of the reproduction)
+
+`tact/` holds **TACT**, a method built on top of this reproduction and specified
+outside it (`~/Projekt/tact/method_draft_v2.md`). It reuses `wicer_core` and the
+benchmark runner unchanged, so its wikis are scored exactly like WiCER's, and it
+never modifies `wicer/`. Nothing TACT produces is a reproduction of the paper.
+
+Its results go to `result-tact/` (`tact.get_profile()` points there; run the
+shared benchmark scripts with `WICER_RESULTS_DIR=result-tact`). The reproduction
+baseline it is compared against is `result-sweep/`, frozen at git tag
+`repro-sweep-2026-10-24`.
+
 ## Quick start (no GPU, no API key, no downloads)
 
 ```bash
@@ -49,6 +61,7 @@ wicer_core/      corpus, reader client, judge, metrics, records, provenance
 benchmark/       full-context arm    config.py start_server.sh run_benchmark.py evaluate.py report.py
 rag_benchmark/   RAG baseline        rag_config.py build_index.py run_rag_benchmark.py rag_evaluate.py rag_report.py
 wicer/           the algorithm       compile.py probe.py diagnose.py loop.py random_pin.py prompts/
+tact/            TACT (new method, see above); results in result-tact/
 tests/           fake reader, fixture generator, test suite
 ```
 
