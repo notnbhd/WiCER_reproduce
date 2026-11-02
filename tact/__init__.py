@@ -3,7 +3,7 @@
 A new method built on this reproduction, not part of it. TACT reuses the
 reproduction's corpus, reader, judge and benchmark runner unchanged, so its
 wikis are scored exactly as WiCER's are; it never modifies ``wicer/``. The
-method is specified in ``~/Projekt/tact/method_draft_v2.md`` (section numbers
+method is specified in ``docs/tact/method_draft_v2.md`` (section numbers
 in this package refer to that draft).
 
 Results go to ``result-tact/`` so they never mix with the reproduction's

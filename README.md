@@ -29,7 +29,7 @@ which 80 documents the paper used, which the first two attempts got wrong.
 ## TACT (a new method, not part of the reproduction)
 
 `tact/` holds **TACT**, a method built on top of this reproduction and specified
-outside it (`~/Projekt/tact/method_draft_v2.md`). It reuses `wicer_core` and the
+in `docs/tact/method_draft_v2.md`. It reuses `wicer_core` and the
 benchmark runner unchanged, so its wikis are scored exactly like WiCER's, and it
 never modifies `wicer/`. Nothing TACT produces is a reproduction of the paper.
 
@@ -37,6 +37,23 @@ Its results go to `result-tact/` (`tact.get_profile()` points there; run the
 shared benchmark scripts with `WICER_RESULTS_DIR=result-tact`). The reproduction
 baseline it is compared against is `result-sweep/`, frozen at git tag
 `repro-sweep-2026-10-24`.
+
+**Milestone A** (no refinement loop yet): the claim ledger, the typed wiki
+rendered under an enforced budget, and the truncation baseline, scored on the
+sweep's held-out questions. Extraction needs only the API; the rest needs the
+reader's llama-server, because the budget is counted in its tokens.
+
+```bash
+export WICER_COMPILER_BACKEND=openrouter WICER_JUDGE_BACKEND=openrouter
+export WICER_COMPILER_MODEL=anthropic/claude-haiku-5.5 WICER_JUDGE_MODEL=anthropic/claude-haiku-5.5
+T=local_economy
+python -m tact.run extract  --topic $T                      # ~$1/topic at effort=high
+python -m tact.run render   --topic $T --name tact_iter0 --rho 0.1
+python -m tact.run render   --topic $T --name tact_full  --rho 0
+python -m tact.run truncate --topic $T
+for c in tact_iter0 tact_full truncate; do python -m tact.run score --topic $T --condition $c; done
+python -m tact.run compare  --topic $T
+```
 
 ## Quick start (no GPU, no API key, no downloads)
 
