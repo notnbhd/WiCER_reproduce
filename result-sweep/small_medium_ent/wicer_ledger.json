@@ -1,0 +1,183 @@
+{
+  "topic": "small_medium_ent",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.1375,
+  "blind_probe_mean": 3.1,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 3.1,
+      "probe_score_1_pct": 21.25,
+      "n_failures": 17,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 11192,
+      "wiki_tokens": 19048,
+      "actual_ratio_words": 0.16033924529383112,
+      "actual_ratio_tokens": 0.2103380116829912,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.1375,
+      "probe_score_1_pct": 15.0,
+      "n_failures": 12,
+      "n_pinned_facts": 17,
+      "pinned_words": 1516,
+      "wiki_words": 12619,
+      "wiki_tokens": 22157,
+      "actual_ratio_words": 0.180782785593536,
+      "actual_ratio_tokens": 0.24466922117072848,
+      "n_preserved_found": 8,
+      "preservation_rate": 0.47058823529411764,
+      "improvement": 0.012096774193548416,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "amjdzcdc",
+      "question_id": "amjdzcdc-q3",
+      "text": "- BioWares: \"a UK-based eco-friendly packaging company founded by Emily Clarke.\"\n- Its distribution basis: \"By establishing partnerships with reliable distributors across Europe and investing in scalable logistics solutions, Clarke ensured that BioWares' expansion, starting from early 2024, was smooth and customercentric.\"\n- The only regulatory passage is about Caf\u00e9 Do Sol, a Brazilian coffee chain led by Paulo Santos, which \"navigated the regulatory environment with ease\" when exporting from late 2024, benefiting from bilateral trade agreements, reduced tariffs, and support initiatives.\n- No passage describes BioWares responding to regulatory change, pivoting, or altering distribution under new rules.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bgyxfzpf",
+      "question_id": "bgyxfzpf-q3",
+      "text": "The source document contains no information about how SMEs balance cybersecurity costs against budget constraints. It does not mention a 70% reduction in breach-related costs, Cybersecurity Ventures, CyberSolutionsX customizable security packages, AuditSafe semi-annual audits, or cloud-based security cost savings. Its only cost-related remarks concern vendors' claims: CompliSpace clients \"report significant time and cost savings on compliance activities,\" and the toolkit \"is not exhaustive but provides a solid foundation.\" The document's ten tools (EDR, CASBs, automated compliance tools, NGFWs, AI-based phishing detection, MDM, SIEM, blockchain, passwordless authentication, awareness training) are listed without any budgeting or pricing analysis, so the question is",
+      "iteration": 0
+    },
+    {
+      "document_id": "dxxbfllu",
+      "question_id": "dxxbfllu-q4",
+      "text": "Alex Schmidt, initiator of a successful crowdfunding campaign for EduTech for Good, was interviewed on January 9, 2024. Alex stated: \"Crowdfunding tapped into the collective goodwill of the community. It wasn't just about funds, but about validating our mission with the public's support.\" The document then says: \"a successful crowdfunding campaign demands a compelling narrative and robust marketing skills, and even with these in place, there's no guarantee of reaching the set financial target.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "igfdccab",
+      "question_id": "igfdccab-q5",
+      "text": "Lisa-Marie Chung, identified in the source as \"LisaMarie Chung, a social media strategist,\" opines on March 20, 2023: \"It's not about how much you spend anymore; it's how well you connect with your audience. That's where smaller businesses can really shine.\" The preceding paragraph states that social media, content marketing, and targeted advertising have leveled the playing field, \"where creativity and relevance can outshine sheer advertising spend.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "igqlzlhc",
+      "question_id": "igqlzlhc-q5",
+      "text": "The document does not mention any challenges of CRM integration. Its only CRM implementation detail is: \"The implementation phase included training the team, inputting data into our CRM, and going through a meticulous process to ensure that our online storefront mirrored the quality of our physical one.\" The CRM was chosen after research and consultation with Alexis Brown, a renowned digital strategist, by October 10th, 2023, and the systems went live on November 15th. The document describes the CRM as providing \"invaluable insights into customer behaviors, allowing for personalized communication and offers.\" The \"SME Data Toolbench\" and any 40% year-over-year",
+      "iteration": 0
+    },
+    {
+      "document_id": "iniczyve",
+      "question_id": "iniczyve-q2",
+      "text": "Section 5, \"Customized Career Roadmaps\": \"Understanding that career development is not a one-size-fits-all process, SMEs like a progressive software house in San Francisco are creating personalized career roadmaps. Their HR director, Emily Wong, revealed in a press release dated February 10, 2024, that these roadmaps guide employees through specialized tracks that align with their interests and the company's needs, leading to more fulfilled and motivated staff.\"\n\nThe \"Wellness Packages\" with gym memberships, mental health days, and on-site childcare does not appear in the source document. Green Innovations is not mentioned anywhere in it.",
+      "iteration": 0
+    },
+    {
+      "document_id": "khayahox",
+      "question_id": "khayahox-q5",
+      "text": "The document does not address data privacy management. It never mentions GDPR, CCPA, encryption, data audits, or customer opt-out options. Its only security-related content is the Cybersecurity section: \"Reports of data breaches have prompted local firms to invest in robust cybersecurity measures to protect sensitive information.\" Consultant Emily Nguyen, who hosted a seminar for local businesses on November 15, 2023, stresses \"having a layered security approach to safeguard against potential cyber attacks.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "kwwahias",
+      "question_id": "kwwahias-q2",
+      "text": "Section 2, \"Market Penetration and Diversification\": Marketing guru David Zhao emphasizes the significance of not just reaching more customers in existing markets but also the diversification of offerings. On November 3, 2023, at the Global SME Summit, Zhao outlined how expanding the product line or altering services to address untapped markets can lead to substantial growth without the need to start from scratch in unfamiliar territories.",
+      "iteration": 0
+    },
+    {
+      "document_id": "mjhbaeaw",
+      "question_id": "mjhbaeaw-q4",
+      "text": "The source document never mentions GreenPack, EduTech Solutions, HealthMatch, Clean Energy Co, Sincerely Sustainable, or AgroConnect, and it contains no mention of CSR, triple bottom line, impact investors, or GreenPack reforestation. The case studies it does contain are Rustic Weaves (Julia Carter, Arcadia, reinvests 70% of profits in artisan communities, 500+ artisans across 5 countries by April 2024), Green Harvest Co-op (Noah Lee, founded December 8, 2023, farmers bypass middlemen, training in organic farming), Luminosity (Sanjeev Agarwal and Maria Gonzalez, January 15, 2024, Austin, solar for low-income households, over 2,000 homes by June 2024), BookBright (Chinedu Okorie, Lagos, mobile libraries),",
+      "iteration": 0
+    },
+    {
+      "document_id": "mvzwfjvk",
+      "question_id": "mvzwfjvk-q4",
+      "text": "The document never mentions niche industries. It addresses SMEs in general and lists the regulatory areas that typically concern most SMEs \"regardless of industry.\" The only environmental measure it names is the EPA's guidelines of August 25, 2023, targeting waste management practices in SMEs. The \"Green SME Act of 2023\" and \"EcoFurnish\" do not appear anywhere in the document. The document also says the 17% rise in new regulations was reported by the SME Regulatory Affairs Council on September 15, 2023, and that 30% of SMEs in a September 2023 survey named multi-jurisdiction variance as their greatest compliance hurdle.",
+      "iteration": 0
+    },
+    {
+      "document_id": "swrrajai",
+      "question_id": "swrrajai-q5",
+      "text": "Maria Gomez, described as a supply chain strategist, led a major study on decentralization benefits for SMEs, published March 15, 2024. The document's section \"The Geographic Decentralization Trend\" states: \"Companies are increasingly turning to geographic decentralization to mitigate risks. Diversifying one's supplier base can protect SMEs from region-specific disruptions, asserts supply chain strategist Maria Gomez, who led a major study on decentralization benefits for SMEs, published March 15, 2024. Nevertheless, this strategy isn't without its challenges, such as increased need for coordination and potential cultural barriers.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "uqbfsgym",
+      "question_id": "uqbfsgym-q1",
+      "text": "On September 15, 2023, business growth consultant Emma Gonzalez highlighted that \"Growth for the sake of growth can be detrimental. Ensure your SME has a solid foundation, with a clear business model and strong management team before considering scaling up.\" This appears under the section \"Understanding the Growth Lifecycle,\" which says that before SMEs initiate a scaling strategy, it is vital to understand their growth lifecycle and readiness for expansion. The lifecycle stages are the development, startup, growth, and maturity phases.",
+      "iteration": 0
+    },
+    {
+      "document_id": "uyjsmwur",
+      "question_id": "uyjsmwur-q4",
+      "text": "The source states: \"The transformative power of social media platforms has been especially evident since September 1, 2023, as businesses harness novel online strategies to scale operations, enhance customer engagement, and amplify brand awareness.\" The opening paragraph, titled \"Leveraging Social Media for SME Growth: Innovative Strategies for the Modern Business Landscape,\" is where this date and the transformative shift appear. The later sections on content, community, analytics, advertising, influencers, ephemeral content, customer service, and continuous learning do not mention September 1, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vnzxxvgr",
+      "question_id": "vnzxxvgr-q5",
+      "text": "- Survey conducted in February 2024: \"73% of respondents were more likely to trust and stay loyal to SMEs that demonstrate a commitment to environmental conservation.\" This is the only consumer statistic in the document, and it concerns trust and loyalty, not adoption of green innovation. - Eliza Montgomery (Green Roots Co.): \"Customers today aren't just looking at price tags; they're examining the carbon footprint and sustainability of what they buy.\" - Marketing specialist Leo Thompson: SMEs that are transparent about green efforts \"connect better with eco-conscious customers.\" - The document never mentions a \"Green Innovator's Challenge\" or any October",
+      "iteration": 0
+    },
+    {
+      "document_id": "wucufafz",
+      "question_id": "wucufafz-q4",
+      "text": "Under the heading \"Social Media and E-commerce Integration,\" the document states: \"Li Qiang understood the necessity of adaptable marketing in order to maintain relevance with his craft, utilizing social media platforms to share stories about his textiles, the people who produced them and their cultural significance.\" This passage is the sole source for the social media strategy. It sits in the section covering the period when Thousand Hues Textiles launched across multiple e-commerce spaces by late 2053, which was followed by narrative-driven marketplace expansion. The enterprise is Thousand Hues Textiles, led by Li Qiang of Zhengzhou, Henan province.",
+      "iteration": 0
+    },
+    {
+      "document_id": "yrgntjru",
+      "question_id": "yrgntjru-q4",
+      "text": "The document never mentions \"local community presence\" or any local community effects of virtual marketplaces; it addresses global and cross-border reach instead. The assistant's cited figures do not appear in the source. The \"SME Digital Strategy Forum (January 15, 2024)\" does exist, but it is tied to Rebecca Huerta, founder of GreenTouch, who said \"Choosing Etsy as our initial virtual marketplace aligned perfectly with our brand ethos and attracted the right demographic.\" Alex Chen spoke at the \"Virtual Marketplace Mastery\" boot camp on February 22, 2024, and said \"Success on these platforms is not coincidental; it's the result of meticulous",
+      "iteration": 0
+    },
+    {
+      "document_id": "zodaouyh",
+      "question_id": "zodaouyh-q2",
+      "text": "The document does not address how diversification affects SME financial stability over the long term, and it contains no \"Global SME Alliance\" report, no \"October 15, 2023\" finding, and no statistic that diversifying SMEs are 35% more likely to report stable or increased profits during downturns. The only diversification content is in the section \"Building Resilience Through Diversification,\" which covers diversifying supply sources and, more briefly, expanding into new market segments or product lines to find \"alternative revenue streams\" that \"helped sustain them when their core business segments were under pressure.\" Keller's example concerns an automotive parts manufacturer that avoided",
+      "iteration": 0
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 156,
+      "cache_hits": 4,
+      "parse_failures": 0,
+      "input_tokens": 55611,
+      "output_tokens": 23018,
+      "estimated_cost_usd": 0.5121,
+      "measured_cost_usd": 0.01707,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 1,
+      "input_tokens": 160829,
+      "cache_read_tokens": 156358,
+      "output_tokens": 53282,
+      "estimated_cost_usd": 1.3286,
+      "measured_cost_usd": 0.143258,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 17,
+      "input_tokens": 41340,
+      "output_tokens": 5546,
+      "estimated_cost_usd": 0.2072,
+      "measured_cost_usd": 0.006907,
+      "cost_source": "openrouter"
+    }
+  }
+}

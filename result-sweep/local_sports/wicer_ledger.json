@@ -1,0 +1,207 @@
+{
+  "topic": "local_sports",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.3,
+  "blind_probe_mean": 3.0125,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 3.0125,
+      "probe_score_1_pct": 26.25,
+      "n_failures": 21,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 9135,
+      "wiki_tokens": 15168,
+      "actual_ratio_words": 0.1280757097791798,
+      "actual_ratio_tokens": 0.16400320048439765,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.3,
+      "probe_score_1_pct": 13.75,
+      "n_failures": 11,
+      "n_pinned_facts": 21,
+      "pinned_words": 1872,
+      "wiki_words": 10909,
+      "wiki_tokens": 18171,
+      "actual_ratio_words": 0.1529477742726954,
+      "actual_ratio_tokens": 0.196472979694224,
+      "n_preserved_found": 11,
+      "preservation_rate": 0.5238095238095238,
+      "improvement": 0.09543568464730279,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "dhlualza",
+      "question_id": "dhlualza-q4",
+      "text": "Rainbow Six Siege event: 'Sledgehammer Slamboree', held October 26th. The document states: \"Rainbow Six Siege's 'Sledgehammer Slamboree' saw action on October 26th.\" It is the Rainbow Six Siege event, and it is where pro player 'FatalFlank' was cemented as a standout. 'The Defuse-a-Palooza' is a different event, the CS:GO extravaganza held September 29th, and must not be confused with the Rainbow Six Siege event.",
+      "iteration": 0
+    },
+    {
+      "document_id": "fekbzqor",
+      "question_id": "fekbzqor-q4",
+      "text": "The question asks about mental health effects of outdoor versus indoor workouts, and the document contains no such claim. Its facts are limited to descriptions of outdoor yoga and fitness classes in city parks, with no mention of mood, stress, self-esteem, cortisol, or cognitive function. The only relevant lines are its general framing: instructors moved classes outdoors \"with an increased awareness of the benefits of fresh air and natural surroundings\" (Emily Parker, 'Breathe & Stretch', 'Sunrise Salutations' from September 3, 2023), and the closing claim that outdoor classes \"blend...social interaction, fitness, and the outdoors.\" Neither addresses mental health outcomes or",
+      "iteration": 0
+    },
+    {
+      "document_id": "fkgsolpo",
+      "question_id": "fkgsolpo-q5",
+      "text": "The document does not name any cohesion factors for amateur teams. Its only stated common thread is youth talent: \"the youth talent that has become the driving force behind their success.\" It names none of the following: Westbrook Warriors, Westside Warriors, Riverside Rowers, Springfield Falcons, Hoop Dreamers, Community Basketball League, South Valley Community College, Coach Bill Torres, or Coach Jonathan Edwards. The teams present are the Riverdale Runners (Jane Holloway), Jefferson Jaguars (Hector Ramirez), Madison Mavericks (Luisa Gomez), Twin Lakes Rowing Club, Westwood Warriors (Anita Singh), and Carmel Cyclones (Rebecca Torres). Team spirit, leadership, community fundraising, and inclusivity are not",
+      "iteration": 0
+    },
+    {
+      "document_id": "fvqqkxbj",
+      "question_id": "fvqqkxbj-q4",
+      "text": "- The local bowling league is \"The Gutter Gang.\"\n- Fred \"Strike King\" Harris is the league member showcased in that paragraph.\n- The source states he \"believes in the magic of his wristband to an extent that would suggest it was woven by the ancient gods of kegling.\"\n- The superstition is tied to his wristband, not to any team name or trophy.\n- \"Spare Me the Drama\" and \"Pin Pals\" are separate bowling teams competing for a trophy, and are not linked to Fred Harris's belief.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gvxzpvct",
+      "question_id": "gvxzpvct-q4",
+      "text": "Under the section \"Fashionably Fit: The Aesthetic of Athletics,\" the document states: \"In the latest fashion, people wear their fitness trackers not only for form or function but as a statement. If your wearable doesn't match your yoga pants, then darling, you're just not part of the fit fam.\" It then introduces Tim Toned, a budding influencer and 'fit-tech' connoisseur, who pioneered \"jogging jewelry\" on October 2nd, with an ensemble of \"meticulously coordinated wearables\" that captured many locals' hearts, minds, and insecure wrists.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jresghiu",
+      "question_id": "jresghiu-q5",
+      "text": "- The Regional Athletic Commission reported on October 15, 2023 a \"20% decrease in sportsrelated injuries amongst athletes who participate in cross-training exercises.\" No source is named for this figure beyond that commission, and the document has no sections numbered. - The document contains no University of Health and Sport study, no October 3, 2023 date tied to a study, and no figures of 22% lower injury likelihood or a 15% endurance increase. - Other quantified or dated items are unrelated to socioeconomic impact: Dr. Emily Thompson's November 12, 2023 seminar on motivation and burnout, and the \"Fit for All\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ljjwfwdo",
+      "question_id": "ljjwfwdo-q4",
+      "text": "The document does not address psychological plateaus, motivation, or burnout. Its only stated benefits of cross-training are: - Oct 3, 2023 study by the University of Health and Sport: cross-trainers were \"22% less likely to incur sports-related injuries\" and showed \"a 15% increase in overall endurance.\" - Dr. Emily Richards: cross-training increases \"aerobic capacity, agility, balance, and mental resilience.\" - Coach Michael Thompson: it \"reduces the risk of injury by creating a balance between muscle groups.\" - Lisa Rodriguez (23-year-old triathlete): noticed improved \"concentration during competitions.\" The document has no numbered sections, and no section 30 or \"Cross-Training for Fitness",
+      "iteration": 0
+    },
+    {
+      "document_id": "ljyxptry",
+      "question_id": "ljyxptry-q1",
+      "text": "The document states that in recent years the landscape of health and wellness in the local community has undergone a significant transformation, with the integration of nutrition into fitness regimes becoming a game-changer in the pursuit of holistic health. Health clubs across the district now recognize that the synergy between exercise and nutrition is fundamental to optimal health outcomes. Supporting detail: since September 2023 local clubs have remodelled to add nutrition counseling spaces (e.g., \"Vitality Hub\" completed its nutrition suite by mid-October); nutritionists and dietitians have joined staff; clubs offer nutrition workshops, personalized nutrition plans, and nutrition-tracking apps (e.g., \"Fitness",
+      "iteration": 0
+    },
+    {
+      "document_id": "mojbauaw",
+      "question_id": "mojbauaw-q4",
+      "text": "Streaming Platforms: \"Choosing the right streaming platform, whether Twitch, YouTube, Facebook Gaming, or others, can affect the tournament's exposure. It's vital to consider the platform's features, audience base, and monetization options.\"\n\nProduction Software: \"Software such as OBS Studio or XSplit is typically used for mixing video feeds, adding overlays, and performing cuts between scenes.\" These tools are production software, not streaming platforms.",
+      "iteration": 0
+    },
+    {
+      "document_id": "nfpdibes",
+      "question_id": "nfpdibes-q5",
+      "text": "Under \"Seasons of Change: The Way forward\": \"As the autumn leaves fade and winter draws near, leagues are preparing to move indoors. They adapt seamlessly, showing a resilience inherent to Copenhagen's passion for community sports. Winter VolleyFest, scheduled for January 7, 2020, has already generated buzz. It promises a season of competition and warmth, quite literally.\"\n\nEarlier, under \"Embracing Technology and Innovation,\" the document states: \"Copenhagen's intramural teams are using technology to increase their appeal and improve organization.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "pgxpbqgu",
+      "question_id": "pgxpbqgu-q4",
+      "text": "Miguel's mother, Lucia Lopez, juggles work and her son's soccer calendar. Direct quote from her: \"It can be a lot,\" she admits. \"But seeing how much he loves it and how it's helping him grow makes it all worth it.\" Miguel Lopez is a twelve-year-old soccer player whose soccer journey began at age six. Teams train three to four days a week, with games or tournaments on weekends, which requires dedication from families as well as children.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pssdfmxm",
+      "question_id": "pssdfmxm-q5",
+      "text": "The document contains no discussion of how sports redirect youth from delinquency in general. Its only mention of delinquency concerns Tariq Hussein, a 16-year-old who had \"a brush with juvenile delinquency\" and then found \"his second chance soaring above a horizontal bar,\" clearing a personal record height of 2.20 meters on October 25, 2023. The text does not name a positive outlet, self-esteem, belonging, discipline, stress management, or life skills as mechanisms. It does not mention Dr. Angela Meiers, a 15% reduction in delinquency, or the Boys & Girls Club of Midtown. The other profiles (Maria Gonzales, Emma Carter, Jenna",
+      "iteration": 0
+    },
+    {
+      "document_id": "qcrghuyn",
+      "question_id": "qcrghuyn-q2",
+      "text": "Emily Stonerow, a local hiking enthusiast, offered workshops throughout late September to equip would-be hikers with necessary skills and gear. During a session held on September 24, 2023, she said: \"You need to pack light but also ensure you have enough supplies to stay safe and comfortable.\" The source then states: \"Water bottles, lightweight snacks, compasses, maps, and a basic first aid kit topped the list of essentials for a day out on the trails.\" It adds that emphasis was placed on dressing appropriately for the weather and wearing supportive footwear to avoid injuries.",
+      "iteration": 0
+    },
+    {
+      "document_id": "qxkpgdso",
+      "question_id": "qxkpgdso-q5",
+      "text": "- The document names only these upcoming or recent events: \"The Gauntlet\" (September 15, 2023, over 1,200 participants), the \"Ridge Runners Rampage\" (October 22, 2023), and the \"Endurance Elite\" (November 5, 2023). - The only terrain-related content is that races occur on \"our town's scenic trails and rugged terrains,\" with courses featuring \"mud pits, climbing walls, and barbed wire.\" - Outdoor racer Lily Chang \"suggests spending time on the trails where the race will occur,\" framed as training advice, not impact. - Organizers named are Chris Norton (\"Ultimate Challenge\"), who reported \"a doubling of registrants since last year.\" - No",
+      "iteration": 0
+    },
+    {
+      "document_id": "rimrhgxn",
+      "question_id": "rimrhgxn-q3",
+      "text": "Kaitlyn Turner, yoga instructor and certified yoga practitioner with over a decade of experience, underscores the physiological benefits of practicing yoga outdoors. She says: \"Your body starts to marry with the rhythm of nature,\" and \"there's this profound sense of harmony that permeates your practice.\" On yoga days she elaborates on natural settings amplifying benefits: \"Vitamin D from the morning sunlight, for instance, not just strengthens your bones but also uplifts your spirit.\" Separately, the document attributes the cortisol-lowering point about green spaces to Dr. Amy Grantham, not to Turner.",
+      "iteration": 0
+    },
+    {
+      "document_id": "shkrsrwf",
+      "question_id": "shkrsrwf-q5",
+      "text": "The document contains no section numbered 58 and no numbered sections at all. It is a single essay headed \"A Day at the Senior Olympics - Embracing Age Through Athleticism,\" held on Saturday, September 9th, 2023, at the Greenway Sports Complex. Its only statement about wellbeing comes from one athlete: Elaine Thompson, 76, said swimming every morning \"had not only kept her body in shape but also provided her with a close-knit community of friends.\" James \"Jim\" Keller, 82, won a gold medal in the 100-meter dash and said, \"It's not about age; it's about mindset.\" Neither quote makes a",
+      "iteration": 0
+    },
+    {
+      "document_id": "suhykphz",
+      "question_id": "suhykphz-q3",
+      "text": "- The document says amateur teams \"form the heart and soul of neighborhoods and contribute significantly to their socio-cultural fabric.\" - Sports events \"provide an informal, often informal, gathering spot where generations mix, friendships are formed, and local identities are strengthened.\" - Jessica Lowe, a Cliffton Crusaders fan (April 8, 2024): \"I've met some of my closest friends at these games.\" - Simone Richards, local business owner and sponsor (March 15, 2024): \"The derby doesn't just draw a crowd, it stimulates our economy.\" - Teams named in the document: Roseville Ravens, Westside Warriors, Lakeside Lakers, Eastwood Tigers, Cliffton Crusaders. -",
+      "iteration": 0
+    },
+    {
+      "document_id": "tdqieoeh",
+      "question_id": "tdqieoeh-q3",
+      "text": "Lincoln Lions, a local high school soccer team, raised over $5,000 within a month in October 2023 for their tournament in a different state. Guided by Coach Martin Sanders, they created a compelling video that showcased the team's spirit, commitment, and need, which resonated well with potential donors who reside beyond their local community. The campaign used crowdfunding sites such as GoFundMe and Kickstarter.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vqtklytv",
+      "question_id": "vqtklytv-q1",
+      "text": "Volunteers are described under \"Community and Sponsorship: The Lifeblood of Local Events\": \"Volunteers are the unsung heroes who man the stations, hand out water, and cheer on racers.\" Keller adds, \"Our call for volunteers was met with an overwhelming response,\" noting \"high school teams, local sports clubs, and families all wanting to get involved.\" The source does not assign volunteers any \"safety expert\" or \"setup\" role. Those titles belong to other people: Dr. Amira Shah and the medical tent on Nov 20, 2023 do not appear in the document, and James Harris of Harris & Sons handles obstacle construction, with",
+      "iteration": 0
+    },
+    {
+      "document_id": "yrfgvbjc",
+      "question_id": "yrfgvbjc-q1",
+      "text": "Dr. Linda Carter, a renowned physical therapist, introduced a comprehensive workout regime tailored specifically for esports athletes on February 2, 2024. The source states: \"It became clear that mere in-game training was insufficient. A combination of physical exercises to improve reflexes, mental health consultations to bolster psychological resilience, and dietary plans to enhance cognitive function marked a new era in esports training.\"\n\nThe Alex \"Jazzy\" Thompson detail (League of Legends, February 2, 2024 date) is not linked to Carter in the source and is not the regime's content.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ztyqszup",
+      "question_id": "ztyqszup-q5",
+      "text": "The source passage in the \"Building the Hype and Preparing for Victory\" section states: \"Strategic partnerships with tech giants, engaging social media campaigns, and interactivity with fanbases are among the array of tools utilized to amplify the tournaments' appeal.\" It then quotes social media strategist Ryan O'Connell: \"It's a 360-degree approach,\" remarks social media strategist, Ryan O'Connell. \"We work to make each event a narrative of its own, building anticipation and crafting an esports storyline that is every bit as engaging as traditional sports.\"",
+      "iteration": 0
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 155,
+      "cache_hits": 5,
+      "parse_failures": 0,
+      "input_tokens": 52577,
+      "output_tokens": 21882,
+      "estimated_cost_usd": 0.486,
+      "measured_cost_usd": 0.016199,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 1,
+      "input_tokens": 159211,
+      "cache_read_tokens": 153856,
+      "output_tokens": 48034,
+      "estimated_cost_usd": 1.2443,
+      "measured_cost_usd": 0.130455,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 21,
+      "input_tokens": 50871,
+      "output_tokens": 7176,
+      "estimated_cost_usd": 0.2603,
+      "measured_cost_usd": 0.008675,
+      "cost_source": "openrouter"
+    }
+  }
+}

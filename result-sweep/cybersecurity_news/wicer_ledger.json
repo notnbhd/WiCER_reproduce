@@ -1,0 +1,129 @@
+{
+  "topic": "cybersecurity_news",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.3,
+  "blind_probe_mean": 3.1,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 3.1,
+      "probe_score_1_pct": 10.0,
+      "n_failures": 8,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 14836,
+      "wiki_tokens": 26290,
+      "actual_ratio_words": 0.2092495169320602,
+      "actual_ratio_tokens": 0.28970016198525605,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.3,
+      "probe_score_1_pct": 11.25,
+      "n_failures": 9,
+      "n_pinned_facts": 8,
+      "pinned_words": 748,
+      "wiki_words": 10550,
+      "wiki_tokens": 17706,
+      "actual_ratio_words": 0.14879902963286837,
+      "actual_ratio_tokens": 0.1951095879844406,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.06451612903225798,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "ahsraaju",
+      "question_id": "ahsraaju-q3",
+      "text": "The document does not mention quantum computing, RSA, or encryption breaking. Its threat discussion covers 5G decentralization and network slicing (Kevin Rhodes, SecureNet Solutions), AI-driven defense (Anita Garza, Cyber AI Project, December 1, 2023), and IoT vulnerabilities (Aaron Lu, Smart Security Conference, January 2024). The \"Dr. Rebecca Shor\" and \"Quantum Tech Summit in New York\" attributed to the reference do not appear anywhere in the document. The only Dec 2023 date tied to a speaker is Garza's on December 1, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "apseciiw",
+      "question_id": "apseciiw-q3",
+      "text": "The document contains no data on educational outcomes such as grades, achievement, or test scores. Its closest relevant facts are: - West Haven High School (Connecticut) suffered a ransomware attack on October 12, 2023 that left students and faculty unable to access essential learning materials for days. - Network infrastructure safeguards students' personal data and academic records. - The National Cybersecurity Teaching Institute launched a teacher-skills initiative on February 15, 2024. None of the following appear in the document: Midlands Education Network, the 200,000 breach figure, the 85% digital-tools statistic, the $2 million Lexington ransomware cost, CyberSmart, Pauline Gomez, CETAP,",
+      "iteration": 0
+    },
+    {
+      "document_id": "ctrcaqqs",
+      "question_id": "ctrcaqqs-q4",
+      "text": "The source states: \"Human error remained a persistent vulnerability. Training programs for teachers, students, and staff became a fundamental component of cybersecurity initiatives. Campaigns such as 'Think Before You Click,' launched on January 15, 2024, aimed to educate school communities on the importance of strong passwords, recognizing phishing attempts, and the safe handling of sensitive information.\" The campaign is not attributed to the Academic Cybersecurity Coalition. The ACC was formed on December 8, 2023, and is described only as a collaboration and information-sharing network for institutions to share threat information. The source never links the ACC to the Think Before",
+      "iteration": 0
+    },
+    {
+      "document_id": "eqxldcqx",
+      "question_id": "eqxldcqx-q1",
+      "text": "The sentence that answers the question: \"As we entered the digital renaissance for financial corporations after September 1, 2023, the roller coaster of advancing cyber threats and the corresponding rise in cyber insurance took center stage.\" This is the paragraph titled \"The Shifting Ground of Financial Cybersecurity Insurance,\" which opens the document. The same paragraph states that the growing dependence on digital transactions and virtual operations \"has unequivocally widened the attack surfaces for malicious actors.\" Later dates in the document (October 10, 2023 interview with Michael Richardson; November 15, 2023 Sentinel Financial breach disclosure) are separate events and do not",
+      "iteration": 0
+    },
+    {
+      "document_id": "ieehiqve",
+      "question_id": "ieehiqve-q3",
+      "text": "Source passage: \"Real-Time Attack Reflexes of AI\" section. Dr. Chase's models were instrumental in quickly detecting an attempt at zero-day vulnerability exploit against a financial institution in Chicago in November 2023, which would otherwise have resulted in catastrophic data breach if left undetected by human operators. The same section states that AI systems excel at quickly responding to modern cybersecurity threats where delays could spell disaster. The compiled wiki omitted this November 2023 incident; the only dated AI-system event it retained was SentinelAI's routine starting on Sept 3, 2023, which is not in the source document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "mzllirrg",
+      "question_id": "mzllirrg-q4",
+      "text": "Facts from the source needed for the correct answer:\n\n- Section \"The Human Element: Training and Awareness\": \"Regular training sessions on recognizing and responding to phishing attempts, password hygiene, and the proper use of company resources are non-negotiable components of a modern remote work policy.\"\n- This is attributed to the document's general discussion, not to a named speaker.\n- The HR Director quoted in that section is Sandra Pike of Nimbus Enterprises, dated November 3, 2023: \"Our employees are the first line of defense. Empower them with knowledge, and you fortify your cyber walls.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ohnfysdy",
+      "question_id": "ohnfysdy-q2",
+      "text": "The source says that in response to the International Cybersecurity Consortium (ICC)'s call to action, over 120 countries volunteered their National Cybersecurity Strategies for scrutiny. Among these, \"the strategies put forth by Norway, Singapore, and Canada were applauded for their forward-looking approaches and comprehensive scope.\" The ICC-led review was launched on September 15, 2023, and General Paul Anderson led the ICC's assessment team. The ICC is the International Cybersecurity Consortium, not the International Chamber of Commerce.",
+      "iteration": 0
+    },
+    {
+      "document_id": "shfhpjyb",
+      "question_id": "shfhpjyb-q5",
+      "text": "The document never mentions a \"TechnoSecure\" survey, any October 5, 2023 date, or any statistic that 85% of respondents experienced an IoT security incident. Its only passage on consumer education reads: \"Consumer education is also a critical element in protecting IoT ecosystems. Many users are unaware of the potential risks associated with IoT devices and therefore may not prioritize security when using these devices. Cybersecurity outreach programs have increased in prevalence since late 2023, aiming to educate the public on maintaining strong security hygiene when operating connected devices.\" The document offers no measure of whether these efforts are adequate, so",
+      "iteration": 0
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 156,
+      "cache_hits": 4,
+      "parse_failures": 0,
+      "input_tokens": 57228,
+      "output_tokens": 25445,
+      "estimated_cost_usd": 0.5534,
+      "measured_cost_usd": 0.018445,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 1,
+      "input_tokens": 162439,
+      "cache_read_tokens": 159894,
+      "output_tokens": 44476,
+      "estimated_cost_usd": 1.2024,
+      "measured_cost_usd": 0.120457,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 8,
+      "input_tokens": 20106,
+      "output_tokens": 2348,
+      "estimated_cost_usd": 0.0955,
+      "measured_cost_usd": 0.003185,
+      "cost_source": "openrouter"
+    }
+  }
+}

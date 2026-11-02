@@ -1,0 +1,195 @@
+{
+  "topic": "neighborhood",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 2.9375,
+  "blind_probe_mean": 2.7875,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.7875,
+      "probe_score_1_pct": 23.75,
+      "n_failures": 19,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 10935,
+      "wiki_tokens": 17262,
+      "actual_ratio_words": 0.15672026829478028,
+      "actual_ratio_tokens": 0.19066027524354415,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 2.9375,
+      "probe_score_1_pct": 20.0,
+      "n_failures": 16,
+      "n_pinned_facts": 19,
+      "pinned_words": 1615,
+      "wiki_words": 10396,
+      "wiki_tokens": 17324,
+      "actual_ratio_words": 0.14899532777252272,
+      "actual_ratio_tokens": 0.1913450705780998,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.05381165919282508,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "ayihnijq",
+      "question_id": "ayihnijq-q5",
+      "text": "The festivities begin on September 22, 2023, which is the date the assistant wrongly gave as the start. The source sentence reads: \"On September 22, 2023, traditions firmly continued. Familial abrazos--hugs filled with affection and unity--mark the start of reunion festivities, followed by laughter erupting off painted walls as cousins, nieces, and nephews share anecdotes and dreams to enrich family tapestries further.\" The start is marked by the abrazos, not by a date. The September 22 date is a separate detail, and the document does not say the festivities begin on it. The reunion is set against Mexico City, with",
+      "iteration": 0
+    },
+    {
+      "document_id": "dlmsqlih",
+      "question_id": "dlmsqlih-q5",
+      "text": "The compiled wiki dropped the paragraph under \"Matching Volunteer Skills with Community Needs.\" The source states: \"The skill-need gap in volunteer work often goes unnoticed.\" It gives the example that there may be a substantial need for legal guidance within non-profit ventures, but typically a scarcity of legal professionals in the volunteer pool. It then says: \"Initiating a program where professionals could be matched with volunteer opportunities aligning with their expertise, as proposed on March 4, 2024, by local attorney David Kim, would make for efficient and effective use of human capital within the community.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "hcwtmusd",
+      "question_id": "hcwtmusd-q1",
+      "text": "Sociologist Adrienne Keller, a sociologist specializing in adolescent behavior, is quoted: \"Since early 2021, we've witnessed a 20% uptick in minor delinquency cases ranging from vandalism to truancy.\" The specific behavioral issues named are vandalism and truancy. The 20% figure is the overall rise in minor delinquency cases, and the list of behaviors is given in the same quote. Michael Thompson's remark about teens resorting to mischief without structure is a separate general statement and does not name specific behaviors.",
+      "iteration": 0
+    },
+    {
+      "document_id": "hhbyprht",
+      "question_id": "hhbyprht-q5",
+      "text": "- Psychology section: \"The shift isn't purely emotional; psychology plays a pivotal role.\" No coping strategies are named. - Dr. Emily Larson, psychologist who specializes in workplace behavior: \"The decision to pivot is as much about personal growth as it is about professional development.\" She describes clients feeling \"trapped or stagnant,\" but offers no coping method. - Overcoming Obstacles: the initial phase \"can be laden with financial strain and self-doubt. The emotional toll cannot be underestimated either.\" - Patrick O'Malley, 52: \"You go from feeling like an expert to a novice overnight.\" - The Role of Networks: \"A strong support",
+      "iteration": 0
+    },
+    {
+      "document_id": "ikkqnrbu",
+      "question_id": "ikkqnrbu-q5",
+      "text": "The document's only gender-related statistic concerns corporate boards, not small business success rates. Market researcher Amanda Jones, in an October 2023 report, found that \"companies with gender-diverse boards were 15% more likely to outperform their competitors.\" The text then says diverse corporations \"often support small businesses through outsourcing, procurement, and partnerships,\" but gives no figure or evidence on small business success rates. No local small business success measure is linked to gender diversity.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jvsfvbhk",
+      "question_id": "jvsfvbhk-q5",
+      "text": "The Economic Tides Shift section states: \"The recession of 2008 resulted in a foreclosure epidemic, yet it also presented opportunities for investors to sweep in and acquire properties at low prices, later renting them at much higher rates as the economy recovered.\" The section heading is \"The Economic Tides Shift,\" and the passage also notes that rising interest rates since September 2025 have exacerbated conditions for potential homebuyers.",
+      "iteration": 0
+    },
+    {
+      "document_id": "lpifbtil",
+      "question_id": "lpifbtil-q5",
+      "text": "The document never mentions cultural diversity, immigrants, or ethnic groups. It covers cultural initiatives in Eastbank as drivers of economic and social vibrancy. Its named initiatives are the old mill district arts and heritage site (January 2024), the \"Creators' Co-op\" (early February 2024), \"Riverfest,\" the \"Cultural Compass\" app (August 2024), \"Eastbank History Alive!\" (September 1, 2024), and the Cultural Reinvestment Fund. Its named people are Dr. Mara Elliot, a sociologist, and Mayor Claudia Thompson. The assistant's named individuals and initiatives (Gianna Ricci, Arun Patel, Maria Gonzalez, the Petersons, Nneka Eze, \"Community Cup,\" \"Mosaic Film Festival,\" and others) do not appear.",
+      "iteration": 0
+    },
+    {
+      "document_id": "mpcpcpxj",
+      "question_id": "mpcpcpxj-q5",
+      "text": "The document contains no statement on property values. The only economic point about heritage is that Philip Barnett's \"Engaging Communities in Cultural Conservation\" section says residents harnessing \"the economic potential of their neighborhoods through tourism and cultural events\" makes \"the incentive for maintaining architectural heritage only grows stronger.\" No section titled \"Greening of Main Street\" or \"Economic Foundations of Preserving Our Past\" appears. The text never mentions Main Street, sustainability-driven value increases, or economic growth from preservation.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ojdilwra",
+      "question_id": "ojdilwra-q5",
+      "text": "The document's only shared endeavor is the volunteer restoration of St. Margaret's Church, which began with a town hall meeting on September 28, 2023, led by historian Charles Henley. Volunteers included Helen Smith, Jack Reynolds, Anna Petrov, and Michael Wong, and the unveiling was planned for April 15, 2024. The text says the project \"breathed life into our sense of togetherness\" and \"dismantled barriers\" across age, background, and belief. The Fernandez reunion, Tanaka Oshogatsu, Harmony Project, Multicultural Summer Fiesta, Greenbelt Movement 2024, and Mosaic Film Festival do not appear.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pwhgjpfg",
+      "question_id": "pwhgjpfg-q3",
+      "text": "The Amari family from Senegal arrived in 2027. The sentence in the \"Cultural Enrichment\" section reads: \"The arrival of the Amari family from Senegal in 2027 introduced us to vibrant West African music and art, while the Lius from Taiwan in September 2025 opened the doors to the world of East Asian cinema.\" The fact that the Amari family's arrival introduced vibrant West African music and art is stated directly in that same sentence, linked to the 2027 date.",
+      "iteration": 0
+    },
+    {
+      "document_id": "qxdfrcuh",
+      "question_id": "qxdfrcuh-q2",
+      "text": "Relevant facts from the source: - Section \"Nurturing a Compassionate Response\": local nurse Anita Singh underlines the need for a community-oriented response. \"Since the launch of 'Nurture Network' on December 1, 2023, Singh has seen firsthand the power of communal support.\" Her quote: \"It's about nurturing connections, be it support groups or peer mentors.\" Related but distinct items in the document (not the December 2023 initiative): The Beacon Project, started October 3, 2023 (Sarah Thompson); law enforcement training shifts after November 2023 (Officer Michael Rodriguez); school curriculum since January 2024; George Philips's funding work since February 2024. No \"Everhope Stories",
+      "iteration": 0
+    },
+    {
+      "document_id": "rgitgafe",
+      "question_id": "rgitgafe-q3",
+      "text": "George Martinez, a recent empty nester from Atlanta, had his last child depart in December 2023. That departure made him confront aspects of his identity he'd long neglected. He said, \"My kids were my world. When they left, it felt like I had to figure out who George was all over again.\" The source says nothing about rising drug offenses in his community or any college departure for him.",
+      "iteration": 0
+    },
+    {
+      "document_id": "rglkyekx",
+      "question_id": "rglkyekx-q5",
+      "text": "Relevant facts from the document: School district funding, which is partly dependent on headcounts, has taken \"an appreciable hit\" as students leave. Superintendent Ralph Davidson said in a November meeting, \"Our funding is decided by student attendance.\" Michael Anderson, owner of The Sweet Spot bakery, observed \"a dip in his late afternoon sales\" after students left, on a Wednesday in December. The document says the shift \"isn't just altering consumption patterns.\" It discusses no unemployment rates, household income figures, or degree-holder earnings.",
+      "iteration": 0
+    },
+    {
+      "document_id": "rhybkofy",
+      "question_id": "rhybkofy-q2",
+      "text": "Alice Johnson, a software developer at InnoTech Solutions, sat in the seminar room on September 15, 2023, opening her laptop and diving into unknown terms and concepts. Her direct quote: \"I felt out of place. But each time I managed to solve a problem or execute a function, it was victorious. I held on to those victories, no matter how small,\" she said. The doubts were palpable, but the determination was fiercer.",
+      "iteration": 0
+    },
+    {
+      "document_id": "tsdjamqw",
+      "question_id": "tsdjamqw-q3",
+      "text": "Community Health Workers (CHWs) act as bridges between healthcare systems and local populations, especially in underserved areas. Riverside recruited CHWs from within the community for its CHW program, initiated on November 5, 2023. Because they come from the community, healthcare advice comes from trusted individuals who understand the cultural and socioeconomic dynamics of their communities. The CHW component is listed under the \"Implementing Community Health Worker Programs\" section, which follows the Brookville Health Access Program (BHAP) summit of September 15, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ttahztke",
+      "question_id": "ttahztke-q5",
+      "text": "The source says that \"The Harmony Herald,\" as Roland Jacobs was affectionately known, \"was not merely admired for his artistry. His humble demeanor, coupled with an unassailable integrity, underscored the veracity of his messages of hope, unity, and perseverance.\" It adds that these principles were \"lived and breathed\" through \"his life and interactions with every soul he encountered.\" Mentoring of young artists and troubled youths and advocacy for arts in education are described in a separate section, \"Mentor of Melodies,\" and are not the trait the question asks about.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vzjkctea",
+      "question_id": "vzjkctea-q5",
+      "text": "The document contains none of the people or programs the answer cites. The Fernandez family, Dawson family, Tanaka family, \"Senior Smiles\" (Lydia Martinez), and \"Youth Forward\" (Malik Johnson) do not appear, and no \"Part I\" or \"Part VII\" sections exist. The only community support described concerns Sarah Jenkins, a 42-year-old librarian who trained for the September 15, 2023 community marathon. Local businesses sponsored her, and the local running club became her sanctuary. David Gonzalez, a seasoned marathoner and her mentor, inspired her start. Community \"affirmations and encouragement\" drowned out her self-doubt, and she completed a half-marathon on November 22, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wovvzbva",
+      "question_id": "wovvzbva-q2",
+      "text": "The Human Impact Index, developed by researchers at the Harvard Social Geography Department and released in a report on December 5, 2023, attempts to quantify the human cost of gentrification. \"Focusing on mental health, social displacement, and community fragmentation,\" the index suggests that for every point of economic growth attributed to gentrification, there could be a 0.4-point decline in social cohesion.",
+      "iteration": 0
+    },
+    {
+      "document_id": "yhnanqop",
+      "question_id": "yhnanqop-q2",
+      "text": "Facts from the source needed for this answer: - The stanza \"Behold the canvas shrouded in darkness, where stars twinkle and sing, / A mother, Sarah Johnston, to her chest a newborn she clings. / November's breeze, thrice welcomed, carried whimpers through the air, / Underneath the silver radiance of the moonlight's gentle glare.\" appears under the heading \"Midnight's Quiet Reverie.\" - The mother named in that stanza is Sarah Johnston; she is the one whose lullaby (the midnight song) is accompanied by November's breeze and the moonlight's gentle glare. - John Jefferson does not appear anywhere in the document.",
+      "iteration": 0
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 155,
+      "cache_hits": 5,
+      "parse_failures": 0,
+      "input_tokens": 53289,
+      "output_tokens": 21433,
+      "estimated_cost_usd": 0.4814,
+      "measured_cost_usd": 0.016045,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 1,
+      "input_tokens": 154390,
+      "cache_read_tokens": 149786,
+      "output_tokens": 45413,
+      "estimated_cost_usd": 1.1893,
+      "measured_cost_usd": 0.123324,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 19,
+      "input_tokens": 43255,
+      "output_tokens": 5566,
+      "estimated_cost_usd": 0.2133,
+      "measured_cost_usd": 0.007109,
+      "cost_source": "openrouter"
+    }
+  }
+}

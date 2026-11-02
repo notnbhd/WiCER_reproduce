@@ -1,0 +1,332 @@
+{
+  "topic": "incident_report",
+  "best_iteration": 2,
+  "best_wiki_name": "wicer_iter2",
+  "best_probe_mean": 3.0375,
+  "blind_probe_mean": 2.6,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.6,
+      "probe_score_1_pct": 26.25,
+      "n_failures": 21,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 8724,
+      "wiki_tokens": 14677,
+      "actual_ratio_words": 0.12454850453280034,
+      "actual_ratio_tokens": 0.16251619404059306,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 2.8875,
+      "probe_score_1_pct": 22.5,
+      "n_failures": 18,
+      "n_pinned_facts": 21,
+      "pinned_words": 1827,
+      "wiki_words": 14427,
+      "wiki_tokens": 22453,
+      "actual_ratio_words": 0.20596759226211722,
+      "actual_ratio_tokens": 0.24861866217847217,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.1105769230769231,
+      "stop": null
+    },
+    {
+      "iteration": 2,
+      "wiki_name": "wicer_iter2",
+      "probe_mean": 3.0375,
+      "probe_score_1_pct": 25.0,
+      "n_failures": 20,
+      "n_pinned_facts": 39,
+      "pinned_words": 3449,
+      "wiki_words": 12911,
+      "wiki_tokens": 19692,
+      "actual_ratio_words": 0.18432436290955814,
+      "actual_ratio_tokens": 0.21804652810842534,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.05194805194805192,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "azqkjwiu",
+      "question_id": "azqkjwiu-q2",
+      "text": "Facts from the source document: - The outage struck the metropolis on October 10, 2023, causing a substantial power and internet outage. - \"the Incident Commander, Samuel Hastings, faced the daunting reality\" as dawn broke over the city. - Within hours of the outage, \"Commander Hastings and his team had set up an Incident Command Post.\" - Later, \"Commander Hastings' team transitioned from assessment to action.\" - In the closing scene, \"Commander Hastings and Mayor Cartwright share an unspoken acknowledgment\" in the command center. - Other named roles (not the Incident Commander): Mayor Linda Cartwright; Alex Johnson, head of the",
+      "iteration": 0
+    },
+    {
+      "document_id": "bdhneiqj",
+      "question_id": "bdhneiqj-q4",
+      "text": "The document describes only one service disruption: a September 15, 2023 Metroville outage, which XYZ Telecom attributed to a severed underground cable during road construction. Some customers were restored within hours, others after two days. John Doe of Doe's Delicacies claimed nearly $1,000 in lost revenue. XYZ Telecom's SLA promises 99.9% uptime, with credits capped at one month's service charge and requiring formal application. The Cyberspace Commission then began a review of XYZ Telecom's compliance. The document does not mention the other incidents, dates, or people in the assistant's list.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bhmvrlip",
+      "question_id": "bhmvrlip-q5",
+      "text": "Dr. Angela Martinez, on October 3rd, 2023, unveiled \"a pioneering AI-based diagnostic tool designed to predict and proactively address network vulnerabilities before they result in outages.\" Her tool \"employs machine learning algorithms to monitor network health, assess risks, and suggest real-time solutions to network operators.\" This is the only AI predictive tool the document describes. The document does not mention NetStable Inc., a 35% downtime reduction, Dr. Iris Bennett, TechForward, self-healing networks, John Kendrick, NextGen Communications, autonomous network management, the DOE, Orion AI, or 89% outage prediction accuracy. Sarah Gibson is CTO of \"NexGen Communications,\" not NextGen.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bkjrxsno",
+      "question_id": "bkjrxsno-q2",
+      "text": "Dr. Alex Richardson, a telecommunications expert, is the source of the domino-effect statement. The document quotes him: \"As networks become more complex and interconnected, the potential for a domino effect increases. A single failure can cascade through the system, creating widespread outages.\" This passage appears under the section \"Analyzing the Root Causes,\" directly after the October 18 New York software-bug outage and before \"The Burden on Small Businesses.\" No other person in the document is described as discussing a domino effect; Sarah Gibson and John Clarke do not appear in the source at all.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ctzwlfdf",
+      "question_id": "ctzwlfdf-q5",
+      "text": "The document does not state how outages affect rural emergency response times in measurable terms. The closest material is:\n\n- Wildwood outage on November 18th: \"Rapidly conveying distress calls becomes impossible when neither landlines nor cell towers function, as was the case during the Wildwood outage on November 18th.\"\n- George Harris, who suffered a heart attack that evening, \"survive[d] through fortune and timely local human intervention.\"\n- Cedarville: \"residents experienced a network blackout on November 4th.\" No duration is given.\n- Millersville is not mentioned anywhere in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "deimtrnl",
+      "question_id": "deimtrnl-q5",
+      "text": "The document's only discussion of public information is in the AAR section: \"we acknowledged that we had failed to provide timely, clear guidance to the community, creating an information vacuum quickly filled by speculation and misinformation.\" The later response was \"a public information app, a platform for official updates and a conduit for community assistance requests,\" which \"preempted misinformation.\" The document names no Eastville, Millfield, or New Angeles, and mentions no Twitter accounts, \"infodemic,\" or \"Digital Safeguard Initiative.\" The blackout began September 5, 2023, and the AAR was held October 15, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "dkokzqqj",
+      "question_id": "dkokzqqj-q4",
+      "text": "- Renewables were a \"mere fledgling\" in the early 2000s, when it was \"mostly about coal and gas.\" - On September 10, 2025, rooftop panels and turbines began appearing; the work became \"less predictable, more tech-infused,\" with grid stability tied to intermittent sources. - The storm with solar-battery homes staying lit was September 26, 2026. - Control rooms became more sophisticated with real-time data in October 2027; Todd said \"We had to learn to work not just with our hands but with information.\" - By September 2030, predictive maintenance had reduced field time under emergent conditions. - Smart grid investment",
+      "iteration": 0
+    },
+    {
+      "document_id": "gvhdmgjg",
+      "question_id": "gvhdmgjg-q4",
+      "text": "Facts from the document relevant to the question: - The only named economist on outage costs is Kevin Blanchard, \"an Economist with Cityscape Analytics,\" who says \"A single hour of outage during peak times can result in millions in lost economic output.\" No Laura Jensen appears. - David Patterson, MTA Chief Financial Officer, cited repair costs and loss of farebox revenue \"near $4 million\" from the October 5, 2023 incident. - \"Consumer confidence in the transit systems wanes with each outage, resulting in longer-term shifts in commuter behavior.\" Surveys after the September incidents showed \"a 10% increase in individuals seeking",
+      "iteration": 0
+    },
+    {
+      "document_id": "gwlydioq",
+      "question_id": "gwlydioq-q3",
+      "text": "On November 19, 2023, a construction crew accidentally cut a major fiber-optic cable in Atlanta, causing widespread outages that affected thousands. The incident is described under the \"Cable Cuts: The Achilles' Heel of the Digital Age\" section, which notes that \"While repairs were swift, the incident highlighted the fragile nature of our physical internet backbone.\" Accidents during construction work are identified as a common cause of severed connections.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gxnobtig",
+      "question_id": "gxnobtig-q2",
+      "text": "Dr. Alan Torres is a cybersecurity expert. In the document, a cybersecurity breach on November 4, 2023 caused power disruptions across multiple substations in Texas. Torres warns that these incidents represent only the \"tip of the iceberg\" regarding the cyber vulnerabilities our power systems face. This is the direct attribution: the quoted phrase \"tip of the iceberg\" is what he says about the breaches and the vulnerabilities, and it is stated in the same paragraph as the Texas substation incident.",
+      "iteration": 0
+    },
+    {
+      "document_id": "hprsrrgs",
+      "question_id": "hprsrrgs-q1",
+      "text": "On November 7, 2023, the sun expelled a colossal cloud of charged solar particles, known as a Coronal Mass Ejection (CME). Upon colliding with Earth's magnetic field, auroras painted the skies as far south as Texas, but the event also caused widespread power disruptions. Duluth, Minnesota, went dark on November 9, two days after the solar flare was detected, when a geomagnetic induced current (GIC) from the solar storm's impact on Earth's magnetic field shut down the town's power grid.",
+      "iteration": 0
+    },
+    {
+      "document_id": "hqznilez",
+      "question_id": "hqznilez-q2",
+      "text": "Emergency response teams during the September blackout were \"led by seasoned coordinator Laura Thompson\" (source paragraph \"The Critical Role of Emergency Response Teams\"). The blackout occurred September 12, 2023, at approximately 3:30 pm, when a potent storm system swept through the Northwestern United States, causing catastrophic infrastructure damage and a massive power outage across several states. The document names no \"Incident Commander Samuel Hastings\" and gives no October 10, 2023 date. Coordinator Laura Thompson also reflects on the core pillars of strength in the closing section, reinforcing her role as the coordinator of the effort.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ixktgnmk",
+      "question_id": "ixktgnmk-q2",
+      "text": "Dr. Adriana Howell, \"a leading figure in network infrastructure research,\" is quoted in the section \"The Prelude to Innovation.\" The outage in question occurred on January 15 (\"Earlier this year, on January 15, a severe outage crippled the eastern seaboard, leaving millions without essential services for hours\"). Her exact quote: \"The outage was a wake-up call, underscoring the urgent need for reimagined network architectures and recovery protocols.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ixrfowec",
+      "question_id": "ixrfowec-q4",
+      "text": "Jesse Carmichael, the CEO of leading provider TelCoCorp, responded to the outage in the \"Consumer Confidence and Corporate Image\" section. He assured customers that \"we are thoroughly investigating the incident and taking measures to ensure such an extensive downtime does not recur.\" The nationwide outage began at 8:07 AM EDT on October 15, 2023, and most services resumed by 5:32 PM EDT. Social media platforms, once accessible again, were flooded with criticism and demands for answers.",
+      "iteration": 0
+    },
+    {
+      "document_id": "lmapkcbc",
+      "question_id": "lmapkcbc-q4",
+      "text": "- The only AAR in the document is for Eastville's October 15, 2023 storm, conducted November 10, 2023, facilitated by independent consultant Dr. Emily Larson. - Post-AAR actions named in the document: Larry Foster (head of Eastville Utilities) says systems are being upgraded and emergency liaison officers trained; Chief Maria Vasquez says simulation exercises are now routine; Eastville has allocated funds for grid modernization and cyber resiliency; psychological first aid systems are being set up (Dr. Jasmine Patel); public education campaigns are a priority (Thompson). - The document says \"follow-ups [are] scheduled to evaluate the progress of implementing action plan",
+      "iteration": 0
+    },
+    {
+      "document_id": "mqsjvljv",
+      "question_id": "mqsjvljv-q3",
+      "text": "March 2024: LightSpeed Internet, item 7 \"The Insider Threat: When Trust is a Liability.\" Source text: \"March 2024 brought a revelation to LightSpeed Internet; even the most well-oiled security procedures can crack if insider threats are not taken seriously. A long-term employee turned bad actor facilitated a breach, effectively taking down the network for regions. This breach reminded organizations worldwide that cybersecurity isn't just about defending against outsiders but also about monitoring and managing internal risks.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "muaqbhqz",
+      "question_id": "muaqbhqz-q5",
+      "text": "The document does not address long-term effects of recurrent geomagnetic storms, and it never mentions climate or lasting changes to Earth's magnetic field. Its effects are described as immediate incidents, all dated in 2023: - September 22, 2023: a geomagnetic storm caused auroras seen \"as far south as Colorado\" and disrupted power grid and telecom operators. - September 15, 2023: a satellite \"temporarily lost its orientation\" from a mild solar storm, interrupting forecasting and telecommunications \"for several hours.\" - October 3, 2023: pilot Maria Gonzales reported GPS distortions. - October 20, 2023: a coordinated grid drill was held, referencing the",
+      "iteration": 0
+    },
+    {
+      "document_id": "ozfjghpu",
+      "question_id": "ozfjghpu-q3",
+      "text": "Mildred Splash, a local water enthusiast from the ironically named Drysdale region, often finds herself reminiscing about rain dancing, stating, \"If the taps won't flow, I will!\" This passage appears in the \"Water Works or Water Doesn't-Works?\" section, which covers the water distribution network turning basic hydration into an intermittent luxury. The article is titled \"A Modern Day's Guide to Medieval Living,\" dated September 15, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pqivrqvj",
+      "question_id": "pqivrqvj-q5",
+      "text": "The source never discusses how small-scale attacks affect wider cybersecurity practices. Its only mention of small-scale incidents is the opening line: \"From small-scale incidents to vast cyber-attacks, the repercussions of telecommunication breakdowns are immense.\" The closest related text is the closing section: \"Incident reports and outage analyses become the historical data from which we derive insights for future planning. Through this lens, every telecommunication breakdown is not just an inconvenience but a lesson from which to bolster our digital defenses.\" The document names no small-scale attacks. The \"PhantomSquad,\" \"Shadow Circuit,\" and \"Weblink Telecom\" incidents do not appear in it, and",
+      "iteration": 0
+    },
+    {
+      "document_id": "vpkhmmps",
+      "question_id": "vpkhmmps-q3",
+      "text": "Under \"Empowerment through Holistic Education\": on November 21, 2023, during an outage in Dallas, it was the communities well-versed in emergency protocols who fared best. Local workshops, led by telecommunications specialist Nadia Hughes, had paid off. Hughes notes: \"When people understand how their services work, they can better adapt to failures.\" Trained in simple troubleshooting and informed on how to use alternative communication methods, the citizens of Dallas showcased the power of education in crisis management.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zjgymjqr",
+      "question_id": "zjgymjqr-q5",
+      "text": "Dr. Susan Alvarez, the Millersville clinic's physician, is quoted in the \"Telemedicine: A Frayed Lifeline\" section: \"Dr. Susan Alvarez shares her dismay as the telecommunication breakdown coincided with multiple scheduled telehealth sessions. 'Patients depend on these appointments,' she explained... 'When the system fails, we're left scrambling, trying to provide care with one hand tied behind our backs.'\" The breakdown occurred September 15, 2023, starting at 10:04 a.m. Millersville's only clinic relies on digital communication to access specialists and patient records.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bhmvrlip",
+      "question_id": "bhmvrlip-q5",
+      "text": "- Dr. Angela Martinez unveiled \"a pioneering AI-based diagnostic tool designed to predict and proactively address network vulnerabilities before they result in outages\" on October 3rd, 2023.\n- Her tool \"employs machine learning algorithms to monitor network health, assess risks, and suggest real-time solutions to network operators.\"\n- The document contains no mention of NetFuture, any NetFuture monitoring system, Alison Beer, or any AI-driven platform attributed to her. No text says AI tools learn from historical outages or anticipate outages with high accuracy.",
+      "iteration": 1
+    },
+    {
+      "document_id": "deimtrnl",
+      "question_id": "deimtrnl-q5",
+      "text": "The document does not address a Twitter account, an \"infodemic,\" or a sociologist named Dr. Emilia Chen, and it never mentions Eastern Seaboard outages. The relevant facts are these: - The blackout occurred on September 5, 2023, and knocked out power, internet, and other services across the region. - The After-Action Review was conducted October 15, 2023, over two days. - The AAR found the public information strategy had failed: authorities \"failed to provide timely, clear guidance to the community, creating an information vacuum quickly filled by speculation and misinformation.\" - Later, a public information app \"preempted misinformation\" and fostered",
+      "iteration": 1
+    },
+    {
+      "document_id": "dgwqlnjb",
+      "question_id": "dgwqlnjb-q4",
+      "text": "On September 25th, during what was to be a routine maintenance night, an inspection revealed that a critical bridge on the city's Red Line was close to structural failure, necessitating immediate and unforeseen service shutdowns for repairs. Engineer Sarah Bentley lamented the short-term approach to long-term infrastructure needs, saying: \"Neglected maintenance is just storing up trouble... We're lucky to have caught it in time, or the consequences could have been much worse.\" The section is titled \"Maintenance Mayhem: The Consequences of Neglected Upkeep,\" within the discussion of problems that might have been fixed during routine checks.",
+      "iteration": 1
+    },
+    {
+      "document_id": "dkokzqqj",
+      "question_id": "dkokzqqj-q4",
+      "text": "- Todd Harrison is a 57-year-old veteran lineworker in Morgan County, and the account is dated October 12, 2023. - In the early 2000s renewables were a \"mere fledgling\"; power was \"mostly about coal and gas.\" - Rooftop panels and turbines began appearing by September 10, 2025, and the work became \"less predictable, more tech-infused.\" - By the late 2020s, battery cost and efficiency improved, and storage units buffered outages. - Control rooms became more sophisticated with real-time data on an October 2027 day, and Todd said lineworkers \"had to learn to work not just with our hands but with",
+      "iteration": 1
+    },
+    {
+      "document_id": "fbpyngoi",
+      "question_id": "fbpyngoi-q1",
+      "text": "The source states: \"December is traditionally packed with festivities and this year is no different. With the Winter Wonderland Extravaganza scheduled for December 20-25, the city's famous holiday tradition promises to draw crowds from all over the region.\" It sits under the heading \"The Event Horizon: Activities Implication on Transit.\" Event Coordinator Sarah Gibson adds that December is a \"high-alert period for transportation services,\" with coordination with the city's traffic authority to manage extra foot traffic and street closures.",
+      "iteration": 1
+    },
+    {
+      "document_id": "gvhdmgjg",
+      "question_id": "gvhdmgjg-q4",
+      "text": "- The Small Business Association study covered only the aftermath of the Chicago 'L' train incident (September 18, 2023). Local businesses reported an average sales slump of 7%, attributed to decreased foot traffic that day. - Following the September incidents, local commuter group surveys showed a 10% increase in people seeking alternative transportation. - MTA's multi-billion dollar substation and power line upgrade \"hinges on federal funding and public support.\" London allocated \u00a3150 million for grid improvements, due by late 2024. - The document names no economist named Harold Peng and reports no study of transit shutdowns affecting hourly wage workers",
+      "iteration": 1
+    },
+    {
+      "document_id": "hsuijelq",
+      "question_id": "hsuijelq-q3",
+      "text": "The source states that under the heading \"Human Error and Technological Mishaps,\" the reporter recalled that on November 8th, maintenance at a local substation went awry due to a miscommunication. This small error cascaded into a significant outage across three neighborhoods. Dr. Sandra Keaton, the electrical engineer interviewed, warned that \"from accidental damage during construction to misoperations within control systems, human error can have swift and widespread effects.\" The November 8th substation incident is the only November 8th outage described; no Detroit blackout is mentioned in the document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "iaxlnnli",
+      "question_id": "iaxlnnli-q5",
+      "text": "The document does not address urban planning as a way to reduce the impact of electrical failures. Its only mitigation content is:\n\n- \"New York has started an extensive program to upgrade its power systems with the integration of solar panels at multiple subway stations.\"\n- Policy makers, transportation authorities, and technology partners \"have committed to accelerating these upgrades while also enhancing communication systems to keep commuters better informed during emergencies.\"\n- Commuters coped through \"Carpooling, remote work, and flexible hours.\"\n- Causes cited: \"an outdated transformer that couldn't handle the load\" and \"our infrastructure is aging rapidly.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "igjzuyhn",
+      "question_id": "igjzuyhn-q2",
+      "text": "Janet McNotaninfluencer appears in the section \"The Corporate Promise and the Mirage of Hope.\" The source describes her as \"Lip-sync legend and consumer rights advocate, Janet McNotaninfluencer, dramatically reads to the gathered crowd from a SLA, '..shall endeavor to provide 99.9% network uptime\u2026'\" The piece is titled \"When the Wifi Birds Don't Sing: Consumer Rights in the Silent Data-Sphere,\" dated September 8, 2023. It is presented as a whimsical, non-fictional-style narrative about a service outage, not as a satirical character sketch, and the SLA is the Service Level Agreement offered by the Service Providers.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ktzqhtdt",
+      "question_id": "ktzqhtdt-q2",
+      "text": "Facts from the source: After the Great Downpour of September 5, 2023 plunged Millfield into darkness and cut the internet and communications, \"The local emergency services, under the direction of Incident Commander Michael Cartwright, rallied together, braving the elements to reach those in dire need.\" Cartwright also said, \"Medical emergencies don't wait for power to return.\" The local hospital, powered by generators, became a beacon for the ailing, while roads were blocked and communication was down. The Incident Commander for Millfield's power-outage response was therefore Michael Cartwright. Samuel Hastings is not named anywhere in the source document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "lmapkcbc",
+      "question_id": "lmapkcbc-q4",
+      "text": "The document describes only the Eastville AAR, conducted November 10, 2023, facilitated by independent consultant Dr. Emily Larson. Its outcomes were: Eastville \"has since allocated funds for grid modernization and for enhancing cyber resiliency\"; \"simulation exercises are now routine\" (Chief Maria Vasquez); psychological first aid systems are being set up (Dr. Jasmine Patel); public education and awareness campaigns are a priority (Thompson); and \"follow-ups scheduled to evaluate the progress of implementing action plan recommendations.\" The document does not mention Millfield, Ashton, a satellite internet hub, an emergency response plan for Ashton, or a \"Brenford Protocol.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "pqivrqvj",
+      "question_id": "pqivrqvj-q5",
+      "text": "The document never states how small-scale attacks affect wider cybersecurity practices. Its only reference is the introduction: \"From small-scale incidents to vast cyber-attacks, the repercussions of telecommunication breakdowns are immense.\" The closest concrete case is the October 21, 2023 phishing campaign, which \"hit thousands of unsuspecting mobile users\" and led to \"a wave of compromised personal data.\" The document does not mention Weblink Telecom, LightSpeed Internet, or QuantumNet, and it contains no disgruntled-employee, insider-breach, or outage incidents from September 15, 2023, March 2024, or March 27, 2024.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ugbbycou",
+      "question_id": "ugbbycou-q1",
+      "text": "The source attributes Metropolis's service interruptions to maintenance problems, not to the specific incidents the assistant listed. The outage occurred on the morning of October 5, 2023, when intercom announcements said service was \"temporarily suspended due to essential maintenance work.\" The document states: \"In the case of Metropolis, the service interruptions were a consequence of neglected upkeep. The cities' financial constraints had led to postponed renovations, resulting in an infrastructure that was stretched well beyond its intended lifespan.\" Expert John Alvarez said \"The delays in updating and replacing outdated components have finally caught up with us.\" Mayor Annalise Thompson pledged",
+      "iteration": 1
+    },
+    {
+      "document_id": "vesnwopl",
+      "question_id": "vesnwopl-q1",
+      "text": "The source states that an incident on September 15, 2023, collated by digital resilience think tank CyberGuard, noted that a six-hour downtime in a major city's internet service resulted in an estimated loss of $300 million in productivity, emergency services disruptions, and compromised cybersecurity. The document contains no mention of Emily Tran, a Seattle e-commerce entrepreneur, or a 75% decline in online sales; those details do not appear in the source.",
+      "iteration": 1
+    },
+    {
+      "document_id": "vgdxkdye",
+      "question_id": "vgdxkdye-q1",
+      "text": "On September 12, 2023, the document says internet connectivity was shown to be critical infrastructure. It states: \"This day marked the beginning of a 72-hour blackout, affecting millions of users across several states. With businesses unable to operate, transactions halted, and emergency services interrupted, the aftermath prompted a nationwide discussion about the legal ramifications of such occurrences.\" The event is a 72-hour blackout affecting millions of users across several states. No solar flare, sunspot AR2867, or power disruption is mentioned anywhere in the document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "vpkhmmps",
+      "question_id": "vpkhmmps-q3",
+      "text": "During an outage in Dallas on November 21, 2023, communities well-versed in emergency protocols fared best. Local workshops led by telecommunications specialist Nadia Hughes had paid off. Hughes stated: \"When people understand how their services work, they can better adapt to failures.\" Trained in simple troubleshooting and informed on alternative communication methods, Dallas citizens showcased the power of education in crisis management. The section is headed \"Empowerment through Holistic Education.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "vykkmcef",
+      "question_id": "vykkmcef-q4",
+      "text": "ISPs have adopted incident response frameworks similar to CITRO (Cyber Incident Triage and Response Operations), which prioritize swift communication with customers, rapid isolation of affected systems, and immediate corrective actions. This appears under the section \"Enhanced Monitoring and Response Protocols,\" which states that when an internet disruption occurs, swift and structured response protocols are vital. The \"ongoing and evolving security strategy\" phrase belongs to a separate passage on cybersecurity, quoted from Dr. Anita Gomez, and is not tied to CITRO.",
+      "iteration": 1
+    },
+    {
+      "document_id": "xyenlkeq",
+      "question_id": "xyenlkeq-q1",
+      "text": "The source states: the East Coast power and internet outage of September 15, 2024 \"led to a 72-hour service interruption, impacting millions.\" The blackout was \"instigated by a compound of natural events and mechanical failings.\" The After-Action Review, \"led by experts including Langford and Thompson, disclosed a myriad of lessons that have shaped current emergency response doctrines.\" One key finding was \"the need for flexibility within established protocols,\" since \"adaptability in approaches was indispensable.\" Nancy Langford is \"a seasoned emergency management consultant\"; Jack Thompson is \"Director of the Regional Emergency Response Team.\" Thompson adds, \"We realized plans are the starting",
+      "iteration": 1
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 236,
+      "cache_hits": 4,
+      "parse_failures": 0,
+      "input_tokens": 87389,
+      "output_tokens": 42007,
+      "estimated_cost_usd": 0.8923,
+      "measured_cost_usd": 0.029742,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 2,
+      "input_tokens": 323741,
+      "cache_read_tokens": 309510,
+      "output_tokens": 107183,
+      "estimated_cost_usd": 2.6718,
+      "measured_cost_usd": 0.290548,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 39,
+      "input_tokens": 94724,
+      "output_tokens": 12886,
+      "estimated_cost_usd": 0.4775,
+      "measured_cost_usd": 0.015915,
+      "cost_source": "openrouter"
+    }
+  }
+}

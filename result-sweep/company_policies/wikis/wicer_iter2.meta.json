@@ -1,0 +1,146 @@
+{
+  "topic": "company_policies",
+  "target_ratio": 0.5,
+  "target_words": 21163,
+  "source_words": 42326,
+  "actual_words": 7690,
+  "actual_ratio_words": 0.18168501630203657,
+  "source_tokens": 54763,
+  "actual_tokens": 11354,
+  "actual_ratio_tokens": 0.2073297664481493,
+  "n_preserved_facts": 20,
+  "preserved_words": 1739,
+  "n_preserved_found": 0,
+  "preservation_rate": 0.0,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 99531,
+  "output_tokens": 28479,
+  "cache_read_tokens": 94476,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.01568976,
+  "preserved_facts": [
+    {
+      "document_id": "fwlknqxh",
+      "question_id": "fwlknqxh-q3",
+      "text": "Under the \"Keep All Receipts\" tip for XYTech Solutions: \"No matter how small the expense, keep the receipt. Digital or physical copies are necessary for all transactions. It's crucial to maintain a complete record should any questions about the expense arise.\" Related context: the document says keeping receipts supports the finance department's verification, and that reporting expenses promptly \"reduces the chance of misplacing receipts or forgetting important details.\" Expense reports are to be submitted usually within 5 business days of returning from a business trip or incurring the expense.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gkzgogqd",
+      "question_id": "gkzgogqd-q2",
+      "text": "The source's section heading is \"The Virtual Bootcamp: Where Souls Go to Die Slowly.\" The document states that the \"Professional De-development Bootcamp is an excruciatingly extensive, mandatorily optional marathon of monotony.\" It adds that it is \"designed to help remote employees integrate into our corporate creed, provided they can stay awake.\" It is a \"monthly 48-hour Zoom-a-thon\" with PowerPoint presentations \"so dense they're at risk of collapsing into a black hole.\" The exact phrase \"excruciatingly extensive, mandatorily optional marathon of monotony\" is the humorous description; \"48-hour Zoom-a-thon\" is a separate detail and is not the stated description.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gobxmabv",
+      "question_id": "gobxmabv-q5",
+      "text": "The source document contains no discussion of how mental evaluations affect workplace productivity. Its only mention of mental evaluations is in the screening process section: \"Biometric screenings, mental health evaluations, and consultations with healthcare professionals form the trifecta of this comprehensive program, designed exclusively for the powerhouse that is the VitalityHub family.\" The document is titled \"Introduction to VitalityHub's Comprehensive Health Screenings and Assessments.\" It names no other companies. \"Aether Innovations,\" \"Solstice Innovations,\" \"Skyward Solutions,\" and \"Zenith Dynamics\" do not appear. It describes no counseling, stress management workshops, absenteeism reduction, work-life balance tools, or stigma-reduction discussions tied to mental evaluations.",
+      "iteration": 0
+    },
+    {
+      "document_id": "iuujsbtl",
+      "question_id": "iuujsbtl-q4",
+      "text": "The source document contains no mention of cultural competence, and it does not describe how any cultural competence concept influences D&I initiatives. The facts the wrong answer needed are absent from this document. The only document is \"Introduction to Zenith Innovations' Diversity and Inclusion Vision,\" which covers continuous monitoring (AI and machine learning analysis of hiring patterns, promotion rates, and employee feedback to identify unconscious biases), transparent reporting via interactive dashboards with industry benchmarking, and policy evolution through a think tank of D&I experts. It never uses the phrase \"cultural competence,\" and it never mentions \"inclusive language education,\" Harmony United,",
+      "iteration": 0
+    },
+    {
+      "document_id": "jgeornju",
+      "question_id": "jgeornju-q5",
+      "text": "EverGreen Horizons' \"Growth Without Boundaries\" program \"includes mentorship schemes pairing seasoned professionals with those in the earlier stages of their careers,\" and the document says this fosters \"diverse thinking,\" \"innovation and mutual understanding.\" It states that employees \"can benefit and advance in their careers\" through the training and development programs, but it gives no outcomes, figures, or examples of mentorship affecting careers. Each quarter the company shares unspecified \"success stories\" from team members. The document does not mention Vertex Dynamics, XYZ Innovations, Proficio FutureWorks, Project Phoenix, certification support, PathFinder, or any Meta-Mentorship Program.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jiclwghb",
+      "question_id": "jiclwghb-q4",
+      "text": "The source document contains no content on measuring the impact of diversity initiatives. It is a tip list from Innovative Synergy Tech (IST), and none of its ten tips mention metrics, audits, dashboards, outcome assessment, or effectiveness tracking. The only related item is tip 8, \"Create Clear Avenues for Feedback,\" which says anonymous surveys, suggestion boxes, and open-door policies let employees voice concerns. It does not say these are used to measure impact. Zenith, Solstice, AlliedTech, BrightPath, RandomCo, and Verdant Visions do not appear in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "msmrpovz",
+      "question_id": "msmrpovz-q5",
+      "text": "- The document covers only one company, Synergetix Solutions. GlobalTech Inc. does not appear anywhere in it. - Synergetix's two named development schemes are \"Cross-Departmental Training,\" described as \"A professional development scheme that stands to expand,\" and \"Job Rotation Programs.\" - Cross-Departmental Training is said to \"cast away the siloed minds\" and to bring \"versatility\" and \"agility.\" Job Rotation is said to \"compose the scores for career lines to intertwine.\" - The document states no mechanism for ensuring equitable growth across departments. It uses \"growth\" only in general terms, such as \"A unity of purpose, a shared quest for growth.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ncqvwbar",
+      "question_id": "ncqvwbar-q1",
+      "text": "XenoTech's introduction (titled \"Introduction to XenoTech's Commitment to Diversity and Inclusion\") states: \"Diversity and inclusion are not just platitudes in our organization; they are principles that we embed into every aspect of our business, including our physical and virtual workspaces.\" It adds that fostering a truly accessible and accommodating workplace is central to \"living our values of diversity and inclusion.\" The principles named are diversity and inclusion, and they apply to XenoTech's employees, partners, and community.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ntosebsv",
+      "question_id": "ntosebsv-q4",
+      "text": "The source document contains no discussion of resistance to job rotation or any strategies to mitigate it. It is a press release announcing GlobalTech Inc.'s Cross-Departmental Training and Job Rotation Policy. The only relevant policy details are: the Job Rotation Plan lets employees \"work in various departments for certain periods\"; the policy \"includes detailed paths for progression, mentorship from experienced colleagues, and regular assessments to ensure that the objectives of both the employees and the company align\"; and GlobalTech \"is actively seeking feedback from its employees and industry experts to refine this policy continually.\" None of these is framed as",
+      "iteration": 0
+    },
+    {
+      "document_id": "nyvmegas",
+      "question_id": "nyvmegas-q3",
+      "text": "The source document is a single DevTech Innovations wellness policy. It contains no mention of Aether Innovations, Solstice Innovations, or Zenith Dynamics, and no policy sections numbered 1.1, 1.3, or 1.6. It never measures or states any correlation between wellness initiatives and productivity. Its only related claims are promotional: the on-site fitness facilities, exercise classes, and workshops are said to lead \"to a healthier, happier, and more productive you\" under \"Fostering Flexibility and Work-Life Synergy,\" with no data, figures, or mechanism given.",
+      "iteration": 0
+    },
+    {
+      "document_id": "uztpkshf",
+      "question_id": "uztpkshf-q5",
+      "text": "The source section \"The Onus of Self-Governance\" states: \"The OmniaTech remote work policy acknowledges that freedom is irrevocably married to responsibility. As we grant our team the latitude to construct their schedules, we simultaneously instill a sense of self-governance.\" The dual aspects underscored while team members create their schedules are therefore freedom and the corresponding sense of self-governance. The wrong answer's terms, \"harmonious composition\" and \"presence... not where you are, but how you are,\" appear in other sections (scheduling as a concept, and availability and presence) and are not the dual aspects tied to schedule creation.",
+      "iteration": 0
+    },
+    {
+      "document_id": "xhzfltll",
+      "question_id": "xhzfltll-q2",
+      "text": "The Preferred Vendor Pandemonium Protocol is introduced under the heading \"The Preferred Vendor Pandemonium Protocol.\" The document says that when employees feel burdened by \"the pressure of making sensible, cost-effective choices,\" the Protocol lets them \"embrace the freedom of ignoring such trivialities.\" The Protocol is a joke policy at Wanderlust Widget Works (WWW), framed as a comedy of errors. The \"Booking Procedures and Preferred Vendors\" document is described as \"dusty, neglected,\" and preferred vendor policies are treated as \"a mild suggestion, much like 'Pirate Code.'\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "csfeauwt",
+      "question_id": "csfeauwt-q3",
+      "text": "The section titled \"The Art of Asynchronous Work\" states: \"In recognition that innovation doesn't always happen on a schedule, SynthTech champions the art of asynchronous work. Our policies support a balance between synchronous communication and the freedom to dive deep into work when the muse strikes, ensuring peak creativity and efficiency for all team members.\" The \"Dynamic Collaboration Techniques\" and virtual reality meeting content are separate sections and do not name the type of work that creativity and efficiency are tied to.",
+      "iteration": 1
+    },
+    {
+      "document_id": "fjrqxbqd",
+      "question_id": "fjrqxbqd-q3",
+      "text": "Under the section \"Technological Proficiency and Infrastructure,\" WanderTech's eligibility for remote work requires proficiency in digital tools and possession of requisite infrastructure at one's remote location. The text states: \"A stable internet connection, secure equipment, and a milieu conducive to professional endeavors are the sine qua non for the virtual employee.\" The document's Eligibility Criteria section lists this as one of the criteria, alongside Sovereignty of Role and Responsibility, Demonstrated Performance and Trustworthiness, and Commitment to Preserving the Culture and Collaborative Spirit.",
+      "iteration": 1
+    },
+    {
+      "document_id": "iemirijn",
+      "question_id": "iemirijn-q2",
+      "text": "Facts from the source that the correct answer depends on: - UnityCorp's Employee Resource Groups (ERGs) are described as holding \"monthly meetings\" (ERG Chapter One: The Token Troop, which is scheduled \"during the busiest times\" and where \"every no-show weakens your armor against allegations of insensitivity\"). - ERG Chapter Two: The Rainbow Connection: \"Meetings are a potluck of ideas, where everyone brings a dish of well-intentioned dialogue, but only the main course of superficial acceptance is ever served.\" - ERG Chapter Four: The Salad Bowl Symposium: members \"throwing diversity quotes at each other, if only out of contractual obligation,\" with",
+      "iteration": 1
+    },
+    {
+      "document_id": "jiclwghb",
+      "question_id": "jiclwghb-q4",
+      "text": "Source document (jiclwghb) contains no methods for measuring the impact of diversity initiatives.\n\n- Tip 8, \"Create Clear Avenues for Feedback\": \"Anonymous surveys, suggestion boxes, and open-door policies let everyone know their opinions matter.\" This describes channels for voicing concerns, not measuring impact.\n- Tip 9, \"Tailor Training to Your Team\": \"IST ens",
+      "iteration": 1
+    },
+    {
+      "document_id": "nlzbyehu",
+      "question_id": "nlzbyehu-q2",
+      "text": "Titan Dynamics' \"Breaking Policy Update\" says: \"when we say collaboration, we mean COLOSSAL COLLAB!\" and \"You'll glide through your tasks via shared celestial workspaces, where ideas fuse like stars going supernova.\" These lines appear under the heading \"Collaborative Constellations - Teamwork in the Cosmos!\" The document also includes a disclaimer that Titan Dynamics is \"a fictitious entity created for illustrative purposes\" and that the policy is \"a dramatized approximation and not an actual company policy.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "sjvcacms",
+      "question_id": "sjvcacms-q5",
+      "text": "Off-Site Retreats section (Widget Wonders Inc.): the company is \"rolling out annual off-site retreats where you can play 'trust fall' chicken with your sanity.\" The stated purpose is that \"These company getaways are a great way to unwind if you consider trust-building exercises with people you compete with for parking spots as relaxing.\" The retreats are annual, are described under the heading \"Off-Site Retreats: Mandatory Fun and Forced Bonding,\" and are offered to employees who \"have mastered their emotions at work (or have become eerily too good at hiding them).\" The retreats' purpose is to unwind through trust-building exercises. The",
+      "iteration": 1
+    },
+    {
+      "document_id": "vdqdmoht",
+      "question_id": "vdqdmoht-q4",
+      "text": "The source section \"Galactic Collaboration Zones\" states that NextPhase Innovations' virtual collaboration spaces \"defy geographical limitations and time zones.\" They are \"constructed with leading-edge software that breaks the fourth wall of collaboration.\" The software enables \"virtual reality brainstorming sessions to holographic presence at meetings,\" making the remote work environment \"as tangible and interactive as our physical offices once were.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "zdmwaboc",
+      "question_id": "zdmwaboc-q2",
+      "text": "Under the \"Airlines\" heading of Preferred Vendors, the document states that XYZ Corporation \"has negotiated favorable rates with a select group of airlines.\" These airlines \"offer a range of benefits, including discounted fares, flexible ticketing options, and additional amenities designed to make business travel more efficient and comfortable.\" Expedited boarding is not mentioned for airlines anywhere in the document. Employees must book all flights through preferred vendors listed on the corporate travel portal, and that portal provides \"preferential rates with our approved vendors.\"",
+      "iteration": 1
+    }
+  ],
+  "level": "moderate"
+}

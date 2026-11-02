@@ -1,0 +1,284 @@
+{
+  "topic": "local_education",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.35,
+  "blind_probe_mean": 2.9125,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.9125,
+      "probe_score_1_pct": 26.25,
+      "n_failures": 21,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 10170,
+      "wiki_tokens": 16737,
+      "actual_ratio_words": 0.14569574373594257,
+      "actual_ratio_tokens": 0.18829313293132932,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.35,
+      "probe_score_1_pct": 12.5,
+      "n_failures": 10,
+      "n_pinned_facts": 21,
+      "pinned_words": 1755,
+      "wiki_words": 9395,
+      "wiki_tokens": 15406,
+      "actual_ratio_words": 0.13459306906579946,
+      "actual_ratio_tokens": 0.17331923319233192,
+      "n_preserved_found": 2,
+      "preservation_rate": 0.09523809523809523,
+      "improvement": 0.1502145922746781,
+      "stop": null
+    },
+    {
+      "iteration": 2,
+      "wiki_name": "wicer_iter2",
+      "probe_mean": 3.1875,
+      "probe_score_1_pct": 21.25,
+      "n_failures": 17,
+      "n_pinned_facts": 31,
+      "pinned_words": 2571,
+      "wiki_words": 10239,
+      "wiki_tokens": 21867,
+      "actual_ratio_words": 0.14668423993238114,
+      "actual_ratio_tokens": 0.24600621006210063,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": -0.048507462686567186,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "aqrjgixe",
+      "question_id": "aqrjgixe-q4",
+      "text": "- Section \"Ecotourism: A Gentle Nudge Toward Advocacy\": \"By mid-afternoon, the group's attention turned to the broader concept of ecotourism, as Ms. Bennett unveiled the next phase of the day's learning adventure. They were joined by Lisa Chang, an ecotourism specialist, who began by extending the definition of ecotourism beyond leisure travel.\" - Lisa Chang's explanation: \"We consider ecotourism responsible travel to natural areas that conserves the environment,\" guiding students to solar panels powering on-site research facilities. \"And it sustains the well-being of the local people.\" - Setting: Green Earth Conservation Area, trip on October 3, 2023; Ms. Eliza Bennett",
+      "iteration": 0
+    },
+    {
+      "document_id": "azcwxofb",
+      "question_id": "azcwxofb-q2",
+      "text": "Riverview High School visit on September 13, 2023. Jennifer Collins, a senior, was meticulously planning a neighborhood clean-up initiative. Under the guidance of her environmental science teacher, Mr. Howard, Jennifer's project aimed not just to tidy up local parks but also to educate community members about sustainable living practices.",
+      "iteration": 0
+    },
+    {
+      "document_id": "azlrdpij",
+      "question_id": "azlrdpij-q5",
+      "text": "The document never mentions cognitive flexibility. Its only stated outdoor benefits are mindfulness-related:\n\n- \"Studies, including those by renowned mindfulness experts like Dr. Jon Kabat-Zinn, have shown that mindfulness can reduce stress, enhance attention, and even improve academic performance.\"\n- Dr. Sarah Johnson's study, published October 10, 2023, \"demonstrated significant improvements in student anxiety levels after participation in outdoor learning programs.\"\n- Step 2 is titled \"Mapping the School's Natural Resources,\" not curriculum assessment.\n- Dr. Emily Chen, Miranda Jenkins, Dr. Emily Richardson, and Dr. Kyle Bing do not appear in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bolmjozf",
+      "question_id": "bolmjozf-q5",
+      "text": "The source document does not contain any research on outdoor activities and long-term mental resilience. The only related claims are these: Principal Maria Gonzalez of Springfield Community School (since September 2023) reports \"a significant uplift in student mood and engagement\" from nature walks and outdoor learning. Dr. Emily Chen, a psychologist, says \"the sensory experience provided by the outdoors can immediately bring students into the present moment.\" No document source mentions Dr. Kyle Bing, Dr. Samantha Greene, stress or anxiety reduction studies, memory retention, cognitive understanding, life satisfaction, or long-term resilience.",
+      "iteration": 0
+    },
+    {
+      "document_id": "dknlpaft",
+      "question_id": "dknlpaft-q2",
+      "text": "Mr. John Davies, a fifth-grade teacher, reported that the integration of Smart Boards into his classroom since September 2023 has improved students' test scores and heightened their enthusiasm for subjects like science and mathematics. The Smart Board is made by Smart Technologies and is described as one of the most recognized and widely used IWB brands, applauded for its durable surface and intuitive software. Dr. Emily Thompson's Department of Education study across thirty classrooms, begun in late fall 2023, concerns interactive whiteboards in general and does not mention Mr. Davies.",
+      "iteration": 0
+    },
+    {
+      "document_id": "eflozheu",
+      "question_id": "eflozheu-q2",
+      "text": "In rural areas, where technology may not be as accessible, schools like Springfield Community School in Illinois have initiated monthly town-hall meetings beginning from September 2023. These meetings serve as platforms for parents to voice concerns, give feedback, and stay informed about school happenings. The source contains no mention of a \"Parent Partnership\" program launched by a coordinator named Mr. Alex Carter on Dec 3, 2023, or of home visits at Springfield Community School; the Parent Partnership Program it does describe is at Oasis Academy in Manchester, UK, launched September 2023, using teacher liaisons.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ejuiuawr",
+      "question_id": "ejuiuawr-q2",
+      "text": "Christina Rodr\u00edguez is a sixth-grade teacher at Lincoln Elementary. She detailed how the curriculum evolved since the inception of the Global Classrooms initiative. Quoted: \"We've woven global awareness into every subject,\" says Rodr\u00edguez, whose classroom is adorned with flags and student projects reflecting a tapestry of cultures. \"In literature, we read stories from different countries; in geography, we examine how our lives are interconnected with people thousands of miles away.\" Global Classrooms was launched in early September (Principal Jonathan McPhee).",
+      "iteration": 0
+    },
+    {
+      "document_id": "fssrgunx",
+      "question_id": "fssrgunx-q4",
+      "text": "The document does not state how digital tools affect traditional teaching effectiveness. The only related material is: - Mrs. Carol Brady, a 6th-grade teacher at Franklin Elementary, \"now uses interactive eBooks and online discussion platforms to promote better student engagement.\" She said: \"The kids are more involved in their learning when they can interact with it digitally.\" - Dr. Jason Willow, \"a leading authority on digital literacy,\" discussed \"the improvements seen in students' research skills and their ability to collaborate online\" at a recent educator's conference. He said: \"The difference is palpable in classrooms where technology isn't just a tool",
+      "iteration": 0
+    },
+    {
+      "document_id": "ilxnsihk",
+      "question_id": "ilxnsihk-q3",
+      "text": "The document states: \"In the world of science, for instance, students are able to conduct chemical experiments virtually, reducing risks and costs associated with physical labs. Literature classes are enlivened as students explore the settings of their favorite novels, making connections that are deeper and more nuanced.\" This sentence sits in the section titled \"Applications Across Disciplines: A Multitude of Experiences,\" which follows the Lansing School District, Michigan, collaboration and precedes the art classes passage (Juan Torres, ArteTech conference, December 2, 2023).",
+      "iteration": 0
+    },
+    {
+      "document_id": "isyubwta",
+      "question_id": "isyubwta-q5",
+      "text": "- \"Research continuously reaffirms the truth that engaged parents can help elevate school performances, boost teacher morale, and enhance student outcomes. When parents are involved in their children's education, students often exhibit better behavior, higher academic achievement, and an increased likelihood of continuing education beyond high school.\" (Under \"The Pivotal Role of Parents in Learning,\" Lincoln Elementary, Springfield.) - The only section that could address long-term benefits is \"Investing in Futures Through Partnerships,\" which is the document's final line and has no body text. - The words \"attendance\" and \"attitude\" do not appear anywhere in the document. - No section",
+      "iteration": 0
+    },
+    {
+      "document_id": "jtlwoxvl",
+      "question_id": "jtlwoxvl-q3",
+      "text": "Early workshops at WCCLC (reported around mid-December 2023, during the Tech-Enabled Adult Learning/TEAL program) \"focused on bridging the gap, with sessions on operating devices, using the internet, and understanding common software applications.\" The center reported an enthusiastic uptake of these workshops, which \"helped reduce the intimidation factor associated with learning new technologies.\" The challenge being addressed was that adult learners \"come from diverse backgrounds and have varying degrees of familiarity with technology,\" and WCCLC \"ensur[ed] that no learner was left behind.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "teeckbbw",
+      "question_id": "teeckbbw-q5",
+      "text": "The section titled \"Technology: The Great Equalizer\" states that a key component of the evolving educational landscape has been the deployment of technology. Assistive technologies, such as speech-to-text software and screen readers, have allowed students with varying levels of ability to participate more fully in classroom activities. Since the inception of these programs, student engagement has seen an uptick, as these technologies help bridge communication gaps and encourage independence.",
+      "iteration": 0
+    },
+    {
+      "document_id": "trztbtfe",
+      "question_id": "trztbtfe-q5",
+      "text": "The source states: \"Spearheaded by the Global Education Initiative in June 2024, the Concordia District in France partnered with the Metroburg District in South Africa on a student exchange after-school program. This bilateral policy focuses on creating shared experiences and understanding among students from diverse backgrounds.\"\n\nKey facts:\n- The Global Education Initiative spearheaded the collaboration, in June 2024.\n- The Concordia District (France) partnered with the Metroburg District (South Africa).\n- The collaboration was a student exchange after-school program.\n- It is described as a bilateral policy aimed at shared experiences and understanding among students from diverse backgrounds.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ufkzbdbg",
+      "question_id": "ufkzbdbg-q3",
+      "text": "The document covers only Meadow Valley Community College (MVCC). Its adult-learner offerings are evening and weekend classes, online coursework, short-term certificate programs, and basic literacy through advanced technical courses at its Adult Learning Center. Support services are childcare, career counseling, and financial aid, including a subsidized childcare partnership with local daycares launched September 12. Employer ties are limited to TechInnovate (CEO Bob Sanders), which hires MVCC graduates. None of the named programs the assistant cited (Digital Adult Learning Centers, Green Tech Program, Junior Innovators Program, Equity in Funding Act, and others) appear anywhere in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wjdjfnbb",
+      "question_id": "wjdjfnbb-q5",
+      "text": "The document contains no data linking teacher characteristics to student outcomes. Its only outcome-related claim is that Springdale and Brookfield \"have seen successful teacher retention rates, but the methods are resource-intensive.\" Relevant document facts: - Brookfield's Teacher Apprentice Program (TAP), starting January 2024, \"intends to immerse teacher candidates in the school culture from day one.\" - Harbor View's Teacher Leadership Tracks (TLT) let teachers take leadership roles \"without leaving the classroom,\" aiding retention. No student-outcome results are given. - Central Plains School District's Comprehensive Teacher Support Program (CTSP), launched September 5, 2023, offers ongoing training, mental health services, and career",
+      "iteration": 0
+    },
+    {
+      "document_id": "xdlihuno",
+      "question_id": "xdlihuno-q2",
+      "text": "- The document never mentions government aid, public funding, grants, subsidies, or fundraising. - \"Nurturing Sustainable Relationships\": \"The longevity of partnerships is vital for the ongoing success of CLCs... Events like the annual 'Partnership Celebration' hosted by the Meadow Hill CLC help to maintain enthusiasm and appreciation among stakeholders.\" - \"The Role of Volunteers\": CLCs, \"like the Eastbridge Center, continuously recruit volunteers.\" - Coding boot camp: \"TechForward provided instructors and equipment, while the CLC managed enrollment and facilities.\" - None of the following appear anywhere in the document: Wilmington Waves, Harbor Community Learning Space, Lerner Family Trust, Oak Ridge Middle",
+      "iteration": 0
+    },
+    {
+      "document_id": "ydhadczb",
+      "question_id": "ydhadczb-q4",
+      "text": "On September 25, educators like Sarah Kim took their history and science classes to the Grand Canyon, Arizona, \"where learning extends far beyond geology. The Canyon's vast arid landscape opens discourse on desert ecosystems, water resources, and the Native American tribes of the region, serving as a comprehensive outdoor classroom.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "yrawvmhp",
+      "question_id": "yrawvmhp-q4",
+      "text": "Under \"Challenges and The Path Forward\": \"As with any undertaking, student-led archiving projects are not without their challenges. Limited resources, time constraints, and the gargantuan task of sifting through vast amounts of information often loom large. However, the challenges posed by such undertakings are dwarfed by their promise and potential. Facilitators and community partners continue to seek innovative ways to support these young historians in their quest.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "zdqklekk",
+      "question_id": "zdqklekk-q2",
+      "text": "Samantha Wright piloted an AI-based learning program in her fourth-grade class in October 2024. She reported remarkable improvement in comprehension and participation, and stated: \"AI doesn't replace the teacher,\" she asserts, \"but it gives us the tools to understand our students better.\" Using AI, teachers like Wright can monitor each student's progress in real-time and adjust lesson plans instantaneously, ensuring that no student falls behind.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zeacyqtk",
+      "question_id": "zeacyqtk-q3",
+      "text": "The document states: \"Fostering a Culture of Continuous Improvement\": \"As the Head of Initiative Assessment at the Turner Learning Foundation, Luke Martin has been instrumental in integrating continuous improvement models into the operations of CLCs. 'The ultimate objective is to create an environment where learning from both achievements and challenges is equally valued,' says Martin.\" The Community Learning Network was formed in January 2024; no \"Continuous Engagement Initiative\" or \"CCI\" appears in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zfzxpmyf",
+      "question_id": "zfzxpmyf-q4",
+      "text": "Educational psychologist Dr. Thomas Hartley explains the scientific rationale for the effectiveness of these workshops: \"When students engage in storytelling through various media, they're activating multiple cognitive processes. It's an exercise in critical thinking, problem-solving, and creative expression\u2014all at once.\" This section, titled \"The Science of Storytelling,\" follows the anecdotes and precedes the \"Multi-Cultural Mosaic\" section. Hartley is separately quoted in \"Reflecting on Relevance\" on classics in digital media, which is not the effectiveness rationale.",
+      "iteration": 0
+    },
+    {
+      "document_id": "dknlpaft",
+      "question_id": "dknlpaft-q2",
+      "text": "Mr. John Davies, a fifth-grade teacher, reported that the integration of Smart Boards into his classroom since September 2023 has improved students' test scores and heightened their enthusiasm for subjects like science and mathematics. The Smart Board is by Smart Technologies and is described as one of the most recognized and widely used IWB brands, applauded for its durable surface and intuitive software, which is particularly beneficial for educators who are not tech-savvy. Some educators noted that Smart Boards can be cost-prohibitive.",
+      "iteration": 1
+    },
+    {
+      "document_id": "dquaemjn",
+      "question_id": "dquaemjn-q1",
+      "text": "Dr. Samantha Leigh, an educational technologist at the University of Clarkeston, following extensive research, observed: \"The tactile nature of interactive whiteboards allows for a more engaging and immersive learning experience.\" Leigh's study notes that these tools not only display information but also allow teachers and students to interact with the content directly, significantly changing the dynamic of classroom instruction.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ilxnsihk",
+      "question_id": "ilxnsihk-q3",
+      "text": "Literature classes are enlivened as students explore the settings of their favorite novels, making connections that are deeper and more nuanced. This appears under the section \"Applications Across Disciplines: A Multitude of Experiences,\" which opens by noting that the transformative power of VR and AR isn't confined to any single subject area. It is placed directly after the science example, where students conduct chemical experiments virtually, and before the art example, where art teacher Juan Torres described students walking through their 3D art installations at an ArteTech conference on December 2, 2023.",
+      "iteration": 1
+    },
+    {
+      "document_id": "nvojnocf",
+      "question_id": "nvojnocf-q2",
+      "text": "Local municipal and county governments \"wield influence over local educational systems.\" They \"typically oversee the broader financial and infrastructural decisions that affect schools within their jurisdiction.\" Example: on September 14, 2023, Mayor John Adeyemi of Brookville announced an initiative directing increased funding toward expanding science and technology labs in local high schools, demonstrating commitment to STEM education. Local governance requires a harmonious relationship between school boards and local government officials so policies are \"adequately funded and supported at the grassroots level.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "ozekblig",
+      "question_id": "ozekblig-q1",
+      "text": "The core idea is stated in the opening paragraph: the integration of environmental science into physical education \"is not only redefining curricular boundaries but also cultivating a generation more attuned to the natural world.\" The article frames this as a trend at the intersection of health and environmental awareness, pursued through immersive, hands-on outdoor learning that enhances physical conditioning while instilling a connection with the environment. The assistant's answer instead drew on the orienteering and forest-ecosystem example from the \"Curriculum Coherence\" section, which illustrates the approach but is not the core idea.",
+      "iteration": 1
+    },
+    {
+      "document_id": "siacwumt",
+      "question_id": "siacwumt-q3",
+      "text": "Under \"Challenges Faced,\" the document states: \"Olivia observes that many students carry the weight of past educational failures, societal stigma, and a lack of confidence that can be barriers to progress.\" This sentence attaches the three barriers directly to Olivia's students in the Springfield Community Learning Center adult literacy class. The same section adds that Olivia acts as a \"cheerleader and confidence builder,\" and her mantra is \"It's never too late to learn.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "uucvghgj",
+      "question_id": "uucvghgj-q1",
+      "text": "Step 1 of the document states: \"Research has shown that learning in natural environments can improve children's cognitive abilities, enhance creativity, foster responsibility, and instill a sense of stewardship for the environment.\" The same step notes that activities like gardening, nature walks, and outdoor observation can support learning in science, mathematics, art, and physical education. Dr. Emily Rowland, an educational psychologist, spoke on September 15, 2023, about nature exposure and mental wellbeing, saying it improves attention, lowers stress levels, and nurtures emotional development. No study by a \"Dr. Sarah Johnson\" or any October 10, 2023 study on student anxiety appears",
+      "iteration": 1
+    },
+    {
+      "document_id": "xxqjfxdz",
+      "question_id": "xxqjfxdz-q2",
+      "text": "Paper to Paws, Harriet Tubman Elementary, initiated October 15th (2023). Third-grader Timmy Tinkerbell convinced classmates that mountains of misprinted worksheets could be turned into origami animals for the local animal shelter. The students expected cuddly paper critters, but the execution was lacking: \"Rather than skillful swans and perfect penguins, the animal shelter received a flurry of amorphous paper blobs.\" The source adds that \"abstract origami\" was not a stress reliever for dogs and cats, though the wrinkled creations sparked a new abstract art movement among the shelter's felines.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ydhadczb",
+      "question_id": "ydhadczb-q4",
+      "text": "On September 25, educators like Sarah Kim took their history and science classes to the Grand Canyon, \"where learning extends far beyond geology. The Canyon's vast arid landscape opens discourse on desert ecosystems, water resources, and the Native American tribes of the region, serving as a comprehensive outdoor classroom.\"\n\nNote: the document names Sarah Kim as the educator for the September 25 Grand Canyon trip. The December 3 date belongs to James Patterson's Great Barrier Reef visit, a marine science teacher, not Sarah Kim.",
+      "iteration": 1
+    },
+    {
+      "document_id": "zdqklekk",
+      "question_id": "zdqklekk-q2",
+      "text": "Samantha Wright, an educator who piloted an AI-based learning program in her fourth-grade class in October 2024, reported remarkable improvement in comprehension and participation. She said: \"AI doesn't replace the teacher, but it gives us the tools to understand our students better.\" Using AI, teachers like Wright can monitor each student's progress in real-time and adjust lesson plans instantaneously, ensuring that no student falls behind.",
+      "iteration": 1
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 225,
+      "cache_hits": 15,
+      "parse_failures": 0,
+      "input_tokens": 83853,
+      "output_tokens": 33368,
+      "estimated_cost_usd": 0.7521,
+      "measured_cost_usd": 0.025069,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 2,
+      "input_tokens": 314612,
+      "cache_read_tokens": 302464,
+      "output_tokens": 98582,
+      "estimated_cost_usd": 2.5133,
+      "measured_cost_usd": 0.267652,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 31,
+      "input_tokens": 74204,
+      "output_tokens": 8223,
+      "estimated_cost_usd": 0.346,
+      "measured_cost_usd": 0.011532,
+      "cost_source": "openrouter"
+    }
+  }
+}

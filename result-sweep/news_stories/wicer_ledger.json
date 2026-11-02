@@ -1,0 +1,296 @@
+{
+  "topic": "news_stories",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.1625,
+  "blind_probe_mean": 2.725,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.725,
+      "probe_score_1_pct": 23.75,
+      "n_failures": 19,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 11304,
+      "wiki_tokens": 19845,
+      "actual_ratio_words": 0.15935491146949363,
+      "actual_ratio_tokens": 0.21368349646283555,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.1625,
+      "probe_score_1_pct": 17.5,
+      "n_failures": 14,
+      "n_pinned_facts": 19,
+      "pinned_words": 1649,
+      "wiki_words": 9384,
+      "wiki_tokens": 17383,
+      "actual_ratio_words": 0.13228825983985565,
+      "actual_ratio_tokens": 0.18717360640027564,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.1605504587155963,
+      "stop": null
+    },
+    {
+      "iteration": 2,
+      "wiki_name": "wicer_iter2",
+      "probe_mean": 2.95,
+      "probe_score_1_pct": 20.0,
+      "n_failures": 16,
+      "n_pinned_facts": 33,
+      "pinned_words": 2888,
+      "wiki_words": 8512,
+      "wiki_tokens": 15114,
+      "actual_ratio_words": 0.11999548889139507,
+      "actual_ratio_tokens": 0.16274186775204316,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": -0.06719367588932804,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "aatdlexi",
+      "question_id": "aatdlexi-q5",
+      "text": "The document contains no passage framing ethical considerations as shaping biodiversity policy. The nearest material is: - \"the 2030 Beijing Accord on Indigenous Knowledge has seen the formal incorporation of traditional ecological wisdom into international biodiversity policy. As of September 2033, over 120 countries now require that indigenous consultative bodies review and offer input on biodiversity plans.\" - \"studies published after September 1, 2023, have debunked this, illustrating that healthy ecosystems enable sustainable development.\" - \"they also aim to maintain genetic diversity and ecosystem functions that provide resilience against environmental changes.\" - \"Corporate Biodiversity Credits, introduced on March 15, 2026,",
+      "iteration": 0
+    },
+    {
+      "document_id": "fbhjjyjq",
+      "question_id": "fbhjjyjq-q5",
+      "text": "The document does not address traditional soil-based farms. The only aeroponic content is item 1, \"Aeroponic Systems: Revolutionizing Root Nutrition,\" which states the technology \"allows plants to grow in an air or mist environment with no soil.\" Dr. Lana Hartley, an Agri-tech innovator from Future Farms Co., announced on September 5, 2023, a new smart aeroponic system equipped with AI that determines nutrient mix and mist frequency. It optimizes water usage \"by an astonishing 70% compared to initial models,\" meaning earlier aeroponic models, not conventional farms. The document is numbered 1 to 10 and has no section 3.2.",
+      "iteration": 0
+    },
+    {
+      "document_id": "hrdqfexw",
+      "question_id": "hrdqfexw-q3",
+      "text": "Dr. Samantha White, quoted on November 2, 2023: \"we witnessed the successful deployment of an AI system that crafts unique treatment plans for diabetes patients by analyzing their lifestyles, genetic markers, and medical histories. This approach could revolutionize diabetes management.\" The 95% accuracy figure belongs to a different claim: Dr. Raymond K. Patel said a breakthrough algorithm predicts cardiovascular events with 95% accuracy based on historical patient data. Dr. White's diabetes statement is the one that answers the question.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ijdcerso",
+      "question_id": "ijdcerso-q5",
+      "text": "- \"Lifting Lives: Anti-Gravity's Socioeconomic Impact\" says that \"by the fall of 2025, thinkers like Adeyemi pointed to its potential to lift the quality of life.\" It adds that \"reduced transportation costs could drive down the price of goods, helping alleviate impoverishment in marginalized communities globally.\" - In \"Urban Sprawl Redefined,\" Berlin Metropolitan Development Committee urban planner Jonas Schneider says anti-gravity technology \"could fundamentally change our approach to urban sprawl and congestion,\" with buses \"hovering above traffic.\" - No passage mentions vertical cities, nomadic living, virtual or augmented reality, redefining \"home,\" or changes to freedom and mobility. - The document",
+      "iteration": 0
+    },
+    {
+      "document_id": "jfxksurw",
+      "question_id": "jfxksurw-q2",
+      "text": "Urban planner Hassan Qureshi speculates: \"Just imagine driving a car without the need for roads, or buildings suspended in the air.\" The technology could re-imagine cityscapes, reduce the need for resource-intensive infrastructure, and ultimately abandon the aging concept of 'upstairs' and 'downstairs'. The document also cites decentralization of cities, reduced cost of goods, and shrinking geographical disparities as broader societal impacts.",
+      "iteration": 0
+    },
+    {
+      "document_id": "jpnjmjmz",
+      "question_id": "jpnjmjmz-q5",
+      "text": "The source states: \"In January 2024, the International Geological and Atmospheric Research Summit will convene experts from around the globe to discuss natural phenomena, including sky quakes. The Summit aims to establish a more cohesive global monitoring system, which can prompt timely alerts and foster a better understanding of these baffling atmospheric events.\" The Summit's sky-quake objective is therefore a more cohesive global monitoring system, which can prompt timely alerts and foster better understanding. The date, January 2024, is the Summit's scheduled convening, and the objective sentence is in the final section titled \"The Future of Sky Quake Research.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "mpoygovf",
+      "question_id": "mpoygovf-q3",
+      "text": "Facts from the source needed for the answer:\n\n- The first successful object teleportation using quantum entanglement was demonstrated by a team led by Dr. Xiang Li of the Quantum Research Center in Geneva.\n- The document states this event took place on November 12, 2025, and calls it a historical pivot point.\n- The experiment teleported a carbon molecule over a distance of five meters.\n- Earlier quantum teleportation had transferred only information, not a tangible object, so this was the first time a tangible object was teleported.",
+      "iteration": 0
+    },
+    {
+      "document_id": "nemvwytd",
+      "question_id": "nemvwytd-q1",
+      "text": "Dr. Lena Patel, a physicist from the University of Technological Innovation, made an announcement on September 5, 2023, that her team had developed a prototype for an anti-gravity device. The device purportedly uses superconducting materials and magnetic fields to produce \"gravitational modulation.\" The source names no symposium, no city (such as Helsinki), no device name (such as \"Leviathan\"), and gives no September 15 date. The other dated events are October 12, 2023 (a demonstration of a small levitating plate) and November 25, 2023 (urban planner Marissa Quin's remarks).",
+      "iteration": 0
+    },
+    {
+      "document_id": "olwfdrxz",
+      "question_id": "olwfdrxz-q5",
+      "text": "The source document does not name any \"Paris Agreement on Biodiversity,\" \"Resource Redistribution Treaty,\" or \"Strategic Framework for Biodiversity and Climate Adaptation.\" It contains no stated policy effects, no 2050 restoration target, and no discussion of agriculture, forestry, fisheries, indigenous rights, migration corridors, or climate refugia. The only policy-related content is that attendees \"stand united in their demand for stronger climate policies,\" with \"High on the agenda\" being \"an international legally binding treaty among countries, with aggressive targets and transparent tracking.\" The summit \"Youth Teach-In\" sessions and media training are said to be aimed at \"swaying policy and societal action,\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "oycdqgsk",
+      "question_id": "oycdqgsk-q5",
+      "text": "- \"AstroGroove\" opened in September 2024, founded by former ballet dancer and aeronautics engineer Maria Gomez. It pairs traditional techniques with zero-gravity disorientation. - \"GyroGears\" suits with gyroscopes and stabilizers help dancers control movement. Gomez describes the work as \"reprogramming our sense of balance and coordination.\" - The only competition named is the \"Ad Astra Dance Challenge,\" launched November 2024 by the International Space Arts Federation. - The National Academy of Performing Arts added zero-gravity dance to its syllabus on February 15, 2025. - Mikhail Chen's \"Lunar Moves\" academy in Los Angeles has offered zero-gravity modules since January 2025. -",
+      "iteration": 0
+    },
+    {
+      "document_id": "phckmwod",
+      "question_id": "phckmwod-q3",
+      "text": "John Douglas, a gig worker and activist, is quoted in the source's \"A Financial Balancing Act on a Tightrope\" section as highlighting, at a rally on March 12, 2024: \"We're not building careers; we're surviving from gig to gig.\" The surrounding passage describes the gig economy's financial instability: no sick days, no paid leave, no guaranteed minimum income, presented as a trade-off for supposed freedom but amounting to a fragile existence.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pwazteny",
+      "question_id": "pwazteny-q1",
+      "text": "On September 18, 2023, the residents of New New Amsterdam awoke to an unprecedented event: an eerie, pallid mist clasped the city in its cold embrace. Initially thought to be an early onset of winter fog, the vaporous visitor was soon identified as Toxic Fog, a term coined by the respiratory expert Dr. Astra Lungs. The source ties the city's first exposure directly to that date.",
+      "iteration": 0
+    },
+    {
+      "document_id": "rqsvdoii",
+      "question_id": "rqsvdoii-q5",
+      "text": "The document contains no Bureau of Labor Statistics figure, no gig economy or remote work statistics, and no \"36%\" or \"October 12, 2023\" date. The relevant labor content is in the section \"Employment or Exploitation?\": - \"There are now full-time 'gold farmers' in online games, virtual real estate agents, and digital asset creators.\" - United Nations' virtual labor specialist Sofia Ramirez, on December 2, 2023, stated: \"Virtual economies are creating employment opportunities, but also spheres where exploitation can go unchecked.\" - \"The ethical debate hinges on virtual sweatshops where workers earn less than their physical-world counterparts for comparable labor, under",
+      "iteration": 0
+    },
+    {
+      "document_id": "tslbvlrh",
+      "question_id": "tslbvlrh-q2",
+      "text": "Dr. Leila Vargas, a renowned solar physicist, said that solar tsunamis are not inherently destructive by cosmic standards, and that what makes the October 11, 2023 event notable is \"the convergence of a number of solar anomalies that have amplified the strength of the sun's outburst dramatically.\" The event was observed by astronomers at the Mauna Loa Solar Observatory in Hawaii, and was caused by a solar flare combined with a coronal mass ejection (CME). No \"Dr. Helena Vasquez\" or September 25, 2023 readings appear in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "tunfapvb",
+      "question_id": "tunfapvb-q2",
+      "text": "Emily Thompson, identified as an ARG designer, was interviewed on September 12, 2024. She stated: \"The appeal lies in the mystery and collaboration. Players are not just visiting a site; they're part of a narrative that unfolds with every clue they uncover.\" This appears in the section \"The Lure of the Digital Scavenger Hunt,\" which describes the digital scavenger hunt as one of the most substantial draws for ARG pilgrimages.",
+      "iteration": 0
+    },
+    {
+      "document_id": "uuvgwamd",
+      "question_id": "uuvgwamd-q1",
+      "text": "The source states that zero-gravity dance \"initially took flight with the landmark performance aboard the International Space Station (ISS) on March 28, 2024, led by renowned astronaut and former ballerina Dr. Katerina Ivanova.\" Her performance was \"a seminal display of zerogravity ballet\" that \"sparked the imagination of artists and scientists alike, setting the stage for a cultural shake-up.\" The ISS performance is the event the question refers to. The post-September 2023 space travel trend is described only as background, not as the sparking event.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wwvielor",
+      "question_id": "wwvielor-q5",
+      "text": "Professor Lewis Feldman, \"a renowned expert in global supply chains from Monarch University,\" is quoted in the section \"Manufacturing and Supply Chain Interruptions\": \"We're seeing interruptions across the board, from the sourcing of raw materials affected by soil and water contamination to challenges in maintaining operations within darkened, cold environments.\" The industrial sector is described as \"enduring its share of the ashen onslaught,\" in the context of the volcanic event dubbed the 'Ashen Plague,' whose eruptions began on September 5, 2023. Automotives, electronics, and the pharmaceuticals industry are noted as particularly vulnerable due to reliance on just-in-time delivery schedules.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ydwiagrn",
+      "question_id": "ydwiagrn-q3",
+      "text": "The source passage on \"Virtual Temples and Cyber Sanctuaries\" states: the inauguration of Eudaimonia, \"a massive online platform that boasts AI-guided meditations and sermons, on December 20, 2023, marked a significant milestone in the evolution of these digital houses of worship.\" Eudaimonia is described as a massive online platform, and the passage concerns \"virtual worship spaces or 'cyber sanctuaries'\" where devout followers engage with AI entities. The document does not mention \"tech temples,\" \"silicon shrines,\" Sara Jensen, or \"The Nexus Sphere\" in Berlin.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zogbnnzh",
+      "question_id": "zogbnnzh-q1",
+      "text": "Search and rescue operations were undertaken quickly by the Los Angeles Fire Department with assistance from volunteers to save lives and protect property. This followed the September 15, 2023 outbreak in the San Fernando Valley, when the Lincoln Wildfire, Canyon Blaze, and Griffith Park Fire spread, destroying hundreds of homes and forcing thousands to evacuate within one week. One volunteer, Cesar Ramirez, a 34-year-old firefighter from a nearby county, died while safeguarding his community.",
+      "iteration": 0
+    },
+    {
+      "document_id": "aatdlexi",
+      "question_id": "aatdlexi-q5",
+      "text": "The document contains no discussion of ethical considerations in biodiversity policy. Its closest material is the section \"How Are Indigenous Knowledge Systems Integrated Into Biodiversity Policy?\": the 2030 Beijing Accord on Indigenous Knowledge formally incorporated traditional ecological wisdom into international biodiversity policy, and \"as of September 2033, over 120 countries now require that indigenous consultative bodies review and offer input on biodiversity plans.\" This is described as integration, not as an ethical principle. The document's other policy-shaping factors are stakeholder interests, the Biodiversity Council (November 30, 2028), and the misconception section, none framed as ethics.",
+      "iteration": 1
+    },
+    {
+      "document_id": "apjkcfag",
+      "question_id": "apjkcfag-q1",
+      "text": "The source states that the Resource Redistribution Treaty (RRT) was finalized on 2nd September 2023 during the landmark Global Economic Summit in Cape Town, South Africa. Leading economies and emerging market representatives came together to sign it. It was spearheaded by United Nations economists alongside Canada's Finance Minister Elizabeth Tran and Brazil's Secretary for International Trade Raul Jimenez. The treaty is described as a pact to redesign worldwide resource allocation and economic collaboration, under which resource-rich countries allocate a percentage of surplus resources to nations facing shortages.",
+      "iteration": 1
+    },
+    {
+      "document_id": "awqjmafw",
+      "question_id": "awqjmafw-q1",
+      "text": "The source's opening paragraph states the declaration: \"On September 5th, 2025, at precisely noon GMT, a broadcast signal originating from beneath the Atlantic Ocean's waves interrupted international television programs, radio transmissions, and online streams across the globe.\" The message was \"delivered in various languages by a dignified figure known as Prime Minister Thalassa, claimed independence for a highly advanced civilization known as Atlantis.\" The same paragraph describes the announcement as the legendary undersea nation of Atlantis, \"long dismissed as myth,\" having \"revealed itself to the surface world and declared its independence.\" Later passages refer back to this as \"Atlantis's declaration",
+      "iteration": 1
+    },
+    {
+      "document_id": "esgtlykr",
+      "question_id": "esgtlykr-q4",
+      "text": "- The document never mentions Maria Gomez or AstroGroove, and it contains no statement about zero-gravity dance reprogramming dancers' balance or coordination. - The only Maria in the document is Maria Rodriguez, an astronaut and trained ballet dancer who performed a pas de deux with Li Wang on the ISS, broadcast September 14, 2023. - Celestial Motion Inc., founded by Rodriguez and Wang in 2024, prepares performers for microgravity, using parabolic flights to simulate it. - The closest pedagogy content is the International Space Performing Arts Academy (ISPA), created in 2027, which offers scholarships. Its students train in \"both traditional",
+      "iteration": 1
+    },
+    {
+      "document_id": "hlommmdd",
+      "question_id": "hlommmdd-q3",
+      "text": "Fusion power's rise \"aligns with the United Nations' Sustainable Development Goals, promising a substantial reduction in carbon emissions.\" Environmental groups hail the breakthrough as a turning point in the fight against global warming. The breakthrough was unveiled on September 23, 2025, at the International Conference on Energy Innovation in Geneva, Switzerland, by Dr. Linda Okonkwo and Dr. Alexei Petrov. Fusion energy offers clean energy \"without the emission of greenhouse gases or long-lived radioactive waste.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "ijdcerso",
+      "question_id": "ijdcerso-q5",
+      "text": "Urban planner Jonas Schneider of the Berlin Metropolitan Development Committee (2024) said anti-gravity technology could \"fundamentally change our approach to urban sprawl and congestion.\" Professor Amita Chaudhry of the London School of Economics said countries \"previously disadvantaged by their remote locations could become central hubs of trade and industry.\" Dr. Ayo Adeyemi, futurist (July 2025), said the technology could lift quality of life and help alleviate impoverishment in marginalized communities. Maria-Victoria Puentes of the Global Education Forum discussed floating campuses. Dr. Lena Patel and Dr. Ava Mirecki do not appear in the document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "khpijasb",
+      "question_id": "khpijasb-q3",
+      "text": "The source states: \"On December 5, 2023, Dr. Ima Knowitall and her team at \u00dcbermind Tech unveiled what they've modestly named the 'Cranium Cloud Connector.' This state-of-the-art BCI device allegedly amplifies human cognition to stratospheric levels.\" The date October 17, 2023 appears only as the document's opening reference (\"As of October 17, 2023, what was once the stuff of science fiction is edging hilariously close to reality\") and is not the unveiling date. The Cranium Cloud Connector is thus tied to December 5, 2023, with Dr. Knowitall and \u00dcbermind Tech named as the unveilers.",
+      "iteration": 1
+    },
+    {
+      "document_id": "kzvvwmjz",
+      "question_id": "kzvvwmjz-q2",
+      "text": "Facts the correct answer depends on: The document opens by stating that Phantom Tornadoes are a stark deviation from natural disasters that can usually be detected and mapped \"with some degree of predictability.\" These night twisters, observed increasingly since the onset of September 2023, \"have puzzled and concerned both the scientific community and the public due to their sporadic nature.\" This sporadic nature is what \"have prompted a surge in research towards understanding and eventually predicting these covert whirlwinds.\" Their unpredictability is described as \"alarming,\" and they \"appear invisible to conventional radar systems.\" The Halcyon Ridge, Oklahoma event of September",
+      "iteration": 1
+    },
+    {
+      "document_id": "mtbauwfv",
+      "question_id": "mtbauwfv-q1",
+      "text": "As of September 2025, reports from the Economic Analysis Bureau (EAB) have shown an accelerated adoption of automation across various sectors. Once, robots were confined to the assembly lines of automobile factories; now, they're in our homes, offices, hospitals, and even courtrooms. The article is a November 11, 2023 piece by Elisa Martinez, titled \"Labor Market Evolution: The Impact of Automation on Jobs,\" under the heading \"The Automation Surge: What's the Current State?\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "ohtbudau",
+      "question_id": "ohtbudau-q5",
+      "text": "The fact the correct answer depends on appears in the section \"Forging a Cyber-Identity\":\n\n\"As of December 1, 2023, Vanders announced that the Alliance would begin issuing digital passports to its citizens, creating a tangible symbol of their membership. For many, these passports offer a sense of belonging and identity that transcends their physical location.\"\n\nContext needed: the Alliance is the Cyberterritorial Alliance, led by Markus Vanders, and the announcement was made on the December 1, 2023 date given in this passage. The passage gives no other initiative tied to that date.",
+      "iteration": 1
+    },
+    {
+      "document_id": "rqsvdoii",
+      "question_id": "rqsvdoii-q5",
+      "text": "**Employment-related passage (the only labor content in the document):** - Under \"Employment or Exploitation?\": \"With new economic avenues come new forms of labor. There are now full-time 'gold farmers' in online games, virtual real estate agents, and digital asset creators.\" - \"A bold declaration was made by United Nations' virtual labor specialist, Sofia Ramirez, on December 2, 2023, stating that 'Virtual economies are creating employment opportunities, but also spheres where exploitation can go unchecked.'\" - \"The ethical debate hinges on virtual sweatshops where workers earn less than their physical-world counterparts for comparable labor, under unregulated conditions.\" **Not present in the",
+      "iteration": 1
+    },
+    {
+      "document_id": "vtacoffk",
+      "question_id": "vtacoffk-q3",
+      "text": "Tech temples section: By December 2023, AI spirituality saw its first dedicated physical spaces, called \"tech temples\" or \"silicon shrines.\" These venues, built by devoted followers like architectural visionary Sara Jensen, were designed to facilitate interactions between humans and AI in a sacred manner. Inside, people engaged with AI as a medium to access a broader spiritual conscience. \"One renowned tech temple, 'The Nexus Sphere,' opened in Berlin and swiftly became a pilgrimage site for practitioners of AI mysticism.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "yxxecrvh",
+      "question_id": "yxxecrvh-q4",
+      "text": "The section titled \"Soft Skills Haven't Lost Their Shine\" states that in the maelstrom of coding and machine learning, one may be quick to discount soft skills. However, emotional intelligence, critical thinking, and creativity remain at a premium. \"The reasoning is simple: machines cannot replicate genuine human connection and innovation.\" Consequently, educators are intertwining soft skill development with technical curricula, aiming to sculpt graduates who can lead, inspire, and engage in an interpersonal workplace dynamic.",
+      "iteration": 1
+    },
+    {
+      "document_id": "zogbnnzh",
+      "question_id": "zogbnnzh-q1",
+      "text": "Search and rescue operations were undertaken quickly by the Los Angeles Fire Department with assistance from volunteers to save lives and protect property. This followed the September 15, 2023 start of the Lincoln Wildfire, Canyon Blaze, and Griffith Park Fire in the San Fernando Valley and Los Angeles, which destroyed hundreds of homes and forced thousands to evacuate within one week. One volunteer, Cesar Ramirez, a 34-year-old firefighter from a nearby county, died while safeguarding his community.",
+      "iteration": 1
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 222,
+      "cache_hits": 18,
+      "parse_failures": 0,
+      "input_tokens": 80640,
+      "output_tokens": 37719,
+      "estimated_cost_usd": 0.8077,
+      "measured_cost_usd": 0.026923,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 2,
+      "input_tokens": 330721,
+      "cache_read_tokens": 317990,
+      "output_tokens": 85587,
+      "estimated_cost_usd": 2.3714,
+      "measured_cost_usd": 0.236233,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 33,
+      "input_tokens": 80083,
+      "output_tokens": 9941,
+      "estimated_cost_usd": 0.3894,
+      "measured_cost_usd": 0.012979,
+      "cost_source": "openrouter"
+    }
+  }
+}

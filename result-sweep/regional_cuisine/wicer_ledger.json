@@ -1,0 +1,213 @@
+{
+  "topic": "regional_cuisine",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.0375,
+  "blind_probe_mean": 2.95,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.95,
+      "probe_score_1_pct": 27.5,
+      "n_failures": 22,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 9990,
+      "wiki_tokens": 19940,
+      "actual_ratio_words": 0.13721208125592319,
+      "actual_ratio_tokens": 0.20469967457474003,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.0375,
+      "probe_score_1_pct": 26.25,
+      "n_failures": 21,
+      "n_pinned_facts": 22,
+      "pinned_words": 1761,
+      "wiki_words": 9845,
+      "wiki_tokens": 18594,
+      "actual_ratio_words": 0.13522051451096737,
+      "actual_ratio_tokens": 0.19088193325189148,
+      "n_preserved_found": 18,
+      "preservation_rate": 0.8181818181818182,
+      "improvement": 0.029661016949152512,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "adknmljy",
+      "question_id": "adknmljy-q3",
+      "text": "The document contains no list of common novice mistakes with stir-frying. It does not mention overheating or charring vegetables, excess oil, batch cooking to avoid steaming, drying or room-temperature protein, or over-saucing. The only related material is general: Chef Liang Zhao's \"The Finishing Touches\" section mentions \"a drizzle of sauce, a sprinkle of herbs\" as precise, honed actions, and \"The Interplay of Ingredients\" says proteins go first, then vegetables, then aromatics as a \"choreographed sequence\" the chef perfected over months. The \"Wok Stir-Frying at Home\" section says home cooks need only \"a good wok, fresh ingredients, and the courage to",
+      "iteration": 0
+    },
+    {
+      "document_id": "dkiokkym",
+      "question_id": "dkiokkym-q2",
+      "text": "Marie-Claire Fontaine, an artisane boulangerie in Provence, shared on a crisp morning in November 2023 that \"the trick to a perfect boule lies in the overnight fermentation of the dough, which develops a deep flavor and airy texture.\" The source describes her bread as baked in ancient stone ovens fueled by oak or cherry wood. Once the boule hits the blistering hot oven floor, it bakes from the outside in, forming a thick crunchy crust.",
+      "iteration": 0
+    },
+    {
+      "document_id": "frdoqryf",
+      "question_id": "frdoqryf-q5",
+      "text": "Grandma Elsie Mayfield, 77, of a family-owned farmstead in the rolling hills of Charlottesville, Virginia, makes her famous raspberry jam, taught to her by her own grandmother in the late 1940s. The source states: \"It's September 15, 2023, and the raspberries are just right: plump, deep red, and bursting with flavor. Elsie takes us through her process, which starts with handpicking the best berries at dawn's first light.\" The recipe is berries, sugar, and a squeeze of lemon.",
+      "iteration": 0
+    },
+    {
+      "document_id": "getjqdwk",
+      "question_id": "getjqdwk-q2",
+      "text": "The source document contains no facts that answer this question. It never mentions \"Rhyme and Reason: The Pompous Poetry Pavilion,\" poetry, or any event on October 5-6, 2023. The only October 2023 date it gives is October 14, 2023, when Chef James Fortner of \"Le Gourmandise\" in Lyon made a remark about confit. That date belongs to an unrelated event, so the correct answer cannot be recovered from this document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gjekdqjt",
+      "question_id": "gjekdqjt-q4",
+      "text": "The document ties seasonal salads to harvest timing: \"regional cuisine is not just about the ingredients but is deeply rooted in the time of year they are harvested.\" Its spring section dates to March 22, 2024, with Julia Tanner of Eden's Bounty saying, \"Let spring's new greens be the hero.\" The Young Spinach and Fresh Herb Salad lists baby spinach, parsley, cilantro, dill, radishes, and sprouted seeds or beans. Citrus-pomegranate salads are described only as \"brimming with antioxidants.\" The document never mentions CSAs, farmers' market availability of spring herbs, or the iron and vitamin A, C, or K content of",
+      "iteration": 0
+    },
+    {
+      "document_id": "jhinodmy",
+      "question_id": "jhinodmy-q3",
+      "text": "Chef Mei Lin of the \"Lotus Bloom\" restaurant in San Francisco (opened September 15, 2023) is cited as believing that the subtle infusion of the bamboo basket's aroma is an added advantage that can't be replicated with modern metal steamers. Chef Lin asserts that bamboo steaming not only cooks food but also enhances it with a delicate, earthy scent. The document does not attribute any statement about bamboo absorbing moisture to Mei Lin; no \"Dr. Mei Lin\" or Beijing Culinary Institute appears in the source.",
+      "iteration": 0
+    },
+    {
+      "document_id": "kquyplig",
+      "question_id": "kquyplig-q2",
+      "text": "Dr. Emily Frost, thermal engineer, led a workshop on October 3, 2023, on the science of heat transfer. She explained that in wood-fired ovens, heat is transferred in three ways: conduction, convection, and radiation. Conduction occurs when heat moves between objects in direct contact, such as the oven floor transferring heat to the bottom of a pizza. Convection circulates hot air within the oven, ensuring uniform temperatures and cooking rates. Radiation emits heat energy in the form of waves, evenly browning the surface of the food.",
+      "iteration": 0
+    },
+    {
+      "document_id": "mgrhopkt",
+      "question_id": "mgrhopkt-q1",
+      "text": "The farm-to-fork movement is described in the section \"The Farm-to-Fork Renaissance: Reconnecting with Ancestral Wisdom\": \"At the heart of this renaissance is the farm-to-fork movement, which emphasizes purchasing locally grown produce to support the regional agricultural economy and reduce the environmental impact of long-haul transportation.\" The same section introduces farmer John Patterson in the rolling hills of Virginia, who has turned to his great-grandparents' farming journals dated back to 1898 and rediscovered old planting techniques and heirloom varieties. Patterson's farm-to-fork-related quote concerns the Cherokee Purple tomato, which he supplies to Chef Emily Rivera's Oak & Sage restaurant. The document does",
+      "iteration": 0
+    },
+    {
+      "document_id": "najnhxvk",
+      "question_id": "najnhxvk-q3",
+      "text": "Sally Sprout appears in the section \"Leafy Laughter: The Jovial Joys of Jagged Lettuce.\" She is described as \"urban forager and food blogger, Sally Sprout,\" who on the crisp morning of April 22nd, 2024, proclaims: \"You haven't lived until you've swapped romaine for some young, tender dandelion greens.\" She also says that the humble herb \"needs to be treated like a guest of honor.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "omsxldrc",
+      "question_id": "omsxldrc-q4",
+      "text": "The Harvest Celebrations section covers the Martins family of Oregon, who celebrate the harvest moon on September 21, 2023 with pumpkin, apple, and pecan pies. Grandma Linda and her grandkids roll out pie crusts, a tradition demanding precision with a pinch of play. The exact quote: \"Every pie is a promise of the coming together,\" Linda often muses, ensuring her granddaughters master the flaky crusts and spiced fillings that symbolize the heartiness of the family.",
+      "iteration": 0
+    },
+    {
+      "document_id": "qqwhhvld",
+      "question_id": "qqwhhvld-q1",
+      "text": "Chef Annabelle Wright's signature dish is \"Mermaid's Whisper.\" The source says it was described as an \"ode to the sea\" by food critic Oliver Hammond in his January 2024 review. The dish combines a variety of seasonal catch, ranging from scallops to sea bass, with various types of seaweed. Wright is also the chef behind the restaurant Neptune's Bounty, which opened on September 15, 2023, a separate fact from the dish.",
+      "iteration": 0
+    },
+    {
+      "document_id": "rupqbvvi",
+      "question_id": "rupqbvvi-q5",
+      "text": "- Tom\u00e1s Herrera, a responsible forager, adheres to ethical guidelines: taking only what one needs, favoring abundant species, and avoiding areas contaminated by pollutants.\n- Herrera advocates that sustainable foraging ensures the continuity of food sources and teaches respect for nature's limits.\n- Experts urge foragers to seek permission when foraging on indigenous territories.\n- Culinary experts Emma Rodr\u00edguez and botanist Dr. Liam Chen ran October 2023 workshops on sustainable harvesting of wild ingredients.\n- The document names no section numbered 6.6 or 6.7, and does not mention seeding, soil protection, or protected areas.",
+      "iteration": 0
+    },
+    {
+      "document_id": "tntsjnzo",
+      "question_id": "tntsjnzo-q3",
+      "text": "The 2023 edition of the Future Chefs Regional Showdown, the regional culinary tournament, was scheduled for September 15th to September 17th, 2023. The document states: \"The 2023 edition of the regional culinary tournament, hosted in Nashville, Tennessee, promises a smorgasbord of events designed to challenge and celebrate these young chefs.\" The closing section also refers to \"this year's showdown\" in \"the heart of Nashville.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ufhmwodm",
+      "question_id": "ufhmwodm-q3",
+      "text": "Ethan Parker, food blogger and culinary instructor, shared on November 2nd, during an apple preservation workshop, the quote: \"Homemade applesauce is a revelation. With each variety of apple, you unlock new flavors\u2014an incredible balance of sweet and tangy that no store-bought version can match.\" The surrounding section, \"Apples to Applesauce: Homemade Simplicity,\" notes that apple orchards boast a variety of species that ripen at different times throughout the fall season.",
+      "iteration": 0
+    },
+    {
+      "document_id": "uvfxajwe",
+      "question_id": "uvfxajwe-q1",
+      "text": "Chef Olivia Sanchez, \"the renowned Chef Olivia Sanchez, who hosted a series of workshops on fermentation in San Francisco in late September 2023,\" taught \"both the importance of patience and the need for a sterile environment, emphasizing that while techniques haven't changed dramatically over the millennia, understanding the science behind the process can yield consistently delicious results.\"\n\nThe source never mentions airlock lids, glass weights, or mold reduction in connection with Sanchez or her workshops.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vfstibif",
+      "question_id": "vfstibif-q2",
+      "text": "Chef Jacob Sullivan of \"Harvest Home\" was interviewed on November 28, 2023, about the traditional American Thanksgiving meal. He named squash, turnips, and sweet potatoes as \"just the beginning,\" then said: \"Cranberries are the real star, though. A native fruit to North America, they're not just for sauces\u2014they can be desserts, condiments, and even part of the stuffing.\" The document adds that Thanksgiving is synonymous with turkey, but it is the symphony of seasonal side dishes that brings the meal together.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vzmjljyy",
+      "question_id": "vzmjljyy-q1",
+      "text": "On April 4, 2024, renowned horticulturist Emily Foster remarked, \"Spring is a symphony of flavors waiting to be savored. It's a time to embrace the fresh bounty that the soil so generously offers.\" This quote is the statement attached to that date and name. The spring timeline described in the document (tender shoots and greens such as arugula, spinach, and lettuce, plus herbs like parsley and chives, appearing at farmers' markets and in CSA boxes from March) is a separate point and does not answer what Foster said about flavors.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wxpdcqgs",
+      "question_id": "wxpdcqgs-q2",
+      "text": "Chef Emily Nguyen, a rising star based in the Pacific Northwest, was interviewed on a crisp September morning. Her quoted view: \"When you respect the fishing calendar, you not only get the freshest catch,\" Chef Nguyen explains, \"but you're also working with nature. You're not depleting resources; instead, you're part of a cycle that can continue healthily for years to come.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ybtppwaj",
+      "question_id": "ybtppwaj-q1",
+      "text": "The source states that chefs Maria Consuela and food critics such as Thomas Keller extolled olive oil's virtues, calling it the 'liquid gold' of the region since the early 2000s. This appears in \"The Essence of Olive Oil\" section, which follows the opening passages on Mediterranean cuisine and precedes the discussion of the olive oil types (extra virgin, virgin, or refined) and their health benefits. The document's later date stamp is November 5, 2023, when olive oil is described as remaining a non-negotiable in the Mediterranean pantry.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ytrriusq",
+      "question_id": "ytrriusq-q5",
+      "text": "The source states: \"One such group, the Happy Valley Preservers, formed on September 22, 2023, has already seen a membership spike. The group meets bi-weekly, sharing tips, recipes, and preserved delights.\" It adds that the group's founder is Roberto Garcia: \"The act of preserving food has unexpectedly preserved something else\u2014our connection to each other,\" says Roberto Garcia, the group's founder. The group is described as one of the canning and fermenting clubs that \"have sprung up across various neighborhoods.\" The assistant's claim that the September 22 date was \"not specified\" is contradicted by this passage.",
+      "iteration": 0
+    },
+    {
+      "document_id": "yyetsduh",
+      "question_id": "yyetsduh-q5",
+      "text": "Dr. Amelia Grant, a food scientist from the University of Vermont, delves into the microbial world with her lecture on \"Microbes and Morsels\" on November 5th. In her talk, she unveils the hidden world of lactobacilli that turns cabbages into sauerkraut or cucumbers into pickles. According to Dr. Grant, these microscopic beings are the unsung heroes, not just preserving our food but enhancing its nutritional value as well.",
+      "iteration": 0
+    },
+    {
+      "document_id": "znfbffto",
+      "question_id": "znfbffto-q5",
+      "text": "Stephanie Cho, head of FarmChain Initiative, shared in August that, \"Our platform allows consumers to scan a QR code and instantly learn the story of their meal, from seed to harvest to their plate.\" The passage appears in the section \"From the Roots: The Tech-Enabled Farm to Table Movement,\" which describes farmers, distributors, and retailers adopting blockchain-based secure digital ledgers to track produce, ensuring quality and safety and reducing contamination and fraud.",
+      "iteration": 0
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 158,
+      "cache_hits": 2,
+      "parse_failures": 0,
+      "input_tokens": 55052,
+      "output_tokens": 22296,
+      "estimated_cost_usd": 0.4996,
+      "measured_cost_usd": 0.016653,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 1,
+      "input_tokens": 168376,
+      "cache_read_tokens": 163342,
+      "output_tokens": 33529,
+      "estimated_cost_usd": 1.0571,
+      "measured_cost_usd": 0.094507,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 22,
+      "input_tokens": 55035,
+      "output_tokens": 4894,
+      "estimated_cost_usd": 0.2385,
+      "measured_cost_usd": 0.00795,
+      "cost_source": "openrouter"
+    }
+  }
+}

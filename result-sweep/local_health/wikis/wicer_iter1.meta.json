@@ -1,0 +1,128 @@
+{
+  "topic": "local_health",
+  "target_ratio": 0.5,
+  "target_words": 34110,
+  "source_words": 68220,
+  "actual_words": 11335,
+  "actual_ratio_words": 0.16615362063910877,
+  "source_tokens": 88002,
+  "actual_tokens": 17793,
+  "actual_ratio_tokens": 0.2021885866230313,
+  "n_preserved_facts": 17,
+  "preserved_words": 1398,
+  "n_preserved_found": 0,
+  "preservation_rate": 0.0,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 154505,
+  "output_tokens": 47639,
+  "cache_read_tokens": 150390,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.1286745,
+  "preserved_facts": [
+    {
+      "document_id": "bqjhlouc",
+      "question_id": "bqjhlouc-q5",
+      "text": "- ZenPoint is on \"the outskirts of the city,\" not downtown. Dr. Yuna",
+      "iteration": 0
+    },
+    {
+      "document_id": "dhtqwxip",
+      "question_id": "dhtqwxip-q5",
+      "text": "The document does not discuss measures to bolster mental health literacy among youth. Its content relevant to young people is limited to: a licensed clinical psychologist, Sarah Peterson (Minneapolis), advising on approaching parents or guardians about mental health support, with preparation as key; school counselor Rachel Stein (Westdale High School) listing warning signs such as \"Increasing isolation, changes in eating or sleeping patterns, and prolonged feelings of sadness or irritability\"; and the note that signs are \"particularly challenging to navigate\" for young adults. No school programs, digital literacy education, workshops, gamified platforms, \"EnlightenEd,\" \"My Health, My Myth,\" or \"Youth Mental",
+      "iteration": 0
+    },
+    {
+      "document_id": "fqukisfj",
+      "question_id": "fqukisfj-q1",
+      "text": "The source states: \"The midlife transition, a period typically ranging from the late 30s to the mid-60s, can bring about unique challenges, from career plateauing to personal identity questions, and coping with these issues requires a nuanced approach.\" The unique challenges named are career plateauing and personal identity questions. The midlife transition range (late 30s to mid-60s) is accurate, but the challenges listed in the wrong answer (therapy mode matching comfort, choosing therapists with midlife experience, setting goals, finding specialists) are general therapy-selection advice and are not presented as midlife challenges. Dr. Lisa Chang's quote concerns therapy mode matching comfort",
+      "iteration": 0
+    },
+    {
+      "document_id": "hchawmyk",
+      "question_id": "hchawmyk-q1",
+      "text": "Dr. Jonas Sutherland, a leading psychologist specializing in mindfulness-based stress reduction, illuminates mindfulness as \"the art of conscious living.\" During a workshop scheduled for September 10th, Dr. Sutherland plans to guide attendees through the labyrinth of their own minds, teaching them how to anchor their thoughts in the here and now. The document defines mindfulness at its core as \"the practice of being completely present and engaged in the moment, aware of our thoughts and feelings without getting caught up in them.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "hcxicqgr",
+      "question_id": "hcxicqgr-q4",
+      "text": "The document contains no comparison of VR in mental health against traditional therapies, and no outcome data. Its only VR item is the \"Healthy Mind, Healthy Life\" seminar, scheduled for September 15th, led by Dr. Emily Stiles, a leading psychologist, which uses virtual reality experiences to teach participants about mental health and stress management through simulated environments where attendees learn coping mechanisms via immersive, interactive scenarios. The document gives no figures on depression or anxiety, no life-satisfaction results, and no \"40%\" or \"30%\" statistics, and it mentions no University Psychology Department study, no October 1, 2023 date, no six-week group",
+      "iteration": 0
+    },
+    {
+      "document_id": "hopohzed",
+      "question_id": "hopohzed-q5",
+      "text": "The document contains no discussion of socioeconomic status, income, or cost barriers. It does not mention palliative care, pain management, cultural competence, sliding scale fees, teletherapy, community mental health centers, or the Crisis Text Line. It names no Marybeth Lin, Anthony Miller, or Health Equity Research Group. The only September 15, 2023 item is Dr. John Peterson's initiative, a geriatrician's coordinated-care and patient-education effort, not a study. The Senior Connect initiative (January 5, 2024) addresses depression and loneliness through volunteer visits and workshops.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ijkeiaoj",
+      "question_id": "ijkeiaoj-q5",
+      "text": "The document does not address how sedentary lifestyles affect community health outcomes. The answer's specific claims have no source here: - No \"Dr. Emily Torres\" appears. The only Emily is Emily Harris, Human Resources manager at TechForge Inc., who discusses \"Fitness Fridays\" (September 12, 2023). - No \"Awakening the Sedentary Society\" campaign appears. The campaign named is \"Every Step Counts,\" launched September 5, 2023, and created by Dr. Samantha Rodriguez. - No public health survey dated November 15, 2023, appears, and no barriers such as lack of time, motivation, or access are listed. - \"A sedentary lifestyle is the new",
+      "iteration": 0
+    },
+    {
+      "document_id": "ndcfjvzq",
+      "question_id": "ndcfjvzq-q4",
+      "text": "The source document contains no section titled \"Exercise and Mental Wellness: A Holistic Approach,\" no Dr. Julian Torres, and no statement about endorphins, cortisol, adrenaline, anxiety, or depression. The document's only mental-health-adjacent content is brief: it says that declining physical activity can influence \"emotional well-being and social connections as well,\" and that Jonathan Myers of the Elderly Health and Wellness Association states, about the 'Silver Fitness Circles' program launched September 2, 2023, that \"These classes aren't just about exercise... They're about building a sense of community and making sure that seniors have a social support structure which is equally important",
+      "iteration": 0
+    },
+    {
+      "document_id": "nmvvldyb",
+      "question_id": "nmvvldyb-q3",
+      "text": "Maria Gonzalez, a recent college graduate, attended the workshops led by personal development coach Sophia Martinez at the Greenleaf Community Center, which began September 15, 2023. During the sessions she said: \"Breaking down my long-term goals into smaller, manageable tasks has made my career journey seem less daunting and more achievable.\" Her benefit was making her career journey less daunting by breaking long-term goals into smaller, manageable tasks. The art-passion story belongs to a different attendee, Lisa Marie, who shared it at a December 1, 2023 group session.",
+      "iteration": 0
+    },
+    {
+      "document_id": "oflgxohm",
+      "question_id": "oflgxohm-q2",
+      "text": "The source's \"Technology: The Ally in Disguise\" section states: \"Innovative solutions like AI-powered mental health bots, virtual reality (VR) meditation spaces, and apps for tracking mood and stress levels are transforming how employees access help.\" It attributes the surrounding context to companies leveraging digital platforms to break barriers to mental health support. Nicole Zhang, CEO of MindfulTech, is quoted that \"Artificial Intelligence can offer personalized support and provide insights into mental health trends within the workplace without breaching confidentiality.\" The same section says these tools aim to provide immediate, destigmatized, data-driven support through integration into Employee Assistance Programs (EAPs).",
+      "iteration": 0
+    },
+    {
+      "document_id": "pkzoncbn",
+      "question_id": "pkzoncbn-q5",
+      "text": "Facts relevant to the question, quoted from the document: - Lana Martinez's sleep routine (November 1, YouTube, 5 million views) includes \"a tech curfew, and a nightly gratitude list,\" with \"neuroscientific advice that structure and calm presleep rituals prime the brain for restorative sleep.\" No effect of screen use on the sleep-wake cycle is described. - Dr. Michael Hanover's study, published September 15, 2023, is quoted as saying \"sleep deprivation can have comparable effects on the brain as excessive alcohol consumption.\" It concerns sleep deprivation, not screen time or circadian disruption. - Emily Thompson linked \"burning the midnight oil\" to",
+      "iteration": 0
+    },
+    {
+      "document_id": "pljtlsxu",
+      "question_id": "pljtlsxu-q5",
+      "text": "The document contains no statement about cultural differences in family nutrition planning. The only family-focused session is the October 22nd workshop led by family nutrition consultant Maria Gonzales. Gonzales \"emphasized creating a harmonized meal plan catering to each member while intersecting common nutritional needs,\" and her \"hands-on cooking demo became a testament to how a single meal could be adapted for all age groups around the family table.\" The document has no section numbered 10.2, and the title \"Essential Nutrition for Ages: A Deep Dive Into Balanced Diets\" is not labeled as a section.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pyzsjcuc",
+      "question_id": "pyzsjcuc-q4",
+      "text": "Dr. Sonia Ray, a sleep therapist who directed the September 15, 2023 workshop, is the speaker. Under item 5, \"The Temperature Tightrope,\" the source says: \"Dr. Ray imparted the wisdom of the 'Goldilocks Zone' for sleep\u2014an ideal temperature range where your body isn't fighting the climate but rather sinking into a cozy stasis.\" It adds that neither a sauna nor an igloo is conducive to sleep, and that thermostats and fans were noted down by attendees.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wnhtzbiw",
+      "question_id": "wnhtzbiw-q2",
+      "text": "Emily Johnson is described as a corporate employee who \"battled undiagnosed anxiety for years.\" In a recent interview she explained: \"It felt like I was always on the edge,\" and \"Every email notification, every deadline\u2014it was like a ticking bomb in my head, but I thought it was just normal work pressure.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "xkovuqjl",
+      "question_id": "xkovuqjl-q1",
+      "text": "Dr. Linda S. Gilbert, a practicing psychiatrist, is quoted in her study published on October 15, 2023: \"Sleep is not merely a period of rest but a critical process that helps regulate emotions and cognitive function.\" The document introduces her under the section \"Unraveling the Threads: Understanding the Basics,\" which stresses the symbiotic relationship between mental health and sleep.",
+      "iteration": 0
+    },
+    {
+      "document_id": "xlliftfx",
+      "question_id": "xlliftfx-q4",
+      "text": "Under \"Developing a Support Network\": \"Highlight the importance of community and connection in maintaining mental health. Host a networking session toward the end of the workshop where participants can exchange contact information and establish a support system among themselves. Facilitate this by creating a safe and welcoming space for sharing and collaboration.\" The networking session is toward the end of the workshop. Its stated purposes are exchanging contact information and establishing a support system among participants. The facilitator's role is to create a safe and welcoming space for sharing and collaboration. The section sits between \"Making Wellness a Lifestyle\" and",
+      "iteration": 0
+    },
+    {
+      "document_id": "zkfhhcwj",
+      "question_id": "zkfhhcwj-q2",
+      "text": "Life coach Michael Thompson, speaking on October 10, 2023, during the National Youth Resilience Day, said: \"Resilience can act as an emotional and psychological muscle, one that we need to exercise and strengthen to ensure well-being.\" The document also closes by stating, \"resilience is like a muscle; it grows stronger with use.\"",
+      "iteration": 0
+    }
+  ],
+  "level": "moderate"
+}

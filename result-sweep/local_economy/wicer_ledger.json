@@ -1,0 +1,308 @@
+{
+  "topic": "local_economy",
+  "best_iteration": 1,
+  "best_wiki_name": "wicer_iter1",
+  "best_probe_mean": 3.2625,
+  "blind_probe_mean": 2.625,
+  "stop_reason": "insufficient_improvement",
+  "iterations": [
+    {
+      "iteration": 0,
+      "wiki_name": "blind_moderate",
+      "probe_mean": 2.625,
+      "probe_score_1_pct": 28.75,
+      "n_failures": 23,
+      "n_pinned_facts": 0,
+      "pinned_words": 0,
+      "wiki_words": 12275,
+      "wiki_tokens": 22392,
+      "actual_ratio_words": 0.17255679262258208,
+      "actual_ratio_tokens": 0.24438478161220614,
+      "n_preserved_found": 0,
+      "preservation_rate": null,
+      "improvement": null,
+      "stop": null
+    },
+    {
+      "iteration": 1,
+      "wiki_name": "wicer_iter1",
+      "probe_mean": 3.2625,
+      "probe_score_1_pct": 15.0,
+      "n_failures": 12,
+      "n_pinned_facts": 23,
+      "pinned_words": 1887,
+      "wiki_words": 11257,
+      "wiki_tokens": 20916,
+      "actual_ratio_words": 0.1582461763382816,
+      "actual_ratio_tokens": 0.22827581690786458,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": 0.24285714285714294,
+      "stop": null
+    },
+    {
+      "iteration": 2,
+      "wiki_name": "wicer_iter2",
+      "probe_mean": 3.225,
+      "probe_score_1_pct": 13.75,
+      "n_failures": 11,
+      "n_pinned_facts": 35,
+      "pinned_words": 2891,
+      "wiki_words": 10227,
+      "wiki_tokens": 16817,
+      "actual_ratio_words": 0.14376686909581646,
+      "actual_ratio_tokens": 0.18353960666186453,
+      "n_preserved_found": 0,
+      "preservation_rate": 0.0,
+      "improvement": -0.011494252873563244,
+      "stop": "insufficient_improvement"
+    }
+  ],
+  "preserved_facts": [
+    {
+      "document_id": "byvmwraf",
+      "question_id": "byvmwraf-q3",
+      "text": "Retail analyst Emily Nguyen suggested that the surge in customer loyalty and engagement, reported by local retailers in early November 2023 after the pilot program, is directly linked to blockchain's role in providing a transparent and unchangeable record of each product's journey. In her interview on November 15, 2023, Nguyen said: \"Consumers want to feel connected to what they buy. Blockchain allows them to have that intimate understanding of a product's history, which builds a stronger consumer-retailer bond.\" The pilot was led by Austin, Texas retail consortium pioneer Kaitlyn Zhou with blockchain startup ClearChainTech, using QR-code scans to track product",
+      "iteration": 0
+    },
+    {
+      "document_id": "fidgzaba",
+      "question_id": "fidgzaba-q1",
+      "text": "The founding fact appears in the document's \"The Humble Beginnings\" section: \"It all started in the autumn glow of September 2023, when couple Maria Gonzalez and Elijah Reid combined their shared passion for sustainable agriculture and artisanal foods to create 'Harvest & Craft.'\" The business was founded by this couple, with Maria providing culinary expertise and Elijah providing marketing savviness, starting from a small inherited patch of land. Their first sale was at the town's farmer's market, selling heirloom tomatoes and homemade jams. Later dates in the document (January 2024 expansion, summer 2024 solar project, March 2025 supplier partnerships) describe",
+      "iteration": 0
+    },
+    {
+      "document_id": "jscwzqyq",
+      "question_id": "jscwzqyq-q4",
+      "text": "On September 25, 2023, Amanda Chen, owner of Blossom Boutique, shared her concerns about the soaring rent in downtown Metropolis, saying: \"Rent increases threaten to push us out when we're already competing with online stores that have no storefronts and pay pennies for warehouse spaces out of town.\" The section is headed \"Rental Realities and Overhead Ordeals,\" and it notes that rent prices for prime retail locations continue to climb, squeezing small businesses' already tight profit margins. The rental and overhead costs are described as relentless adversaries in the fight for survival.",
+      "iteration": 0
+    },
+    {
+      "document_id": "kghohchl",
+      "question_id": "kghohchl-q3",
+      "text": "Vivian Lee section (\"Culinary Maestro Vivian Lee: From Food Truck to Food Empire\"): \"Starting with a humble food truck on September 22, 2023, Vivian Lee's 'Spice Wheel' now boasts a fleet across the city and a renowned brick-and-mortar restaurant. Her unique fusion cuisine captivated the taste buds of locals and tourists alike. Vivian attributes her success to 'an unwavering passion for food and a dedication to customer experience.' Her advice to budding culinary entrepreneurs is that 'consistency in quality is key, and always listen to your customers \u2013 they're your most valuable critics.'\" Note for the wiki: Vivian Lee is",
+      "iteration": 0
+    },
+    {
+      "document_id": "khlyfqxe",
+      "question_id": "khlyfqxe-q4",
+      "text": "A survey by Retail Compensation Analytics, conducted October 15, 2023, found that e-commerce roles offer higher starting salaries on average, but many retail corporations are closing this gap through performance bonuses, staff discounts, and in-house career advancement programs. The Retail Workers Union representative Lisa Gonzales (September 20, 2023) said traditional retail roles are increasingly offering competitive wages and benefits to attract and retain employees.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ksbkcnjq",
+      "question_id": "ksbkcnjq-q2",
+      "text": "EduTech Innovations, a start-up founded by Maya Chen on September 10, 2023, and based in her home office, created over 30 new jobs by the end of June 2024, ranging from educational content creators to software engineers. The jobs provided economic security to individuals and contributed to upskilling the local workforce. Maya Chen's team hired educators and tech experts who shared her vision.",
+      "iteration": 0
+    },
+    {
+      "document_id": "lhsgfaks",
+      "question_id": "lhsgfaks-q2",
+      "text": "The section titled \"Emails Without Emojis: The Downfall of Digital Correspondence\" opens in \"early September 2023,\" when \"the last smiley face was seen in a professional email,\" marking the end of an era when emotion through punctuation was socially acceptable. It states that \"our professional correspondence has become so bland that even vanilla would feel insulted.\" Sandra from marketing is said to agree, and her out-of-office messages \"lack that uninspired corporate flair.\" The section also notes that nobody misses \"Reply All\" mishaps involving inappropriate GIF wars.",
+      "iteration": 0
+    },
+    {
+      "document_id": "lhvsjelo",
+      "question_id": "lhvsjelo-q2",
+      "text": "James McArthur, CEO of TechFab Industries, described machine learning and robotics introduced into the company's production lines in December 2023. According to him, these advancements helped reduce production times by 30 percent while consistently improving product quality, helping keep the company competitive and shifting efforts toward more creative tasks rather than repetitive ones. The section is titled \"Yonkers Factories Are Being Automated.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "meryivxe",
+      "question_id": "meryivxe-q1",
+      "text": "The document states that on October 15, 2023, Julia Sanders met with environmental consultant Michael Thompson to dissect the operations of Green Leaf Innovations. \"Together, they marked the areas with the most significant environmental impact: energy usage, sourcing, packaging, and waste management.\" The Thompson meeting is the source of the four impact areas, and the text attributes the identification to both of them jointly, with Julia as the store owner and Michael as the consultant.",
+      "iteration": 0
+    },
+    {
+      "document_id": "oinnstfm",
+      "question_id": "oinnstfm-q4",
+      "text": "The document contains no discussion of urban planning, land use, warehouses, bike lanes, pedestrianized streets, green spaces, bike-share systems, or transit hubs. The only impacts it describes are: - Retailers gain \"heightened exposure and access to a broader customer base.\" - Businesses adopting hyperlocal models saw a \"30% increase in sales within two months\" (Adam Smith, E-Markets Insight, October 10, 2023). - Neighborhood employment rose \"15%\" (Employment Progress Association, February 22, 2024). - Dollars circulate locally \"three times longer\" (Local Economies Inc., March 1, 2024). - \"50 new hyperlocal startups\" secured seed funding (Startup Trends, April 2, 2024). The cited",
+      "iteration": 0
+    },
+    {
+      "document_id": "orpifpto",
+      "question_id": "orpifpto-q3",
+      "text": "Lynn Smith, aged 60, launched a successful crowdfunding campaign in October 2023 to open an art studio. She reflects, \"What's beautiful about crowdfunding is the early customer engagement; it's a pre-validation of your market.\" The section on crowdfunding notes that websites like Kickstarter and Indiegogo have become springboards for local entrepreneurial dreams, and that the community's small contributions amount to secure financial backing based on shared belief in the entrepreneur's vision.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pdbmbjur",
+      "question_id": "pdbmbjur-q2",
+      "text": "Facts from the source:\n\n- The section \"Marching into Spring: Refreshing the Business Model\" states that \"Come March 12th, Grant introduced ecofriendly products in 'Green Thumbs Nurseries' and hosted community clean-up events.\"\n- Tom Grant is the owner of 'Green Thumbs Nurseries.'\n- The passage adds that this \"strategic inclusion spoke to his customers' growing environmental consciousness and intertwined their shared values with his business ethos.\"\n- Green Thumbs' separate October event was an annual 'October Plant Fest' on October 10th, 2023, which is not the March change.",
+      "iteration": 0
+    },
+    {
+      "document_id": "qfftysdx",
+      "question_id": "qfftysdx-q1",
+      "text": "The document's passage \"The Spark Igniting Local Markets\" states that a combination of factors drives a startup boom in a locality. Named factors: access to venture capital; support from local governments in the form of tax incentives; and the presence of academic institutions that churn out talented graduates equipped with cutting-edge skills. It also says successful startups tend to cluster, creating a magnetic pull that attracts further entrepreneurs. The same passage adds that Jane Smith, founder of CyberSolutions, credits a \"spirit of solidarity\" among local entrepreneurs and community support. The document does not list personalization algorithms, blockchain, gig work, green",
+      "iteration": 0
+    },
+    {
+      "document_id": "ruidvmyo",
+      "question_id": "ruidvmyo-q2",
+      "text": "Dr. Citrus Von Squeezeworth leads the juicing evangelists. His \"Purge the Urge to Splurge\" juice cleanse involves ingesting nothing but murky green potions for a fortnight. The promise: \"To detoxify your wallet at an unparalleled rate.\" His rival, Madam Berry BeetBoost, sells a red concoction for $12 a bottle. The document describes the cleanse's promise explicitly, in the paragraph headed \"The Detoxifying Domination and Juice Juggernauts.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "rxnjpkqr",
+      "question_id": "rxnjpkqr-q5",
+      "text": "Maria Gonzalez turned her \"Sweet Creations Bakery\" into a local sensation by offering customized baking classes alongside her regular product offerings. Since her announcement on September 25, 2023, she's seen a remarkable increase in customer loyalty and brand recognition. This appears under the section \"Education and Innovation: Keys to Adaptation,\" which states that innovation in service delivery and product offerings can set small businesses apart.",
+      "iteration": 0
+    },
+    {
+      "document_id": "tencsjbp",
+      "question_id": "tencsjbp-q1",
+      "text": "John \"Johnny\" Doe, a veteran freelancer, quipped, \"What's an office? That thing I turn my couch into every morning?\" This line, in the section \"The Freelance Frenzy,\" is the only place the document addresses what he jokingly refers to when questioning the concept of an office. The answer is his couch, which he says he turns into an office every morning. The assistant's answer of a spreadsheet with no data does not appear anywhere in the source.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vbuhvisz",
+      "question_id": "vbuhvisz-q5",
+      "text": "The document does not contain the Catalytics Consulting Group survey or any 60% figure about workers forgoing a pay hike. The only generational reference is a single clause: experts attribute the shortage to \"baby boomer retirements, shifts in career expectations among millennials and Gen Z, and the lingering effects of the pandemic-era work-from-home trend.\" No other passage links generational work values to labor gap solutions. The compensation section says only that mid-career professionals \"often seek more\" than salaries, citing profit-sharing, health and wellness incentives, and retirement plans, with no survey data.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vxftuqts",
+      "question_id": "vxftuqts-q2",
+      "text": "Alejandro Garcia of Garcia's Gourmet Groceries turned to local farmers and producers for his supply needs when imports became unreliable. He said: \"We forged partnerships right here in our community,\" which \"not only gave us a steadier product stream but also garnered customer appreciation for local goods.\" This pivot appears under the \"Leveraging Local Networks\" heading, where international suppliers had become less reliable and many local businesses pivoted towards homegrown solutions.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wnmiiops",
+      "question_id": "wnmiiops-q4",
+      "text": "LoyalRoots, introduced in April 2024, is described under item 10, \"Customer Loyalty Programs through Local Alliances.\" The source states: \"Loyalty is the cornerstone of local businesses, and platforms like LoyalRoots have been instrumental in fortifying this. Introduced in April 2024, LoyalRoots offers united loyalty programs for customers who shop within a network of local businesses. By doing so, it encourages consumers to return and benefit from collective rewards instead of one-off discounts from individual stores.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "xstjbwnb",
+      "question_id": "xstjbwnb-q3",
+      "text": "Jane Simmons of Jane's Homemade Confections, Charleston, South Carolina: \"By September 2023, Jane had started hosting live baking sessions on social media platforms to showcase her products and offer viewers a taste of her craft from the comfort of their homes.\" She also opened up her analytics tools to understand customer demographics and shopping patterns, and aligned her online marketing with that data, leading to targeted promotions and a significant uptick in sales for the fourth quarter of 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ypuphvqw",
+      "question_id": "ypuphvqw-q2",
+      "text": "Bob runs 'All Things Garlic' and, after attending the September 3, 2023 \"How Do You Do, Fellow Kids?\" small business seminar, tried SEO (Search Engine Optimization). His first attempt at writing a blog, dated September 15, 2023, was titled \"10 Shocking Benefits of Garlic You Absolutely Must Know!\" The document states: \"keyword stuffing overtook coherence, resulting in sentences like 'Garlic garlic benefits health garlic vampires away garlic recipes garlic sale.'\" A reader wondered whether it was avant-garde poetry or whether Bob had forgotten how sentences worked.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zpvkcjfx",
+      "question_id": "zpvkcjfx-q5",
+      "text": "Andrew Liu, the city's Chamber of Commerce spokesperson, commented on November 30, 2023, that \"the adoption of AR by local retailers has not only driven sales but has also sparked a synergy between technology providers and retail businesses, culminating in a stronger local economy.\" This statement appears under the section \"The Impact on Local Economies.\" Emma's Boutique and The Modern Man Store are the retailers described as AR pioneers, and the 20% customer-retention figure comes from a Local Economic Development Center study published October 15, 2023. Those retailers and that study are separate from Liu's statement.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zzhorfkj",
+      "question_id": "zzhorfkj-q2",
+      "text": "John Anderson runs a boutique furniture shop in downtown called \"Sitting Pretty.\" After noticing a shift in how customers shopped, he said they \"wanted the convenience of online browsing with the option to see the furniture in person.\" During a recent overhaul in late September 2023, Anderson said: \"we decided to integrate our inventory system and create a smooth transition from online to in-store.\" He also projected adding augmented reality so customers can visualize furniture in their homes before buying.",
+      "iteration": 0
+    },
+    {
+      "document_id": "byvmwraf",
+      "question_id": "byvmwraf-q3",
+      "text": "Retail analyst Emily Nguyen suggested that the surge in customer loyalty and engagement is directly linked to blockchain's role in providing a transparent and unchangeable record of each product's journey. She made this remark in an interview on November 15, 2023, saying: \"Consumers want to feel connected to what they buy. Blockchain allows them to have that intimate understanding of a product's history, which builds a stronger consumer-retailer bond.\" The surge was reported in early November 2023, after a pilot program by a consortium of local retailers in Austin, Texas, led by Kaitlyn Zhou and partnered with ClearChainTech.",
+      "iteration": 1
+    },
+    {
+      "document_id": "cnrvcosi",
+      "question_id": "cnrvcosi-q1",
+      "text": "Sylvia Torres opened \"Sylvia's Sweets\" in downtown Greenville on September 5, 2023. The document states that \"Sylvia managed to navigate through the cash flow turbulence by adopting a savvy approach to her financial operations. By offering early payment discounts to customers and negotiating extended payment terms with suppliers, she was able to create breathing room for her budding enterprise.\" This is the cash flow strategy involving customers and suppliers. Separately, the document says Sylvia used a local crowdfunding initiative to secure the final slice of her budget for opening, but this concerns startup funding, not cash flow management.",
+      "iteration": 1
+    },
+    {
+      "document_id": "eacuwfsc",
+      "question_id": "eacuwfsc-q5",
+      "text": "The document contains no section numbering, so \"Section 7.14\" does not exist in it. It never states that a minimum wage rise \"accelerates investment in technology\" as a general rule. The only related content is specific to one firm: Flavortown Burgers CEO Amelia Richardson says \"We've invested in automated ordering systems which have helped us manage costs while respecting the wage increase,\" and workers face automation that \"threatens job availability in the long run.\" Titan Electronics HR director Robert Eames says \"Investing in employee training becomes even more vital when wages rise,\" and the document calls this \"a potential surge",
+      "iteration": 1
+    },
+    {
+      "document_id": "lhsgfaks",
+      "question_id": "lhsgfaks-q2",
+      "text": "The section \"Emails Without Emojis: The Downfall of Digital Correspondence\" states that in \"early September 2023\" the last smiley face was seen in a professional email, an era when \"expressing emotion through punctuation was still socially acceptable.\" It asks whether \"our professional correspondence has become so bland that even vanilla would feel insulted.\" Sandra from marketing is cited as agreeing, and her out-of-office messages are said to \"lack that uninspired corporate flair.\" The \"Reply All\" mishaps and GIF wars are mentioned as the one thing nobody misses.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ndfdbamz",
+      "question_id": "ndfdbamz-q3",
+      "text": "Tech-Enabled Traditional Trades: Jackson O'Reilly, a third-generation cobbler, merged his family's shoe repair business with modern technology on September 12, 2023. Dubbed 'Heel the Sole', the revamped store uses an app: \"customers can schedule repairs, track progress, and customize their services\u2014an industry first.\" The change led to \"a 50% increase in business within the first three months.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "nsvmpnkb",
+      "question_id": "nsvmpnkb-q4",
+      "text": "The only challenges the document names are: \"Investment in technology, training staff to manage new systems, and maintaining a consistent brand experience across all channels can be daunting for local retailers.\" Data collection is mentioned only as a benefit: smart shelves, interactive kiosks, and mobile point-of-sale systems are \"collecting data that can be used to personalize the customer experience.\" No privacy, transparency, or inequity concerns appear. The names James Keenan, Dr. Lisa Cheng, Michael Thompson, and Anita Desai do not appear anywhere in the document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "rxnjpkqr",
+      "question_id": "rxnjpkqr-q5",
+      "text": "Maria Gonzalez turned her \"Sweet Creations Bakery\" into a local sensation by offering customized baking classes alongside her regular product offerings. Since her announcement on September 25, 2023, she's seen a remarkable increase in customer loyalty and brand recognition. This appears under the section \"Education and Innovation: Keys to Adaptation,\" which states that innovation in service delivery and product offerings can set small businesses apart.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ssdrcivk",
+      "question_id": "ssdrcivk-q4",
+      "text": "Caffeine Dreams, the coffee shop owned by Melissa Carter, held a holiday meal for the homeless during the festive season. The source says that \"during the festive season, rather than the usual sale, 'Caffeine Dreams' hosted a holiday meal for the homeless.\" The event garnered local media attention and bolstered neighborhood support, showing that engagement \"sometimes means extending kindness and resources to those beyond your customer base.\" Separately, Caffeine Dreams' \"Know Your Customer\" day on November 15 was a different event: its first such event, with tailored recommendations and personalized discounts.",
+      "iteration": 1
+    },
+    {
+      "document_id": "tencsjbp",
+      "question_id": "tencsjbp-q1",
+      "text": "John \"Johnny\" Doe, a veteran freelancer, quipped, \"What's an office? That thing I turn my couch into every morning?\" The passage presents this as his joking challenge to the concept of an office, and it is the only place the document mentions a couch. The surrounding text describes freelancers' shared contempt for 'office hours' and their nonchalance toward traditional workspaces.",
+      "iteration": 1
+    },
+    {
+      "document_id": "uykbkbsf",
+      "question_id": "uykbkbsf-q5",
+      "text": "On September 30, 2023, during a webcast, Angela Zhou, described as a leading healthcare innovator, pointed out that AI has bolstered the speed and accuracy of diagnosis and personalized treatment plans. The same section notes a dichotomy: AI also poses a looming threat to many administrative and some clinical tasks that it can perform with greater efficiency. Healthcare was once thought insulated from AI disruption due to its intricate human touch.",
+      "iteration": 1
+    },
+    {
+      "document_id": "vbuhvisz",
+      "question_id": "vbuhvisz-q5",
+      "text": "The document has no numbered sections, so no \"Section 7.4\" exists. Its only generational reference is one causal sentence: experts attribute the shortage to \"baby boomer retirements, shifts in career expectations among millennials and Gen Z, and the lingering effects of the pandemic-era work-from-home trend.\" It does not link generational work values to any labor gap solution. The solutions it lists are employer branding, employee development, flexible work and technology, community connections, competitive compensation and benefits, candidate experience, diversity and inclusion, and employee referral programs. None is tied to a specific generation.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ydrqpjep",
+      "question_id": "ydrqpjep-q3",
+      "text": "Gig economy passage: \"Ride-sharing companies have been experimenting with fare structures and incentives to balance the need to attract a stable workforce while keeping costs in check.\" Also: \"Delivery apps have adopted a dual approach, fostering a combination of independent contractors and salaried workers to stay nimble amidst changing cost structures.\" This section is titled \"Minimum Wage and the Gig Economy: An Altered Landscape,\" and the document contains no numbered sections (no \"Section 7.14\" or similar). The other strategies in the assistant's list (automation, cutting hours, supplier payment terms, subscriptions, early payment discounts) do not appear in the gig economy",
+      "iteration": 1
+    }
+  ],
+  "usage": {
+    "judge": {
+      "judge_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "api_calls": 228,
+      "cache_hits": 12,
+      "parse_failures": 0,
+      "input_tokens": 83557,
+      "output_tokens": 34172,
+      "estimated_cost_usd": 0.7633,
+      "measured_cost_usd": 0.025442,
+      "cost_source": "openrouter"
+    },
+    "compiler": {
+      "compiler_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 2,
+      "input_tokens": 326064,
+      "cache_read_tokens": 313122,
+      "output_tokens": 81673,
+      "estimated_cost_usd": 2.2972,
+      "measured_cost_usd": 0.22631,
+      "cost_source": "openrouter"
+    },
+    "diagnosis": {
+      "diagnosis_model": "anthropic/claude-haiku-5.5",
+      "backend": "openrouter",
+      "calls": 35,
+      "input_tokens": 84901,
+      "output_tokens": 7490,
+      "estimated_cost_usd": 0.3671,
+      "measured_cost_usd": 0.012235,
+      "cost_source": "openrouter"
+    }
+  }
+}

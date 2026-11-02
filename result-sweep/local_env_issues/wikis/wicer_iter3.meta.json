@@ -1,0 +1,266 @@
+{
+  "topic": "local_env_issues",
+  "target_ratio": 0.5,
+  "target_words": 35190,
+  "source_words": 70381,
+  "actual_words": 8904,
+  "actual_ratio_words": 0.12651141643341243,
+  "source_tokens": 91202,
+  "actual_tokens": 15640,
+  "actual_ratio_tokens": 0.17148746738010132,
+  "n_preserved_facts": 40,
+  "preserved_words": 3286,
+  "n_preserved_found": 0,
+  "preservation_rate": 0.0,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 163198,
+  "output_tokens": 30805,
+  "cache_read_tokens": 154480,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.0890955,
+  "preserved_facts": [
+    {
+      "document_id": "ckehiglz",
+      "question_id": "ckehiglz-q5",
+      "text": "The document does not discuss mental health at all. Its named experts are Dr. Maria Sanchez (an environmental urban planner, interviewed October 3, 2023), Jane Hermosa (a local artist), Zachary Lee (a retired schoolteacher and avid gardener), Emily Torres (a conservationist), and Sandra Kwong (a resident). No \"Dr. Harrow\" or \"Dr. Kim\" appears anywhere. The only health-adjacent claims are Dr. Sanchez's statement that green spaces absorb excess rainfall, reduce heat, and improve air quality, and Jane Hermosa's remark that the Harborfront Oasis is \"as revitalizing for our spirits as it is for the local climate.\" Neither mentions respiratory or anxiety",
+      "iteration": 0
+    },
+    {
+      "document_id": "cugxqfpo",
+      "question_id": "cugxqfpo-q5",
+      "text": "- Emma Thompson's zero-waste group is the only grassroots zero-waste movement in the document, and it is never named. It was founded in December 2023, has seen its membership swell, and holds workshops and swap meets on waste reduction. - The group partners with schools; Emma led a workshop at her school on October 15, 2023. - The document does not say the group influences local government, recycling policy, or business practices. Its only policy-adjacent mention is that Extended Producer Responsibility (EPR) programs gained traction worldwide since mid-2024, and that \"the push for EPR legislation\" has led companies to take",
+      "iteration": 0
+    },
+    {
+      "document_id": "cxbkgfii",
+      "question_id": "cxbkgfii-q3",
+      "text": "Under \"The Bottomless Pit of Good Intentions,\" the document says preliminary reports since the new system's inception suggest only \"a slight uptick in recycling, with an increase equally proportional to the angst of skeptics.\" It then raises the concern directly: \"Perhaps most concerning is the growing pile of questions: what happens when the incentives run out? Will we backslide to Jurassic-era levels of waste management?\" The incentive programs were launched as of September 1, 2023 by local governments and creative councils, with points, coupons, and cash rewards for recycling. The later section \"A Silver Lining or a Tinfoil Hat?\" also",
+      "iteration": 0
+    },
+    {
+      "document_id": "dhjriyip",
+      "question_id": "dhjriyip-q3",
+      "text": "Local businesses section: David Henderson, owner of Henderson's Cafe, launched the \"Bikes in Business\" program on January 10th, incentivizing customers to arrive by bike. He offers discounts to anyone who shows a bike helmet. \"Businesses throughout the town have followed suit, with bike racks becoming a regular feature outside stores, and cycle delivery services popping up to replace van runs,\" leading to a significant drop in local traffic congestion as reported in early February.",
+      "iteration": 0
+    },
+    {
+      "document_id": "eduoquhd",
+      "question_id": "eduoquhd-q3",
+      "text": "Paul Zhang, an urban ecologist, works with maintenance crews to identify and control invasive species and disease threats. He notes, \"Just last month, we had to deal with an outbreak of the Dutch elm disease,\" and stresses \"a robust monitoring strategy to catch these issues early.\" Under the heading \"The Battle Against Invasive Species and Disease,\" the document states: \"Zhang and his team employ various control methods, from physical removal of invasive plants to biological controls. The task is delicate, ensuring solutions don't inadvertently harm the environment they're trying to protect.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "gcpnbwdb",
+      "question_id": "gcpnbwdb-q3",
+      "text": "Under \"Myth 3: Heatwaves Are Just Hotter Days; The Danger Is Overstated\" (article \"Combating Urban Swelter: The Truth Behind Heatwave Preparedness,\" dated as of September 15, 2023), the document states that heatwaves are misunderstood as merely unpleasant hot stretches. It says this \"dangerous assumption downplays the lethal nature of heatwaves, which, as documented by the Centers for Disease Control and Prevention, claim more lives annually than any other extreme weather event.\" It adds that heatwaves disproportionately affect the elderly, children, and those with pre-existing health problems.",
+      "iteration": 0
+    },
+    {
+      "document_id": "gorsjsgr",
+      "question_id": "gorsjsgr-q5",
+      "text": "The document contains no Dr. Henry Clarkson and no Habitat Connectivity conference. Its only expert-style claim about corridor benefits is an unattributed closing line: \"These wildlife corridors are essential lifelines that maintain genetic diversity, enhance habitat connectivity, and reduce wildlife-vehicle collisions.\" The article is dated September 23, 2023, and is a whimsical \"Local Wildlife News\" piece. Its named speakers are animals (Marty McClaw the moose, Sally Squeakears the squirrel, Milton Mole, Chuck Chirpington the pigeon, Finny McScales the trout, Dawn Deerhart the doe, Ricky Raccoon, Lucy Lynx), not researchers. It does not state that corridor design influences migration behaviour.",
+      "iteration": 0
+    },
+    {
+      "document_id": "herylgfl",
+      "question_id": "herylgfl-q2",
+      "text": "On September 15, 2023, a research study by the Environmental Impact Group, led by ecologist Dr. Marcus Rivera, was published, revealing startling effects of artificial lighting on migratory patterns, feeding behaviors, and reproductive cycles of wildlife. The surrounding passage adds that birds navigating by stars can become disoriented and fatally strike illuminated buildings, sea turtle hatchlings are misled by artificial shoreside lights, and pollinators such as moths and bats are affected, with food webs and pollination patterns undergoing an unpredictable overhaul.",
+      "iteration": 0
+    },
+    {
+      "document_id": "iewjrcul",
+      "question_id": "iewjrcul-q1",
+      "text": "Urban agriculturalist Jane Thompson \"founded the 'Growing Together' initiative on September 15, 2023, have led the charge, showcasing the potential of rooftop gardens and vertical farming techniques.\" The source names Thompson and the \"Growing Together\" initiative together, in the same sentence that describes rooftop gardens and vertical farming. Thompson advocates for a policy shift, saying, \"Edible landscapes offer food security, health benefits, and community resilience. It's time urban planning reflected that.\" Her movement has inspired city dwellers to view rooftops, balconies, and vacant lots as potential food-producing assets.",
+      "iteration": 0
+    },
+    {
+      "document_id": "kphdeolt",
+      "question_id": "kphdeolt-q3",
+      "text": "The section is titled \"Tech Leaves: Digital Solutions to Natural Problems\" (the document's title is \"The Green Patch in the Gray: Tackling Urban Jungle Maintenance Hurdles\"). Its text reads: \"digital solutions have been sought to streamline the maintenance of urban green spaces. From autonomously controlled irrigation systems that conserve water while nourishing thirsty plants to drones that monitor tree health, the role of technology in maintenance is becoming increasingly significant.\" It continues: on October 10, 2023, the city of Springfield introduced an app designed by local tech whiz Alan Nguyen, which \"enabled residents to report maintenance issues in real-time, directly",
+      "iteration": 0
+    },
+    {
+      "document_id": "nkvyzcms",
+      "question_id": "nkvyzcms-q4",
+      "text": "On September 15, 2023, the city of Rotterdam unveiled the world's first smog vacuum cleaner, using patented ion technology to cleanse the air effectively. This appears under the section \"Pioneering Clean Air Innovations,\" which also mentions green infrastructure such as the vertical gardens of Milan.",
+      "iteration": 0
+    },
+    {
+      "document_id": "nyzuuccx",
+      "question_id": "nyzuuccx-q3",
+      "text": "Activists argue that I/M programs \"need a revamp to include more rigorous testing cycles and stricter penalties for non-compliance.\" Activists further propose that these programs \"should include all vehicles,\" exempting neither new models (which may quickly fall out of compliance due to malfunctions) nor older models (frequently the worst offenders). The campaign for change is built around emission testing reform, tax incentives for cleaner vehicles, and EV infrastructure expansion. Marcus Vincent of Clean Air Now leads the environmental groups challenging the status quo. Laura Price's November 22, 2023 rebate proposal concerns tax incentives, not I/M testing reform.",
+      "iteration": 0
+    },
+    {
+      "document_id": "oiokcqkc",
+      "question_id": "oiokcqkc-q3",
+      "text": "Dr. Henry Clarkson, wildlife biologist, spoke at a conference on Habitat Connectivity on September 21, 2023. The document's \"Fragmented Habitats\" section states that continued urban spread \"fragments existing habitats,\" creating \"smaller, isolated pockets of nature, disconnected from one another and unable to sustain viable populations of many species.\" Clarkson's quoted words: \"We must understand that wildlife requires more than parcels of land; they need corridors to move, breed, and thrive. Without these, we are creating islands of extinction amidst a rising sea of urban sprawl.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "szvabpcd",
+      "question_id": "szvabpcd-q3",
+      "text": "Mariam Johnson, a local teacher, spearheaded the green space at the corner of 5th and Oakwood, begun after an October 2023 observation and a December 2023 gathering at Elmwood High School. Under the section \"Pollinating Education and Awareness\": \"The community garden became a living classroom where children learned the cycles of plant life, the importance of biodiversity, and the value of sustainable living. The green space created not only a habitat for humans but welcomed a diversity of birds and insects, enhancing the urban ecosystem that had been fragmented by development.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "tiqzkdgk",
+      "question_id": "tiqzkdgk-q3",
+      "text": "The source's Climate Change section states that Ms. Flora Fauna, a climatologist with a panache for puns, declared \"last Tuesday\": \"It's hotter than a billy goat in a pepper patch. The local species are going to start holding auditions for ice cube impersonators if this keeps up.\" Global warming is described as having turned the thermostat up, causing fuzzy and feathered friends to fan themselves, with polar bears eyeing cooler-climate real estate and Pudgy Penguins investing in personal ice machines.",
+      "iteration": 0
+    },
+    {
+      "document_id": "twqxngut",
+      "question_id": "twqxngut-q3",
+      "text": "Rosedale is a neighboring city in the Success Stories section. Legislation passed March 15, 2024 mandated the industrial sector to partake in an 'Eco-Responsibility' program. The program, funded by both the city and participating corporations, \"finances the development and implementation of cleaner technologies.\" Rosedale's Environmental Commissioner, Sandra Liu, explained that environmental protection \"isn't a hindrance but an investment in our collective future.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "twuvbfhz",
+      "question_id": "twuvbfhz-q3",
+      "text": "The Urban Forestry Initiative was launched on September 22, 2023, by the community-driven nonprofit GreenNow, headed by botanist Dr. Naomi Watts. The source states: \"the initiative has already planted over 5,000 trees in the urban area.\" This is a statement of trees already planted at the time of the article, not a target. No future goal of 5,000 trees by the end of 2024 appears anywhere in the document.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vpelhuur",
+      "question_id": "vpelhuur-q4",
+      "text": "- Farmer Jason McAlister, late October: \"Our yields are down, and the land's health is fading.\"\n- Agronomist Michael Zhang, January 15th: highlighted \"the grim economic and food security implications,\" showing maps of declining crop productivity and zones where contamination caused \"significant crop failure.\"\n- Local apples showed heavy metal traces \"exceeding safe consumption levels.\"\n- Not in the document: bee populations, Bill McKenna, phytoremediation, the CleanEarth Solutions app, or an Environmental Monitoring Center report.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vruqgwux",
+      "question_id": "vruqgwux-q4",
+      "text": "The \"Adopt-a-Park\" program was initiated on September 28, 2023, by the non-profit organization \"Urban Nature.\" It highlights community involvement in green space upkeep by \"inviting local residents to take part in the regular maintenance and activities in their nearest parks.\" The program is presented as a way to build a sense of stewardship among citizens.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wquygwgp",
+      "question_id": "wquygwgp-q5",
+      "text": "Under the heading \"Infrastructure: From Coal Depots to Solar Farms,\" the document states: \"My most vivid memory is the transformation of the old coal depot into a solar farm. By April 15, 2024, the once dark, coal-laden land had been replaced with rows of shiny photovoltaic panels, generating clean energy for hundreds of homes. This repurposing symbolized a shift in identity for our town; we were no longer chained to the fading echo of coal's dominance.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "wteaoxrc",
+      "question_id": "wteaoxrc-q1",
+      "text": "Quoted from the source, the facts needed are:\n\n- \"Many municipalities, like that of Little Rock, Arkansas, have started replacing streetlights with \"full cutoff\" fixtures.\"\n- \"Mayor Emily Stonehouse announced on September 25, 2023, a citywide plan to revamp outdoor lighting to combat light pollution, aiming to create a more star-friendly environment.\"\n- Context: the passage is under the heading \"Steps to Mitigate the Glow,\" and \"Simple steps like installing shielded lighting can direct light downward where it's needed.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ybpiasnr",
+      "question_id": "ybpiasnr-q2",
+      "text": "The source states that on November 15, 2023, the Springfield city council launched a pioneering e-waste management program spearheaded by councilman Johnathan Park. The program focuses on educating the public about recycling electronics and setting up accessible collection centers. It ensures that e-waste is processed safely and that \"valuable materials like gold, silver, and copper are recovered.\"\n\nThe document contains no mention of James Bentley, GreenTech Recycling, or a claim to recover 95% of precious metals.",
+      "iteration": 0
+    },
+    {
+      "document_id": "bnmnstqx",
+      "question_id": "bnmnstqx-q1",
+      "text": "GreenSpots initiative: launched October 12 by nonprofit CityHive, led by CEO Michael Thompson. It \"employs a multifaceted strategy to revitalize neglected spaces and make them accessible for all.\" Thompson: \"bringing the park to the people, whether that's by adaptive redesign or by creating entirely new spaces within their neighborhoods.\" Flagship project: adaptive use of underutilized or vacant lots, \"transforming them into micro-parks and community gardens.\" Program involves local residents \"in both design and maintenance,\" ensuring spaces meet community needs and foster ownership and pride.",
+      "iteration": 1
+    },
+    {
+      "document_id": "cfvjvjhl",
+      "question_id": "cfvjvjhl-q5",
+      "text": "Facts the correct answer depends on: the document never says wildlife can adapt behaviorally to urban change. Its only adaptation-related line is Dr. Nina Patel's quote, \"Many species are struggling to adapt to the bright nights of the city. They're losing their way, literally and figuratively,\" which describes struggle, not successful adaptation. Dr. Alex Kim's quote concerns isolation and reduced genetic diversity from fragmentation, with no mention of adaptation. Dr. Kim's predator quote says predators are \"penalized for trying to survive in a landscape we've altered.\" Dr. Henry Clarkson does not appear in the document, and no source in it",
+      "iteration": 1
+    },
+    {
+      "document_id": "cijsoyiu",
+      "question_id": "cijsoyiu-q1",
+      "text": "The source states: \"Since the announcement of environmental rejuvenation goals in September 2023, urban planners and ecologists have become increasingly aware of the pivotal role that urban green spaces play in ecological and social dynamics.\" This sentence appears under the heading \"The Drive for Urban Green Spaces.\" No other part of the document mentions \"Green Circuit,\" Tom Geller, or a December 5, 2023 date. The \"Urban Canopy Project\" and GIS are not mentioned together with a November 3, 2023 date; GIS appears only in \"The Role of Technology\" section with no project name or date attached.",
+      "iteration": 1
+    },
+    {
+      "document_id": "gorsjsgr",
+      "question_id": "gorsjsgr-q5",
+      "text": "- The only people named in the document are animal characters: Marty McClaw (moose), Sally Squeakears (gray squirrel), Milton Mole, Chuck Chirpington (pigeon), Finny McScales (trout), Dawn Deerhart (doe), Ricky Raccoon, and Lucy Lynx (feline). No wildlife biologist is named, and neither \"Dr. Henry Clarkson\" nor \"Dr. Emilia Torres\" appears. - The only date is September 23, 2023, the article's publication date. \"Since September 2023, reports have flooded in\" refers to animal commuter reports, not to any biologist's monitoring. - The document never uses the phrase \"hallways in a house\" and never mentions habitat fragmentation. - Its only corridor-related claims",
+      "iteration": 1
+    },
+    {
+      "document_id": "jflsozmf",
+      "question_id": "jflsozmf-q2",
+      "text": "Smart Bins: part of the 'Smart Bins' project, which began rolling out on December 1, 2023, implemented by local authorities. Smart Bins are designed to separate recyclable materials from waste and provide data insights about disposal habits. Program pioneer: environmental engineer Maria Gonzalez, whose quoted description: the bins are fitted with sensors that differentiate between types of plastic waste, feeding information to waste management centers for better recycling strategies and more efficient resource usage.",
+      "iteration": 1
+    },
+    {
+      "document_id": "kphdeolt",
+      "question_id": "kphdeolt-q3",
+      "text": "Section \"Tech Leaves: Digital Solutions to Natural Problems\" exists in the document. Its facts: digital solutions have been sought to streamline maintenance of urban green spaces. Autonomously controlled irrigation systems conserve water while nourishing thirsty plants. Drones monitor tree health. The role of technology in maintenance is becoming increasingly significant. On October 10, 2023, the city of Springfield introduced an app designed by local tech whiz Alan Nguyen, which let residents report maintenance issues in real time, directly alerting the relevant authorities.",
+      "iteration": 1
+    },
+    {
+      "document_id": "mhhpmshm",
+      "question_id": "mhhpmshm-q1",
+      "text": "The opening passage states that \"As the morning sun cast a golden hue over the city's skyline on this mild morning of March 10th, 2024, I found myself drawn to the heart of the city's green lung, Henderson Park.\" The visit to Henderson Park, where the author watched the morning sun, is dated March 10th, 2024. Other dates in the document (September 15, 2023; September 30, 2023; October 11, 2023; November 20, 2023) relate to interviews with Dr. Alice Morgan, Dr. David Lee, Emily Rivers, and Marcus Zhang, not to the park visit.",
+      "iteration": 1
+    },
+    {
+      "document_id": "pkpzjpkq",
+      "question_id": "pkpzjpkq-q4",
+      "text": "On December 5, 2023, the opening of the newly constructed 'Riverbend Corridor' marked a milestone for local conservation efforts. Its inauguration was the culmination of two years of campaigning, planning, and collaboration between environmentalists, local authorities, and community groups. The corridor is a wildlife corridor, one of the strips or bridges conservationists championed to reconnect fragmented habitats. No mention of Oakridge city council or any green bridges or tunnels approval on that date appears in the document.",
+      "iteration": 1
+    },
+    {
+      "document_id": "szvabpcd",
+      "question_id": "szvabpcd-q3",
+      "text": "Mariam Johnson's project created a community green space on the corner of 5th and Oakwood. The community garden became a living classroom where children learned the cycles of plant life, the importance of biodiversity, and the value of sustainable living. The green space welcomed a diversity of birds and insects, enhancing the urban ecosystem that had been fragmented by development. Later, the flora also became a corridor for wildlife, reinforcing the city's biological tapestry.",
+      "iteration": 1
+    },
+    {
+      "document_id": "twqxngut",
+      "question_id": "twqxngut-q3",
+      "text": "Rosedale's 'Eco-Responsibility' program is a component of legislation passed on March 15, 2024, which mandates the industrial sector to partake in the program. The program is funded by both the city and participating corporations, and it finances the development and implementation of cleaner technologies. Rosedale's Environmental Commissioner, Sandra Liu, explained that environmental protection is an investment in the collective future rather than a hindrance. The document does not name Sandra Liu as the proposer of the legislation; it describes her only as explaining the program's rationale.",
+      "iteration": 1
+    },
+    {
+      "document_id": "vibggvot",
+      "question_id": "vibggvot-q2",
+      "text": "Financial analyst Martin Hayes, during a webinar held on November 5, 2023, said: \"Maintenance of green spaces competes with other urban necessities such as road repair, public safety, and education for funding.\" He added that not only is there limited money available, but this pot often shrinks amidst other pressing urban expenses. The budget allocation issue is described under the heading \"Budget Woes: Allocating Funds for Foliage.\"",
+      "iteration": 1
+    },
+    {
+      "document_id": "wyloowzz",
+      "question_id": "wyloowzz-q1",
+      "text": "John Appleseed, head of the Central Park Conservation Group, attended the September 10, 2023 meeting at City Hall of park managers, which also included Maria Lopez, Director of Urban Planning and Green Spaces. Among the central topics was the growing problem of vandalism. John Appleseed highlighted that repeated graffiti and defacement of park properties rendered several community spaces unsightly and demanded constant clean-up that diverted resources from other maintenance work.",
+      "iteration": 1
+    },
+    {
+      "document_id": "ybpiasnr",
+      "question_id": "ybpiasnr-q2",
+      "text": "On November 15, 2023, the Springfield city council launched a pioneering e-waste management program spearheaded by councilman Johnathan Park. The program focuses on educating the public about recycling electronics and setting up accessible collection centers. It ensures that e-waste is processed safely and that valuable materials \"like gold, silver, and copper are recovered.\" Park said the goal is to give every household and business the opportunity to dispose of e-waste responsibly.",
+      "iteration": 1
+    },
+    {
+      "document_id": "itplctwd",
+      "question_id": "itplctwd-q1",
+      "text": "Source passage, tip 1 (\"Compost Your Way to Rich Soil\"): \"As revealed by Sarah Greenfield, an agronomy expert, on September 15, 2023, composting not only reduces landfill waste but also enriches the soil with vital nutrients, thus eliminating the need for chemical fertilizers.\" The tip opens by describing a compost bin where kitchen scraps and yard waste transform into compost (\"black gold\"). The method named is composting; the attribution is to Sarah Greenfield, agronomy expert, dated September 15, 2023.",
+      "iteration": 2
+    },
+    {
+      "document_id": "pkpzjpkq",
+      "question_id": "pkpzjpkq-q4",
+      "text": "On December 5, 2023, the opening of the newly constructed 'Riverbend Corridor' marked a milestone for local conservation efforts. Its inauguration was the culmination of two years of campaigning, planning, and collaboration between environmentalists, local authorities, and community groups. The corridor is a wildlife corridor, one of the essential routes between habitats that let animals move across the fragmented landscape. Nothing in the document mentions Oakridge, a city council, or green bridges and tunnels being approved on that date.",
+      "iteration": 2
+    },
+    {
+      "document_id": "wclueecr",
+      "question_id": "wclueecr-q1",
+      "text": "Terra Verde is where residents witnessed large tracts of their Amazon forest disappear. Under Joaquim Saldanha's leadership, a group of local farmers transformed their despair into determination. \"On November 3, 2023 they launched the Amazonian Roots Movement: an initiative which combined traditional agricultural practices with modern reforestation methods - providing a model for sustainable living in harmony with nature.\" The same passage opens by noting the Amazon's success story began in Terra Verde.",
+      "iteration": 2
+    },
+    {
+      "document_id": "ybpiasnr",
+      "question_id": "ybpiasnr-q2",
+      "text": "On November 15, 2023, the Springfield city council launched a pioneering e-waste management program spearheaded by councilman Johnathan Park. The program focuses on educating the public about recycling electronics and setting up accessible collection centers. It ensures that e-waste is processed safely and that valuable materials like gold, silver, and copper are recovered. The James Bentley and GreenTech Recycling claim about recovering 95% of precious metals does not appear in the document.",
+      "iteration": 2
+    },
+    {
+      "document_id": "zzxanwcs",
+      "question_id": "zzxanwcs-q5",
+      "text": "The facts the correct answer depends on are the document's actual individual-behaviour content, which the wrong answer invented or mislabeled. The document says: \"Dr. Nguyen's study highlights that a change in individual choices and behaviors is essential for a sustainable future in urban transport.\" It also states: \"A survey within the study cites that only 15% of local residents opted for cycling or walking over short distances. These active travel modes not only reduce emissions but also confer health benefits. Strategies to improve the safety and appeal of walking and cycling, combined with education on the positive impacts of these",
+      "iteration": 2
+    }
+  ],
+  "level": "moderate"
+}

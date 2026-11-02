@@ -1,0 +1,152 @@
+{
+  "topic": "local_news",
+  "target_ratio": 0.5,
+  "target_words": 34826,
+  "source_words": 69653,
+  "actual_words": 9138,
+  "actual_ratio_words": 0.1311932005800181,
+  "source_tokens": 88717,
+  "actual_tokens": 15134,
+  "actual_ratio_tokens": 0.17058737333318305,
+  "n_preserved_facts": 21,
+  "preserved_words": 1723,
+  "n_preserved_found": 11,
+  "preservation_rate": 0.5238095238095238,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 155879,
+  "output_tokens": 39677,
+  "cache_read_tokens": 150994,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.1091847,
+  "preserved_facts": [
+    {
+      "document_id": "ajowsdgn",
+      "question_id": "ajowsdgn-q2",
+      "text": "- The only funding mechanism the document names is \"Seed Funding to Sprout Ideas\": \"The program seeks to mitigate this by offering competitive grants to help cover start-up costs for qualifying businesses.\"\n- The program was announced by the City Council on September 15, 2023, and is described as \"not merely a financial aid package.\"\n- Other listed components are mentorship, free or subsidized training, networking events with potential investors, and technology support. None is a funding source.\n- The document names no state grants, municipal bonds, sales tax, private partnerships,",
+      "iteration": 0
+    },
+    {
+      "document_id": "bshahlfz",
+      "question_id": "bshahlfz-q3",
+      "text": "On September 15, 2023, a group of environmental activists led by Jonathan Edwards assembled in front of City Hall, showcasing a 'Recycle Right' initiative. This peaceful gathering, aimed at raising awareness about recycling best practices, caught the attention of local government and was a major driving force for the subsequent policy improvements.",
+      "iteration": 0
+    },
+    {
+      "document_id": "eyfsdjhs",
+      "question_id": "eyfsdjhs-q1",
+      "text": "The source document states that on September 15, 2023, the community came together at the local library for \"the annual Book Drive and Literacy Day.\" The event was a noble cause in which locals donated books, which were laid out on rows of tables, and the line had already formed by ten in the morning. Organizers included Grace Thompson, a librarian, and Cynthia Barnes, a veteran teacher who coordinated the event. Hundreds of books changed hands that day. The document does not mention a Harvest Moon Festival, Lunar Park, a Local Business Fair, a transit plan, zoning laws, a Youth",
+      "iteration": 0
+    },
+    {
+      "document_id": "fqxhydjr",
+      "question_id": "fqxhydjr-q1",
+      "text": "The shift was triggered by increased consumer awareness, stringent environmental regulations, and the looming threat of climate change. This passage is in the \"Understanding the Shift\" section, which states that businesses realized sustainability can be part of their growth story. Rajesh Singh, owner of the local Green Groove Market, emphasized on October 5th: \"It's about time we acknowledge that sustainable business is good business. Our customers want it, and to be honest, looking at the long-term, our planet needs it.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "ilscfbjf",
+      "question_id": "ilscfbjf-q4",
+      "text": "- The council approved a sales tax increase from 7.5% to 8% to fund infrastructure and community services, per Councilman James O'Reilly. - The local income tax credit targets individuals earning below a certain income threshold. Its specifics \"are yet to be fully outlined,\" though the framework suggests a sliding credit scale based on annual earnings. - The document's impact analysis addresses low-income families and individuals. It does not mention middle-class households or their disposable income. - Property tax relief applies to homes valued at less than $250,000. - The \"full scope of the amendments' effects remains to be seen,\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "lgzbbaqw",
+      "question_id": "lgzbbaqw-q1",
+      "text": "The source states that the City Council announced its new zoning laws at the close of a marathon meeting held on November 19, 2023, which is the date the decision was reached. The article's headline frames the laws as \"New Zoning Laws,\" and the council's announcement capped its latest hive-tending session. Council Member James \"Jimbo\" McScroops spearheaded the laws. No September date appears anywhere in the document, so Sept 15, 2023 has no support in the source.",
+      "iteration": 0
+    },
+    {
+      "document_id": "lvcvmxtc",
+      "question_id": "lvcvmxtc-q5",
+      "text": "The document does not mention emergency response times, emergency vehicles, ambulances, fire services, or police at all. The stated goals are \"to enhance road safety, decrease commute times, and promote environmentally friendly transportation modes.\" Smart signals are said to \"reduce unnecessary stoppage and idling\" and \"cut down on travel time,\" but no link to emergency response is made. Traffic-law changes were passed September 15, 2023, and expected to take effect \"by November 1st.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "nxhhiusx",
+      "question_id": "nxhhiusx-q4",
+      "text": "The only pre-existing condition the document names is that the infrastructure \"has remained largely unaltered, often struggling to keep up with the rapid pace of population growth and technological progression.\" Those words are in the \"The Dawn of a Smarter Neighborhood\" section, with no dates attached. The document does not mention bridges, roads, the late 1990s, Halifax, Section 19.4, Councillor Jessica LeBlanc, or any five-year plan. Its dated items are the September 15, 2023 unveiling, the November 1, 2023 smart grid rollout, early 2024 for water system installation, and mid-2024 for the waste system.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ogkizjeg",
+      "question_id": "ogkizjeg-q1",
+      "text": "The \"Green Hearts\" organization, led by Linda Carter, has been gathering volunteers every second Saturday since September 10, 2023, to restore natural habitats in city parks. The tasks vary: \"planting native species, removing invasive plants, to trash clean-up.\" Volunteering also fosters community spirit and educates participants on the importance of biodiversity.",
+      "iteration": 0
+    },
+    {
+      "document_id": "pncizynx",
+      "question_id": "pncizynx-q4",
+      "text": "Sip & Script: a cozy caf\u00e9 founded by Julia Espinoza and Raul Gupta, opened October 10th, 2023, in the heart of downtown. It \"couples the aromatic lure of freshly-brewed coffee with a sophisticated AI scriptwriter\" that helps customers draft \"personalized letters, resumes, or even poetry.\" Espinoza says it was \"born from the idea that people yearn for personalized experiences.\" The document calls it \"a standout business\" whose \"fusion of tech and tradition\" reflects consumers' desire for bespoke services. The document contains no section numbering and says nothing about Sip & Script's effect on traditional writing practices or writing skills.",
+      "iteration": 0
+    },
+    {
+      "document_id": "qbgbnbeo",
+      "question_id": "qbgbnbeo-q1",
+      "text": "Under item 1, \"Join Local Heritage Societies,\" the document says societies focusing on historic preservation and cultural enrichment protect \"the architectural integrity and historic significance of their neighborhood.\" Jane Thompson, a long-time resident of Franklin Historic District, stewards one such society. These societies \"often organize workshops, fundraisers, and community events aimed at preserving local history.\" The tax-incentive ordinance led by Sarah Rodriguez on October 15, 2023 appears under item 3, \"Advocate for Conservation Policies,\" not under heritage societies.",
+      "iteration": 0
+    },
+    {
+      "document_id": "scbwdsbx",
+      "question_id": "scbwdsbx-q3",
+      "text": "Under item 1, \"Switching to Renewable Energy Sources,\" the document states: \"Businesses like Johnson's Organic Market, which unveiled its solar panel-covered roof on November 5, 2023, are leading by example.\" The solar roof unveiling is dated November 5, 2023, and is attributed to Johnson's Organic Market. The surrounding passage says solar panels and wind turbines are becoming common atop local business roofs, and that these installations provide clean energy to power daily operations.",
+      "iteration": 0
+    },
+    {
+      "document_id": "tdfjqkuo",
+      "question_id": "tdfjqkuo-q3",
+      "text": "Lunchtime Leisure section: The small, pocket parks in Greenfield's commercial district invite office workers to step out for an alfresco lunch. Lining the edges of these parks are Greenfield's favorite food trucks, whose owners praise the initiative that \"unexpectedly boosted their business.\" Chef and food truck owner Carlos Mendez states: \"We serve more customers, and people stay longer to enjoy the space. It's a win-win for everyone.\" Mendez is quoted about the parks' outdoor settings, not as an GSI participant or committee member.",
+      "iteration": 0
+    },
+    {
+      "document_id": "vhvzwfxy",
+      "question_id": "vhvzwfxy-q4",
+      "text": "Laura Simmons, a small business consultant, is quoted in the \"Strategic Blueprint\" section: \"A business plan is crucial, but it's equally important to remain flexible,\" advises Laura Simmons. \"Market trends, customer behavior, unexpected challenges\u2014they call for continuous adjustment, for truly listening to your community.\"\n\nThe text immediately before this quote says business mentors and experts emphasize \"the need for agility and a robust support network.\" The quote is the only passage attributing a reason for flexibility to Simmons.",
+      "iteration": 0
+    },
+    {
+      "document_id": "voccfcsa",
+      "question_id": "voccfcsa-q3",
+      "text": "The document says: \"Followed by Mariachi Vikings, a squad that roars Nordic chants through sombreros, quests to turn up the cultural pastiche to eleven.\" The Polkadelics are a separate act, \"led by accordionist extraordinaire, Ivan Ivanovich,\" who is the leader of The Polkadelics, not of Mariachi Vikings. The band that turns up the cultural pastiche is Mariachi Vikings, which follows The Polkadelics in the lineup. The festival is the \"Multicultural Festival: Embracing Diversity in Our Community,\" held September 15, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wwtlclef",
+      "question_id": "wwtlclef-q4",
+      "text": "Under \"Preservation Through Rehabilitation\": Following the bushfire season in mid-September 2023, Emma and the Eco Warriors initiated a restoration project in Pepperwood Preserve, which had suffered extensive damage. The project, which commenced on October 4, 2023, involved reforestation efforts and the creation of fire-resistant plant barriers to help protect the area from future fires.",
+      "iteration": 0
+    },
+    {
+      "document_id": "wwxhiwkv",
+      "question_id": "wwxhiwkv-q2",
+      "text": "From \"The Birth of a Green Initiative\" section: the tree-planting drive is \"Led by individuals such as Jamie Richardson, the president of the Maplewood Neighborhood Association, and joined by figures like Dr. Lakshmi Gupta, a noted botanist and community activist, these associations are working tirelessly to increase the tree canopy in their neighborhoods.\" Richardson is quoted as saying the goal is \"not just to beautify our surroundings but to contribute to a wider ecosystem.\" The program was initiated on September 15, 2023. No Susan Martinez, Emily Rios, Mia Zhang, Tom Nguyen, Jennifer O'Donnell, Riverside Residents Association, or AENA appears in",
+      "iteration": 0
+    },
+    {
+      "document_id": "xplpsyjo",
+      "question_id": "xplpsyjo-q3",
+      "text": "Rachel Santos, identified as \"EHPC's outreach coordinator,\" initiated a series of town hall meetings beginning November 10th, 2023. The meetings were held to educate residents about the tangible and intangible benefits of historic district designation. They served as forums for discussion, with experts explaining how such status can lead to funding for renovations, tax incentives, and a boost in tourism. The EHPC (Elmwood Historic Preservation Committee) is chaired by Dr. Amelia Richardson, a separate person from Santos.",
+      "iteration": 0
+    },
+    {
+      "document_id": "yksowsch",
+      "question_id": "yksowsch-q5",
+      "text": "The source document does not list any unforeseen challenges start-ups face besides regulations. Its only stated challenges are regulatory: it describes the \"Regulatory Maze\" of licensing, zoning, health and safety standards, environmental regulations, tax codes, and employment laws. The entrepreneur examples cover food service regulations (Cheryl Matthews, Sugar Flour), digital security compliance and data privacy laws (Streamline Tech), and health codes and import restrictions (Fusion Feast). The Entrepreneur's Alliance, founded in mid-September 2023, offers legal resources, mentorship, and networking. None of the assistant's cited items (supplier connections, supply chain issues, funding, online retail competition, sustainability, accessibility, community acceptance) appear in",
+      "iteration": 0
+    },
+    {
+      "document_id": "zsckbhoe",
+      "question_id": "zsckbhoe-q5",
+      "text": "Step 11 (\"Foster an Inclusive Environment\") of the how-to guide says the event should be accessible to all community members regardless of age, ethnicity, or socioeconomic status, with accommodations such as transportation or translation services. It then states: \"James Peterson stresses the value of inclusivity, 'Our community's strength lies in its diversity, and our event must reflect that.'\" Peterson is introduced in the opening paragraph as a cultural curator who, with historian Anna Richardson, announced the neighborhood improvement plans on September 5, 2023.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zxdlsong",
+      "question_id": "zxdlsong-q1",
+      "text": "The road and bridge initiative is stated to aim \"to reduce traffic congestion, which has long been an issue for commuters.\" It is led by Transportation Committee Chair Susan T. Langley and is described as an effort \"to expand and improve Vancouver's road network.\" Its listed components are: Harper Road expansion and modernization, due to significant wear from increased usage; a new bridge to facilitate traffic dispersion from Greenfield Bridge, starting November 15, 2023, with completion expected late 2025; and upgrades such as repaving and smart traffic management systems at key intersections \"to improve traffic flows and decrease waiting times,\"",
+      "iteration": 0
+    }
+  ],
+  "level": "moderate"
+}
