@@ -183,6 +183,27 @@ def doc_title(doc: Document) -> str | None:
     return first if first and len(first.split()) <= 16 and first[-1] not in ".!?" else None
 
 
+@dataclass
+class Budget:
+    source_tokens: int
+    budget: int                 # B
+    target: int                 # (1 - rho) B, what iteration 0 fills to
+    share: dict[str, float]     # each document's part of the target
+
+
+def budget_shares(
+    documents: Sequence[Document], *, ratio: float, rho: float,
+    count_tokens: Callable[[str], int],
+) -> Budget:
+    source_tokens = count_tokens(format_documents(list(documents)))
+    budget = round(ratio * source_tokens)
+    target = round((1 - rho) * budget)
+    doc_tokens = {d.document_id: count_tokens(d.text) for d in documents}
+    total = sum(doc_tokens.values()) or 1
+    return Budget(source_tokens, budget, target,
+                  {d: target * n / total for d, n in doc_tokens.items()})
+
+
 def fill(
     claims: Sequence[Claim],
     documents: Sequence[Document],
@@ -194,12 +215,8 @@ def fill(
     by_id = {c.id: c for c in claims}
     routes = route(claims)
     titles = {d.document_id: t for d in documents if (t := doc_title(d))}
-    source_tokens = count_tokens(format_documents(list(documents)))
-    budget = round(ratio * source_tokens)
-    target = round((1 - rho) * budget)
-    doc_tokens = {d.document_id: count_tokens(d.text) for d in documents}
-    total = sum(doc_tokens.values()) or 1
-    share = {d: target * n / total for d, n in doc_tokens.items()}
+    b = budget_shares(documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
+    source_tokens, budget, target, share = b.source_tokens, b.budget, b.target, b.share
 
     queues: dict[str, list[Claim]] = {d.document_id: [] for d in documents}
     for c in claims:

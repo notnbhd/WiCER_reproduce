@@ -48,6 +48,7 @@ export WICER_COMPILER_BACKEND=openrouter WICER_JUDGE_BACKEND=openrouter
 export WICER_COMPILER_MODEL=anthropic/claude-haiku-5.5 WICER_JUDGE_MODEL=anthropic/claude-haiku-5.5
 T=local_economy
 python -m tact.run extract  --topic $T                      # ~$1/topic at effort=high
+python -m tact.run inspect  --topic $T                      # free: answer ceiling, budget fit
 python -m tact.run render   --topic $T --name tact_iter0 --rho 0.1
 python -m tact.run render   --topic $T --name tact_full  --rho 0
 python -m tact.run truncate --topic $T

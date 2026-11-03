@@ -2,6 +2,7 @@
 """TACT milestone A: the iteration-0 arm and the truncation baseline.
 
     python -m tact.run extract  --topic local_economy           # API: two calls per document
+    python -m tact.run inspect  --topic local_economy           # free: ceiling, budget fit, shape
     python -m tact.run render   --topic local_economy --name tact_iter0 --rho 0.1
     python -m tact.run render   --topic local_economy --name tact_full  --rho 0
     python -m tact.run truncate --topic local_economy
@@ -9,7 +10,8 @@
     python -m tact.run compare  --topic local_economy
 
 ``render``, ``truncate`` and ``score`` need the reader's llama-server: the
-budget is counted in its tokens, as wicer's compile counts it.  ``score``
+budget is counted in its tokens, as wicer's compile counts it.  ``inspect``
+uses it when it is up and otherwise estimates tokens from words.  ``score``
 serves a wiki over every question and judges the answers, exactly as wicer's
 ``--eval-full`` does; ``compare`` then restricts to the sweep's held-out set.
 """
@@ -44,7 +46,7 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     cmds = {name: sub.add_parser(name) for name in
-            ("extract", "render", "truncate", "score", "compare")}
+            ("extract", "inspect", "render", "truncate", "score", "compare")}
     for p in cmds.values():
         add_profile_arg(p)
         p.add_argument("--topic", action="append", required=True, help="topic slug (repeatable)")
@@ -52,6 +54,8 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     cmds["extract"].add_argument(
         "--embed", action="store_true",
         help="also link entity names by MiniLM similarity (needs the rag extra)")
+    cmds["inspect"].add_argument("--rho", type=float, default=0.10)
+    cmds["inspect"].add_argument("--baseline-dir", default=None)
     cmds["render"].add_argument("--name", default="tact_iter0")
     cmds["render"].add_argument("--rho", type=float, default=0.10,
                                 help="headroom held back for pins (default: %(default)s)")
@@ -76,6 +80,21 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
                   f"contradictions={m['n_contradictions']} "
                   f"collisions={m['entity_collision_rate']:.1%}")
         print(f"\nextractor usage: {extractor.usage_summary()}")
+
+    elif args.cmd == "inspect":
+        from tact.checks import estimate_tokens, inspect_topic, summary
+        from tact.compare import BASELINE_DIR
+        from wicer_core.reader import ReaderClient
+
+        reader = ReaderClient(profile.reader)
+        if reader.health():
+            count_tokens, source = reader.count_tokens, "reader"
+        else:
+            count_tokens, source = estimate_tokens, "estimated from words (no reader up)"
+        for topic in args.topic:
+            print(summary(inspect_topic(profile, topic, rho=args.rho, count_tokens=count_tokens,
+                                        baseline_dir=args.baseline_dir or BASELINE_DIR,
+                                        token_source=source)))
 
     elif args.cmd == "render":
         from tact.render import render_topic
