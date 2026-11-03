@@ -34,10 +34,10 @@ from pathlib import Path
 from typing import Any, Callable, Sequence
 
 from wicer_core.config import Profile
-from wicer_core.corpus import Document, format_documents, load_topic
+from wicer_core.corpus import Corpus, Document, format_documents, load_topic
 from wicer_core.metrics import compression_ratio
 from wicer_core.records import wiki_dir, wiki_paths
-from tact.ledger import Claim, load_ledger
+from tact.ledger import Claim, Ledger, load_ledger
 
 ROUTES = ("T2", "T3a", "T3b")
 _YEAR = re.compile(r"\b(\d{4})\b")
@@ -183,6 +183,16 @@ def doc_title(doc: Document) -> str | None:
     return first if first and len(first.split()) <= 16 and first[-1] not in ".!?" else None
 
 
+def headings(documents: Sequence[Document]) -> dict[str, str]:
+    """Each document's section heading: its title, else its position.
+
+    About half of local_economy's documents run the title into the first
+    sentence with no line break, so it cannot be split off; an ordinal costs
+    two tokens where the 8-letter document id costs more and means nothing.
+    """
+    return {d.document_id: doc_title(d) or f"Document {i + 1}" for i, d in enumerate(documents)}
+
+
 @dataclass
 class Budget:
     source_tokens: int
@@ -214,7 +224,7 @@ def fill(
 ) -> RenderResult:
     by_id = {c.id: c for c in claims}
     routes = route(claims)
-    titles = {d.document_id: t for d in documents if (t := doc_title(d))}
+    titles = headings(documents)
     b = budget_shares(documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     source_tokens, budget, target, share = b.source_tokens, b.budget, b.target, b.share
 
@@ -305,6 +315,21 @@ def sidecar_path(profile: Profile, topic: str, name: str) -> Path:
     return wiki_dir(profile, topic) / f"{name}.sidecar.json"
 
 
+def check_corpus(ledger: Ledger, corpus: Corpus) -> None:
+    """Refuse a ledger extracted from different documents than the corpus now holds."""
+    sha = ledger.meta.get("corpus_sha256")
+    if sha and sha != corpus.manifest.get("content_sha256"):
+        raise ValueError(
+            f"the {corpus.topic} ledger was extracted from a different corpus "
+            f"(ledger {sha[:12]}, corpus {str(corpus.manifest.get('content_sha256'))[:12]}); "
+            "rebuild the corpus with the shortest-80 rule or re-extract"
+        )
+    unknown = {c.doc for c in ledger.claims} - {d.document_id for d in corpus.documents}
+    if unknown:
+        raise ValueError(f"the {corpus.topic} ledger has documents not in the corpus "
+                         f"({len(unknown)}, e.g. {sorted(unknown)[0]}) -- a different corpus")
+
+
 def render_topic(
     profile: Profile,
     topic: str,
@@ -319,6 +344,7 @@ def render_topic(
     if ledger is None:
         raise FileNotFoundError(f"no ledger for {topic!r}: run `python -m tact.run extract` first")
     corpus = load_topic(profile, topic)
+    check_corpus(ledger, corpus)
     ratio = profile.wicer.ratio if ratio is None else ratio
     res = fill(ledger.claims, corpus.documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     source_words = corpus.n_words

@@ -26,7 +26,7 @@ from wicer_core.config import Profile, resolve
 from wicer_core.corpus import Document, QAPair, is_not_in_document, load_topic
 from wicer_core.metrics import mean
 from tact.ledger import Claim, ledger_dir, load_ledger, locate
-from tact.render import budget_shares, doc_title, layout, route
+from tact.render import budget_shares, headings, layout, route
 
 # Llama 3.1 tokens per word, measured on the local_economy pilot.  Used only
 # when no reader is up to count exactly.
@@ -89,7 +89,7 @@ def budget_fit(
     b = budget_shares(documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     by_id = {c.id: c for c in claims}
     routes = route(claims)
-    titles = {d.document_id: t for d in documents if (t := doc_title(d))}
+    titles = headings(documents)
     rows = []
     for d in documents:
         own = [c for c in claims if c.doc == d.document_id]
@@ -154,7 +154,7 @@ def inspect_topic(
         "questions": "held-out answerable" if probes.exists() else "all answerable",
         "tokens": token_source,
         "rho": rho,
-        "ledger": {k: v for k, v in ledger.meta.items() if k != "usage"},
+        "ledger": {k: v for k, v in ledger.meta.items() if k != "usage_this_run"},
         "shape": ledger_shape(ledger.claims),
         "budget": budget_fit(ledger.claims, corpus.documents, ratio=profile.wicer.ratio,
                              rho=rho, count_tokens=count_tokens),

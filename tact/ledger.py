@@ -372,12 +372,13 @@ class Extractor:
         """{"inventory": [...], "raw": {"claims": [...]}} for one document."""
         if self.backend == "fake":
             self.n_calls += 2
-            return _fake_extract(doc)
+            return {**_fake_extract(doc), "extracted_with": "fake"}
         inv = self._json((PROMPT_DIR / "inventory.md").read_text().format(document=doc.text))
         entities = [str(e) for e in inv.get("entities", []) if str(e).strip()]
         raw = self._json((PROMPT_DIR / "claims.md").read_text().format(
             document=doc.text, entities="\n".join(f"- {e}" for e in entities)))
-        return {"inventory": entities, "raw": raw}
+        return {"inventory": entities, "raw": raw,
+                "extracted_with": f"{self.model} effort={self.effort}"}
 
     def _json(self, prompt: str) -> dict[str, Any]:
         last: Exception | None = None
@@ -486,8 +487,18 @@ def build_ledger(
     similar: Callable[[list[str]], list[tuple[int, int]]] | None = None,
     documents: Sequence[Document] | None = None,
 ) -> Ledger:
-    """Extract (or reuse cached extractions), validate, canonicalize, merge, write."""
-    documents = list(documents or load_topic(profile, topic).documents)
+    """Extract (or reuse cached extractions), validate, canonicalize, merge, write.
+
+    The corpus fingerprint goes in the meta so a ledger cannot be rendered
+    against a rebuilt corpus it was not extracted from -- the laptop's data
+    was once a different 80 documents under the same topic name.  An explicit
+    ``documents`` subset has no fingerprint.
+    """
+    corpus_sha = None
+    if documents is None:
+        corpus = load_topic(profile, topic)
+        documents, corpus_sha = corpus.documents, corpus.manifest.get("content_sha256")
+    documents = list(documents)
     d = ledger_dir(profile, topic)
     cache = d / "extract"
     cache.mkdir(parents=True, exist_ok=True)
@@ -521,6 +532,7 @@ def build_ledger(
     merged, contradictions = merge(claims)
     meta = {
         "topic": topic,
+        "corpus_sha256": corpus_sha,
         "n_documents": len(documents),
         "n_claims": len(merged),
         "n_claims_before_merge": len(claims),
@@ -533,7 +545,10 @@ def build_ledger(
         # collision.
         "entity_collision_rate": _per_doc_collision(merged),
         "embedding_canonicalization": similar is not None,
-        "usage": extractor.usage_summary(),
+        # What the cached extractions came from, per document -- not what this
+        # invocation spent, which is zero on a fully cached re-run.
+        "extracted_with": dict(Counter(ex.get("extracted_with", "unknown") for ex in extractions)),
+        "usage_this_run": extractor.usage_summary(),
     }
     (d / "ledger.jsonl").write_text("".join(json.dumps(c.to_dict()) + "\n" for c in merged))
     (d / "contradictions.json").write_text(json.dumps(contradictions, indent=1) + "\n")

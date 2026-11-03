@@ -56,6 +56,14 @@ for c in tact_iter0 tact_full truncate; do python -m tact.run score --topic $T -
 python -m tact.run compare  --topic $T
 ```
 
+On a rented box, `bash scripts/run_tact_a.sh <topic>` runs everything after
+extraction (start the reader, inspect, render both arms, truncate, score all
+three) and refuses to start if the ledger was extracted from a different
+corpus than the box built. Extract on the laptop and copy
+`result-tact/<topic>/ledger/` up with the repo; pull back with
+`WICER_RESULTS_DIR=result-tact scripts/pull_results.sh host` and run `compare`
+locally, where `result-sweep/` lives.
+
 ## Quick start (no GPU, no API key, no downloads)
 
 ```bash

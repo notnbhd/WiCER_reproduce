@@ -174,8 +174,14 @@ def test_build_ledger_writes_and_caches(profile, topic):
     meta = json.loads((d / "ledger_meta.json").read_text())
     assert meta["n_claims"] == len(ledger.claims) and 0 <= meta["rejection_rate"] <= 1
 
+    n_docs = meta["n_documents"]
+    assert meta["extracted_with"] == {"fake": n_docs}
+
     again = Extractor(profile.compiler, backend="fake")
     reloaded = build_ledger(profile, topic, again)
     assert again.n_calls == 0
+    # a fully cached run still says what the ledger was extracted with
+    assert reloaded.meta["extracted_with"] == {"fake": n_docs}
+    assert reloaded.meta["usage_this_run"]["calls"] == 0
     assert [c.id for c in reloaded.claims] == [c.id for c in ledger.claims]
     assert [c.id for c in load_ledger(profile, topic).claims] == [c.id for c in ledger.claims]

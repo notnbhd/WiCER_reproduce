@@ -60,3 +60,15 @@ def test_offline_pipeline_extracts_renders_truncates_and_scores(profile, topic):
         assert run.main(["score", *argv, "--condition", cond], profile=profile) == 0
         rows = read_jsonl(scores_path(profile, topic, cond))
         assert len(rows) == len(load_topic(profile, topic).qa)
+
+
+def test_score_rejudges_rather_than_keeping_old_scores(profile, topic):
+    argv = ["--profile", "test", "--topic", topic]
+    run.main(["extract", *argv], profile=profile)
+    run.main(["truncate", *argv], profile=profile)
+    stale = [{"question_id": q.question_id, "document_id": q.document_id, "score": 5,
+              "reasoning": "STALE", "judge_model": "x"} for q in load_topic(profile, topic).qa]
+    _scores(scores_path(profile, topic, "truncate"), stale)
+    assert run.main(["score", *argv, "--condition", "truncate"], profile=profile) == 0
+    rows = read_jsonl(scores_path(profile, topic, "truncate"))
+    assert rows and not any(r["reasoning"] == "STALE" for r in rows)

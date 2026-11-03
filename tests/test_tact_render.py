@@ -171,3 +171,27 @@ def test_truncation_keeps_each_document_start_within_its_share():
     for doc, part in zip(docs, parts):
         body = part.split("===\n", 1)[1].strip()
         assert body and doc.text.startswith(body)
+
+
+def test_documents_without_a_clean_title_get_an_ordinal_heading():
+    titled = Document("a", "Riverside Market Expands\n\nThe market opened. It grew.")
+    run_on = Document("b", "Blockchain For Retail In local economies, retail matters.")
+    claims = [_claim("a#1", "a", "Market", "opened", "yes"), _claim("b#1", "b", "Chain", "is", "x")]
+    res = fill(claims, [titled, run_on], ratio=0.9, rho=0.0, count_tokens=words)
+    assert "## Riverside Market Expands" in res.text
+    assert "## Document 2" in res.text and "## b" not in res.text
+
+
+def test_render_refuses_a_ledger_from_another_corpus(profile, topic):
+    import pytest
+
+    from tact.ledger import ledger_dir
+
+    led = build_ledger(profile, topic, Extractor(profile.compiler, backend="fake"))
+    assert led.meta["corpus_sha256"]
+    meta_path = ledger_dir(profile, topic) / "ledger_meta.json"
+    meta = json.loads(meta_path.read_text())
+    meta["corpus_sha256"] = "0" * 64
+    meta_path.write_text(json.dumps(meta))
+    with pytest.raises(ValueError, match="different corpus"):
+        render_topic(profile, topic, name="tact_iter0", rho=0.1, count_tokens=words)

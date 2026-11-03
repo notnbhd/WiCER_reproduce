@@ -129,7 +129,10 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
             run_condition(profile, topic, args.condition, build_wiki_context(md.read_text()),
                           load_topic(profile, topic).qa, reader=reader, resume=args.resume,
                           progress=sys.stderr.isatty())
-            s = evaluate_condition(profile, topic, args.condition)
+            # The answers were just regenerated, so their old scores are stale
+            # unless this is a resumed run; the judge's disk cache makes
+            # re-judging an unchanged answer free.
+            s = evaluate_condition(profile, topic, args.condition, resume=args.resume)
             print(f"{topic:<26} {args.condition}: scored {s['n_scored']} "
                   f"(resumed {s.get('n_resumed', 0)})")
 
