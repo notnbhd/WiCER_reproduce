@@ -104,3 +104,73 @@ def render_table(topic: str, rows: list[dict[str, Any]]) -> str:
             f"{_f(r['mean_unanswerable'])} | {_f(r['ratio_tokens'], '{:.1%}')} |"
         )
     return "\n".join(out) + "\n"
+
+
+# -- displacement: held-out change split by pinned documents ---------------------
+
+
+def _split_delta(
+    before: dict[str, int], after: dict[str, int], questions: dict[str, str], pinned: set[str]
+) -> dict[str, Any]:
+    out: dict[str, Any] = {}
+    for label, keep in (("pinned", True), ("unpinned", False)):
+        ids = [q for q, doc in questions.items()
+               if (doc in pinned) == keep and q in before and q in after]
+        out[f"n_{label}_questions"] = len(ids)
+        out[f"before_{label}"] = mean([float(before[q]) for q in ids]) if ids else None
+        out[f"after_{label}"] = mean([float(after[q]) for q in ids]) if ids else None
+        out[f"delta_{label}"] = (out[f"after_{label}"] - out[f"before_{label}"]) if ids else None
+    return out
+
+
+def displacement(
+    profile: Profile, topic: str, baseline_dir: str | Path = BASELINE_DIR
+) -> list[dict[str, Any]]:
+    """Held-out answerable change from each method's start to its result, by
+    whether the question's document had anything pinned (draft section 3.7).
+
+    WiCER: blind -> best pinned iteration; a document is pinned when a fact
+    from it was preserved in that wiki.  TACT: its loop's start wiki ->
+    ``tact_loop``; pinned documents come from ``loop.json``.
+    """
+    from tact.loop import FINAL_WIKI, loop_dir
+
+    base = replace(profile, results_dir=str(baseline_dir))
+    base_root = resolve(baseline_dir) / topic
+    probe_ids = {q["question_id"] for q in json.loads((base_root / "probes.json").read_text())}
+    questions = {q.question_id: q.document_id for q in load_topic(profile, topic).qa
+                 if q.question_id not in probe_ids and not is_not_in_document(q.answer)}
+    rows = []
+    ledger = base_root / "wicer_ledger.json"
+    if ledger.exists():
+        led = json.loads(ledger.read_text())
+        best = best_pinned_iteration(led["iterations"])
+        if best is not None:
+            pinned = {f["document_id"] for f in led.get("preserved_facts", [])
+                      if f["iteration"] < best["iteration"]}
+            rows.append({"method": "WiCER (sweep)", "start": "wiki_moderate",
+                         "result": best["wiki_name"], "n_pinned_docs": len(pinned),
+                         **_split_delta(_scores(base, topic, "wiki_moderate"),
+                                        _scores(base, topic, best["wiki_name"]),
+                                        questions, pinned)})
+    loop = loop_dir(profile, topic) / "loop.json"
+    if loop.exists():
+        state = json.loads(loop.read_text())
+        pinned = set(state["pinned_docs"])
+        rows.append({"method": "TACT", "start": state["start"], "result": FINAL_WIKI,
+                     "n_pinned_docs": len(pinned),
+                     **_split_delta(_scores(profile, topic, state["start"]),
+                                    _scores(profile, topic, FINAL_WIKI), questions, pinned)})
+    return rows
+
+
+def render_displacement(topic: str, rows: list[dict[str, Any]]) -> str:
+    out = [f"### {topic}: held-out answerable change, by pinned documents\n",
+           "| Method | Start → result | Pinned docs | Δ pinned (n) | Δ unpinned (n) |",
+           "|---|---|---|---|---|"]
+    for r in rows:
+        out.append(
+            f"| {r['method']} | {r['start']} → {r['result']} | {r['n_pinned_docs']} | "
+            f"{_f(r['delta_pinned'], '{:+.2f}')} ({r['n_pinned_questions']}) | "
+            f"{_f(r['delta_unpinned'], '{:+.2f}')} ({r['n_unpinned_questions']}) |")
+    return "\n".join(out) + "\n"

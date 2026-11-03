@@ -185,3 +185,44 @@ def test_build_ledger_writes_and_caches(profile, topic):
     assert reloaded.meta["usage_this_run"]["calls"] == 0
     assert [c.id for c in reloaded.claims] == [c.id for c in ledger.claims]
     assert [c.id for c in load_ledger(profile, topic).claims] == [c.id for c in ledger.claims]
+
+
+# -- repair extractions (draft section 3.5.4) ------------------------------------
+
+
+def test_repair_claims_get_prefixed_ids_and_may_point_at_existing_claims():
+    raw = {"claims": [
+        {"id": "c1", "entity": "Sales", "relation": "results_in", "value_ref": "d1#7",
+         "verbatim": ["resulting in a second location."]},
+        {"id": "c2", "entity": "Sales", "relation": "rose_by", "value": "12%",
+         "verbatim": ["Sales rose 12% in 2022,"]},
+        {"id": "c3", "entity": "Sales", "relation": "causes", "value_ref": "d1#99",
+         "verbatim": ["resulting in a second location."]},
+    ]}
+    claims, stats = claims_from_extraction("d1", DOC, raw, {}, prefix="i0p3.", known={"d1#7"})
+    assert [c.id for c in claims] == ["d1#i0p3.1", "d1#i0p3.2"]
+    assert claims[0].ref and claims[0].v == "d1#7"
+    assert stats["n_rejected"] == 1          # d1#99 is neither local nor known
+
+
+def test_fake_repair_extractions_cover_the_probe_and_join_its_claims():
+    from tact.probes import Probe
+    from wicer_core.config import CompilerConfig
+    from wicer_core.corpus import Document
+
+    ex = Extractor(CompilerConfig(), backend="fake")
+    doc = Document("d1", DOC)
+    span = "The market employs 40 people."
+    s = DOC.index(span)
+    probe = Probe(id="d1#p1", doc="d1", question="How many?", answer="40", verbatim=[span],
+                  spans=[[s, s + len(span)]], kind="quantity", relational=True)
+    raw = ex.extract_targeted(doc, probe, entities=["Riverside Market"])
+    claims, _ = claims_from_extraction("d1", DOC, raw, {}, prefix="t.")
+    assert claims and claims[0].spans[0][0] == s
+
+    a = _claim("d1#1", "d1", "Market", "employees", "40")
+    b = _claim("d1#2", "d1", "Market", "opened", "2021")
+    raw = ex.extract_relation(doc, probe, [a, b])
+    rel, _ = claims_from_extraction("d1", DOC, raw, {}, prefix="r.", known={"d1#1", "d1#2"})
+    assert len(rel) == 1 and rel[0].ref and rel[0].v in {"d1#1", "d1#2"}
+    assert ex.n_calls == 2

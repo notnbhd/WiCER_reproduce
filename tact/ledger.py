@@ -26,7 +26,6 @@ from __future__ import annotations
 
 import difflib
 import json
-import os
 import re
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -36,6 +35,7 @@ from typing import Any, Callable, Sequence
 
 from wicer_core.config import CompilerConfig, Profile, resolve
 from wicer_core.corpus import Document, load_topic
+from tact.llm import JsonLLM
 
 PROMPT_DIR = Path(__file__).resolve().parent / "prompts"
 EXTRACT_SYSTEM = (
@@ -49,7 +49,6 @@ MATCH_THRESHOLD = 0.85
 _WORD = re.compile(r"\S+")
 _PUNCT = re.compile(r"[^\w%$.]+|(?<!\d)\.|\.(?!\d)")
 _SENTENCE = re.compile(r"[^.!?]+[.!?]+")
-_TRUNCATED = frozenset({"length", "max_tokens"})
 
 
 @dataclass
@@ -221,14 +220,19 @@ def collision_rate(entities: Sequence[str]) -> float:
 
 
 def claims_from_extraction(
-    doc_id: str, text: str, raw: dict[str, Any], cmap: dict[str, str]
+    doc_id: str, text: str, raw: dict[str, Any], cmap: dict[str, str],
+    *, prefix: str = "", known: frozenset[str] | set[str] = frozenset(),
 ) -> tuple[list[Claim], dict[str, int]]:
-    """Validate one document's raw claims and give them ledger ids."""
+    """Validate one document's raw claims and give them ledger ids.
+
+    ``prefix`` keeps repair extractions' ids apart from the bulk ledger's, and
+    ``known`` lets a relation point at a claim already in the ledger.
+    """
     rows = [r for r in raw.get("claims", []) if isinstance(r, dict)]
     local_ids: dict[str, str] = {}
     located: list[tuple[dict, str, list[list[int]], list[str]] | None] = []
     for i, row in enumerate(rows):
-        cid = f"{doc_id}#{i + 1}"
+        cid = f"{doc_id}#{prefix}{i + 1}"
         local_ids[str(row.get("id", ""))] = cid
         pieces = row.get("verbatim") or []
         if isinstance(pieces, str):
@@ -250,7 +254,11 @@ def claims_from_extraction(
         target = row.get("value_ref")
         if target is not None:
             v = local_ids.get(str(target))
-            if v is None or v not in kept_ids:
+            if v is None and str(target) in known:
+                v = str(target)
+            elif v is not None and v not in kept_ids:
+                v = None
+            if v is None:
                 kept_ids.discard(cid)
                 continue
         else:
@@ -281,6 +289,11 @@ def _opt(value: Any) -> str | None:
 
 def _norm(text: str | None) -> str:
     return " ".join(_PUNCT.sub(" ", (text or "").lower()).split())
+
+
+def claim_key(c: Claim) -> tuple[str, str, str, bool, str]:
+    """What makes two claims the same claim: the merge key plus the value."""
+    return (_norm(c.e), _norm(c.r), _norm(c.tau), c.ref, _norm(c.v))
 
 
 def merge(claims: Sequence[Claim]) -> tuple[list[Claim], list[dict[str, Any]]]:
@@ -324,17 +337,13 @@ def merge(claims: Sequence[Claim]) -> tuple[list[Claim], list[dict[str, Any]]]:
 # -- the extractor -------------------------------------------------------------------
 
 
-class ExtractError(RuntimeError):
-    pass
-
-
-class Extractor:
+class Extractor(JsonLLM):
     """Two-pass claim extraction with the same backends as wicer's compiler."""
+
+    system = EXTRACT_SYSTEM
 
     def __init__(self, cfg: CompilerConfig, backend: str | None = None,
                  openrouter_client: Any = None):
-        self.model = cfg.model
-        self.backend = backend or os.environ.get("WICER_COMPILER_BACKEND", "anthropic")
         # Effort sets how exhaustive the ledger is.  Measured on two
         # local_economy documents with Haiku 5.5: low extracted 55 claims
         # covering 36% of the text -- the whole ledger rendered to 36% of the
@@ -343,99 +352,50 @@ class Extractor:
         # 1.  Only high gives the ledger section 3.3 assumes, at ~$1 a topic.
         # High spent ~25K output tokens on a 1,000-word document, so the cap
         # leaves room for longer ones.
-        self.effort = os.environ.get("TACT_EXTRACT_EFFORT", "high")
-        self.max_tokens = int(os.environ.get("TACT_EXTRACT_MAX_TOKENS", "64000"))
-        self._or_client = openrouter_client
-        self._client = None
-        self.n_calls = 0
-        self.input_tokens = 0
-        self.output_tokens = 0
-        self.measured_cost_usd = 0.0
-
-    @property
-    def openrouter(self):
-        if self._or_client is None:
-            from wicer_core.openrouter import OpenRouterClient
-
-            self._or_client = OpenRouterClient()
-        return self._or_client
-
-    @property
-    def client(self):
-        if self._client is None:
-            import anthropic
-
-            self._client = anthropic.Anthropic()
-        return self._client
+        super().__init__(cfg.model, env="TACT_EXTRACT", effort="high", max_tokens=64_000,
+                         backend=backend, openrouter_client=openrouter_client)
 
     def extract(self, doc: Document) -> dict[str, Any]:
         """{"inventory": [...], "raw": {"claims": [...]}} for one document."""
         if self.backend == "fake":
             self.n_calls += 2
             return {**_fake_extract(doc), "extracted_with": "fake"}
-        inv = self._json((PROMPT_DIR / "inventory.md").read_text().format(document=doc.text))
+        inv = self.ask((PROMPT_DIR / "inventory.md").read_text().format(document=doc.text))
         entities = [str(e) for e in inv.get("entities", []) if str(e).strip()]
-        raw = self._json((PROMPT_DIR / "claims.md").read_text().format(
+        raw = self.ask((PROMPT_DIR / "claims.md").read_text().format(
             document=doc.text, entities="\n".join(f"- {e}" for e in entities)))
-        return {"inventory": entities, "raw": raw,
-                "extracted_with": f"{self.model} effort={self.effort}"}
+        return {"inventory": entities, "raw": raw, "extracted_with": self.provenance}
 
-    def _json(self, prompt: str) -> dict[str, Any]:
-        last: Exception | None = None
-        for _ in range(2):
-            text = self._call(prompt)
-            try:
-                return _parse_json(text)
-            except ValueError as e:
-                last = e
-        raise ExtractError(f"{self.model} returned no parseable JSON: {last}")
+    def extract_targeted(self, doc: Document, probe: Any, entities: Sequence[str]
+                         ) -> dict[str, Any]:
+        """Claims for a probe whose passage no ledger claim covers (MISS-EXTRACT)."""
+        if self.backend == "fake":
+            self.n_calls += 1
+            return {"claims": [
+                {"id": f"c{i + 1}", "entity": entities[0] if entities else "(document)",
+                 "relation": "states", "value": v, "verbatim": [v]}
+                for i, v in enumerate(probe.verbatim)]}
+        return self.ask((PROMPT_DIR / "targeted.md").read_text().format(
+            question=probe.question, passages=_quote(probe.verbatim),
+            entities="\n".join(f"- {e}" for e in entities), document=doc.text))
 
-    def _call(self, prompt: str) -> str:
-        self.n_calls += 1
-        if self.backend == "openrouter":
-            from wicer_core.config import resolve_openrouter_model
-
-            reply = self.openrouter.chat(
-                model=resolve_openrouter_model(self.model), system=EXTRACT_SYSTEM,
-                user=prompt, max_tokens=self.max_tokens, effort=self.effort,
-            )
-            self.input_tokens += reply.input_tokens
-            self.output_tokens += reply.output_tokens
-            self.measured_cost_usd += reply.cost_usd
-            text, finish = reply.text, reply.finish_reason
-        else:
-            with self.client.messages.stream(
-                model=self.model, max_tokens=self.max_tokens, system=EXTRACT_SYSTEM,
-                thinking={"type": "adaptive"}, output_config={"effort": self.effort},
-                messages=[{"role": "user", "content": prompt}],
-            ) as stream:
-                msg = stream.get_final_message()
-            self.input_tokens += msg.usage.input_tokens
-            self.output_tokens += msg.usage.output_tokens
-            text = "".join(b.text for b in msg.content if b.type == "text")
-            finish = msg.stop_reason or ""
-        if finish in _TRUNCATED:
-            raise ExtractError(
-                f"{self.model} hit max_tokens={self.max_tokens} mid-extraction; raise "
-                f"TACT_EXTRACT_MAX_TOKENS or lower TACT_EXTRACT_EFFORT ({self.effort!r})"
-            )
-        return text
-
-    def usage_summary(self) -> dict[str, Any]:
-        return {"extract_model": self.model, "backend": self.backend, "effort": self.effort,
-                "calls": self.n_calls, "input_tokens": self.input_tokens,
-                "output_tokens": self.output_tokens,
-                "measured_cost_usd": round(self.measured_cost_usd, 6)}
+    def extract_relation(self, doc: Document, probe: Any, claims: Sequence[Claim]
+                         ) -> dict[str, Any]:
+        """Relation claims joining a probe's realized claims (MISS-RELATION)."""
+        if self.backend == "fake":
+            self.n_calls += 1
+            target = claims[1] if len(claims) > 1 else claims[0]
+            return {"claims": [{"id": "c1", "entity": claims[0].e, "relation": "results_in",
+                                "value_ref": target.id, "verbatim": list(probe.verbatim)}]}
+        listed = "\n".join(f"- {c.id}: {c.e} — {c.r.replace('_', ' ')}: "
+                           f"{' … '.join(c.verbatim) if c.ref else c.v}" for c in claims)
+        return self.ask((PROMPT_DIR / "relation.md").read_text().format(
+            question=probe.question, passages=_quote(probe.verbatim), claims=listed,
+            document=doc.text))
 
 
-def _parse_json(text: str) -> dict[str, Any]:
-    start, end = text.find("{"), text.rfind("}")
-    if start < 0 or end <= start:
-        raise ValueError("no JSON object in the reply")
-    value = json.loads(text[start:end + 1])
-    if not isinstance(value, dict):
-        raise ValueError("reply is not a JSON object")
-    return value
+def _quote(pieces: Sequence[str]) -> str:
+    return "\n".join(f"> {p}" for p in pieces)
 
 
 def _fake_extract(doc: Document) -> dict[str, Any]:

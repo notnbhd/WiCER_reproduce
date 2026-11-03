@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TACT milestone A: the iteration-0 arm and the truncation baseline.
+"""TACT: ledger, typed wikis, self-generated probes, and the contract loop.
 
     python -m tact.run extract  --topic local_economy           # API: two calls per document
     python -m tact.run inspect  --topic local_economy           # free: ceiling, budget fit, shape
@@ -8,6 +8,12 @@
     python -m tact.run truncate --topic local_economy
     python -m tact.run score    --topic local_economy --condition tact_iter0
     python -m tact.run compare  --topic local_economy
+
+Milestone B (the contract loop) adds:
+
+    python -m tact.run probes   --topic local_economy           # API: one call per document
+    python -m tact.run loop     --topic local_economy           # reader + judge, from tact_iter0
+    python -m tact.run score    --topic local_economy --condition tact_loop
 
 ``render``, ``truncate`` and ``score`` need the reader's llama-server: the
 budget is counted in its tokens, as wicer's compile counts it.  ``inspect``
@@ -46,7 +52,7 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     cmds = {name: sub.add_parser(name) for name in
-            ("extract", "inspect", "render", "truncate", "score", "compare")}
+            ("extract", "inspect", "render", "truncate", "probes", "loop", "score", "compare")}
     for p in cmds.values():
         add_profile_arg(p)
         p.add_argument("--topic", action="append", required=True, help="topic slug (repeatable)")
@@ -60,6 +66,13 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     cmds["render"].add_argument("--rho", type=float, default=0.10,
                                 help="headroom held back for pins (default: %(default)s)")
     cmds["truncate"].add_argument("--name", default="truncate")
+    cmds["probes"].add_argument("--m", type=int, default=5, help="probes per document")
+    cmds["probes"].add_argument("--workers", type=int, default=8)
+    cmds["loop"].add_argument("--start", default="tact_iter0",
+                              help="iteration-0 wiki to refine (default: %(default)s)")
+    cmds["loop"].add_argument("--max-iter", type=int, default=None)
+    cmds["loop"].add_argument("--closure", choices=("paragraph", "none"), default="paragraph",
+                              help="what pinning a probe closes over (default: %(default)s)")
     cmds["score"].add_argument("--condition", required=True,
                                help="wiki name; also the condition its answers are filed under")
     cmds["score"].add_argument("--resume", action="store_true")
@@ -117,6 +130,37 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
             print(f"{topic:<26} {args.name}: {m['actual_tokens']:,}/{m['budget_tokens']:,} tokens "
                   f"(ratio {m['actual_ratio_tokens']:.1%})")
 
+    elif args.cmd == "probes":
+        from tact.probes import ProbeWriter, build_probes
+
+        writer = ProbeWriter(profile.compiler)
+        for topic in args.topic:
+            _, m = build_probes(profile, topic, writer, m=args.m, workers=args.workers)
+            print(f"{topic:<26} probes={m['n_probes']} rejected={m['rejection_rate']:.1%} "
+                  f"relational={m['n_relational']} quarters={m['position_quartiles']} "
+                  f"kinds={m['kinds']}")
+        print(f"\nprobe writer usage: {writer.usage_summary()}")
+
+    elif args.cmd == "loop":
+        from tact.ledger import Extractor
+        from tact.loop import run_loop
+        from wicer_core.judge import Judge
+
+        reader = _reader(profile)
+        judge, extractor = Judge(profile.judge), Extractor(profile.compiler)
+        for topic in args.topic:
+            res = run_loop(profile, topic, reader=reader, judge=judge, extractor=extractor,
+                           start=args.start, max_iter=args.max_iter, closure=args.closure)
+            for r in res.iterations:
+                imp = f"{r['improvement']:+.1%}" if r["improvement"] is not None else "   --"
+                print(f"  iter {r['iteration']}  probe_mean={r['probe_mean']:.2f} "
+                      f"failures={r['n_failures']:>3} {r['diagnoses']} "
+                      f"+{r['rows_added']}/-{r['rows_evicted']} rows "
+                      f"refused={r.get('pins_refused', 0)} "
+                      f"headroom={r['headroom_tokens']:,} imp={imp}")
+            print(f"{topic:<26} final={res.final_wiki} stop={res.stop_reason} "
+                  f"pinned={len(res.pinned)} claims in {len(res.pinned_docs)} documents")
+
     elif args.cmd == "score":
         from benchmark.evaluate import evaluate_condition
         from benchmark.run_benchmark import build_wiki_context, run_condition
@@ -137,11 +181,14 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
                   f"(resumed {s.get('n_resumed', 0)})")
 
     elif args.cmd == "compare":
-        from tact.compare import BASELINE_DIR, compare_topic, render_table
+        from tact.compare import (
+            BASELINE_DIR, compare_topic, displacement, render_displacement, render_table,
+        )
 
         for topic in args.topic:
-            print(render_table(topic, compare_topic(profile, topic,
-                                                    args.baseline_dir or BASELINE_DIR)))
+            base = args.baseline_dir or BASELINE_DIR
+            print(render_table(topic, compare_topic(profile, topic, base)))
+            print(render_displacement(topic, displacement(profile, topic, base)))
     return 0
 
 

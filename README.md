@@ -64,6 +64,18 @@ corpus than the box built. Extract on the laptop and copy
 `WICER_RESULTS_DIR=result-tact scripts/pull_results.sh host` and run `compare`
 locally, where `result-sweep/` lives.
 
+**Milestone B** (the contract loop): 5 self-generated probes per document,
+diagnosed mechanically (MISS-EXTRACT / RENDER / RELATION / READ), repaired by
+pinning the answer claims and their paragraph, append-only into the headroom
+of `tact_iter0`, evicting unpinned rows only past B. Returns the last
+evaluated wiki as `tact_loop`; `compare` adds the held-out change split by
+pinned and unpinned documents, for TACT and for the sweep's WiCER.
+
+```bash
+python -m tact.run probes --topic $T                        # ~$0.10/topic; laptop is fine
+bash scripts/run_tact_b.sh $T                               # on the box: loop, score tact_loop
+```
+
 ## Quick start (no GPU, no API key, no downloads)
 
 ```bash
