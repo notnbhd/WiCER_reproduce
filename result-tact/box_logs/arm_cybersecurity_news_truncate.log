@@ -1,0 +1,15 @@
+
+[1m== ledger and corpus[0m  (02:15:27)
+ledger: 4503 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha 5fa1b9f9cc5c -- matches
+
+[1m== reader[0m  (02:15:27)
+
+[1m== starting llama-server[0m  (02:15:27)
+profile=paper  model=models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf  n_ctx=98304  kv=q8_0/q8_0  ngl=99
+llama-server --model models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf --ctx-size 98304 --cache-type-k q8_0 --cache-type-v q8_0 --n-gpu-layers 99 --host 127.0.0.1 --port 8080 --parallel 1 --cont-batching --metrics --flash-attn on
+started pid=10027  log=/root/WiCER/results/server/llama-server-paper.log
+waiting for /health... ok
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+cybersecurity_news         truncate: 44,187/45,374 tokens (ratio 48.7%)
+cybersecurity_news         truncate: scored 400 (resumed 0)

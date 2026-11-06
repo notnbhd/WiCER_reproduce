@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What percentage of Globex Innovations' workforce continues to work remotely, at least part-time?",
+    "answer": "75%",
+    "verbatim": [
+     "Companies like Globex Innovations, spearheaded by CEO Emily Martens, have reported that 75% of their workforce continues to work remotely, at least part-time."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did the investment firm TechFuture Capital announce its investment in smart work hubs?",
+    "answer": "December 12, 2023",
+    "verbatim": [
+     "On December 12, 2023, the investment firm TechFuture Capital announced a $500 million investment into creating smart work hubs in suburban and rural areas"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why is UrbanWorks Properties redesigning its office spaces, according to asset manager David Liu?",
+    "answer": "To be more flexible, with an emphasis on shared workspaces that can be rented for short-term projects or meetings, offering a hub for interaction rather than daily usage.",
+    "verbatim": [
+     "We are actively redesigning our office spaces to be more flexible, with an emphasis on shared workspaces that can be rented for short-term projects or meetings, offering a hub for interaction rather than daily usage."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Which sociologist commented on the next generation's choice of where and how to live and work?",
+    "answer": "Dr. Amelia Rivera",
+    "verbatim": [
+     "As noted by sociologist Dr. Amelia Rivera in a webinar on February 20, 2024, \"We're witnessing a historic reconfiguration of where and how the next generation is choosing to live and work.\""
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "Where did Travis and Associates break ground for a new 'telecommuter town'?",
+    "answer": "Outside of Charlotte, North Carolina",
+    "verbatim": [
+     "Travis and Associates, a mid-sized development company, broke ground on March 10, 2024, for a new \u2018telecommuter town\u2019 outside of Charlotte, North Carolina, exemplifying this proactive approach."
+    ],
+    "kind": "place",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

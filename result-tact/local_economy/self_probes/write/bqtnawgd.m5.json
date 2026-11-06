@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What name was given to the algorithmic system unveiled by the consortium of local retailers?",
+    "answer": "ShopSphere",
+    "verbatim": [
+     "dubbed 'ShopSphere.'"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did James Keenan publish his report on how personalization algorithms could infringe on personal privacy?",
+    "answer": "December 7, 2023",
+    "verbatim": [
+     "On December 7, 2023, Keenan published a report detailing how these personalization algorithms could infringe on personal privacy."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Who conducted the study released on February 15, 2024, that highlighted the filter bubble effect?",
+    "answer": "Dr. Lisa Cheng, a sociologist",
+    "verbatim": [
+     "Highlighted through a study released on February 15, 2024, by Dr. Lisa Cheng, a sociologist, these bubbles ensure that consumers are continually exposed to a narrow range of products."
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "By what percentage did sales increase after Anita Desai implemented her recommendation system?",
+    "answer": "15%",
+    "verbatim": [
+     "Desai implemented a recommendation system in June 2024, which contributed to a 15% increase in sales."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What did consumer advocate Laura Peterson stress at the April 5, 2024 town hall?",
+    "answer": "The need for legislation that obliges companies to disclose what data they collect and how it's used.",
+    "verbatim": [
+     "stressed the need for legislation that obliges companies to disclose what data they collect and how it's used."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

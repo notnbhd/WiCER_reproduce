@@ -1,0 +1,596 @@
+{
+ "inventory": [
+  "Centurial BankCorp",
+  "Elisabeth Greenfield",
+  "Sandra Mart\u00ednez",
+  "Frank Sullivan",
+  "a major Wall Street firm",
+  "Jason Thompson",
+  "European Central Bank",
+  "Linda Hughes",
+  "International Finance Security Board",
+  "Michael Zhang",
+  "Fiscal Trust",
+  "Peoples Savings & Loan",
+  "Angela Dupont",
+  "Robert Nkosi",
+  "Quantum Financials",
+  "Kimberly Franco",
+  "James Carter",
+  "Financial Services Information Sharing and Analysis Center (FS-ISAC)",
+  "GDPR",
+  "SOX",
+  "CCPA",
+  "incident response plan",
+  "incident response team",
+  "artificial intelligence (AI)",
+  "machine learning",
+  "behavioral analytics"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Centurial BankCorp",
+    "relation": "breach_resulted_in",
+    "value": "theft of sensitive data on over two million customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which resulted in the theft of sensitive data on over two million customers"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Elisabeth Greenfield",
+    "relation": "holds_position",
+    "value": "Chief Information Security Officer (CISO) at Centurial BankCorp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elisabeth Greenfield, Chief Information Security Officer (CISO) at Centurial BankCorp"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Elisabeth Greenfield",
+    "relation": "stated",
+    "value": "The rapid rise in cyber threats demands a robust and prompt incident response framework",
+    "time": null,
+    "speaker": "Elisabeth Greenfield",
+    "verbatim": [
+     "The rapid rise in cyber threats demands a robust and prompt incident response framework"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Elisabeth Greenfield",
+    "relation": "stated",
+    "value": "It is no longer a question of 'if' but 'when' a cyber incident will occur.",
+    "time": null,
+    "speaker": "Elisabeth Greenfield",
+    "verbatim": [
+     "It is no longer a question of 'if' but 'when' a cyber incident will occur."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sandra Mart\u00ednez",
+    "relation": "described_as",
+    "value": "a globally recognized cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Mart\u00ednez, a globally recognized cybersecurity expert"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sandra Mart\u00ednez",
+    "relation": "stated",
+    "value": "You need a tailored incident response plan that takes into account not only your security infrastructure but also the specific regulatory and customer trust concerns inherent in the financial industry.",
+    "time": null,
+    "speaker": "Sandra Mart\u00ednez",
+    "verbatim": [
+     "You need a tailored incident response plan that takes into account not only your security infrastructure but also the specific regulatory and customer trust concerns inherent in the financial industry."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "incident response plan",
+    "relation": "must_address",
+    "value": "identification, protection, detection, response, and recovery measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These plans must address identification, protection, detection, response, and recovery measures."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "incident response plan",
+    "relation": "should_go_beyond",
+    "value": "theoretical frameworks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "develop a comprehensive incident response plan that goes beyond theoretical frameworks"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "incident response plan",
+    "relation": "includes_component",
+    "value": "establishing an incident response team with clear roles and responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of such a plan include establishing an incident response team with clear roles and responsibilities"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "incident response plan",
+    "relation": "includes_component",
+    "value": "developing communication protocols for internal and external stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developing communication protocols for internal and external stakeholders"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "incident response plan",
+    "relation": "includes_component",
+    "value": "ongoing monitoring to detect and mitigate threats swiftly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ongoing monitoring to detect and mitigate threats swiftly"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "incident response team",
+    "relation": "must_include",
+    "value": "individuals with a diverse set of skills, ranging from technical expertise to crisis management and communication skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The team at a financial institution must entail individuals with a diverse set of skills, ranging from technical expertise to crisis management and communication skills."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "incident response team",
+    "relation": "foundation_of",
+    "value": "a formidable incident response strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The foundation of a formidable incident response strategy is its team."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Frank Sullivan",
+    "relation": "holds_position",
+    "value": "incident response coordinator for a major Wall Street firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to Frank Sullivan, an incident response coordinator for a major Wall Street firm"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "a major Wall Street firm",
+    "relation": "employs",
+    "value": "Frank Sullivan as incident response coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frank Sullivan, an incident response coordinator for a major Wall Street firm"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Frank Sullivan",
+    "relation": "stated",
+    "value": "Each team member should understand their role inside and out.",
+    "time": null,
+    "speaker": "Frank Sullivan",
+    "verbatim": [
+     "Each team member should understand their role inside and out."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Frank Sullivan",
+    "relation": "stated",
+    "value": "It ensures a seamless reaction to cyber incidents with minimized downtime and reduced impact on customers.",
+    "time": null,
+    "speaker": "Frank Sullivan",
+    "verbatim": [
+     "It ensures a seamless reaction to cyber incidents with minimized downtime and reduced impact on customers."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jason Thompson",
+    "relation": "holds_position",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant Jason Thompson, who has facilitated numerous simulations for financial entities"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jason Thompson",
+    "relation": "facilitated",
+    "value": "numerous simulations for financial entities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant Jason Thompson, who has facilitated numerous simulations for financial entities"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jason Thompson",
+    "relation": "stated",
+    "value": "You can't afford to be complacent about cybersecurity",
+    "time": null,
+    "speaker": "Jason Thompson",
+    "verbatim": [
+     "You can't afford to be complacent about cybersecurity"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "European Central Bank",
+    "relation": "hosted",
+    "value": "a sector-wide simulation",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the European Central Bank hosted a sector-wide simulation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "European Central Bank",
+    "relation": "revealed",
+    "value": "vulnerabilities in incident response strategies across the continent",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "revealing vulnerabilities in incident response strategies across the continent"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "European Central Bank",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosted a sector-wide simulation, revealing vulnerabilities in incident response strategies across the continent"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "European Central Bank",
+    "relation": "exercise_highlighted",
+    "value": "the importance of real-world testing to prepare financial institutions for the inevitable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The exercise highlighted the importance of real-world testing to prepare financial institutions for the inevitable."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Linda Hughes",
+    "relation": "holds_position",
+    "value": "Director of Cybersecurity at the International Finance Security Board",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Linda Hughes, Director of Cybersecurity at the International Finance Security Board"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Linda Hughes",
+    "relation": "stated",
+    "value": "A static incident response plan is as good as no plan",
+    "time": null,
+    "speaker": "Linda Hughes",
+    "verbatim": [
+     "A static incident response plan is as good as no plan"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "incident response plan",
+    "relation": "should_be_updated_to_reflect",
+    "value": "new threats, lessons learned from past incidents, and changes in technology or business processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions need to regularly update their plans to reflect new threats, lessons learned from past incidents, and changes in technology or business processes."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "incident response plan",
+    "relation": "must_align_with",
+    "value": "global and local regulations such as GDPR, SOX, and CCPA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions must align their incident response plans with global and local regulations such as GDPR, SOX, and CCPA."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "GDPR",
+    "relation": "is_regulation_to_align_with",
+    "value": "global and local regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "global and local regulations such as GDPR, SOX, and CCPA"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "SOX",
+    "relation": "is_regulation_to_align_with",
+    "value": "global and local regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "global and local regulations such as GDPR, SOX, and CCPA"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "CCPA",
+    "relation": "is_regulation_to_align_with",
+    "value": "global and local regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "global and local regulations such as GDPR, SOX, and CCPA"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Zhang",
+    "relation": "holds_position",
+    "value": "Compliance officer of Fiscal Trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance officer Michael Zhang of Fiscal Trust highlights"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Fiscal Trust",
+    "relation": "employs",
+    "value": "Michael Zhang as compliance officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance officer Michael Zhang of Fiscal Trust highlights"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Michael Zhang",
+    "relation": "stated",
+    "value": "Regulatory requirements must be embedded into the fabric of your incident response plan, ensuring a lawful and coordinated response to incidents.",
+    "time": null,
+    "speaker": "Michael Zhang",
+    "verbatim": [
+     "Regulatory requirements must be embedded into the fabric of your incident response plan, ensuring a lawful and coordinated response to incidents."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Peoples Savings & Loan",
+    "relation": "retained_customer_loyalty",
+    "value": "customer loyalty",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when Peoples Savings & Loan managed to retain customer loyalty through proactive communication"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Peoples Savings & Loan",
+    "relation": "used",
+    "value": "proactive communication",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "retain customer loyalty through proactive communication"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Peoples Savings & Loan",
+    "relation": "suffered_cyber_attack",
+    "value": "a cyber attack compromised their data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even after a cyber attack compromised their data"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Peoples Savings & Loan",
+    "relation": "mechanism_of",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managed to retain customer loyalty through proactive communication"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Angela Dupont",
+    "relation": "holds_position",
+    "value": "Chief Customer Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Customer Officer Angela Dupont suggests"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Angela Dupont",
+    "relation": "stated",
+    "value": "Timely notification and clear guidance on protective measures are critical components in maintaining customer confidence.",
+    "time": null,
+    "speaker": "Angela Dupont",
+    "verbatim": [
+     "Timely notification and clear guidance on protective measures are critical components in maintaining customer confidence."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "artificial intelligence (AI)",
+    "relation": "used_for",
+    "value": "better threat detection and prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artificial intelligence (AI), machine learning, and behavioral analytics for better threat detection and prevention"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "machine learning",
+    "relation": "used_for",
+    "value": "better threat detection and prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artificial intelligence (AI), machine learning, and behavioral analytics for better threat detection and prevention"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "behavioral analytics",
+    "relation": "used_for",
+    "value": "better threat detection and prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artificial intelligence (AI), machine learning, and behavioral analytics for better threat detection and prevention"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Robert Nkosi",
+    "relation": "holds_position",
+    "value": "IT Director of Quantum Financials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT Director Robert Nkosi of Quantum Financials advises"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Quantum Financials",
+    "relation": "employs",
+    "value": "Robert Nkosi as IT Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT Director Robert Nkosi of Quantum Financials advises"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Robert Nkosi",
+    "relation": "stated",
+    "value": "By integrating advanced technologies into your cyber defense strategy, you can stay several steps ahead of cybercriminals.",
+    "time": null,
+    "speaker": "Robert Nkosi",
+    "verbatim": [
+     "By integrating advanced technologies into your cyber defense strategy, you can stay several steps ahead of cybercriminals."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Kimberly Franco",
+    "relation": "holds_position",
+    "value": "cybersecurity training specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kimberly Franco, a cybersecurity training specialist, recommends"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Kimberly Franco",
+    "relation": "recommended",
+    "value": "ongoing awareness sessions, simulations, and Phishing tests to keep the workforce vigilant and prepared",
+    "time": null,
+    "speaker": "Kimberly Franco",
+    "verbatim": [
+     "ongoing awareness sessions, simulations, and Phishing tests to keep the workforce vigilant and prepared."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "James Carter",
+    "relation": "holds_position",
+    "value": "liaison officer at the Financial Services Information Sharing and Analysis Center (FS-ISAC)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Carter, liaison officer at the Financial Services Information Sharing and Analysis Center (FS-ISAC)"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "James Carter",
+    "relation": "stated",
+    "value": "Information sharing about threats, combined with collaborative response efforts, is a force multiplier in combating cybercrime",
+    "time": null,
+    "speaker": "James Carter",
+    "verbatim": [
+     "Information sharing about threats, combined with collaborative response efforts, is a force multiplier in combating cybercrime"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Financial Services Information Sharing and Analysis Center (FS-ISAC)",
+    "relation": "has_liaison_officer",
+    "value": "James Carter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Carter, liaison officer at the Financial Services Information Sharing and Analysis Center (FS-ISAC)"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

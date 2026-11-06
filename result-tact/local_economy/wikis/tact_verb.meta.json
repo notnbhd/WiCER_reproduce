@@ -1,0 +1,31 @@
+{
+  "method": "tact",
+  "style": "verbatim",
+  "ratio": 0.5,
+  "rho": 0.1,
+  "source_tokens": 91626,
+  "budget_tokens": 45813,
+  "target_tokens": 41232,
+  "actual_tokens": 41226,
+  "actual_ratio_tokens": 0.44993779058345884,
+  "n_claims": 5178,
+  "n_realized": 2993,
+  "coverage": 0.5780224024719969,
+  "n_documents_rendered": 80,
+  "n_sentences": 1356,
+  "routing": {},
+  "topic": "local_economy",
+  "name": "tact_verb",
+  "source_words": 71136,
+  "actual_words": 31769,
+  "actual_ratio_words": 0.4465952541610436,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 5178,
+    "rejection_rate": 0.0,
+    "n_multispan": 44,
+    "n_relational": 239,
+    "n_contradictions": 29,
+    "entity_collision_rate": 0.0006169031462060457
+  }
+}

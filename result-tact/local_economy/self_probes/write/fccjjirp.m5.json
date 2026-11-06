@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What did Jane Dough, CEO of EcoMasquerade Inc., say sells?",
+    "answer": "Products that are green or say 'natural' on the package sell.",
+    "verbatim": [
+     "If it\u2019s green or says 'natural' on the package, it sells."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "Where was the infinity-recyclable water bottle introduced?",
+    "answer": "At the Lucrative Innovations Conference, on November 15, 2023.",
+    "verbatim": [
+     "introduced at the Lucrative Innovations Conference on November 15, 2023"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "What did Sir Cashington say green is?",
+    "answer": "The new gold.",
+    "verbatim": [
+     "Green is the new gold!"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "How much does the recycled bottle dress cost?",
+    "answer": "$200.",
+    "verbatim": [
+     "the $200 recycled bottle dress"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did circular economy skeptic Jack Naysayer argue?",
+    "answer": "April 17, 2024.",
+    "verbatim": [
+     "critics\u2014like renowned circular economy skeptic, Jack Naysayer\u2014might argue on April 17, 2024"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

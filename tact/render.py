@@ -308,6 +308,191 @@ def fill(
     return RenderResult(text=text, sidecar=sidecar, realized=realized, meta=meta)
 
 
+# -- verbatim style: the source sentences behind the selected claims ---------------------
+#
+# The typed rows lose the connective tissue a question is phrased in ("revamped
+# its POS systems", "voiced concerns about ...") and leave anaphora dangling
+# ("these changes").  This style keeps the same selection -- per-document share,
+# entity round-robin -- but realizes a claim as the whole source sentences its
+# spans touch, deduplicated and in source order, so the claims only choose WHAT
+# survives and the text the reader sees is the document's own.
+
+_SENT_END = re.compile(r"(?<=[.!?])[\"')\]]*\s+|\n\s*\n")
+
+
+def sentences(text: str) -> list[tuple[int, int]]:
+    """(start, end) of each sentence; blank lines also end one."""
+    out, start = [], 0
+    for m in _SENT_END.finditer(text):
+        if text[start:m.start()].strip():
+            out.append((start, m.start()))
+        start = m.end()
+    if text[start:].strip():
+        out.append((start, len(text)))
+    return out
+
+
+def _paragraph_of(text: str, sents: list[tuple[int, int]]) -> list[int]:
+    """The paragraph (blank-line separated) each sentence starts in."""
+    breaks = [m.end() for m in re.finditer(r"\n\s*\n", text)]
+    return [sum(b <= a for b in breaks) for a, _ in sents]
+
+
+def _covering(spans: Sequence[Sequence[int]], sents: list[tuple[int, int]]) -> tuple[int, ...]:
+    return tuple(i for i, (a, b) in enumerate(sents)
+                 if any(s < b and e > a for s, e in spans))
+
+
+def layout_verbatim(
+    chosen: dict[str, set[int]],
+    sents: dict[str, list[tuple[int, int]]],
+    documents: Sequence[Document],
+    titles: dict[str, str],
+    owners: dict[tuple[str, int], list[str]],
+) -> tuple[str, list[dict[str, Any]]]:
+    lines: list[str] = []
+    sidecar: list[dict[str, Any]] = []
+    for d in documents:
+        idx = sorted(chosen.get(d.document_id, ()))
+        if not idx:
+            continue
+        if lines:
+            lines.append("")
+        lines += [f"## {titles.get(d.document_id) or d.document_id}", ""]
+        runs: list[list[int]] = []
+        for i in idx:
+            if runs and i == runs[-1][-1] + 1:
+                runs[-1].append(i)
+            else:
+                runs.append([i])
+        for k, run in enumerate(runs):
+            text = " ".join(d.text[slice(*sents[d.document_id][i])].strip() for i in run)
+            claims = sorted({c for i in run for c in owners.get((d.document_id, i), ())})
+            sidecar.append({"doc": d.document_id, "block": "text", "row": k,
+                            "line": len(lines), "claims": claims})
+            lines.append(text)
+    return "\n".join(lines) + ("\n" if lines else ""), sidecar
+
+
+def fill_verbatim(
+    claims: Sequence[Claim],
+    documents: Sequence[Document],
+    *,
+    ratio: float,
+    rho: float,
+    count_tokens: Callable[[str], int],
+    select: str = "roundrobin",
+) -> RenderResult:
+    titles = headings(documents)
+    b = budget_shares(documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
+    texts = {d.document_id: d.text for d in documents}
+    sents = {d: sentences(t) for d, t in texts.items()}
+    need = {c.id: _covering(c.spans, sents[c.doc]) for c in claims}
+    owners: dict[tuple[str, int], list[str]] = {}
+    for c in claims:
+        for i in need[c.id]:
+            owners.setdefault((c.doc, i), []).append(c.id)
+
+    cache: dict[tuple[str, int], int] = {}
+
+    def sent_cost(doc: str, i: int) -> int:
+        if (doc, i) not in cache:
+            cache[(doc, i)] = count_tokens(texts[doc][slice(*sents[doc][i])].strip())
+        return cache[(doc, i)]
+
+    # A queue item is the set of sentences one unit of selection needs: a
+    # claim's covering sentences (entity round-robin), or a single sentence
+    # ranked by the claims it carries per token (density).
+    queues: dict[str, list[tuple[int, ...]]] = {d.document_id: [] for d in documents}
+    para = {d: _paragraph_of(texts[d], sents[d]) for d in texts}
+    if select in ("roundrobin", "next"):
+        by_doc: dict[str, list[Claim]] = {}
+        for c in claims:
+            by_doc.setdefault(c.doc, []).append(c)
+        for d, cs in by_doc.items():
+            items = [need[c.id] for c in round_robin(cs) if need[c.id]]
+            if select == "next":
+                # The sentence after a claim usually carries its payoff
+                # ("Kevin Sanders ... a viral post." / "On October 15, Kevin shared ...").
+                items = [item + ((item[-1] + 1,) if item[-1] + 1 < len(sents[d])
+                                 and para[d][item[-1] + 1] == para[d][item[-1]] else ())
+                         for item in items]
+            queues[d] = items
+    else:
+        for d in queues:
+            weight = Counter()
+            for (doc, i), ids in owners.items():
+                if doc == d:
+                    weight[i] = sum(1 / len(need[c]) for c in ids)
+            if select == "density":
+                units = [(i,) for i in weight]
+            else:   # paragraph: whole paragraphs, so a section heading travels with its text
+                groups: dict[int, list[int]] = {}
+                for i, p in enumerate(para[d]):
+                    groups.setdefault(p, []).append(i)
+                units = [tuple(g) for g in groups.values()]
+            value = {u: sum(weight[i] for i in u) / max(1, sum(sent_cost(d, i) for i in u))
+                     for u in units}
+            queues[d] = sorted((u for u in units if value[u] > 0), key=lambda u: (-value[u], u))
+    chosen: dict[str, set[int]] = {d: set() for d in queues}
+    used: Counter[str] = Counter()
+    order: list[tuple[str, int]] = []     # sentences in the order they were taken
+
+    def marginal(doc: str, item: tuple[int, ...]) -> int:
+        n = sum(sent_cost(doc, i) for i in item if i not in chosen[doc])
+        if n and used[doc] == 0:
+            n += count_tokens(f"## {titles.get(doc) or doc}")
+        return n
+
+    def take(doc: str, item: tuple[int, ...], n: int) -> None:
+        for i in item:
+            if i not in chosen[doc]:
+                chosen[doc].add(i)
+                order.append((doc, i))
+        used[doc] += n
+
+    for d, queue in queues.items():
+        for item in queue:
+            n = marginal(d, item)
+            if used[d] + n <= b.share.get(d, 0):
+                take(d, item, n)
+    for k in range(max((len(q) for q in queues.values()), default=0)):
+        for d, queue in queues.items():
+            if k < len(queue):
+                n = marginal(d, queue[k])
+                if n and sum(used.values()) + n <= b.target:
+                    take(d, queue[k], n)
+
+    text, sidecar = layout_verbatim(chosen, sents, documents, titles, owners)
+    actual = count_tokens(text)
+    while actual > b.target and order:
+        doc, i = order.pop()
+        chosen[doc].discard(i)
+        text, sidecar = layout_verbatim(chosen, sents, documents, titles, owners)
+        actual = count_tokens(text)
+
+    realized = {c.id for c in claims if need[c.id] and all(i in chosen[c.doc] for i in need[c.id])}
+    meta = {
+        "method": "tact",
+        "style": "verbatim",
+        "select": select,
+        "ratio": ratio,
+        "rho": rho,
+        "source_tokens": b.source_tokens,
+        "budget_tokens": b.budget,
+        "target_tokens": b.target,
+        "actual_tokens": actual,
+        "actual_ratio_tokens": compression_ratio(actual, b.source_tokens),
+        "n_claims": len(claims),
+        "n_realized": len(realized),
+        "coverage": len(realized) / len(claims) if claims else 0.0,
+        "n_documents_rendered": sum(bool(s) for s in chosen.values()),
+        "n_sentences": sum(len(s) for s in chosen.values()),
+        "routing": {},
+    }
+    return RenderResult(text=text, sidecar=sidecar, realized=realized, meta=meta)
+
+
 # -- the wiki on disk --------------------------------------------------------------------
 
 
@@ -338,6 +523,8 @@ def render_topic(
     rho: float,
     count_tokens: Callable[[str], int],
     ratio: float | None = None,
+    style: str = "typed",
+    select: str = "roundrobin",
 ) -> RenderResult:
     """Render a topic's ledger to a wiki the benchmark runner can serve."""
     ledger = load_ledger(profile, topic)
@@ -346,7 +533,11 @@ def render_topic(
     corpus = load_topic(profile, topic)
     check_corpus(ledger, corpus)
     ratio = profile.wicer.ratio if ratio is None else ratio
-    res = fill(ledger.claims, corpus.documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
+    if style == "verbatim":
+        res = fill_verbatim(ledger.claims, corpus.documents, ratio=ratio, rho=rho,
+                            count_tokens=count_tokens, select=select)
+    else:
+        res = fill(ledger.claims, corpus.documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     source_words = corpus.n_words
     actual_words = len(res.text.split())
     res.meta.update({

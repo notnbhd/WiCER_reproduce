@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did Caffeine Dreams hold its first \"Know Your Customer\" event?",
+    "answer": "November 15",
+    "verbatim": [
+     "On November 15, Caffeine Dreams held its first such event."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By how much did foot traffic increase at Turning Pages after it started its Live Storytelling Nights?",
+    "answer": "30%",
+    "verbatim": [
+     "has witnessed a staggering 30% increase in foot traffic"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What does the points system at Bark & Purr reward besides purchases?",
+    "answer": "Community involvement, such as attending local pet events or contributing to charity drives",
+    "verbatim": [
+     "a points system in September 2023 that rewards not only purchases but also community involvement, such as attending local pet events or contributing to charity drives"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "How did Sarah respond when Threads & Wishes faced shipping delays in early January 2024?",
+    "answer": "She personally contacted affected customers and offered them in-store vouchers along with sincere apologies.",
+    "verbatim": [
+     "Sarah took to personally contacting affected customers and offering them in-store vouchers along with sincere apologies."
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "Which social media platform does Lisa Patel use to showcase customer creations made with Crafty Hands products?",
+    "answer": "Instagram",
+    "verbatim": [
+     "leverages Instagram to showcase customer creations made with her products"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

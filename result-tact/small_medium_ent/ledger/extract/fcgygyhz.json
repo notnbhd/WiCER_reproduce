@@ -1,0 +1,854 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises",
+  "Millennials and Gen Z",
+  "TrendScope",
+  "John Dough",
+  "Dough Innovations",
+  "eMarket Solutions",
+  "Emily Stone",
+  "Wares of the City",
+  "Green Bites",
+  "Lara Greene",
+  "Max Health",
+  "MiniPack Solutions",
+  "Craft Beer Co.",
+  "Greg Harrison",
+  "Hometown Heroes",
+  "Book a Buddy",
+  "Lisa Frank",
+  "Ravi Patel",
+  "Patel's Groceries",
+  "TechHome Electronics",
+  "the pandemic",
+  "e-commerce",
+  "mobile shopping",
+  "microinfluencers",
+  "hyper-local marketing",
+  "sustainable practices",
+  "biodegradable packaging options",
+  "AI-based customer service",
+  "virtual consultations",
+  "smart inventory system"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small and Medium Enterprises",
+    "relation": "recognized_as",
+    "value": "the backbone of local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have long been recognized as the backbone of local economies"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Small and Medium Enterprises",
+    "relation": "must_pivot",
+    "value": "with agility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must pivot with agility to address these evolving trends and preferences."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small and Medium Enterprises",
+    "relation": "adaptation_is",
+    "value": "a necessity for SME survival and prosperity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not just a strategic advantage, but a necessity for SME survival and prosperity"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Millennials and Gen Z",
+    "relation": "described_as",
+    "value": "prominent consumer groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Millennials and Gen Z have come to the forefront as prominent consumer groups"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Millennials and Gen Z",
+    "relation": "brings",
+    "value": "a distinct set of values and expectations to the marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each bringing a distinct set of values and expectations to the marketplace"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "TrendScope",
+    "relation": "released_study",
+    "value": "a study",
+    "time": "October 15th",
+    "speaker": null,
+    "verbatim": [
+     "According to a study released on October 15th by market research firm TrendScope"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Millennials and Gen Z",
+    "relation": "prioritize",
+    "value": "sustainability, personalized experiences, and convenience",
+    "time": null,
+    "speaker": "TrendScope",
+    "verbatim": [
+     "these younger consumers prioritize sustainability, personalized experiences, and convenience"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "John Dough",
+    "relation": "ceo_of",
+    "value": "Dough Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Dough, CEO of Dough Innovations, shared on November 2nd"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "John Dough",
+    "relation": "stated",
+    "value": "It\u2019s about listening to what consumers are voicing and acting on it.",
+    "time": "November 2nd",
+    "speaker": "John Dough",
+    "verbatim": [
+     "It\u2019s about listening to what consumers are voicing and acting on it."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dough Innovations",
+    "relation": "revamped_product_lines_to_include",
+    "value": "eco-friendly materials",
+    "time": null,
+    "speaker": "John Dough",
+    "verbatim": [
+     "we've revamped our product lines to include eco-friendly materials"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dough Innovations",
+    "relation": "invested_in",
+    "value": "AI-based customer service",
+    "time": null,
+    "speaker": "John Dough",
+    "verbatim": [
+     "invested in AI-based customer service to provide tailored experiences"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "AI-based customer service",
+    "relation": "purpose_is",
+    "value": "to provide tailored experiences",
+    "time": null,
+    "speaker": "John Dough",
+    "verbatim": [
+     "invested in AI-based customer service to provide tailored experiences"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dough Innovations",
+    "relation": "in_order_to",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": "John Dough",
+    "verbatim": [
+     "invested in AI-based customer service to provide tailored experiences"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "the pandemic",
+    "relation": "accelerated",
+    "value": "the shift to digital platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The shift to digital platforms accelerated when the pandemic struck"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "mobile shopping",
+    "relation": "continues_to_evolve_with",
+    "value": "increased mobile shopping",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to evolve with increased mobile shopping"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "eMarket Solutions",
+    "relation": "conducted_survey",
+    "value": "a survey",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "A survey conducted by eMarket Solutions in December 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "eMarket Solutions",
+    "relation": "survey_finding",
+    "value": "80% of local consumers now prefer shopping online at least part of the time",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "showed that 80% of local consumers now prefer shopping online at least part of the time"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Small and Medium Enterprises",
+    "relation": "traditionally_reliant_on",
+    "value": "in-person interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs, traditionally reliant on in-person interactions"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Small and Medium Enterprises",
+    "relation": "rethink_sales_strategies_to_include",
+    "value": "e-commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have had to rethink their sales strategies to include e-commerce"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Emily Stone",
+    "relation": "boutique_owner_of",
+    "value": "Wares of the City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local boutique owner Emily Stone from Wares of the City"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Emily Stone",
+    "relation": "witnessed",
+    "value": "a downturn in foot traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "witnessed a downturn in foot traffic and decided to take her business online in late September"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Emily Stone",
+    "relation": "decided_to_take_business_online",
+    "value": "take her business online",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "decided to take her business online in late September"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emily Stone",
+    "relation": "caused_by",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "witnessed a downturn in foot traffic and decided to take her business online"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Emily Stone",
+    "relation": "said",
+    "value": "Transitioning to an online store was daunting at first",
+    "time": null,
+    "speaker": "Emily Stone",
+    "verbatim": [
+     "Transitioning to an online store was daunting at first"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Stone",
+    "relation": "online_store_allowed_reach",
+    "value": "not just our regulars but also new customers beyond our locale",
+    "time": null,
+    "speaker": "Emily Stone",
+    "verbatim": [
+     "it allowed us to reach not just our regulars but also new customers beyond our locale"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "microinfluencers",
+    "relation": "collaboration_led_to",
+    "value": "an uptick in engagement and sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses have seen an uptick in engagement and sales by collaborating with microinfluencers within their communities."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "microinfluencers",
+    "relation": "resonate_with",
+    "value": "local consumers who trust peers and figures they can relate to",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These collaborations resonate with local consumers who trust peers and figures they can relate to."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Green Bites",
+    "relation": "described_as",
+    "value": "local health food restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local health food restaurant Green Bites partnered with a well-known fitness influencer, Max Health"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Green Bites",
+    "relation": "partnered_with",
+    "value": "Max Health",
+    "time": "October 21st",
+    "speaker": null,
+    "verbatim": [
+     "On October 21st, local health food restaurant Green Bites partnered with a well-known fitness influencer, Max Health"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Max Health",
+    "relation": "described_as",
+    "value": "a well-known fitness influencer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with a well-known fitness influencer, Max Health"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Green Bites",
+    "relation": "campaign_resulted_in",
+    "value": "a 30% increase in their online orders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for a campaign that resulted in a 30% increase in their online orders"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Green Bites",
+    "relation": "caused_by",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with a well-known fitness influencer, Max Health, for a campaign that resulted in a 30% increase in their online orders"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lara Greene",
+    "relation": "owner_of",
+    "value": "Green Bites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lara Greene, the owner of Green Bites, expressed"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lara Greene",
+    "relation": "said",
+    "value": "Working with Max allowed us to reach a broader yet targeted audience, one that is very conscious about what they consume.",
+    "time": null,
+    "speaker": "Lara Greene",
+    "verbatim": [
+     "Working with Max allowed us to reach a broader yet targeted audience, one that is very conscious about what they consume."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "sustainable practices",
+    "relation": "demand_increased",
+    "value": "increased awareness and demand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another prominent local consumer trend is the increased awareness and demand for sustainable practices."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Small and Medium Enterprises",
+    "relation": "adopt_approaches_to",
+    "value": "reduce their carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has prompted SMEs to adopt innovative approaches to reduce their carbon footprint."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Small and Medium Enterprises",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another prominent local consumer trend is the increased awareness and demand for sustainable practices.",
+     "This has prompted SMEs to adopt innovative approaches to reduce their carbon footprint."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "MiniPack Solutions",
+    "relation": "described_as",
+    "value": "a local packaging company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For instance, MiniPack Solutions, a local packaging company"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "MiniPack Solutions",
+    "relation": "introduced",
+    "value": "biodegradable packaging options",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "MiniPack Solutions, a local packaging company, introduced biodegradable packaging options on October 10th"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "biodegradable packaging options",
+    "relation": "introduced_by",
+    "value": "MiniPack Solutions",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "MiniPack Solutions, a local packaging company, introduced biodegradable packaging options on October 10th"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "MiniPack Solutions",
+    "relation": "reported",
+    "value": "a significant rise in interest from other local businesses aiming to green their supply chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since reported a significant rise in interest from other local businesses aiming to green their supply chain"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Small and Medium Enterprises",
+    "relation": "attract_consumers_by",
+    "value": "a sense of community and unique, localized products or services that big chains cannot replicate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumers are drawn to SMEs that can provide a sense of community and offer unique, localized products or services that big chains cannot replicate."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Craft Beer Co.",
+    "relation": "founded_by",
+    "value": "Greg Harrison",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Craft Beer Co., founded by Greg Harrison, launched"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Greg Harrison",
+    "relation": "founder_of",
+    "value": "Craft Beer Co.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Craft Beer Co., founded by Greg Harrison, launched"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Craft Beer Co.",
+    "relation": "launched",
+    "value": "the \"Hometown Heroes\" series of beers",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "launched the \"Hometown Heroes\" series of beers on September 15th"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Hometown Heroes",
+    "relation": "includes_flavors_inspired_by",
+    "value": "local landmarks and history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which includes flavors inspired by local landmarks and history"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Hometown Heroes",
+    "relation": "created",
+    "value": "a buzz in the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative has created a buzz in the community"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Hometown Heroes",
+    "relation": "resulted_in",
+    "value": "a spike in sales and brand loyalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a spike in sales and brand loyalty"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Hometown Heroes",
+    "relation": "results_in",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative has created a buzz in the community, leading to a spike in sales and brand loyalty."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Small and Medium Enterprises",
+    "relation": "had_to_reinvent_service_models_to_align_with",
+    "value": "changing consumer expectations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Service-based SMEs have also had to reinvent their service models to align with changing consumer expectations."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Book a Buddy",
+    "relation": "described_as",
+    "value": "a local personal shopping service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Book a Buddy, a local personal shopping service, transformed its offering"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Book a Buddy",
+    "relation": "transformed_offering",
+    "value": "to include virtual consultations during peak shopping seasons",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "transformed its offering in late September to include virtual consultations during peak shopping seasons"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "virtual consultations",
+    "relation": "offered_during",
+    "value": "peak shopping seasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to include virtual consultations during peak shopping seasons"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "virtual consultations",
+    "relation": "met_desires_for",
+    "value": "convenience and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This innovative approach met the consumers' desires for convenience and safety."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lisa Frank",
+    "relation": "founder_of",
+    "value": "Book a Buddy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Founder Lisa Frank commented"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Book a Buddy",
+    "relation": "service_inquiries_increased",
+    "value": "a 40% increase in service inquiries",
+    "time": null,
+    "speaker": "Lisa Frank",
+    "verbatim": [
+     "We\u2019ve seen a 40% increase in service inquiries since we introduced virtual consultations."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lisa Frank",
+    "relation": "said",
+    "value": "people value their time and health more than ever",
+    "time": null,
+    "speaker": "Lisa Frank",
+    "verbatim": [
+     "It\u2019s clear that people value their time and health more than ever."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "hyper-local marketing",
+    "relation": "has_become",
+    "value": "the new watchword",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'hyper-local' has become the new watchword."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "hyper-local marketing",
+    "relation": "consumer_crave_is",
+    "value": "overt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the crave for localized marketing that speaks directly to them, in their language, and about their surroundings, is overt."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Small and Medium Enterprises",
+    "relation": "crafted_campaigns_addressing",
+    "value": "local issues, celebrations, and cultural touchstones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs embracing this approach have crafted campaigns that address local issues, celebrations, and cultural touchstones"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Small and Medium Enterprises",
+    "relation": "campaigns_led_to",
+    "value": "deeper community ties and patronage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to deeper community ties and patronage"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Ravi Patel",
+    "relation": "owner_of",
+    "value": "Patel\u2019s Groceries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ravi Patel, owner of Patel\u2019s Groceries"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Patel's Groceries",
+    "relation": "started",
+    "value": "a hyper-local marketing campaign",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "which started a hyper-local marketing campaign on"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Patel's Groceries",
+    "relation": "helped_create",
+    "value": "a loyal customer base within our immediate community",
+    "time": null,
+    "speaker": "Ravi Patel",
+    "verbatim": [
+     "It\u2019s helped us to create a loyal customer base within our immediate community."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Ravi Patel",
+    "relation": "said",
+    "value": "Our customers appreciate that we're speaking directly to them and their lived experiences.",
+    "time": null,
+    "speaker": "Ravi Patel",
+    "verbatim": [
+     "Our customers appreciate that we're speaking directly to them and their lived experiences."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "TechHome Electronics",
+    "relation": "introduced",
+    "value": "a smart inventory system",
+    "time": "December 1st",
+    "speaker": null,
+    "verbatim": [
+     "TechHome Electronics, which introduced a smart inventory system on December 1st"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "smart inventory system",
+    "relation": "introduced_by",
+    "value": "TechHome Electronics",
+    "time": "December 1st",
+    "speaker": null,
+    "verbatim": [
+     "TechHome Electronics, which introduced a smart inventory system on December 1st"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "TechHome Electronics",
+    "relation": "example_of",
+    "value": "Today's SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Today's SMEs, like TechHome Electronics"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "TechHome Electronics",
+    "relation": "leverages_technology_to",
+    "value": "stay ahead of demand curves and manage customer interactions more effectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are leveraging technology to stay ahead of demand curves and manage customer interactions more effectively"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Small and Medium Enterprises",
+    "relation": "symbiotic_relationship_with",
+    "value": "local communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs and local communities maintain a symbiotic relationship"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Small and Medium Enterprises",
+    "relation": "flexibility_ensures",
+    "value": "their survival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The flexibility of small businesses to adapt swiftly to local trends not only ensures their survival"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Small and Medium Enterprises",
+    "relation": "preserves",
+    "value": "the vitality and uniqueness of local market economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also preserves the vitality and uniqueness of local market economies."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Small and Medium Enterprises",
+    "relation": "setting_pace_for",
+    "value": "a dynamic and prosperous 2024",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "setting the pace for a dynamic and prosperous 2024"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Small and Medium Enterprises",
+    "relation": "are_thriving_amid",
+    "value": "the storm of change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are not just weathering the storm of change; they are thriving in it"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

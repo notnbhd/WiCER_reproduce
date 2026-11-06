@@ -1,0 +1,92 @@
+{
+  "topic": "local_arts_and_culture",
+  "target_ratio": 0.5,
+  "target_words": 35838,
+  "source_words": 71675,
+  "actual_words": 9345,
+  "actual_ratio_words": 0.13038018835019183,
+  "source_tokens": 93612,
+  "actual_tokens": 19167,
+  "actual_ratio_tokens": 0.20474939110370466,
+  "n_preserved_facts": 11,
+  "preserved_words": 831,
+  "n_preserved_found": 0,
+  "preservation_rate": 0.0,
+  "finish_reason": "stop",
+  "model": "anthropic/claude-haiku-5.5",
+  "seed": 0,
+  "input_tokens": 158061,
+  "output_tokens": 49602,
+  "cache_read_tokens": 155357,
+  "cache_write_tokens": 0,
+  "estimated_cost_usd": 0.13312485,
+  "preserved_facts": [
+    {
+      "document_id": "amgkvmtd",
+      "question_id": "amgkvmtd-q1",
+      "text": "The source's opening paragraph states that book and poetry festivals are sprouting in the autumn season \"from September 1, 2023, onwards.\" The Booker's Bazaar (weekend of September 10-12, 2023) and the Echoes of Verse festival (September 25-27, 2023) are dated later in the document. No document detail names a \"Coastal Book and Poetry Festival,\" and none gives September 10 as the start of the festival season. The September 10 date belongs to the Booker's Bazaar, not to a festival season start.",
+      "iteration": 0
+    },
+    {
+      "document_id": "brhjlcut",
+      "question_id": "brhjlcut-q1",
+      "text": "The source states: \"Theaters like the local Maplewood Playhouse took note when a 2022 survey by the National Theater Alliance showed that audiences are 51% more likely to attend a performance if it includes diverse cast members that reflect their own community demographics.\" This is the only mention of the 2022 National Theater Alliance survey. The figure is tied to the Maplewood Playhouse. The document's other statistics (the Central Arts Center's 37% attendance increase and the 62% satisfaction figure) come from a different study and do not concern the National Theater Alliance survey.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ecszfvor",
+      "question_id": "ecszfvor-q1",
+      "text": "The source document contains no facts that bear on this question. It is about literary and poetry festivals, and it never mentions Dr. Linda Reed, cybersecurity, training methods, remote workers, or gamified learning. The correct answer (\"Gamified learning environments\") cannot be traced to this text, so no supporting facts can be extracted from it.",
+      "iteration": 0
+    },
+    {
+      "document_id": "esnautwu",
+      "question_id": "esnautwu-q1",
+      "text": "Tommy Evers and Sara Liang are named as young musicians in the Milltown neighborhood. The source states: \"Young musicians like Tommy Evers and Sara Liang are among the vanguard transforming their small apartments into professional-grade recording studios.\" It adds that \"Equipped with laptops, DAWs (Digital Audio Workstations), and an array of plugins, these artists have been able to produce studio-level tracks from the comfort of their homes since the latter part of 2023.\" The closing section also refers to \"the transformation of living spaces into recording studios.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "moadwkgl",
+      "question_id": "moadwkgl-q1",
+      "text": "Dr. Emily Rosenthal is described as \"a pioneer in art therapy who had embraced the town's narrative of healing for over a decade.\" Her premise, stated in the document, was: \"art could access the deepest canyons of our psyche, often reaching places words failed to tread.\" She led the weekly Open Studio at the Willow Creek Art Center in late September 2023, and on November 14th she led an Art and Mental Health Workshop with the local university's psychology department.",
+      "iteration": 0
+    },
+    {
+      "document_id": "ovbcyeeo",
+      "question_id": "ovbcyeeo-q1",
+      "text": "The source states that on September 15, 2023, the Oakwood Players unveiled \"Whispers in the Dark,\" a play demanding a haunting, gothic Victorian mansion ambiance. Scene shop manager Patricia Gomez, with ten years of experience, led the set construction with an ethos indicative of community theater resilience: \"repurpose, adapt, and innovate.\" The wording of the ethos appears in that same paragraph, directly after her name and role.",
+      "iteration": 0
+    },
+    {
+      "document_id": "owestplu",
+      "question_id": "owestplu-q1",
+      "text": "Mariko Nguyen, a classically trained violinist, performed at the Flux Gallery in September 2023. The document states: \"Nguyen, a classically trained violinist, now weaves digitized sounds with the organic tonality of her strings, creating an auditory tapestry that pays homage to her Japanese and Vietnamese heritage while entwining elements from Scandinavian ambient music.\" Her performance at the Flux Gallery is described as having \"left attendees in awe.\"",
+      "iteration": 0
+    },
+    {
+      "document_id": "rooabqsj",
+      "question_id": "rooabqsj-q1",
+      "text": "Grayson Two-Eagles, described as \"a reputed artist of the Nakota tribe,\" took to Instagram on September 12, 2023 (a Tuesday), to showcase his latest creation: a collection of intricate beadwork pieces. The beadwork was digitized and sold as unique NFTs (Non-Fungible Tokens). The article's opening section, titled \"From Smoke Signals to Hashtags,\" describes this event and names Grayson as the artist who posted it.",
+      "iteration": 0
+    },
+    {
+      "document_id": "rtuxjimc",
+      "question_id": "rtuxjimc-q1",
+      "text": "Erena Taylor, a member of the Haida nation, displayed her collection of tapestries at the Heartbeat of Cultures Gallery on September 5, 2023, described as \"an ordinary Tuesday morning.\" The tapestries were vibrant weavings reflecting her lineage and her people's collective memory. Erena learned the techniques from her grandmother, who taught her under the whispering cedars. The gallery is known for celebrating the blend of past and future through art.",
+      "iteration": 0
+    },
+    {
+      "document_id": "sxtzfmwz",
+      "question_id": "sxtzfmwz-q1",
+      "text": "Spain's La Tomatina took place on August 31, 2023. Dr. Maria Vargas, a cultural historian from the University of Valencia, elucidates, \"This spectacle is steeped in a post-war spirit of abundance and exuberance, reminding us of life's fleeting nature and the need to embrace joy.\" The passage notes that La Tomatina \"might seem to an outsider as a wild tomato-throwing festivity,\" but Vargas's comment supplies its underlying meaning.",
+      "iteration": 0
+    },
+    {
+      "document_id": "zmwydrwt",
+      "question_id": "zmwydrwt-q1",
+      "text": "Marjorie Splint is described as \"set guru\" (the compiled wiki's \"plywood guru\" label is a satirical framing, not the source's wording for her advice). The source says: \"The key, as set guru Marjorie Splint (famously known ever since the 'Great Plywood Drought of November 2023') would say, is to 'treat that plywood like it's straight out of Versailles.'\" The surrounding passage concerns plywood transforming into marble palaces, enchanted forests, and a dance partner, with the advice that a coat of paint, a touch of glitter, and perhaps a dash of texture are enough to make it convincing. The advice to",
+      "iteration": 0
+    }
+  ],
+  "level": "moderate"
+}

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "When did the recent overhaul at John Anderson's furniture shop, Sitting Pretty, take place?",
+    "answer": "Late September 2023",
+    "verbatim": [
+     "a recent overhaul that took place in late September 2023."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "When did Sarah Chen's florist, Bloom Bliss, begin its move to an omnichannel presence?",
+    "answer": "October 2023",
+    "verbatim": [
+     "She embarked on the journey to an omnichannel presence in October 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What does Michael Harris say will happen to a retailer that loses the personal touch?",
+    "answer": "The retailer will lose customers.",
+    "verbatim": [
+     "if you lose that personal touch, you'll lose customers,"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "Besides selling products, what does Emily White use social media to do at The Organic Pantry?",
+    "answer": "To educate and create a community around healthy living",
+    "verbatim": [
+     "to not only sell products but to educate and create a community around healthy living."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What opportunities does the document say far outweigh the temporary hurdles of moving to an omnichannel model?",
+    "answer": "Increased sales, improved customer loyalty, and enhanced data collection",
+    "verbatim": [
+     "the opportunities\u2014increased sales, improved customer loyalty, and enhanced data collection\u2014far outweigh the temporary hurdles."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

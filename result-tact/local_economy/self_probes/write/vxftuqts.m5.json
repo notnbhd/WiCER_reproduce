@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "According to Jonathan McDougal, how were shipping containers described during the disruptions?",
+    "answer": "As scarce as gold dust.",
+    "verbatim": [
+     "shipping containers being scarce as gold dust"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "In what month and year did Emily Watson's inventory begin to swing between overstocking and understocking?",
+    "answer": "October 2023.",
+    "verbatim": [
+     "October 2023 brought upon a whirl of overstocking and, at times, understocking, severely disrupting her cash flow."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why did Alejandro Garcia turn to local farmers and producers for his supplies?",
+    "answer": "Because imports had become unreliable, so he turned to local farmers and producers for his supply needs.",
+    "verbatim": [
+     "turned to local farmers and producers for his supply needs when imports became unreliable"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did cross-training employees allow Kevin Roberts's business to do?",
+    "answer": "Maintain a seamless operation despite external disruptions.",
+    "verbatim": [
+     "cross-training employees allowed his business to maintain a seamless operation despite external disruptions"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "On what date did the meet-up led by Melissa Grant take place?",
+    "answer": "February 5, 2024.",
+    "verbatim": [
+     "on February 5, 2024"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

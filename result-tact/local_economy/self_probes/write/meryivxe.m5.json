@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who is the owner of Green Leaf Innovations?",
+    "answer": "Julia Sanders",
+    "verbatim": [
+     "The owner, Julia Sanders, greets me"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Which environmental consultant did Julia meet on October 15, 2023 to dissect the store's operations?",
+    "answer": "Michael Thompson",
+    "verbatim": [
+     "Julia met with environmental consultant Michael Thompson on October 15, 2023"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What share of the initial investments did the small grant received on November 22 cover?",
+    "answer": "Half of the initial investments",
+    "verbatim": [
+     "On November 22, we received a small grant that covered half of our initial investments,"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "By how much did Green Leaf Innovations reduce its waste output by June 7, 2024?",
+    "answer": "Nearly 60%",
+    "verbatim": [
+     "By June 7, 2024, the store had reduced its waste output by nearly 60%."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What is Green Leaf Innovations saving up for as it looks toward renewable energy?",
+    "answer": "Solar panels",
+    "verbatim": [
+     "We're saving up for solar panels,"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Where did Emma Johnson's journey with GreenStitch begin?",
+    "answer": "In a small studio apartment with a single sewing machine.",
+    "verbatim": [
+     "Her journey began in a small studio apartment with a single sewing machine"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "On what date was Kyle Chen's startup AutomateEase founded?",
+    "answer": "September 15, 2023.",
+    "verbatim": [
+     "his tenacity led to the founding of AutomateEase on September 15, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "How does Hannah Roberts' FitFusion Studio approach its workouts, and what has that approach led to?",
+    "answer": "It combines various fitness disciplines into one cohesive workout experience, which has cultivated a loyal clientele.",
+    "verbatim": [
+     "With a novel approach that combines various fitness disciplines into one cohesive workout experience, her studio has cultivated a loyal clientele."
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What three offerings does Sophie Zhang's CityBloom combine?",
+    "answer": "Workshops, garden installations, and a line of eco-friendly products.",
+    "verbatim": [
+     "With a combination of workshops, garden installations, and a line of eco-friendly products"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What does the CommuniWealth financial advisory service focus on?",
+    "answer": "Empowering local individuals and businesses to make informed investment decisions.",
+    "verbatim": [
+     "This financial advisory service focuses on empowering local individuals and businesses to make informed investment decisions."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

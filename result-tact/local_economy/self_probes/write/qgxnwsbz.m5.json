@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "According to the Bureau of Labor Statistics report, what share of the U.S. workforce do freelancers and gig workers make up?",
+    "answer": "Nearly 35%",
+    "verbatim": [
+     "freelancers and gig workers comprise nearly 35% of the U.S. workforce"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "In which city is the freelancer Alicia Martinez based?",
+    "answer": "New York City",
+    "verbatim": [
+     "A freelancer based in New York City, Alicia Martinez"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "What did SynthCorp announce in its October 9, 2023 press release?",
+    "answer": "The launch of a new division dedicated solely to integrating gig workers into their business model",
+    "verbatim": [
+     "In a press release on October 9, 2023, tech giant SynthCorp announced the launch of a new division dedicated solely to integrating gig workers into their business model."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What is the Freelance Isn't Free Act intended to ensure for freelancers?",
+    "answer": "That freelancers receive payment in full and on time",
+    "verbatim": [
+     "aims to ensure freelancers receive payment in full and on time"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "By what year does the Sundial Research Center forecast that nearly half of the working-age U.S. population will have engaged in some form of independent work?",
+    "answer": "2025",
+    "verbatim": [
+     "A forecast from the Sundial Research Center suggests that by 2025, nearly half of the working-age population in the United States will have engaged in some form of independent work."
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

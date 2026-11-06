@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What does the 'Idea-Investment' program at Inventive Hub do for successful projects?",
+    "answer": "It helps successful projects secure funding in exchange for a small share of future profits or a stake in the intellectual property.",
+    "verbatim": [
+     "what sets it apart is its 'Idea-Investment' program, which helps successful projects secure funding in exchange for a small share of future profits or a stake in the intellectual property."
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "By what percentage did business at 'Heel the Sole' increase within the first three months?",
+    "answer": "50%",
+    "verbatim": [
+     "with 'Heel the Sole' seeing a 50% increase in business within the first three months."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Who said \"It's about making art accessible\"?",
+    "answer": "Lucy Nguyen",
+    "verbatim": [
+     "\"It's about making art accessible,\" Lucy revealed."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "On what basis do Boutique Canvas's personal shoppers suggest items to customers?",
+    "answer": "Purchasing history, preferences, and even moods.",
+    "verbatim": [
+     "assigning personal shoppers who suggest items based on purchasing history, preferences, and even moods."
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "Why did real estate developer Jake Hardin create Makerspace Loft?",
+    "answer": "He saw a gap in the market for specialized co-working environments.",
+    "verbatim": [
+     "real estate developer Jake Hardin saw a gap in the market for specialized co-working environments."
+    ],
+    "kind": "reason",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

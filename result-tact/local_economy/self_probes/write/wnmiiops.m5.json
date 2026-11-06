@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "When was the SpeedyCart platform founded?",
+    "answer": "October 2023",
+    "verbatim": [
+     "Companies like SpeedyCart, founded in October 2023,"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Who is the tech entrepreneur behind the StockSmart platform?",
+    "answer": "Emily Zhao",
+    "verbatim": [
+     "launched in late 2023 by tech entrepreneur Emily Zhao"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "How does the SnapBuy feature let consumers purchase local products?",
+    "answer": "Consumers buy local products directly through image recognition on social media posts.",
+    "verbatim": [
+     "allows consumers to purchase local products directly through image recognition on social media posts"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What is the crowdsourced delivery approach meant to counter?",
+    "answer": "The complexities and costs associated with traditional logistics.",
+    "verbatim": [
+     "To counter the complexities and costs associated with traditional logistics"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What does LoyalRoots offer customers instead of one-off discounts from individual stores?",
+    "answer": "United loyalty programs for customers who shop within a network of local businesses.",
+    "verbatim": [
+     "offers united loyalty programs for customers who shop within a network of local businesses"
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

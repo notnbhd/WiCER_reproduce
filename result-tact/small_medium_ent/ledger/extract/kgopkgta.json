@@ -1,0 +1,750 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises (SMEs)",
+  "Smith Consulting",
+  "Mark Johnson",
+  "Small Business Tech Expo",
+  "Sarah Lee",
+  "SME Tech Association",
+  "Emily Roberts",
+  "James Huang",
+  "Google Analytics",
+  "Customer Relationship Management (CRM) Systems",
+  "Artificial Intelligence (AI)",
+  "Chatbots",
+  "Big data and analytics",
+  "E-commerce solutions",
+  "Virtual Reality (VR)",
+  "Augmented Reality (AR)",
+  "Digital transformation",
+  "Digital presence",
+  "Social media",
+  "Content marketing",
+  "Digital wallets",
+  "Customer experience",
+  "Return on investment (ROI)",
+  "Digital tools",
+  "Mobile-friendly websites and apps"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "is_backbone_of",
+    "value": "most economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small and Medium Enterprises (SMEs) are the backbone of most economies"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "generates",
+    "value": "employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "generating employment and contributing significantly to GDP growth"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "contributes_significantly_to",
+    "value": "GDP growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributing significantly to GDP growth"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Customer experience",
+    "relation": "expectations_are_changing",
+    "value": "increasing demand for a seamless digital experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the business landscape evolves, customer expectations are also changing, with an increasing demand for a seamless digital experience"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "considers_integrating",
+    "value": "digital tools and technologies into their operations to enhance customer experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many SMEs are now considering how to integrate digital tools and technologies into their operations to enhance customer experience"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the business landscape evolves, customer expectations are also changing",
+     "In response, many SMEs are now considering"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Customer experience",
+    "relation": "customers_expect",
+    "value": "convenience, personalized interactions, and quick resolutions to their problems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expect convenience, personalized interactions, and quick resolutions to their problems"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Customer experience",
+    "relation": "customers_expect",
+    "value": "similar experiences from smaller brands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expect similar experiences from smaller brands"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Smith Consulting",
+    "relation": "conducted",
+    "value": "a study",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study conducted on October 12, 2023, by Smith Consulting"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Smith Consulting",
+    "relation": "highlighted",
+    "value": "74% of consumers will switch brands if they find the purchasing process cumbersome",
+    "time": "October 12, 2023",
+    "speaker": "Smith Consulting",
+    "verbatim": [
+     "highlighted that 74% of consumers will switch brands if they find the purchasing process cumbersome"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Digital transformation",
+    "relation": "can_be_overwhelming",
+    "value": "understanding where to start",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For SMEs embarking on their digital transformation journey, understanding where to start can be overwhelming."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mark Johnson",
+    "relation": "is",
+    "value": "a digital strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to Mark Johnson, a digital strategist speaking at the Small Business Tech Expo on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mark Johnson",
+    "relation": "spoke_at",
+    "value": "Small Business Tech Expo",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a digital strategist speaking at the Small Business Tech Expo on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mark Johnson",
+    "relation": "said",
+    "value": "Digital transformation is not about using digital tools for the sake of technology, but about enhancing the value you provide to your customers.",
+    "time": "November 5, 2023",
+    "speaker": "Mark Johnson",
+    "verbatim": [
+     "Digital transformation is not about using digital tools for the sake of technology, but about enhancing the value you provide to your customers."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Digital presence",
+    "relation": "is_no_longer_optional",
+    "value": "for businesses that want to stay competitive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A digital presence is no longer optional for businesses that want to stay competitive."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Digital transformation",
+    "relation": "elementary_steps_include",
+    "value": "Launching a user-friendly website and being active on social media platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Launching a user-friendly website and being active on social media platforms are elementary steps towards digital transformation."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Digital presence",
+    "relation": "serves_as",
+    "value": "touchpoints for customers to interact with your brand, learn about your products or services, and provide feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These platforms serve as touchpoints for customers to interact with your brand, learn about your products or services, and provide feedback."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Social media",
+    "relation": "is",
+    "value": "a powerful tool for enhancing customer experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media is a powerful tool for enhancing customer experience."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Content marketing",
+    "relation": "builds",
+    "value": "a loyal community around your brand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By regularly engaging with your audience through content that educates and entertains, you can build a loyal community around your brand."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Social media",
+    "relation": "provides_opportunity",
+    "value": "an opportunity for SMEs to gather valuable customer feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This also provides an opportunity for SMEs to gather valuable customer feedback and directly address"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "E-commerce solutions",
+    "relation": "is",
+    "value": "vital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Given the surge in online shopping, integrating e-commerce solutions is vital."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "E-commerce solutions",
+    "relation": "motivated_by",
+    "value": "the surge in online shopping",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Given the surge in online shopping"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Lee",
+    "relation": "is",
+    "value": "a retail analyst",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, Sarah Lee, a retail analyst, noted"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sarah Lee",
+    "relation": "said",
+    "value": "SMEs that offer online shopping and easy-tonavigate digital catalogs see a 35% increase in sales, on average.",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Lee",
+    "verbatim": [
+     "SMEs that offer online shopping and easy-tonavigate digital catalogs see a 35% increase in sales, on average."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "sales_increase",
+    "value": "35% increase in sales, on average",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Lee",
+    "verbatim": [
+     "SMEs that offer online shopping and easy-tonavigate digital catalogs see a 35% increase in sales, on average."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "E-commerce solutions",
+    "relation": "enables",
+    "value": "customers to make purchases at their convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "E-commerce platforms enable customers to make purchases at their convenience, improving the overall experience."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "E-commerce solutions",
+    "relation": "improves",
+    "value": "the overall experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving the overall experience"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Customer Relationship Management (CRM) Systems",
+    "relation": "can_track_and_manage",
+    "value": "customer interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CRM systems can track and manage customer interactions, ensuring that you maintain consistent and personalized communication."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Customer Relationship Management (CRM) Systems",
+    "relation": "ensures",
+    "value": "consistent and personalized communication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that you maintain consistent and personalized communication"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Customer Relationship Management (CRM) Systems",
+    "relation": "enables",
+    "value": "SMEs can anticipate customer needs, tailor marketing campaigns, and provide personalized service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By leveraging CRM data, SMEs can anticipate customer needs, tailor marketing campaigns, and provide personalized service"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Customer experience",
+    "relation": "is_greatly_enhanced",
+    "value": "greatly enhanced",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which greatly enhances the customer experience"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Customer Relationship Management (CRM) Systems",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By leveraging CRM data, SMEs can anticipate customer needs, tailor marketing campaigns, and provide personalized service, which greatly enhances the customer experience."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "can_provide",
+    "value": "immediate responses to customer inquiries, any time of day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence (AI), through the use of chatbots, can provide immediate responses to customer inquiries, any time of day."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chatbots",
+    "relation": "are_getting_smarter",
+    "value": "able to handle a wide range of queries and learn from interactions to improve over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI chatbots are getting smarter, able to handle a wide range of queries and learn from interactions to improve over time."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "SME Tech Association",
+    "relation": "revealed",
+    "value": "SMEs implementing chatbots witnessed a 50% reduction in customer service costs and a significant boost in customer satisfaction",
+    "time": "December 3, 2023",
+    "speaker": "SME Tech Association",
+    "verbatim": [
+     "Notably, on December 3, 2023, a report released by the SME Tech Association revealed that"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "witnessed",
+    "value": "50% reduction in customer service costs",
+    "time": "December 3, 2023",
+    "speaker": "SME Tech Association",
+    "verbatim": [
+     "SMEs implementing chatbots witnessed a 50% reduction in customer service costs and a significant boost in customer satisfaction."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "witnessed",
+    "value": "significant boost in customer satisfaction",
+    "time": "December 3, 2023",
+    "speaker": "SME Tech Association",
+    "verbatim": [
+     "SMEs implementing chatbots witnessed a 50% reduction in customer service costs and a significant boost in customer satisfaction."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Big data and analytics",
+    "relation": "empowers",
+    "value": "SMEs to analyze customer behavior and preferences, enabling them to offer personalized experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Big data and analytics empower SMEs to analyze customer behavior and preferences, enabling them to offer personalized experiences."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Big data and analytics",
+    "relation": "example_is",
+    "value": "tailored recommendations based on past purchases or browsing history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For instance, tailored recommendations based on past purchases or browsing history can make the shopping journey more relevant for the customer."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mobile-friendly websites and apps",
+    "relation": "ensures",
+    "value": "customers can interact with your brand while on the move",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mobile-friendly websites and apps ensure that customers can interact with your brand while on the move."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Mobile-friendly websites and apps",
+    "relation": "is_essential",
+    "value": "optimizing for mobile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ubiquitous use of smartphones means that optimizing for mobile is not just important, it's essential."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mobile-friendly websites and apps",
+    "relation": "is_key_aspect_of",
+    "value": "enhancing customer experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This convenience is a key aspect of enhancing customer experience."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Digital transformation",
+    "relation": "involves",
+    "value": "updating payment systems to make transactions secure and hassle-free",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital transformation also involves updating payment systems to make transactions secure and hassle-free."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Digital wallets",
+    "relation": "included_in",
+    "value": "various payment options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Implementing various payment options, including digital wallets"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Digital wallets",
+    "relation": "can_alleviate",
+    "value": "any concerns customers might have about online transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can alleviate any concerns customers might have about online transactions"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "experimenting_with",
+    "value": "VR and AR",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some forward-thinking SMEs are already experimenting with VR and AR"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Virtual Reality (VR)",
+    "relation": "used_to_provide",
+    "value": "immersive experiences for customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some forward-thinking SMEs are already experimenting with VR and AR to provide immersive experiences for customers."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Augmented Reality (AR)",
+    "relation": "used_to_provide",
+    "value": "immersive experiences for customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some forward-thinking SMEs are already experimenting with VR and AR to provide immersive experiences for customers."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Virtual Reality (VR)",
+    "relation": "example_use",
+    "value": "virtual try-ons in the fashion industry or interactive product demonstrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for virtual try-ons in the fashion industry or interactive product demonstrations"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Augmented Reality (AR)",
+    "relation": "example_use",
+    "value": "virtual try-ons in the fashion industry or interactive product demonstrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for virtual try-ons in the fashion industry or interactive product demonstrations"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Virtual Reality (VR)",
+    "relation": "offers",
+    "value": "a unique way to engage and wow customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these technologies offer a unique way to engage and wow customers."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "should_invest",
+    "value": "in training their teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for SMEs to invest in training their teams"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Digital tools",
+    "relation": "requires_employees_who",
+    "value": "understand the importance of these technologies and how to leverage them to improve customer service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees need to understand the importance of these technologies and how to leverage them to improve customer service."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Emily Roberts",
+    "relation": "is",
+    "value": "entrepreneur",
+    "time": "January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 22, 2024, entrepreneur Emily Roberts stressed"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Emily Roberts",
+    "relation": "said",
+    "value": "An SME's digital transformation is as successful as its least tech-savvy employee.",
+    "time": "January 22, 2024",
+    "speaker": "Emily Roberts",
+    "verbatim": [
+     "An SME's digital transformation is as successful as its least tech-savvy employee."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Digital tools",
+    "relation": "are_emerging",
+    "value": "new tools and technologies emerging regularly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with new tools and technologies emerging regularly."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "must",
+    "value": "stay informed and be willing to adapt to continue providing excellent customer experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must stay informed and be willing to adapt to continue providing excellent customer experiences."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "James Huang",
+    "relation": "is",
+    "value": "tech innovator",
+    "time": "February 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "tech innovator James Huang, speaking on February 18, 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "James Huang",
+    "relation": "said",
+    "value": "In the digital age, learning is an ongoing process, and agility is key to success.",
+    "time": "February 18, 2024",
+    "speaker": "James Huang",
+    "verbatim": [
+     "In the digital age, learning is an ongoing process, and agility is key to success."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "should_assess",
+    "value": "their return on investment (ROI)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for SMEs to measure the success of their digital initiatives and assess their return on investment (ROI)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Google Analytics",
+    "relation": "can_track",
+    "value": "website traffic, conversion rates, and customer engagement levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like Google Analytics and personalized dashboards can track metrics such as website traffic, conversion rates, and customer engagement levels"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Digital transformation",
+    "relation": "is_about",
+    "value": "enhancing the customer experience in meaningful ways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhancing the customer experience in meaningful ways"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "can_create",
+    "value": "lasting customer relationships and drive growth in the digital era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs can create lasting customer relationships and drive growth in the digital era."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Digital tools",
+    "relation": "results_in",
+    "value_ref": "c63",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By adopting digital tools and making a commitment to continuous improvement, SMEs can create lasting customer relationships"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Digital transformation",
+    "relation": "can_lead_to",
+    "value": "exciting opportunities and enhanced business success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the journey towards digital proficiency can lead to exciting opportunities and enhanced business success."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

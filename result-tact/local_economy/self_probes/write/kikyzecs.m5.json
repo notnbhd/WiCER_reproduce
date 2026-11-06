@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "According to Dr. Click N. Buy's survey, what share of the population now prefers shopping in their pajamas?",
+    "answer": "89%",
+    "verbatim": [
+     "revealed that 89% of the population now prefers shopping in their pajamas"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What did the cardboard sign that Localized Lady unfolded outside her boutique say?",
+    "answer": "\"If you can find it online, you can buy it for 10% more here!\"",
+    "verbatim": [
+     "She unfolded a cardboard sign that read, \"If you can find it online, you can buy it for 10% more here!\""
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What did Jones say he missed about the cashier's job on November 5?",
+    "answer": "The days when 'checking out' meant more than just a quick glance at someone.",
+    "verbatim": [
+     "I miss the days when 'checking out' meant more than just a quick glance at someone."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "According to Terry Quickship, how long after forgetting an order do customers often receive their packages?",
+    "answer": "Only about a week after they forgot they ordered it.",
+    "verbatim": [
+     "I can\u2019t tell you how many folks seem surprised when I drop off their package only a week after they forgot they ordered it."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What have interactive workshops like \"Make Your Own Candle and Then Burn It\" begun to do for some local shops?",
+    "answer": "They have begun to lure some customers back from the depths of their electronic shopping carts.",
+    "verbatim": [
+     "have begun to lure some customers back from the depths of"
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

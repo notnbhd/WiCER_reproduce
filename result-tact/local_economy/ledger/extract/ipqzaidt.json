@@ -1,0 +1,839 @@
+{
+ "inventory": [
+  "Sarah Thompson",
+  "Littletown Boutique",
+  "Lily",
+  "Jack Martin",
+  "The Page Turner",
+  "Maria Gonzalez",
+  "Gadgets & Gizmos",
+  "BookWorm",
+  "TechnoTalk",
+  "DataVision",
+  "Evan Patterson",
+  "Sophia Chang",
+  "SafeNet Solutions",
+  "AI Ethics in Retail",
+  "Global Groove",
+  "Benjamin Clarke",
+  "Emily Carter",
+  "TrendNet Media",
+  "Joshua Knowles",
+  "Gadget Haven",
+  "local retail association",
+  "local business councils",
+  "virtual fitting rooms",
+  "in-store kiosks",
+  "artificial intelligence",
+  "chatbots"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local retail association",
+    "relation": "reported",
+    "value": "70% increase in local businesses integrating AI-driven chatbots",
+    "time": "September 4, 2023",
+    "speaker": "local retail association",
+    "verbatim": [
+     "On September 4, 2023, the local retail association reported a staggering 70% increase in local businesses integrating AI-driven chatbots into their customer service operations over the past year."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Thompson",
+    "relation": "owner_of",
+    "value": "Littletown Boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, owner of Littletown Boutique"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Thompson",
+    "relation": "deployed",
+    "value": "Lily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revamped her customer service by deploying 'Lily', a virtual assistant chatbot."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Lily",
+    "relation": "is_a",
+    "value": "virtual assistant chatbot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Lily', a virtual assistant chatbot"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Littletown Boutique",
+    "relation": "customer_satisfaction_increase",
+    "value": "30% increase in customer satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The result? A 30% increase in customer satisfaction and a notable reduction in response times."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Littletown Boutique",
+    "relation": "response_time_change",
+    "value": "notable reduction in response times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The result? A 30% increase in customer satisfaction and a notable reduction in response times."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Thompson",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revamped her customer service by deploying 'Lily', a virtual assistant chatbot.",
+     "The result? A 30% increase in customer satisfaction"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Thompson",
+    "relation": "contributed_to",
+    "value": "spike in local businesses integrating AI-driven chatbots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This spike owes much to pioneers like Sarah Thompson"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Thompson",
+    "relation": "said",
+    "value": "Customers no longer need to wait on the phone or in queue",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "\"Customers no longer need to wait on the phone or in queue,\" Thompson explains."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Lily",
+    "relation": "provides",
+    "value": "instant responses, product recommendations, and even handles returns seamlessly",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "Lily provides instant responses, product recommendations, and even handles returns seamlessly."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Lily",
+    "relation": "described_as",
+    "value": "a tireless, all-knowing customer service rep who's always on duty",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "It's like having a tireless, all-knowing customer service rep who's always on duty."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "The Page Turner",
+    "relation": "run_by",
+    "value": "Jack Martin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"The Page Turner,\" run by Jack Martin"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "The Page Turner",
+    "relation": "described_as",
+    "value": "quaint bookshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From quaint bookshops like \"The Page Turner,\" run by Jack Martin"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Gadgets & Gizmos",
+    "relation": "described_as",
+    "value": "burgeoning e-commerce platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "burgeoning e-commerce platforms like \"Gadgets & Gizmos,\""
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Gadgets & Gizmos",
+    "relation": "led_by",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by tech-preneur Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Gonzalez",
+    "relation": "described_as",
+    "value": "tech-preneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by tech-preneur Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Page Turner",
+    "relation": "introduced",
+    "value": "BookWorm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin\u2019s shop introduced 'BookWorm', an AI bot"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "BookWorm",
+    "relation": "is_a",
+    "value": "AI bot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'BookWorm', an AI bot"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "BookWorm",
+    "relation": "engages_customers_in",
+    "value": "literary trivia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an AI bot that not only engages customers in literary trivia"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "BookWorm",
+    "relation": "guides_customers_through",
+    "value": "book selections based on their reading history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also guides them through book selections based on their reading history"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maria Gonzalez",
+    "relation": "site_features",
+    "value": "TechnoTalk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gonzalez\u2019s e-commerce site features 'TechnoTalk', a bot that provides technical support"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "TechnoTalk",
+    "relation": "is_a",
+    "value": "bot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'TechnoTalk', a bot that provides technical support"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "TechnoTalk",
+    "relation": "provides",
+    "value": "technical support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a bot that provides technical support"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "TechnoTalk",
+    "relation": "uses",
+    "value": "predictive algorithms to suggest future purchases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harnesses predictive algorithms to suggest future purchases"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jack Martin",
+    "relation": "said",
+    "value": "Our visitors love the personal touch that BookWorm brings",
+    "time": null,
+    "speaker": "Jack Martin",
+    "verbatim": [
+     "\"Our visitors love the personal touch that BookWorm brings,\u201d says Martin."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "BookWorm",
+    "relation": "described_as",
+    "value": "robust, scalable",
+    "time": null,
+    "speaker": "Jack Martin",
+    "verbatim": [
+     "It's robust, scalable, and has transformed the way we engage with our customers."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "BookWorm",
+    "relation": "transformed",
+    "value": "the way we engage with our customers",
+    "time": null,
+    "speaker": "Jack Martin",
+    "verbatim": [
+     "has transformed the way we engage with our customers."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "TechnoTalk",
+    "relation": "aftersales_support_queries",
+    "value": "halved",
+    "time": "since introducing TechnoTalk",
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Our aftersales support queries have halved since"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "TechnoTalk",
+    "relation": "learns_from",
+    "value": "every interaction",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "This bot learns from every interaction, improving its capacity to solve complex customer issues."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "TechnoTalk",
+    "relation": "improves_capacity_to",
+    "value": "solve complex customer issues",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "improving its capacity to solve complex customer issues."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "chatbots",
+    "relation": "collect_and_analyze",
+    "value": "mountains of data to predict consumer behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Deep beneath the surface, they collect and analyze mountains of data to predict consumer behavior."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "chatbots",
+    "relation": "described_as",
+    "value": "just the icing on the AI cake",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chatbots like Lily, BookWorm, and TechnoTalk are just the icing on the AI cake."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "DataVision",
+    "relation": "is_a",
+    "value": "local data analytics firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by local data analytics firm DataVision"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "DataVision",
+    "relation": "reported_study_finding",
+    "value": "AI interactions hold the key to understanding purchase patterns, peak shopping times, and customer preferences more accurately than ever before",
+    "time": "October 15, 2023",
+    "speaker": "DataVision",
+    "verbatim": [
+     "it was revealed that these AI interactions hold the key to understanding purchase patterns, peak shopping times, and customer preferences more accurately than ever before."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Evan Patterson",
+    "relation": "job_title",
+    "value": "Head Analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evan Patterson, DataVision\u2019s Head Analyst, explains"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Evan Patterson",
+    "relation": "works_for",
+    "value": "DataVision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evan Patterson, DataVision\u2019s Head Analyst, explains"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Evan Patterson",
+    "relation": "said",
+    "value": "Each chatbot conversation is a goldmine of insights",
+    "time": null,
+    "speaker": "Evan Patterson",
+    "verbatim": [
+     "Each chatbot conversation is a goldmine of insights."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "chatbots",
+    "relation": "enables_tracking_of",
+    "value": "sentiment, buying signals, and customer frustrations in real time",
+    "time": null,
+    "speaker": "Evan Patterson",
+    "verbatim": [
+     "We can track sentiment, buying signals, and customer frustrations in real time."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Evan Patterson",
+    "relation": "said",
+    "value": "Such data is invaluable to any retailer aiming to optimize their services and product offerings",
+    "time": null,
+    "speaker": "Evan Patterson",
+    "verbatim": [
+     "Such data is invaluable to any retailer aiming to optimize their services and product offerings."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "local business councils",
+    "relation": "established",
+    "value": "AI Ethics in Retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local business councils and tech developers, such as Sophia Chang of SafeNet Solutions, have come together to establish 'AI Ethics in Retail,'"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sophia Chang",
+    "relation": "established",
+    "value": "AI Ethics in Retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local business councils and tech developers, such as Sophia Chang of SafeNet Solutions, have come together to establish 'AI Ethics in Retail,'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sophia Chang",
+    "relation": "affiliated_with",
+    "value": "SafeNet Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Chang of SafeNet Solutions"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "AI Ethics in Retail",
+    "relation": "launched_on",
+    "value": "a set of guidelines",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "'AI Ethics in Retail,' a set of guidelines launched on November 12, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "AI Ethics in Retail",
+    "relation": "focuses_on",
+    "value": "transparent data usage and secure AI interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focusing on transparent data usage and secure AI interactions"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sophia Chang",
+    "relation": "said",
+    "value": "We're proactive about privacy",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "\"We're proactive about privacy,\" says Chang."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sophia Chang",
+    "relation": "said",
+    "value": "Customers should feel confident that their data is safe and used ethically",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "Customers should feel confident that their data is safe and used ethically."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sophia Chang",
+    "relation": "said",
+    "value": "It's a critical part of fostering trust in AI-driven customer service solutions",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "It's a critical part of fostering trust in AI-driven customer service solutions."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "chatbots",
+    "relation": "can_converse_in",
+    "value": "multiple languages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovative AI-driven language processing now allows chatbots to converse in multiple languages, effortlessly switching based on customer preference."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Global Groove",
+    "relation": "specializes_in",
+    "value": "international music and merchandise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Global Groove\" which specializes in international music and merchandise."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Benjamin Clarke",
+    "relation": "role",
+    "value": "store owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "beams store owner Benjamin Clarke"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Benjamin Clarke",
+    "relation": "integrated",
+    "value": "multilingual chatbot functions",
+    "time": "last December",
+    "speaker": "Benjamin Clarke",
+    "verbatim": [
+     "Since integrating multilingual chatbot functions last December"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Benjamin Clarke",
+    "relation": "reported",
+    "value": "40% increase in engagement from non-English speaking customers",
+    "time": "last December",
+    "speaker": "Benjamin Clarke",
+    "verbatim": [
+     "we've seen a 40% increase in engagement from non-English speaking customers"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Benjamin Clarke",
+    "relation": "results_in",
+    "value_ref": "c52",
+    "time": "last December",
+    "speaker": "Benjamin Clarke",
+    "verbatim": [
+     "Since integrating multilingual chatbot functions last December, we've seen a 40% increase in engagement from non-English speaking customers"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "artificial intelligence",
+    "relation": "harnessed_for",
+    "value": "personalized marketing campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local retailers are now harnessing AI's potential to deliver personalized marketing campaigns."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Emily Carter",
+    "relation": "job_title",
+    "value": "marketing strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Carter, a marketing strategist at TrendNet Media, emphasizes"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Emily Carter",
+    "relation": "works_for",
+    "value": "TrendNet Media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Carter, a marketing strategist at TrendNet Media, emphasizes"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Emily Carter",
+    "relation": "said",
+    "value": "AI-driven analytics help businesses create incredibly personalized purchase suggestions",
+    "time": null,
+    "speaker": "Emily Carter",
+    "verbatim": [
+     "AI-driven analytics help businesses create incredibly personalized purchase suggestions."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Emily Carter",
+    "relation": "effective_because",
+    "value": "rooted in real customer behavior data",
+    "time": null,
+    "speaker": "Emily Carter",
+    "verbatim": [
+     "They are incredibly effective because they are rooted in real customer behavior data."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "chatbots",
+    "relation": "handle",
+    "value": "routine inquiries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As chatbots handle routine inquiries, human employees can focus on complex issues and building deeper customer relationships."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "artificial intelligence",
+    "relation": "potential_benefit",
+    "value": "upskilling the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One crucial yet often overlooked benefit of AI's rise in retail is the potential for upskilling the workforce."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Joshua Knowles",
+    "relation": "job_title",
+    "value": "retail employee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joshua Knowles, a retail employee at electronics store \u201cGadget Haven\u201d"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Joshua Knowles",
+    "relation": "works_at",
+    "value": "Gadget Haven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joshua Knowles, a retail employee at electronics store \u201cGadget Haven\u201d"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Gadget Haven",
+    "relation": "is_a",
+    "value": "electronics store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "electronics store \u201cGadget Haven\u201d"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Joshua Knowles",
+    "relation": "said",
+    "value": "Learning to work alongside AI has been rewarding",
+    "time": null,
+    "speaker": "Joshua Knowles",
+    "verbatim": [
+     "Learning to work alongside AI has been rewarding."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Joshua Knowles",
+    "relation": "said",
+    "value": "I now handle more challenging service issues and help train the chatbot",
+    "time": null,
+    "speaker": "Joshua Knowles",
+    "verbatim": [
+     "I now handle more challenging service issues and help train the chatbot,"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Joshua Knowles",
+    "relation": "said",
+    "value": "expanded my skill set and made my role more engaging",
+    "time": null,
+    "speaker": "Joshua Knowles",
+    "verbatim": [
+     "which has expanded my skill set and made my role more engaging."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "virtual fitting rooms",
+    "relation": "status",
+    "value": "in pilot stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtual fitting rooms augmented by AI assistants and in-store kiosks where chatbots can check out customers are already in pilot stages."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "virtual fitting rooms",
+    "relation": "augmented_by",
+    "value": "AI assistants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtual fitting rooms augmented by AI assistants"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "in-store kiosks",
+    "relation": "used_for",
+    "value": "chatbots can check out customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in-store kiosks where chatbots can check out customers"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "chatbots",
+    "relation": "poised_to_blur",
+    "value": "the lines between in-store and online experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the seamless integration of chatbots and AI is poised to blur the lines between in-store and online experiences."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "artificial intelligence",
+    "relation": "promises_to",
+    "value": "further enrich customer service and revolutionize local retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This fusion of the physical and digital realms promises to further enrich customer service and revolutionize local retail."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "artificial intelligence",
+    "relation": "becoming",
+    "value": "the backbone of customer interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI is becoming the backbone of customer interactions."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "artificial intelligence",
+    "relation": "used_for",
+    "value": "to engage, assist, and retain customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now increasingly turning to artificial intelligence to engage, assist, and retain customers."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

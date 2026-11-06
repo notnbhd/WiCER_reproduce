@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Which retail experts spotlighted the increasing consumer demand for quicker delivery times?",
+    "answer": "Johnathan Quinn and Maria Gonzales",
+    "verbatim": [
+     "Retail experts like Johnathan Quinn and Maria Gonzales spotlighted the increasing consumer demand for quicker delivery times"
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "By what percentage did sales rise for businesses adopting hyperlocal models within two months of their digital transition, according to Adam Smith?",
+    "answer": "30%",
+    "verbatim": [
+     "businesses adopting hyperlocal models witnessed a 30% increase in sales within two months of their digital transition"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What did TechLocal's January 5, 2024 predictive analysis breakthrough refine, and what effect did it have?",
+    "answer": "It refined inventory stocking based on real-time demand, vastly reducing overhead costs for local businesses.",
+    "verbatim": [
+     "refines inventory stocking based on real-time demand, vastly reducing overhead costs for local businesses"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "By what percentage did employment rates in neighborhoods with a robust hyperlocal presence rise compared to the previous year, according to the Employment Progress Association's report?",
+    "answer": "15%",
+    "verbatim": [
+     "employment rates in neighborhoods with a robust hyperlocal presence have seen an uptick of 15% compared to the previous year"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "How many new hyperlocal startups secured seed funding over the past quarter, according to the Startup Trends report?",
+    "answer": "50",
+    "verbatim": [
+     "50 new hyperlocal startups secured seed funding over the past quarter"
+    ],
+    "kind": "quantity",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

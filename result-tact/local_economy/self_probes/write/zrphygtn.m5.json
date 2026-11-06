@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Which analyst noted on October 10, 2023, that shoppers prefer handcrafted goods that tell a story?",
+    "answer": "Sarah Kim of MarketTrend Analytics",
+    "verbatim": [
+     "Analyst Sarah Kim of MarketTrend Analytics noted on October 10, 2023, that shoppers have exhibited an increasing preference for handcrafted goods that tell a story"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "On what date did environmental advocate Helen Pierce release the statement calling artisans natural allies in the fight against climate change?",
+    "answer": "September 20, 2023",
+    "verbatim": [
+     "According to a statement released by environmental advocate and expert Helen Pierce on September 20, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Where were the pots made by Miguel Rodr\u00edguez being sold, according to the document?",
+    "answer": "In boutique stores across Europe and North America",
+    "verbatim": [
+     "found his work being sold in boutique stores across Europe and North America"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "How does the CraftScan 3D modeling tool help craftspeople?",
+    "answer": "It lets them digitize their designs and share them with patrons worldwide, allowing bespoke adjustments to traditional designs while keeping their cultural value.",
+    "verbatim": [
+     "This tool allows craftspeople to digitize their designs and share them with patrons worldwide"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What position does Jane Thompson hold at FairWares International?",
+    "answer": "Director",
+    "verbatim": [
+     "Jane Thompson, the director of FairWares International"
+    ],
+    "kind": "person",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

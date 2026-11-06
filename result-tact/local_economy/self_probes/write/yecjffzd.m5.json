@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Since what date have minimum wage rates risen across various counties and cities, according to the introduction?",
+    "answer": "Since September 1, 2023",
+    "verbatim": [
+     "since September 1, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What hourly wage did Maria Alvarez earn before the wage increase at one of her jobs?",
+    "answer": "$9.25 an hour",
+    "verbatim": [
+     "The wage hike to $15 an hour from her previous $9.25 at one of her jobs"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "How did Jacob Kim respond to the higher operational costs caused by the wage increase at his hardware store?",
+    "answer": "He adjusted prices minimally to cushion the added expenses, and he also streamlined inefficiencies and invested in worker training.",
+    "verbatim": [
+     "adjusted prices minimally to cushion the added expenses"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "Which labor economist at the University of California said the local economy could show a bifurcated reaction to a wage increase?",
+    "answer": "Carmen Huerta",
+    "verbatim": [
+     "Carmen Huerta, a labor economist at the University of California, posited that"
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "What is the purpose of the 'ServiTech' service that Michael Zhao developed?",
+    "answer": "It is an affordable automation service for small to medium-sized restaurants to streamline their operations efficiently.",
+    "verbatim": [
+     "'ServiTech', an affordable automation service for small to medium-sized restaurants to streamline their operations efficiently."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

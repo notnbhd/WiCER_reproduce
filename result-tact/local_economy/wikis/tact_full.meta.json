@@ -1,0 +1,48 @@
+{
+  "method": "tact",
+  "ratio": 0.5,
+  "rho": 0.0,
+  "source_tokens": 91626,
+  "budget_tokens": 45813,
+  "target_tokens": 45813,
+  "actual_tokens": 45797,
+  "actual_ratio_tokens": 0.4998253770763757,
+  "n_claims": 5178,
+  "n_realized": 2696,
+  "coverage": 0.5206643491695635,
+  "n_documents_rendered": 75,
+  "routing": {
+    "T2": {
+      "n_claims": 982,
+      "n_realized": 621,
+      "row_tokens": 14397,
+      "tokens_per_claim": 23.18
+    },
+    "T3a": {
+      "n_claims": 3613,
+      "n_realized": 1561,
+      "row_tokens": 16952,
+      "tokens_per_claim": 10.86
+    },
+    "T3b": {
+      "n_claims": 583,
+      "n_realized": 514,
+      "row_tokens": 7101,
+      "tokens_per_claim": 13.82
+    }
+  },
+  "topic": "local_economy",
+  "name": "tact_full",
+  "source_words": 71136,
+  "actual_words": 32546,
+  "actual_ratio_words": 0.45751799370220425,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 5178,
+    "rejection_rate": 0.0,
+    "n_multispan": 44,
+    "n_relational": 239,
+    "n_contradictions": 29,
+    "entity_collision_rate": 0.0006169031462060457
+  }
+}

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did the Global Freelancers Association release the report saying the gig economy is burgeoning and reshaping career perspectives?",
+    "answer": "October 5, 2023",
+    "verbatim": [
+     "A report released on October 5, 2023, by the Global Freelancers Association (GFA) indicated that the gig economy is not only burgeoning but is also reshaping career perspectives."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "According to Bureau of Labor and Economics data as of November 2023, what share of the U.S. workforce is involved in some form of freelance or gig work?",
+    "answer": "Roughly 36%",
+    "verbatim": [
+     "According to data from the Bureau of Labor and Economics (BLE), as of November 2023, roughly 36% of the U.S. workforce is involved in some form of freelance or gig work."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Why has employing freelance experts enabled TechFin Innovations to stay agile, according to CEO Emily Torres?",
+    "answer": "Because it employs freelance experts on a project basis, which lets the company stay agile and innovative.",
+    "verbatim": [
+     "Employing freelance experts on a project basis has enabled our company to stay agile and innovative."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Where is Julie Gomis, the freelance content writer, based?",
+    "answer": "Senegal",
+    "verbatim": [
+     "Julie Gomis, a freelance content writer based in Senegal, discovered that"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "Which topics does the document say are being debated in the policy conversation about freelancers and make headlines?",
+    "answer": "Healthcare, retirement benefits, and employment rights",
+    "verbatim": [
+     "As debates on healthcare, retirement benefits, and employment rights make headlines, one thing remains clear: freelancing is sidestepping the conventional narrative of what it means to work."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

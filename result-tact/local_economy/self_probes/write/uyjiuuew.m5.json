@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Starting from what date did several regions begin enacting gradual minimum wage increases?",
+    "answer": "After September 1, 2023.",
+    "verbatim": [
+     "commencing after September 1, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What is Dr. Sarah Lin's professional position according to the document?",
+    "answer": "She is a professor of economics at the University of California.",
+    "verbatim": [
+     "Dr. Sarah Lin, a professor of economics at the University of California"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Why are businesses redistributing hours among their staff?",
+    "answer": "To mitigate payroll load.",
+    "verbatim": [
+     "businesses are redistributing hours among staff to mitigate payroll load"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Why do employers often adjust their pay scales beyond the minimum wage workers?",
+    "answer": "To maintain wage hierarchies within their organizations.",
+    "verbatim": [
+     "Employers often adjust their pay scales to maintain wage hierarchies within their organizations"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What do some longitudinal studies indicate happens to the initial shocks to employment levels over time?",
+    "answer": "The initial shocks can level off over time as the market adjusts to the new wage standards.",
+    "verbatim": [
+     "Some longitudinal studies indicate that initial shocks to employment levels can level off over time as the market adjusts to the new wage standards."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

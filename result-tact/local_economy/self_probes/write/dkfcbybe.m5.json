@@ -1,0 +1,54 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Since when have local businesses been increasingly leveraging AI to enhance customer experiences, according to the document?",
+    "answer": "Since September 2023",
+    "verbatim": [
+     "Since September 2023, we've seen a significant uptick in local businesses leveraging AI to enhance customer experiences."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By what percentage did Adam Turner say customer engagement increased after his boutique integrated AI into its online platform?",
+    "answer": "30%",
+    "verbatim": [
+     "we've noticed a 30% increase in customer engagement."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What percentage reduction in time spent resolving customer service issues did the Local Retail Association's November 20, 2023 report find for businesses using chatbots?",
+    "answer": "40%",
+    "verbatim": [
+     "businesses utilizing chatbots have seen a 40% reduction in time spent resolving customer service issues"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "According to e-commerce entrepreneur Emily Chen, what did chatbot integration allow her small team to do during peak seasons?",
+    "answer": "It multiplied their customer service capacity without scaling up human staff, after the team had struggled to keep up with the spike in queries during peak seasons.",
+    "verbatim": [
+     "Before, our small team struggled to keep up with the spike in queries during peak seasons.",
+     "we've multiplied our customer service capacity without scaling up human staff."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "According to IT consultant Michael Gomez, what does a regular-updates-and-training strategy ensure when an interaction goes beyond the chatbot's capabilities?",
+    "answer": "A seamless handover from AI to human",
+    "verbatim": [
+     "This ensures a seamless handover from AI to human when the interaction goes beyond the chatbot's capabilities."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

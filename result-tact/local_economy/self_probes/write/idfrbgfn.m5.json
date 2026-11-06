@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What does a smart city employ digital technology to do?",
+    "answer": "To connect, protect, and enhance the lives of its inhabitants.",
+    "verbatim": [
+     "A smart city employs digital technology to connect, protect, and enhance the lives of its inhabitants."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "By how much did sales increase at Tom's Groceries after it used the insights from its IoT devices, and over what period?",
+    "answer": "Sales rose by 20% within two months.",
+    "verbatim": [
+     "these insights led to a 20% increase in sales within two months."
+    ],
+    "kind": "quantity",
+    "relational": true
+   },
+   {
+    "question": "On what date did Emma Lopez, founder of Eastville Commuter Solutions, celebrate the app's hundred-thousandth download?",
+    "answer": "February 9th.",
+    "verbatim": [
+     "Founder Emma Lopez celebrated the app's hundred-thousandth download on February 9th"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did MedInnovate's CEO, Dr. Rachel Nguyen, emphasize on January 15th?",
+    "answer": "That local partnerships have been central in integrating these technologies into Eastville's healthcare infrastructure.",
+    "verbatim": [
+     "Their CEO, Dr. Rachel Nguyen, emphasized on January 15th how local partnerships have been central in integrating these technologies into Eastville\u2019s healthcare infrastructure."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "How should local governments and economic development agencies address the digital divide, according to the document?",
+    "answer": "Through supportive policies and programs, to ensure a fair and inclusive market evolution.",
+    "verbatim": [
+     "Local governments and economic development agencies must address this through supportive policies and programs to ensure a fair and inclusive market evolution."
+    ],
+    "kind": "process",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

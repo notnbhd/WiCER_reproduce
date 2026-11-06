@@ -1,0 +1,10 @@
+
+[1m== ledger and corpus[0m  (02:46:51)
+ledger: 5321 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha d4b0a38c36ae -- matches
+
+[1m== reader[0m  (02:46:51)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+small_medium_ent           next: 45,278/45,280 tokens (ratio 50.0%) coverage=60.2% 
+small_medium_ent           next: scored 400 (resumed 0)

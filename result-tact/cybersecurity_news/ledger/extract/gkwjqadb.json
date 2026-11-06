@@ -1,0 +1,843 @@
+{
+ "inventory": [
+  "COVID-19 pandemic",
+  "remote work",
+  "Virtual Private Networks (VPNs)",
+  "Rebecca Sutton",
+  "TechSafe Inc.",
+  "David Chen",
+  "SecureNet Solutions",
+  "Man-in-the-Middle (MitM) attacks",
+  "public Wi-Fi networks",
+  "firewall protection",
+  "Jeniffer Lee",
+  "InnovateTech",
+  "AES-256 encryption",
+  "no-logs policy",
+  "CyberGuard360",
+  "Corporate VPN solutions",
+  "consumer-grade services",
+  "CyberTech Research",
+  "remote work policies",
+  "cybersecurity strategy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "COVID-19 pandemic",
+    "relation": "pushed_organizations_to_adopt",
+    "value": "remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The COVID-19 pandemic has irrevocably changed the landscape of work, pushing organizations worldwide to adopt remote work."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "has_advantage",
+    "value": "flexibility and potential cost savings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While this shift has had its advantages in terms of flexibility and potential cost savings"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work",
+    "relation": "introduced",
+    "value": "new vulnerabilities into the world of cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has also introduced new vulnerabilities into the world of cybersecurity"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "emphasized_value_to_safeguard",
+    "value": "companies and their employees from cyber threats",
+    "time": null,
+    "speaker": "Cybersecurity experts",
+    "verbatim": [
+     "Cybersecurity experts have continuously emphasized the value of Virtual Private Networks (VPNs) to safeguard companies and their employees from cyber threats."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "remote work",
+    "relation": "has_become",
+    "value": "the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an era where remote work has become the norm"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote work",
+    "relation": "dangers_recognized_by_businesses",
+    "value": "businesses have become increasingly aware of the dangers that come with this new working model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses have become increasingly aware of the dangers that come with this new working model"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Rebecca Sutton",
+    "relation": "reported",
+    "value": "300% increase in cyber-attacks targeting remote workers",
+    "time": "Since September 2023",
+    "speaker": "Rebecca Sutton",
+    "verbatim": [
+     "Since September 2023, when analyst Rebecca Sutton from TechSafe Inc. reported a 300% increase in cyber-attacks targeting remote workers"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Rebecca Sutton",
+    "relation": "role",
+    "value": "analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "analyst Rebecca Sutton from TechSafe Inc."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Rebecca Sutton",
+    "relation": "affiliated_with",
+    "value": "TechSafe Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "analyst Rebecca Sutton from TechSafe Inc."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "public Wi-Fi networks",
+    "relation": "connected_to_by",
+    "value": "employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees often connect to unsecured public Wi-Fi networks, thus potentially exposing company data"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "public Wi-Fi networks",
+    "relation": "potentially_exposes",
+    "value": "company data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees often connect to unsecured public Wi-Fi networks, thus potentially exposing company data"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "public Wi-Fi networks",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees often connect to unsecured public Wi-Fi networks, thus potentially exposing company data"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "remote work",
+    "relation": "convenience_poses",
+    "value": "significant risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The convenience of logging in from any location poses significant risks"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "firewall protection",
+    "relation": "level_for_employees_working_from_home",
+    "value": "may not have the same level as in an office environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees working from home may not have the same level of firewall protection as in an office environment"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "remote work",
+    "relation": "makes_devices",
+    "value": "an easy target for cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making their devices an easy target for cybercriminals"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "firewall protection",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees working from home may not have the same level of firewall protection as in an office environment, making their devices an easy target for cybercriminals."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "remote work",
+    "relation": "complicated_by",
+    "value": "presence of non-work devices on the same network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The presence of non-work devices on the same network further complicates this issue"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "remote work",
+    "relation": "hackers_can_use_gateway",
+    "value": "infiltrate a personal device and use it as a gateway to access sensitive work-related information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hackers can infiltrate a personal device and use it as a gateway to access sensitive work-related information"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "serves_as",
+    "value": "a secure tunnel between an employee's device and the company's network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A Virtual Private Network serves as a secure tunnel between an employee's device and the company's network."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "encrypts",
+    "value": "data transferred over the internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By encrypting data transferred over the internet"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "ensures",
+    "value": "any information intercepted during transmission is unreadable to unauthorized individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a VPN ensures that any information intercepted during transmission is unreadable to unauthorized individuals"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By encrypting data transferred over the internet, a VPN ensures that any information intercepted during transmission is unreadable to unauthorized individuals."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "David Chen",
+    "relation": "affiliated_with",
+    "value": "SecureNet Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity specialist David Chen of SecureNet Solutions"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "David Chen",
+    "relation": "role",
+    "value": "Cybersecurity specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity specialist David Chen of SecureNet Solutions"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "David Chen",
+    "relation": "highlighted_in",
+    "value": "a seminar",
+    "time": "October 12, 2023",
+    "speaker": "David Chen",
+    "verbatim": [
+     "highlighted in a seminar dated October 12, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "David Chen",
+    "relation": "stated",
+    "value": "VPNs are essential for secure remote work",
+    "time": "October 12, 2023",
+    "speaker": "David Chen",
+    "verbatim": [
+     "while VPNs are essential for secure remote work"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "David Chen",
+    "relation": "stated",
+    "value": "VPNs are often underutilized or improperly configured",
+    "time": "October 12, 2023",
+    "speaker": "David Chen",
+    "verbatim": [
+     "they are often underutilized or improperly configured"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "common_misconception",
+    "value": "once installed, all security concerns are automatically addressed",
+    "time": null,
+    "speaker": "David Chen",
+    "verbatim": [
+     "He notes that a common misconception is that once a VPN is installed, all security concerns are automatically addressed."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "cybersecurity strategy",
+    "relation": "key_components",
+    "value": "regular updates, strict access controls, and employee education",
+    "time": null,
+    "speaker": "David Chen",
+    "verbatim": [
+     "regular updates, strict access controls, and employee education are key components of a comprehensive cybersecurity strategy."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "absence_leaves",
+    "value": "remote workers susceptible to cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without a VPN, remote workers are like ships without a harbor, susceptible to the stormy seas of cyber threats."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Man-in-the-Middle (MitM) attacks",
+    "relation": "can_result_in",
+    "value": "data breaches, financial loss, and damage to a company's reputation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware, phishing, Man-in-the-Middle (MitM) attacks, and other malicious activities can result in data breaches, financial loss, and damage to a company's reputation."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "remote work",
+    "relation": "incident_involved",
+    "value": "a mid-sized retail firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An investigation into a recent incident involving a mid-sized retail firm"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "remote work",
+    "relation": "incident_cause",
+    "value": "a simple phishing email opened on an employee's personal laptop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a simple phishing email opened on an employee's personal laptop led to the compromise of customer payment information"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "remote work",
+    "relation": "incident_result",
+    "value": "compromise of customer payment information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a simple phishing email opened on an employee's personal laptop led to the compromise of customer payment information"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a simple phishing email opened on an employee's personal laptop led to the compromise of customer payment information"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "remote work",
+    "relation": "breach_occurred_on",
+    "value": "November 8, 2023",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This breach, which occurred on November 8, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "could_have_avoided",
+    "value": "the breach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could have been avoided had the company employed a VPN to secure the transaction between the employee's device and the corporate network"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "implementation_hurdle",
+    "value": "ensuring that all employees understand how to use them correctly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the significant hurdles in implementing VPNs is ensuring that all employees understand how to use them correctly."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "CyberGuard360",
+    "relation": "described_as",
+    "value": "security firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security firm CyberGuard360"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "CyberGuard360",
+    "relation": "survey_found",
+    "value": "40% of remote workers admitted to bypassing VPNs for the sake of convenience",
+    "time": "December 2023",
+    "speaker": "CyberGuard360",
+    "verbatim": [
+     "In December 2023, a survey conducted by security firm CyberGuard360 found that 40% of remote workers admitted to bypassing VPNs for the sake of convenience."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "remote work",
+    "relation": "indicates_gap_in",
+    "value": "cybersecurity awareness among remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This indicates a serious gap in cybersecurity awareness among remote workers."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "training_needed",
+    "value": "invest in training employees on the importance of using VPNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies must invest in training employees on the importance of using VPNs and the potential implications of neglecting cybersecurity practices."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "remote work policies",
+    "relation": "should_mandate",
+    "value": "the use of VPNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations should establish clear remote work policies that mandate the use of VPNs and outline consequences for non-compliance."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "remote work policies",
+    "relation": "should_outline",
+    "value": "consequences for non-compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations should establish clear remote work policies that mandate the use of VPNs and outline consequences for non-compliance."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "effectiveness_influenced_by",
+    "value": "strength of encryption, the number of available servers, and the presence of a no-logs policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Factors such as the strength of encryption, the number of available servers, and the presence of a no-logs policy can greatly influence a VPN's effectiveness."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jeniffer Lee",
+    "relation": "role",
+    "value": "IT director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeniffer Lee, the IT director at InnovateTech"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Jeniffer Lee",
+    "relation": "affiliated_with",
+    "value": "InnovateTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeniffer Lee, the IT director at InnovateTech"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jeniffer Lee",
+    "relation": "shares_insights_on",
+    "value": "selecting a VPN provider",
+    "time": "November 20, 2023",
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "Jeniffer Lee, the IT director at InnovateTech, shares her insights from November 20, 2023, about selecting a VPN provider."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jeniffer Lee",
+    "relation": "recommends",
+    "value": "a service that offers AES-256 encryption",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "She recommends choosing a service that offers AES-256 encryption"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "AES-256 encryption",
+    "relation": "recommended_by",
+    "value": "Jeniffer Lee",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "She recommends choosing a service that offers AES-256 encryption"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Jeniffer Lee",
+    "relation": "recommends_service_with",
+    "value": "a robust server network",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "has a robust server network to reduce speed issues"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Jeniffer Lee",
+    "relation": "recommends",
+    "value": "a strict no-logs policy",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "follows a strict no-logs policy to ensure user activity is not recorded."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "no-logs policy",
+    "relation": "ensures",
+    "value": "user activity is not recorded",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "follows a strict no-logs policy to ensure user activity is not recorded."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "no-logs policy",
+    "relation": "in_order_to",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "follows a strict no-logs policy to ensure user activity is not recorded."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jeniffer Lee",
+    "relation": "purpose_of_server_network",
+    "value": "reduce speed issues",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "has a robust server network to reduce speed issues"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jeniffer Lee",
+    "relation": "in_order_to",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": "Jeniffer Lee",
+    "verbatim": [
+     "has a robust server network to reduce speed issues"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Corporate VPN solutions",
+    "relation": "differs_from",
+    "value": "consumer-grade services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corporate VPN solutions may differ from consumer-grade services"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Corporate VPN solutions",
+    "relation": "provides",
+    "value": "additional features tailored for business needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as they provide additional features tailored for business needs"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Corporate VPN solutions",
+    "relation": "features_include",
+    "value": "dedicated IP addresses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as dedicated IP addresses, advanced access controls, and the ability to integrate with existing company security infrastructure"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Corporate VPN solutions",
+    "relation": "features_include",
+    "value": "advanced access controls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as dedicated IP addresses, advanced access controls, and the ability to integrate with existing company security infrastructure"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Corporate VPN solutions",
+    "relation": "features_include",
+    "value": "the ability to integrate with existing company security infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as dedicated IP addresses, advanced access controls, and the ability to integrate with existing company security infrastructure"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "role_in_cybersecurity",
+    "value": "cannot be overstated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of VPNs in ensuring cybersecurity cannot be overstated"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "cornerstone_of",
+    "value": "secure remote connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While VPNs are a cornerstone of secure remote connectivity"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "effectiveness_contingent_on",
+    "value": "responsible use and proper implementation by both employees and employers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their effectiveness is contingent upon responsible use and"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "CyberTech Research",
+    "relation": "report_dated",
+    "value": "January 15, 2024",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A report from CyberTech Research, dated January 15, 2024"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "CyberTech Research",
+    "relation": "estimates",
+    "value": "increased risks of data breaches by up to 70%",
+    "time": "in the coming year",
+    "speaker": "CyberTech Research",
+    "verbatim": [
+     "estimates that companies without robust cybersecurity measures in place, including VPNs, may face increased risks of data breaches by up to 70% in the coming year."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "remote work",
+    "relation": "urgency_underscored",
+    "value": "addressing cybersecurity vulnerabilities associated with remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This statistic underscores the urgency of addressing cybersecurity vulnerabilities associated with remote work."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "is_not",
+    "value": "a onetime fix",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The implementation of VPNs is not a onetime fix but a component of a dynamic strategy that involves continuous monitoring, updating, and educating."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "cybersecurity strategy",
+    "relation": "involves",
+    "value": "continuous monitoring, updating, and educating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a component of a dynamic strategy that involves continuous monitoring, updating, and educating"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "remote work",
+    "relation": "neglect_consequence",
+    "value": "cyber threats that could have been easily prevented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses that neglect this aspect of remote work may find themselves grappling with the consequences of cyber threats that could have been easily prevented."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "remote work",
+    "relation": "growing_concern",
+    "value": "a growing concern that calls for immediate attention and action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The importance of cybersecurity in the context of remote work is a growing concern that calls for immediate attention and action."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "cybersecurity strategy",
+    "relation": "tools_available",
+    "value": "the tools to protect ourselves are at our disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is evident that the tools to protect ourselves are at our disposal"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "remote work",
+    "relation": "decisive_factor",
+    "value": "how effectively we can implement these tools to create a secure and resilient remote working environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The decisive factor will be how effectively we can implement these tools to create a secure and resilient remote working environment."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "cybersecurity strategy",
+    "relation": "requires",
+    "value": "vigilant, proactive, and adaptive approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies must remain vigilant, proactive, and adaptive in their approach to cybersecurity"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

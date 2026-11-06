@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Starting from which month did the frequency and intensity of supply chain interruptions become more pronounced?",
+    "answer": "September 2023",
+    "verbatim": [
+     "Since September 2023, the frequency and intensity of these interruptions have only become more pronounced"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "According to the document, what effect does climate change-induced weather have on supply chains?",
+    "answer": "It wreaks havoc on transport routes and infrastructure, sending shockwaves down the supply chain that jolt local economies worldwide.",
+    "verbatim": [
+     "And we must not forget the havoc that climate change-induced weather events wreak upon transport routes and infrastructure. When extreme weather strikes, it sends shockwaves down the supply chain that invariably jolt local economies worldwide."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What do cloud-based inventory management systems provide to small businesses?",
+    "answer": "Real-time visibility into their inventory levels, along with tools to streamline their processes.",
+    "verbatim": [
+     "Small businesses have increasingly turned towards cloud-based inventory management systems, as they seek tools to streamline their processes and provide real-time visibility into their inventory levels."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "Who is the director of Local Harvest, the community-supported agriculture initiative?",
+    "answer": "Evan Patel",
+    "verbatim": [
+     "The director, Evan Patel, discussed how close-knit relationships with local farmers have insulated them from some of the shocks."
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What strategy does the document say is likely to pay off for small business owners navigating this era of uncertainty?",
+    "answer": "Embracing innovation while fostering community connections.",
+    "verbatim": [
+     "Now more than ever, embracing innovation while fostering community connections is the strategy likely to pay off for small business owners determined to navigate through this era of uncertainty and emerge stronger on the other side."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

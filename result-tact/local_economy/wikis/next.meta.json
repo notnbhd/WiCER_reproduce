@@ -1,0 +1,32 @@
+{
+  "method": "tact",
+  "style": "verbatim",
+  "select": "next",
+  "ratio": 0.5,
+  "rho": 0.0,
+  "source_tokens": 91626,
+  "budget_tokens": 45813,
+  "target_tokens": 45813,
+  "actual_tokens": 45813,
+  "actual_ratio_tokens": 0.5,
+  "n_claims": 5178,
+  "n_realized": 3211,
+  "coverage": 0.6201235998455001,
+  "n_documents_rendered": 80,
+  "n_sentences": 1590,
+  "routing": {},
+  "topic": "local_economy",
+  "name": "next",
+  "source_words": 71136,
+  "actual_words": 35715,
+  "actual_ratio_words": 0.5020664642375169,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 5178,
+    "rejection_rate": 0.0,
+    "n_multispan": 44,
+    "n_relational": 239,
+    "n_contradictions": 29,
+    "entity_collision_rate": 0.0006169031462060457
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "local_economy",
+  "m": 5,
+  "n_probes": 396,
+  "n_raw": 397,
+  "n_rejected": 1,
+  "rejection_rate": 0.0025188916876574307,
+  "n_relational": 108,
+  "kinds": {
+    "attribution": 26,
+    "date": 76,
+    "other": 114,
+    "person": 33,
+    "place": 15,
+    "process": 22,
+    "quantity": 67,
+    "reason": 43
+  },
+  "position_quartiles": [
+    95,
+    112,
+    95,
+    94
+  ],
+  "extracted_with": {
+    "anthropic/claude-haiku-5.5 effort=medium": 80
+  },
+  "usage_this_run": {
+    "model": "anthropic/claude-haiku-5.5",
+    "backend": "openrouter",
+    "effort": "medium",
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "measured_cost_usd": 0.0
+  }
+}

@@ -65,6 +65,12 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     cmds["render"].add_argument("--name", default="tact_iter0")
     cmds["render"].add_argument("--rho", type=float, default=0.10,
                                 help="headroom held back for pins (default: %(default)s)")
+    cmds["render"].add_argument("--style", choices=("typed", "verbatim"), default="typed",
+                                help="typed rows, or the source sentences behind the selected claims")
+    cmds["render"].add_argument("--select", choices=("roundrobin", "next", "density", "paragraph"),
+                                default="roundrobin",
+                                help="verbatim only: entity round-robin (+ the next sentence), "
+                                     "or sentences / paragraphs by claims per token")
     cmds["truncate"].add_argument("--name", default="truncate")
     cmds["probes"].add_argument("--m", type=int, default=5, help="probes per document")
     cmds["probes"].add_argument("--workers", type=int, default=8)
@@ -115,7 +121,8 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
         reader = _reader(profile)
         for topic in args.topic:
             r = render_topic(profile, topic, name=args.name, rho=args.rho,
-                             count_tokens=reader.count_tokens)
+                             count_tokens=reader.count_tokens, style=args.style,
+                             select=args.select)
             m = r.meta
             mix = " ".join(f"{k}={v['n_realized']}/{v['n_claims']}" for k, v in m["routing"].items())
             print(f"{topic:<26} {args.name}: {m['actual_tokens']:,}/{m['target_tokens']:,} tokens "

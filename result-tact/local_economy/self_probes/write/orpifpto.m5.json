@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "When did Maria Gonzalez open her tutoring center?",
+    "answer": "November 2023",
+    "verbatim": [
+     "inaugurated her tutoring center in November 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did Thomas O'Connor's government grant cover for his craft distillery?",
+    "answer": "Equipment costs",
+    "verbatim": [
+     "his craft distillery concept was awarded funds that covered equipment costs."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "Where did George Kostas meet the angel investor who backed his invention?",
+    "answer": "At a local business networking event in December 2023",
+    "verbatim": [
+     "serendipitously met an angel investor at a local business networking event in December 2023"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "What did Alan and Julie Chen do with their life savings?",
+    "answer": "They reinvested them into a farm-to-table restaurant concept.",
+    "verbatim": [
+     "chose to reinvest their life savings into a farm-to-table restaurant concept"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What offsets the high-interest rates of alternative lenders?",
+    "answer": "Their agility and accessibility",
+    "verbatim": [
+     "Their high-interest rates are offset by their agility and accessibility"
+    ],
+    "kind": "reason",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

@@ -1,0 +1,667 @@
+{
+ "inventory": [
+  "autonomous vehicles (AVs)",
+  "Internet of Things (IoT)",
+  "AI",
+  "machine learning",
+  "Dr. Emily Chen",
+  "Dr. David Kwong",
+  "NextGen Mobility",
+  "Lena Ortiz",
+  "intrusion detection systems (IDS)",
+  "Autonomous Vehicle Safety Regulation Bill",
+  "V2V (vehicle-to-vehicle)",
+  "V2I (vehicle-to-infrastructure)",
+  "V2X (vehicle-to-everything)",
+  "Alex Rutherford",
+  "Dr. Adrian Vega",
+  "Automobile Cybersecurity Alliance (ACA)",
+  "Sarah Li",
+  "DriveSafe",
+  "incident response center",
+  "cybersecurity"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "heralds",
+    "value": "a new age in transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The advent of autonomous vehicles (AVs) heralds a new age in transportation"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "promises",
+    "value": "to reshape our cities and usher in unmatched levels of convenience and efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promising to reshape our cities and usher in unmatched levels of convenience and efficiency"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "has_cyber_challenges",
+    "value": "cyber challenges that come hand-in-hand with these emerging technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is crucial to turn the spotlight on the cyber challenges that come hand-in-hand with these emerging technologies"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "AI",
+    "relation": "is_component_of",
+    "value": "a fully autonomous mobility system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a complex interplay of advanced technologies such as AI, machine learning, and the Internet of Things (IoT)"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "machine learning",
+    "relation": "is_component_of",
+    "value": "a fully autonomous mobility system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a complex interplay of advanced technologies such as AI, machine learning, and the Internet of Things (IoT)"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Internet of Things (IoT)",
+    "relation": "is_component_of",
+    "value": "a fully autonomous mobility system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a complex interplay of advanced technologies such as AI, machine learning, and the Internet of Things (IoT)"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "AI",
+    "relation": "facilitates",
+    "value": "smarter vehicular decision-making",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each of these components, while facilitating smarter vehicular decision-making, also opens up a potential gateway for malicious actors."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "AI",
+    "relation": "opens_gateway_for",
+    "value": "malicious actors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each of these components, while facilitating smarter vehicular decision-making, also opens up a potential gateway for malicious actors."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "machine learning",
+    "relation": "opens_gateway_for",
+    "value": "malicious actors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each of these components, while facilitating smarter vehicular decision-making, also opens up a potential gateway for malicious actors."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Internet of Things (IoT)",
+    "relation": "opens_gateway_for",
+    "value": "malicious actors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each of these components, while facilitating smarter vehicular decision-making, also opens up a potential gateway for malicious actors."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Emily Chen",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity expert Dr. Emily Chen"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Emily Chen",
+    "relation": "stated",
+    "value": "The interconnectedness essential for autonomous driving is precisely what escalates cyber risk \u2013 creating a larger attack surface for potential breaches.",
+    "time": "September 15, 2023",
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "The interconnectedness essential for autonomous driving is precisely what escalates cyber risk \u2013 creating a larger attack surface for potential breaches."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "interconnectedness_escalates",
+    "value": "cyber risk",
+    "time": "September 15, 2023",
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "The interconnectedness essential for autonomous driving is precisely what escalates cyber risk"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "creates",
+    "value": "a larger attack surface for potential breaches",
+    "time": "September 15, 2023",
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "creating a larger attack surface for potential breaches"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "what escalates cyber risk \u2013 creating a larger attack surface"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. David Kwong",
+    "relation": "position",
+    "value": "head of AV security at NextGen Mobility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. David Kwong, head of AV security at NextGen Mobility"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "NextGen Mobility",
+    "relation": "employs",
+    "value": "Dr. David Kwong",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. David Kwong, head of AV security at NextGen Mobility"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. David Kwong",
+    "relation": "emphasized_in_keynote",
+    "value": "protecting an autonomous vehicle from cyber threats requires not just a single protective layer but a comprehensive, multilayered approach that encompasses all components of the ecosystem.",
+    "time": "October 1, 2023",
+    "speaker": "Dr. David Kwong",
+    "verbatim": [
+     "protecting an autonomous vehicle from cyber threats requires not just a single protective layer but a comprehensive, multilayered approach that encompasses all components of the ecosystem."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "industry_racing_to_develop",
+    "value": "robust cybersecurity frameworks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the autonomous vehicle industry is racing to develop robust cybersecurity frameworks"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "aims_to_ensure",
+    "value": "the safety of passengers and pedestrians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To ensure the safety of passengers and pedestrians"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "in_order_to",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To ensure the safety of passengers and pedestrians, the autonomous vehicle industry is racing to develop robust cybersecurity frameworks."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "autonomous vehicles (AVs)",
+    "relation": "security_starts_with",
+    "value": "the software embedded in the vehicles themselves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security measures start with the software embedded in the vehicles themselves."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lena Ortiz",
+    "relation": "is_a",
+    "value": "automotive software designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "automotive software designer, Lena Ortiz"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "intrusion detection systems (IDS)",
+    "relation": "tailored_for",
+    "value": "AVs",
+    "time": "November 5, 2023",
+    "speaker": "Lena Ortiz",
+    "verbatim": [
+     "intrusion detection systems (IDS) tailored for AVs"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "intrusion detection systems (IDS)",
+    "relation": "continuously_monitor",
+    "value": "vehicle networks for suspicious activities",
+    "time": "November 5, 2023",
+    "speaker": "Lena Ortiz",
+    "verbatim": [
+     "are continuously monitoring vehicle networks for suspicious activities"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "intrusion detection systems (IDS)",
+    "relation": "compared_to",
+    "value": "a vigilant immune system inside the body",
+    "time": "November 5, 2023",
+    "speaker": "Lena Ortiz",
+    "verbatim": [
+     "much like a vigilant immune system inside the body"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "intrusion detection systems (IDS)",
+    "relation": "built_upon_by",
+    "value": "external protection layers, including secure communication protocols and hardened external interfaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Building upon these systems are external protection layers, including secure communication protocols and hardened external interfaces that safeguard against remote hacking attempts."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Autonomous Vehicle Safety Regulation Bill",
+    "relation": "introduced_on",
+    "value": "December 12, 2023",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Autonomous Vehicle Safety Regulation Bill, introduced on December 12, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Autonomous Vehicle Safety Regulation Bill",
+    "relation": "aims_to_set",
+    "value": "industry-wide standards for cybersecurity in this new era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to set industry-wide standards for cybersecurity in this new era"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "V2V (vehicle-to-vehicle)",
+    "relation": "stands_for",
+    "value": "vehicle-to-vehicle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "V2V (vehicle-tovehicle)"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "V2I (vehicle-to-infrastructure)",
+    "relation": "stands_for",
+    "value": "vehicle-to-infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "V2I (vehicle-to-infrastructure)"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "V2X (vehicle-to-everything)",
+    "relation": "stands_for",
+    "value": "vehicle-to-everything",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "V2X (vehicle-toeverything)"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "cybersecurity",
+    "relation": "extends_beyond",
+    "value": "the vehicles themselves and encompasses the entire network they operate within",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "extends beyond the vehicles themselves and encompasses the entire network they operate within"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Alex Rutherford",
+    "relation": "is_a",
+    "value": "cybersecurity analyst",
+    "time": "January 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "noted cybersecurity analyst, Alex Rutherford, on January 9, 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alex Rutherford",
+    "relation": "stated",
+    "value": "We need to secure the data in transit as well as the data at rest",
+    "time": "January 9, 2024",
+    "speaker": "Alex Rutherford",
+    "verbatim": [
+     "We need to secure the data in transit as well as the data at rest"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "cybersecurity",
+    "relation": "includes",
+    "value": "Encryption technology, secure communication channels, and robust authentication practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encryption technology, secure communication channels, and robust authentication practices are all part of the equation."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "AI",
+    "relation": "instrumental_in",
+    "value": "predicting and preventing cyber incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI and machine learning are instrumental in predicting and preventing cyber incidents."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "machine learning",
+    "relation": "instrumental_in",
+    "value": "predicting and preventing cyber incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI and machine learning are instrumental in predicting and preventing cyber incidents."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Adrian Vega",
+    "relation": "published_paper",
+    "value": "a groundbreaking research paper",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "In a groundbreaking research paper published on February 20, 2024, Dr. Adrian Vega posits"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "machine learning",
+    "relation": "can_identify",
+    "value": "patterns in attack methods",
+    "time": "February 20, 2024",
+    "speaker": "Dr. Adrian Vega",
+    "verbatim": [
+     "machine learning models can identify patterns in attack methods"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "machine learning",
+    "relation": "enables",
+    "value": "pre-emptive action against potential cyber threats",
+    "time": "February 20, 2024",
+    "speaker": "Dr. Adrian Vega",
+    "verbatim": [
+     "enabling pre-emptive action against potential cyber threats"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "machine learning",
+    "relation": "results_in",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "machine learning models can identify patterns in attack methods, enabling pre-emptive action against potential cyber threats"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Automobile Cybersecurity Alliance (ACA)",
+    "relation": "established_on",
+    "value": "March 8, 2024",
+    "time": "March 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Automobile Cybersecurity Alliance (ACA), established on March 8, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Automobile Cybersecurity Alliance (ACA)",
+    "relation": "serves_as",
+    "value": "a testament to the industry's commitment to shared learning and the development of joint security standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as a testament to the industry's commitment to shared learning and the development of joint security standards"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sarah Li",
+    "relation": "is_a",
+    "value": "consumer rights advocate",
+    "time": "April 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "noted consumer rights advocate, Sarah Li, during a town hall meeting on April 3, 2024."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sarah Li",
+    "relation": "stated",
+    "value": "Public trust in AVs will be highly dependent on their safety record, including cyber safety",
+    "time": "April 3, 2024",
+    "speaker": "Sarah Li",
+    "verbatim": [
+     "Public trust in AVs will be highly dependent on their safety record, including cyber safety"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sarah Li",
+    "relation": "spoke_at",
+    "value": "a town hall meeting",
+    "time": "April 3, 2024",
+    "speaker": "Sarah Li",
+    "verbatim": [
+     "during a town hall meeting on April 3, 2024"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "DriveSafe",
+    "relation": "is_a",
+    "value": "AV manufacturer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AV manufacturer, DriveSafe,"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "DriveSafe",
+    "relation": "unveiled",
+    "value": "its state-of-the-art incident response center",
+    "time": "April 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "DriveSafe, unveiled its state-of-the-art incident response center on April 25, 2024"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "incident response center",
+    "relation": "designed_to",
+    "value": "quickly address any cybersecurity breach and minimize impact",
+    "time": "April 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "designed to quickly address any cybersecurity breach and minimize impact"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "incident response center",
+    "relation": "staffed_by",
+    "value": "teams of cyber experts ready to manage potential crises around the clock",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With teams of cyber experts ready to manage potential crises around the clock"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "incident response center",
+    "relation": "is_literal_interpretation_of",
+    "value": "the adage, hope for the best, prepare for the worst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these centers are a literal interpretation of the adage"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "cybersecurity",
+    "relation": "incidents_can_occur_despite",
+    "value": "the most sophisticated security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the most sophisticated security measures, incidents can still occur."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "cybersecurity",
+    "relation": "integral_components",
+    "value": "scenario planning and incident response protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "scenario planning and incident response protocols are integral components of the cybersecurity strategy"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "cybersecurity",
+    "relation": "motivates",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incidents can still occur. That\u2019s why scenario planning and incident response protocols are integral components"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cybersecurity",
+    "relation": "raises",
+    "value": "broader ethical issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The convergence of cybersecurity and autonomous vehicles also raises broader ethical issues."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "cybersecurity",
+    "relation": "requires_balancing",
+    "value": "privacy concerns with security needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Balancing privacy concerns with security needs, and setting the standards for acceptable risk, are responsibilities that manufacturers and policymakers are actively grappling with."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "cybersecurity",
+    "relation": "is",
+    "value": "not a destination but a journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity is not a destination but a journey"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

@@ -1,0 +1,29 @@
+{
+  "topic": "cybersecurity_news",
+  "corpus_sha256": "5fa1b9f9cc5c631a679e61bf28a3ddbafa691ece2d557bf023b0803fb1a71070",
+  "n_documents": 80,
+  "n_claims": 4503,
+  "n_claims_before_merge": 4504,
+  "n_raw": 4505,
+  "n_rejected": 1,
+  "n_multispan": 38,
+  "n_relational": 193,
+  "rejection_rate": 0.00022197558268590456,
+  "n_contradictions": 44,
+  "inventory_size": 1707,
+  "n_canonical_entities": 1527,
+  "entity_collision_rate": 0.0019646365422396855,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "anthropic/claude-haiku-5.5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "anthropic/claude-haiku-5.5",
+    "backend": "openrouter",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 412215,
+    "output_tokens": 1736444,
+    "measured_cost_usd": 0.909443
+  }
+}

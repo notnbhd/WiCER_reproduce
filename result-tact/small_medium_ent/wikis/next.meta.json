@@ -1,0 +1,32 @@
+{
+  "method": "tact",
+  "style": "verbatim",
+  "select": "next",
+  "ratio": 0.5,
+  "rho": 0.0,
+  "source_tokens": 90559,
+  "budget_tokens": 45280,
+  "target_tokens": 45280,
+  "actual_tokens": 45278,
+  "actual_ratio_tokens": 0.4999834362128557,
+  "n_claims": 5321,
+  "n_realized": 3202,
+  "coverage": 0.6017665852283406,
+  "n_documents_rendered": 80,
+  "n_sentences": 1573,
+  "routing": {},
+  "topic": "small_medium_ent",
+  "name": "next",
+  "source_words": 69802,
+  "actual_words": 35181,
+  "actual_ratio_words": 0.5040113463797599,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 5321,
+    "rejection_rate": 0.00150093808630394,
+    "n_multispan": 53,
+    "n_relational": 269,
+    "n_contradictions": 57,
+    "entity_collision_rate": 0.0006211180124223603
+  }
+}

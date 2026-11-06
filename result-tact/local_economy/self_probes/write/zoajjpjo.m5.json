@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "By what percentage have online sales grown year-over-year since 2020, according to the MarketAnalytics report?",
+    "answer": "15%",
+    "verbatim": [
+     "online sales have grown by 15% year-over-year since 2020."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did digital market analyst Roberto Fernandez make his remarks in a webinar?",
+    "answer": "September 21, 2023",
+    "verbatim": [
+     "in a webinar dated September 21, 2023."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What percentage rise in sales does food vendor Rachael Stevens credit to her Instagram feed?",
+    "answer": "A 30% rise in sales",
+    "verbatim": [
+     "Rachael Stevens, a local food vendor, credits her Instagram feed for a 30% rise in sales"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What does the PeopleMetrics survey indicate about the demand for skills in local retail, and what does that demand necessitate?",
+    "answer": "It indicates a growing demand for digital marketing skills within the local retail sector, which necessitates upskilling for many current employees and a change in hiring practices.",
+    "verbatim": [
+     "indicates that there is a growing demand for digital marketing skills within the local retail sector, necessitating upskilling for many current employees and a change in hiring practices."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What does the document say the conversation among local retailers revolves around?",
+    "answer": "Collaboration, innovation, and community engagement",
+    "verbatim": [
+     "the conversation among local retailers revolves around collaboration, innovation, and community engagement"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

@@ -1,0 +1,54 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "By what percentage did workforce participation decrease compared to the previous decade, according to the Bureau of Labor Statistics?",
+    "answer": "4%",
+    "verbatim": [
+     "there has been a 4% decrease in workforce participation compared to the previous decade"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Who is the founder of TechSolutions that said the company had to pivot its message?",
+    "answer": "Michael Peters, Founder of TechSolutions",
+    "verbatim": [
+     "\"We've had to pivot our message,\" says Michael Peters, Founder of TechSolutions."
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What did Blue Dot Media do to streamline its hiring process?",
+    "answer": "It removed unnecessary barriers and creating a more candidate-friendly experience, reducing the number of touchpoints needed to reach a decision.",
+    "verbatim": [
+     "Companies like Blue Dot Media have streamlined their hiring by removing unnecessary barriers and creating a more candidate-friendly experience.",
+     "\"We've reduced the number of touchpoints to reach a decision faster,\""
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What did TechSolutions see after it committed to diversifying its workforce?",
+    "answer": "A growth in innovative ideas",
+    "verbatim": [
+     "TechSolutions, for example, has seen a growth in innovative ideas since it committed to diversifying its workforce."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What does the conclusion call the core assets of small businesses' operations?",
+    "answer": "Their human capital",
+    "verbatim": [
+     "the core assets of their operations \u2013 their human capital"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

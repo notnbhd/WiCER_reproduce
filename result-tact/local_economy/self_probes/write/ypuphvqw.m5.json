@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date was the annual \"How Do You Do, Fellow Kids?\" small business seminar held?",
+    "answer": "September 3, 2023",
+    "verbatim": [
+     "held on September 3, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did Bob's first blog post, \"10 Shocking Benefits of Garlic You Absolutely Must Know!\", get wrong, and on what date was it written?",
+    "answer": "Keyword stuffing overtook coherence; it was dated September 15, 2023.",
+    "verbatim": [
+     "Bob's first attempt at writing a blog dated September 15, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did Susan's email marketing campaign lead to?",
+    "answer": "Mass confusion and a few undelivered serenades, as GPS failed to tell actual locations apart from Susan's metaphysical coordinates.",
+    "verbatim": [
+     "led to mass confusion and a few undelivered serenades as GPS failed to discern between actual locations and"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "How many seconds did Larry's website take to load each page?",
+    "answer": "97 seconds",
+    "verbatim": [
+     "took 97 seconds to load each page"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What bounce rate did Peggy's Google Analytics dashboard show that she was confronted with?",
+    "answer": "98%",
+    "verbatim": [
+     "confronted with her 98% bounce rate"
+    ],
+    "kind": "quantity",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

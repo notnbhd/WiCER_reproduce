@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "According to the November 2023 survey, what share of small business owners said securing financing was their biggest hurdle in the past year?",
+    "answer": "57% of small business owners.",
+    "verbatim": [
+     "According to a survey conducted in November 2023, 57% of small business owners report that their biggest hurdle in the past year was securing financing."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "When did Gonzalez Craftsmanship, Maria Gonzalez's woodworking shop, open its doors?",
+    "answer": "December 2023.",
+    "verbatim": [
+     "Gonzalez Craftsmanship, a boutique woodworking shop that opened its doors in December 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "According to the document, what are the consequences of overstocking and understocking inventory?",
+    "answer": "Overstocking ties up funds, while understocking can lead to lost sales.",
+    "verbatim": [
+     "Efficient inventory management can also have a sizable impact, as overstocking ties up funds, while understocking can lead to lost sales."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Who describes tech tools as democratizing financial management, and what is his role?",
+    "answer": "Ray Carter, an independent financial tech consultant, said tech tools democratize financial management.",
+    "verbatim": [
+     "Ray Carter, an independent financial tech consultant, underscores, \"Tech tools democratize financial management, giving small business owners near-instant insight into their cash position.\""
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "By what percentage were businesses that employ financial advisors more likely to obtain financing, according to the October 2023 survey?",
+    "answer": "18% more likely.",
+    "verbatim": [
+     "A survey from October 2023 suggests that businesses that employ financial advisors are 18% more likely to obtain financing compared to those who don\u2019t."
+    ],
+    "kind": "quantity",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "In which city is Stella Richardson's boutique, Stella's Threads, located?",
+    "answer": "Des Moines",
+    "verbatim": [
+     "in the heart of Des Moines"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "Why has the health food shop OrganoBites built a loyal customer base, according to Jackson Greene?",
+    "answer": "His ability to source local, organic products and engage the local community through health workshops has created the loyal base.",
+    "verbatim": [
+     "Jackson notes that his ability to source local, organic products and engage the local community through health workshops has created a loyal customer base"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "According to economist Katherine Wong, how much more does a dollar spent at a small business contribute to the local economy compared to a dollar spent at a large chain?",
+    "answer": "Thrice more",
+    "verbatim": [
+     "every dollar spent at a small business contributes thrice more to the local economy compared to a dollar spent at a large chain."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Why do small businesses lag in the technology race, as described by retailer Ben Cho?",
+    "answer": "Due to budget constraints.",
+    "verbatim": [
+     "Small businesses lag in the technology race due to budget constraints, as described by veteran retailer Ben Cho in his podcast aired on October 10, 2023."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "On what date did Marie Gonzalez open Marie's Pet Emporium?",
+    "answer": "September 15, 2023",
+    "verbatim": [
+     "Local shop owner Marie Gonzalez of 'Marie's Pet Emporium', opened on September 15, 2023,"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

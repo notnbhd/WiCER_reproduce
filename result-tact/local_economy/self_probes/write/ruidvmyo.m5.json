@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who is the CEO of Superfoods Inc., the company whose Quinoa product is said to help people find their third eye?",
+    "answer": "John Everyman",
+    "verbatim": [
+     "John Everyman, CEO of Superfoods Inc.,"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Who founded the company Gluten-Not?",
+    "answer": "Wendy Wheatless",
+    "verbatim": [
+     "Wendy Wheatless, founder of Gluten-Not,"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "How much does Madam Berry BeetBoost's bottle of mashed beets cost?",
+    "answer": "$12",
+    "verbatim": [
+     "a $12 bottle of mashed beets"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "How many payments does Sir Meditatus Alot's brand require to find nirvana, and how much is each payment?",
+    "answer": "Four payments of $19.99 each.",
+    "verbatim": [
+     "for just four easy payments of $19.99"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Who leads The Sandman Syndicate?",
+    "answer": "Mr. Snoozemaster",
+    "verbatim": [
+     "Led by the enigmatic Mr. Snoozemaster, this group"
+    ],
+    "kind": "person",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

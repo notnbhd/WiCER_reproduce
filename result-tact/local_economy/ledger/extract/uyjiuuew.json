@@ -1,0 +1,806 @@
+{
+ "inventory": [
+  "Dr. Sarah Lin",
+  "John Havens",
+  "Bureau of Labor Statistics",
+  "University of California",
+  "Seattle",
+  "San Francisco",
+  "New York City",
+  "Chicago",
+  "federal government",
+  "minimum wage",
+  "employment patterns",
+  "fast-food industry",
+  "technology",
+  "professional services",
+  "service sector",
+  "restaurants",
+  "retail",
+  "automation",
+  "full-time employment",
+  "part-time employment",
+  "living wage",
+  "urban areas",
+  "rural areas",
+  "larger corporations",
+  "small and medium-sized businesses",
+  "poverty",
+  "income inequality"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "minimum wage",
+    "relation": "enacted_increases_by",
+    "value": "several regions across the nation",
+    "time": "commencing after September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As several regions across the nation have enacted gradual increases in the minimum wage, commencing after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "employment patterns",
+    "relation": "subject_of_questions",
+    "value": "questions about the impact of these policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "questions about the impact of these policies on employment patterns are at the forefront of discussions among business owners, policymakers, and workers alike"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "minimum wage",
+    "relation": "defined_as",
+    "value": "the lowest hourly pay that employers can legally offer their workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Minimum wage is the lowest hourly pay that employers can legally offer their workers"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "minimum wage",
+    "relation": "claimed_to_reduce",
+    "value": "poverty and income inequality",
+    "time": null,
+    "speaker": "Proponents",
+    "verbatim": [
+     "Proponents argue that raising the minimum wage can help reduce poverty and income inequality"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "minimum wage",
+    "relation": "claimed_to_cause",
+    "value": "job losses",
+    "time": null,
+    "speaker": "opponents",
+    "verbatim": [
+     "opponents often claim it could lead to job losses as businesses may struggle to cover higher wage costs"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "minimum wage",
+    "relation": "mechanism",
+    "value": "businesses may struggle to cover higher wage costs",
+    "time": null,
+    "speaker": "opponents",
+    "verbatim": [
+     "businesses may struggle to cover higher wage costs"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "minimum wage",
+    "relation": "mechanism_of",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": "opponents",
+    "verbatim": [
+     "opponents often claim it could lead to job losses as businesses may struggle to cover higher wage costs"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "employment patterns",
+    "relation": "can_be_shifted_by",
+    "value": "the employment landscape dramatically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these policy changes can shift the employment landscape dramatically"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "federal government",
+    "relation": "raised",
+    "value": "the national minimum wage standard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Since the federal government raised the national minimum wage standard"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "minimum wage",
+    "relation": "increased_in_some_areas_by",
+    "value": "more than 30% over previous levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with some areas seeing increases of more than 30% over previous levels"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Seattle",
+    "relation": "breached",
+    "value": "the $15 per hour mark",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of late 2023, cities and states like Seattle, San Francisco, and New York City have breached the $15 per hour mark"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "San Francisco",
+    "relation": "breached",
+    "value": "the $15 per hour mark",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of late 2023, cities and states like Seattle, San Francisco, and New York City have breached the $15 per hour mark"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "New York City",
+    "relation": "breached",
+    "value": "the $15 per hour mark",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of late 2023, cities and states like Seattle, San Francisco, and New York City have breached the $15 per hour mark"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Seattle",
+    "relation": "aims_to_offer",
+    "value": "a living wage to their lowest-paid workers",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "aiming to offer a living wage to their lowest-paid workers"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "San Francisco",
+    "relation": "aims_to_offer",
+    "value": "a living wage to their lowest-paid workers",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "aiming to offer a living wage to their lowest-paid workers"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "New York City",
+    "relation": "aims_to_offer",
+    "value": "a living wage to their lowest-paid workers",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "aiming to offer a living wage to their lowest-paid workers"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Sarah Lin",
+    "relation": "professor_of",
+    "value": "economics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sarah Lin, a professor of economics at the University of California"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Sarah Lin",
+    "relation": "works_at",
+    "value": "University of California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sarah Lin, a professor of economics at the University of California"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "John Havens",
+    "relation": "occupation",
+    "value": "small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Havens, a small business owner in Chicago"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "John Havens",
+    "relation": "business_located_in",
+    "value": "Chicago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Havens, a small business owner in Chicago"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Bureau of Labor Statistics",
+    "relation": "data_shows",
+    "value": "a multifaceted impact on employment patterns",
+    "time": "taken after recent wage increases",
+    "speaker": null,
+    "verbatim": [
+     "Data from the Bureau of Labor Statistics (BLS) taken after recent wage increases shows a multifaceted impact on employment patterns"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "fast-food industry",
+    "relation": "pays_around",
+    "value": "the minimum wage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which traditionally pays around the minimum wage"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "fast-food industry",
+    "relation": "shown",
+    "value": "a slight decline in employment growth rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have shown a slight decline in employment growth rates"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "technology",
+    "relation": "remained_largely_unaffected_in",
+    "value": "terms of employment numbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "industries less affected by minimum wage, such as technology and professional services, have remained largely unaffected in terms of employment numbers"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "professional services",
+    "relation": "remained_largely_unaffected_in",
+    "value": "terms of employment numbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "industries less affected by minimum wage, such as technology and professional services, have remained largely unaffected in terms of employment numbers"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "employment patterns",
+    "relation": "indicates_shifting",
+    "value": "a shifting composition of the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our research indicates a shifting composition of the workforce"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "employment patterns",
+    "relation": "uptick_in",
+    "value": "workers over the age of 25 employed in minimum-wage-paying jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an uptick in the number of workers over the age of 25 employed in minimum-wage-paying jobs"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "minimum wage",
+    "relation": "may_attract",
+    "value": "more experienced workers into positions traditionally filled by younger or less skilled employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "higher minimum wages may be attracting more experienced workers into positions traditionally filled by younger or less skilled employees"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "employment patterns",
+    "relation": "businesses_redistributing",
+    "value": "hours among staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses are redistributing hours among staff"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "employment patterns",
+    "relation": "goal_of_redistribution",
+    "value": "mitigate payroll load",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to mitigate payroll load"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "employment patterns",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses are redistributing hours among staff to mitigate payroll load"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "John Havens",
+    "relation": "reduced_headcount",
+    "value": "no",
+    "time": null,
+    "speaker": "John Havens",
+    "verbatim": [
+     "While I haven't reduced my headcount"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "John Havens",
+    "relation": "cut",
+    "value": "some hours",
+    "time": null,
+    "speaker": "John Havens",
+    "verbatim": [
+     "I\u2019ve had to cut some hours"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "John Havens",
+    "relation": "streamlined",
+    "value": "operations",
+    "time": null,
+    "speaker": "John Havens",
+    "verbatim": [
+     "streamline operations to ensure my business stays profitable"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "John Havens",
+    "relation": "goal_of_streamlining",
+    "value": "ensure my business stays profitable",
+    "time": null,
+    "speaker": "John Havens",
+    "verbatim": [
+     "streamline operations to ensure my business stays profitable"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "John Havens",
+    "relation": "in_order_to",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": "John Havens",
+    "verbatim": [
+     "streamline operations to ensure my business stays profitable"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "service sector",
+    "relation": "includes",
+    "value": "restaurants and retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The service sector, which includes restaurants and retail"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "restaurants",
+    "relation": "part_of",
+    "value": "service sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The service sector, which includes restaurants and retail"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "retail",
+    "relation": "part_of",
+    "value": "service sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The service sector, which includes restaurants and retail"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "service sector",
+    "relation": "offers",
+    "value": "particularly interesting case studies post-increase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers particularly interesting case studies post-increase"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "service sector",
+    "relation": "adapted_by",
+    "value": "investing in automation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some businesses within this sector have adapted by investing in automation"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "automation",
+    "relation": "goal_of_investment",
+    "value": "reduce labor costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in automation to reduce labor costs"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "service sector",
+    "relation": "in_order_to",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some businesses within this sector have adapted by investing in automation to reduce labor costs"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "minimum wage",
+    "relation": "accelerates",
+    "value": "investment in technology",
+    "time": null,
+    "speaker": "Dr. Sarah Lin",
+    "verbatim": [
+     "A rise in the minimum wage often accelerates investment in technology"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "employment patterns",
+    "relation": "may_lead_to",
+    "value": "a more efficient, albeit sometimes smaller, workforce",
+    "time": "in the long run",
+    "speaker": "Dr. Sarah Lin",
+    "verbatim": [
+     "which in the long run, can lead to a more efficient, albeit sometimes smaller, workforce"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "minimum wage",
+    "relation": "results_in",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": "Dr. Sarah Lin",
+    "verbatim": [
+     "A rise in the minimum wage often accelerates investment in technology, which in the long run, can lead to a more efficient, albeit sometimes smaller, workforce"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Bureau of Labor Statistics",
+    "relation": "highlighted",
+    "value": "the proportion of full-time versus part-time employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another trend that the BLS data has highlighted concerns the proportion of full-time versus part-time employment"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "part-time employment",
+    "relation": "offering",
+    "value": "more part-time roles and fewer full-time positions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often offering more part-time roles and fewer full-time positions"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "part-time employment",
+    "relation": "goal_of_staffing_adjustment",
+    "value": "manage increased labor costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to manage increased labor costs"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "part-time employment",
+    "relation": "in_order_to",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering more part-time roles and fewer full-time positions to manage increased labor costs"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "full-time employment",
+    "relation": "has_implications",
+    "value": "significant implications for workers relying on full-time employment benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This can have significant implications for workers relying on full-time employment benefits"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "minimum wage",
+    "relation": "ripple_effects_resulting_in",
+    "value": "wage bumps for workers earning slightly above the new minimum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are observable ripple effects resulting in wage bumps for workers earning slightly above the new minimum"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "minimum wage",
+    "relation": "employers_adjust",
+    "value": "pay scales to maintain wage hierarchies within their organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employers often adjust their pay scales to maintain wage hierarchies within their organizations"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "minimum wage",
+    "relation": "leads_to",
+    "value": "a general wage lift within certain segments of the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a general wage lift within certain segments of the market"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "minimum wage",
+    "relation": "results_in",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employers often adjust their pay scales to maintain wage hierarchies within their organizations, leading to a general wage lift"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "employment patterns",
+    "relation": "not_uniform_across",
+    "value": "all geographies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employment trends in response to minimum wage hikes are not uniform across all geographies"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "urban areas",
+    "relation": "absorb_impacts_more_readily_than",
+    "value": "rural areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban areas with higher costs of living and greater economic diversity seem to absorb the impacts of wage increases more readily than rural areas"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "urban areas",
+    "relation": "has",
+    "value": "higher costs of living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban areas with higher costs of living"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "urban areas",
+    "relation": "has",
+    "value": "greater economic diversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "greater economic diversity"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "employment patterns",
+    "relation": "strong_correlation_with",
+    "value": "the region's economic health and its ability to adapt to higher wage floors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggests a strong correlation between the region's economic health and its ability to adapt to higher wage floors"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "larger corporations",
+    "relation": "have",
+    "value": "more resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger corporations, with more resources"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "larger corporations",
+    "relation": "often_operate_with",
+    "value": "better economies of scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often operating with better economies of scale"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "larger corporations",
+    "relation": "have",
+    "value": "a differing set of responses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have a differing set of responses when compared to their small and medium-sized counterparts"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "small and medium-sized businesses",
+    "relation": "responses_differ_from",
+    "value": "larger corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have a differing set of responses when compared to their small and medium-sized counterparts"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "employment patterns",
+    "relation": "initial_shocks_can_level_off",
+    "value": "initial shocks to employment levels can level off over time",
+    "time": null,
+    "speaker": "Some longitudinal studies",
+    "verbatim": [
+     "Some longitudinal studies indicate that initial shocks to employment levels can level off over time"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "employment patterns",
+    "relation": "monitored_by",
+    "value": "Economists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economists continue to monitor and analyze these evolving employment patterns"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "minimum wage",
+    "relation": "long_term_effects_challenging_to_predict",
+    "value": "challenging to predict",
+    "time": null,
+    "speaker": "Dr. Lin",
+    "verbatim": [
+     "make the long-term effects of minimum wage increases challenging to predict"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Dr. Sarah Lin",
+    "relation": "states_data_can_be",
+    "value": "invaluable in formulating economic models for the future",
+    "time": null,
+    "speaker": "Dr. Lin",
+    "verbatim": [
+     "the data we collect today can be invaluable in formulating economic models for the future"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "minimum wage",
+    "relation": "debate_will_continue",
+    "value": "undoubtedly continue",
+    "time": "Looking ahead",
+    "speaker": null,
+    "verbatim": [
+     "the debate on minimum wage legislation will undoubtedly continue"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "employment patterns",
+    "relation": "clearer_picture_will_emerge",
+    "value": "a clearer picture of the relationship between minimum wage levels and employment trends",
+    "time": "As fresh data emerges and more time passes to see the long-term effects unfold",
+    "speaker": null,
+    "verbatim": [
+     "a clearer picture of the relationship between minimum wage levels and employment trends will emerge"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

@@ -1,0 +1,42 @@
+
+[1m== ledger and corpus[0m  (23:59:06)
+ledger: 5178 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha 4c61ef158c7a -- matches
+
+[1m== reader[0m  (23:59:06)
+
+[1m== starting llama-server[0m  (23:59:06)
+profile=paper  model=models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf  n_ctx=98304  kv=q8_0/q8_0  ngl=99
+llama-server --model models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf --ctx-size 98304 --cache-type-k q8_0 --cache-type-v q8_0 --n-gpu-layers 99 --host 127.0.0.1 --port 8080 --parallel 1 --cont-batching --metrics --flash-attn on
+started pid=7039  log=/root/WiCER/results/server/llama-server-paper.log
+waiting for /health.. ok
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== ledger checks, in reader tokens[0m  (23:59:09)
+local_economy  (held-out answerable questions; tokens: reader)
+  answers   247/247 gold passages located; 100% have a claim behind them, 92% are at least half covered (mean 82%); |A(q)| = 6.06
+  budget    ledger 85,474 tokens = 93% of source, target 41,232 (rho 0.1); 0/80 documents fit whole in their share
+  shape     5178 claims (64.7/doc), 2941 relations, 34% of entities have one relation; routing {'T2': 982, 'T3a': 3613, 'T3b': 583}; relational 239, multi-span 44
+  ledger    rejected 0%, contradictions 29, entity collisions 0%
+
+[1m== rendering[0m  (23:59:25)
+local_economy              tact_iter0: 41,226/41,232 tokens (ratio 45.0%) coverage=46.4% T2=575/982 T3a=1331/3613 T3b=495/583
+local_economy              tact_full: 45,797/45,813 tokens (ratio 50.0%) coverage=52.1% T2=621/982 T3a=1561/3613 T3b=514/583
+local_economy              truncate: 44,626/45,813 tokens (ratio 48.7%)
+
+[1m== answering and judging tact_iter0[0m  (00:00:08)
+local_economy              tact_iter0: scored 400 (resumed 0)
+
+[1m== answering and judging tact_full[0m  (00:07:43)
+local_economy              tact_full: scored 400 (resumed 0)
+
+[1m== answering and judging truncate[0m  (00:15:34)
+local_economy              truncate: scored 400 (resumed 0)
+
+Done. From the laptop:
+
+  WICER_RESULTS_DIR=result-tact scripts/pull_results.sh [user@]host[:port]
+  uv run python -m tact.run compare --topic local_economy
+
+The reader is still running (pid in results/server/llama-server-paper.pid).
+Kill it when you are done.

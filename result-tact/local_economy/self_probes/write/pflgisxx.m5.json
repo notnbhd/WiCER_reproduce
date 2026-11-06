@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What does customer loyalty stem from, according to the document?",
+    "answer": "A client's repeated preference for a particular brand, often due to satisfaction with the product or service, a great customer experience, or emotional connection.",
+    "verbatim": [
+     "Customer loyalty stems from a client's repeated preference for a particular brand, often due to satisfaction with the product or service, a great customer experience, or emotional connection."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did Sam Rodriguez begin using in late 2023 to tailor experiences for his customers?",
+    "answer": "A CRM system.",
+    "verbatim": [
+     "Sam Rodriguez, the owner, began using a CRM system in late 2023 to tailor experiences."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "By how much did James Johnson's points-based reward approach increase membership renewals at JJ's Fitness?",
+    "answer": "35%, over the past year.",
+    "verbatim": [
+     "James' innovative approach has already seen a 35% increase in membership renewals over the past year."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Why did WalkRight pivot towards customization and co-creation?",
+    "answer": "Because the small shoe manufacturer faced a slump in early 2024.",
+    "verbatim": [
+     "When small shoe manufacturer, WalkRight, faced a slump in early 2024, they pivoted towards customization and co-creation."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What does the document say happens to a business's success without a loyal customer base?",
+    "answer": "It is ephemeral.",
+    "verbatim": [
+     "Without a loyal customer base, a business's success is ephemeral."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

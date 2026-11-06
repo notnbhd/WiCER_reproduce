@@ -1,0 +1,29 @@
+{
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Consumers",
+    "relation": "willing_to_pay_more_for_environmentally_friendly_products",
+    "value": "75%",
+    "time": "February 2, 2027",
+    "speaker": null,
+    "verbatim": [
+     "75% of consumers were willing to pay more for environmentally friendly products."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Consumer survey",
+    "relation": "conducted_on",
+    "value": "February 2, 2027",
+    "time": "February 2, 2027",
+    "speaker": null,
+    "verbatim": [
+     "A survey conducted on February 2, 2027, revealed that"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

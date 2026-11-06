@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "When did Maria Gonzales open her eco-friendly apparel store?",
+    "answer": "November 2023",
+    "verbatim": [
+     "Opening her eco-friendly apparel store just in November 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What share of new jobs in communities does the Local Economic Development Association study say small businesses contribute?",
+    "answer": "68% of new jobs in communities",
+    "verbatim": [
+     "small businesses contribute an impressive 68% of new jobs in communities"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Why does Sam Patel say his business can experiment and implement change rapidly?",
+    "answer": "Because they are not bound by corporate red tape.",
+    "verbatim": [
+     "\"We are not bound by corporate red tape,\" Patel highlights, \"which means we can experiment and implement change rapidly.\""
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "When was Lila Wei's coding bootcamp for underprivileged youths launched?",
+    "answer": "December 2023",
+    "verbatim": [
+     "Wei's coding bootcamp for underprivileged youths, launched in December 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What business does Rachel Kim own, and where is it located?",
+    "answer": "An organic grocery chain in San Diego.",
+    "verbatim": [
+     "Rachel Kim, owner of an organic grocery chain in San Diego"
+    ],
+    "kind": "place",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

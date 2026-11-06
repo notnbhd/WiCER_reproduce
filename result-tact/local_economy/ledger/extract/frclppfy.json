@@ -1,0 +1,580 @@
+{
+ "inventory": [
+  "Mayor Jane Smith",
+  "Middleton City",
+  "City of Brookhaven",
+  "Councilman Rajiv Choudhary",
+  "Dr. Susan Park",
+  "Seaview",
+  "Town Treasurer Michael Liu",
+  "city of Highland Park",
+  "cybersecurity expert Omar Akhtar",
+  "Mayor Linda Gomez",
+  "Lakeside",
+  "Treasurer John Doe",
+  "Dockside",
+  "Attorney Sarah Goldberg",
+  "city IT lead Jun Tan",
+  "inter-city blockchain alliance",
+  "blockchain technology",
+  "smart contracts",
+  "P2P (peer-to-peer) network system",
+  "land registry system",
+  "education campaign"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mayor Jane Smith",
+    "relation": "announced_initiative",
+    "value": "an ambitious initiative to integrate blockchain technology into the city\u2019s administrative functions",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mayor Jane Smith of Middleton City announced an ambitious initiative to integrate blockchain technology into the city\u2019s administrative functions"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mayor Jane Smith",
+    "relation": "mayor_of",
+    "value": "Middleton City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Jane Smith of Middleton City"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Middleton City",
+    "relation": "initiative_scope",
+    "value": "from contract bidding to public recordkeeping",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "integrate blockchain technology into the city\u2019s administrative functions, from contract bidding to public recordkeeping"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "blockchain technology",
+    "relation": "is_a",
+    "value": "a distributed database that allows for secure, transparent, and immutable transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Blockchain technology is, at its core, a distributed database that allows for secure, transparent, and immutable transactions."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "blockchain technology",
+    "relation": "described_as",
+    "value": "a ledger that records everything across a network of computers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a ledger that records everything across a network of computers"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "City of Brookhaven",
+    "relation": "employed_blockchain_to_oversee",
+    "value": "city contracts",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "its local government, led by Councilman Rajiv Choudhary, successfully employed blockchain to oversee city contracts"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Councilman Rajiv Choudhary",
+    "relation": "leads",
+    "value": "local government of the City of Brookhaven",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "its local government, led by Councilman Rajiv Choudhary"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "City of Brookhaven",
+    "relation": "eliminated",
+    "value": "back-door dealings",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "effectively eliminating back-door dealings and promoting fair competition"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "City of Brookhaven",
+    "relation": "promoted",
+    "value": "fair competition",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "effectively eliminating back-door dealings and promoting fair competition"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "City of Brookhaven",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "successfully employed blockchain to oversee city contracts, effectively eliminating back-door dealings"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Susan Park",
+    "relation": "is_a",
+    "value": "a renowned computer scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Susan Park, a renowned computer scientist"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Susan Park",
+    "relation": "held_seminar_detailing",
+    "value": "the foundation of blockchain for governance lies in a P2P (peer-to-peer) network system",
+    "time": "October 21, 2023",
+    "speaker": "Dr. Susan Park",
+    "verbatim": [
+     "held a seminar detailing that the foundation of blockchain for governance lies in a P2P (peer-to-peer) network system"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "P2P (peer-to-peer) network system",
+    "relation": "foundation_of",
+    "value": "blockchain for governance",
+    "time": "October 21, 2023",
+    "speaker": "Dr. Susan Park",
+    "verbatim": [
+     "the foundation of blockchain for governance lies in a P2P (peer-to-peer) network system"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "blockchain technology",
+    "relation": "block_structure",
+    "value": "each block contains a timestamp and a link to the previous block",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each block contains a timestamp and a link to the previous block"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Seaview",
+    "relation": "incorporated_blockchain_into",
+    "value": "its financial operations",
+    "time": "Mid-October 2023",
+    "speaker": null,
+    "verbatim": [
+     "the small coastal town of Seaview incorporated blockchain into its financial operations"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Seaview",
+    "relation": "described_as",
+    "value": "a small coastal town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small coastal town of Seaview"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Town Treasurer Michael Liu",
+    "relation": "shared",
+    "value": "the intricate journey of transition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Town Treasurer Michael Liu shared the intricate journey of transition"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Seaview",
+    "relation": "transition_began_with",
+    "value": "choosing the right blockchain public, private, or consortium",
+    "time": null,
+    "speaker": "Town Treasurer Michael Liu",
+    "verbatim": [
+     "which began with choosing the right blockchain public, private, or consortium - based on the size, needs, and privacy requirements of the local government"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Seaview",
+    "relation": "blockchain_choice_based_on",
+    "value": "the size, needs, and privacy requirements of the local government",
+    "time": null,
+    "speaker": "Town Treasurer Michael Liu",
+    "verbatim": [
+     "based on the size, needs, and privacy requirements of the local government"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Defining the governance structure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "1. Defining the governance structure."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Selecting the consensus protocol",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "2. Selecting the consensus protocol."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Identifying the stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "3. Identifying the stakeholders."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Establishing rules and regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "4. Establishing rules and regulations."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Deploying the initial network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "5. Deploying the initial network."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "blockchain technology",
+    "relation": "critical_first_step",
+    "value": "Integrating with existing systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "6. Integrating with existing systems."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "city of Highland Park",
+    "relation": "automated",
+    "value": "land registry system",
+    "time": "November 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the city of Highland Park successfully automated their land registry system"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "smart contracts",
+    "relation": "described_as",
+    "value": "self-executing contracts with the terms of the agreement between buyer and seller directly written into lines of code",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These selfexecuting contracts with the terms of the agreement between buyer and seller directly written into lines of code"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "smart contracts",
+    "relation": "took_center_stage_in",
+    "value": "discussions",
+    "time": "November 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The term 'smart contracts' took center stage in discussions on November 14, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "smart contracts",
+    "relation": "demonstrated_ability_to",
+    "value": "dramatically increase efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrated the ability to dramatically increase efficiency and significantly reduce the likelihood of fraud"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "smart contracts",
+    "relation": "significantly_reduce",
+    "value": "the likelihood of fraud",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly reduce the likelihood of fraud"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "cybersecurity expert Omar Akhtar",
+    "relation": "unveiled_guide_for",
+    "value": "local governments",
+    "time": "In late November",
+    "speaker": null,
+    "verbatim": [
+     "In late November, cybersecurity expert Omar Akhtar unveiled a guide for local governments"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "cybersecurity expert Omar Akhtar",
+    "relation": "guide_covers",
+    "value": "the multi-faceted approach to blockchain security that includes cryptography, transaction validation mechanisms, and network maintenance protocols",
+    "time": "In late November",
+    "speaker": null,
+    "verbatim": [
+     "illuminated the multi-faceted approach to blockchain security that includes cryptography, transaction validation mechanisms, and network maintenance protocols"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "blockchain technology",
+    "relation": "security_is",
+    "value": "the bedrock of blockchain\u2019s appeal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security remains the bedrock of blockchain\u2019s appeal."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Mayor Linda Gomez",
+    "relation": "mayor_of",
+    "value": "Lakeside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Linda Gomez of Lakeside"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Mayor Linda Gomez",
+    "relation": "emphasized",
+    "value": "adopting blockchain technology also entails educating the public",
+    "time": null,
+    "speaker": "Mayor Linda Gomez",
+    "verbatim": [
+     "As authorities like Mayor Linda Gomez of Lakeside emphasize, adopting blockchain technology also entails educating the public."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Lakeside",
+    "relation": "launched",
+    "value": "an education campaign",
+    "time": "In December 2023",
+    "speaker": null,
+    "verbatim": [
+     "In December 2023, Lakeside launched an education campaign"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "education campaign",
+    "relation": "highlights",
+    "value": "how blockchain works and what it means for the day-today lives of residents",
+    "time": "In December 2023",
+    "speaker": null,
+    "verbatim": [
+     "highlighting how blockchain works and what it means for the day-today lives of residents"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Treasurer John Doe",
+    "relation": "treasurer_of",
+    "value": "Dockside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Treasurer John Doe of Dockside"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Treasurer John Doe",
+    "relation": "presented",
+    "value": "an analysis of the costs of implementing blockchain",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Treasurer John Doe of Dockside presented an analysis on December 15, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Treasurer John Doe",
+    "relation": "listed_costs",
+    "value": "software development, hardware procurement, personnel training, and network maintenance",
+    "time": "December 15, 2023",
+    "speaker": "Treasurer John Doe",
+    "verbatim": [
+     "listing out the major costs involved: software development, hardware procurement, personnel training, and network maintenance"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Treasurer John Doe",
+    "relation": "projected",
+    "value": "long-term savings due to decreased paperwork, reduced fraud, and lower operational inefficiencies",
+    "time": null,
+    "speaker": "Treasurer John Doe",
+    "verbatim": [
+     "he projected long-term savings due to decreased paperwork, reduced fraud, and lower operational inefficiencies"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Attorney Sarah Goldberg",
+    "relation": "advised",
+    "value": "local governments to closely follow legal developments concerning blockchain and to engage in active dialogue with regulatory bodies",
+    "time": "January 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Attorney Sarah Goldberg advised local governments on January 10, 2024, to closely follow legal developments concerning blockchain and to engage in active dialogue with regulatory bodies to ensure full legal compliance"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Attorney Sarah Goldberg",
+    "relation": "in_order_to",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to engage in active dialogue with regulatory bodies to ensure full legal compliance"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "blockchain technology",
+    "relation": "measurement_protocols_taking_shape",
+    "value": "protocols for measuring the efficacy of blockchain implementations",
+    "time": "By early 2024",
+    "speaker": null,
+    "verbatim": [
+     "By early 2024, protocols for measuring the efficacy of blockchain implementations started taking shape"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "blockchain technology",
+    "relation": "success_metrics_focus",
+    "value": "transaction speeds, user satisfaction rates, cost savings",
+    "time": "By early 2024",
+    "speaker": null,
+    "verbatim": [
+     "with a focus on metrics such as transaction speeds, user satisfaction rates, cost savings."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "city IT lead Jun Tan",
+    "relation": "expressed",
+    "value": "constructing blockchain systems with scalability in mind",
+    "time": "February 2024",
+    "speaker": "city IT lead Jun Tan",
+    "verbatim": [
+     "as city IT lead Jun Tan expressed in February 2024, to construct blockchain systems with scalability in mind"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "inter-city blockchain alliance",
+    "relation": "formed_on",
+    "value": "March 1, 2024",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the inter-city blockchain alliance formed on March 1, 2024"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "inter-city blockchain alliance",
+    "relation": "can_fuel",
+    "value": "progress and shared pools of resources and knowledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can fuel progress and create shared pools of resources and knowledge"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "blockchain technology",
+    "relation": "signifies",
+    "value": "a reinvention of public trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it marks a reinvention of public trust"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "blockchain technology",
+    "relation": "stands_as",
+    "value": "a beacon of modern governance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "blockchain stands as a beacon of modern governance"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

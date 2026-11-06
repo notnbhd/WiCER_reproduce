@@ -1,0 +1,668 @@
+{
+ "inventory": [
+  "e-commerce",
+  "local retailers",
+  "Main Street",
+  "Dr. Click N. Buy",
+  "digital consumerism",
+  "Boxercise",
+  "logistics companies",
+  "Linda Smith",
+  "window shopping",
+  "Mr. Jones",
+  "Everything's a Dollar More Here",
+  "MegaSave.com",
+  "Terry Quickship",
+  "Black Friday",
+  "Moderate Markdown Madness",
+  "flash sales",
+  "Make Your Own Candle and Then Burn It",
+  "Vegan Taxidermy: An Oxymoron?",
+  "Socrates",
+  "drones",
+  "the economy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Main Street",
+    "relation": "described_as",
+    "value": "a battleground where the scars of war are lease signs and empty windows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Picture Main Street as a battleground where the scars of war are lease signs and empty windows."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local retailers",
+    "relation": "pitted_against",
+    "value": "the invisible colossus of online wonder emporiums",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local retailers are pitted against the invisible colossus of online wonder emporiums"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "e-commerce",
+    "relation": "transformed_shopping_into",
+    "value": "a blood sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The advent of e-commerce has transformed shopping from a mundane task into a blood sport"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "e-commerce",
+    "relation": "offers",
+    "value": "free two-day shipping and an easy return policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "if Goliath not only had superior strength but also free two-day shipping and an easy return policy"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "e-commerce",
+    "relation": "described_as",
+    "value": "a world where convenience reigns supreme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a world where convenience reigns supreme"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Click N. Buy",
+    "relation": "conducted_survey_revealing",
+    "value": "89% of the population now prefers shopping in their pajamas",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, a local survey conducted by the esteemed pollster Dr. Click N. Buy revealed that 89% of the population now prefers shopping in their pajamas over the quaint tradition of putting on actual clothes and leaving the house."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Click N. Buy",
+    "relation": "is_a",
+    "value": "esteemed pollster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the esteemed pollster Dr. Click N. Buy"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "digital consumerism",
+    "relation": "described_as",
+    "value": "unstoppable",
+    "time": null,
+    "speaker": "Dr. Buy",
+    "verbatim": [
+     "The trend towards digital consumerism is unstoppable"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "e-commerce",
+    "relation": "described_as",
+    "value": "the knight in shining armor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "E-commerce, the knight in shining armor"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "e-commerce",
+    "relation": "promises",
+    "value": "a realm where consumer desires are met with unprecedented efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises a realm where consumer desires are met with unprecedented efficiency"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "logistics companies",
+    "relation": "frolic_under",
+    "value": "the weight of millions of cardboard boxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "logistics companies prance around, frolicking under the weight of millions of cardboard boxes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Boxercise",
+    "relation": "is_a",
+    "value": "a new fitness trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "establishment of a new fitness trend known simply as 'Boxercise.'"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Boxercise",
+    "relation": "caused_by",
+    "value": "the sheer volume of packaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sheer volume of packaging has reportedly led to the establishment of a new fitness trend known simply as 'Boxercise.'"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Linda Smith",
+    "relation": "taken_to_standing_outside",
+    "value": "her boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has taken to standing outside her boutique, crooning melodies of sales and in-person customer service"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Linda Smith",
+    "relation": "is_archetype_of",
+    "value": "the small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Localized Lady, the archetype of the small business owner"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Linda Smith",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an attempt to keep up, Localized Lady, the archetype of the small business owner, has taken to standing outside her boutique"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Linda Smith",
+    "relation": "identified_as",
+    "value": "Localized Lady",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Localized Lady, known to her friends as Linda Smith"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Linda Smith",
+    "relation": "decided_to_adopt",
+    "value": "tactics from the e-commerce playbook",
+    "time": "On October 12",
+    "speaker": null,
+    "verbatim": [
+     "On October 12, Localized Lady, known to her friends as Linda Smith, decided to adopt tactics from the e-commerce playbook."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Linda Smith",
+    "relation": "unfolded_sign_reading",
+    "value": "If you can find it online, you can buy it for 10% more here!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She unfolded a cardboard sign that read, \"If you can find it online, you can buy it for 10% more here!\""
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Linda Smith",
+    "relation": "strategy_outcome",
+    "value": "did not have the 'box office' success she had hoped for",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unfortunately, this strategy did not have the 'box office' success she had hoped for."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Linda Smith",
+    "relation": "regales_with_fables_of",
+    "value": "a mythical past where \"people actually touched things before they bought them.\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Linda often regales anyone who would listen with fables of a mythical past where \"people actually touched things before they bought them.\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "window shopping",
+    "relation": "is_name_of",
+    "value": "a tactile process that once had a name now lost to history",
+    "time": null,
+    "speaker": "Linda Smith",
+    "verbatim": [
+     "She claims this tactile process once had a name now lost to history\u2014'window shopping.'"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "window shopping",
+    "relation": "observed_result",
+    "value": "Passersby transfixed in nostalgic admiration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Passersby could be spotted, transfixed in nostalgic admiration."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "MegaSave.com",
+    "relation": "overshadows",
+    "value": "the bustling chatter of negotiation and the dance of deal-making",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The bustling chatter of negotiation and the dance of deal-making are now overshadowed by the 'ping' of yet another notification from MegaSave.com."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Everything's a Dollar More Here",
+    "relation": "employs",
+    "value": "Jones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jones, the legendary cashier at 'Everything's a Dollar More Here' store, spoke on November 5"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mr. Jones",
+    "relation": "works_as",
+    "value": "the legendary cashier at 'Everything's a Dollar More Here' store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jones, the legendary cashier at 'Everything's a Dollar More Here' store, spoke on November 5"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mr. Jones",
+    "relation": "said",
+    "value": "I miss the days when 'checking out' meant more than just a quick glance at someone.",
+    "time": "November 5",
+    "speaker": "Mr. Jones",
+    "verbatim": [
+     "I miss the days when 'checking out' meant more than just a quick glance at someone."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mr. Jones",
+    "relation": "said",
+    "value": "Now it's just a quick swipe or tap.",
+    "time": "November 5",
+    "speaker": "Mr. Jones",
+    "verbatim": [
+     "Now it's just a quick swipe or tap."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mr. Jones",
+    "relation": "spends_time_polishing",
+    "value": "his scanner, yearning for the beep of yesteryear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mr. Jones now spends most of his time polishing his scanner, yearning for the beep of yesteryear."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "flash sales",
+    "relation": "slaughter_prices_in",
+    "value": "a spectacle of gladiatorial markdowns",
+    "time": "In the throes of the holiday season",
+    "speaker": null,
+    "verbatim": [
+     "In the throes of the holiday season, e-commerce websites transform into virtual coliseums where flash sales slaughter prices in a spectacle of gladiatorial markdowns."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "e-commerce",
+    "relation": "transform_into",
+    "value": "virtual coliseums",
+    "time": "In the throes of the holiday season",
+    "speaker": null,
+    "verbatim": [
+     "In the throes of the holiday season, e-commerce websites transform into virtual coliseums"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "e-commerce",
+    "relation": "ads_announce",
+    "value": "Why leave your house when our discounts can come to you?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its ads brazenly announce: \"Why leave your house when our discounts can come to you?\""
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Socrates",
+    "relation": "wouldnt_bother_pondering",
+    "value": "the rhetorical question",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This, of course, is a rhetorical question the likes of which even Socrates wouldn't bother pondering."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "local retailers",
+    "relation": "discount_events_resemble",
+    "value": "a toddler mimicking a sumo wrestler",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local retailer's attempt at discount events often resembles a toddler mimicking a sumo wrestler"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local retailers",
+    "relation": "discount_events_are",
+    "value": "wildly ineffective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adorable effort, but let's face it, wildly ineffective"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Moderate Markdown Madness",
+    "relation": "featured_discounts_of",
+    "value": "up to 10%",
+    "time": "On Black Friday",
+    "speaker": null,
+    "verbatim": [
+     "On Black Friday, we witnessed Localized Lady's 'Moderate Markdown Madness,' which featured discounts of up to 10%."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Linda Smith",
+    "relation": "hosted",
+    "value": "Moderate Markdown Madness",
+    "time": "On Black Friday",
+    "speaker": null,
+    "verbatim": [
+     "On Black Friday, we witnessed Localized Lady's 'Moderate Markdown Madness,'"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "digital consumerism",
+    "relation": "depicted_as",
+    "value": "customers swiped furiously at their screens, chuckling at such a quaint attempt at capitalism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meanwhile, in the digital universe, customers swiped furiously at their screens, chuckling at such a quaint attempt at capitalism."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "local retailers",
+    "relation": "described_as",
+    "value": "dependable tortoises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If local retailers are the dependable tortoises, then e-commerce companies are hares on a caffeine buzz."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "e-commerce",
+    "relation": "described_as",
+    "value": "hares on a caffeine buzz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If local retailers are the dependable tortoises, then e-commerce companies are hares on a caffeine buzz."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local retailers",
+    "relation": "once_lauded_advantage",
+    "value": "immediate possession",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A once lauded advantage\u2014immediate possession\u2014is now scoffed at as 'instant gratification.'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "e-commerce",
+    "relation": "promises",
+    "value": "a gratification so delayed that the thrill of receiving your purchase is akin to a reunion with a long-lost friend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "E-commerce, however, promises a gratification so delayed that the thrill of receiving your purchase is akin to a reunion with a long-lost friend."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Terry Quickship",
+    "relation": "is_a",
+    "value": "an e-commerce delivery driver",
+    "time": "December 3",
+    "speaker": null,
+    "verbatim": [
+     "During an interview on December 3, Terry Quickship, an e-commerce delivery driver, beamed with pride"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Terry Quickship",
+    "relation": "said",
+    "value": "I can\u2019t tell you how many folks seem surprised when I drop off their package only a week after they forgot they ordered it.",
+    "time": "December 3",
+    "speaker": "Terry Quickship",
+    "verbatim": [
+     "I can\u2019t tell you how many folks seem surprised when I drop off their package only a week after they forgot they ordered it."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Terry Quickship",
+    "relation": "said",
+    "value": "It\u2019s like Christmas comes several times a month for them!",
+    "time": "December 3",
+    "speaker": "Terry Quickship",
+    "verbatim": [
+     "It\u2019s like Christmas comes several times a month for them!"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "e-commerce",
+    "relation": "expands",
+    "value": "the e-commerce empire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the e-commerce empire expands"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local retailers",
+    "relation": "retaliated_with",
+    "value": "guerrilla warfare, offering artisanal experiences and handmade goods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some local shops have retaliated with guerrilla warfare, offering artisanal experiences and handmade goods that cry out, \"Can an algorithm do THIS?\""
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Make Your Own Candle and Then Burn It",
+    "relation": "is_a",
+    "value": "interactive workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Interactive workshops like \"Make Your Own Candle and Then Burn It\" and \"Vegan Taxidermy: An Oxymoron?\""
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Vegan Taxidermy: An Oxymoron?",
+    "relation": "is_a",
+    "value": "interactive workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Interactive workshops like \"Make Your Own Candle and Then Burn It\" and \"Vegan Taxidermy: An Oxymoron?\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Make Your Own Candle and Then Burn It",
+    "relation": "lures_customers_back",
+    "value": "some customers back from the depths of their electronic shopping carts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have begun to lure some customers back from the depths of"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Vegan Taxidermy: An Oxymoron?",
+    "relation": "lures_customers_back",
+    "value": "some customers back from the depths of their electronic shopping carts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have begun to lure some customers back from the depths of"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "local retailers",
+    "relation": "may_have_hope",
+    "value": "hope for the small business underdogs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there might just be hope for the small business underdogs yet"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "local retailers",
+    "relation": "victory_could_be",
+    "value": "Pyrrhic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their victory, if it comes, could be Pyrrhic."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "drones",
+    "relation": "will_darken_skies_like",
+    "value": "locusts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Perhaps drones will darken the skies like locusts"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "drones",
+    "relation": "brings",
+    "value": "the promise of immediate gratification full circle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing the promise of immediate gratification full circle."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "e-commerce",
+    "relation": "will_conjure",
+    "value": "new sorcery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we might wonder what new sorcery e-commerce will conjure next"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "the economy",
+    "relation": "described_as",
+    "value": "a great epic with no final chapter, only ever more bizarre plot twists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the great epic that is the economy, there is no final chapter, only ever more bizarre plot twists."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Linda Smith",
+    "relation": "may_break",
+    "value": "the internet with her next big move",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maybe, just maybe, Localized Lady will break the internet with her next big move."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

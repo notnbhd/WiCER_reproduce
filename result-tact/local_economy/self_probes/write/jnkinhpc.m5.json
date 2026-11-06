@@ -1,0 +1,54 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did Louise Martin decide to join forces with Jameson's Bakery?",
+    "answer": "September 3, 2023",
+    "verbatim": [
+     "decided on September 3, 2023, to join forces with Jameson\u2019s Bakery"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By how much did the combined sales of Amelia Foster and Theo S\u00e1nchez's partnership increase within the first two months?",
+    "answer": "30%",
+    "verbatim": [
+     "resulting in a combined increase in sales of 30% within the first two months of the partnership"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "How did Michael Green and Anita Patel overcome their mismatched expectations about workload sharing?",
+    "answer": "They established regular check-ins to ensure alignment in their efforts, and they also adopted collaborative tools for project management and made transparency a priority.",
+    "verbatim": [
+     "establishing regular check-ins to ensure alignment in their efforts",
+     "They adopted collaborative tools for project management and made transparency a priority in their operations"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What was the 'Handmade in Harmony' initiative created to provide for craftspeople?",
+    "answer": "A platform for craftspeople to share resources, co-market their products, and expand their reach.",
+    "verbatim": [
+     "created a platform for craftspeople to share resources, co-market their products, and expand their reach"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What did Sarah Thompson and Raj Mehta partner in January 2024 to launch?",
+    "answer": "A literacy program for underprivileged children in their city.",
+    "verbatim": [
+     "partnered in January 2024 to launch a literacy program for underprivileged children in their city"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

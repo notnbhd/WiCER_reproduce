@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "By what percentage did the number of jobs in solar, wind, and other renewable sources increase compared to the same period in the previous year, according to the Global Renewable Energy Agency?",
+    "answer": "15%",
+    "verbatim": [
+     "the number of jobs within solar, wind, and other renewable sources increased by 15% compared to the same period in the previous year."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Who is the CEO of SunTech Power Inc. who commented on the company's new California facility?",
+    "answer": "Mark Thompson",
+    "verbatim": [
+     "CEO Mark Thompson commented"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "How much money did the U.S. government's Clean Energy Initiative aim to invest in renewable energy projects?",
+    "answer": "$50 billion",
+    "verbatim": [
+     "aimed at investing $50 billion into renewable energy projects."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What did Texas do with its windy plains that led to a job market boom?",
+    "answer": "It turned them into lucrative grounds for wind energy farms, which consequently brought a job market boom.",
+    "verbatim": [
+     "Texas, known for its oil legacy, has turned its windy plains into lucrative grounds for wind energy farms, consequently seeing a job market boom."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What is said to help bridge the transition for workers as the fossil fuel industry downsizes?",
+    "answer": "Retraining programs, which can help bridge the transition to greener energy professions.",
+    "verbatim": [
+     "retraining programs can help bridge the transition to greener energy professions."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

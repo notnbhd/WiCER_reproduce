@@ -1,0 +1,580 @@
+{
+ "inventory": [
+  "Jane Dough",
+  "EcoMasquerade Inc.",
+  "Lucrative Innovations Conference",
+  "Bob Greenroots",
+  "Sir Cashington",
+  "Tina Tumbleleaf",
+  "Chic McFad",
+  "Bronson Peachfuzz",
+  "Jack Naysayer",
+  "Mars",
+  "ice caps",
+  "sustainability",
+  "circular economy",
+  "eco-friendly products",
+  "Infinity-Recyclable Water Bottle Movement",
+  "biodegradable products",
+  "eco-friendly smartphone case",
+  "recycled bottle dress",
+  "organic water bottles",
+  "supermarkets",
+  "fashion industry"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "ice caps",
+    "relation": "allegedly_melting_faster_than",
+    "value": "the last ice cube in a polar bear\u2019s Mojito",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ice caps are allegedly melting faster than the last ice cube in a polar bear\u2019s Mojito"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "sustainability",
+    "relation": "is_latest_marketing_craze",
+    "value": "the latest marketing craze",
+    "time": "from September 2023 onward",
+    "speaker": null,
+    "verbatim": [
+     "has been swept up in the latest marketing craze\u2014sustainability"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "eco-friendly products",
+    "relation": "being_grabbed_off_shelves_by",
+    "value": "newly-converted green thumbed consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're being grabbed off shelves by newly-converted green thumbed consumers"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "eco-friendly products",
+    "relation": "trend_growth",
+    "value": "sprouting up like weeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ecofriendly products are not just sprouting up like weeds"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "eco-friendly products",
+    "relation": "displayed_with",
+    "value": "green labels, nature-inspired fonts, and images of leaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Products are donning green labels, nature-inspired fonts, and images of leaves"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "supermarkets",
+    "relation": "features_on_aisles",
+    "value": "the verdant parade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One stroll down the supermarket aisles these days and you can't help but notice the verdant parade."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jane Dough",
+    "relation": "position",
+    "value": "CEO of EcoMasquerade Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Dough, CEO of EcoMasquerade Inc."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "EcoMasquerade Inc.",
+    "relation": "chief_executive",
+    "value": "Jane Dough",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Dough, CEO of EcoMasquerade Inc."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jane Dough",
+    "relation": "stated",
+    "value": "If it\u2019s green or says 'natural' on the package, it sells.",
+    "time": "October 5, 2023",
+    "speaker": "Jane Dough",
+    "verbatim": [
+     "If it\u2019s green or says 'natural' on the package, it sells."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jane Dough",
+    "relation": "asked_rhetorically",
+    "value": "avocado-toned plastic was the ticket to increased sales",
+    "time": "October 5, 2023",
+    "speaker": "Jane Dough",
+    "verbatim": [
+     "Who knew avocado-toned plastic was the ticket to increased sales?"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Infinity-Recyclable Water Bottle Movement",
+    "relation": "supposedly_recyclable_times",
+    "value": "an infinite number of times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "water bottles that can supposedly be recycled an infinite number of times"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Infinity-Recyclable Water Bottle Movement",
+    "relation": "introduced_at",
+    "value": "Lucrative Innovations Conference",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced at the Lucrative Innovations Conference on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Lucrative Innovations Conference",
+    "relation": "introduced",
+    "value": "water bottles",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced at the Lucrative Innovations Conference on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bob Greenroots",
+    "relation": "role",
+    "value": "keynote speaker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The keynote speaker, Bob Greenroots,"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bob Greenroots",
+    "relation": "declared",
+    "value": "just owning one erases your carbon footprint for life",
+    "time": null,
+    "speaker": "Bob Greenroots",
+    "verbatim": [
+     "Our bottles are so sustainable that just owning one erases your carbon footprint for life!"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Infinity-Recyclable Water Bottle Movement",
+    "relation": "requires_purchase_of_new_bottle",
+    "value": "a new one every month",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you need to buy a new one every month"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Infinity-Recyclable Water Bottle Movement",
+    "relation": "previous_bottle_status",
+    "value": "mysteriously vanished into the eco-ether",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the previous one has mysteriously vanished into the eco-ether"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Infinity-Recyclable Water Bottle Movement",
+    "relation": "caused_by",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you need to buy a new one every month because the previous one has mysteriously vanished into the eco-ether"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "eco-friendly products",
+    "relation": "price_relative_to_counterparts",
+    "value": "often higher than their less sustainable counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the price of eco-friendly goods often higher than their less sustainable counterparts"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sir Cashington",
+    "relation": "last_seen_at",
+    "value": "a press conference",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Last seen at a press conference on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sir Cashington",
+    "relation": "described_as",
+    "value": "profiteer extraordinaire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "profiteer extraordinaire Sir Cashington"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sir Cashington",
+    "relation": "remarked",
+    "value": "green packaging costs more",
+    "time": "December 3, 2023",
+    "speaker": "Sir Cashington",
+    "verbatim": [
+     "Well, you know, green packaging costs more."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sir Cashington",
+    "relation": "stated",
+    "value": "that's what we tell them",
+    "time": "December 3, 2023",
+    "speaker": "Sir Cashington",
+    "verbatim": [
+     "At least, that's what we tell them."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sir Cashington",
+    "relation": "remarked",
+    "value": "Green is the new gold",
+    "time": "December 3, 2023",
+    "speaker": "Sir Cashington",
+    "verbatim": [
+     "Green is the new gold!"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "biodegradable products",
+    "relation": "became",
+    "value": "all the rage",
+    "time": "Just last month",
+    "speaker": null,
+    "verbatim": [
+     "biodegradable products became all the rage"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "biodegradable products",
+    "relation": "decompose_quickly",
+    "value": "often right before your very eyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often right before your very eyes"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Tina Tumbleleaf",
+    "relation": "occupation",
+    "value": "passionate environmental blogger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tina Tumbleleaf, a passionate environmental blogger,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Tina Tumbleleaf",
+    "relation": "opined",
+    "value": "I bought this eco-friendly smartphone case, and it started disintegrating faster than my resolve to use less social media.",
+    "time": "January 8, 2024",
+    "speaker": "Tina Tumbleleaf",
+    "verbatim": [
+     "it started disintegrating faster than my resolve to use less social media"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "eco-friendly smartphone case",
+    "relation": "started_disintegrating_faster_than",
+    "value": "my resolve to use less social media",
+    "time": null,
+    "speaker": "Tina Tumbleleaf",
+    "verbatim": [
+     "it started disintegrating faster than my resolve to use less social media"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Tina Tumbleleaf",
+    "relation": "remarked",
+    "value": "Quite the metaphor",
+    "time": "January 8, 2024",
+    "speaker": "Tina Tumbleleaf",
+    "verbatim": [
+     "Quite the metaphor, no?"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "fashion industry",
+    "relation": "adopted_eco_fabrics",
+    "value": "hemp, bamboo, and even recycled plastic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has leaped onto the green catwalk with eco-friendly fabrics like hemp, bamboo, and even recycled plastic"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "recycled bottle dress",
+    "relation": "price",
+    "value": "$200",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the $200 recycled bottle dress"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "fashion industry",
+    "relation": "cotton_alternative_price",
+    "value": "$20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the $20 cotton one"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chic McFad",
+    "relation": "occupation",
+    "value": "fashion commentator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fashion commentator Chic McFad noted on February 1, 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chic McFad",
+    "relation": "noted",
+    "value": "wearing the equivalent of 50 plastic bottles could be so en vogue",
+    "time": "February 1, 2024",
+    "speaker": "Chic McFad",
+    "verbatim": [
+     "Who knew wearing the equivalent of 50 plastic bottles could be so en vogue?"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "recycled bottle dress",
+    "relation": "equivalent_to",
+    "value": "50 plastic bottles",
+    "time": "February 1, 2024",
+    "speaker": "Chic McFad",
+    "verbatim": [
+     "wearing the equivalent of 50 plastic bottles could be so en vogue"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Chic McFad",
+    "relation": "remarked",
+    "value": "such a modest markup",
+    "time": "February 1, 2024",
+    "speaker": "Chic McFad",
+    "verbatim": [
+     "And at such a modest markup!"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "supermarkets",
+    "relation": "reported_sales_increase",
+    "value": "a 500% increase in sales",
+    "time": "March 3, 2024",
+    "speaker": "supermarkets",
+    "verbatim": [
+     "At the last update on March 3, 2024, supermarkets reported a 500% increase in sales"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "organic water bottles",
+    "relation": "included_in_sales_increase",
+    "value": "500% increase in sales of anything with 'organic' slapped on the label",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "slapped on the label\u2014even those cheeky organic water bottles"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "organic water bottles",
+    "relation": "reason_given",
+    "value": "who knows what kind of hormones are lurking in plain old tap water?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "because who knows what kind of hormones are lurking in plain old tap water?"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Bronson Peachfuzz",
+    "relation": "occupation",
+    "value": "self-proclaimed nutrition guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Bronson Peachfuzz, a self-proclaimed nutrition guru, claims,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Bronson Peachfuzz",
+    "relation": "claimed",
+    "value": "Eating organic adds twenty years to your life and cures most ailments",
+    "time": null,
+    "speaker": "Bronson Peachfuzz",
+    "verbatim": [
+     "Eating organic adds twenty years to your life and cures most ailments."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Bronson Peachfuzz",
+    "relation": "eats",
+    "value": "a lot of organic carrots",
+    "time": null,
+    "speaker": "Bronson Peachfuzz",
+    "verbatim": [
+     "I eat a lot of organic carrots"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Bronson Peachfuzz",
+    "relation": "stated",
+    "value": "I\u2019ve never seen clearer",
+    "time": null,
+    "speaker": "Bronson Peachfuzz",
+    "verbatim": [
+     "I\u2019ve never seen clearer."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "circular economy",
+    "relation": "espoused_as",
+    "value": "we're now embracing a 'circular economy'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s been espoused that we're now embracing a 'circular economy,'"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "circular economy",
+    "relation": "described_as",
+    "value": "products are made, used, recycled, and made anew in a beautiful loop of sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where products are made, used, recycled, and made anew in a beautiful loop of sustainability"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Jack Naysayer",
+    "relation": "occupation",
+    "value": "renowned circular economy skeptic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned circular economy skeptic, Jack Naysayer"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jack Naysayer",
+    "relation": "argued",
+    "value": "Circular economy? More like a roundabout where all exits lead to profit town.",
+    "time": "April 17, 2024",
+    "speaker": "Jack Naysayer",
+    "verbatim": [
+     "Circular economy? More like a roundabout where all exits lead to profit town."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mars",
+    "relation": "settlements_being_planned",
+    "value": "settlements on Mars are being planned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the settlements on Mars are being planned"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "eco-friendly products",
+    "relation": "questioned_whether_saving",
+    "value": "the planet or just our faces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether the eco-friendly products we're investing in are truly saving the planet or just our faces"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

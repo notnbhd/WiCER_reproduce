@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who is the CEO of VirtualMarket, the startup that specializes in immersive shopping experiences?",
+    "answer": "Ana Garc\u00eda",
+    "verbatim": [
+     "Ana Garc\u00eda, CEO of VirtualMarket"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "By how much did Harrison's sales reportedly increase after it integrated its inventory with ShopWorld's platform, and within what period?",
+    "answer": "A 30% increase within the first quarter of 2024",
+    "verbatim": [
+     "the company reported a 30% increase in sales within the first quarter of 2024"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "According to GreenGarden's chief operating officer, what did its online ordering and flexible delivery do for the company besides increasing sales?",
+    "answer": "It strengthened GreenGarden's bond with the community.",
+    "verbatim": [
+     "It has not only increased our sales but also strengthened our bond with the community."
+    ],
+    "kind": "attribution",
+    "relational": true
+   },
+   {
+    "question": "On what date did Olivia Martinez, founder of Tech4Retail, give the interview in which she discussed making technology accessible to local businesses?",
+    "answer": "September 12, 2023",
+    "verbatim": [
+     "In an interview on September 12, 2023, Martinez said"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What does the document say could potentially become the standard as e-commerce and local retail coexist in the future?",
+    "answer": "Hybrid models offering a blend of convenience and experiential shopping",
+    "verbatim": [
+     "Hybrid models offering a blend of convenience and experiential shopping could potentially become the standard."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

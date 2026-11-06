@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Which two retailers were named as pioneers rolling out AR apps for trying on clothes and seeing furniture in homes?",
+    "answer": "Emma's Boutique and The Modern Man Store",
+    "verbatim": [
+     "Retailers such as Emma\u2019s Boutique and The Modern Man Store have been pioneers in this area"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "By what percentage did the Local Economic Development Center's study say customer retention increased for stores using AR?",
+    "answer": "20%",
+    "verbatim": [
+     "noted a 20% increase in customer retention for stores using AR technology"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did Pet Shop Corner launch its AR feature that lets pet owners visualize pet accessories on their pets?",
+    "answer": "November 5, 2023",
+    "verbatim": [
+     "Pet Shop Corner launched an AR feature on November 5, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Who was the city's Chamber of Commerce spokesperson who commented on the adoption of AR by local retailers, and when did they comment?",
+    "answer": "Andrew Liu, on November 30, 2023",
+    "verbatim": [
+     "The city's Chamber of Commerce spokesperson, Andrew Liu, commented on November 30, 2023"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What do the data gathered by AR apps provide retailers, according to the document?",
+    "answer": "Valuable insights into consumer preferences, which let them tailor their offerings and marketing strategies to customers' evolving expectations",
+    "verbatim": [
+     "the data gathered by AR apps provide retailers with valuable insights into consumer preferences, further allowing them to tailor their offerings and marketing strategies to meet the evolving expectations of their customers"
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

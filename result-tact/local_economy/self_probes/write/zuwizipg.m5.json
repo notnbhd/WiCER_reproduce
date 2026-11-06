@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who founded QuickStep Logistics, and when was it founded?",
+    "answer": "Tech entrepreneur Michael Burns founded QuickStep Logistics in October 2023.",
+    "verbatim": [
+     "QuickStep Logistics, founded by tech entrepreneur Michael Burns in October 2023"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "As of November 2023, by how much did retailers working with DigitalPulse report delivery efficiency increasing?",
+    "answer": "Around 25%.",
+    "verbatim": [
+     "As of November 2023, retailers collaborating with DigitalPulse reported an increase in delivery efficiency by around 25%"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Which e-commerce company introduced self-driving delivery vans, and which startup did it work with?",
+    "answer": "ShopFast introduced self-driving delivery vans in collaboration with auto-tech startup DriveAI in December 2023.",
+    "verbatim": [
+     "Ecommerce giant ShopFast introduced its self-driving delivery vans in collaboration with auto-tech startup DriveAI in December 2023"
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "Why are online purchases fulfilled from the nearest store under the 'ship-from-store' model?",
+    "answer": "It shaves hours off delivery time.",
+    "verbatim": [
+     "whereby online purchases are fulfilled directly from the nearest store to the customer's location, shaving hours off delivery time"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Which retail analyst said that experimentation and adaptation is critical in the current phase?",
+    "answer": "Jordan Hayes.",
+    "verbatim": [
+     "\"We're in a phase where experimentation and adaptation is critical,\" says retail analyst Jordan Hayes."
+    ],
+    "kind": "person",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

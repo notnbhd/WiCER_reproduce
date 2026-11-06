@@ -1,0 +1,54 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did Mike Anderson see the grand opening of OfficeWorld near his store?",
+    "answer": "October 5, 2023",
+    "verbatim": [
+     "On October 5, 2023, Mike Anderson, the owner of Anderson\u2019s Stationery",
+     "witnessed the grand opening of OfficeWorld, a national chain, just two blocks from his storefront."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What does Sarah Goldstein say her grocery store has that big corporates often lack?",
+    "answer": "A personal touch and deep community ties.",
+    "verbatim": [
+     "by leveraging what big corporates often lack \u2013 a personal touch and deep community ties."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What type of business does Juan Martinez own?",
+    "answer": "A local bookstore.",
+    "verbatim": [
+     "\"It was a steep learning curve, but we had to adapt,\" shared Juan Martinez, the owner of a local bookstore, on November 2, 2023."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "Why does Amanda Chen say rent increases threaten her business?",
+    "answer": "Rent increases threaten to push her out while she already competes with online stores that have no storefronts and pay pennies for warehouse spaces out of town.",
+    "verbatim": [
+     "Rent increases threaten to push us out when we\u2019re already competing with online stores that have no storefronts and pay pennies for warehouse spaces out of town."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What do community-based alliances and cooperatives allow small businesses to do?",
+    "answer": "Share marketing, pool resources for better buying power, and hold collaborative events to draw in customers.",
+    "verbatim": [
+     "allowing for shared marketing, pooled resources for better buying power, and collaborative events to draw in customers."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

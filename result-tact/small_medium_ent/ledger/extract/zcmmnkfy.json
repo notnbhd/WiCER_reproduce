@@ -1,0 +1,768 @@
+{
+ "inventory": [
+  "Main Street",
+  "local SMEs",
+  "Bob Smith",
+  "Bob's Bicycles",
+  "SWOT Analysis",
+  "new cycle lane",
+  "Cyclo-mania",
+  "Competitive Intelligence",
+  "Sally Jones",
+  "Bubbles and Bliss",
+  "tell me your life story checkout policy",
+  "cool hunter",
+  "Cool Threads",
+  "Jim 'Cool Cat' Thompson",
+  "Ellie 'The Oracle' O'Connor",
+  "Ellie's Eateries",
+  "Google Analytics",
+  "SEO optimization",
+  "social media tracking",
+  "Operation Mystery Shopper",
+  "Linda 'Chameleon' Chan",
+  "multinational corporations"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local SMEs",
+    "relation": "are_playing",
+    "value": "James Bond in the espionage-laden world of market trends",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 3, 2023, and Main Street's local SMEs are not just surviving; they're playing James Bond in the espionage-laden world of market trends."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Main Street",
+    "relation": "home_of",
+    "value": "local SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Main Street's local SMEs"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "local SMEs",
+    "relation": "use",
+    "value": "Competitive analysis techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "And the secret weapon in their arsenal? Competitive analysis techniques that would make even MI6 nod in approval."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "local SMEs",
+    "relation": "include",
+    "value": "neighborhood bakery, florist, and mom-and-pop gadget shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "your neighborhood bakery, florist, and mom-and-pop gadget shop are embroiled in a game of wit and cunning"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bob Smith",
+    "relation": "owns",
+    "value": "Bob's Bicycles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enter Bob Smith, the proud owner of 'Bob's Bicycles', a small local shop"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Bob's Bicycles",
+    "relation": "is_a",
+    "value": "a small local shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Bob's Bicycles', a small local shop"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Bob's Bicycles",
+    "relation": "operating_for",
+    "value": "the last decade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small local shop that's been pedaling... err... peddling its wares for the last decade."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Bob Smith",
+    "relation": "has",
+    "value": "handlebar mustache",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob, with his handlebar mustache (unironic)"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Bob Smith",
+    "relation": "is",
+    "value": "a guru in the dark arts of competitive analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he's also a guru in the dark arts of competitive analysis."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Bob Smith",
+    "relation": "stated",
+    "value": "Margins are tighter than the bolts on a tire",
+    "time": "October 15, 2023",
+    "speaker": "Bob Smith",
+    "verbatim": [
+     "\"Margins are tighter than the bolts on a tire,\" Bob stated on October 15, 2023,"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Bob Smith",
+    "relation": "stated",
+    "value": "You've got to know what the shop down the road is doing\u2014or planning on doing\u2014if you want to keep your wheels spinning.",
+    "time": "October 15, 2023",
+    "speaker": "Bob Smith",
+    "verbatim": [
+     "\"You've got to know what the shop down the road is doing\u2014or planning on doing\u2014if you want to keep your wheels spinning.\""
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Bob Smith",
+    "relation": "conducts",
+    "value": "SWOT Analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By conducting a SWOT Analysis, Bob assesses his Strengths, Weaknesses, Opportunities, and Threats"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "SWOT Analysis",
+    "relation": "assesses",
+    "value": "Strengths, Weaknesses, Opportunities, and Threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By conducting a SWOT Analysis, Bob assesses his Strengths, Weaknesses, Opportunities, and Threats"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bob Smith",
+    "relation": "charts",
+    "value": "internal strengths and weaknesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob begins his intelligence gathering by charting out his business's internal strengths and weaknesses."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bob Smith",
+    "relation": "has",
+    "value": "loyal customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He boasts a loyal customer base that's been around since the last time bell bottoms were cool (the first time)."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Bob Smith",
+    "relation": "customer_base_present_since",
+    "value": "the last time bell bottoms were cool (the first time)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a loyal customer base that's been around since the last time bell bottoms were cool (the first time)."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Bob Smith",
+    "relation": "has_weakness",
+    "value": "disdain for modern technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His disdain for modern technology puts him at a disadvantage"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Bob Smith",
+    "relation": "is_at",
+    "value": "a disadvantage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "puts him at a disadvantage"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Bob Smith",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His disdain for modern technology puts him at a disadvantage"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bob Smith",
+    "relation": "keeps_ledgers",
+    "value": "paper-based",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob's ledgers are as paper-based as a novel from the '90s."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "new cycle lane",
+    "relation": "is_opportunity_for",
+    "value": "his target audience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The new cycle lane is like a neon \"OPEN\" sign beckoning his target audience."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cyclo-mania",
+    "relation": "is",
+    "value": "a new chain store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A new chain store, 'Cyclo-mania', threatens to engulf his clientele"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Cyclo-mania",
+    "relation": "threatens",
+    "value": "his clientele",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A new chain store, 'Cyclo-mania', threatens to engulf his clientele"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Cyclo-mania",
+    "relation": "uses",
+    "value": "predatory pricing and flashy sales tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its predatory pricing and flashy sales tactics that could convince a nun to buy a mountain bike."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Bob Smith",
+    "relation": "compiles_data_on",
+    "value": "competitors' pricing, marketing strategies, and customer service philosophies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he's actually compiling data on his competitors' pricing, marketing strategies, and customer service philosophies."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bob Smith",
+    "relation": "appears_to_be",
+    "value": "adjusting seat heights in his store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob might seem like he's adjusting seat heights in his store"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Bob Smith",
+    "relation": "gathers_intelligence_by",
+    "value": "attending local business events disguised as a curious consumer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By attending local business events disguised as a curious consumer, our very own Bob gathers actionable intelligence."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Bob Smith",
+    "relation": "advises",
+    "value": "Wear a nondescript hat and avoid any shop talk\u2014it's all about the casual reconnaissance.",
+    "time": "November 1, 2023",
+    "speaker": "Bob Smith",
+    "verbatim": [
+     "Here's a tip from Bob dated November 1, 2023: \"Wear a nondescript hat and avoid any shop talk\u2014it's all about the casual reconnaissance.\""
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Competitive Intelligence",
+    "relation": "pursued_by",
+    "value": "our local merchant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Next, our local merchant dives into the murky waters of Competitive Intelligence"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sally Jones",
+    "relation": "is",
+    "value": "business maven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Business maven Sally Jones"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sally Jones",
+    "relation": "runs",
+    "value": "Bubbles and Bliss",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Business maven Sally Jones, who runs a thriving handmade soap empire, 'Bubbles and Bliss,' from a quaint corner shop"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bubbles and Bliss",
+    "relation": "is_a",
+    "value": "a thriving handmade soap empire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a thriving handmade soap empire, 'Bubbles and Bliss,'"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Bubbles and Bliss",
+    "relation": "located_in",
+    "value": "a quaint corner shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from a quaint corner shop"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sally Jones",
+    "relation": "uses",
+    "value": "her charm and an array of enticing scents to 'interrogate' her customers for their deepest desires and doubts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses her charm and an array of enticing scents to 'interrogate' her customers for their deepest desires and doubts."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sally Jones",
+    "relation": "said",
+    "value": "You'd be amazed at what people will share while sniffing lavender-laced soap",
+    "time": "November 20, 2023",
+    "speaker": "Sally Jones",
+    "verbatim": [
+     "\"You'd be amazed at what people will share while sniffing lavender-laced soap,\" Sally quipped on November 20, 2023,"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sally Jones",
+    "relation": "implements",
+    "value": "tell me your life story checkout policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She implements a 'tell me your life story' checkout policy"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "tell me your life story checkout policy",
+    "relation": "nets",
+    "value": "sales and customer insight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that not only nets her sales but also the kind of customer insight that would turn competitors green\u2014with envy, that is."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "cool hunter",
+    "relation": "rise_of_tactic",
+    "value": "the 'cool hunter' tactic",
+    "time": "November",
+    "speaker": null,
+    "verbatim": [
+     "November saw the rise of the 'cool hunter' tactic"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "cool hunter",
+    "relation": "involves",
+    "value": "businesses keeping their ears to the ground for the faintest tremors of changing market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where businesses like 'Cool Threads', a boutique clothing store, keep their ears to the ground for the faintest tremors of changing market trends."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Cool Threads",
+    "relation": "is_a",
+    "value": "a boutique clothing store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Cool Threads', a boutique clothing store"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "owns",
+    "value": "Cool Threads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owner Jim 'Cool Cat' Thompson"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "employs",
+    "value": "a network of teenagers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owner Jim 'Cool Cat' Thompson employs a network of teenagers"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "uses_teenagers_to",
+    "value": "keep tabs on the ever-changing tides of fashion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to keep tabs on the ever-changing tides of fashion."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "describes_teenagers_as",
+    "value": "knowing everything before anyone else does",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a network of teenagers\u2014who, let's face it, know everything before anyone else does\u2014"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "said",
+    "value": "You've got to surf the wave of trends before it crashes",
+    "time": "December 5, 2023",
+    "speaker": "Jim 'Cool Cat' Thompson",
+    "verbatim": [
+     "\"You've got to surf the wave of trends before it crashes,\" Jim advised on December 5, 2023."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jim 'Cool Cat' Thompson",
+    "relation": "recommends",
+    "value": "lurk inconspicuously at skate parks or immerse yourself in social media hashtag hurricanes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His secret? Lurk inconspicuously at skate parks or immerse yourself in social media hashtag hurricanes\u2014all in the name of science, mind you."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local SMEs",
+    "relation": "partly_adopts",
+    "value": "technology",
+    "time": "January 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "technology hasn't been completely shunned by our local SMEnakin Skywalkers."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "champions",
+    "value": "digital analytics",
+    "time": "January 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 10, 2024, Ellie 'The Oracle' O'Connor of 'Ellie's Eateries' champions digital analytics like a true warrior of the web."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "affiliated_with",
+    "value": "Ellie's Eateries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ellie 'The Oracle' O'Connor of 'Ellie's Eateries'"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "uses",
+    "value": "Google Analytics, SEO optimization, and social media tracking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With tools that sound like they've been ripped from the pages of a spy's handbook\u2014Google Analytics, SEO optimization, and social media tracking\u2014she deduces patterns and crafts strategies."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Google Analytics",
+    "relation": "used_by",
+    "value": "Ellie 'The Oracle' O'Connor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Google Analytics, SEO optimization, and social media tracking"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "SEO optimization",
+    "relation": "used_by",
+    "value": "Ellie 'The Oracle' O'Connor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Google Analytics, SEO optimization, and social media tracking"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "social media tracking",
+    "relation": "used_by",
+    "value": "Ellie 'The Oracle' O'Connor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Google Analytics, SEO optimization, and social media tracking"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "deduces",
+    "value": "patterns and crafts strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she deduces patterns and crafts strategies."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "said",
+    "value": "We're mining data like it\u2019s the new gold",
+    "time": null,
+    "speaker": "Ellie 'The Oracle' O'Connor",
+    "verbatim": [
+     "\"We're mining data like it\u2019s the new gold,\" Ellie proclaimed"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Ellie 'The Oracle' O'Connor",
+    "relation": "updates",
+    "value": "menu prices for her caf\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as though she were launching an IPO, not updating menu prices for her caf\u00e9."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Operation Mystery Shopper",
+    "relation": "is_a",
+    "value": "the mystery shopper stratagem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Finally, we have the mystery shopper stratagem"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Operation Mystery Shopper",
+    "relation": "uses",
+    "value": "covert operatives who blend into the consumer milieu with Academy Award-worthy performances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "covert operatives who blend into the consumer milieu with Academy Award-worthy performances."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Linda 'Chameleon' Chan",
+    "relation": "is",
+    "value": "a restaurateur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Linda 'Chameleon' Chan, a restaurateur, swears by this method"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Linda 'Chameleon' Chan",
+    "relation": "uses",
+    "value": "the mystery shopper method to gain unadulterated insight into her competitors' dining experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "swears by this method to gain unadulterated insight into her competitors' dining experiences."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Linda 'Chameleon' Chan",
+    "relation": "sends",
+    "value": "her best people in as customers to 'taste test' the competition",
+    "time": "January 20, 2024",
+    "speaker": "Linda 'Chameleon' Chan",
+    "verbatim": [
+     "I send my best people in as customers to 'taste test' the competition."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Linda 'Chameleon' Chan",
+    "relation": "said",
+    "value": "They're like gastronomic James Bonds; their martinis shaken, not stirred, and their feedback priceless",
+    "time": "January 20, 2024",
+    "speaker": "Linda 'Chameleon' Chan",
+    "verbatim": [
+     "\"I send my best people in as customers to 'taste test' the competition. They're like gastronomic James Bonds; their martinis shaken, not stirred, and their feedback priceless,\" Linda detailed on January 20, 2024,"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Linda 'Chameleon' Chan",
+    "relation": "stirred",
+    "value": "her own martini",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "as she stirred her own martini\u2014stirred, nonetheless."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "local SMEs",
+    "relation": "compete_against",
+    "value": "multinational corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping local SMEs hold their own against multinational corporations."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "local SMEs",
+    "relation": "have",
+    "value": "an armory of intelligence-gathering tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our Davids have not just slingshots, but an armory of intelligence-gathering tactics"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "local SMEs",
+    "relation": "bob_and_weave_through",
+    "value": "the market's punches with the finesse of a ballet dancer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to bob and weave through the market's punches with the finesse of a ballet dancer."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "local SMEs",
+    "relation": "results_in",
+    "value_ref": "c66",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an armory of intelligence-gathering tactics, allowing them to bob and weave through the market's punches"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

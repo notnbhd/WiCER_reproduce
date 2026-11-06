@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "After what date were the recent minimum wage increases implemented?",
+    "answer": "After September 1, 2023",
+    "verbatim": [
+     "implemented after September 1, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What is Emily Chen's position at The Marigold Hotel?",
+    "answer": "GM (general manager) at The Marigold Hotel",
+    "verbatim": [
+     "Emily Chen, GM at The Marigold Hotel, shares her perspective"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Why have employee departures dipped in sectors like retail and hospitality after the minimum wage hikes?",
+    "answer": "Because workers find more value in retaining their positions",
+    "verbatim": [
+     "sectors with historical higher turnovers, such as retail and hospitality, have seen a slight dip in employee departures post-minimum wage hikes, as workers find more value in retaining their positions"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What dual approach have delivery apps adopted to stay nimble amid changing cost structures?",
+    "answer": "Fostering a combination of independent contractors and salaried workers",
+    "verbatim": [
+     "fostering a combination of independent contractors and salaried workers"
+    ],
+    "kind": "process",
+    "relational": false
+   },
+   {
+    "question": "According to the report, what factors does the continuing assessment of wages involve?",
+    "answer": "How wages intersect with market demands, cost of living, and society's valuation of labor",
+    "verbatim": [
+     "how wages intersect with market demands, cost of living, and ultimately, society's valuation of labor"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

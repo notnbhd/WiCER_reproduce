@@ -1,0 +1,54 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "How is a smart contract defined in the document?",
+    "answer": "A self-executing contract with the terms of the agreement between buyer and seller directly written into lines of code.",
+    "verbatim": [
+     "Simply put, a smart contract is a self-executing contract with the terms of the agreement between buyer and seller directly written into lines of code."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did Sarah Miller share her experience at the Local Business Blockchain Forum?",
+    "answer": "December 15, 2023.",
+    "verbatim": [
+     "On December 15, 2023, Sarah Miller, the owner of Miller's Orchard, shared her experience with smart contracts during the Local Business Blockchain Forum."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "At which conference did local real estate agent John Davison speak about smart contracts?",
+    "answer": "The Urban Development Digital Conference.",
+    "verbatim": [
+     "in an informative session on September 10, 2023, local real estate agent John Davison illustrated this transformation while speaking at the Urban Development Digital Conference."
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "Which blockchain identity startup worked with the local government on the October 1, 2023 pilot program?",
+    "answer": "VeriChain.",
+    "verbatim": [
+     "In a pilot program launched on October 1, 2023, by the local government in collaboration with VeriChain, a blockchain identity startup"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "Why does the document say a reliable development and audit process is crucial for smart contracts?",
+    "answer": "Because smart contracts are not immune to flaws if the coding is not perfect, so an audit process is needed to ensure they do what they are intended to do.",
+    "verbatim": [
+     "Moreover, while smart contracts can minimize human error, they are not immune to flaws if the coding is not perfect.",
+     "This makes it crucial for stakeholders to have a reliable development and audit process to ensure that the contracts do what they are intended to do."
+    ],
+    "kind": "reason",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

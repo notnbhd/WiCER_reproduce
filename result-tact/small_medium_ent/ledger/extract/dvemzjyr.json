@@ -1,0 +1,786 @@
+{
+ "inventory": [
+  "SMEs",
+  "local consumer behavior",
+  "Dr. Emily Tran",
+  "Google Analytics",
+  "customer relationship management (CRM) systems",
+  "Microsoft Power BI",
+  "Tableau",
+  "predictive analytics",
+  "Hootsuite Insights",
+  "Brandwatch",
+  "Sandra's Boutique",
+  "eco-friendly clothing line",
+  "HubSpot",
+  "Mailchimp",
+  "Google My Business Insights",
+  "AI and machine learning",
+  "TensorFlow",
+  "real-time dashboards and alerts",
+  "Zoho Analytics",
+  "beacons",
+  "point-of-sale (POS) systems",
+  "Local search engine optimization (SEO)",
+  "SEMRush",
+  "Moz Local",
+  "agile marketing methods",
+  "big data"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "SMEs",
+    "relation": "affected_by",
+    "value": "changes in consumer behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "changes in consumer behavior can have far-reaching impacts on small and medium-sized enterprises (SMEs)"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "SMEs",
+    "relation": "role",
+    "value": "backbone of local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs constitute the backbone of local economies"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "SMEs",
+    "relation": "faces_challenge",
+    "value": "staying abreast of shifts in consumer preferences and market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they often face challenges in staying abreast of shifts in consumer preferences and market trends"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "local consumer behavior",
+    "relation": "new_wave_surfaced",
+    "value": "a new wave of consumer behaviors",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we pass the threshold of September 2023, a new wave of consumer behaviors has surfaced"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "SMEs",
+    "relation": "necessitated_to",
+    "value": "adapt swiftly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "necessitating SMEs to adapt swiftly"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local consumer behavior",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we pass the threshold of September 2023, a new wave of consumer behaviors has surfaced",
+     "necessitating SMEs to adapt swiftly"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "SMEs",
+    "relation": "currently_leverage",
+    "value": "strategies and analytical tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This article delves into the strategies and analytical tools that SMEs are currently leveraging to navigate these changes effectively"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local consumer behavior",
+    "relation": "undergone",
+    "value": "significant transformations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local consumer behavior has undergone significant transformations"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local consumer behavior",
+    "relation": "transformations_caused_by",
+    "value": "technological advancements, economic shifts, and global events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the wake of technological advancements, economic shifts, and global events"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Tran",
+    "relation": "led_study",
+    "value": "study",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a study led by Dr. Emily Tran on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "local consumer behavior",
+    "relation": "finding",
+    "value": "the average consumer is now more inclined towards online shopping, sustainable practices, and prefers personalized experiences over generic interactions",
+    "time": "October 5, 2023",
+    "speaker": "Dr. Emily Tran",
+    "verbatim": [
+     "it was found that the average consumer is now more inclined towards online shopping, sustainable practices, and prefers personalized experiences over generic interactions"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "SMEs",
+    "relation": "prompted_to_reconsider",
+    "value": "operational and marketing strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift has prompted many SMEs to reconsider their operational and marketing strategies"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "local consumer behavior",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift has prompted many SMEs to reconsider their operational and marketing strategies"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "SMEs",
+    "relation": "must_continuously_gather_and_analyze",
+    "value": "data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must continuously gather and analyze data"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Google Analytics",
+    "relation": "popular_among",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like Google Analytics have become increasingly popular among SMEs for tracking online consumer behavior"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Google Analytics",
+    "relation": "used_for",
+    "value": "tracking online consumer behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for tracking online consumer behavior"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "customer relationship management (CRM) systems",
+    "relation": "provide",
+    "value": "valuable data for offline analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sales and customer relationship management (CRM) systems provide valuable data for offline analytics"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "big data",
+    "relation": "seems_overwhelming_to",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "big data can seem overwhelming for SMEs due to resource constraints"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "big data",
+    "relation": "caused_by",
+    "value": "resource constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to resource constraints"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "predictive analytics",
+    "relation": "involves",
+    "value": "using historical data to predict future trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "predictive analytics \u2013 which involves using historical data to predict future trends"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "predictive analytics",
+    "relation": "simplified_through",
+    "value": "user-friendly tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are being simplified through user-friendly tools"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Microsoft Power BI",
+    "relation": "used_by_SMEs_to",
+    "value": "visualize and anticipate market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are using platforms like Microsoft Power BI and Tableau to visualize and anticipate market trends without the need for advanced data science expertise"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Tableau",
+    "relation": "used_by_SMEs_to",
+    "value": "visualize and anticipate market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are using platforms like Microsoft Power BI and Tableau to visualize and anticipate market trends without the need for advanced data science expertise"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Microsoft Power BI",
+    "relation": "requires_no",
+    "value": "advanced data science expertise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "without the need for advanced data science expertise"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Tableau",
+    "relation": "requires_no",
+    "value": "advanced data science expertise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "without the need for advanced data science expertise"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Hootsuite Insights",
+    "relation": "used_as",
+    "value": "social listening tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are turning to social listening tools like Hootsuite Insights and Brandwatch"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Brandwatch",
+    "relation": "used_as",
+    "value": "social listening tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are turning to social listening tools like Hootsuite Insights and Brandwatch"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "SMEs",
+    "relation": "gauge_consumer_attitudes_by",
+    "value": "tracking mentions, keywords, and hashtags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By tracking mentions, keywords, and hashtags relevant to their businesses, they can gauge consumer attitudes and respond promptly"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sandra's Boutique",
+    "relation": "described_as",
+    "value": "a local clothing retailer",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20, 2023, a local clothing retailer, Sandra's Boutique, made headlines by"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sandra's Boutique",
+    "relation": "launched",
+    "value": "an eco-friendly clothing line",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launching an eco-friendly clothing line in response to a surge in environmental conversations captured through its social listening efforts"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sandra's Boutique",
+    "relation": "launched_in_response_to",
+    "value": "a surge in environmental conversations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in response to a surge in environmental conversations captured through its social listening efforts"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "SMEs",
+    "relation": "use_technique",
+    "value": "advanced segmentation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Advanced segmentation is another technique SMEs are using to refine their marketing"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "SMEs",
+    "relation": "tailor_offerings_by",
+    "value": "dividing their target market into distinct groups based on behavior, preferences, or demographics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By dividing their target market into distinct groups based on behavior, preferences, or demographics, businesses can tailor their offerings and communications"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "HubSpot",
+    "relation": "offers",
+    "value": "segmentation tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Platforms like HubSpot and Mailchimp offer segmentation tools that allow for enhanced personalization in email marketing campaigns"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Mailchimp",
+    "relation": "offers",
+    "value": "segmentation tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Platforms like HubSpot and Mailchimp offer segmentation tools that allow for enhanced personalization in email marketing campaigns"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local consumer behavior",
+    "relation": "majority_use_mobile_devices_to",
+    "value": "search and shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the majority of consumers using mobile devices to search and shop"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "SMEs",
+    "relation": "focusing_on",
+    "value": "optimizing for mobile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are focusing on optimizing for mobile"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "SMEs",
+    "relation": "need_location_based_insights_to",
+    "value": "attract local clientele",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "location-based insights are crucial for SMEs looking to attract local clientele"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Google My Business Insights",
+    "relation": "shows",
+    "value": "how local consumers discover and interact with their listings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By leveraging tools like Google My Business Insights, SMEs gain understanding of how local consumers discover and interact with their listings"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "SMEs",
+    "relation": "experimenting_with",
+    "value": "AI and machine learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are also experimenting with AI and machine learning to stay competitive"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "AI and machine learning",
+    "relation": "early_applications",
+    "value": "predictive analytics and customer service chatbots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Predictive analytics and customer service chatbots are just the beginning"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "TensorFlow",
+    "relation": "making_ai_more_accessible_to",
+    "value": "smaller businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools such as TensorFlow and others are making AI more accessible to smaller businesses"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "TensorFlow",
+    "relation": "allows_prediction_of",
+    "value": "consumer behaviors based on nuanced patterns that would be impossible to detect manually",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to predict consumer behaviors based on nuanced patterns that would be impossible to detect manually"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "SMEs",
+    "relation": "acting_on_real_time_data_is",
+    "value": "daunting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For SMEs, acting on real-time data can be daunting due to the rapid nature of consumer behavior changes"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "SMEs",
+    "relation": "daunting_due_to",
+    "value": "the rapid nature of consumer behavior changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to the rapid nature of consumer behavior changes"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "real-time dashboards and alerts",
+    "relation": "recommended_as",
+    "value": "effective strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Effective strategies include setting up real-time dashboards and alerts"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Zoho Analytics",
+    "relation": "aids_in_setting_up",
+    "value": "real-time dashboards and alerts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like Zoho Analytics aid in setting up such functionalities"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Zoho Analytics",
+    "relation": "helps_businesses_react_to",
+    "value": "data as it comes in without delay",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping businesses react to data as it comes in without delay"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "local consumer behavior",
+    "relation": "is_easier_to_track",
+    "value": "online behaviour",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While online behaviour is easier to track"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "SMEs",
+    "relation": "aware_that",
+    "value": "offline insights are equally important",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are aware that offline insights are equally important"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "local consumer behavior",
+    "relation": "more_comprehensive_view_from",
+    "value": "combining online data with in-store analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Combining online data with in-store analytics provides a more comprehensive view of customer behavior"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "beacons",
+    "relation": "help_track",
+    "value": "in-store behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technologies like beacons and point-of-sale (POS) systems help in tracking in-store behavior"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "point-of-sale (POS) systems",
+    "relation": "help_track",
+    "value": "in-store behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technologies like beacons and point-of-sale (POS) systems help in tracking in-store behavior"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "point-of-sale (POS) systems",
+    "relation": "yields_data",
+    "value": "data that, when analyzed alongside online analytics, provides a more complete picture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yielding data that, when analyzed alongside online analytics, provides a more complete picture"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Local search engine optimization (SEO)",
+    "relation": "has_become_priority_for",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local search engine optimization (SEO) has become a priority for SMEs aiming to attract local customers"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "SEMRush",
+    "relation": "helps_understand",
+    "value": "what local customers are searching for",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like SEMRush and Moz Local help businesses understand what local",
+     "customers are searching for"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Moz Local",
+    "relation": "helps_understand",
+    "value": "what local customers are searching for",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like SEMRush and Moz Local help businesses understand what local",
+     "customers are searching for"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "SEMRush",
+    "relation": "allows_tailoring_of",
+    "value": "their online content for improved visibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to tailor their online content for improved visibility"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Moz Local",
+    "relation": "allows_tailoring_of",
+    "value": "their online content for improved visibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to tailor their online content for improved visibility"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Local search engine optimization (SEO)",
+    "relation": "more_crucial_than_ever",
+    "value": "more crucial than ever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focusing on local SEO is more crucial than ever"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Local search engine optimization (SEO)",
+    "relation": "crucial_because",
+    "value": "online searches increasingly include phrases like \"near me\" or \"in [location]\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As online searches increasingly include phrases like \"near me\" or \"in [location],\" focusing on local SEO is more crucial than ever."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "SMEs",
+    "relation": "learned_that",
+    "value": "agility is key in adapting to consumer behavior shifts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs have learned that agility is key in adapting to consumer behavior shifts"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "SMEs",
+    "relation": "eschewing",
+    "value": "rigid, long-term plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are eschewing rigid, long-term plans for more dynamic strategies"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "agile marketing methods",
+    "relation": "enable",
+    "value": "SMEs to respond to consumer behavior changes promptly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Agile marketing methods enable SMEs to respond to consumer behavior changes promptly"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "predictive analytics",
+    "relation": "incorporation_described_as",
+    "value": "necessities for the survival and growth of SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incorporation of real-time data analysis, predictive analytics, and agile marketing strategies are not just trends, but necessities for the survival and growth of SMEs in the fast-paced market of today's economy"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "SMEs",
+    "relation": "adaptability_requisite_trait_for",
+    "value": "maintain relevance and success in their respective local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adaptability is no longer a choice but a requisite trait for SMEs aiming to maintain relevance and success in their respective local markets"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "SMEs",
+    "relation": "must_remain_vigilant_in",
+    "value": "deploying a variety of analytical tools and techniques to stay ahead",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must remain vigilant in deploying a variety of analytical tools and techniques to stay ahead"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "local consumer behavior",
+    "relation": "continues_to_evolve",
+    "value": "evolving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As local consumer behaviors continue to evolve"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who owns 'The Cozy Corner', the bookshop-cum-caf\u00e9 in the city?",
+    "answer": "Sarah Jennings",
+    "verbatim": [
+     "Sarah Jennings, owner of 'The Cozy Corner'"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Why did Tom Grant host workshops and interactive sessions at his October Plant Fest?",
+    "answer": "To promote a sense of community around his business and let customers engage with it more intimately, which fostered loyalty.",
+    "verbatim": [
+     "He curated workshops and interactive sessions that brought together plant lovers and newbies alike, promoting a sense of community around his business."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did Jessica Lopez send with each purchase at 'Bella Couture'?",
+    "answer": "Hand-written 'thank you' notes",
+    "verbatim": [
+     "sending hand-written 'thank you' notes with each purchase"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did 'The Cozy Corner' unveil its customer loyalty program?",
+    "answer": "January 20th, 2024",
+    "verbatim": [
+     "on January 20th, 2024, we saw 'The Cozy Corner' unveil a customer loyalty program"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why did Tom Grant introduce eco-friendly products at 'Green Thumbs Nurseries' in March?",
+    "answer": "It spoke to his customers' growing environmental consciousness and tied their shared values to his business ethos.",
+    "verbatim": [
+     "This strategic inclusion spoke to his customers\u2019 growing environmental consciousness and intertwined their shared values with his business ethos."
+    ],
+    "kind": "reason",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

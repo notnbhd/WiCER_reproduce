@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WiCER: Phân tích và Reproduction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f3ef; --paper:#ffffff; --ink:#1d2733; --muted:#5d6b7a; --line:#d9dde2;
+  --navy:#1f3a5f; --blue:#3c6e9f; --blue-soft:#e8f0f8; --blue-mid:#bcd3e8;
+  --orange:#d98a2b; --orange-soft:#fdf1e0;
+  --purple:#7a69b3; --purple-soft:#eeeaf8;
+  --green:#3f8f6b; --green-soft:#e5f3ec;
+  --red:#b8473f; --red-soft:#f8e7e5;
+  --teal:#1f7a85;
+  --grey-soft:#efefeb;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#d8dadd;overflow:hidden;font-family:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink)}
+#stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:center center;background:var(--bg);box-shadow:0 8px 40px rgba(0,0,0,.18);overflow:hidden}
+.slide{position:absolute;inset:0;padding:48px 72px 52px;display:none;flex-direction:column}
+.slide.active{display:flex;animation:fade .25s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.kicker{font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--blue);margin-bottom:8px}
+.partB .kicker{color:var(--teal)}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-weight:600;color:var(--navy)}
+h2{font-size:36px;line-height:1.18;margin-bottom:22px;max-width:1100px}
+h3{font-size:22px;margin-bottom:6px}
+p,li{font-size:21px;line-height:1.45}
+.sub{color:var(--muted);font-size:18px}
+.body{flex:1;min-height:0;display:flex;gap:36px}
+.col{flex:1;min-width:0;display:flex;flex-direction:column;gap:14px}
+.footer{position:absolute;left:72px;right:72px;bottom:18px;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 22px}
+.card.soft{background:var(--blue-soft);border-color:var(--blue-mid)}
+.card.warm{background:var(--orange-soft);border-color:#f0d3a8}
+.card.pur{background:var(--purple-soft);border-color:#d3cbec}
+.card.grn{background:var(--green-soft);border-color:#bddfcd}
+.card.red{background:var(--red-soft);border-color:#ecc3bf}
+.card h3{font-size:20px}
+.card p,.card li{font-size:18px}
+ul{padding-left:22px}
+li{margin:5px 0}
+b,strong{font-weight:600;color:var(--navy)}
+.tag{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:99px;background:var(--blue-soft);color:var(--blue)}
+.tag.o{background:var(--orange-soft);color:#a8651a}.tag.g{background:var(--green-soft);color:var(--green)}.tag.r{background:var(--red-soft);color:var(--red)}.tag.p{background:var(--purple-soft);color:var(--purple)}
+.kpi{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 20px}
+.kpi .v{font-family:"Source Serif 4",Georgia,serif;font-size:44px;font-weight:600;color:var(--navy);line-height:1.05}
+.kpi .l{font-size:16px;color:var(--muted);margin-top:4px}
+.kpi.neg .v{color:var(--red)}.kpi.pos .v{color:var(--green)}
+.note{font-size:15px;color:var(--muted);font-style:italic}
+table{border-collapse:collapse;width:100%;font-size:17px}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--navy);background:var(--blue-soft)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.flow{display:flex;align-items:stretch;gap:0}
+.node{background:var(--paper);border:1.5px solid var(--blue-mid);border-radius:12px;padding:12px 14px;text-align:center;flex:1;font-size:17px;line-height:1.3;display:flex;flex-direction:column;justify-content:center}
+.node b{display:block;font-size:18px;margin-bottom:2px}
+.node small{font-size:15px;color:var(--muted)}
+.node.a{background:var(--blue-soft)}.node.o{background:var(--orange-soft);border-color:#f0d3a8}.node.p{background:var(--purple-soft);border-color:#d3cbec}.node.g{background:var(--green-soft);border-color:#bddfcd}
+.arr{width:44px;flex:none;display:flex;align-items:center;justify-content:center}
+.arr svg{width:34px;height:20px}
+.legend{display:flex;gap:18px;font-size:15px;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+svg text{font-family:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif}
+svg .serif{font-family:"Source Serif 4",Georgia,serif}
+#bar{position:absolute;left:0;bottom:0;height:4px;background:var(--blue);transition:width .2s}
+#hint{position:absolute;right:14px;top:10px;font-size:12px;color:#8b95a1}
+.titleslide{justify-content:center}
+.titleslide h1{font-size:58px;line-height:1.1;margin:10px 0 18px;max-width:1000px}
+.rule{width:90px;height:4px;background:var(--orange);margin:14px 0 22px;border-radius:2px}
+@media print{html,body{overflow:visible;background:#fff}#stage{position:static;transform:none!important;box-shadow:none}.slide{display:flex!important;position:relative;height:720px;page-break-after:always;animation:none}#bar,#hint{display:none}}
+</style>
+</head>
+<body>
+<div id="stage">
+<div id="hint">← → để chuyển slide</div>
+
+<!-- 1 TITLE -->
+<section class="slide titleslide">
+  <div class="kicker">Paper review &amp; Reproduction study</div>
+  <h1>WiCER: Wiki-memory Compile, Evaluate, Refine</h1>
+  <p class="sub" style="font-size:26px;max-width:900px;font-family:'Source Serif 4',Georgia,serif;font-style:italic">Iterative Knowledge Compilation cho LLM Wiki Systems</p>
+  <div class="rule"></div>
+  <p style="font-size:21px">Phân tích paper và kết quả reproduction trên RepLiQA (17 topics)</p>
+  <p class="sub" style="margin-top:34px;font-size:17px">Huerta, J. M. (Zinnia Tech Solutions), arXiv:2605.07068v1, 2026<br>Người trình bày: [Họ tên] · [Đơn vị / Ngày]</p>
+</section>
+
+<!-- 2 AGENDA -->
+<section class="slide">
+  <div class="kicker">Nội dung</div>
+  <h2>Bài trình bày gồm hai phần: hiểu WiCER, rồi kiểm chứng nó</h2>
+  <div style="display:flex;height:46px;border-radius:12px;overflow:hidden;margin-bottom:26px;font-size:17px;font-weight:600;color:#fff">
+    <div style="width:70%;background:var(--navy);display:flex;align-items:center;padding-left:18px">Phần A · WiCER · 70%</div>
+    <div style="width:30%;background:var(--teal);display:flex;align-items:center;padding-left:18px">Phần B · Reproduction · 30%</div>
+  </div>
+  <div class="body">
+    <div class="col" style="flex:7">
+      <div class="card soft"><span class="tag">A1</span><h3 style="margin-top:8px">Cơ sở lý thuyết</h3><p>LLM Wiki và KV cache, scalability gap, compilation gap, và CEGAR làm nền tảng thiết kế.</p></div>
+      <div class="card soft"><span class="tag">A2</span><h3 style="margin-top:8px">Cấu trúc WiCER</h3><p>Năm components: Probe selection, Blind compile, Evaluate, Diagnose, Recompile. Mỗi thành phần đóng góp gì và vận hành ra sao.</p></div>
+      <div class="card soft"><span class="tag">A3</span><h3 style="margin-top:8px">Kết quả của paper</h3><p>Recovery 80%, giảm 55% catastrophic failures, và ablation giữa targeted diagnosis với random pinning.</p></div>
+    </div>
+    <div class="col" style="flex:3">
+      <div class="card" style="background:#e3f1f2;border-color:#b7dadd"><span class="tag" style="background:#cfe8ea;color:var(--teal)">B1</span><h3 style="margin-top:8px">Reproduction</h3><p>Phương pháp và kết quả trên 17 topics.</p></div>
+      <div class="card" style="background:#e3f1f2;border-color:#b7dadd"><span class="tag" style="background:#cfe8ea;color:var(--teal)">B2</span><h3 style="margin-top:8px">Insight</h3><p>Điều reproduction phát hiện thêm.</p></div>
+      <div class="card" style="background:#e3f1f2;border-color:#b7dadd"><span class="tag" style="background:#cfe8ea;color:var(--teal)">B3</span><h3 style="margin-top:8px">Limitations</h3><p>Giới hạn của WiCER.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>WiCER · Paper review &amp; Reproduction</span><span>2</span></div>
+</section>
+
+<!-- 3 CONTEXT -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>Hai cách đưa domain knowledge vào LLM: truy xuất lúc query, hoặc compile trước một lần</h2>
+  <div class="card" style="margin-bottom:14px">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px"><span class="tag o">RAG</span><span class="sub">Retrieve tại thời điểm query</span></div>
+    <div class="flow">
+      <div class="node o"><b>Documents</b><small>nguồn gốc</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node o"><b>Chunk + Embedding</b><small>vector index</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node o"><b>Retrieve top-k</b><small>cho mỗi query</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node o"><b>LLM</b><small>~2K token context</small></div>
+    </div>
+  </div>
+  <div class="card soft" style="margin-bottom:14px">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px"><span class="tag">LLM Wiki / CAG</span><span class="sub">Compile một lần, serve từ KV cache</span></div>
+    <div class="flow">
+      <div class="node a"><b>Documents</b><small>nguồn gốc</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node a"><b>Compile (offline)</b><small>LLM → wiki</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node a"><b>Wiki + KV cache</b><small>nạp một lần vào context</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="node a"><b>LLM</b><small>chỉ xử lý ~30–50 token mới</small></div>
+    </div>
+  </div>
+  <div class="body" style="gap:22px;flex:none">
+    <div class="card grn" style="flex:1"><h3>Điểm mạnh của Wiki</h3><p>Không có retrieval failure, TTFT dưới 1 giây, không mất thông tin ở chunk boundary.</p></div>
+    <div class="card red" style="flex:1"><h3>Điều kiện để Wiki thành công</h3><p>Corpus phải vừa context window, và chất lượng compilation quyết định tất cả.</p></div>
+  </div>
+  <div class="footer"><span>Karpathy (2026), LLM Wiki pattern · Chan et al. (2025), Cache-Augmented Generation</span><span>3</span></div>
+</section>
+
+<!-- 4 KV cache / curated -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>Trên corpus đã được biên tập sẵn, full-context KV cache thắng RAG cả chất lượng lẫn latency</h2>
+  <div class="body">
+    <div class="col" style="flex:1.3">
+      <div style="display:flex;gap:26px">
+        <div><div class="sub" style="margin-bottom:4px">Answer quality (thang 1–5)</div><div id="c4a"></div></div>
+        <div><div class="sub" style="margin-bottom:4px">TTFT median (giây, thấp hơn là tốt hơn)</div><div id="c4b"></div></div>
+      </div>
+      <div class="legend"><span><i style="background:var(--navy)"></i>Full-context (FC)</span><span><i style="background:var(--orange)"></i>RAG</span></div>
+      <p class="note">Policygenius: 30 bài curated, ~67K tokens (70% của window 96K), 240 câu hỏi.</p>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft"><h3>Vì sao FC nhanh?</h3><p><b>Prefix KV cache</b> được tái sử dụng: cả 67K token chỉ prefill một lần, mỗi query sau đó chỉ xử lý phần câu hỏi.</p></div>
+      <div class="card"><h3>Vì sao FC chính xác hơn?</h3><p>RAG trượt retrieval ở 7,5% câu (18/240) và tạo ra nhiều catastrophic errors hơn 4,7× (score = 1).</p></div>
+      <div class="card warm"><h3>Cái giá</h3><p>RAG có throughput cao hơn 2,6× (30,7 vs 12,0 tok/s), nên total response time hai bên gần nhau.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Table 1–2</span><span>4</span></div>
+</section>
+
+<!-- 5 scalability -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>Scalability gap: tăng lên 80 raw documents thì full-context đảo chiều, thua RAG</h2>
+  <div class="body">
+    <div class="col" style="flex:1.2">
+      <div id="c5"></div>
+      <div class="legend"><span><i style="background:var(--navy)"></i>Full-context (FC)</span><span><i style="background:var(--orange)"></i>RAG</span></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card"><h3>Kết quả ở 80 documents / topic</h3><ul><li>RAG thắng <b>13/15</b> topics, FC không thắng topic nào.</li><li>Score-1 của FC tăng từ 1,2% lên <b>17,0%</b>.</li></ul></div>
+      <div class="card soft"><h3>Cơ chế: attention dilution</h3><p>Còn <b>557 câu</b> mà FC chấm 1 trong khi RAG chấm ≥ 4. Mô hình có toàn bộ 80 tài liệu trong context nhưng không định vị được đoạn cần thiết (lost in the middle).</p></div>
+      <p class="note">Hai topic (Regional Cuisine, Regional Folklore) còn vượt 96K tokens nên không có FC baseline.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 5 · Liu et al. (2024), Lost in the middle</span><span>5</span></div>
+</section>
+
+<!-- 6 compile gap -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>Compilation gap: compile mù (blind) làm chất lượng sụp xuống dưới cả FC raw lẫn RAG</h2>
+  <div class="body">
+    <div class="col" style="flex:1.25">
+      <div class="sub">Mean quality (1–5), trung bình 17 topics, 6.800 câu mỗi condition</div>
+      <div id="c6"></div>
+    </div>
+    <div class="col" style="flex:1">
+      <table>
+        <tr><th>Mức nén</th><th class="n">Target</th><th class="n">Thực tế</th><th class="n">Score-1</th></tr>
+        <tr><td>Light</td><td class="n">75%</td><td class="n">35,4%</td><td class="n">52,9%</td></tr>
+        <tr><td>Moderate</td><td class="n">50%</td><td class="n">12,2%</td><td class="n">57,1%</td></tr>
+        <tr><td>Aggressive</td><td class="n">25%</td><td class="n">8,2%</td><td class="n">60,3%</td></tr>
+        <tr><td>FC raw</td><td class="n">100%</td><td class="n">100%</td><td class="n">17,3%</td></tr>
+      </table>
+      <div class="card red"><h3>Nguyên nhân: compression compliance failure</h3><p>Compiler nén <b>2–3× quá</b> mức yêu cầu và bỏ mất các specific facts (tên, ngày, số). Câu trả lời sai vì <b>thông tin đã biến mất</b>, không phải vì khó tìm.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Table 3</span><span>6</span></div>
+</section>
+
+<!-- 7 tradeoff -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>Hai lực đối nghịch quyết định chất lượng: attention dilution và information loss</h2>
+  <div class="body">
+    <div style="flex:1.6">
+      <svg viewBox="0 0 760 430" width="100%" id="tradeoff">
+        <defs><marker id="ah7" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#5d6b7a"/></marker></defs>
+        <rect x="70" y="20" width="660" height="330" rx="10" fill="#fff" stroke="#d9dde2"/>
+        <line x1="70" y1="350" x2="740" y2="350" stroke="#5d6b7a" stroke-width="1.6" marker-end="url(#ah7)"/>
+        <line x1="70" y1="350" x2="70" y2="10" stroke="#5d6b7a" stroke-width="1.6" marker-end="url(#ah7)"/>
+        <text x="400" y="392" text-anchor="middle" font-size="17" fill="#5d6b7a">Mức nén của wiki (ít → nhiều)</text>
+        <text transform="translate(26,190) rotate(-90)" text-anchor="middle" font-size="17" fill="#5d6b7a">Chất lượng trả lời</text>
+        <!-- penalty curves -->
+        <path d="M95,110 C220,150 330,250 440,300 S650,325 710,330" fill="none" stroke="#d98a2b" stroke-width="3" stroke-dasharray="7 5"/>
+        <path d="M95,320 C260,318 400,300 500,240 S650,100 710,60" fill="none" stroke="#b8473f" stroke-width="3" stroke-dasharray="7 5"/>
+        <!-- quality curve -->
+        <path d="M95,205 C190,150 270,120 370,112 S560,150 710,300" fill="none" stroke="#1f3a5f" stroke-width="5"/>
+        <!-- markers -->
+        <circle cx="130" cy="188" r="9" fill="#1f3a5f"/><circle cx="640" cy="262" r="9" fill="#b8473f"/><circle cx="395" cy="112" r="9" fill="#3f8f6b"/>
+        <text x="140" y="228" font-size="16" font-weight="600" fill="#1f3a5f">FC raw (3,46)</text>
+        <text x="552" y="298" font-size="16" font-weight="600" fill="#b8473f">Blind wiki (2,14–2,32)</text>
+        <text x="395" y="90" text-anchor="middle" font-size="16" font-weight="600" fill="#3f8f6b">Vùng cần đạt: WiCER (3,18)</text>
+        <text x="110" y="95" font-size="15" fill="#a8651a">Attention dilution</text>
+        <text x="470" y="62" font-size="15" fill="#b8473f">Information loss</text>
+      </svg>
+      <p class="note">Sơ đồ khái niệm minh họa mối quan hệ, các điểm đánh dấu lấy từ số đo của paper.</p>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card warm"><h3>Nén ít</h3><p>Context vẫn dài, mô hình bị <b>attention dilution</b>: có đáp án nhưng không tìm thấy.</p></div>
+      <div class="card red"><h3>Nén nhiều</h3><p>Compiler loại bỏ chi tiết cụ thể: <b>information loss</b>, đáp án không còn trong wiki.</p></div>
+      <div class="card grn"><h3>Câu hỏi nghiên cứu</h3><p>Làm sao nén mạnh để tránh dilution mà <b>không mất</b> các facts mà truy vấn thực sự cần?</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 6.1</span><span>7</span></div>
+</section>
+
+<!-- 8 CEGAR -->
+<section class="slide partA">
+  <div class="kicker">A1 · Cơ sở lý thuyết</div>
+  <h2>WiCER là CEGAR được áp dụng cho knowledge compilation</h2>
+  <div class="body">
+    <div class="col" style="flex:1.5">
+      <div id="cegar"></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft"><h3>CEGAR (Clarke et al., 2000)</h3><p>Trong model checking: kiểm tra mô hình trừu tượng, nếu có <b>counterexample giả (spurious)</b> thì refine abstraction rồi lặp lại.</p></div>
+      <div class="card grn"><h3>Đảm bảo đơn điệu</h3><p>Fact đã pin thì <b>không thể mất lại</b>: failure set trên các probe đã pin chỉ co lại qua các iteration.</p></div>
+      <div class="card red"><h3>Chỗ phép ẩn dụ không còn đúng</h3><ul><li>Compiler là LLM, <b>ngẫu nhiên</b></li><li>Verification chỉ <b>xấp xỉ</b> (LLM-as-judge)</li><li><b>Knowledge displacement</b>: pin có thể đẩy nội dung khác ra</li></ul></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 7.2, Appendix I</span><span>8</span></div>
+</section>
+
+<!-- 9 OVERVIEW -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Tổng quan: khởi tạo một wiki, rồi lặp Evaluate → Diagnose → Recompile cho đến khi hội tụ</h2>
+  <div style="flex:1;min-height:0;display:flex;align-items:center">
+  <svg viewBox="0 0 1200 520" width="100%" style="max-height:100%">
+    <defs>
+      <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#46627f"/></marker>
+      <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#e8a65d"/><stop offset="1" stop-color="#7a69b3"/></linearGradient>
+      <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0L10,5L0,10z" fill="#7a69b3"/></marker>
+    </defs>
+    <!-- band 1 -->
+    <rect x="0" y="0" width="1200" height="188" rx="18" fill="#f1f1ee" stroke="#e0e0da"/>
+    <text x="22" y="30" font-size="14" font-weight="700" letter-spacing="2" fill="#8b95a1">KHỞI TẠO (OFFLINE, MỘT LẦN)</text>
+    <!-- docs stack -->
+    <rect x="52" y="66" width="130" height="86" rx="8" fill="#fff" stroke="#bcd3e8"/><rect x="42" y="76" width="130" height="86" rx="8" fill="#fff" stroke="#bcd3e8"/>
+    <rect x="32" y="86" width="130" height="86" rx="8" fill="#fff" stroke="#3c6e9f" stroke-width="1.5"/>
+    <g stroke="#bcd3e8" stroke-width="3"><line x1="46" y1="104" x2="148" y2="104"/><line x1="46" y1="116" x2="136" y2="116"/></g>
+    <text x="97" y="144" text-anchor="middle" font-size="17" font-weight="600" fill="#1f3a5f">Documents D</text>
+    <text x="97" y="162" text-anchor="middle" font-size="14" fill="#5d6b7a">80 docs / topic</text>
+    <!-- arrows from docs -->
+    <path d="M168 120 H225 V76 H250" fill="none" stroke="#46627f" stroke-width="2.2" marker-end="url(#ah)"/>
+    <path d="M168 135 H225 V144 H250" fill="none" stroke="#46627f" stroke-width="2.2" marker-end="url(#ah)"/>
+    <!-- probe selection -->
+    <rect x="252" y="42" width="220" height="64" rx="12" fill="#fdf1e0" stroke="#e8a65d" stroke-width="1.6"/>
+    <text x="362" y="68" text-anchor="middle" font-size="18" font-weight="700" fill="#1f3a5f">① Probe selection</text>
+    <text x="362" y="90" text-anchor="middle" font-size="14" fill="#5d6b7a">1 cặp QA mỗi document</text>
+    <!-- blind compile -->
+    <rect x="252" y="114" width="220" height="64" rx="12" fill="#e8f0f8" stroke="#3c6e9f" stroke-width="1.6"/>
+    <text x="362" y="140" text-anchor="middle" font-size="18" font-weight="700" fill="#1f3a5f">② Blind compile</text>
+    <text x="362" y="162" text-anchor="middle" font-size="14" fill="#5d6b7a">LLM compiler, ratio r = 0,5</text>
+    <!-- outputs -->
+    <path d="M472 146 H525" stroke="#46627f" stroke-width="2.2" fill="none" marker-end="url(#ah)"/>
+    <rect x="528" y="118" width="130" height="56" rx="10" fill="#fff" stroke="#3c6e9f" stroke-width="1.6"/>
+    <text x="593" y="142" text-anchor="middle" font-size="17" font-weight="600" fill="#1f3a5f">Wiki W₀</text>
+    <text x="593" y="162" text-anchor="middle" font-size="13" fill="#5d6b7a">chưa có pinned facts</text>
+    <path d="M472 74 H730 V112" stroke="#46627f" stroke-width="2.2" fill="none" marker-end="url(#ah)"/>
+    <rect x="672" y="116" width="116" height="56" rx="10" fill="#fff" stroke="#e8a65d" stroke-width="1.6"/>
+    <text x="730" y="140" text-anchor="middle" font-size="17" font-weight="600" fill="#1f3a5f">Q_probe</text>
+    <text x="730" y="160" text-anchor="middle" font-size="13" fill="#5d6b7a">80 probes</text>
+    <text x="900" y="90" font-size="15" fill="#5d6b7a" font-style="italic">Compiler không bao giờ thấy probe.</text>
+    <text x="900" y="112" font-size="15" fill="#5d6b7a" font-style="italic">Chỉ facts đã diagnose mới đi qua.</text>
+    <!-- elbows into loop -->
+    <path d="M593 174 V214 H110 V298" fill="none" stroke="#46627f" stroke-width="2.2" marker-end="url(#ah)"/>
+    <path d="M730 172 V244 H370 V298" fill="none" stroke="#e8a65d" stroke-width="2.2" marker-end="url(#ah)"/>
+    <!-- band 2 -->
+    <rect x="0" y="200" width="1200" height="320" rx="18" fill="#e9f1f8" stroke="#cfe0ef" opacity=".55"/>
+    <text x="22" y="508" font-size="14" font-weight="700" letter-spacing="2" fill="#5d7b99">VÒNG LẶP REFINEMENT (t = 0 … T−1)</text>
+    <!-- loop boxes -->
+    <rect x="30" y="300" width="160" height="104" rx="14" fill="#fff" stroke="#3c6e9f" stroke-width="1.8"/>
+    <text x="110" y="344" text-anchor="middle" font-size="19" font-weight="700" fill="#1f3a5f">Wiki W<tspan font-size="13" dy="4">t</tspan></text>
+    <text x="110" y="372" text-anchor="middle" font-size="14" fill="#5d6b7a">artifact đang tối ưu</text>
+    <rect x="262" y="300" width="216" height="104" rx="14" fill="#fff" stroke="#3c6e9f" stroke-width="1.8"/>
+    <text x="370" y="332" text-anchor="middle" font-size="19" font-weight="700" fill="#1f3a5f">③ Evaluate</text>
+    <text x="370" y="356" text-anchor="middle" font-size="14" fill="#5d6b7a">Reader trả lời 80 probes</text>
+    <text x="370" y="376" text-anchor="middle" font-size="14" fill="#5d6b7a">LLM judge chấm 1–5</text>
+    <rect x="548" y="300" width="216" height="104" rx="14" fill="#fff" stroke="#7a69b3" stroke-width="1.8"/>
+    <text x="656" y="332" text-anchor="middle" font-size="19" font-weight="700" fill="#1f3a5f">④ Diagnose</text>
+    <text x="656" y="356" text-anchor="middle" font-size="14" fill="#5d6b7a">Probe score ≤ 1 → trích</text>
+    <text x="656" y="376" text-anchor="middle" font-size="14" fill="#5d6b7a">critical facts từ source</text>
+    <rect x="834" y="300" width="216" height="104" rx="14" fill="#fff" stroke="#7a69b3" stroke-width="1.8"/>
+    <text x="942" y="332" text-anchor="middle" font-size="19" font-weight="700" fill="#1f3a5f">⑤ Recompile</text>
+    <text x="942" y="356" text-anchor="middle" font-size="14" fill="#5d6b7a">Compile(D, r,</text>
+    <text x="942" y="376" text-anchor="middle" font-size="14" fill="#5d6b7a">preserve = F_cumulative)</text>
+    <rect x="1086" y="300" width="94" height="104" rx="14" fill="#e5f3ec" stroke="#3f8f6b" stroke-width="1.8"/>
+    <text x="1133" y="344" text-anchor="middle" font-size="19" font-weight="700" fill="#2d6e50">Best</text>
+    <text x="1133" y="368" text-anchor="middle" font-size="19" font-weight="700" fill="#2d6e50">W*</text>
+    <!-- loop arrows -->
+    <path d="M192 352 H258" stroke="#46627f" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+    <path d="M480 352 H544" stroke="#46627f" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+    <path d="M766 352 H830" stroke="url(#g1)" stroke-width="3" fill="none" marker-end="url(#ah2)"/>
+    <text x="512" y="340" text-anchor="middle" font-size="12" fill="#5d6b7a">Failures</text>
+    <text x="798" y="340" text-anchor="middle" font-size="12" fill="#7a69b3">F_cum</text>
+    <!-- feedback -->
+    <path d="M942 406 V462 H110 V408" fill="none" stroke="url(#g1)" stroke-width="3" marker-end="url(#ah)"/>
+    <text x="526" y="454" text-anchor="middle" font-size="15" font-weight="600" fill="#7a69b3">W(t+1): wiki mới, các facts đã pin không bị mất lại</text>
+    <!-- exit -->
+    <path d="M440 298 V268 H1133 V298" fill="none" stroke="#3f8f6b" stroke-width="2.4" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+    <text x="820" y="260" text-anchor="middle" font-size="15" font-weight="600" fill="#2d6e50">Dừng: không còn failure, hoặc cải thiện &lt; 10%, hoặc hết T</text>
+  </svg>
+  </div>
+  <div class="footer"><span>Huerta (2026), Algorithm 1</span><span>9</span></div>
+</section>
+
+<!-- 10 comps 1 & 2 -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Component ① và ②: tạo tín hiệu phản hồi rẻ, và tạo wiki xuất phát</h2>
+  <div class="body">
+    <div class="col">
+      <div class="card warm" style="flex:1">
+        <span class="tag o">① Probe selection</span>
+        <div class="flow" style="margin:16px 0">
+          <div class="node o"><b>80 documents</b><small>mỗi doc 5 QA</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="node o"><b>Q_probe</b><small>1 QA / document</small></div>
+        </div>
+        <p><b>Đóng góp:</b> phủ đều mọi tài liệu bằng chi phí nhỏ (80 câu thay vì 400), làm thước đo để biết compiler đã làm mất fact nào.</p>
+        <p class="sub" style="margin-top:8px">Paper không nói chọn câu nào trong 5 câu của mỗi document.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card soft" style="flex:1">
+        <span class="tag">② Blind compile</span>
+        <div class="flow" style="margin:16px 0">
+          <div class="node a"><b>Documents D</b><small>~55–95K tokens</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="node a"><b>LLM compiler</b><small>knowledge engineer</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="node a"><b>Wiki W₀</b><small>có cấu trúc</small></div>
+        </div>
+        <ul>
+          <li>Giữ facts cụ thể: tên, ngày, số, vai trò</li>
+          <li>Phủ mọi document, không để vài doc giàu thông tin chiếm hết budget</li>
+          <li>Compiler <b>không thấy</b> câu hỏi (blind)</li>
+        </ul>
+        <p style="margin-top:8px"><b>Đóng góp:</b> tạo điểm xuất phát W₀, đồng thời là bằng chứng rằng compile một lần là chưa đủ.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 6.1, 7.1</span><span>10</span></div>
+</section>
+
+<!-- 11 evaluate -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Component ③ Evaluate: chấm wiki bằng chính câu hỏi, với chi phí API chỉ ở khâu judge</h2>
+  <div class="flow" style="margin:6px 0 20px;height:128px">
+    <div class="node a"><b>Wiki W<sub>t</sub></b><small>nạp làm system prompt<br>+ KV cache</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="node g"><b>Local reader</b><small>Llama 3.1 8B, 96K ctx<br>greedy decoding, chi phí API = 0</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="node o"><b>Answer</b><small>cho mỗi probe q</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="node p"><b>LLM judge</b><small>rubric 1–5<br>~80 calls / iteration</small></div><div class="arr"><svg viewBox="0 0 34 20"><path d="M2 10H28M22 4l7 6-7 6" fill="none" stroke="#46627f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="node"><b>Failures<sub>t</sub></b><small>{q : score(q) ≤ 1}</small></div>
+  </div>
+  <div class="body" style="gap:22px">
+    <div class="card" style="flex:1"><h3>Vai trò</h3><p>Biến việc "wiki có tốt không" thành <b>danh sách counterexamples</b> cụ thể: các probe mà wiki làm trả lời sai thảm họa (score = 1).</p></div>
+    <div class="card" style="flex:1"><h3>Vì sao chỉ lấy score = 1?</h3><p>Score 1 là mức tệ nhất của rubric, nên là tín hiệu rõ nhất rằng <b>thông tin cần thiết đã mất</b>. Nhờ vậy diagnosis chỉ cần xử lý một tập failure nhỏ và rõ ràng.</p></div>
+    <div class="card grn" style="flex:1"><h3>Độ tin cậy của judge</h3><p>So với human rater (n = 100): Pearson <b>r = 0,94</b>, 99% sai lệch trong ±1 điểm.</p></div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 3.5, 7.1, Appendix J</span><span>11</span></div>
+</section>
+
+<!-- 12 diagnose -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Component ④ Diagnose: biến mỗi failure thành một ràng buộc preservation cụ thể</h2>
+  <div class="body">
+    <div class="col" style="flex:1.5">
+      <div class="card" style="padding:16px 20px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><b style="font-size:17px">Đầu vào của một lần diagnose</b><span class="note" style="font-size:14px">ví dụ minh họa, không phải dữ liệu thật</span></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:16px">
+          <div class="card warm" style="padding:10px 14px"><span class="tag o">Question</span><p style="font-size:16px;margin-top:4px">Hội đồng thông qua ngân sách vào ngày nào, với mức bao nhiêu?</p></div>
+          <div class="card grn" style="padding:10px 14px"><span class="tag g">Gold answer</span><p style="font-size:16px;margin-top:4px">Ngày 14/3, ngân sách 4,2 triệu USD.</p></div>
+          <div class="card red" style="padding:10px 14px"><span class="tag r">Reader trả lời (sai)</span><p style="font-size:16px;margin-top:4px">Wiki không đề cập chi tiết này.</p></div>
+          <div class="card soft" style="padding:10px 14px"><span class="tag">Source document</span><p style="font-size:16px;margin-top:4px">Toàn văn tài liệu gốc chứa câu trả lời.</p></div>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:center"><svg width="44" height="30" viewBox="0 0 44 30"><path d="M22 2V24M12 16l10 10 10-10" fill="none" stroke="#7a69b3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="card pur" style="padding:14px 20px"><div style="display:flex;gap:12px;align-items:center;margin-bottom:6px"><span class="tag p">LLM diagnoser</span><span class="sub" style="font-size:16px">Trích 50–100 từ facts mà đáp án phụ thuộc vào</span></div><p style="font-size:17px"><b>Pinned fact:</b> "Hội đồng thành phố thông qua ngân sách 4,2 triệu USD ngày 14/3, với 7 phiếu thuận, 2 phiếu chống…"</p></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft"><h3>Đóng góp</h3><p>Chuyển tín hiệu "wiki kém" thành <b>nội dung cụ thể</b> mà compiler phải giữ. Đây là phần khác biệt so với random pinning.</p></div>
+      <div class="card"><h3>Ràng buộc thiết kế</h3><ul><li>Chỉ trích facts <b>cần thiết</b> cho đáp án, không tóm tắt cả document</li><li>Ngân sách ~50–100 từ so với ~700 từ của cả document</li><li>Facts <b>tích lũy</b> qua các iteration: F<sub>cum</sub></li></ul></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 7.1–7.2, 7.5</span><span>12</span></div>
+</section>
+
+<!-- 13 recompile -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Component ⑤ Recompile: preserved facts được đặt lên trước, coverage tổng quát lấy phần budget còn lại</h2>
+  <div class="body">
+    <div class="col" style="flex:1.1">
+      <div class="card"><h3>Thứ tự ưu tiên trong prompt</h3>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+          <div style="display:flex;gap:12px;align-items:center"><span class="tag p" style="width:34px;text-align:center">1</span><span style="font-size:18px">Mọi preserved fact phải xuất hiện, <b>giữ nguyên chi tiết</b></span></div>
+          <div style="display:flex;gap:12px;align-items:center"><span class="tag p" style="width:34px;text-align:center">2</span><span style="font-size:18px">Đặt chúng <b>lên đầu</b> wiki, cấp budget trước</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><span class="tag p" style="width:34px;text-align:center">3</span><span style="font-size:18px">Phần budget còn lại dùng để phủ toàn bộ collection</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><span class="tag p" style="width:34px;text-align:center">4</span><span style="font-size:18px">Tích hợp vào heading phù hợp, không gom thành phụ lục</span></div>
+        </div>
+        <p class="sub" style="margin-top:10px">Nếu target độ dài xung đột với các quy tắc này, các quy tắc thắng.</p>
+      </div>
+      <div class="card grn"><h3>Đóng góp</h3><p>Đóng vai trò <b>refinement step</b> của CEGAR: mỗi counterexample đã diagnose trở thành một ràng buộc cứng, nên fact đó không thể bị compiler bỏ lại ở vòng sau.</p></div>
+      <div class="card warm"><h3>Điểm cần lưu ý</h3><p>Hiệu lực của cơ chế phụ thuộc vào việc compiler <b>thực sự tuân thủ</b> chỉ dẫn. Phần reproduction sẽ cho thấy điều này không hiển nhiên.</p></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft">
+        <h3>Budget của wiki qua các iteration</h3>
+        <p class="note" style="margin-bottom:10px">Minh họa khái niệm, tỷ lệ không phải số đo.</p>
+        <div style="font-size:15px;color:var(--muted);margin:8px 0 3px">W₀ (blind)</div>
+        <div style="display:flex;height:34px;border-radius:8px;overflow:hidden"><div style="width:100%;background:var(--blue-mid);display:flex;align-items:center;padding-left:12px;font-size:15px">General coverage</div></div>
+        <div style="font-size:15px;color:var(--muted);margin:12px 0 3px">W₁ (pin 12 facts)</div>
+        <div style="display:flex;height:34px;border-radius:8px;overflow:hidden"><div style="width:20%;background:var(--purple);color:#fff;display:flex;align-items:center;padding-left:10px;font-size:14px">Pinned</div><div style="width:80%;background:var(--blue-mid);display:flex;align-items:center;padding-left:12px;font-size:15px">General coverage</div></div>
+        <div style="font-size:15px;color:var(--muted);margin:12px 0 3px">W₂ (pin 20 facts)</div>
+        <div style="display:flex;height:34px;border-radius:8px;overflow:hidden"><div style="width:34%;background:var(--purple);color:#fff;display:flex;align-items:center;padding-left:10px;font-size:14px">Pinned</div><div style="width:66%;background:var(--blue-mid);display:flex;align-items:center;padding-left:12px;font-size:15px">General coverage</div></div>
+      </div>
+      <div class="card red"><h3>Knowledge displacement</h3><p>Pin tiêu thụ budget, nên có thể <b>đẩy</b> nội dung chưa pin ra ngoài. Đây là lý do gains dừng sau 1–2 iteration.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 7.1, 7.4, Appendix I</span><span>13</span></div>
+</section>
+
+<!-- 14 convergence -->
+<section class="slide partA">
+  <div class="kicker">A2 · Cấu trúc WiCER</div>
+  <h2>Hội tụ mang tính thực nghiệm: dừng sớm khi cải thiện không còn đáng kể</h2>
+  <div class="body">
+    <div class="col">
+      <div class="card"><h3>Ba điều kiện dừng</h3>
+        <ol style="padding-left:22px;font-size:19px;line-height:1.5"><li>Không còn probe nào score ≤ 1</li><li>Cải thiện so với iteration trước &lt; 10%</li><li>Đạt số iteration tối đa T</li></ol>
+        <p class="sub" style="margin-top:8px">Kết quả trả về là wiki <b>tốt nhất</b> trong các iteration, không nhất thiết là iteration cuối.</p>
+      </div>
+      <div class="card"><h3>Chi phí mỗi iteration</h3>
+        <div style="display:flex;gap:26px;margin-top:6px">
+          <div><div class="kpi" style="padding:8px 14px"><div class="v" style="font-size:32px">~130K</div><div class="l">token input</div></div></div>
+          <div><div class="kpi" style="padding:8px 14px"><div class="v" style="font-size:32px">~17K</div><div class="l">token output</div></div></div>
+          <div><div class="kpi" style="padding:8px 14px"><div class="v" style="font-size:32px">$1–2</div><div class="l">/ iteration</div></div></div>
+        </div>
+        <p class="sub" style="margin-top:8px">1 compile + ~80 judge + ~15 diagnose; 80 probes của reader chạy local.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card grn"><h3>Điều paper đảm bảo</h3><p>Trên tập probe đã được pin: <br><span class="serif" style="font-family:'Source Serif 4',Georgia,serif;font-style:italic;font-size:19px">F<sub>t</sub> ∩ {q : facts(q) ⊆ P<sub>t</sub>} ⊇ F<sub>t+1</sub> ∩ {q : facts(q) ⊆ P<sub>t</sub>}</span><br>Một fact đã pin thì không mất lại.</p></div>
+      <div class="card red"><h3>Điều paper không đảm bảo</h3><p>Chất lượng toàn cục không tăng đơn điệu. Probe chưa pin có thể hỏng mới, và paper nói thẳng rằng convergence là <b>empirical</b>, chưa có formal proof.</p></div>
+      <div class="card soft"><h3>Ý tưởng triển khai</h3><p>Trong production, <b>query stream thật</b> có thể thay thế probe tổng hợp, và corpus lớn được chia thành <b>topic shards</b>.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Section 7.1, 7.4, 8, Appendix I</span><span>14</span></div>
+</section>
+
+<!-- 15 paper results -->
+<section class="slide partA">
+  <div class="kicker">A3 · Kết quả của paper</div>
+  <h2>Paper báo cáo WiCER hồi phục 80% chất lượng bị mất, và targeted diagnosis là yếu tố quyết định</h2>
+  <div class="body">
+    <div class="col" style="flex:1.1">
+      <div class="sub">Mean quality (1–5), 17 topics, moderate compression</div>
+      <div id="c15a"></div>
+      <div class="sub" style="margin-top:6px">Ablation: mức tăng so với blind</div>
+      <div id="c15b"></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        <div class="kpi pos"><div class="v">80%</div><div class="l">Recovery (15 topics có FC)</div></div>
+        <div class="kpi pos"><div class="v">−55%</div><div class="l">Score-1: 55,1% → 24,8%</div></div>
+        <div class="kpi"><div class="v">16/17</div><div class="l">Topics cải thiện</div></div>
+        <div class="kpi"><div class="v">5,9×</div><div class="l">Diagnosed vs random pin</div></div>
+      </div>
+      <div class="card soft"><p style="font-size:17px">Ba topics vượt FC raw: <b>news_stories</b> (101%), <b>local_arts</b> (116%), <b>small_medium_ent</b> (125%). Ngoại lệ duy nhất là <b>local_education</b> (0%).</p></div>
+      <div class="card warm"><p style="font-size:17px">Cân bằng: WiCER (3,18) vẫn <b>thấp hơn RAG</b> (3,64) 0,46 điểm, đổi lại TTFT nhanh hơn ~12×.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Huerta (2026), Table 4–5, Section 7.3, 7.5, 8</span><span>15</span></div>
+</section>
+
+<!-- 16 setup -->
+<section class="slide partB">
+  <div class="kicker">B1 · Reproduction</div>
+  <h2>Phương pháp: chạy lại E3 (compilation gap + WiCER + ablation) trên toàn bộ 17 topics</h2>
+  <div class="body">
+    <div class="col" style="flex:1.6">
+      <svg viewBox="0 0 720 400" width="100%">
+        <defs><marker id="ah16" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#46627f"/></marker></defs>
+        <rect x="0" y="0" width="720" height="400" rx="16" fill="#f1f1ee" stroke="#e0e0da"/>
+        <!-- GPU -->
+        <rect x="24" y="40" width="200" height="190" rx="14" fill="#e5f3ec" stroke="#3f8f6b" stroke-width="1.6"/>
+        <text x="124" y="70" text-anchor="middle" font-size="18" font-weight="700" fill="#1f3a5f">Rented GPU</text>
+        <text x="124" y="92" text-anchor="middle" font-size="14" fill="#5d6b7a">RTX 3090 24GB (vast.ai)</text>
+        <text x="124" y="124" text-anchor="middle" font-size="15" fill="#1f3a5f">llama-server</text>
+        <text x="124" y="146" text-anchor="middle" font-size="15" fill="#1f3a5f">Llama 3.1 8B Q5_K_M</text>
+        <text x="124" y="168" text-anchor="middle" font-size="15" fill="#1f3a5f">96K ctx · q8_0 KV · Flash Attn</text>
+        <text x="124" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#3f8f6b">READER</text>
+        <!-- orchestrator -->
+        <rect x="270" y="110" width="180" height="150" rx="14" fill="#fff" stroke="#3c6e9f" stroke-width="1.8"/>
+        <text x="360" y="142" text-anchor="middle" font-size="18" font-weight="700" fill="#1f3a5f">Pipeline</text>
+        <text x="360" y="166" text-anchor="middle" font-size="14" fill="#5d6b7a">probe → compile → loop</text>
+        <text x="360" y="186" text-anchor="middle" font-size="14" fill="#5d6b7a">random_pin → evaluate</text>
+        <text x="360" y="206" text-anchor="middle" font-size="14" fill="#5d6b7a">report (Table 3/4/5)</text>
+        <text x="360" y="240" text-anchor="middle" font-size="13" font-weight="700" fill="#3c6e9f">REPO</text>
+        <!-- API -->
+        <rect x="496" y="40" width="200" height="190" rx="14" fill="#eeeaf8" stroke="#7a69b3" stroke-width="1.6"/>
+        <text x="596" y="70" text-anchor="middle" font-size="18" font-weight="700" fill="#1f3a5f">OpenRouter API</text>
+        <text x="596" y="92" text-anchor="middle" font-size="14" fill="#5d6b7a">Claude Haiku 5.5</text>
+        <text x="596" y="124" text-anchor="middle" font-size="15" fill="#1f3a5f">Compiler</text>
+        <text x="596" y="146" text-anchor="middle" font-size="15" fill="#1f3a5f">Diagnoser</text>
+        <text x="596" y="168" text-anchor="middle" font-size="15" fill="#1f3a5f">Judge</text>
+        <text x="596" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#7a69b3">LLM SERVICES</text>
+        <path d="M226 160 H266" stroke="#46627f" stroke-width="2.2" fill="none" marker-start="url(#ah16)" marker-end="url(#ah16)"/>
+        <path d="M454 160 H492" stroke="#46627f" stroke-width="2.2" fill="none" marker-start="url(#ah16)" marker-end="url(#ah16)"/>
+        <text x="246" y="150" text-anchor="middle" font-size="12" fill="#5d6b7a">HTTP</text>
+        <text x="473" y="150" text-anchor="middle" font-size="12" fill="#5d6b7a">API</text>
+        <!-- data -->
+        <rect x="24" y="286" width="672" height="100" rx="12" fill="#fff" stroke="#d9dde2"/>
+        <text x="48" y="320" font-size="16" font-weight="700" fill="#1f3a5f">Dữ liệu và quy mô</text>
+        <text x="48" y="348" font-size="15" fill="#5d6b7a">RepLiQA · 17 topics × 80 docs × 400 QA = 6.800 câu hỏi · nhiều conditions mỗi topic · ~105 phút / topic</text>
+        <text x="48" y="372" font-size="15" fill="#5d6b7a">Tổng chi phí API: $23,68 trên ngân sách $50</text>
+      </svg>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card soft"><h3>Phạm vi</h3><ul><li><b>E3</b>: blind compile ở 3 mức, WiCER loop, random-pin control</li><li><b>E1</b> (Policygenius) bỏ vì corpus không công bố</li><li><b>E2</b> (RAG baseline) không chạy trong sweep này</li></ul></div>
+      <div class="card"><h3>Hai thay đổi so với paper</h3><ul><li>GPU <b>CUDA</b> thay vì Apple M4 Pro</li><li>Compiler và judge là <b>Haiku 5.5</b>, không phải Sonnet</li></ul></div>
+      <div class="card warm"><p style="font-size:17px">Cả hai thay đổi đều có thể làm số tuyệt đối lệch. Hướng của kết quả mới là thứ đáng so sánh.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · result-sweep/</span><span>16</span></div>
+</section>
+
+<!-- 17 reconstruct -->
+<section class="slide partB">
+  <div class="kicker">B1 · Reproduction</div>
+  <h2>Paper không nêu ba chi tiết quan trọng, nên reproduction phải tái dựng chúng</h2>
+  <div class="body">
+    <div class="col" style="flex:1.1">
+      <div class="card"><span class="tag r">1</span><h3 style="margin-top:6px">Prompt compile và diagnose</h3><p>Paper chỉ công bố rubric của judge. Hai prompt còn lại được dựng lại từ mô tả: framing knowledge engineer, blind với câu hỏi, verbatim trước coverage, diagnosis 50–100 từ.</p></div>
+      <div class="card"><span class="tag r">2</span><h3 style="margin-top:6px">Probe selection</h3><p>"Một QA mỗi document" nhưng không nói câu nào. Reproduction bốc đều trên cả 5 câu (có seed), để probe phản ánh phân phối của cả 400 câu.</p></div>
+    </div>
+    <div class="col" style="flex:1.1">
+      <div class="card soft"><span class="tag r">3</span><h3 style="margin-top:6px">80 documents nào trong RepLiQA?</h3>
+        <p>Chọn theo thứ tự chữ cái làm 16/17 topics tràn 96K, mâu thuẫn với paper. Đo bằng tokenizer của Llama 3.1 cho thấy paper dùng <b>80 documents ngắn nhất</b>.</p>
+        <table style="margin-top:10px;font-size:16px">
+          <tr><th>Topic</th><th class="n">80 ngắn nhất</th><th class="n">Paper</th><th class="n">Lệch</th></tr>
+          <tr><td>Company Policies</td><td class="n">54.742</td><td class="n">54.987</td><td class="n">−0,4%</td></tr>
+          <tr><td>Regional Folklore</td><td class="n">96.586</td><td class="n">97.148</td><td class="n">−0,6%</td></tr>
+          <tr><td>Regional Cuisine</td><td class="n">96.546</td><td class="n">97.251</td><td class="n">−0,7%</td></tr>
+        </table>
+        <p class="sub" style="margin-top:8px;font-size:16px">Khớp luôn cả việc <b>đúng hai topics</b> (Cuisine, Folklore) bị tràn context.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · DEVIATIONS.md §1, §2, §14</span><span>17</span></div>
+</section>
+
+<!-- 18 main comparison -->
+<section class="slide partB">
+  <div class="kicker">B1 · Kết quả</div>
+  <h2>Best WiCER khớp paper (3,18), nhưng blind cao hơn nên mức cải thiện nhỏ hơn đáng kể</h2>
+  <div class="body">
+    <div class="col" style="flex:1.2">
+      <div class="sub">Mean quality (1–5) trên tập probe, 17 topics</div>
+      <div id="c18"></div>
+      <div class="legend"><span><i style="background:#9fb4cc"></i>Paper</span><span><i style="background:var(--navy)"></i>Reproduction</span></div>
+    </div>
+    <div class="col" style="flex:1">
+      <table>
+        <tr><th>Chỉ số</th><th class="n">Paper</th><th class="n">Ours</th></tr>
+        <tr><td>Recovery</td><td class="n">80%</td><td class="n"><b>43%</b></td></tr>
+        <tr><td>Score-1 (WiCER)</td><td class="n">24,8%</td><td class="n">17,3%</td></tr>
+        <tr><td>Score-1 (blind)</td><td class="n">55,1%</td><td class="n">24,8%</td></tr>
+        <tr><td>Compression thực tế (moderate)</td><td class="n">12,2%</td><td class="n">14,6%</td></tr>
+        <tr><td>Topics cải thiện</td><td class="n">16/17</td><td class="n">17/17</td></tr>
+      </table>
+      <div class="card warm"><h3>Cách đọc</h3><p style="font-size:17px">WiCER tiến từ 2,83 lên 3,18 (<b>+0,35</b>), trong khi paper là +1,01. Blind của ta đã tốt hơn nhiều nên có ít catastrophic failures để sửa.</p></div>
+      <p class="note">Nguyên nhân khả dĩ (chưa kiểm chứng): compiler Haiku 5.5 khác Sonnet, prompt tái dựng, cách chọn probe.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · result-sweep/report.md</span><span>18</span></div>
+</section>
+
+<!-- 19 per-topic recovery -->
+<section class="slide partB">
+  <div class="kicker">B1 · Kết quả</div>
+  <h2>Recovery rất không đều giữa các topics, và chỉ 1 topic vượt FC raw</h2>
+  <div class="body">
+    <div style="flex:1.6"><div id="c19"></div></div>
+    <div class="col" style="flex:1">
+      <div class="kpi"><div class="v">43%</div><div class="l">Recovery trung bình (probe set)</div></div>
+      <div class="card soft"><h3>Phân bố</h3><ul><li><b>1 topic</b> vượt FC raw (company_policies, 106%)</li><li><b>2 topics</b> từ 80–90% (local_tech, local_env_issues)</li><li><b>5 topics</b> dưới 30%, gần như không cải thiện (politics 3%, SME 6%)</li></ul></div>
+      <p class="note">Recovery = (WiCER − Blind) / (FC raw − Blind), tính trên cùng 80 probes. Cuisine và Folklore không có FC baseline.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · Table 4 (tập probe)</span><span>19</span></div>
+</section>
+
+<!-- 20 ablation -->
+<section class="slide partB">
+  <div class="kicker">B1 · Kết quả</div>
+  <h2>Ablation tái lập được về hướng: targeted diagnosis vượt random pinning, nhưng biên độ nhỏ hơn</h2>
+  <div class="body">
+    <div class="col" style="flex:1.2">
+      <div class="sub">Thay đổi điểm so với blind của chính arm đó (mean, 17 topics)</div>
+      <div id="c20"></div>
+      <div class="legend"><span><i style="background:#9fb4cc"></i>Paper</span><span><i style="background:var(--navy)"></i>Reproduction</span></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card grn"><h3>Điều tái lập được</h3><p>Diagnosed pinning (+0,35) hơn hẳn random pinning (+0,03 best-of). Pin ngẫu nhiên không giúp gì.</p></div>
+      <div class="card red"><h3>Random pin thực ra gây hại</h3><p>Chỉ tính các iteration thật sự có pin, random pin <b>giảm 0,17</b>. Ở "best-of", max bao gồm cả iteration 0 nên ép về +0,00 và che mất tác hại này.</p></div>
+      <div class="card warm"><p style="font-size:17px">Paper cũng có artifact này: <b>7/17</b> topics in Random Pin đúng bằng Blind, nên con số +0,16 của nó có xu hướng lạc quan.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · Table 5 · DEVIATIONS.md §13</span><span>20</span></div>
+</section>
+
+<!-- 21 held-out -->
+<section class="slide partB">
+  <div class="kicker">B2 · Insight chính</div>
+  <h2>Trên câu hỏi mà vòng lặp chưa từng thấy, WiCER không cải thiện được: 11/17 topics giảm</h2>
+  <div class="body">
+    <div style="flex:1.6"><div id="c21"></div></div>
+    <div class="col" style="flex:1">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        <div class="kpi neg"><div class="v">−0,07</div><div class="l">Delta trung bình (held-out)</div></div>
+        <div class="kpi"><div class="v">6 ↑ 11 ↓</div><div class="l">Số topics tăng / giảm</div></div>
+      </div>
+      <div class="card red"><h3>Probe-fit, không phải generalization</h3><p style="font-size:17px">Paper đo trên đúng 80 probes đã dẫn dắt vòng lặp. Trên held-out answerable questions, recovery trung bình là <b>−10,7%</b> thay vì +43%.</p></div>
+      <p class="note">Held-out = các câu hỏi answerable, loại trừ mọi probe. Delta = best pinned WiCER − blind. Có 1 compile mỗi arm, nên chênh lệch dưới ~0,3 không phân biệt được với noise.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · held-out evaluation (công cụ mà paper không có)</span><span>21</span></div>
+</section>
+
+<!-- 22 instability -->
+<section class="slide partB">
+  <div class="kicker">B2 · Insight</div>
+  <h2>Gains không ổn định: iteration thêm có thể làm tệ đi, và nhiễu của compiler cỡ bằng effect</h2>
+  <div class="body">
+    <div class="col" style="flex:1.1">
+      <div class="sub">Probe mean qua các iteration (ba topics làm ví dụ)</div>
+      <div id="c22"></div>
+      <div class="legend"><span><i style="background:var(--navy)"></i>local_env_issues</span><span><i style="background:var(--orange)"></i>local_economy</span><span><i style="background:var(--purple)"></i>company_policies</span></div>
+    </div>
+    <div class="col" style="flex:1">
+      <div class="card red"><h3>Knowledge displacement thấy rõ</h3><p style="font-size:17px">local_env_issues: 2,69 → 3,02 → <b>3,52</b> → 3,05. Thêm pin ở iteration 3 làm mất nhiều hơn được. Cơ chế "best-of" mới giữ lại đỉnh.</p></div>
+      <div class="card warm"><h3>Compile noise</h3><p style="font-size:17px">Hai lần compile cùng một prompt chênh <b>0,04–0,22</b> trên probes và <b>0,27–0,40</b> trên held-out. Paper không có CI, ta cũng chỉ compile một lần mỗi arm.</p></div>
+      <div class="card soft"><h3>Early stop có lý do</h3><p style="font-size:17px">16/17 topics dừng vì cải thiện &lt; 10% (chỉ local_env_issues chạm giới hạn iteration), và hầu hết dừng ở iteration 1–2 như paper mô tả.</p></div>
+    </div>
+  </div>
+  <div class="footer"><span>Reproduction · iteration trajectory, DEVIATIONS.md §10</span><span>22</span></div>
+</section>
+
+<!-- 23 measurement insights -->
+<section class="slide partB">
+  <div class="kicker">B2 · Insight</div>
+  <h2>Bốn bài học về đo lường và vận hành rút ra từ reproduction</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;flex:1;min-height:0">
+    <div class="card soft"><span class="tag">1</span><h3 style="margin-top:8px">Pin bị paraphrase, không giữ nguyên văn</h3><p style="font-size:17px">Haiku diễn đạt lại các facts được pin: "kept verbatim" thường chỉ <b>0–10%</b>. Gain vẫn xuất hiện, nên giá trị chủ yếu nằm ở việc <b>hướng sự chú ý</b> của compiler vào đúng facts, không phải ở copy chính xác.</p></div>
+    <div class="card warm"><span class="tag o">2</span><h3 style="margin-top:8px">Câu hỏi unanswerable làm méo số liệu</h3><p style="font-size:17px">Khoảng <b>20%</b> câu RepLiQA có đáp án "không tìm thấy trong tài liệu". Wiki nhỏ khiến reader hay từ chối, và các câu này thưởng cho việc đó, nên thu hẹp khoảng cách thật. Cần báo cáo tách riêng.</p></div>
+    <div class="card pur"><span class="tag p">3</span><h3 style="margin-top:8px">Probe phải đại diện</h3><p style="font-size:17px">Nếu chỉ lấy câu hỏi đầu tiên của mỗi document, probe dễ hơn (headline facts sống sót khi nén) và blind cao ảo <b>+0,4–0,5</b>. Paper dường như tránh được điều này (probe blind 2,17 ≈ full-set 2,25).</p></div>
+    <div class="card grn"><span class="tag g">4</span><h3 style="margin-top:8px">Chi tiết triển khai ảnh hưởng kết quả</h3><p style="font-size:17px">Reasoning của Haiku <b>ăn hết max_tokens</b> nên phải nâng lên 128K. Rerun với <code style="font-family:inherit">--resume</code> dùng lại câu trả lời cũ sau khi recompile. Hai lỗi này đều âm thầm làm sai số.</p></div>
+  </div>
+  <div class="footer"><span>Reproduction · DEVIATIONS.md, haiku-compiler-pitfalls</span><span>23</span></div>
+</section>
+
+<!-- 24 limitations -->
+<section class="slide partB">
+  <div class="kicker">B3 · Limitations</div>
+  <h2>Giới hạn của WiCER: từ thiết kế, từ cách đánh giá, và từ phạm vi thực nghiệm</h2>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;flex:1;min-height:0">
+    <div class="card red"><h3>Về thiết kế</h3><ul style="font-size:17px"><li>Cần <b>probe/ground-truth</b> có sẵn; probe tổng hợp có thể không đại diện</li><li><b>Displacement</b>: pin làm mất nội dung khác, nên trần 1–2 iterations</li><li>Convergence chỉ <b>empirical</b>, không có chứng minh</li><li>Pin chỉ nhắm score = 1, bỏ qua lỗi nhẹ hơn</li></ul></div>
+    <div class="card warm"><h3>Về đánh giá</h3><ul style="font-size:17px"><li>Tối ưu và báo cáo trên <b>cùng tập probe</b>, không có held-out</li><li>Compiler <b>ngẫu nhiên</b>, một compile mỗi arm, không có CI</li><li>Judge xấp xỉ (r = 0,94 trên n = 100)</li><li>"Best-of" thiên lệch lạc quan cho baseline ablation</li></ul></div>
+    <div class="card soft"><h3>Về phạm vi</h3><ul style="font-size:17px"><li>Một model <b>8B</b>, một hardware, một dataset tổng hợp</li><li>Vẫn <b>thua RAG</b> (3,18 vs 3,64) về chất lượng</li><li>Corpus phải <b>vừa context window</b> (2/17 topics tràn 96K)</li><li>Mỗi lần corpus đổi phải compile lại</li><li>RAG baseline đơn giản (chunk cố định, không rerank)</li></ul></div>
+  </div>
+  <p class="note" style="margin-top:12px">Ghi chú: NeurIPS checklist của paper còn ghi "71% across eight topics", lệch với thân bài (80%, 17 topics), cho thấy bản thảo chưa đồng bộ.</p>
+  <div class="footer"><span>Huerta (2026), Section 8 · Reproduction findings</span><span>24</span></div>
+</section>
+
+<!-- 25 conclusion -->
+<section class="slide partB">
+  <div class="kicker">Kết luận</div>
+  <h2>Ý tưởng failure-driven refinement hợp lý, nhưng lợi ích "80% recovery" chưa được chứng minh là tổng quát</h2>
+  <div class="body">
+    <div class="col">
+      <div class="card grn"><h3>Điều đứng vững</h3><ul style="font-size:18px"><li>Compile mù làm mất facts và thua cả FC raw</li><li>Targeted diagnosis <b>hơn</b> random pinning</li><li>WiCER kéo score-1 xuống trên chính tập probe, ở 17/17 topics</li></ul></div>
+    </div>
+    <div class="col">
+      <div class="card red"><h3>Điều cần thận trọng</h3><ul style="font-size:18px"><li>Recovery 43% (không phải 80%) khi blind mạnh hơn</li><li>Trên held-out: −0,07, 11/17 topics giảm</li><li>Noise của compiler cỡ bằng effect</li></ul></div>
+    </div>
+  </div>
+  <div class="card soft" style="margin-top:6px"><h3>Hướng tiếp theo</h3><p style="font-size:19px">Đánh giá trên held-out và với nhiều compile/seed để có CI; dùng query stream thật làm probe; hybrid wiki–RAG khi confidence thấp; và adaptive per-document compression theo tín hiệu diagnose.</p></div>
+  <div class="footer"><span>WiCER · Paper review &amp; Reproduction</span><span>25</span></div>
+</section>
+
+<div id="bar"></div>
+</div>
+
+<script>
+/* ---------- scaling, navigation ---------- */
+const stage=document.getElementById('stage'), slides=[...document.querySelectorAll('.slide')], bar=document.getElementById('bar');
+let cur=0;
+function fit(){const s=Math.min(innerWidth/1280,innerHeight/720);stage.style.transform=`translate(-50%,-50%) scale(${s})`}
+function show(i){cur=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,k)=>s.classList.toggle('active',k===cur));bar.style.width=((cur+1)/slides.length*100)+'%';try{history.replaceState(null,'','#'+(cur+1))}catch(e){}}
+addEventListener('resize',fit);fit();
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();show(cur+1)}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();show(cur-1)}
+  else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);
+});
+stage.addEventListener('click',e=>{const r=stage.getBoundingClientRect();show(cur+((e.clientX-r.left)>r.width/2?1:-1))});
+show((parseInt(location.hash.slice(1))||1)-1);
+
+/* ---------- chart helpers ---------- */
+const C={navy:'#1f3a5f',orange:'#d98a2b',paper:'#9fb4cc',green:'#3f8f6b',red:'#b8473f',purple:'#7a69b3',grid:'#e3e6ea',ink:'#1d2733',mut:'#5d6b7a'};
+const f2=v=>v.toFixed(2).replace('.',','), f1=v=>v.toFixed(1).replace('.',',');
+const sgn=v=>(v>=0?'+':'−')+Math.abs(v).toFixed(2).replace('.',',');
+
+function vbars({el,cats,series,min=0,max,w=560,h=330,ticks=5,fmt=f2,ml=44,mb=56,mt=26,gap=.34,labelSize=15,catSize=15}){
+  const pw=w-ml-8, ph=h-mt-mb, y=v=>mt+(1-(v-min)/(max-min))*ph, y0=y(Math.max(min,0));
+  let s=`<svg viewBox="0 0 ${w} ${h}" width="100%">`;
+  for(let i=0;i<=ticks;i++){const v=min+(max-min)*i/ticks,yy=y(v);s+=`<line x1="${ml}" x2="${w-8}" y1="${yy}" y2="${yy}" stroke="${C.grid}"/><text x="${ml-8}" y="${yy+5}" text-anchor="end" font-size="13" fill="${C.mut}">${v%1?f1(v):v}</text>`}
+  const gw=pw/cats.length, n=series.length, bw=gw*(1-gap)/n;
+  cats.forEach((c,ci)=>{
+    const gx=ml+ci*gw+gw*gap/2;
+    series.forEach((se,si)=>{
+      const v=se.vals[ci]; if(v==null)return;
+      const x=gx+si*bw, yy=y(v), top=Math.min(yy,y0), hh=Math.abs(yy-y0);
+      s+=`<rect x="${x+2}" y="${top}" width="${bw-4}" height="${hh}" rx="4" fill="${Array.isArray(se.color)?se.color[ci]:se.color}"/>`;
+      s+=`<text x="${x+bw/2}" y="${v>=0?yy-7:yy+17}" text-anchor="middle" font-size="${labelSize}" font-weight="600" fill="${C.ink}">${fmt(v)}</text>`;
+    });
+    const lines=String(c).split('\n');
+    lines.forEach((ln,li)=>{s+=`<text x="${ml+ci*gw+gw/2}" y="${h-mb+22+li*18}" text-anchor="middle" font-size="${catSize}" fill="${C.ink}">${ln}</text>`});
+  });
+  s+=`<line x1="${ml}" x2="${w-8}" y1="${y0}" y2="${y0}" stroke="${C.mut}"/></svg>`;
+  document.getElementById(el).innerHTML=s;
+}
+
+function hbars({el,rows,min=0,max,w=700,h=480,fmt=v=>v+'%',ref=[],labw=170,top=14,bot=26,labelSize=14,ticks=[]}){
+  const n=rows.length, rh=(h-top-bot)/n, pw=w-labw-60, x=v=>labw+(v-min)/(max-min)*pw, x0=x(Math.max(min,0));
+  let s=`<svg viewBox="0 0 ${w} ${h}" width="100%">`;
+  ticks.forEach(t=>{s+=`<line x1="${x(t)}" x2="${x(t)}" y1="${top}" y2="${h-bot}" stroke="${C.grid}"/><text x="${x(t)}" y="${h-8}" text-anchor="middle" font-size="12" fill="${C.mut}">${fmt(t)}</text>`});
+  rows.forEach((r,i)=>{
+    const yy=top+i*rh, bh=rh*.66, by=yy+(rh-bh)/2, xv=x(r.val);
+    s+=`<text x="${labw-10}" y="${yy+rh/2+5}" text-anchor="end" font-size="14" fill="${C.ink}">${r.label}</text>`;
+    if(r.val==null){s+=`<text x="${x0+8}" y="${yy+rh/2+5}" font-size="13" fill="${C.mut}" font-style="italic">không có FC baseline</text>`;return}
+    s+=`<rect x="${Math.min(xv,x0)}" y="${by}" width="${Math.abs(xv-x0)}" height="${bh}" rx="3" fill="${r.color}"/>`;
+    const right=r.val>=0;
+    s+=`<text x="${right?xv+6:xv-6}" y="${yy+rh/2+5}" text-anchor="${right?'start':'end'}" font-size="${labelSize}" font-weight="600" fill="${C.ink}">${fmt(r.val)}</text>`;
+  });
+  s+=`<line x1="${x0}" x2="${x0}" y1="${top}" y2="${h-bot}" stroke="${C.mut}"/>`;
+  ref.forEach(r=>{s+=`<line x1="${x(r.v)}" x2="${x(r.v)}" y1="${top}" y2="${h-bot}" stroke="${r.color}" stroke-width="2" stroke-dasharray="6 4"/><text x="${x(r.v)+5}" y="${top-9}" font-size="14" font-weight="600" fill="${r.color}">${r.label}</text>`});
+  s+='</svg>';document.getElementById(el).innerHTML=s;
+}
+
+function lines({el,xs,series,min,max,w=560,h=340,ml=44,mb=44,mt=20,ticks=5,xlabel=''}){
+  const pw=w-ml-24, ph=h-mt-mb, X=i=>ml+30+(pw-60)*(xs.length===1?.5:i/(xs.length-1)), Y=v=>mt+(1-(v-min)/(max-min))*ph;
+  let s=`<svg viewBox="0 0 ${w} ${h}" width="100%">`;
+  for(let i=0;i<=ticks;i++){const v=min+(max-min)*i/ticks;s+=`<line x1="${ml}" x2="${w-24}" y1="${Y(v)}" y2="${Y(v)}" stroke="${C.grid}"/><text x="${ml-8}" y="${Y(v)+5}" text-anchor="end" font-size="13" fill="${C.mut}">${f1(v)}</text>`}
+  xs.forEach((x,i)=>{s+=`<text x="${X(i)}" y="${h-mb+24}" text-anchor="middle" font-size="14" fill="${C.ink}">${x}</text>`});
+  s+=`<text x="${ml+pw/2}" y="${h-6}" text-anchor="middle" font-size="14" fill="${C.mut}">${xlabel}</text>`;
+  series.forEach(se=>{
+    const pts=se.vals.map((v,i)=>[X(i),Y(v)]);
+    s+=`<polyline fill="none" stroke="${se.color}" stroke-width="3.2" stroke-linejoin="round" points="${pts.map(p=>p.join(',')).join(' ')}"/>`;
+    pts.forEach((p,i)=>{s+=`<circle cx="${p[0]}" cy="${p[1]}" r="5.5" fill="${se.color}"/>`;if(se.label!==false)s+=`<text x="${p[0]}" y="${p[1]-11}" text-anchor="middle" font-size="13" font-weight="600" fill="${se.color}">${f2(se.vals[i])}</text>`});
+  });
+  s+='</svg>';document.getElementById(el).innerHTML=s;
+}
+
+/* ---------- slide 4 ---------- */
+vbars({el:'c4a',cats:['Answer quality'],series:[{name:'FC',color:C.navy,vals:[4.38]},{name:'RAG',color:C.orange,vals:[4.08]}],min:0,max:5,w:300,h:310,ticks:5,mb:40});
+vbars({el:'c4b',cats:['TTFT median'],series:[{name:'FC',color:C.navy,vals:[0.857]},{name:'RAG',color:C.orange,vals:[6.277]}],min:0,max:7,w:300,h:310,ticks:7,mb:40,fmt:v=>f2(v)+' s'});
+
+/* ---------- slide 5 ---------- */
+vbars({el:'c5',cats:['30 bài curated\n(Policygenius)','80 raw docs / topic\n(RepLiQA, 15 topics)'],series:[{color:C.navy,vals:[4.38,3.47]},{color:C.orange,vals:[4.08,3.64]}],min:0,max:5,w:620,h:380,mb:64,labelSize:17,catSize:16});
+
+/* ---------- slide 6 ---------- */
+vbars({el:'c6',cats:['FC raw','Wiki\nlight','Wiki\nmoderate','Wiki\naggressive','RAG'],series:[{color:[C.navy,C.red,C.red,C.red,C.orange],vals:[3.46,2.32,2.25,2.14,3.63]}],min:0,max:4,w:620,h:370,ticks:4,gap:.3,mb:64,labelSize:17,catSize:15});
+
+/* ---------- slide 8 CEGAR mapping ---------- */
+(function(){
+  const rows=[['Concrete system M','Bộ tài liệu D'],['Abstract model','Compiled wiki W<sub>t</sub>'],['Abstraction h','LLM compiler (lossy)'],['Specification','"Mọi probe có score &gt; 1"'],['Counterexample','Probe bị chấm 1'],['Kiểm tra spurious','Diagnose: fact có trong D nhưng mất ở W<sub>t</sub>'],['Refinement','Pin facts, recompile W<sub>t+1</sub>']];
+  let h=`<div style="display:grid;grid-template-columns:1fr 40px 1.25fr;gap:8px 0;align-items:center"><div style="text-align:center;font-weight:700;color:var(--navy);font-size:17px;padding-bottom:4px">CEGAR</div><div></div><div style="text-align:center;font-weight:700;color:var(--navy);font-size:17px;padding-bottom:4px">WiCER</div>`;
+  rows.forEach((r,i)=>{h+=`<div style="background:#fff;border:1.5px solid var(--blue-mid);border-radius:10px;padding:9px 14px;font-size:17px;text-align:center">${r[0]}</div><div style="text-align:center"><svg width="30" height="16" viewBox="0 0 30 16"><path d="M2 8H24M18 2l7 6-7 6" fill="none" stroke="#7a69b3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div style="background:${i>=4?'var(--purple-soft)':'var(--blue-soft)'};border:1.5px solid ${i>=4?'#d3cbec':'var(--blue-mid)'};border-radius:10px;padding:9px 14px;font-size:17px;text-align:center">${r[1]}</div>`});
+  document.getElementById('cegar').innerHTML=h+'</div>';
+})();
+
+/* ---------- slide 15 ---------- */
+vbars({el:'c15a',cats:['Blind','WiCER','FC raw','RAG'],series:[{color:[C.red,C.green,C.navy,C.orange],vals:[2.17,3.18,3.47,3.64]}],min:0,max:4,w:520,h:200,ticks:4,gap:.35,mb:30,mt:18,labelSize:16,catSize:15});
+vbars({el:'c15b',cats:['Random pinning','WiCER (diagnosed)'],series:[{color:[C.mut,C.green],vals:[0.16,0.95]}],min:0,max:1.2,w:520,h:150,ticks:2,gap:.5,mb:30,mt:16,fmt:v=>'+'+f2(v),labelSize:16,catSize:15});
+
+/* ---------- slide 18 ---------- */
+vbars({el:'c18',cats:['Blind','Best WiCER','FC raw'],series:[{color:C.paper,vals:[2.17,3.18,3.47]},{color:C.navy,vals:[2.83,3.18,3.70]}],min:0,max:4,w:600,h:380,ticks:4,mb:44,labelSize:17,catSize:17});
+
+/* ---------- slide 19 ---------- */
+(function(){
+  const d=[['company_policies',106],['local_tech',89],['local_env_issues',81],['incident_report',60],['local_education',59],['local_economy',49],['local_health',43],['news_stories',39],['local_sports',32],['cybersecurity_news',31],['local_arts_culture',17],['neighborhood',14],['local_news',12],['small_medium_ent',6],['local_politics',3]];
+  hbars({el:'c19',rows:d.map(r=>({label:r[0],val:r[1],color:r[1]>=100?C.green:r[1]>=50?C.navy:r[1]>=25?'#6f8fb3':C.red})),min:0,max:120,w:700,h:500,fmt:v=>v+'%',top:34,ticks:[0,25,50,75,100],ref:[{v:80,label:'Paper 80%',color:C.orange},{v:43,label:'Ours 43%',color:C.purple}],labw:178});
+})();
+
+/* ---------- slide 20 ---------- */
+vbars({el:'c20',cats:['Random pin\n(best-of)','Random pin\n(chỉ iteration có pin)','WiCER\n(diagnosed)'],series:[{color:C.paper,vals:[0.16,null,0.95]},{color:C.navy,vals:[0.03,-0.17,0.35]}],min:-0.4,max:1.2,w:600,h:390,ticks:4,mb:66,fmt:sgn,labelSize:16,catSize:15});
+
+/* ---------- slide 21 ---------- */
+(function(){
+  const d=[['company_policies',0.13],['cybersecurity_news',-0.17],['incident_report',0.41],['local_arts_culture',-0.58],['local_economy',-0.05],['local_education',-0.24],['local_env_issues',0.24],['local_health',0.35],['local_news',-0.37],['local_politics',-0.66],['local_sports',-0.28],['local_tech',0.23],['neighborhood',-0.01],['news_stories',-0.02],['regional_cuisine',-0.63],['regional_folklore',0.60],['small_medium_ent',-0.19]];
+  hbars({el:'c21',rows:d.map(r=>({label:r[0],val:r[1],color:r[1]>=0?C.green:C.red})),min:-0.8,max:0.8,w:700,h:496,fmt:sgn,ticks:[-0.6,-0.3,0,0.3,0.6],labw:178});
+})();
+
+/* ---------- slide 22 ---------- */
+lines({el:'c22',xs:['0 (blind)','1','2','3'],min:2.4,max:3.8,w:600,h:350,xlabel:'Iteration',series:[
+  {color:C.navy,vals:[2.69,3.02,3.52,3.05]},
+  {color:C.orange,vals:[2.62,3.26,3.23],label:false},
+  {color:C.purple,vals:[2.83,3.20,3.45],label:false}]});
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What percentage of the workforce did a FlexJob Analytics survey estimate engages in some form of freelance work?",
+    "answer": "An estimated 58% of the workforce.",
+    "verbatim": [
+     "an estimated 58% of the workforce now engages in some form of freelance work."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Which city is Pedro Ramirez, the digital marketing consultant who uses AI, from?",
+    "answer": "Miami.",
+    "verbatim": [
+     "Pedro Ramirez, a digital marketing consultant from Miami"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "Why do many gig workers feel isolated?",
+    "answer": "Because of the absence of a traditional support system.",
+    "verbatim": [
+     "Additionally, the absence of a traditional support system leaves many gig workers feeling isolated."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What kinds of policies might the legislation under discussion for stabilizing the gig workforce include?",
+    "answer": "Portable benefits, improved job-matching services, and tax incentives for gig workers.",
+    "verbatim": [
+     "with policies that might include portable benefits, improved job-matching services, and tax incentives for gig workers."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What is expected to become critical in the future of the gig economy?",
+    "answer": "Collaboration between freelancers, corporations, and governments.",
+    "verbatim": [
+     "In this future, collaboration between freelancers, corporations, and governments will likely become critical."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

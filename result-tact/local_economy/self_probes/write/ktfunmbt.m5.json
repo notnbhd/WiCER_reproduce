@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who announced the sweeping set of fiscal reforms on October 3, 2023?",
+    "answer": "Chancellor of Exchequer, Olivia Smith",
+    "verbatim": [
+     "On October 3, 2023, Chancellor of Exchequer, Olivia Smith, announced a sweeping set of reforms"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What is the stated aim of the phased 'subsidy swap' program announced by Energy Minister James Lee?",
+    "answer": "To gradually redirect subsidies from fossil fuels to clean energy sectors, encouraging the growth of eco-enterprises",
+    "verbatim": [
+     "This program aims to gradually redirect subsidies from fossil fuels to clean energy sectors"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What does the Local Green Incentive Scheme empower municipalities to do?",
+    "answer": "Offer additional tax breaks and financial assistance to local eco-friendly startups",
+    "verbatim": [
+     "empowering municipalities to offer additional tax breaks and financial assistance to local eco-friendly startups"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "On what date was the Sustainable Development Audit Agency created?",
+    "answer": "September 1, 2024",
+    "verbatim": [
+     "The creation of the Sustainable Development Audit Agency on September 1, 2024, ensured"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Which Finance Minister emphasized the need for cross-border cooperation on fiscal policies at the International Economic Forum on Sustainability?",
+    "answer": "Finance Minister Thomas Beck",
+    "verbatim": [
+     "Finance Minister Thomas Beck emphasized the need for cross-border cooperation on fiscal policies"
+    ],
+    "kind": "person",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

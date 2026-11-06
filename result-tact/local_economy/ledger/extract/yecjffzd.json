@@ -1,0 +1,785 @@
+{
+ "inventory": [
+  "minimum wage",
+  "employment patterns",
+  "Maria Alvarez",
+  "Milwaukee",
+  "Jacob Kim",
+  "Tacoma",
+  "Carmen Huerta",
+  "University of California",
+  "food service industry",
+  "self-service kiosks",
+  "mobile ordering platforms",
+  "Michael Zhao",
+  "ServiTech",
+  "invisible workforce",
+  "local labor market",
+  "local economy",
+  "economic theory"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "minimum wage",
+    "relation": "uptick_since",
+    "value": "September 1, 2023",
+    "time": "since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A recent uptick in minimum wage rates across various counties and cities since September 1, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "minimum wage",
+    "relation": "debated_as",
+    "value": "perennial debate on the consequences of raising minimum wage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The perennial debate on the consequences of raising minimum wage surfaces with each legislative adjustment"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "economic theory",
+    "relation": "intertwined_with",
+    "value": "the story of resilience, adaptability, and hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the story emerging seems one of resilience, adaptability, and hope, as intertwined with the complexities of economic theory"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Maria Alvarez",
+    "relation": "is",
+    "value": "a single mother of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Alvarez, a single mother of two in the outskirts of Milwaukee"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Maria Alvarez",
+    "relation": "lives_in",
+    "value": "the outskirts of Milwaukee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Alvarez, a single mother of two in the outskirts of Milwaukee"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Milwaukee",
+    "relation": "location_of",
+    "value": "outskirts where Maria Alvarez lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Alvarez, a single mother of two in the outskirts of Milwaukee"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Maria Alvarez",
+    "relation": "experienced",
+    "value": "the transformative impact of a wage increase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experienced firsthand the transformative impact that a wage increase can trigger"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maria Alvarez",
+    "relation": "juggled",
+    "value": "two part-time jobs as a cashier",
+    "time": "before the change",
+    "speaker": null,
+    "verbatim": [
+     "Maria juggled two part-time jobs as a cashier to make ends meet"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Alvarez",
+    "relation": "often_forsook",
+    "value": "quality family time and personal health",
+    "time": "before the change",
+    "speaker": null,
+    "verbatim": [
+     "often forsaking quality family time and personal health"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Maria Alvarez",
+    "relation": "wage_raised_to",
+    "value": "$15 an hour",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wage hike to $15 an hour from her previous $9.25 at one of her jobs"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Maria Alvarez",
+    "relation": "previous_wage",
+    "value": "$9.25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wage hike to $15 an hour from her previous $9.25 at one of her jobs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Alvarez",
+    "relation": "could_relinquish",
+    "value": "one job",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "meant she could relinquish one job to focus on the other"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Maria Alvarez",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wage hike to $15 an hour from her previous $9.25 at one of her jobs meant she could relinquish one job to focus on the other"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Maria Alvarez",
+    "relation": "offered_family",
+    "value": "stability and presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering her family stability and presence, a luxury she hadn't known before"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Maria Alvarez",
+    "relation": "story_echoed_in",
+    "value": "thousands of households",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria's story echoed in thousands of households"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "minimum wage",
+    "relation": "spelled_for_households",
+    "value": "an educational fund, a healthcare plan, or a step away from the brink of poverty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an extra dollar on the paycheck spelled an educational fund, a healthcare plan, or a step away from the brink of poverty"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "economic theory",
+    "relation": "economists_predict",
+    "value": "a variety of impacts",
+    "time": null,
+    "speaker": "economists",
+    "verbatim": [
+     "While economists predict a variety of impacts"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "minimum wage",
+    "relation": "brings",
+    "value": "financial empowerment and enhanced living standards for society's most vulnerable workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bilateral thread running through these stories is that of financial empowerment and enhanced living standards for society's most vulnerable workers"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jacob Kim",
+    "relation": "runs",
+    "value": "a hardware store in Tacoma",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small business owners like Jacob Kim, who runs a hardware store in Tacoma"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Tacoma",
+    "relation": "location_of",
+    "value": "Jacob Kim's hardware store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who runs a hardware store in Tacoma"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jacob Kim",
+    "relation": "faced",
+    "value": "a dichotomy",
+    "time": "as the wage increase rolled out",
+    "speaker": null,
+    "verbatim": [
+     "faced a dichotomy as the wage increase rolled out"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jacob Kim",
+    "relation": "felt",
+    "value": "a sense of responsibility to his employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the entrepreneurial spirit instilled a sense of responsibility to his employees"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jacob Kim",
+    "relation": "regards_labor_as",
+    "value": "the fundamental pillars of his business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing their labor as the fundamental pillars of his business"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jacob Kim",
+    "relation": "operational_costs",
+    "value": "soared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the augmented wages meant his operational costs soared"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "minimum wage",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the augmented wages meant his operational costs soared"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jacob Kim",
+    "relation": "forced_to",
+    "value": "make strategic decisions to mitigate the economic strain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing him to make strategic decisions to mitigate the economic strain"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jacob Kim",
+    "relation": "revised",
+    "value": "his business model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chose to embrace the challenge by revising his business model"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jacob Kim",
+    "relation": "streamlined",
+    "value": "inefficiencies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He streamlined inefficiencies"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jacob Kim",
+    "relation": "invested_in",
+    "value": "training to improve worker productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invested in training to improve worker productivity"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jacob Kim",
+    "relation": "adjusted_prices",
+    "value": "minimally to cushion the added expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adjusted prices minimally to cushion the added expenses"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jacob Kim",
+    "relation": "created",
+    "value": "a loyal team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The commitment to his staff\u2019s welfare created a loyal team, reducing turnover"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jacob Kim",
+    "relation": "reduced",
+    "value": "turnover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing turnover"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jacob Kim",
+    "relation": "fostered",
+    "value": "a productive work environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a productive work environment that ultimately translated into customer satisfaction and recurring business"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jacob Kim",
+    "relation": "translated_into",
+    "value": "customer satisfaction and recurring business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that ultimately translated into customer satisfaction and recurring business"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "employment patterns",
+    "relation": "warned_of",
+    "value": "potential job losses",
+    "time": null,
+    "speaker": "Critics of wage increases",
+    "verbatim": [
+     "Critics of wage increases often warn against potential job losses as businesses cope with inflated wage bills by reducing their workforce or hours"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "employment patterns",
+    "relation": "reaction_of_businesses",
+    "value": "coping with inflated wage bills by reducing their workforce or hours",
+    "time": null,
+    "speaker": "Critics of wage increases",
+    "verbatim": [
+     "as businesses cope with inflated wage bills by reducing their workforce or hours"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "employment patterns",
+    "relation": "argued_to_lead_to",
+    "value": "heightened consumption and subsequent job creation",
+    "time": null,
+    "speaker": "proponents",
+    "verbatim": [
+     "proponents argue that increasing workers' purchasing power can lead to heightened consumption and subsequent job creation"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Carmen Huerta",
+    "relation": "occupation",
+    "value": "labor economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carmen Huerta, a labor economist at the University of California, posited"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "University of California",
+    "relation": "employs",
+    "value": "Carmen Huerta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carmen Huerta, a labor economist at the University of California"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Carmen Huerta",
+    "relation": "posited",
+    "value": "the local economy could witness a bifurcated reaction",
+    "time": null,
+    "speaker": "Carmen Huerta",
+    "verbatim": [
+     "Carmen Huerta, a labor economist at the University of California, posited that"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local economy",
+    "relation": "could_witness",
+    "value": "a bifurcated reaction",
+    "time": null,
+    "speaker": "Carmen Huerta",
+    "verbatim": [
+     "The local economy could witness a bifurcated reaction where initially"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "local economy",
+    "relation": "may_reduce",
+    "value": "headcount or hours",
+    "time": "initially",
+    "speaker": "Carmen Huerta",
+    "verbatim": [
+     "certain low-margin businesses may reduce their headcount or hours"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "employment patterns",
+    "relation": "could_stabilize_or_increase",
+    "value": "overall employment levels in the medium to long term",
+    "time": "in the medium to long term",
+    "speaker": "Carmen Huerta",
+    "verbatim": [
+     "could stabilize, if not increase overall employment levels in the medium to long term"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "employment patterns",
+    "relation": "shows",
+    "value": "nuanced sector-specific reactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nuanced sector-specific reactions have been observed"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "food service industry",
+    "relation": "identified_as",
+    "value": "vulnerable to minimum wage hikes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the food service industry, often identified as vulnerable to minimum wage hikes due to its low-profit margins and high labor intensity"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "food service industry",
+    "relation": "vulnerable_due_to",
+    "value": "low-profit margins and high labor intensity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to its low-profit margins and high labor intensity"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "food service industry",
+    "relation": "has_seen",
+    "value": "a burgeoning trend of automation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a burgeoning trend of automation with selfservice kiosks and mobile ordering platforms"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "self-service kiosks",
+    "relation": "adopted_in",
+    "value": "food service industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "automation with selfservice kiosks and mobile ordering platforms"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "mobile ordering platforms",
+    "relation": "adopted_in",
+    "value": "food service industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "selfservice kiosks and mobile ordering platforms"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "employment patterns",
+    "relation": "viewed_as",
+    "value": "complements rather than substitutes for human labor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such technological adaptations are increasingly viewed as complements rather than substitutes for human labor"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "employment patterns",
+    "relation": "allows",
+    "value": "employees to divert their efforts to more customer-focused roles and enhance service quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing employees to divert their efforts to more customer-focused roles and enhance service quality"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Michael Zhao",
+    "relation": "is",
+    "value": "Gen Z entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gen Z entrepreneur, Michael Zhao, leveraged this trend"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Michael Zhao",
+    "relation": "developed",
+    "value": "ServiTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gen Z entrepreneur, Michael Zhao, leveraged this trend to develop 'ServiTech'"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "ServiTech",
+    "relation": "is",
+    "value": "an affordable automation service for small to medium-sized restaurants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'ServiTech', an affordable automation service for small to medium-sized restaurants"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "ServiTech",
+    "relation": "aims_to",
+    "value": "streamline restaurant operations efficiently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to streamline their operations efficiently"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Michael Zhao",
+    "relation": "said",
+    "value": "aim is not to replace workers but to empower them with tools that enhance their productivity and job satisfaction",
+    "time": null,
+    "speaker": "Michael Zhao",
+    "verbatim": [
+     "Our aim isn't to replace workers but to empower them with tools that enhance their productivity and job satisfaction."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Michael Zhao",
+    "relation": "said",
+    "value": "a win-win for employers, employees, and consumers",
+    "time": null,
+    "speaker": "Michael Zhao",
+    "verbatim": [
+     "It's a win-win for employers, employees, and consumers"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "employment patterns",
+    "relation": "suggests",
+    "value": "transformation of roles rather than erosion of job opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggests not an erosion of job opportunities, but rather a transformation of roles"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "invisible workforce",
+    "relation": "includes",
+    "value": "cleaners, home aides, delivery personnel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The invisible workforce - cleaners, home aides, delivery personnel"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "invisible workforce",
+    "relation": "recognition",
+    "value": "rarely recognized",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose toils are rarely recognized"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "invisible workforce",
+    "relation": "interwoven_into",
+    "value": "the fabric of the economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "find their lives subtly interwoven into the fabric of the economy"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "invisible workforce",
+    "relation": "acknowledgment_manifests_in",
+    "value": "dignity and respect alongside economic rewards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "manifesting in dignity and respect alongside economic rewards"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "invisible workforce",
+    "relation": "encouraged_toward",
+    "value": "a more equitable workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift in perspective encourages a more equitable workforce"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "employment patterns",
+    "relation": "influenced_by",
+    "value": "policy changes, technological innovation, and societal values",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employment patterns, ever reactive to the pulse of economic change, dance to the tempo set by policy changes, technological innovation, and societal values"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "minimum wage",
+    "relation": "is_one_of",
+    "value": "many catalysts in the vast ecosystem of labor markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise in minimum wage is but one of many catalysts in the vast ecosystem of labor markets"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "local economy",
+    "relation": "shaped_by",
+    "value": "how employers and workers navigate these changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "How employers and workers navigate these changes will continue to shape the contours of the local economy"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "employment patterns",
+    "relation": "interplay_rendered_clear",
+    "value": "a wage hike's effects on employment patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the intricate interplay of a wage hike's effects on employment patterns is rendered clear"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Maria Alvarez",
+    "relation": "has_children",
+    "value": "children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the illuminated future of Maria Alvarez's children"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "local labor market",
+    "relation": "characterized_by",
+    "value": "vibrant dynamism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bearing witness to the vibrant dynamism of the local labor market"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

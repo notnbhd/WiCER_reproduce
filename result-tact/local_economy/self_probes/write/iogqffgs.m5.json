@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What percentage year-over-year growth in contactless payments did the TechPayment Solutions industry report indicate?",
+    "answer": "75% year-over-year growth in contactless payments.",
+    "verbatim": [
+     "September 10, 2023, saw the release of an industry report by TechPayment Solutions, which indicated a 75% year-over-year growth in contactless payments."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What is the purpose of the fingerprint scanner on the contactless cards PaySecure launched?",
+    "answer": "The fingerprint scanner is there to authenticate transactions.",
+    "verbatim": [
+     "PaySecure launched a line of contactless cards equipped with a fingerprint scanner to authenticate transactions."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Which local boutique owner shared her experience with QuickTap's integration in a case study?",
+    "answer": "Emily Carter, a local boutique owner.",
+    "verbatim": [
+     "local boutique owner Emily Carter shared her experience"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What percentage of Gen Z shoppers prefer contactless over traditional payment methods, according to the Consumer Insights Global study?",
+    "answer": "90% of Gen Z shoppers.",
+    "verbatim": [
+     "showed that 90% of Gen Z and 85% of Millennial shoppers prefer contactless over traditional payment methods."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "By when does the document imagine local shoppers being able to choose their preferred contactless option at any local store or online?",
+    "answer": "By mid-2024.",
+    "verbatim": [
+     "Imagine, by mid-2024, local shoppers being able to choose their preferred contactless option"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

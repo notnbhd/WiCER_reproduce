@@ -1,0 +1,865 @@
+{
+ "inventory": [
+  "blockchain technology",
+  "Dr. Jane Smith",
+  "TechSecure Institute",
+  "cyberspace threats",
+  "CyberRisk Analytics",
+  "cyberattacks",
+  "Michael Johnson",
+  "SecureComm conference",
+  "Internet of Things (IoT)",
+  "Global IoT Council",
+  "VerifyChain",
+  "blockchain-based identity management system",
+  "blockchain-based messaging apps",
+  "ChainGuard",
+  "FirstTrust Bank",
+  "HealthChain Inc.",
+  "cryptocurrencies",
+  "digital transactions",
+  "regulations",
+  "Dr. Alex Green"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Jane Smith",
+    "relation": "is_a",
+    "value": "a leading cybersecurity researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jane Smith, a leading cybersecurity researcher at TechSecure Institute"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Jane Smith",
+    "relation": "works_at",
+    "value": "TechSecure Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jane Smith, a leading cybersecurity researcher at TechSecure Institute"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Jane Smith",
+    "relation": "hailed_blockchain_as",
+    "value": "a game-changer for digital security",
+    "time": "As of September 5, 2023",
+    "speaker": "experts like Dr. Jane Smith",
+    "verbatim": [
+     "experts like Dr. Jane Smith, a leading cybersecurity researcher at TechSecure Institute, have hailed blockchain as a game-changer for digital security"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "blockchain technology",
+    "relation": "is_a",
+    "value": "distributed ledger technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simply put, blockchain is a distributed ledger technology."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "blockchain technology",
+    "relation": "maintains",
+    "value": "a growing list of records, called blocks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it maintains a growing list of records, called blocks"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "blockchain technology",
+    "relation": "links_blocks_using",
+    "value": "cryptography",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are securely linked using cryptography"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "blockchain technology",
+    "relation": "block_contains",
+    "value": "a cryptographic hash of the previous block, a timestamp, and transaction data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "blockchain technology",
+    "relation": "is_robust_against",
+    "value": "data tampering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Due to its inherent design, blockchain technology is robust against data tampering"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "blockchain technology",
+    "relation": "caused_by",
+    "value": "its inherent design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Due to its inherent design, blockchain technology is robust against data tampering"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "blockchain technology",
+    "relation": "creates",
+    "value": "a secure and decentralized record of transactions that can't be altered retroactively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a secure and decentralized record of transactions that can't be altered retroactively"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "blockchain technology",
+    "relation": "appeals_to",
+    "value": "industries like banking, healthcare, and supply chain management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This feature has become especially appealing to industries like banking, healthcare, and supply chain management."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "cyberspace threats",
+    "relation": "escalated_in",
+    "value": "sophistication and frequency",
+    "time": "In the past few years",
+    "speaker": null,
+    "verbatim": [
+     "In the past few years, cyberspace threats have escalated in both sophistication and frequency."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "CyberRisk Analytics",
+    "relation": "published_report",
+    "value": "a 40% increase in reported cyberattacks compared to the previous year",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a report published on October 12, 2023, by CyberRisk Analytics, there was a 40% increase in reported cyberattacks compared to the previous year."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "cyberattacks",
+    "relation": "increased_by",
+    "value": "40%",
+    "time": "October 12, 2023",
+    "speaker": "CyberRisk Analytics",
+    "verbatim": [
+     "According to a report published on October 12, 2023, by CyberRisk Analytics, there was a 40% increase in reported cyberattacks compared to the previous year."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "cyberattacks",
+    "relation": "range_from",
+    "value": "data breaches and ransomware to sophisticated phishing campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These attacks range from data breaches and ransomware to sophisticated phishing campaigns."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "cyberspace threats",
+    "relation": "highlight_need_for",
+    "value": "robust cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The increasing threats highlight the need for robust cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "blockchain technology",
+    "relation": "offers",
+    "value": "some promising solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "blockchain technology's unique attributes offer some promising solutions"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "blockchain technology",
+    "relation": "is_not_just_foundation_for",
+    "value": "cryptocurrencies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Blockchain technology is not just a foundation for cryptocurrencies"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "blockchain technology",
+    "relation": "represents",
+    "value": "a new frontier in cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it represents a new frontier in cybersecurity"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "blockchain technology",
+    "relation": "uses_span",
+    "value": "improving identity management, securing messaging, and enhancing IoT security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its uses span various areas, such as improving identity management, securing messaging, and enhancing IoT security."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "blockchain technology",
+    "relation": "can_simplify_and_secure",
+    "value": "the process of identity verification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Blockchain's decentralized nature can simplify and secure the process of identity verification."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "VerifyChain",
+    "relation": "is_a",
+    "value": "a startup",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a startup called VerifyChain"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "VerifyChain",
+    "relation": "deployed",
+    "value": "a blockchain-based identity management system",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 1, 2023, a startup called VerifyChain successfully deployed a blockchain-based identity management system"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "blockchain-based identity management system",
+    "relation": "gives_users",
+    "value": "control over their digital identities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a blockchain-based identity management system that gives users control over their digital identities"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "blockchain-based identity management system",
+    "relation": "leaves",
+    "value": "a transparent and unchangeable record of transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while also leaving a transparent and unchangeable record of transactions"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Johnson",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Michael Johnson, who spoke at the SecureComm conference on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Michael Johnson",
+    "relation": "spoke_at",
+    "value": "SecureComm conference",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Michael Johnson, who spoke at the SecureComm conference on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "SecureComm conference",
+    "relation": "featured_speaker",
+    "value": "Michael Johnson",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Michael Johnson, who spoke at the SecureComm conference on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Johnson",
+    "relation": "highlighted",
+    "value": "blockchain could protect against the interception of messages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighted how blockchain could protect against the interception of messages"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "blockchain-based messaging apps",
+    "relation": "could_ensure",
+    "value": "messages remain private and secure",
+    "time": null,
+    "speaker": "Michael Johnson",
+    "verbatim": [
+     "He outlined how decentralized blockchain-based messaging apps could ensure that messages remain private and secure"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "blockchain-based messaging apps",
+    "relation": "does_not_rely_on",
+    "value": "a centralized server that could be a target for hackers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "since they don\u2019t rely on a centralized server that could be a target for hackers"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "blockchain-based messaging apps",
+    "relation": "caused_by",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could ensure that messages remain private and secure since they don\u2019t rely on a centralized server"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Internet of Things (IoT)",
+    "relation": "is_vulnerable_to",
+    "value": "cyber-attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Internet of Things (IoT) represents another area vulnerable to cyber-attacks."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "blockchain technology",
+    "relation": "can_mitigate_risks_of",
+    "value": "Internet of Things (IoT)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrating blockchain can mitigate these risks"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "blockchain technology",
+    "relation": "ensures",
+    "value": "a secure exchange of data between devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by ensuring a secure exchange of data between devices"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "blockchain technology",
+    "relation": "mechanism_of",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrating blockchain can mitigate these risks by ensuring a secure exchange of data between devices"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Global IoT Council",
+    "relation": "released_study",
+    "value": "a study",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study by the Global IoT Council, released on December 5, 2023, found that blockchain could dramatically reduce IoT security incidents."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Global IoT Council",
+    "relation": "found",
+    "value": "blockchain could dramatically reduce IoT security incidents",
+    "time": "December 5, 2023",
+    "speaker": "Global IoT Council",
+    "verbatim": [
+     "A study by the Global IoT Council, released on December 5, 2023, found that blockchain could dramatically reduce IoT security incidents."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "blockchain technology",
+    "relation": "demonstrated_by_case_studies",
+    "value": "the role of blockchain technology in cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There have been several successful case studies demonstrating the role of blockchain technology in cybersecurity."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "ChainGuard",
+    "relation": "is_a",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cybersecurity firm ChainGuard"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "FirstTrust Bank",
+    "relation": "is_a",
+    "value": "financial institution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the financial institution FirstTrust Bank"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "ChainGuard",
+    "relation": "partnered_with",
+    "value": "FirstTrust Bank",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the partnership between the cybersecurity firm ChainGuard and the financial institution FirstTrust Bank"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "ChainGuard",
+    "relation": "implemented",
+    "value": "a blockchain-based system to authenticate the bank's transactions",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Announced on January 15, 2024, they implemented a blockchain-based system to authenticate the bank's transactions"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "ChainGuard",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they implemented a blockchain-based system to authenticate the bank's transactions, resulting in a significant reduction in fraudulent activities"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "ChainGuard",
+    "relation": "resulted_in",
+    "value": "a significant reduction in fraudulent activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in a significant reduction in fraudulent activities"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "blockchain technology",
+    "relation": "used_to_secure",
+    "value": "patient data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another case study involves the healthcare sector, where blockchain technology has been used to secure patient data."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "HealthChain Inc.",
+    "relation": "introduced",
+    "value": "a blockchain-based platform",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "HealthChain Inc. introduced a blockchain-based platform on February 22, 2024, that allows secure storage and sharing of medical records among hospitals, improving privacy and preventing breaches."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "HealthChain Inc.",
+    "relation": "allows",
+    "value": "secure storage and sharing of medical records among hospitals",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "HealthChain Inc. introduced a blockchain-based platform on February 22, 2024, that allows secure storage and sharing of medical records among hospitals, improving privacy and preventing breaches."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "HealthChain Inc.",
+    "relation": "improves",
+    "value": "privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving privacy and preventing breaches"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "HealthChain Inc.",
+    "relation": "prevents",
+    "value": "breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving privacy and preventing breaches"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "blockchain technology",
+    "relation": "has_challenge",
+    "value": "scalability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The scalability of blockchain systems, for example, is one such challenge"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "blockchain technology",
+    "relation": "needs_to_manage",
+    "value": "a high volume of transactions quickly and efficiently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the technology needs to manage a high volume of transactions quickly and efficiently"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "blockchain technology",
+    "relation": "integration_cost",
+    "value": "a significant cost associated with these integrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only is there a significant cost associated with these integrations"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "blockchain technology",
+    "relation": "integration_challenge",
+    "value": "integrating blockchain into existing systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is the matter of integrating blockchain into existing systems"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "blockchain technology",
+    "relation": "requires_employee_expertise",
+    "value": "employees well-versed in blockchain technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies must also ensure that their employees are well-versed in blockchain technology"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "regulations",
+    "relation": "presents",
+    "value": "another layer of complexity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulation presents another layer of complexity."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "regulations",
+    "relation": "framework_developed_by",
+    "value": "Governments and regulatory bodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Governments and regulatory bodies are working on frameworks to manage blockchain applications"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "regulations",
+    "relation": "framework_purpose",
+    "value": "managing blockchain applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Governments and regulatory bodies are working on frameworks to manage blockchain applications"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "regulations",
+    "relation": "can_vary_by",
+    "value": "region and industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these regulations can vary widely by region and industry, adding to the challenge of implementation."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "regulations",
+    "relation": "adds_to_challenge_of",
+    "value": "implementation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these regulations can vary widely by region and industry, adding to the challenge of implementation."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "blockchain technology",
+    "relation": "has_capacity",
+    "value": "to ensure the integrity and authenticity of data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Blockchain technology, with its capacity to ensure the integrity and authenticity of data, plays a critical role in protecting digital transactions."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "blockchain technology",
+    "relation": "plays_role_in",
+    "value": "a critical role in protecting digital transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plays a critical role in protecting digital transactions"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "digital transactions",
+    "relation": "protected_by",
+    "value": "blockchain technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plays a critical role in protecting digital transactions"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Dr. Alex Green",
+    "relation": "is_a",
+    "value": "renowned futurist and technologist",
+    "time": "March 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Renowned futurist and technologist, Dr. Alex Green, predicted on March 8, 2024"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Alex Green",
+    "relation": "predicted",
+    "value": "within the next decade, blockchain could become as ubiquitous in cybersecurity as antivirus software is today",
+    "time": "March 8, 2024",
+    "speaker": "Dr. Alex Green",
+    "verbatim": [
+     "Renowned futurist and technologist, Dr. Alex Green, predicted on March 8, 2024, that within the next decade, blockchain could become as ubiquitous in cybersecurity as antivirus software is today."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "blockchain technology",
+    "relation": "could_become",
+    "value": "as ubiquitous in cybersecurity as antivirus software is today",
+    "time": "within the next decade",
+    "speaker": "Dr. Alex Green",
+    "verbatim": [
+     "within the next decade, blockchain could become as ubiquitous in cybersecurity as antivirus software is today."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Dr. Alex Green",
+    "relation": "forecast_based_on",
+    "value": "ongoing research and the continued adoption of blockchain across various sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His forecast is based on ongoing research and the continued adoption of blockchain across various sectors."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "blockchain technology",
+    "relation": "transformative_potential_recognized_by",
+    "value": "Businesses and governments alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses and governments alike are recognizing the transformative potential of blockchain in securing our digital world."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "blockchain technology",
+    "relation": "adoption_indicates",
+    "value": "a strong and growing trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pace at which blockchain technology is being adopted and tailored for cybersecurity purposes indicates a strong and growing trend."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "blockchain technology",
+    "relation": "poised_to_be",
+    "value": "a pivotal player in the ongoing battle against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "blockchain technology is poised to be a pivotal player in the ongoing battle against cyber threats."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "blockchain technology",
+    "relation": "has_features",
+    "value": "decentralized nature, transparency, and tamper-proof features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With its decentralized nature, transparency, and tamper-proof features, blockchain stands at the frontier of the next wave of cybersecurity solutions."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "blockchain technology",
+    "relation": "stands_at",
+    "value": "the frontier of the next wave of cybersecurity solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "blockchain stands at the frontier of the next wave of cybersecurity solutions"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "blockchain technology",
+    "relation": "will_likely_cement",
+    "value": "its role in the future of secure digital transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will likely cement its role in the future of secure digital transactions"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "blockchain technology",
+    "relation": "addresses",
+    "value": "the growing security concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while addressing the growing security concerns"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "blockchain technology",
+    "relation": "shown_promise_for",
+    "value": "enhancing the security of digital transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One emerging technology that has shown particular promise for enhancing the security of digital transactions is blockchain."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "digital transactions",
+    "relation": "security_enhanced_by",
+    "value": "blockchain technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One emerging technology that has shown particular promise for enhancing the security of digital transactions is blockchain."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

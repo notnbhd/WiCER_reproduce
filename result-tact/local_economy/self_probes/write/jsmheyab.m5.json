@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "According to the Global Innovation Policy Center reports, how much more likely are economies with strong IP protections to attract venture capital and private equity investments?",
+    "answer": "Up to three times more likely than economies with weak protections.",
+    "verbatim": [
+     "economies with strong IP protections are up to three times more likely to attract venture capital and private equity investments than those with weak protections"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Which institution is Professor Johnathan Blake from?",
+    "answer": "The Australian National University.",
+    "verbatim": [
+     "Professor Johnathan Blake from the Australian National University"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "What did the national innovation programs in South Korea lead to, according to Minister Lee Ju-yeol?",
+    "answer": "An influx of high-tech startups and a considerable boost in IP filings.",
+    "verbatim": [
+     "which have, per the statements of Minister of Economy and Finance Lee Ju-yeol on September 29, 2023, led to an influx of high-tech startups and a considerable boost in IP filings"
+    ],
+    "kind": "attribution",
+    "relational": true
+   },
+   {
+    "question": "Who proposed the new patent-sharing platform discussed in the document?",
+    "answer": "Tech magnate Elizabeth Moresby.",
+    "verbatim": [
+     "a new patentsharing platform was proposed by tech magnate Elizabeth Moresby"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What does the Innovation Forward Act passed by the United States do?",
+    "answer": "It streamlines technology transfer from federal laboratories and universities, leading to a more effective progression of ideas to real-world applications.",
+    "verbatim": [
+     "the United States passed the \"Innovation Forward Act\" on November 12, 2023, which streamlines technology transfer from federal laboratories and universities, propping up a more effective progression of ideas to real-world applications"
+    ],
+    "kind": "process",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

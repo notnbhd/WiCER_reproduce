@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did Marissa Jennings remark that the value of her business is about the smiles, the stories, and the personal bonds?",
+    "answer": "October 15, 2023",
+    "verbatim": [
+     "Jennings remarked on October 15, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why do corporate chains and online retailers often make it impossible for small businesses to compete on cost, according to economic analyst Roberta Clarkson?",
+    "answer": "Because these entities benefit from economies of scale that allow them to undercut prices",
+    "verbatim": [
+     "these entities benefit from economies of scale that allow them to undercut prices, often making it impossible for small businesses to compete on cost alone"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "When did the local government introduce the Small Business Growth Fund?",
+    "answer": "October 10, 2023",
+    "verbatim": [
+     "introduced by the local government on October 10, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did Maria Gonzalez's customized baking classes lead to for her Sweet Creations Bakery?",
+    "answer": "A remarkable increase in customer loyalty and brand recognition",
+    "verbatim": [
+     "she's seen a remarkable increase in customer loyalty and brand recognition"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What year does the document say small businesses are approaching as they stand at a crossroads?",
+    "answer": "2024",
+    "verbatim": [
+     "As the year 2024 approaches"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

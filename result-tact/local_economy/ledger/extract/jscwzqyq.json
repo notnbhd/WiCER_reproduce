@@ -1,0 +1,916 @@
+{
+ "inventory": [
+  "Mike Anderson",
+  "Anderson\u2019s Stationery",
+  "Anytown, USA",
+  "OfficeWorld",
+  "Sarah Goldstein",
+  "Goldstein\u2019s Grocery",
+  "Amazon",
+  "eBay",
+  "Juan Martinez",
+  "Amanda Chen",
+  "Blossom Boutique",
+  "Metropolis",
+  "James Peterson",
+  "Main Street",
+  "small businesses",
+  "big-box stores",
+  "e-commerce",
+  "online retailers",
+  "larger corporates",
+  "local markets",
+  "the pandemic era",
+  "regulatory frameworks",
+  "customer relationship management (CRM)",
+  "point of sale (POS)",
+  "consumer reviews and ratings",
+  "Community-based alliances and cooperatives"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local markets",
+    "relation": "experienced_change",
+    "value": "a less colorful but quite significant change",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a less colorful but quite significant change was taking place in the local economies around the globe"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "small businesses",
+    "relation": "were_once",
+    "value": "the backbone of community commerce and personal service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses, once the backbone of community commerce and personal service"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "small businesses",
+    "relation": "finding_themselves_in",
+    "value": "a David vs. Goliath battle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were finding themselves in a David vs. Goliath battle"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "larger corporates",
+    "relation": "is_described_as",
+    "value": "Goliaths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the Goliaths being both larger corporates and rapidly expanding online retailers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "online retailers",
+    "relation": "is_described_as",
+    "value": "rapidly expanding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rapidly expanding online retailers"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local markets",
+    "relation": "forecast_future_is",
+    "value": "a precarious future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forecast a precarious future for the local markets"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "big-box stores",
+    "relation": "entry_compared_to",
+    "value": "a category-five hurricane",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The entry of big-box stores into local markets has been compared to a category-five hurricane."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mike Anderson",
+    "relation": "owner_of",
+    "value": "Anderson\u2019s Stationery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Anderson, the owner of Anderson\u2019s Stationery"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Anderson\u2019s Stationery",
+    "relation": "is_a",
+    "value": "a mom-and-pop shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anderson\u2019s Stationery \u2013 a mom-and-pop shop in Anytown, USA"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Anderson\u2019s Stationery",
+    "relation": "located_in",
+    "value": "Anytown, USA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mom-and-pop shop in Anytown, USA"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mike Anderson",
+    "relation": "witnessed",
+    "value": "the grand opening of OfficeWorld",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "witnessed the grand opening of OfficeWorld"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "OfficeWorld",
+    "relation": "is_a",
+    "value": "a national chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "OfficeWorld, a national chain"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "OfficeWorld",
+    "relation": "distance_from",
+    "value": "two blocks from his storefront",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "just two blocks from his storefront"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "larger corporates",
+    "relation": "has",
+    "value": "deeper pockets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With deeper pockets"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "larger corporates",
+    "relation": "can_afford",
+    "value": "extensive marketing campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these larger entities can afford extensive marketing campaigns"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "larger corporates",
+    "relation": "lowers_prices_via",
+    "value": "economies of scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lower prices due to economies of scale"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "larger corporates",
+    "relation": "offers",
+    "value": "a diversity of products that small businesses can rarely match",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a diversity of products that small businesses can rarely match"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Anderson\u2019s Stationery",
+    "relation": "customers_drawn_away_by",
+    "value": "the allure of one-stop shopping convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The allure of one-stop shopping convenience has increasingly drawn customers away from establishments like Anderson\u2019s."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Main Street",
+    "relation": "is_described_as",
+    "value": "not all doom and gloom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it\u2019s not all doom and gloom on Main Street"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sarah Goldstein",
+    "relation": "owner_of",
+    "value": "Goldstein\u2019s Grocery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Goldstein who runs Goldstein\u2019s Grocery"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Goldstein",
+    "relation": "leverages",
+    "value": "a personal touch and deep community ties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraging what big corporates often lack \u2013 a personal touch and deep community ties"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Goldstein",
+    "relation": "emphasized",
+    "value": "It\u2019s about knowing your customer's name and their family.",
+    "time": "September 20, 2023",
+    "speaker": "Sarah Goldstein",
+    "verbatim": [
+     "It\u2019s about knowing your customer's name and their family.",
+     "Goldstein emphasized in an interview on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Goldstein",
+    "relation": "emphasized",
+    "value": "It\u2019s about being a part of the community fabric",
+    "time": "September 20, 2023",
+    "speaker": "Sarah Goldstein",
+    "verbatim": [
+     "It\u2019s about being a part of the community fabric,\" Goldstein emphasized in an interview on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "small businesses",
+    "relation": "retain",
+    "value": "a loyal customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This local edge has allowed some small businesses to retain a loyal customer base."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "e-commerce",
+    "relation": "rise_described_as",
+    "value": "nothing short of explosive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of e-commerce has been nothing short of explosive"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "the pandemic era",
+    "relation": "accelerated",
+    "value": "this trend exponentially",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pandemic era accelerated this trend exponentially"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "e-commerce",
+    "relation": "revealed",
+    "value": "more than half of all consumer purchases were made online",
+    "time": "the last quarter of 2023",
+    "speaker": "statistics",
+    "verbatim": [
+     "statistics revealed that more than half of all consumer purchases were made online"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "small businesses",
+    "relation": "outpaced_by",
+    "value": "Amazon and eBay",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Competing with giants like Amazon and eBay, local businesses found themselves outpaced"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "small businesses",
+    "relation": "outpaced_in",
+    "value": "logistics, pricing, and sometimes quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local businesses found themselves outpaced in terms of logistics, pricing, and sometimes quality"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Amazon",
+    "relation": "is_described_as",
+    "value": "giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Competing with giants like Amazon and eBay"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "eBay",
+    "relation": "is_described_as",
+    "value": "giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giants like Amazon and eBay"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "e-commerce",
+    "relation": "convenience_is",
+    "value": "a juggernaut",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The convenience of next or same-day deliveries is a juggernaut"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "small businesses",
+    "relation": "lack_infrastructure_to_contest",
+    "value": "next or same-day deliveries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses often don't have the infrastructure to contest with"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "small businesses",
+    "relation": "started_investing_in",
+    "value": "online storefronts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many small businesses started investing in online storefronts"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Juan Martinez",
+    "relation": "owner_of",
+    "value": "a local bookstore",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Juan Martinez, the owner of a local bookstore"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Juan Martinez",
+    "relation": "said",
+    "value": "It was a steep learning curve, but we had to adapt",
+    "time": "November 2, 2023",
+    "speaker": "Juan Martinez",
+    "verbatim": [
+     "It was a steep learning curve, but we had to adapt,\" shared Juan Martinez, the owner of a local bookstore, on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Juan Martinez",
+    "relation": "stressed",
+    "value": "the importance of a strong social media presence",
+    "time": null,
+    "speaker": "Juan Martinez",
+    "verbatim": [
+     "He also stressed the importance of a strong social media presence."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "small businesses",
+    "relation": "digital_shift_has_shown",
+    "value": "promise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Although this digital shift has shown promise"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "small businesses",
+    "relation": "online_presence_cost_is",
+    "value": "substantial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cost and effort required to maintain an online presence can be substantial for a small business"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "small businesses",
+    "relation": "visibility_and_discovery_are",
+    "value": "significant hurdles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "visibility and discovery are significant hurdles"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "larger corporates",
+    "relation": "has_budgets_for",
+    "value": "massive budgets for advertising and SEO optimization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without the massive budgets for advertising and SEO optimization that their corporate counterparts possess"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "small businesses",
+    "relation": "struggle_to",
+    "value": "appear on the first page of search engine results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses struggle to appear on the first page of search engine results"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "small businesses",
+    "relation": "struggle_to",
+    "value": "stand out in crowded marketplaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to stand out in crowded marketplaces"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "consumer reviews and ratings",
+    "relation": "heavily_influence",
+    "value": "online purchase decisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumer reviews and ratings heavily influence online purchase decisions"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "online retailers",
+    "relation": "boast",
+    "value": "the quantity and quality of feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the quantity and quality of feedback that established online retailers boast"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "small businesses",
+    "relation": "profit_margins_squeezed_by",
+    "value": "rent prices for prime retail locations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rent prices for prime retail locations continue to climb, squeezing the already tight profit margins of small businesses."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Amanda Chen",
+    "relation": "owner_of",
+    "value": "Blossom Boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Chen, owner of Blossom Boutique"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Amanda Chen",
+    "relation": "shared_concerns_about",
+    "value": "the soaring rent in downtown Metropolis",
+    "time": "September 25, 2023",
+    "speaker": "Amanda Chen",
+    "verbatim": [
+     "On September 25, 2023, Amanda Chen, owner of Blossom Boutique, shared her concerns about the soaring rent in downtown Metropolis"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Amanda Chen",
+    "relation": "said",
+    "value": "Rent increases threaten to push us out",
+    "time": null,
+    "speaker": "Amanda Chen",
+    "verbatim": [
+     "Rent increases threaten to push us out"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "online retailers",
+    "relation": "have",
+    "value": "no storefronts",
+    "time": null,
+    "speaker": "Amanda Chen",
+    "verbatim": [
+     "online stores that have no storefronts"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "online retailers",
+    "relation": "pay_for_warehouse_space",
+    "value": "pennies for warehouse spaces out of town",
+    "time": null,
+    "speaker": "Amanda Chen",
+    "verbatim": [
+     "pay pennies for warehouse spaces out of town"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Metropolis",
+    "relation": "rent_described_as",
+    "value": "soaring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the soaring rent in downtown Metropolis"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "small businesses",
+    "relation": "rental_and_overhead_costs_are",
+    "value": "relentless adversaries in the fight for survival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These rental and overhead costs are relentless adversaries in the fight for survival."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "James Peterson",
+    "relation": "holds_title",
+    "value": "Councilman",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "such as Councilman James Peterson on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "regulatory frameworks",
+    "relation": "had_not_caught_up_with",
+    "value": "the challenges small businesses face today",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulatory frameworks hadn't caught up with the challenges small businesses face today"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "small businesses",
+    "relation": "burdened_by",
+    "value": "Permits, licenses, and various compliance requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Permits, licenses, and various compliance requirements can impose hefty burdens on small establishments"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "larger corporates",
+    "relation": "has_dedicated_teams_to",
+    "value": "navigate these processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "larger corporates have dedicated teams to navigate these processes"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "regulatory frameworks",
+    "relation": "should_evolve",
+    "value": "evolve and support rather than stifle the growth of small enterprises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There is a clarion call for regulations to evolve and support rather than stifle the growth of small enterprises."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "larger corporates",
+    "relation": "utilize",
+    "value": "cutting-edge software and systems for inventory management, sales forecasting, customer relationship management (CRM), and point of sale (POS) enhancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger corporations often utilize cutting-edge software and systems for inventory management, sales forecasting, customer relationship management (CRM), and point of sale (POS) enhancements."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "customer relationship management (CRM)",
+    "relation": "utilized_by",
+    "value": "larger corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger corporations often utilize cutting-edge software and systems for inventory management, sales forecasting, customer relationship management (CRM)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "point of sale (POS)",
+    "relation": "utilized_by",
+    "value": "larger corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger corporations often utilize cutting-edge software and systems for inventory management, sales forecasting, customer relationship management (CRM), and point of sale (POS) enhancements"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "small businesses",
+    "relation": "strapped_for",
+    "value": "cash and expertise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses, again strapped for cash and expertise"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "small businesses",
+    "relation": "find_themselves",
+    "value": "playing catch-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "find themselves playing catch-up"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "small businesses",
+    "relation": "trying_to_implement",
+    "value": "tech solutions that can streamline their operations and level the playing field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trying to implement tech solutions that can streamline their operations and level the playing field"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "small businesses",
+    "relation": "taking_to_heart",
+    "value": "unity is strength",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some small businesses are taking the adage \"unity is strength\" to heart"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Community-based alliances and cooperatives",
+    "relation": "started_to_form",
+    "value": "started to form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community-based alliances and cooperatives have started to form"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Community-based alliances and cooperatives",
+    "relation": "allows",
+    "value": "shared marketing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for shared marketing, pooled resources for better buying power, and collaborative events to draw in customers"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Community-based alliances and cooperatives",
+    "relation": "allows",
+    "value": "pooled resources for better buying power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for shared marketing, pooled resources for better buying power, and collaborative events to draw in customers"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Community-based alliances and cooperatives",
+    "relation": "allows",
+    "value": "collaborative events to draw in customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for shared marketing, pooled resources for better buying power, and collaborative events to draw in customers"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Community-based alliances and cooperatives",
+    "relation": "embody",
+    "value": "the spirit of resilience and community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These initiatives embody the spirit of resilience and community"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "small businesses",
+    "relation": "ethos_centered_on",
+    "value": "resilience and community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the spirit of resilience and community that has always been at the center of the small business ethos"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "local markets",
+    "relation": "sustained_by",
+    "value": "adaptation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adaptation is the key to sustaining local markets"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "small businesses",
+    "relation": "may_have_to",
+    "value": "diversify their offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses may have to diversify their offerings"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "small businesses",
+    "relation": "may_have_to",
+    "value": "enhance customer experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhance customer experiences"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "small businesses",
+    "relation": "may_have_to",
+    "value": "adopt a blend of in-person and online sales channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adopt a blend of in-person and online sales channels to stay afloat"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "small businesses",
+    "relation": "caused_by",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Competing with giants like Amazon and eBay, local businesses found themselves outpaced"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "small businesses",
+    "relation": "caused_by",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without the massive budgets for advertising and SEO optimization that their corporate counterparts possess, small businesses struggle to appear on the first page of search engine results"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "small businesses",
+    "relation": "caused_by",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This local edge has allowed some small businesses to retain a loyal customer base."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "e-commerce",
+    "relation": "caused_by",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of e-commerce has been nothing short of explosive, and the pandemic era accelerated this trend exponentially."
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "small businesses",
+    "relation": "caused_by",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses, again strapped for cash and expertise, find themselves playing catch-up"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

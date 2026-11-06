@@ -1,0 +1,32 @@
+{
+  "method": "tact",
+  "style": "verbatim",
+  "select": "density",
+  "ratio": 0.5,
+  "rho": 0.0,
+  "source_tokens": 91626,
+  "budget_tokens": 45813,
+  "target_tokens": 45813,
+  "actual_tokens": 45796,
+  "actual_ratio_tokens": 0.4998144631436492,
+  "n_claims": 5178,
+  "n_realized": 3908,
+  "coverage": 0.7547315565855542,
+  "n_documents_rendered": 80,
+  "n_sentences": 1711,
+  "routing": {},
+  "topic": "local_economy",
+  "name": "dense",
+  "source_words": 71136,
+  "actual_words": 35756,
+  "actual_ratio_words": 0.502642825011246,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 5178,
+    "rejection_rate": 0.0,
+    "n_multispan": 44,
+    "n_relational": 239,
+    "n_contradictions": 29,
+    "entity_collision_rate": 0.0006169031462060457
+  }
+}

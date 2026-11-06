@@ -1,0 +1,589 @@
+{
+ "inventory": [
+  "Sarah Johnson",
+  "John Smith",
+  "Emily Gonzalez",
+  "Bernadette Thompson",
+  "Institute of Educational Technology",
+  "Digital Education Group",
+  "Global Education Cybersecurity Initiative",
+  "Canvas",
+  "Blackboard",
+  "Google Drive",
+  "Dropbox",
+  "Student Data Privacy Act",
+  "Artificial Intelligence",
+  "blockchain technology",
+  "digital classroom",
+  "cybersecurity",
+  "remote learning",
+  "global health crisis",
+  "data breach"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "digital classroom",
+    "relation": "efforts_to_protect_student_information_doubled_since",
+    "value": "educators and cybersecurity experts have doubled their efforts",
+    "time": "Since September of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September of 2023, educators and cybersecurity experts have doubled their efforts to protect the sensitive information of students within the ever-expanding digital classroom."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "data breach",
+    "relation": "risk_of",
+    "value": "data breaches and privacy concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "However, with this digital transformation comes the risk of data breaches and privacy concerns."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "global health crisis",
+    "relation": "occurred_in",
+    "value": "2020",
+    "time": "in 2020",
+    "speaker": null,
+    "verbatim": [
+     "Following the shift to remote learning during the global health crisis in 2020"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote learning",
+    "relation": "shift_to_occurred_during",
+    "value": "global health crisis",
+    "time": "in 2020",
+    "speaker": null,
+    "verbatim": [
+     "Following the shift to remote learning during the global health crisis in 2020"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "digital classroom",
+    "relation": "integration_of_digital_platforms_began",
+    "value": "many educational institutions began to experiment with and later integrate digital platforms and tools into their curriculum as a core component of education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many educational institutions began to experiment with and later integrate digital platforms and tools into their curriculum as a core component of education"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote learning",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following the shift to remote learning during the global health crisis in 2020, many educational institutions began to experiment with and later integrate digital platforms"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "digital classroom",
+    "relation": "status",
+    "value": "a permanent fixture in the educational landscape",
+    "time": "By October 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October 2023, it was clear that digital classrooms were no longer a temporary fix but rather a permanent fixture in the educational landscape."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Institute of Educational Technology",
+    "relation": "published",
+    "value": "a recent report",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institute of Educational Technology's recent report highlights"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Institute of Educational Technology",
+    "relation": "reports_that_schools_employ_digital_tools",
+    "value": "over 85% of schools in developed countries now employ a range of digital tools for daily teaching activities",
+    "time": "now",
+    "speaker": "Institute of Educational Technology",
+    "verbatim": [
+     "Institute of Educational Technology's recent report highlights that over 85% of schools in developed countries now employ a range of digital tools for daily teaching activities"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Canvas",
+    "relation": "is_example_of",
+    "value": "learning management systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes learning management systems like Canvas and Blackboard"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Blackboard",
+    "relation": "is_example_of",
+    "value": "learning management systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes learning management systems like Canvas and Blackboard"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Google Drive",
+    "relation": "is_example_of",
+    "value": "cloud storage solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cloud storage solutions such as Google Drive and Dropbox"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dropbox",
+    "relation": "is_example_of",
+    "value": "cloud storage solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cloud storage solutions such as Google Drive and Dropbox"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sarah Johnson",
+    "relation": "occupation",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, a cybersecurity analyst working with the Digital Education Group since September 2024"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Johnson",
+    "relation": "works_with",
+    "value": "Digital Education Group",
+    "time": "since September 2024",
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, a cybersecurity analyst working with the Digital Education Group since September 2024"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Johnson",
+    "relation": "states",
+    "value": "The very features that make these tools invaluable\u2014 accessibility, cloud-based storage, integration with other platforms\u2014also make them and the data they hold vulnerable to attacks.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "The very features that make these tools invaluable\u2014 accessibility, cloud-based storage, integration with other platforms\u2014also make them and the data they hold vulnerable to attacks."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "cybersecurity",
+    "relation": "attacks_have_risen",
+    "value": "risen sharply",
+    "time": "over the past few years",
+    "speaker": null,
+    "verbatim": [
+     "Instances of cyber attacks on educational institutions have risen sharply over the past few years."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "data breach",
+    "relation": "occurred_on",
+    "value": "November 15, 2024",
+    "time": "November 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A notable example occurred on November 15, 2024, when a major university experienced a data breach"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "data breach",
+    "relation": "affected",
+    "value": "a major university",
+    "time": "November 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a major university experienced a data breach that compromised the personal information of over 200,000 students and staff"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "data breach",
+    "relation": "compromised",
+    "value": "the personal information of over 200,000 students and staff",
+    "time": "November 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a data breach that compromised the personal information of over 200,000 students and staff"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "data breach",
+    "relation": "served_as",
+    "value": "a wake-up call for schools and universities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident served as a wake-up call for schools and universities"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "cybersecurity",
+    "relation": "innovation_keeping_pace_with_challenges",
+    "value": "innovation in cybersecurity is keeping pace with these new challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fortunately, innovation in cybersecurity is keeping pace with these new challenges."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Artificial Intelligence",
+    "relation": "used_to",
+    "value": "to monitor and respond to threats in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One emerging solution is the use of Artificial Intelligence (AI) to monitor and respond to threats in real-time."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Artificial Intelligence",
+    "relation": "capability",
+    "value": "analyze patterns and detect anomalies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI-driven security platforms can analyze patterns and detect anomalies that"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Artificial Intelligence",
+    "relation": "implemented_by",
+    "value": "several pioneering districts",
+    "time": "As of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of December 2023, several pioneering districts began implementing these AI systems"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Artificial Intelligence",
+    "relation": "outcome",
+    "value": "a promising decrease in security incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing a promising decrease in security incidents"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Artificial Intelligence",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": "As of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "several pioneering districts began implementing these AI systems, showing a promising decrease in security incidents"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "blockchain technology",
+    "relation": "adopted_by",
+    "value": "Educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational institutions have also started adopting blockchain technology to secure student records."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "blockchain technology",
+    "relation": "secures",
+    "value": "student records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational institutions have also started adopting blockchain technology to secure student records."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "blockchain technology",
+    "relation": "in_order_to",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adopting blockchain technology to secure student records"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "blockchain technology",
+    "relation": "provides",
+    "value": "a nearly impenetrable layer of security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By encrypting data and distributing it across a network, it provides a nearly impenetrable layer of security."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "blockchain technology",
+    "relation": "mechanism",
+    "value": "by encrypting data and distributing it across a network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By encrypting data and distributing it across a network"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "blockchain technology",
+    "relation": "mechanism_of",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By encrypting data and distributing it across a network, it provides a nearly impenetrable layer of security."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "John Smith",
+    "relation": "occupation",
+    "value": "an IT director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, an IT director at a leading tech-focused high school in California, explains"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "John Smith",
+    "relation": "workplace",
+    "value": "a leading tech-focused high school in California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, an IT director at a leading tech-focused high school in California, explains"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "John Smith",
+    "relation": "states",
+    "value": "Blockchain could revolutionize how we handle student data, ensuring integrity and privacy, while still allowing for the data fluidity that modern educational practices require.",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "Blockchain could revolutionize how we handle student data, ensuring integrity and privacy, while still allowing for the data fluidity that modern educational practices require."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Student Data Privacy Act",
+    "relation": "enacted_on",
+    "value": "January 12, 2025",
+    "time": "January 12, 2025",
+    "speaker": null,
+    "verbatim": [
+     "The Student Data Privacy Act, enacted on January 12, 2025, was a landmark legislation"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Student Data Privacy Act",
+    "relation": "described_as",
+    "value": "a landmark legislation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Student Data Privacy Act, enacted on January 12, 2025, was a landmark legislation"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Student Data Privacy Act",
+    "relation": "sets",
+    "value": "clear guidelines for how student information should be collected, stored, and shared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that set clear guidelines for how student information should be collected, stored, and shared"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Student Data Privacy Act",
+    "relation": "requires",
+    "value": "Educational institutions must be more transparent about their data practices and must obtain consent from students or their guardians before collecting personal data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational institutions are now required to be more transparent about their data practices and must obtain consent from students or their guardians before collecting personal data."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Gonzalez",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity experts like Emily Gonzalez, who has conducted over 100 workshops on data privacy in schools by March 2025"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Gonzalez",
+    "relation": "conducted",
+    "value": "over 100 workshops on data privacy in schools",
+    "time": "by March 2025",
+    "speaker": null,
+    "verbatim": [
+     "Emily Gonzalez, who has conducted over 100 workshops on data privacy in schools by March 2025"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Gonzalez",
+    "relation": "emphasizes",
+    "value": "the value of creating a culture of cybersecurity",
+    "time": null,
+    "speaker": "Emily Gonzalez",
+    "verbatim": [
+     "emphasize the value of creating a culture of cybersecurity"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emily Gonzalez",
+    "relation": "states",
+    "value": "When everyone in the institution is informed and vigilant, the whole system becomes more secure",
+    "time": null,
+    "speaker": "Emily Gonzalez",
+    "verbatim": [
+     "When everyone in the institution is informed and vigilant, the whole system becomes more secure,"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "digital classroom",
+    "relation": "safeguarded_by",
+    "value": "collaboration between educational institutions and cybersecurity firms, a key strategy in safeguarding digital classrooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaboration between educational institutions and cybersecurity firms has proven to be a key strategy in safeguarding digital classrooms."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Global Education Cybersecurity Initiative",
+    "relation": "founded_on",
+    "value": "April 3, 2025",
+    "time": "April 3, 2025",
+    "speaker": null,
+    "verbatim": [
+     "on April 3, 2025, the Global Education Cybersecurity Initiative was founded"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Global Education Cybersecurity Initiative",
+    "relation": "provides",
+    "value": "a platform for schools, cybersecurity firms, and governments to share knowledge, resources, and strategies",
+    "time": "April 3, 2025",
+    "speaker": null,
+    "verbatim": [
+     "providing a platform for schools, cybersecurity firms, and governments to share knowledge, resources, and strategies"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "cybersecurity",
+    "relation": "enables",
+    "value": "comprehensive defenses against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This collective approach has made it possible to develop comprehensive defenses against cyber threats, from the classroom to the cloud."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "cybersecurity",
+    "relation": "included_in",
+    "value": "curriculums",
+    "time": "In recent months",
+    "speaker": null,
+    "verbatim": [
+     "In recent months, curriculums have begun to include cybersecurity education"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bernadette Thompson",
+    "relation": "occupation",
+    "value": "a middle school computer science teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Bernadette Thompson, a middle school computer science teacher, explains"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Bernadette Thompson",
+    "relation": "states",
+    "value": "We're not just teaching coding or how to use software anymore. We're teaching students about their digital footprint, how to recognize phishing attempts, and the importance of strong passwords. It's crucial life education.",
+    "time": null,
+    "speaker": "Bernadette Thompson",
+    "verbatim": [
+     "We're not just teaching coding or how to use software anymore. We're teaching students about their digital footprint, how to recognize phishing attempts, and the importance of strong passwords. It's crucial life education."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

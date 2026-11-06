@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who said on September 15, 2023 that same-day delivery has ceased to be a luxury?",
+    "answer": "Thomas Meyer, CEO of QuickCart Services",
+    "verbatim": [
+     "As Thomas Meyer, CEO of QuickCart Services, said on September 15, 2023,"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "According to Jennifer Watkins, what do advancements in AI and machine learning do for the delivery segment?",
+    "answer": "They optimize routes in real-time and predict the best inventory distribution to minimize delivery times.",
+    "verbatim": [
+     "optimizing routes in real-time and predicting the best inventory distribution to minimize delivery times"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "What percentage of consumers in the MarketHive Research survey said they are more likely to purchase from a retailer that offers same-day delivery?",
+    "answer": "70%",
+    "verbatim": [
+     "70% of consumers said they are more likely to purchase from a retailer if it offers same-day delivery"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Why were Marcus Yi's urban micro-fulfillment centers strategically placed?",
+    "answer": "To cut down on last-mile delivery times.",
+    "verbatim": [
+     "strategically placed to cut down on last-mile delivery times"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did David Preston, CEO of DroneDeliver, unveil on February 8, 2024?",
+    "answer": "A fleet of drones designed to operate in urban environments for rapid parcel delivery.",
+    "verbatim": [
+     "unveiled a fleet of drones designed to operate in urban environments for rapid parcel delivery"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

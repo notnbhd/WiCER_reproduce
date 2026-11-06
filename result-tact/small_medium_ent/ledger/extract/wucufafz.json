@@ -1,0 +1,992 @@
+{
+ "inventory": [
+  "Li Qiang",
+  "Zhengzhou",
+  "Henan province",
+  "China",
+  "Zhengzhou University",
+  "Zhengzhou Craft Museum",
+  "Thousand Hues Textiles",
+  "Li's grandmother",
+  "local government grant",
+  "Shanghai",
+  "Paris",
+  "'cultural fusion' line",
+  "fashion weeks",
+  "Weave the Future"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Zhengzhou",
+    "relation": "described_as",
+    "value": "bustling city center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in Zhengzhou's bustling city center"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Li Qiang",
+    "relation": "leads",
+    "value": "his small and medium-sized enterprise (SME)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he has led his small and medium-sized enterprise (SME)"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Li Qiang",
+    "relation": "born_on",
+    "value": "September 5, 2024",
+    "time": "September 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Li was born September 5, 2024 in a quiet suburb of Zhengzhou in Henan province"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Li Qiang",
+    "relation": "born_in",
+    "value": "a quiet suburb of Zhengzhou",
+    "time": "September 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Li was born September 5, 2024 in a quiet suburb of Zhengzhou in Henan province"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Zhengzhou",
+    "relation": "located_in",
+    "value": "Henan province",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quiet suburb of Zhengzhou in Henan province"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Li Qiang",
+    "relation": "raised_amid",
+    "value": "sounds of weaving looms and rhythmic craft songs from ancient China",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raised amongst the sounds of weaving looms and rhythmic craft songs from ancient China"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Li's grandmother",
+    "relation": "created",
+    "value": "beautiful patterns on their family-owned loom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he watched with wonder as his grandmother created beautiful patterns on their family-owned loom"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Li's grandmother",
+    "relation": "designs_told_stories_of",
+    "value": "Li's ancestors' legacy through craft traditions passed down through generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they told stories about Li's ancestors' legacy through craft traditions passed down through generations"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Li Qiang",
+    "relation": "inspired_by",
+    "value": "this early exposure to his family history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li was inspired by this early exposure to his family history"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Li Qiang",
+    "relation": "embarked_on",
+    "value": "a professional journey that diverged greatly from what had been expected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to embark on a professional journey that diverged greatly from what had been expected"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Li Qiang",
+    "relation": "in_order_to",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li was inspired by this early exposure to his family history to embark on a professional journey"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Li Qiang",
+    "relation": "graduated_from",
+    "value": "Zhengzhou University's business program",
+    "time": "by 2045",
+    "speaker": null,
+    "verbatim": [
+     "Graduated from Zhengzhou University's business program by 2045"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Zhengzhou University",
+    "relation": "business_program_graduate",
+    "value": "Li Qiang",
+    "time": "by 2045",
+    "speaker": null,
+    "verbatim": [
+     "Graduated from Zhengzhou University's business program by 2045"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Li Qiang",
+    "relation": "motivation_lay",
+    "value": "beyond high-tech startups or finance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his motivation lay beyond high-tech startups or finance"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Li Qiang",
+    "relation": "felt_drawn_towards",
+    "value": "revitalizing and modernizing traditional textile crafts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li felt drawn towards revitalizing and modernizing traditional textile crafts--despite popular perception"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Li Qiang",
+    "relation": "felt_drawn_despite",
+    "value": "popular perception",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "despite popular perception"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Li Qiang",
+    "relation": "recognized_entrepreneurial_potential_at",
+    "value": "Zhengzhou Craft Museum",
+    "time": "November 20, 2048",
+    "speaker": null,
+    "verbatim": [
+     "Li Qiang first recognized his entrepreneurial potential during a meeting at Zhengzhou Craft Museum on November 20, 2048"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Zhengzhou Craft Museum",
+    "relation": "meeting_held_on",
+    "value": "November 20, 2048",
+    "time": "November 20, 2048",
+    "speaker": null,
+    "verbatim": [
+     "a meeting at Zhengzhou Craft Museum on November 20, 2048"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Li Qiang",
+    "relation": "discussed",
+    "value": "traditional crafts' declining appreciation among younger generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when discussing traditional crafts' declining appreciation among younger generations"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Li Qiang",
+    "relation": "realized",
+    "value": "innovation was needed in order to preserve these dying art forms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "realizing innovation was needed in order to preserve these dying art forms"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Li Qiang",
+    "relation": "innovation_purpose",
+    "value": "preserve these dying art forms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in order to preserve these dying art forms"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Li Qiang",
+    "relation": "in_order_to",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "realizing innovation was needed in order to preserve these dying art forms"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Li Qiang",
+    "relation": "began_business_by",
+    "value": "pooling funds from personal savings, family contributions and a modest local government grant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li began his business by pooling funds from personal savings, family contributions and a modest local government grant intended for cultural preservation"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "local government grant",
+    "relation": "intended_for",
+    "value": "cultural preservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a modest local government grant intended for cultural preservation"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "local government grant",
+    "relation": "described_as",
+    "value": "modest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a modest local government grant"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Thousand Hues Textiles",
+    "relation": "founded_by",
+    "value": "Li Qiang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one starting capital pool he called Thousand Hues Textiles"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Thousand Hues Textiles",
+    "relation": "named_as_homage_to",
+    "value": "the various colors his grandmother included in her creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he called Thousand Hues Textiles as an homage to the various colors his grandmother included in her creations"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Li Qiang",
+    "relation": "journey_complexity",
+    "value": "no less complex than those of any intricate pattern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li's journey was no less complex than those of any intricate pattern"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Li Qiang",
+    "relation": "faced_hurdle",
+    "value": "Engaging an audience focused on technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engaging an audience focused on technology was one of many hurdles"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Li Qiang",
+    "relation": "faced_obstacle",
+    "value": "having traditionallytrained craftsmen employed by Li Qiang who did not possess modern business acumen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "another obstacle was having traditionallytrained craftsmen employed by Li Qiang who did not possess modern business acumen"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Li Qiang",
+    "relation": "employs",
+    "value": "traditionallytrained craftsmen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having traditionallytrained craftsmen employed by Li Qiang"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Li Qiang",
+    "relation": "necessitated",
+    "value": "professional growth through professional training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "necessitating professional growth through professional training programs"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Li Qiang",
+    "relation": "caused_by",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having traditionallytrained craftsmen employed by Li Qiang who did not possess modern business acumen, necessitating professional growth through professional training programs"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Li Qiang",
+    "relation": "faced_challenge",
+    "value": "staying relevant in an ever-evolving marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li's commitment to traditional craftsmanship presented him with the formidable challenge of staying relevant in an ever-evolving marketplace"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Li Qiang",
+    "relation": "faced",
+    "value": "cheap imitations and mass-produced fabrics that undermined artisanal work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facing cheap imitations and mass-produced fabrics that undermined artisanal work"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Li Qiang",
+    "relation": "philosophy_focused_on",
+    "value": "quality, sustainability and cultural relevance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his philosophy focused on quality, sustainability and cultural relevance"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Li Qiang",
+    "relation": "understood",
+    "value": "the growing demand for sustainable and ethically made products worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li Qiang understood the growing demand for sustainable and ethically made products worldwide"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Thousand Hues Textiles",
+    "relation": "pivoted_towards",
+    "value": "international sales channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pivoted Thousand Hues Textiles towards international sales channels"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Li Qiang",
+    "relation": "employed",
+    "value": "ancient techniques with modern designs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employing ancient techniques with modern designs"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Li Qiang",
+    "relation": "created",
+    "value": "an array of niche textile products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he created an array of niche textile products which celebrated cultural heritage while remaining contemporary"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Li Qiang",
+    "relation": "organized",
+    "value": "workshops and collaborations with fashion designers domestically and internationally",
+    "time": "Beginning in 2049",
+    "speaker": null,
+    "verbatim": [
+     "Beginning in 2049, Li organized workshops and collaborations with fashion designers domestically and internationally"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Li Qiang",
+    "relation": "established",
+    "value": "'cultural fusion' line of textiles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He established his 'cultural fusion' line of textiles"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "'cultural fusion' line",
+    "relation": "found_way_into",
+    "value": "renowned fashion weeks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which soon found their way into renowned fashion weeks from Shanghai to Paris"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "fashion weeks",
+    "relation": "located_in",
+    "value": "Shanghai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from Shanghai to Paris"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "fashion weeks",
+    "relation": "located_in",
+    "value": "Paris",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from Shanghai to Paris"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "'cultural fusion' line",
+    "relation": "became",
+    "value": "trendy revisions of traditional fabrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "soon becoming trendy revisions of traditional fabrics"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Thousand Hues Textiles",
+    "relation": "described_as",
+    "value": "one of the sought-after boutique labels in this market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which quickly made 'Thousand Hues' one of the sought-after boutique labels in this market"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Li Qiang",
+    "relation": "realized",
+    "value": "it was vital to develop a business model that fostered authentic craftsmanship while avoiding exploitative industry practices that put artisans' welfare at risk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li realized it was vital to develop a business model that fostered authentic craftsmanship while avoiding exploitative industry practices that put artisans' welfare at risk"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Thousand Hues Textiles",
+    "relation": "adopted",
+    "value": "a cooperative-like structure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thousand Hues Textiles adopted a cooperative-like structure"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Thousand Hues Textiles",
+    "relation": "in_order_to",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With this goal in mind, Thousand Hues Textiles adopted a cooperative-like structure"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Thousand Hues Textiles",
+    "relation": "provides_artisans",
+    "value": "fair wages, ongoing training programs, and ownership shares in its success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing artisans with fair wages, ongoing training programs, and ownership shares in its success"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Li Qiang",
+    "relation": "established_himself",
+    "value": "2052",
+    "time": "2052",
+    "speaker": null,
+    "verbatim": [
+     "As soon as he had established himself in 2052"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Li Qiang",
+    "relation": "praised_by",
+    "value": "local commerce chambers, cultural foundations, and even some international bodies",
+    "time": "2052",
+    "speaker": null,
+    "verbatim": [
+     "praise poured in from local commerce chambers, cultural foundations, and even some international bodies"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Li Qiang",
+    "relation": "praised_for",
+    "value": "social entrepreneurship and cultural preservation",
+    "time": "2052",
+    "speaker": null,
+    "verbatim": [
+     "that recognized his efforts in social entrepreneurship and cultural preservation"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Li Qiang",
+    "relation": "understood",
+    "value": "the necessity of adaptable marketing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li Qiang understood the necessity of adaptable marketing in order to maintain relevance with his craft"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Li Qiang",
+    "relation": "marketing_purpose",
+    "value": "maintain relevance with his craft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in order to maintain relevance with his craft"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Li Qiang",
+    "relation": "in_order_to",
+    "value_ref": "c56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adaptable marketing in order to maintain relevance with his craft"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Li Qiang",
+    "relation": "utilized",
+    "value": "social media platforms to share stories about his textiles, the people who produced them and their cultural significance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilizing social media platforms to share stories about his textiles, the people who produced them and their cultural significance"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Thousand Hues Textiles",
+    "relation": "launched_across",
+    "value": "multiple e-commerce spaces",
+    "time": "late 2053",
+    "speaker": null,
+    "verbatim": [
+     "Launched by late 2053 across multiple e-commerce spaces"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Thousand Hues Textiles",
+    "relation": "expanded_reach",
+    "value": "its reach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thousand Hues expanded its reach, creating an engaging shopping experience that extended beyond transactions"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Thousand Hues Textiles",
+    "relation": "created",
+    "value": "an engaging shopping experience that extended beyond transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating an engaging shopping experience that extended beyond transactions"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Thousand Hues Textiles",
+    "relation": "offered_customers",
+    "value": "an immersive shopping experience where every purchase offered them an intimate piece of history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Customers received an immersive shopping experience where every purchase offered them an intimate piece of history"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Thousand Hues Textiles",
+    "relation": "idea_proved_popular",
+    "value": "with customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an idea which proved popular with customers embracing its narrative-driven marketplace"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Thousand Hues Textiles",
+    "relation": "swelled_by",
+    "value": "cultural appreciation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Swelled by cultural appreciation"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Thousand Hues Textiles",
+    "relation": "appeared_in",
+    "value": "international lifestyle and culture magazines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thousand Hues Textiles began appearing prominently in international lifestyle and culture magazines"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Thousand Hues Textiles",
+    "relation": "caused_by",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Swelled by cultural appreciation, Thousand Hues Textiles began appearing prominently in international lifestyle and culture magazines"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Li Qiang",
+    "relation": "organized",
+    "value": "multiple exhibitions around the world",
+    "time": "By mid-2054",
+    "speaker": null,
+    "verbatim": [
+     "By mid-2054, Li Qiang had also organized multiple exhibitions around the world to display Zhengzhou's centuries-old textile craft"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Li Qiang",
+    "relation": "exhibition_purpose",
+    "value": "display Zhengzhou's centuries-old textile craft and spark not just business but also cross-cultural dialogue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to display Zhengzhou's centuries-old textile craft and spark not just business but also cross-cultural dialogue"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Li Qiang",
+    "relation": "in_order_to",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organized multiple exhibitions around the world to display Zhengzhou's centuries-old textile craft"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Zhengzhou",
+    "relation": "textile_craft_described_as",
+    "value": "centuries-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Zhengzhou's centuries-old textile craft"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Thousand Hues Textiles",
+    "relation": "became",
+    "value": "an icon of Zhengzhou craft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li's enterprise quickly became an icon of Zhengzhou craft"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Thousand Hues Textiles",
+    "relation": "visited_by_tourism_officials",
+    "value": "visits to his workshops as part of cultural tours in Zhengzhou",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with tourism officials including visits to his workshops as part of cultural tours in Zhengzhou"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Li Qiang",
+    "relation": "fulfilled_goal_of",
+    "value": "serving as an intermediary between cultures and generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This exposure enabled Li to fulfill his goal of serving as an intermediary between cultures and generations"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Thousand Hues Textiles",
+    "relation": "enabled",
+    "value_ref": "c73",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as part of cultural tours in Zhengzhou",
+     "This exposure enabled Li to fulfill his goal"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Li Qiang",
+    "relation": "maintained",
+    "value": "his commitment to sustainable practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li Qiang maintained his commitment to sustainable practices as Thousand Hues Textiles expanded"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Thousand Hues Textiles",
+    "relation": "uses",
+    "value": "environmentally friendly dyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using environmentally friendly dyes"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Thousand Hues Textiles",
+    "relation": "procures",
+    "value": "local organic materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "procuring local organic materials"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Thousand Hues Textiles",
+    "relation": "strives_to",
+    "value": "leave as small an ecological footprint as possible with each piece produced",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "striving to leave as small an ecological footprint as possible with each piece produced"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Thousand Hues Textiles",
+    "relation": "expanded_rapidly",
+    "value": "expanded rapidly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His venture expanded rapidly enough that by 2055"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Thousand Hues Textiles",
+    "relation": "opened",
+    "value": "a larger workshop and training center",
+    "time": "by 2055",
+    "speaker": null,
+    "verbatim": [
+     "by 2055 a larger workshop and training center had to be opened"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Thousand Hues Textiles",
+    "relation": "opened_so_that",
+    "value": "more young people could learn this craft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a larger workshop and training center had to be opened so more young people could learn this craft"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Thousand Hues Textiles",
+    "relation": "results_in",
+    "value_ref": "c80",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His venture expanded rapidly enough that by 2055 a larger workshop and training center had to be opened"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Thousand Hues Textiles",
+    "relation": "in_order_to",
+    "value_ref": "c81",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a larger workshop and training center had to be opened so more young people could learn this craft"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Li Qiang",
+    "relation": "vision_took_form_in",
+    "value": "Weave the Future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His vision took form in an initiative known as \"Weave the Future,\""
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Weave the Future",
+    "relation": "involves",
+    "value": "school programs collaborated to introduce textile arts as a viable profession",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in which school programs collaborated to introduce textile arts as a viable profession"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Weave the Future",
+    "relation": "reconnects",
+    "value": "young people to their heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reconnecting young people to their heritage"
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "Weave the Future",
+    "relation": "gives",
+    "value": "essential entrepreneurial skills for modern business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giving them essential entrepreneurial skills for modern business"
+    ]
+   },
+   {
+    "id": "c88",
+    "entity": "Zhengzhou Craft Museum",
+    "relation": "located_in",
+    "value": "Zhengzhou",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a meeting at Zhengzhou Craft Museum"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

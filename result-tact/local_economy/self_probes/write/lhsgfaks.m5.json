@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Why does Bob from accounting no longer need to share vacation photos with Sally from HR?",
+    "answer": "Because there is an app for that.",
+    "verbatim": [
+     "Bob from accounting no longer needs to share vacation photos with Sally from HR because, well, 'There's an app for that.'"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Who spearheaded the 'Sarcasm as a Service' training program?",
+    "answer": "Wunderkind CEO Oscar Irony.",
+    "verbatim": [
+     "spearheaded by wunderkind CEO, Oscar Irony"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "On what date did the author say the prophecy of pure technical domination was fulfilled?",
+    "answer": "December 1st, 2023.",
+    "verbatim": [
+     "Fast forward to December 1st, 2023, where the prophecy of pure technical domination has been fulfilled."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Which sociologist does the document cite as arguing that the pendulum will swing back toward soft skills?",
+    "answer": "Renowned sociologist Dr. Lucille Chatfield.",
+    "verbatim": [
+     "Experts like renowned sociologist Dr. Lucille Chatfield argue that the pendulum will swing back as the market realizes that robots, while efficient, still cannot manage a team building exercise with the finesse of a human."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "What does Luke, the intern, always say about offices and laughter?",
+    "answer": "\"An office without laughter is a spreadsheet with no data.\"",
+    "verbatim": [
+     "As Luke, the intern, always says, \"An office without laughter is a spreadsheet with no data.\""
+    ],
+    "kind": "attribution",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

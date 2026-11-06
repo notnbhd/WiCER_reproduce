@@ -1,0 +1,691 @@
+{
+ "inventory": [
+  "Dr. Emily Stone",
+  "Oliver Bennett",
+  "SecureTech",
+  "James McArthur",
+  "Danielle Reed",
+  "Jonathan Davis",
+  "Lisa Chang",
+  "SecureCon conference",
+  "remote work",
+  "remote work policy",
+  "hybrid work models",
+  "cybersecurity",
+  "home office",
+  "social engineering and phishing",
+  "Cybersecurity training programs",
+  "VPNs",
+  "twofactor authentication",
+  "zero-trust model",
+  "patch management",
+  "response plan",
+  "monitoring strategy",
+  "privacy laws"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "has_emerged_as",
+    "value": "a staple in the modern workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work has emerged not just as a convenience, but as a staple in the modern workforce"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "hybrid work models",
+    "relation": "adopted_permanently_by",
+    "value": "a significant number of companies",
+    "time": "since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In tracking the trends since September 1, 2023, a significant number of companies have now adopted permanent remote or hybrid work models"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "cybersecurity",
+    "relation": "is_at_forefront_of",
+    "value": "a host of new risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But with this newfound freedom comes a host of new risks\u2014cybersecurity being at the forefront."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "home office",
+    "relation": "often_creates",
+    "value": "an illusion of safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cozy confines of a home office often create an illusion of safety."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Emily Stone",
+    "relation": "described_as",
+    "value": "cybercrime expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dubbed as \"low-hanging fruit\" by cybercrime expert Dr. Emily Stone"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Stone",
+    "relation": "said_personal_networks_are",
+    "value": "often poorly protected and riddled with vulnerabilities that seasoned hackers can exploit with little effort",
+    "time": null,
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "personal networks are often poorly protected and riddled with vulnerabilities that seasoned hackers can exploit with little effort"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Stone",
+    "relation": "argues",
+    "value": "the transition to remote work has expanded the attack surface for cyber criminals",
+    "time": null,
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "Dr. Stone argues that the transition to remote work has expanded the attack surface for cyber criminals"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "home office",
+    "relation": "potentially_becomes",
+    "value": "a gateway for data breaches",
+    "time": null,
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "potentially turning each remote employee\u2019s home into a gateway for data breaches"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "remote work",
+    "relation": "challenges_are",
+    "value": "multifaceted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The challenges inherent in remote work cybersecurity are multifaceted."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "remote work",
+    "relation": "endpoints_for_attacks_multiply",
+    "value": "exponentially",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the endpoints for potential attacks multiply exponentially"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "remote work",
+    "relation": "employees_scattered_in",
+    "value": "various unsecured environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With employees scattered in various unsecured environments"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "remote work",
+    "relation": "caused_by",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With employees scattered in various unsecured environments, the endpoints for potential attacks multiply exponentially."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "home office",
+    "relation": "can_lead_to",
+    "value": "lax practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the comfort of home can lead to lax practices"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "remote work",
+    "relation": "lax_practices_include",
+    "value": "weak passwords, unencrypted Wi-Fi networks, and the use of personal devices for work tasks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "weak passwords, unencrypted Wi-Fi networks, and the use of personal devices for work tasks are just a few of the ways that remote workers inadvertently invite cyber threats"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Oliver Bennett",
+    "relation": "described_as",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Oliver Bennett, a cybersecurity analyst, highlighted on October 15, 2023, that remote workers represent prime targets for these schemes"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Oliver Bennett",
+    "relation": "highlighted_that",
+    "value": "remote workers represent prime targets for these schemes",
+    "time": "October 15, 2023",
+    "speaker": "Oliver Bennett",
+    "verbatim": [
+     "Oliver Bennett, a cybersecurity analyst, highlighted on October 15, 2023, that remote workers represent prime targets for these schemes"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "social engineering and phishing",
+    "relation": "cases_have",
+    "value": "skyrocketed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amid the remote work wave, cases of social engineering and phishing attacks have skyrocketed."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "social engineering and phishing",
+    "relation": "employees_more_likely_to_fall_prey_to",
+    "value": "well-crafted impersonations or urgent request emails from hackers posing as colleagues or superiors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees are more likely to fall prey to well-crafted impersonations or urgent request emails from hackers posing as colleagues or superiors"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "remote work",
+    "relation": "lacks",
+    "value": "the physical verification of an in-office setting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lacking the physical verification of an in-office setting"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "social engineering and phishing",
+    "relation": "caused_by",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lacking the physical verification of an in-office setting, employees are more likely to fall prey to well-crafted impersonations or urgent request emails from hackers posing as colleagues or superiors."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cybersecurity training programs",
+    "relation": "can_equip",
+    "value": "remote employees with knowledge and best practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity training programs geared specifically towards remote employees can equip them with knowledge and best practices."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "remote work",
+    "relation": "key_strategy_for_fortifying_frontier",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A key strategy in fortifying the new remote frontier is education."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "SecureTech",
+    "relation": "seen_surge_in_demand_for",
+    "value": "their interactive workshops that simulate phishing attacks and teach safe digital habits",
+    "time": "Since November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since November 2023, companies like SecureTech have seen a surge in demand for their interactive workshops that simulate phishing attacks and teach safe digital habits."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "remote work",
+    "relation": "requires_connections_as_secure_as",
+    "value": "possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizations need to ensure that remote connections are as secure as possible."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "VPNs",
+    "relation": "measure_for_secure_connections",
+    "value": "mandating the use of VPNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes mandating the use of VPNs, strengthening Wi-Fi encryption, and instituting twofactor authentication."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "remote work",
+    "relation": "secure_connection_measure_includes",
+    "value": "strengthening Wi-Fi encryption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes mandating the use of VPNs, strengthening Wi-Fi encryption, and instituting twofactor authentication."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "twofactor authentication",
+    "relation": "measure_for_secure_connections",
+    "value": "instituting twofactor authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes mandating the use of VPNs, strengthening Wi-Fi encryption, and instituting twofactor authentication."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "James McArthur",
+    "relation": "described_as",
+    "value": "IT specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT specialist James McArthur told us on December 12, 2023, that the implementation of a zero-trust model"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "James McArthur",
+    "relation": "said_zero_trust_model_has_become",
+    "value": "a cornerstone for remote work cybersecurity",
+    "time": "December 12, 2023",
+    "speaker": "James McArthur",
+    "verbatim": [
+     "IT specialist James McArthur told us on December 12, 2023, that the implementation of a zero-trust model\u2014where every network request is treated as a potential threat and must be verified\u2014has become a cornerstone for remote work cybersecurity."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "zero-trust model",
+    "relation": "treats_every_network_request_as",
+    "value": "a potential threat that must be verified",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where every network request is treated as a potential threat and must be verified"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "patch management",
+    "relation": "importance_amplified_by",
+    "value": "remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work has amplified the importance of patch management"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "patch management",
+    "relation": "ensures",
+    "value": "all employees' systems are protected against known vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that all employees' systems are protected against known vulnerabilities"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "patch management",
+    "relation": "solutions_gained_traction",
+    "value": "Automated update systems and centralized patch management solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Automated update systems and centralized patch management solutions have gained traction"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "home office",
+    "relation": "devices_maintained_remotely_by",
+    "value": "IT departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with IT departments remotely maintaining a fleet of home-office devices"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "cybersecurity",
+    "relation": "often_overlooked_aspect_is",
+    "value": "keeping systems up-to-date",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An often-overlooked aspect of cybersecurity is keeping systems up-to-date."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "remote work policy",
+    "relation": "is_centerpiece_of",
+    "value": "balancing flexibility and security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The centerpiece of balancing flexibility and security is a robust remote work policy."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Danielle Reed",
+    "relation": "described_as",
+    "value": "HR consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Danielle Reed, an HR consultant, emphasized in her February 2024 survey that a comprehensive policy must cover data protection, device management, incident reporting, and acceptable use of company resources."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Danielle Reed",
+    "relation": "emphasized_that_policy_must_cover",
+    "value": "data protection, device management, incident reporting, and acceptable use of company resources",
+    "time": "February 2024",
+    "speaker": "Danielle Reed",
+    "verbatim": [
+     "Danielle Reed, an HR consultant, emphasized in her February 2024 survey that a comprehensive policy must cover data protection, device management, incident reporting, and acceptable use of company resources."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Danielle Reed",
+    "relation": "conducted_survey",
+    "value": "survey",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "emphasized in her February 2024 survey"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "remote work policy",
+    "relation": "should_spell_out",
+    "value": "the dos and don'ts of remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This document should spell out the dos and don'ts of remote work, providing clear guidance on expected security measures."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "remote work policy",
+    "relation": "should_provide",
+    "value": "clear guidance on expected security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This document should spell out the dos and don'ts of remote work, providing clear guidance on expected security measures."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "remote work",
+    "relation": "monitoring_by_employers_for",
+    "value": "security and productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As employers become more interested in monitoring remote labor to ensure security and productivity"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "monitoring strategy",
+    "relation": "should_respect",
+    "value": "employee privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is crucial to develop a monitoring strategy that respects employee privacy while still providing the company the security it needs."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "monitoring strategy",
+    "relation": "should_provide",
+    "value": "the company the security it needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is crucial to develop a monitoring strategy that respects employee privacy while still providing the company the security it needs."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "privacy laws",
+    "relation": "compliance_is_paramount",
+    "value": "ensuring compliance with privacy laws",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transparent communications and ensuring compliance with privacy laws are paramount in this delicate balance."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jonathan Davis",
+    "relation": "described_as",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Jonathan Davis pointed out in a webinar on March 5, 2024, that fostering a culture where security is everyone's responsibility can significantly decrease risk."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Jonathan Davis",
+    "relation": "pointed_out_that",
+    "value": "fostering a culture where security is everyone's responsibility can significantly decrease risk",
+    "time": "March 5, 2024",
+    "speaker": "Jonathan Davis",
+    "verbatim": [
+     "Cybersecurity expert Jonathan Davis pointed out in a webinar on March 5, 2024, that fostering a culture where security is everyone's responsibility can significantly decrease risk."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jonathan Davis",
+    "relation": "spoke_in",
+    "value": "a webinar",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Jonathan Davis pointed out in a webinar on March 5, 2024"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "cybersecurity",
+    "relation": "culture_plays_significant_role",
+    "value": "significant role in cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Culture plays a significant role in cybersecurity."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "cybersecurity",
+    "relation": "rewarding_secure_behaviors_can_encourage",
+    "value": "adherence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rewarding secure behaviors and recognizing employees who model good security practices can encourage adherence."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "remote work policy",
+    "relation": "is_only_as_good_as",
+    "value": "its compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A policy is only as good as its compliance."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "response plan",
+    "relation": "is_essential_for",
+    "value": "the inevitable security incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A swift response plan is essential for the inevitable security incident."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "response plan",
+    "relation": "provides",
+    "value": "a clear path for employees to report potential breaches, and for the organization to respond and recover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such a plan provides a clear path for employees to report potential breaches, and for the organization to respond and recover."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "response plan",
+    "relation": "effectiveness_ensured_by",
+    "value": "Crisis simulations and regular drills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Crisis simulations and regular drills can ensure that the plan is effective and that every employee knows their role in an emergency."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lisa Chang",
+    "relation": "described_as",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As highlighted by cybersecurity consultant Lisa Chang during her keynote at the SecureCon conference on April 21, 2024, a too-rigid policy might stifle productivity and employee satisfaction, while too lax a policy invites disaster."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Lisa Chang",
+    "relation": "highlighted_that",
+    "value": "a too-rigid policy might stifle productivity and employee satisfaction, while too lax a policy invites disaster",
+    "time": "April 21, 2024",
+    "speaker": "Lisa Chang",
+    "verbatim": [
+     "As highlighted by cybersecurity consultant Lisa Chang during her keynote at the SecureCon conference on April 21, 2024, a too-rigid policy might stifle productivity and employee satisfaction, while too lax a policy invites disaster."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "SecureCon conference",
+    "relation": "keynote_speaker",
+    "value": "Lisa Chang",
+    "time": "April 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during her keynote at the SecureCon conference on April 21, 2024"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "remote work policy",
+    "relation": "ultimate_goal_is",
+    "value": "to strike a balance between the necessary control to keep systems secure and the flexibility that remote work promises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ultimate goal of any remote work policy is to strike a balance between the necessary control to keep systems secure and the flexibility that remote work promises."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "cybersecurity",
+    "relation": "comprehensive_policy_development_becomes",
+    "value": "imperative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developing a comprehensive cybersecurity policy becomes imperative"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "home office",
+    "relation": "pivot_to_home_based_offices_demands",
+    "value": "a reevaluation of security postures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The pivot to home-based offices demands a reevaluation of security postures"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

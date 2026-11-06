@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who founded 'Harvest & Craft'?",
+    "answer": "The couple Maria Gonzalez and Elijah Reid.",
+    "verbatim": [
+     "couple Maria Gonzalez and Elijah Reid combined their shared passion for sustainable agriculture"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "Which local newspaper ran a feature on the business's story as winter approached?",
+    "answer": "The Daily Chronicle.",
+    "verbatim": [
+     "the local newspaper, 'The Daily Chronicle,' ran a captivating feature on their story"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "Which community fund provided the investment that backed the business's expansion in January 2024?",
+    "answer": "The community fund 'Local Roots'.",
+    "verbatim": [
+     "backed by a small but significant investment from the community fund 'Local Roots,'"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What led to the creation of the 'Harvest & Craft Deli Counter'?",
+    "answer": "The introduction of small-batch, artisanal cheeses and cured meats, paired with their farm produce, became an instant hit, which led to the birth of the Deli Counter at various local specialty food stores.",
+    "verbatim": [
+     "The introduction of small-batch, artisanal cheeses and cured meats, paired with their farm produce, became an instant hit, leading to the birth of 'Harvest & Craft Deli Counter' at various local specialty food stores."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What topics did the workshops hosted on the farm cover?",
+    "answer": "Urban farming, food preservation techniques, and sustainable living practices.",
+    "verbatim": [
+     "enthusiasts gathered to learn about urban farming, food preservation techniques, and sustainable living practices."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

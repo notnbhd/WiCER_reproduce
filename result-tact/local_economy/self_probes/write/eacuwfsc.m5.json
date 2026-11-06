@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What is the name of the small business owner who runs a boutique in the newly gentrified Riverwood District?",
+    "answer": "Sarah Gilmore",
+    "verbatim": [
+     "Sarah Gilmore who runs a boutique in the newly gentrified Riverwood District"
+    ],
+    "kind": "person",
+    "relational": false
+   },
+   {
+    "question": "What did the fast food chain Flavortown Burgers invest in to counteract wage pressures?",
+    "answer": "Automated ordering systems",
+    "verbatim": [
+     "We've invested in automated ordering systems which have helped us manage costs while respecting the wage increase."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What did department store manager Linda Cho say happened to sales after the wage increase?",
+    "answer": "There was a small upturn in sales since the wage increase, which she took as a sign that there is more disposable income.",
+    "verbatim": [
+     "We've seen a small upturn in sales since the wage increase\u2014a sign that there's more disposable income."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "Why did childcare center owner Rachel Nguyen say she could expand her services and hire more staff?",
+    "answer": "Parents are enrolling their kids in additional programs, which allows her to expand services and hire more staff.",
+    "verbatim": [
+     "Parents are enrolling their kids in\nadditional programs, which allows us to expand our services and hire more staff."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "According to workforce analyst Emma Thompson, what are some companies using more of in response to wage increases, and what might that affect?",
+    "answer": "Some companies are using more temporary workers in response to wage increases, which may affect job security for many.",
+    "verbatim": [
+     "\"We're seeing some companies use more temporary workers as a response to wage increases, which may affect job security for many,\" she says"
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

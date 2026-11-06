@@ -1,0 +1,671 @@
+{
+ "inventory": [
+  "Multi-Factor Authentication",
+  "remote work",
+  "the 2020 pandemic",
+  "Miranda Chen",
+  "Cleveland, Ohio",
+  "David Park",
+  "Nashville, Tennesse",
+  "hacking incident",
+  "Jane Hopkins",
+  "Austin, Texas",
+  "mid-sized marketing firm",
+  "Lucas Martinez",
+  "San Diego",
+  "workshops",
+  "Amanda Lee",
+  "New York-based tech startup",
+  "Daniel Rivera",
+  "software company",
+  "Lisa Reynolds",
+  "Detroit",
+  "client confidentiality",
+  "cyber threats",
+  "cybersecurity specialists",
+  "employers"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Miranda Chen",
+    "relation": "working_remotely_since",
+    "value": "November 2023",
+    "time": "since November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a software engineer who's been working remotely since November 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Miranda Chen",
+    "relation": "occupation",
+    "value": "software engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Miranda Chen, a software engineer"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Miranda Chen",
+    "relation": "lives_in",
+    "value": "Cleveland, Ohio",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Working from her quiet suburban home in Cleveland, Ohio"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Miranda Chen",
+    "relation": "morning_ritual_includes",
+    "value": "brewing a warm cup of coffee and unlocking her work devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her morning ritual includes brewing a warm cup of coffee and unlocking her work devices"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Miranda Chen",
+    "relation": "login_steps",
+    "value": "enters her password, receives a notification on her smartphone, and only after she approves it does she gain access to her computer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she enters her password, receives a notification on her smartphone, and only after she approves it does she gain access to her computer."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Miranda Chen",
+    "relation": "said",
+    "value": "Multi-Factor Authentication might sound complex, but it's pretty straightforward",
+    "time": null,
+    "speaker": "Miranda Chen",
+    "verbatim": [
+     "Multi-Factor Authentication might sound complex, but it's pretty straightforward,\" Miranda explains."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Miranda Chen",
+    "relation": "compared_mfa_to",
+    "value": "a cyber bodyguard asking, 'Are you really the owner of these credentials?' before letting me in",
+    "time": null,
+    "speaker": "Miranda Chen",
+    "verbatim": [
+     "It's like my cyber bodyguard asking, 'Are you really the owner of these credentials?' before letting me in."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "David Park",
+    "relation": "occupation",
+    "value": "freelance graphic designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Park, a freelance graphic designer from Nashville, Tennesse"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "David Park",
+    "relation": "lives_in",
+    "value": "Nashville, Tennesse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a freelance graphic designer from Nashville, Tennesse"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "hacking incident",
+    "relation": "occurred_in",
+    "value": "February 2024",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "recounting the hacking incident he experienced in February 2024"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "David Park",
+    "relation": "admits",
+    "value": "I was a little careless about cybersecurity",
+    "time": null,
+    "speaker": "David Park",
+    "verbatim": [
+     "\"I was a little careless about cybersecurity,\" he admits"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "David Park",
+    "relation": "adopted",
+    "value": "Multi-Factor Authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a wake-up call that led him to adopt MFA."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "hacking incident",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a wake-up call that led him to adopt MFA."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Multi-Factor Authentication",
+    "relation": "thwarted",
+    "value": "an attempt to compromise his password",
+    "time": "Not long after",
+    "speaker": null,
+    "verbatim": [
+     "an attempt to compromise his password was thwarted by the additional security layer"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "David Park",
+    "relation": "said",
+    "value": "They couldn't get past the second door",
+    "time": null,
+    "speaker": "David Park",
+    "verbatim": [
+     "\"They couldn't get past the second door,\" he says"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "employers",
+    "relation": "hesitant_about",
+    "value": "enforcing MFA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some employers are still on the fence about enforcing MFA"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "employers",
+    "relation": "concern",
+    "value": "additional costs for MFA tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns primarily revolve around additional costs for MFA tools"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "employers",
+    "relation": "concern",
+    "value": "potential impacts on employee productivity due to the extra steps involved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potential impacts on employee productivity due to the extra steps involved"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jane Hopkins",
+    "relation": "job_title",
+    "value": "CEO of a mid-sized marketing firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hopkins, the CEO of a mid-sized marketing firm in Austin, Texas"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "mid-sized marketing firm",
+    "relation": "located_in",
+    "value": "Austin, Texas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the CEO of a mid-sized marketing firm in Austin, Texas"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jane Hopkins",
+    "relation": "said",
+    "value": "There's no doubt that MFA provides robust security.",
+    "time": null,
+    "speaker": "Jane Hopkins",
+    "verbatim": [
+     "\"There's no doubt that MFA provides robust security."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jane Hopkins",
+    "relation": "said",
+    "value": "we had to consider whether this would interrupt our workflows or frustrate our staff",
+    "time": null,
+    "speaker": "Jane Hopkins",
+    "verbatim": [
+     "But we had to consider whether this would interrupt our workflows or frustrate our staff."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Multi-Factor Authentication",
+    "relation": "brought_increased_need_for",
+    "value": "employee training and awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the implementation of MFA has brought an increased need for employee training and awareness"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Lucas Martinez",
+    "relation": "based_in",
+    "value": "San Diego",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "San Diego-based cybersecurity expert Lucas Martinez"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lucas Martinez",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "San Diego-based cybersecurity expert Lucas Martinez"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lucas Martinez",
+    "relation": "said",
+    "value": "You can have the most sophisticated MFA system in place",
+    "time": null,
+    "speaker": "Lucas Martinez",
+    "verbatim": [
+     "\"You can have the most sophisticated MFA system in place,\" he says"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lucas Martinez",
+    "relation": "said",
+    "value": "if your employees view it as an obstacle instead of a safeguard, they might try to bypass it",
+    "time": null,
+    "speaker": "Lucas Martinez",
+    "verbatim": [
+     "if your employees view it as an obstacle instead of a safeguard, they might try to bypass it."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lucas Martinez",
+    "relation": "conducted",
+    "value": "over 100 workshops",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Martinez has conducted over 100 workshops since September 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "workshops",
+    "relation": "educate",
+    "value": "remote teams on the need for MFA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educating remote teams on the need for MFA and guiding them through seamless adoption processes"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Amanda Lee",
+    "relation": "occupation",
+    "value": "project manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Lee, a project manager for a New York-based tech startup"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "New York-based tech startup",
+    "relation": "employs",
+    "value": "Amanda Lee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Lee, a project manager for a New York-based tech startup"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Amanda Lee",
+    "relation": "received",
+    "value": "a prompt for an MFA token on her smartphone",
+    "time": "One Tuesday afternoon in October 2024",
+    "speaker": null,
+    "verbatim": [
+     "One Tuesday afternoon in October 2024, she received a prompt for an MFA token on her smartphone"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Amanda Lee",
+    "relation": "was_not_accessing",
+    "value": "any work platforms",
+    "time": "One Tuesday afternoon in October 2024",
+    "speaker": null,
+    "verbatim": [
+     "while she was not trying to access any work platforms"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Amanda Lee",
+    "relation": "flagged_to",
+    "value": "her IT department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda immediately flagged this to her IT department"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Amanda Lee",
+    "relation": "pre_empted",
+    "value": "an unauthorized access attempt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively pre-empting an unauthorized access attempt"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Amanda Lee",
+    "relation": "said",
+    "value": "It was a reminder that our cyber-safety net is working even when we're not looking",
+    "time": null,
+    "speaker": "Amanda Lee",
+    "verbatim": [
+     "\"It was a reminder that our cyber-safety net is working even when we're not looking,\" she states."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Daniel Rivera",
+    "relation": "job_title",
+    "value": "lead UX designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Rivera, the lead UX designer at a burgeoning software company"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "software company",
+    "relation": "employs",
+    "value": "Daniel Rivera",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Rivera, the lead UX designer at a burgeoning software company"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Daniel Rivera",
+    "relation": "goal",
+    "value": "to make MFA feel like it's working for the user, not against them",
+    "time": null,
+    "speaker": "Daniel Rivera",
+    "verbatim": [
+     "The goal is to make MFA feel like it's working for the user, not against them."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Daniel Rivera",
+    "relation": "said",
+    "value": "It should be quick, simple, and even forgettable",
+    "time": null,
+    "speaker": "Daniel Rivera",
+    "verbatim": [
+     "It should be quick, simple, and even forgettable,\" he says"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Daniel Rivera",
+    "relation": "explained",
+    "value": "the more intuitive the process, the less resistance there will be",
+    "time": null,
+    "speaker": "Daniel Rivera",
+    "verbatim": [
+     "explaining that the more intuitive the process, the less resistance there will be."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Lisa Reynolds",
+    "relation": "occupation",
+    "value": "therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa Reynolds, a Detroit-based therapist"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Lisa Reynolds",
+    "relation": "based_in",
+    "value": "Detroit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa Reynolds, a Detroit-based therapist"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Lisa Reynolds",
+    "relation": "turned_to_mfa_to",
+    "value": "protect her patients' sensitive information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also turned to MFA to protect her patients' sensitive information"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "client confidentiality",
+    "relation": "is",
+    "value": "paramount",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Client confidentiality is paramount"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Multi-Factor Authentication",
+    "relation": "provides",
+    "value": "a layer of assurance that the intimate details of her clients' lives are guarded with utmost care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA adds a layer of assurance that the intimate details of her clients' lives are guarded with utmost care"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Lisa Reynolds",
+    "relation": "said",
+    "value": "In the field of mental health, where trust is everything, knowing that MFA is part of our defense is comforting",
+    "time": null,
+    "speaker": "Lisa Reynolds",
+    "verbatim": [
+     "In the field of mental health, where trust is everything, knowing that MFA is part of our defense is comforting.\""
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "cyber threats",
+    "relation": "evolve",
+    "value": "attack methods become more sophisticated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As cyber threats evolve and attack methods become more sophisticated"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Multi-Factor Authentication",
+    "relation": "role_transforms_from_option_to",
+    "value": "a necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of MFA in remote work environments transforms from an option to a necessity"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "cybersecurity specialists",
+    "relation": "predict",
+    "value": "MFA will become as habitual as locking your front door",
+    "time": null,
+    "speaker": "cybersecurity specialists",
+    "verbatim": [
+     "Cybersecurity specialists predict that MFA will become as habitual as locking your front door"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Multi-Factor Authentication",
+    "relation": "recognized_by",
+    "value": "companies and individual users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies and individual users are progressively recognizing the fundamental place MFA holds in a robust security posture"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Multi-Factor Authentication",
+    "relation": "has_become",
+    "value": "the unspoken rule for securing the virtual perimeters of home offices worldwide",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, MFA has not just been suggested; it has become the unspoken rule for securing the virtual perimeters of home offices worldwide."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Multi-Factor Authentication",
+    "relation": "described_as",
+    "value": "one consistent champion in the realm of digital protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But one consistent champion in the realm of digital protection has been Multi-Factor Authentication (MFA)."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "remote work",
+    "relation": "intensified_after",
+    "value": "the global shift caused by the 2020 pandemic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work, which intensified after the global shift caused by the 2020 pandemic"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "the 2020 pandemic",
+    "relation": "caused",
+    "value": "the global shift",
+    "time": "2020",
+    "speaker": null,
+    "verbatim": [
+     "the global shift caused by the 2020 pandemic"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "remote work",
+    "relation": "integrated_mfa_into_daily_lives",
+    "value": "numerous remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "numerous remote workers who've integrated MFA into their daily work lives"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "remote work",
+    "relation": "can_be",
+    "value": "both productive and secure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the transition to remote work can be both productive and secure"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Multi-Factor Authentication",
+    "relation": "is",
+    "value": "a testament to our adaptability and our collective resolve to create a cyber-safe future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA is a testament to our adaptability and our collective resolve to create a cyber-safe future."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

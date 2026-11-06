@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "In which town is the boutique arts supply store Crafty Hands located?",
+    "answer": "Downtown Maplewood",
+    "verbatim": [
+     "a boutique arts supply store in downtown Maplewood"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "On what date did consultant Jason Chen publish the blog post in which he said small businesses need a robust online presence?",
+    "answer": "October 15, 2023",
+    "verbatim": [
+     "highlighted in his blog post on October 15, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why did the assembly line of the startup Widget Wizards grind to a halt?",
+    "answer": "Because microchip shipments were delayed by weeks.",
+    "verbatim": [
+     "saw its assembly line grind to a halt when microchip shipments were delayed by weeks"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What do businesses gain by narrowing their procurement radius to local sourcing?",
+    "answer": "They insulate themselves from international shocks and tap into growing consumer support for local economies.",
+    "verbatim": [
+     "businesses not only insulate themselves from international shocks but also tap into growing consumer support for local economies"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "According to consultant Damien Fletcher, what should businesses do to succeed in changing times?",
+    "answer": "Anticipate trends, listen to customers, and be prepared to revise the business plan.",
+    "verbatim": [
+     "Anticipate trends, listen to customers, and be prepared to revise your business plan."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

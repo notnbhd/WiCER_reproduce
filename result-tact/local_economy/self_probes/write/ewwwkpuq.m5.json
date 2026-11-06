@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "When did Linda Martin's organic grocery startup in Meadowfield begin operating?",
+    "answer": "September 15, 2023 (its inception date)",
+    "verbatim": [
+     "Since its inception on September 15, 2023, her venture has not only contributed to the local economy"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "According to the National Bureau of Economic Research, by how much have local businesses increased job creation in small communities since late 2023?",
+    "answer": "A 60% increase in job creation in small communities",
+    "verbatim": [
+     "Recent data from the National Bureau of Economic Research indicates that since late 2023, local businesses have been responsible for a 60% increase in job creation in small communities."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did Sarah Nguyen's sustainable clothing line launch in Greentown?",
+    "answer": "April 22, 2024, which was Earth Day",
+    "verbatim": [
+     "Launching on Earth Day, April 22, 2024, her initiative underlines the potential for local enterprises to lead the charge in reducing ecological footprints."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did Samantha Patel's partnership with local schools in Educator's Enclave provide?",
+    "answer": "Internship opportunities at her software development firm",
+    "verbatim": [
+     "In the growing suburb of Educator's Enclave, Samantha Patel has been instrumental in partnering with local schools to provide internship opportunities at her software development firm."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "What does health food store owner Anita Desai regularly organize in her neighborhood?",
+    "answer": "Neighborhood wellness fairs",
+    "verbatim": [
+     "She regularly organizes neighborhood wellness fairs, collaborating with other local entrepreneurs to foster a healthier community ethos."
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

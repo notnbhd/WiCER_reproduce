@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Who commented at the October 5, 2023 symposium on local retailers capitalizing on omnichannel strategies?",
+    "answer": "Sarah Johnston, a retail analyst from Global Market Insights",
+    "verbatim": [
+     "Sarah Johnston, a retail analyst from Global Market Insights, provided insight into this trend."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "What is the name of the suite of tools that BytePath Solutions announced on December 1, 2023 for local retailers?",
+    "answer": "'RetailSync'",
+    "verbatim": [
+     "announced the launch of 'RetailSync' \u2013 a suite of tools tailored for local retailers."
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did Jason Peters, a Indianapolis retailer, introduce smart kiosks in his store?",
+    "answer": "November 15, 2023",
+    "verbatim": [
+     "Jason Peters, a local retailer in Indianapolis, who introduced smart kiosks in his store on November 15, 2023, observed"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By how much did customer retention increase for Aileen Gomez's boutique chain after she introduced personalized marketing campaigns?",
+    "answer": "30%",
+    "verbatim": [
+     "has seen a 30% increase in customer retention since introducing personalized marketing campaigns through her omnichannel approach."
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "According to Oliver Thompson, what does synchronizing inventory across all sales channels help local retailers do?",
+    "answer": "Significantly reduce backorders and enhance the overall shopping experience for the customer.",
+    "verbatim": [
+     "By synchronizing their inventory across all sales channels, local retailers can significantly reduce backorders and enhance the overall shopping experience for the customer,"
+    ],
+    "kind": "process",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

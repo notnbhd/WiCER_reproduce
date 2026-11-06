@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Where is TechSolutions, the company led by CEO Megha Singh, based?",
+    "answer": "Austin, Texas",
+    "verbatim": [
+     "based in Austin, Texas"
+    ],
+    "kind": "place",
+    "relational": false
+   },
+   {
+    "question": "What percentage of workers in the Catalytics Consulting Group survey said they would forgo a pay hike for better work-life balance and a positive workplace culture?",
+    "answer": "60%",
+    "verbatim": [
+     "revealed that 60% of workers would forego a pay hike for better work-life balance and a positive workplace culture"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "On what date did New Horizons Bakers receive the government grant that funded its pilot reskilling program?",
+    "answer": "September 30, 2023",
+    "verbatim": [
+     "a government grant received on September 30, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What does Maryland's Charm City Craftsmen partner with the local vocational school to offer?",
+    "answer": "Hands-on training",
+    "verbatim": [
+     "which partners with the local vocational school to offer hands-on training"
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "According to Allison DeMarco, what has offering remote work options done for her business?",
+    "answer": "It has vastly expanded its talent pool.",
+    "verbatim": [
+     "Offering remote work options has vastly expanded our talent pool."
+    ],
+    "kind": "other",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

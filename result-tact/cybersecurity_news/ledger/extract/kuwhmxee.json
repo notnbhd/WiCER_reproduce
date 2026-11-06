@@ -1,0 +1,823 @@
+{
+ "inventory": [
+  "Dr. Elizabeth Torres",
+  "Thornhill Institute",
+  "Sophia Chang",
+  "Marcus Johnson",
+  "Dr. Kevin Marques",
+  "Rachel Simons",
+  "SecureTech Solutions",
+  "Jonathan Hart",
+  "phishing scams",
+  "spear-phishing",
+  "cyber hygiene",
+  "two-factor authentication",
+  "remote work",
+  "cybercriminals",
+  "The pandemic",
+  "international cybersecurity directive",
+  "training programs",
+  "wellbeing programs",
+  "advanced phishing detection systems",
+  "remote monitoring and support tools",
+  "cybersecurity firms",
+  "personal data"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "intensified_in",
+    "value": "early 2020",
+    "time": "early 2020",
+    "speaker": null,
+    "verbatim": [
+     "the global transition to remote work that intensified in early 2020"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "phishing scams",
+    "relation": "commonly_known",
+    "value": "commonly known",
+    "time": "Prior to September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Prior to September 2023, phishing scams were commonly known"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "phishing scams",
+    "relation": "increase_in_frequency_and_sophistication",
+    "value": "significant increase in the frequency and sophistication of these attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "since the shift, there has been a significant increase in the frequency and sophistication of these attacks"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "phishing scams",
+    "relation": "is_subset_of",
+    "value": "cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing, a subset of cyber threats"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "phishing scams",
+    "relation": "poses_challenge",
+    "value": "a unique challenge in the era of remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "poses a unique challenge in the era of remote work"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote work",
+    "relation": "office_security_replaced_by",
+    "value": "home networks and personal devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditional office securities are replaced with home networks and personal devices"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "cybersecurity firms",
+    "relation": "reported_rise_in_phishing_incidents",
+    "value": "a marked rise in phishing incidents",
+    "time": "As of October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "reports have surfaced from cybersecurity firms noting a marked rise in phishing incidents"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "remote work",
+    "relation": "created",
+    "value": "temporary chaos and confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rapid move to remote work created temporary chaos and confusion"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "cybercriminals",
+    "relation": "capitalized_on",
+    "value": "temporary chaos and confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which cybercriminals quickly capitalized on"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "remote work",
+    "relation": "enables",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "created temporary chaos and confusion, which cybercriminals quickly capitalized on"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Elizabeth Torres",
+    "relation": "holds_position",
+    "value": "Chair of Cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Elizabeth Torres, Chair of Cybersecurity at the Thornhill Institute"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Elizabeth Torres",
+    "relation": "employed_by",
+    "value": "Thornhill Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Elizabeth Torres, Chair of Cybersecurity at the Thornhill Institute"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Elizabeth Torres",
+    "relation": "described_as",
+    "value": "one of the most notable figures in the cybersecurity field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most notable figures in the cybersecurity field, Dr. Elizabeth Torres"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The pandemic",
+    "relation": "presented_opportunity_for",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": "Dr. Elizabeth Torres",
+    "verbatim": [
+     "The pandemic presented an opportunity for cybercriminals."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "cybercriminals",
+    "relation": "thrive_in",
+    "value": "environments where uncertainty reigns and soft targets abound",
+    "time": null,
+    "speaker": "Dr. Elizabeth Torres",
+    "verbatim": [
+     "They thrive in environments where uncertainty reigns and soft targets abound."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "remote work",
+    "relation": "vulnerabilities_exposed",
+    "value": "employees working remotely, often without adequate security measures",
+    "time": null,
+    "speaker": "Dr. Elizabeth Torres",
+    "verbatim": [
+     "With employees working remotely, often without adequate security measures, their vulnerabilities are laid bare."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "phishing scams",
+    "relation": "tactics_repurposed_to_exploit",
+    "value": "the remote work scenario",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tactics previously used in phishing scams have been repurposed and updated to exploit the remote work scenario."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "spear-phishing",
+    "relation": "described_as",
+    "value": "targeted attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to targeted attacks known as spear-phishing"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "spear-phishing",
+    "relation": "evolved_from",
+    "value": "generic campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fraudulent emails have evolved from generic"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "spear-phishing",
+    "relation": "mimics",
+    "value": "legitimate correspondence from coworkers or supervisors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These emails deceive recipients by mimicking legitimate correspondence from coworkers or supervisors"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "spear-phishing",
+    "relation": "exploits",
+    "value": "the trust and established relationships within a company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "playing on the trust and established relationships within a company"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sophia Chang",
+    "relation": "occupation",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Chang, a cybersecurity analyst, reported on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sophia Chang",
+    "relation": "reported_increased_complexity_of",
+    "value": "these phishing schemes",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "reported on November 2, 2023, the increased complexity of these phishing schemes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "remote work",
+    "relation": "relies_heavily_on",
+    "value": "email communication",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "Remote workers often rely heavily on email communication."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "phishing scams",
+    "relation": "mimic",
+    "value": "email addresses, logos, and even writing styles",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "Scammers mimic email addresses, logos, and even writing styles to make their emails look convincing."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "phishing scams",
+    "relation": "common_scheme_involves",
+    "value": "an email requesting urgent action, such as changing a password or providing personnel information",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "A common scheme involves an email requesting urgent action, such as changing a password or providing personnel information"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "phishing scams",
+    "relation": "leverages",
+    "value": "the remote worker\u2019s sense of isolation and urgency",
+    "time": null,
+    "speaker": "Sophia Chang",
+    "verbatim": [
+     "leveraging the remote worker\u2019s sense of isolation and urgency to respond promptly"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "remote work",
+    "relation": "blurs_lines_between",
+    "value": "professional and personal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The remote work environment blurs the lines between professional and personal"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "remote work",
+    "relation": "causes",
+    "value": "some to let their guard down while engaging in corporate digital spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "causing some to let their guard down while engaging in corporate digital spaces"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The remote work environment blurs the lines between professional and personal, causing some to let their guard down"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "remote work",
+    "relation": "contrasts_with",
+    "value": "IT departments regularly warned employees in office settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments regularly warned employees in office settings"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "remote work",
+    "relation": "reminders_diminished",
+    "value": "the frequency and intensity of these reminders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at home, the frequency and intensity of these reminders have diminished"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "remote work",
+    "relation": "weakens",
+    "value": "the collective awareness and response to threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "weakening the collective awareness and response to threats"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at home, the frequency and intensity of these reminders have diminished, weakening the collective awareness and response to threats"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "cybersecurity firms",
+    "relation": "highlighted_importance_of",
+    "value": "cyber hygiene",
+    "time": "On December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a collaborative study by cybersecurity firms highlighted the importance of"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "cyber hygiene",
+    "relation": "defined_as",
+    "value": "the habits and practices that users should adopt to maintain system health and improve online security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the habits and practices that users should adopt to maintain system health and improve online security"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Marcus Johnson",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Johnson, a cybersecurity expert, elaborates on the concept"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "cyber hygiene",
+    "relation": "strict_protocols_in_office",
+    "value": "IT teams often set strict protocols for digital hygiene",
+    "time": null,
+    "speaker": "Marcus Johnson",
+    "verbatim": [
+     "In the office, IT teams often set strict protocols for digital hygiene."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "remote work",
+    "relation": "responsibility_shifts_to",
+    "value": "the individual",
+    "time": null,
+    "speaker": "Marcus Johnson",
+    "verbatim": [
+     "With remote work, the responsibility shifts to the individual."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "cyber hygiene",
+    "relation": "includes",
+    "value": "regularly updating passwords, using two-factor authentication, and being vigilant about the origins of emails and attachments",
+    "time": null,
+    "speaker": "Marcus Johnson",
+    "verbatim": [
+     "This means regularly updating passwords, using two-factor authentication, and being vigilant about the origins of emails and attachments."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "two-factor authentication",
+    "relation": "is_part_of",
+    "value": "cyber hygiene",
+    "time": null,
+    "speaker": "Marcus Johnson",
+    "verbatim": [
+     "This means regularly updating passwords, using two-factor authentication, and being vigilant about the origins of emails and attachments."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "training programs",
+    "relation": "purpose",
+    "value": "to foster better cybersecurity awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies have been implementing training programs to foster better cybersecurity awareness."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "training programs",
+    "relation": "struggle_to_reach",
+    "value": "the same level of compliance and vigilance that existed in controlled office environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these initiatives often struggle to reach the same level of compliance and vigilance that existed in controlled office environments"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "phishing scams",
+    "relation": "success_determined_by",
+    "value": "the human element",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is the human element that often determines whether a cyberattack will be successful"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Kevin Marques",
+    "relation": "occupation",
+    "value": "psychologist",
+    "time": "On January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 22, 2024, psychologist Dr. Kevin Marques released a study"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Kevin Marques",
+    "relation": "released_study_indicating",
+    "value": "stress and fatigue linked to remote work could affect ability to recognize phishing attempts",
+    "time": "On January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "released a study indicating that the stress and fatigue linked to remote work could affect"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "remote work",
+    "relation": "associated_with",
+    "value": "stress and fatigue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the stress and fatigue linked to remote work"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "remote work",
+    "relation": "lines_between_work_and_rest",
+    "value": "indistinct",
+    "time": null,
+    "speaker": "Dr. Kevin Marques",
+    "verbatim": [
+     "The lines between work and rest have become indistinct."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Kevin Marques",
+    "relation": "claims",
+    "value": "employees are more susceptible to making mistakes when tired and overworked",
+    "time": null,
+    "speaker": "Dr. Kevin Marques",
+    "verbatim": [
+     "When tired and overworked, employees are more susceptible to making mistakes."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "phishing scams",
+    "relation": "requires",
+    "value": "a level of focus and skepticism that may be diminished when working from home",
+    "time": null,
+    "speaker": "Dr. Kevin Marques",
+    "verbatim": [
+     "Recognizing a phishing attempt requires a level of focus and skepticism that may be diminished when working from home."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "wellbeing programs",
+    "relation": "purpose",
+    "value": "to alleviate the mental strain on their employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizations have been encouraged to focus on wellbeing programs to alleviate the mental strain on their employees"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "wellbeing programs",
+    "relation": "would_reduce",
+    "value": "susceptibility to scams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which would potentially reduce susceptibility to scams"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "wellbeing programs",
+    "relation": "results_in",
+    "value_ref": "c52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to alleviate the mental strain on their employees, which would potentially reduce susceptibility to scams"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Rachel Simons",
+    "relation": "holds_position",
+    "value": "CEO",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Rachel Simons, CEO of SecureTech Solutions, stated on February 15, 2024"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "SecureTech Solutions",
+    "relation": "chief_executive_is",
+    "value": "Rachel Simons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Simons, CEO of SecureTech Solutions"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "advanced phishing detection systems",
+    "relation": "is_critical",
+    "value": "critical",
+    "time": "February 15, 2024",
+    "speaker": "Rachel Simons",
+    "verbatim": [
+     "investing in advanced phishing detection systems is critical"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Rachel Simons",
+    "relation": "said_equally_important",
+    "value": "to foster a security-centric culture",
+    "time": "February 15, 2024",
+    "speaker": "Rachel Simons",
+    "verbatim": [
+     "it's equally important to foster a security-centric culture"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "phishing scams",
+    "relation": "addressed_by",
+    "value": "regular security briefings and simulations of phishing scenarios",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many businesses have begun to implement regular security briefings and simulations of phishing scenarios to train employees."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "remote monitoring and support tools",
+    "relation": "assist_in",
+    "value": "early detection and swift response to phishing attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments now often employ remote monitoring and support tools that can assist in early detection and swift response to phishing attacks."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "remote work",
+    "relation": "may_lack",
+    "value": "the physical security perimeters of a traditional office",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Although remote work may lack the physical security perimeters of a traditional office"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "phishing scams",
+    "relation": "caught_attention_of",
+    "value": "lawmakers and regulators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The surge in phishing attacks has also caught the attention of lawmakers and regulators."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "international cybersecurity directive",
+    "relation": "introduced_guidelines",
+    "value": "stricter guidelines for companies to follow in protecting against cyber threats",
+    "time": "On March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "introducing stricter guidelines for companies to follow in protecting against cyber threats"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "international cybersecurity directive",
+    "relation": "mechanism_of",
+    "value_ref": "c62",
+    "time": "On March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "as part of an international cybersecurity directive, governments have begun"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "personal data",
+    "relation": "guidelines_include_management_of",
+    "value": "the management of personal data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These guidelines often include requirements for training, reporting, and the management of personal data."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Jonathan Hart",
+    "relation": "occupation",
+    "value": "legal expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Legal experts like Jonathan Hart"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Jonathan Hart",
+    "relation": "described_as",
+    "value": "renowned for his work in cybersecurity law",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jonathan Hart, renowned for his work in cybersecurity law"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Jonathan Hart",
+    "relation": "suggests",
+    "value": "By establishing stronger legal frameworks around data protection and security measures, companies are more likely to take the threats seriously",
+    "time": null,
+    "speaker": "Jonathan Hart",
+    "verbatim": [
+     "By establishing stronger legal frameworks around data protection and security measures, companies are more likely to take the threats seriously"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "phishing scams",
+    "relation": "combating_requires",
+    "value": "invest the necessary resources in combating phishing scams",
+    "time": null,
+    "speaker": "Jonathan Hart",
+    "verbatim": [
+     "invest the necessary resources in combating phishing scams"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "phishing scams",
+    "relation": "expected_to",
+    "value": "persist and become more sophisticated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "phishing scams will not only persist but also continue to become more sophisticated"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "remote work",
+    "relation": "permanently_altered",
+    "value": "the cybersecurity landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work has permanently altered the cybersecurity landscape"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "cybercriminals",
+    "relation": "joint_effort_to_stay_abreast_of",
+    "value": "cybercriminal tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a joint effort amongst individuals, corporations, and governments to stay abreast of cybercriminal tactics"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "remote work",
+    "relation": "future_depends_on",
+    "value": "a combination of vigilant personal practices, robust corporate strategies, and supportive legal frameworks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The future of cybersecurity in remote work depends on a combination of vigilant personal practices, robust corporate strategies, and supportive legal frameworks."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

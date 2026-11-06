@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did GreenGrowth launch as a sustainable urban farming initiative?",
+    "answer": "November 15, 2023",
+    "verbatim": [
+     "launched GreenGrowth, a sustainable urban farming initiative on November 15, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "What did GreenGrowth's partnership with a local business incubator provide?",
+    "answer": "Both funding and mentorship opportunities.",
+    "verbatim": [
+     "managed to land a partnership with a local business incubator which provided both funding and mentorship opportunities"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What was GreenGrowth's April 21, 2024 community event held to do?",
+    "answer": "To showcase their first harvest.",
+    "verbatim": [
+     "decided to host a community event on April 21, 2024, to showcase their first harvest"
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "How many new jobs did EduTech Innovations create by the end of June 2024?",
+    "answer": "Over 30 new jobs.",
+    "verbatim": [
+     "EduTech Innovations created over 30 new jobs by the end of June 2024"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "Beyond improving educational access, what did EduTech Innovations also promote?",
+    "answer": "The importance of lifelong learning and digital literacy.",
+    "verbatim": [
+     "it also promoted the importance of lifelong learning and digital literacy"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

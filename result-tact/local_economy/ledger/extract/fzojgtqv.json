@@ -1,0 +1,628 @@
+{
+ "inventory": [
+  "Jerry Finklestein",
+  "Final Straw 2.0",
+  "Tammy O'Toole",
+  "Glamour Flannel",
+  "David Bowie",
+  "Sam Ditko",
+  "Eggs and Legs",
+  "Linda Pillar",
+  "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+  "Clive Baxter",
+  "PogoMow",
+  "Edna Wright",
+  "Solar-Powered Flashlight",
+  "Pete McSnicker",
+  "Underwater Basket Weaving Kit",
+  "Melinda Sharp",
+  "Ejector Bed",
+  "the military",
+  "Raj Patel",
+  "Curry in a Hurry",
+  "Zen Gardens for Cats",
+  "June Bug",
+  "the shark tank of small business"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the shark tank of small business",
+    "relation": "describes",
+    "value": "the struggles, setbacks, and sidesplitting scenarios local entrepreneurs have faced",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in what one might affectionately call, \"the shark tank of small business.\""
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Final Straw 2.0",
+    "relation": "business_of",
+    "value": "Jerry Finklestein",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose sustainable straw business\u2014aptly named \"Final Straw 2.0\"\u2014started in the wake of a misinterpreted conversation."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Final Straw 2.0",
+    "relation": "started_in_the_wake_of",
+    "value": "a misinterpreted conversation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "started in the wake of a misinterpreted conversation"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jerry Finklestein",
+    "relation": "overheard",
+    "value": "two teenagers criticizing single-use plastics",
+    "time": "November of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Back in November of 2023, he overheard two teenagers criticizing single-use plastics."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jerry Finklestein",
+    "relation": "thought_real_crisis_was",
+    "value": "the lack of durable straws for more robust milkshake consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jerry thought the real crisis was the lack of durable straws for more robust milkshake consumption."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Final Straw 2.0",
+    "relation": "customer_base",
+    "value": "mostly eco-warriors rather than milkshake enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his business has flourished, with a recognizably ironic customer base comprised mostly of eco-warriors rather than milkshake enthusiasts."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Final Straw 2.0",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "started in the wake of a misinterpreted conversation",
+     "Back in November of 2023, he overheard two teenagers criticizing single-use plastics."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Glamour Flannel",
+    "relation": "fashion_line_of",
+    "value": "Tammy O'Toole",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the accidental apparel mogul whose fashion line \"Glamour Flannel\" hit big after a fortuitous typo in an online advertisement"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Glamour Flannel",
+    "relation": "hit_big_after",
+    "value": "a fortuitous typo in an online advertisement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hit big after a fortuitous typo in an online advertisement"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Glamour Flannel",
+    "relation": "intended_market",
+    "value": "a crowd seeking \"glam casual\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meant to market to a crowd seeking \"glam casual,\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Glamour Flannel",
+    "relation": "trendy_combination_of",
+    "value": "glam rock and lumberjack aesthetics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sparked intrigue for an unexpectedly trendy combination of glam rock and lumberjack aesthetics."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Tammy O'Toole",
+    "relation": "pairings_became",
+    "value": "the go-to garb for those seeking to marry comfort with a touch of David Bowie",
+    "time": "As of January 2024",
+    "speaker": null,
+    "verbatim": [
+     "As of January 2024, Tammy's perplexing pairings have become the go-to garb for those seeking to marry comfort with a touch of David Bowie."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "David Bowie",
+    "relation": "referenced_in",
+    "value": "Tammy O'Toole's pairings as garb for those seeking comfort",
+    "time": "As of January 2024",
+    "speaker": null,
+    "verbatim": [
+     "for those seeking to marry comfort with a touch of David Bowie."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eggs and Legs",
+    "relation": "breakfast_joint_of",
+    "value": "Sam Ditko",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sam Ditko found fame with his breakfast joint, \"Eggs and Legs,\""
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sam Ditko",
+    "relation": "found_fame_after",
+    "value": "a billboard typo",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "after what can only be described as the most unfortunately placed billboard typo of September 2023."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sam Ditko",
+    "relation": "billboard_read",
+    "value": "Get a Leg Over Your Day",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Instead of \"Get a Leg Up on Your Day,\" commuters were greeted with \"Get a Leg Over Your Day.\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sam Ditko",
+    "relation": "surge_in",
+    "value": "patronage and community giggles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The resulting curiosity led to a massive surge in both patronage and community giggles."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sam Ditko",
+    "relation": "caused_by",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instead of \"Get a Leg Up on Your Day,\" commuters were greeted with \"Get a Leg Over Your Day.\"",
+     "The resulting curiosity led to a massive surge in both patronage and community giggles."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Eggs and Legs",
+    "relation": "described_as",
+    "value": "a PGrated brunch hotspot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Who knew an R-rated gaffe would turn into a PGrated brunch hotspot?"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+    "relation": "campaign_of",
+    "value": "Linda Pillar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marketing maverick Linda Pillar's PR campaign, \"The Pillar Posture Protector - Don't Slouch on Your Couch!\""
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+    "relation": "misinterpreted_as",
+    "value": "the season's premier slasher film prop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "took a hilariously dark turn when Halloween enthusiasts misinterpreted her slouch-prevention device as the season's premier slasher film prop."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+    "relation": "misinterpreted_by",
+    "value": "Halloween enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when Halloween enthusiasts misinterpreted her slouch-prevention device"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+    "relation": "sales_skyrocketed_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sales skyrocketed"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Pillar Posture Protector - Don't Slouch on Your Couch!",
+    "relation": "followed_by",
+    "value": "equally astounded chiropractors benefiting from the residual fear of poor posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "followed by equally astounded chiropractors benefiting from the residual fear of poor posture."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Clive Baxter",
+    "relation": "described_as",
+    "value": "a man of questionable genius",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clive Baxter, a man of questionable genius, bucked the trends"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "PogoMow",
+    "relation": "combines",
+    "value": "pogo stick/lawnmower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his combination pogo stick/lawnmower, the \"PogoMow.\""
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "PogoMow",
+    "relation": "unveiled_in",
+    "value": "spring 2024",
+    "time": "spring 2024",
+    "speaker": null,
+    "verbatim": [
+     "Unveiled in spring 2024, the concept promised to revolutionize lawn maintenance"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "PogoMow",
+    "relation": "promised",
+    "value": "to revolutionize lawn maintenance, offering both a workout and a well-manicured garden",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the concept promised to revolutionize lawn maintenance, offering both a workout and a well-manicured garden."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "PogoMow",
+    "relation": "led_to",
+    "value": "a wave of highly amusing YouTube fails rather than a gardening revolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Little did he know the combination would rather lead to a wave of highly amusing YouTube fails than to a gardening revolution."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Solar-Powered Flashlight",
+    "relation": "released_by",
+    "value": "Edna Wright",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Edna Wright didn't fare much better with the release of her \"Solar-Powered Flashlight\"\u2014on the longest day of the year, no less."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Solar-Powered Flashlight",
+    "relation": "released_on",
+    "value": "the longest day of the year",
+    "time": "the longest day of the year",
+    "speaker": null,
+    "verbatim": [
+     "on the longest day of the year, no less."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Solar-Powered Flashlight",
+    "relation": "sales_peaked_during",
+    "value": "a spate of sunny weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with sales peaking strangely enough, during a spate of sunny weather."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Edna Wright",
+    "relation": "mantra",
+    "value": "charge by day, shine by night",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her \"charge by day, shine by night\" mantra"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Underwater Basket Weaving Kit",
+    "relation": "created_by",
+    "value": "Pete McSnicker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pete McSnicker's \"Underwater Basket Weaving Kit\" took a nose-dive when it was first introduced on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Underwater Basket Weaving Kit",
+    "relation": "introduced_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when it was first introduced on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Underwater Basket Weaving Kit",
+    "relation": "initial_reception",
+    "value": "a nose-dive",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "took a nose-dive when it was first introduced on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Underwater Basket Weaving Kit",
+    "relation": "turned_into",
+    "value": "the gag gift of the season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "However, an unexpected feature on a late-night TV show turned it into the gag gift of the season."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Underwater Basket Weaving Kit",
+    "relation": "sales_surged",
+    "value": "Out of sheer irony",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Out of sheer irony, sales surged"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Pete McSnicker",
+    "relation": "described_as",
+    "value": "laughing all the way to the bank, in scuba gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pete's laughing all the way to the bank, in scuba gear, no less."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Ejector Bed",
+    "relation": "invented_by",
+    "value": "Melinda Sharp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that began with her invention of the \"Ejector Bed.\""
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Ejector Bed",
+    "relation": "complaints_about",
+    "value": "the bed's aggressive launch sequence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After numerous complaints\u2014a few hilariously documented on social media\u2014of the bed's aggressive launch sequence, she almost called it quits."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Melinda Sharp",
+    "relation": "nearly_quit",
+    "value": "yes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she almost called it quits."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "the military",
+    "relation": "came_knocking",
+    "value": "Melinda Sharp's invention",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Then, the military came knocking in February 2024, seeing the potential for efficient barrack wake-up calls."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "the military",
+    "relation": "saw_potential_for",
+    "value": "efficient barrack wake-up calls",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "seeing the potential for efficient barrack wake-up calls."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ejector Bed",
+    "relation": "redefined_meaning_of",
+    "value": "\"rise and shine\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melinda's invention has redefined the meaning of \"rise and shine,\""
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ejector Bed",
+    "relation": "mistaken_for_parkour",
+    "value": "a drill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the occasional soldier mistaking a drill for an impromptu parkour exercise."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Curry in a Hurry",
+    "relation": "created_by",
+    "value": "Raj Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Raj Patel's \"Curry in a Hurry\" microwaveable meals were intended for busy students"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Curry in a Hurry",
+    "relation": "intended_for",
+    "value": "busy students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "microwaveable meals were intended for busy students"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Raj Patel",
+    "relation": "found_most_loyal_customers_in",
+    "value": "recently retired thrill-seekers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet he found his most loyal customers in recently retired thrill-seekers"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Curry in a Hurry",
+    "relation": "scent_carried_into",
+    "value": "the bingo halls",
+    "time": "September",
+    "speaker": null,
+    "verbatim": [
+     "Who knew that September would carry the scent of tikka masala into the bingo halls?"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "June Bug",
+    "relation": "conceptualized",
+    "value": "Zen Gardens for Cats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conceptualized by the eccentric mind of June Bug."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Zen Gardens for Cats",
+    "relation": "intended_as",
+    "value": "a novel approach to foster mindfulness among our feline companions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Intended as a novel approach to foster mindfulness among our feline companions"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Zen Gardens for Cats",
+    "relation": "mostly_turned_into",
+    "value": "litter boxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the portable zen gardens mostly turned into litter boxes."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Zen Gardens for Cats",
+    "relation": "became",
+    "value": "a quirky talking point in vets' offices nationwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they've become a quirky talking point in vets' offices nationwide."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

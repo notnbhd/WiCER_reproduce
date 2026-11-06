@@ -1,0 +1,701 @@
+{
+ "inventory": [
+  "Springfield School District",
+  "Hamilton College",
+  "Cybersecurity and Infrastructure Security Agency",
+  "Jane Smith",
+  "John Doe",
+  "Alice Martinez",
+  "Michael Brown",
+  "Rachel Green",
+  "Henry Lee",
+  "Emily Jackson",
+  "cyber attacks",
+  "educational institutions",
+  "Regular Risk Assessments",
+  "Strong Access Control Measures",
+  "Multi-factor authentication",
+  "cyber hygiene programs",
+  "Ransomware attacks",
+  "data backup strategy",
+  "Endpoints",
+  "Incident Response Plan",
+  "Security Operations Center"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Springfield School District",
+    "relation": "experienced_disruption",
+    "value": "significant disruption",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a significant disruption at the Springfield School District on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Hamilton College",
+    "relation": "experienced_data_breach",
+    "value": "data breach",
+    "time": "October 9",
+    "speaker": null,
+    "verbatim": [
+     "a data breach at the prestigious Hamilton College on October 9"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Hamilton College",
+    "relation": "described_as",
+    "value": "prestigious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the prestigious Hamilton College"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "cyber attacks",
+    "relation": "followed_incidents",
+    "value": "several high-profile incidents",
+    "time": "toward the close of the year",
+    "speaker": null,
+    "verbatim": [
+     "In the wake of several high-profile incidents toward the close of the year"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "cyber attacks",
+    "relation": "described_as",
+    "value": "chronic concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the once seemingly distant threat of cyber attacks has escalated into a chronic concern"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Cybersecurity and Infrastructure Security Agency",
+    "relation": "released_report",
+    "value": "a report",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A report released by the Cybersecurity and Infrastructure Security Agency (CISA)"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Cybersecurity and Infrastructure Security Agency",
+    "relation": "reported_that",
+    "value": "the frequency and sophistication of cyber attacks aimed at educational institutes have increased dramatically",
+    "time": null,
+    "speaker": "Cybersecurity and Infrastructure Security Agency",
+    "verbatim": [
+     "highlights that the frequency and sophistication of cyber attacks aimed at educational institutes have increased dramatically"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "cyber attacks",
+    "relation": "include",
+    "value": "ransomware and data theft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From ransomware to data theft"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "cyber attacks",
+    "relation": "disrupt",
+    "value": "learning environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these incidents not only disrupt learning environments"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "cyber attacks",
+    "relation": "raise_issues_around",
+    "value": "the safety of personal information and intellectual property",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raise serious issues around the safety of personal information and intellectual property"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "educational institutions",
+    "relation": "integrate",
+    "value": "digital technologies into their curricula and administrative processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As educational institutions increasingly integrate digital technologies into their curricula and administrative processes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "educational institutions",
+    "relation": "should_implement",
+    "value": "strong cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To mitigate the growing cyber threats, it's imperative that schools, colleges, and universities implement strong cybersecurity measures."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "educational institutions",
+    "relation": "lists",
+    "value": "top 10 cybersecurity practices every school should adopt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we list the top 10 cybersecurity practices every school should adopt to safeguard their digital landscapes"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "educational institutions",
+    "relation": "purpose_of_practices",
+    "value": "safeguard their digital landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to safeguard their digital landscapes"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "educational institutions",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To mitigate the growing cyber threats, it's imperative that schools, colleges, and universities implement strong cybersecurity measures. Therefore, we list the top 10 cybersecurity practices every school should adopt"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jane Smith",
+    "relation": "is_a",
+    "value": "Cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Jane Smith recommends"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jane Smith",
+    "relation": "recommends",
+    "value": "schools conduct comprehensive risk assessments at least twice a year",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "Cybersecurity expert Jane Smith recommends that schools conduct comprehensive risk assessments at least twice a year."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Regular Risk Assessments",
+    "relation": "recommended_frequency",
+    "value": "at least twice a year",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "conduct comprehensive risk assessments at least twice a year"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Regular Risk Assessments",
+    "relation": "should_identify",
+    "value": "all potential vulnerabilities, from outdated software to weak passwords",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all potential vulnerabilities, from outdated software to weak passwords, should be identified and addressed."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Strong Access Control Measures",
+    "relation": "should_adopt",
+    "value": "strict access control policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools should adopt strict access control policies."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "John Doe",
+    "relation": "is_a",
+    "value": "IT director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to IT director John Doe"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "John Doe",
+    "relation": "states",
+    "value": "creating user permissions and roles is crucial in ensuring that students and staff have access only to the information necessary for their tasks",
+    "time": null,
+    "speaker": "John Doe",
+    "verbatim": [
+     "creating user permissions and roles is crucial in ensuring that students and staff have access only to the information necessary for their tasks"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Multi-factor authentication",
+    "relation": "further_strengthens",
+    "value": "this defense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Multi-factor authentication (MFA) further strengthens this defense"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Multi-factor authentication",
+    "relation": "ensures",
+    "value": "unauthorized access to sensitive systems remains barricaded even if a password is stolen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that even if a password is stolen, unauthorized access to sensitive systems remains barricaded"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "educational institutions",
+    "relation": "described_as",
+    "value": "a school's most potent weapon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Education is a school's most potent weapon."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Alice Martinez",
+    "relation": "is_a",
+    "value": "Cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity consultant Dr. Alice Martinez urges"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alice Martinez",
+    "relation": "urges",
+    "value": "educational institutions to develop cyber hygiene programs",
+    "time": null,
+    "speaker": "Alice Martinez",
+    "verbatim": [
+     "Cybersecurity consultant Dr. Alice Martinez urges educational institutions to develop cyber hygiene programs."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "cyber hygiene programs",
+    "relation": "should_teach",
+    "value": "the basics of safe online behavior, such as spotting phishing emails, creating strong passwords, and understanding privacy settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These should teach the basics of safe online behavior, such as spotting phishing emails, creating strong passwords, and understanding privacy settings."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "cyber hygiene programs",
+    "relation": "training_reduces",
+    "value": "the risk of unintentional internal breaches significantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular training sessions can reduce the risk of unintentional internal breaches significantly."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "cyber attacks",
+    "relation": "exploited_via",
+    "value": "known vulnerabilities in software and operating systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malicious actors often exploit known vulnerabilities in software and operating systems."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "educational institutions",
+    "relation": "should_ensure",
+    "value": "all systems are regularly updated and patched with the latest security releases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments should ensure that all systems are regularly updated and patched with the latest security releases."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Brown",
+    "relation": "is_a",
+    "value": "tech enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As tech enthusiast Michael Brown puts it"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Michael Brown",
+    "relation": "states",
+    "value": "Keeping software up to date is like vaccinating your computer.",
+    "time": null,
+    "speaker": "Michael Brown",
+    "verbatim": [
+     "Keeping software up to date is like vaccinating your computer."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Ransomware attacks",
+    "relation": "defined_as",
+    "value": "hackers encrypt institutional data and demand a ransom for its release",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ransomware attacks, where hackers encrypt institutional data and demand a ransom for its release, prey on the unprepared."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Ransomware attacks",
+    "relation": "prey_on",
+    "value": "the unprepared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prey on the unprepared"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "data backup strategy",
+    "relation": "is_essential",
+    "value": "essential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "That's why having a robust data backup strategy is essential."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "data backup strategy",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prey on the unprepared. That's why having a robust data backup strategy is essential."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Rachel Green",
+    "relation": "is_a",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to cybersecurity analyst Rachel Green"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "data backup strategy",
+    "relation": "should_implement",
+    "value": "regular, secure data backups stored in multiple locations, one being offsite",
+    "time": null,
+    "speaker": "Rachel Green",
+    "verbatim": [
+     "schools should implement regular, secure data backups and ensure they are stored in multiple locations, one being offsite"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "data backup strategy",
+    "relation": "purpose",
+    "value": "safeguard against such scenarios",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to safeguard against such scenarios"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Endpoints",
+    "relation": "serve_as",
+    "value": "gateways to institutional networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Endpoints, including laptops, desktops, and mobile devices, serve as gateways to institutional networks."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Endpoints",
+    "relation": "includes",
+    "value": "laptops, desktops, and mobile devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Endpoints, including laptops, desktops, and mobile devices"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Endpoints",
+    "relation": "should_be_equipped_with",
+    "value": "robust antivirus programs and personal firewalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They should be equipped with robust antivirus programs and personal firewalls."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Henry Lee",
+    "relation": "is_a",
+    "value": "Chief Information Security Officer (CISO)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Information Security Officer (CISO) Henry Lee asserts"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Henry Lee",
+    "relation": "asserts",
+    "value": "Each endpoint is a potential entry point for attackers. Endpoint security should be a top priority.",
+    "time": null,
+    "speaker": "Henry Lee",
+    "verbatim": [
+     "Each endpoint is a potential entry point for attackers. Endpoint security should be a top priority."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "cyber attacks",
+    "relation": "indicated_by",
+    "value": "unusual activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous monitoring of school networks can help detect unusual activities that may indicate a cyber attack."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "cyber attacks",
+    "relation": "defended_by",
+    "value": "tools that offer real-time alerts and anomaly detection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools that offer real-time alerts and anomaly detection can be invaluable in preemptive defense."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Security Operations Center",
+    "relation": "recommended_as",
+    "value": "an excellent investment for larger institutions",
+    "time": null,
+    "speaker": "Henry Lee",
+    "verbatim": [
+     "A set up like a Security Operations Center can be an excellent investment for larger institutions, advises Lee."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Incident Response Plan",
+    "relation": "minimizes",
+    "value": "the damage of a cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Having a predetermined incident response plan can greatly minimize the damage of a cyber attack."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Emily Jackson",
+    "relation": "is_a",
+    "value": "Security manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security manager Emily Jackson suggests"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Emily Jackson",
+    "relation": "suggests",
+    "value": "the plan should include steps for isolating affected systems, notifying stakeholders, and restoring services in a safe manner",
+    "time": null,
+    "speaker": "Emily Jackson",
+    "verbatim": [
+     "Security manager Emily Jackson suggests that the plan should include steps for isolating affected systems, notifying stakeholders, and restoring services in a safe manner."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Incident Response Plan",
+    "relation": "should_include",
+    "value": "steps for isolating affected systems, notifying stakeholders, and restoring services in a safe manner",
+    "time": null,
+    "speaker": "Emily Jackson",
+    "verbatim": [
+     "the plan should include steps for isolating affected systems, notifying stakeholders, and restoring services in a safe manner"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "cyber attacks",
+    "relation": "simulated_exercises_can_prepare",
+    "value": "the IT staff for a real incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simulated cyber attack exercises can prepare the IT staff for a real incident."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Strong Access Control Measures",
+    "relation": "includes",
+    "value": "keycards and biometric systems to secure rooms housing critical IT infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keycards and biometric systems should secure rooms housing critical IT infrastructure."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Alice Martinez",
+    "relation": "warns",
+    "value": "Physical breaches can be just as devastating as virtual ones, especially with onpremises servers.",
+    "time": null,
+    "speaker": "Alice Martinez",
+    "verbatim": [
+     "Physical breaches can be just as devastating as virtual ones, especially with onpremises servers."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "educational institutions",
+    "relation": "should_form_alliances_for",
+    "value": "best practices and threat information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Forming alliances with other educational institutions for best practices and threat information"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "educational institutions",
+    "relation": "alliances_can_enhance",
+    "value": "an individual school's cybersecurity posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Forming alliances with other educational institutions for best practices and threat information can enhance an individual school's cybersecurity posture."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "educational institutions",
+    "relation": "collaboration_fosters",
+    "value": "a culture of proactive cybersecurity awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaboration not only bolsters defense but also fosters a culture of proactive cybersecurity awareness."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "educational institutions",
+    "relation": "benefits_from",
+    "value": "shared intelligence and strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity is a collective challenge that benefits significantly from shared intelligence and strategies."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "educational institutions",
+    "relation": "cybersecurity_focus_is",
+    "value": "a necessity, not a luxury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the education sector's focus on cybersecurity becomes not a luxury, but a necessity"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "educational institutions",
+    "relation": "provided_framework_for",
+    "value": "fortify their cybersecurity infrastructure and protect the future of learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The measures outlined provide a framework for educational institutions of all sizes to fortify their cybersecurity infrastructure and protect the future of learning."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

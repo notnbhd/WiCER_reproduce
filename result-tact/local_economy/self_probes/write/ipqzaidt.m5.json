@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What result did Sarah Thompson report after deploying Lily at Littletown Boutique?",
+    "answer": "A 30% increase in customer satisfaction and a notable reduction in response times.",
+    "verbatim": [
+     "The result? A 30% increase in customer satisfaction and a notable reduction in response times."
+    ],
+    "kind": "quantity",
+    "relational": true
+   },
+   {
+    "question": "How does BookWorm, the bot at The Page Turner, guide customers?",
+    "answer": "It guides them through book selections based on their reading history.",
+    "verbatim": [
+     "guides them through book selections based on their reading history"
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "On what date did DataVision publish the recent study on AI interactions?",
+    "answer": "October 15, 2023.",
+    "verbatim": [
+     "In a recent study on October 15, 2023, by local data analytics firm DataVision"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By how much did engagement from non-English speaking customers increase at Global Groove after multilingual chatbot functions were integrated?",
+    "answer": "40%.",
+    "verbatim": [
+     "we've seen a 40% increase in engagement from non-English speaking customers,"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What stage are the plans for virtual fitting rooms and in-store chatbot kiosks in?",
+    "answer": "They are already in pilot stages.",
+    "verbatim": [
+     "are already in pilot stages"
+    ],
+    "kind": "other",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

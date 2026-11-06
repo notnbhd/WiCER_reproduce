@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "On what date did Sylvia open \"Sylvia's Sweets\"?",
+    "answer": "September 5, 2023",
+    "verbatim": [
+     "since opening \"Sylvia\u2019s Sweets\" on September 5, 2023"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Which financial advisor said that traditional bank loans are no longer the go-to for small businesses?",
+    "answer": "Johnathan Banks, a financial advisor at Big Dreams Consultancy",
+    "verbatim": [
+     "\"Traditional bank loans are no longer the go-to,\" Banks says."
+    ],
+    "kind": "attribution",
+    "relational": false
+   },
+   {
+    "question": "Why was Sylvia able to create breathing room for her business during the cash flow turbulence?",
+    "answer": "By offering early payment discounts to customers and negotiating extended payment terms with suppliers",
+    "verbatim": [
+     "By offering early payment discounts to customers and negotiating extended payment terms with suppliers, she was able to create breathing room for her budding enterprise."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did integrating technology give Sylvia the data to do?",
+    "answer": "To approach banks with confidence for a line of credit",
+    "verbatim": [
+     "It gave her the data to approach banks with confidence for a line of credit, a safety net her bakery now relies on during slower business periods."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "How often does Sylvia say she reviews her cash flow?",
+    "answer": "Every morning",
+    "verbatim": [
+     "\u201cI review my cash flow every morning,\u201d says Sylvia."
+    ],
+    "kind": "process",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

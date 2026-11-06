@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Since when has Jane's Boutique been a mainstay for fashion fans in the downtown district?",
+    "answer": "Since September 2025.",
+    "verbatim": [
+     "Retailers like Jane\u2019s Boutique - a mainstay for fashion aficionados in the downtown district since September 2025"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "By what percentage did checkout speed increase at OnlineShop Inc. after it added contactless payment options?",
+    "answer": "15%.",
+    "verbatim": [
+     "we've seen a 15% increase in checkout speed"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "What effect did the new POS hardware installed by Sarah Johnson's organic grocery store have on queuing times?",
+    "answer": "It cut down on queuing times significantly, and gave staff more time to focus on better service rather than handling cash.",
+    "verbatim": [
+     "The new hardware I installed has cut down on queuing times significantly and given my staff more time to focus on providing better service rather than handling cash."
+    ],
+    "kind": "other",
+    "relational": true
+   },
+   {
+    "question": "By 2027, what share of all contactless transactions could biometric payment methods represent, according to projections?",
+    "answer": "As much as 5%.",
+    "verbatim": [
+     "by 2027, biometric payment methods could represent as much as 5% of all contactless transactions"
+    ],
+    "kind": "quantity",
+    "relational": false
+   },
+   {
+    "question": "When was SafePay's 'TripleShield' encryption launched?",
+    "answer": "February 2026.",
+    "verbatim": [
+     "Launched back in February 2026"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

@@ -1,0 +1,654 @@
+{
+ "inventory": [
+  "COVID-19 pandemic",
+  "remote learning",
+  "Sarah Benson",
+  "FBI",
+  "Cybersecurity and Infrastructure Security Agency",
+  "ransomware attacks",
+  "school districts",
+  "colleges",
+  "universities",
+  "CyberEd",
+  "phishing attacks",
+  "malware",
+  "denial-of-service attacks",
+  "Edward Grant",
+  "Dr. Lisa Franklin",
+  "virtual private networks (VPNs)",
+  "Marcus Peters",
+  "Department of Education",
+  "grant program",
+  "firewalls",
+  "antivirus software",
+  "intrusion detection systems",
+  "Frank Thompson",
+  "multi-factor authentication (MFA)",
+  "Janet Lee",
+  "David Knight",
+  "Jane Hopkins",
+  "state's education council",
+  "cyber hygiene"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "COVID-19 pandemic",
+    "relation": "brought_challenges_to",
+    "value": "unprecedented challenges to the educational system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The COVID-19 pandemic brought unprecedented challenges to the educational system"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "COVID-19 pandemic",
+    "relation": "culminated_in",
+    "value": "a vast transition to remote learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "culminating in a vast transition to remote learning"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote learning",
+    "relation": "poses_potential_threats",
+    "value": "potential cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The novel blend of in-person and remote learning environments continues to pose potential cyber threats"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "FBI",
+    "relation": "issued_alerts_about",
+    "value": "the uptick in ransomware attacks targeting schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FBI and the Cybersecurity and Infrastructure Security Agency (CISA) have issued alerts about the uptick in ransomware attacks targeting schools"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Cybersecurity and Infrastructure Security Agency",
+    "relation": "issued_alerts_about",
+    "value": "the uptick in ransomware attacks targeting schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FBI and the Cybersecurity and Infrastructure Security Agency (CISA) have issued alerts about the uptick in ransomware attacks targeting schools"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "ransomware attacks",
+    "relation": "targets",
+    "value": "schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ransomware attacks targeting schools, exploiting vulnerabilities in remote learning software and platforms"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "ransomware attacks",
+    "relation": "exploits_vulnerabilities_in",
+    "value": "remote learning software and platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ransomware attacks targeting schools, exploiting vulnerabilities in remote learning software and platforms"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "school districts",
+    "relation": "forced_to_reconsider",
+    "value": "their cybersecurity strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "school districts, colleges, and universities have been forced to reconsider their cybersecurity strategies"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "colleges",
+    "relation": "forced_to_reconsider",
+    "value": "their cybersecurity strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "school districts, colleges, and universities have been forced to reconsider their cybersecurity strategies"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "universities",
+    "relation": "forced_to_reconsider",
+    "value": "their cybersecurity strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "school districts, colleges, and universities have been forced to reconsider their cybersecurity strategies"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "FBI",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FBI and the Cybersecurity and Infrastructure Security Agency (CISA) have issued alerts about the uptick in ransomware attacks targeting schools, exploiting vulnerabilities in remote learning software and platforms. As a result, school districts, colleges, and universities have been forced to reconsider their cybersecurity strategies."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Benson",
+    "relation": "job_title",
+    "value": "IT director at a midsize university",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Benson, the IT director at a midsize university"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sarah Benson",
+    "relation": "stated",
+    "value": "Cybersecurity is no longer a backdrop concern but a forefront necessity in shaping the future of education",
+    "time": "September 20, 2023",
+    "speaker": "Sarah Benson",
+    "verbatim": [
+     "Sarah Benson, the IT director at a midsize university, stated on September 20, 2023, \u201cCybersecurity is no longer a backdrop concern but a forefront necessity in shaping the future of education.\u201d"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "CyberEd",
+    "relation": "published_report",
+    "value": "a cyber threat report",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "According to a cyber threat report published on September 30, 2023, by cybersecurity firm CyberEd"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "CyberEd",
+    "relation": "identified_most_common_threats",
+    "value": "phishing attacks, malware, ransomware, and denial-of-service attacks",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "the most common threats include phishing attacks, malware, ransomware, and denial-of-service attacks"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "phishing attacks",
+    "relation": "named_most_common_threat",
+    "value": "most common threat",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "the most common threats include phishing attacks, malware, ransomware, and denial-of-service attacks"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "malware",
+    "relation": "named_most_common_threat",
+    "value": "most common threat",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "the most common threats include phishing attacks, malware, ransomware, and denial-of-service attacks"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "ransomware attacks",
+    "relation": "named_most_common_threat",
+    "value": "most common threat",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "the most common threats include phishing attacks, malware, ransomware, and denial-of-service attacks"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "denial-of-service attacks",
+    "relation": "named_most_common_threat",
+    "value": "most common threat",
+    "time": "September 30, 2023",
+    "speaker": "CyberEd",
+    "verbatim": [
+     "the most common threats include phishing attacks, malware, ransomware, and denial-of-service attacks"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Edward Grant",
+    "relation": "job_title",
+    "value": "a cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Edward Grant, a cybersecurity expert, remarked"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Edward Grant",
+    "relation": "remarked",
+    "value": "The use of personal devices for remote learning invites a multitude of risks. It is imperative for educational institutions to set strict cybersecurity policies now to address these challenges.",
+    "time": "In October 2023",
+    "speaker": "Edward Grant",
+    "verbatim": [
+     "In October 2023, Edward Grant, a cybersecurity expert, remarked, \"The use of personal devices for remote learning invites a multitude of risks. It is imperative for educational institutions to set strict cybersecurity policies now to address these challenges.\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "cyber hygiene",
+    "relation": "awareness_campaigns_focus_on",
+    "value": "the importance of cyber hygiene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity training should start with awareness campaigns on the importance of cyber hygiene."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Lisa Franklin",
+    "relation": "job_title",
+    "value": "a cybersecurity awareness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lisa Franklin, a cybersecurity awareness coach, suggests"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Lisa Franklin",
+    "relation": "suggests",
+    "value": "Training needs to focus on recognizing phishing emails, password security, and the proper use of virtual private networks (VPNs)",
+    "time": null,
+    "speaker": "Dr. Lisa Franklin",
+    "verbatim": [
+     "Dr. Lisa Franklin, a cybersecurity awareness coach, suggests, \u201cTraining needs to focus on recognizing phishing emails, password security, and the proper use of virtual private networks (VPNs).\u201d"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "phishing attacks",
+    "relation": "training_focus_includes",
+    "value": "recognizing phishing emails",
+    "time": null,
+    "speaker": "Dr. Lisa Franklin",
+    "verbatim": [
+     "Training needs to focus on recognizing phishing emails, password security, and the proper use of virtual private networks (VPNs)."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "virtual private networks (VPNs)",
+    "relation": "training_focus_includes",
+    "value": "the proper use of virtual private networks (VPNs)",
+    "time": null,
+    "speaker": "Dr. Lisa Franklin",
+    "verbatim": [
+     "the proper use of virtual private networks (VPNs)"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Marcus Peters",
+    "relation": "job_title",
+    "value": "a cybersecurity policy advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Peters, a cybersecurity policy advisor, emphasizes"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Marcus Peters",
+    "relation": "emphasizes",
+    "value": "the importance of having a clear action plan",
+    "time": null,
+    "speaker": "Marcus Peters",
+    "verbatim": [
+     "Marcus Peters, a cybersecurity policy advisor, emphasizes the importance of having a clear action plan"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Marcus Peters",
+    "relation": "stated",
+    "value": "In case of a breach, every second counts. Knowing who to inform and what steps to take is critical.",
+    "time": null,
+    "speaker": "Marcus Peters",
+    "verbatim": [
+     "\u201cIn case of a breach, every second counts. Knowing who to inform and what steps to take is critical.\u201d"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Marcus Peters",
+    "relation": "works_with",
+    "value": "various school districts to draft and refine their cybersecurity response plans",
+    "time": "Starting from November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting from November 2023, Peters has been working with various school districts to draft and refine their cybersecurity response plans."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "school districts",
+    "relation": "worked_with_by",
+    "value": "Marcus Peters",
+    "time": "Starting from November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting from November 2023, Peters has been working with various school districts to draft and refine their cybersecurity response plans."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "firewalls",
+    "relation": "institutions_need_to_invest_in",
+    "value": "firewalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions need to invest in tools such as firewalls, antivirus software, and intrusion detection systems."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "antivirus software",
+    "relation": "institutions_need_to_invest_in",
+    "value": "antivirus software",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions need to invest in tools such as firewalls, antivirus software, and intrusion detection systems."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "intrusion detection systems",
+    "relation": "institutions_need_to_invest_in",
+    "value": "intrusion detection systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions need to invest in tools such as firewalls, antivirus software, and intrusion detection systems."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Department of Education",
+    "relation": "announced",
+    "value": "a grant program aiming to support schools in acquiring state-of-the-art cybersecurity tools",
+    "time": "On September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, the Department of Education announced a grant program aiming to support schools in acquiring state-of-the-art cybersecurity tools."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "grant program",
+    "relation": "aims_to",
+    "value": "support schools in acquiring state-of-the-art cybersecurity tools",
+    "time": "On September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced a grant program aiming to support schools in acquiring state-of-the-art cybersecurity tools"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "grant program",
+    "relation": "announced_by",
+    "value": "Department of Education",
+    "time": "On September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, the Department of Education announced a grant program"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "remote learning",
+    "relation": "makes_devices_potential_endpoints",
+    "value": "each student and teacher\u2019s device becomes a potential endpoint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With remote learning, each student and teacher\u2019s device becomes a potential endpoint that could be exploited by cybercriminals."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "antivirus software",
+    "relation": "recommended_solution",
+    "value": "next-generation antivirus solutions",
+    "time": null,
+    "speaker": "Frank Thompson",
+    "verbatim": [
+     "\u201cInstalling next-generation antivirus solutions and ensuring regular patch management is essential,\u201d"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Frank Thompson",
+    "relation": "job_title",
+    "value": "a senior network administrator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Frank Thompson, a senior network administrator who spearheaded a cybersecurity initiative in early October 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Frank Thompson",
+    "relation": "spearheaded",
+    "value": "a cybersecurity initiative",
+    "time": "early October 2023",
+    "speaker": null,
+    "verbatim": [
+     "says Frank Thompson, a senior network administrator who spearheaded a cybersecurity initiative in early October 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Frank Thompson",
+    "relation": "initiative_led_to",
+    "value": "securing over 10,000 student and faculty devices",
+    "time": "By December",
+    "speaker": null,
+    "verbatim": [
+     "By December, the initiative had led to securing over 10,000 student and faculty devices."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "identified_as",
+    "value": "a key security measure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "multi-factor authentication (MFA) has been identified as a key security measure"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "adds",
+    "value": "an extra layer of protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA adds an extra layer of protection"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Janet Lee",
+    "relation": "job_title",
+    "value": "IT administrator",
+    "time": "By late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "By late September 2023, IT administrator Janet Lee had overseen the rollout of MFA across numerous school networks"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Janet Lee",
+    "relation": "overseen_rollout",
+    "value": "rollout of MFA across numerous school networks",
+    "time": "By late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "By late September 2023, IT administrator Janet Lee had overseen the rollout of MFA across numerous school networks, vastly improving their security postures."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "rolled_out_across",
+    "value": "numerous school networks",
+    "time": "By late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the rollout of MFA across numerous school networks"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "improves",
+    "value": "security postures of numerous school networks",
+    "time": "By late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "vastly improving their security postures"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Janet Lee",
+    "relation": "results_in",
+    "value_ref": "c48",
+    "time": "By late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "had overseen the rollout of MFA across numerous school networks, vastly improving their security postures"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "David Knight",
+    "relation": "job_title",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity consultant David Knight"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "David Knight",
+    "relation": "conducted",
+    "value": "over 50 school audits",
+    "time": "by November 2023",
+    "speaker": null,
+    "verbatim": [
+     "conducted over 50 school audits by November 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "David Knight",
+    "relation": "found",
+    "value": "most schools that regularly perform cybersecurity audits experience fewer and less severe cyber incidents",
+    "time": null,
+    "speaker": "David Knight",
+    "verbatim": [
+     "found that \u201cmost schools that regularly perform cybersecurity audits experience fewer and less severe cyber incidents.\u201d"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Jane Hopkins",
+    "relation": "job_title",
+    "value": "a member of the state\u2019s education council",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hopkins, a member of the state\u2019s education council, highlighted in a December 2023 meeting"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jane Hopkins",
+    "relation": "highlighted",
+    "value": "We must treat cybersecurity as a fundamental aspect of education. Just like we teach reading and writing, we must teach safe and secure online practices.",
+    "time": "December 2023 meeting",
+    "speaker": "Jane Hopkins",
+    "verbatim": [
+     "highlighted in a December 2023 meeting, \u201cWe must treat cybersecurity as a fundamental aspect of education. Just like we teach reading and writing, we must teach safe and secure online practices.\u201d"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "state's education council",
+    "relation": "has_member",
+    "value": "Jane Hopkins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hopkins, a member of the state\u2019s education council"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "remote learning",
+    "relation": "becoming_permanent_fixture_in",
+    "value": "a permanent fixture in the educational landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with remote learning becoming a permanent fixture in the educational landscape"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

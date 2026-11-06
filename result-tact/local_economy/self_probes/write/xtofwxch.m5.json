@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What name did Erica Johnson give to the brand that grew out of her kitchen hobby?",
+    "answer": "\"Preserve Passion\"",
+    "verbatim": [
+     "transformed her small kitchen hobby into \"Preserve Passion,\" a brand now synonymous with quality and innovation in the local food industry"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did the three-year anniversary of David Mwangi's \"Pixel Perfect\" fall?",
+    "answer": "September 10, 2023",
+    "verbatim": [
+     "September 10, 2023, marked the three-year anniversary of \"Pixel Perfect,\" a digital design studio"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "On what date was Amanda Chen's \"Verdant Views\" inaugurated?",
+    "answer": "November 12, 2023",
+    "verbatim": [
+     "November 12, 2023, was the inauguration day of \"Verdant Views,\" an urban gardening center"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Where did Chef Marcus Reid start out in the culinary world?",
+    "answer": "As a dishwasher in a run-down diner",
+    "verbatim": [
+     "Starting out as a dishwasher in a run-down diner"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "What gap did Diana Rodrigues identify during her recovery that led her to create \"Wheels of Fortune\"?",
+    "answer": "A gap in the market for high-quality, affordable bicycles",
+    "verbatim": [
+     "During her recovery, she identified a gap in the market for high-quality, affordable bicycles, spurring her to create \"Wheels of Fortune.\""
+    ],
+    "kind": "reason",
+    "relational": true
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

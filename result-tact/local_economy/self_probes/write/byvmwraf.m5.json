@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "Which blockchain startup did the Austin, Texas retailers' consortium partner with to deploy its transparent supply chain solution?",
+    "answer": "ClearChainTech",
+    "verbatim": [
+     "led by pioneer Kaitlyn Zhou, partnered with blockchain startup ClearChainTech to deploy a transparent supply chain solution"
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "On what date did retail analyst Emily Nguyen give the interview in which she said consumers want to feel connected to what they buy?",
+    "answer": "November 15, 2023",
+    "verbatim": [
+     "\"Consumers want to feel connected to what they buy,\" Nguyen said in an interview on November 15, 2023."
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why could retailers negotiate better deals with suppliers?",
+    "answer": "Because their operations were transparent, which made suppliers willing to deal with them.",
+    "verbatim": [
+     "With transparent operations, retailers could negotiate better deals with suppliers, who were also keen to be part of this transformative movement."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "How was a batch of counterfeit goods handled in the law enforcement case described in the document?",
+    "answer": "It was quickly identified and traced back to its source, thanks to the blockchain ledger.",
+    "verbatim": [
+     "In one case, a batch of counterfeit goods was quickly identified and traced back to its source, thanks to the blockchain ledger."
+    ],
+    "kind": "process",
+    "relational": true
+   },
+   {
+    "question": "By what year do experts predict blockchain will be a common feature in local retail environments?",
+    "answer": "2025",
+    "verbatim": [
+     "Experts predict that by 2025, blockchain will be a common feature in local retail environments"
+    ],
+    "kind": "date",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}

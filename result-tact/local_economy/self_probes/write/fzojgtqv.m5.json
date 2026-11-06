@@ -1,0 +1,53 @@
+{
+ "raw": {
+  "probes": [
+   {
+    "question": "What prompted Jerry Finklestein to start his straw business?",
+    "answer": "He overheard two teenagers criticizing single-use plastics, and he took their complaint to mean the market lacked durable straws for milkshakes.",
+    "verbatim": [
+     "Back in November of 2023, he overheard two teenagers criticizing single-use plastics."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "What did Sam Ditko's billboard say instead of the intended \"Get a Leg Up on Your Day\"?",
+    "answer": "\"Get a Leg Over Your Day\"",
+    "verbatim": [
+     "Instead of \"Get a Leg Up on Your Day,\" commuters were greeted with \"Get a Leg Over Your Day.\""
+    ],
+    "kind": "other",
+    "relational": false
+   },
+   {
+    "question": "When was Clive Baxter's PogoMow unveiled?",
+    "answer": "In spring 2024.",
+    "verbatim": [
+     "Unveiled in spring 2024, the concept promised to revolutionize lawn maintenance"
+    ],
+    "kind": "date",
+    "relational": false
+   },
+   {
+    "question": "Why did the military become interested in Melinda Sharp's Ejector Bed?",
+    "answer": "They saw its potential for efficient barrack wake-up calls.",
+    "verbatim": [
+     "Then, the military came knocking in February 2024, seeing the potential for efficient barrack wake-up calls."
+    ],
+    "kind": "reason",
+    "relational": true
+   },
+   {
+    "question": "Who were Raj Patel's \"Curry in a Hurry\" microwaveable meals originally intended for?",
+    "answer": "Busy students.",
+    "verbatim": [
+     "Curry in a Hurry\" microwaveable meals were intended for busy students"
+    ],
+    "kind": "person",
+    "relational": false
+   }
+  ]
+ },
+ "m": 5,
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=medium"
+}
