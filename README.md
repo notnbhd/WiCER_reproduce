@@ -182,7 +182,10 @@ An Anthropic-native model id is rewritten to an OpenRouter slug
 `WICER_COMPILER_MODEL` to choose another. **The two backends are not
 interchangeable** — approximated effort and a different served model. Read
 `DEVIATIONS.md` §11 before comparing a number produced on one to a number
-produced on the other. Pricing matches the first-party API line for line,
+produced on the other. The judge is the one call checked across the two: on 150
+stored answers the Anthropic path agrees exactly with 89% of the OpenRouter
+scores (`DEVIATIONS.md` §3). The rental scripts default to the Anthropic API
+and Claude Haiku 5.5 (`scripts/api_backend.sh`). Pricing matches the first-party API line for line,
 prompt caching included, so the estimate below holds for either.
 
 ### 4. A topic, end to end

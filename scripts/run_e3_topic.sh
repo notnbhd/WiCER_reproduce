@@ -6,17 +6,21 @@
 #   bash scripts/run_e3_topic.sh local_economy
 #   DRY_RUN=1 bash scripts/run_e3_topic.sh local_economy    # cost preview only
 #
-# Compiler and judge default to anthropic/claude-haiku-5.5, at the profile's
+# Compiler and judge default to Claude Haiku 5.5 on Anthropic's own API
+# (scripts/api_backend.sh; WICER_*_BACKEND=openrouter goes back), at the profile's
 # effort=high with max_tokens raised to 128,000 so reasoning and the wiki are not
 # competing for one budget.  A full 17-topic E3 sweep is roughly $13-17 on Haiku
 # against $114 on Sonnet, which is what fits the key's credit -- but reasoning
 # is billed, so effort=high lands above a low-effort estimate.  The one-topic
 # pilot measures it before 17 topics commit the budget.  For Sonnet instead:
-#   WICER_COMPILER_MODEL=anthropic/claude-sonnet-5.5 \
-#   WICER_JUDGE_MODEL=anthropic/claude-sonnet-5.5 bash scripts/run_e3_topic.sh ...
-# DRY_RUN prices every model at $3/$15 (wicer_core/config.py price_in/out, no
-# override), so its preview overestimates Haiku by 30-40x.  Trust
-# measured_cost_usd in run_meta.json instead.
+#   WICER_COMPILER_MODEL=claude-sonnet-5-5 \
+#   WICER_JUDGE_MODEL=claude-sonnet-5-5 bash scripts/run_e3_topic.sh ...
+# (OpenRouter spells these anthropic/claude-sonnet-5.5.)  Cost figures: on
+# OpenRouter trust measured_cost_usd in run_meta.json; on Anthropic there is
+# only an estimate from the price table in wicer_core/config.py, which misses
+# Haiku's 5x tier for prompts over 100K tokens, so a compile is under-estimated.
+# The diagnoser on the Anthropic backend still runs with thinking disabled and
+# has not been compared with the OpenRouter runs; only the judge has.
 #
 # Starts llama-server itself if nothing is already answering on the profile's
 # reader port, so rental_setup.sh -> this script is the whole chain. Set
@@ -47,12 +51,8 @@ command -v uv >/dev/null || { echo "FAILED: uv not on PATH; run scripts/rental_s
 PY="uv run python"
 
 set -a; [[ -f .env ]] && source .env; set +a
-: "${OPENROUTER_API_KEY:?paste your key into .env first}"
-
-export WICER_COMPILER_BACKEND="${WICER_COMPILER_BACKEND:-openrouter}"
-export WICER_JUDGE_BACKEND="${WICER_JUDGE_BACKEND:-openrouter}"
-export WICER_COMPILER_MODEL="${WICER_COMPILER_MODEL:-anthropic/claude-haiku-5.5}"
-export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-haiku-5.5}"
+# Backend, model ids and the key check for the judge and the compiler.
+source scripts/api_backend.sh
 
 # Reasoning bills as completion tokens and counts against max_tokens, so the
 # compiler's budget is split between thinking and the wiki with no separate

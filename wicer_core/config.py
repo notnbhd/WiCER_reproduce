@@ -33,6 +33,24 @@ env.load_dotenv(REPO_ROOT / env.DOTENV_NAME)
 # not recognise.  WICER_COMPILER_MODEL / WICER_JUDGE_MODEL override it.
 OPENROUTER_DEFAULT_MODEL = "anthropic/claude-sonnet-5"
 
+# USD per 1M tokens (input, output), first-party list prices as of 2026-11.
+# Only the Anthropic backend needs them: it reports tokens, not cost, so
+# without the right row a Haiku run is estimated at the default's 30x.
+# Haiku 5.5 prompts over 100K tokens bill at 5x these rates; a compile is in
+# that tier and its estimate here is low.
+MODEL_PRICES_PER_MTOK = {
+    "claude-haiku-5-5": (0.10, 0.50),
+    "claude-sonnet-5": (2.00, 10.00),
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-opus-5-5": (4.00, 20.00),
+    "claude-fable-5-2": (8.00, 40.00),
+}
+
+
+def model_price(model: str) -> tuple[float, float] | None:
+    """List price for a model id or its OpenRouter slug, if the table has it."""
+    return MODEL_PRICES_PER_MTOK.get(model.split("/")[-1].replace(".", "-"))
+
 
 def resolve_openrouter_model(model: str) -> str:
     """Map an Anthropic-native model id onto an OpenRouter slug.
@@ -247,6 +265,9 @@ def get_profile(name: str | None = None) -> Profile:
         profile = replace(profile, judge=replace(profile.judge, model=v))
     if v := os.environ.get("WICER_COMPILER_MODEL"):
         profile = replace(profile, compiler=replace(profile.compiler, model=v))
+    if price := model_price(profile.judge.model):
+        profile = replace(profile, judge=replace(
+            profile.judge, price_in_per_mtok=price[0], price_out_per_mtok=price[1]))
     # Effort and the output cap compete for the same budget: reasoning tokens
     # bill as completion tokens and count against max_tokens, so a high effort
     # with a tight cap can consume the whole allowance and return no text.

@@ -1,6 +1,6 @@
 # Shared by scripts/run_tact_a.sh and scripts/run_tact_b.sh; sourced, not run.
 # Expects REPO_ROOT as the working directory and TOPIC set.  Sets up uv, the
-# API key and judge backend, checks the ledger against this box's corpus, and
+# API backend (scripts/api_backend.sh), checks the ledger against this box's corpus, and
 # makes sure the reader is up.  Defines PY, PROFILE, RESUME_FLAG, say and die.
 PROFILE="${WICER_PROFILE:-paper}"
 # Same PATH repair as run_e3_topic.sh: rental_setup.sh installs uv into
@@ -13,12 +13,8 @@ command -v uv >/dev/null || { echo "FAILED: uv not on PATH; run scripts/rental_s
 PY="uv run python"
 
 set -a; [[ -f .env ]] && source .env; set +a
-: "${OPENROUTER_API_KEY:?paste your key into .env first}"
-
-# tact.run sets no backend itself; without these the judge falls back to the
-# anthropic SDK and its own key.
-export WICER_JUDGE_BACKEND="${WICER_JUDGE_BACKEND:-openrouter}"
-export WICER_JUDGE_MODEL="${WICER_JUDGE_MODEL:-anthropic/claude-haiku-5.5}"
+# Backend, model ids and the key check for the judge and the compiler.
+source scripts/api_backend.sh
 
 RESUME_FLAG=()
 [[ "${RESUME:-0}" == "1" ]] && RESUME_FLAG=(--resume)

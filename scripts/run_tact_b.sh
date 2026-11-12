@@ -30,9 +30,7 @@ TOPIC="${1:?usage: run_tact_b.sh <topic>}"
 source scripts/tact_common.sh
 
 # The loop's repair extractions (MISS-EXTRACT, MISS-RELATION) and the probe
-# writer go through the compiler backend.
-export WICER_COMPILER_BACKEND="${WICER_COMPILER_BACKEND:-openrouter}"
-export WICER_COMPILER_MODEL="${WICER_COMPILER_MODEL:-anthropic/claude-haiku-5.5}"
+# writer go through the compiler backend, which tact_common.sh has just set.
 
 TACT="$PY -m tact.run"
 ARGS=(--profile "$PROFILE" --topic "$TOPIC")

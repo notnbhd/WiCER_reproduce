@@ -119,8 +119,9 @@ uv run python -m wicer_core.corpus --profile paper
 
 say "Credentials"
 [[ -f .env ]] || cp .env.example .env 2>/dev/null || true
-if ! grep -q '^OPENROUTER_API_KEY=.\+' .env 2>/dev/null; then
-  echo "WARNING: OPENROUTER_API_KEY is empty in .env -- paste it before running"
+if ! grep -q '^\(ANTHROPIC\|OPENROUTER\)_API_KEY=.\+' .env 2>/dev/null; then
+  echo "WARNING: no API key in .env -- paste ANTHROPIC_API_KEY (the default backend,"
+  echo "         scripts/api_backend.sh) or OPENROUTER_API_KEY before running"
 fi
 
 verify

@@ -240,7 +240,12 @@ class Judge:
                     model=self.cfg.model,
                     max_tokens=self.cfg.max_tokens,
                     system=JUDGE_SYSTEM_PROMPT,
-                    thinking={"type": "disabled"},
+                    # Adaptive, not disabled: the OpenRouter path sends the
+                    # same effort as reasoning={"effort": ...}, so this is the
+                    # judge every stored score came from.  With thinking off
+                    # it agreed exactly with 77% of 150 stored scores; with it
+                    # on, 89% (DEVIATIONS.md Section 3).
+                    thinking={"type": "adaptive"},
                     output_config={"effort": self.cfg.effort},
                     messages=[{"role": "user", "content": user}],
                 )

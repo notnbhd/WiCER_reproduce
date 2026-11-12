@@ -83,8 +83,15 @@ as a reproduction risk). We pin `claude-sonnet-5` in `wicer_core/config.py` and
 additionally record the `model` the API echoes back on every scored row, so a
 mid-sweep model change is visible after the fact rather than invisible.
 
-Judge calls run with thinking disabled at `low` effort. The paper does not
-describe its judge invocation; this keeps ~54K calls affordable.
+Judge calls run at `low` effort with adaptive thinking. The paper does not
+describe its judge invocation; this keeps ~54K calls affordable. The Anthropic
+path originally disabled thinking, but every score in this repository was
+produced through OpenRouter, which sends the same effort as
+`reasoning: {"effort": "low"}` -- a judge that does reason. Re-judging 150
+stored answers on the Anthropic API (2026-11-13, Claude Haiku 5.5), thinking
+off agreed exactly with 77% of the stored scores and adaptive thinking with
+89% (mean difference +0.09 and +0.07). The Anthropic path now uses adaptive
+thinking so a change of backend is not also a change of judge.
 
 ## 4. Hardware: CUDA, not Apple Silicon
 

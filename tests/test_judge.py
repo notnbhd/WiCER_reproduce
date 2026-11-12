@@ -322,3 +322,39 @@ def test_a_cached_failure_the_current_parser_still_cannot_read_is_asked_again(pr
     out = j.score(_req())
     assert out.score == 4
     assert len(stub.calls) == 1
+
+
+# -- the anthropic backend ----------------------------------------------------
+
+
+def test_anthropic_backend_judges_with_low_adaptive_thinking(profile):
+    """Every stored score came through OpenRouter's reasoning=low.  Thinking off
+    is a different judge: on 150 stored answers it agreed exactly on 77%,
+    against 89% with adaptive thinking (2026-11-13)."""
+    from types import SimpleNamespace as NS
+
+    sent: dict = {}
+
+    def create(**kw):
+        sent.update(kw)
+        return NS(model="claude-haiku-5-5", usage=NS(input_tokens=10, output_tokens=5),
+                  content=[NS(type="thinking", thinking=""),
+                           NS(type="text", text='{"score": 4, "reasoning": "ok"}')])
+
+    judge = Judge(profile.judge, backend="anthropic")
+    judge._client = NS(messages=NS(create=create))
+    out = judge.score(_req())
+    assert out.score == 4 and out.model == "claude-haiku-5-5"
+    assert sent["thinking"] == {"type": "adaptive"}
+    assert sent["output_config"] == {"effort": profile.judge.effort}
+
+
+def test_known_models_are_priced_from_the_table_not_the_default(monkeypatch):
+    from wicer_core.config import get_profile
+
+    for model in ("claude-haiku-5-5", "anthropic/claude-haiku-5.5"):
+        monkeypatch.setenv("WICER_JUDGE_MODEL", model)
+        judge = get_profile("test").judge
+        assert (judge.price_in_per_mtok, judge.price_out_per_mtok) == (0.10, 0.50)
+    monkeypatch.setenv("WICER_JUDGE_MODEL", "some/unknown-model")
+    assert get_profile("test").judge.price_in_per_mtok == 3.00
