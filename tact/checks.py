@@ -26,7 +26,7 @@ from wicer_core.config import Profile, resolve
 from wicer_core.corpus import Document, QAPair, is_not_in_document, load_topic
 from wicer_core.metrics import mean
 from tact.ledger import Claim, ledger_dir, load_ledger, locate
-from tact.render import budget_shares, headings, layout, route
+from tact.render import _covering, budget_shares, headings, layout, route, sentences
 
 # Llama 3.1 tokens per word, measured on the local_economy pilot.  Used only
 # when no reader is up to count exactly.
@@ -74,6 +74,103 @@ def answer_coverage(
         "share_half_covered": (sum(r["passage_covered"] >= 0.5 for r in located) / len(located)
                                if located else None),
         "mean_k": mean([float(len(r["claims"])) for r in with_claim]) if with_claim else None,
+        "questions": rows,
+    }
+
+
+ATTRIBUTION_BUCKETS = ("in_context", "partly_in_context", "extracted_not_selected",
+                       "not_extracted", "unlocated")
+
+
+def _flat(text: str) -> str:
+    return " ".join(text.split())
+
+
+def context_attribution(
+    claims: Sequence[Claim],
+    documents: dict[str, Document],
+    questions: Sequence[QAPair],
+    context: str,
+    scores: dict[str, float],
+    baseline: dict[str, float] | None = None,
+) -> dict[str, Any]:
+    """Where each scored question's gold passage went: into the context, or lost
+    at extraction (no claim covers any of its sentences) or at selection (claimed,
+    but none of it rendered).
+
+    A gold sentence counts as in the context when its text appears there verbatim,
+    whitespace aside, so any condition's context.txt works -- a verbatim render,
+    truncation, or a compiled wiki (where it measures copying, not paraphrase).
+    With ``baseline`` scores (full context), each bucket also gets its share of the
+    total baseline-minus-score gap: which loss the condition's shortfall lives in.
+    """
+    flat = _flat(context)
+    sents = {d: sentences(doc.text) for d, doc in documents.items()}
+    claimed: dict[str, set[int]] = {d: set() for d in documents}
+    for c in claims:
+        if c.doc in sents:
+            claimed[c.doc].update(_covering(c.spans, sents[c.doc]))
+    present = {d: {i for i, (a, b) in enumerate(s) if _flat(documents[d].text[a:b]) in flat}
+               for d, s in sents.items()}
+
+    rows, missing, unscored = [], {"extracted": 0, "not_extracted": 0}, 0
+    gold_total = gold_in = gold_claimed = 0
+    for q in questions:
+        if q.question_id not in scores:
+            unscored += 1
+            continue
+        text = documents[q.document_id].text
+        hit = locate(q.long_answer, text) if q.long_answer else None
+        gold = ([i for i, (a, b) in enumerate(sents[q.document_id]) if a < hit[1] and b > hit[0]]
+                if hit else [])
+        inside = [i for i in gold if i in present[q.document_id]]
+        out = [i for i in gold if i not in present[q.document_id]]
+        unclaimed = [i for i in out if i not in claimed[q.document_id]]
+        missing["extracted"] += len(out) - len(unclaimed)
+        missing["not_extracted"] += len(unclaimed)
+        gold_total += len(gold)
+        gold_in += len(inside)
+        gold_claimed += sum(i in claimed[q.document_id] for i in gold)
+        if not gold:
+            bucket = "unlocated"
+        elif not out:
+            bucket = "in_context"
+        elif inside:
+            bucket = "partly_in_context"
+        elif len(unclaimed) < len(out):
+            bucket = "extracted_not_selected"
+        else:
+            bucket = "not_extracted"
+        rows.append({"question_id": q.question_id, "bucket": bucket, "n_gold": len(gold),
+                     "n_in_context": len(inside), "n_missing_unclaimed": len(unclaimed),
+                     "score": scores[q.question_id],
+                     "baseline": baseline.get(q.question_id) if baseline else None})
+
+    gaps = [r["baseline"] - r["score"] for r in rows if r["baseline"] is not None]
+    total_gap = sum(gaps)
+    buckets = {}
+    for name in ATTRIBUTION_BUCKETS:
+        mine = [r for r in rows if r["bucket"] == name]
+        base = [r for r in mine if r["baseline"] is not None]
+        gap = sum(r["baseline"] - r["score"] for r in base)
+        buckets[name] = {
+            "n": len(mine),
+            "share": len(mine) / len(rows) if rows else None,
+            "mean_score": mean([float(r["score"]) for r in mine]) if mine else None,
+            "mean_baseline": mean([float(r["baseline"]) for r in base]) if base else None,
+            "gap_share": gap / total_gap if gaps and total_gap else None,
+        }
+    n_sents = sum(len(s) for s in sents.values())
+    return {
+        "n_questions": len(rows),
+        "n_unscored": unscored,
+        "buckets": buckets,
+        "gap_per_question": total_gap / len(gaps) if gaps else None,
+        "missing_gold_sentences": missing,
+        "gold_sentences_in_context": gold_in / gold_total if gold_total else None,
+        "gold_sentences_extracted": gold_claimed / gold_total if gold_total else None,
+        "sentences_in_context": sum(len(p) for p in present.values()) / n_sents if n_sents else None,
+        "sentences_extracted": sum(len(c) for c in claimed.values()) / n_sents if n_sents else None,
         "questions": rows,
     }
 
@@ -139,6 +236,7 @@ def inspect_topic(
     rho: float,
     count_tokens: Callable[[str], int],
     token_source: str,
+    condition: str | None = None,
 ) -> dict[str, Any]:
     ledger = load_ledger(profile, topic)
     if ledger is None:
@@ -161,8 +259,36 @@ def inspect_topic(
         "answers": answer_coverage(ledger.claims,
                                    {d.document_id: d for d in corpus.documents}, questions),
     }
+    if condition:
+        report["attribution"] = attribute_condition(
+            profile, topic, condition, ledger.claims, corpus.documents, questions, baseline_dir)
     (ledger_dir(profile, topic) / "inspect.json").write_text(json.dumps(report, indent=1) + "\n")
     return report
+
+
+def attribute_condition(
+    profile: Profile,
+    topic: str,
+    condition: str,
+    claims: Sequence[Claim],
+    documents: Sequence[Document],
+    questions: Sequence[QAPair],
+    baseline_dir: str | Path,
+) -> dict[str, Any]:
+    """context_attribution for a scored condition, against the sweep's fc_raw if present."""
+    from dataclasses import replace
+
+    from tact.compare import _scores
+    from wicer_core.records import run_dir
+
+    context = run_dir(profile, topic, condition) / "context.txt"
+    if not context.exists():
+        raise FileNotFoundError(f"no context for {condition!r} in {topic!r}: score it first")
+    scores = _scores(profile, topic, condition)
+    baseline = _scores(replace(profile, results_dir=str(baseline_dir)), topic, "fc_raw") or None
+    out = context_attribution(claims, {d.document_id: d for d in documents}, questions,
+                              context.read_text(), scores, baseline)
+    return {"condition": condition, "baseline": "fc_raw" if baseline else None, **out}
 
 
 def summary(report: dict[str, Any]) -> str:
@@ -188,4 +314,28 @@ def summary(report: dict[str, Any]) -> str:
         f"  ledger    rejected {pct(led.get('rejection_rate'))}, "
         f"contradictions {led.get('n_contradictions')}, "
         f"entity collisions {pct(led.get('entity_collision_rate'))}",
-    ])
+    ] + (_attribution_lines(report["attribution"], pct) if "attribution" in report else []))
+
+
+def _attribution_lines(att: dict[str, Any], pct: Callable[[float | None], str]) -> list[str]:
+    def num(x: float | None) -> str:
+        return "--" if x is None else f"{x:.2f}"
+
+    m = att["missing_gold_sentences"]
+    lines = [
+        f"  context   {att['condition']}: {att['n_questions']} scored questions; holds "
+        f"{pct(att['sentences_in_context'])} of sentences and "
+        f"{pct(att['gold_sentences_in_context'])} of gold ones; claims cover "
+        f"{pct(att['sentences_extracted'])} of sentences and "
+        f"{pct(att['gold_sentences_extracted'])} of gold ones",
+        f"            missing gold sentences: {m['extracted']} extracted, "
+        f"{m['not_extracted']} never extracted"
+        + (f"; {att['baseline']} gap {att['gap_per_question']:+.2f}/question"
+           if att["gap_per_question"] is not None else ""),
+    ]
+    for name, b in att["buckets"].items():
+        if b["n"]:
+            lines.append(f"            {name:<24} {b['n']:>4} ({pct(b['share'])})  "
+                         f"score {num(b['mean_score'])}  {att['baseline'] or 'baseline'} "
+                         f"{num(b['mean_baseline'])}  gap share {pct(b['gap_share'])}")
+    return lines

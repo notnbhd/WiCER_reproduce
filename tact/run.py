@@ -3,6 +3,7 @@
 
     python -m tact.run extract  --topic local_economy           # API: two calls per document
     python -m tact.run inspect  --topic local_economy           # free: ceiling, budget fit, shape
+    python -m tact.run inspect  --topic local_economy --condition verb_r0   # + where its gold went
     python -m tact.run render   --topic local_economy --name tact_iter0 --rho 0.1
     python -m tact.run render   --topic local_economy --name tact_full  --rho 0
     python -m tact.run truncate --topic local_economy
@@ -15,7 +16,15 @@ Milestone B (the contract loop) adds:
     python -m tact.run loop     --topic local_economy           # reader + judge, from tact_iter0
     python -m tact.run score    --topic local_economy --condition tact_loop
 
-``render``, ``truncate`` and ``score`` need the reader's llama-server: the
+Paged cache (a verbatim context that marks its cuts; tact/paged.py):
+
+    python -m tact.run render   --topic local_economy --name paged_bare --style verbatim \
+                                --rho 0 --stubs bare
+    python -m tact.run score    --topic local_economy --condition paged_bare    # stubs, unread
+    python -m tact.run page     --topic local_economy --wiki paged_bare --mode oracle
+    python -m tact.run page     --topic local_economy --wiki paged_bare --mode reader
+
+``render``, ``truncate``, ``score`` and ``page`` need the reader's llama-server: the
 budget is counted in its tokens, as wicer's compile counts it.  ``inspect``
 uses it when it is up and otherwise estimates tokens from words.  ``score``
 serves a wiki over every question and judges the answers, exactly as wicer's
@@ -52,7 +61,8 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     cmds = {name: sub.add_parser(name) for name in
-            ("extract", "inspect", "render", "truncate", "probes", "loop", "score", "compare")}
+            ("extract", "inspect", "render", "truncate", "probes", "loop", "score", "page",
+             "compare")}
     for p in cmds.values():
         add_profile_arg(p)
         p.add_argument("--topic", action="append", required=True, help="topic slug (repeatable)")
@@ -62,6 +72,9 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
         help="also link entity names by MiniLM similarity (needs the rag extra)")
     cmds["inspect"].add_argument("--rho", type=float, default=0.10)
     cmds["inspect"].add_argument("--baseline-dir", default=None)
+    cmds["inspect"].add_argument("--condition", default=None,
+                                 help="also attribute a scored condition's held-out results to "
+                                      "extraction, selection or reading (free; no judge calls)")
     cmds["render"].add_argument("--name", default="tact_iter0")
     cmds["render"].add_argument("--rho", type=float, default=0.10,
                                 help="headroom held back for pins (default: %(default)s)")
@@ -71,6 +84,17 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
                                 default="roundrobin",
                                 help="verbatim only: entity round-robin (+ the next sentence), "
                                      "or sentences / paragraphs by claims per token")
+    cmds["render"].add_argument("--stubs", choices=("none", "bare", "described"), default="none",
+                                help="verbatim only: mark each cut, bare or with what it held")
+    cmds["page"].add_argument("--wiki", required=True, help="a wiki rendered with --stubs")
+    cmds["page"].add_argument("--mode", choices=("reader", "oracle"), default="reader",
+                              help="the reader asks for cuts, or the gold passage's are given")
+    cmds["page"].add_argument("--condition", default=None,
+                              help="where the answers are filed (default: <wiki>_<mode>)")
+    cmds["page"].add_argument("--resume", action="store_true")
+    cmds["page"].add_argument("--limit", type=int, default=None,
+                              help="only the first N questions: a look at the fetch replies "
+                                   "before a full run")
     cmds["truncate"].add_argument("--name", default="truncate")
     cmds["probes"].add_argument("--m", type=int, default=5, help="probes per document")
     cmds["probes"].add_argument("--workers", type=int, default=8)
@@ -113,7 +137,7 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
         for topic in args.topic:
             print(summary(inspect_topic(profile, topic, rho=args.rho, count_tokens=count_tokens,
                                         baseline_dir=args.baseline_dir or BASELINE_DIR,
-                                        token_source=source)))
+                                        token_source=source, condition=args.condition)))
 
     elif args.cmd == "render":
         from tact.render import render_topic
@@ -122,9 +146,11 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
         for topic in args.topic:
             r = render_topic(profile, topic, name=args.name, rho=args.rho,
                              count_tokens=reader.count_tokens, style=args.style,
-                             select=args.select)
+                             select=args.select, stubs=args.stubs)
             m = r.meta
             mix = " ".join(f"{k}={v['n_realized']}/{v['n_claims']}" for k, v in m["routing"].items())
+            if "n_cuts" in m:
+                mix += f" cuts={m['n_cuts']} stub_tokens={m['stub_tokens']:,}"
             print(f"{topic:<26} {args.name}: {m['actual_tokens']:,}/{m['target_tokens']:,} tokens "
                   f"(ratio {m['actual_ratio_tokens']:.1%}) coverage={m['coverage']:.1%} {mix}")
 
@@ -187,15 +213,41 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
             print(f"{topic:<26} {args.condition}: scored {s['n_scored']} "
                   f"(resumed {s.get('n_resumed', 0)})")
 
+    elif args.cmd == "page":
+        from benchmark.evaluate import evaluate_condition
+        from tact.paged import run_paged
+
+        reader = _reader(profile)
+        for topic in args.topic:
+            condition = args.condition or f"{args.wiki}_{args.mode}"
+            qa = load_topic(profile, topic).qa
+            s = run_paged(profile, topic, condition, wiki=args.wiki, mode=args.mode,
+                          reader=reader, questions=qa[:args.limit] if args.limit else qa,
+                          resume=args.resume, progress=sys.stderr.isatty())
+            e = evaluate_condition(profile, topic, condition, resume=args.resume)
+            print(f"{topic:<26} {condition}: {s['n_cuts']} cuts in {s['n_context_tokens']:,} "
+                  f"tokens, answered {s['n_generated']}, scored {e['n_scored']}")
+
     elif args.cmd == "compare":
         from tact.compare import (
             BASELINE_DIR, compare_topic, displacement, render_displacement, render_table,
         )
+        from tact.paged import page_report, pages_path, render_report
+        from wicer_core.config import resolve
 
         for topic in args.topic:
             base = args.baseline_dir or BASELINE_DIR
             print(render_table(topic, compare_topic(profile, topic, base)))
             print(render_displacement(topic, displacement(profile, topic, base)))
+            own = resolve(profile.results_dir) / topic
+            for p in sorted(own.glob("*/pages.jsonl")):
+                rep = page_report(profile, topic, p.parent.name, baseline_dir=base)
+                # Beside each paged arm: the same context read without fetching.
+                wiki = rep["wiki"]
+                if wiki and (own / wiki / "scores.jsonl").exists():
+                    rep = page_report(profile, topic, p.parent.name, against=[wiki],
+                                      baseline_dir=base)
+                print(render_report(rep))
     return 0
 
 

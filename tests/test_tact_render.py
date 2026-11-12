@@ -195,3 +195,29 @@ def test_render_refuses_a_ledger_from_another_corpus(profile, topic):
     meta_path.write_text(json.dumps(meta))
     with pytest.raises(ValueError, match="different corpus"):
         render_topic(profile, topic, name="tact_iter0", rho=0.1, count_tokens=words)
+
+
+def test_sentences_run_on_through_titles_initials_and_list_numbers():
+    from tact.render import sentences
+
+    text = ("A study by Dr. Lisa Cheng was released. Jeffrey T. Layton agreed. "
+            "Harrison & Co. unveiled it in the U.S. today. It opened in 2023. "
+            "Nguyen said so.\n\n1. Defining the structure. Done.")
+    got = [text[a:b].strip() for a, b in sentences(text)]
+    assert got == [
+        "A study by Dr. Lisa Cheng was released.",
+        "Jeffrey T. Layton agreed.",
+        "Harrison & Co. unveiled it in the U.S. today.",
+        "It opened in 2023.",
+        "Nguyen said so.",
+        "1. Defining the structure.",
+        "Done.",
+    ]
+
+
+def test_a_blank_line_always_ends_a_sentence():
+    from tact.render import sentences
+
+    text = "Written by Dr.\n\nnext paragraph starts lower."
+    assert [text[a:b].strip() for a, b in sentences(text)] == [
+        "Written by Dr.", "next paragraph starts lower."]

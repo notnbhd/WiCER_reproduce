@@ -318,12 +318,30 @@ def fill(
 # survives and the text the reader sees is the document's own.
 
 _SENT_END = re.compile(r"(?<=[.!?])[\"')\]]*\s+|\n\s*\n")
+# A period that ends an abbreviation, not a sentence: a title or an initial runs
+# on into the name after it ("Dr. Lisa Cheng", "Jeffrey T. Layton"), and a list
+# number into its item ("1. Defining ...").  Splitting there cut 1.8% of the
+# sentences in three RepLiQA topics, mostly at "Dr.", and a claim whose span
+# stopped at the cut rendered "... said Dr." without the name.
+_RUNS_ON = re.compile(r"(?:\b(?:Dr|Mr|Mrs|Ms|Prof|St|Jr|Sr)|\b[A-Z]|^\s*\d{1,2})\.$")
+
+
+def _ends_sentence(text: str, start: int, m: re.Match) -> bool:
+    if re.search(r"\n\s*\n", m.group()):
+        return True
+    if _RUNS_ON.search(text[start:m.start()]):
+        return False
+    # "Harrison & Co. unveiled", "in the U.S. will": a sentence never resumes
+    # in lower case.
+    return not text[m.end():m.end() + 1].islower()
 
 
 def sentences(text: str) -> list[tuple[int, int]]:
     """(start, end) of each sentence; blank lines also end one."""
     out, start = [], 0
     for m in _SENT_END.finditer(text):
+        if not _ends_sentence(text, start, m):
+            continue
         if text[start:m.start()].strip():
             out.append((start, m.start()))
         start = m.end()
@@ -343,34 +361,65 @@ def _covering(spans: Sequence[Sequence[int]], sents: list[tuple[int, int]]) -> t
                  if any(s < b and e > a for s, e in spans))
 
 
+# Paged cache: a cut the reader cannot see is a cut it cannot ask about, so each
+# run of dropped sentences can leave a stub in its place -- ``[cut 12.3]``, the
+# document's ordinal and the cut's -- that a later request trades for the text
+# (tact/paged.py).  A described stub also names up to STUB_TOPICS of the claims
+# the cut carried, entity and relation only: what was there, never its value.
+STUB_STYLES = ("none", "bare", "described")
+STUB_TOPICS = 2
+
+
+def stub_line(sid: str, claims: Sequence[Claim], style: str) -> str:
+    topics: list[str] = []
+    if style == "described":
+        for c in sorted(claims, key=lambda c: (c.pos, c.id)):
+            topic = f"{c.e} {_rel(c.r)}"
+            if topic not in topics:
+                topics.append(topic)
+    return f"[cut {sid}: {'; '.join(topics[:STUB_TOPICS])}]" if topics else f"[cut {sid}]"
+
+
 def layout_verbatim(
     chosen: dict[str, set[int]],
     sents: dict[str, list[tuple[int, int]]],
     documents: Sequence[Document],
     titles: dict[str, str],
     owners: dict[tuple[str, int], list[str]],
+    *,
+    stubs: str = "none",
+    claims: dict[str, Claim] | None = None,
 ) -> tuple[str, list[dict[str, Any]]]:
     lines: list[str] = []
     sidecar: list[dict[str, Any]] = []
-    for d in documents:
-        idx = sorted(chosen.get(d.document_id, ()))
-        if not idx:
+    for n, d in enumerate(documents, start=1):
+        doc, kept = d.document_id, chosen.get(d.document_id, ())
+        if not kept:
             continue
         if lines:
             lines.append("")
-        lines += [f"## {titles.get(d.document_id) or d.document_id}", ""]
-        runs: list[list[int]] = []
-        for i in idx:
-            if runs and i == runs[-1][-1] + 1:
-                runs[-1].append(i)
+        lines += [f"## {titles.get(doc) or doc}", ""]
+        runs: list[tuple[bool, list[int]]] = []     # (kept?, consecutive sentences)
+        for i in range(len(sents[doc])):
+            if runs and runs[-1][0] == (i in kept):
+                runs[-1][1].append(i)
             else:
-                runs.append([i])
-        for k, run in enumerate(runs):
-            text = " ".join(d.text[slice(*sents[d.document_id][i])].strip() for i in run)
-            claims = sorted({c for i in run for c in owners.get((d.document_id, i), ())})
-            sidecar.append({"doc": d.document_id, "block": "text", "row": k,
-                            "line": len(lines), "claims": claims})
-            lines.append(text)
+                runs.append((i in kept, [i]))
+        n_text = n_cut = 0
+        for is_kept, run in runs:
+            ids = sorted({c for i in run for c in owners.get((doc, i), ())})
+            if is_kept:
+                sidecar.append({"doc": doc, "block": "text", "row": n_text,
+                                "line": len(lines), "claims": ids})
+                lines.append(" ".join(d.text[slice(*sents[doc][i])].strip() for i in run))
+                n_text += 1
+            elif stubs != "none":
+                n_cut += 1
+                sid = f"{n}.{n_cut}"
+                sidecar.append({"doc": doc, "block": "cut", "id": sid, "line": len(lines),
+                                "span": [sents[doc][run[0]][0], sents[doc][run[-1]][1]],
+                                "n_sentences": len(run), "claims": ids})
+                lines.append(stub_line(sid, [claims[c] for c in ids] if claims else (), stubs))
     return "\n".join(lines) + ("\n" if lines else ""), sidecar
 
 
@@ -382,8 +431,10 @@ def fill_verbatim(
     rho: float,
     count_tokens: Callable[[str], int],
     select: str = "roundrobin",
+    stubs: str = "none",
 ) -> RenderResult:
     titles = headings(documents)
+    by_id = {c.id: c for c in claims}
     b = budget_shares(documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     texts = {d.document_id: d.text for d in documents}
     sents = {d: sentences(t) for d, t in texts.items()}
@@ -434,41 +485,59 @@ def fill_verbatim(
             value = {u: sum(weight[i] for i in u) / max(1, sum(sent_cost(d, i) for i in u))
                      for u in units}
             queues[d] = sorted((u for u in units if value[u] > 0), key=lambda u: (-value[u], u))
-    chosen: dict[str, set[int]] = {d: set() for d in queues}
-    used: Counter[str] = Counter()
-    order: list[tuple[str, int]] = []     # sentences in the order they were taken
+    def select_sentences(scale: float) -> tuple[dict[str, set[int]], list[tuple[str, int]]]:
+        """Fill ``scale`` of the target: each document its share, then the leftovers."""
+        chosen: dict[str, set[int]] = {d: set() for d in queues}
+        used: Counter[str] = Counter()
+        order: list[tuple[str, int]] = []     # sentences in the order they were taken
 
-    def marginal(doc: str, item: tuple[int, ...]) -> int:
-        n = sum(sent_cost(doc, i) for i in item if i not in chosen[doc])
-        if n and used[doc] == 0:
-            n += count_tokens(f"## {titles.get(doc) or doc}")
-        return n
+        def marginal(doc: str, item: tuple[int, ...]) -> int:
+            n = sum(sent_cost(doc, i) for i in item if i not in chosen[doc])
+            if n and used[doc] == 0:
+                n += count_tokens(f"## {titles.get(doc) or doc}")
+            return n
 
-    def take(doc: str, item: tuple[int, ...], n: int) -> None:
-        for i in item:
-            if i not in chosen[doc]:
-                chosen[doc].add(i)
-                order.append((doc, i))
-        used[doc] += n
+        def take(doc: str, item: tuple[int, ...], n: int) -> None:
+            for i in item:
+                if i not in chosen[doc]:
+                    chosen[doc].add(i)
+                    order.append((doc, i))
+            used[doc] += n
 
-    for d, queue in queues.items():
-        for item in queue:
-            n = marginal(d, item)
-            if used[d] + n <= b.share.get(d, 0):
-                take(d, item, n)
-    for k in range(max((len(q) for q in queues.values()), default=0)):
         for d, queue in queues.items():
-            if k < len(queue):
-                n = marginal(d, queue[k])
-                if n and sum(used.values()) + n <= b.target:
-                    take(d, queue[k], n)
+            for item in queue:
+                n = marginal(d, item)
+                if used[d] + n <= scale * b.share.get(d, 0):
+                    take(d, item, n)
+        for k in range(max((len(q) for q in queues.values()), default=0)):
+            for d, queue in queues.items():
+                if k < len(queue):
+                    n = marginal(d, queue[k])
+                    if n and sum(used.values()) + n <= scale * b.target:
+                        take(d, queue[k], n)
+        return chosen, order
 
-    text, sidecar = layout_verbatim(chosen, sents, documents, titles, owners)
+    def lay(chosen: dict[str, set[int]], style: str) -> tuple[str, list[dict[str, Any]]]:
+        return layout_verbatim(chosen, sents, documents, titles, owners, stubs=style, claims=by_id)
+
+    chosen, order = select_sentences(1.0)
+    text, sidecar = lay(chosen, stubs)
     actual = count_tokens(text)
+    # Stubs come out of the same budget as the text.  Trimming the overshoot
+    # below would take it all from the last documents, so the selection is
+    # rerun against a target reduced by what the stubs just cost; a smaller
+    # selection cuts in different places, hence the few rounds.
+    for _ in range(4 if stubs != "none" else 0):
+        if actual <= b.target:
+            break
+        stub_cost = actual - count_tokens(lay(chosen, "none")[0])
+        chosen, order = select_sentences(max(0.0, (b.target - stub_cost) / b.target))
+        text, sidecar = lay(chosen, stubs)
+        actual = count_tokens(text)
     while actual > b.target and order:
         doc, i = order.pop()
         chosen[doc].discard(i)
-        text, sidecar = layout_verbatim(chosen, sents, documents, titles, owners)
+        text, sidecar = lay(chosen, stubs)
         actual = count_tokens(text)
 
     realized = {c.id for c in claims if need[c.id] and all(i in chosen[c.doc] for i in need[c.id])}
@@ -490,6 +559,9 @@ def fill_verbatim(
         "n_sentences": sum(len(s) for s in chosen.values()),
         "routing": {},
     }
+    if stubs != "none":
+        meta.update({"stubs": stubs, "n_cuts": sum(r["block"] == "cut" for r in sidecar),
+                     "stub_tokens": actual - count_tokens(lay(chosen, "none")[0])})
     return RenderResult(text=text, sidecar=sidecar, realized=realized, meta=meta)
 
 
@@ -525,6 +597,7 @@ def render_topic(
     ratio: float | None = None,
     style: str = "typed",
     select: str = "roundrobin",
+    stubs: str = "none",
 ) -> RenderResult:
     """Render a topic's ledger to a wiki the benchmark runner can serve."""
     ledger = load_ledger(profile, topic)
@@ -535,7 +608,9 @@ def render_topic(
     ratio = profile.wicer.ratio if ratio is None else ratio
     if style == "verbatim":
         res = fill_verbatim(ledger.claims, corpus.documents, ratio=ratio, rho=rho,
-                            count_tokens=count_tokens, select=select)
+                            count_tokens=count_tokens, select=select, stubs=stubs)
+    elif stubs != "none":
+        raise ValueError("stubs mark cuts in source text: use style='verbatim'")
     else:
         res = fill(ledger.claims, corpus.documents, ratio=ratio, rho=rho, count_tokens=count_tokens)
     source_words = corpus.n_words
