@@ -10,6 +10,7 @@ from wicer_core.records import answers_path, read_jsonl, scores_path
 from tact import run
 from tact.ledger import Claim, Extractor, build_ledger
 from tact.paged import (
+    build_doc_restored_prompt,
     build_fetch_prompt,
     build_restored_prompt,
     classify,
@@ -17,6 +18,7 @@ from tact.paged import (
     page_report,
     pages_path,
     parse_fetch,
+    parse_fetch_docs,
     run_paged,
 )
 from tact.render import fill_verbatim, layout_verbatim, render_topic, sentences, sidecar_path
@@ -260,6 +262,59 @@ def test_report_splits_fetching_and_scores_by_where_the_gold_went(profile, topic
     assert rep["n_questions"] == 4 and rep["mode"] == "reader"
 
 
+# -- whole-document fetch ----------------------------------------------------------------
+
+
+def test_parse_fetch_docs_reads_document_numbers():
+    assert parse_fetch_docs("FETCH 12") == ["12"]
+    assert parse_fetch_docs("FETCH 12.3") == ["12"]               # a cut id names its document
+    assert parse_fetch_docs("FETCH 12.3, 12.4 and 7") == ["12", "7"]
+    assert parse_fetch_docs("FETCH 1 2 3", limit=2) == ["1", "2"]
+    assert parse_fetch_docs("Revenue rose 12 percent.") == []
+
+
+def test_doc_prompts_offer_the_document_and_restore_it_before_the_question():
+    fetch = build_fetch_prompt("Who owned the mill?", "doc")
+    assert "FETCH 12" in fetch and "number of its document" in fetch
+    restored = build_doc_restored_prompt("Who owned the mill?", [("3", "The mill. Aldwin owned it.")])
+    assert restored.index("Full text of document 3:") < restored.index("Aldwin") < restored.index("Question:")
+    assert restored.endswith(build_user_prompt("Who owned the mill?"))
+
+
+def test_a_document_fetch_restores_the_whole_document(profile, topic):
+    cuts = _paged_wiki(profile, topic)
+    corpus = load_topic(profile, topic)
+    docs = {d.document_id: d for d in corpus.documents}
+    labelled = [(q, *classify(q, docs[q.document_id], cuts)) for q in corpus.qa]
+    lost = next(t for t in labelled if t[1] == "cut")
+    n = str(next(i for i, d in enumerate(corpus.documents, 1) if d.document_id == lost[0].document_id))
+    other = "1" if n != "1" else "2"
+    reader = ScriptedReader([f"FETCH {n}.1", "after", f"FETCH {other}", "wrong doc", "FETCH 999", "again"])
+    run_paged(profile, topic, "paged_reader_doc", wiki="paged", mode="reader", fetch="doc",
+              reader=reader, questions=[lost[0]] * 3, progress=False)
+
+    assert "number of its document" in reader.calls[0]
+    assert docs[lost[0].document_id].text.strip() in reader.calls[1]
+    assert reader.calls[5] == build_user_prompt(lost[0].question)   # no such document
+    pages = read_jsonl(pages_path(profile, topic, "paged_reader_doc"))
+    assert [p["gold_cuts"] for p in pages] == [[n]] * 3
+    assert [p["fetched"] for p in pages] == [[n], [other], []]
+
+
+def test_document_oracle_restores_the_gold_document_only_when_gold_was_cut(profile, topic):
+    cuts = _paged_wiki(profile, topic)
+    corpus = load_topic(profile, topic)
+    docs = {d.document_id: d for d in corpus.documents}
+    labelled = [(q, *classify(q, docs[q.document_id], cuts)) for q in corpus.qa]
+    lost = next(t for t in labelled if t[1] in ("cut", "partly_cut"))
+    kept = next(t for t in labelled if t[1] == "in_context")
+    reader = ScriptedReader(["restored", "plain"])
+    run_paged(profile, topic, "paged_oracle_doc", wiki="paged", mode="oracle", fetch="doc",
+              reader=reader, questions=[lost[0], kept[0]], progress=False)
+    assert docs[lost[0].document_id].text.strip() in reader.calls[0]
+    assert reader.calls[1] == build_user_prompt(kept[0].question)
+
+
 # -- command line ------------------------------------------------------------------------
 
 
@@ -275,6 +330,8 @@ def test_offline_paged_pipeline_renders_pages_and_scores(profile, topic):
         assert run.main(["page", *argv, "--wiki", "paged", "--mode", mode], profile=profile) == 0
         assert len(read_jsonl(scores_path(profile, topic, f"paged_{mode}"))) == n
         assert len(read_jsonl(pages_path(profile, topic, f"paged_{mode}"))) == n
+    assert run.main(["page", *argv, "--wiki", "paged", "--fetch", "doc"], profile=profile) == 0
+    assert len(read_jsonl(scores_path(profile, topic, "paged_reader_doc"))) == n
 
 
 def test_limit_pages_only_the_first_questions(profile, topic):

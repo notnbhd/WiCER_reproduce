@@ -11,6 +11,11 @@ of sentences was dropped.  This module serves that context in two modes:
 * ``oracle``: no fetch round.  The cuts that hold the question's gold passage
   are restored up front -- what a perfect request would have bought.
 
+``fetch`` sets what one request brings back: a ``cut`` (the default), or a whole
+``doc`` -- the full text of the document a cut belongs to (the 12 of
+``[cut 12.3]``).  A document request only has to find the right document, and
+it brings every cut of a gold passage at once, as the oracle does.
+
 Serving the same context with the ordinary prompt (``tact.run score``) is the
 third arm: what the stubs cost when nothing is fetched.
 
@@ -44,9 +49,11 @@ from tact.ledger import locate
 from tact.render import sentences, sidecar_path
 
 MODES = ("reader", "oracle")
+FETCH_UNITS = ("cut", "doc")
 CLASSES = ("in_context", "partly_cut", "cut", "unanswerable", "unlocated")
 MAX_FETCH = 3          # cuts one reply may ask for
 MAX_ORACLE_FETCH = 6   # a gold passage rarely spans more
+MAX_DOC_FETCH = 2      # documents one reply may ask for (~1.1K tokens each)
 
 FETCH_INSTRUCTION = (
     "Some passages were cut from the material above; each cut is marked like [cut 12.3]. "
@@ -55,15 +62,53 @@ FETCH_INSTRUCTION = (
 )
 
 
-def build_fetch_prompt(question: str) -> str:
+DOC_FETCH_INSTRUCTION = (
+    "Some passages were cut from the material above; each cut is marked like [cut 12.3], "
+    "where 12 is the number of its document. If the answer is in a cut passage, reply with "
+    "only the word FETCH and the number of that document, for example: FETCH 12"
+)
+
+
+def build_fetch_prompt(question: str, fetch: str = "cut") -> str:
     """The ordinary suffix plus the offer to fetch; nothing else differs."""
-    return f"{ANSWER_INSTRUCTION}\n{FETCH_INSTRUCTION}\n\nQuestion: {question}\nAnswer:"
+    offer = DOC_FETCH_INSTRUCTION if fetch == "doc" else FETCH_INSTRUCTION
+    return f"{ANSWER_INSTRUCTION}\n{offer}\n\nQuestion: {question}\nAnswer:"
 
 
 def build_restored_prompt(question: str, passages: Sequence[tuple[str, str]]) -> str:
     """Restored cuts, then the ordinary suffix: the text sits next to the question."""
     blocks = "\n\n".join(f"Restored passage [cut {sid}]:\n{text}" for sid, text in passages)
     return f"{blocks}\n\n{build_user_prompt(question)}"
+
+
+def build_doc_restored_prompt(question: str, documents: Sequence[tuple[str, str]]) -> str:
+    """Whole documents, then the ordinary suffix."""
+    blocks = "\n\n".join(f"Full text of document {n}:\n{text}" for n, text in documents)
+    return f"{blocks}\n\n{build_user_prompt(question)}"
+
+
+def parse_fetch_docs(text: str, limit: int = MAX_DOC_FETCH) -> list[str]:
+    """The document numbers a reply asks for; ``FETCH 12.3`` counts as document 12."""
+    m = re.search(r"\bFETCH\b", text)
+    if not m:
+        return []
+    ids: list[str] = []
+    for n in re.findall(r"(\d+)(?:\.\d+)?", text[m.end():]):
+        if n not in ids:
+            ids.append(n)
+    return ids[:limit]
+
+
+def doc_numbers(cuts: dict[str, dict[str, Any]], documents: Sequence[Document]) -> dict[str, str]:
+    """Document number (the 12 of ``[cut 12.3]``) -> document id.
+
+    The render numbers documents by their place in the corpus; the cuts confirm it.
+    """
+    numbers = {str(i): d.document_id for i, d in enumerate(documents, start=1)}
+    for sid, c in cuts.items():
+        if numbers.get(sid.split(".")[0]) != c["doc"]:
+            raise ValueError(f"cut {sid} is in {c['doc']}, not document {sid.split('.')[0]}")
+    return numbers
 
 
 def parse_fetch(text: str, limit: int = MAX_FETCH) -> list[str]:
@@ -134,6 +179,7 @@ def run_paged(
     *,
     wiki: str,
     mode: str,
+    fetch: str = "cut",
     reader: ReaderClient | None = None,
     questions: Sequence[QAPair] | None = None,
     resume: bool = False,
@@ -144,9 +190,13 @@ def run_paged(
 
     if mode not in MODES:
         raise ValueError(f"mode must be one of {MODES}, not {mode!r}")
+    if fetch not in FETCH_UNITS:
+        raise ValueError(f"fetch must be one of {FETCH_UNITS}, not {fetch!r}")
     corpus = load_topic(profile, topic)
     docs = {d.document_id: d for d in corpus.documents}
     cuts = load_cuts(profile, topic, wiki)
+    numbers = doc_numbers(cuts, corpus.documents)
+    number_of = {doc: n for n, doc in numbers.items()}
     context = build_wiki_context(wiki_paths(profile, topic, wiki)[0].read_text())
     questions = corpus.qa if questions is None else questions
 
@@ -175,20 +225,28 @@ def run_paged(
             JsonlWriter(pages_path(profile, topic, condition), resume=resume) as pages:
         for q in iterator:
             klass, gold_cuts = classify(q, docs[q.document_id], cuts)
+            if fetch == "doc":
+                # The unit of a hit is the document: the gold one, when any of
+                # its gold passage was cut.
+                gold_cuts = [number_of[q.document_id]] if gold_cuts else []
             plain = build_user_prompt(q.question)
             if mode == "oracle":
                 requested = gold_cuts[:MAX_ORACLE_FETCH]
                 gens: list[Generation] = []
             else:
-                gens = [reader.chat(context, build_fetch_prompt(q.question))]
-                requested = parse_fetch(gens[0].text)
-            fetched = [sid for sid in requested if sid in cuts]
+                gens = [reader.chat(context, build_fetch_prompt(q.question, fetch))]
+                requested = (parse_fetch_docs if fetch == "doc" else parse_fetch)(gens[0].text)
+            fetched = [i for i in requested if i in (numbers if fetch == "doc" else cuts)]
             if mode == "oracle" or requested:
                 # A reply that asked for a cut is not an answer: ask again, with
                 # the text if the cut exists and without the offer either way.
-                passages = [(sid, cuts[sid]["text"]) for sid in fetched]
-                gens.append(reader.chat(
-                    context, build_restored_prompt(q.question, passages) if passages else plain))
+                if fetch == "doc":
+                    prompt = build_doc_restored_prompt(
+                        q.question, [(n, docs[numbers[n]].text.strip()) for n in fetched])
+                else:
+                    prompt = build_restored_prompt(
+                        q.question, [(sid, cuts[sid]["text"]) for sid in fetched])
+                gens.append(reader.chat(context, prompt if fetched else plain))
             answers.write(_record(q, gens))
             pages.write({
                 "question_id": q.question_id, "klass": klass, "gold_cuts": gold_cuts,
@@ -198,7 +256,7 @@ def run_paged(
             })
 
     summary = {
-        "topic": topic, "condition": condition, "wiki": wiki, "mode": mode,
+        "topic": topic, "condition": condition, "wiki": wiki, "mode": mode, "fetch": fetch,
         "n_context_tokens": n_context_tokens, "n_cuts": len(cuts),
         "n_questions": len(questions), "n_generated": len(pending), "n_resumed": len(done),
     }

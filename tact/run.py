@@ -23,6 +23,7 @@ Paged cache (a verbatim context that marks its cuts; tact/paged.py):
     python -m tact.run score    --topic local_economy --condition paged_bare    # stubs, unread
     python -m tact.run page     --topic local_economy --wiki paged_bare --mode oracle
     python -m tact.run page     --topic local_economy --wiki paged_bare --mode reader
+    python -m tact.run page     --topic local_economy --wiki paged_bare --fetch doc   # whole documents
 
 ``render``, ``truncate``, ``score`` and ``page`` need the reader's llama-server: the
 budget is counted in its tokens, as wicer's compile counts it.  ``inspect``
@@ -91,6 +92,8 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
                               help="the reader asks for cuts, or the gold passage's are given")
     cmds["page"].add_argument("--condition", default=None,
                               help="where the answers are filed (default: <wiki>_<mode>)")
+    cmds["page"].add_argument("--fetch", choices=("cut", "doc"), default="cut",
+                              help="what one request brings back: the cut, or its whole document")
     cmds["page"].add_argument("--resume", action="store_true")
     cmds["page"].add_argument("--limit", type=int, default=None,
                               help="only the first N questions: a look at the fetch replies "
@@ -219,9 +222,11 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
 
         reader = _reader(profile)
         for topic in args.topic:
-            condition = args.condition or f"{args.wiki}_{args.mode}"
+            suffix = "_doc" if args.fetch == "doc" else ""
+            condition = args.condition or f"{args.wiki}_{args.mode}{suffix}"
             qa = load_topic(profile, topic).qa
             s = run_paged(profile, topic, condition, wiki=args.wiki, mode=args.mode,
+                          fetch=args.fetch,
                           reader=reader, questions=qa[:args.limit] if args.limit else qa,
                           resume=args.resume, progress=sys.stderr.isatty())
             e = evaluate_condition(profile, topic, condition, resume=args.resume)
