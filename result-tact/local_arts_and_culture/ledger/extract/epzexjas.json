@@ -1,0 +1,616 @@
+{
+ "inventory": [
+  "Eldridgeville",
+  "Eldridgeville Community Theater",
+  "Miss Patty\u2019s Corner Caf\u00e9",
+  "Whispers of Autumn",
+  "Nancy Thomlinson",
+  "Stockwell\u2019s Timber Yard",
+  "Arnold\u2019s Art Supplies",
+  "Margaret's Dress Shop",
+  "Jack Bernard",
+  "Bernard\u2019s Bed & Breakfast",
+  "Jazz in the Rain",
+  "The Gilded Truffle",
+  "Comfy Corner Bookstore",
+  "Melissa Cartwright",
+  "Mel\u2019s Vintage Boutique",
+  "Eldridgeville Echo",
+  "Saul Mendez",
+  "Golden Eagle Tavern",
+  "A Winter\u2019s Tale Retold",
+  "Mary Schultz",
+  "Schultz\u2019s Fine Chocolates",
+  "Save the Stage",
+  "Steven Harrow",
+  "community theater"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Eldridgeville",
+    "relation": "described_as",
+    "value": "a town in harmony with its roots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the quiet hum of a town in harmony with its roots"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Eldridgeville Community Theater",
+    "relation": "abbreviated_as",
+    "value": "ECT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eldridgeville Community Theater (ECT)"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Eldridgeville Community Theater",
+    "relation": "described_as",
+    "value": "a hub of creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hub of creativity that not only nurtures local talent"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Eldridgeville Community Theater",
+    "relation": "nurtures",
+    "value": "local talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nurtures local talent"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Eldridgeville Community Theater",
+    "relation": "underpins",
+    "value": "the prosperity of our local economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underpins the prosperity of our local economy"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "community theater",
+    "relation": "reach_extends_to",
+    "value": "subtler conduits of commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a community theater's reach extends to subtler conduits of commerce"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "community theater",
+    "relation": "production_requires",
+    "value": "months in the making, harnessing the crafts and services of countless local entities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Any show is a complex beast\u2014months in the making\u2014harnessing the crafts and services of countless local entities."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "community theater",
+    "relation": "encourages",
+    "value": "a culture of spending and attendance at cultural events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community theater encourages a culture of spending and attendance at cultural events"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Miss Patty\u2019s Corner Caf\u00e9",
+    "relation": "location_of_narrator_sipping_cocoa",
+    "value": "the amber glow",
+    "time": "On a chilling evening last October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a chilling evening last October 3, 2023, while sipping a steamy cup of cocoa in the amber glow of Miss Patty\u2019s Corner Caf\u00e9"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Miss Patty\u2019s Corner Caf\u00e9",
+    "relation": "was_brimming_with",
+    "value": "an effervescent energy",
+    "time": "last October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The caf\u00e9, usually subdued after dusk, was brimming with an effervescent energy."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Miss Patty\u2019s Corner Caf\u00e9",
+    "relation": "usually_subdued",
+    "value": "after dusk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The caf\u00e9, usually subdued after dusk"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Whispers of Autumn",
+    "relation": "upcoming_play_at",
+    "value": "Eldridgeville Community Theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the upcoming play at ECT titled \"Whispers of Autumn.\""
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Whispers of Autumn",
+    "relation": "injected_vitality_into",
+    "value": "the evening lull",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the play had injected a dose of vitality into the evening lull"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Nancy Thomlinson",
+    "relation": "director_of",
+    "value": "Eldridgeville Community Theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nancy Thomlinson, the effervescent director of ECT"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Nancy Thomlinson",
+    "relation": "sources_lumber_from",
+    "value": "Stockwell\u2019s Timber Yard",
+    "time": null,
+    "speaker": "Nancy Thomlinson",
+    "verbatim": [
+     "we source lumber from Stockwell\u2019s Timber Yard"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Stockwell\u2019s Timber Yard",
+    "relation": "supplies",
+    "value": "lumber for sets",
+    "time": null,
+    "speaker": "Nancy Thomlinson",
+    "verbatim": [
+     "we source lumber from Stockwell\u2019s Timber Yard"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Arnold\u2019s Art Supplies",
+    "relation": "supplies",
+    "value": "paints",
+    "time": null,
+    "speaker": "Nancy Thomlinson",
+    "verbatim": [
+     "paints from Arnold\u2019s Art Supplies"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Margaret's Dress Shop",
+    "relation": "makes",
+    "value": "costumes",
+    "time": null,
+    "speaker": "Nancy Thomlinson",
+    "verbatim": [
+     "those are lovingly stitched by Margaret's Dress Shop"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jack Bernard",
+    "relation": "owner_of",
+    "value": "Bernard\u2019s Bed & Breakfast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Bernard, owner of Bernard\u2019s Bed & Breakfast"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bernard\u2019s Bed & Breakfast",
+    "relation": "located_near",
+    "value": "Eldridgeville Community Theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "located a mere two blocks from the ECT"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jack Bernard",
+    "relation": "recounted",
+    "value": "an uptick in reservations coinciding with show runs",
+    "time": null,
+    "speaker": "Jack Bernard",
+    "verbatim": [
+     "He recounted an uptick in reservations coinciding with show runs"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jazz in the Rain",
+    "relation": "described_as",
+    "value": "hit musical",
+    "time": "last November",
+    "speaker": null,
+    "verbatim": [
+     "particularly during last November's hit musical, \"Jazz in the Rain.\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Gilded Truffle",
+    "relation": "is_local_eatery_visited_by_travelers",
+    "value": "a local eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dine at local eateries like 'The Gilded Truffle'"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Comfy Corner Bookstore",
+    "relation": "is_nearby_shop_visited_by_travelers",
+    "value": "a nearby shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shop at the nearby 'Comfy Corner Bookstore.\u2019"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Melissa Cartwright",
+    "relation": "owner_of",
+    "value": "Mel\u2019s Vintage Boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owner of 'Mel\u2019s Vintage Boutique'"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Melissa Cartwright",
+    "relation": "expressed",
+    "value": "community theater provides a nexus for networking",
+    "time": null,
+    "speaker": "Melissa Cartwright",
+    "verbatim": [
+     "community theater provides a nexus for"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Melissa Cartwright",
+    "relation": "hosted",
+    "value": "launch party for ECT's seasonal schedule",
+    "time": "September 9, 2023",
+    "speaker": "Melissa Cartwright",
+    "verbatim": [
+     "hosting the launch party for ECT's seasonal schedule on September 9, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mel\u2019s Vintage Boutique",
+    "relation": "visibility_increased",
+    "value": "dramatically",
+    "time": "September 9, 2023",
+    "speaker": "Melissa Cartwright",
+    "verbatim": [
+     "dramatically increased her store\u2019s visibility"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Melissa Cartwright",
+    "relation": "results_in",
+    "value_ref": "c28",
+    "time": "September 9, 2023",
+    "speaker": "Melissa Cartwright",
+    "verbatim": [
+     "hosting the launch party for ECT's seasonal schedule on September 9, 2023, dramatically increased her store\u2019s visibility"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Melissa Cartwright",
+    "relation": "said",
+    "value": "People came for the excitement of seeing what plays were coming up, but they stayed to browse\u2014and buy\u2014the clothes",
+    "time": null,
+    "speaker": "Melissa Cartwright",
+    "verbatim": [
+     "People came for the excitement of seeing what plays were coming up, but they stayed to browse\u2014and buy\u2014the clothes"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Eldridgeville Echo",
+    "relation": "described_as",
+    "value": "our town's newspaper",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Eldridgeville Echo', our town's newspaper"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Eldridgeville Echo",
+    "relation": "runs",
+    "value": "features on upcoming ECT productions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "frequently runs features on upcoming ECT productions"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Eldridgeville Echo",
+    "relation": "spotlights",
+    "value": "businesses providing essential services to the theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotlighting the businesses providing essential services to the theater"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Eldridgeville Echo",
+    "relation": "in_order_to",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "frequently runs features on upcoming ECT productions, spotlighting the businesses providing essential services to the theater"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "community theater",
+    "relation": "fosters",
+    "value": "a communal loyalty and a shared stake in each other's success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This reciprocation fosters a communal loyalty and a shared stake in each other's success."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Saul Mendez",
+    "relation": "role",
+    "value": "restaurant owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Restaurant owner Saul Mendez noted"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Saul Mendez",
+    "relation": "noted_surge",
+    "value": "30% surge in his evening service receipts",
+    "time": "during show seasons",
+    "speaker": "Saul Mendez",
+    "verbatim": [
+     "noted a 30% surge in his evening service receipts during show seasons"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Golden Eagle Tavern",
+    "relation": "plays_on",
+    "value": "this symbiosis with themed nights coinciding with ECT\u2019s performances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plays cleverly on this symbiosis with themed nights coinciding with ECT\u2019s performances"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "A Winter\u2019s Tale Retold",
+    "relation": "run_in",
+    "value": "December",
+    "time": "December",
+    "speaker": null,
+    "verbatim": [
+     "During the December run of \"A Winter\u2019s Tale Retold,\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Golden Eagle Tavern",
+    "relation": "transformed_into",
+    "value": "a winter wonderland",
+    "time": "December",
+    "speaker": null,
+    "verbatim": [
+     "the tavern transformed itself into a winter wonderland"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Golden Eagle Tavern",
+    "relation": "attracted",
+    "value": "couples pre- and post-show",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Couples thronged there pre- and post-show"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Golden Eagle Tavern",
+    "relation": "encourages_spenders_to",
+    "value": "imbue their dining experience with the same cultural richness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such thematic resonance encourages spenders to imbue their dining experience with the same cultural richness"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Mary Schultz",
+    "relation": "proprietress_of",
+    "value": "Schultz\u2019s Fine Chocolates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mary Schultz, proprietress of 'Schultz\u2019s Fine Chocolates'"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Mary Schultz",
+    "relation": "reported",
+    "value": "patrons often purchase her confections as after-show gifts or souvenirs",
+    "time": null,
+    "speaker": "Mary Schultz",
+    "verbatim": [
+     "reported that patrons often purchase her confections as after-show gifts or souvenirs"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Mary Schultz",
+    "relation": "said",
+    "value": "The theater crowd loves to savor a piece of Eldridgeville they can take home",
+    "time": null,
+    "speaker": "Mary Schultz",
+    "verbatim": [
+     "The theater crowd loves to savor a piece of Eldridgeville they can take home"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Mary Schultz",
+    "relation": "feels_gratitude_toward",
+    "value": "ECT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her eyes glistening with gratitude toward the ECT"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mary Schultz",
+    "relation": "supports_theater_through",
+    "value": "advertising in playbills, mutual promotion, and even fundraising",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses like Mary\u2019s supporting the theater through advertising in playbills, mutual promotion, and even fundraising"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Save the Stage",
+    "relation": "gala_held_on",
+    "value": "December 15, 2023",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The \"Save the Stage\" gala held on December 15, 2023"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Save the Stage",
+    "relation": "drew",
+    "value": "an outpouring of local business support",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "saw an outpouring of local business support"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Steven Harrow",
+    "relation": "role",
+    "value": "high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "High school teacher Steven Harrow's theater arts program"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Steven Harrow",
+    "relation": "runs",
+    "value": "theater arts program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "High school teacher Steven Harrow's theater arts program"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Steven Harrow",
+    "relation": "introduces_students_to",
+    "value": "the magic of stagecraft and the importance of supporting local arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "theater arts program introduces students to the magic of stagecraft and the importance of supporting local arts"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Steven Harrow",
+    "relation": "lessons_translate_into",
+    "value": "family outings to ECT and students patronizing businesses tied to the theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lessons translate into family outings to ECT and students patronizing businesses tied to the theater"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

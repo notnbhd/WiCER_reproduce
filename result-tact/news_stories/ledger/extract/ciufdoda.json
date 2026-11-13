@@ -1,0 +1,969 @@
+{
+ "inventory": [
+  "Hurricane Ida",
+  "Hurricane Katrina",
+  "New Orleans",
+  "Randall Dupre",
+  "Lower Ninth Ward",
+  "Dr. Lila Dawson",
+  "Tulane University",
+  "Gulf of Mexico",
+  "Louisianian coastline",
+  "Dawson Hayes",
+  "Levee and flood wall investments",
+  "Sophia Torres",
+  "Plaquemines Parish",
+  "Mayor Juliette LeBlanc",
+  "Green NOLA Initiative",
+  "Councilman Andre Baptiste",
+  "Clara Vargas",
+  "emergency disaster fund",
+  "New Orleans tourism industry",
+  "Elaine Rutherford",
+  "Rebuild NOLA",
+  "Luis and Maria Gonzales",
+  "rising sea levels",
+  "climate change"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Hurricane Katrina",
+    "relation": "devastated",
+    "value": "New Orleans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ten years since Hurricane Katrina devastated the city"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Hurricane Katrina",
+    "relation": "elapsed_before_ida",
+    "value": "ten years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ten years since Hurricane Katrina devastated the city"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "New Orleans",
+    "relation": "hit_by",
+    "value": "Hurricane Ida",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Orleans was again hit by another powerful natural force: Hurricane Ida."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Hurricane Ida",
+    "relation": "left_destruction_on",
+    "value": "September 4th",
+    "time": "September 4th",
+    "speaker": null,
+    "verbatim": [
+     "Deliberately leaving destruction behind it on September 4th"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "New Orleans",
+    "relation": "article_dateline",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "New Orleans, September 12, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Hurricane Ida",
+    "relation": "reignited",
+    "value": "dialogue around environmental policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Ida reignited dialogue around environmental policies"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Hurricane Ida",
+    "relation": "impact_was",
+    "value": "swift and devastating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ida's impact was swift and devastating."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Hurricane Ida",
+    "relation": "caused",
+    "value": "roofs were torn from homes",
+    "time": null,
+    "speaker": "reports from emergency services",
+    "verbatim": [
+     "According to reports from emergency services, roofs were torn from homes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Hurricane Ida",
+    "relation": "caused",
+    "value": "streets were transformed into rivers",
+    "time": null,
+    "speaker": "reports from emergency services",
+    "verbatim": [
+     "streets were transformed into rivers"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Hurricane Ida",
+    "relation": "caused",
+    "value": "communities plunged into darkness when power grids shut down",
+    "time": null,
+    "speaker": "reports from emergency services",
+    "verbatim": [
+     "communities plunged into darkness when power grids shut down"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Hurricane Ida",
+    "relation": "damage_estimates_status",
+    "value": "yet to be assessed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "full estimates for damage are yet to be assessed"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hurricane Ida",
+    "relation": "projected_costs",
+    "value": "billions in repairs and restoration costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "early estimates project billions in repairs and restoration costs"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hurricane Ida",
+    "relation": "caused",
+    "value": "lives lost and livelihoods shattered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not including lives lost and livelihoods shattered as a result of Ida"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Randall Dupre",
+    "relation": "resides_in",
+    "value": "Lower Ninth Ward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Randall Dupre, a resident of New Orleans' Lower Ninth Ward"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Lower Ninth Ward",
+    "relation": "located_in",
+    "value": "New Orleans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a resident of New Orleans' Lower Ninth Ward"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Randall Dupre",
+    "relation": "spoke_about",
+    "value": "the resilience that has emerged since Katrina",
+    "time": null,
+    "speaker": "Randall Dupre",
+    "verbatim": [
+     "spoke about the resilience that has emerged since Katrina"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Randall Dupre",
+    "relation": "said",
+    "value": "Our homes got stronger, our walls got higher - but water knows no boundaries: it comes anyway.",
+    "time": null,
+    "speaker": "Randall Dupre",
+    "verbatim": [
+     "Our homes got stronger, our walls got higher - but water knows no boundaries: it comes anyway."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Hurricane Ida",
+    "relation": "compounded_by",
+    "value": "rising sea levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Ida's destruction was compounded by rising sea levels"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "rising sea levels",
+    "relation": "indicator_of",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an indicator of climate change"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Lila Dawson",
+    "relation": "affiliated_with",
+    "value": "Tulane University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lila Dawson of Tulane University"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Gulf of Mexico",
+    "relation": "has_warmed",
+    "value": "consistently warmed over time",
+    "time": null,
+    "speaker": "Dr. Lila Dawson",
+    "verbatim": [
+     "Gulf of Mexico waters have consistently warmed over time"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Gulf of Mexico",
+    "relation": "fuels_hurricanes",
+    "value": "hurricanes that hit Louisianian coastline",
+    "time": null,
+    "speaker": "Dr. Lila Dawson",
+    "verbatim": [
+     "fuelling hurricanes that hit Louisianian coastline"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Lila Dawson",
+    "relation": "asserts",
+    "value": "Warmer seas provide more moisture for storms to gather strength",
+    "time": null,
+    "speaker": "Dr. Lila Dawson",
+    "verbatim": [
+     "\"Warmer seas provide more moisture for storms to gather strength,\" Dawson asserts."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Lila Dawson",
+    "relation": "could_result_in",
+    "value": "stronger and wetter storms than anticipated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This could result in stronger and wetter storms than anticipated."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Lila Dawson",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Warmer seas provide more moisture for storms to gather strength",
+     "This could result in stronger and wetter storms than anticipated."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dawson Hayes",
+    "relation": "age",
+    "value": "78-years-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dawson Hayes, 78-years-old resident"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dawson Hayes",
+    "relation": "resident_of",
+    "value": "New Orleans",
+    "time": "for decades now",
+    "speaker": null,
+    "verbatim": [
+     "78-years-old resident of New Orleans for decades now"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dawson Hayes",
+    "relation": "says",
+    "value": "isn't whether their city will flood, but when and how badly",
+    "time": null,
+    "speaker": "Dawson Hayes",
+    "verbatim": [
+     "says the question for longtime New Orleanians like himself isn't whether their city will flood, but when and how badly."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dawson Hayes",
+    "relation": "observed",
+    "value": "water levels steadily rise over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hayes has seen water levels steadily rise over time"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dawson Hayes",
+    "relation": "describes_storms_as",
+    "value": "a roll of the dice",
+    "time": null,
+    "speaker": "Dawson Hayes",
+    "verbatim": [
+     "every storm feels like \"a roll of the dice\""
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dawson Hayes",
+    "relation": "wonders_whether",
+    "value": "this one might be \"the one\" that causes disaster",
+    "time": null,
+    "speaker": "Dawson Hayes",
+    "verbatim": [
+     "leaving him wondering whether this one might be \"the one\" that causes disaster"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dawson Hayes",
+    "relation": "caused_by",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hayes has seen water levels steadily rise over time, so every storm feels like \"a roll of the dice\""
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Levee and flood wall investments",
+    "relation": "totalled",
+    "value": "$14.5 billion",
+    "time": "since Katrina",
+    "speaker": null,
+    "verbatim": [
+     "Levee and flood wall investments totalling $14.5 billion since Katrina"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Levee and flood wall investments",
+    "relation": "stress_tested_by",
+    "value": "Ida",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been put through rigorous stress testing by Ida"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Levee and flood wall investments",
+    "relation": "performance",
+    "value": "significantly better than expected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While they fared significantly better than expected"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Levee and flood wall investments",
+    "relation": "cracks_appearing",
+    "value": "cracks in their system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cracks in their system have started appearing both literally and figuratively"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sophia Torres",
+    "relation": "occupation",
+    "value": "engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engineers such as Sophia Torres"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sophia Torres",
+    "relation": "worked_on",
+    "value": "the city's flood defenses",
+    "time": "since 2013",
+    "speaker": null,
+    "verbatim": [
+     "who has worked on the city's flood defenses since 2013"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sophia Torres",
+    "relation": "highlights",
+    "value": "the challenge of adapting to change as storms arise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlight the challenge of adapting to change as storms arise"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sophia Torres",
+    "relation": "notes",
+    "value": "We learn from every storm but they keep changing",
+    "time": null,
+    "speaker": "Sophia Torres",
+    "verbatim": [
+     "She notes: \"We learn from every storm but they keep changing\""
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sophia Torres",
+    "relation": "said",
+    "value": "Our defenses may be robust but adaptation must remain an ongoing process if necessary.",
+    "time": null,
+    "speaker": "Sophia Torres",
+    "verbatim": [
+     "Our defenses may be robust but adaptation must remain an ongoing process if necessary."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Plaquemines Parish",
+    "relation": "remains_vulnerable",
+    "value": "remain vulnerable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Even after upgrades, parts of Plaquemines Parish remain vulnerable"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Plaquemines Parish",
+    "relation": "reveals",
+    "value": "the difficulties in protecting against nature's power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing the difficulties in protecting against nature's power"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Plaquemines Parish",
+    "relation": "spurred",
+    "value": "heated discussions on whether more should be done or alternative strategies should be considered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has spurred heated discussions on whether more should be done or alternative strategies should be considered."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Hurricane Ida",
+    "relation": "galvanized",
+    "value": "environmental activists and policymakers alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "environmental activists and policymakers alike were galvanized into action by its aftermath"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Mayor Juliette LeBlanc",
+    "relation": "noted_in",
+    "value": "one briefing",
+    "time": null,
+    "speaker": "Mayor Juliette LeBlanc",
+    "verbatim": [
+     "Mayor Juliette LeBlanc noted in one briefing"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mayor Juliette LeBlanc",
+    "relation": "said",
+    "value": "We can no longer respond reactively; what we require instead is an inclusive strategy which considers climate change's impacts on our city.",
+    "time": null,
+    "speaker": "Mayor Juliette LeBlanc",
+    "verbatim": [
+     "We can no longer respond reactively; what we require instead is an inclusive strategy which considers climate change's impacts on our city."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Green NOLA Initiative",
+    "relation": "unveiling_scheduled",
+    "value": "unveiling later this month",
+    "time": "later this month",
+    "speaker": null,
+    "verbatim": [
+     "The Green NOLA Initiative, set for unveiling later this month"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Green NOLA Initiative",
+    "relation": "seeks_to_enhance",
+    "value": "New Orleans' sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeks to enhance New Orleans' sustainability through enhanced public transportation, more green spaces, and incentives for renewable energy production"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Green NOLA Initiative",
+    "relation": "means_of_enhancing_sustainability",
+    "value": "enhanced public transportation, more green spaces, and incentives for renewable energy production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeks to enhance New Orleans' sustainability through enhanced public transportation, more green spaces, and incentives for renewable energy production"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Councilman Andre Baptiste",
+    "relation": "emphasizes",
+    "value": "the need for broad community support",
+    "time": null,
+    "speaker": "Councilman Andre Baptiste",
+    "verbatim": [
+     "Councilman Andre Baptiste emphasizes the need for broad community support"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Councilman Andre Baptiste",
+    "relation": "said",
+    "value": "Sustainability doesn't just involve regulations; it involves making choices that prioritize our planet and city's future.",
+    "time": null,
+    "speaker": "Councilman Andre Baptiste",
+    "verbatim": [
+     "Sustainability doesn't just involve regulations; it involves making choices that prioritize our planet and city's future."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "New Orleans",
+    "relation": "should_take_precedence",
+    "value": "immediate disaster relief and recovery should take precedence over long-term environmental policy changes",
+    "time": null,
+    "speaker": "Critiques",
+    "verbatim": [
+     "Critiques suggest that immediate disaster relief and recovery should take precedence over long-term environmental policy changes."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Clara Vargas",
+    "relation": "said",
+    "value": "Talk of going green is all well and good; however, our businesses are broken right now and our people need assistance immediately, not 10 years hence.",
+    "time": null,
+    "speaker": "Clara Vargas",
+    "verbatim": [
+     "Talk of going green is all well and good; however, our businesses are broken right now and our people need assistance immediately, not 10 years hence."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Hurricane Ida",
+    "relation": "economic_aftermath_generated",
+    "value": "much discussion regarding economic resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ida's economic aftermath has generated much discussion regarding economic resilience."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "New Orleans tourism industry",
+    "relation": "is",
+    "value": "a primary engine of its economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Orleans tourism industry, a primary engine of its economy"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "New Orleans tourism industry",
+    "relation": "was_hit",
+    "value": "particularly hard hit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was particularly hard hit"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "New Orleans tourism industry",
+    "relation": "hotels_transformed_into",
+    "value": "makeshift shelters",
+    "time": "since Ida",
+    "speaker": null,
+    "verbatim": [
+     "hotels that were bustling with guests only weeks prior to Ida have since been transformed into makeshift shelters"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "New Orleans tourism industry",
+    "relation": "events_postponed_or_cancelled",
+    "value": "many iconic events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many iconic events have been postponed or cancelled for unknown reasons"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "New Orleans tourism industry",
+    "relation": "reason_for_postponements",
+    "value": "unknown reasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for unknown reasons"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "New Orleans",
+    "relation": "rebuilding_comes_at",
+    "value": "a significant expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rebuilding efforts come at a significant expense"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "New Orleans",
+    "relation": "prompted",
+    "value": "heated discussions over whether funds should be put toward immediate relief or long-term preventative measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting heated discussions over whether funds should be put toward immediate relief or long-term preventative measures"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "New Orleans",
+    "relation": "results_in",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rebuilding efforts come at a significant expense, prompting heated discussions"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "emergency disaster fund",
+    "relation": "creation_advocated_by",
+    "value": "Economic analysts",
+    "time": null,
+    "speaker": "Economic analysts",
+    "verbatim": [
+     "Economic analysts advocate the creation of an emergency disaster fund to invest in both rebuilding efforts as well as future proofing measures."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "emergency disaster fund",
+    "relation": "to_invest_in",
+    "value": "both rebuilding efforts as well as future proofing measures",
+    "time": null,
+    "speaker": "Economic analysts",
+    "verbatim": [
+     "to invest in both rebuilding efforts as well as future proofing measures"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Elaine Rutherford",
+    "relation": "occupation",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to economist Elaine Rutherford"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Elaine Rutherford",
+    "relation": "said",
+    "value": "Every disaster teaches us the value of prevention over cure",
+    "time": null,
+    "speaker": "Elaine Rutherford",
+    "verbatim": [
+     "Every disaster teaches us the value of prevention over cure, according to economist Elaine Rutherford."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "New Orleans",
+    "relation": "preventive_funding_challenge",
+    "value": "raising funds for preventive measures often proves more challenging than rallying support after tragedy strikes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raising funds for preventive measures often proves more challenging than rallying support after tragedy strikes"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "New Orleans",
+    "relation": "residents_shown",
+    "value": "remarkable resilience following Hurricane Ida",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Orleans residents have shown remarkable resilience following Hurricane Ida."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Rebuild NOLA",
+    "relation": "is",
+    "value": "a community organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community organizations like \"Rebuild NOLA\""
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Rebuild NOLA",
+    "relation": "formed",
+    "value": "rapidly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Rebuild NOLA\" have formed rapidly"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Rebuild NOLA",
+    "relation": "distributes",
+    "value": "supplies and aid to areas most severely impacted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quickly distributing supplies and aid to areas most severely impacted"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "survived",
+    "value": "Katrina",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luis and Maria Gonzales, survivors of Katrina"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "volunteer_with",
+    "value": "an organization",
+    "time": "now",
+    "speaker": null,
+    "verbatim": [
+     "who now volunteer with an organization"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "spoke_warmly_of",
+    "value": "New Orleans' resilience following Katrina",
+    "time": null,
+    "speaker": "Luis and Maria Gonzales",
+    "verbatim": [
+     "spoke warmly of New Orleans' resilience following Katrina"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "described",
+    "value": "its spirit of neighborly support",
+    "time": null,
+    "speaker": "Maria",
+    "verbatim": [
+     "Maria described its spirit of neighborly support"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "showed_emotion_with",
+    "value": "tears streaming down her cheek",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with tears streaming down her cheek"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Luis and Maria Gonzales",
+    "relation": "said",
+    "value": "We may have lost so much, yet New Orleanians remain strong through unity despite our losses; that is what defines us New Orleans citizens.",
+    "time": null,
+    "speaker": "Maria",
+    "verbatim": [
+     "We may have lost so much, yet New Orleanians remain strong through unity despite our losses; that is what defines us New Orleans citizens."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "New Orleans",
+    "relation": "embarks_on",
+    "value": "the difficult road towards recovery once more",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As New Orleans embarks on the difficult road towards recovery once more"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "New Orleans",
+    "relation": "scrutinized",
+    "value": "the intersection between climate science, urban planning, and environmental policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "officials, scientists, and citizens alike are scrutinizing the intersection between climate science, urban planning, and environmental policy"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "New Orleans",
+    "relation": "hurdles_include",
+    "value": "funding shortages to logistical complications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "numerous hurdles ranging from funding shortages to logistical complications"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Hurricane Ida",
+    "relation": "shown",
+    "value": "current practices cannot continue unchallenged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is that current practices cannot continue unchallenged"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "New Orleans",
+    "relation": "solutions_should_honor",
+    "value": "rich cultural legacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solutions that honor both New Orleans' rich cultural legacy"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "climate change",
+    "relation": "poses",
+    "value": "emerging risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "climate change's emerging risks"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "New Orleans",
+    "relation": "rebuilding_aims",
+    "value": "creating a safer, sustainable future through unity and innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rebuilding occurs with an eye toward what storms may arise and with hope in mind for creating a safer, sustainable future through unity and innovation."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

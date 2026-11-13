@@ -1,0 +1,632 @@
+{
+ "inventory": [
+  "BlueSky Innovations",
+  "Remote Work Expense and Reimbursement Policies",
+  "Expense Reimbursement Form",
+  "Expense report",
+  "Pre-approval form",
+  "Employee portal",
+  "Finance department",
+  "Direct supervisor",
+  "HR department",
+  "Full-time employees",
+  "Remote workforce",
+  "Company-Provided Equipment and Services",
+  "Home internet costs",
+  "Required software subscriptions",
+  "Office supplies",
+  "Work-related equipment",
+  "Office furniture",
+  "Personal home office",
+  "Laptops",
+  "Software licenses",
+  "Communication tools",
+  "Pre-Approval of Expenses",
+  "Expense Reporting and Documentation",
+  "Reimbursement Process and Timelines",
+  "Exclusions and Limits",
+  "Policy Amendments",
+  "Billing cycle",
+  "Original receipts or invoices",
+  "Remote-working staff"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "BlueSky Innovations",
+    "relation": "has_policy_guide_on",
+    "value": "remote work expense and reimbursement policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Welcome to the comprehensive guide on remote work expense and reimbursement policies for BlueSky Innovations."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "BlueSky Innovations",
+    "relation": "aims_to_provide",
+    "value": "clear, educative insight into how BlueSky Innovations manages the costs associated with remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This document aims to provide clear, educative insight into how BlueSky Innovations manages the costs associated with remote work."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Remote workforce",
+    "relation": "described_as",
+    "value": "increasingly remote",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we continue to adapt to an increasingly remote workforce"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Remote Work Expense and Reimbursement Policies",
+    "relation": "states_importance",
+    "value": "understanding the protocols for expenses incurred while working outside of the office is paramount",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "understanding the protocols for expenses incurred while working outside of the office is paramount."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "BlueSky Innovations",
+    "relation": "recognizes",
+    "value": "remote work can involve certain costs that traditionally would be covered in an office setting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we recognize that remote work can involve certain costs that traditionally would be covered in an office setting."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Full-time employees",
+    "relation": "eligible_for",
+    "value": "reimbursement of work-related expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "full-time employees who are approved for remote work are eligible for reimbursement of work-related expenses, subject to the provisions outlined herein."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Full-time employees",
+    "relation": "eligibility_condition",
+    "value": "approved for remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "full-time employees who are approved for remote work"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Full-time employees",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At BlueSky Innovations, we recognize that remote work can involve certain costs that traditionally would be covered in an office setting. Therefore, full-time employees"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Remote Work Expense and Reimbursement Policies",
+    "relation": "covers",
+    "value": "expenses that are reasonable, necessary, and directly related to your remote work duties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This policy covers expenses that are reasonable, necessary, and directly related to your remote work duties."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Home internet costs",
+    "relation": "eligible_expense",
+    "value": "eligible expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eligible expenses typically include but are not limited to, home internet costs, required software subscriptions, office supplies, and necessary work-related equipment."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Required software subscriptions",
+    "relation": "eligible_expense",
+    "value": "eligible expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eligible expenses typically include but are not limited to, home internet costs, required software subscriptions, office supplies, and necessary work-related equipment."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Office supplies",
+    "relation": "eligible_expense",
+    "value": "eligible expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eligible expenses typically include but are not limited to, home internet costs, required software subscriptions, office supplies, and necessary work-related equipment."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Work-related equipment",
+    "relation": "eligible_expense",
+    "value": "necessary work-related equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eligible expenses typically include but are not limited to, home internet costs, required software subscriptions, office supplies, and necessary work-related equipment."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Pre-Approval of Expenses",
+    "relation": "requires_pre_approval_by",
+    "value": "direct supervisor or the finance department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we require all potential expenses to be pre-approved by your direct supervisor or the finance department."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Pre-Approval of Expenses",
+    "relation": "in_order_to",
+    "value": "maintain a streamlined reimbursement process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To maintain a streamlined reimbursement process, we require all potential expenses to be pre-approved"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Pre-Approval of Expenses",
+    "relation": "requires_justification",
+    "value": "essential for the execution of job-related tasks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Expenses must be justified as essential for the execution of job-related tasks."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Pre-approval form",
+    "relation": "available_on",
+    "value": "employee portal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees should complete the pre-approval form available on their employee portal"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Employee portal",
+    "relation": "hosts",
+    "value": "pre-approval form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complete the pre-approval form available on their employee portal"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Pre-approval form",
+    "relation": "submitted_with",
+    "value": "any accompanying quotes or estimates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "submit it along with any accompanying quotes or estimates for review."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Expense report",
+    "relation": "submitted_no_later_than",
+    "value": "30 days following the purchase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees are expected to submit a detailed expense report no later than 30 days following the purchase."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Expense report",
+    "relation": "submitted_after",
+    "value": "expense has been pre-approved and incurred",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Once an expense has been pre-approved and incurred, employees are expected to submit a detailed expense report"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Expense Reporting and Documentation",
+    "relation": "requires_inclusion_of",
+    "value": "A complete Expense Reimbursement Form, accurately filled out",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A complete Expense Reimbursement Form, accurately filled out."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Expense Reimbursement Form",
+    "relation": "required_in_report",
+    "value": "complete and accurately filled out",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A complete Expense Reimbursement Form, accurately filled out."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Original receipts or invoices",
+    "relation": "proof_of",
+    "value": "payment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Original receipts or invoices providing proof of payment."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Expense report",
+    "relation": "must_include",
+    "value": "A brief explanation of how each expense is related to remote work tasks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A brief explanation of how each expense is related to remote work tasks."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Expense Reporting and Documentation",
+    "relation": "failure_may_result_in",
+    "value": "delays or denial of reimbursement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Failure to provide the appropriate documentation may result in delays or denial of reimbursement."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "BlueSky Innovations",
+    "relation": "maintains_clear_boundaries_on",
+    "value": "what is not covered under this policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations maintains clear boundaries regarding what is not covered under this policy."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Office furniture",
+    "relation": "excluded_when",
+    "value": "deemed non-essential (e.g., file cabinets, additional seating)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Office furniture deemed non-essential (e.g., file cabinets, additional seating)."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Exclusions and Limits",
+    "relation": "excludes",
+    "value": "any items or services for personal use (e.g., non-work-related subscriptions or utilities)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Any items or services for personal use (e.g., non-work-related subscriptions or utilities)."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Personal home office",
+    "relation": "excluded_costs",
+    "value": "setup or maintenance costs that go beyond the company's standard provision (e.g., renovations or office decor)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Costs related to the setup or maintenance of a personal home office that go beyond the company's standard provision (e.g., renovations or office decor)."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Exclusions and Limits",
+    "relation": "subject_to_limits_based_on",
+    "value": "prescribed budgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Certain expenses may be subject to limits based on prescribed budgets."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Pre-Approval of Expenses",
+    "relation": "limits_communicated_at",
+    "value": "employees will be informed of these limits upon the pre-approval of expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees will be informed of these limits upon the pre-approval of expenses."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Finance department",
+    "relation": "processes",
+    "value": "approved expense reports in a timely manner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our finance department processes approved expense reports in a timely manner"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Finance department",
+    "relation": "aims_to_reimburse",
+    "value": "employees within one billing cycle following the approval of a submitted expense report",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to reimburse employees within one billing cycle following the approval of a submitted expense report."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Billing cycle",
+    "relation": "reimbursement_window",
+    "value": "one billing cycle following the approval of a submitted expense report",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to reimburse employees within one billing cycle following the approval of a submitted expense report."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Reimbursement Process and Timelines",
+    "relation": "reimbursements_reflected_in",
+    "value": "regular paycheck or through direct deposit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reimbursements will be reflected in your regular paycheck or through direct deposit."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Company-Provided Equipment and Services",
+    "relation": "provided_directly_by",
+    "value": "BlueSky Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations will directly provide necessary equipment and services such as laptops, software licenses, and communication tools to minimize out-ofpocket expenses for our team members."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Company-Provided Equipment and Services",
+    "relation": "provided_where",
+    "value": "possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Where possible, BlueSky Innovations will directly provide"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Company-Provided Equipment and Services",
+    "relation": "in_order_to",
+    "value": "minimize out-ofpocket expenses for our team members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to minimize out-ofpocket expenses for our team members."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Laptops",
+    "relation": "provided_by",
+    "value": "BlueSky Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations will directly provide necessary equipment and services such as laptops"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Software licenses",
+    "relation": "provided_by",
+    "value": "BlueSky Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations will directly provide necessary equipment and services such as laptops, software licenses"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Communication tools",
+    "relation": "provided_by",
+    "value": "BlueSky Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations will directly provide necessary equipment and services such as laptops, software licenses, and communication tools"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Company-Provided Equipment and Services",
+    "relation": "remains_property_of",
+    "value": "the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These items remain the property of the company and must be used responsibly"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Company-Provided Equipment and Services",
+    "relation": "must_be_used",
+    "value": "responsibly, following all relevant data security and usage policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "must be used responsibly, following all relevant data security and usage policies."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "BlueSky Innovations",
+    "relation": "reserves_right_to",
+    "value": "amend the remote work expense and reimbursement policies as required",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BlueSky Innovations reserves the right to amend the remote work expense and reimbursement policies as required."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Policy Amendments",
+    "relation": "changes_communicated_to",
+    "value": "all remote-working staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such changes will be communicated to all remote-working staff in a timely fashion"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Remote-working staff",
+    "relation": "receives_communication_of",
+    "value": "policy amendments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such changes will be communicated to all remote-working staff in a timely fashion to ensure clarity and compliance."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Policy Amendments",
+    "relation": "in_order_to",
+    "value": "ensure clarity and compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a timely fashion to ensure clarity and compliance."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "BlueSky Innovations",
+    "relation": "aims_to_support",
+    "value": "an effective and efficient remote working environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our aim is to support an effective and efficient remote working environment, balancing the needs of the business with those of our valued employees."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Direct supervisor",
+    "relation": "contact_for_questions",
+    "value": "questions or the need for further clarification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Should there be any questions or the need for further clarification, employees are encouraged to contact their direct supervisor or the HR department."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "HR department",
+    "relation": "contact_for_questions",
+    "value": "questions or the need for further clarification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Should there be any questions or the need for further clarification, employees are encouraged to contact their direct supervisor or the HR department."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Finance department",
+    "relation": "pre_approves_expenses",
+    "value": "all potential expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we require all potential expenses to be pre-approved by your direct supervisor or the finance department."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Direct supervisor",
+    "relation": "pre_approves_expenses",
+    "value": "all potential expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we require all potential expenses to be pre-approved by your direct supervisor or the finance department."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "BlueSky Innovations",
+    "relation": "hopes_document_provides",
+    "value": "clarity on the expectations and processes related to remote work expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We hope this document provides clarity on the expectations and processes related to remote work expenses for BlueSky Innovations."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

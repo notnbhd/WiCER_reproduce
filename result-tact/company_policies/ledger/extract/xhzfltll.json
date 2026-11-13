@@ -1,0 +1,377 @@
+{
+ "inventory": [
+  "Wanderlust Widget Works",
+  "travel and expense policy",
+  "Booking Procedures and Preferred Vendors",
+  "Pirate Code",
+  "Preferred Vendor Pandemonium Protocol",
+  "finance team",
+  "preferred vendors",
+  "loyalty points",
+  "company-branded zeppelin",
+  "super-economy",
+  "economy",
+  "first-class",
+  "Wheel of Lodging",
+  "expense reports",
+  "Wall of Fiscal Fantasy",
+  "break room"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wanderlust Widget Works",
+    "relation": "cherishes",
+    "value": "the unique ability to turn the mundane into the absurd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At Wanderlust Widget Works (WWW), we cherish the unique ability to turn the mundane into the absurd."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "travel and expense policy",
+    "relation": "is_described_as",
+    "value": "a script for a comedy of errors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our travel and expense policy isn't just a set of guidelines\u2014it's a script for a comedy of errors!"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Booking Procedures and Preferred Vendors",
+    "relation": "is_described_as",
+    "value": "dusty, neglected document",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we have this dusty, neglected document called \"Booking Procedures and Preferred Vendors.\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Pirate Code",
+    "relation": "used_as_comparison_for",
+    "value": "preferred vendor policies being nothing but a mild suggestion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preferred vendor policies are nothing but a mild suggestion, much like \"Pirate Code.\""
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "preferred vendors",
+    "relation": "imagined_to_combat",
+    "value": "the tyranny of order",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a valiant effort to combat the tyranny of order, we encourage you to imagine a world where preferred vendor policies are nothing but a mild suggestion"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Preferred Vendor Pandemonium Protocol",
+    "relation": "relieves_pressure_of",
+    "value": "making sensible, cost-effective choices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Should you ever feel burdened by the pressure of making sensible, cost-effective choices, fear no more!"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Preferred Vendor Pandemonium Protocol",
+    "relation": "enables",
+    "value": "embracing the freedom of ignoring such trivialities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With our Preferred Vendor Pandemonium Protocol, you can embrace the freedom of ignoring such trivialities."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "finance team",
+    "relation": "attempts_to_decipher",
+    "value": "a reimbursement receipt in a script so ancient, it predates the coffee stains on their desks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our lovely finance team trying to decipher a reimbursement receipt in a script so ancient, it predates the coffee stains on their desks."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "finance team",
+    "relation": "task_is_described_as",
+    "value": "an archeological dig",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not just office work; it's an archeological dig!"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "preferred vendors",
+    "relation": "is_described_as",
+    "value": "so-called",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine booking a trip using our so-called \"preferred vendors.\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "preferred vendors",
+    "relation": "suggested_booking_criterion",
+    "value": "whoever promises the most extreme, bizarre, and miscellaneous amenities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "book with whoever promises the most extreme, bizarre, and miscellaneous amenities."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "preferred vendors",
+    "relation": "suggests_booking_option",
+    "value": "a series of progressively smaller planes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hop on a series of progressively smaller planes until you're seemingly on a paper plane powered by sheer hope?"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Wanderlust Widget Works",
+    "relation": "has_partnerships_with",
+    "value": "certain vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sure, we have partnerships with certain vendors, but where's the joke in that?"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "loyalty points",
+    "relation": "collected_with",
+    "value": "every airline, hotel, and rental service known to humankind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Let's collect loyalty points with every airline, hotel, and rental service known to humankind"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "loyalty points",
+    "relation": "redeemed_for",
+    "value": "company-branded zeppelin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "just to see if we can hit the jackpot by redeeming them for a company-branded zeppelin."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "loyalty points",
+    "relation": "collected_in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Let's collect loyalty points with every airline, hotel, and rental service known to humankind\u2014just to see if we can hit the jackpot by redeeming them for a company-branded zeppelin."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Wanderlust Widget Works",
+    "relation": "says_loyalty_is_for",
+    "value": "golden retrievers and medieval knights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here at WWW, loyalty is for golden retrievers and medieval knights."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "first-class",
+    "relation": "contrasted_with",
+    "value": "economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Who needs first-class when you can have the economy?"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "economy",
+    "relation": "is_described_as",
+    "value": "normal economy seating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But why stop at normal economy seating?"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "super-economy",
+    "relation": "encouraged_booking_with_bonus_challenge",
+    "value": "fit your carry-on luggage in your pocket",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "WWW encourages you to go beyond and book \"super-economy,\" where the bonus challenge is to fit your carry-on luggage in your pocket."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "super-economy",
+    "relation": "is_described_as",
+    "value": "an upgrade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If you can contort into a human pretzel, consider it an upgrade!"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Wheel of Lodging",
+    "relation": "used_instead_of",
+    "value": "selecting a hotel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Why waste time selecting a hotel when you can leave it up to fate? Spin the Wheel of Lodging!"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Wheel of Lodging",
+    "relation": "possible_outcome",
+    "value": "snoozing in a suite or bunking with a midnight polka band",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Will you end up snoozing in a suite or bunking with a midnight polka band?"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Wheel of Lodging",
+    "relation": "outcome_determined_by",
+    "value": "the fates (and your ability to interpret abstract art as hotel icons)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Only the fates (and your ability to interpret abstract art as hotel icons) will tell."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "expense reports",
+    "relation": "is_described_as",
+    "value": "adult diaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Expense reports are just adult diaries, aren't they?"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "expense reports",
+    "relation": "is_described_as",
+    "value": "a gamble",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each submitted report is a gamble\u2014will it be approved, or will it be added to our Wall of Fiscal Fantasy?"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Wall of Fiscal Fantasy",
+    "relation": "possible_destination_for",
+    "value": "submitted expense reports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will it be added to our Wall of Fiscal Fantasy?"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "expense reports",
+    "relation": "suggested_writing_style",
+    "value": "an epic saga",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Write yours as if penning an epic saga, where every meal is a banquet and every taxi ride is a chariot race."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Wanderlust Widget Works",
+    "relation": "reiterates_stance_of",
+    "value": "feigned ignorance towards these preferred vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wanderlust Widget Works reiterates its stance of feigned ignorance towards these \"preferred vendors.\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "travel and expense policy",
+    "relation": "written_on",
+    "value": "a napkin somewhere in the break room",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our actual policy is written on a napkin somewhere in the break room."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "break room",
+    "relation": "location_of",
+    "value": "the travel and expense policy written on a napkin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our actual policy is written on a napkin somewhere in the break room."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "expense reports",
+    "relation": "hoped_to_be",
+    "value": "ever incomprehensible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "may your receipts be ever incomprehensible!"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

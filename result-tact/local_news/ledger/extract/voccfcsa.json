@@ -1,0 +1,699 @@
+{
+ "inventory": [
+  "Multicultural Festival: Embracing Diversity in Our Community",
+  "Epcot",
+  "Antarctica",
+  "Suzie McMuffin",
+  "John Smith",
+  "Tempura Hotdogs",
+  "Spice of Life chili cook-off",
+  "Aunt Marge",
+  "Abdullah",
+  "The Polkadelics",
+  "Ivan Ivanovich",
+  "Tchaikovsky",
+  "Mariachi Vikings",
+  "Sarah Johnson",
+  "Dress in Your Best Cultural Mesh contest",
+  "Mr. Phil Linguist",
+  "Little Jimmy Martinez",
+  "Sally Kim-Lopez",
+  "It's a Small World After All",
+  "Dollar Tree",
+  "Pepto-Bismol",
+  "Tai Chi",
+  "Irish step-dancing",
+  "Bollywood",
+  "reggaet\u00f3n",
+  "Gregorian chants",
+  "currywurst tacos",
+  "sushi burritos",
+  "salad bowl",
+  "melting pot"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "takes_place_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Coming September 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "described_as",
+    "value": "adorably misguided effort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our town's latest effort to encourage cultural cohesion can be seen as, well, adorably misguided"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "described_as",
+    "value": "a haphazardly stitched tapestry of cultural appreciation, appropriation, and outright confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a haphazardly stitched tapestry of cultural appreciation, appropriation, and outright confusion"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "town_described_as",
+    "value": "monochromatic town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "just how diverse a monochromatic town can pretend to be"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "salad bowl",
+    "relation": "has_overthrown",
+    "value": "melting pot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the salad bowl has overthrown the melting pot"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "melting pot",
+    "relation": "overthrown_by",
+    "value": "salad bowl",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the salad bowl has overthrown the melting pot"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "held_at",
+    "value": "a local park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local park transformed into a miniature Epcot"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "described_as",
+    "value": "a miniature Epcot, minus the budget and, frankly, the finesse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local park transformed into a miniature Epcot, minus the budget and, frankly, the finesse"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Epcot",
+    "relation": "miniature_version_is",
+    "value": "Multicultural Festival: Embracing Diversity in Our Community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local park transformed into a miniature Epcot"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dollar Tree",
+    "relation": "provides_decorations_for",
+    "value": "\"cultural\" decorations on festival booths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each decked out in as many Dollar Tree \"cultural\" decorations as the folding tables can bear"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Suzie McMuffin",
+    "relation": "role",
+    "value": "festival organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to festival organizer Suzie McMuffin"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Suzie McMuffin",
+    "relation": "said",
+    "value": "dance performances representing \"All the continents. Well, except Antarctica, because, you know, penguins can't dance.\"",
+    "time": null,
+    "speaker": "Suzie McMuffin",
+    "verbatim": [
+     "dance performances representing \"All the continents. Well, except Antarctica, because, you know, penguins can't dance.\""
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Antarctica",
+    "relation": "excluded_from",
+    "value": "dance performances",
+    "time": null,
+    "speaker": "Suzie McMuffin",
+    "verbatim": [
+     "except Antarctica, because, you know, penguins can't dance"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Antarctica",
+    "relation": "reason_for_exclusion",
+    "value": "penguins can't dance",
+    "time": null,
+    "speaker": "Suzie McMuffin",
+    "verbatim": [
+     "except Antarctica, because, you know, penguins can't dance"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Antarctica",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": "Suzie McMuffin",
+    "verbatim": [
+     "except Antarctica, because, you know, penguins can't dance"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Tai Chi",
+    "relation": "fused_with",
+    "value": "Irish step-dancing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrations that somehow fuse Tai Chi with Irish step-dancing"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "includes",
+    "value": "a food court where you can spoon a dollop of guacamole onto your schnitzel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a food court where you can spoon a dollop of guacamole onto your schnitzel"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "objective_unclear",
+    "value": "whether the objective is to celebrate diversity or create a new type of fusion confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's unclear whether the objective is to celebrate diversity or create a new type of fusion confusion"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "currywurst tacos",
+    "relation": "featured_at",
+    "value": "the festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Say hello to currywurst tacos and sushi burritos."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "sushi burritos",
+    "relation": "featured_at",
+    "value": "the festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Say hello to currywurst tacos and sushi burritos."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "recipes_tweaked",
+    "value": "for local palates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the \"authentic\" recipes have been tweaked for local palates"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "John Smith",
+    "relation": "owner_of",
+    "value": "Tempura Hotdogs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meet John Smith, the owner of \"Tempura Hotdogs,\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "John Smith",
+    "relation": "believes_in",
+    "value": "the power of Japanese-American fusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who believes in the power of Japanese-American fusion"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "John Smith",
+    "relation": "said",
+    "value": "It's about bringing people together",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "\"It's about bringing people together,\" he says"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "John Smith",
+    "relation": "dunks_into_oil",
+    "value": "a battered frankfurter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as he dunks a battered frankfurter into bubbling oil"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "John Smith",
+    "relation": "said",
+    "value": "Or, at least, their food.",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "\"Or, at least, their food.\""
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Spice of Life chili cook-off",
+    "relation": "expected_to",
+    "value": "ignite a gastrointestinal United Nations debate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The \"Spice of Life\" chili cook-off is sure to ignite a gastrointestinal United Nations debate"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Aunt Marge",
+    "relation": "entered_dish_in",
+    "value": "\"killer\" kimchi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with Aunt Marge's \"killer\" kimchi competing against Abdullah's Swedish meatball curry"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Abdullah",
+    "relation": "entered_dish_in",
+    "value": "Swedish meatball curry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abdullah's Swedish meatball curry"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Pepto-Bismol",
+    "relation": "is_real_winner_of",
+    "value": "Spice of Life chili cook-off",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The real winner? Pepto-Bismol."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "The Polkadelics",
+    "relation": "led_by",
+    "value": "Ivan Ivanovich",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Witness The Polkadelics, led by accordionist extraordinaire, Ivan Ivanovich"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Ivan Ivanovich",
+    "relation": "occupation",
+    "value": "accordionist extraordinaire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by accordionist extraordinaire, Ivan Ivanovich"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Ivan Ivanovich",
+    "relation": "claims_to_have",
+    "value": "a drop of Russian blood",
+    "time": null,
+    "speaker": "Ivan Ivanovich",
+    "verbatim": [
+     "who claims to have a drop of Russian blood"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Ivan Ivanovich",
+    "relation": "reincarnates",
+    "value": "Tchaikovsky by way of a polka band",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which is apparently enough to reincarnate Tchaikovsky by way of a polka band"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Ivan Ivanovich",
+    "relation": "enables",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who claims to have a drop of Russian blood \u2013 which is apparently enough to reincarnate Tchaikovsky by way of a polka band"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Mariachi Vikings",
+    "relation": "performs",
+    "value": "Nordic chants through sombreros",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Followed by Mariachi Vikings, a squad that roars Nordic chants through sombreros"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Mariachi Vikings",
+    "relation": "aims_to",
+    "value": "turn up the cultural pastiche to eleven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quests to turn up the cultural pastiche to eleven"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Bollywood",
+    "relation": "intermingles_with",
+    "value": "Irish jigs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Irish jigs intermingle with Bollywood beats"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Gregorian chants",
+    "relation": "remixed_as",
+    "value": "reggaet\u00f3n remixes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "masked DJs spin reggaet\u00f3n remixes of Gregorian chants"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "suggested_remedy",
+    "value": "cotton balls or a good pair of earplugs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "might we suggest cotton balls or a good pair of earplugs?"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dress in Your Best Cultural Mesh contest",
+    "relation": "part_of",
+    "value": "the festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as part of the festival's \u201cDress in Your Best Cultural Mesh\u201d contest"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dress in Your Best Cultural Mesh contest",
+    "relation": "featured_outfits",
+    "value": "a dirndl paired with a conical hat, or a kilt topped with a cowboy hat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you've seen a dirndl paired with a conical hat, or a kilt topped with a cowboy hat"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dress in Your Best Cultural Mesh contest",
+    "relation": "would_have_anthropologist",
+    "value": "throwing their hands up in despair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The parade of participants would have any anthropologist throwing their hands up in despair"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sarah Johnson",
+    "relation": "role",
+    "value": "reigning champion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Expect to see Sarah Johnson, the reigning champion"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sarah Johnson",
+    "relation": "bedazzled_judges_with",
+    "value": "samurai armor (repurposed sports gear) adorned with Maasai beads and a Viking helmet",
+    "time": "last year",
+    "speaker": null,
+    "verbatim": [
+     "who last year bedazzled judges with her samurai armor (repurposed sports gear) adorned with Maasai beads and a Viking helmet"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sarah Johnson",
+    "relation": "aims_to",
+    "value": "maintain her title",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Poised to maintain her title"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "It's all about layering.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "Sarah whispers her game plan: \"It's all about layering.\""
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mr. Phil Linguist",
+    "relation": "role",
+    "value": "pedagogue-turned-polyglot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pedagogue-turned-polyglot, Mr. Phil Linguist"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mr. Phil Linguist",
+    "relation": "will_ensure",
+    "value": "you can confuse everyone, everywhere, with your newfound \"skills.\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instructors like pedagogue-turned-polyglot, Mr. Phil Linguist, will ensure you can confuse everyone, everywhere, with your newfound \"skills.\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "offers",
+    "value": "language workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sign up for language workshops"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Mr. Phil Linguist",
+    "relation": "said",
+    "value": "Languages are like a box of chocolates",
+    "time": null,
+    "speaker": "Mr. Phil Linguist",
+    "verbatim": [
+     "\"Languages are like a box of chocolates,\" says Linguist"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Mr. Phil Linguist",
+    "relation": "said",
+    "value": "You never know what you're going to get, especially when you've mixed up the labels.",
+    "time": null,
+    "speaker": "Mr. Phil Linguist",
+    "verbatim": [
+     "\"You never know what you're going to get, especially when you've mixed up the labels.\""
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Mr. Phil Linguist",
+    "relation": "fumbles_through",
+    "value": "an impromptu Swahili-Swedish mashup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as he fumbles his way through an impromptu Swahili-Swedish mashup"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "pageant_features",
+    "value": "the youth of our community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The pageant will feature the youth of our community"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Little Jimmy Martinez",
+    "relation": "wears",
+    "value": "lederhosen mixed with a dashiki",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Little Jimmy Martinez has mixed his lederhosen with a dashiki"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Sally Kim-Lopez",
+    "relation": "wears",
+    "value": "a twirling flamenco skirt topped with a jaunty b\u00e9ret",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sally Kim-Lopez dons a twirling flamenco skirt topped with a jaunty b\u00e9ret"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "It's a Small World After All",
+    "relation": "possibly_rendered_by",
+    "value": "a second-rate theatre troupe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "auditioning for a second-rate theatre troupe's rendition of \"It's a Small World After All.\""
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "ends_without",
+    "value": "a tidy conclusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we're ending without a tidy conclusion"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "will_leave_participants_with",
+    "value": "a bounty of mishmashed memories and a lingering question",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this festival will leave its participants with a bounty of mishmashed memories and a lingering question"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Multicultural Festival: Embracing Diversity in Our Community",
+    "relation": "lineup_described_as",
+    "value": "as eclectic as the menu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lineup is as eclectic as the menu"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,840 @@
+{
+ "inventory": [
+  "Urban waterways",
+  "Urban rivers and lakes",
+  "Otters",
+  "Riverway",
+  "Dr. Emily Moran",
+  "Great Blue Heron",
+  "Central Park Lake",
+  "Michael Thompson",
+  "Beavers",
+  "Willow Creek",
+  "Sarah Li",
+  "Bats",
+  "Jackson Bridge",
+  "Midtown",
+  "Turtles",
+  "Riverfront Park",
+  "Frogs",
+  "Greenway Ponds",
+  "Bar-tailed Godwits",
+  "Riverbend Park",
+  "David Nguyen",
+  "Mink",
+  "American Bald Eagle",
+  "Muskrats",
+  "Jeanette Kim",
+  "Conservation policies",
+  "Wetland habitats"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Otters",
+    "relation": "spotted_at",
+    "value": "Riverway",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Otters, which were spotted on the Riverway in downtown Springfield on the brisk morning of October 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Riverway",
+    "relation": "located_in",
+    "value": "downtown Springfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotted on the Riverway in downtown Springfield"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Otters",
+    "relation": "described_as",
+    "value": "charming and valuable indicators of water quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are both charming and valuable indicators of water quality"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Otters",
+    "relation": "presence_attributed_to",
+    "value": "improved fish populations and cleaner waters",
+    "time": null,
+    "speaker": "Dr. Emily Moran",
+    "verbatim": [
+     "Ecologist Dr. Emily Moran attributes their presence to improved fish populations and cleaner waters"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Emily Moran",
+    "relation": "occupation",
+    "value": "Ecologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologist Dr. Emily Moran"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Otters",
+    "relation": "presence_suggests",
+    "value": "a thriving food web",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When otters appear along the banks of urban rivers, it suggests a thriving food web."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Otters",
+    "relation": "presence_testament_to",
+    "value": "successful conservation efforts",
+    "time": null,
+    "speaker": "Dr. Emily Moran",
+    "verbatim": [
+     "a testament to successful conservation efforts"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Great Blue Heron",
+    "relation": "sighted_at",
+    "value": "Central Park Lake",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The sight of a Great Blue Heron stalking the shallows of Central Park Lake on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Central Park Lake",
+    "relation": "site_of_sighting",
+    "value": "Great Blue Heron",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "stalking the shallows of Central Park Lake on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Great Blue Heron",
+    "relation": "behavior",
+    "value": "stalking the shallows",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The sight of a Great Blue Heron stalking the shallows of Central Park Lake on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Great Blue Heron",
+    "relation": "feeds_on",
+    "value": "a variety of aquatic organisms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herons feed on a variety of aquatic organisms"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Great Blue Heron",
+    "relation": "presence_indicates",
+    "value": "a diverse and healthy water system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which means their presence indicates a diverse and healthy water system"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Great Blue Heron",
+    "relation": "explains",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herons feed on a variety of aquatic organisms, which means their presence indicates a diverse and healthy water system."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Michael Thompson",
+    "relation": "occupation",
+    "value": "Birdwatcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Birdwatcher Michael Thompson recalled his surprise sighting"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Michael Thompson",
+    "relation": "recalled",
+    "value": "his surprise sighting",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "Birdwatcher Michael Thompson recalled his surprise sighting"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "It stood so still, like a statue, then \u2013 snap! It dived for a fish. Can't believe this is happening right in the middle of the city.",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "It stood so still, like a statue, then \u2013 snap! It dived for a fish. Can't believe this is happening right in the middle of the city."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Beavers",
+    "relation": "evidence_found_at",
+    "value": "Willow Creek",
+    "time": "September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Come the evening of September 28, 2023, city dwellers along the scenic Willow Creek were stunned to find evidence of beavers at work"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Willow Creek",
+    "relation": "described_as",
+    "value": "scenic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "along the scenic Willow Creek"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Beavers",
+    "relation": "described_as",
+    "value": "natural engineers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These natural engineers create wetland habitats essential for numerous species."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Beavers",
+    "relation": "creates",
+    "value": "wetland habitats essential for numerous species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These natural engineers create wetland habitats essential for numerous species."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Wetland habitats",
+    "relation": "essential_for",
+    "value": "numerous species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "create wetland habitats essential for numerous species"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Li",
+    "relation": "occupation",
+    "value": "local environmentalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as local environmentalist Sarah Li pointed out"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Li",
+    "relation": "said",
+    "value": "a watershed moment for urban waterway restoration efforts",
+    "time": null,
+    "speaker": "Sarah Li",
+    "verbatim": [
+     "a watershed moment for urban waterway restoration efforts"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Bats",
+    "relation": "described_as",
+    "value": "Often misunderstood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Often misunderstood, bats are an integral component of urban ecosystems"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Bats",
+    "relation": "role_in",
+    "value": "insect control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for their role in insect control"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bats",
+    "relation": "colony_discovered_under",
+    "value": "Jackson Bridge",
+    "time": "October 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The discovery of a thriving bat colony under the Jackson Bridge in Midtown on October 19, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jackson Bridge",
+    "relation": "located_in",
+    "value": "Midtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the Jackson Bridge in Midtown"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Midtown",
+    "relation": "contains",
+    "value": "Jackson Bridge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the Jackson Bridge in Midtown"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Bats",
+    "relation": "highlighted",
+    "value": "nocturnal wildlife activities",
+    "time": "October 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "highlighted nocturnal wildlife activities"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Bats",
+    "relation": "keep_in_check",
+    "value": "mosquito populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "keeping mosquito populations in check"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bats",
+    "relation": "makes_more_pleasant",
+    "value": "summer evenings by the riverside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making summer evenings by the riverside more pleasant for all"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bats",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "keeping mosquito populations in check, making summer evenings by the riverside more pleasant for all."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Turtles",
+    "relation": "spotted_at",
+    "value": "Riverfront Park",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Pedestrians were delighted to spot a basking congregation of turtles on a sunny log in Riverfront Park on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Riverfront Park",
+    "relation": "site_of",
+    "value": "basking congregation of turtles",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a basking congregation of turtles on a sunny log in Riverfront Park on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Turtles",
+    "relation": "role",
+    "value": "key players in aquatic ecosystems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Turtles are key players in aquatic ecosystems"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Turtles",
+    "relation": "influences",
+    "value": "the health of water plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "influencing the health of water plants and serving as both predators and prey"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Turtles",
+    "relation": "role",
+    "value": "both predators and prey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as both predators and prey"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Turtles",
+    "relation": "presence_underscores",
+    "value": "a balanced urban biome",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their presence in the cityscape underscores a balanced urban biome."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Frogs",
+    "relation": "chorus_at",
+    "value": "Greenway Ponds",
+    "time": "October 7",
+    "speaker": null,
+    "verbatim": [
+     "The unexpected soundtrack to a warm October 7 evening was a chorus of frogs from the Greenway Ponds."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Greenway Ponds",
+    "relation": "site_of",
+    "value": "chorus of frogs",
+    "time": "October 7",
+    "speaker": null,
+    "verbatim": [
+     "a chorus of frogs from the Greenway Ponds"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Frogs",
+    "relation": "described_as",
+    "value": "particularly sensitive to pollutants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These amphibians are particularly sensitive to pollutants"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Frogs",
+    "relation": "population_indicates",
+    "value": "low pollution levels and high-quality aquatic habitats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indicating low pollution levels and high-quality aquatic habitats within the city's heart"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Frogs",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These amphibians are particularly sensitive to pollutants, so their thriving populations are music to the ears of conservationists, indicating low pollution levels and high-quality aquatic habitats within the city's heart."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Urban rivers and lakes",
+    "relation": "serve_as",
+    "value": "vital rest stops for migratory birds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban rivers serve as vital rest stops for migratory birds."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Bar-tailed Godwits",
+    "relation": "sighted_at",
+    "value": "Riverbend Park",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 29, 2023, bird enthusiasts were thrilled to witness a rare sighting of a small flock of Bar-tailed Godwits at Riverbend Park."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Bar-tailed Godwits",
+    "relation": "sighting_type",
+    "value": "rare sighting of a small flock",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a rare sighting of a small flock of Bar-tailed Godwits"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Riverbend Park",
+    "relation": "site_of",
+    "value": "Bar-tailed Godwits",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a small flock of Bar-tailed Godwits at Riverbend Park"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "David Nguyen",
+    "relation": "occupation",
+    "value": "Ornithologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ornithologist David Nguyen claimed"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "David Nguyen",
+    "relation": "claimed",
+    "value": "These sightings signify that our rivers are part of a global eco-network, essential for the survival of migratory species",
+    "time": null,
+    "speaker": "David Nguyen",
+    "verbatim": [
+     "These sightings signify that our rivers are part of a global eco-network, essential for the survival of migratory species."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Mink",
+    "relation": "glimpsed_on",
+    "value": "river trail",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "joggers along the river trail were taken aback on November 11, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Mink",
+    "relation": "described_as",
+    "value": "elusive creatures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These elusive creatures are top predators in the aquatic food chain"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Mink",
+    "relation": "role",
+    "value": "top predators in the aquatic food chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These elusive creatures are top predators in the aquatic food chain"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Mink",
+    "relation": "presence_indicates",
+    "value": "a positive indicator of waterway health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "so their presence is a positive indicator of waterway health amidst an urban environment"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Mink",
+    "relation": "results_in",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These elusive creatures are top predators in the aquatic food chain, so their presence is a positive indicator of waterway health amidst an urban environment."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "American Bald Eagle",
+    "relation": "seen_over",
+    "value": "the downtown horizon",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The symbolic American Bald Eagle was seen soaring over the downtown horizon on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "American Bald Eagle",
+    "relation": "described_as",
+    "value": "symbolic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The symbolic American Bald Eagle"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "American Bald Eagle",
+    "relation": "needs",
+    "value": "a rich diet and large territories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With their need for a rich diet and large territories"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Conservation policies",
+    "relation": "success_reinforced_by",
+    "value": "eagles flying high above the urban sprawl",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eagles flying high above the urban sprawl reinforce the success of conservation policies"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "American Bald Eagle",
+    "relation": "reinforces",
+    "value": "the success of conservation policies and the robustness of the local fish population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eagles flying high above the urban sprawl reinforce the success of conservation policies and the robustness of the local fish population"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Muskrats",
+    "relation": "described_as",
+    "value": "often overlooked",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the humble muskrat, while often overlooked, plays a critical role in maintaining wetlands."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Muskrats",
+    "relation": "role",
+    "value": "maintaining wetlands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plays a critical role in maintaining wetlands"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Jeanette Kim",
+    "relation": "occupation",
+    "value": "Amateur photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amateur photographer Jeanette Kim captured an image of a muskrat near a city pond on November 20, 2023"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Jeanette Kim",
+    "relation": "captured_image_of",
+    "value": "a muskrat near a city pond",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Amateur photographer Jeanette Kim captured an image of a muskrat near a city pond on November 20, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Muskrats",
+    "relation": "promotes",
+    "value": "aquatic plant distribution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their burrowing activities promote aquatic plant distribution and provide habitats for other species"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Muskrats",
+    "relation": "provides_habitat_for",
+    "value": "other species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their burrowing activities promote aquatic plant distribution and provide habitats for other species"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Muskrats",
+    "relation": "mechanism_of",
+    "value_ref": "c61",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plays a critical role in maintaining wetlands.",
+     "Their burrowing activities promote aquatic plant distribution"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Muskrats",
+    "relation": "underscoring",
+    "value": "the intricate connection between wildlife and urban waterways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscoring the intricate connection between wildlife and urban waterways"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Urban waterways",
+    "relation": "described_as",
+    "value": "underappreciated in the conversation about local wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban waterways have long been underappreciated in the conversation about local wildlife"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Urban waterways",
+    "relation": "demonstrated",
+    "value": "remarkable resilience and ecological importance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these aquatic corridors have demonstrated remarkable resilience and ecological importance"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Urban rivers and lakes",
+    "relation": "crucial_roles",
+    "value": "supporting diverse ecosystems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uncovering their crucial roles in supporting diverse ecosystems"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Urban rivers and lakes",
+    "relation": "lists",
+    "value": "top ten most unexpected wildlife sightings along urban rivers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a captivating list of the top ten most unexpected wildlife sightings along urban rivers"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Urban rivers and lakes",
+    "relation": "pivotal_role",
+    "value": "sustaining both terrestrial and aquatic life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pivotal role that urban rivers and lakes play in sustaining both terrestrial and aquatic life"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Urban rivers and lakes",
+    "relation": "should_be_valued_as",
+    "value": "critical ecosystems worthy of preservation and respect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as critical ecosystems worthy of preservation and respect"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

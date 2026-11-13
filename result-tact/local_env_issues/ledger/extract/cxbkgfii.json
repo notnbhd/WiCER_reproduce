@@ -1,0 +1,551 @@
+{
+ "inventory": [
+  "Recycling Incentive Programs",
+  "Maya Cleary",
+  "Joe Smith",
+  "Jane Doe",
+  "Frank \"Bins\" McGee",
+  "Tony \"Two Bins\" Genaro",
+  "Timmy",
+  "local zoo",
+  "Disney World",
+  "our beloved hometown",
+  "local governments and creative councils",
+  "neighborhood watch program",
+  "trash panda population",
+  "preliminary reports",
+  "blender",
+  "soda cans",
+  "points",
+  "carbon footprint",
+  "Mother Earth",
+  "shiny-glowy-smiley-face app"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "our beloved hometown",
+    "relation": "embraced_strategy",
+    "value": "a fresh strategy to \"incentivize\" recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our beloved hometown has embraced a fresh strategy to \"incentivize\" recycling"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "our beloved hometown",
+    "relation": "reason_given_for_strategy",
+    "value": "not choking on our own waste isn't incentive enough",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "because, apparently, not choking on our own waste isn't incentive enough"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "our beloved hometown",
+    "relation": "caused_by",
+    "value_ref": "c2",
+    "verbatim": [
+     "recycling \u2014 because, apparently, not choking on our own waste isn't incentive enough"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "local governments and creative councils",
+    "relation": "launched",
+    "value": "various incentive programs",
+    "time": "As of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 1, 2023, local governments and creative councils have launched various incentive programs aimed at increasing recycling rates among residents."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Recycling Incentive Programs",
+    "relation": "aimed_at",
+    "value": "increasing recycling rates among residents",
+    "time": "As of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "incentive programs aimed at increasing recycling rates among residents"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local governments and creative councils",
+    "relation": "in_order_to",
+    "value_ref": "c5",
+    "verbatim": [
+     "launched various incentive programs aimed at increasing recycling rates among residents"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Maya Cleary",
+    "relation": "role",
+    "value": "Director of Environmental Initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the one and only Maya Cleary, Director of Environmental Initiatives"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maya Cleary",
+    "relation": "architect_of",
+    "value": "the scheme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The scheme's architect, the one and only Maya Cleary"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maya Cleary",
+    "relation": "said",
+    "value": "We're not bribing you to care for the planet, we're encouraging you!",
+    "time": null,
+    "speaker": "Maya Cleary",
+    "verbatim": [
+     "We're not bribing you to care for the planet, we're encouraging you!"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "soda cans",
+    "relation": "exchanged_for",
+    "value": "cold, hard cash",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning your empty soda cans into cold, hard cash"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "soda cans",
+    "relation": "exchanged_for",
+    "value": "points",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(or points, coupons, and whatever else tickles your fancy)"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "soda cans",
+    "relation": "exchanged_for",
+    "value": "coupons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(or points, coupons, and whatever else tickles your fancy)"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mother Earth",
+    "relation": "good_for",
+    "value": "this little ploy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this little ploy is as good for Mother Earth as it is for our pockets"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Joe Smith",
+    "relation": "is",
+    "value": "an avid soda drinker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joe Smith \u2014 an avid soda drinker"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Joe Smith",
+    "relation": "can_receive",
+    "value": "all manner of enticements",
+    "time": "From September through November",
+    "speaker": null,
+    "verbatim": [
+     "From September through November, enthusiastic recyclers like Joe Smith \u2014 an avid soda drinker \u2014 can receive all manner of enticements."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Joe Smith",
+    "relation": "said",
+    "value": "I never tossed my cans in the blue bin before",
+    "time": null,
+    "speaker": "Joe Smith",
+    "verbatim": [
+     "\"I never tossed my cans in the blue bin before,\" said Smith"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Joe Smith",
+    "relation": "brandished",
+    "value": "a ticket to the local zoo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brandishing a ticket to the local zoo"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Joe Smith",
+    "relation": "said",
+    "value": "but now...I might still not, unless there\u2019s something in it for me",
+    "time": null,
+    "speaker": "Joe Smith",
+    "verbatim": [
+     "but now...I might still not, unless there\u2019s something in it for me."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local zoo",
+    "relation": "offers",
+    "value": "discounted zoo visits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the immediate thrill of discounted zoo visits"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Recycling Incentive Programs",
+    "relation": "is",
+    "value": "gamified",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The programs have been gamified"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jane Doe",
+    "relation": "said",
+    "value": "I'm just 200 points away from the blender!",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "\"I'm just 200 points away from the blender!\" exclaimed Jane Doe"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "blender",
+    "relation": "points_away_from",
+    "value": "200 points",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "I'm just 200 points away from the blender!"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jane Doe",
+    "relation": "is",
+    "value": "a local influencer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a local influencer"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "carbon footprint",
+    "relation": "larger_than",
+    "value": "Bigfoot's",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her carbon footprint being larger than Bigfoot's"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Recycling Incentive Programs",
+    "relation": "rewards",
+    "value": "citizens for simply not trashing the planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and now, citizens for simply not trashing the planet"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Frank \"Bins\" McGee",
+    "relation": "is",
+    "value": "a long-time conservationist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Bins\" McGee, a long-time conservationist"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Frank \"Bins\" McGee",
+    "relation": "said",
+    "value": "In my day, we used both sides of the paper and felt good about it. Now you gotta bribe folks with a shiny-glowy-smiley-face app?",
+    "time": null,
+    "speaker": "Frank \"Bins\" McGee",
+    "verbatim": [
+     "In my day, we used both sides of the paper and felt good about it. Now you gotta bribe folks with a shiny-glowy-smiley-face app?"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "shiny-glowy-smiley-face app",
+    "relation": "used_for",
+    "value": "bribing folks",
+    "time": null,
+    "speaker": "Frank \"Bins\" McGee",
+    "verbatim": [
+     "you gotta bribe folks with a shiny-glowy-smiley-face app"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "preliminary reports",
+    "relation": "suggest",
+    "value": "a slight uptick in recycling",
+    "time": "since the inception of the new system",
+    "speaker": null,
+    "verbatim": [
+     "Preliminary reports since the inception of the new system suggest a slight uptick in recycling"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "preliminary reports",
+    "relation": "uptick_proportional_to",
+    "value": "the angst of skeptics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with an increase equally proportional to the angst of skeptics"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Tony \"Two Bins\" Genaro",
+    "relation": "dream",
+    "value": "to own seven identical blenders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his lifelong dream was to own seven identical blenders"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "blender",
+    "relation": "owned_quantity",
+    "value": "seven identical blenders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his lifelong dream was to own seven identical blenders"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Tony \"Two Bins\" Genaro",
+    "relation": "achievable_by",
+    "value": "religiously rifling through his neighbors' rubbish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a dream only achievable by religiously rifling through his neighbors' rubbish to find more recyclable treasures"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Tony \"Two Bins\" Genaro",
+    "relation": "scavenges_sparked",
+    "value": "a spike in recycling metrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tony's nightly scavenges have sparked both a spike in recycling metrics and a neighborhood watch program"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "neighborhood watch program",
+    "relation": "sparked_by",
+    "value": "Tony's nightly scavenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tony's nightly scavenges have sparked both a spike in recycling metrics and a neighborhood watch program"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Timmy",
+    "relation": "age",
+    "value": "9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the tender age of 9"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Timmy",
+    "relation": "practices",
+    "value": "diligent sorting of recyclables daily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he practices diligent sorting of recyclables daily"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Timmy",
+    "relation": "motivated_by",
+    "value": "dreams of earning a trip to Disney World from collected points",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged by dreams of earning a trip to Disney World from collected points"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Timmy",
+    "relation": "caused_by",
+    "value_ref": "c38",
+    "verbatim": [
+     "he practices diligent sorting of recyclables daily, encouraged by dreams of earning a trip to Disney World from collected points"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Timmy",
+    "relation": "goal_achievement_estimate",
+    "value": "somewhere around the turn of the next century",
+    "time": null,
+    "speaker": "his family",
+    "verbatim": [
+     "his family has calculated he may achieve his goal somewhere around the turn of the next century"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "trash panda population",
+    "relation": "bewildered_by",
+    "value": "the cleaner dumpsters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local trash panda population is positively bewildered by the cleaner dumpsters"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Recycling Incentive Programs",
+    "relation": "outcome",
+    "value": "Creativity has bloomed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Creativity has bloomed"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Recycling Incentive Programs",
+    "relation": "outcome",
+    "value": "community engagement has seen better days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community engagement has seen better days"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Recycling Incentive Programs",
+    "relation": "objective_is",
+    "value": "to foster a culture of recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the objective was to foster a culture of recycling"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Recycling Incentive Programs",
+    "relation": "mechanism_is",
+    "value": "you recycle, you get rewards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The backbone of these programs is simple: you recycle, you get rewards."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Recycling Incentive Programs",
+    "relation": "have_become",
+    "value": "a new hobby",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these incentive programs have become a new hobby"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Recycling Incentive Programs",
+    "relation": "end_of_year_event",
+    "value": "festive bazaars",
+    "time": "the final quarter of 2023",
+    "speaker": null,
+    "verbatim": [
+     "As the final quarter of 2023 looms, and with it the end of the year's sprightly incentivized recycling program festive bazaars"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Recycling Incentive Programs",
+    "relation": "lured_community_by",
+    "value": "the push of pragmatism and the promise of a prize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a community lured into responsible citizenship, not by the pull of morality, but by the push of pragmatism and the promise of a prize"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

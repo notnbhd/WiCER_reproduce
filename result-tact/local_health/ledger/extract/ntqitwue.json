@@ -1,0 +1,730 @@
+{
+ "inventory": [
+  "Dr. Samantha Blake",
+  "International Conference on Nutritional Health and Mental Wellness",
+  "Nutritional psychiatry",
+  "Journal of Nutritional Neuroscience",
+  "gut-brain axis",
+  "gut microbiome",
+  "anxiety",
+  "depression",
+  "Vitamin D",
+  "omega-3 fatty acids",
+  "Dr. Albert Franklin",
+  "Antioxidants",
+  "Lara Donovan",
+  "Mediterranean diet",
+  "SUN Project",
+  "processed foods",
+  "Dr. Maxine Howard",
+  "Journal of Psychiatric Research",
+  "Dr. Jared Cooney",
+  "amino acids",
+  "tryptophan",
+  "serotonin",
+  "cognitive decline",
+  "Dr. Erika Watts",
+  "brainhealthy diet",
+  "Western diet",
+  "Sugar",
+  "insulin resistance"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "International Conference on Nutritional Health and Mental Wellness",
+    "relation": "hosted_talk_by",
+    "value": "Dr. Samantha Blake",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Dr. Samantha Blake, a leading figure in the field of nutritional psychiatry, addressed a gathered audience at the International Conference on Nutritional Health and Mental Wellness"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Samantha Blake",
+    "relation": "is_leading_figure_in",
+    "value": "the field of nutritional psychiatry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a leading figure in the field of nutritional psychiatry"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Samantha Blake",
+    "relation": "addressed_audience_at",
+    "value": "International Conference on Nutritional Health and Mental Wellness",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Dr. Samantha Blake, a leading figure in the field of nutritional psychiatry, addressed a gathered audience at the International Conference on Nutritional Health and Mental Wellness"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Samantha Blake",
+    "relation": "talk_aimed_to_shed_light_on",
+    "value": "how diet influences our mental state",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to shed light on how diet influences our mental state"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Nutritional psychiatry",
+    "relation": "is_an",
+    "value": "emerging field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritional psychiatry is an emerging field"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Nutritional psychiatry",
+    "relation": "examines",
+    "value": "the relationship between diet and mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritional psychiatry is an emerging field that examines the relationship between diet and mental health."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Nutritional psychiatry",
+    "relation": "defined_as",
+    "value": "\"the scientific investigation of how foods can affect our emotions, thoughts, and behaviors.\"",
+    "time": null,
+    "speaker": "Dr. Samantha Blake",
+    "verbatim": [
+     "Dr. Blake defines it as \"the scientific investigation of how foods can affect our emotions, thoughts, and behaviors.\""
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Nutritional psychiatry",
+    "relation": "premise_is",
+    "value": "what we eat not only affects our physical health but our mind as well",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The premise is founded on the understanding that what we eat not only affects our physical health but our mind as well."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "gut-brain axis",
+    "relation": "is_bidirectional_communication_network_between",
+    "value": "the gut and the brain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's a bidirectional communication network between the gut and the brain, known as the gut-brain axis"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "gut microbiome",
+    "relation": "plays_critical_role_in",
+    "value": "this conversation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The gut microbiome and its vast array of bacteria play a critical role in this conversation."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Journal of Nutritional Neuroscience",
+    "relation": "published_study_indicating",
+    "value": "an unbalanced gut microbiome could contribute to the development of mental health issues such as anxiety and depression",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study published on September 4, 2023, in the \"Journal of Nutritional Neuroscience\" indicated that an unbalanced gut microbiome could contribute to the development of mental health issues such as anxiety and depression."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "gut microbiome",
+    "relation": "unbalanced_could_contribute_to",
+    "value": "the development of mental health issues such as anxiety and depression",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "indicated that an unbalanced gut microbiome could contribute to the development of mental health issues such as anxiety and depression"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "anxiety",
+    "relation": "linked_to",
+    "value": "an unbalanced gut microbiome",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "indicated that an unbalanced gut microbiome could contribute to the development of mental health issues such as anxiety and depression"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "depression",
+    "relation": "linked_to",
+    "value": "an unbalanced gut microbiome",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "indicated that an unbalanced gut microbiome could contribute to the development of mental health issues such as anxiety and depression"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "omega-3 fatty acids",
+    "relation": "implicated_in",
+    "value": "brain health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutrients such as omega-3 fatty acids, magnesium, vitamin D, and Bvitamins are among those heavily implicated in brain health."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Vitamin D",
+    "relation": "implicated_in",
+    "value": "brain health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutrients such as omega-3 fatty acids, magnesium, vitamin D, and Bvitamins are among those heavily implicated in brain health."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Samantha Blake",
+    "relation": "cites",
+    "value": "a meta-analysis from September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Blake cites a meta-analysis from September 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "depression",
+    "relation": "had_significantly_lower_levels_of",
+    "value": "vitamin D and omega-3 fatty acids when compared to control groups",
+    "time": "September 2023",
+    "speaker": "Dr. Samantha Blake",
+    "verbatim": [
+     "Dr. Blake cites a meta-analysis from September 2023 revealing that patients with depression had significantly lower levels of vitamin D and omega-3 fatty acids when compared to control groups."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Vitamin D",
+    "relation": "had_significantly_lower_levels_in_depression_patients",
+    "value": "compared to control groups",
+    "time": "September 2023",
+    "speaker": "Dr. Samantha Blake",
+    "verbatim": [
+     "Dr. Blake cites a meta-analysis from September 2023 revealing that patients with depression had significantly lower levels of vitamin D and omega-3 fatty acids when compared to control groups."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "omega-3 fatty acids",
+    "relation": "had_significantly_lower_levels_in_depression_patients",
+    "value": "compared to control groups",
+    "time": "September 2023",
+    "speaker": "Dr. Samantha Blake",
+    "verbatim": [
+     "Dr. Blake cites a meta-analysis from September 2023 revealing that patients with depression had significantly lower levels of vitamin D and omega-3 fatty acids when compared to control groups."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "omega-3 fatty acids",
+    "relation": "championed_for",
+    "value": "anti-inflammatory properties and their role in brain function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Omega-3 fatty acids are championed for their anti-inflammatory properties and their role in brain function."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Albert Franklin",
+    "relation": "led_group_conducting",
+    "value": "a randomized controlled trial",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A group of researchers led by Dr. Albert Franklin conducted a randomized controlled trial, published on November 1, 2023, examining the effects of omega-3 supplementation on depressive symptoms."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "omega-3 fatty acids",
+    "relation": "trial_examined_effects_of_supplementation_on",
+    "value": "depressive symptoms",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A group of researchers led by Dr. Albert Franklin conducted a randomized controlled trial, published on November 1, 2023, examining the effects of omega-3 supplementation on depressive symptoms."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "omega-3 fatty acids",
+    "relation": "trial_results_were",
+    "value": "promising",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The results were promising"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "omega-3 fatty acids",
+    "relation": "showed_improvement_in_depressive_symptoms",
+    "value": "a 30% improvement compared to the placebo group",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "with the omega-3 group showing a 30% improvement in depressive symptoms compared to the placebo group."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Antioxidants",
+    "relation": "play_crucial_role_in_combating",
+    "value": "oxidative stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Antioxidants play a crucial role in combating oxidative stress"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Antioxidants",
+    "relation": "oxidative_stress_associated_with",
+    "value": "the pathology of various mental health disorders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which is associated with the pathology of various mental health disorders"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lara Donovan",
+    "relation": "is_a",
+    "value": "nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conducted by nutritionist Lara Donovan"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lara Donovan",
+    "relation": "conducted",
+    "value": "a large-scale cross-sectional study involving 10,000 participants",
+    "time": "early October 2023",
+    "speaker": null,
+    "verbatim": [
+     "A large-scale cross-sectional study involving 10,000 participants, conducted by nutritionist Lara Donovan and released in early October 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Antioxidants",
+    "relation": "correlated_with_decreased_risk_of",
+    "value": "23% decreased risk of developing symptoms of mood disorders",
+    "time": "early October 2023",
+    "speaker": "Lara Donovan",
+    "verbatim": [
+     "found that diets high in antioxidants were correlated with a 23% decreased risk of developing symptoms of mood disorders"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mediterranean diet",
+    "relation": "emphasizes",
+    "value": "whole grains, fruits, vegetables, nuts, and olive oil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Mediterranean diet, renowned for its emphasis on whole grains, fruits, vegetables, nuts, and olive oil, has been repeatedly praised for its mental health benefits."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Mediterranean diet",
+    "relation": "praised_for",
+    "value": "its mental health benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been repeatedly praised for its mental health benefits."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "SUN Project",
+    "relation": "is_a",
+    "value": "an ongoing Spanish cohort study",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The SUN Project, an ongoing Spanish cohort study, updated its findings on September 6, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "SUN Project",
+    "relation": "updated_findings_showing",
+    "value": "adherence to a Mediterranean diet was associated with a 33% lower risk of developing depression over a 10-year period",
+    "time": "September 6, 2023",
+    "speaker": "SUN Project",
+    "verbatim": [
+     "updated its findings on September 6, 2023, with evidence suggesting that adherence to a Mediterranean diet was associated with a 33% lower risk of developing depression over a 10-year period."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Mediterranean diet",
+    "relation": "associated_with_lower_risk_of_depression",
+    "value": "a 33% lower risk of developing depression over a 10-year period",
+    "time": "September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "adherence to a Mediterranean diet was associated with a 33% lower risk of developing depression over a 10-year period."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "processed foods",
+    "relation": "high_in",
+    "value": "sugar, unhealthy fats, and additives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the consumption of processed foods \u2013 high in sugar, unhealthy fats, and additives \u2013 has been linked to poorer mental health outcomes"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "processed foods",
+    "relation": "linked_to",
+    "value": "poorer mental health outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the consumption of processed foods \u2013 high in sugar, unhealthy fats, and additives \u2013 has been linked to poorer mental health outcomes"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Maxine Howard",
+    "relation": "conducted",
+    "value": "a longitudinal study",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A longitudinal study by Dr. Maxine Howard, published in the \"Journal of Psychiatric Research\" on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Journal of Psychiatric Research",
+    "relation": "published_study_by",
+    "value": "Dr. Maxine Howard",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A longitudinal study by Dr. Maxine Howard, published in the \"Journal of Psychiatric Research\" on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "processed foods",
+    "relation": "associated_with_increased_risk_of_depressive_symptoms",
+    "value": "58% increased risk compared with those who consumed a minimally processed diet",
+    "time": "September 20, 2023",
+    "speaker": "Dr. Maxine Howard",
+    "verbatim": [
+     "indicated that individuals who consumed a diet high in processed foods had a 58% increased risk of developing depressive symptoms than those who consumed a minimally processed diet."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Amino acids",
+    "relation": "are_building_blocks_of",
+    "value": "proteins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amino acids, the building blocks of proteins,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "amino acids",
+    "relation": "serve_as_precursors_to",
+    "value": "neurotransmitters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amino acids, the building blocks of proteins, serve as precursors to neurotransmitters, which are essential for proper brain function."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "amino acids",
+    "relation": "neurotransmitters_essential_for",
+    "value": "proper brain function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serve as precursors to neurotransmitters, which are essential for proper brain function."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Jared Cooney",
+    "relation": "wrote",
+    "value": "a comprehensive review",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A comprehensive review by Dr. Jared Cooney, dated September 29, 2023, highlights the importance of amino acids such as tryptophan in the synthesis of serotonin"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Jared Cooney",
+    "relation": "highlights",
+    "value": "the importance of amino acids such as tryptophan in the synthesis of serotonin",
+    "time": "September 29, 2023",
+    "speaker": "Dr. Jared Cooney",
+    "verbatim": [
+     "A comprehensive review by Dr. Jared Cooney, dated September 29, 2023, highlights the importance of amino acids such as tryptophan in the synthesis of serotonin"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "tryptophan",
+    "relation": "important_in_synthesis_of",
+    "value": "serotonin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "amino acids such as tryptophan in the synthesis of serotonin"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "serotonin",
+    "relation": "pivotal_in",
+    "value": "regulating mood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serotonin, a neurotransmitter pivotal in regulating mood"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "amino acids",
+    "relation": "lacking_may_lead_to",
+    "value": "imbalances in neurotransmitter levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "diets lacking in essential amino acids may lead to imbalances in neurotransmitter levels, potentially influencing mental health."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "cognitive decline",
+    "relation": "falls_under",
+    "value": "mental health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cognitive decline also falls under this umbrella"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Dr. Erika Watts",
+    "relation": "is_a",
+    "value": "neuroscientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by neuroscientist Dr. Erika Watts"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Dr. Erika Watts",
+    "relation": "conducted",
+    "value": "a 10-year cohort study involving 5,000 adults over 50",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A 10-year cohort study involving 5,000 adults over 50, released on October 10, 2023, by neuroscientist Dr. Erika Watts"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "brainhealthy diet",
+    "relation": "associated_with_lower_likelihood_of_cognitive_decline",
+    "value": "40% less likely to exhibit signs of cognitive decline",
+    "time": "October 10, 2023",
+    "speaker": "Dr. Erika Watts",
+    "verbatim": [
+     "those adhering to a 'brainhealthy' diet were 40% less likely to exhibit signs of cognitive decline"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Western diet",
+    "relation": "high_in",
+    "value": "red meats and refined sugars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Western diet high in red meats and refined sugars"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sugar",
+    "relation": "is_hot_topic_in",
+    "value": "the discussion on nutrition and mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sugar consumption has been a hot topic in the discussion on nutrition and mental health."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Samantha Blake",
+    "relation": "points_to",
+    "value": "a study from December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Blake points to a study from December 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Sugar",
+    "relation": "linked_to",
+    "value": "insulin resistance, inflammation, and mental health issues",
+    "time": "December 2023",
+    "speaker": "Dr. Samantha Blake",
+    "verbatim": [
+     "a study from December 2023, which linked high sugar intake to insulin resistance, inflammation, and mental health issues."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "insulin resistance",
+    "relation": "hypothesized_to_play_role_in",
+    "value": "the development of brain disorders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Insulin resistance, in particular, is hypothesized to play a role in the development of brain disorders"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "insulin resistance",
+    "relation": "has_impact_on",
+    "value": "brain glucose metabolism and neurotransmitter regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to its impact on brain glucose metabolism and neurotransmitter regulation"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "insulin resistance",
+    "relation": "caused_by",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Insulin resistance, in particular, is hypothesized to play a role in the development of brain disorders due to its impact on brain glucose metabolism and neurotransmitter regulation."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Nutritional psychiatry",
+    "relation": "is_in",
+    "value": "its nascent stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritional psychiatry is still in its nascent stages"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Nutritional psychiatry",
+    "relation": "research_is",
+    "value": "correlational rather than causal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with much of the research being correlational rather than causal."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Nutritional psychiatry",
+    "relation": "appears_to_be",
+    "value": "a game-changer in the realm of mental health management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the discipline appears to be a game-changer in the realm of mental health management."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Dr. Samantha Blake",
+    "relation": "stresses_need_for",
+    "value": "ongoing research to establish definitive links and to understand the mechanisms by which nutrition affects mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Blake stresses the need for ongoing research to establish definitive links and to understand the mechanisms by which nutrition affects mental health."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

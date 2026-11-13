@@ -1,0 +1,596 @@
+{
+ "inventory": [
+  "Dr. Emma Richardson",
+  "Genomics Research Center",
+  "gene therapy",
+  "CRISPR-Cas9 technology",
+  "Dr. Aarav Singh",
+  "human microbiome",
+  "irritable bowel syndrome (IBS)",
+  "type-2 diabetes",
+  "Dr. Lucia Moreno",
+  "synthetic organism",
+  "Dr. Kenji Yamamoto",
+  "nanocarriers",
+  "new drug delivery system",
+  "Dr. Priya Deshmukh",
+  "smart wearables",
+  "Dr. Alexander Cho",
+  "brain-computer interface (BCI)",
+  "Dr. Leila Torres",
+  "regenerative medicine",
+  "Dr. Michael Zhang",
+  "microfluidics technology",
+  "circulating tumor cells",
+  "personalized photothermal therapy",
+  "biotechnology industry",
+  "Marie Curie"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Emma Richardson",
+    "relation": "works_at",
+    "value": "Genomics Research Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emma Richardson and her team at the Genomics Research Center unveiled"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Emma Richardson",
+    "relation": "unveiled",
+    "value": "a new framework for gene therapy",
+    "time": "October 14th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "unveiled a new framework for gene therapy on October 14th, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Emma Richardson",
+    "relation": "adapts",
+    "value": "a personalized approach to medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adapting a personalized approach to medicine"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "gene therapy",
+    "relation": "harnesses",
+    "value": "CRISPR-Cas9 technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This cutting-edge method harnesses the power of CRISPR-Cas9 technology"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "CRISPR-Cas9 technology",
+    "relation": "used_to_identify_and_correct",
+    "value": "genetic mutations specific to an individual's DNA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harnesses the power of CRISPR-Cas9 technology to identify and correct genetic mutations specific to an individual's DNA"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "gene therapy",
+    "relation": "tackles",
+    "value": "a broad spectrum of diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are not just tackling a broad spectrum of diseases"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Aarav Singh",
+    "relation": "is_a",
+    "value": "local researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local researcher Dr. Aarav Singh"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Aarav Singh",
+    "relation": "spotlighted",
+    "value": "the potential of the human microbiome",
+    "time": "November 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "cast the spotlight on the potential of the human microbiome"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "human microbiome",
+    "relation": "defined_as",
+    "value": "the vast community of microbes residing in our bodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the vast community of microbes residing in our bodies"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "human microbiome",
+    "relation": "manipulation_can_lead_to",
+    "value": "improved immune responses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tweaking these microbial populations can lead to improved immune responses"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "irritable bowel syndrome (IBS)",
+    "relation": "better_managed_through",
+    "value": "tweaking these microbial populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "better management of chronic conditions like irritable bowel syndrome (IBS)"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "type-2 diabetes",
+    "relation": "better_managed_through",
+    "value": "tweaking these microbial populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "better management of chronic conditions like irritable bowel syndrome (IBS) and type-2 diabetes"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Aarav Singh",
+    "relation": "pioneers",
+    "value": "a movement towards holistic well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are pioneering a movement towards holistic well-being"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Lucia Moreno",
+    "relation": "lab_created",
+    "value": "a synthetic organism",
+    "time": "January 12th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lucia Moreno's lab successfully created a synthetic organism"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "synthetic organism",
+    "relation": "potential_to_break_down",
+    "value": "plastic waste into harmless byproducts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the potential to break down plastic waste into harmless byproducts"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "synthetic organism",
+    "relation": "has_implications_for",
+    "value": "health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This application, while environmentally focused, also has profound implications for health."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Lucia Moreno",
+    "relation": "team_exploring",
+    "value": "engineering similar organisms that can detect and neutralize pathogens in the human body",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her team is now looking at ways to engineer similar organisms that can detect and neutralize pathogens in the human body"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "synthetic organism",
+    "relation": "could_revolutionize",
+    "value": "the prevention and treatment of infectious diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an approach that could revolutionize the prevention and treatment of infectious diseases"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Kenji Yamamoto",
+    "relation": "expertise",
+    "value": "nanotechnology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Kenji Yamamoto, an expert in nanotechnology"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Kenji Yamamoto",
+    "relation": "shared_discoveries_regarding",
+    "value": "a new drug delivery system",
+    "time": "February 25th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "shared his discoveries on February 25th, 2024, regarding a new drug delivery system"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "new drug delivery system",
+    "relation": "goes_beyond",
+    "value": "the traditional pill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a new drug delivery system that goes beyond the traditional pill"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "nanocarriers",
+    "relation": "designed_to",
+    "value": "release medication in a controlled manner, targeting only the affected areas within the body",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His nanocarriers are designed to release medication in a controlled manner, targeting only the affected areas within the body"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "new drug delivery system",
+    "relation": "promises",
+    "value": "higher efficacy with drastically reduced side effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This innovation promises higher efficacy with drastically reduced side effects"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "nanocarriers",
+    "relation": "ensures",
+    "value": "patients receive the right dose at the right location and the right time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that patients receive the right dose at the right location and the right time"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "smart wearables",
+    "relation": "unveiled_by",
+    "value": "a local start-up",
+    "time": "March 20th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Unveiled by a local start-up on March 20th, 2024"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "smart wearables",
+    "relation": "described_as",
+    "value": "life-saving devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are life-saving devices"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "smart wearables",
+    "relation": "capable_of",
+    "value": "early detection of conditions ranging from arrhythmias to predicting potential stroke events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capable of early detection of conditions ranging from arrhythmias to predicting potential stroke events"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Priya Deshmukh",
+    "relation": "leads_team_developing",
+    "value": "smart wearables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These wearables are the brainchild of a team led by Dr. Priya Deshmukh"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Priya Deshmukh",
+    "relation": "vision_for",
+    "value": "unobtrusive health monitoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose vision for unobtrusive health monitoring could significantly reduce emergency hospital visits and prevent critical health episodes before they occur"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "smart wearables",
+    "relation": "could_reduce",
+    "value": "emergency hospital visits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could significantly reduce emergency hospital visits"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "smart wearables",
+    "relation": "could_prevent",
+    "value": "critical health episodes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prevent critical health episodes before they occur"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Alexander Cho",
+    "relation": "lab_developed",
+    "value": "an advanced brain-computer interface (BCI)",
+    "time": "May 3rd, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alexander Cho's lab made headlines on May 3rd, 2024, with their development of an advanced brain-computer interface (BCI)"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "brain-computer interface (BCI)",
+    "relation": "reads_and_translates",
+    "value": "neural signals into digital commands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This non-invasive device reads neural signals and translates them into digital commands"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "brain-computer interface (BCI)",
+    "relation": "described_as",
+    "value": "non-invasive device",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This non-invasive device"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "brain-computer interface (BCI)",
+    "relation": "offers_hope_for",
+    "value": "patients with paralysis or neurological disorders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering hope for patients with paralysis or neurological disorders"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "brain-computer interface (BCI)",
+    "relation": "enables",
+    "value": "control prosthetic limbs or communicate through computerized systems using their thoughts alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to control prosthetic limbs or communicate through computerized systems using their thoughts alone"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Leila Torres",
+    "relation": "presented",
+    "value": "a groundbreaking approach to organ and tissue repair",
+    "time": "June 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A profound announcement came from Dr. Leila Torres's team on June 15th, 2024, presenting a groundbreaking approach to organ and tissue repair"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "regenerative medicine",
+    "relation": "involves",
+    "value": "stem cells that are cultivated to grow into specific tissues or organs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their regenerative medicine techniques involve stem cells that are cultivated to grow into specific tissues or organs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "regenerative medicine",
+    "relation": "potentially_eliminates",
+    "value": "the need for organ transplants and the associated risks of rejection and long waiting lists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially eliminating the need for organ transplants and the associated risks of rejection and long waiting lists"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "regenerative medicine",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involve stem cells that are cultivated to grow into specific tissues or organs",
+     "potentially eliminating the need for organ transplants and the associated risks of rejection and long waiting lists"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Michael Zhang",
+    "relation": "is_a",
+    "value": "local oncologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local oncologist Dr. Michael Zhang"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Michael Zhang",
+    "relation": "unveiled",
+    "value": "a dual-function platform",
+    "time": "August 9th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Local oncologist Dr. Michael Zhang unveiled a dual-function platform on August 9th, 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Michael Zhang",
+    "relation": "platform_revolutionizes",
+    "value": "the early detection and treatment of cancer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that revolutionizes the early detection and treatment of cancer"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "microfluidics technology",
+    "relation": "used_to_isolate_and_analyze",
+    "value": "circulating tumor cells from mere drops of blood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing microfluidics technology, his device can isolate and analyze circulating tumor cells from mere drops of blood"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "circulating tumor cells",
+    "relation": "isolated_from",
+    "value": "mere drops of blood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "isolate and analyze circulating tumor cells from mere drops of blood"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "microfluidics technology",
+    "relation": "leads_to",
+    "value": "early intervention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to early intervention"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Dr. Michael Zhang",
+    "relation": "introduces",
+    "value": "personalized photothermal therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the platform introduces personalized photothermal therapy"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "personalized photothermal therapy",
+    "relation": "targets_and_eliminates",
+    "value": "cancer cells without harming healthy tissue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "targeting and eliminating cancer cells without harming healthy tissue"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "biotechnology industry",
+    "relation": "has_potential_to",
+    "value": "reshape the future of health care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the biotechnology industry and its boundless potential to reshape the future of health care"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Marie Curie",
+    "relation": "is_a",
+    "value": "famous physicist and Nobel laureate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "famous physicist and Nobel laureate Marie Curie"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Marie Curie",
+    "relation": "said",
+    "value": "Nothing in life is to be feared; it is only to be understood.",
+    "time": null,
+    "speaker": "Marie Curie",
+    "verbatim": [
+     "Nothing in life is to be feared; it is only to be understood."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

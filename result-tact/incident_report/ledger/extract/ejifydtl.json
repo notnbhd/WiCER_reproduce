@@ -1,0 +1,804 @@
+{
+ "inventory": [
+  "St. Mary's General Hospital",
+  "Sandra Thompson",
+  "CareEast Medical Center",
+  "Dr. Richard Bloomfield",
+  "River Heights",
+  "community hospital in the small town of River Heights",
+  "Dr. Emily Robertson",
+  "National Health Institute",
+  "Johnathan Green",
+  "Grand River Hospital",
+  "Jane Hollis",
+  "power outage at St. Mary's General Hospital",
+  "internet outage at CareEast Medical Center",
+  "power outage at River Heights community hospital",
+  "power outage at Grand River Hospital",
+  "backup generators",
+  "electronic health records system",
+  "intensive care units",
+  "life-support systems",
+  "contingency planning",
+  "backup systems",
+  "utility outages",
+  "healthcare facilities",
+  "preventative maintenance",
+  "staff training"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "healthcare facilities",
+    "relation": "rely_on",
+    "value": "a stable utility supply",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospitals and healthcare facilities rely heavily on a stable utility supply"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "utility outages",
+    "relation": "have_consequences",
+    "value": "far-reaching consequences, particularly in the health sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Power and internet outages have far-reaching consequences, particularly in the health sector."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "backup systems",
+    "relation": "urgency_clear",
+    "value": "robust backup systems in healthcare settings",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the urgency for robust backup systems in healthcare settings has never been clearer"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "healthcare facilities",
+    "relation": "intertwined_with",
+    "value": "technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Healthcare has become intricately intertwined with technology."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "St. Mary's General Hospital",
+    "relation": "experienced",
+    "value": "a power outage",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, St. Mary's General Hospital experienced a power outage that lasted approximately four hours."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "power outage at St. Mary's General Hospital",
+    "relation": "duration",
+    "value": "approximately four hours",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, St. Mary's General Hospital experienced a power outage that lasted approximately four hours."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "power outage at St. Mary's General Hospital",
+    "relation": "caused_by",
+    "value": "a transformer failure",
+    "time": null,
+    "speaker": "city officials",
+    "verbatim": [
+     "The blackout was caused by a transformer failure, according to city officials."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "power outage at St. Mary's General Hospital",
+    "relation": "revealed",
+    "value": "cracks in the facade of preparedness within our healthcare systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident illuminated the cracks in the facade of preparedness within our healthcare systems."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sandra Thompson",
+    "relation": "job_title",
+    "value": "chief medical officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Thompson, the hospital's chief medical officer"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "backup generators",
+    "relation": "status_during_outage",
+    "value": "kicked in",
+    "time": null,
+    "speaker": "Sandra Thompson",
+    "verbatim": [
+     "while the emergency generators kicked in"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "power outage at St. Mary's General Hospital",
+    "relation": "affected",
+    "value": "several non-critical systems remained non-operational",
+    "time": null,
+    "speaker": "Sandra Thompson",
+    "verbatim": [
+     "several non-critical systems remained non-operational"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "power outage at St. Mary's General Hospital",
+    "relation": "results_in",
+    "value": "delays in routine patient care and diagnostics",
+    "time": null,
+    "speaker": "Sandra Thompson",
+    "verbatim": [
+     "causing delays in routine patient care and diagnostics"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Richard Bloomfield",
+    "relation": "job_title",
+    "value": "cardiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Richard Bloomfield, a cardiologist at CareEast Medical Center"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Richard Bloomfield",
+    "relation": "employed_by",
+    "value": "CareEast Medical Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Richard Bloomfield, a cardiologist at CareEast Medical Center"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Richard Bloomfield",
+    "relation": "highlights_similar_situation",
+    "value": "internet outage at CareEast Medical Center",
+    "time": "September 15, 2023",
+    "speaker": "Dr. Richard Bloomfield",
+    "verbatim": [
+     "Dr. Richard Bloomfield, a cardiologist at CareEast Medical Center, highlights a similar situation that occurred on September 15, 2023."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "internet outage at CareEast Medical Center",
+    "relation": "occurred_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "highlights a similar situation that occurred on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "internet outage at CareEast Medical Center",
+    "relation": "caused_by",
+    "value": "a cyber-attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An unexpected internet outage due to a cyber-attack crippled their electronic health records system."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "electronic health records system",
+    "relation": "crippled_by",
+    "value": "internet outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An unexpected internet outage due to a cyber-attack crippled their electronic health records system."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "internet outage at CareEast Medical Center",
+    "relation": "duration",
+    "value": "nearly six hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For nearly six hours, medical staff were forced to revert to paper records"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "electronic health records system",
+    "relation": "workaround",
+    "value": "revert to paper records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "medical staff were forced to revert to paper records"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "internet outage at CareEast Medical Center",
+    "relation": "results_in",
+    "value": "postponed treatments and compromised care coordination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in postponed treatments and compromised care coordination"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "utility outages",
+    "relation": "compromise",
+    "value": "patient safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They compromise patient safety, delay critical procedures, and can result in loss of life."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "utility outages",
+    "relation": "delay",
+    "value": "critical procedures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They compromise patient safety, delay critical procedures, and can result in loss of life."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "utility outages",
+    "relation": "can_result_in",
+    "value": "loss of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They compromise patient safety, delay critical procedures, and can result in loss of life."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "utility outages",
+    "relation": "can_cause",
+    "value": "data loss or corruption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the data loss or corruption associated with abrupt outages can have enduring legal and financial repercussions for healthcare facilities"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "utility outages",
+    "relation": "can_have",
+    "value": "enduring legal and financial repercussions for healthcare facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the data loss or corruption associated with abrupt outages can have enduring legal and financial repercussions for healthcare facilities"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "community hospital in the small town of River Heights",
+    "relation": "experienced",
+    "value": "a power outage",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 3, 2023, the community hospital in the small town of River Heights experienced a power outage that incapacitated its intensive care units temporarily."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "power outage at River Heights community hospital",
+    "relation": "incapacitated",
+    "value": "intensive care units",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incapacitated its intensive care units temporarily"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "power outage at River Heights community hospital",
+    "relation": "required",
+    "value": "emergency staff to manually ventilate patients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emergency staff had to manually ventilate patients"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "life-support systems",
+    "relation": "functionality_restored_by",
+    "value": "backup power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "until backup power restored functionality to life-support systems"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "backup generators",
+    "relation": "maintenance_status",
+    "value": "not adequately maintained",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the hospital's backup generators were not adequately maintained"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "backup generators",
+    "relation": "delayed",
+    "value": "their activation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delaying their activation"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "backup generators",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were not adequately maintained, delaying their activation"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "power outage at River Heights community hospital",
+    "relation": "could_have_been_prevented_with",
+    "value": "proper foresight and investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these life-threatening minutes could have been prevented with proper foresight and investment"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "healthcare facilities",
+    "relation": "underprepared_for",
+    "value": "utility outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many hospitals are underprepared for utility outages"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "healthcare facilities",
+    "relation": "reason_for_underpreparedness",
+    "value": "financial constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reasons often cited range from financial constraints to logistical challenges."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "healthcare facilities",
+    "relation": "reason_for_underpreparedness",
+    "value": "logistical challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reasons often cited range from financial constraints to logistical challenges."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "backup systems",
+    "relation": "failure_to_invest_costs",
+    "value": "more than the initial outlay for preventative measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "failing to invest in backup systems can cost more than the initial outlay for preventative measures"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Emily Robertson",
+    "relation": "job_title",
+    "value": "Director of Emergency Preparedness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Robertson, Director of Emergency Preparedness at the National Health Institute"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Emily Robertson",
+    "relation": "employed_by",
+    "value": "National Health Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Robertson, Director of Emergency Preparedness at the National Health Institute"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Emily Robertson",
+    "relation": "advocates_for",
+    "value": "increased funding and support for healthcare facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been advocating for increased funding and support for healthcare facilities to improve their resilience against such service interruptions"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "backup systems",
+    "relation": "needed_investment",
+    "value": "reliable backup power and data systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recent incidents make clear the need for hospitals to invest in reliable backup power and data systems."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "preventative maintenance",
+    "relation": "is_equally_crucial",
+    "value": "Regular maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular maintenance, staff training, and robust contingency plans are equally crucial."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "staff training",
+    "relation": "is_equally_crucial",
+    "value": "staff training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular maintenance, staff training, and robust contingency plans are equally crucial."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "contingency planning",
+    "relation": "is_equally_crucial",
+    "value": "robust contingency plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular maintenance, staff training, and robust contingency plans are equally crucial."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Johnathan Green",
+    "relation": "job_title",
+    "value": "healthcare technology consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Green, a healthcare technology consultant"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Johnathan Green",
+    "relation": "said",
+    "value": "Investing in high-quality generators and redundant internet service providers is only the first step.",
+    "time": null,
+    "speaker": "Johnathan Green",
+    "verbatim": [
+     "Investing in high-quality generators and redundant internet service providers is only the first step."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Johnathan Green",
+    "relation": "said",
+    "value": "Hospitals must regularly test these systems and train their personnel to seamlessly switch to backups during outages.",
+    "time": null,
+    "speaker": "Johnathan Green",
+    "verbatim": [
+     "Hospitals must regularly test these systems and train their personnel to seamlessly switch to backups during outages."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jane Hollis",
+    "relation": "job_title",
+    "value": "nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hollis, a nurse at Grand River Hospital"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jane Hollis",
+    "relation": "employed_by",
+    "value": "Grand River Hospital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hollis, a nurse at Grand River Hospital"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "power outage at Grand River Hospital",
+    "relation": "occurred_on",
+    "value": "December 10, 2023",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recounts the fear and confusion during an outage on December 10, 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "backup generators",
+    "relation": "failed_to_provide",
+    "value": "enough power for all departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The hospital's backup generators failed to provide enough power for all departments"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "power outage at Grand River Hospital",
+    "relation": "forced",
+    "value": "staff to prioritize which areas received electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing staff to prioritize which areas received electricity"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "backup generators",
+    "relation": "results_in",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "failed to provide enough power for all departments, forcing staff to prioritize which areas received electricity"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jane Hollis",
+    "relation": "said",
+    "value": "We were playing God, deciding where the power should go\u2014operating rooms, maternity wards, neonatal units. It's a decision no healthcare professional should ever have to make,",
+    "time": null,
+    "speaker": "Jane Hollis",
+    "verbatim": [
+     "We were playing God, deciding where the power should go\u2014operating rooms, maternity wards, neonatal units. It's a decision no healthcare professional should ever have to make,\u201d"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "backup systems",
+    "relation": "recurring_theme",
+    "value": "the lack of investment in reliable backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The recurring theme in these incidents is the lack of investment in reliable backup systems."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "utility outages",
+    "relation": "requires_attention_from",
+    "value": "both government and private sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a pressing issue that requires immediate attention from both government and private sectors."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "healthcare facilities",
+    "relation": "should_be_equipped_to",
+    "value": "handle utility outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensuring that healthcare facilities are equipped to handle utility outages should be recognized as a fundamental aspect of public health preparedness."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "healthcare facilities",
+    "relation": "requires",
+    "value": "legislation be considered, and funds be allocated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is imperative that legislation be considered, and funds be allocated"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "healthcare facilities",
+    "relation": "threatened_by",
+    "value": "utility service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utility service interruptions pose a significant threat to healthcare facilities"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "backup systems",
+    "relation": "resource_availability",
+    "value": "urban hospitals often have the resources to invest in advanced backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban hospitals often have the resources to invest in advanced backup systems"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "healthcare facilities",
+    "relation": "bridging_gap_requires",
+    "value": "government aid and private investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bridging this gap with government aid and private investment is crucial."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "healthcare facilities",
+    "relation": "prevailing_gaps",
+    "value": "gaps in healthcare systems' resilience to utility failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acknowledge the prevailing gaps in our healthcare systems' resilience to utility failures"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "utility outages",
+    "relation": "described_as",
+    "value": "inevitable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the inevitable occurrence of future outages"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "healthcare facilities",
+    "relation": "redundancy_imperative_for",
+    "value": "preserving human life and the functionality of healthcare institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are imperative for preserving human life and the functionality of healthcare institutions"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "backup systems",
+    "relation": "call_for_action",
+    "value": "invest in comprehensive backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invest in comprehensive backup systems, enforce stringent maintenance protocols, and adopt rigorous training programs"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "preventative maintenance",
+    "relation": "call_for_action",
+    "value": "enforce stringent maintenance protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invest in comprehensive backup systems, enforce stringent maintenance protocols, and adopt rigorous training programs"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "staff training",
+    "relation": "call_for_action",
+    "value": "adopt rigorous training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invest in comprehensive backup systems, enforce stringent maintenance protocols, and adopt rigorous training programs"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "utility outages",
+    "relation": "will_happen",
+    "value": "another service interruption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is not a question of if another service interruption will happen, but when."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "healthcare facilities",
+    "relation": "must_be_ready_to",
+    "value": "maintain the continuum of care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "healthcare facilities must be ready to maintain the continuum of care"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

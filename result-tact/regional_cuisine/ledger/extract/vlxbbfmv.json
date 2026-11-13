@@ -1,0 +1,751 @@
+{
+ "inventory": [
+  "Heritage Grains and Legumes",
+  "farm-to-table movement",
+  "Springfield Farmers' Market",
+  "einkorn",
+  "emmer",
+  "spelt",
+  "Jacob's Cattle beans",
+  "Christmas limas",
+  "Sarah Gilbert",
+  "James O'Neill",
+  "Dr. Richard Hammond",
+  "soil health",
+  "climate change",
+  "Emily Thompson",
+  "farro risotto",
+  "French du Puy lentils",
+  "lentil stew",
+  "food sovereignty",
+  "Grain to Glory Symposium",
+  "Mark Donnelly",
+  "gardening programs",
+  "seed banks and agricultural institutions",
+  "biodiversity",
+  "sustainable farming practices",
+  "commercial farming practices"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "farm-to-table movement",
+    "relation": "interest_growing",
+    "value": "a burgeoning interest",
+    "time": "In the past decade",
+    "speaker": null,
+    "verbatim": [
+     "In the past decade, there has been a burgeoning interest in the farm-to-table movement"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "farm-to-table movement",
+    "relation": "involves",
+    "value": "chefs and home cooks alike seek to reconnect with the culinary roots of their regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chefs and home cooks alike seek to reconnect with the culinary roots of their regions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "resurrected",
+    "value": "a resurrection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has led to a resurrection of heritage grains and legumes"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "farm-to-table movement",
+    "relation": "results_in",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a burgeoning interest in the farm-to-table movement",
+     "This has led to a resurrection of heritage grains and legumes"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "commercial farming practices",
+    "relation": "overshadowed",
+    "value": "heritage grains and legumes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crops that have been overshadowed by commercial farming practices"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "returning_to",
+    "value": "the spotlight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are finally stepping back into the spotlight"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "described_as",
+    "value": "ancient varieties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These ancient varieties are not just a nod to traditional diets"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "offers",
+    "value": "an exploration of flavors, textures, and nutritional benefits that have been largely forgotten",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're an exploration of flavors, textures, and nutritional benefits that have been largely forgotten"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Springfield Farmers' Market",
+    "relation": "was_abuzz_with",
+    "value": "a new trend",
+    "time": "On a crisp September morning in 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a crisp September morning in 2023, the bustling lanes of the Springfield Farmers' Market were abuzz with a new trend."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Springfield Farmers' Market",
+    "relation": "featured",
+    "value": "local farmers' varieties of heritage grains and heirloom legumes",
+    "time": "On a crisp September morning in 2023",
+    "speaker": null,
+    "verbatim": [
+     "Local farmers proudly showcased their varieties of heritage grains like einkorn, emmer, and spelt, alongside heirloom legumes such as Jacob's Cattle beans and Christmas limas."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Springfield Farmers' Market",
+    "relation": "products_were",
+    "value": "not the usual suspects found in the grocery aisles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These were not the usual suspects found in the grocery aisles"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Springfield Farmers' Market",
+    "relation": "visitors_reaction",
+    "value": "curiosity and excitement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were greeted with curiosity and excitement by food enthusiasts"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "einkorn",
+    "relation": "is_type_of",
+    "value": "heritage grain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heritage grains like einkorn, emmer, and spelt"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "emmer",
+    "relation": "is_type_of",
+    "value": "heritage grain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heritage grains like einkorn, emmer, and spelt"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "spelt",
+    "relation": "is_type_of",
+    "value": "heritage grain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heritage grains like einkorn, emmer, and spelt"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jacob's Cattle beans",
+    "relation": "is_type_of",
+    "value": "heirloom legume",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alongside heirloom legumes such as Jacob's Cattle beans and Christmas limas"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Christmas limas",
+    "relation": "is_type_of",
+    "value": "heirloom legume",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alongside heirloom legumes such as Jacob's Cattle beans and Christmas limas"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Gilbert",
+    "relation": "is_a",
+    "value": "third-generation farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gilbert, a third-generation farmer, embraced the heritage grains project in early 2024"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sarah Gilbert",
+    "relation": "embraced_project_in",
+    "value": "the heritage grains project",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "embraced the heritage grains project in early 2024"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sarah Gilbert",
+    "relation": "attended",
+    "value": "an educational workshop on sustainable farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after attending an educational workshop on sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Gilbert",
+    "relation": "states",
+    "value": "It's not just about growing crops",
+    "time": null,
+    "speaker": "Sarah Gilbert",
+    "verbatim": [
+     "It's not just about growing crops,"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Gilbert",
+    "relation": "states",
+    "value": "It's about preserving a legacy and offering something that has a story, a history",
+    "time": null,
+    "speaker": "Sarah Gilbert",
+    "verbatim": [
+     "It's about preserving a legacy and offering something that has a story, a history."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "James O'Neill",
+    "relation": "at_forefront_of",
+    "value": "this agricultural revival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Farmers like Sarah Gilbert and James O'Neill are at the forefront of this agricultural revival."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Richard Hammond",
+    "relation": "is_a",
+    "value": "Nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionists like Dr. Richard Hammond have long advocated for the diversity these crops bring to the table."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Richard Hammond",
+    "relation": "advocates",
+    "value": "the diversity these crops bring to the table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have long advocated for the diversity these crops bring to the table"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Richard Hammond",
+    "relation": "states",
+    "value": "heritage grains are nutritional powerhouses",
+    "time": null,
+    "speaker": "Dr. Richard Hammond",
+    "verbatim": [
+     "Heritage grains possess a complexity of flavors and textures, but even more importantly, they're nutritional powerhouses"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Richard Hammond",
+    "relation": "pointed_out",
+    "value": "higher levels of protein, fiber, and essential minerals these grains often contain compared to their modern counterparts",
+    "time": null,
+    "speaker": "Dr. Richard Hammond",
+    "verbatim": [
+     "pointing out the higher levels of protein, fiber, and essential minerals these grains often contain compared to their modern counterparts"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "adaptable_to",
+    "value": "local soil and weather conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these crops are usually more adaptable to local soil and weather conditions"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "resilient_in_face_of",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making them resilient in the face of climate change"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these crops are usually more adaptable to local soil and weather conditions",
+     "making them resilient in the face of climate change"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "improves",
+    "value": "soil health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their deep-rooted nature also helps to improve soil health"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "soil health",
+    "relation": "is_critical_component_of",
+    "value": "sustainable agriculture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a critical component of sustainable agriculture"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Emily Thompson",
+    "relation": "is_a",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chefs like Emily Thompson are taking up the challenge"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Emily Thompson",
+    "relation": "showcasing_on_menu",
+    "value": "heritage grains and legumes on her restaurant's menu",
+    "time": "Since the fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the fall of 2023, Thompson has dedicated herself to showcasing heritage grains and legumes on her restaurant's menu"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emily Thompson",
+    "relation": "states",
+    "value": "It's about re-educating our palates and playing with flavors we've overlooked for too long",
+    "time": null,
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "It's about re-educating our palates and playing with flavors we've overlooked for too long"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Emily Thompson",
+    "relation": "signature_dish_includes",
+    "value": "a hearty farro risotto enriched with wild mushrooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her signature dishes include a hearty farro risotto enriched with wild mushrooms"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Emily Thompson",
+    "relation": "signature_dish_includes",
+    "value": "a rustic lentil stew that spotlights the earthy French du Puy lentils",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rustic lentil stew that spotlights the earthy French du Puy lentils"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "farro risotto",
+    "relation": "enriched_with",
+    "value": "wild mushrooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hearty farro risotto enriched with wild mushrooms"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "lentil stew",
+    "relation": "spotlights",
+    "value": "French du Puy lentils",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rustic lentil stew that spotlights the earthy French du Puy lentils"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "French du Puy lentils",
+    "relation": "described_as",
+    "value": "earthy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotlights the earthy French du Puy lentils"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Thompson",
+    "relation": "dishes_offer",
+    "value": "a fresh take on traditional recipes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only do these dishes offer a fresh take on traditional recipes"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Thompson",
+    "relation": "dishes_support",
+    "value": "local farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they also support local farmers and encourage sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Thompson",
+    "relation": "dishes_encourage",
+    "value": "sustainable farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they also support local farmers and encourage sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "has_spurred",
+    "value": "a sense of community among those who value food sovereignty and provenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The revival of these crops has also spurred a sense of community among those who value food sovereignty and provenance"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Grain to Glory Symposium",
+    "relation": "held_in",
+    "value": "October 2024",
+    "time": "October 2024",
+    "speaker": null,
+    "verbatim": [
+     "held in October 2024"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Grain to Glory Symposium",
+    "relation": "is_food_festival_for",
+    "value": "heritage grains and legumes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Food festivals dedicated to heritage grains and legumes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Grain to Glory Symposium",
+    "relation": "meeting_ground_for",
+    "value": "farmers, chefs, and consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become meeting grounds for farmers, chefs, and consumers passionate about the movement"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Grain to Glory Symposium",
+    "relation": "offers_workshops_on",
+    "value": "planting and harvesting to cooking and baking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At such events, participants can engage in workshops that explore everything from planting and harvesting to cooking and baking with these revived crops."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Grain to Glory Symposium",
+    "relation": "enables_exchange_of",
+    "value": "seeds, recipes, and experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here, they can exchange seeds, recipes, and experiences"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "gardening programs",
+    "relation": "incorporated",
+    "value": "the cultivation of these crops into their syllabus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In schools across the region, gardening programs have incorporated the cultivation of these crops into their syllabus."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "gardening programs",
+    "relation": "children_gain",
+    "value": "hands-on experience sowing, tending, and harvesting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Children are getting hands-on experience sowing, tending, and harvesting"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "gardening programs",
+    "relation": "encourages",
+    "value": "children to try unfamiliar foods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourages them to try unfamiliar foods"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Mark Donnelly",
+    "relation": "is_a",
+    "value": "Local high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local high school teacher Mark Donnelly incorporated a heritage crops project into his biology class curriculum in September 2025."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Mark Donnelly",
+    "relation": "incorporated_project",
+    "value": "a heritage crops project into his biology class curriculum",
+    "time": "September 2025",
+    "speaker": null,
+    "verbatim": [
+     "Local high school teacher Mark Donnelly incorporated a heritage crops project into his biology class curriculum in September 2025."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Mark Donnelly",
+    "relation": "states",
+    "value": "When students connect with where their food comes from, they develop a deeper respect for the environment and the people who grow their food",
+    "time": null,
+    "speaker": "Mark Donnelly",
+    "verbatim": [
+     "When students connect with where their food comes from, they develop a deeper respect for the environment and the people who grow their food"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "biodiversity",
+    "relation": "stewards_of",
+    "value": "farmers are stewards of biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are not just growers; they are stewards of biodiversity."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "biodiversity",
+    "relation": "maintained_through",
+    "value": "cultivating heritage grains and legumes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By cultivating heritage grains and legumes, they maintain the genetic diversity of our crops"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "biodiversity",
+    "relation": "crucial_for",
+    "value": "food security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which is crucial for food security"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "seed banks and agricultural institutions",
+    "relation": "collaborates_with",
+    "value": "farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These farmers often work in close collaboration with seed banks and agricultural institutions"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "seed banks and agricultural institutions",
+    "relation": "works_to_ensure",
+    "value": "the preservation and propagation of rare seeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure the preservation and propagation of rare seeds"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "seed banks and agricultural institutions",
+    "relation": "in_order_to",
+    "value_ref": "c60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These farmers often work in close collaboration with seed banks and agricultural institutions to ensure the preservation and propagation of rare seeds."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "biodiversity",
+    "relation": "future_planted_for",
+    "value": "a more diverse and resilient future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're planting the seeds for a more diverse and resilient future"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "represent",
+    "value": "a bridge between our ancestral past and our sustainable future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Heritage grains and legumes represent a bridge between our ancestral past and our sustainable future"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "described_as",
+    "value": "a renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this revival is more than just a trend; it's a renaissance"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Heritage Grains and Legumes",
+    "relation": "story_status",
+    "value": "still being written",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The story of these heirloom crops is still being written"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

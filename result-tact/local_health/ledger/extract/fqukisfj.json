@@ -1,0 +1,784 @@
+{
+ "inventory": [
+  "Mental health services",
+  "Midlife transition",
+  "John Smith",
+  "Mental health stigma",
+  "Dr. Lisa Chang",
+  "Michael Thompson",
+  "Ellen Rodriguez",
+  "James Dean",
+  "Karla Martinez",
+  "Cognitive-behavioral therapy",
+  "Interpersonal therapy",
+  "Robert Lee",
+  "Insurance plans",
+  "Sliding scale options",
+  "Sarah Johnson",
+  "Virtual therapy",
+  "Online therapy platforms",
+  "Thomas Erickson",
+  "Group therapy and support groups",
+  "Natalie Kim",
+  "Psychiatrists",
+  "Psychologists",
+  "Therapists and counselors",
+  "General practitioner",
+  "The pandemic"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mental health services",
+    "relation": "focuses_on",
+    "value": "those experiencing the trials of midlife transition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a focus on those experiencing the trials of midlife transition"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mental health services",
+    "relation": "serves_as",
+    "value": "a companion for anyone exploring their options in mental health support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this guide serves as a companion for anyone exploring their options in mental health support"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Midlife transition",
+    "relation": "typical_period",
+    "value": "late 30s to the mid-60s",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The midlife transition, a period typically ranging from the late 30s to the mid-60s"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Midlife transition",
+    "relation": "can_bring",
+    "value": "unique challenges, from career plateauing to personal identity questions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can bring about unique challenges, from career plateauing to personal identity questions"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Midlife transition",
+    "relation": "challenges_require",
+    "value": "a nuanced approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coping with these issues requires a nuanced approach"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Midlife transition",
+    "relation": "can_lead_to",
+    "value": "growth and self-discovery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "navigating through the midlife transition can lead to growth and self-discovery"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mental health services",
+    "relation": "described_as",
+    "value": "an integral component of overall well-being, just as critical as physical health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mental health is an integral component of overall well-being, just as critical as physical health"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mental health stigma",
+    "relation": "continues_to_abate",
+    "value": "abating",
+    "time": "As of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 1, 2023, the stigma surrounding mental health issues continues to abate"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mental health stigma",
+    "relation": "abating_due_to",
+    "value": "increased awareness campaigns and public figures like John Smith",
+    "time": "As of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "thanks to increased awareness campaigns and public figures like John Smith, a 55year-old former CEO, sharing their own mental health journeys"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mental health stigma",
+    "relation": "caused_by",
+    "value_ref": "c9",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to abate, thanks to increased awareness campaigns"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "John Smith",
+    "relation": "age",
+    "value": "55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, a 55year-old former CEO"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "John Smith",
+    "relation": "occupation",
+    "value": "former CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, a 55year-old former CEO"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "John Smith",
+    "relation": "shared",
+    "value": "their own mental health journeys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sharing their own mental health journeys"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mental health services",
+    "relation": "first_step",
+    "value": "recognizing and acknowledging the need for mental health care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing and acknowledging the need for mental health care is the first, and often most challenging, step"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mental health services",
+    "relation": "increasingly_sought",
+    "value": "guidance on navigating the often complex landscape of mental health services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "individuals are increasingly seeking guidance on navigating the often complex landscape of mental health services"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mental health services",
+    "relation": "available_range",
+    "value": "from traditional in-person therapy sessions to modern teletherapy options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It entails understanding what services are available, from traditional in-person therapy sessions to modern teletherapy options"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mental health services",
+    "relation": "can_be",
+    "value": "daunting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Navigating the world of mental health services can be daunting"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Lisa Chang",
+    "relation": "occupation",
+    "value": "clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lisa Chang, a clinical psychologist"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Lisa Chang",
+    "relation": "emphasizes",
+    "value": "the significance of understanding each service's benefits",
+    "time": null,
+    "speaker": "Dr. Lisa Chang",
+    "verbatim": [
+     "emphasizes the significance of understanding each service's benefits"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Lisa Chang",
+    "relation": "stated",
+    "value": "the choice of therapy mode needs to match the individual's comfort level and their specific situation",
+    "time": "October 15, 2023",
+    "speaker": "Dr. Lisa Chang",
+    "verbatim": [
+     "stating on October 15, 2023, that \"the choice of therapy mode needs to match the individual's comfort level and their specific situation.\""
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Psychiatrists",
+    "relation": "is",
+    "value": "medical doctors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychiatrists are medical doctors who can prescribe medication"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Psychiatrists",
+    "relation": "can_prescribe",
+    "value": "medication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychiatrists are medical doctors who can prescribe medication"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Psychologists",
+    "relation": "holds",
+    "value": "a doctoral degree in psychology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "psychologists have a doctoral degree in psychology"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Therapists and counselors",
+    "relation": "typically_holds",
+    "value": "a master's degree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "therapists and counselors typically hold a master's degree"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Therapists and counselors",
+    "relation": "offer",
+    "value": "various forms of talk therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer various forms of talk therapy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Thompson",
+    "relation": "occupation",
+    "value": "licensed clinical social worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, a licensed clinical social worker"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Michael Thompson",
+    "relation": "offered_insight",
+    "value": "how seekers can choose the right professional",
+    "time": "November 2, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "On November 2, 2023, Michael Thompson, a licensed clinical social worker, offered insight into how seekers can choose the right professional"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Michael Thompson",
+    "relation": "recommended",
+    "value": "Seek out therapists who have experience with midlife transitions and who you feel comfortable with",
+    "time": "November 2, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "Seek out therapists who have experience with midlife transitions and who you feel comfortable with"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "it's about the connection as much as it is about their qualifications",
+    "time": "November 2, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "it's about the connection as much as it is about their qualifications"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Ellen Rodriguez",
+    "relation": "occupation",
+    "value": "a life coach specializing in midlife transitions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ellen Rodriguez, a life coach specializing in midlife transitions"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Ellen Rodriguez",
+    "relation": "recommended",
+    "value": "set clear goals for therapy, but also remain open to where the therapeutic journey may lead",
+    "time": "December 5, 2023",
+    "speaker": "Ellen Rodriguez",
+    "verbatim": [
+     "On December",
+     "5, 2023, Ellen Rodriguez, a life coach specializing in midlife transitions, recommended that individuals"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Mental health services",
+    "relation": "possible_goals",
+    "value": "managing anxiety, improving relationships, or navigating a career change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This could be managing anxiety, improving relationships, or navigating a career change"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "James Dean",
+    "relation": "occupation",
+    "value": "mental health advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mental health advocate James Dean"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "James Dean",
+    "relation": "said",
+    "value": "Look for someone who specializes in what you're dealing with",
+    "time": "January 10, 2024",
+    "speaker": "James Dean",
+    "verbatim": [
+     "Look for someone who specializes in what you're dealing with"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "James Dean",
+    "relation": "underscored",
+    "value": "the value of finding the right fit",
+    "time": "January 10, 2024",
+    "speaker": "James Dean",
+    "verbatim": [
+     "In an interview on January 10, 2024, mental health advocate James Dean underscored the value of finding the right fit"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Cognitive-behavioral therapy",
+    "relation": "is",
+    "value": "evidence-based",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cognitive-behavioral therapy (CBT), for instance, is evidence-based"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Cognitive-behavioral therapy",
+    "relation": "focuses_on",
+    "value": "modifying thought and behavior patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focuses on modifying thought and behavior patterns"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Karla Martinez",
+    "relation": "occupation",
+    "value": "therapist",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Karla Martinez, a therapist interviewed on February 20, 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Karla Martinez",
+    "relation": "pointed_out",
+    "value": "different methods work for different issues",
+    "time": "February 20, 2024",
+    "speaker": "Karla Martinez",
+    "verbatim": [
+     "pointed out that different methods work for different issues"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Cognitive-behavioral therapy",
+    "relation": "suited_for",
+    "value": "anxiety",
+    "time": "February 20, 2024",
+    "speaker": "Karla Martinez",
+    "verbatim": [
+     "While CBT might be great for anxiety"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Interpersonal therapy",
+    "relation": "more_beneficial_for",
+    "value": "relational issues",
+    "time": "February 20, 2024",
+    "speaker": "Karla Martinez",
+    "verbatim": [
+     "interpersonal therapy can be more beneficial for relational issues"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Robert Lee",
+    "relation": "occupation",
+    "value": "insurance expert",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On March 3, 2024, insurance expert Robert Lee explained"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Insurance plans",
+    "relation": "cover",
+    "value": "mental health services",
+    "time": "March 3, 2024",
+    "speaker": "Robert Lee",
+    "verbatim": [
+     "many insurance plans cover mental health services"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Insurance plans",
+    "relation": "coverage_extent",
+    "value": "varies",
+    "time": "March 3, 2024",
+    "speaker": "Robert Lee",
+    "verbatim": [
+     "but the extent varies"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Insurance plans",
+    "relation": "out_of_network_costs",
+    "value": "can be high",
+    "time": "March 3, 2024",
+    "speaker": "Robert Lee",
+    "verbatim": [
+     "out-ofnetwork costs can be high"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Insurance plans",
+    "relation": "coverage_is",
+    "value": "inconsistent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "insurance coverage is inconsistent"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mental health services",
+    "relation": "cost",
+    "value": "expensive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Therapy can be expensive"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Insurance plans",
+    "relation": "recommended_action",
+    "value": "check with your insurance provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's imperative to check with your insurance provider"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Sliding scale options",
+    "relation": "discuss_with",
+    "value": "your therapist, if needed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discuss sliding scale options with your therapist, if needed"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Virtual therapy",
+    "relation": "became",
+    "value": "a staple",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtual therapy has become a staple"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "The pandemic",
+    "relation": "followed_by",
+    "value": "the surge in telehealth services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the surge in telehealth services following the pandemic"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Virtual therapy",
+    "relation": "provides",
+    "value": "greater flexibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It provides greater flexibility"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Virtual therapy",
+    "relation": "can_ease",
+    "value": "the challenge of fitting appointments into a busy midlife schedule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can ease the challenge of fitting appointments into a busy midlife schedule"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sarah Johnson",
+    "relation": "occupation",
+    "value": "Tech entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tech entrepreneur Sarah Johnson"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sarah Johnson",
+    "relation": "founded",
+    "value": "a mental health app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who founded a mental health app"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Sarah Johnson",
+    "relation": "observed",
+    "value": "online therapy platforms are making mental health care more accessible than ever",
+    "time": "April 12, 2024",
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "observed on April 12, 2024, that \"online therapy platforms are making mental health care more accessible than ever.\""
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Online therapy platforms",
+    "relation": "makes_more_accessible",
+    "value": "mental health care",
+    "time": "April 12, 2024",
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "online therapy platforms are making mental health care more accessible than ever"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Thomas Erickson",
+    "relation": "occupation",
+    "value": "group therapy facilitator",
+    "time": "May 16, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Thomas Erickson, a group therapy facilitator"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Thomas Erickson",
+    "relation": "shared",
+    "value": "the shared experience in group therapy can be incredibly validating and empowering",
+    "time": "May 16, 2024",
+    "speaker": "Thomas Erickson",
+    "verbatim": [
+     "the shared experience in group therapy can be incredibly validating and empowering"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Group therapy and support groups",
+    "relation": "offer",
+    "value": "communal healing and the understanding that you're not alone in your struggles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Group therapy and support groups offer communal healing and the understanding that you're not alone in your struggles"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Group therapy and support groups",
+    "relation": "support_beyond",
+    "value": "more than just one-on-one sessions with a therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "support can come from more than just one-on-one sessions with a therapist"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mental health services",
+    "relation": "supplemented_by",
+    "value": "lifestyle changes, such as regular exercise, a balanced diet, and meditation practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lifestyle changes, such as regular exercise, a balanced diet, and meditation practices, can all serve as supplements to professional mental health services"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Natalie Kim",
+    "relation": "occupation",
+    "value": "dietician and wellness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natalie Kim, a dietician and wellness coach"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Natalie Kim",
+    "relation": "advised",
+    "value": "integrating wellness practices into your daily routine can bolster the work done in therapy",
+    "time": "June 25, 2024",
+    "speaker": "Natalie Kim",
+    "verbatim": [
+     "integrating wellness practices into your daily routine can bolster the work done in therapy"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Mental health services",
+    "relation": "network_includes",
+    "value": "mental health professionals, online resources, support groups, and the close-knit community of individuals committed to improving their mental well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mental health professionals, online resources, support groups, and the close-knit community of individuals committed to improving their mental well-being are all part of a network that you can tap into"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Mental health services",
+    "relation": "not_expected_to",
+    "value": "traverse this path alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you're not expected to traverse this path alone"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Mental health services",
+    "relation": "can_start_with",
+    "value": "asking for referrals from your general practitioner or utilizing online databases of licensed practitioners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Discovering mental health services can start with a variety of approaches, such as asking for referrals from your general practitioner or utilizing online databases of licensed practitioners"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "General practitioner",
+    "relation": "provides_referrals",
+    "value": "referrals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "asking for referrals from your general practitioner"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

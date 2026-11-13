@@ -1,0 +1,709 @@
+{
+ "inventory": [
+  "City Council",
+  "Grand Transit Overhaul",
+  "Patricia Gomez",
+  "Johnathan Hughes",
+  "Michael O'Donnell",
+  "Derek Li",
+  "public transportation system",
+  "city's buses",
+  "rail lines",
+  "state grants",
+  "municipal bonds",
+  "local sales taxes",
+  "traffic congestion",
+  "carbon emissions",
+  "residential property markets",
+  "travel deserts",
+  "discounted monthly passes",
+  "taxpayers"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "City Council",
+    "relation": "approved",
+    "value": "a comprehensive plan to revamp the public transportation system",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the City Council approved a comprehensive plan to revamp the public transportation system"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "City Council",
+    "relation": "decided_on",
+    "value": "September 15, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a historical decision on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "City Council",
+    "relation": "vote_was",
+    "value": "unanimous",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Council Unanimously Greenlights Grand Transit Overhaul"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "City Council",
+    "relation": "decision_came_after",
+    "value": "months of deliberation and widespread public consultations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The decision came after months of deliberation and widespread public consultations"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Patricia Gomez",
+    "relation": "role",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Patricia Gomez"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Patricia Gomez",
+    "relation": "spearheaded",
+    "value": "public consultations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public consultations spearheaded by Councilwoman Patricia Gomez and Transportation Committee Chair Johnathan Hughes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Johnathan Hughes",
+    "relation": "role",
+    "value": "Transportation Committee Chair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transportation Committee Chair Johnathan Hughes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Johnathan Hughes",
+    "relation": "spearheaded",
+    "value": "public consultations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public consultations spearheaded by Councilwoman Patricia Gomez and Transportation Committee Chair Johnathan Hughes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "city's buses",
+    "relation": "receives_makeover",
+    "value": "an intricate makeover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an intricate makeover of the city's buses, trains, and supporting infrastructure"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Grand Transit Overhaul",
+    "relation": "earmarked_budget",
+    "value": "an earmarked budget",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with an earmarked budget that has residents and economists keenly calculating its implications on the broader economy"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "public transportation system",
+    "relation": "includes",
+    "value": "addition of environmentally-friendly buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The revamp includes the addition of environmentally-friendly buses"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "rail lines",
+    "relation": "includes_expansion",
+    "value": "expansion of rail lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expansion of rail lines"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "public transportation system",
+    "relation": "includes",
+    "value": "increase in service frequency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "increase in service frequency"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "public transportation system",
+    "relation": "includes",
+    "value": "integration of advanced ticketing systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integration of advanced ticketing systems"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "public transportation system",
+    "relation": "designed_to",
+    "value": "streamline operations, cut energy costs, and enhance passenger experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This is designed to streamline operations, cut energy costs, and enhance passenger experiences."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "public transportation system",
+    "relation": "step_toward",
+    "value": "a greener footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s a step toward a greener footprint"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "traffic congestion",
+    "relation": "improved_by",
+    "value": "upgraded public transportation system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presents more than just an improvement to traffic congestion"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Grand Transit Overhaul",
+    "relation": "execution_phased",
+    "value": "phased over the next five years",
+    "time": "the next five years",
+    "speaker": null,
+    "verbatim": [
+     "its execution which will be phased over the next five years"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Grand Transit Overhaul",
+    "relation": "framework_aims_to",
+    "value": "minimize disruptions to current services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to minimize disruptions to current services"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michael O'Donnell",
+    "relation": "role",
+    "value": "City Treasurer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the City Treasurer, Michael O'Donnell"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Grand Transit Overhaul",
+    "relation": "capital_outlay",
+    "value": "$1.2 billion",
+    "time": "over the lifespan of the transformation",
+    "speaker": "Michael O'Donnell",
+    "verbatim": [
+     "anticipates a capital outlay of $1.2 billion over the lifespan of the transformation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Grand Transit Overhaul",
+    "relation": "funded_by",
+    "value": "state grants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "funded through a mix of state grants, municipal bonds, and a slight increase in local sales taxes"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Grand Transit Overhaul",
+    "relation": "funded_by",
+    "value": "municipal bonds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "funded through a mix of state grants, municipal bonds, and a slight increase in local sales taxes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "local sales taxes",
+    "relation": "increase",
+    "value": "a slight increase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a slight increase in local sales taxes"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "public transportation system",
+    "relation": "revenue_hinges_on",
+    "value": "several factors, including increased ridership",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The projected revenue streams pivoting from the improved transportation system hinge on several factors, including increased ridership"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "public transportation system",
+    "relation": "maintenance_costs_reduced_by",
+    "value": "newer fleets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduction in maintenance costs due to newer fleets"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "taxpayers",
+    "relation": "concern",
+    "value": "this venture could strap the city with hefty debts and spike commuter costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An initial concern among taxpayers is the notion that this venture could strap the city with hefty debts and spike commuter costs."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Grand Transit Overhaul",
+    "relation": "long_term_benefits_outweigh",
+    "value": "immediate financial strains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the economic analysis conducted suggests that the long-term benefits are poised to outweigh these immediate financial strains"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Grand Transit Overhaul",
+    "relation": "catalyzes",
+    "value": "local job markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the strategic push is positioned to catalyze local job markets"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Grand Transit Overhaul",
+    "relation": "expected_to_burgeon",
+    "value": "construction and engineering sectors",
+    "time": "In the short term",
+    "speaker": null,
+    "verbatim": [
+     "In the short term, construction and engineering sectors are expected to burgeon with the demand for skilled labor"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Derek Li",
+    "relation": "role",
+    "value": "Councilman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilman Derek Li"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Derek Li",
+    "relation": "termed",
+    "value": "an economic renaissance through transportation reform",
+    "time": null,
+    "speaker": "Derek Li",
+    "verbatim": [
+     "an economic renaissance through transportation reform"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Grand Transit Overhaul",
+    "relation": "cascading_effect_across",
+    "value": "technology, manufacturing, and services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cascading effect across supporting industries such as technology, manufacturing, and services can\u2019t be understated"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "public transportation system",
+    "relation": "attracts",
+    "value": "businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sophisticated public transport system will attract businesses by enhancing access to larger consumer bases and pools of employable candidates"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "residential property markets",
+    "relation": "appreciate_in_value",
+    "value": "around improved transport links",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residential property markets that historically appreciate in value around improved transport links"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "city's buses",
+    "relation": "shift_to",
+    "value": "electric and hybrid propulsion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significant shifts to electric and hybrid propulsion in public buses"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "carbon emissions",
+    "relation": "deductions",
+    "value": "promising deductions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which yield promising deductions in carbon emissions"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "city's buses",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The upgrade boasts significant shifts to electric and hybrid propulsion in public buses, which yield promising deductions in carbon emissions."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Grand Transit Overhaul",
+    "relation": "fiscal_effect",
+    "value": "reduction of fuel costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The embrace of green technology reverberates fiscally through the reduction of fuel costs"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Grand Transit Overhaul",
+    "relation": "sets_stage_for",
+    "value": "potential state and federal subsidies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potential state and federal subsidies for meeting or exceeding environmental benchmarks"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "traffic congestion",
+    "relation": "ripple_effect_felt_across",
+    "value": "rush hour periods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ripple effect of a modernized transit system is expected to be felt across rush hour periods"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "traffic congestion",
+    "relation": "research_evidenced",
+    "value": "the dollar value of time lost in traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "research has evidenced the dollar value of time lost in traffic"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Grand Transit Overhaul",
+    "relation": "anticipated_reduction_in",
+    "value": "private vehicle usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we can anticipate a reduction in private vehicle usage"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Grand Transit Overhaul",
+    "relation": "anticipated_reduction_in",
+    "value": "the wear and tear on city roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the wear and tear on city roads"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Grand Transit Overhaul",
+    "relation": "leads_to",
+    "value": "a decline in the city's recurrent expenditure on road maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This ostensibly leads to a decline in the city's recurrent expenditure on road maintenance"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Grand Transit Overhaul",
+    "relation": "augments",
+    "value": "productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "augments productivity as the workforce can leverage shorter and predictable commute times"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Grand Transit Overhaul",
+    "relation": "described_as",
+    "value": "an economic enabler for lower-income communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mobility is an economic enabler for lower-income communities"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Grand Transit Overhaul",
+    "relation": "proposes_increase_in",
+    "value": "routes and frequency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proposed increase in routes and frequency"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Grand Transit Overhaul",
+    "relation": "aims_to_diminish",
+    "value": "travel deserts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly aims to diminish travel deserts"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Grand Transit Overhaul",
+    "relation": "in_order_to",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proposed increase in routes and frequency particularly aims to diminish travel deserts"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Grand Transit Overhaul",
+    "relation": "funnels",
+    "value": "greater access to employment opportunities and essential services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "directly funneling greater access to employment opportunities and essential services"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Grand Transit Overhaul",
+    "relation": "offers",
+    "value": "affordable and accessible transport options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proffering affordable and accessible transport options"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Grand Transit Overhaul",
+    "relation": "translates_to",
+    "value": "diversification and inclusivity in the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "diversification and inclusivity in the workforce"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Grand Transit Overhaul",
+    "relation": "public_sentiment",
+    "value": "positive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Surveys indicate a positive public sentiment"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Grand Transit Overhaul",
+    "relation": "sentiment_conditioned_by",
+    "value": "expectations of punctuality, cleanliness, and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conditioned by expectations of punctuality, cleanliness, and safety"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "discounted monthly passes",
+    "relation": "part_of",
+    "value": "incentive programs to spur early adoption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Incentive programs are in the works to spur early adoption, including discounted monthly passes"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Grand Transit Overhaul",
+    "relation": "promotional_campaigns_highlight",
+    "value": "the revamped system's advantages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promotional campaigns highlighting the revamped system's advantages"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "public transportation system",
+    "relation": "consolidates",
+    "value": "financial viability through farebox revenues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consolidate the transit system\u2019s financial viability through farebox revenues"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "public transportation system",
+    "relation": "fosters",
+    "value": "a cultural shift towards public transport reliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "foster a cultural shift towards public transport reliance"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Grand Transit Overhaul",
+    "relation": "key_performance_indicators",
+    "value": "usage rates, public satisfaction, and financial solvency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key performance indicators linked to usage rates, public satisfaction, and financial solvency"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Grand Transit Overhaul",
+    "relation": "will_guide",
+    "value": "mid-course corrections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will guide mid-course corrections"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Grand Transit Overhaul",
+    "relation": "assessments_ongoing",
+    "value": "Assessments of the system\u2019s economic pulse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Assessments of the system\u2019s economic pulse will be an ongoing affair"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

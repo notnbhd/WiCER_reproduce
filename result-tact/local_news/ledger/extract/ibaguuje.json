@@ -1,0 +1,645 @@
+{
+ "inventory": [
+  "Sarah Johnson",
+  "Green Fingers",
+  "Maple Street and Fourth Avenue",
+  "The Spicy Apron",
+  "James Park",
+  "Lizzy Abbott",
+  "The Petal Haven",
+  "Alice Hammond",
+  "Mary Hammond",
+  "John Roberts",
+  "Refill Revolution",
+  "Gadget Gurus",
+  "Emma Torres",
+  "Knit & Natter",
+  "George Peterson",
+  "Cycle Therapy",
+  "Laura Chen",
+  "Miguel Gonzales",
+  "Brewed Wisdom",
+  "Michael Davidson"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Johnson",
+    "relation": "opened",
+    "value": "plant boutique Green Fingers",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "opened her plant boutique, \"Green Fingers,\" on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Johnson",
+    "relation": "background",
+    "value": "botany",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a background in botany"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Johnson",
+    "relation": "passion",
+    "value": "sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a passion for sustainable living"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sarah Johnson",
+    "relation": "transformed_hobby_into",
+    "value": "a thriving business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed what was once a hobby into a thriving business"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Green Fingers",
+    "relation": "business_type",
+    "value": "plant boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her plant boutique, \"Green Fingers,\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Green Fingers",
+    "relation": "opened_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Green Fingers",
+    "relation": "located_at",
+    "value": "corner of Maple Street and Fourth Avenue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nestled on the corner of Maple Street and Fourth Avenue"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maple Street and Fourth Avenue",
+    "relation": "location_of",
+    "value": "Green Fingers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nestled on the corner of Maple Street and Fourth Avenue"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "The Spicy Apron",
+    "relation": "arrived_on",
+    "value": "October 14, 2023",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on October 14, 2023, the culinary scene witnessed the arrival of"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "The Spicy Apron",
+    "relation": "business_type",
+    "value": "farm-to-table restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"The Spicy Apron,\" a farm-to-table restaurant founded by duo James Park and Lizzy Abbott"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Spicy Apron",
+    "relation": "founded_by",
+    "value": "James Park and Lizzy Abbott",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a farm-to-table restaurant founded by duo James Park and Lizzy Abbott"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "The Spicy Apron",
+    "relation": "aims_to_bring",
+    "value": "locally sourced ingredients to their community's tables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing locally sourced ingredients to their community's tables in creative and delicious ways"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "The Spicy Apron",
+    "relation": "commitment",
+    "value": "fostering direct relationships with local farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their commitment to fostering direct relationships with local farmers"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "James Park",
+    "relation": "co_founded",
+    "value": "The Spicy Apron",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by duo James Park and Lizzy Abbott"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Lizzy Abbott",
+    "relation": "co_founded",
+    "value": "The Spicy Apron",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by duo James Park and Lizzy Abbott"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "The Petal Haven",
+    "relation": "business_type",
+    "value": "quaint flower shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"The Petal Haven,\" a quaint flower shop owned by twins Alice and Mary Hammond"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Petal Haven",
+    "relation": "owned_by",
+    "value": "Alice and Mary Hammond",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quaint flower shop owned by twins Alice and Mary Hammond"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Petal Haven",
+    "relation": "opened_on",
+    "value": "November 2, 2023",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which sprouted on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Alice Hammond",
+    "relation": "is_twin_of",
+    "value": "Mary Hammond",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owned by twins Alice and Mary Hammond"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Mary Hammond",
+    "relation": "is_twin_of",
+    "value": "Alice Hammond",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owned by twins Alice and Mary Hammond"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "The Petal Haven",
+    "relation": "partners_with",
+    "value": "local event planners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By partnering with local event planners and engaging in community events"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Petal Haven",
+    "relation": "engages_in",
+    "value": "community events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engaging in community events"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Petal Haven",
+    "relation": "embedded_in",
+    "value": "the hearts of the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they swiftly embedded themselves into the hearts of our community"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Petal Haven",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By partnering with local event planners and engaging in community events, they swiftly embedded themselves into the hearts of our community"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "John Roberts",
+    "relation": "launched",
+    "value": "Refill Revolution",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "John Roberts, who launched the eco-friendly \"Refill Revolution\" on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "John Roberts",
+    "relation": "faced_pushback_when_promoting",
+    "value": "zero-waste packaging concept",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced significant pushback when trying to promote his zero-waste packaging concept"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Refill Revolution",
+    "relation": "launched_on",
+    "value": "September 18, 2023",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched the eco-friendly \"Refill Revolution\" on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Refill Revolution",
+    "relation": "described_as",
+    "value": "eco-friendly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the eco-friendly \"Refill Revolution\""
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Refill Revolution",
+    "relation": "concept",
+    "value": "zero-waste packaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promote his zero-waste packaging concept"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "John Roberts",
+    "relation": "fostered",
+    "value": "a loyal customer base dedicated to reducing their carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "innovative on-site workshops have fostered a loyal customer base dedicated to reducing their carbon footprint"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "John Roberts",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his perseverance and innovative on-site workshops have fostered a loyal customer base"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Gadget Gurus",
+    "relation": "business_type",
+    "value": "tech repair shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Gadget Gurus,\" a tech repair shop that came to life on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Gadget Gurus",
+    "relation": "came_to_life_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "came to life on September 25, 2023, through the efforts of Emma Torres"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Emma Torres",
+    "relation": "efforts_behind",
+    "value": "Gadget Gurus",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "through the efforts of Emma Torres"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Gadget Gurus",
+    "relation": "offers",
+    "value": "virtual troubleshooting sessions during planning stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By offering virtual troubleshooting sessions during planning stages"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Gadget Gurus",
+    "relation": "developing",
+    "value": "an app for quick appointment settings once operational",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developing an app for quick appointment settings once operational"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Gadget Gurus",
+    "relation": "captured_attention_of",
+    "value": "the tech-savvy generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma's business has captured the attention of the tech-savvy generation"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Gadget Gurus",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By offering virtual troubleshooting sessions during planning stages and developing an app for quick appointment settings once operational, Emma's business has captured the attention of the tech-savvy generation"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Knit & Natter",
+    "relation": "business_type",
+    "value": "yarn shop turned community hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Knit & Natter,\" a yarn shop turned community hub, established by retiree George Peterson on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Knit & Natter",
+    "relation": "established_by",
+    "value": "George Peterson",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "established by retiree George Peterson on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Knit & Natter",
+    "relation": "established_on",
+    "value": "October 22, 2023",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "established by retiree George Peterson on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "George Peterson",
+    "relation": "occupation",
+    "value": "retiree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "established by retiree George Peterson"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Knit & Natter",
+    "relation": "offers",
+    "value": "knitting classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From knitting classes to personalized knitting kits"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Knit & Natter",
+    "relation": "offers",
+    "value": "personalized knitting kits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From knitting classes to personalized knitting kits"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "George Peterson",
+    "relation": "warmth_woven_into",
+    "value": "every aspect of his shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George's warmth is woven into every aspect of his shop"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Cycle Therapy",
+    "relation": "business_type",
+    "value": "upcycled bicycle shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Cycle Therapy,\" an upcycled bicycle shop launched by environmentalists Laura Chen and Miguel Gonzales on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Cycle Therapy",
+    "relation": "launched_by",
+    "value": "Laura Chen and Miguel Gonzales",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched by environmentalists Laura Chen and Miguel Gonzales on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Cycle Therapy",
+    "relation": "launched_on",
+    "value": "November 15, 2023",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched by environmentalists Laura Chen and Miguel Gonzales on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Laura Chen",
+    "relation": "occupation",
+    "value": "environmentalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched by environmentalists Laura Chen and Miguel Gonzales"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Miguel Gonzales",
+    "relation": "occupation",
+    "value": "environmentalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched by environmentalists Laura Chen and Miguel Gonzales"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Cycle Therapy",
+    "relation": "focus",
+    "value": "educating the community about sustainable transport and the positive impacts of cycling on urban spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focusing on educating the community about sustainable transport and the positive impacts of cycling on urban spaces"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Brewed Wisdom",
+    "relation": "business_type",
+    "value": "coffee shop with an attached incubator space for aspiring entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Brewed Wisdom,\" a coffee shop with an attached incubator space for aspiring entrepreneurs owned by Michael Davidson which opened on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Brewed Wisdom",
+    "relation": "owned_by",
+    "value": "Michael Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owned by Michael Davidson which opened on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Brewed Wisdom",
+    "relation": "opened_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which opened on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Michael Davidson",
+    "relation": "offers",
+    "value": "mentorship sessions over a cup of joe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Offering mentorship sessions over a cup of joe"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Michael Davidson",
+    "relation": "establishment_provides",
+    "value": "a fertile ground for the next generation of dreamers to grow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael's establishment provides a fertile ground for the next generation of dreamers to grow"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

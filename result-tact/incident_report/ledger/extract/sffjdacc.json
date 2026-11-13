@@ -1,0 +1,461 @@
+{
+ "inventory": [
+  "Metro City",
+  "James McAllister",
+  "Coastville",
+  "Alice Fern\u00e1ndez",
+  "Hilltown",
+  "Cathy Reeves",
+  "Jessica Barnes",
+  "Newburgh",
+  "Metro City's transit authority",
+  "Hilltown's Department of Transportation",
+  "Hilltown's bike-sharing program",
+  "metro system",
+  "Coastville transit system",
+  "Newburgh subway system",
+  "local trams",
+  "redundant software system",
+  "training program",
+  "private ride-sharing companies",
+  "October 17, 2023 outage",
+  "November 4, 2023 software glitch",
+  "December 5, 2023 severe weather event",
+  "September 9, 2023 subway calamity",
+  "public transportation systems"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "public transportation systems",
+    "relation": "requires",
+    "value": "comprehensive contingency plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the growing dependence on public transportation systems, cities must construct comprehensive contingency plans to cope with unexpected disruptions."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "October 17, 2023 outage",
+    "relation": "occurred_in",
+    "value": "Metro City",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On the morning of October 17, 2023, commuters in Metro City were met with the unwelcome news that the entire metro system had ground to a halt"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "metro system",
+    "relation": "halted_by",
+    "value": "a power failure",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the entire metro system had ground to a halt due to a power failure caused by unexpected grid complications"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "metro system",
+    "relation": "failure_caused_by",
+    "value": "unexpected grid complications",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a power failure caused by unexpected grid complications"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "metro system",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to a power failure caused by unexpected grid complications"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "James McAllister",
+    "relation": "occupation",
+    "value": "a daily commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James McAllister, a daily commuter, recalls his frustration"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "James McAllister",
+    "relation": "described_situation_as",
+    "value": "pandemonium",
+    "time": null,
+    "speaker": "James McAllister",
+    "verbatim": [
+     "It was pandemonium."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "metro system",
+    "relation": "provided_no_information_on",
+    "value": "when the services would resume",
+    "time": null,
+    "speaker": "James McAllister",
+    "verbatim": [
+     "There was no information on when the services would resume and hardly any alternative provided by the metro authorities."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Metro City's transit authority",
+    "relation": "provided",
+    "value": "hardly any alternative",
+    "time": null,
+    "speaker": "James McAllister",
+    "verbatim": [
+     "There was no information on when the services would resume and hardly any alternative provided by the metro authorities."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "metro system",
+    "relation": "felt_like",
+    "value": "being stranded with no plan B",
+    "time": null,
+    "speaker": "James McAllister",
+    "verbatim": [
+     "It felt like being stranded with no plan B."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "November 4, 2023 software glitch",
+    "relation": "occurred_in",
+    "value": "Coastville",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 4, 2023, in Coastville, a critical software glitch brought the transit system to a standstill for several hours during the evening rush."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Coastville transit system",
+    "relation": "halted_by",
+    "value": "a critical software glitch",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a critical software glitch brought the transit system to a standstill for several hours during the evening rush"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Coastville transit system",
+    "relation": "halted_for",
+    "value": "several hours during the evening rush",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "brought the transit system to a standstill for several hours during the evening rush"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "November 4, 2023 software glitch",
+    "relation": "revealed",
+    "value": "flaws in communication protocols and incident management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event revealed flaws in communication protocols and incident management."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Metro City's transit authority",
+    "relation": "failed_to_communicate",
+    "value": "the scope and expected duration of the disruption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the metro authorities failed to communicate the scope and expected duration of the disruption."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Alice Fern\u00e1ndez",
+    "relation": "occupation",
+    "value": "commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says commuter Alice Fern\u00e1ndez."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Alice Fern\u00e1ndez",
+    "relation": "said",
+    "value": "We were in the dark, literally and figuratively",
+    "time": null,
+    "speaker": "Alice Fern\u00e1ndez",
+    "verbatim": [
+     "\u201cWe were in the dark, literally and figuratively,\u201d says commuter Alice Fern\u00e1ndez."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Coastville",
+    "relation": "highlighted",
+    "value": "the significance of backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Coastville episode highlighted the significance of backup systems."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Coastville",
+    "relation": "implemented",
+    "value": "a redundant software system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following the service disruption, the city implemented a redundant software system"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "redundant software system",
+    "relation": "runs_in",
+    "value": "in parallel to the primary one",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a redundant software system that now runs in parallel to the primary one and can take over in case of failure"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "redundant software system",
+    "relation": "can_take_over_in",
+    "value": "case of failure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can take over in case of failure"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "December 5, 2023 severe weather event",
+    "relation": "knocked_out",
+    "value": "power lines servicing local trams in Hilltown",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, when a severe weather event knocked out power lines servicing local trams in Hilltown"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "local trams",
+    "relation": "located_in",
+    "value": "Hilltown",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "power lines servicing local trams in Hilltown"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Hilltown's bike-sharing program",
+    "relation": "witnessed",
+    "value": "an unprecedented surge in usage",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the city's bike-sharing program witnessed an unprecedented surge in usage"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Cathy Reeves",
+    "relation": "position",
+    "value": "director of Hilltown's Department of Transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cathy Reeves, director of Hilltown's Department of Transportation, noted"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Hilltown's bike-sharing program",
+    "relation": "absorbed",
+    "value": "a significant number of stranded passengers",
+    "time": null,
+    "speaker": "Cathy Reeves",
+    "verbatim": [
+     "Our bike-sharing program absorbed a significant number of stranded passengers."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Hilltown's bike-sharing program",
+    "relation": "described_as",
+    "value": "a silver lining in our contingency framework",
+    "time": null,
+    "speaker": "Cathy Reeves",
+    "verbatim": [
+     "It was a silver lining in our contingency framework."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Metro City's transit authority",
+    "relation": "instituted",
+    "value": "a rigorous training program",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Metro City\u2019s transit authority instituted a rigorous training program in January 2024"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "training program",
+    "relation": "focused_on",
+    "value": "outage management and passenger communication",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "a rigorous training program in January 2024 that focused on outage management and passenger communication"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "training program",
+    "relation": "motivated_by",
+    "value": "past mistakes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Learning from past mistakes, the training emphasized"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "training program",
+    "relation": "emphasized",
+    "value": "clear, direct communication between transit workers and the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the training emphasized clear, direct communication between transit workers and the public"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jessica Barnes",
+    "relation": "occupation",
+    "value": "a transport analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Barnes, a transport analyst, remarks"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "private ride-sharing companies",
+    "relation": "has_role",
+    "value": "a role to play",
+    "time": null,
+    "speaker": "Jessica Barnes",
+    "verbatim": [
+     "Private ride-sharing companies have a role to play."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "private ride-sharing companies",
+    "relation": "can_provide",
+    "value": "a temporary buffer for public transport outages if integrated properly",
+    "time": null,
+    "speaker": "Jessica Barnes",
+    "verbatim": [
+     "They can provide a temporary buffer for public transport outages if integrated properly."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "September 9, 2023 subway calamity",
+    "relation": "occurred_in",
+    "value": "Newburgh",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the calamity suffered by the subway system in Newburgh on September 9, 2023"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "September 9, 2023 subway calamity",
+    "relation": "caused_by",
+    "value": "the aging electrical circuitry",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to the aging electrical circuitry"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Newburgh",
+    "relation": "allocated",
+    "value": "a substantial budget for modernizing its transit infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city allocated a substantial budget for modernizing its transit infrastructure"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Newburgh",
+    "relation": "goal",
+    "value": "to minimize the chances of system failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ultimate goal was to minimize the chances of system failures."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Newburgh",
+    "relation": "in_order_to",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city allocated a substantial budget for modernizing its transit infrastructure. The ultimate goal was to minimize the chances of system failures."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

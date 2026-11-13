@@ -1,0 +1,834 @@
+{
+ "inventory": [
+  "Marcus Green",
+  "Jessica Lin",
+  "Richard Myles",
+  "Liam Sanchez",
+  "Alice Redfern",
+  "Lincoln High School",
+  "Fit & Green Teens",
+  "Run for Green",
+  "EcoFit",
+  "Green Sprint Weekend",
+  "outdoor and green exercise",
+  "plogging",
+  "local parks and green spaces",
+  "local gyms and fitness centers",
+  "local schools",
+  "fitness stations",
+  "popular running trails",
+  "community parks",
+  "physical education curriculum",
+  "outdoor fitness programs",
+  "social fitness groups"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local parks and green spaces",
+    "relation": "has_fitness_revolution_taking_root",
+    "value": "fitness revolution taking root",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a fitness revolution is taking root in our local parks and green spaces"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "outdoor and green exercise",
+    "relation": "is_not_dominated_by",
+    "value": "the loud clanking of weights or the whir of treadmills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not the loud clanking of weights or the whir of treadmills that dominate this scene"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "outdoor and green exercise",
+    "relation": "has_dominant_sound",
+    "value": "laughter and encouragement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but rather the sound of laughter and encouragement as groups gather"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "outdoor and green exercise",
+    "relation": "is_becoming",
+    "value": "a widespread trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is becoming a widespread trend"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "outdoor and green exercise",
+    "relation": "is_gaining_momentum_among",
+    "value": "the younger generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a movement that is especially gaining momentum among the younger generation"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "outdoor and green exercise",
+    "relation": "led_by",
+    "value": "teenagers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with teenagers leading the charge in this fresh take on staying fit"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local parks and green spaces",
+    "relation": "marked_increase_in_teens_since",
+    "value": "autumn equinox of 2023",
+    "time": "autumn equinox of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the autumn equinox of 2023, there has been a marked increase in the number of teens flocking to local parks and outdoor facilities"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "outdoor and green exercise",
+    "relation": "provides_mental_health_benefits",
+    "value": "reduced stress and increased happiness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "studies have shown that green exercise can provide mental health benefits like reduced stress and increased happiness"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local parks and green spaces",
+    "relation": "increase_explained_by",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This phenomenon is hardly surprising, given the array of benefits offered by exercising in natural environments.",
+     "studies have shown that green exercise can provide mental health benefits like reduced stress and increased happiness"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Marcus Green",
+    "relation": "is_gym_owner",
+    "value": "gym owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gym owner Marcus Green explained"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Marcus Green",
+    "relation": "gave_interview_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In an interview on October 5, 2023, gym owner Marcus Green explained"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "local gyms and fitness centers",
+    "relation": "has_observed",
+    "value": "a definite shift",
+    "time": "October 5, 2023",
+    "speaker": "Marcus Green",
+    "verbatim": [
+     "We've seen a definite shift."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "local gyms and fitness centers",
+    "relation": "observed_teens_not_signing_up_for",
+    "value": "gym memberships like they used to",
+    "time": "October 5, 2023",
+    "speaker": "Marcus Green",
+    "verbatim": [
+     "The teens aren't signing up for gym memberships like they used to."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "outdoor and green exercise",
+    "relation": "teens_found_something_different_in",
+    "value": "the serenity of the great outdoors",
+    "time": "October 5, 2023",
+    "speaker": "Marcus Green",
+    "verbatim": [
+     "They are looking for something different, and it appears they have found it in the serenity of the great outdoors."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "local gyms and fitness centers",
+    "relation": "are_starting_to_take_note",
+    "value": "the trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local gyms and fitness centers are starting to take note as well."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "social fitness groups",
+    "relation": "arose_from",
+    "value": "the invigorating appeal of exercising outside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The invigorating appeal of exercising outside has given rise to social fitness groups."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Fit & Green Teens",
+    "relation": "started_by",
+    "value": "Jessica Lin",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "'Fit & Green Teens' started by 16-year-old Jessica Lin on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jessica Lin",
+    "relation": "age",
+    "value": "16-year-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "started by 16-year-old Jessica Lin"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Fit & Green Teens",
+    "relation": "memberships_skyrocketed",
+    "value": "memberships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have seen memberships skyrocket"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Fit & Green Teens",
+    "relation": "organizes",
+    "value": "weekly meetups",
+    "time": null,
+    "speaker": "Jessica Lin",
+    "verbatim": [
+     "We organize weekly meetups where we try everything from yoga in the park to outdoor circuit training and hiking."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Fit & Green Teens",
+    "relation": "activities_include",
+    "value": "yoga in the park, outdoor circuit training and hiking",
+    "time": null,
+    "speaker": "Jessica Lin",
+    "verbatim": [
+     "We organize weekly meetups where we try everything from yoga in the park to outdoor circuit training and hiking."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Fit & Green Teens",
+    "relation": "purpose_is",
+    "value": "building a community",
+    "time": null,
+    "speaker": "Jessica Lin",
+    "verbatim": [
+     "It's more than exercise; it\u2019s about building a community"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "social fitness groups",
+    "relation": "became_staple_for",
+    "value": "local youth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The gatherings have become a staple for local youth"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "social fitness groups",
+    "relation": "survey_finding",
+    "value": "over 60% of teens report preferring meetups with a fitness component",
+    "time": null,
+    "speaker": "the latest survey in the area",
+    "verbatim": [
+     "According to the latest survey in the area, over 60% of teens report preferring meetups with a fitness component"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "social fitness groups",
+    "relation": "mirrors",
+    "value": "the shift toward more healthconscious and socially responsible lifestyles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mirroring the shift toward more healthconscious and socially responsible lifestyles"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "local schools",
+    "relation": "are_catching_onto",
+    "value": "this new wave of wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions are also catching onto this new wave of wellness"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local schools",
+    "relation": "incorporated_outdoor_activities_into",
+    "value": "physical education curriculum",
+    "time": "Starting in late September",
+    "speaker": null,
+    "verbatim": [
+     "Starting in late September, several local schools incoporated outdoor activities into their physical education curriculum."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "physical education curriculum",
+    "relation": "includes",
+    "value": "outdoor activities",
+    "time": "Starting in late September",
+    "speaker": null,
+    "verbatim": [
+     "Starting in late September, several local schools incoporated outdoor activities into their physical education curriculum."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Richard Myles",
+    "relation": "is_occupation",
+    "value": "P.E. teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Richard Myles, a P.E. teacher at Lincoln High School reported"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Richard Myles",
+    "relation": "works_at",
+    "value": "Lincoln High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Richard Myles, a P.E. teacher at Lincoln High School reported"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Richard Myles",
+    "relation": "has_taken_classes_outside_gym",
+    "value": "whenever we can",
+    "time": null,
+    "speaker": "Richard Myles",
+    "verbatim": [
+     "We've taken our classes outside the gym whenever we can."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Richard Myles",
+    "relation": "reported_students",
+    "value": "more engaged",
+    "time": null,
+    "speaker": "Richard Myles",
+    "verbatim": [
+     "The students have been more engaged"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Richard Myles",
+    "relation": "reported_students_spirits",
+    "value": "spirits are higher",
+    "time": null,
+    "speaker": "Richard Myles",
+    "verbatim": [
+     "spirits are higher."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Richard Myles",
+    "relation": "reported_students_connecting",
+    "value": "connecting with the environment and each other, not just working out",
+    "time": null,
+    "speaker": "Richard Myles",
+    "verbatim": [
+     "They're not just working out; they're connecting with the environment and each other."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Run for Green",
+    "relation": "kicked_off_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "'Run for Green', which kicked off on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Run for Green",
+    "relation": "encourages_students_to",
+    "value": "participate in outdoor running groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourage students to participate in outdoor running groups"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Run for Green",
+    "relation": "promotes",
+    "value": "environmental awareness and conservation efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not only for exercise but also to promote environmental awareness and conservation efforts"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Run for Green",
+    "relation": "in_order_to",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourage students to participate in outdoor running groups, not only for exercise but also to promote environmental awareness and conservation efforts"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "outdoor and green exercise",
+    "relation": "supported_by",
+    "value": "fitness apps used to track progress and outdoor activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fitness apps are being used to track progress and outdoor activity, and to stay connected to friends."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Liam Sanchez",
+    "relation": "age",
+    "value": "Seventeen-year-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old app developer Liam Sanchez launched 'EcoFit' on September 1, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Liam Sanchez",
+    "relation": "is_occupation",
+    "value": "app developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old app developer Liam Sanchez"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Liam Sanchez",
+    "relation": "launched",
+    "value": "EcoFit",
+    "time": "September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Liam Sanchez launched 'EcoFit' on September 1, 2023"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "EcoFit",
+    "relation": "designed_to",
+    "value": "merge fitness tracking with environmental challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an app designed to merge fitness tracking with environmental challenges"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "EcoFit",
+    "relation": "awards_badges_for",
+    "value": "achievements like running a certain distance in a park or organizing a green cleanup after a group workout",
+    "time": null,
+    "speaker": "Liam Sanchez",
+    "verbatim": [
+     "Users earn badges for achievements like running a certain distance in a park or organizing a green cleanup after a group workout"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "EcoFit",
+    "relation": "highlights",
+    "value": "gamified aspect of modern fitness",
+    "time": null,
+    "speaker": "Liam Sanchez",
+    "verbatim": [
+     "highlighting the gamified aspect of modern fitness"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "outdoor and green exercise",
+    "relation": "appeal_amplified_by",
+    "value": "integration of these digital tools with physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of these digital tools with physical activity has not diminished the appeal of green workouts; if anything, it has amplified it"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "outdoor and green exercise",
+    "relation": "tracks_impact_on",
+    "value": "personal health and the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping to track the positive impact of these sessions on both personal health and the environment"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "outdoor and green exercise",
+    "relation": "surge_in_public_investment_in",
+    "value": "outdoor equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there has been a surge in public investment in outdoor equipment"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "fitness stations",
+    "relation": "installation_realized_on",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The local initiative to install fitness stations along popular running trails and in community parks was realized on October 10, 2023."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "fitness stations",
+    "relation": "installed_along",
+    "value": "popular running trails and in community parks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "install fitness stations along popular running trails and in community parks"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "popular running trails",
+    "relation": "has_fitness_stations_installed_along_them",
+    "value": "fitness stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "install fitness stations along popular running trails"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "community parks",
+    "relation": "has_fitness_stations_installed_in_them",
+    "value": "fitness stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness stations along popular running trails and in community parks"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "fitness stations",
+    "relation": "were_warmly_received",
+    "value": "offering diversification in exercise routines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such developments have been warmly received, offering diversification in exercise routines."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Alice Redfern",
+    "relation": "oversees",
+    "value": "community recreation programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice Redfern, who oversees community recreation programs, stated"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "community parks",
+    "relation": "should_be_integrated_with",
+    "value": "functional fitness spots",
+    "time": null,
+    "speaker": "Alice Redfern",
+    "verbatim": [
+     "We wanted to ensure that the beauty of our parks could be integrated with functional fitness spots."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "fitness stations",
+    "relation": "allow",
+    "value": "teens to use bodyweight exercises and enjoy structured workouts outside the gym",
+    "time": null,
+    "speaker": "Alice Redfern",
+    "verbatim": [
+     "These stations allow teens to use bodyweight exercises and enjoy structured workouts outside the gym."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "fitness stations",
+    "relation": "not_confined_to",
+    "value": "within four walls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness equipment doesn\u2019t need to be confined within four walls"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "fitness stations",
+    "relation": "can_be_interspersed_with",
+    "value": "nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It can be interspersed with nature, blending scenic views with healthy activity."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "outdoor and green exercise",
+    "relation": "linked_to",
+    "value": "environmental advocacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The nexus between outdoor activities and environmental advocacy hasn't gone unnoticed."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "plogging",
+    "relation": "is_defined_as",
+    "value": "jogging while picking up litter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'plogging' \u2013 jogging while picking up litter"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "plogging",
+    "relation": "practiced_by",
+    "value": "teen exercisers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teen exercisers are often seen combining their workouts with eco-friendly initiatives, like participating in 'plogging'"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Green Sprint Weekend",
+    "relation": "held_on",
+    "value": "November 11, 2023",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The recent 'Green Sprint Weekend' held on November 11, 2023"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Green Sprint Weekend",
+    "relation": "drew",
+    "value": "hundreds of local teens",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "drew hundreds of local teens who committed to cleaning up their exercise spaces"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Green Sprint Weekend",
+    "relation": "participants_committed_to",
+    "value": "cleaning up their exercise spaces",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "drew hundreds of local teens who committed to cleaning up their exercise spaces"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Green Sprint Weekend",
+    "relation": "is_testament_to",
+    "value": "the intrinsic link between maintaining their health and that of the planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a testament to the intrinsic link they feel between maintaining their health and that of the planet"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "outdoor and green exercise",
+    "relation": "taking_strides_toward",
+    "value": "inclusivity and sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This community-driven model of fitness is also taking strides towards inclusivity and sustainability."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "outdoor fitness programs",
+    "relation": "accessible_to",
+    "value": "all, regardless of socioeconomic status",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Efforts to ensure that outdoor fitness programs are accessible to all, regardless of socioeconomic status"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "outdoor fitness programs",
+    "relation": "have_been_gaining_ground",
+    "value": "steadily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been steadily gaining ground"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "outdoor and green exercise",
+    "relation": "promotes",
+    "value": "eco-conscious living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the trend is also promoting eco-conscious living"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "outdoor and green exercise",
+    "relation": "is_not",
+    "value": "a fleeting fad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is more than just a fleeting fad"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "outdoor and green exercise",
+    "relation": "is_redefinition_of",
+    "value": "what it means to be fit and healthy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a redefinition of what it means to be fit and healthy"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "outdoor and green exercise",
+    "relation": "is_shaping",
+    "value": "a generation that values community, sustainability, and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This trend is shaping a generation that values community, sustainability, and well-being"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "outdoor and green exercise",
+    "relation": "is_holistic_approach_blossoming_in",
+    "value": "our local green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a holistic approach to fitness that is blossoming in our local green spaces"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

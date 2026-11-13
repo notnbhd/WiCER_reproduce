@@ -1,0 +1,628 @@
+{
+ "inventory": [
+  "New York",
+  "London",
+  "Dr. Jane Holloway",
+  "NetFuture",
+  "Mark Richardson",
+  "FlexiNet",
+  "FlexiShield cables",
+  "Dr. Emily Stewart",
+  "Redundant Array of Independent Networks (RAIN) project",
+  "Boulder, Colorado",
+  "SpaceX",
+  "Starlink",
+  "Amazon",
+  "Project Kuiper",
+  "Secure and Resilient Networks Act",
+  "Asheville",
+  "Connected Community Program",
+  "mesh networks",
+  "satellite internet",
+  "machine learning",
+  "internet service providers (ISPs)",
+  "internet outages",
+  "network resilience",
+  "redundancy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "internet outages",
+    "relation": "represent",
+    "value": "significant impediments to business, healthcare, and education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they represent significant impediments to business, healthcare, and education"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "network resilience",
+    "relation": "being_strengthened_to",
+    "value": "preempt and rapidly recover from internet outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technological advancements are being directed at strengthening network resilience to preempt and rapidly recover from internet outages"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "internet outages",
+    "relation": "notable_outages_since",
+    "value": "several notable internet outages that caused disruption on a large scale",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there have been several notable internet outages that caused disruption on a large scale."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "New York",
+    "relation": "faced_outage_on",
+    "value": "a significant outage",
+    "time": "October 14th",
+    "speaker": null,
+    "verbatim": [
+     "On October 14th, New York faced a significant outage that impacted thousands of businesses during peak hours"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "New York",
+    "relation": "impacted",
+    "value": "thousands of businesses during peak hours",
+    "time": "October 14th",
+    "speaker": null,
+    "verbatim": [
+     "a significant outage that impacted thousands of businesses during peak hours"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "London",
+    "relation": "experienced",
+    "value": "a massive dip in connectivity",
+    "time": "November 23rd",
+    "speaker": null,
+    "verbatim": [
+     "on November 23rd, London's internet users experienced a massive dip in connectivity"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "London",
+    "relation": "caused_by",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experienced a massive dip in connectivity due to a fiber cut caused by construction activities"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "London",
+    "relation": "fiber_cut_caused_by",
+    "value": "construction activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a fiber cut caused by construction activities"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Jane Holloway",
+    "relation": "described_as",
+    "value": "a renowned tech analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Dr. Jane Holloway, a renowned tech analyst, stated"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Jane Holloway",
+    "relation": "stated",
+    "value": "The internet is the backbone of modern society.",
+    "time": "December 5, 2023",
+    "speaker": "Dr. Jane Holloway",
+    "verbatim": [
+     "The internet is the backbone of modern society."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Jane Holloway",
+    "relation": "stated",
+    "value": "Its failure affects payment systems, emergency services, and even critical infrastructure controls.",
+    "time": "December 5, 2023",
+    "speaker": "Dr. Jane Holloway",
+    "verbatim": [
+     "Its failure affects payment systems, emergency services, and even critical infrastructure controls."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "internet outages",
+    "relation": "caused_by",
+    "value": "physical damage to cables, malicious cyber activities, or natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most outages are the result of physical damage to cables, malicious cyber activities, or natural disasters."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "internet outages",
+    "relation": "caused_by",
+    "value": "a technical glitch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rarely, a technical glitch can also lead to a large-scale disconnection."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "internet outages",
+    "relation": "risk_factor",
+    "value": "network congestion and overloads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "network congestion and overloads also pose a significant risk."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "machine learning",
+    "relation": "used_to",
+    "value": "predict and prevent service disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the use of machine learning to predict and prevent service disruptions"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "machine learning",
+    "relation": "detects",
+    "value": "unusual patterns that might indicate an impending outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart algorithms capable of detecting unusual patterns that might indicate an impending outage"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "internet service providers (ISPs)",
+    "relation": "enabled_by",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By forecasting these events, internet service providers (ISPs) can take preemptive action."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "NetFuture",
+    "relation": "described_as",
+    "value": "pioneering ISP",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pioneering ISP, NetFuture"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "NetFuture",
+    "relation": "announced_deployment_of",
+    "value": "AI-based monitoring systems across its network",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced the deployment of AI-based",
+     "monitoring systems across its network."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Mark Richardson",
+    "relation": "position",
+    "value": "CTO of NetFuture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to the company's CTO, Mark Richardson"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Mark Richardson",
+    "relation": "stated",
+    "value": "This system learns from historical outages and current network performance, preparing us to prevent or quickly mitigate disruptions.",
+    "time": null,
+    "speaker": "Mark Richardson",
+    "verbatim": [
+     "This system learns from historical outages and current network performance, preparing us to prevent or quickly mitigate disruptions."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "internet service providers (ISPs)",
+    "relation": "turning_to",
+    "value": "more resilient materials and technologies to protect cables from damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ISPs are turning to more resilient materials and technologies to protect cables from damage."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "internet service providers (ISPs)",
+    "relation": "replaced_copper_cables_with",
+    "value": "advanced polymer-coated fibers in high-risk areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "replacement of traditional copper cables with advanced polymer-coated fibers in high-risk areas"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "internet service providers (ISPs)",
+    "relation": "replacement_yielded",
+    "value": "positive results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has yielded positive results."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "FlexiNet",
+    "relation": "unveiled",
+    "value": "FlexiShield cables",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 8, 2024, FlexiNet unveiled their FlexiShield cables"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "FlexiShield cables",
+    "relation": "claimed_to_offer",
+    "value": "triple the resilience of standard fibers against physical damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "FlexiShield cables that claim to offer triple the resilience of standard fibers against physical damage"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "redundancy",
+    "relation": "important_for",
+    "value": "safeguarding against outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Creating network redundancies is crucial in safeguarding against outages."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "redundancy",
+    "relation": "enables",
+    "value": "others can take over without causing a noticeable service interruption if one path fails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By constructing multiple pathways for data to travel, providers can ensure that if one path fails, others can take over without causing a noticeable service interruption."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Redundant Array of Independent Networks (RAIN) project",
+    "relation": "spearheaded_by",
+    "value": "Dr. Emily Stewart",
+    "time": "March 12, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Redundant Array of Independent Networks (RAIN) project, spearheaded by Dr. Emily Stewart on March 12, 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Emily Stewart",
+    "relation": "leads",
+    "value": "Redundant Array of Independent Networks (RAIN) project",
+    "time": "March 12, 2024",
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Dr. Emily Stewart on March 12, 2024"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Redundant Array of Independent Networks (RAIN) project",
+    "relation": "aims_to",
+    "value": "develop a framework for ISPs to seamlessly integrate redundancy into their existing systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to develop a framework for ISPs to seamlessly integrate redundancy into their existing systems"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "mesh networks",
+    "relation": "represent",
+    "value": "a breakthrough by decentralizing the flow of internet traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mesh networks represent a breakthrough by decentralizing the flow of internet traffic."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "mesh networks",
+    "relation": "allow",
+    "value": "data to be routed through numerous interconnected nodes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mesh networks allow for data to be routed through numerous interconnected nodes."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "mesh networks",
+    "relation": "property",
+    "value": "the collapse of one node doesn't incapacitate the network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The collapse of one node doesn't incapacitate the network."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Boulder, Colorado",
+    "relation": "embarked_on",
+    "value": "creating a citywide mesh network",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "As reported on January 15, 2024, the city of Boulder, Colorado, embarked on creating a citywide mesh network"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Boulder, Colorado",
+    "relation": "saw",
+    "value": "a dramatic increase in its internet resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeing a dramatic increase in its internet resilience"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "satellite internet",
+    "relation": "fallback_during",
+    "value": "terrestrial outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The potential of satellite internet as a fallback during terrestrial outages is being realized more than ever."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Starlink",
+    "relation": "racing_to_provide",
+    "value": "a blanket of high-speed internet that could maintain connectivity when ground-based networks fail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SpaceX\u2019s Starlink project and Amazon\u2019s Project Kuiper are racing to provide a blanket of high-speed internet that could maintain connectivity when ground-based networks fail."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Project Kuiper",
+    "relation": "racing_to_provide",
+    "value": "a blanket of high-speed internet that could maintain connectivity when ground-based networks fail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SpaceX\u2019s Starlink project and Amazon\u2019s Project Kuiper are racing to provide a blanket of high-speed internet that could maintain connectivity when ground-based networks fail."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Starlink",
+    "relation": "owned_by",
+    "value": "SpaceX",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SpaceX\u2019s Starlink project"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Project Kuiper",
+    "relation": "owned_by",
+    "value": "Amazon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amazon\u2019s Project Kuiper"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "SpaceX",
+    "relation": "announced_deployment_of",
+    "value": "the successful deployment of their latest constellation of satellites",
+    "time": "April 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On April 21, 2024, SpaceX announced the successful deployment of their latest constellation of satellites"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "SpaceX",
+    "relation": "promised",
+    "value": "improved redundancy for ground networks",
+    "time": "April 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "promising improved redundancy for ground networks"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Secure and Resilient Networks Act",
+    "relation": "passed_on",
+    "value": "September 29, 2023",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Secure and Resilient Networks Act, passed on September 29, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Secure and Resilient Networks Act",
+    "relation": "incentivizes",
+    "value": "ISPs to adopt the latest resilience standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incentivizes ISPs to adopt the latest resilience standards by providing tax breaks and grants."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Secure and Resilient Networks Act",
+    "relation": "provides",
+    "value": "tax breaks and grants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by providing tax breaks and grants"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Secure and Resilient Networks Act",
+    "relation": "mechanism_of",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incentivizes ISPs to adopt the latest resilience standards by providing tax breaks and grants."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "network resilience",
+    "relation": "ensured_by",
+    "value": "government intervention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Government intervention ensures that network resilience isn't only a priority for big players capable of funding their upgrades."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Asheville",
+    "relation": "launched",
+    "value": "'Connected Community Program'",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 1, 2023, the city of Asheville launched its 'Connected Community Program,'"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Connected Community Program",
+    "relation": "works_with",
+    "value": "local ISPs to develop crisis response plans tailored to the community\u2019s specific needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which works with local ISPs to develop crisis response plans that are tailored to the community\u2019s specific needs."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Connected Community Program",
+    "relation": "instrumental_in",
+    "value": "bridging the gap between technology and effective on-theground strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such programs are instrumental in bridging the gap between technology and effective on-theground strategies."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "network resilience",
+    "relation": "goal",
+    "value": "ensuring internet service disruptions become a rarity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a concerted effort underway to ensure that internet service disruptions become a rarity."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "network resilience",
+    "relation": "pave_the_way_for",
+    "value": "a future where connectivity is reliable, and outages are quickly resolved or altogether avoided",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovations in network resilience pave the way for a future where connectivity is reliable, and outages are quickly resolved or altogether avoided"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "network resilience",
+    "relation": "steps_include",
+    "value": "employing artificial intelligence, improving physical infrastructure, embracing redundancy and policy reforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From employing artificial intelligence and improving physical infrastructure to embracing redundancy and policy reforms"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

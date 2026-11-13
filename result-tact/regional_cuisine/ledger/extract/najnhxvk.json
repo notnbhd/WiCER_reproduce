@@ -1,0 +1,512 @@
+{
+ "inventory": [
+  "Michael Bonsai",
+  "Aunt Gertrude",
+  "Sally Sprout",
+  "Tim Thyme",
+  "Lily Beanstalk",
+  "Peter Parsley",
+  "Rosemary Wilde",
+  "John Lettuce-Leafer",
+  "Plantae Paradise",
+  "The Green Carpet Event: April's Spring Harvest Festival",
+  "Maple-Grilled Radicchio",
+  "Cilantro-Lime Vinaigrette",
+  "Basil Pesto Aioli",
+  "Sage Smash",
+  "Minty Muddle Mixer",
+  "Forage and Feast: Guided Green Gatherings",
+  "Plant Your Plot: Adventures in Urban Herb Gardening",
+  "Gather 'Round the Garden: Community Planting Initiatives",
+  "Salad Days: The Green Renaissance at Restaurants",
+  "The Dressing Room: A Saucy Affair with Fresh Herbs",
+  "Mingle with Mint: Herb-Inspired Social Mixers",
+  "Leafy Laughter: The Jovial Joys of Jagged Lettuce",
+  "iceberg wedge salad",
+  "dandelion leaves",
+  "romaine",
+  "asparagus",
+  "artichokes",
+  "kale",
+  "arugula",
+  "butter lettuce",
+  "spinach",
+  "chickweed",
+  "chervil",
+  "wild thyme",
+  "thyme",
+  "rosemary",
+  "basil",
+  "chives",
+  "mint",
+  "cilantro",
+  "sage"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "asparagus",
+    "relation": "locks_swords_with",
+    "value": "artichokes",
+    "time": "From April 5th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "From April 5th, 2024, as the frost surrenders to a dew-kissed dawn, tales of asparagus spears locking swords with artichokes become the narrative of every kitchen."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "thyme",
+    "relation": "present_at_dinner_party",
+    "value": "aroma at dinner party",
+    "time": "April 17th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Imagine walking into a dinner party on April 17th, 2024, where the aroma of thyme and rosemary tickles your nose"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "rosemary",
+    "relation": "present_at_dinner_party",
+    "value": "aroma at dinner party",
+    "time": "April 17th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Imagine walking into a dinner party on April 17th, 2024, where the aroma of thyme and rosemary tickles your nose"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Michael Bonsai",
+    "relation": "profession",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the likes of Michael Bonsai, a (fictional) James Beard award-winning chef"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Michael Bonsai",
+    "relation": "award",
+    "value": "James Beard award-winning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the likes of Michael Bonsai, a (fictional) James Beard award-winning chef"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Michael Bonsai",
+    "relation": "said",
+    "value": "to plate without green is a culinary crime equivalent to wearing socks with sandals",
+    "time": null,
+    "speaker": "Michael Bonsai",
+    "verbatim": [
+     "to plate without green is a culinary crime equivalent to wearing socks with sandals."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "kale",
+    "relation": "described_as",
+    "value": "frilly, like it's preparing for a gala",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The market stalls are adorned with frilly kale like it's preparing for a gala"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "arugula",
+    "relation": "described_as",
+    "value": "crisp, bites back with peppery wit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crisp arugula that bites back with peppery wit"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "butter lettuce",
+    "relation": "described_as",
+    "value": "so tender, you\u2019d believe it penned a love sonnet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "butter lettuce so tender, you\u2019d believe it penned a love sonnet"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Aunt Gertrude",
+    "relation": "brought_to_party",
+    "value": "iceberg wedge salad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aunt Gertrude showed up to the party with her infamous iceberg wedge salad"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "spinach",
+    "relation": "appears_in_simile",
+    "value": "room's merriment wilted faster than a neglected spinach leaf",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the room's merriment wilted faster than a neglected spinach leaf"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "dandelion leaves",
+    "relation": "described_as",
+    "value": "no longer just a lawn intruder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "charismatic greens like dandelion leaves \u2013 no longer just a lawn intruder \u2013 are ready to prove their worth"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sally Sprout",
+    "relation": "profession",
+    "value": "urban forager and food blogger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban forager and food blogger, Sally Sprout"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sally Sprout",
+    "relation": "said",
+    "value": "You haven\u2019t lived until you\u2019ve swapped romaine for some young, tender dandelion greens",
+    "time": "April 22nd, 2024",
+    "speaker": "Sally Sprout",
+    "verbatim": [
+     "\u201cYou haven\u2019t lived until you\u2019ve swapped romaine for some young, tender dandelion greens,\u201d proclaims urban forager and food blogger, Sally Sprout, on the crisp morning of April 22nd, 2024."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sally Sprout",
+    "relation": "said",
+    "value": "the humble herb needs to be treated like a guest of honor",
+    "time": null,
+    "speaker": "Sally Sprout",
+    "verbatim": [
+     "needs to be treated like a guest of honor"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Tim Thyme",
+    "relation": "profession",
+    "value": "self-proclaimed Balcony Botanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a self-proclaimed Balcony Botanist"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Tim Thyme",
+    "relation": "said",
+    "value": "It\u2019s parsley possible that I spend more on herbs than shoes now",
+    "time": null,
+    "speaker": "Tim Thyme",
+    "verbatim": [
+     "It\u2019s parsley possible that I spend more on herbs than shoes now"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Tim Thyme",
+    "relation": "sows",
+    "value": "another round of basil seeds on his porch planter",
+    "time": "May 1st, 2024",
+    "speaker": null,
+    "verbatim": [
+     "he sows another round of basil seeds on his porch planter on the balmy afternoon of May 1st, 2024"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Maple-Grilled Radicchio",
+    "relation": "created_by",
+    "value": "Chef Bonsai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a creation by Chef Bonsai unveiled on May 15th, 2024"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maple-Grilled Radicchio",
+    "relation": "unveiled_at",
+    "value": "Plantae Paradise",
+    "time": "May 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "unveiled on May 15th, 2024, at his Michelin-starred restaurant, Plantae Paradise"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Plantae Paradise",
+    "relation": "is_restaurant_of",
+    "value": "Chef Bonsai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his Michelin-starred restaurant, Plantae Paradise"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Plantae Paradise",
+    "relation": "has_status",
+    "value": "Michelin-starred restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his Michelin-starred restaurant, Plantae Paradise"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Maple-Grilled Radicchio",
+    "relation": "became",
+    "value": "an instant classic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "becomes an instant classic"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maple-Grilled Radicchio",
+    "relation": "praised_as",
+    "value": "symphony of bitter, sweet, and smokey",
+    "time": null,
+    "speaker": "critics",
+    "verbatim": [
+     "critics heralding it as a \u201csymphony of bitter, sweet, and smokey.\u201d"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lily Beanstalk",
+    "relation": "profession",
+    "value": "gastronome and forager extraordinaire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gastronome and forager extraordinaire Lily Beanstalk"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lily Beanstalk",
+    "relation": "led_foraging_tour_through",
+    "value": "the local woodlands",
+    "time": "June 3rd, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On a dew-laden morning of June 3rd, 2024, culinary enthusiasts join gastronome and forager extraordinaire Lily Beanstalk on an escapade through the local woodlands."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lily Beanstalk",
+    "relation": "events_focus",
+    "value": "the social dance of discovering nature's hidden edible treasures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lily's events are less about survival skills and more about the social dance of discovering nature's hidden edible treasures"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lily Beanstalk",
+    "relation": "said",
+    "value": "If you can't tell chickweed from chervil, you're not ready for the forest foodie leagues",
+    "time": null,
+    "speaker": "Lily Beanstalk",
+    "verbatim": [
+     "If you can't tell chickweed from chervil, you're not ready for the forest foodie leagues"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lily Beanstalk",
+    "relation": "pinched_sprig_of",
+    "value": "wild thyme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she pinches a sprig of wild thyme and tucks it behind her ear"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Cilantro-Lime Vinaigrette",
+    "relation": "is_herbal_dressing",
+    "value": "herbal dressing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herbal dressings, such as the Cilantro-Lime Vinaigrette and Basil Pesto Aioli, spark life into any plate of greens"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Basil Pesto Aioli",
+    "relation": "is_herbal_dressing",
+    "value": "herbal dressing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herbal dressings, such as the Cilantro-Lime Vinaigrette and Basil Pesto Aioli, spark life into any plate of greens"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Peter Parsley",
+    "relation": "profession",
+    "value": "gourmet grocer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gourmet grocer, Peter Parsley, notes on June 12th, 2024"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Peter Parsley",
+    "relation": "said",
+    "value": "people are flocking for fresh-cut herbs more than ever. To be caught with a bottle of store-bought dressing is like attending the opera in your pajamas",
+    "time": "June 12th, 2024",
+    "speaker": "Peter Parsley",
+    "verbatim": [
+     "people are flocking for fresh-cut herbs more than ever. To be caught with a bottle of store-bought dressing is like attending the opera in your pajamas."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Minty Muddle Mixer",
+    "relation": "held_on",
+    "value": "evening of June 21st, 2024",
+    "time": "evening of June 21st, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Minty Muddle Mixer, held on the evening of June 21st, 2024, is no staid affair."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Minty Muddle Mixer",
+    "relation": "described_as",
+    "value": "no staid affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is no staid affair"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Rosemary Wilde",
+    "relation": "profession",
+    "value": "mixologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As mixologist Rosemary Wilde stirs up her signature Sage Smash"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Rosemary Wilde",
+    "relation": "stirs_up",
+    "value": "her signature Sage Smash",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As mixologist Rosemary Wilde stirs up her signature Sage Smash"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sage Smash",
+    "relation": "signature_cocktail_of",
+    "value": "Rosemary Wilde",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As mixologist Rosemary Wilde stirs up her signature Sage Smash"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Rosemary Wilde",
+    "relation": "said",
+    "value": "Forget diamonds, a sprig of fresh herbs is a girl\u2019s best friend, at least when it comes to cocktails",
+    "time": null,
+    "speaker": "Rosemary Wilde",
+    "verbatim": [
+     "Forget diamonds, a sprig of fresh herbs is a girl\u2019s best friend, at least when it comes to cocktails."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "John Lettuce-Leafer",
+    "relation": "profession",
+    "value": "gardening mentor and friend to amateur green thumbs citywide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gardening mentor and friend to amateur green thumbs citywide"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "John Lettuce-Leafer",
+    "relation": "said",
+    "value": "Whether we\u2019re novice gardeners or green-thumbed veterans, we all seem to tell the same thyme-worn jokes out here",
+    "time": null,
+    "speaker": "John Lettuce-Leafer",
+    "verbatim": [
+     "Whether we\u2019re novice gardeners or green-thumbed veterans, we all seem to tell the same thyme-worn jokes out here."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "chives",
+    "relation": "likened_to",
+    "value": "camaraderie as tightly knit as a bunch of chives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This blossoming sense of camaraderie in shared garden spaces weaves a social fabric as tightly knit as a bunch of chives."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

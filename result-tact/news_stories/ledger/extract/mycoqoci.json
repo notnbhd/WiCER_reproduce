@@ -1,0 +1,928 @@
+{
+ "inventory": [
+  "Hurricane Elara",
+  "San Juan",
+  "Puerto Rico",
+  "Mayor Carmen Torres",
+  "Luis Rivera",
+  "Dr Adriana Vega",
+  "Manuel Serrano",
+  "current administration",
+  "Sofia Mendoza",
+  "Red Cross",
+  "multiple countries",
+  "Hurricane Maria",
+  "Dr. Gabriela Ruiz",
+  "University of Puerto Rico",
+  "climate change",
+  "Legislators",
+  "local and federal governments"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Hurricane Elara",
+    "relation": "struck",
+    "value": "San Juan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "San Juan has been hit hard by Hurricane Elara"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Hurricane Elara",
+    "relation": "described_as",
+    "value": "one of the strongest storms ever to strike recently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one of the strongest storms ever to strike recently"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Hurricane Elara",
+    "relation": "passed_through",
+    "value": "San Juan",
+    "time": "two days ago on October 10",
+    "speaker": null,
+    "verbatim": [
+     "Elara passed through San Juan two days ago on October 10"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Hurricane Elara",
+    "relation": "left",
+    "value": "indelible destruction throughout its path across Caribbean island territory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving indelible destruction throughout its path across Caribbean island territory"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "San Juan",
+    "relation": "located_in",
+    "value": "Puerto Rico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "San Juan, Puerto Rico"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "San Juan",
+    "relation": "recovery_efforts_started",
+    "value": "recovery efforts have started underway",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recovery efforts have started underway for San Juan"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "San Juan",
+    "relation": "discussions_becoming_prominent_on",
+    "value": "natural disaster impacts on political stability, government response mechanisms and community resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discussions about natural disaster impacts on political stability, government response mechanisms and community resilience are becoming prominent topics"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Hurricane Elara",
+    "relation": "reached",
+    "value": "Category 5 status",
+    "time": null,
+    "speaker": "Initial reports",
+    "verbatim": [
+     "Initial reports indicate that Hurricane Elara reached Category 5 status when it made landfall"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Hurricane Elara",
+    "relation": "max_winds",
+    "value": "exceeding 160 mph",
+    "time": null,
+    "speaker": "Initial reports",
+    "verbatim": [
+     "with winds exceeding 160 mph"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Hurricane Elara",
+    "relation": "storm_surge_inundated",
+    "value": "coastal areas",
+    "time": null,
+    "speaker": "Initial reports",
+    "verbatim": [
+     "a storm surge that inundated coastal areas"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Hurricane Elara",
+    "relation": "damage",
+    "value": "widespread and dispersed across whole neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Damage was widespread and dispersed across whole neighborhoods"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hurricane Elara",
+    "relation": "crippled",
+    "value": "critical infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "critical infrastructure being crippled"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hurricane Elara",
+    "relation": "caused",
+    "value": "power outages throughout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "power outages occurring throughout"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Hurricane Elara",
+    "relation": "death_toll",
+    "value": "47",
+    "time": "currently",
+    "speaker": null,
+    "verbatim": [
+     "death toll currently stands at 47"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Hurricane Elara",
+    "relation": "people_missing",
+    "value": "many",
+    "time": null,
+    "speaker": "officials",
+    "verbatim": [
+     "officials fear many are missing"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mayor Carmen Torres",
+    "relation": "stated_at",
+    "value": "a press conference",
+    "time": null,
+    "speaker": "Mayor Carmen Torres",
+    "verbatim": [
+     "Mayor Carmen Torres stated in a press conference"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mayor Carmen Torres",
+    "relation": "said_focus_should_be",
+    "value": "search, rescue, and rebuilding",
+    "time": null,
+    "speaker": "Mayor Carmen Torres",
+    "verbatim": [
+     "that now the focus should be \"search, rescue, and rebuilding,\""
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mayor Carmen Torres",
+    "relation": "assess_fully",
+    "value": "all its ramifications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in order to assess fully all its ramifications"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mayor Carmen Torres",
+    "relation": "in_order_to",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"search, rescue, and rebuilding,\" in order to assess fully all its ramifications"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Luis Rivera",
+    "relation": "described_as",
+    "value": "father of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luis Rivera, father of two"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Luis Rivera",
+    "relation": "took_refuge_in",
+    "value": "a storm shelter",
+    "time": "just minutes before their home was devastated",
+    "speaker": null,
+    "verbatim": [
+     "taking refuge in a storm shelter just minutes before their home was devastated"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Luis Rivera",
+    "relation": "protected",
+    "value": "his family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rivera managed to protect his family"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Luis Rivera",
+    "relation": "achieved_by",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managed to protect his family by taking refuge in a storm shelter"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Luis Rivera",
+    "relation": "home_devastated",
+    "value": "their home",
+    "time": "just minutes before their home was devastated",
+    "speaker": null,
+    "verbatim": [
+     "just minutes before their home was devastated"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Luis Rivera",
+    "relation": "said",
+    "value": "All that matters is we're still together",
+    "time": "in the aftermath",
+    "speaker": "Luis Rivera",
+    "verbatim": [
+     "Rivera said in the aftermath \"All that matters is we're still together\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr Adriana Vega",
+    "relation": "helped_deliver",
+    "value": "a baby by flashlight",
+    "time": "through the night",
+    "speaker": null,
+    "verbatim": [
+     "Dr Adriana Vega tirelessly worked through the night assisting in helping deliver a baby by flashlight"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr Adriana Vega",
+    "relation": "hospital_ran_on",
+    "value": "fumes from an overtaxed generator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the local hospital ran on fumes from an overtaxed generator"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr Adriana Vega",
+    "relation": "helped_deliver_another_baby",
+    "value": "using only flashlight",
+    "time": "throughout her shift",
+    "speaker": null,
+    "verbatim": [
+     "Dr Adriana Vega worked tirelessly throughout her shift helping deliver another baby using only flashlight"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Hurricane Elara",
+    "relation": "political_fallout_felt",
+    "value": "almost immediately",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Political fallout of Hurricane Elara was felt almost immediately"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Hurricane Elara",
+    "relation": "criticisms_grew",
+    "value": "quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Criticisms of government response have grown quickly"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Hurricane Elara",
+    "relation": "survivors_protest",
+    "value": "delays in aid distribution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "survivors protest delays in aid distribution"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Hurricane Elara",
+    "relation": "considered_inadequate",
+    "value": "inadequate emergency preparedness",
+    "time": null,
+    "speaker": "many",
+    "verbatim": [
+     "what many consider inadequate emergency preparedness"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Manuel Serrano",
+    "relation": "described_as",
+    "value": "Opposition leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Opposition leader Manuel Serrano"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Manuel Serrano",
+    "relation": "pointed_to",
+    "value": "Elara as evidence",
+    "time": null,
+    "speaker": "Manuel Serrano",
+    "verbatim": [
+     "pointed to Elara as evidence of what he called"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "current administration",
+    "relation": "neglect_of_disaster_prone_areas",
+    "value": "deep-seated neglect of disaster-prone areas",
+    "time": null,
+    "speaker": "Manuel Serrano",
+    "verbatim": [
+     "\"deep-seated neglect\" of disaster-prone areas by current administration"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "current administration",
+    "relation": "promised",
+    "value": "to modernize antiquated infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "despite their promise to modernize antiquated infrastructure"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "current administration",
+    "relation": "despite",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"deep-seated neglect\" of disaster-prone areas by current administration despite their promise to modernize antiquated infrastructure"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "local and federal governments",
+    "relation": "faced_demands_from_citizens",
+    "value": "answers and actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "citizens demanding answers and actions from governments"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sofia Mendoza",
+    "relation": "role",
+    "value": "Red Cross coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sofia Mendoza, Red Cross coordinator"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Red Cross",
+    "relation": "has_coordinator",
+    "value": "Sofia Mendoza",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sofia Mendoza, Red Cross coordinator"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sofia Mendoza",
+    "relation": "is_aid_worker",
+    "value": "aid worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aid workers such as Sofia Mendoza"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sofia Mendoza",
+    "relation": "voiced_concern_about",
+    "value": "the slowness of aid deliveries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have voiced concern at the slowness of aid deliveries"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sofia Mendoza",
+    "relation": "said",
+    "value": "We need more hands, more supplies, and more urgency",
+    "time": null,
+    "speaker": "Sofia Mendoza",
+    "verbatim": [
+     "\"We need more hands, more supplies, and more urgency,\" Mendoza states"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "multiple countries",
+    "relation": "pledged",
+    "value": "resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "multiple countries have pledged resources"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "multiple countries",
+    "relation": "sent",
+    "value": "supplies quickly enough",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sent supplies quickly enough"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "multiple countries",
+    "relation": "quicker_response_prevented_by",
+    "value": "logistics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "logistics have prevented a quicker response"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "San Juan",
+    "relation": "infrastructure_stressed_by",
+    "value": "budget cuts and postponed maintenance work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "already stressed from budget cuts and postponed maintenance work"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "San Juan",
+    "relation": "infrastructure_left_vulnerable_after",
+    "value": "Hurricane Maria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been left vulnerable in the aftermath of Hurricane Maria"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Hurricane Maria",
+    "relation": "aftermath_left_vulnerable",
+    "value": "San Juan's infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "San Juan's infrastructure, already stressed from budget cuts and postponed maintenance work, has been left vulnerable in the aftermath of Hurricane Maria"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "San Juan",
+    "relation": "concern_whether_prevented_investments",
+    "value": "political status and financial instability have prevented adequate investments into critical systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns arise as to whether political status and financial instability have prevented adequate investments into critical systems that might mitigate natural disasters' effects"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Puerto Rico",
+    "relation": "struggling_with",
+    "value": "immediate survival and recovery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Puerto Rico struggles with immediate survival and recovery"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "climate change",
+    "relation": "contributing_factor_to",
+    "value": "such intense storms",
+    "time": null,
+    "speaker": "scientists and environmentalists",
+    "verbatim": [
+     "scientists and environmentalists are emphasizing one broader factor contributing to such intense storms: climate change"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Gabriela Ruiz",
+    "relation": "affiliated_with",
+    "value": "University of Puerto Rico's Department of Climatology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gabriela Ruiz from University of Puerto Rico's Department of Climatology"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "University of Puerto Rico",
+    "relation": "has_department",
+    "value": "Department of Climatology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "University of Puerto Rico's Department of Climatology"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Gabriela Ruiz",
+    "relation": "highlighted_connection",
+    "value": "connection between climate change and intense storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gabriela Ruiz from University of Puerto Rico's Department of Climatology highlighted this connection"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Gabriela Ruiz",
+    "relation": "said",
+    "value": "What we once considered unprecedented has become normalized",
+    "time": null,
+    "speaker": "Dr. Gabriela Ruiz",
+    "verbatim": [
+     "What we once considered unprecedented has become normalized"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Gabriela Ruiz",
+    "relation": "said_storms_feed_off",
+    "value": "warmer ocean temperatures",
+    "time": null,
+    "speaker": "Dr. Gabriela Ruiz",
+    "verbatim": [
+     "these storms feed off warmer ocean temperatures"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Dr. Gabriela Ruiz",
+    "relation": "said",
+    "value": "we must acknowledge and address this reality at every level of governance",
+    "time": null,
+    "speaker": "Dr. Gabriela Ruiz",
+    "verbatim": [
+     "we must acknowledge and address this reality at every level of governance"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Hurricane Elara",
+    "relation": "tested",
+    "value": "San Juan's social fabric",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Elara has put San Juan's social fabric to the test"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Hurricane Elara",
+    "relation": "closed",
+    "value": "schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools are closed"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Hurricane Elara",
+    "relation": "destroyed",
+    "value": "businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses destroyed"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Hurricane Elara",
+    "relation": "damaged",
+    "value": "cultural landmarks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cultural landmarks damaged"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Hurricane Elara",
+    "relation": "brought_people_together",
+    "value": "people together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this tragedy has brought people together"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Hurricane Elara",
+    "relation": "serves_as_test_of",
+    "value": "civic cohesion and identity in San Juan Island",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as a test of civic cohesion and identity in San Juan Island"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "San Juan",
+    "relation": "cleanup_progressing",
+    "value": "cleanup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As cleanup in San Juan progresses"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "San Juan",
+    "relation": "discussion_turns_to",
+    "value": "rebuilding",
+    "time": "eventually",
+    "speaker": null,
+    "verbatim": [
+     "discussion must eventually turn towards rebuilding"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "San Juan",
+    "relation": "reconstruction_goes_beyond",
+    "value": "simply replacing what was lost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this reconstruction goes beyond simply replacing what was lost"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "San Juan",
+    "relation": "stressed_need_for",
+    "value": "innovative and resilient infrastructure projects",
+    "time": null,
+    "speaker": "experts",
+    "verbatim": [
+     "experts stress the need for innovative and resilient infrastructure projects"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "San Juan",
+    "relation": "advocated_for",
+    "value": "buildings and public works that can withstand future storms",
+    "time": null,
+    "speaker": "architects and engineers",
+    "verbatim": [
+     "architects and engineers advocate for buildings and public works that can withstand future storms"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "San Juan",
+    "relation": "demonstrates_desire_to_protect",
+    "value": "San Juan's heritage as well as their residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this demonstrates both their desire to protect San Juan's heritage as well as their residents"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Hurricane Elara",
+    "relation": "economic_impact_difficult_to_measure",
+    "value": "difficult to fully measure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elara's economic impact remains difficult to fully measure"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Hurricane Elara",
+    "relation": "indications_point_to",
+    "value": "significant devastation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all indications point toward significant devastation"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "San Juan",
+    "relation": "could_wreak_havoc_on",
+    "value": "San Juan's fragile local economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Costs associated with rebuilding, lost tourism revenue, and disruptions to trade could wreak havoc with San Juan's fragile local economy"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "San Juan",
+    "relation": "leadership_will_determine",
+    "value": "future prosperity and stability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how San Juan's political leadership handles these challenges will determine future prosperity and stability"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Hurricane Elara",
+    "relation": "effects_extend_to",
+    "value": "meaningful discussions on long-term disaster preparedness, climate change mitigation, and infrastructural development policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Elara's effects go beyond disaster relief efforts and into meaningful discussions on long-term disaster preparedness, climate change mitigation, and infrastructural development policies"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Legislators",
+    "relation": "holding_emergency_sessions",
+    "value": "emergency sessions",
+    "time": "already",
+    "speaker": null,
+    "verbatim": [
+     "Legislators already holding emergency sessions"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Legislators",
+    "relation": "face_task_of",
+    "value": "an uphill task of finding equitable and effective solutions that transcend political differences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "face an uphill task of finding equitable and effective solutions that transcend political differences for the wellbeing of all citizens"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "San Juan",
+    "relation": "rebuilding_slowly_commences",
+    "value": "rebuilding efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As rebuilding efforts slowly commence in San Juan following Hurricane Elara's response"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Hurricane Elara",
+    "relation": "political_fallout_looms_over",
+    "value": "the island",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "political fallout from Elara's response looms large over the island"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "local and federal governments",
+    "relation": "must_respond_to",
+    "value": "criticisms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Both local and federal governments must respond effectively to criticisms"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "local and federal governments",
+    "relation": "must_guide_recovery_of",
+    "value": "their cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guide recovery of their cities in response to natural disasters"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "San Juan",
+    "relation": "residents_hope_for",
+    "value": "changes that might herald a safer, more secure future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its residents hope for changes that might herald a safer, more secure future"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

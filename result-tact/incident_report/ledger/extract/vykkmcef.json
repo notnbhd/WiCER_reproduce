@@ -1,0 +1,561 @@
+{
+ "inventory": [
+  "September 3, 2023 blackout",
+  "October 15, 2023 disruption",
+  "a major ISP",
+  "Arnold & Finch",
+  "Dr. Emily Tran",
+  "GlobalNet Services",
+  "multi-path routing",
+  "earthquake on September 21, 2023",
+  "Eastern Seaboard",
+  "Jeff Larson",
+  "CyberTech Solutions",
+  "CITRO (Cyber Incident Triage and Response Operations)",
+  "DNS attack on November 11, 2023",
+  "Dr. Anita Gomez",
+  "Digital Connectivity Act",
+  "FCC",
+  "Ray O'Connell",
+  "Broadband Consumer Protection Guidelines",
+  "DataSecure Inc.",
+  "private networks",
+  "Maria Johnson",
+  "Nashville",
+  "Winter Storm Eunice service interruption",
+  "mesh networks"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "September 3, 2023 blackout",
+    "relation": "described_as",
+    "value": "widespread blackout",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the widespread blackout on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "September 3, 2023 blackout",
+    "relation": "underscored",
+    "value": "the vulnerability of our digital infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recent incidents, like the widespread blackout on September 3, 2023, have only underscored the vulnerability of our digital infrastructure."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "a major ISP",
+    "relation": "faced",
+    "value": "7-hour-long disruption",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, for example, a major ISP faced a 7-hour-long disruption"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "October 15, 2023 disruption",
+    "relation": "had_cause",
+    "value": "configuration error during routine maintenance",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to a configuration error during routine maintenance"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "a major ISP",
+    "relation": "left_offline",
+    "value": "millions of users",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leaving millions of users offline"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "October 15, 2023 disruption",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a 7-hour-long disruption due to a configuration error during routine maintenance"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Arnold & Finch",
+    "relation": "described_as",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data from cybersecurity firm Arnold & Finch"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Arnold & Finch",
+    "relation": "estimated_average_loss_per_hour_for_small_businesses",
+    "value": "$10,000 per hour",
+    "time": "during this outage",
+    "speaker": "Arnold & Finch",
+    "verbatim": [
+     "small businesses alone lost an estimated average of $10,000 per hour during this outage"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Tran",
+    "relation": "occupation",
+    "value": "sociologist",
+    "time": "a recent tech symposium",
+    "speaker": null,
+    "verbatim": [
+     "sociologist Dr. Emily Tran at a recent tech symposium"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Tran",
+    "relation": "stated",
+    "value": "When internet services go down, it's not just about being unable to stream or browse - it's about disconnected communities, hindered emergency services, and disrupted education.",
+    "time": "a recent tech symposium",
+    "speaker": "Dr. Emily Tran",
+    "verbatim": [
+     "When internet services go down, it's not just about being unable to stream or browse - it's about disconnected communities, hindered emergency services, and disrupted education."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "GlobalNet Services",
+    "relation": "adopted",
+    "value": "multi-path routing",
+    "time": "since early 2024",
+    "speaker": null,
+    "verbatim": [
+     "Companies like GlobalNet Services have spearheaded the adoption of multi-path routing since early 2024"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "GlobalNet Services",
+    "relation": "reduced_downtime_by",
+    "value": "30%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which has reportedly reduced their downtime by 30%"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "GlobalNet Services",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the adoption of multi-path routing since early 2024, which has reportedly reduced their downtime by 30%"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "multi-path routing",
+    "relation": "adopted_by",
+    "value": "GlobalNet Services",
+    "time": "since early 2024",
+    "speaker": null,
+    "verbatim": [
+     "Companies like GlobalNet Services have spearheaded the adoption of multi-path routing since early 2024"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "earthquake on September 21, 2023",
+    "relation": "severed",
+    "value": "underwater cables",
+    "time": "September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the earthquake on September 21, 2023, that severed underwater cables"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Eastern Seaboard",
+    "relation": "disconnected_by",
+    "value": "earthquake on September 21, 2023",
+    "time": "for days",
+    "speaker": null,
+    "verbatim": [
+     "disconnected the Eastern Seaboard for days"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "earthquake on September 21, 2023",
+    "relation": "prompted_isp_response",
+    "value": "ISPs have accelerated the process of burying more cables underground and improving the structural integrity of above-ground lines",
+    "time": "Following the earthquake on September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "ISPs have accelerated the process of burying more cables underground and improving the structural integrity of above-ground lines"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "earthquake on September 21, 2023",
+    "relation": "results_in",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the earthquake on September 21, 2023, that severed underwater cables and disconnected the Eastern Seaboard for days"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jeff Larson",
+    "relation": "occupation",
+    "value": "network engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeff Larson, a network engineer at CyberTech Solutions"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jeff Larson",
+    "relation": "works_at",
+    "value": "CyberTech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeff Larson, a network engineer at CyberTech Solutions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "CyberTech Solutions",
+    "relation": "employs",
+    "value": "Jeff Larson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeff Larson, a network engineer at CyberTech Solutions"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jeff Larson",
+    "relation": "stated",
+    "value": "Our AI systems can often predict an outage before it happens",
+    "time": null,
+    "speaker": "Jeff Larson",
+    "verbatim": [
+     "systems can often predict an outage before it happens, allowing us to mobilize response teams to mitigate impact."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "CITRO (Cyber Incident Triage and Response Operations)",
+    "relation": "expansion",
+    "value": "Cyber Incident Triage and Response Operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CITRO (Cyber Incident Triage and Response Operations)"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "CITRO (Cyber Incident Triage and Response Operations)",
+    "relation": "similar_frameworks_adopted_by",
+    "value": "ISPs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ISPs have adopted incident response frameworks similar to CITRO"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CITRO (Cyber Incident Triage and Response Operations)",
+    "relation": "similar_frameworks_prioritize",
+    "value": "swift communication with customers, rapid isolation of affected systems, and immediate corrective actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which prioritize swift communication with customers, rapid isolation of affected systems, and immediate corrective actions"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "DNS attack on November 11, 2023",
+    "relation": "described_as",
+    "value": "significant DNS attack",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following the significant DNS attack on November 11, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "DNS attack on November 11, 2023",
+    "relation": "thrust_into_spotlight",
+    "value": "the importance of cybersecurity resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of cybersecurity resilience has been thrust into the spotlight"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "DNS attack on November 11, 2023",
+    "relation": "results_in",
+    "value_ref": "c27",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following the significant DNS attack on November 11, 2023, the importance of cybersecurity resilience has been thrust into the spotlight."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Anita Gomez",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Dr. Anita Gomez"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Anita Gomez",
+    "relation": "emphasizes",
+    "value": "ongoing and evolving security strategy that anticipates future threats, not just reacts to past events.",
+    "time": null,
+    "speaker": "Dr. Anita Gomez",
+    "verbatim": [
+     "ongoing and evolving security strategy that anticipates future threats, not just reacts to past events."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Digital Connectivity Act",
+    "relation": "proposed_in",
+    "value": "December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "proposed in December 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Digital Connectivity Act",
+    "relation": "aims_to_provide",
+    "value": "federal grants for ISPs that invest in high-resilience network infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to provide federal grants for ISPs that invest in high-resilience network infrastructure"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "FCC",
+    "relation": "committed_to_enforce",
+    "value": "Broadband Consumer Protection Guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the FCC's renewed commitment, under the directive of Chairman Ray O'Connell, to enforce the Broadband Consumer Protection Guidelines"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "FCC",
+    "relation": "commitment_under_directive_of",
+    "value": "Chairman Ray O'Connell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the directive of Chairman Ray O'Connell"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Ray O'Connell",
+    "relation": "title",
+    "value": "Chairman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chairman Ray O'Connell"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "FCC",
+    "relation": "ensures",
+    "value": "consumers are adequately compensated and informed during outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensures that consumers are adequately compensated and informed during outages"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "FCC",
+    "relation": "encourages",
+    "value": "ISPs to prioritize service stability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging ISPs to prioritize service stability"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "FCC",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensures that consumers are adequately compensated and informed during outages, encouraging ISPs to prioritize service stability"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Broadband Consumer Protection Guidelines",
+    "relation": "enforced_by",
+    "value": "FCC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the FCC's renewed commitment, under the directive of Chairman Ray O'Connell, to enforce the Broadband Consumer Protection Guidelines"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "private networks",
+    "relation": "growing_trend",
+    "value": "towards the establishment of private networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's a growing trend towards the establishment of private networks"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "DataSecure Inc.",
+    "relation": "reported_increase",
+    "value": "40% increase in the setup of dedicated lines and private networks for clients in sectors such as finance and healthcare",
+    "time": "since the beginning of 2024",
+    "speaker": null,
+    "verbatim": [
+     "Companies like DataSecure Inc. have reported a 40% increase in the setup of dedicated lines and private networks for clients in sectors such as finance and healthcare since the beginning of 2024"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Maria Johnson",
+    "relation": "occupation",
+    "value": "tech specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech specialists like Maria Johnson"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Maria Johnson",
+    "relation": "led_workshops_teaching",
+    "value": "consumers how to stay connected during disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community workshops led by tech specialists like Maria Johnson have been instrumental in teaching consumers how to stay connected during disruptions"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Johnson",
+    "relation": "workshop_topics",
+    "value": "alternative connectivity solutions like mobile data and satellite internet or ensuring regular data backups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether through alternative connectivity solutions like mobile data and satellite internet or ensuring regular data backups"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Nashville",
+    "relation": "mesh_networks_deployed_in",
+    "value": "mesh networks",
+    "time": "following the Winter Storm Eunice service interruption on January 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "mesh networks, which were deployed successfully by the community in Nashville following the Winter Storm Eunice service interruption on January 14, 2024"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "mesh networks",
+    "relation": "deployed_by",
+    "value": "the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were deployed successfully by the community in Nashville"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "mesh networks",
+    "relation": "demonstrate",
+    "value": "the power of community resilience in the face of technology failure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These grassroots solutions demonstrate the power of community resilience in the face of technology failure."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Winter Storm Eunice service interruption",
+    "relation": "occurred_on",
+    "value": "January 14, 2024",
+    "time": "January 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the Winter Storm Eunice service interruption on January 14, 2024"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

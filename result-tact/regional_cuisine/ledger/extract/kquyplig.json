@@ -1,0 +1,862 @@
+{
+ "inventory": [
+  "wood-fired oven",
+  "wood-fired oven baking",
+  "Marco Bianchi",
+  "International Culinary Congress",
+  "Dr. Emily Frost",
+  "conduction",
+  "convection",
+  "radiation",
+  "Matteo Rossi",
+  "hardwoods",
+  "oak",
+  "maple",
+  "birch",
+  "Anita Nguyen",
+  "Lucas Weber",
+  "soaking phase",
+  "Sophia Bellini",
+  "Aaron Clarke",
+  "Julien Dupont",
+  "embers",
+  "residual heat",
+  "infrared thermometers",
+  "heat-sensing cameras",
+  "Giorgio Conti",
+  "pizza",
+  "bread",
+  "pastries",
+  "meats"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "wood-fired oven baking",
+    "relation": "takes_new_life",
+    "value": "takes on a new life",
+    "time": "early November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the crisp autumn air of early November 2023, the timeless tradition of wood-fired oven baking takes on a new life"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "wood-fired oven baking",
+    "relation": "sought_by",
+    "value": "culinary enthusiasts and professional chefs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "culinary enthusiasts and professional chefs alike seek to harness the authentic flavors and unique cooking properties that this ancient technique offers"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "wood-fired oven",
+    "relation": "craft_perfected_over",
+    "value": "centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The creation of a wood-fired oven is a craft that has been perfected over centuries."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Marco Bianchi",
+    "relation": "occupation",
+    "value": "oven builder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned oven builder Marco Bianchi"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Marco Bianchi",
+    "relation": "unveiled_latest_design_at",
+    "value": "International Culinary Congress",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, renowned oven builder Marco Bianchi unveiled his latest design at the International Culinary Congress"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "International Culinary Congress",
+    "relation": "hosted",
+    "value": "unveiling of Marco Bianchi's latest design",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, renowned oven builder Marco Bianchi unveiled his latest design at the International Culinary Congress"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Marco Bianchi",
+    "relation": "design_showcased",
+    "value": "intricacies of thermal efficiency and material choice",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "showcasing the intricacies of thermal efficiency and material choice"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "wood-fired oven",
+    "relation": "has_design",
+    "value": "dome-shaped design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A wood-fired oven's ability to retain and distribute heat comes from its dome-shaped design"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "wood-fired oven",
+    "relation": "heat_retention_caused_by",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A wood-fired oven's ability to retain and distribute heat comes from its dome-shaped design"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "wood-fired oven",
+    "relation": "constructed_with",
+    "value": "brick, clay, or stone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "typically constructed with materials like brick, clay, or stone that have high thermal mass"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "wood-fired oven",
+    "relation": "construction_materials_have",
+    "value": "high thermal mass",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "typically constructed with materials like brick, clay, or stone that have high thermal mass"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "wood-fired oven",
+    "relation": "materials_absorb_heat_from",
+    "value": "a fire built inside the oven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These materials absorb heat from a fire built inside the oven and gradually release it"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "wood-fired oven",
+    "relation": "materials_release_heat",
+    "value": "gradually",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These materials absorb heat from a fire built inside the oven and gradually release it"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "wood-fired oven",
+    "relation": "cooks_food",
+    "value": "evenly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cooking food evenly"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "wood-fired oven",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These materials absorb heat from a fire built inside the oven and gradually release it, cooking food evenly"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "wood-fired oven",
+    "relation": "imparts",
+    "value": "distinctive char and flavor that can't be replicated in conventional ovens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "imparting a distinctive char and flavor that can't be replicated in conventional ovens"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Emily Frost",
+    "relation": "occupation",
+    "value": "thermal engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thermal engineer Dr. Emily Frost"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Emily Frost",
+    "relation": "led_workshop",
+    "value": "workshop on heat transfer",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the workshop led by thermal engineer Dr. Emily Frost on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Emily Frost",
+    "relation": "explained",
+    "value": "heat is transferred in three ways: conduction, convection, and radiation",
+    "time": null,
+    "speaker": "Dr. Emily Frost",
+    "verbatim": [
+     "She explained that in wood-fired ovens, heat is transferred in three ways: conduction, convection, and radiation."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "conduction",
+    "relation": "occurs_when",
+    "value": "heat moves between objects in direct contact",
+    "time": null,
+    "speaker": "Dr. Emily Frost",
+    "verbatim": [
+     "Conduction occurs when heat moves between objects in direct contact"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "conduction",
+    "relation": "example",
+    "value": "the oven floor transfers heat to the bottom of a pizza",
+    "time": null,
+    "speaker": "Dr. Emily Frost",
+    "verbatim": [
+     "as when the oven floor transfers heat to the bottom of a pizza"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "convection",
+    "relation": "function",
+    "value": "circulates hot air within the oven, ensuring uniform temperatures and cooking rates",
+    "time": null,
+    "speaker": "Dr. Emily Frost",
+    "verbatim": [
+     "Convection circulates hot air within the oven, ensuring uniform temperatures and cooking rates."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "radiation",
+    "relation": "function",
+    "value": "emits heat energy in the form of waves, evenly browning the surface of the food",
+    "time": null,
+    "speaker": "Dr. Emily Frost",
+    "verbatim": [
+     "radiation emits heat energy in the form of waves, evenly browning the surface of the food."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Matteo Rossi",
+    "relation": "occupation",
+    "value": "sommelier and wood-fire expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sommelier and wood-fire expert Matteo Rossi"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Matteo Rossi",
+    "relation": "explained_at_symposium",
+    "value": "hardwoods like oak, maple, and birch are preferred for their slow and consistent burn",
+    "time": "October 20, 2023",
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "At a symposium dated October 20, 2023, sommelier and wood-fire expert Matteo Rossi explained that hardwoods like oak, maple, and birch are preferred for their slow and consistent burn"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "hardwoods",
+    "relation": "preferred_for",
+    "value": "slow and consistent burn",
+    "time": null,
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "hardwoods like oak, maple, and birch are preferred for their slow and consistent burn"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "hardwoods",
+    "relation": "contribute",
+    "value": "subtle aromas",
+    "time": null,
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "as well as the subtle aromas they contribute"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "oak",
+    "relation": "is_example_of",
+    "value": "hardwoods",
+    "time": null,
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "hardwoods like oak, maple, and birch"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "maple",
+    "relation": "is_example_of",
+    "value": "hardwoods",
+    "time": null,
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "hardwoods like oak, maple, and birch"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "birch",
+    "relation": "is_example_of",
+    "value": "hardwoods",
+    "time": null,
+    "speaker": "Matteo Rossi",
+    "verbatim": [
+     "hardwoods like oak, maple, and birch"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "meats",
+    "relation": "slow_roasted_at",
+    "value": "300\u00b0F",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can range from 300\u00b0F for slow-roasted meats to an upwards of 800\u00b0F for crispy pizzas"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "pizza",
+    "relation": "crisp_cooked_at",
+    "value": "upwards of 800\u00b0F",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to an upwards of 800\u00b0F for crispy pizzas"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "wood-fired oven",
+    "relation": "ignition_involves",
+    "value": "building a small kindling pile and gradually adding larger pieces of wood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Starting the fire involves building a small kindling pile and gradually adding larger pieces of wood"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Anita Nguyen",
+    "relation": "occupation",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chef Anita Nguyen"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Anita Nguyen",
+    "relation": "showcased_technique_at",
+    "value": "pushing the fire to the oven's sides",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 30, 2023, during an open-air cooking demonstration, chef Anita Nguyen showcased her technique of pushing the fire to the oven's sides"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "wood-fired oven",
+    "relation": "hotter_areas_used_for",
+    "value": "quick-cooking items",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilizing the hotter areas for quick-cooking items and the cooler areas for dishes requiring slower cooking"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Anita Nguyen",
+    "relation": "in_order_to",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pushing the fire to the oven's sides, utilizing the hotter areas for quick-cooking items"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Anita Nguyen",
+    "relation": "emphasized",
+    "value": "importance of constant monitoring and adjustments to the wood fuel",
+    "time": null,
+    "speaker": "Anita Nguyen",
+    "verbatim": [
+     "She emphasized the importance of constant monitoring and adjustments to the wood fuel to keep the oven's temperature steady."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lucas Weber",
+    "relation": "occupation",
+    "value": "artisan baker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artisan baker Lucas Weber"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Lucas Weber",
+    "relation": "discussed_at_masterclass",
+    "value": "soaking phase",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Artisan baker Lucas Weber, during his masterclass on September 22, 2023, discussed the 'soaking' phase"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "soaking phase",
+    "relation": "described_as",
+    "value": "oven's masonry is fully saturated with heat",
+    "time": null,
+    "speaker": "Lucas Weber",
+    "verbatim": [
+     "discussed the 'soaking' phase where the oven's masonry is fully saturated with heat"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "soaking phase",
+    "relation": "creates",
+    "value": "ideal environment for a thick, crusty loaf of bread",
+    "time": null,
+    "speaker": "Lucas Weber",
+    "verbatim": [
+     "creating the ideal environment for a thick, crusty loaf of bread"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "bread",
+    "relation": "placement_requirement",
+    "value": "placed in the oven at the correct time during the heat cycle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The bread must be placed in the oven at the correct time during the heat cycle to ensure a perfect rise and crust development."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "bread",
+    "relation": "requires",
+    "value": "understanding the stages of heating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bread baking in a wood-fired oven is a meticulous process that requires understanding the stages of heating."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "wood-fired oven",
+    "relation": "gives_pizza_crust",
+    "value": "incomparable texture and flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giving the crust an incomparable texture and flavor"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sophia Bellini",
+    "relation": "occupation",
+    "value": "pastry chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pastry chef Sophia Bellini"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sophia Bellini",
+    "relation": "shared_experiences_in",
+    "value": "blog post",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Pastry chef Sophia Bellini, on her blog post dated October 10, 2023, shared her experiences with delicate pastries"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "pastries",
+    "relation": "transformed_by",
+    "value": "even heat distribution of a wood-fired oven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are equally transformed by the even heat distribution of a wood-fired oven"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "pastries",
+    "relation": "key_to_success",
+    "value": "timing and rotational baking to expose the pastry to the right amount of heat without burning",
+    "time": null,
+    "speaker": "Sophia Bellini",
+    "verbatim": [
+     "The key, she notes, is the timing and rotational baking to expose the pastry to the right amount of heat without burning."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Aaron Clarke",
+    "relation": "occupation",
+    "value": "pitmaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pitmaster Aaron Clarke"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Aaron Clarke",
+    "relation": "demonstrated",
+    "value": "potential of wood-fired ovens for long-cooking processes such as roasting meats",
+    "time": "October 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 29, 2023, pitmaster Aaron Clarke demonstrated the potential of wood-fired ovens for long-cooking processes such as roasting meats."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "residual heat",
+    "relation": "can_remain_high_for",
+    "value": "hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the oven's residual heat, which can remain high for hours"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "residual heat",
+    "relation": "is_ideal_for",
+    "value": "slow-roasting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is ideal for slow-roasting"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "meats",
+    "relation": "imbued_with",
+    "value": "smoky essence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach imbues the meat with a smoky essence while tenderizing it over time."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "meats",
+    "relation": "tenderized_over",
+    "value": "time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach imbues the meat with a smoky essence while tenderizing it over time."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Julien Dupont",
+    "relation": "occupation",
+    "value": "expert chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Expert chef Julien Dupont"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Julien Dupont",
+    "relation": "lectured_at",
+    "value": "culinary lecture",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Expert chef Julien Dupont, in a culinary lecture held on November 8, 2023, sang praises to the mastery of using embers and residual heat"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Julien Dupont",
+    "relation": "praised",
+    "value": "mastery of using embers and residual heat",
+    "time": "November 8, 2023",
+    "speaker": "Julien Dupont",
+    "verbatim": [
+     "sang praises to the mastery of using embers and residual heat"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "embers",
+    "relation": "extends",
+    "value": "the oven's utility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By managing the ember bed, one can extend the oven's utility, baking or drying ingredients with the gentle, even warmth that persists as the fire dies down."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "residual heat",
+    "relation": "often_overlooked_aspect_of",
+    "value": "wood-fired oven baking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using embers and residual heat, an often-overlooked aspect of wood-fired oven baking"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "residual heat",
+    "relation": "persists_as",
+    "value": "gentle, even warmth that persists as the fire dies down",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the gentle, even warmth that persists as the fire dies down"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "infrared thermometers",
+    "relation": "discussed_at",
+    "value": "tech panel",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Innovations in infrared thermometers and heat-sensing cameras, discussed at a tech panel on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "heat-sensing cameras",
+    "relation": "discussed_at",
+    "value": "tech panel",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Innovations in infrared thermometers and heat-sensing cameras, discussed at a tech panel on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "infrared thermometers",
+    "relation": "became_vital_tools_for",
+    "value": "chefs aiming to maintain specific cooking environments within their ovens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become vital tools for chefs aiming to maintain specific cooking environments within their ovens."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "heat-sensing cameras",
+    "relation": "became_vital_tools_for",
+    "value": "chefs aiming to maintain specific cooking environments within their ovens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become vital tools for chefs aiming to maintain specific cooking environments within their ovens."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "wood-fired oven",
+    "relation": "temperature_monitoring_enhanced_by",
+    "value": "modern technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern technology has intersected with traditional methods to enhance the precision of temperature monitoring in wood-fired ovens."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Giorgio Conti",
+    "relation": "occupation",
+    "value": "artisanal pizza maker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As artisanal pizza maker Giorgio Conti noted"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Giorgio Conti",
+    "relation": "noted_in_interview",
+    "value": "no two fires are the same",
+    "time": "September 25, 2023",
+    "speaker": "Giorgio Conti",
+    "verbatim": [
+     "As artisanal pizza maker Giorgio Conti noted in an interview on September 25, 2023, no two fires are the same"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Giorgio Conti",
+    "relation": "said",
+    "value": "the warmth and liveliness that wood-fire brings to cooking are what make it special",
+    "time": null,
+    "speaker": "Giorgio Conti",
+    "verbatim": [
+     "the warmth and liveliness that wood-fire brings to cooking are what make it special"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "wood-fired oven",
+    "relation": "retains",
+    "value": "an element of the mystical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "baking with a wood-fired oven still retains an element of the mystical"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "wood-fired oven",
+    "relation": "described_as",
+    "value": "a dance with an ancient and wild energy that has fed humanity for millennia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a dance with an ancient and wild energy that has fed humanity for millennia"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "wood-fired oven baking",
+    "relation": "continues_to_thrive",
+    "value": "tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the tradition of wood-fired oven baking continues to thrive"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "wood-fired oven baking",
+    "relation": "community_dedicated_to",
+    "value": "exploring and mastering the complexities of this storied cooking technique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community of bakers, chefs, and food enthusiasts remains dedicated to exploring and mastering the complexities of this storied cooking technique"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "wood-fired oven baking",
+    "relation": "produces",
+    "value": "delectable culinary delights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they not only produce delectable culinary delights"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "wood-fired oven",
+    "relation": "understanding_thermal_dynamics_is",
+    "value": "essential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "understanding the thermal dynamics of wood-fired ovens has become essential"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,688 @@
+{
+ "inventory": [
+  "Threads & Expressions",
+  "Emily Johnson",
+  "Canvassed Clad",
+  "Marcus Reed",
+  "Timeless Treasures",
+  "Ella Sutton",
+  "Green Thread Boutique",
+  "Sarah White",
+  "Daniel White",
+  "Glint & Glimmer",
+  "Laura Gibson",
+  "Aura Alchemy",
+  "Isabella Martinez",
+  "Miniature Vogue",
+  "Anita Shultz",
+  "Melting Pot Couture",
+  "Alex Chen",
+  "Rafi Ahmed",
+  "downtown"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Threads & Expressions",
+    "relation": "opened_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, \u2018Threads & Expressions\u2019 opened its doors in the heart of downtown."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Threads & Expressions",
+    "relation": "located_in",
+    "value": "the heart of downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opened its doors in the heart of downtown."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "downtown",
+    "relation": "location_of",
+    "value": "Threads & Expressions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, \u2018Threads & Expressions\u2019 opened its doors in the heart of downtown."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Threads & Expressions",
+    "relation": "curated_by",
+    "value": "Emily Johnson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entrepreneur Emily Johnson has curated a collection of handmade clothing and accessories that brings the global market to our doorstep."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Threads & Expressions",
+    "relation": "sells",
+    "value": "handmade clothing and accessories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entrepreneur Emily Johnson has curated a collection of handmade clothing and accessories that brings the global market to our doorstep."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emily Johnson",
+    "relation": "spent_time",
+    "value": "several years traveling and living abroad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnson, who spent several years traveling and living abroad, has partnered with artisans from around the world"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emily Johnson",
+    "relation": "partnered_with",
+    "value": "artisans from around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnson, who spent several years traveling and living abroad, has partnered with artisans from around the world to provide a unique platform for their goods."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Johnson",
+    "relation": "stated",
+    "value": "Each piece in my shop has a story",
+    "time": null,
+    "speaker": "Emily Johnson",
+    "verbatim": [
+     "\"Each piece in my shop has a story,\" said Johnson."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Johnson",
+    "relation": "stated",
+    "value": "I want customers to feel a connection not just to the clothes they buy but to the people who made them.",
+    "time": null,
+    "speaker": "Emily Johnson",
+    "verbatim": [
+     "I want customers to feel a connection not just to the clothes they buy but to the people who made them."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Canvassed Clad",
+    "relation": "launched_on",
+    "value": "November 8, 2023",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Local artist and designer Marcus Reed chose November 8, 2023, to launch his labor of love, \u2018Canvassed Clad\u2019."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Canvassed Clad",
+    "relation": "launched_by",
+    "value": "Marcus Reed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local artist and designer Marcus Reed chose November 8, 2023, to launch his labor of love, \u2018Canvassed Clad\u2019."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Marcus Reed",
+    "relation": "occupation",
+    "value": "local artist and designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local artist and designer Marcus Reed chose November 8, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Canvassed Clad",
+    "relation": "described_as",
+    "value": "the intersection of art and fashion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique is the intersection of art and fashion, featuring wearable art pieces alongside bespoke services for those looking to commission personalized clothing."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Canvassed Clad",
+    "relation": "offers",
+    "value": "bespoke services for those looking to commission personalized clothing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "featuring wearable art pieces alongside bespoke services for those looking to commission personalized clothing."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Canvassed Clad",
+    "relation": "displays_garments_as",
+    "value": "individual masterpieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reed\u2019s shop is more like a gallery, with garments displayed as individual masterpieces"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Marcus Reed",
+    "relation": "stated",
+    "value": "I aim to blur the lines between canvases hung on walls and those we wear",
+    "time": null,
+    "speaker": "Marcus Reed",
+    "verbatim": [
+     "\"I aim to blur the lines between canvases hung on walls and those we wear,\" said Reed."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Canvassed Clad",
+    "relation": "opening_night_included",
+    "value": "a live painting session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His opening night included a live painting session, drawing a curious and stylish crowd."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Canvassed Clad",
+    "relation": "opening_night_drew",
+    "value": "a curious and stylish crowd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His opening night included a live painting session, drawing a curious and stylish crowd."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Timeless Treasures",
+    "relation": "opened_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Vintage enthusiasts rejoiced with the December 1, 2023, opening of \u2018Timeless Treasures\u2019."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Ella Sutton",
+    "relation": "occupation",
+    "value": "vintage fashion aficionado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ella Sutton, a vintage fashion aficionado, has filled her store with meticulously selected clothing and accessories from past decades."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Timeless Treasures",
+    "relation": "stocks",
+    "value": "meticulously selected clothing and accessories from past decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has filled her store with meticulously selected clothing and accessories from past decades."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Timeless Treasures",
+    "relation": "vibe",
+    "value": "classic retro vibe, both nostalgic and chic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The classic retro vibe of the boutique is both nostalgic and chic, appealing to all ages."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Ella Sutton",
+    "relation": "sources_items_from",
+    "value": "estate sales, auctions, and private collections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sutton sources items from estate sales, auctions, and private collections to ensure a rotation of unique finds."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Ella Sutton",
+    "relation": "stated",
+    "value": "I believe in sustainable fashion",
+    "time": null,
+    "speaker": "Ella Sutton",
+    "verbatim": [
+     "\"I believe in sustainable fashion,\" Sutton explains."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Ella Sutton",
+    "relation": "stated",
+    "value": "Every item here has a past life and a story worth preserving.",
+    "time": null,
+    "speaker": "Ella Sutton",
+    "verbatim": [
+     "past life and a story worth preserving."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Green Thread Boutique",
+    "relation": "opened_on",
+    "value": "January 12, 2024",
+    "time": "January 12, 2024",
+    "speaker": null,
+    "verbatim": [
+     "\u2018Green Thread Boutique\u2019, which swung open its doors on January 12, 2024,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Green Thread Boutique",
+    "relation": "owned_by",
+    "value": "Sarah White",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owned by siblings Sarah and Daniel White, the boutique specializes in eco-friendly clothing"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Green Thread Boutique",
+    "relation": "owned_by",
+    "value": "Daniel White",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owned by siblings Sarah and Daniel White, the boutique specializes in eco-friendly clothing"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Daniel White",
+    "relation": "sibling_of",
+    "value": "Sarah White",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owned by siblings Sarah and Daniel White"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Green Thread Boutique",
+    "relation": "specializes_in",
+    "value": "eco-friendly clothing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owned by siblings Sarah and Daniel White, the boutique specializes in eco-friendly clothing and promotes local designers who share their vision for a greener future."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Green Thread Boutique",
+    "relation": "promotes",
+    "value": "local designers who share their vision for a greener future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promotes local designers who share their vision for a greener future."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sarah White",
+    "relation": "stated",
+    "value": "Our fabrics are sourced from ethical producers, and we prioritize zero-waste designs",
+    "time": null,
+    "speaker": "Sarah White",
+    "verbatim": [
+     "\"Our fabrics are sourced from ethical producers, and we prioritize zero-waste designs,\" Sarah White stated."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Green Thread Boutique",
+    "relation": "uses_materials",
+    "value": "organic cotton to repurposed materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From organic cotton to repurposed materials, \u2018Green Thread Boutique\u2019 is a haven for those looking to make an environmentally conscious fashion statement."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Glint & Glimmer",
+    "relation": "opened_on",
+    "value": "February 20, 2024",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "February 20, 2024, saw the shimmering opening of \u2018Glint & Glimmer\u2019, where every piece of jewelry is handcrafted and singular."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Glint & Glimmer",
+    "relation": "established_by",
+    "value": "Laura Gibson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The boutique, established by jewelry maker Laura Gibson, offers an exclusive peek into the intricate world of jewelry design."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Laura Gibson",
+    "relation": "occupation",
+    "value": "jewelry maker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The boutique, established by jewelry maker Laura Gibson"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Laura Gibson",
+    "relation": "stated",
+    "value": "I want to provide jewelry that tells a personal tale, that can be passed down through generations",
+    "time": null,
+    "speaker": "Laura Gibson",
+    "verbatim": [
+     "\"I want to provide jewelry that tells a personal tale, that can be passed down through generations,\" shared Gibson."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Laura Gibson",
+    "relation": "hosts",
+    "value": "workshops where customers can learn to craft their own bespoke pieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alongside her creations, she hosts workshops where customers can learn to craft their own bespoke pieces"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Glint & Glimmer",
+    "relation": "described_as",
+    "value": "a creative community hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making \u2018Glint & Glimmer\u2019 not just a shop but a creative community hub."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Laura Gibson",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alongside her creations, she hosts workshops where customers can learn to craft their own bespoke pieces, making \u2018Glint & Glimmer\u2019 not just a shop but a creative community hub."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Aura Alchemy",
+    "relation": "opened_on",
+    "value": "March 5, 2024",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the March 5, 2024, opening of \u2018Aura Alchemy\u2019 has captured the attention of those seeking beauty and wellness in one tranquil setting."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Aura Alchemy",
+    "relation": "founded_by",
+    "value": "Isabella Martinez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique spa and beauty shop founded by Isabella Martinez emphasizes natural products and holistic health."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Aura Alchemy",
+    "relation": "described_as",
+    "value": "boutique spa and beauty shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique spa and beauty shop founded by Isabella Martinez emphasizes natural products and holistic health."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Aura Alchemy",
+    "relation": "emphasizes",
+    "value": "natural products and holistic health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique spa and beauty shop founded by Isabella Martinez emphasizes natural products and holistic health."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Isabella Martinez",
+    "relation": "stated",
+    "value": "We are about nurturing the body and soul",
+    "time": null,
+    "speaker": "Isabella Martinez",
+    "verbatim": [
+     "\"We are about nurturing the body and soul,\" Martinez says."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Isabella Martinez",
+    "relation": "stated",
+    "value": "Everything we offer, from our facials to our home beauty products, is designed to enhance your overall well-being.",
+    "time": null,
+    "speaker": "Isabella Martinez",
+    "verbatim": [
+     "\"Everything we offer, from our facials to our home beauty products, is designed to enhance your overall well-being.\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Aura Alchemy",
+    "relation": "transports_patrons",
+    "value": "away from the hustle of city life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The serene aura of \u2018Aura Alchemy\u2019 transports patrons away from the hustle of city life."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Miniature Vogue",
+    "relation": "grand_opening_on",
+    "value": "April 10, 2024",
+    "time": "April 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "\u2018Miniature Vogue\u2019 celebrated its grand opening on April 10, 2024."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Miniature Vogue",
+    "relation": "owned_by",
+    "value": "Anita Shultz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique, owned by mother-of-two Anita Shultz, targets fashionforward kids\u2019 clothing that\u2019s both playful and practical."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Anita Shultz",
+    "relation": "occupation",
+    "value": "mother-of-two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This boutique, owned by mother-of-two Anita Shultz"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Miniature Vogue",
+    "relation": "targets",
+    "value": "fashionforward kids\u2019 clothing that\u2019s both playful and practical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "targets fashionforward kids\u2019 clothing that\u2019s both playful and practical."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Anita Shultz",
+    "relation": "stated",
+    "value": "Parents are looking for quality and style for their children",
+    "time": null,
+    "speaker": "Anita Shultz",
+    "verbatim": [
+     "\"Parents are looking for quality and style for their children,\" Shultz observes."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Anita Shultz",
+    "relation": "stated",
+    "value": "I wanted to create a space where kids can express their personalities through what they wear.",
+    "time": null,
+    "speaker": "Anita Shultz",
+    "verbatim": [
+     "\"I wanted to create a space where kids can express their personalities through what they wear.\""
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Miniature Vogue",
+    "relation": "fills_niche",
+    "value": "a special niche in the family shopping scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "variety of brands that blend comfort with cool, \u2018Miniature Vogue\u2019 fills a special niche in the family shopping scene."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Melting Pot Couture",
+    "relation": "introduced_on",
+    "value": "May 15, 2024",
+    "time": "May 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On May 15, 2024, \u2018Melting Pot Couture\u2019 introduced a revolutionary approach to inclusive fashion."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Melting Pot Couture",
+    "relation": "owned_by",
+    "value": "Alex Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owners Alex Chen and Rafi Ahmed have collaborated to merge their cultural backgrounds into a clothing line that celebrates diversity."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Melting Pot Couture",
+    "relation": "owned_by",
+    "value": "Rafi Ahmed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owners Alex Chen and Rafi Ahmed have collaborated to merge their cultural backgrounds into a clothing line that celebrates diversity."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Melting Pot Couture",
+    "relation": "celebrates",
+    "value": "diversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a clothing line that celebrates diversity."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Rafi Ahmed",
+    "relation": "stated",
+    "value": "Our collection ranges from everyday wear to special occasion outfits that draw inspiration from different corners of the globe",
+    "time": null,
+    "speaker": "Rafi Ahmed",
+    "verbatim": [
+     "\"Our collection ranges from everyday wear to special occasion outfits that draw inspiration from different corners of the globe,\" explained Ahmed."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Melting Pot Couture",
+    "relation": "invites_patrons_to",
+    "value": "explore a world of color and creativity that transcends cultural boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are invited to explore a world of color and creativity that transcends cultural boundaries."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

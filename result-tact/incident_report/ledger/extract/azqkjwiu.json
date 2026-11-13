@@ -1,0 +1,452 @@
+{
+ "inventory": [
+  "Samuel Hastings",
+  "Linda Cartwright",
+  "Alex Johnson",
+  "Bob Taylor",
+  "Diane Keller",
+  "Matthew Connor",
+  "Sarah Gomez",
+  "Incident Command Post",
+  "Emergency Operations Centers",
+  "Local NGOs and community groups",
+  "substantial power and internet outage",
+  "the sprawling metropolis",
+  "Eastern sector",
+  "afteraction reports"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "substantial power and internet outage",
+    "relation": "struck",
+    "value": "the sprawling metropolis",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a substantial power and internet outage that struck the sprawling metropolis on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Samuel Hastings",
+    "relation": "role",
+    "value": "Incident Commander",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Incident Commander, Samuel Hastings"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Samuel Hastings",
+    "relation": "faced",
+    "value": "the daunting reality: the theorems of preparedness were about to be subjected to the harsh light of practice",
+    "time": "As dawn broke over the city",
+    "speaker": null,
+    "verbatim": [
+     "the Incident Commander, Samuel Hastings, faced the daunting reality: the theorems of preparedness were about to be subjected to the harsh light of practice."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "substantial power and internet outage",
+    "relation": "silenced",
+    "value": "the electrical grid silenced and the digital pulse of the internet extinguished",
+    "time": "As dawn broke over the city",
+    "speaker": null,
+    "verbatim": [
+     "As dawn broke over the city, with the hum of the electrical grid silenced and the digital pulse of the internet extinguished"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Incident Command Post",
+    "relation": "set_up_by",
+    "value": "Commander Hastings and his team",
+    "time": "Within hours of the outage",
+    "speaker": null,
+    "verbatim": [
+     "Within hours of the outage, Commander Hastings and his team had set up an Incident Command Post."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eastern sector",
+    "relation": "has_incident",
+    "value": "downed power lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "downed power lines in the Eastern sector"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the sprawling metropolis",
+    "relation": "has_incident",
+    "value": "a substation failure to the West",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a substation failure to the West"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the sprawling metropolis",
+    "relation": "has_incident",
+    "value": "internet backbones cut off from power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "internet backbones cut off from power"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Linda Cartwright",
+    "relation": "role",
+    "value": "Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Linda Cartwright's voice was steady over the emergency broadcast system"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Linda Cartwright",
+    "relation": "reassured_citizens_that",
+    "value": "all hands were on deck",
+    "time": null,
+    "speaker": "Linda Cartwright",
+    "verbatim": [
+     "as she reassured citizens that all hands were on deck"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Linda Cartwright",
+    "relation": "stated_urgency",
+    "value": "Timeliness was of the essence.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yet beneath the calm was an urgency that underscored every decision: Timeliness was of the essence."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Samuel Hastings",
+    "relation": "team_transitioned_to",
+    "value": "action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commander Hastings' team transitioned from assessment to action."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Alex Johnson",
+    "relation": "role",
+    "value": "head of the power utility company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a task that fell on Alex Johnson, the head of the power utility company"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Alex Johnson",
+    "relation": "tasked_with",
+    "value": "orchestrating power restoration for healthcare facilities, fire stations, and emergency services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Healthcare facilities, fire stations, and emergency services needed power restoration immediately \u2014 a task that fell on Alex Johnson"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Alex Johnson",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to orchestrate with precision to avoid further jeopardy to human life"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Bob Taylor",
+    "relation": "role",
+    "value": "Chief of Traffic Operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Taylor, Chief of Traffic Operations"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Bob Taylor",
+    "relation": "directed",
+    "value": "a ballet of hand signals and stop signs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "directed a ballet of hand signals and stop signs to keep the city arteries flowing."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Bob Taylor",
+    "relation": "in_order_to",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "directed a ballet of hand signals and stop signs to keep the city arteries flowing."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "the sprawling metropolis",
+    "relation": "traffic_lights_controlled_by",
+    "value": "police and volunteers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traffic lights blinked back to life, under the control of police and volunteers"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Diane Keller",
+    "relation": "role",
+    "value": "communications director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diane Keller, the communications director"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Diane Keller",
+    "relation": "liaised_with",
+    "value": "radio and television stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diane Keller, the communications director, liaised tirelessly with radio and television stations"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "substantial power and internet outage",
+    "relation": "led_to",
+    "value": "traditional media became indispensable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With internet services down, traditional media became indispensable."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "substantial power and internet outage",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With internet services down, traditional media became indispensable."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Emergency Operations Centers",
+    "relation": "became",
+    "value": "hives of coordination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emergency Operations Centers (EOCs) across the city became hives of coordination"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emergency Operations Centers",
+    "relation": "attended_by",
+    "value": "representatives from various sectors \u2014 transportation, health, utilities, law enforcement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where representatives from various sectors \u2014 transportation, health, utilities, law enforcement \u2014 converged."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emergency Operations Centers",
+    "relation": "overseen_by",
+    "value": "Matthew Connor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The EOCs, under the watchful eye of Logistics Chief Matthew Connor, were tasked with synchronizing resource allocation amidst a strained supply chain."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Matthew Connor",
+    "relation": "role",
+    "value": "Logistics Chief",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the watchful eye of Logistics Chief Matthew Connor"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emergency Operations Centers",
+    "relation": "tasked_with",
+    "value": "synchronizing resource allocation amidst a strained supply chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were tasked with synchronizing resource allocation amidst a strained supply chain."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Matthew Connor",
+    "relation": "marshaled_resources_with",
+    "value": "the resilience of a wartime general",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Connor marshaled resources with the resilience of a wartime general."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "substantial power and internet outage",
+    "relation": "required",
+    "value": "a revert to analog methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the internet outage required a revert to analog methods."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "substantial power and internet outage",
+    "relation": "led_to",
+    "value": "Radio communications and physical delivery of messages became the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Radio communications and physical delivery of messages became the norm"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Local NGOs and community groups",
+    "relation": "led_by",
+    "value": "Sarah Gomez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local NGOs and community groups, led by figures like Sarah Gomez, emerged as unsung heroes"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Local NGOs and community groups",
+    "relation": "mobilized",
+    "value": "grassroots support that provided food, shelter, and comfort to those in need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mobilizing grassroots support that provided food, shelter, and comfort to those in need."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sarah Gomez",
+    "relation": "leads",
+    "value": "teams of volunteers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her teams of volunteers"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sarah Gomez",
+    "relation": "work_underscored",
+    "value": "the importance of social infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her work underscored the importance of social infrastructure, ensuring that the vulnerable were not overlooked."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "afteraction reports",
+    "relation": "started_to_take_shape",
+    "value": "as the city inched towards the restoration of full power and internet connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the afteraction reports started to take shape."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "afteraction reports",
+    "relation": "would_detail",
+    "value": "triumphs, shortcomings, and recommendations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They would detail triumphs, shortcomings, and recommendations"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "the sprawling metropolis",
+    "relation": "regained",
+    "value": "much of its lost vitality",
+    "time": "October 14",
+    "speaker": null,
+    "verbatim": [
+     "As the sun set on October 14, the city had regained much of its lost vitality."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Samuel Hastings",
+    "relation": "shares_acknowledgment_with",
+    "value": "Mayor Cartwright",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commander Hastings and Mayor Cartwright share an unspoken acknowledgment"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

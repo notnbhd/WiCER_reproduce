@@ -1,0 +1,724 @@
+{
+ "inventory": [
+  "Maplewood Heights",
+  "Jim O'Hara",
+  "AirSnail",
+  "Margaret Smith",
+  "Maple Street",
+  "smart mailbox",
+  "RoboGardenerX2000",
+  "Carl Jenkins",
+  "Sentinels",
+  "Jane Doe",
+  "smart home",
+  "George Bentley",
+  "Buddy",
+  "Great Vegan Cheese Incident",
+  "A.I. grocery order",
+  "Tina Gonzalez",
+  "automated beverage dispenser",
+  "emoji flags",
+  "virtual block parties",
+  "Gary \"Lawnmower Man\" Thompson",
+  "VR Helmet",
+  "Mrs. Henderson"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Maplewood Heights",
+    "relation": "described_as",
+    "value": "once sleepy neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the once sleepy neighborhood of Maplewood Heights"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Maplewood Heights",
+    "relation": "digital_age_status",
+    "value": "digital age has certainly not bypassed the local suburbs",
+    "time": "latter part of the year, post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we step into the latter part of the year, post-September 2023, it's become apparent that the digital age has certainly not bypassed the local suburbs"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Maplewood Heights",
+    "relation": "perceived_as",
+    "value": "beacon of the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For some, Maplewood Heights has become a beacon of the future"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jim O'Hara",
+    "relation": "occupation",
+    "value": "mail carrier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "your trusty mail carrier, Jim O'Hara, used to deliver your post"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jim O'Hara",
+    "relation": "replaced_by",
+    "value": "AirSnail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jim has officially been replaced by drone delivery service \"AirSnail,\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "AirSnail",
+    "relation": "is_a",
+    "value": "drone delivery service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drone delivery service \"AirSnail,\""
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "AirSnail",
+    "relation": "behaves_like",
+    "value": "whizzes around dropping packages with the precision of a hawk snagging its prey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which whizzes around dropping packages with the precision of a hawk snagging its prey"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "AirSnail",
+    "relation": "seems_to_lack",
+    "value": "Jim's warm holiday greetings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these drones seem to lack Jim's warm holiday greetings"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "AirSnail",
+    "relation": "described_as",
+    "value": "efficient",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Though efficient"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jim O'Hara",
+    "relation": "has_ability",
+    "value": "uncanny ability to know exactly when you were avoiding in-laws",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his uncanny ability to know exactly when you were avoiding in-laws"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "smart mailbox",
+    "relation": "underwent",
+    "value": "technological overhaul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The mailbox, too, has had a technological overhaul."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "smart mailbox",
+    "relation": "equipped_with",
+    "value": "sensors to detect and notify homeowners the instant mail arrives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipped with sensors to detect and notify homeowners the instant mail arrives"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "smart mailbox",
+    "relation": "notifies_when",
+    "value": "anyone simply meanders too close",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or when anyone simply meanders too close"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Margaret Smith",
+    "relation": "occupation",
+    "value": "retiree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Margaret Smith, a retiree from Maple Street"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Margaret Smith",
+    "relation": "resides_on",
+    "value": "Maple Street",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Margaret Smith, a retiree from Maple Street"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Margaret Smith",
+    "relation": "remarked",
+    "value": "at least someone's paying attention to me in my old age, even if it's just a box of bolts.",
+    "time": null,
+    "speaker": "Margaret Smith",
+    "verbatim": [
+     "wryly points out that \"at least someone's paying attention to me in my old age, even if it's just a box of bolts.\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "RoboGardenerX2000",
+    "relation": "is_a",
+    "value": "device that promises to keep your yard in strict botanical order",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "RoboGardenerX2000, a device that promises to keep your yard in strict botanical order"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "RoboGardenerX2000",
+    "relation": "described_as",
+    "value": "new fad in Maplewood Heights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the new fad in Maplewood Heights is RoboGardenerX2000"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "RoboGardenerX2000",
+    "relation": "removes_weeds",
+    "value": "Zapped",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Is there a weed? Zapped."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "RoboGardenerX2000",
+    "relation": "trims_lawn",
+    "value": "Trimmed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lawn looking shaggy? Trimmed."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "RoboGardenerX2000",
+    "relation": "sprays_roses",
+    "value": "Spritzed with plant dye",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Roses not red enough? Spritzed with plant dye."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "RoboGardenerX2000",
+    "relation": "requires_no",
+    "value": "sweat or speck of dirt under the nails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "All without a single bead of sweat or speck of dirt under the nails."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Carl Jenkins",
+    "relation": "formerly_known_for",
+    "value": "prize petunias",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carl Jenkins, once known for his prize petunias"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Carl Jenkins",
+    "relation": "now_interfaces_with",
+    "value": "touchpad more than tiller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now interfaces more with his touchpad than his tiller"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Carl Jenkins",
+    "relation": "said",
+    "value": "I'd chat more about the weather with my neighbors",
+    "time": null,
+    "speaker": "Carl Jenkins",
+    "verbatim": [
+     "\"I\u2019d chat more about the weather with my neighbors,\" Carl remarks"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Carl Jenkins",
+    "relation": "said",
+    "value": "my app takes care of that for me. It knows the forecast before the news does!",
+    "time": null,
+    "speaker": "Carl Jenkins",
+    "verbatim": [
+     "\"but my app takes care of that for me. It knows the forecast before the news does!\""
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Carl Jenkins",
+    "relation": "explained_by",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": "Carl Jenkins",
+    "verbatim": [
+     "\"I\u2019d chat more about the weather with my neighbors,\" Carl remarks, \"but my app takes care of that for me. It knows the forecast before the news does!\""
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sentinels",
+    "relation": "is_a",
+    "value": "AI-powered cameras",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dubbed the \u201cSentinels,\u201d these AI-powered cameras hover at street corners"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sentinels",
+    "relation": "located_at",
+    "value": "street corners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these AI-powered cameras hover at street corners"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sentinels",
+    "relation": "touted_as",
+    "value": "safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "touting safety"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sentinels",
+    "relation": "joked_about_as",
+    "value": "more gossipy than Gladys Kravitz with a telescope",
+    "time": null,
+    "speaker": "locals",
+    "verbatim": [
+     "locals joke they're more gossipy than"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jane Doe",
+    "relation": "occupation",
+    "value": "privacy advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Privacy advocate Jane Doe"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jane Doe",
+    "relation": "is_pseudonym",
+    "value": "not her real name",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe (not her real name, because, well, privacy)"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jane Doe",
+    "relation": "campaigns_against",
+    "value": "such excessive monitoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "campaigns against such excessive monitoring"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jane Doe",
+    "relation": "said",
+    "value": "Next thing, they'll be installing chips in our brains to curb jaythinking",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "\"Next thing, they'll be installing chips in our brains to curb jaythinking,\" she half-jokes"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jane Doe",
+    "relation": "wears",
+    "value": "oversized sunglasses and a wide-brimmed hat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she half-jokes from behind oversized sunglasses and a wide-brimmed hat."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "smart home",
+    "relation": "status",
+    "value": "fully upon us",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The era of the smart home is fully upon us"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maplewood Heights",
+    "relation": "thrust_into",
+    "value": "new dimension where fridges restock themselves and toasters refuse to burn toast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thrusting Maplewood Heights into a new dimension where fridges restock themselves and toasters refuse to burn toast"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "smart home",
+    "relation": "opinion",
+    "value": "a setting too far",
+    "time": null,
+    "speaker": "some",
+    "verbatim": [
+     "(some say it\u2019s a setting too far)"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "A.I. grocery order",
+    "relation": "is_a",
+    "value": "new form of trust exercise between human and machine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the A.I. grocery order is a new form of trust exercise between human and machine"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Great Vegan Cheese Incident",
+    "relation": "occurred_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Great Vegan Cheese Incident of November 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Great Vegan Cheese Incident",
+    "relation": "involved",
+    "value": "George Bentley's smart fridge insisted on plant-based alternatives",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "when George Bentley\u2019s smart fridge insisted on plant-based alternatives"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "George Bentley",
+    "relation": "owns",
+    "value": "smart fridge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Bentley\u2019s smart fridge"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "George Bentley",
+    "relation": "owns",
+    "value": "golden retriever Buddy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His golden retriever, Buddy,"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Buddy",
+    "relation": "is_a",
+    "value": "golden retriever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His golden retriever, Buddy,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Buddy",
+    "relation": "renounced_allegiance",
+    "value": "to humankind in favor of traditional cheddar-scented humans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promptly renounced his allegiance to humankind in favor of traditional cheddar-scented humans"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Tina Gonzalez",
+    "relation": "occupation",
+    "value": "local coffee shop owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tina Gonzalez, local coffee shop owner, tells us"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Tina Gonzalez",
+    "relation": "said",
+    "value": "people just send a \u2018coffee cup\u2019 emoji to my automated beverage dispenser",
+    "time": "Nowadays",
+    "speaker": "Tina Gonzalez",
+    "verbatim": [
+     "Nowadays, people just send a \u2018coffee cup\u2019 emoji to my automated beverage dispenser"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Tina Gonzalez",
+    "relation": "said",
+    "value": "I almost forget what their voices sound like!",
+    "time": null,
+    "speaker": "Tina Gonzalez",
+    "verbatim": [
+     "I almost forget what their voices sound like!"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "automated beverage dispenser",
+    "relation": "receives_orders_via",
+    "value": "\u2018coffee cup\u2019 emoji",
+    "time": "Nowadays",
+    "speaker": "Tina Gonzalez",
+    "verbatim": [
+     "people just send a \u2018coffee cup\u2019 emoji to my automated beverage dispenser"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "emoji flags",
+    "relation": "used_to_signal",
+    "value": "readiness for social interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Residents have developed a shorthand involving emoji flags to signal readiness for social interaction."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "emoji flags",
+    "relation": "green_means",
+    "value": "chat welcome",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A green flag for 'chat welcome,'"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "emoji flags",
+    "relation": "yellow_means",
+    "value": "smile and nod only",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yellow for 'smile and nod only,'"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "emoji flags",
+    "relation": "red_means",
+    "value": "I haven\u2019t had my coffee, back off.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and red for 'I haven\u2019t had my coffee, back off.'"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "virtual block parties",
+    "relation": "are_the_new",
+    "value": "hangouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtual block parties are the new \"hangouts.\""
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "virtual block parties",
+    "relation": "bond_over",
+    "value": "digital cookouts sans the smoke and meaty odors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neighbors now bond over digital cookouts sans the smoke and meaty odors."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "virtual block parties",
+    "relation": "downside",
+    "value": "possible to feel lonelier surrounded by avatars than being alone in one's own garden",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s possible to feel lonelier surrounded by avatars than being alone in one\u2019s own garden."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Gary \"Lawnmower Man\" Thompson",
+    "relation": "owns",
+    "value": "VR Helmet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gary \"Lawnmower Man\" Thompson, whose VR Helmet makes mowing the grass look like a battle against a pixelated horde"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "VR Helmet",
+    "relation": "makes_mowing_look_like",
+    "value": "a battle against a pixelated horde",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VR Helmet makes mowing the grass look like a battle against a pixelated horde"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Mrs. Henderson",
+    "relation": "described_as",
+    "value": "sole bastion of resistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a sole bastion of resistance \u2013 Mrs. Henderson and her trusty typewriter"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Mrs. Henderson",
+    "relation": "uses",
+    "value": "typewriter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mrs. Henderson and her trusty typewriter"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mrs. Henderson",
+    "relation": "said",
+    "value": "When the world zigs technology, I zag with ink ribbons.",
+    "time": null,
+    "speaker": "Mrs. Henderson",
+    "verbatim": [
+     "\u201cWhen the world zigs technology,\u201d she declaims"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Mrs. Henderson",
+    "relation": "hands_out",
+    "value": "freshly typed missive about the weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Knock on her door, and you\u2019ll be promptly handed a freshly typed missive about the weather, the old-fashioned way."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

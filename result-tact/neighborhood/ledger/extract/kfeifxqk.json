@@ -1,0 +1,481 @@
+{
+ "inventory": [
+  "Emma",
+  "Jack Dawson",
+  "Lily",
+  "Bayridge Hospital",
+  "Goodwin Bates",
+  "Emma's grandparents",
+  "Emma's grandmother",
+  "the elderly couple down the street",
+  "the community",
+  "online parenting groups"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Emma",
+    "relation": "first_held_baby_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was on a cool autumn morning, September 5, 2023, when Emma and Jack Dawson first held their baby."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jack Dawson",
+    "relation": "first_held_baby_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was on a cool autumn morning, September 5, 2023, when Emma and Jack Dawson first held their baby."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bayridge Hospital",
+    "relation": "hosted_new_family",
+    "value": "the new family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "casting a warm glow on the new family in Bayridge Hospital."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emma",
+    "relation": "reflected_on",
+    "value": "the longstanding tales of her own grandparents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma found herself reflecting on the longstanding tales of her own grandparents."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emma's grandparents",
+    "relation": "recounted",
+    "value": "the precious days of her father's infancy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She remembered how, with tears glistening in their eyes, they recounted the precious days of her father's infancy."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Goodwin Bates",
+    "relation": "age",
+    "value": "78",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Goodwin Bates, a sprightly 78-year-old with a shock of white hair and a twinkle in his eye"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Goodwin Bates",
+    "relation": "hair_description",
+    "value": "a shock of white hair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a shock of white hair"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Goodwin Bates",
+    "relation": "eye_description",
+    "value": "a twinkle in his eye",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a twinkle in his eye"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Goodwin Bates",
+    "relation": "offered_insights_with",
+    "value": "a touch of nostalgia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offered his insights with a touch of nostalgia."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Goodwin Bates",
+    "relation": "sat_on",
+    "value": "his worn-out couch",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sitting on his worn-out couch on September 20, 2023, he recollected"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Goodwin Bates",
+    "relation": "said",
+    "value": "Back in the day, everything seemed simpler, yet the emotions were just as complex.",
+    "time": "September 20, 2023",
+    "speaker": "Goodwin Bates",
+    "verbatim": [
+     "Back in the day, everything seemed simpler, yet the emotions were just as complex."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Goodwin Bates",
+    "relation": "said",
+    "value": "Watching your child become a parent is like reliving your own early days of frenzy and fascination.",
+    "time": "September 20, 2023",
+    "speaker": "Goodwin Bates",
+    "verbatim": [
+     "Watching your child become a parent is like reliving your own early days of frenzy and fascination."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Goodwin Bates",
+    "relation": "recounted",
+    "value": "the nights spent pacing the floor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Goodwin spoke of the nights spent pacing the floor"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emma",
+    "relation": "first_weeks_felt_like",
+    "value": "pages out of a storybook they had never read",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the first few weeks felt like pages out of a storybook they had never read."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emma",
+    "relation": "said",
+    "value": "Each time Lily cries, it's as if my heart is learning a new language that I can't quite understand yet.",
+    "time": "October 3, 2023",
+    "speaker": "Emma",
+    "verbatim": [
+     "Each time Lily cries, it's as if my heart is learning a new language that I can't quite understand yet."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jack Dawson",
+    "relation": "became",
+    "value": "a figure of stability and strength",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack, the once carefree spirit, found himself metamorphosing into a figure of stability and strength"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jack Dawson",
+    "relation": "said",
+    "value": "I never knew how protective I could be",
+    "time": "one quiet evening",
+    "speaker": "Jack Dawson",
+    "verbatim": [
+     "I never knew how protective I could be"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Lily",
+    "relation": "described_as",
+    "value": "their new daughter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the whims of their new daughter"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Emma",
+    "relation": "mused_on",
+    "value": "the peculiar feeling of missing a past that she wouldn't trade for the world",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, as Emma softly rocked Lily to sleep, she mused on the peculiar feeling of missing a past that she wouldn't trade for the world."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Lily",
+    "relation": "rocked_to_sleep_by",
+    "value": "Emma",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as Emma softly rocked Lily to sleep"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Emma",
+    "relation": "feeding_became",
+    "value": "a sacred ritual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the act of nourishing their child became a sacred ritual for Emma and Jack."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Emma",
+    "relation": "said",
+    "value": "I remember my grandmother speaking of these moments",
+    "time": null,
+    "speaker": "Emma",
+    "verbatim": [
+     "\"I remember my grandmother speaking of these moments,\" Emma said"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emma's grandmother",
+    "relation": "would_say",
+    "value": "every drop was a love letter to the future\u2014a future that I am now living",
+    "time": null,
+    "speaker": "Emma",
+    "verbatim": [
+     "She would say that every drop was a love letter to the future\u2014a future that I am now living."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Emma",
+    "relation": "reminisced_about",
+    "value": "the stories handed down through generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reminiscing about the stories handed down through generations"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "the community",
+    "relation": "rallied_around",
+    "value": "the Dawsons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found comfort in the community that rallied around them"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "the community",
+    "relation": "brought",
+    "value": "casseroles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long-lost neighbors stopped by with casseroles."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "the elderly couple down the street",
+    "relation": "knit",
+    "value": "a snug blanket",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the elderly couple down the street knit a snug blanket"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "online parenting groups",
+    "relation": "became",
+    "value": "anchors in the storm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "friends without faces from their online parenting groups became anchors in the storm."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jack Dawson",
+    "relation": "surrounded_by",
+    "value": "a village he didn't know he had",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was during a small gathering on October 22, 2023, that Jack found himself surrounded by a village he didn't know he had."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jack Dawson",
+    "relation": "said",
+    "value": "This support\u2014it's like an unspoken promise that we're not alone in this",
+    "time": "October 22, 2023",
+    "speaker": "Jack Dawson",
+    "verbatim": [
+     "This support\u2014it's like an unspoken promise that we're not alone in this,"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jack Dawson",
+    "relation": "eyes_gleaming_with",
+    "value": "gratitude",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "his eyes gleaming with gratitude"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lily",
+    "relation": "cries_formed",
+    "value": "a lexicon that only Emma and Jack could understand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "began to form a lexicon that only Emma and Jack could understand."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Emma",
+    "relation": "learned",
+    "value": "the subtle art of pacification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They learned the subtle art of pacification"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Emma",
+    "relation": "crafted",
+    "value": "a lullaby that belonged only to them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafting a lullaby that belonged only to them."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emma",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They learned the subtle art of pacification, of gentle bounces and soothing hums, crafting a lullaby that belonged only to them."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jack Dawson",
+    "relation": "said",
+    "value": "There's something profound in those moments of quiet after the tears.",
+    "time": "November 1, 2023",
+    "speaker": "Jack Dawson",
+    "verbatim": [
+     "There's something profound in those moments of quiet after the tears."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jack Dawson",
+    "relation": "recounted",
+    "value": "a particularly trying night",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jack, recounting a particularly trying night on November 1, 2023, expressed"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Emma",
+    "relation": "found_lessons_in",
+    "value": "the small victories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They found lessons in the small victories, the first time Lily gripped their finger"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lily",
+    "relation": "gripped",
+    "value": "their finger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the first time Lily gripped their finger"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Lily",
+    "relation": "whispered_sweet_dreams_by",
+    "value": "the Dawsons",
+    "time": "each night",
+    "speaker": null,
+    "verbatim": [
+     "As the Dawsons whisper sweet dreams to baby Lily each night"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emma",
+    "relation": "became",
+    "value": "a little more worn, a touch wiser, and infinitely more in love",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a little more worn, a touch wiser, and infinitely more in love."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emma",
+    "relation": "hearts_entwined_with",
+    "value": "the tender life they brought into the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their hearts forever entwined with the tender life they brought into the world."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

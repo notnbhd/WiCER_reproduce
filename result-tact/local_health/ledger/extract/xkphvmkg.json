@@ -1,0 +1,783 @@
+{
+ "inventory": [
+  "Eldertown",
+  "Dr. Nora Sanchez",
+  "Dr. Adrian Koh",
+  "Eldertown Model for Geriatric Wellness",
+  "Collaborative Care Networks",
+  "Dr. Emily Foster",
+  "Lifestyle Intervention Programs",
+  "remote monitoring technologies",
+  "Wearables and smart health devices",
+  "volunteer-based program",
+  "patient-centric care",
+  "personalized care plans",
+  "age-related chronic conditions",
+  "support groups",
+  "social support",
+  "social isolation",
+  "social activities organized for seniors",
+  "emergency room visits",
+  "hospital readmissions",
+  "hypertension-related complications",
+  "diabetes",
+  "heart disease",
+  "arthritis",
+  "healthcare leaders from across the state",
+  "neighboring regions",
+  "long-term cost savings"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Eldertown",
+    "relation": "described_as",
+    "value": "small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small town of Eldertown"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "began_in",
+    "value": "Eldertown",
+    "time": "the autumn of 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the autumn of 2023, a groundbreaking initiative took root in the small town of Eldertown"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Nora Sanchez",
+    "relation": "role",
+    "value": "geriatric specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Nora Sanchez, a geriatric specialist"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Adrian Koh",
+    "relation": "role",
+    "value": "public health expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Adrian Koh, a public health expert"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "spearheaded_by",
+    "value": "Dr. Nora Sanchez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by the dynamic duo Dr. Nora Sanchez, a geriatric specialist, and Dr. Adrian Koh, a public health expert"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "spearheaded_by",
+    "value": "Dr. Adrian Koh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by the dynamic duo Dr. Nora Sanchez, a geriatric specialist, and Dr. Adrian Koh, a public health expert"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "has_begun_to_turn_heads_in",
+    "value": "the medical community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has begun to turn heads in the medical community"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "commenced_on",
+    "value": "September 10, 2023",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Eldertown Model commenced on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "aims_to",
+    "value": "break away from the episodic treatment patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aiming to break away from the episodic treatment patterns"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "advocates",
+    "value": "a continuous, integrated care approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this model advocates for a continuous, integrated care approach"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "prioritizes",
+    "value": "the quality of life for its senior residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prioritizes the quality of life for its senior residents"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Collaborative Care Networks",
+    "relation": "abbreviated_as",
+    "value": "CCNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaborative Care Networks (CCNs)"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Collaborative Care Networks",
+    "relation": "development_is_unique_selling_point_of",
+    "value": "Eldertown initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A unique selling point of the Eldertown initiative is the development of Collaborative Care Networks (CCNs)"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Collaborative Care Networks",
+    "relation": "brings_together",
+    "value": "physicians, nurses, social workers, and community organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CCNs knitted together a tapestry of physicians, nurses, social workers, and community organizations"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Collaborative Care Networks",
+    "relation": "formed_to",
+    "value": "form a unified support system for the aging population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to form a unified support system for the aging population"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "prompted",
+    "value": "an unprecedented level of coordination between different healthcare providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This model prompted an unprecedented level of coordination between different healthcare providers"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "ensures",
+    "value": "elderly patients received consistent and holistic care tailored to their individual needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that elderly patients received consistent and holistic care tailored to their individual needs"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "rolled_out_training_for",
+    "value": "healthcare professionals in Eldertown",
+    "time": "Starting October 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting October 4, 2023, the program rolled out extensive training for healthcare professionals in Eldertown"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Emily Foster",
+    "relation": "led",
+    "value": "training sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These training sessions, led by esteemed geriatrician Dr. Emily Foster"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Emily Foster",
+    "relation": "role",
+    "value": "esteemed geriatrician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by esteemed geriatrician Dr. Emily Foster"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Emily Foster",
+    "relation": "training_equipped",
+    "value": "the local medical community with the latest in geriatric care and chronic disease management techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipped the local medical community with the latest in geriatric care and chronic disease management techniques"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "launched",
+    "value": "launch of Lifestyle Intervention Programs as part of the model",
+    "time": "On October 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 25, 2023, the model included the launch of Lifestyle Intervention Programs (LIPs)"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "included",
+    "value": "Lifestyle Intervention Programs",
+    "time": "On October 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 25, 2023, the model included the launch of Lifestyle Intervention Programs (LIPs)"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "encouraged",
+    "value": "seniors to engage in regular physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These initiatives encouraged seniors to engage in regular physical activity"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "encouraged",
+    "value": "seniors to maintain a healthy diet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged seniors to engage in regular physical activity, maintain a healthy diet, and participate in mental health workshops"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "encouraged",
+    "value": "seniors to participate in mental health workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged seniors to engage in regular physical activity, maintain a healthy diet, and participate in mental health workshops"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "showed",
+    "value": "remarkable results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "LIPs showed remarkable results"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "participants_reported",
+    "value": "improvements in their overall well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with many participants reporting improvements in their overall well-being"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lifestyle Intervention Programs",
+    "relation": "participants_reported",
+    "value": "a reduction in symptoms related to their chronic conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a reduction in symptoms related to their chronic conditions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "remote monitoring technologies",
+    "relation": "integrated_by",
+    "value": "project leads",
+    "time": "In November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In November 2023, project leads successfully integrated remote monitoring technologies to facilitate better at-home care"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "remote monitoring technologies",
+    "relation": "integrated_to",
+    "value": "facilitate better at-home care",
+    "time": "In November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In November 2023, project leads successfully integrated remote monitoring technologies to facilitate better at-home care"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Wearables and smart health devices",
+    "relation": "allowed",
+    "value": "healthcare providers to keep an eye on vital signs and patient well-being remotely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wearables and smart health devices allowed healthcare providers to keep an eye on vital signs and patient well-being remotely"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Wearables and smart health devices",
+    "relation": "reduced",
+    "value": "unnecessary hospital visits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing unnecessary hospital visits and allowing for early intervention when required"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Wearables and smart health devices",
+    "relation": "allowed",
+    "value": "early intervention when required",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for early intervention when required"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Wearables and smart health devices",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wearables and smart health devices allowed healthcare providers to keep an eye on vital signs and patient well-being remotely, reducing unnecessary hospital visits"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "volunteer-based program",
+    "relation": "set_up_by",
+    "value": "Eldertown Model for Geriatric Wellness",
+    "time": "By December 2023",
+    "speaker": null,
+    "verbatim": [
+     "By December 2023, the Eldertown Model had set up a volunteer-based program"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "volunteer-based program",
+    "relation": "trained",
+    "value": "community members were trained to check on the elderly in their neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where community members were trained to check on the elderly in their neighborhood"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "volunteer-based program",
+    "relation": "provides",
+    "value": "companionship and helping with simple household tasks that could be challenging for those with chronic conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing companionship, and helping with simple household tasks that could be challenging for those with chronic conditions"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "key_aspect_is",
+    "value": "community empowerment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community empowerment was a key aspect of the initiative"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "patient-centric care",
+    "relation": "is_at_heart_of",
+    "value": "Eldertown Model for Geriatric Wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the heart of the Eldertown Model lies patient-centric care"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "patient-centric care",
+    "relation": "implemented_under_guidance_of",
+    "value": "Dr. Sanchez and Dr. Koh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This philosophy was firmly implemented under the guidance of Dr. Sanchez and Dr. Koh"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Nora Sanchez",
+    "relation": "believed",
+    "value": "empowering patients to take charge of their own health could significantly improve outcomes",
+    "time": null,
+    "speaker": "Dr. Sanchez and Dr. Koh",
+    "verbatim": [
+     "who believed that empowering patients to take charge of their own health could significantly improve outcomes"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Adrian Koh",
+    "relation": "believed",
+    "value": "empowering patients to take charge of their own health could significantly improve outcomes",
+    "time": null,
+    "speaker": "Dr. Sanchez and Dr. Koh",
+    "verbatim": [
+     "who believed that empowering patients to take charge of their own health could significantly improve outcomes"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "personalized care plans",
+    "relation": "became",
+    "value": "a hallmark of the system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Personalized care plans became a hallmark of the system"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "personalized care plans",
+    "relation": "evolved_as",
+    "value": "living plans that evolved as the patient's health needs changed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these were not static documents but living plans that evolved as the patient's health needs changed"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "social support",
+    "relation": "heavily_influenced",
+    "value": "patients' ability to manage their chronic conditions effectively",
+    "time": "By January 2024",
+    "speaker": null,
+    "verbatim": [
+     "By January 2024, it became evident that the model's focus on social support heavily influenced patients' ability to manage their chronic conditions effectively"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "support groups",
+    "relation": "flourished_for",
+    "value": "various conditions such as diabetes, heart disease, and arthritis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Support groups for various conditions such as diabetes, heart disease, and arthritis flourished"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "support groups",
+    "relation": "offered",
+    "value": "both emotional and practical assistance to those dealing with these lifelong conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering both emotional and practical assistance to those dealing with these lifelong conditions"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "metrics_collected_since",
+    "value": "inception of the Eldertown Model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Metrics collected since the inception of the Eldertown Model painted a promising picture"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "emergency room visits",
+    "relation": "metric_reported",
+    "value": "reductions in emergency room visits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These metrics included reductions in emergency room visits"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "diabetes",
+    "relation": "metric_reported",
+    "value": "improved management of blood sugar levels in diabetic patients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improved management of blood sugar levels in diabetic patients"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "hypertension-related complications",
+    "relation": "metric_reported",
+    "value": "decreased incidences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decreased incidences of hypertension-related complications"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "metric_reported",
+    "value": "a surge in patient-reported satisfaction with healthcare experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a surge in patient-reported satisfaction with their healthcare experience"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "neighboring regions",
+    "relation": "scaling_discussed_for",
+    "value": "scaling the initiative",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "talks began in February 2024 about the potential for scaling the initiative to neighboring regions"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "healthcare leaders from across the state",
+    "relation": "gathered_in",
+    "value": "Eldertown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Healthcare leaders from across the state gathered in Eldertown"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "healthcare leaders from across the state",
+    "relation": "pondered",
+    "value": "the viability of adapting the model to their own communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pondering the viability of adapting the model to their own communities"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "social isolation",
+    "relation": "fought_by",
+    "value": "Eldertown Model for Geriatric Wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fight against social isolation"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "critical_component_is",
+    "value": "the fight against social isolation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A critical component that emerged from the Eldertown Model was the fight against social isolation"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "social activities organized for seniors",
+    "relation": "showed_merits_in",
+    "value": "promoting mental health",
+    "time": "By March 2024",
+    "speaker": null,
+    "verbatim": [
+     "By March 2024, with reinforcement from psychological studies, social activities organized for seniors showed significant merits in promoting mental health"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "social activities organized for seniors",
+    "relation": "reinforced_by",
+    "value": "psychological studies",
+    "time": "By March 2024",
+    "speaker": null,
+    "verbatim": [
+     "By March 2024, with reinforcement from psychological studies"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "social activities organized for seniors",
+    "relation": "demonstrated",
+    "value": "social well-being and chronic condition management go hand in hand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrating that social well-being and chronic condition management go hand in hand"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "initial_concern_about",
+    "value": "financial investment required to establish the Eldertown Model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite initial concerns about the financial investment required to establish the Eldertown Model"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "long-term cost savings",
+    "relation": "could_outweigh",
+    "value": "the initial expenses",
+    "time": "by April 2024",
+    "speaker": "preliminary analyses",
+    "verbatim": [
+     "by April 2024, preliminary analyses suggested that the long-term cost savings from improved chronic condition management could far outweigh the initial expenses"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "hospital readmissions",
+    "relation": "reduction_contributed_to",
+    "value": "this optimal financial picture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reduced hospital readmissions and shortened lengths of hospital stays contributed to this optimal financial picture"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Eldertown Model for Geriatric Wellness",
+    "relation": "shortened_lengths_of_hospital_stays_contributed_to",
+    "value": "this optimal financial picture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shortened lengths of hospital stays contributed to this optimal financial picture"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Eldertown",
+    "relation": "provides",
+    "value": "a promising blueprint for communities internationally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eldertown provides a promising blueprint for communities internationally to rethink geriatric care"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "age-related chronic conditions",
+    "relation": "requires",
+    "value": "a holistic strategy that encompasses social, psychological, and lifestyle factors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "addressing age-related chronic conditions requires not just medical intervention but a holistic strategy that encompasses social, psychological, and lifestyle factors"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Eldertown",
+    "relation": "relies_on",
+    "value": "well-coordinated care networks, personalized care plans, and robust community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through wellcoordinated care networks, personalized care plans, and robust community engagement"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

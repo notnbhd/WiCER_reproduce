@@ -1,0 +1,666 @@
+{
+ "inventory": [
+  "Holographic Heritage Festival",
+  "Plimoth Plantation",
+  "Dr. Emily Carter",
+  "MIT",
+  "Star Wars",
+  "Star Trek",
+  "Declaration of Independence",
+  "Colosseum",
+  "Roman Empire",
+  "Abraham Lincoln",
+  "Gettysburg Address",
+  "Michael Zheng",
+  "HoloPast",
+  "Boston Tea Party",
+  "Jasmine Ford",
+  "Tokyo",
+  "Meiji Restoration",
+  "Yuto Tanaka",
+  "Tokyo Hologram Cultural Initiative",
+  "Paris",
+  "Storming of the Bastille",
+  "Marie Antoinette",
+  "Natasha Kovacs",
+  "FutureScape Technologies",
+  "Ming Dynasty",
+  "Rosa Parks",
+  "moon landing",
+  "Disneyfication of history",
+  "pop culture"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Holographic Heritage Festival",
+    "relation": "inaugural_launch_at",
+    "value": "Plimoth Plantation",
+    "time": "evening of October 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spectacle unfolds on the grounds of the historic Plimoth Plantation",
+     "for the inaugural launch of the Holographic Heritage Festival"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Holographic Heritage Festival",
+    "relation": "audience_includes",
+    "value": "history buffs and tech enthusiasts",
+    "time": "For the first time",
+    "speaker": null,
+    "verbatim": [
+     "history buffs and tech enthusiasts alike are witnessing the past come alive"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Star Wars",
+    "relation": "described_as",
+    "value": "iconic film or series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Iconic films and series like \"Star Wars\" and \"Star Trek\" have shaped our collective imagination"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Star Trek",
+    "relation": "described_as",
+    "value": "iconic film or series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Iconic films and series like \"Star Wars\" and \"Star Trek\" have shaped our collective imagination"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "pop culture",
+    "relation": "has_shaped",
+    "value": "our collective imagination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Iconic films and series like \"Star Wars\" and \"Star Trek\" have shaped our collective imagination"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Carter",
+    "relation": "is_professor_of",
+    "value": "Historical Technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Carter, a professor of Historical Technology at MIT"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Carter",
+    "relation": "works_at",
+    "value": "MIT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Carter, a professor of Historical Technology at MIT"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "MIT",
+    "relation": "employs",
+    "value": "Dr. Emily Carter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Carter, a professor of Historical Technology at MIT"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Carter",
+    "relation": "interviewed_on",
+    "value": "eve of the festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I had the opportunity to speak with Dr. Emily Carter, a professor of Historical Technology at MIT, on the eve of the festival."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Carter",
+    "relation": "states",
+    "value": "Pop culture has essentially laid the groundwork for this evolution",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "Pop culture has essentially laid the groundwork for this evolution"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Emily Carter",
+    "relation": "states",
+    "value": "The fascination and familiarity with holograms that have been cultivated through films and television are now coming to fruition in educational and cultural applications",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "The fascination and familiarity with holograms that have been cultivated through films and television are now coming to fruition in educational and cultural applications"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Declaration of Independence",
+    "relation": "signing_shown_via",
+    "value": "high-definition holographic projections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through high-definition holographic projections, visitors can witness the signing of the Declaration of Independence"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Colosseum",
+    "relation": "setting_of",
+    "value": "gladiator match",
+    "time": "at the zenith of the Roman Empire",
+    "speaker": null,
+    "verbatim": [
+     "watch a gladiator match in the Colosseum at the zenith of the Roman Empire"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Roman Empire",
+    "relation": "zenith_depicted_in_festival",
+    "value": "gladiator match in the Colosseum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "watch a gladiator match in the Colosseum at the zenith of the Roman Empire"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Abraham Lincoln",
+    "relation": "shown_delivering",
+    "value": "Gettysburg Address",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine Abraham Lincoln delivering the Gettysburg Address not from a somber painting or a bronze statue, but as a full-sized, speaking hologram"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Gettysburg Address",
+    "relation": "delivered_by",
+    "value": "Abraham Lincoln",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine Abraham Lincoln delivering the Gettysburg Address"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Zheng",
+    "relation": "is_CEO_of",
+    "value": "HoloPast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Zheng, CEO of HoloPast"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "HoloPast",
+    "relation": "provides_technology_for",
+    "value": "Holographic Heritage Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the company behind the festival's technology"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Michael Zheng",
+    "relation": "states",
+    "value": "to humanize history",
+    "time": null,
+    "speaker": "Michael Zheng",
+    "verbatim": [
+     "Our goal is to humanize history"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michael Zheng",
+    "relation": "guided_tour_of",
+    "value": "holographic reenactment of the Boston Tea Party",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guiding me through a holographic reenactment of the Boston Tea Party"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Boston Tea Party",
+    "relation": "reenacted_as",
+    "value": "holographic reenactment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guiding me through a holographic reenactment of the Boston Tea Party"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael Zheng",
+    "relation": "states",
+    "value": "We recreate historical figures in meticulous detail",
+    "time": null,
+    "speaker": "Michael Zheng",
+    "verbatim": [
+     "We recreate historical figures in meticulous detail"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael Zheng",
+    "relation": "states",
+    "value": "historical figures recreated down to their facial expressions and the timbre of their voices",
+    "time": null,
+    "speaker": "Michael Zheng",
+    "verbatim": [
+     "from their facial expressions to the timbre of their voices"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Michael Zheng",
+    "relation": "states",
+    "value": "We're not just showcasing history; we're resurrecting it",
+    "time": null,
+    "speaker": "Michael Zheng",
+    "verbatim": [
+     "We're not just showcasing history; we're resurrecting it"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Holographic Heritage Festival",
+    "relation": "features",
+    "value": "lantern-lit procession of Revolutionary warfighters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Families enjoy a lantern-lit procession of Revolutionary warfighters marching right beside them"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Holographic Heritage Festival",
+    "relation": "features",
+    "value": "holographic fireworks commemorating historical victories without the risk of fire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "holographic fireworks commemorate historical victories without the risk of fire"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jasmine Ford",
+    "relation": "is_a",
+    "value": "high-school history teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jasmine Ford, a high-school history teacher who brought her class to the festival"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jasmine Ford",
+    "relation": "brought_class_to",
+    "value": "Holographic Heritage Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jasmine Ford, a high-school history teacher who brought her class to the festival"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jasmine Ford",
+    "relation": "states",
+    "value": "It's history, but with an adrenaline rush",
+    "time": null,
+    "speaker": "Jasmine Ford",
+    "verbatim": [
+     "It's history, but with an adrenaline rush"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jasmine Ford",
+    "relation": "states",
+    "value": "My students are actually excited to learn",
+    "time": null,
+    "speaker": "Jasmine Ford",
+    "verbatim": [
+     "My students are actually excited to learn"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jasmine Ford",
+    "relation": "states",
+    "value": "It's a game-changer for education",
+    "time": null,
+    "speaker": "Jasmine Ford",
+    "verbatim": [
+     "It's a game-changer for education"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Holographic Heritage Festival",
+    "relation": "described_as",
+    "value": "not just American phenomena",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Holographic Heritage Festivals aren't just American phenomena"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Tokyo",
+    "relation": "observed",
+    "value": "the Meiji Restoration",
+    "time": "Last month, on September 23",
+    "speaker": null,
+    "verbatim": [
+     "Last month, on September 23, Tokyo observed the Meiji Restoration"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Tokyo",
+    "relation": "held_reenactment",
+    "value": "dazzling samurai battle reenactment",
+    "time": "Last month, on September 23",
+    "speaker": null,
+    "verbatim": [
+     "Tokyo observed the Meiji Restoration with a dazzling samurai battle reenactment"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Tokyo",
+    "relation": "visitor_reaction",
+    "value": "awestruck",
+    "time": "Last month, on September 23",
+    "speaker": null,
+    "verbatim": [
+     "that had visitors awestruck"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Yuto Tanaka",
+    "relation": "is_director_of",
+    "value": "Tokyo Hologram Cultural Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yuto Tanaka, director of the Tokyo Hologram Cultural Initiative"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Yuto Tanaka",
+    "relation": "states",
+    "value": "This isn't just about preserving our history; it's about sharing it with the world",
+    "time": null,
+    "speaker": "Yuto Tanaka",
+    "verbatim": [
+     "This isn't just about preserving our history; it's about sharing it with the world"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Yuto Tanaka",
+    "relation": "states",
+    "value": "tourists who have never heard of the Meiji period leave with a deep appreciation of Japanese history",
+    "time": null,
+    "speaker": "Yuto Tanaka",
+    "verbatim": [
+     "We have tourists who have never heard of the Meiji period leave with a deep appreciation of Japanese history."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Paris",
+    "relation": "will_host",
+    "value": "holographic rendition of the Storming of the Bastille",
+    "time": "On November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 20, 2023, Paris will host a holographic rendition of the Storming of the Bastille"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Storming of the Bastille",
+    "relation": "rendered_as",
+    "value": "holographic rendition",
+    "time": "On November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Paris will host a holographic rendition of the Storming of the Bastille"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Marie Antoinette",
+    "relation": "appears_as",
+    "value": "hologram",
+    "time": "On November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "courtesy of a Marie Antoinette hologram"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Marie Antoinette",
+    "relation": "virtual_quote",
+    "value": "Let them eat cake!",
+    "time": "On November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a virtual \"Let them eat cake!\" courtesy of a Marie Antoinette hologram"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Holographic Heritage Festival",
+    "relation": "serves_to",
+    "value": "educate and build bridges between cultures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves not only to educate but to build bridges between cultures"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Natasha Kovacs",
+    "relation": "is_lead_engineer_at",
+    "value": "FutureScape Technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natasha Kovacs, a lead engineer at FutureScape Technologies"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "FutureScape Technologies",
+    "relation": "employs",
+    "value": "Natasha Kovacs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natasha Kovacs, a lead engineer at FutureScape Technologies"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Natasha Kovacs",
+    "relation": "states",
+    "value": "We are at the cusp of a new era in storytelling and education",
+    "time": null,
+    "speaker": "Natasha Kovacs",
+    "verbatim": [
+     "We are at the cusp of a new era in storytelling and education"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Natasha Kovacs",
+    "relation": "states",
+    "value": "The potential is boundless",
+    "time": null,
+    "speaker": "Natasha Kovacs",
+    "verbatim": [
+     "The potential is boundless"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "moon landing",
+    "relation": "imagined_as_reliving",
+    "value": "as if you were there",
+    "time": null,
+    "speaker": "Natasha Kovacs",
+    "verbatim": [
+     "reliving the moon landing as if you were there"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Disneyfication of history",
+    "relation": "concern_of",
+    "value": "entertainment overshadows truth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "avoid the 'Disneyfication' of history, where entertainment overshadows truth"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Holographic Heritage Festival",
+    "relation": "collaborates_with",
+    "value": "historians, cultural experts, and anthropologists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They collaborate with historians, cultural experts, and anthropologists"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Holographic Heritage Festival",
+    "relation": "content_supported_by",
+    "value": "archives, artifacts, and academic research",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fact supported by archives, artifacts, and academic research"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Holographic Heritage Festival",
+    "relation": "in_order_to",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They collaborate with historians, cultural experts, and anthropologists to ensure that what audiences witness isn't just spectacle"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Plimoth Plantation",
+    "relation": "hosted",
+    "value": "holographic festivities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the Plimoth Plantation holographic festivities draw to a close"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Holographic Heritage Festival",
+    "relation": "offers",
+    "value": "a unique window into the lives of those who shaped our world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With each festival offering a unique window into the lives of those who shaped our world"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Ming Dynasty",
+    "relation": "depicted_as",
+    "value": "virtual butterflies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtual butterflies from the Ming Dynasty"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Rosa Parks",
+    "relation": "appears_as",
+    "value": "holographic figure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a holographic Rosa Parks"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Holographic Heritage Festival",
+    "relation": "described_as",
+    "value": "a new way to experience history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a new way to experience it, to feel it"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

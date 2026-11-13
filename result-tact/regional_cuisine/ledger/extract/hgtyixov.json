@@ -1,0 +1,913 @@
+{
+ "inventory": [
+  "Davidson family",
+  "James \u201cJimmy\u201d Davidson",
+  "Sakura",
+  "Amelia Davidson",
+  "Michael",
+  "Uncle Raj",
+  "Grandma Jean",
+  "Lily Davidson",
+  "Sobaghetti",
+  "Gua-sabi",
+  "Curizza",
+  "Jazzed-Up Jollof",
+  "Chai-ramisu",
+  "fusion confusion",
+  "fusion cuisine",
+  "Loch Ness",
+  "Mumbai",
+  "Louisiana",
+  "17th birthday bash",
+  "game night",
+  "the great culinary crossover event",
+  "Grandma Jean's visit",
+  "spaghetti",
+  "soba noodles",
+  "wasabi",
+  "guacamole",
+  "sushi",
+  "haggis",
+  "garam masala",
+  "jambalaya",
+  "jollof rice",
+  "tiramisu",
+  "masala chai",
+  "tandoori chicken",
+  "margherita"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Davidson family",
+    "relation": "gathering_date",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a recent gathering dated October 12, 2023, I had the pleasure of sitting down with the Davidson clan"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Davidson family",
+    "relation": "cultures_range_from",
+    "value": "Italian to Japanese",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a remarkable mosaic of cultures ranging from Italian to Japanese"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "James \u201cJimmy\u201d Davidson",
+    "relation": "is_patriarch_of",
+    "value": "Davidson family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose patriarch, James \u201cJimmy\u201d Davidson, is a Scottish-American sous-chef"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "James \u201cJimmy\u201d Davidson",
+    "relation": "is_a",
+    "value": "Scottish-American sous-chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose patriarch, James \u201cJimmy\u201d Davidson, is a Scottish-American sous-chef"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "James \u201cJimmy\u201d Davidson",
+    "relation": "sprinkles_garam_masala_into",
+    "value": "haggis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a penchant for sprinkling a little bit of garam masala in his haggis"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "garam masala",
+    "relation": "sprinkled_in",
+    "value": "haggis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a penchant for sprinkling a little bit of garam masala in his haggis"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sakura",
+    "relation": "is_wife_of",
+    "value": "James \u201cJimmy\u201d Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His wife, Sakura,"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sakura",
+    "relation": "contributes",
+    "value": "delicate sushi-making skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributes her delicate sushi-making skills to the fold"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "sushi",
+    "relation": "sometimes_wrapped_in",
+    "value": "seaweed sourced from Loch Ness",
+    "time": null,
+    "speaker": "James \u201cJimmy\u201d Davidson",
+    "verbatim": [
+     "wrapped in seaweed sourced from Loch Ness"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Loch Ness",
+    "relation": "source_of_seaweed_for",
+    "value": "sushi",
+    "time": null,
+    "speaker": "James \u201cJimmy\u201d Davidson",
+    "verbatim": [
+     "wrapped in seaweed sourced from Loch Ness"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "fusion confusion",
+    "relation": "often_results_in",
+    "value": "a unique blend of dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This cuisine roulette often results in a unique blend of dishes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "fusion confusion",
+    "relation": "may_leave_guest_reeling_with",
+    "value": "the uninitiated guest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that may leave the uninitiated guest reeling with 'fusion confusion'"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Davidson family",
+    "relation": "considers_blending_of_flavors",
+    "value": "just another Sunday dinner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this innovative blending of flavors is just another Sunday dinner"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Amelia Davidson",
+    "relation": "is_eldest_daughter_of",
+    "value": "Davidson family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amelia Davidson, the eldest daughter"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "17th birthday bash",
+    "relation": "held_on",
+    "value": "September 14, 2023",
+    "time": "September 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recounts her 17th birthday bash on September 14, 2023"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "spaghetti",
+    "relation": "could_use_a_little_twist",
+    "value": "a little twist",
+    "time": null,
+    "speaker": "Amelia Davidson",
+    "verbatim": [
+     "Mom decided that Dad's spaghetti could use a little twist."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "soba noodles",
+    "relation": "replaced_pasta_in",
+    "value": "spaghetti",
+    "time": null,
+    "speaker": "Amelia Davidson",
+    "verbatim": [
+     "So she replaced the pasta with soba noodles."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "spaghetti",
+    "relation": "initially_felt_like",
+    "value": "watching worlds collide",
+    "time": null,
+    "speaker": "Amelia Davidson",
+    "verbatim": [
+     "Initially, it was like watching worlds collide"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "soba noodles",
+    "relation": "paired_well_with",
+    "value": "tomato sauce",
+    "time": null,
+    "speaker": "Amelia Davidson",
+    "verbatim": [
+     "paired insanely well with the tomato sauce"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sobaghetti",
+    "relation": "has_become",
+    "value": "a requested favorite at potlucks and family reunions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has now become a requested favorite at potlucks and family reunions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sobaghetti",
+    "relation": "inception_was",
+    "value": "accidental and borderline comical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its accidental and borderline comical inception"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael",
+    "relation": "is_youngest_of",
+    "value": "Davidson family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael, the youngest of the brood"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael",
+    "relation": "decided_to_whip_up",
+    "value": "guacamole",
+    "time": "On the afternoon of November 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On the afternoon of November 6, 2023, Michael, the youngest of the brood, decided to whip up some guacamole for game night."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "guacamole",
+    "relation": "made_for",
+    "value": "game night",
+    "time": "On the afternoon of November 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "decided to whip up some guacamole for game night"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sakura",
+    "relation": "confused_wasabi_for",
+    "value": "avocado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had confused the wasabi for avocado"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "wasabi",
+    "relation": "pastel_hue_similar_to",
+    "value": "avocado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to their strikingly similar pastel hues"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sakura",
+    "relation": "caused_by",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had confused the wasabi for avocado due to their strikingly similar pastel hues"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "guacamole",
+    "relation": "packed_more_punch_than",
+    "value": "expected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The resulting dip packed more punch than expected"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "guacamole",
+    "relation": "led_to",
+    "value": "an eruption of laughter \u2014 and tears",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to an eruption of laughter \u2014 and tears"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "guacamole",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The resulting dip packed more punch than expected, leading to an eruption of laughter \u2014 and tears"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Gua-sabi",
+    "relation": "is_recreated_with",
+    "value": "a milder dose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is deliberately recreated with a milder dose for the daredevil foodies of the family"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Gua-sabi",
+    "relation": "transformed_from",
+    "value": "mishap to masterpiece",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having transformed from mishap to masterpiece"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Uncle Raj",
+    "relation": "is_transplant_from",
+    "value": "Mumbai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Uncle Raj, a Mumbai transplant and selfproclaimed curry connoisseur"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Uncle Raj",
+    "relation": "self_described_as",
+    "value": "curry connoisseur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "selfproclaimed curry connoisseur"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Uncle Raj",
+    "relation": "experiment_date",
+    "value": "December 5, 2023",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was the cold night of December 5, 2023, when Uncle Raj"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Uncle Raj",
+    "relation": "decided_pizza_dough_was",
+    "value": "an untapped canvas for his spicy curry artistry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decided that the pizza dough was an untapped canvas for his spicy curry artistry"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Uncle Raj",
+    "relation": "involved",
+    "value": "spreading a masala-infused tomato base over the crust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The endeavor involved spreading a masala-infused tomato base over the crust and topping it generously with tandoori chicken and mozzarella cheese."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Uncle Raj",
+    "relation": "topped_with",
+    "value": "tandoori chicken and mozzarella cheese",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "topping it generously with tandoori chicken and mozzarella cheese"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "tandoori chicken",
+    "relation": "used_as_topping_on",
+    "value": "pizza",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "topping it generously with tandoori chicken and mozzarella cheese"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "James \u201cJimmy\u201d Davidson",
+    "relation": "participated_in",
+    "value": "the great culinary crossover event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jimmy couldn't resist the opportunity to be a part of what he termed \"the great culinary crossover event\"."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "the great culinary crossover event",
+    "relation": "termed_by",
+    "value": "James \u201cJimmy\u201d Davidson",
+    "time": null,
+    "speaker": "James \u201cJimmy\u201d Davidson",
+    "verbatim": [
+     "what he termed \"the great culinary crossover event\""
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "the great culinary crossover event",
+    "relation": "culminated_with",
+    "value": "the oven timer dinged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The room fell silent as the oven timer dinged, signaling the culmination of their experiment."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Curizza",
+    "relation": "received",
+    "value": "mixed reviews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this ambitious concoction received mixed reviews"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Curizza",
+    "relation": "heralded_as",
+    "value": "a groundbreaking move in fusion cuisine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "half the room heralding it as a groundbreaking move in fusion cuisine"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "margherita",
+    "relation": "was_pledged_allegiance_by",
+    "value": "the other half of the room",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while the other half pledged allegiance to the ordinary margherita"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Grandma Jean's visit",
+    "relation": "date",
+    "value": "February 23, 2024",
+    "time": "February 23, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Grandma Jean's visit on February 23, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Grandma Jean",
+    "relation": "has_roots_in",
+    "value": "Louisiana",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with her Louisiana roots in tow"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Grandma Jean's visit",
+    "relation": "saw",
+    "value": "another amusing clash of culinary worlds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "saw another amusing clash of culinary worlds"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Grandma Jean",
+    "relation": "listened_to",
+    "value": "a jazz record",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She listened to a jazz record while preparing her famous jambalaya"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "jambalaya",
+    "relation": "was_prepared_by",
+    "value": "Grandma Jean",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while preparing her famous jambalaya"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Grandma Jean",
+    "relation": "was_intrigued_by",
+    "value": "jollof rice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but was intrigued by the fragrant jollof rice Sakura was simultaneously making"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "jollof rice",
+    "relation": "was_being_made_by",
+    "value": "Sakura",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fragrant jollof rice Sakura was simultaneously making"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "jollof rice",
+    "relation": "described_as",
+    "value": "fragrant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fragrant jollof rice"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Grandma Jean",
+    "relation": "combined",
+    "value": "jambalaya and jollof rice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Determined to improvise, she combined the two, yielding an Afro-Creole dish"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Grandma Jean",
+    "relation": "motivation_for",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Determined to improvise, she combined the two"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jazzed-Up Jollof",
+    "relation": "is_a",
+    "value": "Afro-Creole dish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yielding an Afro-Creole dish that harmonized like a smooth jazz duet"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Jazzed-Up Jollof",
+    "relation": "harmonized_like",
+    "value": "a smooth jazz duet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yielding an Afro-Creole dish that harmonized like a smooth jazz duet"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Jazzed-Up Jollof",
+    "relation": "adorned_with",
+    "value": "andouille sausage and plantains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adorned with andouille sausage and plantains"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Jazzed-Up Jollof",
+    "relation": "sashayed_onto",
+    "value": "the dinner table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sashayed onto the dinner table"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Jazzed-Up Jollof",
+    "relation": "struck_chords_on",
+    "value": "the family\u2019s taste buds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "striking all the right chords on the family\u2019s taste buds"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Grandma Jean",
+    "relation": "insists_jazz_inspired_her",
+    "value": "the jazz that inspired her",
+    "time": null,
+    "speaker": "Grandma Jean",
+    "verbatim": [
+     "Grandma Jean still insists it was the jazz that inspired her"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Grandma Jean",
+    "relation": "was_undeterred_by",
+    "value": "the raised eyebrows her creation initially received",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wholly undeterred by the raised eyebrows her creation initially received"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Lily Davidson",
+    "relation": "is_sister_of",
+    "value": "James \u201cJimmy\u201d Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lily Davidson, Jimmy's sister and dessert maven"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Lily Davidson",
+    "relation": "described_as",
+    "value": "dessert maven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lily Davidson, Jimmy's sister and dessert maven"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Lily Davidson",
+    "relation": "added_masala_chai_to",
+    "value": "tiramisu",
+    "time": "an average March afternoon in 2024",
+    "speaker": null,
+    "verbatim": [
+     "decided to put a dash of masala chai in her tiramisu"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "masala chai",
+    "relation": "was_put_in",
+    "value": "tiramisu",
+    "time": "an average March afternoon in 2024",
+    "speaker": null,
+    "verbatim": [
+     "decided to put a dash of masala chai in her tiramisu"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Chai-ramisu",
+    "relation": "renamed_by",
+    "value": "Lily Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She wittily renamed her experimental dessert 'Chai-ramisu'"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Chai-ramisu",
+    "relation": "is_a",
+    "value": "a clever play on words",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a clever play on words that was far riskier in taste"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Chai-ramisu",
+    "relation": "was_far_riskier_in_taste",
+    "value": "far riskier in taste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that was far riskier in taste"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Chai-ramisu",
+    "relation": "first_attempt_sent_confusing_signals_to",
+    "value": "the palates of all present",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The first attempt sent confusing signals to the palates of all present."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Chai-ramisu",
+    "relation": "contained_flavors",
+    "value": "Cinnamon, cardamom, ginger, and coffee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cinnamon, cardamom, ginger, and coffee vied for attention in each spoonful."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Chai-ramisu",
+    "relation": "became",
+    "value": "the pi\u00e8ce de r\u00e9sistance of many a family feast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this daring dessert soon became the pi\u00e8ce de r\u00e9sistance of many a family feast"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Chai-ramisu",
+    "relation": "highlights",
+    "value": "the delightful unpredictability of two distinctively disparate flavor profiles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighting the delightful unpredictability of two distinctively disparate flavor profiles"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Davidson family",
+    "relation": "kitchen_escapades_exemplify",
+    "value": "the humorous, often baffling, outcomes of fusion cuisine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Davidson family\u2019s kitchen escapades exemplify the humorous, often baffling, outcomes of fusion cuisine."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "fusion cuisine",
+    "relation": "can_lead_to",
+    "value": "the most intriguing and memorable of meals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can lead to the most intriguing and memorable of meals"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Davidson family",
+    "relation": "stories_speak_to",
+    "value": "the potential for innovation when traditions intersect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their stories speak volumes about the potential for innovation when traditions intersect"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Davidson family",
+    "relation": "anticipates",
+    "value": "what wild 'fusion confusion' will grace their plates next",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each Davidson gathering now eagerly anticipates what wild 'fusion confusion' will grace their plates next."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Davidson family",
+    "relation": "legacy_includes",
+    "value": "Sobaghetti and Chai-ramisu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From \u2018Sobaghetti\u2019 to \u2018Chai-ramisu,\u2019 the legacy of these fusion adventures"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Davidson family",
+    "relation": "is_ready_to_stir_the_pot",
+    "value": "stir the pot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Davidson family is ready to stir the pot, quite literally, with a ladle in one hand and a sense of humor in the other."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

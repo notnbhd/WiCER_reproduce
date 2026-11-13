@@ -1,0 +1,917 @@
+{
+ "inventory": [
+  "Wellness Workshops",
+  "Preventative Health: Screenings and Check-Ups for Lifelong Wellness",
+  "Dr. Angela Pearson",
+  "Dr. Ravi Gupta",
+  "The Looming Epidemics: Curbing the Tide with Preventative Care",
+  "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+  "Dr. Hannah Stein",
+  "Mind Matters: The Psychology of Preventative Actions",
+  "Tailored for Life: Customizing Preventative Health",
+  "Dr. Marcus Liang",
+  "Sarah Johnson",
+  "Young Guardians: Fostering a Preventative Ethos in Youth",
+  "Dr. Emily Briggs",
+  "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+  "Preventative health care",
+  "Health screenings",
+  "Early detection",
+  "Optimism bias",
+  "Hypertension",
+  "Diabetes",
+  "Cancer",
+  "Mammograms",
+  "Pap smears",
+  "Bone density tests",
+  "Cholesterol checks",
+  "Colonoscopies",
+  "Pediatric check-ups",
+  "Immunizations"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wellness Workshops",
+    "relation": "described_as",
+    "value": "a locally recognized health education initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wellness Workshops, a locally recognized health education initiative, has announced an upcoming series of educational seminars"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellness Workshops",
+    "relation": "announced_series_starting",
+    "value": "an upcoming series of educational seminars",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "has announced an upcoming series of educational seminars starting on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Preventative Health: Screenings and Check-Ups for Lifelong Wellness",
+    "relation": "focuses_on",
+    "value": "the prevention and early detection of health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dedicated to the prevention and early detection of health conditions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Wellness Workshops",
+    "relation": "spotlights",
+    "value": "Preventative Health: Screenings and Check-Ups for Lifelong Wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in Spotlight at Wellness Workshops"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Preventative Health: Screenings and Check-Ups for Lifelong Wellness",
+    "relation": "aims_to",
+    "value": "educate and encourage individuals of all ages to embrace preventative measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to educate and encourage individuals of all ages to embrace preventative measures that can lead to a healthier, more vibrant life"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Angela Pearson",
+    "relation": "described_as",
+    "value": "a public health specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Angela Pearson, a public health specialist"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "described_as",
+    "value": "a prominent cardiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ravi Gupta, a prominent cardiologist"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Angela Pearson",
+    "relation": "will_spearhead",
+    "value": "the workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned health experts, including Dr. Angela Pearson, a public health specialist, and Dr. Ravi Gupta, a prominent cardiologist, will spearhead the workshops"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "will_spearhead",
+    "value": "the workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned health experts, including Dr. Angela Pearson, a public health specialist, and Dr. Ravi Gupta, a prominent cardiologist, will spearhead the workshops"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Wellness Workshops",
+    "relation": "addresses_topics",
+    "value": "topics ranging from routine screenings to the psychological impact of proactive health practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will address topics ranging from routine screenings to the psychological impact of proactive health practices"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Preventative health care",
+    "relation": "encompasses",
+    "value": "a range of practices that are instrumental in warding off disease, detecting health issues at an early stage, and maintaining overall wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Preventative health care encompasses a range of practices that are instrumental in warding off disease, detecting health issues at an early stage, and maintaining overall wellness"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Early detection",
+    "relation": "fostered_by",
+    "value": "regular check-ups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regular check-ups can foster early detection of health problems, such as hypertension, diabetes, and various forms of cancer"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hypertension",
+    "relation": "mentioned_as",
+    "value": "a health problem whose early detection regular check-ups can foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as hypertension, diabetes, and various forms of cancer"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Diabetes",
+    "relation": "mentioned_as",
+    "value": "a health problem whose early detection regular check-ups can foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as hypertension, diabetes, and various forms of cancer"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cancer",
+    "relation": "mentioned_as",
+    "value": "a health problem whose early detection regular check-ups can foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as hypertension, diabetes, and various forms of cancer"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Early detection",
+    "relation": "associated_with",
+    "value": "a more favorable prognosis and less aggressive treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Early detection is often key to a more favorable prognosis and less aggressive treatment."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Angela Pearson",
+    "relation": "gives_lecture",
+    "value": "The Looming Epidemics: Curbing the Tide with Preventative Care",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Pearson will kick off the series with her lecture titled \"The Looming Epidemics: Curbing the Tide with Preventative Care,\" scheduled for September 15, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Angela Pearson",
+    "relation": "kicks_off",
+    "value": "the series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Pearson will kick off the series"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Looming Epidemics: Curbing the Tide with Preventative Care",
+    "relation": "scheduled_for",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "scheduled for September 15, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Angela Pearson",
+    "relation": "will_draw_attention_to",
+    "value": "burgeoning public health issues that can be mitigated through regular screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She will draw attention to the burgeoning public health issues that can be mitigated through regular screenings"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Angela Pearson",
+    "relation": "explains",
+    "value": "many common diseases are preventable, and even more are treatable if caught early",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explaining that many common diseases are preventable, and even more are treatable if caught early"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Health screenings",
+    "relation": "defined_as",
+    "value": "medical tests conducted before any symptoms appear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Health screenings, which are medical tests conducted before any symptoms appear"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Health screenings",
+    "relation": "is_linchpin_of",
+    "value": "preventative care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are the linchpin of preventative care"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "gives_session",
+    "value": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gupta's session on September 20, 2023, \"Decoding Health Screenings: From Cholesterol to Colonoscopies,\" will delve into the importance of these assessments"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "relation": "scheduled_for",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gupta's session on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "relation": "will_delve_into",
+    "value": "the importance of these assessments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will delve into the importance of these assessments"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "relation": "covers",
+    "value": "the different types of screenings recommended for various age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants will learn about the different types of screenings recommended for various age groups"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mammograms",
+    "relation": "named_as_recommended_screening",
+    "value": "a type of screening recommended for various age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as mammograms, pap smears, bone density tests, and cholesterol checks"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Pap smears",
+    "relation": "named_as_recommended_screening",
+    "value": "a type of screening recommended for various age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as mammograms, pap smears, bone density tests, and cholesterol checks"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Bone density tests",
+    "relation": "named_as_recommended_screening",
+    "value": "a type of screening recommended for various age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as mammograms, pap smears, bone density tests, and cholesterol checks"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Cholesterol checks",
+    "relation": "named_as_recommended_screening",
+    "value": "a type of screening recommended for various age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as mammograms, pap smears, bone density tests, and cholesterol checks"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "relation": "covers",
+    "value": "the recommended frequency for each screening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alongside the recommended frequency for each"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "aims_to",
+    "value": "debunk common myths surrounding specific procedures, such as colonoscopies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gupta aims to debunk common myths surrounding specific procedures, such as colonoscopies, to alleviate any anxiety and resistance"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "aims_to_alleviate",
+    "value": "any anxiety and resistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to alleviate any anxiety and resistance that might deter individuals from"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Ravi Gupta",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gupta aims to debunk common myths surrounding specific procedures, such as colonoscopies, to alleviate any anxiety and resistance"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Health screenings",
+    "relation": "deterred_by",
+    "value": "anxiety and resistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "anxiety and resistance that might deter individuals from"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Health screenings",
+    "relation": "described_as",
+    "value": "potentially life-saving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "undergoing these potentially life-saving screenings"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Colonoscopies",
+    "relation": "subject_of_myths",
+    "value": "common myths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "debunk common myths surrounding specific procedures, such as colonoscopies"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Decoding Health Screenings: From Cholesterol to Colonoscopies",
+    "relation": "promises_to",
+    "value": "demystify the process and highlight the advancements in medical technology that make such screenings more comfortable and less invasive than ever before",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The workshop promises to demystify the process and highlight the advancements in medical technology that make such screenings more comfortable and less invasive than ever before."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Preventative health care",
+    "relation": "has_overlooked_aspect",
+    "value": "the psychological factor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An often-overlooked aspect of preventative health is the psychological factor."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Preventative health care",
+    "relation": "influenced_by",
+    "value": "People's beliefs, attitudes, and emotions influence their likelihood of engaging with health care services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People's beliefs, attitudes, and emotions significantly influence their likelihood of engaging with health care services."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Hannah Stein",
+    "relation": "described_as",
+    "value": "a behavioral psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hannah Stein, a behavioral psychologist"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Hannah Stein",
+    "relation": "gives_session",
+    "value": "Mind Matters: The Psychology of Preventative Actions",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in her much-anticipated session \"Mind Matters: The Psychology of Preventative Actions\" on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Mind Matters: The Psychology of Preventative Actions",
+    "relation": "scheduled_for",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Hannah Stein",
+    "relation": "will_discuss",
+    "value": "how fear, denial, and even optimism bias can play roles in deterring or motivating preventive health actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Stein will discuss how fear, denial, and even optimism bias\u2014where individuals believe they are less at risk of health issues than others\u2014can play roles in deterring or motivating preventive health actions"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Optimism bias",
+    "relation": "defined_as",
+    "value": "where individuals believe they are less at risk of health issues than others",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "optimism bias\u2014where individuals believe they are less at risk of health issues than others"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mind Matters: The Psychology of Preventative Actions",
+    "relation": "uses_format",
+    "value": "interactive discussions and case studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through interactive discussions and case studies"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mind Matters: The Psychology of Preventative Actions",
+    "relation": "teaches",
+    "value": "strategies to overcome mental barriers that prevent them from seeking medical care before the onset of symptoms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attendees will learn strategies to overcome mental barriers that prevent them from seeking medical care before the onset of symptoms"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Marcus Liang",
+    "relation": "leads_workshop",
+    "value": "Tailored for Life: Customizing Preventative Health",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Tailored for Life: Customizing Preventative Health,\" a workshop on October 5, 2023, led by Dr. Marcus Liang"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Tailored for Life: Customizing Preventative Health",
+    "relation": "scheduled_for",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a workshop on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Tailored for Life: Customizing Preventative Health",
+    "relation": "highlights",
+    "value": "how age, gender, genetics, and lifestyle necessitate customized preventative strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will highlight how age, gender, genetics, and lifestyle necessitate customized preventative strategies"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tailored for Life: Customizing Preventative Health",
+    "relation": "states",
+    "value": "a one-size-fits-all approach to health does not cater to the diverse needs of individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a one-size-fits-all approach to health does not cater to the diverse needs of individuals"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Marcus Liang",
+    "relation": "will_give_attention_to",
+    "value": "how minority populations and people with specific risk factors may need targeted screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Liang's talk will give special attention to how minority populations and people with specific risk factors may need targeted screenings"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Marcus Liang",
+    "relation": "will_provide_insight_into",
+    "value": "how lifestyle modifications, such as dietary adjustments and physical activity, can complement regular screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the session will provide insight into how lifestyle modifications, such as dietary adjustments and physical activity, can complement regular screenings to bolster preventative measures"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Marcus Liang",
+    "relation": "bolsters",
+    "value": "preventative measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to bolster preventative measures"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Marcus Liang",
+    "relation": "in_order_to",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can complement regular screenings to bolster preventative measures"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Sarah Johnson",
+    "relation": "described_as",
+    "value": "a pediatric health consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, a pediatric health consultant"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Sarah Johnson",
+    "relation": "gives_talk",
+    "value": "Young Guardians: Fostering a Preventative Ethos in Youth",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "her talk \"Young Guardians: Fostering a Preventative Ethos in Youth,\" scheduled for October 12, 2023"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Young Guardians: Fostering a Preventative Ethos in Youth",
+    "relation": "scheduled_for",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "scheduled for October 12, 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Young Guardians: Fostering a Preventative Ethos in Youth",
+    "relation": "addresses",
+    "value": "instilling a preventative mindset from young adulthood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The significance of instilling a preventative mindset from young adulthood has not been overlooked by the organizers of the Wellness Workshops."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Young Guardians: Fostering a Preventative Ethos in Youth",
+    "relation": "emphasizes",
+    "value": "the pivotal role early education and health literacy play in cultivating lifelong health-conscious behaviors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emphasis will be placed on the pivotal role early education and health literacy play in cultivating lifelong health-conscious behaviors."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Young Guardians: Fostering a Preventative Ethos in Youth",
+    "relation": "sheds_light_on",
+    "value": "the importance of pediatric check-ups, immunizations, and the cultivation of healthy habits during the impressionable years of childhood and adolescence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The talk will also shed light on the importance of pediatric check-ups, immunizations, and the cultivation of healthy habits during the impressionable years of childhood and adolescence."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Pediatric check-ups",
+    "relation": "importance_discussed_in",
+    "value": "the Young Guardians talk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shed light on the importance of pediatric check-ups"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Immunizations",
+    "relation": "importance_discussed_in",
+    "value": "the Young Guardians talk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of pediatric check-ups, immunizations"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Emily Briggs",
+    "relation": "described_as",
+    "value": "an expert in integrative medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Briggs, an expert in integrative medicine"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Dr. Emily Briggs",
+    "relation": "gives_session",
+    "value": "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the penultimate session \"Holistic Horizons: Integrating Mind and Body in Preventative Care\" on October 20, 2023, Dr. Emily Briggs"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+    "relation": "described_as",
+    "value": "the penultimate session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the penultimate session"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+    "relation": "scheduled_for",
+    "value": "October 20, 2023",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on October 20, 2023"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Dr. Emily Briggs",
+    "relation": "will_focus_on",
+    "value": "the intersection of mental wellness screenings and physical health checks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will focus on the intersection of mental wellness screenings and physical health checks"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+    "relation": "covers",
+    "value": "the existing opportunities for combined mental and physical health assessments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Attendees will learn about the existing opportunities for combined mental and physical health assessments"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Holistic Horizons: Integrating Mind and Body in Preventative Care",
+    "relation": "claims",
+    "value": "integrative practices contribute to overall wellbeing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how such integrative practices contribute to overall wellbeing"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Preventative health care",
+    "relation": "includes_piece",
+    "value": "the connection between mental and physical health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The connection between mental and physical health is an important piece of the preventative puzzle."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Wellness Workshops",
+    "relation": "positioned_to",
+    "value": "spark a forward-thinking health movement, equipping citizens with the knowledge to choose preventative health practices as their armor against potential illnesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the forthcoming Wellness Workshops are positioned to spark a forward-thinking health movement, equipping citizens with the knowledge to choose preventative health practices as their armor against potential illnesses"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Wellness Workshops",
+    "relation": "informed_by",
+    "value": "a community need for heightened awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "informed by a community need for heightened awareness"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Wellness Workshops",
+    "relation": "caused_by",
+    "value_ref": "c74",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "informed by a community need for heightened awareness, the forthcoming Wellness Workshops are positioned to spark a forward-thinking health movement"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Wellness Workshops",
+    "relation": "admission",
+    "value": "free-to-attend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these free-to-attend workshops"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Wellness Workshops",
+    "relation": "anticipated_to",
+    "value": "leave a lasting impression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these free-to-attend workshops are anticipated to leave a lasting impression"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Wellness Workshops",
+    "relation": "aims_to_steer",
+    "value": "participants towards a proactive rather than reactive approach to their health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "steering participants towards a proactive rather than reactive approach to their health"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Wellness Workshops",
+    "relation": "features",
+    "value": "the broad scope of subjects and the deep dive into the psychological impacts of preventative health practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the broad scope of subjects and the deep dive into the psychological impacts of preventative health practices"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Early detection",
+    "relation": "described_as",
+    "value": "a cornerstone of lifelong wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dedicated to the prevention and early detection of health conditions \u2013 a cornerstone of lifelong wellness."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

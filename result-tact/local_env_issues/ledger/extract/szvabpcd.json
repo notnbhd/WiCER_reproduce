@@ -1,0 +1,656 @@
+{
+ "inventory": [
+  "Mariam Johnson",
+  "Dr. Ethan Harrow",
+  "Elmwood High School",
+  "the corner of 5th and Oakwood",
+  "the community green space",
+  "the community garden",
+  "urban green spaces",
+  "a coalition of parents, students, and local entrepreneurs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the community green space",
+    "relation": "described_as",
+    "value": "an oasis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lies an oasis\u2014an emerald isle amidst a concrete sea"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "urban green spaces",
+    "relation": "transformative_power_on",
+    "value": "public health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "communities recognize the transformative power of urban green spaces on public health and well-being"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Mariam Johnson",
+    "relation": "occupation",
+    "value": "local teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mariam Johnson, a local teacher and a fervent advocate for community health"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mariam Johnson",
+    "relation": "advocate_for",
+    "value": "community health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a fervent advocate for community health"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mariam Johnson",
+    "relation": "observed",
+    "value": "students' dwindling attention spans",
+    "time": "a brisk October morning in 2023",
+    "speaker": null,
+    "verbatim": [
+     "observed her students' dwindling attention spans and increasing stress levels"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mariam Johnson",
+    "relation": "observed",
+    "value": "students' increasing stress levels",
+    "time": "a brisk October morning in 2023",
+    "speaker": null,
+    "verbatim": [
+     "observed her students' dwindling attention spans and increasing stress levels"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mariam Johnson",
+    "relation": "spearheaded",
+    "value": "a movement that would soon take root in the hearts of her community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led Mariam to spearhead a movement that would soon take root in the hearts of her community"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mariam Johnson",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This observation, coupled with research underscoring the benefits of nature on mental health, led Mariam to spearhead a movement"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "a coalition of parents, students, and local entrepreneurs",
+    "relation": "gathered_in",
+    "value": "the modest auditorium of Elmwood High School",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "gathered in the modest auditorium of Elmwood High School"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Elmwood High School",
+    "relation": "has_auditorium",
+    "value": "modest auditorium",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "the modest auditorium of Elmwood High School"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "a coalition of parents, students, and local entrepreneurs",
+    "relation": "aimed_to_create",
+    "value": "a refuge, a green space that could provide much-needed respiration from the relentless pace of urban life",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "a blazing commitment to create a refuge, a green space that could provide much-needed respiration from the relentless pace of urban life"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mariam Johnson",
+    "relation": "spark_was",
+    "value": "Mariam's concern",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "The spark ignited by Mariam's concern had turned into a blazing commitment"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Ethan Harrow",
+    "relation": "occupation",
+    "value": "public health expert",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "In attendance was Dr. Ethan Harrow, a public health expert"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Ethan Harrow",
+    "relation": "presented",
+    "value": "staggering evidence on the positive correlation between urban greenery and a community's physical and mental health",
+    "time": "By December of the same year",
+    "speaker": null,
+    "verbatim": [
+     "who presented staggering evidence on the positive correlation between urban greenery and a community's physical and mental health"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "previously_was",
+    "value": "barren plot of land",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The once barren plot of land at the corner of 5th and Oakwood"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "described_as",
+    "value": "teeming with life",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "The once barren plot of land at the corner of 5th and Oakwood is teeming with life"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "has_feature",
+    "value": "fledgling trees reaching skyward",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "fledgling trees are reaching skyward"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "has_feature",
+    "value": "benches made of reclaimed wood",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "benches made of reclaimed wood offer respite to passersby"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "offers",
+    "value": "respite to passersby",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "benches made of reclaimed wood offer respite to passersby"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "the community garden",
+    "relation": "boasts",
+    "value": "rows of organic produce tended by local volunteers",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "a community garden boasts rows of organic produce tended by local volunteers"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "the corner of 5th and Oakwood",
+    "relation": "air_described_as",
+    "value": "cleaner",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "The air feels different here\u2014cleaner, filled with the scent of blooming flowers"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mariam Johnson",
+    "relation": "efforts_are",
+    "value": "palpable",
+    "time": "It's April 2024 now",
+    "speaker": null,
+    "verbatim": [
+     "the efforts of Mariam and her collective are palpable"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "the community green space",
+    "relation": "influenced_health_of",
+    "value": "those who frequent it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how this green initiative has influenced the health of those who frequent it"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Ethan Harrow",
+    "relation": "led_studies",
+    "value": "studies following the development of the green space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Studies led by Dr. Harrow, following the development of the green space, indicate"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "the community green space",
+    "relation": "associated_with_improvement_in",
+    "value": "a marked improvement in the air quality of the surrounding neighborhood",
+    "time": null,
+    "speaker": "Dr. Ethan Harrow",
+    "verbatim": [
+     "indicate a marked improvement in the air quality of the surrounding neighborhood"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "the community green space",
+    "relation": "rise_in_oxygen_levels_and_reduction_in_pollution",
+    "value": "rise in oxygen levels and reduction in pollution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise in oxygen levels and reduction in pollution proved beneficial for people with respiratory ailments"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "the community green space",
+    "relation": "beneficial_for",
+    "value": "people with respiratory ailments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise in oxygen levels and reduction in pollution proved beneficial for people with respiratory ailments"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "the community green space",
+    "relation": "results_in",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise in oxygen levels and reduction in pollution proved beneficial for people with respiratory ailments"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "the community green space",
+    "relation": "appeared_to_alleviate",
+    "value": "symptoms of anxiety and depression among the community members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the visually pleasing aesthetics of the space appeared to alleviate",
+     "symptoms of anxiety and depression among the community members"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mariam Johnson",
+    "relation": "fostered",
+    "value": "a growth in environmental stewardship and consciousness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it fostered a growth in environmental stewardship and consciousness"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "the community garden",
+    "relation": "became",
+    "value": "a living classroom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The community garden became a living classroom"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "the community garden",
+    "relation": "children_learned",
+    "value": "the cycles of plant life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "children learned the cycles of plant life"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "the community garden",
+    "relation": "children_learned",
+    "value": "the importance of biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of biodiversity"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "the community garden",
+    "relation": "children_learned",
+    "value": "the value of sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the value of sustainable living"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "the community green space",
+    "relation": "created",
+    "value": "a habitat for humans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The green space created not only a habitat for humans"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "the community green space",
+    "relation": "welcomed",
+    "value": "a diversity of birds and insects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "welcomed a diversity of birds and insects"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "the community green space",
+    "relation": "enhanced",
+    "value": "the urban ecosystem that had been fragmented by development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhancing the urban ecosystem that had been fragmented by development"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "urban green spaces",
+    "relation": "serves_as",
+    "value": "an essential component of public health infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban green spaces serve as an essential component of public health infrastructure"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "urban green spaces",
+    "relation": "offers",
+    "value": "a sanctuary for exercise, meditation, or social interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They offer a sanctuary for exercise, meditation, or social interaction"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "urban green spaces",
+    "relation": "contains",
+    "value": "running paths that ribbon through the park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The running paths that ribbon through the park"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "urban green spaces",
+    "relation": "is_also_place_for",
+    "value": "a workout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The gym is no longer the only place for a workout"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "urban green spaces",
+    "relation": "hosts",
+    "value": "yoga classes and Tai Chi practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yoga classes and Tai Chi practices become common sightings among the sylvan surroundings"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "the community green space",
+    "relation": "facilitated",
+    "value": "an unspoken bond among residents",
+    "time": "As spring caressed the city with its gentle warmth",
+    "speaker": null,
+    "verbatim": [
+     "the community green space also facilitated an unspoken bond among residents"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "the community green space",
+    "relation": "became",
+    "value": "a source of collective identity and pride",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was no longer just a place but a source of collective identity and pride"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "the community green space",
+    "relation": "features",
+    "value": "newly planted maples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the shade of newly planted maples"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "the community green space",
+    "relation": "setting_for",
+    "value": "elders sharing tales with youngsters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elders could be seen sharing tales with youngsters"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "the community green space",
+    "relation": "hosted_events_by",
+    "value": "start-ups and local businesses hosting popup events and environmental workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "start-ups and local businesses thrived by hosting popup events and environmental workshops"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "the community green space",
+    "relation": "decrease_in",
+    "value": "littering and vandalism on nearby streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nearby streets witnessed a decrease in littering and vandalism"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "the community green space",
+    "relation": "instilled",
+    "value": "a sense of responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ownership of the green space instilled a sense of responsibility"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "the community green space",
+    "relation": "results_in",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nearby streets witnessed a decrease in littering and vandalism, as ownership of the green space instilled a sense of responsibility."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "the community green space",
+    "relation": "property_values_in_zone",
+    "value": "a gentle ascent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Property values in the zone witnessed a gentle ascent"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "the community green space",
+    "relation": "signifies",
+    "value": "the economic advantage of such community investments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signifying the economic advantage of such community investments"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "the community green space",
+    "relation": "became",
+    "value": "a corridor for wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it became a corridor for wildlife"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "the community green space",
+    "relation": "attracted",
+    "value": "more than just human admiration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the burgeoning flora attracted more than just human admiration"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "the community green space",
+    "relation": "continues_to",
+    "value": "burgeon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the community green space continues to burgeon"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mariam Johnson",
+    "relation": "watches",
+    "value": "the fruit of their labor blossom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Mariam Johnson watches the fruit of their labor blossom,"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "the community green space",
+    "relation": "narrative_remains",
+    "value": "open-ended",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its narrative remains open-ended"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "urban green spaces",
+    "relation": "benefits_reach",
+    "value": "deep into the soil of community wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The benefits of green space reach deep into the soil of community wellness"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,722 @@
+{
+ "inventory": [
+  "e-waste",
+  "International Waste Management Symposium",
+  "MacroChip Inc.",
+  "Emily Nguyen",
+  "Michael Clark",
+  "Greenfield City",
+  "Mayor Linda Kim",
+  "EcoCycle Innovations",
+  "CEO Jonathan Price",
+  "Dr. Hannah Rodriguez",
+  "Institute of Sustainable Resources",
+  "Urban Ore",
+  "urban mining",
+  "Dr. Oliver Bennett",
+  "circular economy",
+  "design for recycling",
+  "School principal Jessica Edwards",
+  "Senator Christopher Yu",
+  "extended producer responsibility (EPR) laws",
+  "Financial Summit for Sustainable Electronics",
+  "smartphones",
+  "gold",
+  "copper",
+  "lithium",
+  "rare earth elements",
+  "Silicon",
+  "landfills",
+  "pioneering e-waste management program",
+  "Special e-waste collection events",
+  "e-waste education initiative",
+  "sustainability program"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "International Waste Management Symposium",
+    "relation": "reported",
+    "value": "globally, we generate about 50 million tons of e-waste every year",
+    "time": "September 5th, 2023",
+    "speaker": "International Waste Management Symposium",
+    "verbatim": [
+     "The International Waste Management Symposium reported on September 5th, 2023 that globally, we generate about 50 million tons of e-waste every year"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "e-waste",
+    "relation": "generated_per_year",
+    "value": "about 50 million tons",
+    "time": "every year",
+    "speaker": "International Waste Management Symposium",
+    "verbatim": [
+     "globally, we generate about 50 million tons of e-waste every year"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "e-waste",
+    "relation": "formally_recycled_share",
+    "value": "20%",
+    "time": null,
+    "speaker": "International Waste Management Symposium",
+    "verbatim": [
+     "only 20% of this waste is formally recycled"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "e-waste",
+    "relation": "described_as",
+    "value": "a growing concern across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a growing concern across the globe"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "e-waste",
+    "relation": "growing_concern_due_to",
+    "value": "appetite for new gadgets and electronics seems insatiable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a growing concern across the globe as our appetite for new gadgets and electronics seems insatiable"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "e-waste",
+    "relation": "ends_up_in",
+    "value": "landfills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rest often ends up in landfills"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "landfills",
+    "relation": "poses",
+    "value": "serious environmental and health risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where it poses serious environmental and health risks due to the leaching of toxic substances"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "landfills",
+    "relation": "risk_due_to",
+    "value": "leaching of toxic substances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to the leaching of toxic substances"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "landfills",
+    "relation": "caused_by",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "poses serious environmental and health risks due to the leaching of toxic substances"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "smartphones",
+    "relation": "production_process",
+    "value": "complex and resources-intensive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Taking the example of a smartphone, the process is complex and resources-intensive."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "gold",
+    "relation": "fundamental_in",
+    "value": "creation of the electronic circuitry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mined materials like gold, copper, lithium, and rare earth elements are fundamental in the creation of the electronic circuitry that powers our devices."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "copper",
+    "relation": "fundamental_in",
+    "value": "creation of the electronic circuitry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mined materials like gold, copper, lithium, and rare earth elements are fundamental in the creation of the electronic circuitry that powers our devices."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "lithium",
+    "relation": "fundamental_in",
+    "value": "creation of the electronic circuitry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mined materials like gold, copper, lithium, and rare earth elements are fundamental in the creation of the electronic circuitry that powers our devices."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "rare earth elements",
+    "relation": "fundamental_in",
+    "value": "creation of the electronic circuitry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mined materials like gold, copper, lithium, and rare earth elements are fundamental in the creation of the electronic circuitry that powers our devices."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Silicon",
+    "relation": "described_as",
+    "value": "the bedrock of the semiconductor industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Silicon, the bedrock of the semiconductor industry, is processed into chips"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Silicon",
+    "relation": "processed_into",
+    "value": "chips",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is processed into chips at facilities such as those owned by MacroChip Inc."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "MacroChip Inc.",
+    "relation": "owns",
+    "value": "chip-processing facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "facilities such as those owned by MacroChip Inc."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "MacroChip Inc.",
+    "relation": "launched",
+    "value": "its new sustainability program",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "MacroChip Inc., which launched its new sustainability program on October 21, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "sustainability program",
+    "relation": "launched_by",
+    "value": "MacroChip Inc.",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which launched its new sustainability program on October 21, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Emily Nguyen",
+    "relation": "job_title",
+    "value": "Local electronics store manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local electronics store manager, Emily Nguyen"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Emily Nguyen",
+    "relation": "observed",
+    "value": "the lifecycle of products such as smartphones has significantly reduced in the past decade",
+    "time": "November 12, 2023",
+    "speaker": "Emily Nguyen",
+    "verbatim": [
+     "observed on November 12, 2023, that the lifecycle of products such as smartphones has significantly reduced in the past decade"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "e-waste",
+    "relation": "contributed_by",
+    "value": "consumers upgrading devices frequently, lured by the latest features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumers tend to upgrade their devices frequently, lured by the latest features, which contributes to the mounting e-waste challenge."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael Clark",
+    "relation": "job_title",
+    "value": "City's Recycling Coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the City's Recycling Coordinator, Michael Clark"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Michael Clark",
+    "relation": "released_statement",
+    "value": "a statement",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who released a statement on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "e-waste",
+    "relation": "described_as",
+    "value": "not just a local issue, it's a time bomb for our planet",
+    "time": null,
+    "speaker": "Michael Clark",
+    "verbatim": [
+     "E-waste is not just a local issue, it's a time bomb for our planet."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "e-waste",
+    "relation": "requires",
+    "value": "robust recycling programs and sustainable practices",
+    "time": null,
+    "speaker": "Michael Clark",
+    "verbatim": [
+     "We need to defuse it with robust recycling programs and sustainable practices."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Greenfield City",
+    "relation": "initiated",
+    "value": "pioneering e-waste management program",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the metropolitan area of Greenfield City initiated a pioneering e-waste management program on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "pioneering e-waste management program",
+    "relation": "spearheaded_by",
+    "value": "Mayor Linda Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Mayor Linda Kim"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "pioneering e-waste management program",
+    "relation": "in_response_to",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response to this growing concern, the metropolitan area of Greenfield City initiated a pioneering e-waste management program"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "pioneering e-waste management program",
+    "relation": "designed_to",
+    "value": "encourage residents to properly dispose of their old electronics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The program is designed to encourage residents to properly dispose of their old"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Special e-waste collection events",
+    "relation": "held_on",
+    "value": "February 28th",
+    "time": "February 28th",
+    "speaker": null,
+    "verbatim": [
+     "like the one held on February 28th"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Special e-waste collection events",
+    "relation": "provided",
+    "value": "community members with a convenient and responsible way to rid themselves of old gadgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided community members with a convenient and responsible way to rid themselves of old gadgets"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "EcoCycle Innovations",
+    "relation": "dismantles",
+    "value": "end-of-life electronics into their component parts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "E-waste recyclers, such as EcoCycle Innovations, take end-of-life electronics and dismantle them into their component parts."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "CEO Jonathan Price",
+    "relation": "demonstrated_at",
+    "value": "an open house",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "During an open house on March 10, 2024, CEO Jonathan Price"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "CEO Jonathan Price",
+    "relation": "demonstrated",
+    "value": "how items are shredded, sorted into core materials, and prepared for reentry into the manufacturing chain",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "CEO Jonathan Price demonstrated how items are shredded, sorted into core materials, and prepared for reentry into the manufacturing chain."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "urban mining",
+    "relation": "defined_as",
+    "value": "extracting valuable materials from spent products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recycling e-waste is akin to urban mining \u2013 extracting valuable materials from spent products."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Urban Ore",
+    "relation": "described_as",
+    "value": "a term used to describe reclaimable materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This Urban Ore, a term used to describe reclaimable materials, is a far less energyintensive source of rare metals than traditional mining."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Urban Ore",
+    "relation": "less_energy_intensive_than",
+    "value": "traditional mining",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a far less energyintensive source of rare metals than traditional mining."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Hannah Rodriguez",
+    "relation": "job_title",
+    "value": "a researcher at the Institute of Sustainable Resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hannah Rodriguez, a researcher at the Institute of Sustainable Resources"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Hannah Rodriguez",
+    "relation": "noted",
+    "value": "reclaiming one gram of gold from electronic components requires roughly 5% of the energy needed to extract the same amount from the earth",
+    "time": "April 2, 2024",
+    "speaker": "Dr. Hannah Rodriguez",
+    "verbatim": [
+     "In a press release on April 2, 2024, Dr. Hannah Rodriguez, a researcher at the Institute of Sustainable Resources, noted that"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "gold",
+    "relation": "requires_energy",
+    "value": "roughly 5% of the energy needed to extract the same amount from the earth",
+    "time": "April 2, 2024",
+    "speaker": "Dr. Hannah Rodriguez",
+    "verbatim": [
+     "reclaiming one gram of gold from electronic components requires roughly 5% of the energy needed to extract the same amount from the earth."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Oliver Bennett",
+    "relation": "job_title",
+    "value": "environmental economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A workshop led by environmental economist Dr. Oliver Bennett on May 3, 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Oliver Bennett",
+    "relation": "led",
+    "value": "a workshop",
+    "time": "May 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A workshop led by environmental economist Dr. Oliver Bennett on May 3, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "circular economy",
+    "relation": "enhanced_through",
+    "value": "design for recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focused on how the circular economy model can be enhanced through design for recycling"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "design for recycling",
+    "relation": "defined_as",
+    "value": "where products are designed from the outset to be recycled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where products are designed from the outset to be recycled"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "design for recycling",
+    "relation": "includes",
+    "value": "using fewer toxic materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes using fewer toxic materials, modular designs for easy repair, and standardized components for better recyclability."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "design for recycling",
+    "relation": "includes",
+    "value": "modular designs for easy repair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes using fewer toxic materials, modular designs for easy repair, and standardized components for better recyclability."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "design for recycling",
+    "relation": "includes",
+    "value": "standardized components for better recyclability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes using fewer toxic materials, modular designs for easy repair, and standardized components for better recyclability."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "circular economy",
+    "relation": "involves",
+    "value": "closing the loop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's about closing the loop in a circular economy"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "School principal Jessica Edwards",
+    "relation": "launched",
+    "value": "an e-waste education initiative in local schools",
+    "time": "beginning June 2023",
+    "speaker": null,
+    "verbatim": [
+     "School principal Jessica Edwards launched an e-waste education initiative in local schools beginning June 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "e-waste education initiative",
+    "relation": "fosters",
+    "value": "a new generation who understands the environmental impact of their digital footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a new generation who understands the environmental impact of their digital footprint."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Senator Christopher Yu",
+    "relation": "introduced",
+    "value": "legislation",
+    "time": "July 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Legislation introduced by Senator Christopher Yu on July 4, 2024"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Senator Christopher Yu",
+    "relation": "aims_to",
+    "value": "hold manufacturers accountable for the end-of-life management of their products",
+    "time": "July 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "aims to hold manufacturers accountable for the end-of-life management of their products"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "extended producer responsibility (EPR) laws",
+    "relation": "motivate",
+    "value": "companies to design more sustainable and recyclable products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introducing extended producer responsibility (EPR) laws that motivate companies to design more sustainable and recyclable products."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Financial Summit for Sustainable Electronics",
+    "relation": "discusses",
+    "value": "tax breaks for green initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax breaks for green initiatives, subsidies for e-waste recycling, and penalties for improper disposal are all topics being discussed at the Financial Summit for Sustainable Electronics"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Financial Summit for Sustainable Electronics",
+    "relation": "discusses",
+    "value": "subsidies for e-waste recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax breaks for green initiatives, subsidies for e-waste recycling, and penalties for improper disposal are all topics being discussed at the Financial Summit for Sustainable Electronics"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Financial Summit for Sustainable Electronics",
+    "relation": "discusses",
+    "value": "penalties for improper disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax breaks for green initiatives, subsidies for e-waste recycling, and penalties for improper disposal are all topics being discussed at the Financial Summit for Sustainable Electronics"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Financial Summit for Sustainable Electronics",
+    "relation": "scheduled_for",
+    "value": "August 28, 2024",
+    "time": "August 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "slated for August 28, 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "e-waste",
+    "relation": "described_as",
+    "value": "continually evolving process of management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the process of managing e-waste is continually evolving"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "e-waste",
+    "relation": "requires",
+    "value": "innovative and sustainable e-waste management solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need for innovative and sustainable e-waste management solutions becomes even more pressing"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "e-waste",
+    "relation": "caused_by",
+    "value_ref": "c60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As technology advances and our dependence on electronics grows"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "e-waste",
+    "relation": "solutions_aim_to",
+    "value": "mitigate the environmental impact of e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solutions that not only mitigate the environmental impact of e-waste"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

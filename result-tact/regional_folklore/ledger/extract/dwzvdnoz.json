@@ -1,0 +1,598 @@
+{
+ "inventory": [
+  "Elmridge",
+  "Newford",
+  "Anderson Library",
+  "Ingram Foster",
+  "Pineview",
+  "Josephine Marelli",
+  "Brookstone",
+  "Seaview",
+  "Oldtown",
+  "Birchwood",
+  "Raymond Klaus",
+  "time capsules",
+  "central park pavilion"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "time capsules",
+    "relation": "contain",
+    "value": "original blueprints and models of local architecture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "containing the original blueprints and models of local architecture"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "time capsules",
+    "relation": "sealed_with",
+    "value": "the aspirations of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bound by history and sealed with the aspirations of the past"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "time capsules",
+    "relation": "offer",
+    "value": "a unique opportunity to reflect on our architectural heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer a unique opportunity to reflect on our architectural heritage"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "time capsules",
+    "relation": "provided",
+    "value": "an illuminating look into the evolutionary timeline of our built environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has provided an illuminating look into the evolutionary timeline of our built environment"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "time capsules",
+    "relation": "discovered_by",
+    "value": "several towns and cities across the region",
+    "time": "Since the autumn of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the autumn of 2023, several towns and cities across the region have been fortunate enough to stumble upon these treasure troves"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Elmridge",
+    "relation": "time_capsule_dates_to",
+    "value": "1950",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on October 14, 2023, the town of Elmridge unearthed a time capsule dating back to 1950"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Elmridge",
+    "relation": "renovation_site",
+    "value": "local city hall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "during the renovation of the local city hall"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Elmridge",
+    "relation": "capsule_contained",
+    "value": "meticulously crafted blueprints of the original municipal buildings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It contained meticulously crafted blueprints of the original municipal buildings"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Elmridge",
+    "relation": "character_defined_by",
+    "value": "today's modernist facades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "today's modernist facades that have come to define the town's character"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Newford",
+    "relation": "uncovered_capsule_from",
+    "value": "1978",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on December 5, 2023, the rapidly expanding city of Newford uncovered a capsule from 1978"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Newford",
+    "relation": "described_as",
+    "value": "rapidly expanding city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rapidly expanding city of Newford"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "time capsules",
+    "relation": "buried_beneath",
+    "value": "what was once a cornerstone of the historic Anderson Library",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "buried beneath what was once a cornerstone of the historic Anderson Library"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "time capsules",
+    "relation": "contained",
+    "value": "the model and plans of the original library",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Within it were the model and plans of the original library"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Anderson Library",
+    "relation": "designed_by",
+    "value": "Ingram Foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed by the famed architect, Ingram Foster"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Ingram Foster",
+    "relation": "described_as",
+    "value": "famed architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed by the famed architect, Ingram Foster"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Newford",
+    "relation": "sparked",
+    "value": "a city-wide discussion on preserving architectural authenticity in the face of contemporary design trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This discovery has since ignited a city-wide discussion on preserving architectural authenticity in the face of contemporary design trends."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Newford",
+    "relation": "caused_by",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on December 5, 2023, the rapidly expanding city of Newford uncovered a capsule from 1978",
+     "This discovery has since ignited"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Anderson Library",
+    "relation": "described_as",
+    "value": "historic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the historic Anderson Library"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "time capsules",
+    "relation": "tradition_dates_back_to",
+    "value": "several centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dates back several centuries"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "time capsules",
+    "relation": "laid_down_in_hope_that",
+    "value": "future generations would unveil and appreciate the context and vision behind their structural creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they did so with the hope that future generations would unveil and appreciate the context and vision behind their structural creations"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Pineview",
+    "relation": "capsule_opened_from",
+    "value": "1989",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the opening of a 1989 time capsule on February 8, 2024"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Pineview",
+    "relation": "revealed",
+    "value": "hand-drawn sketches and personal notes from the architects of that era, primarily from the renowned designer Josephine Marelli",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "revealed a trove of hand-drawn sketches and personal notes from the architects of that era, primarily from the renowned designer Josephine Marelli"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Josephine Marelli",
+    "relation": "described_as",
+    "value": "renowned designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "primarily from the renowned designer Josephine Marelli"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Pineview",
+    "relation": "described_as",
+    "value": "serene town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the serene town of Pineview"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Pineview",
+    "relation": "inspiration_drawn_from",
+    "value": "rustic and natural landscapes that surrounded the town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the inspiration drawn from the rustic and natural landscapes that surrounded the town"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Pineview",
+    "relation": "buildings_blended_with",
+    "value": "the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intentions that were reflected in their buildings that harmoniously blended with the environment"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Brookstone",
+    "relation": "architectural_drawings_from",
+    "value": "1984",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the recently discovered architectural drawings from 1984"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Brookstone",
+    "relation": "described_as",
+    "value": "bustling metropolitan area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cityscape photography of the bustling metropolitan area of Brookstone"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Brookstone",
+    "relation": "current_skyline_dominated_by",
+    "value": "glass towers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the current vista dominated by glass towers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Seaview",
+    "relation": "described_as",
+    "value": "quaint coastal borough",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the quaint coastal borough of Seaview"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Seaview",
+    "relation": "can_compare",
+    "value": "its charming, present-day beachfront bungalows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now has the means to compare its charming, present-day beachfront bungalows"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Seaview",
+    "relation": "original_designs_never_realized",
+    "value": "elaborate Victorian designs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the elaborate Victorian designs that were originally conceived, but never realized"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Seaview",
+    "relation": "capsule_from",
+    "value": "1993",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to the findings from a 1993 capsule"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Seaview",
+    "relation": "enabled_by",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the quaint coastal borough of Seaview now has the means to compare",
+     "thanks to the findings from a 1993 capsule"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Oldtown",
+    "relation": "master_plans_in_capsule",
+    "value": "formative architectural master plans",
+    "time": "1971",
+    "speaker": null,
+    "verbatim": [
+     "had its formative architectural master plans laid out in a time capsule from 1971"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Oldtown",
+    "relation": "energy_efficiency_less_paramount_than_today",
+    "value": "energy efficiency and environmental considerations",
+    "time": "1971",
+    "speaker": null,
+    "verbatim": [
+     "when energy efficiency and environmental considerations were less paramount than they are in today's designs"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "time capsules",
+    "relation": "afforded",
+    "value": "modern-day architects and planners a moment of introspection about the sustainability and ethical considerations of current local structures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has afforded modern-day architects and planners a moment of introspection about the sustainability and ethical considerations of current local structures."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Oldtown",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had its formative architectural master plans laid out in a time capsule from 1971",
+     "This has afforded modern-day architects and planners a moment of introspection"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Birchwood",
+    "relation": "found_letters_in_capsule_from",
+    "value": "1985",
+    "time": "1985",
+    "speaker": null,
+    "verbatim": [
+     "The town of Birchwood found, in its 1985 capsule"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Birchwood",
+    "relation": "found_letters_by",
+    "value": "Raymond Klaus",
+    "time": "1985",
+    "speaker": null,
+    "verbatim": [
+     "a series of letters written by the local architect, Raymond Klaus"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Raymond Klaus",
+    "relation": "described_as",
+    "value": "local architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local architect, Raymond Klaus"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Raymond Klaus",
+    "relation": "letters_offered_insights_into",
+    "value": "sacrifices made and challenges overcome",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which offered insights into the sacrifices made and the challenges overcome"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Raymond Klaus",
+    "relation": "vision_of",
+    "value": "community's central park pavilion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the pursuit of constructing his vision of the community's central park pavilion"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "central park pavilion",
+    "relation": "envisioned_by",
+    "value": "Raymond Klaus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "constructing his vision of the community's central park pavilion"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "time capsules",
+    "relation": "integrated_into",
+    "value": "local school curricula",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local schools have started integrating the knowledge into their curricula"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "time capsules",
+    "relation": "inspires",
+    "value": "a new generation of budding architects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inspiring a new generation of budding architects"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "time capsules",
+    "relation": "enables_students_to",
+    "value": "engage with history on a more interactive level",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Students are now able to engage with history on a more interactive level"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "time capsules",
+    "relation": "digitized",
+    "value": "digitized and made accessible to the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several discoveries have been digitized and made accessible to the public"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "time capsules",
+    "relation": "virtual_reality_reconstructs",
+    "value": "the pride of the community architectural heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual reality experiences reconstruct the pride of the community architectural heritage"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "time capsules",
+    "relation": "breathed_new_life_into",
+    "value": "historical designs that were once restricted to their paper confines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This digital resurrection has breathed new life into historical designs that were once restricted to their paper confines"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "time capsules",
+    "relation": "results_in",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several discoveries have been digitized and made accessible to the public",
+     "This digital resurrection has breathed new life into historical designs"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "time capsules",
+    "relation": "accompanied_by",
+    "value": "photography",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The photography that accompanies these blueprint and model discoveries"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

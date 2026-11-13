@@ -1,0 +1,675 @@
+{
+ "inventory": [
+  "Steve Jobs",
+  "Bill Gates",
+  "Dr. Patricia Elms",
+  "Marcus Wu",
+  "Sarah Chen",
+  "Thomas Klein",
+  "Jessica Alvarez",
+  "Andrew Nguyen",
+  "local inventors",
+  "biodegradable plastic substitute",
+  "water purification device",
+  "packaging industry",
+  "app",
+  "smart resistance bands",
+  "adaptive kitchen utensil line",
+  "custom-designed educational robotics kits",
+  "local school curriculum"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Steve Jobs",
+    "relation": "started_in",
+    "value": "garages and basements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the garages and basements where Steve Jobs and Bill Gates respectively started what would become tech behemoths"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Bill Gates",
+    "relation": "started_in",
+    "value": "garages and basements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the garages and basements where Steve Jobs and Bill Gates respectively started what would become tech behemoths"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "local inventors",
+    "relation": "surge_in_local_inventions",
+    "value": "surge in local inventions",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, there has been a surge in local inventions that promise to transform various industry sectors"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "local inventors",
+    "relation": "driven_by",
+    "value": "relentless pursuit of improvement and transformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all thanks to the relentless pursuit of improvement and transformation by local inventors"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "local inventors",
+    "relation": "caused_by",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there has been a surge in local inventions that promise to transform various industry sectors, all thanks to the relentless pursuit of improvement and transformation by local inventors"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local inventors",
+    "relation": "overlooked_in_shadow_of",
+    "value": "global tech giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local inventors, often overlooked in the shadow of global tech giants"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local inventors",
+    "relation": "described_as",
+    "value": "unsung heroes driving progress and innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are the unsung heroes driving progress and innovation in our own backyards"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local inventors",
+    "relation": "focus_of",
+    "value": "this special spotlight feature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is these pioneers of change that are the focus of this special spotlight feature."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Patricia Elms",
+    "relation": "occupation",
+    "value": "material scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a material scientist who has been breaking boundaries since October 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Patricia Elms",
+    "relation": "invented",
+    "value": "biodegradable plastic substitute",
+    "time": "since October 2023",
+    "speaker": null,
+    "verbatim": [
+     "breaking boundaries since October 2023 with her invention of a biodegradable plastic substitute"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "biodegradable plastic substitute",
+    "relation": "derived_from",
+    "value": "local agricultural waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "derived from local agricultural waste"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "biodegradable plastic substitute",
+    "relation": "decomposes_within",
+    "value": "60 days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decomposes within 60 days"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "biodegradable plastic substitute",
+    "relation": "expected_to_change",
+    "value": "packaging industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands to change the packaging industry"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "biodegradable plastic substitute",
+    "relation": "described_as",
+    "value": "environmentally friendly option",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering an environmentally friendly option that decomposes within 60 days"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "biodegradable plastic substitute",
+    "relation": "could_reduce",
+    "value": "the local community's carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could significantly reduce the local community's carbon footprint"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "biodegradable plastic substitute",
+    "relation": "could_set",
+    "value": "a new standard for packaging worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "possibly set a new standard for packaging worldwide"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Marcus Wu",
+    "relation": "occupation",
+    "value": "engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engineer Marcus Wu"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Marcus Wu",
+    "relation": "unveiled",
+    "value": "water purification device",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "who in December 2023 unveiled a water purification device"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "water purification device",
+    "relation": "described_as",
+    "value": "affordable and effective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a water purification device that\u2019s both affordable and effective"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "water purification device",
+    "relation": "powered_by",
+    "value": "solar power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It harnesses solar power"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "water purification device",
+    "relation": "provides",
+    "value": "clean water for communities that have limited access to drinking water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide clean water for communities that have limited access to drinking water"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "water purification device",
+    "relation": "in_order_to",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It harnesses solar power to provide clean water"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "water purification device",
+    "relation": "described_as",
+    "value": "socially significant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "socially significant, representing the kind of dual-benefit innovation"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sarah Chen",
+    "relation": "occupation",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Chen, a software developer whose app"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sarah Chen",
+    "relation": "developed",
+    "value": "app",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "whose app, developed in January 2024"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "app",
+    "relation": "helps",
+    "value": "small businesses manage inventory and sales using simple voice commands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helps small businesses manage inventory and sales using simple voice commands"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "app",
+    "relation": "simplifies",
+    "value": "technology, making it accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chen\u2019s app simplifies technology, making it accessible"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "app",
+    "relation": "helps",
+    "value": "neighborhood businesses thrive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping neighborhood businesses thrive"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Thomas Klein",
+    "relation": "created",
+    "value": "smart resistance bands",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "his smart resistance bands created in February 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Thomas Klein",
+    "relation": "described_as",
+    "value": "has taken the fitness world by storm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has taken the fitness world by storm"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "smart resistance bands",
+    "relation": "provide",
+    "value": "feedback on performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide feedback on performance"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "smart resistance bands",
+    "relation": "adapt",
+    "value": "resistance based on user progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adapt resistance based on user progress"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "smart resistance bands",
+    "relation": "offers",
+    "value": "a customized workout for each individual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a customized workout for each individual"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "smart resistance bands",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adapt resistance based on user progress, offering a customized workout for each individual"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local inventors",
+    "relation": "have",
+    "value": "insight into the needs and nuances of their community and agility to bring solutions to market rapidly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not only have the insight into the needs and nuances of their community but also the agility to bring solutions to market rapidly"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local inventors",
+    "relation": "pioneer",
+    "value": "inclusivity in their designs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local inventors often pioneer inclusivity in their designs"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jessica Alvarez",
+    "relation": "occupation",
+    "value": "occupational therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Alvarez, an occupational therapist turned inventor"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jessica Alvarez",
+    "relation": "launched",
+    "value": "adaptive kitchen utensil line",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched an adaptive kitchen utensil line in March 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "adaptive kitchen utensil line",
+    "relation": "makes_easier",
+    "value": "individuals with limited mobility to cook independently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it easier for individuals with limited mobility to cook independently"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "adaptive kitchen utensil line",
+    "relation": "not_aimed_at",
+    "value": "commercial success alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her product didn't just aim for commercial success"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "adaptive kitchen utensil line",
+    "relation": "motivated_by",
+    "value": "a passion to empower others",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was born out of a passion to empower others"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jessica Alvarez",
+    "relation": "embodies",
+    "value": "the community spirit that drives many local inventors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alvarez embodies the community spirit that drives many local inventors"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Andrew Nguyen",
+    "relation": "occupation",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educator Andrew Nguyen"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Andrew Nguyen",
+    "relation": "began_integrating",
+    "value": "custom-designed educational robotics kits into the local school curriculum",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "began integrating his custom-designed educational robotics kits into the local school curriculum"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "custom-designed educational robotics kits",
+    "relation": "aim",
+    "value": "to nurture problem-solving skills among students, not just to teach robotics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nguyen's kits aim not just to teach robotics but to nurture problem-solving skills among students"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Andrew Nguyen",
+    "relation": "work_emphasizes",
+    "value": "the role local inventors play in shaping education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His work emphasizes the role local inventors play in shaping education"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local inventors",
+    "relation": "created",
+    "value": "over a hundred jobs",
+    "time": "Between September 2023 and April 2024",
+    "speaker": null,
+    "verbatim": [
+     "have collectively created over a hundred jobs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "local inventors",
+    "relation": "attracted",
+    "value": "significant investment into the community",
+    "time": "Between September 2023 and April 2024",
+    "speaker": null,
+    "verbatim": [
+     "attracted significant investment into the community"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "local inventors",
+    "relation": "is_testament_to",
+    "value": "the virtuous cycle created when we support grassroots innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a testament to the virtuous cycle created when we support grassroots innovation"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "local inventors",
+    "relation": "described_as",
+    "value": "good business, not just good ethics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering local inventors is not just good ethics, it's good business"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "local inventors",
+    "relation": "face",
+    "value": "considerable challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local inventors face considerable challenges"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "local inventors",
+    "relation": "faced_hurdles",
+    "value": "limited funding, lack of exposure, difficulties of getting a product from concept to market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Limited funding, lack of exposure, and the myriad difficulties of getting a product from concept to market are constant hurdles"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "local inventors",
+    "relation": "call_to_action_for",
+    "value": "the community, local businesses, and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these challenges also serve as a call to action for the community, local businesses, and policymakers"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "local inventors",
+    "relation": "needs_support",
+    "value": "grants, incubators, and platforms for exposure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide the needed support systems, such as grants, incubators, and platforms for exposure"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "local inventors",
+    "relation": "in_order_to",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these challenges also serve as a call to action for the community, local businesses, and policymakers to provide the needed support systems"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "local inventors",
+    "relation": "lead_to",
+    "value": "broad-scale transformations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solutions often lead to broad-scale transformations"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "local inventors",
+    "relation": "hold_keys_to",
+    "value": "solving our most pressing local problems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often hold the keys to solving our most pressing local problems"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "local inventors",
+    "relation": "support_can_turn_into",
+    "value": "beacons of progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our support can turn their sparks of genius into beacons of progress"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "local inventors",
+    "relation": "supporting_them_means",
+    "value": "investing in the very fabric of our society and the promise of a more innovative tomorrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for in doing so, we're investing in the very fabric of our society and the promise of a more innovative tomorrow"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

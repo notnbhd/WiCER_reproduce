@@ -1,0 +1,831 @@
+{
+ "inventory": [
+  "Aromatherapy",
+  "Dr. Helena Smith",
+  "Institute for Integrative Healing",
+  "Dr. Rajiv Desai",
+  "Amy Chen",
+  "California State Board of Health",
+  "Alliance of Integrative Medicine",
+  "Josephine Mark",
+  "Dr. Kevin Lao",
+  "Dr. Samantha Gruber",
+  "Integrative Health Practices",
+  "essential oils",
+  "limbic system",
+  "cortisol",
+  "palliative care",
+  "labor and delivery wards",
+  "deep tissue massage",
+  "conventional medicine",
+  "alternative medicine"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Aromatherapy",
+    "relation": "is_form_of",
+    "value": "alternative medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aromatherapy emerges as a particularly accessible form of alternative medicine"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Aromatherapy",
+    "relation": "offers",
+    "value": "a bouquet of benefits that appeal to our most primal senses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a bouquet of benefits that appeal to our most primal senses"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "conventional medicine",
+    "relation": "has_seen_advancements",
+    "value": "advancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the advancements in conventional medicine"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "alternative medicine",
+    "relation": "promises",
+    "value": "relief and healing by tapping into the body's own potential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promising relief and healing by tapping into the body's own potential"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Aromatherapy",
+    "relation": "holds_place_in",
+    "value": "the pantheon of supplemental health practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acknowledge the legitimate place aromatherapy holds in the pantheon of supplemental health practices"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Aromatherapy",
+    "relation": "understanding_requires",
+    "value": "that we first inhale its very essence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Developing a profound understanding of aromatherapy requires that we first inhale its very essence"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Aromatherapy",
+    "relation": "is_a",
+    "value": "a therapeutic practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a therapeutic practice that employs natural plant extracts to promote health and well-being"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Aromatherapy",
+    "relation": "employs",
+    "value": "natural plant extracts to promote health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a therapeutic practice that employs natural plant extracts to promote health and well-being"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Aromatherapy",
+    "relation": "dates_back_to",
+    "value": "ancient civilizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dating back to ancient civilizations, the use of aromatic plants has been documented in the historical annals of medicine, religion, and aesthetic purposes."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Aromatherapy",
+    "relation": "documented_in",
+    "value": "the historical annals of medicine, religion, and aesthetic purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the use of aromatic plants has been documented in the historical annals of medicine, religion, and aesthetic purposes"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Aromatherapy",
+    "relation": "interest_surged_around",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a more recent interest that surged around September 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Aromatherapy",
+    "relation": "studies_captured",
+    "value": "the public eye",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "several studies began to capture the public eye"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Helena Smith",
+    "relation": "is_a",
+    "value": "a noted aromatherapist and researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Helena Smith, a noted aromatherapist and researcher"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Helena Smith",
+    "relation": "unveiled",
+    "value": "compelling evidence on the efficacy of essential oils on improving psychological states",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unveiled compelling evidence on the efficacy of essential oils on improving psychological states"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Helena Smith",
+    "relation": "findings_resonate_with",
+    "value": "the sentiments of many practitioners who have long argued for the therapeutic potential rooted in these aromatic compounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her findings resonate with the sentiments of many practitioners who have long argued for the therapeutic potential rooted in these aromatic compounds."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "essential oils",
+    "relation": "extracted_from",
+    "value": "various parts of plants\u2014flowers, leaves, bark, roots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These oils are extracted from various parts of plants\u2014flowers, leaves, bark, roots"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "essential oils",
+    "relation": "believed_to_interact_with",
+    "value": "the body\u2019s chemistry in a myriad of ways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are believed to interact with the body\u2019s chemistry in a myriad of ways"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "essential oils",
+    "relation": "contain",
+    "value": "the complex compounds found in essential oils",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The scientific underpinnings of aromatherapy lie in the complex compounds found in essential oils."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Aromatherapy",
+    "relation": "most_common_method_of_consumption",
+    "value": "Inhalation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inhalation is the most common method of consumption"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "limbic system",
+    "relation": "receives_oil_molecules_via",
+    "value": "inhalation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sending the oil's molecules directly to the limbic system"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "limbic system",
+    "relation": "is_a",
+    "value": "the brain's emotional center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the brain's emotional center responsible for controlling heart rate, stress levels, and hormone balance"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "limbic system",
+    "relation": "controls",
+    "value": "heart rate, stress levels, and hormone balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the brain's emotional center responsible for controlling heart rate, stress levels, and hormone balance"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Institute for Integrative Healing",
+    "relation": "released_research_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "research released on October 15, 2023, by the Institute for Integrative Healing"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Rajiv Desai",
+    "relation": "is_a",
+    "value": "neurologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by neurologist Dr. Rajiv Desai"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Rajiv Desai",
+    "relation": "spearheaded",
+    "value": "research released by the Institute for Integrative Healing",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by neurologist Dr. Rajiv Desai"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "essential oils",
+    "relation": "physiological_effects_supported_by_research",
+    "value": "physiological effects of inhaled essential oils on brain function",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "provided evidence supporting the physiological effects of inhaled essential oils on brain function"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "essential oils",
+    "relation": "associated_with",
+    "value": "statistically significant changes in brain wave patterns",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The study pointed to statistically significant changes in brain wave patterns"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "cortisol",
+    "relation": "levels_reduced_after_exposure_to",
+    "value": "specific essential oils",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "reduced cortisol levels\u2014the infamous stress hormone\u2014after exposure to specific essential oils"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "cortisol",
+    "relation": "is_described_as",
+    "value": "the infamous stress hormone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cortisol levels\u2014the infamous stress hormone"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Aromatherapy",
+    "relation": "legitimacy_questioned",
+    "value": "such claims",
+    "time": null,
+    "speaker": "Critics",
+    "verbatim": [
+     "Critics may question the legitimacy of such claims"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Aromatherapy",
+    "relation": "attributed_benefits",
+    "value": "alleviate stress, combat depression, manage pain, improve sleep patterns, and enhance cognitive function",
+    "time": null,
+    "speaker": "Advocates",
+    "verbatim": [
+     "Advocates celebrate its ability to alleviate stress, combat depression, manage pain, improve sleep patterns, and even enhance cognitive function"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Amy Chen",
+    "relation": "is_a",
+    "value": "a registered nurse and holistic health advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amy Chen, a registered nurse and holistic health advocate"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Amy Chen",
+    "relation": "testified_to",
+    "value": "California State Board of Health",
+    "time": "November 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "testified to the California State Board of Health on November 17, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Amy Chen",
+    "relation": "testified_regarding",
+    "value": "tangible improvements in postoperative recovery times when supplemented with aromatherapy",
+    "time": "November 17, 2023",
+    "speaker": "Amy Chen",
+    "verbatim": [
+     "regarding her patients' tangible improvements in postoperative recovery times when supplemented with aromatherapy"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alliance of Integrative Medicine",
+    "relation": "published",
+    "value": "a pilot study",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a pilot study published on December 3, 2023, by the Alliance of Integrative Medicine"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Alliance of Integrative Medicine",
+    "relation": "pilot_study_followed",
+    "value": "100 individuals over six months",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which followed 100 individuals over six months"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alliance of Integrative Medicine",
+    "relation": "recorded_boost_in",
+    "value": "overall life satisfaction",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recorded substantial boosts in overall life satisfaction and reduced anxiety levels amongst those who engaged in regular aromatherapy sessions compared to those who did not"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Alliance of Integrative Medicine",
+    "relation": "recorded_reduction_in",
+    "value": "anxiety levels",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recorded substantial boosts in overall life satisfaction and reduced anxiety levels amongst those who engaged in regular aromatherapy sessions compared to those who did not"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Aromatherapy",
+    "relation": "most_conventional_use",
+    "value": "a relaxation aid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stretch far beyond its most conventional use as a relaxation aid"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Aromatherapy",
+    "relation": "used_in",
+    "value": "palliative care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From its inclusion in palliative care to soothe the terminally ill"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "palliative care",
+    "relation": "used_to_soothe",
+    "value": "the terminally ill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From its inclusion in palliative care to soothe the terminally ill"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "labor and delivery wards",
+    "relation": "offers_comfort_to",
+    "value": "expecting mothers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to its use in labor and delivery wards offering comfort to expecting mothers"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Aromatherapy",
+    "relation": "implications_are",
+    "value": "wide-ranging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the implications are wide-ranging"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Aromatherapy",
+    "relation": "integration_into_health_disciplines",
+    "value": "remarkable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of this age-old practice into modern health disciplines has been remarkable"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Aromatherapy",
+    "relation": "advances_in_pairing_with",
+    "value": "other therapeutic practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there have been advances in how aromatherapy is paired with other therapeutic practices"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Josephine Mark",
+    "relation": "is_a",
+    "value": "massage therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "massage therapist Josephine Mark"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Josephine Mark",
+    "relation": "revealed_techniques_combining",
+    "value": "aromatherapy with deep tissue massage",
+    "time": "January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "massage therapist Josephine Mark revealed groundbreaking techniques combining aromatherapy with deep tissue massage"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Josephine Mark",
+    "relation": "spoke_at_symposium_on",
+    "value": "complementary therapies",
+    "time": "January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "During a symposium on complementary therapies hosted on January 22, 2024"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Josephine Mark",
+    "relation": "techniques_claimed_to_enhance",
+    "value": "patient outcomes and accelerating the healing process",
+    "time": "January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "enhancing patient outcomes and accelerating the healing process"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Josephine Mark",
+    "relation": "results_in",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "techniques combining aromatherapy with deep tissue massage, enhancing patient outcomes"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Aromatherapy",
+    "relation": "safety_is",
+    "value": "a critical concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "safety remains a critical concern"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Aromatherapy",
+    "relation": "supported_by",
+    "value": "supporting data and a growing body of anecdotal evidence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the supporting data and a growing body of anecdotal evidence"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Aromatherapy",
+    "relation": "requires",
+    "value": "an educated approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Like all therapeutic interventions, aromatherapy requires an educated approach"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "essential oils",
+    "relation": "is_described_as",
+    "value": "potent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pure essential oils are potent and can produce adverse reactions if misused"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "essential oils",
+    "relation": "can_produce",
+    "value": "adverse reactions if misused",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pure essential oils are potent and can produce adverse reactions if misused"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Kevin Lao",
+    "relation": "is_a",
+    "value": "pediatrician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stressed by pediatrician Dr. Kevin Lao"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Kevin Lao",
+    "relation": "stressed",
+    "value": "proper dilution protocols, awareness of potential allergens, and consultation with certified professionals",
+    "time": "February 8, 2024",
+    "speaker": "Dr. Kevin Lao",
+    "verbatim": [
+     "As stressed by pediatrician Dr. Kevin Lao during a health workshop on February 8, 2024, proper dilution protocols, awareness of potential allergens, and consultation with certified professionals should be the standard"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Dr. Kevin Lao",
+    "relation": "spoke_at",
+    "value": "a health workshop",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during a health workshop on February 8, 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Aromatherapy",
+    "relation": "acceptance_marked_by",
+    "value": "a healthy skepticism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been marked by a healthy skepticism, but recognition is on the rise"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Aromatherapy",
+    "relation": "recognition_is",
+    "value": "on the rise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been marked by a healthy skepticism, but recognition is on the rise"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Integrative Health Practices",
+    "relation": "held_inaugural_conference_on",
+    "value": "March 15, 2024",
+    "time": "March 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The inaugural conference on Integrative Health Practices, held on March 15, 2024"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Integrative Health Practices",
+    "relation": "conference_panel_composed_of",
+    "value": "medical doctors, naturopaths, and clinical aromatherapists",
+    "time": "March 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "unveiled a panel composed of medical doctors, naturopaths, and clinical aromatherapists"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Integrative Health Practices",
+    "relation": "panel_symbolizes",
+    "value": "a symbolic step towards collaborative practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "symbolizing a symbolic step towards collaborative practice"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Dr. Samantha Gruber",
+    "relation": "is_a",
+    "value": "cardiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cardiologist Dr. Samantha Gruber"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Samantha Gruber",
+    "relation": "spoke_about",
+    "value": "the value of incorporating alternative therapies such as aromatherapy into traditional treatment plans",
+    "time": null,
+    "speaker": "Dr. Samantha Gruber",
+    "verbatim": [
+     "Dr. Samantha Gruber spoke eloquently about the value of incorporating alternative therapies such as aromatherapy into traditional treatment plans"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Dr. Samantha Gruber",
+    "relation": "highlighted",
+    "value": "the synergistic potential when Eastern and Western modalities converge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing attention to the synergistic potential when Eastern and Western modalities converge"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Aromatherapy",
+    "relation": "legitimacy_discussions_necessary_for",
+    "value": "progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conversations surrounding the legitimacy of aromatherapy in the realm of medicine are necessary for progress"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Aromatherapy",
+    "relation": "knowledge_proliferates_through",
+    "value": "workshops, published literature, and practitioner certification programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through workshops, published literature, and practitioner certification programs, the knowledge surrounding this practice proliferates"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Aromatherapy",
+    "relation": "empowers",
+    "value": "individuals to make informed decisions about their health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "empowering individuals to make informed decisions about their health and well-being"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Aromatherapy",
+    "relation": "results_in",
+    "value_ref": "c69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the knowledge surrounding this practice proliferates, empowering individuals to make informed decisions about their health and well-being"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Aromatherapy",
+    "relation": "mounting_evidence_cannot_be_ignored",
+    "value": "mounting evidence and evolving perceptions regarding the role of aromatherapy in health and wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The mounting evidence and evolving perceptions regarding the role of aromatherapy in health and wellness cannot be ignored"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Aromatherapy",
+    "relation": "described_as",
+    "value": "a potent tool in the pursuit of holistic health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing a potent tool in the pursuit of holistic health"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Aromatherapy",
+    "relation": "mechanism_of",
+    "value_ref": "c72",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By marrying ancient wisdom with modern science, we continue to peel back the layers of skepticism, revealing a potent tool in the pursuit of holistic health"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

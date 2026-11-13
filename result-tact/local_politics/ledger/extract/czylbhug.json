@@ -1,0 +1,517 @@
+{
+ "inventory": [
+  "Brenda Thompson",
+  "Jim Sanchez",
+  "Olivia Martinez",
+  "Henry Clarke",
+  "Maria Lopez",
+  "Dr. Rachel Kim",
+  "Environmental Protection Agency",
+  "Liam Scott",
+  "Midtown district",
+  "city council",
+  "community park"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Brenda Thompson",
+    "relation": "role",
+    "value": "city council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city council member Brenda Thompson"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Brenda Thompson",
+    "relation": "casts_vote",
+    "value": "a decisive vote",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's a crisp morning on September 3, 2023, when city council member Brenda Thompson casts a decisive vote."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "community park",
+    "relation": "set_in_motion_by_vote",
+    "value": "a new public works project",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "With that, a new public works project is set in motion"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Brenda Thompson",
+    "relation": "results_in",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "casts a decisive vote",
+     "With that, a new public works project is set in motion"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "community park",
+    "relation": "need_identified",
+    "value": "a need for a new community park",
+    "time": "early months of 2024",
+    "speaker": null,
+    "verbatim": [
+     "it was during the early months of 2024 that a need for a new community park in the rapidly growing Midtown district became evident"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "community park",
+    "relation": "located_in",
+    "value": "Midtown district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a need for a new community park in the rapidly growing Midtown district"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Midtown district",
+    "relation": "described_as",
+    "value": "rapidly growing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rapidly growing Midtown district"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "community park",
+    "relation": "originated_as",
+    "value": "a suggestion during a town hall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What started as a suggestion during a town hall blossomed into a proposal"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "community park",
+    "relation": "advanced_by",
+    "value": "the passionate advocacy of residents like Jim Sanchez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to the passionate advocacy of residents like Jim Sanchez"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jim Sanchez",
+    "relation": "role",
+    "value": "resident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "passionate advocacy of residents like Jim Sanchez"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jim Sanchez",
+    "relation": "envisioned",
+    "value": "a green oasis amidst the concrete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents like Jim Sanchez, who envisioned a green oasis amidst the concrete"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Olivia Martinez",
+    "relation": "role",
+    "value": "architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Architect Olivia Martinez joins our narrative as the lead designer"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Olivia Martinez",
+    "relation": "role",
+    "value": "lead designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Architect Olivia Martinez joins our narrative as the lead designer"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Olivia Martinez",
+    "relation": "pouring_over",
+    "value": "sketches and models for weeks",
+    "time": "By April 2024",
+    "speaker": null,
+    "verbatim": [
+     "By April 2024, she'd been pouring over sketches and models for weeks"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Olivia Martinez",
+    "relation": "characterized_by",
+    "value": "determination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her determination was evident in every line she drew"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Olivia Martinez",
+    "relation": "designs_faced",
+    "value": "a myriad of local zoning laws",
+    "time": "July",
+    "speaker": null,
+    "verbatim": [
+     "the initial designs had already faced a myriad of local zoning laws"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Henry Clarke",
+    "relation": "role",
+    "value": "local engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local engineer Henry Clarke was brought onboard in July"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Henry Clarke",
+    "relation": "joined_project_in",
+    "value": "July",
+    "time": "July",
+    "speaker": null,
+    "verbatim": [
+     "local engineer Henry Clarke was brought onboard in July"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Henry Clarke",
+    "relation": "career_span",
+    "value": "two decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarke, with a career spanning two decades"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Henry Clarke",
+    "relation": "expertise_instrumental_in",
+    "value": "translating Martinez's designs into viable construction plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His expertise in navigating these intricate legalities was instrumental in translating Martinez's designs into viable construction plans"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maria Lopez",
+    "relation": "role",
+    "value": "city's financial director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city's financial director, Maria Lopez, entered the fray in September 2024"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Maria Lopez",
+    "relation": "entered_funding_effort_in",
+    "value": "September 2024",
+    "time": "September 2024",
+    "speaker": null,
+    "verbatim": [
+     "the city's financial director, Maria Lopez, entered the fray in September 2024"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Maria Lopez",
+    "relation": "entered_because_of",
+    "value": "financial constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "No public works project can escape the clutches of financial constraints.",
+     "Hence, the city's financial director, Maria Lopez, entered the fray in September 2024."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maria Lopez",
+    "relation": "characterized_by",
+    "value": "a veteran in managing public finances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lopez, a veteran in managing public finances"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria Lopez",
+    "relation": "sourced_funds_via",
+    "value": "municipal bonds, government grants, and careful budgeting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Between municipal bonds, government grants, and careful budgeting, Lopez left no stone unturned"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Lopez",
+    "relation": "laid_out_plans_to_ensure",
+    "value": "compliance with stringent fiscal regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each financial plan was meticulously laid to ensure compliance with stringent fiscal regulations"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "city council",
+    "relation": "led_by",
+    "value": "Brenda Thompson",
+    "time": "By late 2024",
+    "speaker": null,
+    "verbatim": [
+     "There, the council, led by Thompson, displayed an unwavering commitment to transparency and citizen engagement"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "city council",
+    "relation": "displayed",
+    "value": "an unwavering commitment to transparency and citizen engagement",
+    "time": "By late 2024",
+    "speaker": null,
+    "verbatim": [
+     "There, the council, led by Thompson, displayed an unwavering commitment to transparency and citizen engagement"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Brenda Thompson",
+    "relation": "leads",
+    "value": "the council",
+    "time": "By late 2024",
+    "speaker": null,
+    "verbatim": [
+     "the council, led by Thompson"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "city council",
+    "relation": "contributed_to_shaping",
+    "value": "a plan that reflected the community's collective aspirations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This democratic process, while sometimes contentious, contributed to shaping a plan that reflected the community's collective aspirations"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Environmental Protection Agency",
+    "relation": "conducted",
+    "value": "stringent environmental reviews",
+    "time": "As autumn leaves fell in 2025",
+    "speaker": null,
+    "verbatim": [
+     "the stringent environmental reviews conducted by agencies such as the Environmental Protection Agency (EPA)"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "community park",
+    "relation": "timelines_adjusted_to_accommodate",
+    "value": "stringent environmental reviews",
+    "time": "As autumn leaves fell in 2025",
+    "speaker": null,
+    "verbatim": [
+     "As autumn leaves fell in 2025, so too did project timelines adjust to accommodate the stringent environmental reviews conducted by agencies such as the Environmental Protection Agency (EPA)"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Rachel Kim",
+    "relation": "role",
+    "value": "environmental consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with environmental consultant Dr. Rachel Kim ensuring the project's green footprint"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Rachel Kim",
+    "relation": "ensured",
+    "value": "the project's green footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with environmental consultant Dr. Rachel Kim ensuring the project's green footprint"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Rachel Kim",
+    "relation": "reassured_regulators_that",
+    "value": "the park's construction would not jeopardize the local ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her diligent work reassured regulatory bodies that the park's construction would not jeopardize the local ecosystem."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Brenda Thompson",
+    "relation": "signing_off_on",
+    "value": "more than mere paperwork",
+    "time": "by the summer of 2026",
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Thompson would find herself signing off on more than mere paperwork by the summer of 2026"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Liam Scott",
+    "relation": "role",
+    "value": "procurement officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city's procurement officer, Liam Scott, would play a pivotal role in ensuring a transparent and fair bidding process"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Liam Scott",
+    "relation": "played_role_in",
+    "value": "ensuring a transparent and fair bidding process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city's procurement officer, Liam Scott, would play a pivotal role in ensuring a transparent and fair bidding process"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Liam Scott",
+    "relation": "balancing",
+    "value": "cost efficiency with quality workmanship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "balancing cost efficiency with quality workmanship"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Brenda Thompson",
+    "relation": "watched",
+    "value": "the first dirt being turned",
+    "time": "spring 2027",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny day in spring 2027, bulldozers roared to life as Councilwoman Thompson, alongside Jim Sanchez and the rest of the Midtown community, watched the first dirt being turned"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jim Sanchez",
+    "relation": "watched",
+    "value": "the first dirt being turned",
+    "time": "spring 2027",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny day in spring 2027, bulldozers roared to life as Councilwoman Thompson, alongside Jim Sanchez and the rest of the Midtown community, watched the first dirt being turned"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Midtown district",
+    "relation": "community_watched",
+    "value": "the first dirt being turned",
+    "time": "spring 2027",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny day in spring 2027, bulldozers roared to life as Councilwoman Thompson, alongside Jim Sanchez and the rest of the Midtown community, watched the first dirt being turned"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Henry Clarke",
+    "relation": "role_during_construction",
+    "value": "ensure building codes were strictly adhered to",
+    "time": "During the construction phase",
+    "speaker": null,
+    "verbatim": [
+     "During the construction phase, Henry Clarke's role was to ensure building codes were strictly adhered to"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "community park",
+    "relation": "taking_shape_with",
+    "value": "pathways, greens, and playgrounds",
+    "time": "the fall of 2028",
+    "speaker": null,
+    "verbatim": [
+     "Finally, it's the fall of 2028, and the park begins to take shape with pathways, greens, and playgrounds"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "community park",
+    "relation": "approaching",
+    "value": "grand opening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the park inches closer to its grand opening"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

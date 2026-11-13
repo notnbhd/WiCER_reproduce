@@ -1,0 +1,929 @@
+{
+ "inventory": [
+  "Yokohama",
+  "Landmark Tower",
+  "Japan",
+  "150th-anniversary celebration of its port",
+  "Yokohama Navy Curry",
+  "Hideo Matsumoto",
+  "Yokohama Sailor's Club",
+  "silk trade",
+  "Yokohama Silk Pudding",
+  "purin",
+  "Emiko Takahashi",
+  "Chinatown",
+  "Yokohama Shumai",
+  "Li Wei",
+  "Manchurian restaurant",
+  "mainland China",
+  "Hamachi Gyoza",
+  "Tatsuo Endo",
+  "nigiri",
+  "sashimi",
+  "Seaweed Beer",
+  "Akihiko Sato",
+  "One Brewing",
+  "Kaisou Ale",
+  "Pacific",
+  "Michiko Nakamura",
+  "Fermentation Bistro",
+  "Natto",
+  "Tsukemono"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Yokohama",
+    "relation": "famed_for",
+    "value": "its stunning waterfront and Landmark Tower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yokohama, famed for its stunning waterfront and Landmark Tower that soars high into the sky"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Landmark Tower",
+    "relation": "described_as",
+    "value": "soars high into the sky",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Landmark Tower that soars high into the sky"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Yokohama",
+    "relation": "features",
+    "value": "an abundance of traditional dishes with deep roots in history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also features an abundance of traditional dishes with deep roots in history"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Yokohama",
+    "relation": "dishes_offer_window_into",
+    "value": "cultural exchanges and economic development in Japan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering not just delicious tastes but a window into cultural exchanges and economic development in Japan"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "150th-anniversary celebration of its port",
+    "relation": "held_on",
+    "value": "September 2, 2023",
+    "time": "September 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 2, 2023, Yokohama's culinary story took an exciting step forward during its 150th-anniversary celebration of its port."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "150th-anniversary celebration of its port",
+    "relation": "symbolized",
+    "value": "how foreign trade and cultures had integrated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This event symbolized how foreign trade and cultures had integrated"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "150th-anniversary celebration of its port",
+    "relation": "led_to",
+    "value": "exciting food innovations resulting from this integration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to exciting food innovations resulting from this integration"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Yokohama",
+    "relation": "harmonized_flavors",
+    "value": "Eastern and Western flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harmonized Eastern and Western flavors taking form alongside one another"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Yokohama Navy Curry",
+    "relation": "created_to",
+    "value": "satisfy the appetites of foreign sailors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Yokohama Navy Curry\", created to satisfy the appetites of foreign sailors, became a defining dish during this era."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Yokohama Navy Curry",
+    "relation": "became",
+    "value": "a defining dish during this era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became a defining dish during this era"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Yokohama Navy Curry",
+    "relation": "features",
+    "value": "thicker than average Japanese curry sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Known for featuring thicker than average Japanese curry sauce to suit Western palates"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hideo Matsumoto",
+    "relation": "job_title",
+    "value": "Sous Chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sous Chef Hideo Matsumoto at the Yokohama Sailor's Club"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hideo Matsumoto",
+    "relation": "works_at",
+    "value": "Yokohama Sailor's Club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sous Chef Hideo Matsumoto at the Yokohama Sailor's Club"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Hideo Matsumoto",
+    "relation": "made_adaptation_during",
+    "value": "winter 2024",
+    "time": "winter 2024",
+    "speaker": null,
+    "verbatim": [
+     "local chefs such as Sous Chef Hideo Matsumoto at the Yokohama Sailor's Club made their own adaptation during winter 2024"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Hideo Matsumoto",
+    "relation": "combined",
+    "value": "Japanese spices with imported meats and vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Matsumoto's tireless work combining Japanese spices with imported meats and vegetables resulted in an iconic dish which represented culinary diplomacy"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Hideo Matsumoto",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Matsumoto's tireless work combining Japanese spices with imported meats and vegetables resulted in an iconic dish"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Yokohama Navy Curry",
+    "relation": "described_as",
+    "value": "an iconic dish which represented culinary diplomacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulted in an iconic dish which represented culinary diplomacy"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "silk trade",
+    "relation": "reached_height_in",
+    "value": "early 2024",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "which reached its height in early 2024 when the city became one of the top silk exporting ports"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Yokohama",
+    "relation": "became",
+    "value": "one of the top silk exporting ports",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "the city became one of the top silk exporting ports"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "silk trade",
+    "relation": "left_signature_sweet_taste_on",
+    "value": "its cuisine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also left its signature sweet taste upon its cuisine"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "silk trade",
+    "relation": "traded_for",
+    "value": "chocolate and confectionery ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Foreign traders frequently traded chocolate and confectionery ingredients for silk"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Yokohama Silk Pudding",
+    "relation": "described_as",
+    "value": "an indulgent dessert which fuses elements from both Japanese 'purin' and Western pudding in one delicious treat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an indulgent dessert which fuses elements from both Japanese 'purin' and Western pudding in one delicious treat"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "silk trade",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Foreign traders frequently traded chocolate and confectionery ingredients for silk, leading to the development of \"Yokohama Silk Pudding,\""
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "purin",
+    "relation": "fused_into",
+    "value": "Yokohama Silk Pudding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fuses elements from both Japanese 'purin' and Western pudding"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Yokohama Silk Pudding",
+    "relation": "fuses",
+    "value": "Japanese purin and Western pudding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fuses elements from both Japanese 'purin' and Western pudding"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emiko Takahashi",
+    "relation": "occupation",
+    "value": "a local confectioner in Yokohama",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emiko Takahashi, a local confectioner in Yokohama"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emiko Takahashi",
+    "relation": "created",
+    "value": "her signature silk dessert",
+    "time": "September 2025",
+    "speaker": null,
+    "verbatim": [
+     "created her signature silk dessert in September 2025 to demonstrate its importance beyond textiles"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emiko Takahashi",
+    "relation": "aimed_to_demonstrate",
+    "value": "its importance beyond textiles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to demonstrate its importance beyond textiles"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emiko Takahashi",
+    "relation": "in_order_to",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "created her signature silk dessert in September 2025 to demonstrate its importance beyond textiles"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Emiko Takahashi",
+    "relation": "advocate_of",
+    "value": "using local ingredients in global recipes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As an advocate of using local ingredients in global recipes"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Emiko Takahashi",
+    "relation": "demonstrated",
+    "value": "how Yokohama's identity could also be expressed through sweet indulgences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she demonstrated how Yokohama's identity could also be expressed through sweet indulgences"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Emiko Takahashi",
+    "relation": "showed",
+    "value": "trade partnerships play a critical role in shaping regional tastes and creating their development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing how trade partnerships play a critical role in shaping regional tastes and creating their development"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chinatown",
+    "relation": "is_largest_in",
+    "value": "Japan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city's Chinatown, Japan's largest"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chinatown",
+    "relation": "dates_back_to",
+    "value": "when its port first opened",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which dates back to when its port first opened"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chinatown",
+    "relation": "described_as",
+    "value": "densely packed district with its red gates and vibrant lanterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This densely packed district with its red gates and vibrant lanterns"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chinatown",
+    "relation": "gave_rise_to",
+    "value": "Yokohama Shumai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gave rise to iconic dishes such as \"Yokohama Shumai.\""
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Yokohama Shumai",
+    "relation": "created_by",
+    "value": "Chef Li Wei",
+    "time": "sometime between late September 2023-2024",
+    "speaker": null,
+    "verbatim": [
+     "Reportedly created by Chef Li Wei from Manchurian restaurant sometime between late September 2023-2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Li Wei",
+    "relation": "works_at",
+    "value": "Manchurian restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Li Wei from Manchurian restaurant"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Li Wei",
+    "relation": "infused",
+    "value": "Japanese elements into Chinese dim sum staples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infusing Japanese elements into Chinese dim sum staples to produce localized versions"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Yokohama Shumai",
+    "relation": "represents",
+    "value": "culinary integration between Chinese migrants and Japanese customs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yokohama Shumai represents the culinary integration between Chinese migrants and Japanese customs"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Yokohama Shumai",
+    "relation": "features",
+    "value": "seafarer-preferred pork and shiitake mushrooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Featuring seafarer-preferred pork and shiitake mushrooms"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "mainland China",
+    "relation": "source_of",
+    "value": "delicate wrapping techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delicate wrapping techniques brought over from mainland China"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Yokohama Shumai",
+    "relation": "showcases",
+    "value": "Yokohama as an inclusive city with diverse tastes and backgrounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its intricate packaging serves to showcase Yokohama as an inclusive city with diverse tastes and backgrounds"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Yokohama",
+    "relation": "owes_much_to",
+    "value": "its coastal location",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yokohama's cuisine owes much to its coastal location"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Pacific",
+    "relation": "source_of",
+    "value": "fresh catch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fresh catch from the Pacific has not only inspired traditional nigiri and sashimi dishes"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Pacific",
+    "relation": "inspired",
+    "value": "traditional nigiri and sashimi dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has not only inspired traditional nigiri and sashimi dishes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Pacific",
+    "relation": "inspired",
+    "value": "contemporary culinary innovations like Hamachi Gyoza and Seaweed Beer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also inspired contemporary culinary innovations like \"Hamachi Gyoza\" and \"Seaweed Beer,\""
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Yokohama",
+    "relation": "shows_capacity_for",
+    "value": "innovation while honoring historic tastes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing the city's capacity for innovation while honoring historic tastes"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Tatsuo Endo",
+    "relation": "occupation",
+    "value": "age-old fisherman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inspired by age-old fisherman Tatsuo Endo's experiments in seafood fillings for dumplings in late 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Tatsuo Endo",
+    "relation": "experimented_with",
+    "value": "seafood fillings for dumplings",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Inspired by age-old fisherman Tatsuo Endo's experiments in seafood fillings for dumplings in late 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Hamachi Gyoza",
+    "relation": "inspired_by",
+    "value": "Tatsuo Endo's experiments in seafood fillings for dumplings",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Inspired by age-old fisherman Tatsuo Endo's experiments in seafood fillings for dumplings in late 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Hamachi Gyoza",
+    "relation": "described_as",
+    "value": "a contemporary entree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hamachi Gyoza is a contemporary entree featuring yellowtail fish"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Hamachi Gyoza",
+    "relation": "features",
+    "value": "yellowtail fish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hamachi Gyoza is a contemporary entree featuring yellowtail fish"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Hamachi Gyoza",
+    "relation": "has_texture",
+    "value": "buttery texture contrasted with its crisp exterior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yellowtail fish with its buttery texture contrasted with its crisp exterior"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Seaweed Beer",
+    "relation": "linked_to_production_lines_of",
+    "value": "local microbreweries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seaweed, which had long been an integral part of Japanese diets for centuries, found new use as part of local microbreweries' production lines"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Akihiko Sato",
+    "relation": "works_at",
+    "value": "One Brewing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Akihiko Sato from One Brewing introduced Kaisou Ale"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Akihiko Sato",
+    "relation": "introduced",
+    "value": "Kaisou Ale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Akihiko Sato from One Brewing introduced Kaisou Ale as an innovative beverage fusing seaweed's umami flavor with hops's bitterness"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Kaisou Ale",
+    "relation": "described_as",
+    "value": "an innovative beverage fusing seaweed's umami flavor with hops's bitterness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced Kaisou Ale as an innovative beverage fusing seaweed's umami flavor with hops's bitterness"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Yokohama",
+    "relation": "has_status",
+    "value": "revolutionary status within culinary arts industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underlining Yokohama's revolutionary status within culinary arts industry!"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Yokohama",
+    "relation": "increasingly_impacted_by",
+    "value": "Traditional Japanese cuisine's healthful properties, specifically fermented dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional Japanese cuisine's healthful properties - specifically fermented dishes which have long been part of Japanese diets - have increasingly impacted modern Yokohama cuisine"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Michiko Nakamura",
+    "relation": "adopts",
+    "value": "ancestral remedies for contemporary wellness purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents and chefs like Michiko Nakamura adopt ancestral remedies for contemporary wellness purposes"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Michiko Nakamura",
+    "relation": "launched",
+    "value": "Fermentation Bistro",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "With her launch of \"Fermentation Bistro\" in 2024"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Michiko Nakamura",
+    "relation": "inspired",
+    "value": "a trend of revisiting fermented foods that once supplied local fishermen and tradespeople",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nakamura inspired a trend of revisiting fermented foods that once supplied local fishermen and tradespeople"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Fermentation Bistro",
+    "relation": "launched_in",
+    "value": "2024",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "With her launch of \"Fermentation Bistro\" in 2024"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Natto",
+    "relation": "transformed_over",
+    "value": "the past five years",
+    "time": "the past five years",
+    "speaker": null,
+    "verbatim": [
+     "experienced a remarkable transformation over the past five years"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Natto",
+    "relation": "evolved_from",
+    "value": "home-cooked staple foods into sophisticated menu offerings at top restaurants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evolving from home-cooked staple foods into sophisticated menu offerings at top restaurants"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Tsukemono",
+    "relation": "transformed_over",
+    "value": "the past five years",
+    "time": "the past five years",
+    "speaker": null,
+    "verbatim": [
+     "Staple foods like \"Natto\" and \"Tsukemono\" experienced a remarkable transformation over the past five years"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Tsukemono",
+    "relation": "evolved_from",
+    "value": "home-cooked staple foods into sophisticated menu offerings at top restaurants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evolving from home-cooked staple foods into sophisticated menu offerings at top restaurants"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Natto",
+    "relation": "acts_as",
+    "value": "health gatekeepers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these historically-rooted dishes now act as health gatekeepers"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Tsukemono",
+    "relation": "acts_as",
+    "value": "health gatekeepers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these historically-rooted dishes now act as health gatekeepers"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Natto",
+    "relation": "reinforced_by",
+    "value": "global trends toward gut health and sustainable eating practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reinforced by global trends toward gut health and sustainable eating practices"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Tsukemono",
+    "relation": "reinforced_by",
+    "value": "global trends toward gut health and sustainable eating practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reinforced by global trends toward gut health and sustainable eating practices"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Yokohama",
+    "relation": "expanding_cuisine_with",
+    "value": "vitality and versatility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simultaneously expanding Yokohama's cuisine both vitality and versatility"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Yokohama",
+    "relation": "evolution_is",
+    "value": "becoming ever more rapid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its evolution is becoming ever more rapid"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Yokohama",
+    "relation": "chefs_uphold",
+    "value": "centuries-old recipes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New chefs and restaurateurs in Yokohama not only uphold centuries-old recipes"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Yokohama",
+    "relation": "chefs_pioneer",
+    "value": "innovative culinary experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but are pioneering innovative culinary experiences as well"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Yokohama",
+    "relation": "dishes_must_respect",
+    "value": "tradition while also welcoming change and innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their dishes must respect tradition while also welcoming change and innovation"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Yokohama",
+    "relation": "in_order_to",
+    "value_ref": "c77",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their dishes must respect tradition while also welcoming change and innovation in order to remain popular among their target audience."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Yokohama",
+    "relation": "heritage_spans",
+    "value": "every continent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rich global heritage that spans every continent"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Yokohama",
+    "relation": "demonstrates",
+    "value": "the city's adaptability and creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yokohama's food landscape demonstrates the city's adaptability and creativity"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Japan",
+    "relation": "cuisine_will_continue_to",
+    "value": "merge and adapt over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Japanese cuisine as seen through Yokohama's historical dishes will continue to merge and adapt over time"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

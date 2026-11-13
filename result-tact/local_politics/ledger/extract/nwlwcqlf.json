@@ -1,0 +1,596 @@
+{
+ "inventory": [
+  "Mayor Bob \"Bulldozer\" Smith",
+  "Grandiose Vision for the Urban Renewal Megaproject",
+  "Intelligent Transport System",
+  "electronic billboard upgrades",
+  "the council",
+  "smart bins",
+  "Internet of Things (IoT)",
+  "5G network",
+  "traffic cameras",
+  "recently retrofitted aqueducts",
+  "our town",
+  "the Amazon rainforest",
+  "the ancient Romans",
+  "streetlights",
+  "self-repairing roads",
+  "autonomous vehicles",
+  "sanitation workers",
+  "public park"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mayor Bob \"Bulldozer\" Smith",
+    "relation": "unveiled",
+    "value": "Grandiose Vision for the Urban Renewal Megaproject",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mayor Bob \"Bulldozer\" Smith and his team had unveiled the long-awaited Grandiose Vision for the Urban Renewal Megaproject"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Grandiose Vision for the Urban Renewal Megaproject",
+    "relation": "announced_in_press_as",
+    "value": "the latest governmental project",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the press was ablaze with the announcement of the latest governmental project"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Grandiose Vision for the Urban Renewal Megaproject",
+    "relation": "described_as",
+    "value": "a revolutionary series of initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a revolutionary series of initiatives that promised to reshape our dear old town"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Grandiose Vision for the Urban Renewal Megaproject",
+    "relation": "promised_to",
+    "value": "reshape our dear old town into a sparkling example of 21st-century living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promised to reshape our dear old town into a sparkling example of 21st-century living"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Grandiose Vision for the Urban Renewal Megaproject",
+    "relation": "captured",
+    "value": "the public\u2019s imagination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the public\u2019s imagination was captured"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Grandiose Vision for the Urban Renewal Megaproject",
+    "relation": "first_phase_rollout_date",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The ambitious project was set to roll out the first phase of its plan on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Intelligent Transport System",
+    "relation": "role_in_rollout",
+    "value": "leading the charge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the much-touted \"Intelligent Transport System\" leading the charge"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Intelligent Transport System",
+    "relation": "promised",
+    "value": "self-repairing roads that could whisper sweet nothings to autonomous vehicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shiny new network promised self-repairing roads that could whisper sweet nothings to autonomous vehicles"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "streetlights",
+    "relation": "promised_capability",
+    "value": "predicting weather changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regal streetlights capable of predicting weather changes"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "self-repairing roads",
+    "relation": "tendency",
+    "value": "trigger system errors when faced with a puddle larger than a small pizza",
+    "time": "a few months in",
+    "speaker": null,
+    "verbatim": [
+     "Roads that have the irritating tendency to trigger system errors when faced with a puddle larger than a small pizza"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "streetlights",
+    "relation": "behaviour",
+    "value": "seem perpetually surprised by the concept of rain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "streetlights that seem perpetually surprised by the concept of rain"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "our town",
+    "relation": "climate",
+    "value": "a climate that would give the Amazon rainforest a run for its money in a wet T-shirt contest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our town sits snugly in a climate that would give the Amazon rainforest a run for its money in a wet T-shirt contest"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "the council",
+    "relation": "installed",
+    "value": "electronic billboard upgrades",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "the electronic billboard upgrades installed in November 2023 by the council"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "electronic billboard upgrades",
+    "relation": "installed_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "the electronic billboard upgrades installed in November 2023 by the council"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "electronic billboard upgrades",
+    "relation": "purpose",
+    "value": "reduce the carbon footprint and simultaneously boost public morale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a bid to reduce the carbon footprint and simultaneously boost public morale"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "electronic billboard upgrades",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "verbatim": [
+     "installed in November 2023 by the council in a bid to reduce the carbon footprint and simultaneously boost public morale"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "electronic billboard upgrades",
+    "relation": "transmit",
+    "value": "nothing but existential dread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they seem to transmit nothing but existential dread"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "electronic billboard upgrades",
+    "relation": "displays",
+    "value": "glitch art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Get ready to behold glitch art on your daily commute"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "electronic billboard upgrades",
+    "relation": "displays",
+    "value": "pixelated images of lost cats and ghostly fragments of council announcements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from pixelated images of lost cats to ghostly fragments of council announcements"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "smart bins",
+    "relation": "unveiled_on",
+    "value": "December 15, 2023",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 15, 2023, the unveiling of the initial set of smart bins"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "smart bins",
+    "relation": "equipped_with",
+    "value": "sensors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These bins, equipped with sensors"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "smart bins",
+    "relation": "intended_to_alert",
+    "value": "sanitation workers the moment they reached capacity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were supposed to alert sanitation workers the moment they reached capacity"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "sanitation workers",
+    "relation": "alert_trigger",
+    "value": "the moment smart bins reached capacity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were supposed to alert sanitation workers the moment they reached capacity"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "smart bins",
+    "relation": "false_alarms",
+    "value": "sending false alarms at random intervals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bins could be caught sending false alarms at",
+     "random intervals"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "smart bins",
+    "relation": "behaviour",
+    "value": "becoming spontaneously over-affectionate and refusing to open for anyone deemed to have less-than-perfect trash",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "becoming spontaneously over-affectionate and refusing to open for anyone deemed to have less-than-perfect trash"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Internet of Things (IoT)",
+    "relation": "promised_to_enable",
+    "value": "clean streets and efficient waste management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought with it a promise of clean streets and efficient waste management thanks to the Internet of Things (IoT)"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "5G network",
+    "relation": "commissioned_at",
+    "value": "the New Year",
+    "time": "the New Year",
+    "speaker": null,
+    "verbatim": [
+     "With the New Year came the commissioning of our town\u2019s very own 5G network"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "5G network",
+    "relation": "aimed_to",
+    "value": "transforming the public work machinery into a hyper-connected fleet of efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at transforming the public work machinery into a hyper-connected fleet of efficiency"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "5G network",
+    "relation": "reported_problem",
+    "value": "random signal dropouts",
+    "time": null,
+    "speaker": "Commuters",
+    "verbatim": [
+     "Commuters, however, were soon reporting random signal dropouts as they navigated the city"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "5G network",
+    "relation": "behaviour",
+    "value": "responding a resounding \"Polo\" only after frantic, repeated \"Marco\" calls from users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the network often responding a resounding \"Polo\" only after frantic, repeated \"Marco\" calls from users"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "traffic cameras",
+    "relation": "activated_in",
+    "value": "February 2024",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "February 2024 rolled around, and the cutting-edge traffic cameras touted for their advanced AI algorithms were activated"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "traffic cameras",
+    "relation": "touted_for",
+    "value": "advanced AI algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cutting-edge traffic cameras touted for their advanced AI algorithms"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "traffic cameras",
+    "relation": "intended_to",
+    "value": "eliminate congestion and bring harmony to the asphalt savannas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These ocular overseers were meant to eliminate congestion and bring harmony to the asphalt savannas"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "traffic cameras",
+    "relation": "resulted_in",
+    "value": "a new urban predator, the false-positive traffic ticket",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instead, they unleashed a new urban predator\u2014the false-positive traffic ticket"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "traffic cameras",
+    "relation": "tickets_issued_to",
+    "value": "anything moving faster than a determined jogger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "handed out with an algorithmic fervor to anything moving faster than a determined jogger"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "traffic cameras",
+    "relation": "behaviour",
+    "value": "mildly intrigued by anything vaguely vehicular",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These cameras were not so much allseeing as they were mildly intrigued by anything vaguely vehicular"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "designed_to",
+    "value": "make the ancient Romans look like amateur water carriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to make the ancient Romans look like amateur water carriers"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "the ancient Romans",
+    "relation": "would_look_like",
+    "value": "amateur water carriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to make the ancient Romans look like amateur water carriers"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "intended_to",
+    "value": "manage our water supply with pinpoint accuracy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These modern marvels were meant to manage our water supply with pinpoint accuracy"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "failed_to_account_for",
+    "value": "gravity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What they didn\u2019t account for, apparently, was gravity"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "discussed_in_season",
+    "value": "spring",
+    "time": "spring",
+    "speaker": null,
+    "verbatim": [
+     "As spring graced our city streets, we turned our eyes to the recently retrofitted aqueducts"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "burst_onto_scene",
+    "value": "quite literally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bursting onto the scene, quite literally, these pipelines"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "public park",
+    "relation": "transformed_into",
+    "value": "a surprise waterpark, sprayers included",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many a public park into a surprise waterpark, sprayers included"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "recently retrofitted aqueducts",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "verbatim": [
+     "these pipelines have inadvertently transformed many a public park"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "our town",
+    "relation": "public_works_described_as",
+    "value": "technologically advanced but practically impractical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with our technologically advanced but practically impractical public works"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "our town",
+    "relation": "has",
+    "value": "half-functional high-tech street fixtures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we stand amid half-functional high-tech street fixtures and the confused beeping of supposedly smart devices"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "smart bins",
+    "relation": "described_as",
+    "value": "needier than pets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a city where smart bins are needier than pets"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "electronic billboard upgrades",
+    "relation": "described_as",
+    "value": "abstract art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "billboards serve abstract art"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "traffic cameras",
+    "relation": "described_as",
+    "value": "moonlighting as lottery machines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traffic systems moonlight as lottery machines"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "our town",
+    "relation": "described_as",
+    "value": "a city where smart bins are needier than pets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we are now the proud residents of a city where smart bins are needier than pets"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "our town",
+    "relation": "state",
+    "value": "a cybernetic limbo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we dwell in a cybernetic limbo"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Amazon rainforest",
+    "relation": "outdone_by",
+    "value": "the climate of our town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our town sits snugly in a climate that would give the Amazon rainforest a run for its money in a wet T-shirt contest"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

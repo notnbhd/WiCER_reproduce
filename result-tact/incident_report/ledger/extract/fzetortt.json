@@ -1,0 +1,885 @@
+{
+ "inventory": [
+  "energy companies",
+  "government",
+  "space weather",
+  "the Sun",
+  "solar flares",
+  "coronal mass ejections (CMEs)",
+  "high-speed solar wind streams",
+  "power grids",
+  "March 1989 geomagnetic storm",
+  "Quebec blackout",
+  "moderate solar flare",
+  "Dr. Jane Thompson",
+  "Geospace Atmospheric Research Center",
+  "Federal Energy Regulatory Commission",
+  "risk assessment",
+  "Pacific Energy Corp.",
+  "Robert West",
+  "flexible AC transmission systems",
+  "Emily Zhao",
+  "Southern States Power",
+  "GridLine Electric",
+  "National Space Weather Prediction Center",
+  "Daniel Okoye",
+  "United States government",
+  "European Space Agency",
+  "public awareness and education campaigns",
+  "space weather contingency plans",
+  "new federal mandates"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "government",
+    "relation": "mandated",
+    "value": "energy providers formulate and implement robust space weather contingency plans",
+    "time": "as of September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as of September 23, 2023, the government has mandated that energy providers formulate and implement robust space weather contingency plans"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "space weather contingency plans",
+    "relation": "shields",
+    "value": "essential services from the potentially devastating effects of solar storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to shield essential services from the potentially devastating effects of solar storms"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "government",
+    "relation": "in_order_to",
+    "value_ref": "c2",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the government has mandated that energy providers formulate and implement robust space weather contingency plans",
+     "to shield essential services from the potentially devastating effects of solar storms"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "space weather",
+    "relation": "defined_as",
+    "value": "dynamic conditions on the Sun and in the solar wind, magnetosphere, ionosphere, and thermosphere that can influence the performance and reliability of space-borne and ground-based technological systems, as well as endanger human life or health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Space weather refers to the dynamic conditions on the Sun and in the solar wind, magnetosphere, ionosphere, and thermosphere that can influence the performance and reliability of space-borne and ground-based technological systems, as well as endanger human life or health."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "solar flares",
+    "relation": "can_disrupt",
+    "value": "satellite operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "solar flares",
+    "relation": "can_disrupt",
+    "value": "navigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "solar flares",
+    "relation": "can_disrupt",
+    "value": "power grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "coronal mass ejections (CMEs)",
+    "relation": "can_disrupt",
+    "value": "satellite operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "coronal mass ejections (CMEs)",
+    "relation": "can_disrupt",
+    "value": "navigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "coronal mass ejections (CMEs)",
+    "relation": "can_disrupt",
+    "value": "power grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "high-speed solar wind streams",
+    "relation": "can_disrupt",
+    "value": "satellite operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "high-speed solar wind streams",
+    "relation": "can_disrupt",
+    "value": "navigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "high-speed solar wind streams",
+    "relation": "can_disrupt",
+    "value": "power grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares, coronal mass ejections (CMEs), and high-speed solar wind streams can disrupt satellite operations, navigation systems, and most critically, power grids."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "March 1989 geomagnetic storm",
+    "relation": "caused",
+    "value": "a blackout in Quebec",
+    "time": "March 1989",
+    "speaker": null,
+    "verbatim": [
+     "the March 1989 geomagnetic storm, which caused a blackout in Quebec"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Quebec blackout",
+    "relation": "caused_by",
+    "value": "March 1989 geomagnetic storm",
+    "time": "March 1989",
+    "speaker": null,
+    "verbatim": [
+     "the March 1989 geomagnetic storm, which caused a blackout in Quebec"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "March 1989 geomagnetic storm",
+    "relation": "highlighted",
+    "value": "the susceptibility of energy infrastructures to celestial disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have highlighted the susceptibility of energy infrastructures to celestial disruptions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "moderate solar flare",
+    "relation": "disrupted",
+    "value": "GPS signals",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on December 10, 2023, a moderate solar flare disrupted GPS signals for approximately 45 minutes"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "moderate solar flare",
+    "relation": "disruption_lasted",
+    "value": "approximately 45 minutes",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on December 10, 2023, a moderate solar flare disrupted GPS signals for approximately 45 minutes"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "moderate solar flare",
+    "relation": "led_officials_to",
+    "value": "reconsider the impact of these events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading officials to reconsider the impact of these events"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "moderate solar flare",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a moderate solar flare disrupted GPS signals for approximately 45 minutes, leading officials to reconsider the impact of these events"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Jane Thompson",
+    "relation": "is_a",
+    "value": "a leading space weather expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jane Thompson, a leading space weather expert at the Geospace Atmospheric Research Center"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Jane Thompson",
+    "relation": "works_at",
+    "value": "Geospace Atmospheric Research Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jane Thompson, a leading space weather expert at the Geospace Atmospheric Research Center"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Jane Thompson",
+    "relation": "warns_that_energy_systems_are",
+    "value": "interconnected and increasingly automated",
+    "time": null,
+    "speaker": "Dr. Jane Thompson",
+    "verbatim": [
+     "Our energy systems are interconnected and increasingly automated."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "space weather",
+    "relation": "could_cause",
+    "value": "cascading failures across the power network",
+    "time": null,
+    "speaker": "Dr. Jane Thompson",
+    "verbatim": [
+     "A severe space weather event could cause cascading failures across the power network."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "energy companies",
+    "relation": "can_no_longer_afford_to",
+    "value": "ignore the threat of space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's apparent that energy companies can no longer afford to ignore the threat of space weather"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "power grids",
+    "relation": "were_disrupted",
+    "value": "power grid and communication systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the wake of disruptions to the power grid and communication systems"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "abbreviated_as",
+    "value": "FERC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Federal Energy Regulatory Commission (FERC)"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "outlined",
+    "value": "the necessary steps energy providers must take to safeguard their networks from space weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Federal Energy Regulatory Commission (FERC) has outlined the necessary steps energy providers must take to safeguard their networks from space weather events."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "includes",
+    "value": "risk assessment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes risk assessment, system upgrades to enhance robustness, and the establishment of communication protocols to ensure prompt response during crises."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "includes",
+    "value": "system upgrades to enhance robustness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes risk assessment, system upgrades to enhance robustness, and the establishment of communication protocols to ensure prompt response during crises."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "includes",
+    "value": "the establishment of communication protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the establishment of communication protocols to ensure prompt response during crises."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "communication_protocols_purpose",
+    "value": "ensure prompt response during crises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure prompt response during crises"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Federal Energy Regulatory Commission",
+    "relation": "in_order_to",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the establishment of communication protocols to ensure prompt response during crises"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "energy companies",
+    "relation": "required_to",
+    "value": "conduct thorough risk assessments to understand their vulnerabilities to space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Energy companies are now required to conduct thorough risk assessments to understand their vulnerabilities to space weather."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "risk assessment",
+    "relation": "involves",
+    "value": "identifying critical infrastructures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The assessment involves identifying critical"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "risk assessment",
+    "relation": "involves",
+    "value": "evaluating the potential consequences of space weather-related disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evaluating the potential consequences of space weather-related disruptions, and creating a priority list for protective measures."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "risk assessment",
+    "relation": "involves",
+    "value": "creating a priority list for protective measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a priority list for protective measures"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Pacific Energy Corp.",
+    "relation": "announced_investments_of",
+    "value": "$100 million",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 5, 2023, Pacific Energy Corp. announced investments amounting to $100 million for infrastructure reinforcements."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Pacific Energy Corp.",
+    "relation": "investments_for",
+    "value": "infrastructure reinforcements",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "investments amounting to $100 million for infrastructure reinforcements"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Robert West",
+    "relation": "is_CEO_of",
+    "value": "Pacific Energy Corp.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "said their CEO, Robert West"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Robert West",
+    "relation": "said",
+    "value": "We're installing grid-strengthening technologies like flexible AC transmission systems and upgrading our transformer defenses",
+    "time": null,
+    "speaker": "Robert West",
+    "verbatim": [
+     "We're installing grid-strengthening technologies like flexible AC transmission systems and upgrading our transformer defenses"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "flexible AC transmission systems",
+    "relation": "installed_as",
+    "value": "grid-strengthening technologies",
+    "time": null,
+    "speaker": "Robert West",
+    "verbatim": [
+     "We're installing grid-strengthening technologies like flexible AC transmission systems"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Pacific Energy Corp.",
+    "relation": "upgrades_aim_to",
+    "value": "increase resilience to sudden geomagnetic-induced currents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These technological upgrades aim to increase resilience to sudden geomagnetic-induced currents."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "space weather",
+    "relation": "monitoring_development_is",
+    "value": "critical to the preparedness strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Critical to the preparedness strategy is the development of real-time space weather monitoring systems."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "energy companies",
+    "relation": "must_build_or_adapt",
+    "value": "existing systems to detect and react to space weather events quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies must build or adapt existing systems to detect and react to space weather events quickly."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Emily Zhao",
+    "relation": "is_a",
+    "value": "an electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an electrical engineer with Southern States Power"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Emily Zhao",
+    "relation": "works_at",
+    "value": "Southern States Power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an electrical engineer with Southern States Power"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Emily Zhao",
+    "relation": "explained",
+    "value": "Monitoring systems enable us to get ahead of the issue by implementing measures such as grid shutdowns in a controlled manner if we detect a potentially damaging space weather event",
+    "time": null,
+    "speaker": "Emily Zhao",
+    "verbatim": [
+     "Monitoring systems enable us to get ahead of the issue by implementing measures such as grid shutdowns in a controlled manner if we detect a potentially damaging space weather event"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "power grids",
+    "relation": "measure",
+    "value": "grid shutdowns in a controlled manner",
+    "time": null,
+    "speaker": "Emily Zhao",
+    "verbatim": [
+     "implementing measures such as grid shutdowns in a controlled manner if we detect a potentially damaging space weather event"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "energy companies",
+    "relation": "focusing_on",
+    "value": "human factors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies are also focusing on human factors"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "energy companies",
+    "relation": "training_ensures",
+    "value": "all levels of the organization understand their roles during a space weather emergency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training employees and conducting regular preparedness exercises ensures that all levels of the organization understand their roles during a space weather emergency."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "GridLine Electric",
+    "relation": "scheduled_mock_drill",
+    "value": "a large-scale mock drill involving a hypothetical severe solar storm scenario",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 15, 2024, GridLine Electric is set to conduct a large-scale mock drill involving a hypothetical severe solar storm scenario"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "GridLine Electric",
+    "relation": "drill_purpose",
+    "value": "test its responsiveness and procedures",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "to test its responsiveness and procedures"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "National Space Weather Prediction Center",
+    "relation": "abbreviated_as",
+    "value": "NSWPC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The National Space Weather Prediction Center (NSWPC)"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "National Space Weather Prediction Center",
+    "relation": "ramped_up_collaboration_with",
+    "value": "energy companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The National Space Weather Prediction Center (NSWPC) has ramped up its collaboration with energy companies"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "National Space Weather Prediction Center",
+    "relation": "collaboration_purpose",
+    "value": "accurate and timely forecasting of space weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide accurate and timely forecasting of space weather events"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "National Space Weather Prediction Center",
+    "relation": "in_order_to",
+    "value_ref": "c56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has ramped up its collaboration with energy companies to provide accurate and timely forecasting of space weather events"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Daniel Okoye",
+    "relation": "is_a",
+    "value": "a meteorologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Okoye, a meteorologist with NSWPC"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Daniel Okoye",
+    "relation": "works_at",
+    "value": "NSWPC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Okoye, a meteorologist with NSWPC"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Daniel Okoye",
+    "relation": "emphasizes",
+    "value": "It's vital for us to predict solar activity with as much precision as possible so that the energy sector can take proactive moves to mitigate risks",
+    "time": null,
+    "speaker": "Daniel Okoye",
+    "verbatim": [
+     "It's vital for us to predict solar activity with as much precision as possible so that the energy sector can take proactive moves to mitigate risks."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "space weather",
+    "relation": "is_a",
+    "value": "a global concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Space weather is a global concern, and its effects are not confined by national borders."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "space weather",
+    "relation": "effects_not_confined_by",
+    "value": "national borders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Space weather is a global concern, and its effects are not confined by national borders."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "United States government",
+    "relation": "has_taken_steps_to_foster",
+    "value": "international cooperation through data sharing and joint research efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The United States government has taken steps to foster international cooperation through data sharing and joint research efforts to improve global space weather prediction models."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "United States government",
+    "relation": "cooperation_purpose",
+    "value": "improve global space weather prediction models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to improve global space weather prediction models"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "United States government",
+    "relation": "in_order_to",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has taken steps to foster international cooperation through data sharing and joint research efforts to improve global space weather prediction models"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "United States government",
+    "relation": "includes_partnership_with",
+    "value": "European Space Agency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes partnerships with the European Space Agency and other governing bodies in the space weather research community."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "public awareness and education campaigns",
+    "relation": "launched_by",
+    "value": "agencies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "agencies have launched education campaigns"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "public awareness and education campaigns",
+    "relation": "designed_to",
+    "value": "explain the phenomena and their potential impacts on daily life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These initiatives are designed to explain the phenomena and their potential impacts on daily life"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "public awareness and education campaigns",
+    "relation": "designed_to",
+    "value": "equipping citizens to cope with power and service outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipping citizens to cope with power and service outages"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "public awareness and education campaigns",
+    "relation": "motivated_by",
+    "value": "the role of public understanding in dealing with the aftermath of space weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the role of public understanding in dealing with the aftermath of space weather events"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "energy companies",
+    "relation": "must_comply_with",
+    "value": "new federal mandates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the deadline looms for energy companies to comply with the new federal mandates"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "energy companies",
+    "relation": "industry_is",
+    "value": "bustling with activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the industry is bustling with activity"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "energy companies",
+    "relation": "investments_accelerating_in",
+    "value": "infrastructure, technology, and personnel training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investments in infrastructure, technology, and personnel training are accelerating."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "the Sun",
+    "relation": "has",
+    "value": "unpredictable whims",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "against the unpredictable whims of our Sun"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "government",
+    "relation": "forging_shield_with",
+    "value": "energy experts and corporate leaders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "government officials, energy experts, and corporate leaders are forging a shield"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "power grids",
+    "relation": "to_be_protected_from",
+    "value": "the capricious nature of space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to protect our energy grid from the capricious nature of space weather"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "power grids",
+    "relation": "goal",
+    "value": "ensure that the lights stay on, even in the face of cosmic disturbances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "calls upon a collective resolve to ensure that the lights stay on, even in the face of cosmic disturbances"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

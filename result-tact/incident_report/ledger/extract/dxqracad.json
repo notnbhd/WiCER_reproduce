@@ -1,0 +1,679 @@
+{
+ "inventory": [
+  "Maria Gonzalez",
+  "Austin, Texas",
+  "Aarav Patel",
+  "Jamie Lopez",
+  "Steve Thompson",
+  "Denver",
+  "small businesses",
+  "internet outages",
+  "internet service disruptions",
+  "the recent internet outage on September 15, 2023",
+  "outage on October 3, 2023",
+  "lost its primary internet connection on September 20, 2023",
+  "lost their connection on November 1, 2023",
+  "outage on October 28, 2023",
+  "outage contingency plan",
+  "point-of-sale systems",
+  "cloud services",
+  "mobile hotspot",
+  "Identify Your Business-Critical Operations",
+  "Establish Offline Solutions",
+  "Invest in Redundant Internet Connections",
+  "Train Your Staff",
+  "Backup Your Data Regularly",
+  "Communicate with Customers",
+  "Take Advantage of Mobile Technologies",
+  "Regularly Review and Update Your Outage Plan",
+  "Maintain an Emergency Fund"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "small businesses",
+    "relation": "rely_on",
+    "value": "online tools for their day-to-day activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly small enterprises that rely on online tools for their day-to-day activities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "internet service disruptions",
+    "relation": "affecting",
+    "value": "several areas",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "internet service disruptions affecting several areas since September 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "internet outages",
+    "relation": "has_adverse_effects_on",
+    "value": "small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "concerns over the adverse effects these outages have on small businesses are mounting"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "small businesses",
+    "relation": "consider_internet_to_be",
+    "value": "an essential utility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For most small businesses, the internet is an essential utility."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "the recent internet outage on September 15, 2023",
+    "relation": "occurred_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the recent internet outage on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "small businesses",
+    "relation": "were_hit_hard_by",
+    "value": "the recent internet outage on September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the recent internet outage on September 15, 2023, small businesses like the one owned by Maria Gonzalez in Austin, Texas, have been hit hard."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Maria Gonzalez",
+    "relation": "owns_business_in",
+    "value": "Austin, Texas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses like the one owned by Maria Gonzalez in Austin, Texas"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Austin, Texas",
+    "relation": "hosts_business_of",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses like the one owned by Maria Gonzalez in Austin, Texas"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Gonzalez",
+    "relation": "operates",
+    "value": "a boutique marketing firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria operates a boutique marketing firm"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Maria Gonzalez",
+    "relation": "relies_heavily_on",
+    "value": "cloud services for data storage and communication with clients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relies heavily on cloud services for data storage and communication with clients"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Maria Gonzalez",
+    "relation": "team_struggled_to_access",
+    "value": "important project files",
+    "time": "since the outage",
+    "speaker": null,
+    "verbatim": [
+     "Since the outage, her team has struggled to access important project files, causing delays and customer dissatisfaction."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Gonzalez",
+    "relation": "consequence_of_struggle",
+    "value": "delays and customer dissatisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "causing delays and customer dissatisfaction"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Maria Gonzalez",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "verbatim": [
+     "her team has struggled to access important project files, causing delays and customer dissatisfaction."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "small businesses",
+    "relation": "utilize",
+    "value": "internet-dependent point-of-sale systems, digital marketing platforms, and other online resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many small businesses utilize internet-dependent point-of-sale systems, digital marketing platforms, and other online resources to function efficiently and compete in the modern marketplace."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "point-of-sale systems",
+    "relation": "depend_on",
+    "value": "internet access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "internet-dependent point-of-sale systems"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "internet service disruptions",
+    "relation": "have_potential_to",
+    "value": "halt sales, interrupt customer service, and disrupt normal business operations, leading to lost revenue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet disruptions, therefore, have the potential to halt sales, interrupt customer service, and disrupt normal business operations, leading to lost revenue and, in some cases, long-term damage to a business's reputation."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "internet outages",
+    "relation": "can_cause",
+    "value": "long-term damage to a business's reputation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in some cases, long-term damage to a business's reputation"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "internet outages",
+    "relation": "financial_toll_can_be",
+    "value": "significant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial toll of internet outages on small businesses can be significant."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Aarav Patel",
+    "relation": "owns",
+    "value": "a small e-commerce store specializing in artisanal home goods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another case in point is that of Aarav Patel, who owns a small e-commerce store specializing in artisanal home goods."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Aarav Patel",
+    "relation": "experienced",
+    "value": "outage on October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Aarav experienced an outage on October 3, 2023, that lasted several hours."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "outage on October 3, 2023",
+    "relation": "lasted",
+    "value": "several hours",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Aarav experienced an outage on October 3, 2023, that lasted several hours."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "outage on October 3, 2023",
+    "relation": "resulted_in",
+    "value": "an estimated loss of $3,000 in unrecoverable sales",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Those hours without internet resulted in an estimated loss of $3,000 in unrecoverable sales."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "outage on October 3, 2023",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "verbatim": [
+     "Those hours without internet resulted in an estimated loss of $3,000 in unrecoverable sales."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "small businesses",
+    "relation": "losses_can_affect",
+    "value": "overall sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For small businesses operating on tight margins, such losses are not trivial and can affect their overall sustainability."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "small businesses",
+    "relation": "should_develop",
+    "value": "contingency plans to mitigate the impact of unexpected internet outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is essential for small businesses to develop contingency plans to mitigate the impact of unexpected internet outages."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Identify Your Business-Critical Operations",
+    "relation": "advises",
+    "value": "identify which parts of your business depend most heavily on internet access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Before an outage occurs, identify which parts of your business depend most heavily on internet access."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Identify Your Business-Critical Operations",
+    "relation": "example",
+    "value": "a lack of internet could prevent customers from placing orders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For example, if you have an online store, a lack of internet could prevent customers from placing orders."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Identify Your Business-Critical Operations",
+    "relation": "allows",
+    "value": "prioritizing and creating more targeted backup solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing which operations are most at risk allows you to prioritize and create more targeted backup solutions."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Establish Offline Solutions",
+    "relation": "advises",
+    "value": "explore offline solutions that can keep your business operational during an outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For crucial tasks that require internet access, explore offline solutions that can keep your business operational during an outage."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Establish Offline Solutions",
+    "relation": "may_include",
+    "value": "a manual method for tracking sales, inventory, or customer information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This might include having a manual method for tracking sales, inventory, or customer information."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Establish Offline Solutions",
+    "relation": "can_keep_operating",
+    "value": "the wheels turning until service is restored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While not as efficient as online systems, an offline protocol can keep the wheels turning until service is restored."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Invest in Redundant Internet Connections",
+    "relation": "advises",
+    "value": "invest in a secondary internet connection from a different provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If possible, invest in a secondary internet connection from a different provider."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Invest in Redundant Internet Connections",
+    "relation": "provides",
+    "value": "a safety net in case of an outage with your primary service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This can provide a safety net in case of an outage with your primary service."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jamie Lopez",
+    "relation": "owns",
+    "value": "a local coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A local coffee shop owner, Jamie Lopez, had a secondary mobile hotspot in place for such occasions."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jamie Lopez",
+    "relation": "had",
+    "value": "a secondary mobile hotspot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A local coffee shop owner, Jamie Lopez, had a secondary mobile hotspot in place for such occasions."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "lost its primary internet connection on September 20, 2023",
+    "relation": "involved",
+    "value": "Jamie Lopez's store",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "When her store lost its primary internet connection on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jamie Lopez",
+    "relation": "activated",
+    "value": "her hotspot",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she activated her hotspot, allowing customers to continue enjoying free Wi-Fi while she carried out necessary backend tasks."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jamie Lopez",
+    "relation": "provided_customers",
+    "value": "free Wi-Fi",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "allowing customers to continue enjoying free Wi-Fi"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Train Your Staff",
+    "relation": "advises",
+    "value": "make sure employees are trained to handle internet outages by understanding the contingency plans and knowing how to implement them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Make sure your employees are trained to handle internet outages by understanding the contingency plans and knowing how to implement them."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Train Your Staff",
+    "relation": "includes",
+    "value": "verifying that everyone knows how to use backup systems and whom to contact for further instructions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes verifying that everyone knows how to use backup systems and whom to contact for further instructions."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Backup Your Data Regularly",
+    "relation": "advises",
+    "value": "back up important data so you can access it during an internet outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regularly back up important data so you can access it during an internet outage."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "cloud services",
+    "relation": "offer",
+    "value": "offline modes or sync features that allow access to essential documents even without an internet connection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloudbased services often offer offline modes or sync features that allow for access to essential documents even without an internet connection"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Denver",
+    "relation": "hosts",
+    "value": "a small law firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as experienced by a small law firm in Denver"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "lost their connection on November 1, 2023",
+    "relation": "involved",
+    "value": "a small law firm in Denver",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "When they lost their connection on November 1, 2023, their recent data backups ensured no critical case information was out of reach."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Backup Your Data Regularly",
+    "relation": "ensured",
+    "value": "no critical case information was out of reach",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "their recent data backups ensured no critical case information was out of reach."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Communicate with Customers",
+    "relation": "advises",
+    "value": "communication with customers about an internet outage can help manage expectations and maintain trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Effective communication with customers about an internet outage can help manage expectations and maintain trust."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Communicate with Customers",
+    "relation": "advises",
+    "value": "use alternative channels such as text messages or social media to explain the situation and provide estimates of when issues are expected to be resolved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Use alternative channels, such as text messages or social media (from your mobile device), to explain the situation and provide estimates of when you expect to have issues resolved."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Take Advantage of Mobile Technologies",
+    "relation": "states",
+    "value": "smartphones and tablets can often connect to the internet via cellular networks when traditional broadband services are down",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smartphones and tablets can often connect to the internet via cellular networks when traditional broadband services are down."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Steve Thompson",
+    "relation": "owns",
+    "value": "an independent bookshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steve Thompson, an independent bookshop owner, utilized his smartphone to process credit card transactions during an outage on October 28, 2023, ensuring that sales continued without interruption."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Steve Thompson",
+    "relation": "utilized",
+    "value": "his smartphone to process credit card transactions",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "utilized his smartphone to process credit card transactions during an outage on October 28, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "outage on October 28, 2023",
+    "relation": "occurred_on",
+    "value": "October 28, 2023",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during an outage on October 28, 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Steve Thompson",
+    "relation": "ensured",
+    "value": "sales continued without interruption",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "ensuring that sales continued without interruption."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Steve Thompson",
+    "relation": "results_in",
+    "value_ref": "c52",
+    "verbatim": [
+     "utilized his smartphone to process credit card transactions during an outage on October 28, 2023, ensuring that sales continued without interruption."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Regularly Review and Update Your Outage Plan",
+    "relation": "states",
+    "value": "internet technologies and the needs of your business change over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet technologies and the needs of your business change over time."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Regularly Review and Update Your Outage Plan",
+    "relation": "advises",
+    "value": "regularly review and update outage contingency plan to reflect current operations and technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Make sure to regularly review and update your outage contingency plan to reflect current operations and technologies."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Maintain an Emergency Fund",
+    "relation": "can_help",
+    "value": "weather the storm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Establishing a financial cushion to cover unexpected losses during interruptions, like internet outages, can help your business weather the storm."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Maintain an Emergency Fund",
+    "relation": "covers_expenses_such_as",
+    "value": "rent, utilities, and salaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This emergency fund can be used to cover expenses that do not stop just because your internet service has, such as rent, utilities, and salaries."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "small businesses",
+    "relation": "can_handle_disruptions_with",
+    "value": "resilience, maintaining operations and minimizing financial losses until connectivity is restored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a wellconsidered plan in place, small businesses can position themselves to handle internet disruptions with resilience, maintaining operations and minimizing financial losses until connectivity is restored."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "internet outages",
+    "relation": "can_be",
+    "value": "disruptive and costly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet outages, while they can be disruptive and costly, don't have to be devastating."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,592 @@
+{
+ "inventory": [
+  "Mayor Emily Rosario",
+  "Charge Up campaign",
+  "City Environmental Taskforce",
+  "Dr. Alan Turing",
+  "Green Lung Project",
+  "electric vehicles (EVs)",
+  "nitrogen oxide",
+  "city limits",
+  "Department of City Transportation",
+  "Commissioner Sofia Mendez",
+  "Carpool Incentive Program",
+  "peak hour traffic congestion",
+  "major thoroughfares",
+  "live traffic dashboards",
+  "Last Mile Commute initiative",
+  "City Council",
+  "e-bike and scooter sharing services",
+  "Micro-Mobility Monitor",
+  "taxis and ride-hailing services",
+  "Rapid Urban Transit Network",
+  "Transit Tracker",
+  "downtown",
+  "City Planning Commission",
+  "Annual Economic Indicators Report",
+  "Chief Economist Dr. Lily Jacobs",
+  "Social Impact and Environmental Study",
+  "small business districts",
+  "under-served areas"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "electric vehicles (EVs)",
+    "relation": "usage_increase",
+    "value": "30% uptick",
+    "time": "since October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Data acquired since October 2023 indicate a 30% uptick in the usage of electric vehicles (EVs) within city limits."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "city limits",
+    "relation": "contains_usage_of",
+    "value": "electric vehicles (EVs)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 30% uptick in the usage of electric vehicles (EVs) within city limits"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Charge Up campaign",
+    "relation": "launched_by",
+    "value": "Mayor Emily Rosario",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the \u2018Charge Up\u2019 campaign launched by Mayor Emily Rosario on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mayor Emily Rosario",
+    "relation": "launched",
+    "value": "Charge Up campaign",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the \u2018Charge Up\u2019 campaign launched by Mayor Emily Rosario on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Charge Up campaign",
+    "relation": "resulted_in",
+    "value": "installation of fifty new EV charging stations across the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which saw the installation of fifty new EV charging stations across the city"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "electric vehicles (EVs)",
+    "relation": "attributed_to",
+    "value_ref": "c3",
+    "verbatim": [
+     "This can be attributed to the initiatives led by local authorities in concert with environmental organizations, such as the \u2018Charge Up\u2019 campaign"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "City Environmental Taskforce",
+    "relation": "spearheaded_by",
+    "value": "Dr. Alan Turing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to findings by the City Environmental Taskforce, spearheaded by Dr. Alan Turing"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Alan Turing",
+    "relation": "spearheads",
+    "value": "City Environmental Taskforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to findings by the City Environmental Taskforce, spearheaded by Dr. Alan Turing"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "nitrogen oxide",
+    "relation": "level_decline",
+    "value": "12% decline",
+    "time": "since November 2023",
+    "speaker": "City Environmental Taskforce",
+    "verbatim": [
+     "there's been a 12% decline in nitrogen oxide levels, a common pollutant associated with vehicle emissions, since November 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "nitrogen oxide",
+    "relation": "described_as",
+    "value": "a common pollutant associated with vehicle emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a common pollutant associated with vehicle emissions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Green Lung Project",
+    "relation": "applies",
+    "value": "big data analysis to environmental monitoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The \u2018Green Lung Project\u2019, applying big data analysis to environmental monitoring, visualizes these improvements in real-time"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Green Lung Project",
+    "relation": "visualizes",
+    "value": "these improvements in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "visualizes these improvements in real-time"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Carpool Incentive Program",
+    "relation": "introduced_in",
+    "value": "December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "the government's Carpool Incentive Program introduced in December 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Carpool Incentive Program",
+    "relation": "introduced_by",
+    "value": "the government",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the government's Carpool Incentive Program introduced in December 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Carpool Incentive Program",
+    "relation": "spurred_citizens_to",
+    "value": "opting for public transit or carpooling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With more citizens opting for public transit or carpooling, spurred by the government's Carpool Incentive Program"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Department of City Transportation",
+    "relation": "led_by",
+    "value": "Commissioner Sofia Mendez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Department of City Transportation, led by Commissioner Sofia Mendez, shared a comprehensive traffic analysis"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Commissioner Sofia Mendez",
+    "relation": "leads",
+    "value": "Department of City Transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Department of City Transportation, led by Commissioner Sofia Mendez, shared a comprehensive traffic analysis"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Department of City Transportation",
+    "relation": "shared",
+    "value": "a comprehensive traffic analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared a comprehensive traffic analysis that illustrates a 15% decrease in peak hour traffic congestion"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "peak hour traffic congestion",
+    "relation": "decreased_by",
+    "value": "15%",
+    "time": null,
+    "speaker": "Department of City Transportation",
+    "verbatim": [
+     "a 15% decrease in peak hour traffic congestion"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "major thoroughfares",
+    "relation": "improved",
+    "value": "average speeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing not just reduced vehicle density but also improved average speeds on major thoroughfares"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "live traffic dashboards",
+    "relation": "belongs_to",
+    "value": "Department of City Transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the department's live traffic dashboards"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "live traffic dashboards",
+    "relation": "became",
+    "value": "a go-to tool for residents plotting their daily commutes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which have become a go-to tool for residents plotting their daily commutes"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Last Mile Commute initiative",
+    "relation": "launched_by",
+    "value": "City Council",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The launch of the \u2018Last Mile Commute\u2019 initiative by City Council on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "City Council",
+    "relation": "launched",
+    "value": "Last Mile Commute initiative",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The launch of the \u2018Last Mile Commute\u2019 initiative by City Council on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "e-bike and scooter sharing services",
+    "relation": "proliferated",
+    "value": "a proliferation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a proliferation of e-bike and scooter sharing services"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Last Mile Commute initiative",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "verbatim": [
+     "The launch of the \u2018Last Mile Commute\u2019 initiative by City Council on September 20, 2023, has seen a proliferation of e-bike and scooter sharing services."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "e-bike and scooter sharing services",
+    "relation": "filled",
+    "value": "a critical gap in the transportation network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These programs have filled a critical gap in the transportation network, particularly for those traveling short distances."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "e-bike and scooter sharing services",
+    "relation": "rides_logged",
+    "value": "over 300,000 rides",
+    "time": "in the first quarter since their introduction",
+    "speaker": null,
+    "verbatim": [
+     "which indicates over 300,000 rides logged in the first quarter since their introduction"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "e-bike and scooter sharing services",
+    "relation": "contributes_to",
+    "value": "reducing vehicular traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The contribution to reducing vehicular traffic is substantiated by the sharing services' user data"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Micro-Mobility Monitor",
+    "relation": "is_a",
+    "value": "a quarterly report issued by economic analysts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quarterly report issued by economic analysts"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Micro-Mobility Monitor",
+    "relation": "highlighted",
+    "value": "a 3% decline in revenues for traditional transport methods such as taxis and ride-hailing services",
+    "time": null,
+    "speaker": "economic analysts",
+    "verbatim": [
+     "highlighted a 3% decline in revenues for traditional transport methods such as taxis and ride-hailing services"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "taxis and ride-hailing services",
+    "relation": "revenue_decline",
+    "value": "3%",
+    "time": null,
+    "speaker": "Micro-Mobility Monitor",
+    "verbatim": [
+     "a 3% decline in revenues for traditional transport methods such as taxis and ride-hailing services"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "small business districts",
+    "relation": "reported",
+    "value": "a shift in traffic patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small business districts also report a shift in traffic patterns"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Rapid Urban Transit Network",
+    "relation": "introduced_on",
+    "value": "October 14, 2023",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The introduction of the Rapid Urban Transit Network (RUN) on October 14, 2023, marked a major milestone"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Rapid Urban Transit Network",
+    "relation": "marked",
+    "value": "a major milestone",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The introduction of the Rapid Urban Transit Network (RUN) on October 14, 2023, marked a major milestone"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Rapid Urban Transit Network",
+    "relation": "ridership_increase",
+    "value": "22%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The RUN system\u2019s effective service and scheduling have been credited with a 22% increase in public transit ridership."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Rapid Urban Transit Network",
+    "relation": "credited_to",
+    "value": "effective service and scheduling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The RUN system\u2019s effective service and scheduling have been credited with a 22% increase in public transit ridership."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Rapid Urban Transit Network",
+    "relation": "results_in",
+    "value_ref": "c36",
+    "verbatim": [
+     "effective service and scheduling have been credited with a 22% increase in public transit ridership"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Transit Tracker",
+    "relation": "is",
+    "value": "digital platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "made public through the \u2018Transit Tracker\u2019 digital platform"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Transit Tracker",
+    "relation": "made_public",
+    "value": "This transit network's data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This transit network\u2019s data, made public through the \u2018Transit Tracker\u2019 digital platform"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "under-served areas",
+    "relation": "increased_accessibility",
+    "value": "increased accessibility to previously under-served areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shows increased accessibility to previously under-served areas"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "downtown",
+    "relation": "linked_to",
+    "value": "job markets and amenities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "linking peripheral neighborhoods to downtown job markets and amenities"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "City Planning Commission",
+    "relation": "study_shows",
+    "value": "can even affect property values and rental markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as shown in the City Planning Commission\u2019s recent study, can even affect property values and rental markets"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Annual Economic Indicators Report",
+    "relation": "released_in",
+    "value": "February 2024",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'Annual Economic Indicators Report,\u2019 released in February 2024 by Chief Economist Dr. Lily Jacobs"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Annual Economic Indicators Report",
+    "relation": "released_by",
+    "value": "Chief Economist Dr. Lily Jacobs",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'Annual Economic Indicators Report,\u2019 released in February 2024 by Chief Economist Dr. Lily Jacobs"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Chief Economist Dr. Lily Jacobs",
+    "relation": "released",
+    "value": "Annual Economic Indicators Report",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'Annual Economic Indicators Report,\u2019 released in February 2024 by Chief Economist Dr. Lily Jacobs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Annual Economic Indicators Report",
+    "relation": "pinpoints",
+    "value": "a drop in consumer spending on transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pinpoints a drop in consumer spending on transportation"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Annual Economic Indicators Report",
+    "relation": "reduction_in_average_household_transport_outgoings",
+    "value": "18%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the average household\u2019s transport-related outgoings reducing by 18%."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Social Impact and Environmental Study",
+    "relation": "published_in",
+    "value": "March 2024",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'Social Impact and Environmental Study' of March 2024 highlights"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Social Impact and Environmental Study",
+    "relation": "highlights",
+    "value": "a predicted longevity benefit from cleaner air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlights not just a predicted longevity benefit from cleaner air"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Social Impact and Environmental Study",
+    "relation": "highlights",
+    "value": "an enhancement in community interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also an enhancement in community interaction, with public spaces becoming more vibrant and inclusive thanks to improved accessibility"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

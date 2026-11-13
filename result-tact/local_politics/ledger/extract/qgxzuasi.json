@@ -1,0 +1,816 @@
+{
+ "inventory": [
+  "Greendale",
+  "Greendale's City Hall",
+  "Public Works Department",
+  "Geraldine Clarkson",
+  "Walter Higgins",
+  "Olivia Roberts",
+  "Harold Bentley",
+  "Lisa Jameson",
+  "predictive maintenance",
+  "Raj Patel",
+  "asset management system",
+  "Angela Thompson",
+  "rainwater harvesting program",
+  "Peter Sanchez",
+  "Sophia Castellanos",
+  "Sustainable Public Asset Initiative (SPAI)",
+  "tree-planting campaign",
+  "Emily Rodriguez",
+  "Access for All audit",
+  "Greendale Public Works Academy",
+  "Tom Walters",
+  "Greendale's pond",
+  "recycling programs",
+  "energy-efficient street lighting",
+  "solar panels",
+  "LED bulbs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Greendale's City Hall",
+    "relation": "completed_on",
+    "value": "September 4, 2023",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the completion of Greendale\u2019s City Hall on September 4, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Public Works Department",
+    "relation": "established_in",
+    "value": "early 1950s",
+    "time": "early 1950s",
+    "speaker": null,
+    "verbatim": [
+     "It was in the early 1950s when the first Public Works Department saw the light in Greendale."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Geraldine Clarkson",
+    "relation": "held_office",
+    "value": "then-Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the eye of then-Mayor Geraldine Clarkson"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Greendale",
+    "relation": "committed_to",
+    "value": "the upkeep of its infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the town committed itself to the upkeep of its infrastructure"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Greendale",
+    "relation": "paved_way_for",
+    "value": "fresh tar paved the way for bicycles and Ford Model Ts alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fresh tar paved the way for bicycles and Ford Model Ts alike"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Greendale's pond",
+    "relation": "planted_around",
+    "value": "the first willows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the planting of the first willows around Greendale's pond"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Greendale",
+    "relation": "vision",
+    "value": "to create lasting public assets that would withstand the test of time and serve the community for generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The vision was clear: to create lasting public assets that would withstand the test of time and serve the community for generations."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Public Works Department",
+    "relation": "doubled_in_size",
+    "value": "doubled in size",
+    "time": "1960s",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to the 1960s, and the department had doubled in size."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Walter Higgins",
+    "relation": "became_synonymous_with",
+    "value": "progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Walter Higgins and Olivia Roberts became synonymous with progress"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Walter Higgins",
+    "relation": "led_teams_laying",
+    "value": "leading teams of workers who laid down the sewer lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading teams of workers who laid down the sewer lines still used to this day"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Olivia Roberts",
+    "relation": "became_synonymous_with",
+    "value": "progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Walter Higgins and Olivia Roberts became synonymous with progress"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Olivia Roberts",
+    "relation": "led_teams_laying",
+    "value": "leading teams of workers who laid down the sewer lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading teams of workers who laid down the sewer lines still used to this day"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Harold Bentley",
+    "relation": "advocated",
+    "value": "cleaner air and the preservation of Greendale\u2019s green spaces",
+    "time": "The '70s",
+    "speaker": null,
+    "verbatim": [
+     "residents like Harold Bentley advocating for cleaner air and the preservation of Greendale\u2019s green spaces"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "recycling programs",
+    "relation": "introduced_in",
+    "value": "the '70s",
+    "time": "The '70s",
+    "speaker": null,
+    "verbatim": [
+     "with the introduction of recycling programs"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "energy-efficient street lighting",
+    "relation": "transitioned_to",
+    "value": "the '70s",
+    "time": "The '70s",
+    "speaker": null,
+    "verbatim": [
+     "the transition to energy-efficient street lighting"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Greendale",
+    "relation": "characterized_by",
+    "value": "fiscal austerity",
+    "time": "The 1980s",
+    "speaker": null,
+    "verbatim": [
+     "The 1980s were characterized by fiscal austerity"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Greendale",
+    "relation": "necessitated",
+    "value": "cost-effective maintenance solutions",
+    "time": "The 1980s",
+    "speaker": null,
+    "verbatim": [
+     "necessitating the need for cost-effective maintenance solutions"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Lisa Jameson",
+    "relation": "occupation",
+    "value": "A young economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A young economist, Lisa Jameson"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Lisa Jameson",
+    "relation": "introduced",
+    "value": "predictive maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A young economist, Lisa Jameson, introduced predictive maintenance to the city's practices"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "predictive maintenance",
+    "relation": "mechanism",
+    "value": "analyzing data and identifying trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing data and identifying trends"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Greendale",
+    "relation": "could_prioritize",
+    "value": "repairs before breakdowns occurred",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greendale could now prioritize repairs before breakdowns occurred"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "predictive maintenance",
+    "relation": "extends_lifespan_of",
+    "value": "public assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "markedly extending the lifespan of public assets"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "predictive maintenance",
+    "relation": "saves",
+    "value": "thousands in potential emergency repairs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "saving the city thousands in potential emergency repairs"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "predictive maintenance",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing data and identifying trends, Greendale could now prioritize repairs before breakdowns occurred, markedly extending the lifespan of public assets"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Public Works Department",
+    "relation": "incorporated",
+    "value": "innovative computerized systems",
+    "time": "the 1990s",
+    "speaker": null,
+    "verbatim": [
+     "Greendale's Public Works incorporated innovative computerized systems"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Raj Patel",
+    "relation": "role",
+    "value": "inaugural Director of Technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The inaugural Director of Technology,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Raj Patel",
+    "relation": "spearheaded",
+    "value": "an asset management system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped spearhead an asset management system"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "asset management system",
+    "relation": "cataloged",
+    "value": "every mile of road, every park bench, and every public building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cataloged every mile of road, every park bench, and every public building"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Public Works Department",
+    "relation": "digitalization_enabled",
+    "value": "a level of precision in maintenance that was unprecedented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This digitalization enabled a level of precision in maintenance that was unprecedented"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Public Works Department",
+    "relation": "ensured",
+    "value": "resources were used optimally and assets were maintained with meticulous accuracy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring resources were used optimally and assets were maintained with meticulous accuracy"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Greendale",
+    "relation": "committed_to",
+    "value": "renewable energy",
+    "time": "The turn of the millennium",
+    "speaker": null,
+    "verbatim": [
+     "The turn of the millennium brought with it a commitment to renewable energy"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Greendale",
+    "relation": "challenge",
+    "value": "reduce the city's carbon footprint",
+    "time": "The turn of the millennium",
+    "speaker": null,
+    "verbatim": [
+     "the challenge to reduce the city's carbon footprint"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "solar panels",
+    "relation": "appeared_on",
+    "value": "the roofs of public buildings",
+    "time": "The turn of the millennium",
+    "speaker": null,
+    "verbatim": [
+     "Solar panels appeared on the roofs of public buildings"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "LED bulbs",
+    "relation": "lit_up",
+    "value": "the streets",
+    "time": "The turn of the millennium",
+    "speaker": null,
+    "verbatim": [
+     "LED bulbs lit up the streets"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Angela Thompson",
+    "relation": "role",
+    "value": "The Parks and Recreation Head",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Parks and Recreation Head, Angela Thompson"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Angela Thompson",
+    "relation": "transformed",
+    "value": "the city\u2019s greenery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed the city\u2019s greenery"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Angela Thompson",
+    "relation": "incorporated",
+    "value": "drought-resistant plant varieties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating drought-resistant plant varieties"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Angela Thompson",
+    "relation": "mechanism_of",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed the city\u2019s greenery by incorporating drought-resistant plant varieties"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Angela Thompson",
+    "relation": "initiated",
+    "value": "a rainwater harvesting program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "initiating a rainwater harvesting program for irrigation purposes"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "rainwater harvesting program",
+    "relation": "purpose",
+    "value": "irrigation purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "initiating a rainwater harvesting program for irrigation purposes"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Greendale",
+    "relation": "narrative_present_date",
+    "value": "September 18, 2023",
+    "time": "today, September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to today, September 18, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Peter Sanchez",
+    "relation": "role",
+    "value": "The current Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The current Mayor, Peter Sanchez"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sophia Castellanos",
+    "relation": "role",
+    "value": "the Director of Public Works",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Director of Public Works, Sophia Castellanos"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sustainable Public Asset Initiative (SPAI)",
+    "relation": "unveiled_by",
+    "value": "Peter Sanchez together with Sophia Castellanos",
+    "time": "today, September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The current Mayor, Peter Sanchez, together with the Director of Public Works, Sophia Castellanos, has just unveiled the Sustainable Public Asset Initiative (SPAI)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sustainable Public Asset Initiative (SPAI)",
+    "relation": "involves",
+    "value": "projects to retrofit old buildings with green technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "projects are underway to retrofit old buildings with green technologies"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sustainable Public Asset Initiative (SPAI)",
+    "relation": "effect",
+    "value": "reducing energy consumption and operational costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing energy consumption and operational costs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sustainable Public Asset Initiative (SPAI)",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "projects are underway to retrofit old buildings with green technologies, reducing energy consumption and operational costs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Greendale",
+    "relation": "priority",
+    "value": "climate resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climate resilience is a top priority for Greendale's public asset maintenance plan"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Public Works Department",
+    "relation": "adopted",
+    "value": "an aggressive tree-planting campaign",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public Works has adopted an aggressive tree-planting campaign"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "tree-planting campaign",
+    "relation": "purpose",
+    "value": "combat urban heat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to combat urban heat"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Public Works Department",
+    "relation": "in_order_to",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public Works has adopted an aggressive tree-planting campaign to combat urban heat"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "tree-planting campaign",
+    "relation": "trees_planted",
+    "value": "over 10,000 trees",
+    "time": "just this past year",
+    "speaker": null,
+    "verbatim": [
+     "with over 10,000 trees planted just this past year"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "tree-planting campaign",
+    "relation": "trees_cataloged_in",
+    "value": "a digital inventory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each tree is cataloged in a digital inventory"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "tree-planting campaign",
+    "relation": "species_location_basis",
+    "value": "maximizing ecological benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "species selection and location based on maximizing ecological benefits"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Greendale",
+    "relation": "commitment_to",
+    "value": "canopy coverage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unwavering commitment to Greendale\u2019s canopy coverage"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Greendale",
+    "relation": "long_standing_value",
+    "value": "environmental stewardship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a testament to the town's long-standing value of environmental stewardship"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Greendale",
+    "relation": "upkeep_includes",
+    "value": "accessibility, not simply aesthetics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "upkeep is not simply about aesthetics but also about accessibility"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Access for All audit",
+    "relation": "rolled_out_in",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 2023 saw the roll-out of the \"Access for All\" audit"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Access for All audit",
+    "relation": "led_by",
+    "value": "Emily Rodriguez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by community organizer Emily Rodriguez"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Emily Rodriguez",
+    "relation": "role",
+    "value": "community organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by community organizer Emily Rodriguez"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Access for All audit",
+    "relation": "assessed",
+    "value": "public buildings, parks, and transport for ADA compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her team of dedicated volunteers assessed public buildings, parks, and transport for ADA compliance"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Access for All audit",
+    "relation": "purpose",
+    "value": "ensuring that Greendale's asset maintenance programs cater to citizens from all walks of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that Greendale's asset maintenance programs cater to citizens from all walks of life"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Access for All audit",
+    "relation": "results_in",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her team of dedicated volunteers assessed public buildings, parks, and transport for ADA compliance, ensuring that Greendale's asset maintenance programs cater to citizens from all walks of life"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Greendale",
+    "relation": "investment_in",
+    "value": "the youth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Greendale looks towards the future, investment in the youth paves the way for continued excellence in public works maintenance"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Greendale Public Works Academy",
+    "relation": "scheduled_to_open",
+    "value": "the fall of 2024",
+    "time": "the fall of 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Greendale Public Works Academy, set to open in the fall of 2024"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Greendale Public Works Academy",
+    "relation": "offers",
+    "value": "vocational training in trades related to public asset maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will offer vocational training in trades related to public asset maintenance"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Greendale Public Works Academy",
+    "relation": "championed_by",
+    "value": "Tom Walters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative, championed by local business leader Tom Walters"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Tom Walters",
+    "relation": "role",
+    "value": "local business leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "championed by local business leader Tom Walters"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Greendale Public Works Academy",
+    "relation": "aims_to",
+    "value": "instill a sense of civic pride and craftsmanship in the younger generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instill a sense of civic pride and craftsmanship in the younger generation"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Public Works Department",
+    "relation": "forging",
+    "value": "a path that combines the enduring legacy of infrastructure upkeep with modern-day sustainability efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Public Works Department is forging a path that combines the enduring legacy of infrastructure upkeep with modern-day sustainability efforts"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Greendale",
+    "relation": "blueprint",
+    "value": "balance of honoring the past while embracing innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The blueprint for Greendale's tomorrow lies in the balance of honoring the past while embracing innovation"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

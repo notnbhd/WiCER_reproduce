@@ -1,0 +1,581 @@
+{
+ "inventory": [
+  "Dr. Emily Farthington",
+  "Michael Richardson",
+  "Julianne Moore",
+  "Johnathan Castro",
+  "Jane Wilson",
+  "Alexei Petrov",
+  "St. Andrews Church",
+  "Town Hall",
+  "historic district",
+  "city's old opera house",
+  "local authorities",
+  "Drones for Dome",
+  "Photo Vault of Yesteryears",
+  "Light Detection and Ranging (LiDAR)",
+  "3D printing",
+  "virtual reality",
+  "robotics",
+  "digital twins",
+  "17th-century fountain",
+  "drones",
+  "heritage preservation"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local authorities",
+    "relation": "initiated",
+    "value": "a collaborative project aiming to conserve our architectural treasures through cutting-edge technologies",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "when local authorities initiated a collaborative project aiming to conserve our architectural treasures through cutting-edge technologies"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "heritage preservation",
+    "relation": "has_seen",
+    "value": "a monumental transformation",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the landscape of heritage preservation has seen a monumental transformation"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "historic district",
+    "relation": "has_feature",
+    "value": "cobblestone streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through the cobblestone streets of our historic district"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "heritage preservation",
+    "relation": "previously_meant",
+    "value": "scaffolding wrapping around ancient structures for years on end",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conservation meant scaffolding wrapping around ancient structures for years on end"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Emily Farthington",
+    "relation": "role",
+    "value": "a leader in architectural conservation tech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Farthington, a leader in architectural conservation tech"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Farthington",
+    "relation": "team_uses",
+    "value": "non-invasive techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her team is using non-invasive techniques that allow the bricks and stones to tell their own story without being touched by human hands"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Farthington",
+    "relation": "stated",
+    "value": "we're not only preserving the physical integrity of these structures but also the authenticity of the history they represent",
+    "time": null,
+    "speaker": "Dr. Emily Farthington",
+    "verbatim": [
+     "we're not only preserving the physical integrity of these structures but also the authenticity of the history they represent."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "drones",
+    "relation": "equipped_with",
+    "value": "high-resolution cameras and 3D scanning capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Drones, equipped with high-resolution cameras and 3D scanning capabilities"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "drones",
+    "relation": "can_reach",
+    "value": "places that are otherwise inaccessible",
+    "time": null,
+    "speaker": "Dr. Emily Farthington",
+    "verbatim": [
+     "These flying custodians, Dr. Farthington noted, can reach places that are otherwise inaccessible"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "drones",
+    "relation": "pinpoint",
+    "value": "areas in need of repair without the need for physical scaffolding",
+    "time": null,
+    "speaker": "Dr. Emily Farthington",
+    "verbatim": [
+     "pinpointing areas in need of repair without the need for physical scaffolding"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "St. Andrews Church",
+    "relation": "described_as",
+    "value": "centuries-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the centuries-old St. Andrews Church"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Drones for Dome",
+    "relation": "debut",
+    "value": "the debut of the campaign",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 12, 2023, marked the debut of the 'Drones for Dome' campaign"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Drones for Dome",
+    "relation": "deploys",
+    "value": "a swarm of drones to survey and map the oldest domes in our city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative deploying a swarm of drones to survey and map the oldest domes in our city"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "drones",
+    "relation": "data_accuracy",
+    "value": "accurate to the millimeter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not only accurate to the millimeter"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "digital twins",
+    "relation": "serve_as",
+    "value": "a foundation for restorations and future analyses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which serve as a foundation for restorations and future analyses"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "drones",
+    "relation": "data_used_for",
+    "value": "creating digital twins of these structures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invaluable for creating digital twins of these structures"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Light Detection and Ranging (LiDAR)",
+    "relation": "introduced",
+    "value": "the world of lasers and their role in conservation",
+    "time": "Later in November",
+    "speaker": null,
+    "verbatim": [
+     "Later in November, our exploration introduced us to the world of lasers"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Light Detection and Ranging (LiDAR)",
+    "relation": "full_name",
+    "value": "Light Detection and Ranging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a technique known as Light Detection and Ranging (LiDAR)"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Town Hall",
+    "relation": "described_as",
+    "value": "an imposing edifice marred by pollution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an imposing edifice marred by pollution"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michael Richardson",
+    "relation": "role",
+    "value": "a LiDAR technician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Richardson, a LiDAR technician"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michael Richardson",
+    "relation": "narrated",
+    "value": "precise laser beams illuminate the extent of decay without ever laying a finger on the surface",
+    "time": null,
+    "speaker": "Michael Richardson",
+    "verbatim": [
+     "precise laser beams illuminate the extent of decay without ever laying a finger on the surface"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Light Detection and Ranging (LiDAR)",
+    "relation": "offers",
+    "value": "a peek into history",
+    "time": null,
+    "speaker": "Michael Richardson",
+    "verbatim": [
+     "The laser scans offer us a peek into history"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Light Detection and Ranging (LiDAR)",
+    "relation": "described_as",
+    "value": "like having X-ray vision",
+    "time": null,
+    "speaker": "Michael Richardson",
+    "verbatim": [
+     "It's like having X-ray vision"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Julianne Moore",
+    "relation": "role",
+    "value": "an architect specializing in historical reconstruction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julianne Moore, an architect specializing in historical reconstruction"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Julianne Moore",
+    "relation": "unveiled",
+    "value": "the replica of a 17th-century fountain",
+    "time": "December 5",
+    "speaker": null,
+    "verbatim": [
+     "December 5 was another noteworthy date when Julianne Moore, an architect specializing in historical reconstruction, unveiled the replica of a 17th-century fountain"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "17th-century fountain",
+    "relation": "status",
+    "value": "lost to time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 17th-century fountain that had been lost to time"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "17th-century fountain",
+    "relation": "lost_due_to",
+    "value": "urbanization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The original, a victim of urbanization"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "17th-century fountain",
+    "relation": "survived_only_in",
+    "value": "etchings and memories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had only lived on in etchings and memories"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "3D printing",
+    "relation": "used_to_recreate",
+    "value": "the 17th-century fountain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through 3D printing, Moore and her team brought this forgotten masterpiece back to life"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "17th-century fountain",
+    "relation": "recreated_from",
+    "value": "scans of similar period pieces and historical records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using scans of similar period pieces and historical records to recreate the fountain stone by stone"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "17th-century fountain",
+    "relation": "caused_by",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 17th-century fountain that had been lost to time",
+     "The original, a victim of urbanization"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Julianne Moore",
+    "relation": "stated",
+    "value": "The technology lets us bridge the gap between past and present",
+    "time": null,
+    "speaker": "Julianne Moore",
+    "verbatim": [
+     "The technology lets us bridge the gap between past and present"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Julianne Moore",
+    "relation": "stated",
+    "value": "creating tangible connections to our heritage without exhausting resources or disrupting the fabric of remaining originals",
+    "time": null,
+    "speaker": "Julianne Moore",
+    "verbatim": [
+     "We're creating tangible connections to our heritage without exhausting resources or disrupting the fabric of remaining originals."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Johnathan Castro",
+    "relation": "role",
+    "value": "a local historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Castro, a local historian"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Johnathan Castro",
+    "relation": "announced",
+    "value": "the 'Photo Vault of Yesteryears' project",
+    "time": "February 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on February 3, 2024, Johnathan Castro, a local historian, announced the 'Photo Vault of Yesteryears' project"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Photo Vault of Yesteryears",
+    "relation": "announced_by",
+    "value": "Johnathan Castro",
+    "time": "February 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "announced the 'Photo Vault of Yesteryears' project"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Photo Vault of Yesteryears",
+    "relation": "requested",
+    "value": "old photographs, memories, and anecdotes of neighborhood landmarks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Castro's call to citizens to provide old photographs, memories, and anecdotes of neighborhood landmarks"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Photo Vault of Yesteryears",
+    "relation": "helped",
+    "value": "digital archivists piece together puzzles of the past that physical evidence alone could not reveal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped digital archivists piece together puzzles of the past that physical evidence alone could not reveal"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Photo Vault of Yesteryears",
+    "relation": "described_as",
+    "value": "a digital tapestry of collective memory",
+    "time": null,
+    "speaker": "Johnathan Castro",
+    "verbatim": [
+     "It's a digital tapestry of collective memory"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "virtual reality",
+    "relation": "launched",
+    "value": "an immersive virtual reality experience",
+    "time": "March",
+    "speaker": null,
+    "verbatim": [
+     "March heralded the launch of an immersive virtual reality experience"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jane Wilson",
+    "relation": "role",
+    "value": "the creative mind behind this initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Wilson, the creative mind behind this initiative"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "virtual reality",
+    "relation": "emphasized",
+    "value": "VR tools empower us to step into history, providing insights into the original use and state of historical structures",
+    "time": null,
+    "speaker": "Jane Wilson",
+    "verbatim": [
+     "emphasized how VR tools empower us to step into history, providing insights into the original use and state of historical structures"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "virtual reality",
+    "relation": "stated",
+    "value": "we're not just conservators; we're custodians of time",
+    "time": null,
+    "speaker": "Jane Wilson",
+    "verbatim": [
+     "we're not just conservators; we're custodians of time, offering people the chance to walk through history."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Alexei Petrov",
+    "relation": "role",
+    "value": "robotics engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "robotics engineer Alexei Petrov"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Alexei Petrov",
+    "relation": "demoed",
+    "value": "a robot performing delicate restoration work on the friezes adorning the city's old opera house",
+    "time": "On a windy day in April",
+    "speaker": null,
+    "verbatim": [
+     "On a windy day in April, robotics engineer Alexei Petrov demoed a robot performing delicate restoration work on the friezes adorning the city's old opera house"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "city's old opera house",
+    "relation": "adorned_with",
+    "value": "friezes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the friezes adorning the city's old opera house"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "robotics",
+    "relation": "precision",
+    "value": "unparalleled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The precision of these automated craftsmen is unparalleled"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "robotics",
+    "relation": "eliminates",
+    "value": "human error and fatigue",
+    "time": null,
+    "speaker": "Alexei Petrov",
+    "verbatim": [
+     "Robots eliminate human error and fatigue,"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "robotics",
+    "relation": "ensures",
+    "value": "longevity and sustainability",
+    "time": null,
+    "speaker": "Alexei Petrov",
+    "verbatim": [
+     "Their involvement ensures longevity and sustainability."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "heritage preservation",
+    "relation": "future_of",
+    "value": "the future of heritage conservation",
+    "time": null,
+    "speaker": "Alexei Petrov",
+    "verbatim": [
+     "This is the future of heritage conservation."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

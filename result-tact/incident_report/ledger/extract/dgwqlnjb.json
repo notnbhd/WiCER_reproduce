@@ -1,0 +1,903 @@
+{
+ "inventory": [
+  "Anna Lopez",
+  "Metro City",
+  "Metro City subway",
+  "Green Line",
+  "Michael Johnson",
+  "Central Station",
+  "Lisa Roberts",
+  "Elm Street",
+  "Highline Avenue",
+  "Red Line",
+  "Sarah Bentley",
+  "James Thompson",
+  "Daniela Ruiz",
+  "Sarah Kim",
+  "Greg Duval",
+  "control center",
+  "transit authorities",
+  "public transit system",
+  "new software",
+  "signaling system",
+  "tram tracks",
+  "subway tunnels",
+  "September disruptions",
+  "acts of God",
+  "neglected maintenance"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "public transit system",
+    "relation": "is_lifeblood_of",
+    "value": "modern cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public transit systems are the lifeblood of modern cities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "public transit system",
+    "relation": "moves",
+    "value": "millions of people daily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "moving millions of people daily to their jobs, homes, and social engagements"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "public transit system",
+    "relation": "delay_incidents_have",
+    "value": "surged",
+    "time": "In recent months",
+    "speaker": null,
+    "verbatim": [
+     "incidents causing public transportation delays have surged"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "September disruptions",
+    "relation": "started_on",
+    "value": "the morning of September 14th, 2023",
+    "time": "September 14th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It started on the morning of September 14th, 2023."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Anna Lopez",
+    "relation": "stepped_onto_platform_of",
+    "value": "the Metro City subway",
+    "time": "Wednesday",
+    "speaker": null,
+    "verbatim": [
+     "Anna Lopez thought it was just another Wednesday as she stepped onto the platform of the Metro City subway."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Anna Lopez",
+    "relation": "thought_it_was",
+    "value": "just another Wednesday",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Lopez thought it was just another Wednesday"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Anna Lopez",
+    "relation": "confidence_in_public_transit_was",
+    "value": "shaken",
+    "time": "by the end of the week",
+    "speaker": null,
+    "verbatim": [
+     "her confidence in the reliability of public transit had been shaken"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "signaling system",
+    "relation": "experienced",
+    "value": "a technical glitch",
+    "time": "On Monday, September 18th",
+    "speaker": null,
+    "verbatim": [
+     "On Monday, September 18th, a technical glitch in the signaling system of the Green Line caused trains to halt for hours."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Green Line",
+    "relation": "trains_halted_for",
+    "value": "hours",
+    "time": "On Monday, September 18th",
+    "speaker": null,
+    "verbatim": [
+     "caused trains to halt for hours"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "signaling system",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a technical glitch in the signaling system of the Green Line caused trains to halt for hours"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "new software",
+    "relation": "was_supposed_to",
+    "value": "streamline operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which was supposed to streamline operations"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "new software",
+    "relation": "proved_to_be",
+    "value": "a bug-riddled mess",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proved to be a bug-riddled mess"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "new software",
+    "relation": "caused",
+    "value": "frustration and delays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "causing frustration and delays"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "signaling system",
+    "relation": "malfunction_was_beginning_of",
+    "value": "a domino effect that rippled through the week",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This malfunction was the beginning of a domino effect that rippled through the week."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Central Station",
+    "relation": "suffered",
+    "value": "power failures",
+    "time": "Two days later",
+    "speaker": null,
+    "verbatim": [
+     "Two days later, power failures plagued the city's busiest interchange hub, Central Station"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Central Station",
+    "relation": "is",
+    "value": "the city's busiest interchange hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city's busiest interchange hub, Central Station"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Central Station",
+    "relation": "cause_of_power_failures",
+    "value": "outdated infrastructure failed to keep up with the demands of the increasingly packed trains during peak hours",
+    "time": "Two days later",
+    "speaker": null,
+    "verbatim": [
+     "as outdated infrastructure failed to keep up with the demands of the increasingly packed trains during peak hours"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Central Station",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": "Two days later",
+    "speaker": null,
+    "verbatim": [
+     "power failures plagued the city's busiest interchange hub, Central Station, as outdated infrastructure failed to keep up"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Michael Johnson",
+    "relation": "occupation",
+    "value": "Electrician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electrician Michael Johnson"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michael Johnson",
+    "relation": "pointed_out",
+    "value": "many of the city's systems were running on borrowed time",
+    "time": null,
+    "speaker": "Michael Johnson",
+    "verbatim": [
+     "Electrician Michael Johnson pointed out that many of the city's systems were"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michael Johnson",
+    "relation": "said_systems_relied_on",
+    "value": "quick fixes rather than benefiting from the major overhauls necessary for modern operation",
+    "time": null,
+    "speaker": "Michael Johnson",
+    "verbatim": [
+     "relying on quick fixes rather than benefiting from the major overhauls necessary for modern operation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "September disruptions",
+    "relation": "contributing_factor",
+    "value": "Human error",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Human error also contributed significantly to the disruptions."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "control center",
+    "relation": "miscommunicated_with",
+    "value": "the drivers",
+    "time": "On September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "miscommunication between the control center and the drivers"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "September disruptions",
+    "relation": "included",
+    "value": "several trains being dispatched to the same track",
+    "time": "On September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "several trains being dispatched to the same track"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "control center",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": "On September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "miscommunication between the control center and the drivers led to several trains being dispatched to the same track"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "September disruptions",
+    "relation": "caused_delays_of",
+    "value": "over two hours long",
+    "time": "On September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "caused delays over two hours long"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lisa Roberts",
+    "relation": "is",
+    "value": "a daily commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa Roberts, a daily commuter, recounted"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lisa Roberts",
+    "relation": "said",
+    "value": "It was terrifying",
+    "time": null,
+    "speaker": "Lisa Roberts",
+    "verbatim": [
+     "It was terrifying."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lisa Roberts",
+    "relation": "said_train_jolted_to_stop",
+    "value": "The train suddenly jolted to a stop, and everyone was thrown forward",
+    "time": null,
+    "speaker": "Lisa Roberts",
+    "verbatim": [
+     "The train suddenly jolted to a stop, and everyone was thrown forward."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Lisa Roberts",
+    "relation": "said_lack_of_communication_was",
+    "value": "the most frustrating part",
+    "time": null,
+    "speaker": "Lisa Roberts",
+    "verbatim": [
+     "The lack of communication throughout the ordeal was the most frustrating part."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lisa Roberts",
+    "relation": "said_did_not_know",
+    "value": "what was happening for so long",
+    "time": null,
+    "speaker": "Lisa Roberts",
+    "verbatim": [
+     "We didn't know what was happening for so long."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "public transit system",
+    "relation": "affected_by",
+    "value": "Unpredictable and extreme weather conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unpredictable and extreme weather conditions also played havoc with transportation services."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "subway tunnels",
+    "relation": "shutdowns_and_floodings_caused_by",
+    "value": "lightning strikes and heavy rain",
+    "time": "On a stormy Thursday",
+    "speaker": null,
+    "verbatim": [
+     "On a stormy Thursday, lightning strikes and heavy rain triggered emergency shutdowns and floodings in several subway tunnels"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "subway tunnels",
+    "relation": "had_emergency_shutdowns_and_floodings",
+    "value": "emergency shutdowns and floodings",
+    "time": "On a stormy Thursday",
+    "speaker": null,
+    "verbatim": [
+     "triggered emergency shutdowns and floodings in several subway tunnels"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "subway tunnels",
+    "relation": "added_to",
+    "value": "the growing frustration of commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adding to the growing frustration of commuters"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "tram tracks",
+    "relation": "had_fallen_tree_across",
+    "value": "a fallen tree",
+    "time": "that same week",
+    "speaker": null,
+    "verbatim": [
+     "a fallen tree across the tram tracks on Elm Street"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Elm Street",
+    "relation": "location_of_fallen_tree",
+    "value": "the tram tracks",
+    "time": "that same week",
+    "speaker": null,
+    "verbatim": [
+     "a fallen tree across the tram tracks on Elm Street"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Highline Avenue",
+    "relation": "location_of_water_main_break",
+    "value": "a water main break",
+    "time": "that same week",
+    "speaker": null,
+    "verbatim": [
+     "a water main break near Highline Avenue"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "September disruptions",
+    "relation": "caused",
+    "value": "unexpected and extensive delays",
+    "time": "that same week",
+    "speaker": null,
+    "verbatim": [
+     "caused unexpected and extensive delays"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "tram tracks",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": "that same week",
+    "speaker": null,
+    "verbatim": [
+     "a fallen tree across the tram tracks on Elm Street and a water main break near Highline Avenue caused unexpected and extensive delays"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "acts of God",
+    "relation": "disrupted",
+    "value": "the flow of people in a city that prided itself on efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These acts of God disrupted the flow of people in a city that prided itself on efficiency."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "neglected maintenance",
+    "relation": "is",
+    "value": "a pressing issue uncovered in the wake of these disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A pressing issue uncovered in the wake of these disruptions is the lack of regular maintenance."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "neglected maintenance",
+    "relation": "is_lack_of",
+    "value": "regular maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lack of regular maintenance"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "neglected maintenance",
+    "relation": "problems_spiraled_into",
+    "value": "fullfledged catastrophes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spiraled into fullfledged catastrophes"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Red Line",
+    "relation": "critical_bridge_condition",
+    "value": "close to structural failure",
+    "time": "On September 25th",
+    "speaker": null,
+    "verbatim": [
+     "On September 25th, during what was to be a routine maintenance night, an inspection revealed that a critical bridge on the city's Red Line was close to structural failure"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Red Line",
+    "relation": "required",
+    "value": "immediate and unforeseen service shutdowns for repairs",
+    "time": "On September 25th",
+    "speaker": null,
+    "verbatim": [
+     "necessitating immediate and unforeseen service shutdowns for repairs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Red Line",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": "On September 25th",
+    "speaker": null,
+    "verbatim": [
+     "an inspection revealed that a critical bridge on the city's Red Line was close to structural failure, necessitating immediate and unforeseen service shutdowns for repairs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sarah Bentley",
+    "relation": "is",
+    "value": "engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many, like engineer Sarah Bentley"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Sarah Bentley",
+    "relation": "lamented",
+    "value": "the shortterm approach to long-term infrastructure needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lamenting the shortterm approach to long-term infrastructure needs"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "neglected maintenance",
+    "relation": "is",
+    "value": "just storing up trouble",
+    "time": null,
+    "speaker": "Sarah Bentley",
+    "verbatim": [
+     "Neglected maintenance is just storing up trouble"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Sarah Bentley",
+    "relation": "said_lucky_to_have_caught_it_in_time",
+    "value": "We're lucky to have caught it in time",
+    "time": null,
+    "speaker": "Sarah Bentley",
+    "verbatim": [
+     "We're lucky to have caught it in time"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Sarah Bentley",
+    "relation": "said_consequences_could_have_been_worse",
+    "value": "the consequences could have been much worse",
+    "time": null,
+    "speaker": "Sarah Bentley",
+    "verbatim": [
+     "or the consequences could have been much worse"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "September disruptions",
+    "relation": "have",
+    "value": "real economic impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these disruptions have real economic impacts"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "James Thompson",
+    "relation": "is",
+    "value": "a freelance photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Thompson, a freelance photographer, missed"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "James Thompson",
+    "relation": "missed",
+    "value": "crucial assignments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "missed crucial assignments due to transit delays"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "James Thompson",
+    "relation": "missed_assignments_due_to",
+    "value": "transit delays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "missed crucial assignments due to transit delays"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "James Thompson",
+    "relation": "explained",
+    "value": "When the trains fail, my whole schedule collapses",
+    "time": null,
+    "speaker": "James Thompson",
+    "verbatim": [
+     "When the trains fail, my whole schedule collapses"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Daniela Ruiz",
+    "relation": "is",
+    "value": "Cafe owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cafe owner Daniela Ruiz reported"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Daniela Ruiz",
+    "relation": "reported",
+    "value": "Business dropped 40% on the days when the subway was down",
+    "time": null,
+    "speaker": "Daniela Ruiz",
+    "verbatim": [
+     "Business dropped 40% on the days when the subway was down"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Daniela Ruiz",
+    "relation": "said",
+    "value": "People just couldn't get to us",
+    "time": null,
+    "speaker": "Daniela Ruiz",
+    "verbatim": [
+     "People just couldn't get to us."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "public transit system",
+    "relation": "outages_affect",
+    "value": "mental health, work-life balance, and overall city morale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They affect mental health, work-life balance, and overall city morale."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Sarah Kim",
+    "relation": "is",
+    "value": "a regular commuter and mother of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a regular commuter and mother of two, expressed"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Sarah Kim",
+    "relation": "expressed",
+    "value": "the toll these disruptions take on family life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expressed the toll these disruptions take on family life"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sarah Kim",
+    "relation": "said_missed_milestones",
+    "value": "I've had to miss important milestones with my kids",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "I've had to miss important milestones with my kids"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Sarah Kim",
+    "relation": "said_stuck_on_train_or_bus",
+    "value": "stuck on a train or a bus due to some issue or another",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "because I've been stuck on a train or a bus due to some issue or another"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sarah Kim",
+    "relation": "caused_by",
+    "value_ref": "c65",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "I've had to miss important milestones with my kids because I've been stuck on a train or a bus due to some issue or another."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "It's heartbreaking",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "It's heartbreaking."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Metro City",
+    "relation": "is_at_crossroads",
+    "value": "a crossroads when it comes to managing and upgrading their aging transit systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities like Metro City are at a crossroads when it comes to managing and upgrading their aging transit systems."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "public transit system",
+    "relation": "investment_is_critical",
+    "value": "investment in new technologies, staff training, and robust infrastructure",
+    "time": null,
+    "speaker": "Experts",
+    "verbatim": [
+     "Experts suggest that investment in new technologies, staff training, and robust infrastructure is critical."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Greg Duval",
+    "relation": "is",
+    "value": "urban planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban planner Greg Duval insisted"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Greg Duval",
+    "relation": "said",
+    "value": "It's about forward-thinking and proactive management",
+    "time": null,
+    "speaker": "Greg Duval",
+    "verbatim": [
+     "It's about forward-thinking and proactive management"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Greg Duval",
+    "relation": "insisted",
+    "value": "We need smart systems that can adapt and respond to both predictable and unpredictable challenges",
+    "time": null,
+    "speaker": "Greg Duval",
+    "verbatim": [
+     "We need smart systems that can adapt and respond to both predictable and unpredictable challenges."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Anna Lopez",
+    "relation": "left_wondering_about",
+    "value": "the reliability of the transportation upon which they so heavily depend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commuters like Anna Lopez are left wondering about the reliability of the transportation upon which they so heavily depend."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Anna Lopez",
+    "relation": "waited_for",
+    "value": "her delayed train",
+    "time": "That final Friday evening",
+    "speaker": null,
+    "verbatim": [
+     "as she sat waiting for her delayed train"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Anna Lopez",
+    "relation": "considered",
+    "value": "the implications of a week riddled with interruptions",
+    "time": "That final Friday evening",
+    "speaker": null,
+    "verbatim": [
+     "Anna considered the implications of a week riddled with interruptions"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Anna Lopez",
+    "relation": "hoped",
+    "value": "the stories of inconvenience and uncertainty could act as a catalyst for change within the city's transit authorities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she hoped that the stories of inconvenience and uncertainty could act as a catalyst for change within the city's transit authorities"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "transit authorities",
+    "relation": "location_of_hoped_change",
+    "value": "the city's transit authorities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a catalyst for change within the city's transit authorities"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "public transit system",
+    "relation": "impacts",
+    "value": "lives and livelihoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it impacts lives and livelihoods"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "public transit system",
+    "relation": "hoped_to_see",
+    "value": "a smoother journey for all who rely on it",
+    "time": "future Septembers",
+    "speaker": null,
+    "verbatim": [
+     "the hope is that future Septembers will see a smoother journey for all who rely on it"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

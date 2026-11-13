@@ -1,0 +1,596 @@
+{
+ "inventory": [
+  "Mental Health Awareness Month",
+  "Emma Jacobs",
+  "Mrs. Linda Green",
+  "David Nguyen",
+  "local community groups",
+  "cognitive-behavioral therapy (CBT)",
+  "mindfulness practices",
+  "Marcus Brown",
+  "health insurance",
+  "online counseling sessions",
+  "sliding scale services",
+  "Public awareness campaigns",
+  "Jenna Kim",
+  "social media platform",
+  "local peer support group",
+  "Anthony Wallace",
+  "Sarah Martin",
+  "Alex Johnson",
+  "e-mental health services",
+  "Mia Chen",
+  "app for meditation and mood tracking",
+  "Nicolas Garcia",
+  "Dr. Rachel Stevenson",
+  "the local clinic"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mental Health Awareness Month",
+    "relation": "marked_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we mark Mental Health Awareness Month this October 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emma Jacobs",
+    "relation": "age",
+    "value": "Seventeen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old Emma Jacobs took this brave step"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emma Jacobs",
+    "relation": "confided_in",
+    "value": "a teacher",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old Emma Jacobs took this brave step on September 12, 2023, when she confided in a teacher about her ongoing battle with anxiety."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emma Jacobs",
+    "relation": "struggles_with",
+    "value": "anxiety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "about her ongoing battle with anxiety"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mrs. Linda Green",
+    "relation": "role",
+    "value": "school counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her teacher directed her to the school counselor, Mrs. Linda Green, who provided initial support and guidance on available treatments."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mrs. Linda Green",
+    "relation": "provided",
+    "value": "initial support and guidance on available treatments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who provided initial support and guidance on available treatments"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "David Nguyen",
+    "relation": "age",
+    "value": "Seventeen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old David Nguyen explored local community groups on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "David Nguyen",
+    "relation": "explored",
+    "value": "local community groups",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Seventeen-year-old David Nguyen explored local community groups on October 3, 2023, as a starting point."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local community groups",
+    "relation": "operate_in",
+    "value": "warm, casual settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He learned that these spaces often operate in warm, casual settings"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "local community groups",
+    "relation": "eases",
+    "value": "the pressure newcomers might feel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can ease the pressure newcomers might feel"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emma Jacobs",
+    "relation": "chose",
+    "value": "therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma chose therapy and found that cognitive-behavioral therapy (CBT) resonated with her coping style."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "cognitive-behavioral therapy (CBT)",
+    "relation": "resonated_with",
+    "value": "her coping style",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found that cognitive-behavioral therapy (CBT) resonated with her coping style"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "David Nguyen",
+    "relation": "supplemented_group_sessions_with",
+    "value": "mindfulness practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David supplemented group sessions with mindfulness practices."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Marcus Brown",
+    "relation": "age",
+    "value": "Sixteen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sixteen-year-old Marcus Brown tackled this conundrum head-on."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Marcus Brown",
+    "relation": "tackled",
+    "value": "this conundrum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sixteen-year-old Marcus Brown tackled this conundrum head-on."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Marcus Brown",
+    "relation": "consulted",
+    "value": "his family and a social worker",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By consulting with his family and a social worker on September 18, 2023, he discovered that his family\u2019s health insurance covered online counseling sessions,"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "health insurance",
+    "relation": "covered",
+    "value": "online counseling sessions",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "he discovered that his family\u2019s health insurance covered online counseling sessions,"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Marcus Brown",
+    "relation": "mechanism_of",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By consulting with his family and a social worker on September 18, 2023, he discovered that his family\u2019s health insurance covered online counseling sessions,"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "online counseling sessions",
+    "relation": "described_as",
+    "value": "an economical and convenient option that suited his needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which was an economical and convenient option that suited his needs."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "sliding scale services",
+    "relation": "offer_relief_to",
+    "value": "those without comprehensive insurance coverage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs and sliding scale services can offer relief for those without comprehensive insurance coverage."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Public awareness campaigns",
+    "relation": "held_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Public awareness campaigns, like the one held on September 25, 2023, highlight these alternatives"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Public awareness campaigns",
+    "relation": "highlight",
+    "value": "these alternatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public awareness campaigns, like the one held on September 25, 2023, highlight these alternatives"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Public awareness campaigns",
+    "relation": "emphasize",
+    "value": "financial barriers should not be a dead-end",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasize that financial barriers should not be a dead-end."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jenna Kim",
+    "relation": "age",
+    "value": "18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenna Kim, aged 18, used her social media platform"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jenna Kim",
+    "relation": "used",
+    "value": "social media platform",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jenna Kim, aged 18, used her social media platform on October 10, 2023, to share her experiences with a local peer support group."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jenna Kim",
+    "relation": "shared_experiences_with",
+    "value": "local peer support group",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jenna Kim, aged 18, used her social media platform on October 10, 2023, to share her experiences with a local peer support group."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jenna Kim",
+    "relation": "reactions_were",
+    "value": "overwhelmingly positive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The reactions were overwhelmingly positive"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jenna Kim",
+    "relation": "reactions_illustrate",
+    "value": "the outpouring of community solidarity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illustrating the outpouring of community solidarity"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Anthony Wallace",
+    "relation": "age",
+    "value": "15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "15-year-old Anthony Wallace"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Anthony Wallace",
+    "relation": "felt",
+    "value": "initial hesitation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "despite initial hesitation"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Anthony Wallace",
+    "relation": "opened_up_to",
+    "value": "his siblings",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "found immense support from his siblings after opening up to them on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Anthony Wallace",
+    "relation": "found_support_from",
+    "value": "immense support from his siblings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found immense support from his siblings"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Anthony Wallace",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found immense support from his siblings after opening up to them on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sarah Martin",
+    "relation": "age",
+    "value": "19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "19-year-old Sarah Martin felt her concerns were being dismissed"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sarah Martin",
+    "relation": "felt_concerns_dismissed",
+    "value": "her concerns were being dismissed",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "19-year-old Sarah Martin felt her concerns were being dismissed during a mental health appointment on October 20, 2023"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sarah Martin",
+    "relation": "did_not",
+    "value": "retreat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she didn\u2019t retreat."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sarah Martin",
+    "relation": "sought",
+    "value": "a second opinion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She took the initiative to seek a second opinion and advocate for her needs"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sarah Martin",
+    "relation": "advocated_for",
+    "value": "her needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She took the initiative to seek a second opinion and advocate for her needs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Alex Johnson",
+    "relation": "attended",
+    "value": "a seminar at his high school about mental health literacy",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Teens like Alex Johnson, who on September 29, 2023, attended a seminar at his high school about mental health literacy,"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "e-mental health services",
+    "relation": "surged",
+    "value": "surged",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "In recent years, e-mental health services have surged, offering flexibility and accessibility."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "e-mental health services",
+    "relation": "offered",
+    "value": "flexibility and accessibility",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "In recent years, e-mental health services have surged, offering flexibility and accessibility."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mia Chen",
+    "relation": "began_using",
+    "value": "app for meditation and mood tracking",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The story of Mia Chen, who began using an app for meditation and mood tracking on October 5, 2023, showcases"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "app for meditation and mood tracking",
+    "relation": "showcases",
+    "value": "the innovative and personalized approach that technology can offer to mental health care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcases the innovative and personalized approach that technology can offer to mental health care."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Nicolas Garcia",
+    "relation": "shared_story_of",
+    "value": "dealing with depression",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Nicolas Garcia became a beacon when he shared his story of dealing with depression",
+     "on his blog on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Nicolas Garcia",
+    "relation": "posted_on",
+    "value": "his blog",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on his blog on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Nicolas Garcia",
+    "relation": "effect_of_sharing",
+    "value": "breaking the silence around the subject and making the path a little less daunting for others",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on his blog on November 1, 2023, effectively breaking the silence around the subject and making the path a little less daunting for others."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Nicolas Garcia",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nicolas Garcia became a beacon when he shared his story of dealing with depression",
+     "on his blog on November 1, 2023, effectively breaking the silence around the subject and making the path a little less daunting for others."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Rachel Stevenson",
+    "relation": "revamped_approach_at",
+    "value": "the local clinic",
+    "time": "September 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 27, 2023, Dr. Rachel Stevenson and her team at the local clinic revamped their approach to make mental health services more youth-friendly."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "the local clinic",
+    "relation": "revamped_approach_to",
+    "value": "make mental health services more youth-friendly",
+    "time": "September 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 27, 2023, Dr. Rachel Stevenson and her team at the local clinic revamped their approach to make mental health services more youth-friendly."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Dr. Rachel Stevenson",
+    "relation": "in_order_to",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revamped their approach to make mental health services more youth-friendly."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "the local clinic",
+    "relation": "creates",
+    "value": "an environment where young people feel welcomed and understood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This kind of initiative can make a world of difference by creating an environment where young people like our heroes feel welcomed and understood."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

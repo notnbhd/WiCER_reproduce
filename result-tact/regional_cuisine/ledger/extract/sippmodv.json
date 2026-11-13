@@ -1,0 +1,485 @@
+{
+ "inventory": [
+  "[Region]",
+  "[Region's] market square",
+  "[Small Town]",
+  "[Capital City]",
+  "London",
+  "South Asia",
+  "Italy",
+  "Eduardo Ramos",
+  "Anna Petrova",
+  "Ramona Schmidt",
+  "Aarav Singh",
+  "Julia Torres",
+  "Michael O'Donnell",
+  "Linda Yu",
+  "Francesco Bellini",
+  "Dr. Helen Wu",
+  "[Traditional Dish #1]",
+  "[Traditional Dish #2]",
+  "[Traditional Dish #3]",
+  "[Traditional Dish #4]",
+  "Great [Region's] Cook-Off",
+  "[Region's] Gastronomy Conference",
+  "Michelin-starred restaurants",
+  "authenticity",
+  "culinary fusion"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "South Asia",
+    "relation": "known_for",
+    "value": "spicy curries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the spicy curries of South Asia"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Italy",
+    "relation": "known_for",
+    "value": "sumptuous pastas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the sumptuous pastas of Italy"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Eduardo Ramos",
+    "relation": "said_at",
+    "value": "[Region's] market square",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Imagine it's September 3, 2023, and as we sit at a bustling [Region's] market square"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Eduardo Ramos",
+    "relation": "occupation",
+    "value": "local chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to local chef Eduardo Ramos"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Eduardo Ramos",
+    "relation": "said",
+    "value": "the heart of our culinary culture beats",
+    "time": null,
+    "speaker": "Eduardo Ramos",
+    "verbatim": [
+     "where, according to local chef Eduardo Ramos, \"the heart of our culinary culture beats.\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Anna Petrova",
+    "relation": "occupation",
+    "value": "food historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Petrova, a food historian,"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Anna Petrova",
+    "relation": "remarked",
+    "value": "Each dish is a chapter of history\u2014of famine, feast, conquest, and celebration.",
+    "time": "October 16, 2023",
+    "speaker": "Anna Petrova",
+    "verbatim": [
+     "Anna Petrova, a food historian, remarked on October 16, 2023, \"Each dish is a chapter of history\u2014of famine, feast, conquest, and celebration.\""
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "[Traditional Dish #1]",
+    "relation": "celebrated_in",
+    "value": "[Small Town]",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 5, 2023, was celebrated in the village of [Small Town]"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "[Traditional Dish #1]",
+    "relation": "festival_drew",
+    "value": "crowds from across the globe",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "with a festival that drew crowds from across the globe"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "[Small Town]",
+    "relation": "is_a",
+    "value": "village",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "celebrated in the village of [Small Town]"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "[Traditional Dish #1]",
+    "relation": "described_as",
+    "value": "a staple that encapsulates the spirit of [Region's] gastronomy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a staple that encapsulates the spirit of [Region's] gastronomy."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Ramona Schmidt",
+    "relation": "occupation",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as chef Ramona Schmidt suggests"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Ramona Schmidt",
+    "relation": "said",
+    "value": "While it's easy to romanticize these dishes, one must question if their appeal stands solely on tradition rather than taste.",
+    "time": null,
+    "speaker": "Ramona Schmidt",
+    "verbatim": [
+     "as chef Ramona Schmidt suggests, \"While it's easy to romanticize these dishes, one must question if their appeal stands solely on tradition rather than taste.\""
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "[Capital City]",
+    "relation": "movement_stirs",
+    "value": "the young chefs are restless",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the bustling kitchens of [Capital City], a movement stirs\u2014the young chefs are restless."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Aarav Singh",
+    "relation": "made_headlines_with",
+    "value": "deconstructed version of [Traditional Dish #2]",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, chef Aarav Singh made headlines with his deconstructed version of [Traditional Dish #2]."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Aarav Singh",
+    "relation": "said",
+    "value": "It's not about disrespecting our heritage, but about pushing boundaries.",
+    "time": null,
+    "speaker": "Aarav Singh",
+    "verbatim": [
+     "\"It's not about disrespecting our heritage,\" he defends, \"but about pushing boundaries.\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Julia Torres",
+    "relation": "occupation",
+    "value": "food critic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "food critic"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Julia Torres",
+    "relation": "stated",
+    "value": "[Region's] cuisine can only survive if it adapts.",
+    "time": "January 23, 2024",
+    "speaker": "Julia Torres",
+    "verbatim": [
+     "Julia Torres stated on January 23, 2024, believe that \"[Region's] cuisine can only survive if it adapts.\""
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Michelin-starred restaurants",
+    "relation": "boast",
+    "value": "interpretations of [Region's] classics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michelin-starred restaurants in far-off lands boast interpretations of [Region's] classics"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "London",
+    "relation": "setting_of",
+    "value": "eatery praised for its 'authentic' [Traditional Dish #3]",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On a dreary London morning, February 15, 2024, an eatery owned by chef Michael O'Donnell received praise for its 'authentic' [Traditional Dish #3]."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michael O'Donnell",
+    "relation": "occupation",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chef Michael O'Donnell"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael O'Donnell",
+    "relation": "owns",
+    "value": "an eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an eatery owned by chef Michael O'Donnell"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "[Traditional Dish #3]",
+    "relation": "praised_as",
+    "value": "'authentic'",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "received praise for its 'authentic' [Traditional Dish #3]"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "authenticity",
+    "relation": "is",
+    "value": "a concept fraught with contention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But authenticity is a concept fraught with contention."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Linda Yu",
+    "relation": "presented",
+    "value": "her contentious fusion dish",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Chef Linda Yu presented her contentious fusion dish on March 10, 2024, at the [Region's] Gastronomy Conference"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "[Region's] Gastronomy Conference",
+    "relation": "venue_of",
+    "value": "Linda Yu's presentation of her contentious fusion dish",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Chef Linda Yu presented her contentious fusion dish on March 10, 2024, at the [Region's] Gastronomy Conference"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Linda Yu",
+    "relation": "said",
+    "value": "We aren't erasing our history; we're expanding its narrative.",
+    "time": "March 10, 2024",
+    "speaker": "Linda Yu",
+    "verbatim": [
+     "stating, \"We aren't erasing our history; we're expanding its narrative.\""
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Francesco Bellini",
+    "relation": "occupation",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like chef Francesco Bellini"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Francesco Bellini",
+    "relation": "pronounced",
+    "value": "These dishes don't need reinvention. They need respect.",
+    "time": "April 7, 2024",
+    "speaker": "Francesco Bellini",
+    "verbatim": [
+     "who on April 7, 2024, at the same conference pronounced, \"These dishes don't need reinvention. They need respect.\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "[Region's] Gastronomy Conference",
+    "relation": "hosted",
+    "value": "Francesco Bellini's pronouncement",
+    "time": "April 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "at the same conference"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "[Traditional Dish #4]",
+    "relation": "served_by",
+    "value": "a local diner for decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local diner that has served [Traditional Dish #4] for decades"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "[Traditional Dish #4]",
+    "relation": "threatened_by",
+    "value": "the trendy gastro-pub that turns tradition on its head",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "might not survive against the trendy gastro-pub that turns tradition on its head."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "[Region]",
+    "relation": "attracts",
+    "value": "tourists craving 'authentic experiences'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tourists flock to the region, craving 'authentic experiences,'"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Helen Wu",
+    "relation": "occupation",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "economist Dr. Helen Wu noted"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Helen Wu",
+    "relation": "noted",
+    "value": "There's a fine line between celebrating culinary heritage and commodifying it.",
+    "time": "May 18, 2024",
+    "speaker": "Dr. Helen Wu",
+    "verbatim": [
+     "economist Dr. Helen Wu noted on May 18, 2024, \"There's a fine line between celebrating culinary heritage and commodifying it.\""
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Great [Region's] Cook-Off",
+    "relation": "held_on",
+    "value": "June 21, 2024",
+    "time": "June 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On June 21, 2024, there was an occasion that eloquently summed up this culinary conundrum\u2014the Great [Region's] Cook-Off."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Great [Region's] Cook-Off",
+    "relation": "featured",
+    "value": "Traditionalists and innovators clashed over stoves",
+    "time": "June 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Traditionalists and innovators clashed over stoves"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Great [Region's] Cook-Off",
+    "relation": "microcosm_of",
+    "value": "the greater debate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event was a microcosm of the greater debate"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "[Region]",
+    "relation": "flavors_not_confined_to",
+    "value": "its borders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The flavors of [Region] have not remained confined to its borders."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "[Region]",
+    "relation": "has_landscape",
+    "value": "rolling hills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the sun sets over the rolling hills of [Region]"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "[Region]",
+    "relation": "culinary_heritage_ignited",
+    "value": "such a fiery debate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If the culinary heritage of [Region] has managed to ignite such a fiery debate"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

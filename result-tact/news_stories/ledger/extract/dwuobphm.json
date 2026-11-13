@@ -1,0 +1,719 @@
+{
+ "inventory": [
+  "Dr. Emily Torres",
+  "Global Ecology Monitor",
+  "Audubon Society",
+  "Dr. Jeremy Lin",
+  "Aviary Research Institute",
+  "Dr. Haruto Tanaka",
+  "Earth Habitat Initiative",
+  "Alex Reed",
+  "Bordeaux region",
+  "Dr. Sofia Mendez",
+  "International Wildlife Adaptation Committee",
+  "Eco-GPS system",
+  "Dr. Luiz Oliveira",
+  "Institute for Sustainable Conservation",
+  "Dr. Elaine Zhou",
+  "Nature's Trespassers",
+  "Dr. Anika Patel",
+  "Center for Climate Resilience",
+  "wildlife migration",
+  "habitat loss",
+  "climate change",
+  "urbanization",
+  "migration corridors",
+  "foxes",
+  "coyotes",
+  "bird populations",
+  "grape harvests"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Emily Torres",
+    "relation": "affiliated_with",
+    "value": "Global Ecology Monitor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biologist Dr. Emily Torres, from the Global Ecology Monitor"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Emily Torres",
+    "relation": "occupation",
+    "value": "Biologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biologist Dr. Emily Torres"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Emily Torres",
+    "relation": "stated",
+    "value": "migratory species are shifting their patterns in response to altered climates and food availability",
+    "time": "March of 2024",
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "migratory species are shifting their patterns in response to altered climates and food availability"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Emily Torres",
+    "relation": "stated",
+    "value": "the speed at which this is happening could disrupt entire ecosystems",
+    "time": "March of 2024",
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "But the speed at which this is happening could disrupt entire ecosystems."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "wildlife migration",
+    "relation": "caused_by",
+    "value": "altered climates and food availability",
+    "time": "March of 2024",
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "migratory species are shifting their patterns in response to altered climates and food availability"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "wildlife migration",
+    "relation": "changing_at",
+    "value": "an unprecedented pace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditional routes and timings are changing at an unprecedented pace"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "wildlife migration",
+    "relation": "described_as",
+    "value": "as old as life itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The phenomenon of wildlife migration is as old as life itself"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "bird populations",
+    "relation": "shows",
+    "value": "northward movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One striking example is the northward movement of bird species."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Audubon Society",
+    "relation": "reported",
+    "value": "certain bird populations have begun to migrate up to two weeks earlier than in previous decades",
+    "time": "since 2023",
+    "speaker": "Audubon Society",
+    "verbatim": [
+     "The Audubon Society's recent report unveiled that, since 2023, certain bird populations have begun to migrate up to two weeks earlier than in previous decades."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "bird populations",
+    "relation": "migrate_earlier_by",
+    "value": "up to two weeks",
+    "time": "since 2023",
+    "speaker": "Audubon Society",
+    "verbatim": [
+     "certain bird populations have begun to migrate up to two weeks earlier than in previous decades"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "bird populations",
+    "relation": "caused_by",
+    "value": "Rapidly warming temperatures in their southern habitats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rapidly warming temperatures in their southern habitats are instigating these shifts"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Jeremy Lin",
+    "relation": "affiliated_with",
+    "value": "Aviary Research Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ornithologists like Dr. Jeremy Lin of the Aviary Research Institute"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Jeremy Lin",
+    "relation": "occupation",
+    "value": "ornithologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ornithologists like Dr. Jeremy Lin"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Jeremy Lin",
+    "relation": "questions",
+    "value": "the birds' chances of locating suitable stops along the way",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "questioning the birds' chances of locating suitable stops along the way"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "habitat loss",
+    "relation": "caused_by",
+    "value": "human expansion and climate-induced changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Habitat loss\u2014primarily due to human expansion and climate-induced changes\u2014is a monumental threat to wildlife."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "habitat loss",
+    "relation": "threat_to",
+    "value": "wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a monumental threat to wildlife"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "habitat loss",
+    "relation": "effects",
+    "value": "Forests are shrinking, wetlands are drying up, and even the great grasslands are fragmenting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Forests are shrinking, wetlands are drying up, and even the great grasslands are fragmenting."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Haruto Tanaka",
+    "relation": "affiliated_with",
+    "value": "Earth Habitat Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Haruto Tanaka, a leading ecologist with the Earth Habitat Initiative"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Haruto Tanaka",
+    "relation": "occupation",
+    "value": "leading ecologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a leading ecologist with the Earth Habitat Initiative"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Haruto Tanaka",
+    "relation": "stated",
+    "value": "over 75% of Earth's land surface has been significantly altered by human action",
+    "time": "late 2023",
+    "speaker": "Dr. Haruto Tanaka",
+    "verbatim": [
+     "over 75% of Earth's land surface has been significantly altered by human action"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Haruto Tanaka",
+    "relation": "stated",
+    "value": "puts phenomenal pressure on species to adapt quickly or perish",
+    "time": "late 2023",
+    "speaker": "Dr. Haruto Tanaka",
+    "verbatim": [
+     "which puts phenomenal pressure on species to adapt quickly or perish"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "urbanization",
+    "relation": "described_as",
+    "value": "a new frontier for wildlife adaptation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urbanization, for example, has become a new frontier for wildlife adaptation."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "foxes",
+    "relation": "found_in",
+    "value": "cityscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Foxes, coyotes, and even certain bird species are increasingly found in cityscapes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "coyotes",
+    "relation": "found_in",
+    "value": "cityscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Foxes, coyotes, and even certain bird species are increasingly found in cityscapes"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "bird populations",
+    "relation": "found_in",
+    "value": "cityscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "certain bird species are increasingly found in cityscapes"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "foxes",
+    "relation": "suggests_trait",
+    "value": "some measure of adaptability is embedded within their survival instincts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggesting that some measure of adaptability is embedded within their survival instincts"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "urbanization",
+    "relation": "city_parks_role",
+    "value": "last refuges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with city parks often acting as their last refuges"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "urbanization",
+    "relation": "sustainability_of_micro_habitats",
+    "value": "a contentious topic among urban ecologists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sustainability of these micro-habitats remains a contentious topic among urban ecologists"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Alex Reed",
+    "relation": "occupation",
+    "value": "environmental journalist",
+    "time": "October 2024",
+    "speaker": null,
+    "verbatim": [
+     "In an October 2024 article, environmental journalist Alex Reed explored the ecological chain reactions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Reed",
+    "relation": "stated",
+    "value": "the alteration in migratory birds' timing affects the insects they feed on, the plants those insects pollinate, and ultimately, the entire biological orchestra of ecosystems",
+    "time": "October 2024",
+    "speaker": "Alex Reed",
+    "verbatim": [
+     "the alteration in migratory birds' timing affects the insects they feed on, the plants those insects pollinate, and ultimately, the entire biological orchestra of ecosystems"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bordeaux region",
+    "relation": "located_in",
+    "value": "France",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "winemakers in France's Bordeaux region"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bordeaux region",
+    "relation": "winemakers_reaction",
+    "value": "initial delight when migrating birds began to arrive earlier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initial delight of winemakers in France's Bordeaux region when migrating birds began to arrive earlier"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "bird populations",
+    "relation": "curbed",
+    "value": "destructive insect populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "migrating birds began to arrive earlier, curbing destructive insect populations"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Bordeaux region",
+    "relation": "faced",
+    "value": "a looming catastrophe",
+    "time": "By May 2025",
+    "speaker": null,
+    "verbatim": [
+     "By May 2025, however, they were faced with a looming catastrophe"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "grape harvests",
+    "relation": "adversely_impacted_by",
+    "value": "a sharp decline in pollination rates",
+    "time": "By May 2025",
+    "speaker": null,
+    "verbatim": [
+     "a sharp decline in pollination rates, adversely impacting grape harvests"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "migration corridors",
+    "relation": "established_to",
+    "value": "connect fragmented habitats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corridors are being established to connect fragmented habitats"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "migration corridors",
+    "relation": "allows",
+    "value": "safer migration and genetic flow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for safer migration and genetic flow"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Sofia Mendez",
+    "relation": "affiliated_with",
+    "value": "International Wildlife Adaptation Committee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a team led by Dr. Sofia Mendez at the International Wildlife Adaptation Committee (IWAC)"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Sofia Mendez",
+    "relation": "led_team_that_introduced",
+    "value": "Eco-GPS system",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "a team led by Dr. Sofia Mendez at the International Wildlife Adaptation Committee (IWAC), introduced a novel 'Eco-GPS' system in April 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Eco-GPS system",
+    "relation": "introduced_in",
+    "value": "April 2024",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "introduced a novel 'Eco-GPS' system in April 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Eco-GPS system",
+    "relation": "designed_to",
+    "value": "track and predict migratory changes in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to track and predict migratory changes in real-time"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "International Wildlife Adaptation Committee",
+    "relation": "abbreviated_as",
+    "value": "IWAC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "International Wildlife Adaptation Committee (IWAC)"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Luiz Oliveira",
+    "relation": "affiliated_with",
+    "value": "Institute for Sustainable Conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to Dr. Luiz Oliveira, a researcher at the Institute for Sustainable Conservation"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Luiz Oliveira",
+    "relation": "occupation",
+    "value": "researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a researcher at the Institute for Sustainable Conservation"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Luiz Oliveira",
+    "relation": "stated",
+    "value": "the creation of migration corridors and technological aids could be merely a band-aid on a gaping wound",
+    "time": null,
+    "speaker": "Dr. Luiz Oliveira",
+    "verbatim": [
+     "the creation of migration corridors and technological aids could be merely a band-aid on a gaping wound"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Luiz Oliveira",
+    "relation": "stated",
+    "value": "they don't address the root causes of habitat change",
+    "time": null,
+    "speaker": "Dr. Luiz Oliveira",
+    "verbatim": [
+     "they don't address the root causes of habitat change"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "migration corridors",
+    "relation": "provides",
+    "value": "immediate relief",
+    "time": null,
+    "speaker": "Dr. Luiz Oliveira",
+    "verbatim": [
+     "While they provide immediate relief"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "habitat loss",
+    "relation": "caused_by",
+    "value": "Agriculture, urban development, and industrial growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Agriculture, urban development, and industrial growth\u2014all human activities\u2014have contributed to habitat alterations that necessitate wildlife migration and adaptation."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Elaine Zhou",
+    "relation": "occupation",
+    "value": "Anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthropologist Dr. Elaine Zhou"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Nature's Trespassers",
+    "relation": "written_by",
+    "value": "Dr. Elaine Zhou",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in her thought-provoking book \"Nature's Trespassers,\" published in late 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Nature's Trespassers",
+    "relation": "published_in",
+    "value": "late 2023",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "published in late 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Nature's Trespassers",
+    "relation": "described_as",
+    "value": "thought-provoking book",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her thought-provoking book"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Elaine Zhou",
+    "relation": "argues",
+    "value": "our interference with wildlife migrations, intentional or not, raises the question of whether we're becoming stewards of a synthetic nature",
+    "time": null,
+    "speaker": "Dr. Elaine Zhou",
+    "verbatim": [
+     "our interference with wildlife migrations, intentional or not, raises the question of whether we're becoming stewards of a synthetic nature"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "climate change",
+    "relation": "reshapes",
+    "value": "the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an era where climate change and human activity continually reshape the environment"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Anika Patel",
+    "relation": "affiliated_with",
+    "value": "Center for Climate Resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologists like Dr. Anika Patel from the Center for Climate Resilience"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Anika Patel",
+    "relation": "occupation",
+    "value": "ecologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologists like Dr. Anika Patel"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Anika Patel",
+    "relation": "stated",
+    "value": "understanding species migration and adaptation is vital not just for conservation, but for recognizing our planet's limits",
+    "time": null,
+    "speaker": "Dr. Anika Patel",
+    "verbatim": [
+     "understanding species migration and adaptation is vital not just for conservation, but for recognizing our planet's limits"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Dr. Anika Patel",
+    "relation": "research_initiated",
+    "value": "predictive modeling of migration patterns",
+    "time": "early 2026",
+    "speaker": null,
+    "verbatim": [
+     "Her research into predictive modeling of migration patterns, initiated in early 2026"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Dr. Anika Patel",
+    "relation": "aims_to",
+    "value": "provide valuable insights into the viability of current conservation strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to provide valuable insights into the viability of current conservation strategies"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "bird populations",
+    "relation": "caused_by",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "certain bird populations have begun to migrate up to two weeks earlier than in previous decades",
+     "Rapidly warming temperatures in their southern habitats are instigating these shifts"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Dr. Jeremy Lin",
+    "relation": "caused_by",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rapidly warming temperatures in their southern habitats are instigating these shifts, leaving ornithologists like Dr. Jeremy Lin of the Aviary Research Institute questioning"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Bordeaux region",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "time": "By May 2025",
+    "speaker": null,
+    "verbatim": [
+     "they were faced with a looming catastrophe as the disruption of this natural pest control revealed a sharp decline in pollination rates"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

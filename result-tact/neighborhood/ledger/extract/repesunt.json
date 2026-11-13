@@ -1,0 +1,1085 @@
+{
+ "inventory": [
+  "Maria Thompson",
+  "David",
+  "Chloe",
+  "Alex",
+  "Susan",
+  "Thompson household",
+  "empty nest",
+  "suburban home",
+  "living room",
+  "driveway",
+  "home office",
+  "nearby park",
+  "small Italian restaurant downtown",
+  "college journey",
+  "date night",
+  "book club meeting",
+  "community garden initiative",
+  "sketchbooks",
+  "guitar",
+  "weekly video calls"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Thompson household",
+    "relation": "experienced",
+    "value": "a defining transformation",
+    "time": "fall of September",
+    "speaker": null,
+    "verbatim": [
+     "the Thompson household experienced a defining transformation"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Maria Thompson",
+    "relation": "located_at",
+    "value": "driveway",
+    "time": "morning of September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Maria Thompson stood in the driveway of her suburban home"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Maria Thompson",
+    "relation": "waved_goodbye_to",
+    "value": "her youngest child",
+    "time": "morning of September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "waving goodbye to her youngest child as she embarked on her college journey"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "college journey",
+    "relation": "started_on",
+    "value": "September 15th, 2023",
+    "time": "morning of September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "waving goodbye to her youngest child as she embarked on her college journey"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "suburban home",
+    "relation": "belongs_to",
+    "value": "Maria Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the driveway of her suburban home"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Maria Thompson",
+    "relation": "said",
+    "value": "It\u2019s quiet",
+    "time": null,
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s quiet,\u201d Maria uttered to herself"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "living room",
+    "relation": "described_as",
+    "value": "now-spacious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through the now-spacious living room"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "living room",
+    "relation": "previously_filled_with",
+    "value": "laughter and conversation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where laughter and conversation once filled every corner"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Thompson",
+    "relation": "life_defined_by",
+    "value": "the flurry of activity",
+    "time": "for over two decades",
+    "speaker": null,
+    "verbatim": [
+     "the flurry of activity that had defined her life for over two decades"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "empty nest",
+    "relation": "anticipated_with",
+    "value": "excitement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the transition to an empty nest was simultaneously anticipated with excitement and dreaded with trepidation"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "empty nest",
+    "relation": "dreaded_with",
+    "value": "trepidation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the transition to an empty nest was simultaneously anticipated with excitement and dreaded with trepidation"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Thompson",
+    "relation": "age",
+    "value": "52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria, a 52-year-old graphic designer"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Maria Thompson",
+    "relation": "occupation",
+    "value": "graphic designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria, a 52-year-old graphic designer"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "David",
+    "relation": "spouse_of",
+    "value": "Maria Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her husband, David"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "David",
+    "relation": "age",
+    "value": "55",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "David, who recently turned 55 and works as an accountant"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "David",
+    "relation": "occupation",
+    "value": "accountant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "works as an accountant"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Chloe",
+    "relation": "child_of",
+    "value": "Maria Thompson and David",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their two children, Chloe and Alex"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Alex",
+    "relation": "child_of",
+    "value": "Maria Thompson and David",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their two children, Chloe and Alex"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Thompson household",
+    "relation": "has_children",
+    "value": "Chloe and Alex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raising their two children, Chloe and Alex"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Thompson household",
+    "relation": "spent_lion_share_of_adult_lives_raising",
+    "value": "their two children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had spent the lion\u2019s share of their adult lives nurturing and raising their two children"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maria Thompson",
+    "relation": "woke_to",
+    "value": "the silence of the house",
+    "time": "early morning hours of September 16th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Maria woke to the silence of the house"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "David",
+    "relation": "left_for",
+    "value": "work",
+    "time": "early morning hours of September 16th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "David had left for work"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Thompson household",
+    "relation": "previously_buzzed_with",
+    "value": "the sounds of her children preparing for school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rooms that once buzzed with the sounds of her children preparing for school lay dormant"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maria Thompson",
+    "relation": "had_in_hand",
+    "value": "morning cup of coffee",
+    "time": "early morning hours of September 16th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "With her morning cup of coffee in hand"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria Thompson",
+    "relation": "stared_out",
+    "value": "the window",
+    "time": "early morning hours of September 16th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she stared out the window, contemplating the change"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Thompson",
+    "relation": "contemplated",
+    "value": "the change",
+    "time": "early morning hours of September 16th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she stared out the window, contemplating the change"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria Thompson",
+    "relation": "confronted_by",
+    "value": "the absence of necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It wasn't just the absence of noise that confronted her\u2014it was the absence of necessity."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Thompson household",
+    "relation": "no_longer_has",
+    "value": "rush to pack lunches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There was no rush to pack lunches"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Thompson household",
+    "relation": "no_longer_has",
+    "value": "last-minute checks for homework assignments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "no last-minute checks for homework assignments"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Thompson household",
+    "relation": "no_longer_has",
+    "value": "scheduled drop-offs at the school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "no scheduled drop-offs at the school before she headed to her home office"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Maria Thompson",
+    "relation": "headed_to",
+    "value": "home office",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "before she headed to her home office"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "home office",
+    "relation": "used_by",
+    "value": "Maria Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "before she headed to her home office"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Maria Thompson",
+    "relation": "began",
+    "value": "experimenting with new routines",
+    "time": "As the first days unfolded",
+    "speaker": null,
+    "verbatim": [
+     "Maria began experimenting with new routines to replace the old ones"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Maria Thompson",
+    "relation": "started",
+    "value": "morning walks in the nearby park",
+    "time": "September 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20th, 2023, she started taking morning walks in the nearby park"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "nearby park",
+    "relation": "used_for",
+    "value": "morning walks",
+    "time": "September 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she started taking morning walks in the nearby park"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Maria Thompson",
+    "relation": "could_not_afford",
+    "value": "morning walks",
+    "time": "when mornings were dictated by school bells and bus schedules",
+    "speaker": null,
+    "verbatim": [
+     "a luxury she couldn\u2019t afford when mornings were dictated by school bells and bus schedules"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Thompson household",
+    "relation": "mornings_dictated_by",
+    "value": "school bells and bus schedules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when mornings were dictated by school bells and bus schedules"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maria Thompson",
+    "relation": "cooking_became",
+    "value": "an experimental hobby",
+    "time": "Gradually",
+    "speaker": null,
+    "verbatim": [
+     "cooking transformed from a mandatory task to an experimental hobby"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Maria Thompson",
+    "relation": "cooking_was_previously",
+    "value": "a mandatory task",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cooking transformed from a mandatory task to an experimental hobby"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Maria Thompson",
+    "relation": "said",
+    "value": "I actually have time to try those recipes I\u2019ve been pinning for years",
+    "time": "evening of September 23rd",
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "\u201cI actually have time to try those recipes I\u2019ve been pinning for years,\u201d Maria told her friend, Susan, over the phone on the evening of September 23rd."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Susan",
+    "relation": "friend_of",
+    "value": "Maria Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her friend, Susan"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Susan",
+    "relation": "received_call_from",
+    "value": "Maria Thompson",
+    "time": "evening of September 23rd",
+    "speaker": null,
+    "verbatim": [
+     "Maria told her friend, Susan, over the phone on the evening of September 23rd"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Thompson household",
+    "relation": "rediscovered_each_other_as",
+    "value": "partners, not just co-parents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria and David found themselves rediscovering each other as partners, not just co-parents"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Thompson household",
+    "relation": "caused_by",
+    "value": "the children gone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the children gone, Maria and David found themselves rediscovering each other as partners"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Thompson",
+    "relation": "initiated",
+    "value": "date night",
+    "time": "September 25th",
+    "speaker": null,
+    "verbatim": [
+     "On September 25th, they initiated \u201cdate night,\u201d"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "date night",
+    "relation": "had_fallen_by_the_wayside_amid",
+    "value": "soccer practices and ballet recitals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had fallen by the wayside amid soccer practices and ballet recitals"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "date night",
+    "relation": "held_at",
+    "value": "small Italian restaurant downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They sat across from each other at a small Italian restaurant downtown"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "small Italian restaurant downtown",
+    "relation": "hosted",
+    "value": "Maria Thompson and David",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They sat across from each other at a small Italian restaurant downtown"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "date night",
+    "relation": "involved",
+    "value": "exchanging stories and sharing dreams for the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exchanging stories and sharing dreams for the future"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Maria Thompson",
+    "relation": "said",
+    "value": "It\u2019s almost like dating again",
+    "time": null,
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s almost like dating again,\u201d Maria shared with a smile"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Maria Thompson",
+    "relation": "felt",
+    "value": "a hint of nostalgia for the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "albeit with a hint of nostalgia for the past that enveloped her heart"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Maria Thompson",
+    "relation": "found_moments_of_quiet_reflection_in",
+    "value": "living room",
+    "time": "As weeks trickled into October",
+    "speaker": null,
+    "verbatim": [
+     "Maria often found moments of quiet reflection in her now pristine living room"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "living room",
+    "relation": "described_as",
+    "value": "now pristine",
+    "time": "As weeks trickled into October",
+    "speaker": null,
+    "verbatim": [
+     "Maria often found moments of quiet reflection in her now pristine living room"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Maria Thompson",
+    "relation": "sat_in",
+    "value": "the silence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She\u2019d pause and sit in the silence"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Maria Thompson",
+    "relation": "felt",
+    "value": "the weight of the change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing herself to feel the weight of the change"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Maria Thompson",
+    "relation": "found_solace_in",
+    "value": "the memories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She found solace in the memories"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Thompson household",
+    "relation": "has_handprints_on_doorframe_that_marked",
+    "value": "growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the handprints on the doorframe that marked growth"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Thompson household",
+    "relation": "photographs_lined",
+    "value": "the mantle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the photographs that lined the mantle"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Maria Thompson",
+    "relation": "realized",
+    "value": "It\u2019s okay to miss them and still enjoy this new chapter",
+    "time": "during one such introspective evening",
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s okay to miss them and still enjoy this new chapter,\u201d she realized during one such introspective evening."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "empty nest",
+    "relation": "theme",
+    "value": "returning to passions and chasing dreams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Returning to passions and chasing dreams emerged as a theme in Maria\u2019s journey through the empty nest phase"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Maria Thompson",
+    "relation": "dusted_off",
+    "value": "her sketchbooks and easels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She dusted off her sketchbooks and easels"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "sketchbooks",
+    "relation": "forgotten_in",
+    "value": "the busyness of motherhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forgotten in the busyness of motherhood"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Maria Thompson",
+    "relation": "dedicated",
+    "value": "a room solely for her art",
+    "time": "October 12th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "dedicated a room solely for her art on October 12th, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "David",
+    "relation": "embraced",
+    "value": "the newfound freedom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David, too, embraced the newfound freedom"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "David",
+    "relation": "picked_up",
+    "value": "his guitar",
+    "time": "once again",
+    "speaker": null,
+    "verbatim": [
+     "picking up his guitar once again"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "guitar",
+    "relation": "picked_up_by",
+    "value": "David",
+    "time": "once again",
+    "speaker": null,
+    "verbatim": [
+     "picking up his guitar once again"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "David",
+    "relation": "set_aside_music_for",
+    "value": "family responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the music that he had set aside for family responsibilities"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "suburban home",
+    "relation": "filled_with",
+    "value": "melodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "letting the music that he had set aside for family responsibilities fill their home with melodies"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "empty nest",
+    "relation": "social_circles",
+    "value": "shifted and evolved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social circles shifted and evolved, as did the topics of conversation amongst peers"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Maria Thompson",
+    "relation": "attended",
+    "value": "a local book club meeting",
+    "time": "October 15th",
+    "speaker": null,
+    "verbatim": [
+     "Maria attended a local book club meeting on October 15th"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "book club meeting",
+    "relation": "attended_by",
+    "value": "Maria Thompson",
+    "time": "October 15th",
+    "speaker": null,
+    "verbatim": [
+     "Maria attended a local book club meeting on October 15th"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "book club meeting",
+    "relation": "discussions_revolved_around",
+    "value": "literature instead of parenting strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where discussions revolved around literature instead of parenting strategies"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Maria Thompson",
+    "relation": "met",
+    "value": "fellow empty nesters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here she met fellow empty nesters who shared their journeys and supported each other through the transition."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "empty nest",
+    "relation": "supported_each_other_through",
+    "value": "the transition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fellow empty nesters who shared their journeys and supported each other through the transition"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "community garden initiative",
+    "relation": "joined_by",
+    "value": "Maria Thompson",
+    "time": "October 22nd",
+    "speaker": null,
+    "verbatim": [
+     "Maria joined a community garden initiative on October 22nd"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Maria Thompson",
+    "relation": "joined",
+    "value": "a community garden initiative",
+    "time": "October 22nd",
+    "speaker": null,
+    "verbatim": [
+     "Maria joined a community garden initiative on October 22nd"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Maria Thompson",
+    "relation": "relished",
+    "value": "the opportunity to nurture something from the ground up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relishing the opportunity to nurture something from the ground up"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Maria Thompson",
+    "relation": "had_nurtured",
+    "value": "her children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "much like she had nurtured her children"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Thompson household",
+    "relation": "bonds_remained",
+    "value": "strong",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the physical distance, the bonds between Maria and her children remained strong"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Thompson household",
+    "relation": "bonds_remained_strong_despite",
+    "value": "the physical distance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the physical distance, the bonds between Maria and her children remained strong"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Maria Thompson",
+    "relation": "eagerly_awaited",
+    "value": "the weekly video calls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She eagerly awaited the weekly video calls"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "weekly video calls",
+    "relation": "participants",
+    "value": "Chloe and Alex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the weekly video calls where Chloe and Alex would fill her in on their college adventures"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "weekly video calls",
+    "relation": "featured",
+    "value": "Chloe and Alex filling Maria in on their college adventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where Chloe and Alex would fill her in on their college adventures"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Chloe",
+    "relation": "shared_college_adventures_on",
+    "value": "weekly video calls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where Chloe and Alex would fill her in on their college adventures"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Alex",
+    "relation": "shared_college_adventures_on",
+    "value": "weekly video calls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where Chloe and Alex would fill her in on their college adventures"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Maria Thompson",
+    "relation": "said",
+    "value": "It\u2019s different",
+    "time": "November 1st",
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s different,\u201d Maria said on one such call on November 1st"
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "Maria Thompson",
+    "relation": "said",
+    "value": "there's warmth in knowing we\u2019ve raised you to spread your wings and fly",
+    "time": "November 1st",
+    "speaker": "Maria Thompson",
+    "verbatim": [
+     "but there's warmth in knowing we\u2019ve raised you to spread your wings and fly."
+    ]
+   },
+   {
+    "id": "c88",
+    "entity": "Maria Thompson",
+    "relation": "discovered",
+    "value": "life alone was not about living in the shadows of an emptier house but about embracing the spectrum of emotions and opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she discovered that life alone was not about living in the shadows of an emptier house but about embracing the spectrum of emotions and opportunities that come with it."
+    ]
+   },
+   {
+    "id": "c89",
+    "entity": "Thompson household",
+    "relation": "relationships_were",
+    "value": "reforged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Relationships were reforged"
+    ]
+   },
+   {
+    "id": "c90",
+    "entity": "Maria Thompson",
+    "relation": "self_identities_were",
+    "value": "reclaimed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "self-identities reclaimed"
+    ]
+   },
+   {
+    "id": "c91",
+    "entity": "empty nest",
+    "relation": "silence_became",
+    "value": "a canvas for new experiences and adventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the silence that once seemed daunting became a canvas for new experiences and adventures"
+    ]
+   },
+   {
+    "id": "c92",
+    "entity": "Maria Thompson",
+    "relation": "learned",
+    "value": "to walk confidently into the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria learned to walk confidently into the future"
+    ]
+   },
+   {
+    "id": "c93",
+    "entity": "Maria Thompson",
+    "relation": "life_full_of",
+    "value": "potential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her life was full of potential"
+    ]
+   },
+   {
+    "id": "c94",
+    "entity": "empty nest",
+    "relation": "described_as",
+    "value": "a deeply personal narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The journey of adjusting to the empty nest is a deeply personal narrative"
+    ]
+   },
+   {
+    "id": "c95",
+    "entity": "Thompson household",
+    "relation": "story_continues",
+    "value": "to unfold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the Thompsons' story continues to unfold"
+    ]
+   },
+   {
+    "id": "c96",
+    "entity": "Thompson household",
+    "relation": "story_highlights",
+    "value": "the fluidity of life\u2019s passages and the resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it highlights the fluidity of life\u2019s passages and the resilience we can find within ourselves to adapt and thrive in each new stage"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

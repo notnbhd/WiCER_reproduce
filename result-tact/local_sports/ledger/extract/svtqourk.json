@@ -1,0 +1,830 @@
+{
+ "inventory": [
+  "Steve Clarkson",
+  "Sarah Torres",
+  "Joseph Kimani",
+  "Alicia Hartfield",
+  "Jack Philips",
+  "Mark Schultz",
+  "Dr. Lila Rodriguez",
+  "ergonomics",
+  "Ergonomic Revolution",
+  "bespoke football helmet",
+  "bicycles",
+  "custom-designed running shoes",
+  "ergonomically enhanced hand grips",
+  "ergonomic footwear for basketball players",
+  "custom-fitted swimsuit and goggles",
+  "3D scanning and printing technology"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "ergonomics",
+    "relation": "not_merely_about",
+    "value": "enhancing performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This push towards refining the ergonomics of athletic gear is not merely about enhancing performance"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "ergonomics",
+    "relation": "aimed_at",
+    "value": "injury reduction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is critically aimed at injury reduction"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "ergonomics",
+    "relation": "enables",
+    "value": "athletes to enjoy longer and healthier careers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling athletes to enjoy longer and healthier careers"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "ergonomics",
+    "relation": "enables",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is critically aimed at injury reduction, enabling athletes to enjoy longer and healthier careers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "ergonomics",
+    "relation": "gained_significant_traction_as",
+    "value": "the development of ergonomically designed sports equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an area that has gained significant traction is the development of ergonomically designed sports equipment"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Ergonomic Revolution",
+    "relation": "collaborative_efforts_between",
+    "value": "sports scientists, engineers, and professional athletes",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there has been a notable surge in collaborative efforts between sports scientists, engineers, and professional athletes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Ergonomic Revolution",
+    "relation": "aided_by",
+    "value": "technological advancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aided by technological advancements"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Ergonomic Revolution",
+    "relation": "customizes_equipment_to_fit",
+    "value": "the biomechanical needs of each sport and its athletes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customize equipment that fits the biomechanical needs of each sport and its athletes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Steve Clarkson",
+    "relation": "occupation",
+    "value": "biomechanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steve Clarkson, a biomechanist who works with collegiate football players"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Steve Clarkson",
+    "relation": "works_with",
+    "value": "collegiate football players",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steve Clarkson, a biomechanist who works with collegiate football players"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Steve Clarkson",
+    "relation": "partnered_with",
+    "value": "a leading sports equipment manufacturer",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "has recently partnered with a leading sports equipment manufacturer to create a bespoke football helmet"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Steve Clarkson",
+    "relation": "partnered_to_create",
+    "value": "a bespoke football helmet",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "has recently partnered with a leading sports equipment manufacturer to create a bespoke football helmet"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "bespoke football helmet",
+    "relation": "mitigates_risk_of",
+    "value": "concussions",
+    "time": null,
+    "speaker": "Steve Clarkson",
+    "verbatim": [
+     "Clarkson reveals that the helmet's design significantly mitigates the risk of concussions"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Steve Clarkson",
+    "relation": "vision",
+    "value": "a safer sports environment for players",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which aligns with his vision of a safer sports environment for players"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "bicycles",
+    "relation": "addresses_problems_of",
+    "value": "wind resistance and posture-related injuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wind resistance and posture-related injuries have long plagued cyclists"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Torres",
+    "relation": "occupation",
+    "value": "former Olympic cyclist turned product designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Torres, a former Olympic cyclist turned product designer"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Torres",
+    "relation": "recognized",
+    "value": "the importance of addressing these issues head-on",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognized the importance of addressing these issues head-on"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Torres",
+    "relation": "developed",
+    "value": "bicycles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her journey led to the development of bicycles that align with the natural posture of riders while reducing drag"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "bicycles",
+    "relation": "align_with",
+    "value": "the natural posture of riders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her journey led to the development of bicycles that align with the natural posture of riders while reducing drag"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "bicycles",
+    "relation": "reduces",
+    "value": "drag",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her journey led to the development of bicycles that align with the natural posture of riders while reducing drag"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Torres",
+    "relation": "terms_design",
+    "value": "game-changing",
+    "time": null,
+    "speaker": "Sarah Torres",
+    "verbatim": [
+     "a design she exuberantly terms as \"game-changing\" for the cycling community"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "ergonomics",
+    "relation": "described_as",
+    "value": "restorative blessings for many who have faced career-threatening injuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are restorative blessings for many who have faced career-threatening injuries"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "ergonomics",
+    "relation": "more_than",
+    "value": "protective measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The stellar advancements in ergonomics are more than just protective measures"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Joseph Kimani",
+    "relation": "occupation",
+    "value": "long-distance runner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "long-distance runner Joseph Kimani"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alicia Hartfield",
+    "relation": "occupation",
+    "value": "gymnast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gymnast Alicia Hartfield"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "ergonomics",
+    "relation": "testament_to",
+    "value": "the profound impact that ergonomically optimized gear can have",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are testaments to the profound impact that ergonomically optimized gear can have"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Joseph Kimani",
+    "relation": "suffered",
+    "value": "a knee injury",
+    "time": "In October of 2024",
+    "speaker": null,
+    "verbatim": [
+     "In October of 2024, Kimani suffered a knee injury"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Joseph Kimani",
+    "relation": "sidelined_for",
+    "value": "over six months",
+    "time": "In October of 2024",
+    "speaker": null,
+    "verbatim": [
+     "left him on the sidelines for over six months"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Joseph Kimani",
+    "relation": "traditional_recovery_methods",
+    "value": "weren't enough to put the marathoner back on track",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional recovery methods weren't enough to put the marathoner back on track"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Joseph Kimani",
+    "relation": "fitted_with",
+    "value": "custom-designed running shoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after being fitted with custom-designed running shoes that distributed impact more evenly and offered enhanced support"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "custom-designed running shoes",
+    "relation": "distributed_impact",
+    "value": "more evenly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "custom-designed running shoes that distributed impact more evenly"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "custom-designed running shoes",
+    "relation": "offered",
+    "value": "enhanced support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offered enhanced support"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Joseph Kimani",
+    "relation": "returned_to",
+    "value": "competitive running",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kimani not only returned to competitive running but also shattered his personal best"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Joseph Kimani",
+    "relation": "shattered",
+    "value": "his personal best",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kimani not only returned to competitive running but also shattered his personal best"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Joseph Kimani",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after being fitted with custom-designed running shoes that distributed impact more evenly and offered enhanced support, Kimani not only returned to competitive running"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Joseph Kimani",
+    "relation": "journey_is",
+    "value": "a heartening story of resilience and scientific innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His journey from recovery to breaking records is a heartening story of resilience and scientific innovation"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alicia Hartfield",
+    "relation": "encountered",
+    "value": "persistent wrist strains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encountered persistent wrist strains that threatened her gymnastics pursuits"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Alicia Hartfield",
+    "relation": "threatened",
+    "value": "her gymnastics pursuits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encountered persistent wrist strains that threatened her gymnastics pursuits"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Alicia Hartfield",
+    "relation": "switched_to",
+    "value": "ergonomically enhanced hand grips",
+    "time": "Following months of setbacks",
+    "speaker": null,
+    "verbatim": [
+     "Following months of setbacks, she switched to ergonomically enhanced hand grips"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Alicia Hartfield",
+    "relation": "enabled",
+    "value": "train harder and perform routines that were once too risky",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing her to train harder and perform routines that were once too risky"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Alicia Hartfield",
+    "relation": "enables",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she switched to ergonomically enhanced hand grips, allowing her to train harder"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Alicia Hartfield",
+    "relation": "soared_to",
+    "value": "new heights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The result? Hartfield soared to new heights, claiming titles that earlier seemed elusive."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Alicia Hartfield",
+    "relation": "claimed",
+    "value": "titles that earlier seemed elusive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The result? Hartfield soared to new heights, claiming titles that earlier seemed elusive."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Alicia Hartfield",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": "Following months of setbacks",
+    "speaker": null,
+    "verbatim": [
+     "Following months of setbacks, she switched to ergonomically enhanced hand grips",
+     "The result? Hartfield soared to new heights"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "ergonomics",
+    "relation": "discomfort_leads_to",
+    "value": "distraction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discomfort often leads to distraction, and distraction leads to decreased performance and an increased risk of injury"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "ergonomics",
+    "relation": "distraction_leads_to",
+    "value": "decreased performance and an increased risk of injury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "distraction leads to decreased performance and an increased risk of injury"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "ergonomics",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discomfort often leads to distraction",
+     "distraction leads to decreased performance and an increased risk of injury"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "ergonomics",
+    "relation": "comfort_performance_link",
+    "value": "can't be overstated in sports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The link between comfort and performance can't be overstated in sports"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jack Philips",
+    "relation": "occupation",
+    "value": "ergonomics consultant specializing in sports gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Philips, an ergonomics consultant specializing in sports gear"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jack Philips",
+    "relation": "emphasizes",
+    "value": "by designing equipment that conforms to the anatomy and movement of athletes, we don't just reduce the likelihood of injuries; we unlock the athlete's full potential.",
+    "time": null,
+    "speaker": "Jack Philips",
+    "verbatim": [
+     "by designing equipment that conforms to the anatomy and movement of athletes, we don't just reduce the likelihood of injuries; we unlock the athlete's full potential."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Jack Philips",
+    "relation": "made_strides_in",
+    "value": "various sports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Philips and his team have made strides in various sports"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Jack Philips",
+    "relation": "designed",
+    "value": "ergonomic footwear for basketball players",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designing more ergonomic footwear for basketball players"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "ergonomic footwear for basketball players",
+    "relation": "designed_to",
+    "value": "absorb shock and minimize stress on the ankles and knees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designing more ergonomic footwear for basketball players that absorb shock and minimize stress on the ankles and knees"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "ergonomic footwear for basketball players",
+    "relation": "possibly_extends",
+    "value": "the careers of countless athletes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These design enhancements are noted for possibly extending the careers of countless athletes"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "3D scanning and printing technology",
+    "relation": "enables_tailoring",
+    "value": "gear tailored to their specific physiological measurements and performance metrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "athletes can now have gear tailored to their specific physiological measurements and performance metrics"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "3D scanning and printing technology",
+    "relation": "customization_was",
+    "value": "a privilege for the elite",
+    "time": "once",
+    "speaker": null,
+    "verbatim": [
+     "This level of customization was once a privilege for the elite but is becoming more accessible as the technology becomes widespread"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "3D scanning and printing technology",
+    "relation": "becoming_more_accessible",
+    "value": "as the technology becomes widespread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This level of customization was once a privilege for the elite but is becoming more accessible as the technology becomes widespread"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Ergonomic Revolution",
+    "relation": "critical_aspect_is",
+    "value": "the personalization of equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one of the most critical aspects of this ergonomics revolution is the personalization of equipment"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Mark Schultz",
+    "relation": "occupation",
+    "value": "swimmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "swimmer Mark Schultz"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Mark Schultz",
+    "relation": "comeback_after",
+    "value": "a shoulder injury",
+    "time": "in late 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose comeback after a shoulder injury in late 2023 was supported by a custom-fitted swimsuit and goggles"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Mark Schultz",
+    "relation": "supported_by",
+    "value": "a custom-fitted swimsuit and goggles",
+    "time": "in late 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose comeback after a shoulder injury in late 2023 was supported by a custom-fitted swimsuit and goggles"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "custom-fitted swimsuit and goggles",
+    "relation": "designed_to",
+    "value": "offer optimal hydrodynamics while reducing strain on his injuryprone areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These pieces of gear were designed to offer optimal hydrodynamics while reducing strain on his injuryprone areas"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Mark Schultz",
+    "relation": "made_successful_return_to",
+    "value": "the pool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only did Schultz make a successful return to the pool"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Mark Schultz",
+    "relation": "credited",
+    "value": "the personalized equipment with helping him swim pain-free",
+    "time": null,
+    "speaker": "Mark Schultz",
+    "verbatim": [
+     "he also credited the personalized equipment with helping him swim pain-free"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Lila Rodriguez",
+    "relation": "occupation",
+    "value": "sports physician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Figures like Dr. Lila Rodriguez, a sports physician who has advocated for the widespread adoption of ergonomic designs in high schools and local sports clubs"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Dr. Lila Rodriguez",
+    "relation": "advocated_for",
+    "value": "the widespread adoption of ergonomic designs in high schools and local sports clubs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Figures like Dr. Lila Rodriguez, a sports physician who has advocated for the widespread adoption of ergonomic designs in high schools and local sports clubs"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Dr. Lila Rodriguez",
+    "relation": "activism_played_part_in",
+    "value": "driving policy changes and raising awareness about the critical role ergonomics plays in athlete safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her activism has played a pivotal part in driving policy changes and raising awareness about the critical role ergonomics plays in athlete safety"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Dr. Lila Rodriguez",
+    "relation": "efforts_epitomize",
+    "value": "the community's commitment to ensuring these benefits are available to all, from budding high school athletes to seasoned professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Rodriguez's efforts epitomize the community's commitment to ensuring these benefits are available to all, from budding high school athletes to seasoned professionals"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "ergonomics",
+    "relation": "highlights",
+    "value": "the bright future of ergonomic sports equipment design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlight the bright future of ergonomic sports equipment design"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "ergonomics",
+    "relation": "continues_to_push",
+    "value": "the boundaries of what's possible in sports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to push the boundaries of what's possible in sports"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "ergonomics",
+    "relation": "elevated",
+    "value": "athletes' careers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has not only elevated athletes' careers"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "ergonomics",
+    "relation": "set_benchmark",
+    "value": "a new benchmark for how we perceive athletic gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has set a new benchmark for how we perceive athletic gear"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "ergonomics",
+    "relation": "athletic_gear_perceived_as",
+    "value": "vital partners in the quest for health, wellness, and unsurpassed athletic excellence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "no longer as mere tools, but as vital partners in the quest for health, wellness, and unsurpassed athletic excellence"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

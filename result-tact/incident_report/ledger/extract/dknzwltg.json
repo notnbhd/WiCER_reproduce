@@ -1,0 +1,824 @@
+{
+ "inventory": [
+  "St. Jude's Medical Center",
+  "Dr. Hannah Armstrong",
+  "Dr. Marcus Wu",
+  "Karen Hightower",
+  "Mike \"The Wrench\" Henderson",
+  "Mrs. Ethel Harris",
+  "Electronic Health Records (EHRs)",
+  "wifi",
+  "paging system",
+  "local cell tower",
+  "local power station",
+  "utility company",
+  "generator system",
+  "billing platform",
+  "billing department",
+  "maintenance staff",
+  "administrative staff",
+  "Gen-Z nursing staff",
+  "fax machine",
+  "power outage",
+  "patients",
+  "operating rooms"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "St. Jude's Medical Center",
+    "relation": "affected_by",
+    "value": "power outage",
+    "time": "September 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was a brisk autumn morning on September 14, 2023, when the St. Jude's Medical Center"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "power outage",
+    "relation": "occurred_on",
+    "value": "September 14, 2023",
+    "time": "September 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was a brisk autumn morning on September 14, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "St. Jude's Medical Center",
+    "relation": "described_as",
+    "value": "a beacon of modern medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the St. Jude's Medical Center \u2013 a beacon of modern medicine"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "St. Jude's Medical Center",
+    "relation": "knocked_back_into",
+    "value": "the Stone Age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found itself knocked back into the Stone Age"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "power outage",
+    "relation": "brought_facility_to_its_knees",
+    "value": "the facility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A power outage that brought the facility to its knees."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "utility company",
+    "relation": "described_as",
+    "value": "not to be given too much credit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "let's not give the utility company too much credit"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local power station",
+    "relation": "experienced",
+    "value": "a catastrophic failure",
+    "time": "As the morning progressed",
+    "speaker": null,
+    "verbatim": [
+     "A catastrophic failure at the local power station"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local power station",
+    "relation": "described_as",
+    "value": "electrical insubordination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a display of electrical insubordination"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "St. Jude's Medical Center",
+    "relation": "rendered_as",
+    "value": "as useful as a chocolate syringe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A hospital, supposedly a bulwark of life-saving wizardry, rendered as useful as a chocolate syringe."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "local power station",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A catastrophic failure at the local power station",
+     "The result? A hospital, supposedly a bulwark of life-saving wizardry, rendered as useful as a chocolate syringe."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Hannah Armstrong",
+    "relation": "gazed_longingly_at",
+    "value": "her lifeless computer screen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hannah Armstrong gazed longingly at her lifeless computer screen."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Hannah Armstrong",
+    "relation": "said",
+    "value": "It's like we're practicing medieval medicine",
+    "time": null,
+    "speaker": "Dr. Hannah Armstrong",
+    "verbatim": [
+     "It's like we're practicing medieval medicine"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Hannah Armstrong",
+    "relation": "said",
+    "value": "I half-expected to start applying leeches",
+    "time": null,
+    "speaker": "Dr. Hannah Armstrong",
+    "verbatim": [
+     "I half-expected to start applying leeches."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "generator system",
+    "relation": "sputtered_to_life",
+    "value": "the backup generators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the backup generators sputtered to life"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "generator system",
+    "relation": "described_as",
+    "value": "part of the d\u00e9cor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as someone remembered they were part of the d\u00e9cor"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "wifi",
+    "relation": "needed_break",
+    "value": "a break from the relentless demand of digital existence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decided it too needed a break from the relentless demand of digital existence."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Electronic Health Records (EHRs)",
+    "relation": "became",
+    "value": "expensive paperweights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electronic Health Records (EHRs), the darling of healthcare efficiency, suddenly became expensive paperweights."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Marcus Wu",
+    "relation": "introduced_to",
+    "value": "the novel concept of paper charting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Physicians like Dr. Marcus Wu found themselves introduced to the novel concept of paper charting."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Marcus Wu",
+    "relation": "said",
+    "value": "I had to use a fax machine",
+    "time": null,
+    "speaker": "Dr. Marcus Wu",
+    "verbatim": [
+     "I had to use a fax machine. A fax machine!"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "fax machine",
+    "relation": "believed_to_be",
+    "value": "extinct",
+    "time": null,
+    "speaker": "Dr. Marcus Wu",
+    "verbatim": [
+     "I thought they were extinct"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Marcus Wu",
+    "relation": "explained_to",
+    "value": "a perplexed intern what a 'landline' was",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who was seen later explaining to a perplexed intern what a 'landline' was"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "administrative staff",
+    "relation": "faced",
+    "value": "their own existential crisis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced their own existential crisis."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "administrative staff",
+    "relation": "described_as",
+    "value": "modern-day alchemists turning keystrokes into billing gold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern-day alchemists turning keystrokes into billing gold"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "administrative staff",
+    "relation": "cut_off",
+    "value": "the flow of bureaucratic sustenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without the internet, the flow of bureaucratic sustenance was cut off."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "wifi",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without the internet, the flow of bureaucratic sustenance was cut off."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Karen Hightower",
+    "relation": "said",
+    "value": "We couldn't process claims, admissions, or discharges",
+    "time": null,
+    "speaker": "Karen Hightower",
+    "verbatim": [
+     "We couldn't process claims, admissions, or discharges,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Karen Hightower",
+    "relation": "head_of",
+    "value": "billing department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Karen Hightower, head of the billing department"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Karen Hightower",
+    "relation": "spent_the_day",
+    "value": "staring into the abyss",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who spent the better part of the day staring into the abyss"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "billing platform",
+    "relation": "described_as",
+    "value": "non-responsive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also known as a non-responsive billing platform"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "local cell tower",
+    "relation": "ceased_to_signal",
+    "value": "ceased to signal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local cell tower \u2013 perhaps in solidarity with its fallen utility brethren \u2013 had ceased to signal."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "local cell tower",
+    "relation": "possibly_in_solidarity_with",
+    "value": "its fallen utility brethren",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "perhaps in solidarity with its fallen utility brethren"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "paging system",
+    "relation": "earned_its_keep",
+    "value": "earned its keep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the paging system, a relic in this temple of technology, earned its keep."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "paging system",
+    "relation": "described_as",
+    "value": "a relic in this temple of technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a relic in this temple of technology"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "paging system",
+    "relation": "used_by",
+    "value": "doctors",
+    "time": "During rounds",
+    "speaker": null,
+    "verbatim": [
+     "During rounds, doctors were spotted dusting off their pagers"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Gen-Z nursing staff",
+    "relation": "bewildered_by",
+    "value": "doctors dusting off their pagers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "much to the bewilderment of the Gen-Z nursing staff"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Gen-Z nursing staff",
+    "relation": "said",
+    "value": "Is that a new kind of smartwatch?",
+    "time": null,
+    "speaker": "a young nurse",
+    "verbatim": [
+     "\"Is that a new kind of smartwatch?\" inquired a young nurse"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Gen-Z nursing staff",
+    "relation": "met_with",
+    "value": "the nostalgic chuckles of seasoned staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "only to be met with the nostalgic chuckles of seasoned staff"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "St. Jude's Medical Center",
+    "relation": "boasted_about",
+    "value": "its state-of-the-art generator system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The hospital had boasted about its state-of-the-art generator system."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "generator system",
+    "relation": "seemed",
+    "value": "more performance art than practicality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the system seemed more performance art than practicality"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "generator system",
+    "relation": "eventually_managed_to",
+    "value": "whisper some life into the critical areas",
+    "time": "eventually",
+    "speaker": null,
+    "verbatim": [
+     "the generators eventually managed to whisper some life into the critical areas"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "generator system",
+    "relation": "akin_to",
+    "value": "a gentle breeze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they were more akin to a gentle breeze than the gusts required."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "operating rooms",
+    "relation": "struggled_with",
+    "value": "the lighting intensity of a romantic dinner venue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "operating rooms struggled with the lighting intensity of a romantic dinner venue"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "operating rooms",
+    "relation": "postponed",
+    "value": "vital surgeries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vital surgeries were postponed"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "operating rooms",
+    "relation": "caused_by",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vital surgeries were postponed, as operating rooms struggled with the lighting intensity of a romantic dinner venue."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "maintenance staff",
+    "relation": "made",
+    "value": "heroic efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heroic efforts of the maintenance staff"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "maintenance staff",
+    "relation": "trying_to",
+    "value": "keep the generators humming along",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trying to keep the generators humming along"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "maintenance staff",
+    "relation": "playing",
+    "value": "a twisted game of whack-a-mole",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "playing a twisted game of whack-a-mole"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mike \"The Wrench\" Henderson",
+    "relation": "role",
+    "value": "operative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One operative, Mike \"The Wrench\" Henderson"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mike \"The Wrench\" Henderson",
+    "relation": "described_ordeal_as",
+    "value": "trying to plug a dam with bubble gum",
+    "time": null,
+    "speaker": "Mike \"The Wrench\" Henderson",
+    "verbatim": [
+     "trying to plug a dam with bubble gum."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Mike \"The Wrench\" Henderson",
+    "relation": "hands_covered_in",
+    "value": "more grease than a fast food fry cook",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "covered in more grease than a fast food fry cook"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "patients",
+    "relation": "described_as",
+    "value": "the true victims",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the true victims, the patients"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "patients",
+    "relation": "came_to",
+    "value": "St. Jude's seeking solace from their ailments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Those who came to St. Jude's seeking solace from their ailments"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "patients",
+    "relation": "found_themselves",
+    "value": "extras in this absurdist play",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "only to find themselves extras in this absurdist play"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "power outage",
+    "relation": "turned_vitals_checking_into",
+    "value": "a vaudevillian act of flashlight tag",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without power, the simple act of checking vitals became a vaudevillian act of flashlight tag."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Mrs. Ethel Harris",
+    "relation": "came_in_for",
+    "value": "a routine procedure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who had come in for a routine procedure"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mrs. Ethel Harris",
+    "relation": "provided_comfort_to",
+    "value": "her bewildered caregivers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found herself in the surreal situation of providing comfort to her bewildered caregivers."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Mrs. Ethel Harris",
+    "relation": "said",
+    "value": "I told my nurse that everything would be all right",
+    "time": null,
+    "speaker": "Mrs. Ethel Harris",
+    "verbatim": [
+     "I told my nurse that everything would be all right,"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Mrs. Ethel Harris",
+    "relation": "was_accustomed_to",
+    "value": "power outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was probably more accustomed to power outages given her pre-internet era upbringing"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Mrs. Ethel Harris",
+    "relation": "explained_by",
+    "value": "her pre-internet era upbringing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "given her pre-internet era upbringing"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "power outage",
+    "relation": "power_restored",
+    "value": "power stuttered back to life",
+    "time": "hours later",
+    "speaker": null,
+    "verbatim": [
+     "As power stuttered back to life hours later"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "St. Jude's Medical Center",
+    "relation": "procedures_were",
+    "value": "backlogged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Procedures were backlogged"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "St. Jude's Medical Center",
+    "relation": "records_were",
+    "value": "in disarray",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "records were in disarray"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "St. Jude's Medical Center",
+    "relation": "described_as",
+    "value": "a cacophony of analog instruments struggling to find the tune",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the technological symphony that healthcare had become was now a cacophony of analog instruments struggling to find the tune."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "St. Jude's Medical Center",
+    "relation": "vulnerability_revealed_as",
+    "value": "almost comical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The vulnerability of such an integral institution revealed itself to be almost comical."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "St. Jude's Medical Center",
+    "relation": "redundant_systems_fell",
+    "value": "backup upon backup, all fell like dominoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lines of redundant systems, backup upon backup, all fell like dominoes"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "power outage",
+    "relation": "described_as",
+    "value": "a preventable hiccup in the 21st century",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a preventable hiccup in the 21st century"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "administrative staff",
+    "relation": "financial_ramifications_undulated_through",
+    "value": "the administrative wings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial ramifications undulated through the administrative wings"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "administrative staff",
+    "relation": "likely_lament",
+    "value": "the losses not covered by insurance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the likely lament being the losses not covered by insurance"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "wifi",
+    "relation": "returned",
+    "value": "once again cradling the facility in its digital embrace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the wifi once again cradling the facility in its digital embrace"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "power outage",
+    "relation": "lights_restored",
+    "value": "the lights back on",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the lights back on"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "St. Jude's Medical Center",
+    "relation": "staff_would_carry",
+    "value": "the memory, a sort of institutional PTSD",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The staff of St. Jude's Medical Center would carry the memory, a sort of institutional PTSD"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "St. Jude's Medical Center",
+    "relation": "staff_may_need_to_resort_to",
+    "value": "the tools of yesteryear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they may need to resort to the tools of yesteryear"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

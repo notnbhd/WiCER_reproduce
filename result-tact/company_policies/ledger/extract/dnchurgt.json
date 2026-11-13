@@ -1,0 +1,532 @@
+{
+ "inventory": [
+  "Skyward Solutions",
+  "Chronic Disease Management and Prevention Program",
+  "John",
+  "Mary",
+  "Jennifer",
+  "Mike",
+  "chronic diseases",
+  "diabetes",
+  "heart disease",
+  "respiratory conditions",
+  "asthma",
+  "Free annual health screenings",
+  "Vaccination clinics",
+  "monthly health newsletter",
+  "client services team",
+  "Skyward Solutions IT department"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Skyward Solutions",
+    "relation": "considers_employee_wellbeing",
+    "value": "paramount to its success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we recognize that the wellbeing of our employees is paramount to our success"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "chronic diseases",
+    "relation": "includes_examples",
+    "value": "diabetes, heart disease, respiratory conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chronic diseases, such as diabetes, heart disease, and respiratory conditions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "chronic diseases",
+    "relation": "impacts",
+    "value": "the lives of our staff and their productivity at work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can significantly impact the lives of our staff and their productivity at work"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Skyward Solutions",
+    "relation": "put_in_place",
+    "value": "Chronic Disease Management and Prevention Program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we have put in place a Chronic Disease Management and Prevention Program"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "designed_to",
+    "value": "support our employees in managing these conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to support our employees in managing these conditions"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "designed_to",
+    "value": "prevent their onset",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as well as taking proactive steps to prevent their onset"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Skyward Solutions",
+    "relation": "opened_dialogue_with",
+    "value": "employees who are currently dealing with chronic diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we've opened a dialogue with employees who are currently dealing with chronic diseases"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Skyward Solutions",
+    "relation": "stories_showcase",
+    "value": "the dayto-day challenges they face",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their stories showcase the dayto-day challenges they face"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Skyward Solutions",
+    "relation": "policies_tailored_to_address",
+    "value": "the challenges employees face",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how Skyward Solutions' policies are tailored to address them"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "John",
+    "relation": "job_title",
+    "value": "engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John, an engineer with type 2 diabetes"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "John",
+    "relation": "has_condition",
+    "value": "type 2 diabetes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John, an engineer with type 2 diabetes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "John",
+    "relation": "reports",
+    "value": "The company's wellness program has made it easier to manage my diabetes",
+    "time": null,
+    "speaker": "John",
+    "verbatim": [
+     "The company's wellness program has made it easier to manage my diabetes"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "John",
+    "relation": "benefit_cited",
+    "value": "access to nutritional counseling and regular health screenings on-site",
+    "time": null,
+    "speaker": "John",
+    "verbatim": [
+     "With access to nutritional counseling and regular health screenings on-site, I feel more in control of my condition."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John",
+    "relation": "reports_feeling",
+    "value": "more in control of my condition",
+    "time": null,
+    "speaker": "John",
+    "verbatim": [
+     "I feel more in control of my condition."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mary",
+    "relation": "has_history_of",
+    "value": "cardiac issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mary, who has a history of cardiac issues"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mary",
+    "relation": "worried_about",
+    "value": "my heart health affecting my job",
+    "time": null,
+    "speaker": "Mary",
+    "verbatim": [
+     "I was worried about my heart health affecting my job."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mary",
+    "relation": "reports",
+    "value": "the company's fitness subsidies and stress management workshops have been game changers",
+    "time": null,
+    "speaker": "Mary",
+    "verbatim": [
+     "the company's fitness subsidies and stress management workshops have been game changers for me"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Skyward Solutions",
+    "relation": "experiences_highlight",
+    "value": "the tangible benefits of our programs and the need for these initiatives in the workplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their experiences highlight the tangible benefits of our programs and the need for these initiatives in the workplace."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Skyward Solutions",
+    "relation": "believes",
+    "value": "prevention as the first line of defense against chronic diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Skyward Solutions believes in prevention as the first line of defense against chronic diseases."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Skyward Solutions",
+    "relation": "offers",
+    "value": "regular health education sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only do we offer regular health education sessions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Skyward Solutions",
+    "relation": "policies_encourage",
+    "value": "preventative care through various means",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our policies also encourage preventative care through various means"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Skyward Solutions",
+    "relation": "offers",
+    "value": "Free annual health screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Free annual health screenings"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Skyward Solutions",
+    "relation": "offers",
+    "value": "Educational resources on chronic disease prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational resources on chronic disease prevention"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Skyward Solutions",
+    "relation": "offers",
+    "value": "Exercise and healthy eating programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Exercise and healthy eating programs"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Skyward Solutions",
+    "relation": "offers",
+    "value": "Vaccination clinics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vaccination clinics to prevent illness"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Vaccination clinics",
+    "relation": "purpose",
+    "value": "to prevent illness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vaccination clinics to prevent illness"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Skyward Solutions",
+    "relation": "measures_aim",
+    "value": "to empower employees with knowledge and resources to take charge of their health before the chronic disease takes root",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These measures aim to empower employees with knowledge and resources to take charge of their health before the chronic disease takes root."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "provides",
+    "value": "Support groups for shared experiences and advice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Support groups for shared experiences and advice"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "provides",
+    "value": "Personalized healthcare plans that integrate with job responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Personalized healthcare plans that integrate with job responsibilities"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "provides",
+    "value": "Easy access to medication and necessary medical equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Easy access to medication and necessary medical equipment"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Chronic Disease Management and Prevention Program",
+    "relation": "provides",
+    "value": "Flexible working arrangements to accommodate medical appointments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Flexible working arrangements to accommodate medical appointments"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jennifer",
+    "relation": "member_of",
+    "value": "client services team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer, a member of the client services team and a chronic asthma sufferer"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jennifer",
+    "relation": "has_condition",
+    "value": "asthma",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a chronic asthma sufferer"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jennifer",
+    "relation": "reports",
+    "value": "the flexibility in scheduling around treatments and the understanding from my team have made all the difference",
+    "time": null,
+    "speaker": "Jennifer",
+    "verbatim": [
+     "the flexibility in scheduling around treatments and the understanding from my team have made all the difference"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Skyward Solutions",
+    "relation": "believes_policies_should_evolve",
+    "value": "based on the needs and feedback of our employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We believe that our policies should evolve based on the needs and feedback of our employees."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Skyward Solutions",
+    "relation": "solicits_input_through",
+    "value": "surveys and one-on-one interviews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we regularly solicit their input through surveys and one-on-one interviews"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Skyward Solutions",
+    "relation": "takes_suggestions_seriously",
+    "value": "tweaking our programs to better serve everyone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We take their suggestions seriously, tweaking our programs to better serve everyone."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Mike",
+    "relation": "member_of",
+    "value": "Skyward Solutions IT department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike, part of the Skyward Solutions IT department, suggested"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mike",
+    "relation": "suggested",
+    "value": "Having more frequent health updates and tips would be a huge help",
+    "time": null,
+    "speaker": "Mike",
+    "verbatim": [
+     "Having more frequent health updates and tips would be a huge help."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Skyward Solutions",
+    "relation": "started",
+    "value": "a monthly health newsletter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We've since started a monthly health newsletter"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "monthly health newsletter",
+    "relation": "based_on",
+    "value": "Mike's feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a monthly health newsletter based on Mike's feedback"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "monthly health newsletter",
+    "relation": "caused_by",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a monthly health newsletter based on Mike's feedback"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Skyward Solutions",
+    "relation": "caused_by",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can significantly impact the lives of our staff and their productivity at work",
+     "Consequently, we have put in place"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Skyward Solutions",
+    "relation": "committed_to",
+    "value": "the ongoing health and wellness of all our employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Skyward Solutions is committed to the ongoing health and wellness of all our employees."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Skyward Solutions",
+    "relation": "goal_is",
+    "value": "provide the support and resources necessary for a healthy, productive workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our goal is consistent: provide the support and resources necessary for a healthy, productive workforce."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Skyward Solutions",
+    "relation": "aspires_to",
+    "value": "foster an environment that not only enhances workplace wellness but also improves quality of life for our employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we aspire to foster an environment that not only enhances workplace wellness but also improves quality of life for our employees."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

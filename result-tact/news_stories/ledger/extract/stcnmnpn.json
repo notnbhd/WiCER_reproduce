@@ -1,0 +1,913 @@
+{
+ "inventory": [
+  "New Delhi",
+  "Terrestrial Climate Observation Center",
+  "Dr. Anaya Singh",
+  "Municipal Corporation of Delhi",
+  "Cooling centers",
+  "Sanjeev Kumar",
+  "AIIMS Hospital",
+  "Anita Roy",
+  "Asha Devi",
+  "Rajesh Kumar",
+  "New Delhi power grid",
+  "Load shedding",
+  "Vijay Singh",
+  "Dr. Preethi Narang",
+  "Raghav Mehta",
+  "Pune",
+  "Climate change",
+  "Global warming",
+  "Heatwave",
+  "Government",
+  "Schools",
+  "Agricultural communities",
+  "Water scarcity",
+  "Community solidarity"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Global warming",
+    "relation": "drives",
+    "value": "record-breaking heatwave in New Delhi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Global Warming Drives Record-Breaking Heatwave in New Delhi"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Climate change",
+    "relation": "has_impacts",
+    "value": "increasingly severe impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the world grapples with climate change's increasingly severe impacts"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "New Delhi",
+    "relation": "transformed_into",
+    "value": "an inferno",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "India's capital city New Delhi has been transformed into an inferno"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "New Delhi",
+    "relation": "capital_of",
+    "value": "India",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "India's capital city New Delhi"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Heatwave",
+    "relation": "broke_records",
+    "value": "all previous meteorological records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an extended heatwave that has broken all previous meteorological records"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Heatwave",
+    "relation": "left",
+    "value": "health services overwhelmed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "left health services overwhelmed"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "New Delhi",
+    "relation": "temperature_reached",
+    "value": "47deg Celsius (116.6degFahrenheit)",
+    "time": "Over the last week",
+    "speaker": "experts",
+    "verbatim": [
+     "New Delhi temperatures have skyrocketed to an alarming 47deg Celsius (116.6degFahrenheit)"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Terrestrial Climate Observation Center",
+    "relation": "employs",
+    "value": "climate scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One climate scientist from Terrestrial Climate Observation Center"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Anaya Singh",
+    "relation": "affiliated_with",
+    "value": "Terrestrial Climate Observation Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Anaya Singh from there expressed hers"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Anaya Singh",
+    "relation": "said",
+    "value": "these temperatures epitomize wider patterns of global warming; they can lead to serious health concerns or even mortality",
+    "time": null,
+    "speaker": "Dr. Anaya Singh",
+    "verbatim": [
+     "these temperatures \"epitomize wider patterns of global warming; they can lead to serious health concerns or even mortality\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Heatwave",
+    "relation": "can_lead_to",
+    "value": "serious health concerns or even mortality",
+    "time": null,
+    "speaker": "Dr. Anaya Singh",
+    "verbatim": [
+     "they can lead to serious health concerns or even mortality"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Municipal Corporation of Delhi",
+    "relation": "took_precautionary_steps",
+    "value": "precautionary steps to safeguard its citizens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Municipal Corporation of Delhi has taken precautionary steps to safeguard its citizens"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Cooling centers",
+    "relation": "set_up_in",
+    "value": "throughout the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cooling centers have been set up throughout the city"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cooling centers",
+    "relation": "provide",
+    "value": "air-conditioned shelters and free water stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cooling centers have been set up throughout the city providing air-conditioned shelters and free water stations"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cooling centers",
+    "relation": "in_order_to",
+    "value": "combat dehydration and heatstroke",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in an attempt to combat dehydration and heatstroke"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Heatwave",
+    "relation": "spike_in_cases",
+    "value": "sharp spike in cases relating to heatstroke among both elderly and children patients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hospital records indicate a sharp spike in cases relating to heatstroke among both elderly and children patients"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sanjeev Kumar",
+    "relation": "works_as",
+    "value": "emergency physician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sanjeev Kumar, an emergency physician at AIIMS Hospital"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sanjeev Kumar",
+    "relation": "works_at",
+    "value": "AIIMS Hospital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sanjeev Kumar, an emergency physician at AIIMS Hospital"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sanjeev Kumar",
+    "relation": "said",
+    "value": "Our emergency department has seen an upsurge in patients suffering from dehydration, heat exhaustion, or in some instances heatstroke",
+    "time": null,
+    "speaker": "Sanjeev Kumar",
+    "verbatim": [
+     "Our emergency department has seen an upsurge in patients suffering from dehydration, heat exhaustion, or in some instances heatstroke"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sanjeev Kumar",
+    "relation": "said",
+    "value": "all require prompt and intensive treatment to avoid permanent damage or death",
+    "time": null,
+    "speaker": "Sanjeev Kumar",
+    "verbatim": [
+     "all require prompt and intensive treatment to avoid permanent damage or death"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "New Delhi",
+    "relation": "daily_life_affected",
+    "value": "dramatically affected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daily life in New Delhi has been dramatically affected"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Government",
+    "relation": "encourages",
+    "value": "citizens to remain indoors during peak hours and limit exposure to sunlight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the government encouraging citizens to remain indoors during peak hours and limit exposure to sunlight"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Heatwave",
+    "relation": "industries_experienced",
+    "value": "significant slowdowns in labor-intensive industries, including construction and agriculture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laborintensive industries, including construction and agriculture, have experienced significant slowdowns"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Anita Roy",
+    "relation": "works_as",
+    "value": "construction manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anita Roy, a construction manager, noted"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Anita Roy",
+    "relation": "said",
+    "value": "our teams simply cannot function efficiently",
+    "time": null,
+    "speaker": "Anita Roy",
+    "verbatim": [
+     "Under these conditions, our teams simply cannot function efficiently"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Anita Roy",
+    "relation": "said",
+    "value": "deadlines and economies alike have suffered as a result",
+    "time": null,
+    "speaker": "Anita Roy",
+    "verbatim": [
+     "deadlines and economies alike have suffered as a result"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Anita Roy",
+    "relation": "said",
+    "value": "shorter working hours being required due to this shortage",
+    "time": null,
+    "speaker": "Anita Roy",
+    "verbatim": [
+     "Due to shorter working hours being required due to this shortage"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Schools",
+    "relation": "forced_to",
+    "value": "suspend classes or switch over to online platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schools throughout the city have been forced to suspend classes or switch over to online platforms due to overheating conditions"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Schools",
+    "relation": "caused_by",
+    "value": "overheating conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to overheating conditions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Schools",
+    "relation": "results_in",
+    "value": "additional burden on families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "placing additional burden on families - particularly those without sufficient cooling facilities at home"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Schools",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suspend classes or switch over to online platforms due to overheating conditions, placing additional burden on families"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Asha Devi",
+    "relation": "mother_of",
+    "value": "two primary school children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Asha Devi, mother to two primary school children"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Asha Devi",
+    "relation": "primary_concern",
+    "value": "primary concern lies with their health rather than education",
+    "time": "this heatwave",
+    "speaker": "Asha Devi",
+    "verbatim": [
+     "admits her primary concern lies with their health rather than education in this heatwave"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Asha Devi",
+    "relation": "faces",
+    "value": "difficult choice between two potential negative outcomes for their kids' futures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Asha faces the difficult choice between two potential negative outcomes for their kids' futures"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "New Delhi power grid",
+    "relation": "under_strain",
+    "value": "intense strain during this heatwave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Delhi's power grid has come under intense strain during this heatwave"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "New Delhi power grid",
+    "relation": "caused_by",
+    "value": "increased usage of air conditioning units and other cooling appliances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to increased usage of air conditioning units and other cooling appliances"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "New Delhi power grid",
+    "relation": "results_in",
+    "value": "frequent power outages across different areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to frequent power outages across different areas"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "New Delhi power grid",
+    "relation": "compounds",
+    "value": "residents' misery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "further compounding residents' misery"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Rajesh Kumar",
+    "relation": "works_as",
+    "value": "chief electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rajesh Kumar, chief electrical engineer for the power distribution company"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Rajesh Kumar",
+    "relation": "works_for",
+    "value": "power distribution company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rajesh Kumar, chief electrical engineer for the power distribution company"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "New Delhi power grid",
+    "relation": "energy_demand_exceeded",
+    "value": "forecasts",
+    "time": null,
+    "speaker": "Rajesh Kumar",
+    "verbatim": [
+     "Energy demand has exceeded forecasts"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Load shedding",
+    "relation": "used_as",
+    "value": "emergency measure",
+    "time": null,
+    "speaker": "Rajesh Kumar",
+    "verbatim": [
+     "we are using load shedding as an emergency measure"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Load shedding",
+    "relation": "in_order_to",
+    "value": "keep supply stable",
+    "time": null,
+    "speaker": "Rajesh Kumar",
+    "verbatim": [
+     "in an attempt to keep supply stable"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "New Delhi power grid",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": "Rajesh Kumar",
+    "verbatim": [
+     "Energy demand has exceeded forecasts; therefore we are using load shedding"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Heatwave",
+    "relation": "battle_against_heat_status",
+    "value": "ongoing",
+    "time": null,
+    "speaker": "Rajesh Kumar",
+    "verbatim": [
+     "yet this battle against heat is ongoing"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Agricultural communities",
+    "relation": "suffered",
+    "value": "devastating repercussions from the heatwave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heatwave has had devastating repercussions for agricultural communities"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Agricultural communities",
+    "relation": "threatened",
+    "value": "crops and livestock",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Drought conditions threaten crops and livestock alike"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Agricultural communities",
+    "relation": "faced_challenge",
+    "value": "increasingly challenging task of maintaining irrigation for their yields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing farmers to deal with an increasingly challenging task of maintaining irrigation for their yields and ensure survival of yields"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Vijay Singh",
+    "relation": "works_as",
+    "value": "farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vijay Singh, a farmer on the outskirts of New Delhi"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Vijay Singh",
+    "relation": "located_in",
+    "value": "outskirts of New Delhi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vijay Singh, a farmer on the outskirts of New Delhi"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Vijay Singh",
+    "relation": "said",
+    "value": "Our crops have experienced stunted growth due to lack of water",
+    "time": null,
+    "speaker": "Vijay Singh",
+    "verbatim": [
+     "Our crops have experienced stunted growth due to lack of water"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Vijay Singh",
+    "relation": "said",
+    "value": "cattle are struggling with lack of access",
+    "time": null,
+    "speaker": "Vijay Singh",
+    "verbatim": [
+     "while cattle are struggling with lack of access"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Vijay Singh",
+    "relation": "said",
+    "value": "we won't make it through this season",
+    "time": null,
+    "speaker": "Vijay Singh",
+    "verbatim": [
+     "we won't make it through this season!"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Vijay Singh",
+    "relation": "said",
+    "value": "it could prove devastating if this continues",
+    "time": null,
+    "speaker": "Vijay Singh",
+    "verbatim": [
+     "If this continues, it could prove devastating"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Water scarcity",
+    "relation": "has_become",
+    "value": "another critical issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Water scarcity has become another critical issue"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Water scarcity",
+    "relation": "drying_up",
+    "value": "reservoirs and rivers drying up faster than anticipated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reservoirs and rivers drying up faster than anticipated"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Water scarcity",
+    "relation": "rationing_implemented_in",
+    "value": "several districts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In several districts, rationing has been implemented"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Water scarcity",
+    "relation": "results_in",
+    "value": "long lines at public taps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in long lines at public taps as residents seek a continuous water source"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Water scarcity",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In several districts, rationing has been implemented resulting in long lines at public taps"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Climate change",
+    "relation": "action_urged",
+    "value": "immediate, coordinated action to combat climate change",
+    "time": null,
+    "speaker": "Meteorologists and climate scientists",
+    "verbatim": [
+     "Meteorologists and climate scientists are again pressing for immediate, coordinated action to combat climate change"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Heatwave",
+    "relation": "serves_as",
+    "value": "a stark reminder of this urgent necessity to combat global warming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Delhi's heatwave serves as a stark reminder of this urgent necessity to combat global warming"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Heatwave",
+    "relation": "concern_about",
+    "value": "long-term ramifications of repeated exposure to such high temperatures",
+    "time": null,
+    "speaker": "Public health officials",
+    "verbatim": [
+     "Public health officials are extremely concerned about the long-term ramifications of repeated exposure to such high temperatures"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Heatwave",
+    "relation": "can_lead_to",
+    "value": "chronic health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heatwaves not only cause discomfort but can lead to chronic health conditions as well"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Heatwave",
+    "relation": "causes",
+    "value": "discomfort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heatwaves not only cause discomfort"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Preethi Narang",
+    "relation": "works_as",
+    "value": "public health expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Preethi Narang, a public health expert, highlights the risks"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Dr. Preethi Narang",
+    "relation": "highlights",
+    "value": "an increase in respiratory issues, cardiovascular strain, and mental health impacts",
+    "time": null,
+    "speaker": "Dr. Preethi Narang",
+    "verbatim": [
+     "With each heatwave comes an increase in respiratory issues, cardiovascular strain, and mental health impacts that are becoming evident"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Community solidarity",
+    "relation": "emerges_amid",
+    "value": "this disaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As stories of community solidarity emerge amid this disaster"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Community solidarity",
+    "relation": "provides",
+    "value": "access to water and cooling facilities for those most in need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neighbors have come together to ensure those most in need have access to water and cooling facilities"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Raghav Mehta",
+    "relation": "works_as",
+    "value": "NGO worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Raghav Mehta, an NGO worker in Pune"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Raghav Mehta",
+    "relation": "located_in",
+    "value": "Pune",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Raghav Mehta, an NGO worker in Pune"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Raghav Mehta",
+    "relation": "said",
+    "value": "during times of difficulty we can witness humanity at its finest",
+    "time": null,
+    "speaker": "Raghav Mehta",
+    "verbatim": [
+     "during times of difficulty we can witness humanity at its finest"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Community solidarity",
+    "relation": "gives_strength",
+    "value": "us strength in facing such difficult challenges",
+    "time": null,
+    "speaker": "Raghav Mehta",
+    "verbatim": [
+     "it is this solidarity that gives us strength in facing such difficult challenges"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Global warming",
+    "relation": "long_term_solutions_from",
+    "value": "both global and governmental bodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "long-term solutions from both global and governmental bodies being pursued to combat global warming's unavoidable effects"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Global warming",
+    "relation": "effects_described_as",
+    "value": "unavoidable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "global warming's unavoidable effects"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Government",
+    "relation": "pursuing",
+    "value": "long-term solutions to combat global warming's unavoidable effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "long-term solutions from both global and governmental bodies being pursued to combat global warming's unavoidable effects"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "New Delhi",
+    "relation": "stands_as",
+    "value": "an alarming reminder of climate change's increasing frequency and intensity of natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Delhi stands as an alarming reminder of climate change's increasing frequency and intensity of natural disasters"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Climate change",
+    "relation": "increasing",
+    "value": "frequency and intensity of natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "climate change's increasing frequency and intensity of natural disasters that are impacting communities globally"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Climate change",
+    "relation": "impacts",
+    "value": "communities globally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "natural disasters that are impacting communities globally"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Heatwave",
+    "relation": "silent_killers_becoming",
+    "value": "more common than ever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With silent killers becoming more common than ever"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Climate change",
+    "relation": "action_must_be_taken_against",
+    "value": "such global menaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "action must now be taken against such global menaces"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

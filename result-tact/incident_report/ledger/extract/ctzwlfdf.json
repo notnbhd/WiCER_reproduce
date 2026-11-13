@@ -1,0 +1,492 @@
+{
+ "inventory": [
+  "Cedarville",
+  "Maplewood",
+  "Oakridge",
+  "Greenfield",
+  "Martha Jones",
+  "Brookfield",
+  "Pineview",
+  "David Thompson",
+  "Franklin Orchards",
+  "Rosewood",
+  "Highfield",
+  "Ashton",
+  "Emma Robertson",
+  "Riverdale",
+  "Wildwood",
+  "George Harris",
+  "Bakersfield",
+  "Susan O'Malley",
+  "Grandview",
+  "Rural electrification",
+  "Satellite services"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Cedarville",
+    "relation": "experienced_network_blackout",
+    "value": "a network blackout",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "where residents experienced a network blackout on November 4th"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Cedarville",
+    "relation": "described_as",
+    "value": "town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "towns like Cedarville"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Maplewood",
+    "relation": "service_failed",
+    "value": "service failure",
+    "time": "the evening of September 15th",
+    "speaker": null,
+    "verbatim": [
+     "as it did in Maplewood on the evening of September 15th"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Oakridge",
+    "relation": "service_provider_experienced",
+    "value": "a fiber cut",
+    "time": "October 22nd",
+    "speaker": null,
+    "verbatim": [
+     "whose service provider experienced a fiber cut on October 22nd"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Oakridge",
+    "relation": "lacks_backup_options",
+    "value": "often have no such luxury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rural areas like Oakridge, whose service provider experienced a fiber cut on October 22nd, often have no such luxury"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Greenfield",
+    "relation": "lightning_storm_near",
+    "value": "lightning storm",
+    "time": "October 12th",
+    "speaker": null,
+    "verbatim": [
+     "The lightning storm near Greenfield on October 12th"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Greenfield",
+    "relation": "left_communication_lines_dead",
+    "value": "communication lines dead for hours",
+    "time": "October 12th",
+    "speaker": null,
+    "verbatim": [
+     "which left communication lines dead for hours"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Greenfield",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lightning storm near Greenfield on October 12th, which left communication lines dead for hours"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Martha Jones",
+    "relation": "resides_in",
+    "value": "Brookfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents like Martha Jones from Brookfield voice their frustrations"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Martha Jones",
+    "relation": "voiced_frustrations",
+    "value": "frustrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents like Martha Jones from Brookfield voice their frustrations"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Pineview",
+    "relation": "experienced_blackout",
+    "value": "day-long blackout",
+    "time": "December 1st",
+    "speaker": null,
+    "verbatim": [
+     "the day-long blackout experienced in Pineview on December 1st"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "David Thompson",
+    "relation": "occupation",
+    "value": "businessman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businessman David Thompson"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "David Thompson",
+    "relation": "owns",
+    "value": "online retail company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businessman David Thompson estimates cost his online retail company thousands in lost sales"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "David Thompson",
+    "relation": "estimates_cost_of_outage",
+    "value": "thousands in lost sales",
+    "time": null,
+    "speaker": "David Thompson",
+    "verbatim": [
+     "businessman David Thompson estimates cost his online retail company thousands in lost sales"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Pineview",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the day-long blackout experienced in Pineview on December 1st, which businessman David Thompson estimates cost his online retail company thousands in lost sales"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Franklin Orchards",
+    "relation": "located_outside",
+    "value": "Rosewood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Franklin Orchards outside of Rosewood"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Franklin Orchards",
+    "relation": "affected_by",
+    "value": "network failure",
+    "time": "November 28th",
+    "speaker": null,
+    "verbatim": [
+     "the experience of Franklin Orchards outside of Rosewood after the network failure on November 28th"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Franklin Orchards",
+    "relation": "exemplifies",
+    "value": "farming community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The farming community particularly feels the weight, as exemplified by the experience of Franklin Orchards"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Highfield",
+    "relation": "series_of_outages",
+    "value": "series of outages",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "the series of outages in late September"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Highfield",
+    "relation": "home_buyers_reconsidering_moves",
+    "value": "home buyers reconsidering moves into Highfield",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "home buyers reconsidering moves into Highfield post the series of outages in late September"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Ashton",
+    "relation": "school_system_relies_on",
+    "value": "internet-based learning tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the school system relies on internet-based learning tools"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Ashton",
+    "relation": "experienced_outage",
+    "value": "outage disrupted education",
+    "time": "October 5th",
+    "speaker": null,
+    "verbatim": [
+     "the outage on October 5th disrupted education"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emma Robertson",
+    "relation": "age",
+    "value": "14-year-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "14-year-old Emma Robertson"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Emma Robertson",
+    "relation": "at_disadvantage_compared_to",
+    "value": "her city peers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving students like 14-year-old Emma Robertson at a disadvantage compared to her city peers"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Ashton",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the outage on October 5th disrupted education, leaving students like 14-year-old Emma Robertson at a disadvantage compared to her city peers"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Riverdale",
+    "relation": "shutdown_in_telecommunications",
+    "value": "shutdown in telecommunications",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "The shutdown in telecommunications in Riverdale on September 20th"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Riverdale",
+    "relation": "left_without_access",
+    "value": "access to medical consultations",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "left many without access to medical consultations"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Riverdale",
+    "relation": "results_in",
+    "value_ref": "c27",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "The shutdown in telecommunications in Riverdale on September 20th left many without access to medical consultations"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Wildwood",
+    "relation": "experienced_outage",
+    "value": "outage",
+    "time": "November 18th",
+    "speaker": null,
+    "verbatim": [
+     "the Wildwood outage on November 18th"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Wildwood",
+    "relation": "landlines_and_cell_towers_not_functioning",
+    "value": "neither landlines nor cell towers",
+    "time": "November 18th",
+    "speaker": null,
+    "verbatim": [
+     "when neither landlines nor cell towers function, as was the case during the Wildwood outage on November 18th"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "George Harris",
+    "relation": "suffered_heart_attack",
+    "value": "a heart attack",
+    "time": "that evening",
+    "speaker": null,
+    "verbatim": [
+     "George Harris, who suffered a heart attack that evening"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "George Harris",
+    "relation": "survived_through",
+    "value": "fortune and timely local human intervention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Harris, who suffered a heart attack that evening, survive through fortune and timely local human intervention"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Bakersfield",
+    "relation": "experienced_outage",
+    "value": "outage",
+    "time": "January 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The recent outage on January 15th, 2024 in Bakersfield"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Bakersfield",
+    "relation": "demonstrated",
+    "value": "issues persisted even after awareness was raised",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrated that even after awareness was raised, issues persisted"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Susan O'Malley",
+    "relation": "occupation",
+    "value": "local official",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local official Susan O'Malley"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Susan O'Malley",
+    "relation": "stated",
+    "value": "Preparedness goes hand in hand with resilience",
+    "time": null,
+    "speaker": "Susan O'Malley",
+    "verbatim": [
+     "goes hand in hand with resilience."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Susan O'Malley",
+    "relation": "stated",
+    "value": "We need industry commitments to infrastructure investment",
+    "time": null,
+    "speaker": "Susan O'Malley",
+    "verbatim": [
+     "We need industry commitments to infrastructure investment, and we need it yesterday."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Satellite services",
+    "relation": "could_offer",
+    "value": "vital redundancy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Satellite services, for example, could offer vital redundancy"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Grandview",
+    "relation": "experienced_blackout",
+    "value": "blackout",
+    "time": "November 30th",
+    "speaker": null,
+    "verbatim": [
+     "the Grandview blackout on November 30th"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Grandview",
+    "relation": "temporary_measures",
+    "value": "satellite phones were distributed to key community personnel",
+    "time": "in the wake of the Grandview blackout on November 30th",
+    "speaker": null,
+    "verbatim": [
+     "where satellite phones were distributed to key community personnel"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Satellite services",
+    "relation": "highlighted_by",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Satellite services, for example, could offer vital redundancy, as highlighted by the temporary measures taken in the wake of the Grandview blackout on November 30th"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Rural electrification",
+    "relation": "government_intervention_for",
+    "value": "government stepped in to level the playing field",
+    "time": "once upon a time",
+    "speaker": null,
+    "verbatim": [
+     "with rural electrification once upon a time"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,756 @@
+{
+ "inventory": [
+  "Alice Johnson",
+  "InnoTech Solutions",
+  "Michael Zhang",
+  "Emma Lopez",
+  "Coding for Everyone",
+  "the tech industry",
+  "Coding bootcamps",
+  "online courses",
+  "Networking events",
+  "online bookstore"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Alice Johnson",
+    "relation": "job_title",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Alice Johnson, a software developer at InnoTech Solutions"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Alice Johnson",
+    "relation": "employer",
+    "value": "InnoTech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a software developer at InnoTech Solutions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Alice Johnson",
+    "relation": "pathway_to_technology",
+    "value": "not filled with the mundane and stereotypical 'early love for mathematics or computers' story",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pathway to technology was not filled with the mundane and stereotypical 'early love for mathematics or computers' story."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Alice Johnson",
+    "relation": "journey_began",
+    "value": "her curiosity was piqued by a simple coding workshop flyer",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "her journey began quite differently, on an average rainy day, September 12, 2023, when her curiosity was piqued by a simple coding workshop flyer"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Alice Johnson",
+    "relation": "found_flyer_in",
+    "value": "a local library",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a simple coding workshop flyer that she stumbled upon in a local library."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Alice Johnson",
+    "relation": "age",
+    "value": "32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice, now 32, came from a background steeped in the arts"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Alice Johnson",
+    "relation": "background",
+    "value": "steeped in the arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "came from a background steeped in the arts"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Alice Johnson",
+    "relation": "degree",
+    "value": "bachelor\u2019s degree in Literature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "holding a bachelor\u2019s degree in Literature"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Alice Johnson",
+    "relation": "profession_before_tech",
+    "value": "a writer, a creator of narratives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She was a writer, a creator of narratives who saw the world not in binary but in metaphors and allegories."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Alice Johnson",
+    "relation": "attended",
+    "value": "the 'Coding for Everyone' workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when she decided to attend the 'Coding for Everyone' workshop."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Coding for Everyone",
+    "relation": "is_a",
+    "value": "workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Coding for Everyone' workshop"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Alice Johnson",
+    "relation": "stated_goal",
+    "value": "to redefine my narrative",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "I wanted to redefine my narrative."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Alice Johnson",
+    "relation": "motivation",
+    "value": "maybe build a website for my budding online bookstore",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "maybe build a website for my budding online bookstore"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "online bookstore",
+    "relation": "status",
+    "value": "budding",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "my budding online bookstore"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Alice Johnson",
+    "relation": "faced",
+    "value": "waves of skepticism from her peers and herself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice faced waves of skepticism from her peers and herself."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "the tech industry",
+    "relation": "long_dominated_by",
+    "value": "a certain profile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tech industry had long been dominated by a certain profile"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "the tech industry",
+    "relation": "dominant_profile",
+    "value": "younger folks who had been coding since their teens or those with a robust STEM education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "typically, younger folks who had been coding since their teens or those with a robust STEM education."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Alice Johnson",
+    "relation": "perceived_by_many_as",
+    "value": "not belonging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the eyes of many, Alice did not belong."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Alice Johnson",
+    "relation": "sat_in",
+    "value": "the seminar room",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she sat in the seminar room on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Alice Johnson",
+    "relation": "dove_into",
+    "value": "a sea of unknown terms and concepts",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "opening her laptop and diving into a sea of unknown terms and concepts."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Alice Johnson",
+    "relation": "experienced",
+    "value": "palpable doubts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The doubts were palpable, but the determination was fiercer."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Alice Johnson",
+    "relation": "felt",
+    "value": "out of place",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "I felt out of place."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Alice Johnson",
+    "relation": "victories_were",
+    "value": "victorious each time she solved a problem or executed a function",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "each time I managed to solve a problem or execute a function, it was victorious."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Alice Johnson",
+    "relation": "held_on_to",
+    "value": "those victories, no matter how small",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "I held on to those victories, no matter how small,"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alice Johnson",
+    "relation": "crossed_paths_with",
+    "value": "Michael Zhang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice's persistence led her to cross paths with Michael Zhang"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Zhang",
+    "relation": "job_title",
+    "value": "seasoned software engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Zhang, a seasoned software engineer and advocate for diversity in tech"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Michael Zhang",
+    "relation": "advocate_for",
+    "value": "diversity in tech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a seasoned software engineer and advocate for diversity in tech"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Michael Zhang",
+    "relation": "mentor_of",
+    "value": "Alice Johnson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who became her mentor."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Zhang",
+    "relation": "saw_potential_in",
+    "value": "Alice's unique perspective and analytical thinking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Zhang saw potential in Alice's unique perspective and analytical thinking, hewn from her literature studies."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alice Johnson",
+    "relation": "mentorship_was",
+    "value": "the turning point",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "Mentorship was the turning point for me."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Michael Zhang",
+    "relation": "never_made_feel",
+    "value": "undeserving",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "Michael never once made me feel undeserving."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Zhang",
+    "relation": "helped_see",
+    "value": "her unconventional background was an asset, not a liability",
+    "time": null,
+    "speaker": "Alice Johnson",
+    "verbatim": [
+     "he helped me see how my unconventional background was an asset, not a liability,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Michael Zhang",
+    "relation": "encouraged_to_apply_for",
+    "value": "an internship at InnoTech Solutions",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 20, 2023, Zhang encouraged her to apply for an internship at InnoTech Solutions."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Alice Johnson",
+    "relation": "seized",
+    "value": "a venture into the unknown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a venture into the unknown\u2014one that she nonetheless seized."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alice Johnson",
+    "relation": "arrival_heralded",
+    "value": "a breath of fresh air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her arrival heralded a breath of fresh air"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Alice Johnson",
+    "relation": "background_brings",
+    "value": "a new lens through which to view problems and devise solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her background bringing a new lens through which to view problems and devise solutions."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alice Johnson",
+    "relation": "driving_force_behind",
+    "value": "several innovative projects that marry the power of storytelling with user experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice has now been a driving force behind several innovative projects that marry the power of storytelling with user experience."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Emma Lopez",
+    "relation": "job_title",
+    "value": "a product manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Lopez, a product manager who has worked with Alice."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Emma Lopez",
+    "relation": "said",
+    "value": "It's fascinating",
+    "time": null,
+    "speaker": "Emma Lopez",
+    "verbatim": [
+     "\"It's fascinating,\" shares Emma Lopez"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Alice Johnson",
+    "relation": "talks_about_user_stories_as",
+    "value": "almost poetic",
+    "time": null,
+    "speaker": "Emma Lopez",
+    "verbatim": [
+     "The way Alice talks about user stories and experiences\u2014it\u2019s almost poetic."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Alice Johnson",
+    "relation": "missing_in_making_products",
+    "value": "more human-centric",
+    "time": null,
+    "speaker": "Emma Lopez",
+    "verbatim": [
+     "Yet, it\u2019s what\u2019s been missing in making our products more human-centric."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "InnoTech Solutions",
+    "relation": "fostered",
+    "value": "an environment where a variation of backgrounds was not just welcomed but celebrated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering an environment where a variation of backgrounds was not just welcomed but celebrated"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "InnoTech Solutions",
+    "relation": "found_itself_at",
+    "value": "the vanguard of creative tech solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "InnoTech Solutions found itself at the vanguard of creative tech solutions."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "InnoTech Solutions",
+    "relation": "caused_by",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By acknowledging different narratives and fostering an environment where a variation of backgrounds was not just welcomed but celebrated, InnoTech Solutions found itself at the vanguard of creative tech solutions."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Coding bootcamps",
+    "relation": "chipping_away_at",
+    "value": "stereotypes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coding bootcamps and online courses are chipping away at stereotypes and building bridges into the tech world for the unconventional entrant."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Coding bootcamps",
+    "relation": "building_bridges_into",
+    "value": "the tech world for the unconventional entrant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "building bridges into the tech world for the unconventional entrant."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "online courses",
+    "relation": "chipping_away_at",
+    "value": "stereotypes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coding bootcamps and online courses are chipping away at stereotypes"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "online courses",
+    "relation": "building_bridges_into",
+    "value": "the tech world for the unconventional entrant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "building bridges into the tech world for the unconventional entrant."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Alice Johnson",
+    "relation": "story_is_one_among_many_that",
+    "value": "attest to this shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice Johnson's story is one among many that attest to this shift."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Alice Johnson",
+    "relation": "shows_power_of",
+    "value": "reformed educational approaches in redefining the ecosystem of technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through her, we see the power that reformed educational approaches have in redefining the ecosystem of technology."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Networking events",
+    "relation": "geared_towards",
+    "value": "non-traditional tech enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Networking events specifically geared towards non-traditional tech enthusiasts have emerged"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Networking events",
+    "relation": "fosters",
+    "value": "a community where stories like Alice's are not just rare occurrences but a regular find",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a community where stories like Alice's are not just rare occurrences but a regular find."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Alice Johnson",
+    "relation": "met",
+    "value": "a diverse group of tech aspirants",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In one such gathering on December 5, 2023, Alice met a diverse group of tech aspirants"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Alice Johnson",
+    "relation": "group_included",
+    "value": "an ex-chef, a retired professional athlete, and a former nurse",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an ex-chef, a retired professional athlete, and a former nurse."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Alice Johnson",
+    "relation": "group_shared_common_goal",
+    "value": "to innovate within the tech industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They all shared one common goal\u2014to innovate within the tech industry."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Networking events",
+    "relation": "instrumental_in",
+    "value": "propelling individuals who might otherwise feel alienated by the aura of the tech world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such communities are instrumental in propelling individuals who might otherwise feel alienated by the aura of the tech world."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "the tech industry",
+    "relation": "envisioned_to_thrive_on",
+    "value": "the symbiosis of varied backgrounds and experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tech industry that thrives on the symbiosis of varied backgrounds and experiences."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "the tech industry",
+    "relation": "essential_for_vision",
+    "value": "the integration of different perspectives and the acceptance that talent and passion are not bound by stereotypes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of different perspectives and the acceptance that talent and passion are not bound by stereotypes are essential for this vision."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Alice Johnson",
+    "relation": "illuminates",
+    "value": "the path forward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stories of individuals like Alice Johnson illuminate the path forward"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Alice Johnson",
+    "relation": "showcases_that",
+    "value": "the road to tech does not have one singular entrance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcasing that the road to tech does not have one singular entrance."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "the tech industry",
+    "relation": "witnessing",
+    "value": "the dawn of a new era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the realm of technology is witnessing the dawn of a new era"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "the tech industry",
+    "relation": "joined_by",
+    "value": "the hacker in the hoodie joins hands with the poet, the chef, and the caregiver",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an era where the hacker in the hoodie joins hands with the poet, the chef, and the caregiver."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "the tech industry",
+    "relation": "heart_of_innovation_lies_in",
+    "value": "collective synergy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is in this collective synergy where the heart of innovation beats strongest."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "the tech industry",
+    "relation": "sculpted_into",
+    "value": "an ever-more inclusive and creative force",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the narratives diversify, the industry is sculpted into an ever-more inclusive and creative force."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "the tech industry",
+    "relation": "described_as",
+    "value": "ever-evolving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The world of technology is ever-evolving"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "the tech industry",
+    "relation": "steely_face_started_to",
+    "value": "soften, showing a more inclusive visage",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "In recent years, the steely face of tech has started to soften, showing a more inclusive visage."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "the tech industry",
+    "relation": "paving_way_for",
+    "value": "a future where diversity reigns in the tech cosmos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "paving the way for a future where diversity reigns in the tech cosmos."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

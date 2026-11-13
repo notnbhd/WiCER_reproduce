@@ -1,0 +1,29 @@
+{
+  "topic": "local_education",
+  "corpus_sha256": "2617c80a393fb284edda6d6d111a8e966c2faba5e8616bef2827e5680f964d2d",
+  "n_documents": 80,
+  "n_claims": 4434,
+  "n_claims_before_merge": 4435,
+  "n_raw": 4436,
+  "n_rejected": 1,
+  "n_multispan": 33,
+  "n_relational": 172,
+  "rejection_rate": 0.0002254283137962128,
+  "n_contradictions": 22,
+  "inventory_size": 1603,
+  "n_canonical_entities": 1434,
+  "entity_collision_rate": 0.0,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 393009,
+    "output_tokens": 1572402,
+    "measured_cost_usd": 0.0
+  }
+}

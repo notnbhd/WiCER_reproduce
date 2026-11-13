@@ -1,0 +1,558 @@
+{
+ "inventory": [
+  "Elaine Thompson",
+  "Maplewood Park",
+  "George Alvarez",
+  "Silver Spokes Cycling Club",
+  "the local community pool",
+  "Maria Rodriguez",
+  "Walt and Marjorie Bennett",
+  "the local hall on Elm Street",
+  "Jim O'Connor",
+  "Riverside Golf Course",
+  "a community garden near the center of town",
+  "Anna Lee",
+  "Frank Martin",
+  "Carla Diaz",
+  "Active Senior Strength Initiative",
+  "Susan Chang",
+  "Sunset Walkers Club",
+  "yoga",
+  "aqua aerobics class",
+  "weekly ballroom dancing event",
+  "golf"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Elaine Thompson",
+    "relation": "age",
+    "value": "72",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elaine Thompson, 72, unfurls her yoga mat in Maplewood Park"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Elaine Thompson",
+    "relation": "practices_yoga_at",
+    "value": "Maplewood Park",
+    "time": "Wednesday morning, September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "unfurls her yoga mat in Maplewood Park"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Elaine Thompson",
+    "relation": "said",
+    "value": "It's about flexibility, balance, and calming my mind",
+    "time": null,
+    "speaker": "Elaine Thompson",
+    "verbatim": [
+     "\"It's about flexibility, balance, and calming my mind,\" she says"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Maplewood Park",
+    "relation": "hosts",
+    "value": "a growing group of seniors who gather here daily for a morning yoga session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a growing group of seniors who gather here daily for a morning yoga session"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "yoga",
+    "relation": "instructor_specialty",
+    "value": "geriatric fitness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guided by an instructor who specializes in geriatric fitness"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "George Alvarez",
+    "relation": "age",
+    "value": "68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Alvarez, a sprightly 68-year-old"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "George Alvarez",
+    "relation": "cycles_at",
+    "value": "around 10 AM",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Around 10 AM, George Alvarez"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "George Alvarez",
+    "relation": "member_of",
+    "value": "Silver Spokes Cycling Club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He is part of the Silver Spokes Cycling Club"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "George Alvarez",
+    "relation": "friends_since",
+    "value": "the club's inception",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pedals alongside friends he's made since the club's inception"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Silver Spokes Cycling Club",
+    "relation": "established_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "established October 5, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Silver Spokes Cycling Club",
+    "relation": "encourages",
+    "value": "seniors to explore the city's bike paths together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which encourages seniors to explore the city's bike paths together"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "the local community pool",
+    "relation": "hosts",
+    "value": "aqua aerobics class",
+    "time": "last September 20th",
+    "speaker": null,
+    "verbatim": [
+     "the local community pool is a hive of activity"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "aqua aerobics class",
+    "relation": "participant_age_range",
+    "value": "65 to 90",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seniors, ranging in age from 65 to 90, partake in an aqua aerobics class"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "aqua aerobics class",
+    "relation": "led_by",
+    "value": "Maria Rodriguez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an aqua aerobics class led by instructor Maria Rodriguez, 55"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Maria Rodriguez",
+    "relation": "age",
+    "value": "55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instructor Maria Rodriguez, 55"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Rodriguez",
+    "relation": "former_occupation",
+    "value": "Olympic swimmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former Olympic swimmer who now dedicates her time to teaching seniors"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Maria Rodriguez",
+    "relation": "said",
+    "value": "Water is forgiving, it's the perfect medium for exercise for those who may have joint issues or limited mobility",
+    "time": null,
+    "speaker": "Maria Rodriguez",
+    "verbatim": [
+     "\"Water is forgiving, it's the perfect medium for exercise for those who may have joint issues or limited mobility,\" Maria explains"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "the local hall on Elm Street",
+    "relation": "transforms_into",
+    "value": "a dance floor",
+    "time": "As the evening sets in",
+    "speaker": null,
+    "verbatim": [
+     "the local hall on Elm Street transforms into a dance floor"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Walt and Marjorie Bennett",
+    "relation": "age",
+    "value": "74",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "septuagenarians Walt and Marjorie Bennett, both 74"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Walt and Marjorie Bennett",
+    "relation": "glides_across",
+    "value": "the parquet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "glide across the parquet"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "weekly ballroom dancing event",
+    "relation": "occurs_on",
+    "value": "September 29, 2023",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 29, 2023, and the weekly ballroom dancing event is in full swing"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "weekly ballroom dancing event",
+    "relation": "benefits",
+    "value": "improve not only physical fitness but also cognitive function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dance has been shown to improve not only physical fitness but also cognitive function"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Riverside Golf Course",
+    "relation": "location_of_golf_on",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Riverside Golf Course on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jim O'Connor",
+    "relation": "occupation",
+    "value": "retired businessman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "retired businessman Jim O\u2019Connor, 69"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jim O'Connor",
+    "relation": "age",
+    "value": "69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "retired businessman Jim O\u2019Connor, 69"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jim O'Connor",
+    "relation": "prepares_for",
+    "value": "his weekly round of golf",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "prepares for his weekly round of golf"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "golf",
+    "relation": "offers",
+    "value": "a unique blend of mild physical exertion, strategy, and fresh air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sport offers a unique blend of mild physical exertion, strategy, and fresh air"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "golf",
+    "relation": "walk_between_holes_benefit",
+    "value": "as beneficial as the swing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The walk between holes is as beneficial as the swing"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "golf",
+    "relation": "provides",
+    "value": "cardiovascular exercise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing cardiovascular exercise"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "a community garden near the center of town",
+    "relation": "buzzes_with",
+    "value": "activity",
+    "time": "an October morning",
+    "speaker": null,
+    "verbatim": [
+     "a community garden near the center of town buzzes with activity"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Anna Lee",
+    "relation": "age",
+    "value": "76",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seniors like 76-year-old Anna Lee"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Anna Lee",
+    "relation": "finds",
+    "value": "peace and a gentle workout amid tomatoes and tulips",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "find peace and a gentle workout amid tomatoes and tulips"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "a community garden near the center of town",
+    "relation": "requires",
+    "value": "a range of motions\u2014 stretching, bending, digging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gardening requires a range of motions\u2014 stretching, bending, digging\u2014that keep joints supple"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "a community garden near the center of town",
+    "relation": "harvest_offers",
+    "value": "nutritional rewards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bounty of the harvest offers nutritional rewards"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Frank Martin",
+    "relation": "age",
+    "value": "81",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frank Martin, 81, lifting weights"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Frank Martin",
+    "relation": "lifts_weights_at",
+    "value": "the local gym",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Back at the local gym, we find Frank Martin, 81, lifting weights"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Frank Martin",
+    "relation": "trainer",
+    "value": "Carla Diaz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the watchful eye of his trainer, Carla Diaz"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Active Senior Strength Initiative",
+    "relation": "began_in",
+    "value": "late September 2023",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "since the Active Senior Strength Initiative began in late September 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Carla Diaz",
+    "relation": "guides",
+    "value": "Frank through exercises designed to maintain his muscle mass and bone density",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carla guides Frank through exercises designed to maintain his muscle mass and bone density"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Frank Martin",
+    "relation": "said",
+    "value": "Strength isn\u2019t just for the young",
+    "time": null,
+    "speaker": "Frank Martin",
+    "verbatim": [
+     "\"Strength isn\u2019t just for the young,\" Frank states"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Frank Martin",
+    "relation": "said",
+    "value": "I feel stronger now than I did ten years ago",
+    "time": null,
+    "speaker": "Frank Martin",
+    "verbatim": [
+     "\"I feel stronger now than I did ten years ago.\""
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sunset Walkers Club",
+    "relation": "first_launched_on",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "first launched on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sunset Walkers Club",
+    "relation": "meets",
+    "value": "twice a week",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Twice a week, just as the sun begins its descent, a group assembles for the Sunset Walkers Club"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sunset Walkers Club",
+    "relation": "led_by",
+    "value": "Susan Chang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by 70-year-old Susan Chang"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Susan Chang",
+    "relation": "age",
+    "value": "70",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by 70-year-old Susan Chang"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sunset Walkers Club",
+    "relation": "pace",
+    "value": "a comfortable pace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They meander through town at a comfortable pace"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Susan Chang",
+    "relation": "routine",
+    "value": "walking has been a cornerstone of Susan's routine for years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Walking has been a cornerstone of Susan's routine for years"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Susan Chang",
+    "relation": "said",
+    "value": "Walking is perfect; you can do it anywhere, anytime, and it's great for the heart",
+    "time": null,
+    "speaker": "Susan Chang",
+    "verbatim": [
+     "\"Walking is perfect; you can do it anywhere, anytime, and it's great for the heart,\" Susan notes"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

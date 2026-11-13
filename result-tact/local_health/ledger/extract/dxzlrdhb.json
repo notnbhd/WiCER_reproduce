@@ -1,0 +1,630 @@
+{
+ "inventory": [
+  "Wellville",
+  "My Health, My Myth",
+  "Betty Spinach",
+  "Dr. Kale",
+  "Misinformation",
+  "phone-palm",
+  "Dance the Sugar Crash Away",
+  "Joe 'The Pirouette Puncher' McGraw",
+  "Rolling with the Punches",
+  "Walking School Bus",
+  "pedometer",
+  "Veggie Challenge",
+  "Brussels sprouts",
+  "Chloe Carrot",
+  "Instagram vs. Insta-glam",
+  "TikTok dance-off"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wellville",
+    "relation": "described_as",
+    "value": "quaint town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the quaint town of Wellville"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellville",
+    "relation": "joggers_replace_traffic_during",
+    "value": "rush hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where joggers replace traffic during rush hours"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wellville",
+    "relation": "salads_more_popular_than",
+    "value": "fast food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "salads are more popular than fast food"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Wellville",
+    "relation": "local_scene_buzzing_with",
+    "value": "a new vibe",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, the local scene has been buzzing with a new vibe"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Wellville",
+    "relation": "has_initiatives",
+    "value": "a slew of community health initiatives aimed directly at the town's younger residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's all thanks to a slew of community health initiatives aimed directly at the town's younger residents"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "My Health, My Myth",
+    "relation": "launched_on",
+    "value": "September 10th, 2023",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It all started on a sunny morning on September 10th, 2023, with the launch of \"My Health, My Myth\""
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "My Health, My Myth",
+    "relation": "spearheaded_by",
+    "value": "Betty Spinach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a campaign spearheaded by local health enthusiast and known smoothie lover, Betty Spinach"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "My Health, My Myth",
+    "relation": "success_recipe",
+    "value": "Engagement through entertainment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The winning recipe? Engagement through entertainment."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "My Health, My Myth",
+    "relation": "approach",
+    "value": "turning each health tip into a playful challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning each health tip into a playful challenge"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Betty Spinach",
+    "relation": "described_as",
+    "value": "local health enthusiast and known smoothie lover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local health enthusiast and known smoothie lover, Betty Spinach"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Betty Spinach",
+    "relation": "name_is",
+    "value": "real",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yes, the name is as real as the vitamins in her green glass of goodness"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Betty Spinach",
+    "relation": "contrasted_with",
+    "value": "the cumbersome lectures that would make any youth snooze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Contrary to the cumbersome lectures that would make any youth snooze"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "TikTok dance-off",
+    "relation": "challenged_participants_to",
+    "value": "bust myths\u2014and moves\u2014with each health fact flash mob",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "challenging participants to bust myths\u2014and moves\u2014with each health fact flash mob"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dance the Sugar Crash Away",
+    "relation": "held_on",
+    "value": "September 25th",
+    "time": "September 25th",
+    "speaker": null,
+    "verbatim": [
+     "One such event, brilliantly coined as \"Dance the Sugar Crash Away,\" took place on September 25th"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dance the Sugar Crash Away",
+    "relation": "catchphrase",
+    "value": "Do the hypoglycemic shuffle!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the phrase \"Do the hypoglycemic shuffle!\" has become as common as morning dew in Wellville"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Kale",
+    "relation": "profession",
+    "value": "pediatrician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Kale, a pediatrician who wouldn't look out of place at a comic book convention"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Kale",
+    "relation": "became_local_celebrity_on",
+    "value": "October 3rd",
+    "time": "October 3rd",
+    "speaker": null,
+    "verbatim": [
+     "He became an instant local celebrity when, on October 3rd, he held a seminar in a superhero cape"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Kale",
+    "relation": "wore_at_seminar",
+    "value": "a superhero cape",
+    "time": "October 3rd",
+    "speaker": null,
+    "verbatim": [
+     "he held a seminar in a superhero cape"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Kale",
+    "relation": "determined_to",
+    "value": "rescue the youth from the archvillain known as Misinformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "determined to rescue the youth from the archvillain known as Misinformation"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Kale",
+    "relation": "squad_members",
+    "value": "a group of local teens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His squad of myth-busting rebels, a group of local teens"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Kale",
+    "relation": "squad_used",
+    "value": "skits and parodies to poke fun at common health misconceptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "used skits and parodies to poke fun at common health misconceptions"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Kale",
+    "relation": "tales_retold_at",
+    "value": "dinner tables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The quirky tales of Dr. Kale and Betty Spinach are retold at dinner tables"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Misinformation",
+    "relation": "described_as",
+    "value": "archvillain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the archvillain known as Misinformation"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "phone-palm",
+    "relation": "described_as",
+    "value": "fictional belief that smartphones in your palm can lead to arthritis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(the fictional belief that smartphones in your palm can lead to arthritis)"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "phone-palm",
+    "relation": "cured_by",
+    "value": "a burst of laughter rather than a jar of ointment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine your best friend being cured of 'phone-palm' (the fictional belief that smartphones in your palm can lead to arthritis) with a burst of laughter rather than a jar of ointment"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Rolling with the Punches",
+    "relation": "introduced_on",
+    "value": "November 12th",
+    "time": "November 12th",
+    "speaker": null,
+    "verbatim": [
+     "the initiative introduced \"Rolling with the Punches\" on November 12th"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Rolling with the Punches",
+    "relation": "described_as",
+    "value": "a quirky boxing class set to the tunes of classical music",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quirky boxing class set to the tunes of classical music"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Joe 'The Pirouette Puncher' McGraw",
+    "relation": "led",
+    "value": "Rolling with the Punches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by former heavyweight hopeful Joe 'The Pirouette Puncher' McGraw"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Joe 'The Pirouette Puncher' McGraw",
+    "relation": "described_as",
+    "value": "former heavyweight hopeful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by former heavyweight hopeful Joe 'The Pirouette Puncher' McGraw"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rolling with the Punches",
+    "relation": "sessions_taught",
+    "value": "more than just jabs and hooks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sessions taught more than just jabs and hooks; they were all about outmaneuvering bad habits with grace"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rolling with the Punches",
+    "relation": "focus",
+    "value": "outmaneuvering bad habits with grace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they were all about outmaneuvering bad habits with grace"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rolling with the Punches",
+    "relation": "claims",
+    "value": "even Mozart can coexist with martial arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yes, even Mozart can coexist with martial arts"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Walking School Bus",
+    "relation": "dating_back_to",
+    "value": "November 29th",
+    "time": "November 29th",
+    "speaker": null,
+    "verbatim": [
+     "an initiative dating back to November 29th"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Walking School Bus",
+    "relation": "turned_walking_into",
+    "value": "a morning ritual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since turned the simple act of walking to school into a morning ritual"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Walking School Bus",
+    "relation": "gave_each_participant",
+    "value": "a pedometer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each participant received a pedometer"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "pedometer",
+    "relation": "described_as",
+    "value": "not just a plastic step-counter but a passport to healthy living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not just a plastic step-counter but a passport to healthy living replete with quirky designs and digital badges for each milestone achieved"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "pedometer",
+    "relation": "features",
+    "value": "quirky designs and digital badges for each milestone achieved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "replete with quirky designs and digital badges for each milestone achieved"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Veggie Challenge",
+    "relation": "introduced_on",
+    "value": "December 5th",
+    "time": "December 5th",
+    "speaker": null,
+    "verbatim": [
+     "after the \"Veggie Challenge\" was introduced on December 5th"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Veggie Challenge",
+    "relation": "mission",
+    "value": "Transform every 'eww' into an 'mmm.'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The mission? Transform every 'eww' into an 'mmm.'"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Brussels sprouts",
+    "relation": "described_as",
+    "value": "much-maligned vegetable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning the much-maligned vegetable into a gourmet treat"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Brussels sprouts",
+    "relation": "turned_into",
+    "value": "a gourmet treat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning the much-maligned vegetable into a gourmet treat"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chloe Carrot",
+    "relation": "described_as",
+    "value": "Teen blogging sensation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teen blogging sensation, Chloe Carrot"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Chloe Carrot",
+    "relation": "joined",
+    "value": "the fray",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "joined the fray, turning the much-maligned vegetable into a gourmet treat"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Chloe Carrot",
+    "relation": "name_is",
+    "value": "not made up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(we're not making these names up)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Instagram vs. Insta-glam",
+    "relation": "encouraged",
+    "value": "a photographic food diary that combated the illusion of perfect eating habits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The \"Instagram vs. Insta-glam\" challenge encouraged a photographic food diary that combated the illusion of perfect eating habits, often portrayed on social media."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Instagram vs. Insta-glam",
+    "relation": "purpose",
+    "value": "to show that behind every filtered snap of a quinoa bowl was the reality of a balanced diet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was also to show that behind every filtered snap of a quinoa bowl was the reality of a balanced diet"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Wellville",
+    "relation": "teens_snapping_meal_pictures_by",
+    "value": "the holidays",
+    "time": "By the time the holidays rolled around",
+    "speaker": null,
+    "verbatim": [
+     "By the time the holidays rolled around, Wellville's teens were snapping pictures of their meals like paparazzi at a red carpet"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Wellville",
+    "relation": "outcome",
+    "value": "an unprecedented success",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to March 2024. The numbers are in, the feedback is tallied, and it all points to an unprecedented success."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Wellville",
+    "relation": "engagement_fostered",
+    "value": "a sense of ownership and excitement around well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Studies show that engaging youth in their health journey via whimsical, unorthodox methods has fostered a sense of ownership and excitement around well-being"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Wellville",
+    "relation": "folklore",
+    "value": "the newest folklore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "health, it appears, has become the newest folklore in Wellville"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Wellville",
+    "relation": "youth_are",
+    "value": "healthier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The youth of Wellville are not just healthier; they\u2019re transformed into ambassadors of their own well-being."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Wellville",
+    "relation": "youth_transformed_into",
+    "value": "ambassadors of their own well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they\u2019re transformed into ambassadors of their own well-being"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Wellville",
+    "relation": "approach_contrast",
+    "value": "lightheartedness has skipped in with a snicker and a smile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lightheartedness has skipped in with a snicker and a smile"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Kale",
+    "relation": "in_order_to",
+    "value_ref": "c19",
+    "time": "October 3rd",
+    "speaker": null,
+    "verbatim": [
+     "held a seminar in a superhero cape, determined to rescue the youth from the archvillain known as Misinformation"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "TikTok dance-off",
+    "relation": "purpose",
+    "value": "Meeting young people where they are",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meeting young people where they are, the initiative rolled out a TikTok dance-off"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,587 @@
+{
+ "inventory": [
+  "Willow Creek",
+  "Riverside Rowers",
+  "Jonathan Edwards",
+  "State Regatta",
+  "Midtown High School",
+  "Hoop Dreamers",
+  "Rebecca \"Becky\" Morris",
+  "National Amateur Basketball Tournament",
+  "Midtown",
+  "Henry Jackson",
+  "local sporting goods store",
+  "Youth sports programs",
+  "clinic for kids",
+  "amateur sports",
+  "major sports networks",
+  "Dreamers' merchandise"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Riverside Rowers",
+    "relation": "located_in",
+    "value": "Willow Creek",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the scenic town of Willow Creek, the Riverside Rowers have become synonymous with resilience."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Riverside Rowers",
+    "relation": "formed_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Formed on September 15, 2023, the team, composed of college students and working professionals"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Riverside Rowers",
+    "relation": "composed_of",
+    "value": "college students and working professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "composed of college students and working professionals"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Riverside Rowers",
+    "relation": "coached_by",
+    "value": "Jonathan Edwards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coached by former Olympic rower, Jonathan Edwards, the team quickly outpaced regional expectations."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jonathan Edwards",
+    "relation": "occupation",
+    "value": "former Olympic rower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coached by former Olympic rower, Jonathan Edwards"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Riverside Rowers",
+    "relation": "outpaced_expectations",
+    "value": "regional expectations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the team quickly outpaced regional expectations"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Riverside Rowers",
+    "relation": "training_schedule",
+    "value": "mornings spent cutting through the mist-covered river",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with mornings spent cutting through the mist-covered river"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Riverside Rowers",
+    "relation": "faced_challenge",
+    "value": "Balancing training with personal responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Balancing training with personal responsibilities tested their commitment."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Riverside Rowers",
+    "relation": "claimed_trophy_at",
+    "value": "State Regatta",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "their breakthrough came during the State Regatta held on October 12, 2023, when they claimed the trophy in a stunning upset"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "State Regatta",
+    "relation": "held_on",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the State Regatta held on October 12, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Riverside Rowers",
+    "relation": "victory_type",
+    "value": "stunning upset",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "they claimed the trophy in a stunning upset"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Riverside Rowers",
+    "relation": "drew",
+    "value": "spectators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their success drew spectators and sparked local business ventures."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Riverside Rowers",
+    "relation": "nearby_cafes_and_hotels_revenue_surge",
+    "value": "20%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cafes and hotels along the riverside reported a 20% surge in revenue"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Riverside Rowers",
+    "relation": "mechanism_of",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reported a 20% surge in revenue as fans and aspiring rowers flocked to witness the team's rigorous training sessions"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Hoop Dreamers",
+    "relation": "described_as",
+    "value": "a co-ed basketball squad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Hoop Dreamers, a co-ed basketball squad, had been the underdogs"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Hoop Dreamers",
+    "relation": "home_court",
+    "value": "Midtown High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the basketball courts of Midtown High School, another phenomenon was stirring."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Hoop Dreamers",
+    "relation": "prior_status",
+    "value": "underdogs, often overlooked in favor of flashier teams in the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had been the underdogs, often overlooked in favor of flashier teams in the region"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Rebecca \"Becky\" Morris",
+    "relation": "coach_of",
+    "value": "Hoop Dreamers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the guidance of Coach Rebecca \"Becky\" Morris"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Hoop Dreamers",
+    "relation": "secured_wins",
+    "value": "impressive wins",
+    "time": "fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "securing impressive wins throughout the fall of 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Hoop Dreamers",
+    "relation": "known_for",
+    "value": "defensive prowess and teamwork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Known for their defensive prowess and teamwork"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Hoop Dreamers",
+    "relation": "competed_in",
+    "value": "National Amateur Basketball Tournament",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "culminating in the National Amateur Basketball Tournament held on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "National Amateur Basketball Tournament",
+    "relation": "held_on",
+    "value": "December 3, 2023",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the National Amateur Basketball Tournament held on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Hoop Dreamers",
+    "relation": "tournament_performance",
+    "value": "dominated the court",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they dominated the court"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Midtown",
+    "relation": "businesses_capitalized_on",
+    "value": "the team's rising stardom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses in Midtown capitalized on the team's rising stardom."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Midtown",
+    "relation": "sports_bars_hosted",
+    "value": "viewing parties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sports bars hosted viewing parties"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Henry Jackson",
+    "relation": "owns",
+    "value": "local sporting goods store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local sporting goods store, owned by alumnus and former player Henry Jackson"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Henry Jackson",
+    "relation": "occupation",
+    "value": "alumnus and former player",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owned by alumnus and former player Henry Jackson"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local sporting goods store",
+    "relation": "released",
+    "value": "Dreamers' merchandise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "released Dreamers' merchandise"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dreamers' merchandise",
+    "relation": "sale_proceeds_increase",
+    "value": "35%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sale proceeds soared by 35%"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dreamers' merchandise",
+    "relation": "illustrates",
+    "value": "the economic ripple effect of the team's national success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illustrating the economic ripple effect of the team's national success"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Riverside Rowers",
+    "relation": "brought_together",
+    "value": "a community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Riverside Rowers and the Hoop Dreamers didn't just win titles; they brought together a community."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Hoop Dreamers",
+    "relation": "brought_together",
+    "value": "a community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Riverside Rowers and the Hoop Dreamers didn't just win titles; they brought together a community."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Riverside Rowers",
+    "relation": "became",
+    "value": "role models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The teams became role models, their work ethic and camaraderie emulated in playgrounds and on practice fields."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Hoop Dreamers",
+    "relation": "became",
+    "value": "role models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The teams became role models, their work ethic and camaraderie emulated in playgrounds and on practice fields."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Youth sports programs",
+    "relation": "saw",
+    "value": "an influx of participants eager to follow in their footsteps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Youth sports programs saw an influx of participants eager to follow in their footsteps."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "clinic for kids",
+    "relation": "hosted_by",
+    "value": "Riverside Rowers and Hoop Dreamers",
+    "time": "January 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 21, 2024, the Rowers and Dreamers jointly hosted a clinic for kids"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "clinic for kids",
+    "relation": "purpose",
+    "value": "demonstrating techniques and sharing experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrating techniques and sharing experiences"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "major sports networks",
+    "relation": "sent",
+    "value": "journalists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Journalists from major sports networks descended"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Willow Creek",
+    "relation": "tourism_increased",
+    "value": "increased tourism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These features brought recognition and, with it, increased tourism to Willow Creek and Midtown"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Midtown",
+    "relation": "tourism_increased",
+    "value": "increased tourism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These features brought recognition and, with it, increased tourism to Willow Creek and Midtown"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "major sports networks",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Journalists from major sports networks descended",
+     "These features brought recognition and, with it, increased tourism to Willow Creek and Midtown"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Riverside Rowers",
+    "relation": "societal_contributions",
+    "value": "volunteer work and organizing charity events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Special interest pieces highlighted not just the athletic prowess, but the teams' societal contributions, from volunteer work to organizing charity events."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Hoop Dreamers",
+    "relation": "societal_contributions",
+    "value": "volunteer work and organizing charity events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Special interest pieces highlighted not just the athletic prowess, but the teams' societal contributions, from volunteer work to organizing charity events."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "amateur sports",
+    "relation": "acknowledged_as",
+    "value": "forces for good",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Beyond sports, they were acknowledged as forces for good"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Willow Creek",
+    "relation": "economic_activity_surge",
+    "value": "a surge in economic activity",
+    "time": "In the weeks after their respective championships",
+    "speaker": null,
+    "verbatim": [
+     "both Willow Creek and Midtown reported a surge in economic activity"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Midtown",
+    "relation": "economic_activity_surge",
+    "value": "a surge in economic activity",
+    "time": "In the weeks after their respective championships",
+    "speaker": null,
+    "verbatim": [
+     "both Willow Creek and Midtown reported a surge in economic activity"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Willow Creek",
+    "relation": "local_shops_enjoyed",
+    "value": "added business",
+    "time": "In the weeks after their respective championships",
+    "speaker": null,
+    "verbatim": [
+     "Local shops, restaurants, and services enjoyed the added business."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "amateur sports",
+    "relation": "teams_became",
+    "value": "brands associated with qualities of excellence and community pride",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the teams themselves became brands, associated with qualities of excellence and community pride"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "amateur sports",
+    "relation": "invigorated",
+    "value": "local pride and prosperity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have not only earned them titles but also invigorated local pride and prosperity"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "amateur sports",
+    "relation": "impacted",
+    "value": "the economy in significant ways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "impacting the economy in significant ways"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "amateur sports",
+    "relation": "power",
+    "value": "to invigorate local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their power to invigorate local economies"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

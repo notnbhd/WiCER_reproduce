@@ -1,0 +1,919 @@
+{
+ "inventory": [
+  "Public transportation systems",
+  "New York City",
+  "partial shutdown of its iconic subway system",
+  "century-old signal system",
+  "London",
+  "Tube network",
+  "power failures attributed to old electrical cables",
+  "Tokyo",
+  "powerful typhoon",
+  "early warning systems",
+  "evacuation strategies",
+  "San Francisco",
+  "Miami",
+  "climate change",
+  "extreme weather events",
+  "Berlin",
+  "Berlin's transit authority",
+  "Hackers infiltrated the operating systems of the city's trains",
+  "cybersecurity",
+  "Seoul",
+  "Paris",
+  "massive strike over pension reforms",
+  "pension reforms",
+  "Toronto",
+  "Chicago",
+  "Madrid",
+  "signaling error at a central station",
+  "operator training",
+  "failsafe mechanisms",
+  "Amsterdam",
+  "Amsterdam's transit authority",
+  "planned outages",
+  "upgrade works aimed at expanding capacity",
+  "green technologies",
+  "Singapore",
+  "redundant system design",
+  "real-time service updates",
+  "Melbourne",
+  "Copenhagen",
+  "predictive analytics"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Public transportation systems",
+    "relation": "serve_as",
+    "value": "the lifeblood of modern cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public transportation systems across the globe serve as the lifeblood of modern cities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Public transportation systems",
+    "relation": "ensures",
+    "value": "millions of residents can navigate urban landscapes for work, school, and leisure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring millions of residents can navigate urban landscapes for work, school, and leisure"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Public transportation systems",
+    "relation": "vulnerable_to",
+    "value": "disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yet even the most sophisticated transit networks are vulnerable to disruptions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Public transportation systems",
+    "relation": "causes_immediate_impacts_on",
+    "value": "daily routines and economic activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often causing immediate impacts on daily routines and economic activities"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Public transportation systems",
+    "relation": "analyzed_incidents_from",
+    "value": "several metropolitan areas",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "analyzing incidents from several metropolitan areas since September 2023 as case studies"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "New York City",
+    "relation": "experienced",
+    "value": "partial shutdown of its iconic subway system",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, the bustling streets of New York City slowed to an unusual crawl due to a partial shutdown of its iconic subway system"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "New York City",
+    "relation": "slowed_to",
+    "value": "an unusual crawl",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the bustling streets of New York City slowed to an unusual crawl"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "partial shutdown of its iconic subway system",
+    "relation": "root_cause",
+    "value": "aging infrastructure",
+    "time": null,
+    "speaker": "An investigation",
+    "verbatim": [
+     "An investigation revealed the root cause to be aging infrastructure"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Public transportation systems",
+    "relation": "common_issue_for",
+    "value": "many transit systems around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aging infrastructure, which is a common issue for many transit systems around the world"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "century-old signal system",
+    "relation": "had_faltered",
+    "value": "faltered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The subway's century-old signal system had faltered"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "century-old signal system",
+    "relation": "left_commuters",
+    "value": "stranded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The subway's century-old signal system had faltered, leaving commuters stranded"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "century-old signal system",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had faltered, leaving commuters stranded"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "century-old signal system",
+    "relation": "forced_officials_to",
+    "value": "grapple with emergency repairs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing transportation officials to grapple with emergency repairs"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "London",
+    "relation": "unfolded",
+    "value": "A similar predicament",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A similar predicament unfolded in London on November 12, 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Tube network",
+    "relation": "experienced",
+    "value": "power failures attributed to old electrical cables",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when the overstrained Tube network experienced power failures attributed to old electrical cables"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Tube network",
+    "relation": "described_as",
+    "value": "overstrained",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the overstrained Tube network"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "power failures attributed to old electrical cables",
+    "relation": "attributed_to",
+    "value": "old electrical cables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "power failures attributed to old electrical cables"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Public transportation systems",
+    "relation": "components_deteriorate",
+    "value": "physical components can deteriorate over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "physical components of transit systems can deteriorate over time"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Public transportation systems",
+    "relation": "necessitates",
+    "value": "ongoing maintenance and upgrades to avoid outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "necessitating ongoing maintenance and upgrades to avoid outages"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Public transportation systems",
+    "relation": "fortified_against",
+    "value": "many threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While cities invest in fortifying their public transportation against many threats"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Public transportation systems",
+    "relation": "can_be_brought_to_standstill_by_natural_disasters",
+    "value": "even the most resilient systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "natural disasters remain an elemental force that can bring even the most resilient systems to a standstill"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Tokyo",
+    "relation": "experienced",
+    "value": "a powerful typhoon",
+    "time": "September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 21, 2023, Tokyo experienced a powerful typhoon"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "powerful typhoon",
+    "relation": "flooded",
+    "value": "tracks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a powerful typhoon that flooded tracks and halted services"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "powerful typhoon",
+    "relation": "halted",
+    "value": "services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flooded tracks and halted services"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Tokyo",
+    "relation": "sets_precedent",
+    "value": "a global precedent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo's response to such events often sets a global precedent"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Tokyo",
+    "relation": "has",
+    "value": "robust early warning systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city has robust early warning systems and evacuation strategies"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Tokyo",
+    "relation": "has",
+    "value": "evacuation strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city has robust early warning systems and evacuation strategies"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "evacuation strategies",
+    "relation": "help_to_mitigate",
+    "value": "risks to commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evacuation strategies, which help to mitigate risks to commuters"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "San Francisco",
+    "relation": "learned_from",
+    "value": "such preparedness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Learning from such preparedness, other cities like San Francisco and Miami have invested in similar resilience planning"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "San Francisco",
+    "relation": "invested_in",
+    "value": "similar resilience planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "other cities like San Francisco and Miami have invested in similar resilience planning"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Miami",
+    "relation": "invested_in",
+    "value": "similar resilience planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "other cities like San Francisco and Miami have invested in similar resilience planning"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "extreme weather events",
+    "relation": "frequency_growing_due_to",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the growing frequency of extreme weather events due to climate change"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "climate change",
+    "relation": "increases_frequency_of",
+    "value": "extreme weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the growing frequency of extreme weather events due to climate change"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Berlin",
+    "relation": "learned_lesson",
+    "value": "the vulnerability of public transit systems to cyber-attacks",
+    "time": "December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A lesson in the vulnerability of public transit systems to cyber-attacks was harshly learned by Berlin on December 8, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Hackers infiltrated the operating systems of the city's trains",
+    "relation": "led_to",
+    "value": "a paralysis of services for several hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hackers infiltrated the operating systems of the city's trains, leading to a paralysis of services for several hours"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Berlin's transit authority",
+    "relation": "had_not_focused_on",
+    "value": "cybersecurity",
+    "time": "until this incident",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity had not been a focal point for Berlin's transit authority until this incident"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "cybersecurity",
+    "relation": "exposed_potential_dangers_of",
+    "value": "neglecting this aspect of modern transportation infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this incident exposed the potential dangers of neglecting this aspect of modern transportation infrastructure"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Seoul",
+    "relation": "invested_in",
+    "value": "cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seoul's investment in cybersecurity measures helped the city quickly thwart a similar attack in January 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Seoul",
+    "relation": "thwarted",
+    "value": "a similar attack",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "helped the city quickly thwart a similar attack in January 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Seoul",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seoul's investment in cybersecurity measures helped the city quickly thwart a similar attack in January 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Seoul",
+    "relation": "minimized",
+    "value": "service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "minimizing service interruptions"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "cybersecurity",
+    "relation": "exemplifies",
+    "value": "the necessity of digital defenses in today's transit systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exemplifying the necessity of digital defenses in today's transit systems"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Paris",
+    "relation": "came_to",
+    "value": "a standstill",
+    "time": "February 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Paris came to a standstill on February 14, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "massive strike over pension reforms",
+    "relation": "staged_by",
+    "value": "transit workers",
+    "time": "February 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "as transit workers staged a massive strike over pension reforms"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Paris",
+    "relation": "experienced",
+    "value": "massive strike over pension reforms",
+    "time": "February 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Paris came to a standstill on February 14, 2024, as transit workers staged a massive strike over pension reforms"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "massive strike over pension reforms",
+    "relation": "concerned",
+    "value": "pension reforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a massive strike over pension reforms"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "massive strike over pension reforms",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paris came to a standstill on February 14, 2024, as transit workers staged a massive strike over pension reforms"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Toronto",
+    "relation": "worker_discontent_and_strikes_emerged",
+    "value": "worker discontent and strikes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "worker discontent and strikes have emerged in cities like Toronto and Chicago"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chicago",
+    "relation": "worker_discontent_and_strikes_emerged",
+    "value": "worker discontent and strikes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "worker discontent and strikes have emerged in cities like Toronto and Chicago"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Public transportation systems",
+    "relation": "prompted",
+    "value": "critical conversations on labor relations and workforce management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting critical conversations on labor relations and workforce management in public transit"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Public transportation systems",
+    "relation": "operational_errors_contribute_to",
+    "value": "service delays and outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Operational errors, sometimes the result of human mistakes, also contribute to service delays and outages"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Madrid",
+    "relation": "experienced",
+    "value": "widespread delays across the city's train network",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "These were acutely felt in Madrid on March 3, 2024, when a signaling error at a central station led to widespread delays across the city's train network"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "signaling error at a central station",
+    "relation": "led_to",
+    "value": "widespread delays across the city's train network",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a signaling error at a central station led to widespread delays across the city's train network"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "operator training",
+    "relation": "importance_underscored",
+    "value": "importance of rigorous operator training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident underscored the importance of rigorous operator training and failsafe mechanisms to prevent such occurrences"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "failsafe mechanisms",
+    "relation": "importance_underscored",
+    "value": "importance of failsafe mechanisms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident underscored the importance of rigorous operator training and failsafe mechanisms to prevent such occurrences"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "failsafe mechanisms",
+    "relation": "purpose",
+    "value": "prevent such occurrences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "failsafe mechanisms to prevent such occurrences"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Public transportation systems",
+    "relation": "maintenance_unavoidable",
+    "value": "continuous maintenance and upgrade work, although disruptive, is unavoidable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The necessity of continuous maintenance and upgrade work, although disruptive, is unavoidable for maintaining functional and modern public transit systems"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Amsterdam",
+    "relation": "experienced",
+    "value": "several planned outages",
+    "time": "throughout late 2023 into early 2024",
+    "speaker": null,
+    "verbatim": [
+     "Amsterdam\u2019s transport network experienced several planned outages throughout late 2023 into early 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "planned outages",
+    "relation": "caused_by",
+    "value_ref": "c60",
+    "time": "throughout late 2023 into early 2024",
+    "speaker": null,
+    "verbatim": [
+     "several planned outages throughout late 2023 into early 2024 due to upgrade works aimed at expanding capacity"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "upgrade works aimed at expanding capacity",
+    "relation": "aimed_at",
+    "value": "expanding capacity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "upgrade works aimed at expanding capacity and incorporating green technologies"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "green technologies",
+    "relation": "incorporated_in",
+    "value": "upgrade works",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating green technologies"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Amsterdam's transit authority",
+    "relation": "used",
+    "value": "transparent communication strategies",
+    "time": "during these times",
+    "speaker": null,
+    "verbatim": [
+     "The transparent communication strategies and provision of alternative travel solutions by Amsterdam's transit authority during these times"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Amsterdam's transit authority",
+    "relation": "provided",
+    "value": "alternative travel solutions",
+    "time": "during these times",
+    "speaker": null,
+    "verbatim": [
+     "provision of alternative travel solutions by Amsterdam's transit authority"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Amsterdam's transit authority",
+    "relation": "provided",
+    "value": "a blueprint for other cities to emulate",
+    "time": "during these times",
+    "speaker": null,
+    "verbatim": [
+     "provided a blueprint for other cities to emulate"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Amsterdam's transit authority",
+    "relation": "showcased",
+    "value": "how to maintain public sentiment and minimize inconvenience during necessary service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcasing how to maintain public sentiment and minimize inconvenience during necessary service interruptions"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Singapore",
+    "relation": "emphasis_on",
+    "value": "redundant system design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Singapore's emphasis on redundant system design"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Singapore",
+    "relation": "allows",
+    "value": "some parts of the network to be shut down for maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allows for some parts",
+     "of the network to be shut down for maintenance"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Singapore",
+    "relation": "reroutes_traffic_to",
+    "value": "keep services running with minimal impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rerouting traffic to keep services running with minimal impact"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "New York City",
+    "relation": "push_for",
+    "value": "real-time service updates through mobile applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New York's recent push for real-time service updates through mobile applications"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "real-time service updates",
+    "relation": "aims_to_empower",
+    "value": "commuters with information to make alternative travel arrangements during unplanned outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to empower commuters with information to make alternative travel arrangements during unplanned outages"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Melbourne",
+    "relation": "incorporated",
+    "value": "predictive analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities such as Melbourne and Copenhagen have augmented their approach by incorporating predictive analytics"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Copenhagen",
+    "relation": "incorporated",
+    "value": "predictive analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities such as Melbourne and Copenhagen have augmented their approach by incorporating predictive analytics"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "predictive analytics",
+    "relation": "aims_to_prevent",
+    "value": "service disruptions before they occur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating predictive analytics to prevent service disruptions before they occur"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "predictive analytics",
+    "relation": "used_for",
+    "value": "proactively addressing maintenance issues and deploying resources where they are most needed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proactively addressing maintenance issues and deploying resources where they are most needed"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Public transportation systems",
+    "relation": "lessons_affirm_importance_of",
+    "value": "the importance of timely infrastructure upgrades, sustainability and resilience against natural calamities, fortified cybersecurity protocols, fair labor practices, and transparent communication to the public",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the lessons from disruptions since September 2023 affirm the importance of timely infrastructure upgrades, sustainability and resilience against natural calamities, fortified cybersecurity protocols, fair labor practices, and transparent communication to the public"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Public transportation systems",
+    "relation": "strategies_contribute_to",
+    "value": "a robust public transit system capable of weathering the range of challenges it faces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These strategies collectively contribute to a robust public transit system capable of weathering the range of challenges it faces"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Public transportation systems",
+    "relation": "monitoring_will_remain",
+    "value": "a critical focus for transport authorities worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Monitoring and adapting to the dynamic factors causing service outages will remain a critical focus for transport authorities worldwide"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Public transportation systems",
+    "relation": "aims_to_provide",
+    "value": "consistent, reliable service to millions of city dwellers each day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as they endeavor to provide consistent, reliable service to millions of city dwellers each day"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Public transportation systems",
+    "relation": "provides",
+    "value": "a unique opportunity for transit systems globally to learn, innovate, and evolve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each disruption, while presenting a hurdle, also provides a unique opportunity for transit systems globally to learn, innovate, and evolve"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

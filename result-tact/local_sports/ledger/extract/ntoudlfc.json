@@ -1,0 +1,785 @@
+{
+ "inventory": [
+  "Sarah Thompson",
+  "Mark Daniels",
+  "Dr. Emily Pearson",
+  "David Greene",
+  "Anna Peterson",
+  "Meadowlark Park",
+  "Eastwood Park",
+  "Liberty Green",
+  "Whispering Pine Park",
+  "Parks and Recreation department",
+  "Outdoor yoga and fitness classes",
+  "Yoga in the Park",
+  "Bootcamp in the Park",
+  "Meditation Under the Stars",
+  "Mental health",
+  "Healthy mind, healthy body"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Meadowlark Park",
+    "relation": "hosts",
+    "value": "group of local residents unrolling mats on the grass",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a group of local residents unroll their mats on the soft, verdant grass of Meadowlark Park"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Meadowlark Park",
+    "relation": "scene_dated",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 5, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Parks and Recreation department",
+    "relation": "launched",
+    "value": "latest initiative to promote public health and wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The latest initiative by the city's Parks and Recreation department to promote public health and wellness"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "described_as",
+    "value": "refreshing trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has given rise to a refreshing trend: outdoor yoga and fitness classes"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Parks and Recreation department",
+    "relation": "results_in",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has given rise to a refreshing trend"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "fosters",
+    "value": "physical strength and mental tranquility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outdoor yoga and fitness classes that foster not only physical strength but mental tranquility as well"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mental health",
+    "relation": "awareness_status",
+    "value": "gaining momentum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an era where mental health awareness is gaining momentum"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "described_as",
+    "value": "a dual remedy for the body and the soul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outdoor fitness regimens stand out as a dual remedy for the body and the soul"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Thompson",
+    "relation": "occupation",
+    "value": "certified yoga instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, a certified yoga instructor who believes in the transformative power of integrating her practice with nature"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Thompson",
+    "relation": "believes",
+    "value": "in the transformative power of integrating her practice with nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, a certified yoga instructor who believes in the transformative power of integrating her practice with nature"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Yoga in the Park",
+    "relation": "held_on",
+    "value": "Every Tuesday and Thursday",
+    "time": "since September began",
+    "speaker": null,
+    "verbatim": [
+     "Every Tuesday and Thursday since September began, her \"Yoga in the Park\" sessions have been a beacon"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Thompson",
+    "relation": "leads",
+    "value": "Yoga in the Park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her \"Yoga in the Park\" sessions"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Yoga in the Park",
+    "relation": "serves",
+    "value": "a beacon for many seeking solace from their cluttered minds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her \"Yoga in the Park\" sessions have been a beacon for many seeking solace from their cluttered minds"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eastwood Park",
+    "relation": "hosts",
+    "value": "Thompson's class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thompson's class, which is held on the manicured greens of Eastwood Park"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Yoga in the Park",
+    "relation": "emphasizes",
+    "value": "the power of presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizes the power of presence"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Thompson",
+    "relation": "explains",
+    "value": "senses are stimulated differently when outdoors",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "\"When we're outdoors,\" Thompson explains, \"our senses are stimulated differently."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Thompson",
+    "relation": "explains",
+    "value": "a natural grounding happens outdoors",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "There's a natural grounding that happens."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Thompson",
+    "relation": "explains",
+    "value": "outdoor yoga is inherently meditative",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "You hear the birds, feel the breeze\u2014it's inherently meditative."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mark Daniels",
+    "relation": "occupation",
+    "value": "fitness instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness instructor Mark Daniels has been rallying the community every Saturday morning since September 9"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bootcamp in the Park",
+    "relation": "held_on",
+    "value": "every Saturday morning",
+    "time": "since September 9",
+    "speaker": null,
+    "verbatim": [
+     "fitness instructor Mark Daniels has been rallying the community every Saturday morning since September 9"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Bootcamp in the Park",
+    "relation": "held_at",
+    "value": "Liberty Green",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His \"Bootcamp in the Park\" sessions at Liberty Green"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Bootcamp in the Park",
+    "relation": "described_as",
+    "value": "an energetic hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become an energetic hub for those yearning not only for muscle burn but also for a sense of community"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mark Daniels",
+    "relation": "designs_workouts",
+    "value": "to be inclusive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniels designs his workouts to be inclusive, offering modifications to foster an environment where everyone feels welcome."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mark Daniels",
+    "relation": "offers",
+    "value": "modifications to foster an environment where everyone feels welcome",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering modifications to foster an environment where everyone feels welcome."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mark Daniels",
+    "relation": "believes",
+    "value": "exercise, particularly in a shared space, can serve as a powerful tool for mental health",
+    "time": null,
+    "speaker": "Mark Daniels",
+    "verbatim": [
+     "Daniels' philosophy is that exercise, particularly in a shared space, can serve as a powerful tool for mental health."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mark Daniels",
+    "relation": "says",
+    "value": "there's camaraderie here, encouragement, and a shared journey",
+    "time": null,
+    "speaker": "Mark Daniels",
+    "verbatim": [
+     "there's camaraderie here, encouragement, and a shared journey"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mark Daniels",
+    "relation": "says",
+    "value": "uplifting in ways that go beyond just the physical",
+    "time": null,
+    "speaker": "Mark Daniels",
+    "verbatim": [
+     "That's uplifting in ways that go beyond just the physical."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "setting_changes",
+    "value": "parks transformed with the autumnal tapestry of reds, oranges, and yellows",
+    "time": "As September gives way to October",
+    "speaker": null,
+    "verbatim": [
+     "transformed with the autumnal tapestry of reds, oranges, and yellows."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "offers",
+    "value": "a multisensorial approach to wellbeing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a multisensorial approach to wellbeing"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Emily Pearson",
+    "relation": "occupation",
+    "value": "Clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clinical psychologist Dr. Emily Pearson, who often refers her patients to such outdoor activities"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dr. Emily Pearson",
+    "relation": "refers_patients_to",
+    "value": "outdoor activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who often refers her patients to such outdoor activities"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Emily Pearson",
+    "relation": "observes",
+    "value": "significant improvement in mood and reduction in anxiety when patients participate in park-based fitness classes",
+    "time": null,
+    "speaker": "Dr. Emily Pearson",
+    "verbatim": [
+     "We see a significant improvement in mood and reduction in anxiety when my patients participate in these park-based fitness classes."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Emily Pearson",
+    "relation": "cites_research_suggesting",
+    "value": "green spaces can have a restorative effect on mental health",
+    "time": null,
+    "speaker": "Dr. Emily Pearson",
+    "verbatim": [
+     "There's research to suggest that green spaces can have a restorative effect on mental health"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Emily Pearson",
+    "relation": "believes",
+    "value": "these programs are so valuable",
+    "time": null,
+    "speaker": "Dr. Emily Pearson",
+    "verbatim": [
+     "which is why these programs are so valuable."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Emily Pearson",
+    "relation": "explained_by",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which is why these programs are so valuable"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Whispering Pine Park",
+    "relation": "hosts",
+    "value": "Meditation Under the Stars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Whispering Pine Park hosts a phenomenon quite different from the essential group workouts."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Meditation Under the Stars",
+    "relation": "led_by",
+    "value": "David Greene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by a local spiritual coach, David Greene."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "David Greene",
+    "relation": "occupation",
+    "value": "local spiritual coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by a local spiritual coach, David Greene."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Meditation Under the Stars",
+    "relation": "held_on",
+    "value": "every second Wednesday of the month",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commencing at 7:00 PM, every second Wednesday of the month"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Meditation Under the Stars",
+    "relation": "starts_at",
+    "value": "7:00 PM",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commencing at 7:00 PM, every second Wednesday of the month"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Meditation Under the Stars",
+    "relation": "features",
+    "value": "breathing slows and a collective calm descends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as breathing slows and a collective calm descends"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Meditation Under the Stars",
+    "relation": "offers",
+    "value": "a unique lens through which to view mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a unique lens through which to view mental health"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "David Greene",
+    "relation": "reflects",
+    "value": "Many fear silence, equating it to loneliness",
+    "time": null,
+    "speaker": "David Greene",
+    "verbatim": [
+     "\"Many fear silence, equating it to loneliness,\" Greene reflects."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "David Greene",
+    "relation": "says",
+    "value": "everyone is here to support one another by simply being present",
+    "time": null,
+    "speaker": "David Greene",
+    "verbatim": [
+     "everyone is here to support one another by simply being present."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "David Greene",
+    "relation": "says",
+    "value": "It's a powerful experience",
+    "time": null,
+    "speaker": "David Greene",
+    "verbatim": [
+     "It's a powerful experience."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "open_to",
+    "value": "all, irrespective of age, fitness level, or experience with exercise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they beckon to all, irrespective of age, fitness level, or experience with exercise."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "not_reserved_for",
+    "value": "the fit or the flexible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are not reserved for the fit or the flexible"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "provides",
+    "value": "a lifeline to the struggle with isolation or mental distress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing a lifeline to the struggle with isolation or mental distress"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Anna Peterson",
+    "relation": "age",
+    "value": "56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Take Anna Peterson, for example, a 56-year-old librarian"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Anna Peterson",
+    "relation": "occupation",
+    "value": "librarian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Take Anna Peterson, for example, a 56-year-old librarian"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Anna Peterson",
+    "relation": "discovered",
+    "value": "the yoga classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who discovered the yoga classes after wrestling with a mild depression."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Anna Peterson",
+    "relation": "experienced",
+    "value": "a mild depression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after wrestling with a mild depression."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Anna Peterson",
+    "relation": "admits",
+    "value": "was intimidated at first",
+    "time": null,
+    "speaker": "Anna Peterson",
+    "verbatim": [
+     "\"I was intimidated at first,\" Peterson admits"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Anna Peterson",
+    "relation": "says",
+    "value": "the fresh air and the warm community have been a game-changer",
+    "time": null,
+    "speaker": "Anna Peterson",
+    "verbatim": [
+     "the fresh air, the warm community\u2014it's been a game-changer for me."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Anna Peterson",
+    "relation": "says",
+    "value": "found a piece of joy she didn't know she was missing",
+    "time": null,
+    "speaker": "Anna Peterson",
+    "verbatim": [
+     "I've found a piece of joy I didn't know I was missing."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "characterized_by",
+    "value": "accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A common thread tying these classes together is accessibility."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "has_no",
+    "value": "membership fees or expensive equipment requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are no membership fees or expensive equipment requirements"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "testament_to",
+    "value": "the city's commitment to its citizens' well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these gatherings are a testament to the city's commitment to its citizens' well-being."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "requires",
+    "value": "simple online registration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following a simple online registration"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "welcomes",
+    "value": "attendees with open arms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attendees are welcomed with open arms"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "described_as",
+    "value": "a priceless gift in the eyes of many, especially for those facing financial hardships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a priceless gift in the eyes of many, especially for those facing financial hardships"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "reflects",
+    "value": "a broader shift in societal attitudes towards mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative reflects a broader shift in societal attitudes towards mental health, acknowledging the multifaceted nature of wellness."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "applies",
+    "value": "the adage \"Healthy mind, healthy body\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It offers a real-world application of the adage \"Healthy mind, healthy body,\""
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Healthy mind, healthy body",
+    "relation": "is_described_as",
+    "value": "adage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the adage \"Healthy mind, healthy body,\""
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "proves",
+    "value": "the simplest approach can be the most effective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proving that sometimes, the simplest approach can be the most effective."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "is_more_than",
+    "value": "just about staying fit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this is more than just about staying fit."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "described_as",
+    "value": "a journey of selfdiscovery, healing, and building resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is a journey of selfdiscovery, healing, and building resilience"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "described_as",
+    "value": "poignant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This inclusivity is what makes the initiative so poignant"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Outdoor yoga and fitness classes",
+    "relation": "explained_by",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they beckon to all, irrespective of age, fitness level, or experience with exercise.",
+     "This inclusivity is what makes the initiative so poignant"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

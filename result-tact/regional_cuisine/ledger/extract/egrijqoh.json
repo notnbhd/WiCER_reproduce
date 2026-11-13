@@ -1,0 +1,614 @@
+{
+ "inventory": [
+  "Chef Julian Torres",
+  "Terra",
+  "The Ancient Feast",
+  "Dr. Lila Zheng",
+  "Culinary Institute of Futuristic Foods",
+  "smart fermentation chamber",
+  "Eduardo Gomez",
+  "Molino del Ma\u00f1ana",
+  "Flame and Ember",
+  "Chef Amelie Park",
+  "Chef Marcus Yi",
+  "The Salted Chef",
+  "Sophia Liu",
+  "RetroCreamery",
+  "smart churners",
+  "Global Dairy Expo",
+  "NeoKiln",
+  "Hearth Innovations",
+  "Fermentation",
+  "Salt-curing",
+  "Stone milling",
+  "Clay pot cooking"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Chef Julian Torres",
+    "relation": "leads_restaurant",
+    "value": "Terra",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's October 14, 2023, when Chef Julian Torres, at the helm of the avant-garde restaurant Terra"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Terra",
+    "relation": "described_as",
+    "value": "avant-garde restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the avant-garde restaurant Terra"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Chef Julian Torres",
+    "relation": "showcased_practices_in",
+    "value": "The Ancient Feast",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "decided to showcase these practices in a month-long event aptly called \"The Ancient Feast.\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "The Ancient Feast",
+    "relation": "is_a",
+    "value": "month-long event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a month-long event aptly called \"The Ancient Feast.\""
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Chef Julian Torres",
+    "relation": "menu_featured",
+    "value": "dishes slow-cooked in pits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His acclaimed menu featured dishes slow-cooked in pits"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "The Ancient Feast",
+    "relation": "pits_lined_with",
+    "value": "hot stones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The pits, lined with hot stones"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "The Ancient Feast",
+    "relation": "pit_cooking_effect",
+    "value": "cooks food uniformly and infuses a subtle smokiness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The pits, lined with hot stones, allow the food to cook uniformly, while infusing it with a subtle smokiness"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Chef Julian Torres",
+    "relation": "harnesses",
+    "value": "the earth's heat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harnessing the earth's heat for a tender and flavorful experience"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Fermentation",
+    "relation": "dates_back_to",
+    "value": "thousands of years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fermentation is an art form that dates back thousands of years"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Fermentation",
+    "relation": "used_to",
+    "value": "preserve food and enhance its flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "used to preserve food and enhance its flavors"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Lila Zheng",
+    "relation": "introduced",
+    "value": "a smart fermentation chamber",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 20, 2023, Dr. Lila Zheng and her team of food scientists at the Culinary Institute of Futuristic Foods introduced a smart fermentation chamber"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Culinary Institute of Futuristic Foods",
+    "relation": "introduced",
+    "value": "a smart fermentation chamber",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 20, 2023, Dr. Lila Zheng and her team of food scientists at the Culinary Institute of Futuristic Foods introduced a smart fermentation chamber"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Lila Zheng",
+    "relation": "leads",
+    "value": "team of food scientists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lila Zheng and her team of food scientists"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "smart fermentation chamber",
+    "relation": "replicates",
+    "value": "ancient methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a smart fermentation chamber that replicates ancient methods"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "smart fermentation chamber",
+    "relation": "allows",
+    "value": "meticulous manipulation of temperature, humidity, and time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing meticulous manipulation of temperature, humidity, and time"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Lila Zheng",
+    "relation": "extracted",
+    "value": "nuanced flavors from local produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they have managed to extract nuanced flavors from local produce"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "smart fermentation chamber",
+    "relation": "enables",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing meticulous manipulation of temperature, humidity, and time. By doing so, they have managed to extract nuanced flavors from local produce"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Lila Zheng",
+    "relation": "created",
+    "value": "fermented delights that surpass expectations in taste and nutritional value",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating fermented delights that surpass expectations in taste and nutritional value"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Stone milling",
+    "relation": "found_its_way_back_into",
+    "value": "modern kitchens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stone milling has found its way back into modern kitchens"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Eduardo Gomez",
+    "relation": "opened_bakery",
+    "value": "Molino del Ma\u00f1ana",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, artisanal baker Eduardo Gomez opened his bakery, Molino del Ma\u00f1ana"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Eduardo Gomez",
+    "relation": "occupation",
+    "value": "artisanal baker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artisanal baker Eduardo Gomez"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Molino del Ma\u00f1ana",
+    "relation": "is_a",
+    "value": "bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opened his bakery, Molino del Ma\u00f1ana"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Molino del Ma\u00f1ana",
+    "relation": "uses",
+    "value": "heirloom grains milled with traditional techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where he uses heirloom grains milled with traditional techniques"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Stone milling",
+    "relation": "retains",
+    "value": "more nutrients and flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The stone-milled grains retain more nutrients and flavors"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Stone milling",
+    "relation": "results_in",
+    "value": "bread that is not only healthier but also has a depth of flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in bread that is not only healthier but also has a depth of flavor"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Stone milling",
+    "relation": "resonates_with",
+    "value": "nostalgia and purity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The gentle hum of stone mills grinding grains is a sound that resonates with nostalgia and purity"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Flame and Ember",
+    "relation": "is_a",
+    "value": "food festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the \"Flame and Ember\" food festival"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Flame and Ember",
+    "relation": "celebrated",
+    "value": "the ingenuity of this ancient technique",
+    "time": "January 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 18, 2024, the \"Flame and Ember\" food festival celebrated the ingenuity of this ancient technique"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Flame and Ember",
+    "relation": "integrated",
+    "value": "laser-guided temperature control and smoke intensity modulators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the integration of laser-guided temperature control and smoke intensity modulators"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Flame and Ember",
+    "relation": "allowed",
+    "value": "chefs to craft the perfect balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these high-tech tools allowed chefs to craft the perfect balance"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Chef Amelie Park",
+    "relation": "restaurant_celebrated_for",
+    "value": "commitment to traditional methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Amelie Park's restaurant, celebrated for its commitment to traditional methods"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Chef Amelie Park",
+    "relation": "launched",
+    "value": "a new menu that features dishes cooked slowly in unglazed clay pots",
+    "time": "February 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 14, 2024, she launched a new menu that features dishes cooked slowly in unglazed clay pots"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Clay pot cooking",
+    "relation": "uses",
+    "value": "unglazed clay pots made by local potters using age-old techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dishes cooked slowly in unglazed clay pots, which are made by local potters using age-old techniques"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Clay pot cooking",
+    "relation": "porous_clay_allows",
+    "value": "slow evaporation of moisture, concentrating flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The porous nature of the clay allows for slow evaporation of moisture, concentrating flavors"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Clay pot cooking",
+    "relation": "creates",
+    "value": "dishes that are both comforting and profoundly complex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating dishes that are both comforting and profoundly complex"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Salt-curing",
+    "relation": "described_as",
+    "value": "a method as old as civilization itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Salt-curing, a method as old as civilization itself"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "The Salted Chef",
+    "relation": "is_a",
+    "value": "conference",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "At The Salted Chef conference on March 3, 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Chef Marcus Yi",
+    "relation": "revealed",
+    "value": "his innovative approach to curing",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Chef Marcus Yi revealed his innovative approach to curing"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Chef Marcus Yi",
+    "relation": "approach_combines",
+    "value": "traditional salt-curing methods with a controlled environment setup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combines traditional salt-curing methods with a controlled environment setup"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Salt-curing",
+    "relation": "allows",
+    "value": "results with unprecedented precision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach allows the ancient art of curing to produce results with unprecedented precision"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Salt-curing",
+    "relation": "results_in",
+    "value": "textures and tastes that pay homage to the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in textures and tastes that pay homage to the past"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sophia Liu",
+    "relation": "founder_of",
+    "value": "RetroCreamery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Liu, founder of RetroCreamery"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sophia Liu",
+    "relation": "unveiled",
+    "value": "her line of smart churners",
+    "time": "April 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On April 5, 2024, Sophia Liu, founder of RetroCreamery, unveiled her line of smart churners at the Global Dairy Expo"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "smart churners",
+    "relation": "unveiled_at",
+    "value": "Global Dairy Expo",
+    "time": "April 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "unveiled her line of smart churners at the Global Dairy Expo"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "smart churners",
+    "relation": "emulate",
+    "value": "the motion of ancient churning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These devices emulate the motion of ancient churning"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "smart churners",
+    "relation": "equipped_with",
+    "value": "sensors that can assess the quality of cream, temperature, and consistency in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outfitted with sensors that can assess the quality of cream, temperature, and consistency in real-time"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "smart churners",
+    "relation": "produces",
+    "value": "butter that is a testament to the golden age of dairy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "producing butter that is a testament to the golden age of dairy"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "NeoKiln",
+    "relation": "unveiled_by",
+    "value": "Hearth Innovations",
+    "time": "May 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The unveiling of the NeoKiln on May 15, 2024, by the start-up Hearth Innovations"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Hearth Innovations",
+    "relation": "is_a",
+    "value": "start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by the start-up Hearth Innovations"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "NeoKiln",
+    "relation": "shaped_by",
+    "value": "traditional kiln designs but powered by smart technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shaped by traditional kiln designs but powered by smart technology"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "NeoKiln",
+    "relation": "allows",
+    "value": "an unattainable precision in traditional earthen cookery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allow for an unattainable precision in traditional earthen cookery"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "NeoKiln",
+    "relation": "revolutionized",
+    "value": "the way we perceive slow-cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has revolutionized the way we perceive slow-cooking"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "NeoKiln",
+    "relation": "creates",
+    "value": "a bridge between ancient technique and modern convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a bridge between ancient technique and modern convenience"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

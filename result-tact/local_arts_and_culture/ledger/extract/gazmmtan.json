@@ -1,0 +1,770 @@
+{
+ "inventory": [
+  "New York Visual Arts Academy",
+  "California Institute of Contemporary Arts",
+  "Marisol Vargas",
+  "Eliot Zhao",
+  "Sofia Adebayo",
+  "Professor James Hamilton",
+  "Alejandro Rios",
+  "Alex Kennedy",
+  "Beyond Binary",
+  "Natalie Kim",
+  "Art in Conversation",
+  "Lina Patel",
+  "Woven Time",
+  "Jordan McKenzie",
+  "NFTs",
+  "Emma-Louise Henderson",
+  "Yuma Takahashi",
+  "Tokyo",
+  "Manhattan's Lower East Side",
+  "Hannah Simmons",
+  "African diaspora",
+  "LGBTQ+ community",
+  "American immigration policies",
+  "post-modern expressionism"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "New York Visual Arts Academy",
+    "relation": "instrumental_in",
+    "value": "nurturing these raw talents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions such as the New York Visual Arts Academy and the California Institute of Contemporary Arts have been instrumental in nurturing these raw talents."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "California Institute of Contemporary Arts",
+    "relation": "instrumental_in",
+    "value": "nurturing these raw talents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institutions such as the New York Visual Arts Academy and the California Institute of Contemporary Arts have been instrumental in nurturing these raw talents."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Marisol Vargas",
+    "relation": "is_a",
+    "value": "graduate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Noteworthy among them are graduates like Marisol Vargas"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Marisol Vargas",
+    "relation": "creates",
+    "value": "digital installations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose digital installations ask poignant questions about identity in a networked age"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Marisol Vargas",
+    "relation": "asks_questions_about",
+    "value": "identity in a networked age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose digital installations ask poignant questions about identity in a networked age"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eliot Zhao",
+    "relation": "is_a",
+    "value": "graduate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and Eliot Zhao, whose kinetic sculptures investigate the merging of technology and organic life"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Eliot Zhao",
+    "relation": "creates",
+    "value": "kinetic sculptures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose kinetic sculptures investigate the merging of technology and organic life"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Eliot Zhao",
+    "relation": "investigates",
+    "value": "the merging of technology and organic life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose kinetic sculptures investigate the merging of technology and organic life"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sofia Adebayo",
+    "relation": "is_a",
+    "value": "painter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sofia Adebayo, a painter whose abstract pieces explore the African diaspora through a rich palette of earth tones"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sofia Adebayo",
+    "relation": "explores",
+    "value": "the African diaspora",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a painter whose abstract pieces explore the African diaspora through a rich palette of earth tones"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "African diaspora",
+    "relation": "explored_by",
+    "value": "Sofia Adebayo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose abstract pieces explore the African diaspora through a rich palette of earth tones"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sofia Adebayo",
+    "relation": "held",
+    "value": "final year showcase",
+    "time": "October 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Her final year showcase on October 3rd, 2023, was a testament to the power of educational institutions in giving artists the tools and the voice to narrate their unique stories."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sofia Adebayo",
+    "relation": "showcase_was",
+    "value": "a testament to the power of educational institutions",
+    "time": "October 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Her final year showcase on October 3rd, 2023, was a testament to the power of educational institutions in giving artists the tools and the voice to narrate their unique stories."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sofia Adebayo",
+    "relation": "began_to_catch_eyes_of",
+    "value": "the art world elite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "began to catch the eyes of the art world elite"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Professor James Hamilton",
+    "relation": "is_a",
+    "value": "tutor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tutors like Professor James Hamilton, a luminary in post-modern expressionism"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Professor James Hamilton",
+    "relation": "is_luminary_in",
+    "value": "post-modern expressionism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tutors like Professor James Hamilton, a luminary in post-modern expressionism"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "post-modern expressionism",
+    "relation": "luminary_in_field",
+    "value": "Professor James Hamilton",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tutors like Professor James Hamilton, a luminary in post-modern expressionism"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Professor James Hamilton",
+    "relation": "approaches_mentorship_as",
+    "value": "more than imparting knowledge\u2014it's a sacred exchange destined to inspire the next wave of cultural pioneers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "approach mentorship as more than imparting knowledge\u2014it's a sacred exchange destined to inspire the next wave of cultural pioneers"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Alejandro Rios",
+    "relation": "creates",
+    "value": "mixed-media pieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "individuals like Alejandro Rios, whose mixed-media pieces encapsulate his Mexican heritage and the fragmented nature of American immigration policies."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Alejandro Rios",
+    "relation": "encapsulates",
+    "value": "his Mexican heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose mixed-media pieces encapsulate his Mexican heritage"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Alejandro Rios",
+    "relation": "encapsulates",
+    "value": "the fragmented nature of American immigration policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encapsulate his Mexican heritage and the fragmented nature of American immigration policies"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "American immigration policies",
+    "relation": "described_as",
+    "value": "fragmented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fragmented nature of American immigration policies"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Alejandro Rios",
+    "relation": "premiered_at",
+    "value": "underground art show",
+    "time": "November 12th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "underground art show on November 12th, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Alejandro Rios",
+    "relation": "confrontation_with_political_themes_served_as",
+    "value": "a reminder of art's potential to communicate beyond words",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rios's confrontation with political themes served as a reminder of art's potential to communicate beyond words"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alex Kennedy",
+    "relation": "is_a",
+    "value": "sculptor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sculptor Alex Kennedy\u2019s avant-garde creations challenge traditional notions of gender and form"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Alex Kennedy",
+    "relation": "creates",
+    "value": "avant-garde creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sculptor Alex Kennedy\u2019s avant-garde creations challenge traditional notions of gender and form"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alex Kennedy",
+    "relation": "challenges",
+    "value": "traditional notions of gender and form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sculptor Alex Kennedy\u2019s avant-garde creations challenge traditional notions of gender and form"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Alex Kennedy",
+    "relation": "represents",
+    "value": "LGBTQ+ community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "representing the LGBTQ+ community, sculptor Alex Kennedy\u2019s"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "LGBTQ+ community",
+    "relation": "represented_by",
+    "value": "Alex Kennedy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "representing the LGBTQ+ community, sculptor Alex Kennedy\u2019s"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Beyond Binary",
+    "relation": "is_exhibition_by",
+    "value": "Alex Kennedy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kennedy's evocative exhibition, \"Beyond Binary,\" opened on December 1st, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Beyond Binary",
+    "relation": "opened_on",
+    "value": "December 1st, 2023",
+    "time": "December 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Beyond Binary,\" opened on December 1st, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Beyond Binary",
+    "relation": "received",
+    "value": "critical acclaim",
+    "time": "December 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Beyond Binary,\" opened on December 1st, 2023, to critical acclaim"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Beyond Binary",
+    "relation": "signaled",
+    "value": "the birth of an audacious artist unafraid of societal taboos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signaling the birth of an audacious artist unafraid of societal taboos"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Art in Conversation",
+    "relation": "spearheaded_by",
+    "value": "Natalie Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 'Art in Conversation' series, spearheaded by curator Natalie Kim, is a prime example."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Natalie Kim",
+    "relation": "is_a",
+    "value": "curator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by curator Natalie Kim"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Art in Conversation",
+    "relation": "launched_on",
+    "value": "January 15th, 2024",
+    "time": "January 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Launched on January 15th, 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Art in Conversation",
+    "relation": "pairs",
+    "value": "visual artists with poets, musicians, and scientists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this innovative program pairs visual artists with poets, musicians, and scientists"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Art in Conversation",
+    "relation": "creates",
+    "value": "collaborative works that transcend individual spheres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to create collaborative works that transcend individual spheres"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Art in Conversation",
+    "relation": "in_order_to",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pairs visual artists with poets, musicians, and scientists to create collaborative works"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Lina Patel",
+    "relation": "is_a",
+    "value": "experimental filmmaker",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "April 2024 saw the rise of experimental filmmaker Lina Patel"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Woven Time",
+    "relation": "is_film_by",
+    "value": "Lina Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose film 'Woven Time' interlaced dance, narrative cinema, and visual arts"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Woven Time",
+    "relation": "interlaces",
+    "value": "dance, narrative cinema, and visual arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose film 'Woven Time' interlaced dance, narrative cinema, and visual arts"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Woven Time",
+    "relation": "expresses",
+    "value": "the nonlinear nature of memory and time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to express the nonlinear nature of memory and time"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Woven Time",
+    "relation": "in_order_to",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interlaced dance, narrative cinema, and visual arts to express the nonlinear nature of memory and time"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jordan McKenzie",
+    "relation": "is_a",
+    "value": "graphic artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan McKenzie, a graphic artist who specializes in NFTs"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jordan McKenzie",
+    "relation": "specializes_in",
+    "value": "NFTs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a graphic artist who specializes in NFTs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "NFTs",
+    "relation": "specialized_in_by",
+    "value": "Jordan McKenzie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who specializes in NFTs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jordan McKenzie",
+    "relation": "enabled_monetization_via",
+    "value": "Online platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Online platforms have enabled individuals such as Jordan McKenzie"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jordan McKenzie",
+    "relation": "collection_rocketed_to_prominence",
+    "value": "after its release",
+    "time": "September 28th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "McKenzie's collection rocketed to prominence after its release on September 28th, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jordan McKenzie",
+    "relation": "collection_released_on",
+    "value": "September 28th, 2023",
+    "time": "September 28th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "after its release on September 28th, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Jordan McKenzie",
+    "relation": "collection_offers_glimpse_into",
+    "value": "a future where art and blockchain technology coexist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a glimpse into a future where art and blockchain technology coexist"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Emma-Louise Henderson",
+    "relation": "runs",
+    "value": "eco-conscious fashion brand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose eco-conscious fashion brand catapulted her into the limelight as both an artist and an innovator"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Emma-Louise Henderson",
+    "relation": "catapulted_into_limelight_as",
+    "value": "both an artist and an innovator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose eco-conscious fashion brand catapulted her into the limelight as both an artist and an innovator"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Emma-Louise Henderson",
+    "relation": "creates",
+    "value": "sustainable garments with hand-painted designs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By creating sustainable garments with hand-painted designs"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Emma-Louise Henderson",
+    "relation": "touched_a_nerve_in",
+    "value": "both the art and fashion communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Henderson has touched a nerve in both the art and fashion communities"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Emma-Louise Henderson",
+    "relation": "mechanism_of",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By creating sustainable garments with hand-painted designs, Henderson has touched a nerve in both the art and fashion communities"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Emma-Louise Henderson",
+    "relation": "reinforces",
+    "value": "the value of interdisciplinary and socially responsible artistry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reinforcing the value of interdisciplinary and socially responsible artistry"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Yuma Takahashi",
+    "relation": "is_native_of",
+    "value": "Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo-native Yuma Takahashi"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Tokyo",
+    "relation": "birthplace_of",
+    "value": "Yuma Takahashi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo-native Yuma Takahashi"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Yuma Takahashi",
+    "relation": "creates",
+    "value": "intricate street murals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose intricate street murals graced the walls of Manhattan\u2019s Lower East Side"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Yuma Takahashi",
+    "relation": "murals_graced",
+    "value": "the walls of Manhattan\u2019s Lower East Side",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose intricate street murals graced the walls of Manhattan\u2019s Lower East Side on September 10th, 2023"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Manhattan's Lower East Side",
+    "relation": "had_murals_by",
+    "value": "Yuma Takahashi",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "graced the walls of Manhattan\u2019s Lower East Side on September 10th, 2023"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Yuma Takahashi",
+    "relation": "murals_encapsulate",
+    "value": "the symbiotic relationship between a city and its artistic checkpoints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The murals' vibrant immersion into the urban fabric encapsulates the symbiotic relationship between a city and its artistic checkpoints."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Hannah Simmons",
+    "relation": "curates",
+    "value": "interactive art and augmented reality experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interactive art and augmented reality experiences curated by artists like Hannah Simmons"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Hannah Simmons",
+    "relation": "showcases",
+    "value": "the potential to transcend physical boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcase the potential to transcend physical boundaries"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Hannah Simmons",
+    "relation": "virtual_gallery_launched_online",
+    "value": "virtual gallery",
+    "time": "February 8th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Her virtual gallery, which launched online on February 8th, 2024"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Hannah Simmons",
+    "relation": "virtual_gallery_became",
+    "value": "a portal through which people from all over the world could engage with and inhabit art in a shared digital ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became a portal through which people from all over the world could engage with and inhabit art in a shared digital ecosystem"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

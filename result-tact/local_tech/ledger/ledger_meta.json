@@ -1,0 +1,29 @@
+{
+  "topic": "local_tech",
+  "corpus_sha256": "570e9c4580421cb9830a6ad9f700bfd90eb4ce941955dc8898e9ba883da6c55e",
+  "n_documents": 80,
+  "n_claims": 4956,
+  "n_claims_before_merge": 4956,
+  "n_raw": 4959,
+  "n_rejected": 3,
+  "n_multispan": 32,
+  "n_relational": 192,
+  "rejection_rate": 0.0006049606775559589,
+  "n_contradictions": 30,
+  "inventory_size": 1613,
+  "n_canonical_entities": 1489,
+  "entity_collision_rate": 0.001343183344526528,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 404174,
+    "output_tokens": 1648630,
+    "measured_cost_usd": 0.0
+  }
+}

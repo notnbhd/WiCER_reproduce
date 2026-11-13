@@ -1,0 +1,546 @@
+{
+ "inventory": [
+  "World Health Organization",
+  "air pollution",
+  "Dr. Emily Chan",
+  "Paris",
+  "Tokyo",
+  "Beijing",
+  "Copenhagen",
+  "Rotterdam",
+  "smog vacuum cleaner",
+  "Milan",
+  "vertical gardens of Milan",
+  "London",
+  "Clean Air for My Child",
+  "James Sullivan",
+  "International Coalition for Clean Air",
+  "San Francisco",
+  "Urban Air Quality Summit",
+  "nitrogen oxides",
+  "particulate matter",
+  "volatile organic compounds"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "World Health Organization",
+    "relation": "released_study_reporting",
+    "value": "91% of the world\u2019s population resides in areas where air quality levels surpass the limits deemed safe for human health",
+    "time": "As of September 2, 2023",
+    "speaker": "World Health Organization",
+    "verbatim": [
+     "according to a study released by the World Health Organization, 91% of the world\u2019s population resides in areas where air quality levels surpass the limits deemed safe for human health"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "air pollution",
+    "relation": "described_as",
+    "value": "a less visible yet insidious entity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a less visible yet insidious entity looms\u2014 air pollution"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "air pollution",
+    "relation": "described_as",
+    "value": "a public health crisis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing a public health crisis that urgently beckons a call to action"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "air pollution",
+    "relation": "influenced_by",
+    "value": "industrial emissions, vehicular exhalations, and energy production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "influenced by industrial emissions, vehicular exhalations, and energy production"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "nitrogen oxides",
+    "relation": "envelops_cities_in_haze",
+    "value": "a haze that is both literal and figurative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pollutants such as nitrogen oxides, particulate matter, and volatile organic compounds envelop cities in a haze that is both literal and figurative"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "particulate matter",
+    "relation": "envelops_cities_in_haze",
+    "value": "a haze that is both literal and figurative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pollutants such as nitrogen oxides, particulate matter, and volatile organic compounds envelop cities in a haze that is both literal and figurative"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "volatile organic compounds",
+    "relation": "envelops_cities_in_haze",
+    "value": "a haze that is both literal and figurative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pollutants such as nitrogen oxides, particulate matter, and volatile organic compounds envelop cities in a haze that is both literal and figurative"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "air pollution",
+    "relation": "causes_health_risks",
+    "value": "respiratory conditions like asthma and bronchitis, cardiovascular diseases and strokes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ranging from respiratory conditions like asthma and bronchitis to cardiovascular diseases and strokes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "air pollution",
+    "relation": "accounts_for_premature_deaths",
+    "value": "an estimated 4.2 million premature deaths worldwide every year",
+    "time": "October 10, 2023",
+    "speaker": "A recent report",
+    "verbatim": [
+     "urban air pollution accounts for an estimated 4.2 million premature deaths worldwide every year"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Chan",
+    "relation": "occupation",
+    "value": "a leading epidemiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Chan, a leading epidemiologist"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Emily Chan",
+    "relation": "emphasizes",
+    "value": "air pollution is not merely an inconvenience; it is a significant threat to public health, comparable to global epidemics",
+    "time": null,
+    "speaker": "Dr. Emily Chan",
+    "verbatim": [
+     "air pollution is not merely an inconvenience; it is a significant threat to public health, comparable to global epidemics"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Paris",
+    "relation": "implemented_program",
+    "value": "an ambitious program banning diesel vehicles manufactured before 2001 from the city center",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on December 5, 2023, Paris implemented an ambitious program banning diesel vehicles manufactured before 2001 from the city center"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Paris",
+    "relation": "bans_diesel_vehicles_manufactured_before",
+    "value": "2001",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "banning diesel vehicles manufactured before 2001 from the city center"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "air pollution",
+    "relation": "primary_culprit",
+    "value": "vehicular emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vehicular emissions\u2014one of the primary culprits of urban air pollution"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "air pollution",
+    "relation": "policy_aim",
+    "value": "curtail vehicular emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such policy-driven approaches aim to curtail vehicular emissions"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Paris",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such policy-driven approaches aim to curtail vehicular emissions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Tokyo",
+    "relation": "hailed_for",
+    "value": "its clean air despite its dense population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a city often hailed for its clean air despite its dense population"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Tokyo",
+    "relation": "made_strides_in",
+    "value": "air quality improvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stringent regulations and the widespread adoption of cutting-edge technology in transport and industry have made significant strides in air quality improvement"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Tokyo",
+    "relation": "lessons_suggest",
+    "value": "a combination of technological innovation and rigorous oversight can lead to heightened urban air standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lessons from Tokyo suggest that a combination of technological innovation and rigorous oversight can lead to heightened urban air standards"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Beijing",
+    "relation": "smog_caused_by",
+    "value": "coal dependence and rapid industrialization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Where Beijing wrestles with the tenebrous smog resulting from coal dependence and rapid industrialization"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Copenhagen",
+    "relation": "features",
+    "value": "bicycle-friendly avenues and renewable energy infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bicycle-friendly avenues and renewable energy infrastructure, which has greatly reduced air pollution levels"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Copenhagen",
+    "relation": "greatly_reduced",
+    "value": "air pollution levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renewable energy infrastructure, which has greatly reduced air pollution levels"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Copenhagen",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renewable energy infrastructure, which has greatly reduced air pollution levels"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Copenhagen",
+    "relation": "adopted_measures",
+    "value": "widespread cycling lanes and the promotion of electric vehicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The measures adopted by the Danish capital, such as widespread cycling lanes and the promotion of electric vehicles"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "air pollution",
+    "relation": "combated_by",
+    "value": "sustainable urban planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscore the crucial role of sustainable urban planning in combating air pollution"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Beijing",
+    "relation": "intermittent_success_with",
+    "value": "traffic restrictions and factory shutdowns during severe smog episodes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Beijing has seen intermittent success with measures like traffic restrictions and factory shutdowns during severe smog episodes"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Beijing",
+    "relation": "faces",
+    "value": "an uphill battle in realizing long-term air quality improvements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faces an uphill battle in realizing long-term air quality improvements"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Rotterdam",
+    "relation": "unveiled",
+    "value": "the world's first smog vacuum cleaner",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, the city of Rotterdam unveiled the world's first smog vacuum cleaner"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "smog vacuum cleaner",
+    "relation": "uses_technology",
+    "value": "patented ion technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using patented ion technology to cleanse the air effectively"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "smog vacuum cleaner",
+    "relation": "function",
+    "value": "cleanse the air effectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using patented ion technology to cleanse the air effectively"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "smog vacuum cleaner",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using patented ion technology to cleanse the air effectively"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "vertical gardens of Milan",
+    "relation": "integrates",
+    "value": "plant life into urban layouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "green infrastructure projects, such as the vertical gardens of Milan, integrate plant life into urban layouts"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "vertical gardens of Milan",
+    "relation": "beautifies",
+    "value": "the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which not only beautify the environment but also actively filter air pollutants"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "vertical gardens of Milan",
+    "relation": "filters",
+    "value": "air pollutants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which not only beautify the environment but also actively filter air pollutants"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Milan",
+    "relation": "has_green_infrastructure_project",
+    "value": "vertical gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "green infrastructure projects, such as the vertical gardens of Milan"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Clean Air for My Child",
+    "relation": "started_by",
+    "value": "a group of concerned parents",
+    "time": "November 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "started by a group of concerned parents in London on November 23, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Clean Air for My Child",
+    "relation": "started_in",
+    "value": "London",
+    "time": "November 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "started by a group of concerned parents in London on November 23, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Clean Air for My Child",
+    "relation": "spurred",
+    "value": "governmental action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have spurred governmental action and raised crucial public discourse on the issue of air pollution"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Clean Air for My Child",
+    "relation": "raised",
+    "value": "crucial public discourse on the issue of air pollution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have spurred governmental action and raised crucial public discourse on the issue of air pollution"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "James Sullivan",
+    "relation": "occupation",
+    "value": "advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As advocate James Sullivan underscores"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "James Sullivan",
+    "relation": "underscores",
+    "value": "when the people demand change, change becomes inevitable",
+    "time": null,
+    "speaker": "James Sullivan",
+    "verbatim": [
+     "when the people demand change, change becomes inevitable"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "International Coalition for Clean Air",
+    "relation": "established_on",
+    "value": "January 21, 2024",
+    "time": "January 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The International Coalition for Clean Air, established on January 21, 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "International Coalition for Clean Air",
+    "relation": "embodies",
+    "value": "the spirit of cross-border collaboration essential in addressing the global challenge of urban air pollution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embodies the spirit of cross-border collaboration essential in addressing the global challenge of urban air pollution"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Urban Air Quality Summit",
+    "relation": "held_in",
+    "value": "San Francisco",
+    "time": "February 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the annual Urban Air Quality Summit held in San Francisco on February 28, 2024"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Urban Air Quality Summit",
+    "relation": "highlighted",
+    "value": "the endeavor to transcend the air quality impasse is fraught with complexities, requiring a cohesive blend of technology, policy, and public engagement",
+    "time": "February 28, 2024",
+    "speaker": "Urban Air Quality Summit",
+    "verbatim": [
+     "As highlighted by the annual Urban Air Quality Summit held in San Francisco on February 28, 2024, the endeavor to transcend the air quality impasse is fraught with complexities"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "San Francisco",
+    "relation": "hosted",
+    "value": "Urban Air Quality Summit",
+    "time": "February 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the annual Urban Air Quality Summit held in San Francisco on February 28, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "air pollution",
+    "relation": "pivotal_measures",
+    "value": "clean air zones, investment in public transportation, and stringent emissions standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The implementation of clean air zones, investment in public transportation, and stringent emissions standards remain pivotal to the crusade against air pollution"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

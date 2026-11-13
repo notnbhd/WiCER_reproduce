@@ -1,0 +1,24 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (02:59:15)
+ledger: 3219 claims, extracted with {'claude-haiku-5-5 effort=high': 80}
+corpus: 80 docs, sha 7aa7ab622e09 -- matches
+
+[1m== reader[0m  (02:59:15)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== rendering[0m  (02:59:16)
+company_policies           paged_none: 27,375/27,382 tokens (ratio 50.0%) coverage=61.7% 
+company_policies           paged_bare: 27,116/27,382 tokens (ratio 49.5%) coverage=51.4%  cuts=624 stub_tokens=4,368
+
+[1m== plain verbatim[0m  (02:59:19)
+company_policies           paged_none: scored 400 (resumed 0)
+
+[1m== doc reader on paged_bare[0m  (03:04:01)
+company_policies           paged_bare_reader_doc: 624 cuts in 27,132 tokens, answered 400, scored 400
+
+[1m== doc oracle on paged_bare[0m  (03:09:51)
+company_policies           paged_bare_oracle_doc: 624 cuts in 27,132 tokens, answered 400, scored 400
+
+[1m== TOPIC_DONE[0m  (03:13:55)

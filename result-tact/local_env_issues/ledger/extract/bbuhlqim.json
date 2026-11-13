@@ -1,0 +1,772 @@
+{
+ "inventory": [
+  "electronic waste",
+  "TechTrend",
+  "John Smith",
+  "Green Solutions",
+  "Global EWaste Monitor",
+  "EcoElectro",
+  "Jane Doe",
+  "RecoElec",
+  "Dr. Maria Hernandez",
+  "Extended Producer Responsibility",
+  "Basel Convention",
+  "CleanCircuit",
+  "MycoTech",
+  "take-back programs",
+  "biodegradable wiring insulation"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "electronic waste",
+    "relation": "known_as",
+    "value": "e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known colloquially as e-waste"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "electronic waste",
+    "relation": "consumers_encouraged_to_discard",
+    "value": "slightly older models in favor of the latest upgrades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With every new iteration of smartphones, laptops, and tablets, consumers are encouraged to discard their slightly older models in favor of the latest upgrades."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "electronic waste",
+    "relation": "experiences",
+    "value": "staggering growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we are now facing a staggering growth in electronic waste"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "electronic waste",
+    "relation": "caused_by",
+    "value_ref": "c2",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers are encouraged to discard their slightly older models in favor of the latest upgrades. As a result, we are now facing a staggering growth in electronic waste"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "TechTrend",
+    "relation": "launched_newest_smartphone",
+    "value": "newest smartphone",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched in September 2023, TechTrend's newest smartphone was received with much enthusiasm"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "TechTrend",
+    "relation": "smartphone_received_with",
+    "value": "much enthusiasm",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched in September 2023, TechTrend's newest smartphone was received with much enthusiasm"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "TechTrend",
+    "relation": "left_behind",
+    "value": "burgeoning pile of discarded older models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there was scarce discussion on the burgeoning pile of discarded older models it left in its wake"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "John Smith",
+    "relation": "job_title",
+    "value": "environmental analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, an environmental analyst at Green Solutions"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "John Smith",
+    "relation": "employed_by",
+    "value": "Green Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, an environmental analyst at Green Solutions"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "John Smith",
+    "relation": "stated",
+    "value": "Every year, millions of gadgets are replaced and abandoned, leading to a dire need for robust e-waste management solutions.",
+    "time": "October 15, 2023",
+    "speaker": "John Smith",
+    "verbatim": [
+     "pointed out on October 15, 2023, \"Every year, millions of gadgets are replaced and abandoned, leading to a dire need for robust e-waste management solutions.\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Global EWaste Monitor",
+    "relation": "released_study",
+    "value": "study",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a study by the Global EWaste Monitor released on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "electronic waste",
+    "relation": "generated_in_previous_year",
+    "value": "53.6 million metric tons",
+    "time": "previous year",
+    "speaker": "Global EWaste Monitor",
+    "verbatim": [
+     "the world generated a colossal 53.6 million metric tons of electronic waste in the previous year alone"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "electronic waste",
+    "relation": "formally_collected_and_recycled_share",
+    "value": "17.4%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Out of this, a mere 17.4% was formally collected and recycled."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "electronic waste",
+    "relation": "ends_up_in",
+    "value": "landfills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A significant segment of the leftover waste ends up in landfills"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "electronic waste",
+    "relation": "irresponsibly_dumped_in",
+    "value": "developing countries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is irresponsibly dumped in developing countries"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "electronic waste",
+    "relation": "has_consequences",
+    "value": "severe consequences for both the environment and human health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These practices have severe consequences for both the environment and human health"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "electronic waste",
+    "relation": "releases",
+    "value": "toxic elements like lead, mercury, and cadmium into the air, soil, and water supplies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "releasing toxic elements like lead, mercury, and cadmium into the air, soil, and water supplies"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "electronic waste",
+    "relation": "caused_by",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is irresponsibly dumped in developing countries. These practices have severe consequences for both the environment and human health"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "electronic waste",
+    "relation": "faced_by",
+    "value": "municipalities and waste management organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While municipalities and waste management organizations grapple with these escalating volumes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "electronic waste",
+    "relation": "growing_call_for",
+    "value": "electronics manufacturers to take greater responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a growing call for electronics manufacturers to take greater responsibility"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "take-back programs",
+    "relation": "initiated_by",
+    "value": "Some companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some companies have risen to the occasion, initiating take-back programs"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "take-back programs",
+    "relation": "allow_return_of",
+    "value": "old devices for recycling or proper disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where consumers can return their old devices for recycling or proper disposal"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jane Doe",
+    "relation": "job_title",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, CEO of innovative tech company EcoElectro"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jane Doe",
+    "relation": "ceo_of",
+    "value": "EcoElectro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, CEO of innovative tech company EcoElectro"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "EcoElectro",
+    "relation": "described_as",
+    "value": "innovative tech company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, CEO of innovative tech company EcoElectro"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jane Doe",
+    "relation": "announced",
+    "value": "an ambitious program aiming to recover and recycle 70% of the products they've sold by 2025",
+    "time": "November 1, 2023",
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "announced on November 1, 2023, an ambitious program aiming to recover and recycle 70% of the products they've sold by 2025"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "EcoElectro",
+    "relation": "target",
+    "value": "recover and recycle 70% of the products they've sold",
+    "time": "by 2025",
+    "speaker": null,
+    "verbatim": [
+     "aiming to recover and recycle 70% of the products they've sold by 2025"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "RecoElec",
+    "relation": "described_as",
+    "value": "forward-thinking company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "RecoElec, another forward-thinking company"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "RecoElec",
+    "relation": "invested_in",
+    "value": "developing a modular phone design that simplifies repair, upgrades, and consequently, recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has invested in developing a modular phone design that simplifies repair, upgrades, and consequently, recycling"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "RecoElec",
+    "relation": "design_simplifies",
+    "value": "repair, upgrades, and recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has invested in developing a modular phone design that simplifies repair, upgrades, and consequently, recycling"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "electronic waste",
+    "relation": "recycling_is",
+    "value": "complex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recycling e-waste is complex"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "electronic waste",
+    "relation": "recycling_requires",
+    "value": "sophisticated processes to safely extract valuable materials like gold, silver, and copper",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requiring sophisticated processes to safely extract valuable materials like gold, silver, and copper"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "electronic waste",
+    "relation": "manufacturer_opportunity",
+    "value": "designing products with disassembly and material reclamation in mind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Manufacturers have the opportunity to take part in this process by designing products with disassembly and material reclamation in mind."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "electronic waste",
+    "relation": "industry_lacks",
+    "value": "widespread adherence to such design principles",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "as of December 2023, the industry lacks widespread adherence to such design principles"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "electronic waste",
+    "relation": "cited_as_limiting_factors",
+    "value": "cost-effectiveness and market competition",
+    "time": null,
+    "speaker": "the industry",
+    "verbatim": [
+     "often citing cost-effectiveness and market competition as limiting factors"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "electronic waste",
+    "relation": "explained_by",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as of December 2023, the industry lacks widespread adherence to such design principles, often citing cost-effectiveness and market competition as limiting factors"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Extended Producer Responsibility",
+    "relation": "gaining_traction_as",
+    "value": "one of the potential solutions to e-waste management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of Extended Producer Responsibility (EPR) is gaining traction as one of the potential solutions to e-waste management."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Extended Producer Responsibility",
+    "relation": "dictates",
+    "value": "producers are not only responsible for the manufacturing of electronics but also for their end-of-life treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EPR dictates that producers are not only responsible for the manufacturing of electronics but also for their end-of-life treatment."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Extended Producer Responsibility",
+    "relation": "could_alter",
+    "value": "significantly alter production strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach could significantly alter production strategies"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Extended Producer Responsibility",
+    "relation": "compels_companies_to_design",
+    "value": "design for longevity, repairability, and the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compelling companies to design for longevity, repairability, and the environment"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Maria Hernandez",
+    "relation": "job_title",
+    "value": "leading environmental policy expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Maria Hernandez, a leading environmental policy expert"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Maria Hernandez",
+    "relation": "stated",
+    "value": "EPR policies have the potential to dramatically reduce e-waste. Manufacturers that are responsible for the whole lifecycle of their products tend to innovate towards sustainability.",
+    "time": "January 5, 2024",
+    "speaker": "Dr. Maria Hernandez",
+    "verbatim": [
+     "expressed on January 5, 2024, \"EPR policies have the potential to dramatically reduce e-waste. Manufacturers that are responsible for the whole lifecycle of their products tend to innovate towards sustainability.\""
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Extended Producer Responsibility",
+    "relation": "potential_to",
+    "value": "dramatically reduce e-waste",
+    "time": null,
+    "speaker": "Dr. Maria Hernandez",
+    "verbatim": [
+     "EPR policies have the potential to dramatically reduce e-waste."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Maria Hernandez",
+    "relation": "asserted",
+    "value": "manufacturers responsible for the whole lifecycle of their products tend to innovate towards sustainability",
+    "time": null,
+    "speaker": "Dr. Maria Hernandez",
+    "verbatim": [
+     "Manufacturers that are responsible for the whole lifecycle of their products tend to innovate towards sustainability."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "electronic waste",
+    "relation": "requires",
+    "value": "global cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensuring effective management of e-waste requires global cooperation"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Basel Convention",
+    "relation": "aims_to",
+    "value": "prevent the transfer of hazardous waste between nations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Standards like the Basel Convention aim to prevent the transfer of hazardous waste between nations"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Basel Convention",
+    "relation": "compliance",
+    "value": "varies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but compliance varies and illegal trade persists"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "electronic waste",
+    "relation": "illegal_trade",
+    "value": "persists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illegal trade persists"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "electronic waste",
+    "relation": "requires",
+    "value": "coordinated efforts at the government level and within the private sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coordinated efforts are needed both at the government level and within the private sector"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "electronic waste",
+    "relation": "prevents",
+    "value": "unethical offloading of e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to prevent the unethical offloading of e-waste"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "electronic waste",
+    "relation": "in_order_to",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coordinated efforts are needed both at the government level and within the private sector to prevent the unethical offloading of e-waste"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "electronic waste",
+    "relation": "pivotal_role",
+    "value": "educating consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educating consumers plays a pivotal role in e-waste management"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "electronic waste",
+    "relation": "people_need_to_know",
+    "value": "the why and how of recycling their electronic goods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People need to know the why and how of recycling their electronic goods."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "electronic waste",
+    "relation": "campaigns_inform_public_of",
+    "value": "the environmental impact of improper disposal and the often-overlooked value in recycled e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Campaigns that inform the public of the environmental impact of improper disposal and the often-overlooked value in recycled e-waste"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "TechTrend",
+    "relation": "launched",
+    "value": "educational initiative",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "TechTrend recently launched an educational initiative on January 20, 2024"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "TechTrend",
+    "relation": "aimed_at",
+    "value": "boosting awareness of e-waste recycling among its customer base",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "aimed at boosting awareness of e-waste recycling among its customer base"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "electronic waste",
+    "relation": "reduced_by_education",
+    "value": "such education reduces e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only does such education reduce e-waste"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "electronic waste",
+    "relation": "education_fosters",
+    "value": "a more sustainability-conscious consumer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also fosters a more sustainability-conscious consumer base"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "CleanCircuit",
+    "relation": "described_as",
+    "value": "small yet ambitious enterprise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CleanCircuit, a small yet ambitious enterprise"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "CleanCircuit",
+    "relation": "developing",
+    "value": "an organic solvent that promises to safely decompose circuit boards into non-toxic compounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is developing an organic solvent that promises to safely decompose circuit boards into non-toxic compounds"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "CleanCircuit",
+    "relation": "commercialization_target",
+    "value": "commercialized",
+    "time": "by 2026",
+    "speaker": null,
+    "verbatim": [
+     "set to be commercialized by 2026"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "CleanCircuit",
+    "relation": "could_revolutionize",
+    "value": "the way electronics are recycled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could revolutionize the way electronics are recycled"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "MycoTech",
+    "relation": "collaborated_with",
+    "value": "EcoElectro",
+    "time": "March 11, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a collaboration between MycoTech and EcoElectro made headlines"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "EcoElectro",
+    "relation": "collaborated_with",
+    "value": "MycoTech",
+    "time": "March 11, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a collaboration between MycoTech and EcoElectro made headlines"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "MycoTech",
+    "relation": "innovated",
+    "value": "biodegradable wiring insulation created from mycelium",
+    "time": "March 11, 2024",
+    "speaker": null,
+    "verbatim": [
+     "with the innovation of a biodegradable wiring insulation created from mycelium"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "biodegradable wiring insulation",
+    "relation": "created_from",
+    "value": "mycelium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biodegradable wiring insulation created from mycelium"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "biodegradable wiring insulation",
+    "relation": "mycelium_is",
+    "value": "a form of fungus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mycelium, a form of fungus"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "biodegradable wiring insulation",
+    "relation": "could_eliminate",
+    "value": "some of the non-recyclable parts of electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which could eliminate some of the non-recyclable parts of electronic devices"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

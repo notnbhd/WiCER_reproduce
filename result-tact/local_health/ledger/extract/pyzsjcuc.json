@@ -1,0 +1,526 @@
+{
+ "inventory": [
+  "Dr. Sonia Ray",
+  "John Archer",
+  "Emma Lopez",
+  "Michael Thompson",
+  "Marie Kondo",
+  "Wellness Workshops",
+  "local community center",
+  "sleep hygiene",
+  "restorative sleep",
+  "blue light",
+  "melatonin",
+  "Goldilocks Zone",
+  "clutter",
+  "pillows",
+  "mattress",
+  "caffeine",
+  "sleepy-time tea",
+  "alcohol",
+  "blackout curtains",
+  "dust mites",
+  "mold",
+  "hypoallergenic bedding"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wellness Workshops",
+    "relation": "designed_to",
+    "value": "tackle just that",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we've delved into a series of Wellness Workshops designed to tackle just that"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellness Workshops",
+    "relation": "held_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The workshop, held on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wellness Workshops",
+    "relation": "directed_by",
+    "value": "Dr. Sonia Ray",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "directed by renowned sleep therapist Dr. Sonia Ray"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Sonia Ray",
+    "relation": "occupation",
+    "value": "sleep therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned sleep therapist Dr. Sonia Ray"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Sonia Ray",
+    "relation": "introduced",
+    "value": "ten surprising bedroom culprits",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced ten surprising bedroom culprits that may be sabotaging our nightly rendezvous with Morpheus"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local community center",
+    "relation": "location_of_gathering",
+    "value": "local community center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nestled in the cozy confines of the local community center"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "sleep hygiene",
+    "relation": "topic_of_workshop",
+    "value": "intricacies of sleep hygiene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to learn the intricacies of sleep hygiene and the art of maximizing restorative sleep"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "restorative sleep",
+    "relation": "topic_of_workshop",
+    "value": "the art of maximizing restorative sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the art of maximizing restorative sleep"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "blue light",
+    "relation": "emitted_by",
+    "value": "our devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the detrimental effects of blue light emitted from our devices"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Sonia Ray",
+    "relation": "highlighted",
+    "value": "the detrimental effects of blue light",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ray highlighted the detrimental effects of blue light emitted from our devices"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "blue light",
+    "relation": "hinders",
+    "value": "the production of melatonin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the glow itself hinders the production of melatonin"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "melatonin",
+    "relation": "described_as",
+    "value": "the hormone crucial for snooze-town admission",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "melatonin\u2014the hormone crucial for snooze-town admission"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "clutter",
+    "relation": "can_transform",
+    "value": "a stress-inducing jungle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can transform your haven of rest into a stress-inducing jungle"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Marie Kondo",
+    "relation": "endorsed_view",
+    "value": "a tidy room equals a tranquil mind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marie Kondo had it right"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Sonia Ray",
+    "relation": "explained",
+    "value": "a tidy room equals a tranquil mind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Dr. Ray explained, a tidy room equals a tranquil mind"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "pillows",
+    "relation": "described_as",
+    "value": "too high, too hard, or past their prime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pillows too high, too hard, or past their prime"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "pillows",
+    "relation": "can_lead_to",
+    "value": "a crick in your neck and a full-stop on your sleep quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can lead to a crick in your neck and a full-stop on your sleep quality"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "John Archer",
+    "relation": "attendee_of",
+    "value": "attendee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Attendee John Archer shared his eureka moment"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "John Archer",
+    "relation": "realized",
+    "value": "his neck pain was not from age but from his ancient, petrified pillow",
+    "time": null,
+    "speaker": "John Archer",
+    "verbatim": [
+     "realizing his neck pain was not from age but from his ancient, petrified pillow"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "mattress",
+    "relation": "time_spent_in_bed",
+    "value": "about a third of our lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We spend about a third of our lives in bed"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "mattress",
+    "relation": "can_be",
+    "value": "the nemesis of a night's rest",
+    "time": null,
+    "speaker": "Emma Lopez",
+    "verbatim": [
+     "An uncomfortable or worn-out mattress, as sleep expert Emma Lopez illustrated, can be the nemesis of a night's rest."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Emma Lopez",
+    "relation": "occupation",
+    "value": "sleep expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sleep expert Emma Lopez illustrated"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "mattress",
+    "relation": "participants_recounted",
+    "value": "tales of springs and dips in all the wrong places",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recounting tales of springs and dips in all the wrong places"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Goldilocks Zone",
+    "relation": "defined_as",
+    "value": "an ideal temperature range where your body isn't fighting the climate but rather sinking into a cozy stasis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an ideal temperature range where your body isn't fighting the climate but rather sinking into a cozy stasis"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Sonia Ray",
+    "relation": "imparted",
+    "value": "the wisdom of the 'Goldilocks Zone' for sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ray imparted the wisdom of the 'Goldilocks Zone' for sleep"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Goldilocks Zone",
+    "relation": "extremes_not_conducive_to_sleep",
+    "value": "a sauna or, on the flip side, an igloo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine trying to sleep in a sauna or, on the flip side, an igloo. Neither extreme is conducive to sleep."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Sonia Ray",
+    "relation": "explained",
+    "value": "timely snacks could be sleep-promoting pals, as long as they're the right kind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Timely snacks, on the other hand, could be sleep-promoting pals, Dr. Ray explained, as long as they're the right kind\u2014think complex carbs, dairy, or nuts."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "caffeine",
+    "relation": "found_in",
+    "value": "teas, sodas, and even certain medications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "teas, sodas, and even certain medications can harbor caffeine"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Thompson",
+    "relation": "attendee_of",
+    "value": "workshop attendee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, a workshop attendee"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Michael Thompson",
+    "relation": "realized",
+    "value": "his sleepy-time tea was actually a caffeinated chameleon contributing to his latenight wakefulness",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "shared his astonishment upon learning his \"sleepy-time\" tea was actually a caffeinated chameleon contributing to his latenight wakefulness"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "sleepy-time tea",
+    "relation": "contains",
+    "value": "caffeine",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "his \"sleepy-time\" tea was actually a caffeinated chameleon"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "sleepy-time tea",
+    "relation": "contributing_to",
+    "value": "latenight wakefulness",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "contributing to his latenight wakefulness"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "alcohol",
+    "relation": "described_as",
+    "value": "a fickle friend to sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alcohol, we learned, is a fickle friend to sleep"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "alcohol",
+    "relation": "effect",
+    "value": "might help you doze off",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sure, it might help you doze off"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "alcohol",
+    "relation": "hampers",
+    "value": "the depth and quality of your sleep cycle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it hampers the depth and quality of your sleep cycle"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "alcohol",
+    "relation": "results_in",
+    "value": "a less restorative slumber",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a less restorative slumber"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "alcohol",
+    "relation": "results_in",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it hampers the depth and quality of your sleep cycle, leading to a less restorative slumber"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "blackout curtains",
+    "relation": "described_as",
+    "value": "all the rage by the end of this segment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Blackout curtains were all the rage by the end of this segment."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "dust mites",
+    "relation": "lurk_in",
+    "value": "the shadows of our sanctuaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dust mites and mold love to lurk in the shadows of our sanctuaries."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "mold",
+    "relation": "lurk_in",
+    "value": "the shadows of our sanctuaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dust mites and mold love to lurk in the shadows of our sanctuaries."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "hypoallergenic bedding",
+    "relation": "popularity",
+    "value": "suddenly spiked in popularity among the crowd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investigation into hypoallergenic bedding suddenly spiked in popularity among the crowd."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Sonia Ray",
+    "relation": "message",
+    "value": "to restore our relationship with sleep, we must become aware of our environment and its impact on our nightly rest",
+    "time": null,
+    "speaker": "Dr. Sonia Ray",
+    "verbatim": [
+     "Dr. Ray's message resonated with simplicity: to restore our relationship with sleep, we must become aware of our environment and its impact on our nightly rest."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "clutter",
+    "relation": "proposed_change",
+    "value": "the decluttering of bedrooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the decluttering of bedrooms"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "pillows",
+    "relation": "proposed_change",
+    "value": "the updating of pillows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the updating of pillows"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "caffeine",
+    "relation": "proposed_change",
+    "value": "the setting of meal and caffeine curfews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the setting of meal and caffeine curfews"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,813 @@
+{
+ "inventory": [
+  "local pharmacies",
+  "preventative care",
+  "Sarah Thompson",
+  "Thompson's Community Pharmacy",
+  "Michael Rodriguez",
+  "community health fair",
+  "Alice Wells",
+  "John Carter",
+  "Carter's Pharmacy",
+  "David Chen",
+  "David Chen's Apex Pharmacy",
+  "telepharmacy service",
+  "Emma Lopez",
+  "Walk for Wellness",
+  "Lopez Family Pharmacy",
+  "Mark Harrison",
+  "Riverside Pharmacy",
+  "Vaccinate Before It's Late",
+  "Julia Adams",
+  "Adams Family Pharmacy",
+  "Larry Johnson",
+  "Larry Johnson's Harmony Pharmacy",
+  "Chronic Care Corner"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local pharmacies",
+    "relation": "previously_seen_as",
+    "value": "dispensaries for medication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Once seen merely as dispensaries for medication"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local pharmacies",
+    "relation": "transformed_into",
+    "value": "comprehensive centers that foster the well-being of the neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local pharmacies have transformed into comprehensive centers that foster the well-being of the neighborhood"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "local pharmacies",
+    "relation": "evolved_to_meet",
+    "value": "the growing demand for accessible healthcare resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of local pharmacies has evolved to meet the growing demand for accessible healthcare resources"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "local pharmacies",
+    "relation": "shift_reflects",
+    "value": "a deeper understanding of the importance of preventative care and the need for informed health advocates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift reflects a deeper understanding of the importance of preventative care and the need for informed health advocates"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "local pharmacies",
+    "relation": "described_as",
+    "value": "unsung heroes of health care",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 15, 2023 - In the heart of our bustling city streets and tranquil small towns, local pharmacies stand as unsung heroes of health care."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local pharmacies",
+    "relation": "staffed_by",
+    "value": "professionals who go beyond the call of duty to ensure the wellness of their customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These establishments are staffed by professionals who go beyond the call of duty to ensure the wellness of their customers."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Thompson",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacists like Sarah Thompson"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Thompson",
+    "relation": "leads",
+    "value": "Thompson's Community Pharmacy",
+    "time": "since October 2023",
+    "speaker": null,
+    "verbatim": [
+     "who has been at the helm of Thompson's Community Pharmacy since October 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Thompson",
+    "relation": "believes_in",
+    "value": "a proactive, preventative approach to health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah believes in a proactive, preventative approach to health."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Thompson",
+    "relation": "empowers_patients_with",
+    "value": "the knowledge they need to manage their health proactively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "empowering them with the knowledge they need to manage their health proactively"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Thompson",
+    "relation": "dedicates_time_to",
+    "value": "each individual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she dedicates time to each individual"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Thompson",
+    "relation": "views_patients_as",
+    "value": "a neighbor, a friend, a partner in the community tapestry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're a neighbor, a friend, a partner in the community tapestry"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sarah Thompson",
+    "relation": "guided_by",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This philosophy has guided her interactions with patients"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "local pharmacies",
+    "relation": "become_pivotal_in",
+    "value": "fostering a well-informed public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local pharmacies have become pivotal in fostering a well-informed public"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "local pharmacies",
+    "relation": "educational_initiatives_help_individuals",
+    "value": "understand their own health, making responsible choices about medication, lifestyle changes, and preventive care practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational initiatives led by pharmacists help individuals to understand their own health, making responsible choices about medication, lifestyle changes, and preventive care practices."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Michael Rodriguez",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the story of pharmacist Michael Rodriguez"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Rodriguez",
+    "relation": "hosted",
+    "value": "community health fair",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who hosted a community health fair on September 19, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "community health fair",
+    "relation": "catered_to",
+    "value": "families",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This event catered to families"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "community health fair",
+    "relation": "offered",
+    "value": "flu shots",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "offering flu shots, blood pressure screenings, and workshops on managing chronic conditions such as diabetes and heart disease"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "community health fair",
+    "relation": "offered",
+    "value": "blood pressure screenings",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "offering flu shots, blood pressure screenings, and workshops on managing chronic conditions such as diabetes and heart disease"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "community health fair",
+    "relation": "offered",
+    "value": "workshops on managing chronic conditions such as diabetes and heart disease",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "offering flu shots, blood pressure screenings, and workshops on managing chronic conditions such as diabetes and heart disease"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael Rodriguez",
+    "relation": "developed",
+    "value": "bespoke health plans for attendees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bespoke health plans developed for attendees"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Alice Wells",
+    "relation": "visited",
+    "value": "John Carter",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "When Alice Wells visited her pharmacist, John Carter, on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "John Carter",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "visited her pharmacist, John Carter"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alice Wells",
+    "relation": "diagnosed_with",
+    "value": "hypertension",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "diagnosed hypertension"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Alice Wells",
+    "relation": "sought_help_to_manage",
+    "value": "her newly diagnosed hypertension",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "she was seeking help to manage her newly"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Carter's Pharmacy",
+    "relation": "offered",
+    "value": "an advocate who took the time to discuss lifestyle modifications and monitor her progress with regular check-ins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "what she discovered at Carter's Pharmacy was an advocate who took the time to discuss lifestyle modifications and monitor her progress with regular check-ins"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local pharmacies",
+    "relation": "personalized_care_becoming",
+    "value": "the new standard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This level of personalized care is becoming the new standard"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "local pharmacies",
+    "relation": "pharmacists_recognize_role_in",
+    "value": "their patients' long-term health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists recognize the role they play in their patients' long-term health"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "local pharmacies",
+    "relation": "propelled_into",
+    "value": "the forefront of healthcare accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovation has propelled local pharmacies into the forefront of healthcare accessibility."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "local pharmacies",
+    "relation": "breaking_down_barriers_to_care_with",
+    "value": "mobile health apps and virtual consultations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With technologies like mobile health apps and virtual consultations, pharmacists are breaking down barriers to care."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "telepharmacy service",
+    "relation": "launched_by",
+    "value": "David Chen's Apex Pharmacy",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the telepharmacy service launched by David Chen's Apex Pharmacy on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "telepharmacy service",
+    "relation": "offers",
+    "value": "virtual appointments and medication delivery for those unable to visit in person",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering virtual appointments and medication delivery for those unable to visit in person"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "local pharmacies",
+    "relation": "ensuring",
+    "value": "no one is left behind in the journey toward optimal health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local pharmacies are ensuring no one is left behind in the journey toward optimal health"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local pharmacies",
+    "relation": "mechanism_of",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By embracing such technologies, local pharmacies are ensuring no one is left behind"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local pharmacies",
+    "relation": "do_more_than",
+    "value": "provide medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacies do more than provide medicine"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "local pharmacies",
+    "relation": "described_as",
+    "value": "community builders who amplify the voice of public health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're community builders who amplify the voice of public health"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Walk for Wellness",
+    "relation": "organized_by",
+    "value": "Emma Lopez",
+    "time": "January 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Events like the annual \"Walk for Wellness\" organized by pharmacist Emma Lopez on January 7, 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Walk for Wellness",
+    "relation": "frequency",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Events like the annual \"Walk for Wellness\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Walk for Wellness",
+    "relation": "purpose",
+    "value": "brings people together to advocate for health awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings people together to advocate for health awareness"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emma Lopez",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organized by pharmacist Emma Lopez"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emma Lopez",
+    "relation": "uses",
+    "value": "sponsorships, health education booths, and engaging activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through sponsorships, health education booths, and engaging activities"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emma Lopez",
+    "relation": "works_at",
+    "value": "Lopez Family Pharmacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma and her team at Lopez Family Pharmacy"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Lopez Family Pharmacy",
+    "relation": "creates",
+    "value": "an environment that supports community health and fosters connections among residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma and her team at Lopez Family Pharmacy create an environment that supports community health and fosters connections among residents"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "local pharmacies",
+    "relation": "become",
+    "value": "the first line of defense in disease prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local pharmacies have become the first line of defense in disease prevention."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "local pharmacies",
+    "relation": "at_forefront_of",
+    "value": "preventative care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists are at the forefront of preventative care"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local pharmacies",
+    "relation": "enabled_by",
+    "value": "the increased availability of vaccines and screening services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the increased availability of vaccines and screening services, pharmacists are at the forefront of preventative care."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mark Harrison",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mark Harrison, a pharmacist at Riverside Pharmacy"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mark Harrison",
+    "relation": "works_at",
+    "value": "Riverside Pharmacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mark Harrison, a pharmacist at Riverside Pharmacy"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Mark Harrison",
+    "relation": "spearheaded",
+    "value": "Vaccinate Before It's Late",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "recently spearheaded a \"Vaccinate Before It's Late\" campaign"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Vaccinate Before It's Late",
+    "relation": "launched_on",
+    "value": "February 20, 2024",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Launched on February 20, 2024, the campaign focuses on educating the public about the importance of timely vaccinations"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Vaccinate Before It's Late",
+    "relation": "focuses_on",
+    "value": "educating the public about the importance of timely vaccinations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the campaign focuses on educating the public about the importance of timely vaccinations"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Vaccinate Before It's Late",
+    "relation": "offers",
+    "value": "convenient and affordable access to preventable disease immunizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering convenient and affordable access to preventable disease immunizations"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "local pharmacies",
+    "relation": "excels_in",
+    "value": "mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mental health is another domain where local pharmacists excel."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "local pharmacies",
+    "relation": "recognizes",
+    "value": "the interconnectedness of physical and mental well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the interconnectedness of physical and mental well-being, pharmacists like Julia Adams"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Julia Adams",
+    "relation": "occupation",
+    "value": "pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists like Julia Adams of Adams Family Pharmacy"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Julia Adams",
+    "relation": "works_at",
+    "value": "Adams Family Pharmacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists like Julia Adams of Adams Family Pharmacy"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Julia Adams",
+    "relation": "began_incorporating",
+    "value": "mental health resources into their practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have begun to incorporate mental health resources into their practice"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Julia Adams",
+    "relation": "caused_by",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the interconnectedness of physical and mental well-being, pharmacists like Julia Adams of Adams Family Pharmacy have begun to incorporate mental health resources into their practice."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Julia Adams",
+    "relation": "provided",
+    "value": "discreet consultations for those seeking mental health support",
+    "time": "Since March 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since March 2024, Julia has provided discreet consultations for those seeking mental health support"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Julia Adams",
+    "relation": "collaborated_with",
+    "value": "local therapists",
+    "time": "Since March 2024",
+    "speaker": null,
+    "verbatim": [
+     "has collaborated with local therapists to ensure comprehensive care"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "local pharmacies",
+    "relation": "chronic_disease_management_is",
+    "value": "a cornerstone of pharmacy care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chronic disease management is a cornerstone of pharmacy care, evolving to accommodate the complexities of long-term health conditions."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "local pharmacies",
+    "relation": "uses_in_chronic_care",
+    "value": "customized medication regimens, monitoring devices, and lifestyle advice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through customized medication regimens, monitoring devices, and lifestyle advice"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "local pharmacies",
+    "relation": "become",
+    "value": "integral partners in managing chronic diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists have become integral partners in managing chronic diseases"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Larry Johnson's Harmony Pharmacy",
+    "relation": "example_of",
+    "value": "a prime example of chronic disease management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larry Johnson's Harmony Pharmacy is a prime example"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Larry Johnson's Harmony Pharmacy",
+    "relation": "introduced",
+    "value": "Chronic Care Corner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having introduced a Chronic Care Corner"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Chronic Care Corner",
+    "relation": "provides",
+    "value": "tailored support and education to manage conditions like asthma, diabetes, and high cholesterol",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where patients receive tailored support and education to manage conditions like asthma, diabetes, and high cholesterol"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "local pharmacies",
+    "relation": "expected_to_broaden",
+    "value": "even further",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of local pharmacies in wellness is expected to broaden even further"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "local pharmacies",
+    "relation": "poised_to_become",
+    "value": "integral community figures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists are poised to become integral community figures"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "local pharmacies",
+    "relation": "described_as",
+    "value": "vital health resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're vital health resources that contribute to the overall tapestry of community wellness"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "local pharmacies",
+    "relation": "contributes_to",
+    "value": "the overall tapestry of community wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vital health resources that contribute to the overall tapestry of community wellness"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

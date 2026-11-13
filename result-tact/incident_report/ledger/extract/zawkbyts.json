@@ -1,0 +1,617 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "Mike Smith",
+  "Emily Johnson",
+  "Senator John Wilson",
+  "Federal Communications Commission",
+  "Service Level Agreements",
+  "internet providers",
+  "Advocacy groups",
+  "Silicon Valley",
+  "Miami",
+  "force majeure clauses",
+  "consumer rights",
+  "digital infrastructure",
+  "99.9% uptime"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "digital infrastructure",
+    "relation": "deemed_almost_as_essential_as",
+    "value": "electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "internet connectivity is deemed almost as essential as electricity"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "digital infrastructure",
+    "relation": "occasional_disruptions_can",
+    "value": "wreak havoc on our daily lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its occasional disruptions can wreak havoc on our daily lives"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "consumer rights",
+    "relation": "questions_grow_louder",
+    "value": "about compensation and service level agreements (SLAs) as more consumers face the frustration of service outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As more consumers face the frustration of service outages, questions about compensation and service level agreements (SLAs) grow louder."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "digital infrastructure",
+    "relation": "series_of_disruptions_since",
+    "value": "a series of internet service disruptions",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, a series of internet service disruptions has tested consumer patience and understanding across the country."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jane Doe",
+    "relation": "occupation",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a software developer from Silicon Valley"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jane Doe",
+    "relation": "located_in",
+    "value": "Silicon Valley",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a software developer from Silicon Valley"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jane Doe",
+    "relation": "reported_cessation_of_internet_services",
+    "value": "complete cessation of her internet services",
+    "time": "morning of October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "reported a complete cessation of her internet services on the morning of October 15, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jane Doe",
+    "relation": "unable_to_meet",
+    "value": "critical work deadlines",
+    "time": "morning of October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leaving her unable to meet critical work deadlines"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jane Doe",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving her unable to meet critical work deadlines"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "digital infrastructure",
+    "relation": "suffered_widespread_outage_affecting",
+    "value": "thousands of users",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 22, 2023, a widespread outage affected thousands of users including Mike Smith"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mike Smith",
+    "relation": "occupation",
+    "value": "teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Smith, a teacher who depends on a steady connection to deliver his online classes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mike Smith",
+    "relation": "depends_on",
+    "value": "a steady connection to deliver his online classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Smith, a teacher who depends on a steady connection to deliver his online classes"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mike Smith",
+    "relation": "affected_by_outage",
+    "value": "widespread outage",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 22, 2023, a widespread outage affected thousands of users including Mike Smith"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "digital infrastructure",
+    "relation": "vulnerability_spotlighted_by_incidents",
+    "value": "the vulnerability of our digital infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These incidents spotlight the vulnerability of our digital infrastructure"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Service Level Agreements",
+    "relation": "part_of",
+    "value": "service contract with internet providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These often overlooked sections of your service contract with internet providers"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Service Level Agreements",
+    "relation": "detail",
+    "value": "the performance standards you can expect and the compensation you may be entitled to",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "detail the performance standards you can expect and the compensation you may be entitled to should the service fall short"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Service Level Agreements",
+    "relation": "outline_service_parameters",
+    "value": "availability, which can be expressed in percentages of uptime, and response or resolution times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An SLA typically outlines service parameters such as availability, which can be expressed in percentages of uptime, and response or resolution times in case of issues."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Service Level Agreements",
+    "relation": "might_guarantee",
+    "value": "99.9% uptime within a billing month",
+    "time": "within a billing month",
+    "speaker": null,
+    "verbatim": [
+     "an SLA might guarantee 99.9% uptime within a billing month"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "99.9% uptime",
+    "relation": "translates_to_maximum_cumulative_downtime",
+    "value": "about 45 minutes",
+    "time": "within a billing month",
+    "speaker": null,
+    "verbatim": [
+     "which translates to a maximum cumulative downtime of about 45 minutes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Federal Communications Commission",
+    "relation": "is_a",
+    "value": "regulatory body",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulatory bodies like the Federal Communications Commission (FCC)"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Federal Communications Commission",
+    "relation": "may_offer",
+    "value": "high-level protection and the right to receive information regarding service outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulatory bodies like the Federal Communications Commission (FCC) may offer high-level protection and the right to receive information regarding service outages"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "consumer rights",
+    "relation": "starts_with_review_of",
+    "value": "federal regulations and specific terms within your provider's SLA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "starts with a review of both federal regulations and specific terms within your provider's SLA"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "consumer rights",
+    "relation": "enforcement_and_specific_rights_depend_on",
+    "value": "the finer print of individual contracts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enforcement and specific rights often depend on the finer print of individual contracts"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "consumer rights",
+    "relation": "should_have_access_to",
+    "value": "timely and accurate information regarding the outage, its expected duration, and the steps being taken to resolve the issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers should have access to timely and accurate information regarding"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Service Level Agreements",
+    "relation": "compensation_clauses_determine",
+    "value": "whether consumers receive bill credits or other forms of reparation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is the compensation clauses within SLAs that determine if you\u2019ll receive bill credits or other forms of reparation"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "consumer rights",
+    "relation": "may_be_eligible_for",
+    "value": "a pro-rata credit for the time lost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If your internet provider fails to meet their guaranteed uptime, you might be eligible for a pro-rata credit for the time lost."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Johnson",
+    "relation": "occupation",
+    "value": "entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Johnson, a Miami-based entrepreneur"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emily Johnson",
+    "relation": "based_in",
+    "value": "Miami",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Johnson, a Miami-based entrepreneur"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emily Johnson",
+    "relation": "experienced_outage",
+    "value": "a 12-hour outage",
+    "time": "December 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who experienced a 12-hour outage on December 4, 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Service Level Agreements",
+    "relation": "stipulated",
+    "value": "a credit equal to one day's worth of her monthly bill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her provider's SLA stipulated a credit equal to one day's worth of her monthly bill"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "consumer rights",
+    "relation": "claims_process_varies_between",
+    "value": "providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The process for claiming such compensation varies between providers"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "consumer rights",
+    "relation": "claim_process_may_involve",
+    "value": "prompt reporting of the issue by the consumer, a complex claims process, or a requirement for the outage to surpass a minimum duration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "may involve prompt reporting of the issue by the consumer, a complex claims process, or a requirement for the outage to surpass a minimum duration."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "consumer rights",
+    "relation": "responsibility_frequently_falls_on",
+    "value": "the consumer to claim the compensation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the responsibility frequently falling on the consumer to claim the compensation"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "consumer rights",
+    "relation": "recommended_practice",
+    "value": "keeping detailed records of outages, including times, dates, and impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keeping detailed records of outages, including times, dates, and impacts, forms a foundation for any claims."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "consumer rights",
+    "relation": "recommended_practice",
+    "value": "documenting communication efforts and any responses received",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Documenting your communication efforts and any responses received helps build a case for compensation if required."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "digital infrastructure",
+    "relation": "long_outages_caused_by",
+    "value": "natural disasters or catastrophic equipment failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In scenarios where outages span days\u2014or even weeks\u2014as seen in the case of natural disasters or catastrophic equipment failures"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "consumer rights",
+    "relation": "often_face",
+    "value": "an uphill battle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers often face an uphill battle"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "internet providers",
+    "relation": "may_offer",
+    "value": "extended compensation or terminate service without penalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While some providers may offer extended compensation or terminate service without penalty"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "force majeure clauses",
+    "relation": "limit",
+    "value": "liability for unforeseeable and unavoidable events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "others may invoke force majeure clauses that limit liability for unforeseeable and unavoidable events"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "consumer rights",
+    "relation": "recourse_may_shift_toward",
+    "value": "regulatory intervention or collective action by affected consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The recourse here may shift toward regulatory intervention or collective action by affected consumers."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "internet providers",
+    "relation": "can_be_nudged_toward",
+    "value": "more generous compensation or policy revisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public campaigns and appeals to oversight bodies can sometimes nudge providers towards more generous compensation or policy revisions."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "internet providers",
+    "relation": "room_for_negotiation_especially_for",
+    "value": "businesses or when renewing contracts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "room for negotiation, especially for businesses or when renewing contracts."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Service Level Agreements",
+    "relation": "recommended_action",
+    "value": "scrutinize SLAs and ask for amendments that offer better protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "should scrutinize SLAs and ask for amendments that offer better protection."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "internet providers",
+    "relation": "may_flex_terms_to",
+    "value": "secure or retain a customer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In some instances, providers may flex these terms to secure or retain a customer."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Senator John Wilson",
+    "relation": "championed",
+    "value": "legislation that would mandate standardized compensation for internet outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Figures like Senator John Wilson have championed legislation that would mandate standardized compensation for internet outages"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Senator John Wilson",
+    "relation": "legislation_would_remove",
+    "value": "the ambiguity many consumers face today",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "removing the ambiguity many consumers face today"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "digital infrastructure",
+    "relation": "led_to_calls_for",
+    "value": "reinforced consumer rights and stronger regulatory oversight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Persistent outages have led to calls for reinforced consumer rights and stronger regulatory oversight."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Advocacy groups",
+    "relation": "argue",
+    "value": "a regulatory push could tip the balance in favor of consumers",
+    "time": null,
+    "speaker": "Advocacy groups",
+    "verbatim": [
+     "Advocacy groups argue that a regulatory push could tip the balance in favor of consumers"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Advocacy groups",
+    "relation": "argue_regulatory_push_would_establish",
+    "value": "clear and enforceable standards that extend beyond the voluntary commitments currently found in most SLAs",
+    "time": null,
+    "speaker": "Advocacy groups",
+    "verbatim": [
+     "establishing clear and enforceable standards that extend beyond the voluntary commitments currently found in most SLAs"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "consumer rights",
+    "relation": "increasing_clamor_signals",
+    "value": "the status quo might soon be untenable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The increasing clamor for greater consumer protection is a clear signal that the status quo might soon be untenable."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "internet providers",
+    "relation": "can_be_held_accountable_by",
+    "value": "consumers empowered by a better understanding of their rights and more robust SLAs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumers, empowered by a better understanding of their rights and more robust SLAs, can begin to hold providers accountable in more significant and effective ways."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "internet providers",
+    "relation": "must_acknowledge",
+    "value": "the central role they play in the socio-economic fabric of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providers must acknowledge the central role they play in the socio-economic fabric of society"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "internet providers",
+    "relation": "must_rise_to",
+    "value": "the challenge of delivering reliable internet services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rise to the challenge of delivering reliable internet services"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "internet providers",
+    "relation": "competitive_edge_determined_by",
+    "value": "their ability to meet consumer needs and maintain trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their ability to meet consumer needs and maintain trust will likely determine their competitive edge in an increasingly interconnected world."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

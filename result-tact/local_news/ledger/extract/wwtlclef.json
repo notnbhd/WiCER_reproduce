@@ -1,0 +1,784 @@
+{
+ "inventory": [
+  "Emma Green",
+  "Greenfield High",
+  "Eco Warriors Club",
+  "Liam Roberts",
+  "Greenfield City Council",
+  "Greenfield City",
+  "Pepperwood Preserve",
+  "EcoTrack",
+  "Green Spaces, Happy Faces",
+  "citywide composting initiative",
+  "youth environmental summit",
+  "regional environmental conference",
+  "public forum on waste management",
+  "small-scale recycling program",
+  "bushfire season",
+  "local energy provider"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Emma Green",
+    "relation": "attends",
+    "value": "Greenfield High",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 17-year-old high school senior from Greenfield High"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emma Green",
+    "relation": "age",
+    "value": "17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Green, a 17-year-old high school senior"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emma Green",
+    "relation": "is_a",
+    "value": "high school senior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Green, a 17-year-old high school senior"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emma Green",
+    "relation": "leads",
+    "value": "Eco Warriors Club",
+    "time": "Since September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 18, 2023, Emma has been the driving force behind Greenfield High's Eco Warriors Club"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Eco Warriors Club",
+    "relation": "affiliated_with",
+    "value": "Greenfield High",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greenfield High's Eco Warriors Club"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eco Warriors Club",
+    "relation": "membership",
+    "value": "a growing membership of environmentally conscious students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which boasts a growing membership of environmentally conscious students"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Eco Warriors Club",
+    "relation": "meets",
+    "value": "every Wednesday afternoon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They meet every Wednesday afternoon"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Liam Roberts",
+    "relation": "holds_role",
+    "value": "vice president of the Eco Warriors Club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liam Roberts, vice president of the Eco Warriors Club"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Liam Roberts",
+    "relation": "says",
+    "value": "She's someone who can inspire you with the simplest of ideas. Her passion is contagious,",
+    "time": null,
+    "speaker": "Liam Roberts",
+    "verbatim": [
+     "\"She's someone who can inspire you with the simplest of ideas. Her passion is contagious,\" says Liam Roberts"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emma Green",
+    "relation": "described_as",
+    "value": "a catalyst",
+    "time": null,
+    "speaker": "Her peers",
+    "verbatim": [
+     "Her peers describe her as a catalyst"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emma Green",
+    "relation": "launched",
+    "value": "small-scale recycling program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small-scale recycling program she launched within her school"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "small-scale recycling program",
+    "relation": "launched_within",
+    "value": "her school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small-scale recycling program she launched within her school"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "small-scale recycling program",
+    "relation": "reduced_landfill_contribution_by",
+    "value": "40%",
+    "time": "within just six months",
+    "speaker": null,
+    "verbatim": [
+     "it reduced landfill contribution by a staggering 40% within just six months"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "small-scale recycling program",
+    "relation": "gained",
+    "value": "city-wide attention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which rapidly caught city-wide attention"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Greenfield City Council",
+    "relation": "recognized",
+    "value": "the feat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This feat was recognized by the Greenfield City Council"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Greenfield City Council",
+    "relation": "invited",
+    "value": "Emma Green",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who invited Emma to speak at a public forum on waste management"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "public forum on waste management",
+    "relation": "held_on",
+    "value": "October 22, 2023",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a public forum on waste management held on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Emma Green",
+    "relation": "collaborated_with",
+    "value": "local legislators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma collaborated with local legislators to draft a proposal for a citywide composting initiative"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Emma Green",
+    "relation": "drafted_proposal_for",
+    "value": "citywide composting initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to draft a proposal for a citywide composting initiative"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "citywide composting initiative",
+    "relation": "led_to",
+    "value": "installation of compost bins not only at Greenfield High but in various public spaces around the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which led to the installation of compost bins not only at Greenfield High but in various public spaces around the city"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "citywide composting initiative",
+    "relation": "proposed_on",
+    "value": "November 5, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Proposed on November 5, 2023, and implemented by January 2, 2024"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "citywide composting initiative",
+    "relation": "implemented_by",
+    "value": "January 2, 2024",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implemented by January 2, 2024"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "citywide composting initiative",
+    "relation": "served_as",
+    "value": "a pioneering step",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this initiative served as a pioneering step"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Greenfield City",
+    "relation": "incorporated_composting",
+    "value": "one of the first cities in the region to incorporate composting into its waste management system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making Greenfield one of the first cities in the region to incorporate composting into its waste management system"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emma Green",
+    "relation": "believes",
+    "value": "education is a powerful tool in fostering environmental stewardship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her unwavering belief that education is a powerful tool in fostering environmental stewardship"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emma Green",
+    "relation": "advocated_for",
+    "value": "integration of environmental science into the standard curriculum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she advocated for the integration of environmental science into the standard curriculum"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emma Green",
+    "relation": "motivated_by",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What sets Emma apart is her unwavering belief that education is a powerful tool in fostering environmental stewardship. With that in mind, she advocated"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emma Green",
+    "relation": "proposal_brought_forth",
+    "value": "a series of workshops and seminars for students and educators alike",
+    "time": "2024 school year",
+    "speaker": null,
+    "verbatim": [
+     "Her proposal brought forth a series of workshops and seminars for students and educators alike for adoption in the 2024 school"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emma Green",
+    "relation": "workshops_aim_to_provide",
+    "value": "hands-on experiences in the sustainability sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By bringing in experts and hosting interactive sessions, the workshops aim to provide hands-on experiences in the sustainability sector"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "local energy provider",
+    "relation": "received_presentation_of",
+    "value": "viable clean energy solutions",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "One such session on February 15, 2024, witnessed students presenting viable clean energy solutions to the local energy provider"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "local energy provider",
+    "relation": "sparked",
+    "value": "discussions about potential future partnerships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sparking discussions about potential future partnerships"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Emma Green",
+    "relation": "spearheaded",
+    "value": "youth environmental summit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma spearheaded a city-wide youth environmental summit held on March 6, 2024"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "youth environmental summit",
+    "relation": "held_on",
+    "value": "March 6, 2024",
+    "time": "March 6, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a city-wide youth environmental summit held on March 6, 2024"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "youth environmental summit",
+    "relation": "drew_participants_from",
+    "value": "numerous high schools across the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drawing participants from numerous high schools across the city"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emma Green",
+    "relation": "motivated_by",
+    "value": "the strength of unity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the strength of unity, Emma spearheaded"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Emma Green",
+    "relation": "states",
+    "value": "We realized that to make substantial changes, we needed to broaden our horizons and connect with like-minded individuals",
+    "time": null,
+    "speaker": "Emma Green",
+    "verbatim": [
+     "\"We realized that to make substantial changes, we needed to broaden our horizons and connect with like-minded individuals,\" Emma states"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "youth environmental summit",
+    "relation": "resulted_in_formation_of",
+    "value": "a cohesive network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "During this summit, students formed a cohesive network"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "youth environmental summit",
+    "relation": "enables",
+    "value": "city-level strategies to combat environmental issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "paving the way for city-level strategies to combat environmental issues"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Eco Warriors Club",
+    "relation": "contributed_to",
+    "value": "rehabilitation of local natural habitats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma and her Eco Warriors have actively contributed to the rehabilitation of local natural habitats"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "bushfire season",
+    "relation": "occurred_in",
+    "value": "mid-September 2023",
+    "time": "mid-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following the bushfire season in mid-September 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Eco Warriors Club",
+    "relation": "initiated",
+    "value": "a restoration project in Pepperwood Preserve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the group initiated a restoration project in Pepperwood Preserve"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Pepperwood Preserve",
+    "relation": "suffered",
+    "value": "extensive damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which had suffered extensive damage"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Pepperwood Preserve",
+    "relation": "restoration_commenced_on",
+    "value": "October 4, 2023",
+    "time": "October 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The project, which commenced on October 4, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Pepperwood Preserve",
+    "relation": "involved",
+    "value": "reforestation efforts and the creation of fire-resistant plant barriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involved reforestation efforts and the creation of fire-resistant plant barriers"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Pepperwood Preserve",
+    "relation": "in_order_to",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the creation of fire-resistant plant barriers to help protect the area from future fires"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Emma Green",
+    "relation": "unveiled",
+    "value": "EcoTrack",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "In early 2024, Emma unveiled a groundbreaking app\u2014EcoTrack"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "EcoTrack",
+    "relation": "designed_to",
+    "value": "incentivize recycling and conservation efforts among young people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Designed to incentivize recycling and conservation efforts among young people"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "EcoTrack",
+    "relation": "provides",
+    "value": "a platform where users log their daily sustainability actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoTrack provides a platform where users log their daily sustainability actions"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "EcoTrack",
+    "relation": "points_exchangeable_for",
+    "value": "local discounts and other benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "earning points that can be exchanged for local discounts and other benefits"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "EcoTrack",
+    "relation": "incorporated_into",
+    "value": "Greenfield City's environmental awareness campaign",
+    "time": "February 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 28, 2024, EcoTrack was officially incorporated into Greenfield City's environmental awareness campaign"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "EcoTrack",
+    "relation": "fostered",
+    "value": "a community that actively participates in sustainability efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also fostering a community that actively participates in sustainability efforts"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Emma Green",
+    "relation": "lobbied_for",
+    "value": "the development of urban gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma lobbied for the development of urban gardens"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Emma Green",
+    "relation": "believes",
+    "value": "green spaces are vital for environmental and mental well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the conviction that green spaces are vital for environmental and mental well-being"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Emma Green",
+    "relation": "motivated_by",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the conviction that green spaces are vital for environmental and mental well-being, Emma lobbied for the development of urban gardens"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Green Spaces, Happy Faces",
+    "relation": "commenced_on",
+    "value": "April 14, 2024",
+    "time": "April 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Her proposition led to the 'Green Spaces, Happy Faces' campaign, which commenced on April 14, 2024"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Emma Green",
+    "relation": "led_to",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her proposition led to the 'Green Spaces, Happy Faces' campaign"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Green Spaces, Happy Faces",
+    "relation": "involved",
+    "value": "transforming vacant lots into community gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative involved transforming vacant lots into community gardens"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Green Spaces, Happy Faces",
+    "relation": "gives_residents",
+    "value": "the opportunity to grow their own produce and participate in environmental conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giving residents the opportunity to grow their own produce and participate in environmental conservation"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Emma Green",
+    "relation": "inspired",
+    "value": "the formation of similar youth-led environmental groups in nearby cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her work in Greenfield has inspired the formation of similar youth-led environmental groups in nearby cities"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Emma Green",
+    "relation": "helping_facilitate",
+    "value": "a regional environmental conference",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she is helping to facilitate a regional environmental conference set to take place in late 2024"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "regional environmental conference",
+    "relation": "takes_place_in",
+    "value": "late 2024",
+    "time": "late 2024",
+    "speaker": null,
+    "verbatim": [
+     "a regional environmental conference set to take place in late 2024"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Emma Green",
+    "relation": "commented",
+    "value": "This isn't just a local movement. It's about setting an example and hoping it resonates beyond our city limits",
+    "time": null,
+    "speaker": "Emma Green",
+    "verbatim": [
+     "\"This isn't just a local movement. It's about setting an example and hoping it resonates beyond our city limits,\" Emma commented"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Emma Green",
+    "relation": "vision_extends",
+    "value": "her vision extends further than the green initiatives she's championed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's evident that her vision extends further than the green initiatives she's championed"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Emma Green",
+    "relation": "gained_attention_of",
+    "value": "local businesses and non-profit organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma caught the attention of local businesses and non-profit organizations"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Emma Green",
+    "relation": "motivated_by",
+    "value": "her extensive advocacy and tangible impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Given her extensive advocacy and tangible impacts, Emma caught the attention"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Eco Warriors Club",
+    "relation": "receives_support",
+    "value": "financial support and partnerships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "financial support and partnerships have been flooding in"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Eco Warriors Club",
+    "relation": "boosted",
+    "value": "the sustainability of the initiatives that the Eco Warriors have set in motion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boosting the sustainability of the initiatives that the Eco Warriors have set in motion"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Eco Warriors Club",
+    "relation": "results_in",
+    "value_ref": "c67",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "financial support and partnerships have been flooding in, boosting the sustainability of the initiatives"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Emma Green",
+    "relation": "leads",
+    "value": "the youth of Greenfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the youth of Greenfield, led by the passionate Emma Green"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,745 @@
+{
+ "inventory": [
+  "Metropolitan Transit Authority",
+  "Metropoliville",
+  "Blue Line",
+  "Johnathan Hargrove",
+  "Dr. Susan Park",
+  "Mike Bronson",
+  "Marsha Elliot",
+  "Gerald Watkins",
+  "Darren Thompson",
+  "Laura Jensen",
+  "Rajiv Malhotra",
+  "central signaling system",
+  "service outage",
+  "town hall meeting",
+  "multi-million-dollar initiative",
+  "shuttle buses",
+  "preventative maintenance",
+  "predictive maintenance",
+  "contingency plan"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Metropoliville",
+    "relation": "faced_service_interruptions",
+    "value": "a cascade of service interruptions across its transit system",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when the city of Metropoliville faced a cascade of service interruptions across its transit system"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "announced",
+    "value": "the Blue Line subway would experience significant delays due to an unexpected maintenance issue",
+    "time": "8:12 AM",
+    "speaker": "Metropolitan Transit Authority",
+    "verbatim": [
+     "at precisely 8:12 AM, the Metropolitan Transit Authority (MTA) of Metropoliville announced that the Blue Line subway would experience significant delays due to an unexpected maintenance issue"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "located_in",
+    "value": "Metropoliville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Metropolitan Transit Authority (MTA) of Metropoliville"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Blue Line",
+    "relation": "is_a",
+    "value": "subway",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Blue Line subway"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "service outage",
+    "relation": "affected",
+    "value": "thousands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this revelation came as an unwelcome surprise to thousands who relied on the city\u2019s swiftest transit artery"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Johnathan Hargrove",
+    "relation": "occupation",
+    "value": "IT specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Hargrove, a regular commuter and an IT specialist, voiced his frustration."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Johnathan Hargrove",
+    "relation": "role",
+    "value": "regular commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Hargrove, a regular commuter and an IT specialist"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Johnathan Hargrove",
+    "relation": "said_outage_threw_day_off",
+    "value": "It threw my entire day off.",
+    "time": null,
+    "speaker": "Johnathan Hargrove",
+    "verbatim": [
+     "It threw my entire day off."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Johnathan Hargrove",
+    "relation": "typical_commute_time",
+    "value": "20-minute ride to the office",
+    "time": null,
+    "speaker": "Johnathan Hargrove",
+    "verbatim": [
+     "Normally, it's a smooth 20-minute ride to the office"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Johnathan Hargrove",
+    "relation": "commute_duration",
+    "value": "nearly an hour and a half",
+    "time": "that day",
+    "speaker": "Johnathan Hargrove",
+    "verbatim": [
+     "it took me nearly an hour and a half to get to work"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "service outage",
+    "relation": "caused_by",
+    "value": "a power supply malfunction in the central signaling system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the interruption was due to a power supply malfunction in the central signaling system"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "central signaling system",
+    "relation": "had_fault",
+    "value": "a power supply malfunction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a power supply malfunction in the central signaling system"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Susan Park",
+    "relation": "job_title",
+    "value": "Chief Maintenance Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the MTA's Chief Maintenance Officer, Dr. Susan Park, explained"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "central signaling system",
+    "relation": "described_as",
+    "value": "the nervous system of our transit network",
+    "time": null,
+    "speaker": "Dr. Susan Park",
+    "verbatim": [
+     "The signaling system is the nervous system of our transit network."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Susan Park",
+    "relation": "stated_glitch_can",
+    "value": "compromise the safety of our operations",
+    "time": null,
+    "speaker": "Dr. Susan Park",
+    "verbatim": [
+     "A glitch in power can compromise the safety of our operations"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Susan Park",
+    "relation": "stated_glitch_necessitates",
+    "value": "an immediate halt to service",
+    "time": null,
+    "speaker": "Dr. Susan Park",
+    "verbatim": [
+     "A glitch in power can compromise the safety of our operations, necessitating an immediate halt to service."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Blue Line",
+    "relation": "age",
+    "value": "nearly 60 years old",
+    "time": "now",
+    "speaker": null,
+    "verbatim": [
+     "Metropoliville's Blue Line, now nearly 60 years old"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Blue Line",
+    "relation": "located_in",
+    "value": "Metropoliville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Metropoliville's Blue Line"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mike Bronson",
+    "relation": "occupation",
+    "value": "Retailer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retailer Mike Bronson"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Mike Bronson",
+    "relation": "pointed_out",
+    "value": "the slowdown wasn't just on the transit lines but also in the day's earnings",
+    "time": null,
+    "speaker": "Mike Bronson",
+    "verbatim": [
+     "Retailer Mike Bronson pointed out that the slowdown wasn't just on the transit lines but also in the day's earnings."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Mike Bronson",
+    "relation": "said",
+    "value": "When people can't get here, they don't shop here.",
+    "time": null,
+    "speaker": "Mike Bronson",
+    "verbatim": [
+     "When people can't get here, they don't shop here."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mike Bronson",
+    "relation": "noted",
+    "value": "a noticeable dip in morning business",
+    "time": null,
+    "speaker": "Mike Bronson",
+    "verbatim": [
+     "noting a noticeable dip in morning business"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "service outage",
+    "relation": "reported_tardiness",
+    "value": "tardiness at schools in the area",
+    "time": null,
+    "speaker": "schools in the area",
+    "verbatim": [
+     "schools in the area reported tardiness, with some students missing important assessments"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "service outage",
+    "relation": "caused",
+    "value": "some students missing important assessments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with some students missing important assessments"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Marsha Elliot",
+    "relation": "occupation",
+    "value": "high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marsha Elliot, a high school teacher, highlighted the wider implications."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Marsha Elliot",
+    "relation": "said",
+    "value": "It disrupts the learning flow for the whole day.",
+    "time": null,
+    "speaker": "Marsha Elliot",
+    "verbatim": [
+     "It disrupts the learning flow for the whole day."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Marsha Elliot",
+    "relation": "said",
+    "value": "Students are stressed, and the planned curriculum gets pushed back.",
+    "time": null,
+    "speaker": "Marsha Elliot",
+    "verbatim": [
+     "Students are stressed, and the planned curriculum gets pushed back."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Marsha Elliot",
+    "relation": "said",
+    "value": "not just about being late",
+    "time": null,
+    "speaker": "Marsha Elliot",
+    "verbatim": [
+     "not just about being late."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "faced_backlash_for",
+    "value": "the outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the transit authority faced backlash for the outage"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "response_described_as",
+    "value": "a notable point of fiscal importance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its rapid response was a notable point of fiscal importance"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "shuttle buses",
+    "relation": "deployed",
+    "value": "swiftly deployed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shuttle buses were swiftly deployed"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "channels_updates_through",
+    "value": "the MTA\u2019s app and social media pages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "updates were funneled through the MTA\u2019s app and social media pages"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Gerald Watkins",
+    "relation": "job_title",
+    "value": "operations manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gerald Watkins, the operations manager responsible for coordinating the response"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Gerald Watkins",
+    "relation": "responsible_for",
+    "value": "coordinating the response",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "responsible for coordinating the response"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Gerald Watkins",
+    "relation": "emphasized",
+    "value": "the importance of a contingency plan",
+    "time": null,
+    "speaker": "Gerald Watkins",
+    "verbatim": [
+     "emphasized the importance of a contingency plan"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Gerald Watkins",
+    "relation": "stated",
+    "value": "we're ready with an alternative",
+    "time": null,
+    "speaker": "Gerald Watkins",
+    "verbatim": [
+     "Our job is to ensure that when these situations arise\u2014and they will\u2014we're ready with an alternative"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "shuttle buses",
+    "relation": "described_as",
+    "value": "a hastily assembled bus convoy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hastily assembled bus convoy"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "shuttle buses",
+    "relation": "capacity_compared_to_train_service",
+    "value": "glaring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the capacity discrepancy between a full-scale train service and a hastily assembled bus convoy was glaring"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "demanded",
+    "value": "accountability and a detailed review of the MTA's maintenance regimen",
+    "time": "Following the outage",
+    "speaker": "civic leaders and consumer advocacy groups",
+    "verbatim": [
+     "civic leaders and consumer advocacy groups demanded accountability and a detailed review of the MTA's maintenance regimen"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "town hall meeting",
+    "relation": "held_on",
+    "value": "November 6, 2023",
+    "time": "November 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At a town hall meeting on November 6, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "town hall meeting",
+    "relation": "purpose",
+    "value": "MTA executives faced the public to articulate their commitment to improving maintenance protocols",
+    "time": "November 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "MTA executives faced the public to articulate their commitment to improving maintenance protocols"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Darren Thompson",
+    "relation": "job_title",
+    "value": "MTA CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "declared MTA CEO, Darren Thompson."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Darren Thompson",
+    "relation": "said",
+    "value": "We're not just finding band-aid solutions",
+    "time": null,
+    "speaker": "Darren Thompson",
+    "verbatim": [
+     "We're not just finding band-aid solutions,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Darren Thompson",
+    "relation": "unveiled",
+    "value": "a multi-million-dollar initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He unveiled a multi-million-dollar initiative"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "multi-million-dollar initiative",
+    "relation": "aimed_at",
+    "value": "overhauling the Blue Line's aging infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at overhauling the Blue Line's aging infrastructure"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "multi-million-dollar initiative",
+    "relation": "uses",
+    "value": "state-of-the-art technology designed to preempt and swiftly rectify such incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with state-of-the-art technology designed to preempt and swiftly rectify such incidents"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Laura Jensen",
+    "relation": "occupation",
+    "value": "Research economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Research economist Laura Jensen"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Laura Jensen",
+    "relation": "highlighted",
+    "value": "service outages have greater economic repercussions",
+    "time": null,
+    "speaker": "Laura Jensen",
+    "verbatim": [
+     "Research economist Laura Jensen highlighted that service outages have greater economic repercussions."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Laura Jensen",
+    "relation": "said",
+    "value": "not just about the cost of repairs or lost revenue for businesses",
+    "time": null,
+    "speaker": "Laura Jensen",
+    "verbatim": [
+     "not just about the cost of repairs or lost revenue for businesses."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Laura Jensen",
+    "relation": "said",
+    "value": "an opportunity cost",
+    "time": null,
+    "speaker": "Laura Jensen",
+    "verbatim": [
+     "There's an opportunity cost - the economic activities that didn't happen because people were stuck in transit"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "service outage",
+    "relation": "effect",
+    "value": "disruptions can add up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These disruptions can add up, especially in a bustling metropolis with a high reliance on public transportation."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "preventative maintenance",
+    "relation": "should_be",
+    "value": "at the forefront of transit discussions",
+    "time": "post-outage",
+    "speaker": null,
+    "verbatim": [
+     "preventative maintenance should be at the forefront of transit discussions"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "preventative maintenance",
+    "relation": "can_reduce",
+    "value": "the potential for severe service disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in maintenance can vastly reduce the potential for severe service disruptions"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "pledged",
+    "value": "an increase in its maintenance budget for the forthcoming fiscal year",
+    "time": "the forthcoming fiscal year",
+    "speaker": null,
+    "verbatim": [
+     "The MTA of Metropoliville accepted this as it pledged an increase in its maintenance budget for the forthcoming fiscal year"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "focus",
+    "value": "the incorporation of predictive analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a keen focus on the incorporation of predictive analytics"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "predictive maintenance",
+    "relation": "powered_by",
+    "value": "machine learning and artificial intelligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Predictive maintenance, powered by machine learning and artificial intelligence, could be a game-changer in preempting issues before they become outages."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "predictive maintenance",
+    "relation": "could_be",
+    "value": "a game-changer in preempting issues before they become outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Predictive maintenance, powered by machine learning and artificial intelligence, could be a game-changer in preempting issues before they become outages."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Rajiv Malhotra",
+    "relation": "occupation",
+    "value": "Software engineer and urban planning consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Software engineer and urban planning consultant, Rajiv Malhotra, weighed in"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Rajiv Malhotra",
+    "relation": "said",
+    "value": "We're looking at systems that can analyze patterns and predict equipment failures.",
+    "time": null,
+    "speaker": "Rajiv Malhotra",
+    "verbatim": [
+     "We're looking at systems that can analyze patterns and predict equipment failures."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Rajiv Malhotra",
+    "relation": "said",
+    "value": "It's about staying one step ahead.",
+    "time": null,
+    "speaker": "Rajiv Malhotra",
+    "verbatim": [
+     "It's about staying one step ahead."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Metropolitan Transit Authority",
+    "relation": "could_transition",
+    "value": "from reactive strategies to proactive ones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the MTA and other transit authorities could very well transition from reactive strategies to proactive ones"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Metropoliville",
+    "relation": "expected_to_experience",
+    "value": "maintenance issues will undeniably recur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maintenance issues such as the ones experienced by Metropoliville will undeniably recur"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "service outage",
+    "relation": "results_in",
+    "value": "economic activities that didn't happen",
+    "time": null,
+    "speaker": "Laura Jensen",
+    "verbatim": [
+     "the economic activities that didn't happen because people were stuck in transit"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "service outage",
+    "relation": "results_in",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The consequence of this service outage was felt citywide.",
+     "Retailer Mike Bronson pointed out that the slowdown wasn't just on the transit lines but also in the day's earnings."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "contingency plan",
+    "relation": "enables",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasized the importance of a contingency plan",
+     "we're ready with an alternative"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

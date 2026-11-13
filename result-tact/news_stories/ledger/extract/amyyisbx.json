@@ -1,0 +1,780 @@
+{
+ "inventory": [
+  "Dr. Linda Nguyen",
+  "Robert Harrison",
+  "Dr. Marcus Zhou",
+  "European Union",
+  "CleanConvert Inc.",
+  "An Australian firm",
+  "Silicon Valley",
+  "Tokyo, Japan",
+  "plant in Tokyo, Japan",
+  "plasma gasification",
+  "mobile plasma gasification unit",
+  "syngas",
+  "slag",
+  "incineration",
+  "landfilling",
+  "recycling",
+  "waste management",
+  "circular economy",
+  "green recovery plan",
+  "renewable energy",
+  "greenhouse gases",
+  "sustainable concrete",
+  "hazardous medical waste"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "waste management",
+    "relation": "revolution_since",
+    "value": "September 1, 2023",
+    "time": "September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we move beyond September 1, 2023, we are witnessing a revolution"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "plasma gasification",
+    "relation": "promises",
+    "value": "a cleaner, more sustainable future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technological breakthroughs in waste conversion, particularly plasma gasification, promise a cleaner, more sustainable future"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "waste management",
+    "relation": "annual_solid_waste_generation",
+    "value": "2.01 billion tons",
+    "time": "October 13, 2023",
+    "speaker": "an alarming report",
+    "verbatim": [
+     "According to an alarming report dated October 13, 2023, the world's cities generate about 2.01 billion tons of solid waste each year."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "waste management",
+    "relation": "expected_to_escalate_to",
+    "value": "3.40 billion tons",
+    "time": "by 2050",
+    "speaker": null,
+    "verbatim": [
+     "the annual accumulation is expected to escalate to 3.40 billion tons by 2050"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "waste management",
+    "relation": "growth_driven_by",
+    "value": "growing populations and urbanization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With growing populations and urbanization"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "waste management",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With growing populations and urbanization, the annual accumulation is expected to escalate"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "waste management",
+    "relation": "traditional_approaches_include",
+    "value": "landfilling, incineration, and recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the traditional approaches to waste management \u2014landfilling, incineration, and recycling\u2014 are rapidly becoming outdated"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "landfilling",
+    "relation": "rapidly_becoming",
+    "value": "outdated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the traditional approaches to waste management \u2014landfilling, incineration, and recycling\u2014 are rapidly becoming outdated"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "incineration",
+    "relation": "rapidly_becoming",
+    "value": "outdated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the traditional approaches to waste management \u2014landfilling, incineration, and recycling\u2014 are rapidly becoming outdated"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "recycling",
+    "relation": "rapidly_becoming",
+    "value": "outdated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the traditional approaches to waste management \u2014landfilling, incineration, and recycling\u2014 are rapidly becoming outdated"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "waste management",
+    "relation": "governments_turned_focus_to",
+    "value": "more sustainable and innovative solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "governments, environmental agencies, and private enterprises have turned their focus towards more sustainable and innovative solutions"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "plasma gasification",
+    "relation": "converts",
+    "value": "organic waste into a gas called syngas",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "One of the most promising solutions making headlines in December 2023 is plasma gasification, a process that converts organic waste into a gas called syngas"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "syngas",
+    "relation": "used_to",
+    "value": "generate electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a gas called syngas, which can then be used to generate electricity"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "plasma gasification",
+    "relation": "does_not",
+    "value": "combust the waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unlike incineration, plasma gasification does not combust the waste"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "incineration",
+    "relation": "contrasted_with",
+    "value": "plasma gasification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unlike incineration, plasma gasification does not combust the waste"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "plasma gasification",
+    "relation": "subjects_waste_to",
+    "value": "such high temperatures that molecular bonds break down",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it subjects it to such high temperatures that molecular bonds break down"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "plasma gasification",
+    "relation": "leaves_byproducts",
+    "value": "hardly any byproducts other than syngas and a small amount of inert slag",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving hardly any byproducts other than syngas and a small amount of inert slag"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "slag",
+    "relation": "described_as",
+    "value": "inert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small amount of inert slag"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "plasma gasification",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it subjects it to such high temperatures that molecular bonds break down, leaving hardly any byproducts other than syngas and a small amount of inert slag"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Linda Nguyen",
+    "relation": "is_a",
+    "value": "a renowned environmental engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Linda Nguyen, a renowned environmental engineer"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Linda Nguyen",
+    "relation": "explained_in",
+    "value": "a webinar",
+    "time": "January 24, 2024",
+    "speaker": null,
+    "verbatim": [
+     "explained in a webinar on January 24, 2024"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Linda Nguyen",
+    "relation": "explained",
+    "value": "the reasons behind the surging interest in plasma gasification",
+    "time": "January 24, 2024",
+    "speaker": "Dr. Linda Nguyen",
+    "verbatim": [
+     "explained in a webinar on January 24, 2024, the reasons behind the surging interest in plasma gasification"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "plasma gasification",
+    "relation": "can_handle",
+    "value": "virtually any kind of waste, from household rubbish to hazardous medical waste",
+    "time": null,
+    "speaker": "Dr. Linda Nguyen",
+    "verbatim": [
+     "What sets plasma gasification apart is its ability to handle virtually any kind of waste\u2014from household rubbish to hazardous medical waste"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "plasma gasification",
+    "relation": "avoids",
+    "value": "harmful emissions associated with traditional waste disposal methods",
+    "time": null,
+    "speaker": "Dr. Linda Nguyen",
+    "verbatim": [
+     "without the harmful emissions associated with traditional waste disposal methods"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "hazardous medical waste",
+    "relation": "can_be_handled_by",
+    "value": "plasma gasification",
+    "time": null,
+    "speaker": "Dr. Linda Nguyen",
+    "verbatim": [
+     "from household rubbish to hazardous medical waste"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "plasma gasification",
+    "relation": "heralded_for",
+    "value": "waste-reducing capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The process has been heralded not just for its waste-reducing capabilities"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "plasma gasification",
+    "relation": "potential_contribution_to",
+    "value": "renewable energy production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also for its potential to contribute to renewable energy production"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "plasma gasification",
+    "relation": "spurred",
+    "value": "a flurry of investments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has spurred a flurry of"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "European Union",
+    "relation": "announced",
+    "value": "a significant investment towards integrating plasma gasification plants across its member states",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on February 15, 2024, the European Union announced a significant investment towards integrating plasma gasification plants across its member states"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "European Union",
+    "relation": "investment_part_of",
+    "value": "green recovery plan",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "as part of its green recovery plan"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "plant in Tokyo, Japan",
+    "relation": "commissioned_on",
+    "value": "March 20, 2024",
+    "time": "March 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "One of the most notable was the commissioning of a plant in Tokyo, Japan, on March 20, 2024"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "plant in Tokyo, Japan",
+    "relation": "designed_to_handle",
+    "value": "the city's dense waste production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Designed to handle the city's dense waste production"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "plant in Tokyo, Japan",
+    "relation": "converts",
+    "value": "a substantial portion of Tokyo's waste into clean energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the plant now converts a substantial portion of Tokyo's waste into clean energy"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "plant in Tokyo, Japan",
+    "relation": "powers",
+    "value": "thousands of homes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "used to power thousands of homes"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Tokyo, Japan",
+    "relation": "hosts",
+    "value": "plant in Tokyo, Japan",
+    "time": "March 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the commissioning of a plant in Tokyo, Japan, on March 20, 2024"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "CleanConvert Inc.",
+    "relation": "is_a",
+    "value": "a Silicon Valley startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Silicon Valley startup named CleanConvert Inc."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Silicon Valley",
+    "relation": "home_of",
+    "value": "CleanConvert Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Silicon Valley startup named CleanConvert Inc."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "CleanConvert Inc.",
+    "relation": "introduced",
+    "value": "an innovative mobile plasma gasification unit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced an innovative mobile plasma gasification unit"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "mobile plasma gasification unit",
+    "relation": "unveiled_on",
+    "value": "July 8, 2024",
+    "time": "July 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Unveiled on July 8, 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Robert Harrison",
+    "relation": "is_ceo_of",
+    "value": "CleanConvert Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CleanConvert's CEO, Robert Harrison"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Robert Harrison",
+    "relation": "declared",
+    "value": "Our mobile units can be deployed in disaster zones, transforming debris and waste into power for emergency services and reconstruction efforts.",
+    "time": "July 8, 2024",
+    "speaker": "Robert Harrison",
+    "verbatim": [
+     "Our mobile units can be deployed in disaster zones, transforming debris and waste into power for emergency services and reconstruction efforts."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "mobile plasma gasification unit",
+    "relation": "can_be_deployed_in",
+    "value": "disaster zones",
+    "time": null,
+    "speaker": "Robert Harrison",
+    "verbatim": [
+     "Our mobile units can be deployed in disaster zones"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "mobile plasma gasification unit",
+    "relation": "transforms",
+    "value": "debris and waste into power for emergency services and reconstruction efforts",
+    "time": null,
+    "speaker": "Robert Harrison",
+    "verbatim": [
+     "transforming debris and waste into power for emergency services and reconstruction efforts"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "plasma gasification",
+    "relation": "initial_cost_exceeds",
+    "value": "that of a conventional landfill or incineration facility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A significant challenge is the initial cost of setting up a plasma gasification plant, which remains higher than that of a conventional landfill or incineration facility"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "CleanConvert Inc.",
+    "relation": "striving_to_offset_cost",
+    "value": "by increasing the efficiency and scalability of their units",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like CleanConvert Inc. are, however, striving to offset this by increasing the efficiency and scalability of their units"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "CleanConvert Inc.",
+    "relation": "units_made",
+    "value": "more cost-effective in the long run",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making them more cost-effective in the long run"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "CleanConvert Inc.",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by increasing the efficiency and scalability of their units, making them more cost-effective in the long run"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Marcus Zhou",
+    "relation": "is_a",
+    "value": "Environmental policy expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental policy expert Dr. Marcus Zhou stated in a research paper"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Marcus Zhou",
+    "relation": "stated_in",
+    "value": "a research paper",
+    "time": "August 25, 2024",
+    "speaker": "Dr. Marcus Zhou",
+    "verbatim": [
+     "Environmental policy expert Dr. Marcus Zhou stated in a research paper issued on August 25, 2024"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "plasma gasification",
+    "relation": "should_be_leveraged",
+    "value": "To truly leverage plasma gasification, we must view waste as a commodity, not a burden.",
+    "time": "August 25, 2024",
+    "speaker": "Dr. Marcus Zhou",
+    "verbatim": [
+     "To truly leverage plasma gasification, we must view waste as a commodity, not a burden."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "waste management",
+    "relation": "should_be_viewed_as",
+    "value": "a commodity, not a burden",
+    "time": "August 25, 2024",
+    "speaker": "Dr. Marcus Zhou",
+    "verbatim": [
+     "we must view waste as a commodity, not a burden"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Dr. Marcus Zhou",
+    "relation": "claims_investing_now_could",
+    "value": "set the stage for a cleaner future",
+    "time": "August 25, 2024",
+    "speaker": "Dr. Marcus Zhou",
+    "verbatim": [
+     "Investing now could set the stage for a cleaner future"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "waste management",
+    "relation": "costs_could_significantly_decrease",
+    "value": "significantly",
+    "time": "August 25, 2024",
+    "speaker": "Dr. Marcus Zhou",
+    "verbatim": [
+     "one where waste management costs could significantly decrease"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "plasma gasification",
+    "relation": "emits_lower_levels_of",
+    "value": "greenhouse gases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The process emits significantly lower levels of greenhouse gases compared to traditional disposal methods"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "greenhouse gases",
+    "relation": "emitted_at_lower_levels_than",
+    "value": "traditional disposal methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The process emits significantly lower levels of greenhouse gases compared to traditional disposal methods"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "plasma gasification",
+    "relation": "virtually_eliminates",
+    "value": "the Noxious emissions often associated with waste disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "virtually eliminates the Noxious emissions often associated with waste disposal"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "slag",
+    "relation": "can_be_repurposed_for",
+    "value": "construction materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the byproduct slag can be repurposed for construction materials"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "slag",
+    "relation": "contributes_to",
+    "value": "a circular economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributing to a circular economy"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "slag",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can be repurposed for construction materials, contributing to a circular economy"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "An Australian firm",
+    "relation": "demonstrated",
+    "value": "using slag to manufacture sustainable concrete",
+    "time": "September 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "An Australian firm recently demonstrated this on September 10, 2024, by using slag to manufacture sustainable concrete"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "sustainable concrete",
+    "relation": "manufactured_from",
+    "value": "slag",
+    "time": "September 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "by using slag to manufacture sustainable concrete"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "waste management",
+    "relation": "diverted_from_landfills",
+    "value": "500,000 tons",
+    "time": "September 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "diverting the equivalent of 500,000 tons of waste from landfills"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "An Australian firm",
+    "relation": "results_in",
+    "value_ref": "c62",
+    "time": "September 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "by using slag to manufacture sustainable concrete, diverting the equivalent of 500,000 tons of waste from landfills"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "plasma gasification",
+    "relation": "promises_to",
+    "value": "reduce landfill mass and generate renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its dual promise to reduce landfill mass and generate renewable energy"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "plasma gasification",
+    "relation": "offers",
+    "value": "a beacon of hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers a beacon of hope"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "plasma gasification",
+    "relation": "adoption_could_herald",
+    "value": "a new epoch of ecological responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its adoption could herald a new epoch of ecological responsibility"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "plasma gasification",
+    "relation": "challenges_persist",
+    "value": "cost-efficiency and scalability challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While cost-efficiency and scalability challenges persist"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "plasma gasification",
+    "relation": "core_of",
+    "value": "reshaping our environmental legacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to reshape our environmental legacy\u2014with plasma gasification at its core"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

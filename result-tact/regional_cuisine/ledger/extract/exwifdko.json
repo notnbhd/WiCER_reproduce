@@ -1,0 +1,624 @@
+{
+ "inventory": [
+  "Juliana Lopez",
+  "Sam Richardson",
+  "Michael Ford",
+  "Dr. Anna Zimmerman",
+  "Chef Luis Gomez",
+  "Emily Thompson",
+  "Rachel Anderson",
+  "Dr. Lila Greene",
+  "University of Ethical Farming",
+  "Animal Welfare Approved",
+  "Certified Humane",
+  "Global Animal Partnership",
+  "Carnivore's Dilemma",
+  "The Part-Time Carnivore",
+  "ethical animal husbandry",
+  "regenerative agriculture",
+  "flexitarian diet",
+  "Community-Supported Agriculture (CSA)",
+  "heritage breeds",
+  "rotational grazing",
+  "local food movement",
+  "farmer's markets",
+  "smoked pork chops",
+  "slow-roasted lamb shoulder",
+  "heritage turkeys",
+  "beef bourguignon",
+  "oxtail stew",
+  "venison",
+  "smoked brisket sandwich",
+  "chicken pot pie",
+  "meatloaf",
+  "Hawaiian pizza"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Juliana Lopez",
+    "relation": "role",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chef Juliana Lopez"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local food movement",
+    "relation": "gained_ally",
+    "value": "chef Juliana Lopez",
+    "time": "Starting September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting September 5, 2023, the local food movement finds a new ally in chef Juliana Lopez"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Juliana Lopez",
+    "relation": "said",
+    "value": "You have to shake the hand that feeds you",
+    "time": null,
+    "speaker": "Juliana Lopez",
+    "verbatim": [
+     "You have to shake the hand that feeds you"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "farmer's markets",
+    "relation": "enables",
+    "value": "asking direct questions about the animals' living conditions, diet, and the farmer\u2019s approach to husbandry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Visiting your nearby farms or farmer's markets allows you to ask direct questions about the animals' living conditions, diet, and the farmer\u2019s approach to husbandry"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "smoked pork chops",
+    "relation": "comes_from",
+    "value": "a farm where pigs roam freely, basking in sunlight and socializing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the succulent pork in your smoked pork chops comes from a farm where pigs roam freely"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sam Richardson",
+    "relation": "role",
+    "value": "a rancher and advocate for humane animal treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sam Richardson, a rancher and advocate for humane animal treatment"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sam Richardson",
+    "relation": "said_at_conference",
+    "value": "certifications such as Animal Welfare Approved, Certified Humane, and Global Animal Partnership imply strict welfare standards",
+    "time": "October 16, 2023",
+    "speaker": "Sam Richardson",
+    "verbatim": [
+     "shared at a conference on October 16, 2023, certifications such as Animal Welfare Approved, Certified Humane, and Global Animal Partnership imply strict welfare standards"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Animal Welfare Approved",
+    "relation": "implies",
+    "value": "strict welfare standards",
+    "time": "October 16, 2023",
+    "speaker": "Sam Richardson",
+    "verbatim": [
+     "certifications such as Animal Welfare Approved, Certified Humane, and Global Animal Partnership imply strict welfare standards"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Certified Humane",
+    "relation": "implies",
+    "value": "strict welfare standards",
+    "time": "October 16, 2023",
+    "speaker": "Sam Richardson",
+    "verbatim": [
+     "certifications such as Animal Welfare Approved, Certified Humane, and Global Animal Partnership imply strict welfare standards"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Global Animal Partnership",
+    "relation": "implies",
+    "value": "strict welfare standards",
+    "time": "October 16, 2023",
+    "speaker": "Sam Richardson",
+    "verbatim": [
+     "certifications such as Animal Welfare Approved, Certified Humane, and Global Animal Partnership imply strict welfare standards"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "slow-roasted lamb shoulder",
+    "relation": "should_have_label",
+    "value": "one of these labels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While preparing your slow-roasted lamb shoulder, ensure it sports one of these labels"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "slow-roasted lamb shoulder",
+    "relation": "assures_quality_life",
+    "value": "the lamb had a quality life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It assures you that the lamb had a quality life, which, some argue, even improves the flavor"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "slow-roasted lamb shoulder",
+    "relation": "improves_flavor",
+    "value": "improves the flavor",
+    "time": null,
+    "speaker": "some argue",
+    "verbatim": [
+     "which, some argue, even improves the flavor"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "heritage breeds",
+    "relation": "described_as",
+    "value": "heirlooms of the animal world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Heritage breeds are the heirlooms of the animal world"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Michael Ford",
+    "relation": "role",
+    "value": "chef and restaurateur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chef and restaurateur Michael Ford"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Michael Ford",
+    "relation": "championing",
+    "value": "heritage breeds in his dishes",
+    "time": "As of November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of November 22, 2023, chef and restaurateur Michael Ford has been championing heritage breeds in his dishes"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Ford",
+    "relation": "said",
+    "value": "They aren\u2019t just unique flavors; they are storytelling",
+    "time": null,
+    "speaker": "Michael Ford",
+    "verbatim": [
+     "They aren\u2019t just unique flavors; they are storytelling"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "heritage turkeys",
+    "relation": "suggested_for",
+    "value": "Thanksgiving feast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By choosing meats such as heritage turkeys for your Thanksgiving feast"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "heritage turkeys",
+    "relation": "supports",
+    "value": "genetic diversity and small-scale farms that prioritize ethical living conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you support genetic diversity and small-scale farms that prioritize ethical living conditions"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "regenerative agriculture",
+    "relation": "focuses_on",
+    "value": "revitalizing the land and creating a positive environmental impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regenerative agriculture focuses on revitalizing the land and creating a positive environmental impact"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Anna Zimmerman",
+    "relation": "role",
+    "value": "agricultural expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Boston-based agricultural expert Dr. Anna Zimmerman"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Anna Zimmerman",
+    "relation": "based_in",
+    "value": "Boston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Boston-based agricultural expert Dr. Anna Zimmerman"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Anna Zimmerman",
+    "relation": "published_seminal_work",
+    "value": "seminal work",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in her seminal work published on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Anna Zimmerman",
+    "relation": "said",
+    "value": "Livestock plays a vital role in regenerative systems",
+    "time": "September 10, 2023",
+    "speaker": "Dr. Anna Zimmerman",
+    "verbatim": [
+     "Livestock plays a vital role in regenerative systems"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "rotational grazing",
+    "relation": "used_by",
+    "value": "farms that use rotational grazing for their cattle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By supporting farms that use rotational grazing for their cattle"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "rotational grazing",
+    "relation": "supports_improvement_of",
+    "value": "soil health and biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you contribute to naturally improving soil health and biodiversity"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "beef bourguignon",
+    "relation": "made_with",
+    "value": "cattle from farms that use rotational grazing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By supporting farms that use rotational grazing for their cattle, which you might later enjoy in a robust beef bourguignon"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "oxtail stew",
+    "relation": "described_as",
+    "value": "a statement, not just a comfort dish",
+    "time": null,
+    "speaker": "Chef Luis Gomez",
+    "verbatim": [
+     "The oxtail stew is not just a comfort dish; it\u2019s a statement"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Chef Luis Gomez",
+    "relation": "hosted_pop_up_event",
+    "value": "pop-up event",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Chef Luis Gomez, who dazzled diners with his inventive use of less traditional cuts at his pop-up event on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Chef Luis Gomez",
+    "relation": "used_inventive_cuts",
+    "value": "inventive use of less traditional cuts",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Chef Luis Gomez, who dazzled diners with his inventive use of less traditional cuts at his pop-up event on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Emily Thompson",
+    "relation": "role",
+    "value": "dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitian Emily Thompson (interviewed January 15, 2024)"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Emily Thompson",
+    "relation": "interviewed",
+    "value": "interviewed",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "dietitian Emily Thompson (interviewed January 15, 2024)"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Emily Thompson",
+    "relation": "said",
+    "value": "aligns our diets with the natural growth and breeding cycles",
+    "time": null,
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "aligns our diets with the natural growth and breeding cycles"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "venison",
+    "relation": "eaten_during",
+    "value": "hunting season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eating wild game like venison during hunting season"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "venison",
+    "relation": "supports",
+    "value": "local ecosystems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eating wild game like venison during hunting season not only supports local ecosystems"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "University of Ethical Farming",
+    "relation": "revealed",
+    "value": "a plant-fed diet for livestock results in happier and healthier animals",
+    "time": "September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 1, 2023, a groundbreaking study from the University of Ethical Farming revealed that a plant-fed diet for livestock results in happier and healthier animals"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "smoked brisket sandwich",
+    "relation": "should_use_meat_from",
+    "value": "animals fed with natural diets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "choose meats from animals fed with natural diets for your smoked brisket sandwich"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "smoked brisket sandwich",
+    "relation": "should_avoid_meat_from",
+    "value": "animals fed with animal byproducts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "avoiding meat from animals fed with animal byproducts"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Community-Supported Agriculture (CSA)",
+    "relation": "enables",
+    "value": "city dwellers to receive meat directly from a trusted farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CSA programs enable city dwellers to receive meat directly from a trusted farmer"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Rachel Anderson",
+    "relation": "role",
+    "value": "food writer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "food writer Rachel Anderson in her October article"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Community-Supported Agriculture (CSA)",
+    "relation": "lauded_by",
+    "value": "Rachel Anderson",
+    "time": "October",
+    "speaker": null,
+    "verbatim": [
+     "These programs, lauded by food writer Rachel Anderson in her October article"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Community-Supported Agriculture (CSA)",
+    "relation": "brings",
+    "value": "transparency and community engagement",
+    "time": null,
+    "speaker": "Rachel Anderson",
+    "verbatim": [
+     "bring transparency and community engagement to the forefront"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "chicken pot pie",
+    "relation": "could_be_made_with",
+    "value": "poultry raised without growth hormones and undue stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you could be making your chicken pot pie with poultry that you know was raised without growth hormones and undue stress"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "ethical animal husbandry",
+    "relation": "promoted_by",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Education is a powerful tool in promoting ethical animal husbandry"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Carnivore's Dilemma",
+    "relation": "is_a",
+    "value": "documentary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "viewing documentaries, like the eye-opening \u201cCarnivore\u2019s Dilemma\u201d released on November 30, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Carnivore's Dilemma",
+    "relation": "released_on",
+    "value": "November 30, 2023",
+    "time": "November 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the eye-opening \u201cCarnivore\u2019s Dilemma\u201d released on November 30, 2023"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "meatloaf",
+    "relation": "suggested_action",
+    "value": "share with your family the story of where the beef came from",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When making your famous meatloaf, share with your family the story of where the beef came from"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Lila Greene",
+    "relation": "authored",
+    "value": "The Part-Time Carnivore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lila Greene\u2019s book"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "The Part-Time Carnivore",
+    "relation": "released_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the release of Dr. Lila Greene\u2019s book \"The Part-Time Carnivore\" on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "The Part-Time Carnivore",
+    "relation": "recommends",
+    "value": "smaller meat portions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which recommends smaller meat portions"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "flexitarian diet",
+    "relation": "gained_momentum_after",
+    "value": "the release of The Part-Time Carnivore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The flexitarian diet gained momentum after the release of Dr. Lila Greene\u2019s book"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Hawaiian pizza",
+    "relation": "can_include",
+    "value": "a carefully portioned ham slice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Savoring a carefully portioned ham slice in your Hawaiian pizza"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "slow-roasted lamb shoulder",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It assures you that the lamb had a quality life, which, some argue, even improves the flavor."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

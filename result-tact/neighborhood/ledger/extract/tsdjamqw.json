@@ -1,0 +1,661 @@
+{
+ "inventory": [
+  "healthcare accessibility",
+  "socio-economic well-being",
+  "Brookville neighborhood",
+  "Dr. Sarah Lindberg",
+  "James Henderson",
+  "Brookville Health Access Program (BHAP)",
+  "primary care clinics",
+  "Riverside Clinic",
+  "Riverside",
+  "Community Health Workers (CHWs)",
+  "Greenfield district",
+  "subsidized public transit passes",
+  "Brookville's telehealth initiative",
+  "telehealth services",
+  "COVID-19 pandemic",
+  "Maplewood",
+  "Healthy Living Month",
+  "Oakwood Community Center",
+  "local pharmacies",
+  "free health screening day",
+  "community insurance pools",
+  "Lakeside Neighborhood Association",
+  "Easton's neighborhood committee",
+  "healthcare information app",
+  "healthcare disparities"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "healthcare accessibility",
+    "relation": "essential_to",
+    "value": "socio-economic well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a fundamental right that is essential to the socio-economic well-being of any community"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "healthcare accessibility",
+    "relation": "depends_on_factors",
+    "value": "affordability, proximity, quality of care, and cultural competence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a multifaceted issue that hinges on a variety of factors including, but not limited to, affordability, proximity, quality of care, and cultural competence."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "healthcare accessibility",
+    "relation": "influences",
+    "value": "work productivity, educational attainment, and even the economic prosperity of our communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they penetrate the heart of our neighborhoods, influencing work productivity, educational attainment, and even the economic prosperity of our communities"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "healthcare accessibility",
+    "relation": "guide_provides_advice_for",
+    "value": "neighborhoods looking to improve healthcare access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This guide aims to provide actionable advice for neighborhoods looking to improve healthcare access and, as a result, their economy."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "healthcare accessibility",
+    "relation": "equates_to",
+    "value": "a productive workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A healthy population often equates to a productive workforce, leading to a robust local economy."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "healthcare accessibility",
+    "relation": "results_in",
+    "value": "a workforce that is less productive due to illness, leading to higher rates of absenteeism and even job loss",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lack of access can result in a workforce that is less productive due to illness, leading to higher rates of absenteeism and even job loss."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "healthcare accessibility",
+    "relation": "impacts",
+    "value": "children's learning and future economic opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Education suffers when children experience poor health due to inadequate healthcare which, in turn, impacts their learning and future economic opportunities."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "healthcare accessibility",
+    "relation": "families_face",
+    "value": "financial burden of medical bills and a choice between healthcare and necessities like food and housing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "families struggle to cope with the financial burden of medical bills, often having to make the impossible choice between healthcare and other necessities like food and housing"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "healthcare accessibility",
+    "relation": "requires",
+    "value": "collective effort of governments, private institutions, and community members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The journey to accessible healthcare is not a solo endeavor\u2014it requires the collective effort of governments, private institutions, and community members."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Brookville neighborhood",
+    "relation": "hosted",
+    "value": "a summit",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, a summit was held in Brookville neighborhood"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Sarah Lindberg",
+    "relation": "convened_at",
+    "value": "summit",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leaders, including Dr. Sarah Lindberg and council member James Henderson, convened to develop a multi-sector strategy to address healthcare disparities"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "James Henderson",
+    "relation": "role",
+    "value": "council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "council member James Henderson"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "James Henderson",
+    "relation": "convened_at",
+    "value": "summit",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "council member James Henderson, convened to develop a multi-sector strategy to address healthcare disparities"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "healthcare disparities",
+    "relation": "addressed_by",
+    "value": "multi-sector strategy",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "convened to develop a multi-sector strategy to address healthcare disparities"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Brookville Health Access Program (BHAP)",
+    "relation": "resulted_from",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The initiative resulted in the Brookville Health Access Program (BHAP)"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Brookville Health Access Program (BHAP)",
+    "relation": "is_blueprint_for",
+    "value": "other neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a blueprint for other neighborhoods"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "healthcare accessibility",
+    "relation": "backbone_is",
+    "value": "robust primary care system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A robust primary care system is the backbone of accessible healthcare."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "primary care clinics",
+    "relation": "provide",
+    "value": "a wide range of services, from preventive education to chronic disease management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "primary care clinics that provide a wide range of services, from preventive education to chronic disease management"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "primary care clinics",
+    "relation": "must_be",
+    "value": "physically accessible to residents, particularly to those without private transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These clinics must be physically accessible to residents, particularly to those without private transportation."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Riverside Clinic",
+    "relation": "opened_on",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Riverside Clinic, which opened its doors on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Riverside Clinic",
+    "relation": "located",
+    "value": "within walking distance for most Riverside residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Located within walking distance for most Riverside residents"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Riverside Clinic",
+    "relation": "enhanced",
+    "value": "quality of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the clinic has not only enhanced the quality of life"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Riverside Clinic",
+    "relation": "generated",
+    "value": "employment opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also generated employment opportunities, invigorating the local economy"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Riverside Clinic",
+    "relation": "invigorated",
+    "value": "the local economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invigorating the local economy"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Community Health Workers (CHWs)",
+    "relation": "act_as",
+    "value": "bridges between healthcare systems and local populations, especially in underserved areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community Health Workers (CHWs) act as bridges between healthcare systems and local populations, especially in underserved areas."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Community Health Workers (CHWs)",
+    "relation": "recruited_from",
+    "value": "within the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By recruiting CHWs from within the community"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Riverside",
+    "relation": "initiated",
+    "value": "renowned CHW program",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "like Riverside did with their renowned CHW program initiated on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "healthcare accessibility",
+    "relation": "barrier",
+    "value": "transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Access to transportation is a barrier to healthcare for many."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "healthcare accessibility",
+    "relation": "solution_includes",
+    "value": "partnerships with rideshare services to transport patients to and from medical appointments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to partnerships with rideshare services to transport patients to and from medical appointments"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "subsidized public transit passes",
+    "relation": "targets",
+    "value": "low-income individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "subsidized public transit passes for low-income individuals"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "subsidized public transit passes",
+    "relation": "piloted_in",
+    "value": "Greenfield district",
+    "time": "since January 2024",
+    "speaker": null,
+    "verbatim": [
+     "as piloted in the Greenfield district since January 2024"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "telehealth services",
+    "relation": "importance",
+    "value": "cannot be overstated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of telehealth services cannot be overstated."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "COVID-19 pandemic",
+    "relation": "context_for",
+    "value": "neighborhoods have learned the value of remote healthcare delivery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Especially in the backdrop of the COVID-19 pandemic, neighborhoods have learned the value of remote healthcare delivery."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Brookville's telehealth initiative",
+    "relation": "launched_on",
+    "value": "January 15, 2024",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Brookville's telehealth initiative, launched on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Brookville's telehealth initiative",
+    "relation": "helps",
+    "value": "residents consult with healthcare providers from the comfort of their homes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helps residents consult with healthcare providers from the comfort of their homes"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Brookville's telehealth initiative",
+    "relation": "reduces",
+    "value": "barriers such as transportation and time off work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing barriers such as transportation and time off work"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "healthcare accessibility",
+    "relation": "groundwork_for",
+    "value": "preventive care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neighborhoods that prioritize education about health issues lay the groundwork for preventive care"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maplewood",
+    "relation": "hosts",
+    "value": "Healthy Living Month",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maplewood\u2019s \"Healthy Living Month,\" started on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Healthy Living Month",
+    "relation": "started_on",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "started on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Healthy Living Month",
+    "relation": "is_event",
+    "value": "a community-led event providing workshops on nutrition, exercise, and disease prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a community-led event providing workshops on nutrition, exercise, and disease prevention"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Healthy Living Month",
+    "relation": "leads_to",
+    "value": "a more informed and healthy population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ultimately leading to a more informed and healthy population"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "healthcare accessibility",
+    "relation": "enhanced_by",
+    "value": "local businesses and organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The role of local businesses and organizations in enhancing healthcare accessibility is invaluable."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Oakwood Community Center",
+    "relation": "launched",
+    "value": "a free health screening day",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 3, 2023, the Oakwood Community Center in partnership with local pharmacies, launched a free health screening day"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Oakwood Community Center",
+    "relation": "partnered_with",
+    "value": "local pharmacies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Oakwood Community Center in partnership with local pharmacies"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "free health screening day",
+    "relation": "became",
+    "value": "a biannual event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which became a biannual event due to its success"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "free health screening day",
+    "relation": "was_successful",
+    "value": "successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to its success"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "free health screening day",
+    "relation": "caused_by",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became a biannual event due to its success"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "community insurance pools",
+    "relation": "is_approach_to",
+    "value": "managing health costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A novel approach to managing health costs is the creation of community insurance pools"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "community insurance pools",
+    "relation": "offer",
+    "value": "shared risk and lower premiums for members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community insurance pools, which offer shared risk and lower premiums for members"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Lakeside Neighborhood Association",
+    "relation": "exploring",
+    "value": "community insurance pools",
+    "time": "As of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "As of February 2024, Lakeside Neighborhood Association has been exploring this option"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "community insurance pools",
+    "relation": "shows_promise_in",
+    "value": "offering affordable insurance coverage to residents who might otherwise be uninsured",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing promise in offering affordable insurance coverage to residents who might otherwise be uninsured"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "healthcare accessibility",
+    "relation": "technology_can_increase",
+    "value": "healthcare literacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technology, when used effectively, can dramatically increase healthcare literacy across a neighborhood."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "healthcare accessibility",
+    "relation": "tools_can_provide",
+    "value": "information on available healthcare services, opening hours, and booking of appointments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smartphone apps and community online portals can provide information on available healthcare services, opening hours, and even allow for the booking of appointments."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Easton's neighborhood committee",
+    "relation": "launched",
+    "value": "a healthcare information app",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Easton\u2019s neighborhood committee launched a healthcare information app on March 1, 2024"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "healthcare information app",
+    "relation": "improved",
+    "value": "appointment attendance rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that has significantly improved appointment attendance rates"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "healthcare accessibility",
+    "relation": "can_improve",
+    "value": "the physical and mental health of their residents and the fabric of their socio-economic well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can improve not only the physical and mental health of their residents but also the fabric of their socio-economic well-being"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "healthcare accessibility",
+    "relation": "critical_for",
+    "value": "the resilience and prosperity of a community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the resilience and prosperity of a community depend on it"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

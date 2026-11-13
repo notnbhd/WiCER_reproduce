@@ -1,0 +1,483 @@
+{
+ "inventory": [
+  "Emily Davidson",
+  "Christopher Jones",
+  "Tacoma, Washington",
+  "Louisville, Kentucky",
+  "heart attack",
+  "malignant tumor",
+  "emergency room",
+  "support groups",
+  "community of support",
+  "health scare",
+  "Health and wellness",
+  "lifelong learning"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Emily Davidson",
+    "relation": "age",
+    "value": "44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 44-year-old marketing consultant from Tacoma, Washington"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emily Davidson",
+    "relation": "occupation",
+    "value": "marketing consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 44-year-old marketing consultant from Tacoma, Washington"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Davidson",
+    "relation": "from",
+    "value": "Tacoma, Washington",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 44-year-old marketing consultant from Tacoma, Washington"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Tacoma, Washington",
+    "relation": "home_of",
+    "value": "Emily Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 44-year-old marketing consultant from Tacoma, Washington"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emily Davidson",
+    "relation": "felt",
+    "value": "an unmistakable tightness in her chest",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was a crisp morning on September 3, 2023, when Emily Davidson, a 44-year-old marketing consultant from Tacoma, Washington, felt an unmistakable tightness in her chest."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emily Davidson",
+    "relation": "dismissed_chest_pains_as",
+    "value": "indigestion or stress",
+    "time": "over the previous weeks",
+    "speaker": null,
+    "verbatim": [
+     "Having dismissed minor chest pains over the previous weeks as indigestion or stress"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "emergency room",
+    "relation": "visited_by",
+    "value": "Emily Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A visit to the emergency room revealed a reality far more severe than she had allowed herself to imagine"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "heart attack",
+    "relation": "suffered_by",
+    "value": "Emily Davidson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily was in the throes of a heart attack."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "emergency room",
+    "relation": "revealed",
+    "value": "a reality far more severe than she had allowed herself to imagine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A visit to the emergency room revealed a reality far more severe than she had allowed herself to imagine"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "emergency room",
+    "relation": "revealed",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A visit to the emergency room revealed a reality far more severe than she had allowed herself to imagine: Emily was in the throes of a heart attack."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emily Davidson",
+    "relation": "faced",
+    "value": "a moment of epiphany",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily faced a moment of epiphany."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emily Davidson",
+    "relation": "lifestyle_seen_as",
+    "value": "contributors to her dire condition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not as badges of accomplishment but as contributors to her dire condition"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Emily Davidson",
+    "relation": "returned_home_as",
+    "value": "not the same woman who had naively juggled cheeseburgers and late nights at the office",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When Emily returned home, she was not the same woman who had naively juggled cheeseburgers and late nights at the office."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emily Davidson",
+    "relation": "exercise_became",
+    "value": "her lifeline to longevity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Exercise became more than a chore; it was her lifeline to longevity."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emily Davidson",
+    "relation": "dining_became",
+    "value": "an exercise in nourishment and respect for her body",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dining was no longer an indulgence but an exercise in nourishment and respect for her body."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Emily Davidson",
+    "relation": "found_solace_in",
+    "value": "fellow heart attack survivors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily found solace and strength in fellow heart attack survivors"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Emily Davidson",
+    "relation": "reoriented_life_towards",
+    "value": "wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she reoriented her life towards wellness."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Christopher Jones",
+    "relation": "occupation",
+    "value": "high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Christopher Jones, a high school teacher from Louisville, Kentucky"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Christopher Jones",
+    "relation": "from",
+    "value": "Louisville, Kentucky",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Christopher Jones, a high school teacher from Louisville, Kentucky"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Louisville, Kentucky",
+    "relation": "home_of",
+    "value": "Christopher Jones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Christopher Jones, a high school teacher from Louisville, Kentucky"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Christopher Jones",
+    "relation": "age",
+    "value": "38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marked a pivotal moment in his 38 years of life"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Christopher Jones",
+    "relation": "diagnosed_with",
+    "value": "a malignant tumor",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 20, 2023, marked a pivotal moment in his 38 years of life when a routine checkup revealed a malignant tumor in his colon."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "malignant tumor",
+    "relation": "located_in",
+    "value": "colon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a routine checkup revealed a malignant tumor in his colon"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Christopher Jones",
+    "relation": "heard_word",
+    "value": "\"cancer\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The word \"cancer\" echoed in his ears, drowning out the assurances of treatability his doctor offered."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Christopher Jones",
+    "relation": "was_offered",
+    "value": "assurances of treatability",
+    "time": null,
+    "speaker": "his doctor",
+    "verbatim": [
+     "drowning out the assurances of treatability his doctor offered"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Christopher Jones",
+    "relation": "underwent",
+    "value": "weeks of treatments",
+    "time": "In the weeks of treatments that followed",
+    "speaker": null,
+    "verbatim": [
+     "In the weeks of treatments that followed"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Christopher Jones",
+    "relation": "experienced",
+    "value": "a confrontation with mortality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christopher experienced what many in his situation have: a confrontation with mortality"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Christopher Jones",
+    "relation": "became",
+    "value": "a student once again",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He became a student once again, learning the languages of gratitude and mindfulness"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Christopher Jones",
+    "relation": "learned",
+    "value": "the languages of gratitude and mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learning the languages of gratitude and mindfulness"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Christopher Jones",
+    "relation": "stepped_away_from",
+    "value": "the facade of immortality that youth often provides",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christopher's ordeal saw him stepping away from the facade of immortality that youth often provides."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "support groups",
+    "relation": "offered_camaraderie_to",
+    "value": "Christopher Jones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christopher discovered camaraderie in support groups"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "support groups",
+    "relation": "alleviated_weight_of",
+    "value": "Christopher's journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "finding that sharing his fears and victories alleviated the weight of his journey."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "community of support",
+    "relation": "is_common_thread",
+    "value": "a common thread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As each story unfolds, a common thread emerges: the community of support."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "health scare",
+    "relation": "is_not",
+    "value": "a solitary endeavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facing a health scare is not a solitary endeavor"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "health scare",
+    "relation": "is_immersion_into",
+    "value": "a fellowship of challenge and transformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is an immersion into a fellowship of challenge and transformation."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "health scare",
+    "relation": "often_leads_to",
+    "value": "a period of metamorphosis that quietly but profoundly reinvents lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Surviving a health scare often leads to just such a moment, a period of metamorphosis that quietly but profoundly reinvents lives."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "health scare",
+    "relation": "often_becomes",
+    "value": "the crucible through which a new self is forged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Surviving a health scare often becomes the crucible through which a new self is forged."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "health scare",
+    "relation": "after_immediate_threats_recede",
+    "value": "the days stretch out, not as a return to an old life but as the embrace of a new rhythm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After the immediate threats recede, the days stretch out, not as a return to an old life but as the embrace of a new rhythm."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "health scare",
+    "relation": "brings_to_forefront",
+    "value": "a sense of infinity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cycle of life imbues a sense of infinity that health scares bring to the forefront of consciousness."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Health and wellness",
+    "relation": "transcends",
+    "value": "the realms of diet and exercise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Health and wellness transcend beyond the realms of diet and exercise, inhabiting a space of existential growth and perpetual curiosity."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Health and wellness",
+    "relation": "inhabits",
+    "value": "a space of existential growth and perpetual curiosity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Health and wellness transcend beyond the realms of diet and exercise, inhabiting a space of existential growth and perpetual curiosity."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "lifelong learning",
+    "relation": "kindled_by",
+    "value": "a cerebral and emotional awakening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a cerebral and emotional awakening that kindles an unquenchable desire for lifelong learning."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

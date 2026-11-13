@@ -1,0 +1,685 @@
+{
+ "inventory": [
+  "David Franklin",
+  "Mia Torres",
+  "Julian Park",
+  "Chloe Kim",
+  "Aiden Brooks",
+  "Dr. Hannah Lee",
+  "the local high school gym",
+  "Virtual reality (VR) headsets",
+  "wearable tech",
+  "smart compression gear",
+  "recovery zone",
+  "cryotherapy chambers",
+  "foam rollers",
+  "mindfulness meditation",
+  "yoga stretches",
+  "movement-based strength training",
+  "functional fitness",
+  "early specialization",
+  "multisport participation",
+  "Cross-training",
+  "Schools and sports organizations",
+  "parents\u2019 meeting",
+  "family fitness event",
+  "fundraisers",
+  "Local businesses"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the local high school gym",
+    "relation": "is_abuzz_on",
+    "value": "Monday morning, September 4, 2023",
+    "time": "Monday morning, September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a brisk Monday morning, September 4, 2023, the local high school gym is abuzz well before the first bell."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "the local high school gym",
+    "relation": "activities_described_as",
+    "value": "more like science fiction than a regular workout session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teens clad in state-of-the-art training gear are engaged in activities that seem more like science fiction than a regular workout session."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "David Franklin",
+    "relation": "occupation",
+    "value": "coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the guidance of coach David Franklin, a pioneer in youth athletic training"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "David Franklin",
+    "relation": "described_as",
+    "value": "a pioneer in youth athletic training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the guidance of coach David Franklin, a pioneer in youth athletic training"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mia Torres",
+    "relation": "age",
+    "value": "15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for 15-year-old soccer prodigy Mia Torres, it starts with a morning routine that includes mindfulness meditation and yoga stretches."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mia Torres",
+    "relation": "main_sport",
+    "value": "soccer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even though her main sport is soccer"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mia Torres",
+    "relation": "morning_routine_includes",
+    "value": "mindfulness meditation and yoga stretches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it starts with a morning routine that includes mindfulness meditation and yoga stretches."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mia Torres",
+    "relation": "says_routine_helps",
+    "value": "helps me focus and keeps my muscles flexible",
+    "time": null,
+    "speaker": "Mia Torres",
+    "verbatim": [
+     "\u201cIt helps me focus and keeps my muscles flexible,\u201d she explains"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mia Torres",
+    "relation": "injuries_last_season",
+    "value": "zero",
+    "time": "last season",
+    "speaker": null,
+    "verbatim": [
+     "attributing her zero injuries last season to this holistic regimen"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mia Torres",
+    "relation": "caused_by",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attributing her zero injuries last season to this holistic regimen"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "the local high school gym",
+    "relation": "outfitted_with",
+    "value": "an array of gadgets and gizmos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Later, the gym is outfitted with an array of gadgets and gizmos."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Virtual reality (VR) headsets",
+    "relation": "used_for",
+    "value": "cognitive training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual reality (VR) headsets are used for cognitive training"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "wearable tech",
+    "relation": "monitors",
+    "value": "every heartbeat, step, and jump",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wearable tech monitors every heartbeat, step, and jump"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "wearable tech",
+    "relation": "provides",
+    "value": "real-time data for analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing real-time data for analysis"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Julian Park",
+    "relation": "age",
+    "value": "16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julian Park, the 16-year-old basketball star"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Julian Park",
+    "relation": "sport",
+    "value": "basketball",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julian Park, the 16-year-old basketball star"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Julian Park",
+    "relation": "swears_by",
+    "value": "his smart compression gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julian Park, the 16-year-old basketball star, swears by his smart compression gear that tracks muscle exertion."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "smart compression gear",
+    "relation": "tracks",
+    "value": "muscle exertion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart compression gear that tracks muscle exertion"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Julian Park",
+    "relation": "says_personal_coach",
+    "value": "It's like having a personal coach for every muscle",
+    "time": null,
+    "speaker": "Julian Park",
+    "verbatim": [
+     "\"It's like having a personal coach for every muscle,\" Julian chuckles"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Julian Park",
+    "relation": "checks_data_on",
+    "value": "his tablet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as he checks the data on his tablet"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Chloe Kim",
+    "relation": "age",
+    "value": "14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Kim, age 14, has both a meal plan and a mental conditioning coach to help with her competitive swimming."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Chloe Kim",
+    "relation": "has",
+    "value": "a meal plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Kim, age 14, has both a meal plan and a mental conditioning coach to help with her competitive swimming."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Chloe Kim",
+    "relation": "has",
+    "value": "a mental conditioning coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Kim, age 14, has both a meal plan and a mental conditioning coach to help with her competitive swimming."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Chloe Kim",
+    "relation": "sport",
+    "value": "competitive swimming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Kim, age 14, has both a meal plan and a mental conditioning coach to help with her competitive swimming."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "recovery zone",
+    "relation": "equipped_with",
+    "value": "foam rollers, massage tools, and cryotherapy chambers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a dedicated recovery zone, equipped with foam rollers, massage tools, and cryotherapy chambers."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "recovery zone",
+    "relation": "described_as",
+    "value": "a critical component of the training process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recovery is no longer an afterthought but a critical component of the training process."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "David Franklin",
+    "relation": "catchphrase",
+    "value": "train hard, recover harder",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "\u201cWe use the phrase \u2018train hard, recover harder\u2019,\u201d comments coach Franklin."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Franklin",
+    "relation": "says_focus_is",
+    "value": "longevity and keeping these kids healthy on and off the field",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "It\u2019s all about longevity and keeping these kids healthy on and off the field."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "movement-based strength training",
+    "relation": "replaces",
+    "value": "traditional weightlifting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instead of traditional weightlifting, athletes are engaging in movement-based strength training."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Aiden Brooks",
+    "relation": "age",
+    "value": "17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "17-year-old Aiden Brooks, an aspiring hockey player, practices a range of motion exercises that mimic in-game movement patterns."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Aiden Brooks",
+    "relation": "sport",
+    "value": "hockey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "17-year-old Aiden Brooks, an aspiring hockey player"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Aiden Brooks",
+    "relation": "practices",
+    "value": "a range of motion exercises that mimic in-game movement patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "practices a range of motion exercises that mimic in-game movement patterns."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "functional fitness",
+    "relation": "described_as",
+    "value": "training the body to handle real-world sports scenarios, not just lifting for the sake of lifting",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "It's about functional fitness \u2013 training the body to handle real-world sports scenarios, not just lifting for the sake of lifting."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "early specialization",
+    "relation": "debated_against",
+    "value": "multisport participation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A debate rages on the merits of early specialization against the advantages of multisport participation."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "early specialization",
+    "relation": "argued_for_by",
+    "value": "honing a child's skill from a young age",
+    "time": null,
+    "speaker": "some",
+    "verbatim": [
+     "While some argue for honing a child's skill from a young age"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "multisport participation",
+    "relation": "argued_to_lead_to",
+    "value": "a more well-rounded athlete",
+    "time": null,
+    "speaker": "others",
+    "verbatim": [
+     "others emphasize that a multi-sport background can lead to a more well-rounded athlete."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Mia Torres",
+    "relation": "played",
+    "value": "basketball",
+    "time": "Tuesday afternoon",
+    "speaker": null,
+    "verbatim": [
+     "It's Tuesday afternoon, and we see Mia playing basketball"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Cross-training",
+    "relation": "builds",
+    "value": "different muscles and skills that you wouldn't use otherwise",
+    "time": null,
+    "speaker": "Mia Torres",
+    "verbatim": [
+     "\u201cCross-training helps build different muscles and skills that you wouldn't use otherwise,\u201d she asserts."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Julian Park",
+    "relation": "undergoes_evaluations",
+    "value": "evaluations that measure everything from speed to agility to muscular endurance",
+    "time": "Each week",
+    "speaker": null,
+    "verbatim": [
+     "Each week, young athletes like Julian go through evaluations that measure everything from speed to agility to muscular endurance."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Hannah Lee",
+    "relation": "occupation",
+    "value": "sports psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sports psychologists like Dr. Hannah Lee"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Hannah Lee",
+    "relation": "works_with",
+    "value": "athletes to turn data into motivational tools rather than sources of stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sports psychologists like Dr. Hannah Lee work with athletes to turn data into motivational tools rather than sources of stress."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mia Torres",
+    "relation": "balancing",
+    "value": "school work and rigorous training schedules",
+    "time": "Wednesday morning",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to Wednesday morning, and Mia, Julian, and Aiden are seen balancing school work and rigorous training schedules."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Julian Park",
+    "relation": "balancing",
+    "value": "school work and rigorous training schedules",
+    "time": "Wednesday morning",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to Wednesday morning, and Mia, Julian, and Aiden are seen balancing school work and rigorous training schedules."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Aiden Brooks",
+    "relation": "balancing",
+    "value": "school work and rigorous training schedules",
+    "time": "Wednesday morning",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to Wednesday morning, and Mia, Julian, and Aiden are seen balancing school work and rigorous training schedules."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Schools and sports organizations",
+    "relation": "recognize",
+    "value": "the importance of academic performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools and sports organizations are recognizing the importance of academic performance and are offering flexible training times and educational support."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Schools and sports organizations",
+    "relation": "offer",
+    "value": "flexible training times and educational support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are offering flexible training times and educational support."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Schools and sports organizations",
+    "relation": "enables",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are offering flexible training times and educational support.",
+     "It helps ensure athletes are not falling behind in their studies due to their sporting commitments."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Schools and sports organizations",
+    "relation": "helps_ensure",
+    "value": "athletes are not falling behind in their studies due to their sporting commitments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It helps ensure athletes are not falling behind in their studies due to their sporting commitments."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "parents\u2019 meeting",
+    "relation": "held_on",
+    "value": "Thursday",
+    "time": "Thursday",
+    "speaker": null,
+    "verbatim": [
+     "Thursday brings a parents\u2019 meeting"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "parents\u2019 meeting",
+    "relation": "discusses",
+    "value": "the importance of their role",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where coach Franklin meets with families to discuss the importance of their role."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "David Franklin",
+    "relation": "says_to_parents",
+    "value": "You are part of the team",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "\u201cYou are part of the team,\u201d he tells them."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "David Franklin",
+    "relation": "says_support_at_home_is",
+    "value": "vital",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "at home is vital."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "David Franklin",
+    "relation": "says_parents_help_shape_athletes",
+    "value": "from the food you make to encouraging rest and recovery",
+    "time": null,
+    "speaker": "David Franklin",
+    "verbatim": [
+     "From the food you make to encouraging rest and recovery, you help shape these young athletes."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Local businesses",
+    "relation": "sponsor",
+    "value": "events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses sponsor events"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "fundraisers",
+    "relation": "has_parent_volunteers",
+    "value": "parents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "parents often volunteer at fundraisers."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "the local high school gym",
+    "relation": "hosts",
+    "value": "a family fitness event",
+    "time": "Friday night",
+    "speaker": null,
+    "verbatim": [
+     "On Friday night, the gym hosts a family fitness event"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Chloe Kim",
+    "relation": "demonstrates",
+    "value": "their training routines to their families and friends",
+    "time": "Friday night",
+    "speaker": null,
+    "verbatim": [
+     "athletes like Chloe demonstrate their training routines to their families and friends."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "family fitness event",
+    "relation": "fosters",
+    "value": "an inclusive environment where fitness and athletics are celebrated as a collective achievement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It fosters an inclusive environment where fitness and athletics are celebrated as a collective achievement."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "family fitness event",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On Friday night, the gym hosts a family fitness event",
+     "It fosters an inclusive environment where fitness and athletics are celebrated as a collective achievement."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,863 @@
+{
+ "inventory": [
+  "City Council",
+  "The Grand Bridge Expansion Project",
+  "Patricia Lee",
+  "Revitalization of Old Town Roads",
+  "Old Town",
+  "Enhancement of East-West Corridor",
+  "East-West Corridor",
+  "Rajiv Singh",
+  "Green Oasis Public Plaza",
+  "Emily Torres",
+  "Spruce Street Overpass Repair",
+  "Seattle",
+  "Downtown Skyline Project",
+  "Northside Recreation Center",
+  "Maple Drive Connector",
+  "Toronto",
+  "City Central Library Renovation",
+  "Transit System Upgrades"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "City Council",
+    "relation": "approves",
+    "value": "top 10 anticipated infrastructure developments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Council Approves Top 10 Anticipated Infrastructure Developments"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "City Council",
+    "relation": "provided_plan",
+    "value": "a clear plan for its future development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the council has provided us with a clear plan for its future development"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "City Council",
+    "relation": "made_decisions",
+    "value": "decisions that promise to strengthen our support system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our city council recently made decisions that promise to strengthen our support system"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "described_as",
+    "value": "an essential link across the city's main river",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grand Bridge, an essential link across the city's main river, will soon undergo significant expansion."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "start_date",
+    "value": "late November 2023",
+    "time": "late November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Set to begin late November 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "championed_by",
+    "value": "Councilwoman Patricia Lee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "championed by Councilwoman Patricia Lee"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Patricia Lee",
+    "relation": "holds_office",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "championed by Councilwoman Patricia Lee"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "aims_to",
+    "value": "ease daily congestion for commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this massive undertaking aims to ease daily congestion for commuters"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "adds",
+    "value": "two lanes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Two lanes, dedicated bicycle track, and pedestrian walkways will be added."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "adds",
+    "value": "dedicated bicycle track",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Two lanes, dedicated bicycle track, and pedestrian walkways will be added."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "adds",
+    "value": "pedestrian walkways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Two lanes, dedicated bicycle track, and pedestrian walkways will be added."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "budget",
+    "value": "an adequate budget has been set aside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an adequate budget has been set aside so as to guarantee state-of-the-art design prioritizing safety and accessibility"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "guarantees",
+    "value": "state-of-the-art design prioritizing safety and accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "so as to guarantee state-of-the-art design prioritizing safety and accessibility"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Grand Bridge Expansion Project",
+    "relation": "in_order_to",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an adequate budget has been set aside so as to guarantee"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Old Town",
+    "relation": "has",
+    "value": "both charm and history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Old Town has both charm and history"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Old Town",
+    "relation": "roads_condition",
+    "value": "roads have seen better days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet its roads have seen better days"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "approved_at",
+    "value": "council meeting",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At a council meeting held on October 5, 2023, an ambitious plan to upgrade all roads within this historic district was approved"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "plans",
+    "value": "upgrade all roads within this historic district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an ambitious plan to upgrade all roads within this historic district was approved"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "start_date",
+    "value": "early 2024",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "set to commence early 2024"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "includes",
+    "value": "smart traffic systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including modern infrastructure technologies such as smart traffic systems"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "improves",
+    "value": "its aesthetics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improve not only its aesthetics"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "aims_to",
+    "value": "preserve its charm while optimizing traffic flow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that will preserve its charm while optimizing traffic flow"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Revitalization of Old Town Roads",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart traffic systems that will preserve its charm while optimizing traffic flow"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "proposed_by",
+    "value": "Councilman Rajiv Singh",
+    "time": "September 15th 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15th 2023, Councilman Rajiv Singh's proposal for East-West Corridor enhancement received unanimous support."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "received",
+    "value": "unanimous support",
+    "time": "September 15th 2023",
+    "speaker": null,
+    "verbatim": [
+     "received unanimous support"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Rajiv Singh",
+    "relation": "holds_office",
+    "value": "Councilman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilman Rajiv Singh's proposal"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "East-West Corridor",
+    "relation": "serves_as",
+    "value": "an important link for suburban commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This corridor serves as an important link for"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "aims_to",
+    "value": "reduce travel times and enhance safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is due for an overhaul that promises to reduce travel times and enhance safety"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "includes",
+    "value": "widening key points along the corridor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as widening key points along the corridor"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "includes",
+    "value": "improving lighting systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving lighting systems"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Enhancement of East-West Corridor",
+    "relation": "includes",
+    "value": "installing traffic management systems that will better monitor traffic flows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "installing traffic management systems that will better monitor traffic flows"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "described_as",
+    "value": "the city's new social hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green Oasis Public Plaza has been designed as the city's new social hub"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "groundbreaking_date",
+    "value": "January 2024",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "set for groundbreaking in January 2024"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "spearheaded_by",
+    "value": "Councilwoman Emily Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Councilwoman Emily Torres"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emily Torres",
+    "relation": "holds_office",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Councilwoman Emily Torres"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "features",
+    "value": "interactive water features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its design features interactive water features"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "features",
+    "value": "open-air performance spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "open-air performance spaces"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "features",
+    "value": "sustainable energy sources like solar panels and rainwater harvesting systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sustainable energy sources like solar panels and rainwater harvesting systems"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Green Oasis Public Plaza",
+    "relation": "creates",
+    "value": "a welcoming space where communities can come together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a welcoming space where communities can come together"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Spruce Street Overpass Repair",
+    "relation": "prioritized_at",
+    "value": "council session",
+    "time": "September 22",
+    "speaker": null,
+    "verbatim": [
+     "At their September 22 council session, members unanimously decided to prioritize the repair and updating of the Spruce Street Overpass"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Spruce Street Overpass Repair",
+    "relation": "decision_vote",
+    "value": "unanimously decided to prioritize",
+    "time": "September 22",
+    "speaker": null,
+    "verbatim": [
+     "members unanimously decided to prioritize"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Spruce Street Overpass Repair",
+    "relation": "used_by",
+    "value": "used daily by thousands traveling from northeast suburbs of Seattle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an integral piece of infrastructure used daily by thousands traveling from northeast suburbs of Seattle"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Seattle",
+    "relation": "has_suburbs",
+    "value": "northeast suburbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traveling from northeast suburbs of Seattle"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Spruce Street Overpass Repair",
+    "relation": "work_includes",
+    "value": "reinforcement upgrades, seismic retrofitting, aesthetic enhancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reinforcement upgrades, seismic retrofitting, aesthetic enhancements are scheduled to be complete by third quarter 2024."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Spruce Street Overpass Repair",
+    "relation": "completion_date",
+    "value": "third quarter 2024",
+    "time": "third quarter 2024",
+    "speaker": null,
+    "verbatim": [
+     "scheduled to be complete by third quarter 2024"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Downtown Skyline Project",
+    "relation": "approval_date",
+    "value": "September 29, 2023",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Downtown Skyline Project, approved on September 29, 2023, promises to transform the central business district."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Downtown Skyline Project",
+    "relation": "aims_to",
+    "value": "transform the central business district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises to transform the central business district"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Downtown Skyline Project",
+    "relation": "involves",
+    "value": "building high-rise structures designed as commercial, residential, and recreational spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It involves building high-rise structures designed as commercial, residential, and recreational spaces"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Downtown Skyline Project",
+    "relation": "incorporates",
+    "value": "architectural designs inspired by local cultural traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each incorporating architectural designs inspired by local cultural traditions"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Downtown Skyline Project",
+    "relation": "balances",
+    "value": "economic growth with artistic integrity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while balancing economic growth with artistic integrity"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Downtown Skyline Project",
+    "relation": "received",
+    "value": "widespread acclaim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative has received widespread acclaim."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Northside Recreation Center",
+    "relation": "focus",
+    "value": "community wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community wellness is at the core of Northside Recreation Center project"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Northside Recreation Center",
+    "relation": "approved_at",
+    "value": "special meeting",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which was approved at a special meeting held September 9, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Northside Recreation Center",
+    "relation": "will_house",
+    "value": "an Olympic-sized swimming pool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This state-of-the-art facility will house an Olympic-sized swimming pool"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Northside Recreation Center",
+    "relation": "will_house",
+    "value": "indoor track",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indoor track"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Northside Recreation Center",
+    "relation": "will_house",
+    "value": "multiple courts for various sports activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "multiple courts for various sports activities"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Northside Recreation Center",
+    "relation": "includes_design",
+    "value": "accessible design elements tailored specifically towards individuals with disabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "accessible design elements tailored specifically towards individuals with disabilities"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Maple Drive Connector",
+    "relation": "described_as",
+    "value": "narrowly passing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Surprisingly narrowly passing, the Maple Drive Connector initiative"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Maple Drive Connector",
+    "relation": "plans",
+    "value": "construct a minor artery to ease traffic between two of Toronto's busiest neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plans to construct a minor artery to ease traffic between two of Toronto's busiest neighborhoods"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Toronto",
+    "relation": "has_neighborhoods",
+    "value": "two of Toronto's busiest neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "two of Toronto's busiest neighborhoods"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Maple Drive Connector",
+    "relation": "completion_date",
+    "value": "late 2023",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Scheduled for completion in late 2023"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Maple Drive Connector",
+    "relation": "designed_with",
+    "value": "minimal environmental impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this project has been designed with minimal environmental impact in mind"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Maple Drive Connector",
+    "relation": "protects",
+    "value": "most green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "protecting most green spaces"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Maple Drive Connector",
+    "relation": "offers",
+    "value": "a convenient new route for motorists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while offering motorists a convenient new route"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "City Central Library Renovation",
+    "relation": "status",
+    "value": "will soon undergo an exciting renovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Central Library will soon undergo an exciting renovation."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "City Central Library Renovation",
+    "relation": "approval_date",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Approved on October 12, 2023"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "City Central Library Renovation",
+    "relation": "plans",
+    "value": "restore its historical facade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plans to restore its historical facade"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "City Central Library Renovation",
+    "relation": "plans",
+    "value": "modernize interior spaces to create a stimulating learning and collaboration environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also modernize interior spaces to create a stimulating learning and collaboration environment"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "City Central Library Renovation",
+    "relation": "will_transform",
+    "value": "enhanced digital infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhanced digital infrastructure will transform this public resource center"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "City Council",
+    "relation": "approved",
+    "value": "an upgrade of its current transit system",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "they approved an upgrade of its current transit system on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "City Council",
+    "relation": "top_priority",
+    "value": "public transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public transportation remains a top priority for the City Council"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Transit System Upgrades",
+    "relation": "includes",
+    "value": "purchasing eco-friendly buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These upgrades included purchasing eco-friendly buses"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Transit System Upgrades",
+    "relation": "includes",
+    "value": "expanding routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expanding routes"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Transit System Upgrades",
+    "relation": "includes",
+    "value": "introducing smart ticketing services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introducing smart ticketing services"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Transit System Upgrades",
+    "relation": "should_increase",
+    "value": "ridership",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which should increase ridership by providing more reliable, accessible, and comfortable services"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Transit System Upgrades",
+    "relation": "should_enhance",
+    "value": "ridership",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative should enhance ridership."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,611 @@
+{
+ "inventory": [
+  "Loch Ness Monster",
+  "Ewan MacPhee",
+  "Cerberus",
+  "Georgia Van Helsin",
+  "Griffin",
+  "Yannis Stavropoulos",
+  "Medusa",
+  "Helen Troas",
+  "Sphinx",
+  "Dr. Jules Castellano",
+  "Banshee",
+  "Declan Byrne",
+  "O'Connor's estate",
+  "Yeti",
+  "Aiko Tanaka",
+  "Giza",
+  "Hades",
+  "Himalayas",
+  "Grecian cliffs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Loch Ness Monster",
+    "relation": "also_known_as",
+    "value": "Nessie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affectionately known as Nessie"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Loch Ness Monster",
+    "relation": "described_as",
+    "value": "Scottish sweetheart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Let's start with the ever-elusive Scottish sweetheart, the Loch Ness Monster"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Loch Ness Monster",
+    "relation": "spotted_first_by",
+    "value": "Ewan MacPhee",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Spotted first by local Nessie enthusiast Ewan MacPhee on a misty morning of September 12, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Loch Ness Monster",
+    "relation": "has_been",
+    "value": "a star of tourist binoculars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nessie has since been a star of tourist binoculars"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Ewan MacPhee",
+    "relation": "described_as",
+    "value": "local Nessie enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spotted first by local Nessie enthusiast Ewan MacPhee"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Ewan MacPhee",
+    "relation": "said",
+    "value": "I saw her gentle eyes; it was as if she was searching for something...or someone.",
+    "time": null,
+    "speaker": "Ewan MacPhee",
+    "verbatim": [
+     "MacPhee claims, \"I saw her gentle eyes; it was as if she was searching for something...or someone.\""
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Loch Ness Monster",
+    "relation": "profile_says",
+    "value": "Deep-sea diva with a love for privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Deep-sea diva with a love for privacy seeks a partner who enjoys the tranquil waters"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Loch Ness Monster",
+    "relation": "profile_says",
+    "value": "must be open to long-distance swims and have an affinity for seafood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Must be open to long-distance swims and have an affinity for seafood."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Cerberus",
+    "relation": "described_as",
+    "value": "the underworld's canine guardian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Next up, the underworld's canine guardian, Cerberus"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Cerberus",
+    "relation": "spotted_by",
+    "value": "Georgia Van Helsin",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spotted by intrepid explorer and selfproclaimed mythologist Georgia Van Helsin on her most recent dig, dated October 3, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Georgia Van Helsin",
+    "relation": "described_as",
+    "value": "intrepid explorer and selfproclaimed mythologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intrepid explorer and selfproclaimed mythologist Georgia Van Helsin"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Cerberus",
+    "relation": "job",
+    "value": "managing a particularly demanding job at the gates of Hades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As someone managing a particularly demanding job at the gates of Hades"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hades",
+    "relation": "gates_managed_by",
+    "value": "Cerberus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As someone managing a particularly demanding job at the gates of Hades"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cerberus",
+    "relation": "profile_says",
+    "value": "multi-headed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hardworking, multi-headed, and multi-tasker"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cerberus",
+    "relation": "profile_says",
+    "value": "has two brothers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Must love dogs and be cool with my two brothers (yes, they're also me)."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Cerberus",
+    "relation": "profile_says",
+    "value": "a knack for belly rubs is a must",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A knack for belly rubs is a must."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Griffin",
+    "relation": "is_a",
+    "value": "an eagle-lion hybrid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Griffin\u2014an eagle-lion hybrid\u2014was reportedly seen sharpening its talons on the Grecian cliffs"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Griffin",
+    "relation": "seen_on",
+    "value": "the Grecian cliffs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was reportedly seen sharpening its talons on the Grecian cliffs"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Griffin",
+    "relation": "sighted_by",
+    "value": "Yannis Stavropoulos",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as sighted by local farmer Yannis Stavropoulos on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Yannis Stavropoulos",
+    "relation": "described_as",
+    "value": "local farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as sighted by local farmer Yannis Stavropoulos"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Griffin",
+    "relation": "symbolizes",
+    "value": "divine power and wisdom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For a creature symbolizing divine power and wisdom"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Griffin",
+    "relation": "profile_says",
+    "value": "I bring the best of two worlds: the majesty of a lion and the grace of an eagle.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I bring the best of two worlds: the majesty of a lion and the grace of an eagle."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Grecian cliffs",
+    "relation": "site_of_sighting_of",
+    "value": "Griffin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was reportedly seen sharpening its talons on the Grecian cliffs"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Helen Troas",
+    "relation": "described_as",
+    "value": "paranormal researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to a paranormal researcher, Helen Troas"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Helen Troas",
+    "relation": "claims_encounter_with",
+    "value": "Medusa",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who claims to have had a \"blink and you'll miss it\" encounter on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Medusa",
+    "relation": "gaze_remains",
+    "value": "as potent as ever",
+    "time": null,
+    "speaker": "Helen Troas",
+    "verbatim": [
+     "Medusa's cursed gaze remains as potent as ever"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Medusa",
+    "relation": "has",
+    "value": "cursed gaze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Medusa's cursed gaze"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Medusa",
+    "relation": "yearns_for",
+    "value": "someone who sees past her serpentine stigma",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Medusa, however, yearns for someone who sees past her serpentine stigma."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Medusa",
+    "relation": "profile_says",
+    "value": "Stone-cold beauty with a hair-raising sense of style",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stone-cold beauty with a hair-raising sense of style seeks a blind date, literally."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Medusa",
+    "relation": "profile_says",
+    "value": "Avert your eyes and let's connect on a deeper level.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Avert your eyes and let's connect on a deeper level."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sphinx",
+    "relation": "spotted_by",
+    "value": "Dr. Jules Castellano",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spotted whispering riddles into the winds of Giza by enigmatic archaeologist Dr. Jules Castellano on the night of the autumnal equinox, September 23, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sphinx",
+    "relation": "spotted_at",
+    "value": "Giza",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spotted whispering riddles into the winds of Giza"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Giza",
+    "relation": "sighting_site_of",
+    "value": "Sphinx",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spotted whispering riddles into the winds of Giza"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Jules Castellano",
+    "relation": "described_as",
+    "value": "enigmatic archaeologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enigmatic archaeologist Dr. Jules Castellano"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sphinx",
+    "relation": "mysteries_are",
+    "value": "lonely",
+    "time": null,
+    "speaker": "Some believe",
+    "verbatim": [
+     "Some believe that the Sphinx\u2019s mysteries are indeed lonely"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sphinx",
+    "relation": "known_for",
+    "value": "its love of mind games",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known for its love of mind games"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sphinx",
+    "relation": "profile_says",
+    "value": "I'm a conversation starter, not just a pretty monument.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I'm a conversation starter, not just a pretty monument."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Banshee",
+    "relation": "described_as",
+    "value": "The Irish harbinger of death",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Irish harbinger of death, the Banshee"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Banshee",
+    "relation": "heard_at",
+    "value": "O'Connor's estate",
+    "time": "October 31, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Last heard wailing down the draughty halls of O'Connor's estate on a stormy evening of October 31, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Banshee",
+    "relation": "heard_by",
+    "value": "Declan Byrne",
+    "time": "October 31, 2023",
+    "speaker": null,
+    "verbatim": [
+     "by local ghost hunter Declan Byrne"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Declan Byrne",
+    "relation": "described_as",
+    "value": "local ghost hunter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by local ghost hunter Declan Byrne"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "O'Connor's estate",
+    "relation": "where_banshee_heard",
+    "value": "Banshee",
+    "time": "October 31, 2023",
+    "speaker": null,
+    "verbatim": [
+     "halls of O'Connor's estate"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Banshee",
+    "relation": "lament_is",
+    "value": "heart-wrenching",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her lament is said to be heart-wrenching."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Banshee",
+    "relation": "profile_says",
+    "value": "Melancholy musician with a flair for the dramatic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melancholy musician with a flair for the dramatic and the vocal chords to match."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Banshee",
+    "relation": "profile_says",
+    "value": "Emotional availability required; earplugs optional",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emotional availability required; earplugs optional."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Yeti",
+    "relation": "also_known_as",
+    "value": "the abominable snowman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our final entry is the abominable snowman, or Yeti"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Yeti",
+    "relation": "footprint_photographed_by",
+    "value": "Aiko Tanaka",
+    "time": "December 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose footprint was most recently photographed by daring mountaineer Aiko Tanaka on the snowy ledges of the Himalayas on December 14, 2023"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Aiko Tanaka",
+    "relation": "described_as",
+    "value": "daring mountaineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "daring mountaineer Aiko Tanaka"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Yeti",
+    "relation": "footprint_photographed_at",
+    "value": "the snowy ledges of the Himalayas",
+    "time": "December 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on the snowy ledges of the Himalayas on December 14, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Himalayas",
+    "relation": "site_of_yeti_footprint",
+    "value": "Yeti",
+    "time": "December 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on the snowy ledges of the Himalayas on December 14, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Yeti",
+    "relation": "described_as",
+    "value": "shy mountain dweller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shy mountain dweller likely seeks someone who's cool with chilling in the frosty outdoors."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Yeti",
+    "relation": "profile_says",
+    "value": "Cuddly hermit living off the grid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cuddly hermit living off the grid with a penchant for snowball fights and quiet nights by the fire."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Yeti",
+    "relation": "profile_says",
+    "value": "Must not be cold-hearted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Must not be cold-hearted."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,660 @@
+{
+ "inventory": [
+  "Wellness Workshop",
+  "Mental health",
+  "October 21, 2023",
+  "Sunnyville Community Center",
+  "Dr. Lydia Martins",
+  "Mr. Jamal Patterson",
+  "Ms. Aria Thompson",
+  "Mindfulness Meditation",
+  "Rachel Kim",
+  "Art Therapy Session",
+  "Role-Playing Scenarios",
+  "Myth Busters",
+  "Stigma",
+  "Sarah O'Connell",
+  "Coach Derrick Stewart",
+  "Dr. Elena Ramirez",
+  "Kieran Lee",
+  "Stress management",
+  "Anxiety",
+  "Depression",
+  "Omega-3 fatty acids",
+  "Wellness Plan",
+  "Support network",
+  "Feedback forms"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mental health",
+    "relation": "is_component_of",
+    "value": "overall wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mental health is an integral component of overall wellness"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mental health",
+    "relation": "described_as",
+    "value": "often overlooked or misunderstood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet it is often overlooked or misunderstood"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wellness Workshop",
+    "relation": "has_become",
+    "value": "increasingly prevalent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a surge in Wellness Workshops dedicated to understanding and managing mental health has become increasingly prevalent"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Wellness Workshop",
+    "relation": "foundation_lies_in",
+    "value": "its planning stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The foundation of an effective Wellness Workshop lies in its planning stages."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Wellness Workshop",
+    "relation": "date",
+    "value": "Saturday of October 21, 2023",
+    "time": "Saturday of October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "For our example, let's aim for the Saturday of October 21, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Wellness Workshop",
+    "relation": "time_frame",
+    "value": "10 am to 4 pm",
+    "time": "Saturday of October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "from 10 am to 4 pm"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Wellness Workshop",
+    "relation": "allows",
+    "value": "ample discussion without causing fatigue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a time frame that allows for ample discussion without causing fatigue"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Wellness Workshop",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from 10 am to 4 pm\u2014a time frame that allows for ample discussion without causing fatigue"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "October 21, 2023",
+    "relation": "day_of_week",
+    "value": "Saturday",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Saturday of October 21, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sunnyville Community Center",
+    "relation": "suggested_as",
+    "value": "a serene and accessible location",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "secure a serene and accessible location, such as the Sunnyville Community Center"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sunnyville Community Center",
+    "relation": "has_ambiance",
+    "value": "tranquil ambiance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its tranquil ambiance and spacious rooms"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sunnyville Community Center",
+    "relation": "has",
+    "value": "spacious rooms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spacious rooms make it an ideal setting"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sunnyville Community Center",
+    "relation": "is_ideal_setting_for",
+    "value": "fostering a peaceful and focused environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "make it an ideal setting for fostering a peaceful and focused environment"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sunnyville Community Center",
+    "relation": "explains",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its tranquil ambiance and spacious rooms make it an ideal setting for fostering a peaceful and focused environment."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Wellness Workshop",
+    "relation": "should_cover",
+    "value": "the most significant aspects of mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Your workshop should aim to cover the most significant aspects of mental health"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Anxiety",
+    "relation": "is_common_mental_health_condition",
+    "value": "common mental health condition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "understanding common mental health conditions, such as anxiety and depression"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Depression",
+    "relation": "is_common_mental_health_condition",
+    "value": "common mental health condition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "understanding common mental health conditions, such as anxiety and depression"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Stress management",
+    "relation": "is_topic_of",
+    "value": "proactive stress management techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to practicing proactive stress management techniques"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Lydia Martins",
+    "relation": "is_a",
+    "value": "renowned clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lydia Martins, a renowned clinical psychologist"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Lydia Martins",
+    "relation": "will_offer",
+    "value": "insights into recognizing signs of mental health issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lydia Martins, a renowned clinical psychologist, can offer insights into recognizing signs of mental health issues"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Mr. Jamal Patterson",
+    "relation": "is_a",
+    "value": "certified life coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mr. Jamal Patterson, a certified life coach"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mr. Jamal Patterson",
+    "relation": "will_lead_session_on",
+    "value": "setting life goals and managing expectations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mr. Jamal Patterson, a certified life coach, can lead a session on setting life goals and managing expectations"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mindfulness Meditation",
+    "relation": "led_by",
+    "value": "Ms. Aria Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by Ms. Aria Thompson, a mindfulness expert"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Ms. Aria Thompson",
+    "relation": "is_a",
+    "value": "mindfulness expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by Ms. Aria Thompson, a mindfulness expert"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mindfulness Meditation",
+    "relation": "will_teach",
+    "value": "how to stay present and mitigate stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a session on meditation will teach attendees how to stay present and mitigate stress"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Art Therapy Session",
+    "relation": "supervised_by",
+    "value": "Rachel Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Supervised by art therapist Rachel Kim"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Rachel Kim",
+    "relation": "is_a",
+    "value": "art therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Supervised by art therapist Rachel Kim"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Art Therapy Session",
+    "relation": "enables",
+    "value": "participants will express their emotions through creative mediums",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participants will express their emotions through creative mediums"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Art Therapy Session",
+    "relation": "teaches",
+    "value": "art can be a powerful tool for personal reflection and emotional release",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learning that art can be a powerful tool for personal reflection and emotional release"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Role-Playing Scenarios",
+    "relation": "is_a_way_to",
+    "value": "navigate complex social interactions and improve communication skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A fun and enlightening way to navigate complex social interactions and improve communication skills"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Role-Playing Scenarios",
+    "relation": "is_crucial_for",
+    "value": "mental health management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improve communication skills, crucial for mental health management"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Stigma",
+    "relation": "should_be_acknowledged_and_dismantled",
+    "value": "the stigma surrounding mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acknowledge the stigma surrounding mental health and actively work towards dismantling it"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Myth Busters",
+    "relation": "addresses",
+    "value": "common misconceptions about mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where common misconceptions about mental health are addressed and rectified"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sarah O'Connell",
+    "relation": "is_a",
+    "value": "Nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Sarah O'Connell can enlighten the participants on the role of diet in mental health"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sarah O'Connell",
+    "relation": "will_cover",
+    "value": "the role of diet in mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Sarah O'Connell can enlighten the participants on the role of diet in mental health"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Omega-3 fatty acids",
+    "relation": "found_in",
+    "value": "fish and flaxseeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the benefits of omega-3 fatty acids found in fish and flaxseeds"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Coach Derrick Stewart",
+    "relation": "suggested_as",
+    "value": "a fitness expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Introduce a fitness expert, like Coach Derrick Stewart"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Coach Derrick Stewart",
+    "relation": "will_cover",
+    "value": "the benefits of exercise on mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to cover the benefits of exercise on mental health"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Anxiety",
+    "relation": "reduced_by",
+    "value": "simple but effective physical routines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simple but effective physical routines that attendees can integrate into their daily lives to help elevate mood and reduce anxiety"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Elena Ramirez",
+    "relation": "suggested_as",
+    "value": "a relationship counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Invite a relationship counselor, perhaps someone like Dr. Elena Ramirez"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Elena Ramirez",
+    "relation": "will_guide_through",
+    "value": "effective communication strategies for seeking support and expressing needs within personal and professional relationships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to guide through effective communication strategies for seeking support and expressing needs within personal and professional relationships"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mental health",
+    "relation": "managing_relies_on",
+    "value": "communication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Communication is pivotal to managing mental health."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Stress management",
+    "relation": "is_critical_for",
+    "value": "mental wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managing it is critical for mental wellness"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Stress management",
+    "relation": "techniques_could_include",
+    "value": "breathing exercises, time management tips, or yoga stretches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stress relief techniques, which could include breathing exercises, time management tips, or even yoga stretches"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Kieran Lee",
+    "relation": "is_a",
+    "value": "yoga guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as yoga guru Kieran Lee"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Kieran Lee",
+    "relation": "suggested_as",
+    "value": "a local instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided by a local instructor, such as yoga guru Kieran Lee"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Wellness Plan",
+    "relation": "tailored_to",
+    "value": "each participant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a \"Wellness Plan\" tailored to each participant"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Wellness Plan",
+    "relation": "encourages",
+    "value": "setting achievable goals, tracking progress, and continually adapting strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging them to set achievable goals, track progress, and continually adapt their strategies for mental wellness"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Support network",
+    "relation": "importance_for_maintaining",
+    "value": "community and connection in maintaining mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Highlight the importance of community and connection in maintaining mental health"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Support network",
+    "relation": "established_through",
+    "value": "a networking session toward the end of the workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Host a networking session toward the end of the workshop where participants can exchange contact information and establish a support system among themselves"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Feedback forms",
+    "relation": "distributed_to",
+    "value": "attendees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Distribute feedback forms and openly encourage attendees to provide honest critiques and suggestions"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Wellness Workshop",
+    "relation": "feedback_essential_for",
+    "value": "the growth and success of future workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gathering feedback from participants is essential for the growth and success of future workshops"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Feedback forms",
+    "relation": "input_is_invaluable_for",
+    "value": "refining the workshop framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This input is invaluable for refining the workshop framework"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Wellness Workshop",
+    "relation": "is_not",
+    "value": "a cure-all solution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating your own Wellness Workshop is not about presenting a cure-all solution"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Wellness Workshop",
+    "relation": "will_make",
+    "value": "both beneficial and memorable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tailoring the content to the needs of your participants and offering a variety of learning styles will make your workshop both beneficial and memorable."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mental health",
+    "relation": "is",
+    "value": "a collective journey towards understanding, acceptance, and change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mental health is not just a personal responsibility but a collective journey towards understanding, acceptance, and change"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Wellness Workshop",
+    "relation": "contributes_to",
+    "value": "a more informed and compassionate community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you're contributing to a more informed and compassionate community"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

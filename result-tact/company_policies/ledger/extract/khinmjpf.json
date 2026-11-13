@@ -1,0 +1,631 @@
+{
+ "inventory": [
+  "Spectrum Global Solutions",
+  "Introduction to Company Travel Policy",
+  "Travel Coordinator",
+  "travel request form",
+  "direct supervisor",
+  "departmental manager",
+  "department head",
+  "finance department",
+  "senior management",
+  "Spectrum Global Solutions' intranet",
+  "employees",
+  "business travel",
+  "Approval Criteria",
+  "virtual meetings",
+  "pre-paid expenses",
+  "disciplinary action",
+  "reimbursement claims"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "describes_policy_for",
+    "value": "Spectrum Global Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This document outlines the travel policy for Spectrum Global Solutions."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "designed_to",
+    "value": "streamline the approval process for business travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is designed to streamline the approval process for business travel"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Spectrum Global Solutions",
+    "relation": "travel_policy_aims_to",
+    "value": "ensure the efficiency and effectiveness of travel-related expenditures within our organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensure the efficiency and effectiveness of travel-related expenditures within our organization"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "employees",
+    "relation": "must_adhere_to",
+    "value": "this policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adherence to this policy is mandatory for all employees"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "adherence_purpose",
+    "value": "to guarantee coordination and to control costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adherence to this policy is mandatory for all employees to guarantee coordination and to control costs"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "maintains",
+    "value": "the flexibility necessary to meet individual situations and needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while maintaining the flexibility necessary to meet individual situations and needs"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "purpose",
+    "value": "ensure that business travel is authorized appropriately, managed cost-effectively, and conducted within organizational expectations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The purpose of this policy is to ensure that business travel is authorized appropriately, managed cost-effectively, and conducted within organizational expectations."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "applies_to",
+    "value": "all employees of Spectrum Global Solutions who undertake travel on behalf of the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This policy applies to all employees of Spectrum Global Solutions who undertake travel on behalf of the company, including full-time, part-time, and contract employees."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "employees",
+    "relation": "includes",
+    "value": "full-time, part-time, and contract employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including full-time, part-time, and contract employees"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "business travel",
+    "relation": "must_be_pre_approved_by",
+    "value": "the direct supervisor or departmental manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "All business travel must be pre-approved by the direct supervisor or departmental manager."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "departmental manager",
+    "relation": "pre_approves",
+    "value": "business travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "All business travel must be pre-approved by the direct supervisor or departmental manager."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "employees",
+    "relation": "must_submit",
+    "value": "a travel request form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are required to submit a travel request form at least two weeks prior to the intended departure date."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "travel request form",
+    "relation": "submission_deadline",
+    "value": "at least two weeks prior to the intended departure date",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are required to submit a travel request form at least two weeks prior to the intended departure date."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "travel request form",
+    "relation": "must_provide",
+    "value": "detailed justification for the travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The form should provide detailed justification for the travel, an estimated cost breakdown, and the expected outcomes of the trip."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "travel request form",
+    "relation": "must_provide",
+    "value": "an estimated cost breakdown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an estimated cost breakdown"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "travel request form",
+    "relation": "must_provide",
+    "value": "the expected outcomes of the trip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the expected outcomes of the trip"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Approval Criteria",
+    "relation": "used_to_evaluate",
+    "value": "the necessity and feasibility of proposed travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The following criteria will be used to evaluate the necessity and feasibility of proposed travel"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Approval Criteria",
+    "relation": "includes_criterion",
+    "value": "Clear alignment of the travel purpose with the company's strategic goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clear alignment of the travel purpose with the company's strategic goals."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Approval Criteria",
+    "relation": "includes_criterion",
+    "value": "Demonstrated financial benefit or necessity for in-person presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Demonstrated financial benefit or necessity for in-person presence."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Approval Criteria",
+    "relation": "includes_criterion",
+    "value": "Availability of budget to cover the expected expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Availability of budget to cover the expected expenses."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Approval Criteria",
+    "relation": "includes_criterion",
+    "value": "Consideration of alternative options, such as virtual meetings, that may achieve similar results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consideration of alternative options, such as virtual meetings, that may achieve similar results."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "virtual meetings",
+    "relation": "may_achieve",
+    "value": "similar results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that may achieve similar results"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Spectrum Global Solutions",
+    "relation": "designated",
+    "value": "an in-house Travel Coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spectrum Global Solutions has designated an in-house Travel Coordinator to oversee the travel request process."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Travel Coordinator",
+    "relation": "oversees",
+    "value": "the travel request process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to oversee the travel request process"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Travel Coordinator",
+    "relation": "reviews",
+    "value": "all submissions for compliance with this policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The coordinator will review all submissions for compliance with this policy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Travel Coordinator",
+    "relation": "escalates",
+    "value": "requests to the appropriate management level for final approval",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "escalate requests to the appropriate management level for final approval"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Travel Coordinator",
+    "relation": "facilitates",
+    "value": "travel arrangements and assists employees with itinerary planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The coordinator is also responsible for facilitating travel arrangements and assisting employees with itinerary planning"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Travel Coordinator",
+    "relation": "purpose_of_facilitation",
+    "value": "cost-effectiveness and compliance with company preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure cost-effectiveness and compliance with company preferences."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Travel Coordinator",
+    "relation": "in_order_to",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "facilitating travel arrangements and assisting employees with itinerary planning to ensure cost-effectiveness and compliance with company preferences"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "direct supervisor",
+    "relation": "reviews_submission_for",
+    "value": "completeness and adherence to the approval criteria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Upon receiving a travel request, the direct supervisor or department head will review the submission for completeness and adherence to the approval criteria."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "department head",
+    "relation": "reviews_submission_for",
+    "value": "completeness and adherence to the approval criteria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Upon receiving a travel request, the direct supervisor or department head will review the submission for completeness and adherence to the approval criteria."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Travel Coordinator",
+    "relation": "processes_forwarded_requests",
+    "value": "processing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it will be forwarded to the Travel Coordinator for processing."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "senior management",
+    "relation": "may_be_required_to_give",
+    "value": "additional approval",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "additional approval from senior management or the finance department may be required"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "finance department",
+    "relation": "may_be_required_to_give",
+    "value": "additional approval",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "additional approval from senior management or the finance department may be required"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "business travel",
+    "relation": "costs_exceed",
+    "value": "pre-determined thresholds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In cases where the travel costs exceed pre-determined thresholds"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "senior management",
+    "relation": "conditional_on",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In cases where the travel costs exceed pre-determined thresholds, additional approval from senior management or the finance department may be required."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "employees",
+    "relation": "must_notify",
+    "value": "their supervisor and the Travel Coordinator immediately",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees must notify their supervisor and the Travel Coordinator immediately"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "employees",
+    "relation": "notification_trigger",
+    "value": "changes to travel plans after approval has been granted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the event of changes to travel plans after approval has been granted"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "travel request form",
+    "relation": "alteration_review",
+    "value": "a similar review process as initial requests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Submissions for alterations will undergo a similar review process as initial requests."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "pre-paid expenses",
+    "relation": "recovery_attempted_on_cancellation",
+    "value": "attempts will be made to recover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For cancellations, attempts will be made to recover any pre-paid expenses"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Travel Coordinator",
+    "relation": "handles_reversals",
+    "value": "reversals where possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Travel Coordinator should be informed to handle reversals where possible."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Introduction to Company Travel Policy",
+    "relation": "compliance_requirement",
+    "value": "mandatory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance with the travel policy is mandatory."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "finance department",
+    "relation": "audits",
+    "value": "travel activities and reports to ensure adherence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The finance department will regularly audit travel activities and reports to ensure adherence."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "disciplinary action",
+    "relation": "may_result_from",
+    "value": "Non-compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Non-compliance may result in disciplinary action"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "disciplinary action",
+    "relation": "includes",
+    "value": "the denial of future travel requests or reimbursement claims",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including but not limited to, the denial of future travel requests or reimbursement claims."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "reimbursement claims",
+    "relation": "may_be_denied_as",
+    "value": "disciplinary action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the denial of future travel requests or reimbursement claims"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Spectrum Global Solutions' intranet",
+    "relation": "makes_policy_available_to",
+    "value": "all employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This policy is readily available to all employees through the Spectrum Global Solutions' intranet."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "employees",
+    "relation": "responsible_for",
+    "value": "keeping themselves up-to-date with any changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are responsible for keeping themselves up-to-date with any changes."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Spectrum Global Solutions",
+    "relation": "reserves_right_to",
+    "value": "update and modify the travel policy as needed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The company reserves the right to update and modify the travel policy as needed"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Spectrum Global Solutions",
+    "relation": "update_purpose",
+    "value": "to respond to changing circumstances and legal requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to respond to changing circumstances and legal requirements"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Spectrum Global Solutions",
+    "relation": "in_order_to",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "update and modify the travel policy as needed to respond to changing circumstances and legal requirements"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Spectrum Global Solutions",
+    "relation": "committed_to",
+    "value": "facilitating efficient and cost-effective business travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spectrum Global Solutions is committed to facilitating efficient and cost-effective business travel."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "employees",
+    "relation": "can_ensure",
+    "value": "their travel is aligned with company objectives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees can ensure that their travel is aligned with company objectives"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "employees",
+    "relation": "can_ensure",
+    "value": "the process flows smoothly from approval to completion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and that the process flows smoothly from approval to completion"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Spectrum Global Solutions",
+    "relation": "represents_dedication_to",
+    "value": "excellence and fiscal responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "representing our dedication to excellence and fiscal responsibility"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

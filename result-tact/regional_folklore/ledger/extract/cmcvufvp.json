@@ -1,0 +1,807 @@
+{
+ "inventory": [
+  "Phantom Ship",
+  "Seaford Haven",
+  "Captain Elijah Grey",
+  "Siren\u2019s Woe",
+  "Margaret",
+  "Professor Amelia Hendricks",
+  "Seaford Haven University",
+  "Dr. Ethan Chambers",
+  "Phantom Fest",
+  "Mists of the Siren",
+  "Ms. Lillian Pratt",
+  "Seaford High",
+  "Shipwreck Gala",
+  "Elias \u201cDigiSailor\u201d Moore",
+  "Ethereum blockchain",
+  "non-fungible token"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Seaford Haven",
+    "relation": "is_a",
+    "value": "coastal town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the coastal town of Seaford Haven"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Seaford Haven",
+    "relation": "trick_or_treating_set_out_in",
+    "value": "hazy October evening",
+    "time": "hazy October evening in 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was on a hazy October evening in 2023 when rambunctious trick-or-treaters in the coastal town of Seaford Haven set out for their annual quest for sweets"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Phantom Ship",
+    "relation": "described_as",
+    "value": "a ghostly vessel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Phantom Ship\u2014a ghostly vessel said to haunt these waters every Halloween night."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Phantom Ship",
+    "relation": "haunts",
+    "value": "these waters every Halloween night",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a ghostly vessel said to haunt these waters every Halloween night."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Phantom Ship",
+    "relation": "contrasted_with",
+    "value": "the solid timbers and iron anchors of tangible ships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unlike the solid timbers and iron anchors of tangible ships"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Phantom Ship",
+    "relation": "eclipses",
+    "value": "almost all other folk tales in the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eclipsing almost all other folk tales in the region"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Phantom Ship",
+    "relation": "captivated",
+    "value": "both locals and tourists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The myth of the spectral ship has long captivated the imagination of both locals and tourists"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Phantom Ship",
+    "relation": "described_as",
+    "value": "as fluid as the sea, ever-changing and adapting to the minds and eras it flows through",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lore of the Phantom Ship is as fluid as the sea, ever-changing and adapting to the minds and eras it flows through."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Captain Elijah Grey",
+    "relation": "commanded_vessel",
+    "value": "Siren\u2019s Woe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose vessel, the \"Siren\u2019s Woe,\" was lost at sea"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Siren\u2019s Woe",
+    "relation": "lost_at_sea",
+    "value": "on a stormy night",
+    "time": "September 12, 1798",
+    "speaker": null,
+    "verbatim": [
+     "was lost at sea on a stormy night on September 12, 1798."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Captain Elijah Grey",
+    "relation": "motivated_by",
+    "value": "his love for the sea and determination to return to his beloved Margaret",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's said that his love for the sea and determination to return to his beloved Margaret"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Captain Elijah Grey",
+    "relation": "turned_him_and_crew_into",
+    "value": "restless spirits, forever sailing the misty waters off the coast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned him and his crew into restless spirits, forever sailing the misty waters off the coast."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Captain Elijah Grey",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his love for the sea and determination to return to his beloved Margaret turned him and his crew into restless spirits"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Margaret",
+    "relation": "beloved_of",
+    "value": "Captain Elijah Grey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "return to his beloved Margaret"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Phantom Ship",
+    "relation": "conveyed_by",
+    "value": "hushed storytelling in candlelit rooms or around crackling fireplaces",
+    "time": "Initially",
+    "speaker": null,
+    "verbatim": [
+     "Initially, the tale was conveyed from one generation to the next through hushed storytelling in candlelit rooms or around crackling fireplaces."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Phantom Ship",
+    "relation": "was",
+    "value": "an omen, a reminder to respect the sea's merciless power and the fates of those it claimed",
+    "time": "Back then",
+    "speaker": null,
+    "verbatim": [
+     "Back then, the ship was an omen, a reminder to respect the sea's merciless power and the fates of those it claimed."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Phantom Ship",
+    "relation": "surrounded_by",
+    "value": "a rich tapestry of narratives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one discovers a rich tapestry of narratives surrounding the Phantom Ship."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Professor Amelia Hendricks",
+    "relation": "affiliated_with",
+    "value": "Seaford Haven University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Amelia Hendricks of Seaford Haven University (SHU)"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Seaford Haven University",
+    "relation": "abbreviated_as",
+    "value": "SHU",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seaford Haven University (SHU)"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Professor Amelia Hendricks",
+    "relation": "documented",
+    "value": "this metamorphosis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Researchers like Professor Amelia Hendricks of Seaford Haven University (SHU) have documented this metamorphosis."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Professor Amelia Hendricks",
+    "relation": "stated",
+    "value": "The Phantom Ship was the story our ancestors used not just to explain the unexplainable but also to impart crucial life lessons\u2014about love, loss, and the folly of going against nature's will.",
+    "time": "November 3, 2023",
+    "speaker": "Professor Amelia Hendricks",
+    "verbatim": [
+     "On November 3, 2023, she shared, \"The Phantom Ship was the story our ancestors used not just to explain the unexplainable but also to impart crucial life lessons\u2014about love, loss, and the folly of going against nature's will.\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Phantom Ship",
+    "relation": "used_to",
+    "value": "explain the unexplainable but also to impart crucial life lessons",
+    "time": null,
+    "speaker": "Professor Amelia Hendricks",
+    "verbatim": [
+     "the story our ancestors used not just to explain the unexplainable but also to impart crucial life lessons\u2014about love, loss, and the folly of going against nature's will."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Phantom Ship",
+    "relation": "inspired",
+    "value": "paintings, then novels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It inspired paintings, then novels"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mists of the Siren",
+    "relation": "released_in",
+    "value": "1956",
+    "time": "1956",
+    "speaker": null,
+    "verbatim": [
+     "in the critically acclaimed 1956 film \"Mists of the Siren,\""
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mists of the Siren",
+    "relation": "described_as",
+    "value": "critically acclaimed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the critically acclaimed 1956 film \"Mists of the Siren,\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mists of the Siren",
+    "relation": "brought_to_global_audience",
+    "value": "Captain Grey's sorrowful quest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which brought Captain Grey's sorrowful quest to a global audience."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Phantom Ship",
+    "relation": "not_confined_to",
+    "value": "celluloid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Phantom Ship would not remain trapped in celluloid, however."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Phantom Ship",
+    "relation": "arrived_with",
+    "value": "the advent of the internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the advent of the internet"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Phantom Ship",
+    "relation": "achieved",
+    "value": "a sort of digital immortality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it achieved a sort of digital immortality"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Phantom Ship",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the advent of the internet, it achieved a sort of digital immortality"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Phantom Ship",
+    "relation": "spread_through",
+    "value": "chat rooms, blogs, and social platforms, faster than the fiercest maritime gale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spreading through chat rooms, blogs, and social platforms faster than the fiercest maritime gale."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Ethan Chambers",
+    "relation": "is_a",
+    "value": "socio-cultural anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ethan Chambers, a socio-cultural anthropologist interviewed on December 15, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Ethan Chambers",
+    "relation": "interviewed_on",
+    "value": "December 15, 2023",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ethan Chambers, a socio-cultural anthropologist interviewed on December 15, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Ethan Chambers",
+    "relation": "stated",
+    "value": "The Phantom Ship represents our timeless obsession with the unknown.",
+    "time": "December 15, 2023",
+    "speaker": "Dr. Ethan Chambers",
+    "verbatim": [
+     "The Phantom Ship represents our timeless obsession with the unknown."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Phantom Ship",
+    "relation": "has_evolved_from",
+    "value": "a chilling reminder of nature's wrath, to a charming puzzle that people wish to solve or experience",
+    "time": null,
+    "speaker": "Dr. Ethan Chambers",
+    "verbatim": [
+     "It has evolved from being a chilling reminder of nature's wrath, to a charming puzzle that people wish to solve or experience."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Phantom Fest",
+    "relation": "organized_by",
+    "value": "Seaford Haven community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual 'Phantom Fest' organized every October by the Seaford Haven community."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Phantom Fest",
+    "relation": "held_every",
+    "value": "October",
+    "time": "every October",
+    "speaker": null,
+    "verbatim": [
+     "organized every October by the Seaford Haven community"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Phantom Fest",
+    "relation": "includes",
+    "value": "mock ghost ship sightings, pirate-themed parties, costume contests, and a bloom of interest in other local legends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event combines mock ghost ship sightings with pirate-themed parties, costume contests, and a bloom of interest in other local legends."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Phantom Ship",
+    "relation": "is_part_of",
+    "value": "internet meme culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become part of internet meme culture"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Phantom Ship",
+    "relation": "commentary_on",
+    "value": "everything from workplace disputes to online dating failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing to life a droll commentary on everything from workplace disputes to online dating failures."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Phantom Ship",
+    "relation": "image_macro_caption",
+    "value": "When you finally leave the office at 9 pm",
+    "time": "September 8, 2021",
+    "speaker": null,
+    "verbatim": [
+     "on September 8, 2021, an image macro of the Phantom Ship with the caption \"When you finally leave the office at 9 pm\" went viral"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Phantom Ship",
+    "relation": "went_viral",
+    "value": "an image macro",
+    "time": "September 8, 2021",
+    "speaker": null,
+    "verbatim": [
+     "an image macro of the Phantom Ship with the caption \"When you finally leave the office at 9 pm\" went viral"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Phantom Ship",
+    "relation": "showed",
+    "value": "the legend's adaptability to modern life's trivialities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showing the legend's adaptability to modern life's trivialities."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Phantom Ship",
+    "relation": "shared",
+    "value": "a million times across various platforms within a week",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was shared a million times across various platforms within a week."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "is_a",
+    "value": "history teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ms. Lillian Pratt, a history teacher at Seaford High,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "works_at",
+    "value": "Seaford High",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a history teacher at Seaford High"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Seaford High",
+    "relation": "employs",
+    "value": "Ms. Lillian Pratt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a history teacher at Seaford High"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "utilized_phantom_ship_to_spark_interest_in",
+    "value": "local history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have utilized the Phantom Ship to spark interest in local history."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "used",
+    "value": "augmented reality to bring the ghost ship into her classroom",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023, she used augmented reality to bring the ghost ship into her classroom"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "students_reacted_with",
+    "value": "delight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "much to the delight of her students."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "results_in",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she used augmented reality to bring the ghost ship into her classroom, much to the delight of her students."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Ms. Lillian Pratt",
+    "relation": "stated",
+    "value": "It's about making education engaging and relevant.",
+    "time": null,
+    "speaker": "Ms. Lillian Pratt",
+    "verbatim": [
+     "It's about making education engaging and relevant."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Phantom Ship",
+    "relation": "bridges",
+    "value": "the gap between past and present",
+    "time": null,
+    "speaker": "Ms. Lillian Pratt",
+    "verbatim": [
+     "The Phantom Ship bridges the gap between past and present, letting history sail into the future"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Shipwreck Gala",
+    "relation": "embraced",
+    "value": "the Phantom Ship motif",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Phantom Ship motif has been embraced by Seaford Haven\u2019s 'Shipwreck Gala,'"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Shipwreck Gala",
+    "relation": "belongs_to",
+    "value": "Seaford Haven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seaford Haven\u2019s 'Shipwreck Gala,'"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Shipwreck Gala",
+    "relation": "is_a",
+    "value": "charity event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a charity event that dons the spooky sails of the ghostly lore to raise funds for marine conservation every year on November 20th."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Shipwreck Gala",
+    "relation": "raises_funds_for",
+    "value": "marine conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to raise funds for marine conservation"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Shipwreck Gala",
+    "relation": "held_on",
+    "value": "November 20th",
+    "time": "every year",
+    "speaker": null,
+    "verbatim": [
+     "every year on November 20th."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Phantom Ship",
+    "relation": "present_in",
+    "value": "the digital sphere as a non-fungible token (NFT)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its presence in the digital sphere as a non-fungible token (NFT)."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "non-fungible token",
+    "relation": "abbreviated_as",
+    "value": "NFT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a non-fungible token (NFT)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Elias \u201cDigiSailor\u201d Moore",
+    "relation": "is_a",
+    "value": "digital artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital artist Elias \u201cDigiSailor\u201d Moore created"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Elias \u201cDigiSailor\u201d Moore",
+    "relation": "created",
+    "value": "an animated rendition of the Phantom Ship as part of a series of folklore-themed art pieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elias \u201cDigiSailor\u201d Moore created an animated rendition of the Phantom Ship as part of a series of folklore-themed art pieces"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Ethereum blockchain",
+    "relation": "hosted_minting_of",
+    "value": "an animated rendition of the Phantom Ship",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "minted on the Ethereum blockchain on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Phantom Ship",
+    "relation": "bestowed",
+    "value": "a form of digital immortality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This action bestowed a form of digital immortality upon the ship"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Ethereum blockchain",
+    "relation": "results_in",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "minted on the Ethereum blockchain on December 1, 2023.",
+     "This action bestowed a form of digital immortality upon the ship"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Phantom Ship",
+    "relation": "merged",
+    "value": "centuries-old tales with cutting-edge technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "merging centuries-old tales with cutting-edge technology."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Phantom Ship",
+    "relation": "serves_as",
+    "value": "a timeless emblem of humanity\u2019s connection to both the supernatural and the historical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it serves as a timeless emblem of humanity\u2019s connection to both the supernatural and the historical."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Phantom Ship",
+    "relation": "described_as",
+    "value": "a canvas onto which generations paint their fears, hopes, and humor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a canvas onto which generations paint their fears, hopes, and humor"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Captain Elijah Grey",
+    "relation": "set_course_of",
+    "value": "the Phantom Ship's course",
+    "time": "all those stormy years ago",
+    "speaker": null,
+    "verbatim": [
+     "The Phantom Ship's course, set sail by Captain Grey all those stormy years ago"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Phantom Ship",
+    "relation": "taken_from_to",
+    "value": "from whispered tales of warning to beloved memes and NFTs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has taken it from whispered tales of warning to beloved memes and NFTs."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Phantom Ship",
+    "relation": "described_as",
+    "value": "a testament to our ongoing romance with legends and lore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a testament to our ongoing romance with legends and lore"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

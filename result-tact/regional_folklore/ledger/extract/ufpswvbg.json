@@ -1,0 +1,586 @@
+{
+ "inventory": [
+  "Alistair McCrae",
+  "Myrna O'Hara",
+  "Abubakar Ndoye",
+  "Emily Hart",
+  "Amir Sulaiman",
+  "Sarah Kay",
+  "Folklore Festival",
+  "Dunbar Folk Festival",
+  "Galway Storytelling Festival",
+  "Senegal Storytelling Summit",
+  "Somerset Winter Tales Evening",
+  "Digital Bard Fest",
+  "Heartland Bardic Roundtable",
+  "the bard",
+  "the highlands"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Folklore Festival",
+    "relation": "takes_place_in",
+    "value": "this small village",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "it's the day when the annual Folklore Festival breathes life into this small village"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Folklore Festival",
+    "relation": "is_annual",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual Folklore Festival"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Folklore Festival",
+    "relation": "central_figure",
+    "value": "the bard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A central figure in this resonating event is the bard"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "the bard",
+    "relation": "described_as",
+    "value": "an age-old role",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an age-old role that disproves the need for written words when preserving the richest of histories"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "the bard",
+    "relation": "revered_as",
+    "value": "a keeper of lore and history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bard has been revered as a keeper of lore and history"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "the bard",
+    "relation": "described_as",
+    "value": "a living library that preserves the essence of a culture through oral chronicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a living library that preserves the essence of a culture through oral chronicles"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Alistair McCrae",
+    "relation": "described_as",
+    "value": "a Scottish lore-master",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bards like Alistair McCrae, a Scottish lore-master"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Alistair McCrae",
+    "relation": "performed_at",
+    "value": "Dunbar Folk Festival",
+    "time": "October 9th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 9th, 2023, Alistair stood on the time-worn stage of the Dunbar Folk Festival"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dunbar Folk Festival",
+    "relation": "has_feature",
+    "value": "time-worn stage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stood on the time-worn stage of the Dunbar Folk Festival"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Alistair McCrae",
+    "relation": "tells_tales_of",
+    "value": "warriors, lovers, and the mystical creatures that saunter through the highlands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enveloping listeners in tales of warriors, lovers, and the mystical creatures that saunter through the highlands"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "the highlands",
+    "relation": "has_inhabitants",
+    "value": "mystical creatures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the mystical creatures that saunter through the highlands"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Alistair McCrae",
+    "relation": "voice_seasoned_by",
+    "value": "years of retelling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His voice, seasoned by years of retelling, echoed through the crowd"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "the bard",
+    "relation": "delivers",
+    "value": "a richly emotive connection that bridges the gap between storyteller and listener",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a richly emotive connection that bridges the gap between storyteller and listener"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Myrna O'Hara",
+    "relation": "described_as",
+    "value": "an Irish sean-n\u00f3s singer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Myrna O'Hara, an Irish sean-n\u00f3s singer"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Myrna O'Hara",
+    "relation": "performed_at",
+    "value": "Galway Storytelling Festival",
+    "time": "November 12th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "entranced her audience on November 12th, 2023, during the celebrated Galway Storytelling Festival"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Galway Storytelling Festival",
+    "relation": "described_as",
+    "value": "celebrated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "during the celebrated Galway Storytelling Festival"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Myrna O'Hara",
+    "relation": "allows_audience_to",
+    "value": "experience the sorrow and joy of bygone eras",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to experience the sorrow and joy of bygone eras"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Abubakar Ndoye",
+    "relation": "described_as",
+    "value": "a West African griot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "figures like Abubakar Ndoye, a West African griot"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Abubakar Ndoye",
+    "relation": "challenged",
+    "value": "the notion that books are the ultimate source of knowledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditionally, the education one receive from books is perceived to be the ultimate source of knowledge",
+     "figures like Abubakar Ndoye, a West African griot, have long challenged this notion"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Abubakar Ndoye",
+    "relation": "performed_at",
+    "value": "Senegal Storytelling Summit",
+    "time": "the first of December, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a compelling performance on the first of December, 2023, at the Senegal Storytelling Summit"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Senegal Storytelling Summit",
+    "relation": "hosted_performance_by",
+    "value": "Abubakar Ndoye",
+    "time": "the first of December, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a compelling performance on the first of December, 2023, at the Senegal Storytelling Summit"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Abubakar Ndoye",
+    "relation": "threaded",
+    "value": "the lineage of kings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abubakar threaded the lineage of kings through the power of spoken word"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Abubakar Ndoye",
+    "relation": "helped_community_understand",
+    "value": "their ancestry and societal structure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping his community to understand their ancestry and societal structure"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Abubakar Ndoye",
+    "relation": "in_order_to",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "threaded the lineage of kings through the power of spoken word, helping his community to understand their ancestry and societal structure"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "the bard",
+    "relation": "role_extends_beyond",
+    "value": "entertainment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bard\u2019s role extends beyond entertainment"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "the bard",
+    "relation": "serves_as",
+    "value": "an educator for the younger generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as an educator for the younger generation"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "the bard",
+    "relation": "instills",
+    "value": "a sense of identity steeped in oral history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instilling them with a sense of identity steeped in oral history"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "the bard",
+    "relation": "acts_as",
+    "value": "a unifying force",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The art of bardic storytelling reaches beyond mere preservation of history\u2014it acts as a unifying force"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "the bard",
+    "relation": "tales_circulate_in",
+    "value": "isolated hamlets where modern technology's grasp remains feeble",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the isolated hamlets where modern technology's grasp remains feeble"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Emily Hart",
+    "relation": "is_a",
+    "value": "bard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the tales spun by bards like Emily Hart circulate not just stories but also foster community bonds"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Emily Hart",
+    "relation": "performed_at",
+    "value": "Somerset Winter Tales Evening",
+    "time": "On the eve of January 7th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On the eve of January 7th, 2024, the reverberations of Emily\u2019s voice during the Somerset Winter Tales Evening"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Somerset Winter Tales Evening",
+    "relation": "sewed_together",
+    "value": "the fabric of an intimate English country community",
+    "time": "On the eve of January 7th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "sewed together the fabric of an intimate English country community"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "the bard",
+    "relation": "shared_histories_create",
+    "value": "an unbreakable thread that binds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proof that shared histories create an unbreakable thread that binds"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Somerset Winter Tales Evening",
+    "relation": "evidence_of",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proof that shared histories create an unbreakable thread that binds"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Amir Sulaiman",
+    "relation": "is_a",
+    "value": "poet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Poets like Amir Sulaiman"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sarah Kay",
+    "relation": "is_a",
+    "value": "storyteller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "storytellers such as Sarah Kay"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Amir Sulaiman",
+    "relation": "performed_at",
+    "value": "Digital Bard Fest",
+    "time": "February 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "evident during their powerful performances at the Digital Bard Fest, streamed globally on February 15th, 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sarah Kay",
+    "relation": "performed_at",
+    "value": "Digital Bard Fest",
+    "time": "February 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "evident during their powerful performances at the Digital Bard Fest, streamed globally on February 15th, 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Digital Bard Fest",
+    "relation": "was_streamed",
+    "value": "globally",
+    "time": "February 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "streamed globally on February 15th, 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "the bard",
+    "relation": "found",
+    "value": "innovative means to keep the fire of oral tradition burning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern-day bards have found innovative means to keep the fire of oral tradition burning"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "the bard",
+    "relation": "overshadowed_by",
+    "value": "the internet age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite the internet age overshadowing traditional forms of storytelling"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "the bard",
+    "relation": "subject_of_resurgence",
+    "value": "interest in the art of the bard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rural community festivals have witnessed a resurgence of interest in the art of the bard"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "the bard",
+    "relation": "driven_by",
+    "value": "the wave of nostalgia and yearning for connection in the age of information overload",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wave of nostalgia and yearning for connection in the age of information overload propels this renaissance"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "the bard",
+    "relation": "caused_by",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wave of nostalgia and yearning for connection in the age of information overload propels this renaissance"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Heartland Bardic Roundtable",
+    "relation": "is_a",
+    "value": "bardic gathering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bardic gatherings like the Heartland Bardic Roundtable"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Heartland Bardic Roundtable",
+    "relation": "took_place_on",
+    "value": "unfolded magnificently",
+    "time": "March 20th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the Heartland Bardic Roundtable, which unfolded magnificently on March 20th, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Heartland Bardic Roundtable",
+    "relation": "provided",
+    "value": "a haven for traditional storytelling enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided a haven for traditional storytelling enthusiasts to come together, exchange knowledge, and ensure the continued flourish of this intrinsic art"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "the bard",
+    "relation": "relevant_as",
+    "value": "as relevant today as it was centuries ago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of the bard is as relevant today as it was centuries ago"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "the bard",
+    "relation": "represent",
+    "value": "the living, breathing artifacts of human existence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They represent the living, breathing artifacts of human existence"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "the bard",
+    "relation": "ensures",
+    "value": "history does not turn into mere footnotes in dusty tomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that history does not turn into mere footnotes in dusty tomes"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "the bard",
+    "relation": "pack_away",
+    "value": "their instruments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As festivals wrap up and bards pack away their instruments"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

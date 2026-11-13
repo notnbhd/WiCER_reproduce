@@ -1,0 +1,618 @@
+{
+ "inventory": [
+  "Marianne Vasquez",
+  "Raj Patel",
+  "James Anderson",
+  "Sandra Jeffries",
+  "Anderson Foundation",
+  "Metro City Community College",
+  "TechForward",
+  "state government",
+  "'Second Chance' grant program",
+  "'Back to School' fund",
+  "'Learn and Earn' programs",
+  "adult education",
+  "adult learners",
+  "financial aid",
+  "scholarships"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "adult education",
+    "relation": "is",
+    "value": "the linchpin of a thriving, adaptable society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adult education is the linchpin of a thriving, adaptable society"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "adult education",
+    "relation": "sentiment_echoed_by",
+    "value": "educators and economists alike",
+    "time": null,
+    "speaker": "educators and economists",
+    "verbatim": [
+     "a sentiment echoed by educators and economists alike"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "adult learners",
+    "relation": "have_navigated",
+    "value": "a labyrinthine world of financial constraints that stifle their pursuit of further education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for too long, adult learners have navigated a labyrinthine world of financial constraints that stifle their pursuit of further education"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "financial aid",
+    "relation": "should_be_prioritized_by",
+    "value": "philanthropists and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's high time philanthropists and policymakers prioritize financial support for this critical demographic"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "adult education",
+    "relation": "is",
+    "value": "a lifelong investment that yields dividends across the spectrum of personal and societal advancement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a lifelong investment that yields dividends across the spectrum of personal and societal advancement"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "adult learners",
+    "relation": "balance",
+    "value": "a juggling act of responsibilities that includes work, family, and the financial burdens that accompany them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adults returning to education often balance a juggling act of responsibilities that includes work, family, and the financial burdens that accompany them"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "adult learners",
+    "relation": "face_barriers",
+    "value": "stagnant wages, rising living costs, and preexisting debt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stagnant wages, rising living costs, and preexisting debt conspire to form a formidable barrier to further education."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Marianne Vasquez",
+    "relation": "age",
+    "value": "45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marianne Vasquez, a 45-year-old single mother of two"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Marianne Vasquez",
+    "relation": "is",
+    "value": "single mother of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marianne Vasquez, a 45-year-old single mother of two"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Marianne Vasquez",
+    "relation": "dreamed_of",
+    "value": "completing her bachelor's degree to secure a better future for her family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dreamed of completing her bachelor's degree to secure a better future for her family"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Marianne Vasquez",
+    "relation": "works",
+    "value": "two jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite working two jobs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Marianne Vasquez",
+    "relation": "has",
+    "value": "a tight budget with little room for tuition fees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tight budget with little room for tuition fees"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "scholarships",
+    "relation": "aimed_at",
+    "value": "adult learners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local scholarship aimed at adult learners"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Marianne Vasquez",
+    "relation": "enrolled_in",
+    "value": "college",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "that she managed to enroll in college in October 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Marianne Vasquez",
+    "relation": "caused_by",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was only through a local scholarship aimed at adult learners that she managed to enroll in college"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Raj Patel",
+    "relation": "age",
+    "value": "38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "38-year-old automotive technician Raj Patel"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Raj Patel",
+    "relation": "occupation",
+    "value": "automotive technician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "38-year-old automotive technician Raj Patel"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Raj Patel",
+    "relation": "aspires_to_transition_into",
+    "value": "renewable energy engineering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aspirations to transition into renewable energy engineering seemed like a distant mirage"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Raj Patel",
+    "relation": "received",
+    "value": "a need-based grant specifically for adult students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he received a need-based grant specifically for adult students"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Raj Patel",
+    "relation": "caused_by",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was only when he received a need-based grant specifically for adult students that the mirage materialized into opportunity"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "adult education",
+    "relation": "bears",
+    "value": "profound economic implications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investing in adult education bears profound economic implications."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "adult learners",
+    "relation": "more_likely_to_land",
+    "value": "higher-paying jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When adults return to school, they are more likely to land higher-paying jobs"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "adult learners",
+    "relation": "leads_to",
+    "value": "increased consumer spending and a broader tax base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to increased consumer spending and a broader tax base"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "adult learners",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are more likely to land higher-paying jobs, leading to increased consumer spending and a broader tax base"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "adult education",
+    "relation": "is_pivotal_for",
+    "value": "a better-educated workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a better-educated workforce is pivotal in a society where job skill requirements are evolving at an unprecedented pace, spurred by technological advancements and shifting economic landscapes"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "adult education",
+    "relation": "job_skill_requirements_spurred_by",
+    "value": "technological advancements and shifting economic landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "job skill requirements are evolving at an unprecedented pace, spurred by technological advancements and shifting economic landscapes"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "financial aid",
+    "relation": "lays_groundwork_for",
+    "value": "individual prosperity, but communal affluence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we lay the groundwork for not just individual prosperity, but communal affluence"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "adult learners",
+    "relation": "commonly_believed",
+    "value": "less likely to benefit from education compared to their younger counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A prevailing myth suggests that adult learners are less likely to benefit from education compared to their younger counterparts."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "adult learners",
+    "relation": "bring",
+    "value": "a wealth of life experience and motivation to their educational pursuits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adults bring a wealth of life experience and motivation to their educational pursuits"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "adult learners",
+    "relation": "higher_rates_of",
+    "value": "course completion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often translating to higher rates of course completion and immediate application of acquired skills in the workforce"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "scholarships",
+    "relation": "are",
+    "value": "strategic investments in a potent segment of the population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're strategic investments in a potent segment of the population"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "adult education",
+    "relation": "has_momentum",
+    "value": "promising momentum in support of adult education",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, there has been promising momentum in support of adult education"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "'Second Chance' grant program",
+    "relation": "unveiled_by",
+    "value": "state government",
+    "time": "early November",
+    "speaker": null,
+    "verbatim": [
+     "A 'Second Chance' grant program unveiled by the state government in early November"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "'Second Chance' grant program",
+    "relation": "promises_to_waive",
+    "value": "tuition fees for adults seeking to complete their post-secondary education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises to waive tuition fees for adults seeking to complete their post-secondary education"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Anderson Foundation",
+    "relation": "committed",
+    "value": "$5 million in scholarship funds for adults over the age of 30 who wish to return to college or vocational training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Anderson Foundation, under the leadership of philanthropist James Anderson, has committed $5 million in scholarship funds for adults over the age of 30 who wish to return to college or vocational training"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Anderson Foundation",
+    "relation": "committed_amount",
+    "value": "$5 million",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has committed $5 million in scholarship funds"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "James Anderson",
+    "relation": "leads",
+    "value": "Anderson Foundation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the leadership of philanthropist James Anderson"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "James Anderson",
+    "relation": "occupation",
+    "value": "philanthropist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "philanthropist James Anderson"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "adult education",
+    "relation": "reported_uptick_in_enrollment",
+    "value": "several community colleges following their campaigns to reduce financial burdens for adult students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several community colleges have reported an uptick in enrollment following their campaigns to reduce financial burdens for adult students"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Metro City Community College",
+    "relation": "is_one_of",
+    "value": "several community colleges that reported an uptick in enrollment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One such institution, Metro City Community College"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Metro City Community College",
+    "relation": "launched",
+    "value": "'Back to School' fund",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Metro City Community College, launched the 'Back to School' fund in December 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "'Back to School' fund",
+    "relation": "offers",
+    "value": "micro-scholarships that cover the cost of textbooks and other ancillary fees for adults returning to the classroom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which offers micro-scholarships that cover the cost of textbooks and other ancillary fees for adults returning to the classroom"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "adult education",
+    "relation": "employers_are_pivotal_in",
+    "value": "the quest to advance adult education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employers are pivotal in the quest to advance adult education."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "TechForward",
+    "relation": "instituted",
+    "value": "'Learn and Earn' programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Progressive companies like TechForward have instituted 'Learn and Earn' programs"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "'Learn and Earn' programs",
+    "relation": "afford_employees",
+    "value": "flexible schedules and partial tuition reimbursement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where employees are afforded flexible schedules and partial tuition reimbursement"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "TechForward",
+    "relation": "partners_with",
+    "value": "local colleges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In partnership with local colleges, TechForward's program"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sandra Jeffries",
+    "relation": "conceptualized",
+    "value": "TechForward's program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "TechForward's program, conceptualized by HR Director Sandra Jeffries"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sandra Jeffries",
+    "relation": "job_title",
+    "value": "HR Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conceptualized by HR Director Sandra Jeffries"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "TechForward",
+    "relation": "embodies",
+    "value": "a growing trend of corporate involvement in adult learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embodies a growing trend of corporate involvement in adult learning"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "adult education",
+    "relation": "policies_should_incentivize",
+    "value": "both individual and corporate investment in adult education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We must advocate for federal and statelevel policies that incentivize both individual and corporate investment in adult education."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "adult education",
+    "relation": "could_be",
+    "value": "a game-changer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax breaks for businesses that support continuing education for their employees could be a game-changer"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "financial aid",
+    "relation": "expansion_recognizes",
+    "value": "the unique circumstances of adult learners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the expansion of federal financial aid that recognizes the unique circumstances of adult learners"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "adult education",
+    "relation": "learning_is_not_domain_of",
+    "value": "youth alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learning is not the domain of youth alone but a continuous journey that enhances life at every stage"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "adult education",
+    "relation": "should_highlight",
+    "value": "the transformative power of education, with adults front and center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marketing campaigns, success stories, and community outreach programs should highlight the transformative power of education, with adults front and center"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

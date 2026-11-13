@@ -1,0 +1,908 @@
+{
+ "inventory": [
+  "space weather",
+  "solar flares",
+  "coronal mass ejections",
+  "solar wind",
+  "Earth",
+  "the sun",
+  "NASA's Solar Dynamics Observatory",
+  "Dr. Emily Peterson",
+  "Earth's magnetosphere",
+  "geomagnetic storms",
+  "Colorado",
+  "Thomas Riley",
+  "North American Electric Reliability Corporation",
+  "Johnathan Hughes",
+  "satellites",
+  "GPS signals",
+  "ionosphere",
+  "Maria Gonzales",
+  "Carrington Event of 1859",
+  "utility companies across North America",
+  "coordinated drill",
+  "geomagnetically induced current (GIC) monitoring systems",
+  "power grids",
+  "fiber-optic cables",
+  "the internet",
+  "Linda Webb",
+  "Commercial aviation",
+  "aviation authorities"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "space weather",
+    "relation": "encompasses",
+    "value": "the various conditions originating from the sun",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this phenomenon encompasses the various conditions originating from the sun"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "space weather",
+    "relation": "includes",
+    "value": "solar flares, coronal mass ejections (CMEs), and solar wind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including solar flares, coronal mass ejections (CMEs), and solar wind"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "solar wind",
+    "relation": "can_affect",
+    "value": "spaceborne and Earth-based systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can resonate through space and affect spaceborne and Earth-based systems"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "space weather",
+    "relation": "has_most_intense_expressions",
+    "value": "solar storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar storms are among the most intense expressions of space weather."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "NASA's Solar Dynamics Observatory",
+    "relation": "spotted",
+    "value": "an active sunspot region hurling a significant solar flare towards Earth",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 14, 2023, astronomers at NASA's Solar Dynamics Observatory spotted an active sunspot region hurling a significant solar flare towards Earth."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Peterson",
+    "relation": "occupation",
+    "value": "a solar physicist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Peterson, a solar physicist, noted"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the sun",
+    "relation": "undergoes",
+    "value": "an 11-year cycle",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "The sun undergoes an 11-year cycle"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the sun",
+    "relation": "oscillates_between",
+    "value": "periods of high and low solar activity",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "oscillating between periods of high and low solar activity"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the sun",
+    "relation": "is_ramping_up_towards",
+    "value": "the peak",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "We're currently ramping up towards the peak"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "the sun",
+    "relation": "ramping_up_increases",
+    "value": "the frequency of solar storms",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "which increases the frequency of solar storms"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "the sun",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "We're currently ramping up towards the peak, which increases the frequency of solar storms."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "solar flares",
+    "relation": "eject",
+    "value": "bursts of charged particles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares and CMEs eject bursts of charged particles"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "coronal mass ejections",
+    "relation": "eject",
+    "value": "bursts of charged particles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar flares and CMEs eject bursts of charged particles"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "the sun",
+    "relation": "distance_to_Earth",
+    "value": "93-millionmile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 93-millionmile expanse between the sun and Earth at high speeds"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "solar flares",
+    "relation": "can_travel_at",
+    "value": "high speeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can travel across the 93-millionmile expanse between the sun and Earth at high speeds"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Earth's magnetosphere",
+    "relation": "is",
+    "value": "the protective magnetic bubble surrounding our planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the protective magnetic bubble surrounding our planet"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "geomagnetic storms",
+    "relation": "can_be_induced_by",
+    "value": "charged particles encountering Earth's magnetosphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When these charged particles encounter Earth's magnetosphere, the protective magnetic bubble surrounding our planet, they can induce geomagnetic storms."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "geomagnetic storms",
+    "relation": "can_create",
+    "value": "beautiful auroras",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "These storms can create beautiful auroras, but they're also capable of disrupting satellites, power grids, and communication systems."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "geomagnetic storms",
+    "relation": "can_disrupt",
+    "value": "satellites, power grids, and communication systems",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "they're also capable of disrupting satellites, power grids, and communication systems."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "geomagnetic storms",
+    "relation": "sparked_by",
+    "value": "a previous CME",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 22, 2023, a geomagnetic storm, sparked by a previous CME, caused vivid auroral displays that were seen as far south as Colorado."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "geomagnetic storms",
+    "relation": "caused",
+    "value": "vivid auroral displays",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a geomagnetic storm, sparked by a previous CME, caused vivid auroral displays"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "geomagnetic storms",
+    "relation": "auroral_displays_seen_as_far_south_as",
+    "value": "Colorado",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "vivid auroral displays that were seen as far south as Colorado"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "geomagnetic storms",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "sparked by a previous CME, caused vivid auroral displays"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "geomagnetic storms",
+    "relation": "affected_operators_of",
+    "value": "power grids and telecommunication services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was a different story for the operators of power grids and telecommunication services"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "geomagnetic storms",
+    "relation": "induced_currents_can_exceed",
+    "value": "the certain tolerances of infrastructure",
+    "time": null,
+    "speaker": "Thomas Riley",
+    "verbatim": [
+     "Our infrastructure is built with certain tolerances, and the currents induced by geomagnetic storms can exceed these,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Thomas Riley",
+    "relation": "occupation",
+    "value": "an electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an electrical engineer with the North American Electric Reliability Corporation"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Thomas Riley",
+    "relation": "employed_by",
+    "value": "North American Electric Reliability Corporation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an electrical engineer with the North American Electric Reliability Corporation"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "satellites",
+    "relation": "vulnerable_to",
+    "value": "space weather effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Satellites are particularly vulnerable to space weather effects."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "satellites",
+    "relation": "can_suffer",
+    "value": "physical damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only can the enhanced radiation cause physical damage, but it can also lead to malfunctions and data corruption."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "satellites",
+    "relation": "can_suffer",
+    "value": "malfunctions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but it can also lead to malfunctions and data corruption."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "satellites",
+    "relation": "can_suffer",
+    "value": "data corruption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but it can also lead to malfunctions and data corruption."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Johnathan Hughes",
+    "relation": "occupation",
+    "value": "a mission director for a geostationary satellite fleet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Hughes, a mission director for a geostationary satellite fleet, highlighted an incident"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Johnathan Hughes",
+    "relation": "highlighted",
+    "value": "an incident on September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Hughes, a mission director for a geostationary satellite fleet, highlighted an incident on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "satellites",
+    "relation": "lost_orientation_due_to",
+    "value": "a mild solar storm",
+    "time": "September 15, 2023",
+    "speaker": "Johnathan Hughes",
+    "verbatim": [
+     "where a satellite temporarily lost its orientation due to a",
+     "mild solar storm, causing interruptions in weather forecasting and telecommunications for several hours"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "satellites",
+    "relation": "caused_interruptions_in",
+    "value": "weather forecasting and telecommunications for several hours",
+    "time": "September 15, 2023",
+    "speaker": "Johnathan Hughes",
+    "verbatim": [
+     "causing interruptions in weather forecasting and telecommunications for several hours"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "satellites",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": "September 15, 2023",
+    "speaker": "Johnathan Hughes",
+    "verbatim": [
+     "where a satellite temporarily lost its orientation due to a",
+     "mild solar storm, causing interruptions in weather forecasting and telecommunications for several hours"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "GPS signals",
+    "relation": "reliant_on",
+    "value": "the stability of the ionosphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GPS signals are reliant on the stability of the ionosphere"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "ionosphere",
+    "relation": "is",
+    "value": "a layer of Earth's upper atmosphere ionized by solar radiation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a layer of Earth's upper atmosphere ionized by solar radiation"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "ionosphere",
+    "relation": "can_lead_to",
+    "value": "GPS signal distortions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fluctuations in the ionosphere can lead to GPS signal distortions"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Maria Gonzales",
+    "relation": "occupation",
+    "value": "airline pilot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "something that airline pilot Maria Gonzales experienced firsthand on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Maria Gonzales",
+    "relation": "experienced",
+    "value": "GPS signal distortions",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "something that airline pilot Maria Gonzales experienced firsthand on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Maria Gonzales",
+    "relation": "switched_to",
+    "value": "backup navigation systems",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "We had to switch to backup navigation systems until the GPS signal stabilized,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "GPS signals",
+    "relation": "stabilized",
+    "value": "stabilized",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "until the GPS signal stabilized"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "space weather",
+    "relation": "has_pervasive_effects_on",
+    "value": "technology and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illustrating the pervasive effects of space weather on technology and safety."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "power grids",
+    "relation": "threat_posed_by",
+    "value": "space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the threat posed by space weather to power grids has come under scrutiny"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "geomagnetic storms",
+    "relation": "akin_to",
+    "value": "Carrington Event of 1859",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A particularly powerful geomagnetic storm, akin to the historical Carrington Event of 1859,"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Carrington Event of 1859",
+    "relation": "described_as",
+    "value": "historical",
+    "time": "1859",
+    "speaker": null,
+    "verbatim": [
+     "the historical Carrington Event of 1859"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "geomagnetic storms",
+    "relation": "could_have",
+    "value": "catastrophic consequences for modern electricity-dependent infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could have catastrophic consequences for modern electricity-dependent infrastructure."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "utility companies across North America",
+    "relation": "conducted",
+    "value": "a coordinated drill",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 20, 2023, utility companies across North America conducted a coordinated drill"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "coordinated drill",
+    "relation": "purpose",
+    "value": "to prepare and test their resilience to space weather events",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to prepare and test their resilience to space weather events."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "coordinated drill",
+    "relation": "is_crucial_for",
+    "value": "hardening our grid against the inevitable",
+    "time": null,
+    "speaker": "Thomas Riley",
+    "verbatim": [
+     "Exercises like these are crucial for hardening our grid against the inevitable,"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "power grids",
+    "relation": "safeguard_efforts_include",
+    "value": "the implementation of geomagnetically induced current (GIC) monitoring systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Efforts to safeguard electricity infrastructure against space weather include the implementation of geomagnetically induced current (GIC) monitoring systems"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "power grids",
+    "relation": "safeguard_efforts_include",
+    "value": "the development of more robust transformers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the development of more robust transformers."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "power grids",
+    "relation": "adaptive_configurations_could_minimize",
+    "value": "the risk of widespread outages during solar storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies are also exploring adaptive grid configurations that could minimize the risk of widespread outages during solar storms."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "power grids",
+    "relation": "proactive_measures_are",
+    "value": "costly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These proactive measures, while costly, represent the insurance policy against nature's potential onslaught."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "power grids",
+    "relation": "proactive_measures_represent",
+    "value": "the insurance policy against nature's potential onslaught",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These proactive measures, while costly, represent the insurance policy against nature's potential onslaught."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "fiber-optic cables",
+    "relation": "form_backbone_of",
+    "value": "the internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fiber-optic cables that form the backbone of the internet"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "the internet",
+    "relation": "backbone_formed_by",
+    "value": "fiber-optic cables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fiber-optic cables that form the backbone of the internet"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "fiber-optic cables",
+    "relation": "largely_immune_to",
+    "value": "space weather's direct effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are largely immune to space weather's direct effects"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "the internet",
+    "relation": "electronic_components_not_as_fortunate",
+    "value": "electronic components that manage data transmission",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the electronic components that manage data transmission are not as fortunate."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "solar flares",
+    "relation": "disrupted",
+    "value": "satellite links that facilitate transoceanic communications",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 29, 2023, a minor solar flare disrupted satellite links that facilitate transoceanic communications"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "solar flares",
+    "relation": "magnitude",
+    "value": "minor",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 29, 2023, a minor solar flare disrupted satellite links"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "the internet",
+    "relation": "traffic_temporarily_slowed",
+    "value": "internet traffic",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "temporarily slowing internet traffic"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "the internet",
+    "relation": "caused_disruptions_to",
+    "value": "global data exchange",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "causing disruptions to global data exchange."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "solar flares",
+    "relation": "results_in",
+    "value_ref": "c63",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disrupted satellite links that facilitate transoceanic communications, temporarily slowing internet traffic"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Linda Webb",
+    "relation": "occupation",
+    "value": "network strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "said network strategist Linda Webb."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Linda Webb",
+    "relation": "said",
+    "value": "We are working on routing protocols that can adapt to such outages quickly",
+    "time": null,
+    "speaker": "Linda Webb",
+    "verbatim": [
+     "We are working on routing protocols that can adapt to such outages quickly,"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Commercial aviation",
+    "relation": "relies_on",
+    "value": "accurate and uninterrupted communication and navigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commercial aviation relies on accurate and uninterrupted communication and navigation systems"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Commercial aviation",
+    "relation": "purpose_of_systems",
+    "value": "to keep flights on course and ensure passenger safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to keep flights on course and ensure passenger safety."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Commercial aviation",
+    "relation": "has_protocols",
+    "value": "protocols for pilots to follow in the event of communication outages or navigational issues caused by space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pilots to follow in the event of communication outages or navigational issues caused by space weather."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Commercial aviation",
+    "relation": "incident_on",
+    "value": "communication with several transatlantic flights was degraded due to a solar storm",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following an incident on November 2, 2023, where communication with several transatlantic flights was degraded due to a solar storm"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "aviation authorities",
+    "relation": "emphasized",
+    "value": "the importance of continuous monitoring and training in facing these cosmic challenges",
+    "time": null,
+    "speaker": "aviation authorities",
+    "verbatim": [
+     "aviation authorities emphasized the importance of continuous monitoring and training in facing these cosmic challenges."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "aviation authorities",
+    "relation": "in_response_to",
+    "value_ref": "c71",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following an incident on November 2, 2023, where communication with several transatlantic flights was degraded due to a solar storm, aviation authorities emphasized"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "the sun",
+    "relation": "intensifying_toward",
+    "value": "its expected peak",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As solar activity continues to intensify toward its expected peak"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "space weather",
+    "relation": "experts_advising",
+    "value": "the public and industries to stay informed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experts are advising the public and industries to stay informed."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "space weather",
+    "relation": "collaboration_key_to_developing",
+    "value": "a comprehensive strategy to predict, prepare for, and mitigate the effects of space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaboration between governments, private companies, and international bodies is key to developing a comprehensive strategy to predict, prepare for, and mitigate the effects of space weather."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Dr. Emily Peterson",
+    "relation": "concluded",
+    "value": "the more effectively we can protect our technologydependent civilization",
+    "time": null,
+    "speaker": "Dr. Emily Peterson",
+    "verbatim": [
+     "The better we understand the sun's patterns and influences, the more effectively we can protect our technologydependent civilization,"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "space weather",
+    "relation": "serves_as_reminder_of",
+    "value": "our place within the broader cosmic environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as a humbling reminder of our place within the broader cosmic environment."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Earth",
+    "relation": "solar_flare_directed_towards",
+    "value": "a significant solar flare",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "hurling a significant solar flare towards Earth."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

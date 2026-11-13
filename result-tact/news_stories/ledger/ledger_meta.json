@@ -1,0 +1,29 @@
+{
+  "topic": "news_stories",
+  "corpus_sha256": "bede30f984c44d1d266fc2554a5ddd9ffc697bdffc23b6be462b01be5b4b17bc",
+  "n_documents": 80,
+  "n_claims": 5195,
+  "n_claims_before_merge": 5197,
+  "n_raw": 5197,
+  "n_rejected": 0,
+  "n_multispan": 28,
+  "n_relational": 212,
+  "rejection_rate": 0.0,
+  "n_contradictions": 17,
+  "inventory_size": 1670,
+  "n_canonical_entities": 1504,
+  "entity_collision_rate": 0.0,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 408656,
+    "output_tokens": 1897350,
+    "measured_cost_usd": 0.0
+  }
+}

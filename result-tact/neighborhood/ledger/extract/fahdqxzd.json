@@ -1,0 +1,799 @@
+{
+ "inventory": [
+  "Gianna Ricci",
+  "Arun Patel",
+  "Maria Gonzalez",
+  "The Petersons",
+  "Samira Abassi",
+  "Claude Martin",
+  "Nneka Eze",
+  "Enrique Suarez",
+  "Aisha Al-Farsi",
+  "Carlos and Daniela Andrade",
+  "Amir Rashid",
+  "Sofia Herrera",
+  "Ricci's Ristorante",
+  "Peterson Melody Fest",
+  "Global Market Day",
+  "Community Cup",
+  "Mosaic Film Festival",
+  "New York",
+  "California",
+  "India",
+  "Mexico",
+  "Nigeria",
+  "Iran",
+  "France",
+  "Venezuela",
+  "Saudi Arabia",
+  "Brazil",
+  "Syria",
+  "immigration",
+  "after-school program",
+  "bilingual programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "immigration",
+    "relation": "cornerstone_of",
+    "value": "community development and enrichment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "immigration has been a cornerstone of community development and enrichment"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "New York",
+    "relation": "described_as",
+    "value": "bustling streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the bustling streets of New York"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "California",
+    "relation": "described_as",
+    "value": "rich soils of California's farmlands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the rich soils of California's farmlands"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "immigration",
+    "relation": "surge_marked_on",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A recent surge of immigrants, marked vividly on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "immigration",
+    "relation": "breathed_new_life_into",
+    "value": "our neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "breathed new life into our neighborhood"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "immigration",
+    "relation": "reminiscent_of",
+    "value": "the European influx at the turn of the 20th century",
+    "time": "turn of the 20th century",
+    "speaker": null,
+    "verbatim": [
+     "reminiscent of the European influx at the turn of the 20th century"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Gianna Ricci",
+    "relation": "arrived_with",
+    "value": "little more than dreams in their pockets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People like Gianna Ricci and Arun Patel arrived with little more than dreams in their pockets"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Arun Patel",
+    "relation": "arrived_with",
+    "value": "little more than dreams in their pockets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People like Gianna Ricci and Arun Patel arrived with little more than dreams in their pockets"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Gianna Ricci",
+    "relation": "hails_from",
+    "value": "a serene Italian village",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gianna, hailing from a serene Italian village"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Gianna Ricci",
+    "relation": "brought",
+    "value": "generations of culinary expertise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought with her generations of culinary expertise"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Gianna Ricci",
+    "relation": "transformed_storefront_into",
+    "value": "Ricci's Ristorante",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed a once-abandoned storefront into 'Ricci's Ristorante'"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Ricci's Ristorante",
+    "relation": "described_as",
+    "value": "a hub of tantalizing aromas and a centerpiece for community gatherings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hub of tantalizing aromas and a centerpiece for community gatherings"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Gianna Ricci",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought with her generations of culinary expertise that soon transformed a once-abandoned storefront into 'Ricci's Ristorante'"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Arun Patel",
+    "relation": "is_a",
+    "value": "software engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arun Patel, a software engineer from India"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Arun Patel",
+    "relation": "hails_from",
+    "value": "India",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arun Patel, a software engineer from India"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Arun Patel",
+    "relation": "launched",
+    "value": "an after-school program for underprivileged children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arun Patel, a software engineer from India, launched an after-school program for underprivileged children"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "after-school program",
+    "relation": "equips_with",
+    "value": "digital literacy skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipping them with digital literacy skills crucial for 21st-century success"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Maria Gonzalez",
+    "relation": "arrived_on",
+    "value": "September 19, 2023",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, who arrived on September 19, 2023, is a shining example."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Maria Gonzalez",
+    "relation": "is_a",
+    "value": "public health worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A public health worker from Mexico"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maria Gonzalez",
+    "relation": "hails_from",
+    "value": "Mexico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A public health worker from Mexico"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maria Gonzalez",
+    "relation": "noticed",
+    "value": "a need for better healthcare education within her neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria noticed a need for better healthcare education within her neighborhood"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Maria Gonzalez",
+    "relation": "organized",
+    "value": "free clinics and workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She began organizing free clinics and workshops"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Maria Gonzalez",
+    "relation": "became",
+    "value": "a pillar of health and wellness advocacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "soon becoming a pillar of health and wellness advocacy"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Petersons",
+    "relation": "hails_from",
+    "value": "Nigeria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Petersons, a family from Nigeria"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "The Petersons",
+    "relation": "created",
+    "value": "Peterson Melody Fest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have turned a passion for music into a city treasure with the 'Peterson Melody Fest' every October"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Peterson Melody Fest",
+    "relation": "held_in",
+    "value": "every October",
+    "time": "every October",
+    "speaker": null,
+    "verbatim": [
+     "with the 'Peterson Melody Fest' every October"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Global Market Day",
+    "relation": "first_celebrated_on",
+    "value": "November 30, 2023",
+    "time": "November 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 30, 2023, the first 'Global Market Day' was celebrated"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Global Market Day",
+    "relation": "invited",
+    "value": "every immigrant community to showcase their country\u2019s specialties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every immigrant community was invited to showcase their country\u2019s specialties"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Samira Abassi",
+    "relation": "hails_from",
+    "value": "Iran",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "young entrepreneur from Iran"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Samira Abassi",
+    "relation": "is_a",
+    "value": "young entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "young entrepreneur from Iran"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Samira Abassi",
+    "relation": "runs",
+    "value": "Persian handicraft stall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her Persian handicraft stall became a bridge between cultures"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Persian handicraft stall",
+    "relation": "became",
+    "value": "a bridge between cultures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her Persian handicraft stall became a bridge between cultures"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "bilingual programs",
+    "relation": "increased_in_schools",
+    "value": "a noticeable increase",
+    "time": "By December of 2023",
+    "speaker": null,
+    "verbatim": [
+     "By December of 2023, our schools saw a noticeable increase in bilingual programs"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Claude Martin",
+    "relation": "is_a",
+    "value": "local educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local educators like Claude Martin"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Claude Martin",
+    "relation": "described_as",
+    "value": "a French immigrant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local educators like Claude Martin, a French immigrant"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Claude Martin",
+    "relation": "fosters",
+    "value": "understanding, communication, and a celebration of the mosaic of languages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They were fostering understanding, communication, and a celebration of the mosaic of languages spoken by the students"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "immigration",
+    "relation": "impact_on_local_economies_was",
+    "value": "undeniable",
+    "time": "Come 2024",
+    "speaker": null,
+    "verbatim": [
+     "Come 2024, the impact of immigration on local economies was undeniable."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "immigration",
+    "relation": "driving_force_behind",
+    "value": "job creation",
+    "time": null,
+    "speaker": "A study",
+    "verbatim": [
+     "A study highlighted that immigrant-owned businesses, such as the tech startup launched by Nigerian immigrant Nneka Eze, are a driving force behind job creation."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Nneka Eze",
+    "relation": "hails_from",
+    "value": "Nigeria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nigerian immigrant Nneka Eze"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Nneka Eze",
+    "relation": "launched",
+    "value": "tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the tech startup launched by Nigerian immigrant Nneka Eze"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Nneka Eze",
+    "relation": "story_reflects",
+    "value": "a larger narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nneka's story of success reflects a larger narrative"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "immigration",
+    "relation": "sparks",
+    "value": "innovation and competitiveness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where new ideas and perspectives spark innovation and competitiveness"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "immigration",
+    "relation": "leads_to",
+    "value": "broader economic growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to broader economic growth"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "immigration",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spark innovation and competitiveness, leading to broader economic growth"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Enrique Suarez",
+    "relation": "hails_from",
+    "value": "Venezuela",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Enrique Suarez from Venezuela"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Enrique Suarez",
+    "relation": "is_a",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Enrique Suarez from Venezuela"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Aisha Al-Farsi",
+    "relation": "hails_from",
+    "value": "Saudi Arabia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aisha Al-Farsi from Saudi Arabia"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Aisha Al-Farsi",
+    "relation": "is_a",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Enrique Suarez from Venezuela and Aisha Al-Farsi from Saudi Arabia"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Enrique Suarez",
+    "relation": "introduced_taste_buds_to",
+    "value": "a world of flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have recently introduced our taste buds to a world of flavor"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Aisha Al-Farsi",
+    "relation": "introduced_taste_buds_to",
+    "value": "a world of flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have recently introduced our taste buds to a world of flavor"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Enrique Suarez",
+    "relation": "eateries_became",
+    "value": "cultural hotspots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their eateries have turned into cultural hotspots"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Aisha Al-Farsi",
+    "relation": "eateries_became",
+    "value": "cultural hotspots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their eateries have turned into cultural hotspots"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Community Cup",
+    "relation": "is_a",
+    "value": "a soccer tournament",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Community Cup', a soccer tournament introduced in May 2024"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Community Cup",
+    "relation": "introduced_in",
+    "value": "May 2024",
+    "time": "May 2024",
+    "speaker": null,
+    "verbatim": [
+     "a soccer tournament introduced in May 2024 by Brazilian couple Carlos and Daniela Andrade"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Community Cup",
+    "relation": "introduced_by",
+    "value": "Carlos and Daniela Andrade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced in May 2024 by Brazilian couple Carlos and Daniela Andrade"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Carlos and Daniela Andrade",
+    "relation": "hails_from",
+    "value": "Brazil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Brazilian couple Carlos and Daniela Andrade"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Community Cup",
+    "relation": "has_been",
+    "value": "a revelation, bridging gaps between different cultural identities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been a revelation, bridging gaps between different cultural identities"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Mosaic Film Festival",
+    "relation": "launched_in",
+    "value": "June 2024",
+    "time": "June 2024",
+    "speaker": null,
+    "verbatim": [
+     "The launch of the 'Mosaic Film Festival' in June 2024 by Syrian filmmaker Amir Rashid"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Mosaic Film Festival",
+    "relation": "launched_by",
+    "value": "Amir Rashid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by Syrian filmmaker Amir Rashid"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Amir Rashid",
+    "relation": "hails_from",
+    "value": "Syria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Syrian filmmaker Amir Rashid"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Amir Rashid",
+    "relation": "is_a",
+    "value": "filmmaker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Syrian filmmaker Amir Rashid"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Amir Rashid",
+    "relation": "made",
+    "value": "documentary chronicling the journey of immigrants in our communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His documentary chronicling the journey of immigrants in our communities has not only educated many but also touched hearts"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "immigration",
+    "relation": "enriches",
+    "value": "the local arts scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reinforcing how immigration enriches the local arts scene"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sofia Herrera",
+    "relation": "is_a",
+    "value": "Psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychologist and Mexican immigrant Sofia Herrera"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Sofia Herrera",
+    "relation": "hails_from",
+    "value": "Mexico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychologist and Mexican immigrant Sofia Herrera"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sofia Herrera",
+    "relation": "established",
+    "value": "a support network for new arrivals struggling with adjustment",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "established a support network in July 2024 for new arrivals struggling with adjustment"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sofia Herrera",
+    "relation": "workshops_foster",
+    "value": "a sense of belonging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her workshops and community support groups foster a sense of belonging"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "immigration",
+    "relation": "brings",
+    "value": "linguistic richness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Immigration also brings linguistic richness."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "immigration",
+    "relation": "brings",
+    "value": "festivals, food, music, and traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it brings festivals, food, music, and traditions"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,519 @@
+{
+ "inventory": [
+  "Mrs. Felicity Goodbutton",
+  "Pleasantville",
+  "smart coffee maker",
+  "Bob",
+  "Service Providers",
+  "Janet McNotaninfluencer",
+  "Service Level Agreement",
+  "Adrian Quibble",
+  "Bryan Wistful",
+  "Consumer Crusaders",
+  "Linda Byte",
+  "Disconnection Discontents",
+  "consumer rights",
+  "service outage",
+  "internet"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mrs. Felicity Goodbutton",
+    "relation": "lives_in",
+    "value": "Pleasantville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mrs. Felicity Goodbutton of Pleasantville"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mrs. Felicity Goodbutton",
+    "relation": "woke_to_find",
+    "value": "smart coffee maker had betrayed her",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "waking to find that her smart coffee maker had betrayed her"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Mrs. Felicity Goodbutton",
+    "relation": "woke_to",
+    "value": "no morning news, no emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "No morning news, no emails, just the sweet sound of digital desolation."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Bob",
+    "relation": "described_as",
+    "value": "from down the street",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob from down the street"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bob",
+    "relation": "might_strike_up_conversation_about",
+    "value": "the weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob from down the street might even strike up a conversation about the weather"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Bob",
+    "relation": "absorbed_in",
+    "value": "his sports updates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "being nose-deep in his sports updates"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "service outage",
+    "relation": "caused_loss_of",
+    "value": "the real tweets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The real tweets, the ones that matter"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "service outage",
+    "relation": "described_as",
+    "value": "catastrophic yet mundane apocalypse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the catastrophic yet mundane apocalypse of a service outage"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Service Level Agreement",
+    "relation": "shields",
+    "value": "us in these dark times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Service Level Agreements that shield us in these dark times"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "consumer rights",
+    "relation": "described_as",
+    "value": "armor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the armor of consumer rights"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Service Providers",
+    "relation": "hoard",
+    "value": "our precious internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Service Providers are the dragons hoarding our precious internet"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Service Providers",
+    "relation": "offered",
+    "value": "a so-called Service Level Agreement (SLA)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these very dragons offered us a parchment of promise, a so-called Service Level Agreement (SLA)"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Janet McNotaninfluencer",
+    "relation": "described_as",
+    "value": "Lip-sync legend and consumer rights advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lip-sync legend and consumer rights advocate, Janet McNotaninfluencer"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Janet McNotaninfluencer",
+    "relation": "reads_to",
+    "value": "the gathered crowd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dramatically reads to the gathered crowd from a SLA"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Service Level Agreement",
+    "relation": "specifies",
+    "value": "99.9% network uptime",
+    "time": null,
+    "speaker": "Janet McNotaninfluencer",
+    "verbatim": [
+     "shall endeavor to provide 99.9% network uptime"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Adrian Quibble",
+    "relation": "described_as",
+    "value": "a seasoned warrior of complaints departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adrian Quibble, a seasoned warrior of complaints departments"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Adrian Quibble",
+    "relation": "sought_to_exercise",
+    "value": "his digital ancestral rights",
+    "time": "September 12th",
+    "speaker": null,
+    "verbatim": [
+     "sought to exercise his digital ancestral rights"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Adrian Quibble",
+    "relation": "asked_for",
+    "value": "a week's credit for the 8-hour outage",
+    "time": null,
+    "speaker": "Adrian Quibble",
+    "verbatim": [
+     "I asked for a week's credit for the 8-hour outage."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "service outage",
+    "relation": "lasted",
+    "value": "8 hours",
+    "time": null,
+    "speaker": "Adrian Quibble",
+    "verbatim": [
+     "the 8-hour outage"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Adrian Quibble",
+    "relation": "received_reply",
+    "value": "a coupon for three free emoticons",
+    "time": null,
+    "speaker": "Adrian Quibble",
+    "verbatim": [
+     "The reply was a coupon for three free emoticons"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Adrian Quibble",
+    "relation": "reported_that",
+    "value": "one wasn't even smiling",
+    "time": null,
+    "speaker": "Adrian Quibble",
+    "verbatim": [
+     "and one wasn't even smiling."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Service Providers",
+    "relation": "customer_service_conversations_end",
+    "value": "with a mute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most conversations end not with a bang, but with a mute."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Service Providers",
+    "relation": "representatives_fend_off",
+    "value": "the disgruntled masses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fend off the disgruntled masses"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Service Providers",
+    "relation": "said",
+    "value": "I understand your frustration",
+    "time": null,
+    "speaker": "a hollow voice",
+    "verbatim": [
+     "I understand your frustration"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Bryan Wistful",
+    "relation": "said",
+    "value": "I didn't even know I had a puppy",
+    "time": null,
+    "speaker": "Bryan Wistful",
+    "verbatim": [
+     "I didn't even know I had a puppy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bryan Wistful",
+    "relation": "described_as",
+    "value": "a rediscovered dog owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bryan Wistful, a rediscovered dog owner"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "service outage",
+    "relation": "leads_to",
+    "value": "enlightenment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the profound silence left by our disconnected state, some find enlightenment."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "service outage",
+    "relation": "described_as",
+    "value": "a revival tent for the attention-span impaired",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the outage is a revival tent for the attention-span impaired"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "service outage",
+    "relation": "occurred_on",
+    "value": "September 20th",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "The outage on September 20th"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "service outage",
+    "relation": "described_as",
+    "value": "an echo of the first",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "might have been but an echo of the first"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "internet",
+    "relation": "returns",
+    "value": "inevitably",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inevitably, the internet returns."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "internet",
+    "relation": "described_as",
+    "value": "a tenuous love affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we remain in a tenuous love affair with our internet"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Linda Byte",
+    "relation": "described_as",
+    "value": "small business owner and freshly-minted activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As small business owner and freshly-minted activist, Linda Byte, proclaims"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Linda Byte",
+    "relation": "said",
+    "value": "We need guarantees, not just pacifiers!",
+    "time": null,
+    "speaker": "Linda Byte",
+    "verbatim": [
+     "We need guarantees, not just pacifiers!"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Disconnection Discontents",
+    "relation": "led_by",
+    "value": "Linda Byte",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Byte, with her newly-established union 'Disconnection Discontents'"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Disconnection Discontents",
+    "relation": "described_as",
+    "value": "newly-established union",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with her newly-established union 'Disconnection Discontents'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Disconnection Discontents",
+    "relation": "rallies_behind",
+    "value": "the cry for outages to be met with equitable recompense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rallies behind the cry for outages to be met with equitable recompense"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Consumer Crusaders",
+    "relation": "demands",
+    "value": "stricter SLAs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They shout from the virtual rooftops for stricter SLAs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Consumer Crusaders",
+    "relation": "demands",
+    "value": "compensation that extends beyond emoticon pacifiers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for compensation that extends beyond emoticon pacifiers"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Consumer Crusaders",
+    "relation": "demands",
+    "value": "transparency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for transparency and, dare we say, for decency"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Consumer Crusaders",
+    "relation": "demands",
+    "value": "decency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for transparency and, dare we say, for decency"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Consumer Crusaders",
+    "relation": "described_as",
+    "value": "not all heroes wear capes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not all heroes wear capes \u2013 some just have really good WiFi"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "consumer rights",
+    "relation": "pursuit_of",
+    "value": "credit against downtime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pursuit of credit against downtime"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "consumer rights",
+    "relation": "described_as",
+    "value": "a treacherous journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Tis a treacherous journey wrought with oblique customer service calls"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "consumer rights",
+    "relation": "described_as",
+    "value": "our lifeline in a day in the life without the internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our lifeline in a day in the life without the internet"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

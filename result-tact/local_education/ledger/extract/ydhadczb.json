@@ -1,0 +1,724 @@
+{
+ "inventory": [
+  "Redwood National and State Parks",
+  "Matthew Greene",
+  "Yellowstone National Park",
+  "Jenny Larson",
+  "The Everglades",
+  "David Thompson",
+  "Grand Canyon, Arizona",
+  "Sarah Kim",
+  "Great Barrier Reef",
+  "James Patterson",
+  "Costa Rica's Monteverde Cloud Forest Reserve",
+  "Lincoln High School",
+  "Maria Rodriguez",
+  "Banff National Park",
+  "Wilson Secondary",
+  "Robert Carter",
+  "Glacier National Park",
+  "Emily Stone",
+  "Amazon Rainforest, Brazil",
+  "Laura Bennett",
+  "Gal\u00e1pagos Islands, Ecuador",
+  "Mark Stevens"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Redwood National and State Parks",
+    "relation": "located_in",
+    "value": "northern California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nestled along the coast of northern California"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Redwood National and State Parks",
+    "relation": "teaches_about",
+    "value": "biodiversity, conservation, and the significance of old-growth forests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Students learn about biodiversity, conservation, and the significance of old-growth forests"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Redwood National and State Parks",
+    "relation": "tree_age",
+    "value": "centuries old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trees that are centuries old"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Matthew Greene",
+    "relation": "occupation",
+    "value": "environmental science teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to Matthew Greene, an environmental science teacher"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Redwood National and State Parks",
+    "relation": "visited_on",
+    "value": "Sept. 15, 2023",
+    "time": "Sept. 15, 2023",
+    "speaker": "Matthew Greene",
+    "verbatim": [
+     "his Sept. 15, 2023, trip with students allowed them to study some of the world's tallest trees and understand the ecosystems these giants support"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Matthew Greene",
+    "relation": "said_trip_allowed_students_to",
+    "value": "study some of the world's tallest trees and understand the ecosystems these giants support",
+    "time": "Sept. 15, 2023",
+    "speaker": "Matthew Greene",
+    "verbatim": [
+     "his Sept. 15, 2023, trip with students allowed them to study some of the world's tallest trees and understand the ecosystems these giants support"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Yellowstone National Park",
+    "relation": "recognized_as",
+    "value": "first national park in the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognized as the first national park in the world"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Yellowstone National Park",
+    "relation": "located_in",
+    "value": "Wyoming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yellowstone National Park, Wyoming"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jenny Larson",
+    "relation": "occupation",
+    "value": "geography teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenny Larson, a geography teacher, described"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Yellowstone National Park",
+    "relation": "visited_on",
+    "value": "October 10",
+    "time": "October 10",
+    "speaker": "Jenny Larson",
+    "verbatim": [
+     "her October 10 outing enabled students to observe geothermal features and diverse wildlife"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jenny Larson",
+    "relation": "described_students_observing",
+    "value": "geothermal features and diverse wildlife that they had only previously seen in textbooks",
+    "time": "October 10",
+    "speaker": "Jenny Larson",
+    "verbatim": [
+     "enabled students to observe geothermal features and diverse wildlife that they had only previously seen in textbooks"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Yellowstone National Park",
+    "relation": "activities_include",
+    "value": "water sampling and wildlife tracking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Activities like water sampling and wildlife tracking facilitate hands-on science education"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Yellowstone National Park",
+    "relation": "discussions_include",
+    "value": "balancing tourism with conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discussions on balancing tourism with conservation"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Everglades",
+    "relation": "located_in",
+    "value": "southern Florida",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A river of grass flowing through southern Florida"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "David Thompson",
+    "relation": "occupation",
+    "value": "biology teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biology teacher David Thompson emphasized"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "The Everglades",
+    "relation": "visited_on",
+    "value": "November 5",
+    "time": "November 5",
+    "speaker": null,
+    "verbatim": [
+     "During a November 5 venture"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "David Thompson",
+    "relation": "emphasized",
+    "value": "the importance of students understanding the role of wetlands in water purification and as buffers against storms",
+    "time": "November 5",
+    "speaker": "David Thompson",
+    "verbatim": [
+     "biology teacher David Thompson emphasized the importance of students understanding the role of wetlands in water purification and as buffers against storms"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Everglades",
+    "relation": "activities_include",
+    "value": "Paddling trips and bird watching tours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paddling trips and bird watching tours highlight issues such as endangered species and the impact of invasive plants."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Everglades",
+    "relation": "issues_highlighted",
+    "value": "endangered species and the impact of invasive plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paddling trips and bird watching tours highlight issues such as endangered species and the impact of invasive plants."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Grand Canyon, Arizona",
+    "relation": "visited_on",
+    "value": "September 25",
+    "time": "September 25",
+    "speaker": null,
+    "verbatim": [
+     "On September 25, educators like Sarah Kim took their history and science classes to the Grand Canyon"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Kim",
+    "relation": "occupation",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educators like Sarah Kim took their history and science classes"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Kim",
+    "relation": "took_classes_to",
+    "value": "Grand Canyon, Arizona",
+    "time": "September 25",
+    "speaker": null,
+    "verbatim": [
+     "educators like Sarah Kim took their history and science classes to the Grand Canyon"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Grand Canyon, Arizona",
+    "relation": "learning_extends_beyond",
+    "value": "geology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where learning extends far beyond geology"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Grand Canyon, Arizona",
+    "relation": "topics_include",
+    "value": "desert ecosystems, water resources, and the Native American tribes of the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opens discourse on desert ecosystems, water resources, and the Native American tribes of the region"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Grand Canyon, Arizona",
+    "relation": "described_as",
+    "value": "comprehensive outdoor classroom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as a comprehensive outdoor classroom"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Great Barrier Reef",
+    "relation": "located_in",
+    "value": "Australia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Great Barrier Reef, Australia"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Great Barrier Reef",
+    "relation": "accessibility",
+    "value": "not easily accessible for all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While not easily accessible for all, those who can venture to the Great Barrier Reef return with unparalleled insights into marine biology and oceanography."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "James Patterson",
+    "relation": "occupation",
+    "value": "marine science teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Patterson, a marine science teacher, shared his students' awe"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Great Barrier Reef",
+    "relation": "visited_on",
+    "value": "December 3",
+    "time": "December 3",
+    "speaker": "James Patterson",
+    "verbatim": [
+     "shared his students' awe on their December 3 visit to this world wonder"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Great Barrier Reef",
+    "relation": "lessons_include",
+    "value": "coral reef ecosystems, climate change, and the delicate balance existing beneath the ocean's surface",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reinforcing lessons on coral reef ecosystems, climate change, and the delicate balance existing beneath the ocean's surface"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Costa Rica's Monteverde Cloud Forest Reserve",
+    "relation": "visited_on",
+    "value": "November 20",
+    "time": "November 20",
+    "speaker": null,
+    "verbatim": [
+     "On an international excursion on November 20, students from Lincoln High School were submerged in the lush biodiversity of Monteverde Cloud Forest Reserve."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lincoln High School",
+    "relation": "visited",
+    "value": "Costa Rica's Monteverde Cloud Forest Reserve",
+    "time": "November 20",
+    "speaker": null,
+    "verbatim": [
+     "students from Lincoln High School were submerged in the lush biodiversity of Monteverde Cloud Forest Reserve"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Maria Rodriguez",
+    "relation": "occupation",
+    "value": "environmental educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by environmental educator, Maria Rodriguez"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Maria Rodriguez",
+    "relation": "led_trip_to",
+    "value": "Costa Rica's Monteverde Cloud Forest Reserve",
+    "time": "November 20",
+    "speaker": null,
+    "verbatim": [
+     "Led by environmental educator, Maria Rodriguez, the trip focused on tropical biology"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Costa Rica's Monteverde Cloud Forest Reserve",
+    "relation": "focus_areas",
+    "value": "tropical biology, conservation efforts, and sustainable living practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the trip focused on tropical biology, conservation efforts, and sustainable living practices"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Costa Rica's Monteverde Cloud Forest Reserve",
+    "relation": "provides",
+    "value": "students with a global perspective on environmental responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing students with a global perspective on environmental responsibility"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Banff National Park",
+    "relation": "located_in",
+    "value": "Canada",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Banff National Park, Canada"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Banff National Park",
+    "relation": "described_as",
+    "value": "A pristine example of the Canadian Rockies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A pristine example of the Canadian Rockies"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Wilson Secondary",
+    "relation": "finds_appealing",
+    "value": "Banff National Park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been a hit among schools like Wilson Secondary"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Robert Carter",
+    "relation": "occupation",
+    "value": "Outdoor education expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Outdoor education expert Robert Carter guided"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Robert Carter",
+    "relation": "guided",
+    "value": "a student group through the park's snowy peaks",
+    "time": "October 18",
+    "speaker": null,
+    "verbatim": [
+     "Outdoor education expert Robert Carter guided a student group through the park's snowy peaks on October 18"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Robert Carter",
+    "relation": "explained",
+    "value": "glaciology, alpine ecosystems, and the human impact on these fragile environments",
+    "time": "October 18",
+    "speaker": null,
+    "verbatim": [
+     "explaining glaciology, alpine ecosystems, and the human impact on these fragile environments"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Banff National Park",
+    "relation": "presents_view_of",
+    "value": "a holistic view of natural resource management",
+    "time": "October 18",
+    "speaker": null,
+    "verbatim": [
+     "thus presenting students with a holistic view of natural resource management"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Glacier National Park",
+    "relation": "located_in",
+    "value": "Montana",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Glacier National Park, Montana"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Emily Stone",
+    "relation": "occupation",
+    "value": "naturalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the guidance of naturalist, Emily Stone"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Glacier National Park",
+    "relation": "visited_on",
+    "value": "September 8",
+    "time": "September 8",
+    "speaker": null,
+    "verbatim": [
+     "students visited Glacier National Park on September 8"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Emily Stone",
+    "relation": "led_visit_to",
+    "value": "Glacier National Park",
+    "time": "September 8",
+    "speaker": null,
+    "verbatim": [
+     "Under the guidance of naturalist, Emily Stone, students visited Glacier National Park on September 8."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Glacier National Park",
+    "relation": "glaciers_status",
+    "value": "rapidly retreating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rapidly retreating glaciers served as a stark visual lesson on climate change"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Glacier National Park",
+    "relation": "served_as_lesson_on",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "served as a stark visual lesson on climate change"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Glacier National Park",
+    "relation": "discussions_include",
+    "value": "global warming, wildlife adaptation, and conservation initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting critical discussions on global warming, wildlife adaptation, and conservation initiatives"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Glacier National Park",
+    "relation": "results_in",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting critical discussions on global warming, wildlife adaptation, and conservation initiatives"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Amazon Rainforest, Brazil",
+    "relation": "located_in",
+    "value": "Brazil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amazon Rainforest, Brazil"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Laura Bennett",
+    "relation": "occupation",
+    "value": "science department head",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Bennett, a science department head, led a November 28 field trip"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Amazon Rainforest, Brazil",
+    "relation": "visited_on",
+    "value": "November 28",
+    "time": "November 28",
+    "speaker": null,
+    "verbatim": [
+     "led a November 28 field trip to the Amazon Rainforest"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Laura Bennett",
+    "relation": "led_trip_to",
+    "value": "Amazon Rainforest, Brazil",
+    "time": "November 28",
+    "speaker": null,
+    "verbatim": [
+     "Laura Bennett, a science department head, led a November 28 field trip to the Amazon Rainforest"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Amazon Rainforest, Brazil",
+    "relation": "lessons_include",
+    "value": "the significance of tropical rainforests on global biodiversity and climate regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "students learned about the significance of tropical rainforests on global biodiversity and climate regulation"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Amazon Rainforest, Brazil",
+    "relation": "students_gained",
+    "value": "an understanding of the intricate relationship between humans and the natural environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "students gained an understanding of the intricate relationship between humans and the natural environment"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Amazon Rainforest, Brazil",
+    "relation": "mechanism_of",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By engaging with local conservation efforts and communities, students gained an understanding"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Gal\u00e1pagos Islands, Ecuador",
+    "relation": "located_in",
+    "value": "Ecuador",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gal\u00e1pagos Islands, Ecuador"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Gal\u00e1pagos Islands, Ecuador",
+    "relation": "visited_on",
+    "value": "December 15",
+    "time": "December 15",
+    "speaker": null,
+    "verbatim": [
+     "On December 15, students embarked on a journey to observe the unique flora and fauna of the Gal\u00e1pagos Islands."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Mark Stevens",
+    "relation": "occupation",
+    "value": "Biology teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biology teacher, Mark Stevens highlighted"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mark Stevens",
+    "relation": "highlighted",
+    "value": "the significance of this archipelago in the study of evolution and natural selection",
+    "time": null,
+    "speaker": "Mark Stevens",
+    "verbatim": [
+     "Biology teacher, Mark Stevens highlighted the significance of this archipelago in the study of evolution and natural selection."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Gal\u00e1pagos Islands, Ecuador",
+    "relation": "encounters_with",
+    "value": "endemic species and variations between the islands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The encounters with endemic species and variations between the islands provided an unmatched learning opportunity."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

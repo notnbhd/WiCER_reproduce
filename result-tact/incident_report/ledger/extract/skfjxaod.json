@@ -1,0 +1,747 @@
+{
+ "inventory": [
+  "Jenny Castillo",
+  "Sophia Rodriguez",
+  "David Kim",
+  "Michael Andersen",
+  "MBTA",
+  "Metropolitan Atlanta Rapid Transit Authority",
+  "BART",
+  "LA Metro",
+  "Boston",
+  "Atlanta",
+  "San Francisco Bay Area",
+  "Los Angeles",
+  "New York City",
+  "London",
+  "Denver",
+  "Tube",
+  "mass transit systems",
+  "backup systems",
+  "microgrids",
+  "solar-powered auxiliary systems",
+  "energy storage solutions",
+  "transit authorities",
+  "emergency services"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "mass transit systems",
+    "relation": "experiences",
+    "value": "an alarming trend of electrical failures and power outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an alarming trend of electrical failures and power outages in mass transit systems"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "backup systems",
+    "relation": "needed_to_ensure",
+    "value": "continuity and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscores the urgent need for robust backup systems to ensure continuity and safety"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "mass transit systems",
+    "relation": "affected_by",
+    "value": "the aging infrastructure of electrical grids",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the aging infrastructure of electrical grids and their impact on mass transit systems"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "MBTA",
+    "relation": "experienced",
+    "value": "a massive power outage",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the MBTA experienced a massive power outage"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "MBTA",
+    "relation": "outage_cause",
+    "value": "electrical fault",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to an electrical fault"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "MBTA",
+    "relation": "outage_effect",
+    "value": "disrupting commutes for thousands of citizens",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disrupting commutes for thousands of citizens"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "MBTA",
+    "relation": "outage_effect",
+    "value": "delays that rippled throughout the day",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "causing delays that rippled throughout the day"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Boston",
+    "relation": "site_of_power_outage",
+    "value": "MBTA power outage",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In Boston on September 17, 2023, the MBTA experienced a massive power outage"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "MBTA",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a massive power outage due to an electrical fault"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "MBTA",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a massive power outage due to an electrical fault, disrupting commutes for thousands of citizens"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "MBTA",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "disrupting commutes for thousands of citizens and causing delays that rippled throughout the day"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Atlanta",
+    "relation": "similar_scenario_unfolded_after",
+    "value": "Boston's struggles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following Boston's struggles, a similar scenario unfolded in Atlanta."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "abbreviated_as",
+    "value": "MARTA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Metropolitan Atlanta Rapid Transit Authority (MARTA)"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "trains_halted",
+    "value": "trains ground to a halt",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 3, 2023, Metropolitan Atlanta Rapid Transit Authority (MARTA) trains ground to a halt"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "had_substation_malfunction",
+    "value": "a substation malfunctioned",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when a substation malfunctioned"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "caused_by",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trains ground to a halt when a substation malfunctioned"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "led_to",
+    "value": "widespread frustration among passengers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to widespread frustration among passengers"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trains ground to a halt when a substation malfunctioned, leading to widespread frustration among passengers"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Metropolitan Atlanta Rapid Transit Authority",
+    "relation": "ripple_effects_felt_by",
+    "value": "buses and shuttles that depend on synchronization with the rail system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ripple effects felt by buses and shuttles that depend on synchronization with the rail system"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "San Francisco Bay Area",
+    "relation": "had_power_outage",
+    "value": "power outage in the BART system",
+    "time": "November 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a power outage in the San Francisco Bay Area's BART system coincided with a regional emergency"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "BART",
+    "relation": "coincided_with",
+    "value": "a regional emergency",
+    "time": "November 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "coincided with a regional emergency"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "BART",
+    "relation": "outage_lasted",
+    "value": "several hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage, which lasted several hours"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "BART",
+    "relation": "impeded_access_to",
+    "value": "emergency services for individuals who rely on public transport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "impeded access to emergency services for individuals who rely on public transport"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "BART",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage, which lasted several hours, impeded access to emergency services for individuals who rely on public transport"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jenny Castillo",
+    "relation": "occupation",
+    "value": "EMT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenny Castillo, an EMT"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jenny Castillo",
+    "relation": "reported",
+    "value": "increased difficulty in reaching those in need",
+    "time": null,
+    "speaker": "Jenny Castillo",
+    "verbatim": [
+     "who reported increased difficulty in reaching those in need"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jenny Castillo",
+    "relation": "highlighted",
+    "value": "impeded access to emergency services for individuals who rely on public transport",
+    "time": null,
+    "speaker": "Jenny Castillo",
+    "verbatim": [
+     "a fact highlighted by Jenny Castillo"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sophia Rodriguez",
+    "relation": "is_regular_user_of",
+    "value": "LA Metro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Rodriguez, a regular user of the LA Metro"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "LA Metro",
+    "relation": "experienced_chaos",
+    "value": "the chaos that ensued",
+    "time": "December 4, 2023",
+    "speaker": "Sophia Rodriguez",
+    "verbatim": [
+     "recalls the chaos that ensued on December 4, 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Los Angeles",
+    "relation": "site_of",
+    "value": "chaos on the LA Metro involving Sophia Rodriguez",
+    "time": "December 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In Los Angeles, Sophia Rodriguez, a regular user of the LA Metro, recalls the chaos that ensued on December 4, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sophia Rodriguez",
+    "relation": "said",
+    "value": "It was not just about getting to work late",
+    "time": null,
+    "speaker": "Sophia Rodriguez",
+    "verbatim": [
+     "\u201cIt was not just about getting to work late,\u201d she says."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sophia Rodriguez",
+    "relation": "said",
+    "value": "People were missing doctor\u2019s appointments, and some were worried about picking up their kids on time",
+    "time": null,
+    "speaker": "Sophia Rodriguez",
+    "verbatim": [
+     "People were missing doctor\u2019s appointments, and some were worried about picking up their kids on time."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "mass transit systems",
+    "relation": "has_far_reaching_impact",
+    "value": "power outages in transit systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Incidents like these expose the far-reaching impact of power outages in transit systems."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "David Kim",
+    "relation": "occupation",
+    "value": "owner of a small deli",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Kim, the owner of a small deli near a New York City subway station"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "David Kim",
+    "relation": "located_near",
+    "value": "a New York City subway station",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "near a New York City subway station"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "David Kim",
+    "relation": "suffered",
+    "value": "a noticeable dip in sales",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "suffered a noticeable dip in sales during the outage on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "New York City",
+    "relation": "had_outage",
+    "value": "outage",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "suffered a noticeable dip in sales during the outage on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "David Kim",
+    "relation": "said",
+    "value": "When the subways stop, my business halts.",
+    "time": null,
+    "speaker": "David Kim",
+    "verbatim": [
+     "When the subways stop, my business halts."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "David Kim",
+    "relation": "said",
+    "value": "Commuters are my customers, and no movement means no business for me",
+    "time": null,
+    "speaker": "David Kim",
+    "verbatim": [
+     "Commuters are my customers, and no movement means no business for me"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "mass transit systems",
+    "relation": "economic_ramifications",
+    "value": "economic ramifications tied to the reliability of mass transit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David's experience is but one example of the economic ramifications tied to the reliability of mass transit."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "backup systems",
+    "relation": "needed_for",
+    "value": "sustaining operations during power failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a dire need for reliable backup systems capable of sustaining operations during power failures"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "London",
+    "relation": "country",
+    "value": "England",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "London, England,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "London",
+    "relation": "potential_crisis_averted",
+    "value": "a potential crisis due to a power station issue",
+    "time": "February 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on February 2, 2024, a potential crisis due to a power station issue was averted"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "backup systems",
+    "relation": "investment_in",
+    "value": "advanced, autonomous backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The investment in advanced, autonomous backup systems"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Tube",
+    "relation": "continued_running",
+    "value": "without a hitch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensured that Tube services continued running without a hitch"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Tube",
+    "relation": "caused_by",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The investment in advanced, autonomous backup systems ensured that Tube services continued running without a hitch"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "backup systems",
+    "relation": "underscores_value_of",
+    "value": "such proactive measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscoring the value of such proactive measures"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "transit authorities",
+    "relation": "must_coordinate_with",
+    "value": "local governments and emergency services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an effective response requires rapid communication and coordination among transit authorities, local governments, and emergency services"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "mass transit systems",
+    "relation": "needs_investment_in",
+    "value": "infrastructure resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Secondly, it highlights the necessity for investment in infrastructure resilience."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Michael Andersen",
+    "relation": "asserted",
+    "value": "Maintaining the old systems is not enough.",
+    "time": null,
+    "speaker": "Michael Andersen",
+    "verbatim": [
+     "Maintaining the old systems is not enough."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Michael Andersen",
+    "relation": "asserts_need_for",
+    "value": "modern, robust backup solutions",
+    "time": null,
+    "speaker": "Michael Andersen",
+    "verbatim": [
+     "We need modern, robust backup solutions to shield our transit systems from these all-too-common power disruptions"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Michael Andersen",
+    "relation": "occupation",
+    "value": "senior advisor for urban planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Andersen, a senior advisor for urban planning in Denver"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Denver",
+    "relation": "home_of",
+    "value": "Michael Andersen, senior advisor for urban planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a senior advisor for urban planning in Denver"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "mass transit systems",
+    "relation": "future_proofing_offered_by",
+    "value": "emerging technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emerging technologies offer promise for future-proofing mass transit against electrical failures"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "microgrids",
+    "relation": "could_play_vital_role_in",
+    "value": "keeping trains, trams, and buses moving during outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could play vital roles in keeping trains, trams, and buses moving during outages"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "solar-powered auxiliary systems",
+    "relation": "could_play_vital_role_in",
+    "value": "keeping trains, trams, and buses moving during outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could play vital roles in keeping trains, trams, and buses moving during outages"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "energy storage solutions",
+    "relation": "could_play_vital_role_in",
+    "value": "keeping trains, trams, and buses moving during outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could play vital roles in keeping trains, trams, and buses moving during outages"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "backup systems",
+    "relation": "considered",
+    "value": "essential tools for safeguarding the continuity of urban life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such systems are not mere conveniences but essential tools for safeguarding the continuity of urban life."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "transit authorities",
+    "relation": "cannot_undertake_alone",
+    "value": "the journey to a more resilient mass transit system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The journey to a more resilient mass transit system is not one that can be undertaken by transit authorities alone."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "mass transit systems",
+    "relation": "requires_cooperation_of",
+    "value": "utility providers, city planners, technology developers, and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It demands the cooperation of utility providers, city planners, technology developers, and policymakers"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "mass transit systems",
+    "relation": "stakeholder_engagement_is",
+    "value": "the cornerstone of this movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stakeholder engagement is the cornerstone of this movement"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "mass transit systems",
+    "relation": "challenges_described_as",
+    "value": "significant but not insurmountable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while the challenges are significant, they are not insurmountable"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "mass transit systems",
+    "relation": "future_vision",
+    "value": "power outages are inconveniences of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "power outages in transit systems are inconveniences of the past"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "backup systems",
+    "relation": "should_advocate_implementation_of",
+    "value": "state-of-the-art backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advocate for the implementation of state-of-the-art backup systems"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "backup systems",
+    "relation": "safety_depends_on",
+    "value": "implementation of state-of-the-art backup systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The safety and well-being of our urban populations\u2014and indeed, the very heartbeat of our cities\u2014depend on it."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

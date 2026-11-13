@@ -1,0 +1,625 @@
+{
+ "inventory": [
+  "Tokyo 2020 Olympics",
+  "Emily Nguyen",
+  "Carlos Garcia",
+  "Ascend High",
+  "Alex Brewer",
+  "Rocky Heights Climbers Club",
+  "Climb Fest",
+  "Alex Honnold",
+  "El Capitan",
+  "Yosemite National Park",
+  "Dr. Lila Robertson",
+  "Jake Emerson",
+  "climbathon event",
+  "International Climbing Day",
+  "rock climbing",
+  "bouldering",
+  "free soloing",
+  "climbing community",
+  "local climbing clubs",
+  "Outreach programs",
+  "crash pads",
+  "certification of climbing instructors"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "free soloing",
+    "relation": "involves_risk",
+    "value": "adrenaline-pumping risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the adrenaline-pumping risks that come with free solo climbing"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "rock climbing",
+    "relation": "included_in",
+    "value": "Tokyo 2020 Olympics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as evidenced by their inclusion in the Tokyo 2020 Olympics"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "bouldering",
+    "relation": "included_in",
+    "value": "Tokyo 2020 Olympics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as evidenced by their inclusion in the Tokyo 2020 Olympics"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Tokyo 2020 Olympics",
+    "relation": "includes",
+    "value": "rock climbing and bouldering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as evidenced by their inclusion in the Tokyo 2020 Olympics"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "rock climbing",
+    "relation": "surge_in_popularity",
+    "value": "a surge in popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have witnessed a surge in popularity"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "rock climbing",
+    "relation": "evidenced_by",
+    "value_ref": "c2",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have witnessed a surge in popularity, as evidenced by their inclusion in the Tokyo 2020 Olympics"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "rock climbing",
+    "relation": "provides",
+    "value": "extraordinary workouts that engage multiple muscle groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These activities provide extraordinary workouts that engage multiple muscle groups"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Nguyen",
+    "relation": "occupation",
+    "value": "gym owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one gym owner, Emily Nguyen"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Nguyen",
+    "relation": "stated_increase_in_interest",
+    "value": "a huge increase in interest",
+    "time": "Since September last year",
+    "speaker": "Emily Nguyen",
+    "verbatim": [
+     "we've seen a huge increase in interest"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "rock climbing",
+    "relation": "requires",
+    "value": "safety equipment such as harnesses, ropes, and protective gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rock climbing requires climbers to use safety equipment such as harnesses, ropes, and protective gear"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "bouldering",
+    "relation": "involves",
+    "value": "climbing on small rock formations or artificial walls without the use of ropes or harnesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bouldering involves climbing on small rock formations or artificial walls without the use of ropes or harnesses"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Carlos Garcia",
+    "relation": "occupation",
+    "value": "veteran climber and instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Veteran climber and instructor, Carlos Garcia"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Carlos Garcia",
+    "relation": "emphasized",
+    "value": "the significance of proper training and conditioning",
+    "time": null,
+    "speaker": "Carlos Garcia",
+    "verbatim": [
+     "Carlos Garcia, emphasized the significance of proper training and conditioning"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Carlos Garcia",
+    "relation": "stated",
+    "value": "Climbing isn't just about upper-body strength; it's about understanding your body, using your core, and developing good footwork.",
+    "time": null,
+    "speaker": "Carlos Garcia",
+    "verbatim": [
+     "Climbing isn't just about upper-body strength; it's about understanding your body, using your core, and developing good footwork."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Ascend High",
+    "relation": "runs",
+    "value": "Courses and clinics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Courses and clinics run by local climbing gym, Ascend High"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Ascend High",
+    "relation": "is_a",
+    "value": "local climbing gym",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local climbing gym, Ascend High"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Ascend High",
+    "relation": "courses_start_with",
+    "value": "an introduction to basic climbing techniques, safety protocols, and equipment handling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often start with an introduction to basic climbing techniques, safety protocols, and equipment handling"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Alex Brewer",
+    "relation": "occupation",
+    "value": "climbing safety expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Brewer, a climbing safety expert"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Alex Brewer",
+    "relation": "suggested",
+    "value": "a cautious approach for beginners",
+    "time": null,
+    "speaker": "Alex Brewer",
+    "verbatim": [
+     "Alex Brewer, a climbing safety expert, suggested a cautious approach for beginners."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Alex Brewer",
+    "relation": "stated_common_mistake",
+    "value": "underestimating the physical demands of climbing",
+    "time": null,
+    "speaker": "Alex Brewer",
+    "verbatim": [
+     "The most common mistakes newcomers make are underestimating the physical demands of climbing and"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Alex Brewer",
+    "relation": "advocates",
+    "value": "beginners start climbing with qualified instructors and in controlled environments such as climbing gyms before venturing onto natural rocks",
+    "time": null,
+    "speaker": "Alex Brewer",
+    "verbatim": [
+     "He strongly advocates beginners start climbing with qualified instructors and in controlled environments such as climbing gyms before venturing onto natural rocks."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "climbing community",
+    "relation": "characterized_by",
+    "value": "camaraderie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What stands out in the climbing community is the camaraderie"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "local climbing clubs",
+    "relation": "pivotal_in_fostering",
+    "value": "this sense of community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local climbing clubs have been pivotal in fostering this sense of community."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Rocky Heights Climbers Club",
+    "relation": "hosted",
+    "value": "Climb Fest",
+    "time": "the weekend of October 14-15",
+    "speaker": null,
+    "verbatim": [
+     "hosted its annual \"Climb Fest\" event on the weekend of October 14-15"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Climb Fest",
+    "relation": "hosted_by",
+    "value": "Rocky Heights Climbers Club",
+    "time": "the weekend of October 14-15",
+    "speaker": null,
+    "verbatim": [
+     "hosted its annual \"Climb Fest\" event on the weekend of October 14-15"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Climb Fest",
+    "relation": "occurs",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosted its annual \"Climb Fest\" event"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Climb Fest",
+    "relation": "brings_together",
+    "value": "hobbyists and expert climbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing together hobbyists and expert climbers to share experiences, tips, and tricks"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "free soloing",
+    "relation": "defined_as",
+    "value": "climbing sans ropes, harnesses, or protective gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "free soloing \u2013 climbing sans ropes, harnesses, or protective gear"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "free soloing",
+    "relation": "described_as",
+    "value": "the purest but perilous form of rock climbing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The debate over this purest but perilous form of rock climbing"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Honnold",
+    "relation": "occupation",
+    "value": "renowned climber",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the renowned climber, Alex Honnold"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alex Honnold",
+    "relation": "performed",
+    "value": "free solo ascent of El Capitan in Yosemite National Park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Honnold's free solo ascent of El Capitan in Yosemite National Park"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "El Capitan",
+    "relation": "located_in",
+    "value": "Yosemite National Park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "El Capitan in Yosemite National Park"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "El Capitan",
+    "relation": "climbed_by",
+    "value": "Alex Honnold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Honnold's free solo ascent of El Capitan"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "free soloing",
+    "relation": "caused_by",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The debate over this purest but perilous form of rock climbing gained momentum after the renowned climber, Alex Honnold's free solo ascent of El Capitan in Yosemite National Park"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Yosemite National Park",
+    "relation": "contains",
+    "value": "El Capitan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "El Capitan in Yosemite National Park"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "free soloing",
+    "relation": "attracts",
+    "value": "those with a penchant for extreme self-reliance and a profound comfort with heights and solitude",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Free soloing attracts those with a penchant for extreme self-reliance and a profound comfort with heights and solitude."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "free soloing",
+    "relation": "has_controversy",
+    "value": "its controversy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "However, the activity is not without its controversy."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Lila Robertson",
+    "relation": "occupation",
+    "value": "an expert in sports psychology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lila Robertson, an expert in sports psychology"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Lila Robertson",
+    "relation": "noted",
+    "value": "The mental fortitude required for free soloing is immense, and the margin for error is non-existent.",
+    "time": null,
+    "speaker": "Dr. Lila Robertson",
+    "verbatim": [
+     "The mental fortitude required for free soloing is immense, and the margin for error is non-existent."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Lila Robertson",
+    "relation": "stated",
+    "value": "Not many have the psychological makeup for it, nor should they feel the need to.",
+    "time": null,
+    "speaker": "Dr. Lila Robertson",
+    "verbatim": [
+     "Not many have the psychological makeup for it, nor should they feel the need to."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "crash pads",
+    "relation": "improved_for",
+    "value": "bouldering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improved crash pads for bouldering"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "rock climbing",
+    "relation": "protective_gear_improved",
+    "value": "more reliable protective gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "more reliable protective gear for rock climbing have been significant"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "certification of climbing instructors",
+    "relation": "contributed_to",
+    "value": "accident prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rigorous certification of climbing instructors has significantly contributed to accident prevention"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Jake Emerson",
+    "relation": "has_experience",
+    "value": "over a decade of climbing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Emerson, who has over a decade of climbing under his belt"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jake Emerson",
+    "relation": "started_climbing",
+    "value": "in my late teens",
+    "time": null,
+    "speaker": "Jake Emerson",
+    "verbatim": [
+     "I started climbing in my late teens"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jake Emerson",
+    "relation": "said_climbing_taught",
+    "value": "it taught me much about focus, overcoming fear, and resilience",
+    "time": null,
+    "speaker": "Jake Emerson",
+    "verbatim": [
+     "it taught me much about focus, overcoming fear, and resilience"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "rock climbing",
+    "relation": "described_as",
+    "value": "not just a sport; it's a lifelong journey",
+    "time": null,
+    "speaker": "Jake Emerson",
+    "verbatim": [
+     "It's not just a sport; it's a lifelong journey"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jake Emerson",
+    "relation": "interviewed_at",
+    "value": "climbathon event",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "he shared during an interview at the recent climbathon event on November 3, 2023"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "climbathon event",
+    "relation": "held_on",
+    "value": "November 3, 2023",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the recent climbathon event on November 3, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Outreach programs",
+    "relation": "held_in",
+    "value": "schools and youth centers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Outreach programs in schools and youth centers"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Outreach programs",
+    "relation": "exposed",
+    "value": "children to the sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have exposed children to the sport"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Outreach programs",
+    "relation": "inculcates",
+    "value": "a culture of physical fitness, perseverance, and respect for nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inculcating a culture of physical fitness, perseverance, and respect for nature"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "International Climbing Day",
+    "relation": "date",
+    "value": "November 25",
+    "time": "November 25",
+    "speaker": null,
+    "verbatim": [
+     "particularly on International Climbing Day, November 25"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "rock climbing",
+    "relation": "expected_to",
+    "value": "ascend even greater heights in public consciousness and sporting culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rock climbing and bouldering appear primed to ascend even greater heights in public consciousness and sporting culture"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

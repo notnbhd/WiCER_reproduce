@@ -1,0 +1,796 @@
+{
+ "inventory": [
+  "National Transport Employees Union",
+  "Metropolitan City",
+  "Shannon O'Reilly",
+  "Miguel Sanchez",
+  "Emily Lau",
+  "train operators",
+  "subway systems",
+  "bus networks",
+  "train services",
+  "bike-sharing schemes",
+  "ride-hailing services",
+  "municipal transit apps",
+  "transit authorities",
+  "local courier services",
+  "Retail and service establishments",
+  "commuters",
+  "the 48-hour strike",
+  "Urban planners and transit experts",
+  "public administrations",
+  "Policymakers",
+  "multi-modal transportation networks",
+  "integrated transportation infrastructure",
+  "carpools"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "train operators",
+    "relation": "initiated_walkout",
+    "value": "a walkout over wage disputes",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "train operators under the banner of the National Transport Employees Union (NTEU) initiated a walkout over wage disputes"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "train operators",
+    "relation": "affiliated_with",
+    "value": "National Transport Employees Union",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "train operators under the banner of the National Transport Employees Union"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "National Transport Employees Union",
+    "relation": "abbreviated_as",
+    "value": "NTEU",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "National Transport Employees Union (NTEU)"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "the 48-hour strike",
+    "relation": "occurred_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The first notable incident occurred on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "the 48-hour strike",
+    "relation": "duration",
+    "value": "48 hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 48-hour strike"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "the 48-hour strike",
+    "relation": "results_in",
+    "value": "a complete shutdown of city subway systems in Metropolitan City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 48-hour strike led to a complete shutdown of city subway systems in Metropolitan City"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Metropolitan City",
+    "relation": "subway_systems_shutdown",
+    "value": "complete shutdown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led to a complete shutdown of city subway systems in Metropolitan City"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the 48-hour strike",
+    "relation": "affected",
+    "value": "an estimated 500,000 daily commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affecting an estimated 500,000 daily commuters"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the 48-hour strike",
+    "relation": "caused_spillover",
+    "value": "a wave of cancellations and delays spilled over onto adjacent services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a wave of cancellations and delays spilled over onto adjacent services"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "bus networks",
+    "relation": "became_overwhelmed",
+    "value": "overwhelmed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bus networks became overwhelmed as they attempted to absorb the sudden increase in demand"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "bus networks",
+    "relation": "average_delay_per_trip",
+    "value": "25 minutes",
+    "time": "The disruption's peak",
+    "speaker": null,
+    "verbatim": [
+     "The disruption's peak saw an average delay of 25 minutes per bus trip"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "bus networks",
+    "relation": "routes_suspended",
+    "value": "several routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several routes being suspended"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "bus networks",
+    "relation": "suspension_caused_by",
+    "value": "overcrowding at stops and termini",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several routes being suspended due to overcrowding at stops and termini"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "municipal transit apps",
+    "relation": "demonstrated",
+    "value": "a surge in alternative mode of transport use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time data collected through municipal transit apps demonstrated a surge in alternative mode of transport use"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "bike-sharing schemes",
+    "relation": "usage_increment",
+    "value": "150%",
+    "time": "during the strike period",
+    "speaker": null,
+    "verbatim": [
+     "A notable increment of 150% in bike-sharing schemes was observed during the strike period"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "ride-hailing services",
+    "relation": "ride_request_increase",
+    "value": "75%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ride-hailing services recorded a 75% increase in ride requests"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "ride-hailing services",
+    "relation": "indicates",
+    "value": "the urgency for mobility despite the paucity of public transport options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pointing to the urgency for mobility despite the paucity of public transport options"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "commuters",
+    "relation": "shifted_transport_modes",
+    "value": "a shift in the transportation matrix",
+    "time": null,
+    "speaker": "the data",
+    "verbatim": [
+     "the data indicates a shift in the transportation matrix"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "commuters",
+    "relation": "overall_movement_decline_notion",
+    "value": "an outright decline in overall commuter movement",
+    "time": null,
+    "speaker": "the prevailing notion that strikes lead to",
+    "verbatim": [
+     "Contrary to the prevailing notion that strikes lead to an outright decline in overall commuter movement"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "commuters",
+    "relation": "adapted_by",
+    "value": "pivoting to modes of transport that were still operational",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commuters demonstrated adaptability by pivoting to modes of transport that were still operational"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "commuters",
+    "relation": "faced_additional_cost",
+    "value": "a significant additional personal cost and time expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "albeit often at a significant additional personal cost and time expense"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Shannon O'Reilly",
+    "relation": "occupation",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shannon O'Reilly, a software developer"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Shannon O'Reilly",
+    "relation": "relied_on",
+    "value": "the subway to get to her office in the downtown core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often relied on the subway to get to her office in the downtown core"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Shannon O'Reilly",
+    "relation": "forced_to_take",
+    "value": "a combination of cycling and ride-sharing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shannon was forced to take a combination of cycling and ride-sharing to maintain punctuality"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Shannon O'Reilly",
+    "relation": "additional_cost",
+    "value": "$150",
+    "time": "over the duration of the strike",
+    "speaker": null,
+    "verbatim": [
+     "setting her back an additional $150 over the duration of the strike"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Shannon O'Reilly",
+    "relation": "aimed_to",
+    "value": "maintain punctuality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to maintain punctuality"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Shannon O'Reilly",
+    "relation": "in_order_to",
+    "value_ref": "c26",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forced to take a combination of cycling and ride-sharing to maintain punctuality"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Shannon O'Reilly",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forced to take a combination of cycling and ride-sharing to maintain punctuality, setting her back an additional $150"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "train services",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the cessation of train services, Shannon was forced to take a combination of cycling and ride-sharing"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Shannon O'Reilly",
+    "relation": "story_mirrors",
+    "value": "the broader economic impact felt by regular commuters citywide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her story, while unique in its specifics, mirrors the broader economic impact felt by regular commuters citywide."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Miguel Sanchez",
+    "relation": "age",
+    "value": "43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "43-year-old construction worker Miguel Sanchez"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Miguel Sanchez",
+    "relation": "occupation",
+    "value": "construction worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "43-year-old construction worker Miguel Sanchez"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Miguel Sanchez",
+    "relation": "lives_in",
+    "value": "the suburbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Living in the suburbs"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Miguel Sanchez",
+    "relation": "relied_on",
+    "value": "the train service",
+    "time": "daily commute",
+    "speaker": null,
+    "verbatim": [
+     "his reliance on the train service was crucial to his daily commute"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Miguel Sanchez",
+    "relation": "stranded_by",
+    "value": "the outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stranded by the outage"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Miguel Sanchez",
+    "relation": "unable_to_report_to_work",
+    "value": "unable to report to work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Miguel was unable to report to work"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Miguel Sanchez",
+    "relation": "loss_of_income",
+    "value": "a loss of income that would aggravate existing financial pressures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a loss of income that would aggravate existing financial pressures"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Miguel Sanchez",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Miguel was unable to report to work, leading to a loss of income"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "train services",
+    "relation": "results_in",
+    "value_ref": "c36",
+    "value": null,
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stranded by the outage, Miguel was unable to report to work"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "transit authorities",
+    "relation": "lost_passenger_fare_revenue",
+    "value": "loss of passenger fare revenue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "far beyond the mere loss of passenger fare revenue for the transit authorities"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "train services",
+    "relation": "causes_indirect_costs",
+    "value": "indirect costs manifesting through lost worker productivity, increased traffic congestion, and ancillary business impacts",
+    "time": null,
+    "speaker": "Economic studies",
+    "verbatim": [
+     "Economic studies postulate indirect costs manifesting through lost worker productivity, increased traffic congestion, and ancillary business impacts"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Retail and service establishments",
+    "relation": "reported_revenue_decrease",
+    "value": "around 20%",
+    "time": "during the strike days",
+    "speaker": null,
+    "verbatim": [
+     "reported average revenue decreases of around 20% during the strike days"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local courier services",
+    "relation": "efficiency_slump",
+    "value": "a 30% slump in efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local courier services observing a 30% slump in efficiency"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local courier services",
+    "relation": "slump_caused_by",
+    "value": "increased congestion and longer transit times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to increased congestion and longer transit times"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "the 48-hour strike",
+    "relation": "resolved_by",
+    "value": "Negotiations spearheaded by labor dispute specialists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Negotiations spearheaded by labor dispute specialists were crucial in reaching an agreement"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "the 48-hour strike",
+    "relation": "concluded_by",
+    "value": "an agreement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reaching an agreement that concluded the strike"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "the 48-hour strike",
+    "relation": "resolution_followed",
+    "value": "careful analysis of the broader economic consequences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The resolution came after careful analysis of the broader economic consequences."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Emily Lau",
+    "relation": "role",
+    "value": "arbitrator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "arbitrator Emily Lau"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Emily Lau",
+    "relation": "guided",
+    "value": "the compromise between the NTEU and transit authorities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the guidance of arbitrator Emily Lau"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "National Transport Employees Union",
+    "relation": "agreed_to",
+    "value": "a compromise involving a phased wage increase paired with additional productivity-linked bonuses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "both the NTEU and transit authorities came to a compromise involving a phased wage increase paired with additional productivity-linked bonuses"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "transit authorities",
+    "relation": "agreed_to",
+    "value": "a compromise involving a phased wage increase paired with additional productivity-linked bonuses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "both the NTEU and transit authorities came to a compromise involving a phased wage increase paired with additional productivity-linked bonuses"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "National Transport Employees Union",
+    "relation": "compromise_included",
+    "value": "a phased wage increase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a phased wage increase paired with additional productivity-linked bonuses"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "National Transport Employees Union",
+    "relation": "compromise_included",
+    "value": "additional productivity-linked bonuses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "additional productivity-linked bonuses"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "transit authorities",
+    "relation": "contingency_planning_questioned",
+    "value": "the adequacy of contingency planning for such outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "questions arose regarding the adequacy of contingency planning for such outages"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Urban planners and transit experts",
+    "relation": "called_for",
+    "value": "investment in more resilient multi-modal transportation networks that can absorb shocks from unexpected service breakdowns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban planners and transit experts have since called for investment in more resilient multi-modal transportation networks that can absorb shocks from unexpected service breakdowns"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "multi-modal transportation networks",
+    "relation": "should_absorb",
+    "value": "shocks from unexpected service breakdowns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "more resilient multi-modal transportation networks that can absorb shocks from unexpected service breakdowns"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "commuters",
+    "relation": "displayed",
+    "value": "a remarkable level of resilience",
+    "time": "in the aftermath of the incident",
+    "speaker": "Surveys conducted in the aftermath of the incident",
+    "verbatim": [
+     "Surveys conducted in the aftermath of the incident reveal that travelers displayed a remarkable level of resilience"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "carpools",
+    "relation": "organized_by",
+    "value": "travelers",
+    "time": null,
+    "speaker": "Surveys conducted in the aftermath of the incident",
+    "verbatim": [
+     "organizing carpools"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "commuters",
+    "relation": "discovered",
+    "value": "new commuter routes",
+    "time": null,
+    "speaker": "Surveys conducted in the aftermath of the incident",
+    "verbatim": [
+     "discovering new commuter routes"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "commuters",
+    "relation": "adaptive_behavior_reveals",
+    "value": "the latent capacity within urban transportation systems for selforganization in the face of adversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This adaptive behavior throws light on the latent capacity within urban transportation systems for selforganization in the face of adversity"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Lower-income commuters",
+    "relation": "disproportionately_affected_by",
+    "value": "service outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are disproportionately affected by service outages"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Lower-income commuters",
+    "relation": "may_lack_access_to",
+    "value": "a car",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who may not have access to a car"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Lower-income commuters",
+    "relation": "may_lack_access_to",
+    "value": "the financial leeway to afford ride-sharing services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the financial leeway to afford ride-sharing services"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Miguel Sanchez",
+    "relation": "faced_economic_brunt_of",
+    "value": "being unable to work due to transportation issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who directly faced the economic brunt of being unable to work due to transportation issues"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "public administrations",
+    "relation": "face_questions_about",
+    "value": "future-proofing city transportation systems against similar disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public administrations are faced with pressing questions about future-proofing city transportation systems against similar disruptions"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "integrated transportation infrastructure",
+    "relation": "subject_of_debate",
+    "value": "the funding and development of an integrated transportation infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Debates have ensued regarding the funding and development of an integrated transportation infrastructure"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "integrated transportation infrastructure",
+    "relation": "should_be",
+    "value": "robust and responsive to diverse commuter needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an integrated transportation infrastructure that is both robust and responsive to diverse commuter needs"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Policymakers",
+    "relation": "tasked_with",
+    "value": "anticipating the complex interdependencies within urban settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Policymakers are thus tasked with anticipating the complex interdependencies within urban settings"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Policymakers",
+    "relation": "tasked_with",
+    "value": "crafting strategies to mitigate against such events' multi-dimensional impacts on the fabric of urban life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafting strategies to mitigate against such events' multi-dimensional impacts on the fabric of urban life"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

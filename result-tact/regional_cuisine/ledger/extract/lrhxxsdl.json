@@ -1,0 +1,899 @@
+{
+ "inventory": [
+  "Julia Henderson",
+  "Dr. Omar Khayyam",
+  "Chef Elena Torres",
+  "Chef Michael Langdon",
+  "Dr. Lisa Yoon",
+  "Annual Conference on Diet and Wellness",
+  "Chicago",
+  "Boston",
+  "Washington D.C. cooking workshop",
+  "harvest festival",
+  "online symposium on Local Produce and Nutritional Health",
+  "Thanksgiving",
+  "autumn",
+  "root vegetables",
+  "orchard fruits",
+  "Local farmers' markets",
+  "carrots",
+  "turnips",
+  "beets",
+  "sweet potatoes",
+  "apples",
+  "pears",
+  "quince",
+  "persimmons",
+  "pomegranates",
+  "fennel",
+  "apple and fennel salad",
+  "pear and almond tart",
+  "beetroot risotto",
+  "vitamin A",
+  "vitamin C"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "root vegetables",
+    "relation": "emerge_as",
+    "value": "stars of the autumn table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables and orchard fruits emerge as the stars of the autumn table"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "autumn",
+    "relation": "heart_begins_after",
+    "value": "September 1, 2023",
+    "time": "after September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as we transition into the heart of autumn after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Julia Henderson",
+    "relation": "profession",
+    "value": "dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Julia Henderson are quick to point out the nutritional advantages of the seasonal produce"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "root vegetables",
+    "relation": "includes",
+    "value": "carrots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables like carrots, turnips, beets, and sweet potatoes are laden with dietary fiber"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "root vegetables",
+    "relation": "includes",
+    "value": "turnips",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables like carrots, turnips, beets, and sweet potatoes are laden with dietary fiber"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "root vegetables",
+    "relation": "includes",
+    "value": "beets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables like carrots, turnips, beets, and sweet potatoes are laden with dietary fiber"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "root vegetables",
+    "relation": "includes",
+    "value": "sweet potatoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables like carrots, turnips, beets, and sweet potatoes are laden with dietary fiber"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "root vegetables",
+    "relation": "contains",
+    "value": "dietary fiber",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Root vegetables like carrots, turnips, beets, and sweet potatoes are laden with dietary fiber"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "root vegetables",
+    "relation": "dietary_fiber_essential_for",
+    "value": "maintaining gut health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietary fiber, essential for maintaining gut health"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Julia Henderson",
+    "relation": "spoke_at",
+    "value": "a webinar",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Henderson, speaking at a webinar on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "root vegetables",
+    "relation": "are_also_rich_in",
+    "value": "vitamins and minerals",
+    "time": "October 10, 2023",
+    "speaker": "Julia Henderson",
+    "verbatim": [
+     "highlighted that these underground treasures are also rich in vitamins and minerals"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "sweet potatoes",
+    "relation": "excellent_source_of",
+    "value": "vitamin A",
+    "time": "October 10, 2023",
+    "speaker": "Julia Henderson",
+    "verbatim": [
+     "citing sweet potatoes as an excellent source of vitamin A"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "vitamin A",
+    "relation": "crucial_for",
+    "value": "vision and immune function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vitamin A, which is crucial for vision and immune function"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "orchard fruits",
+    "relation": "includes",
+    "value": "apples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchard fruits such as apples, pears, and quince"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "orchard fruits",
+    "relation": "includes",
+    "value": "pears",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchard fruits such as apples, pears, and quince"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "orchard fruits",
+    "relation": "includes",
+    "value": "quince",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchard fruits such as apples, pears, and quince"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "orchard fruits",
+    "relation": "typically_reach_peak_ripeness_in",
+    "value": "the fall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which typically reach peak ripeness in the fall"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "orchard fruits",
+    "relation": "complemented_by",
+    "value": "late-harvest fruits like persimmons and pomegranates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complemented by late-harvest fruits like persimmons and pomegranates"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "persimmons",
+    "relation": "is_a",
+    "value": "late-harvest fruit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complemented by late-harvest fruits like persimmons and pomegranates"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "pomegranates",
+    "relation": "is_a",
+    "value": "late-harvest fruit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complemented by late-harvest fruits like persimmons and pomegranates"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "orchard fruits",
+    "relation": "contains",
+    "value": "vitamins, such as vitamin C, and antioxidants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "come packed with vitamins, such as vitamin C, and antioxidants"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "vitamin C",
+    "relation": "found_in",
+    "value": "orchard fruits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "come packed with vitamins, such as vitamin C"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "orchard fruits",
+    "relation": "can_help_fend_off",
+    "value": "seasonal colds and other illnesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "antioxidants that can help fend off seasonal colds and other illnesses"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Omar Khayyam",
+    "relation": "profession",
+    "value": "nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the nutritionist Dr. Omar Khayyam"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Omar Khayyam",
+    "relation": "presented_research_at",
+    "value": "Annual Conference on Diet and Wellness",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "presented research at the Annual Conference on Diet and Wellness in Chicago"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Annual Conference on Diet and Wellness",
+    "relation": "located_in",
+    "value": "Chicago",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Annual Conference on Diet and Wellness in Chicago"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "apples",
+    "relation": "may_contribute_to",
+    "value": "reduced risks of chronic diseases",
+    "time": "November 15, 2023",
+    "speaker": "Dr. Omar Khayyam",
+    "verbatim": [
+     "showing that orchard fruits, particularly apples, may contribute to reduced risks of chronic diseases"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "apples",
+    "relation": "contains",
+    "value": "polyphenol content",
+    "time": "November 15, 2023",
+    "speaker": "Dr. Omar Khayyam",
+    "verbatim": [
+     "due to their polyphenol content"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "apples",
+    "relation": "caused_by",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "may contribute to reduced risks of chronic diseases due to their polyphenol content"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Chef Elena Torres",
+    "relation": "advised",
+    "value": "to maximize the natural sweetness of these vegetables",
+    "time": "September 22, 2023",
+    "speaker": "Chef Elena Torres",
+    "verbatim": [
+     "A piece of advice from Chef Elena Torres at her Boston restaurant's harvest festival, on September 22, 2023, was to maximize the natural sweetness of these vegetables"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Chef Elena Torres",
+    "relation": "restaurant_located_in",
+    "value": "Boston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at her Boston restaurant's harvest festival"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "harvest festival",
+    "relation": "located_in",
+    "value": "Boston",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at her Boston restaurant's harvest festival, on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chef Elena Torres",
+    "relation": "uses_technique",
+    "value": "roasting or glazing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Torres uses techniques such as roasting or glazing to bring out the flavors"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Elena Torres",
+    "relation": "aims_to_bring_out",
+    "value": "the flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to bring out the flavors"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Elena Torres",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Torres uses techniques such as roasting or glazing to bring out the flavors"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "root vegetables",
+    "relation": "can_be_served_as",
+    "value": "a delightful main course or a complementary side dish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an approach that can make them a delightful main course or a complementary side dish"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Chef Elena Torres",
+    "relation": "has_signature_recipe",
+    "value": "slow-roasting carrots with a touch of honey and thyme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One signature recipe from Chef Torres involves slow-roasting carrots with a touch of honey and thyme"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "carrots",
+    "relation": "resulting_dish_described_as",
+    "value": "at once comforting and sophisticated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in a dish that is at once comforting and sophisticated"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Chef Elena Torres",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slow-roasting carrots with a touch of honey and thyme, resulting in a dish that is at once comforting and sophisticated"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "turnips",
+    "relation": "prepared_as",
+    "value": "mashed, enriched with a hint of nutmeg and garlic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mashed turnips, enriched with a hint of nutmeg and garlic"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "turnips",
+    "relation": "offer_unique_twist_on",
+    "value": "traditional mashed potatoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer a unique twist on the traditional mashed potatoes"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "turnips",
+    "relation": "lowers",
+    "value": "the glycemic index of the meal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while simultaneously lowering the glycemic index of the meal"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "beets",
+    "relation": "can_be_transformed_into",
+    "value": "a vibrant risotto",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "beetroot can be transformed into a vibrant risotto"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "beetroot risotto",
+    "relation": "incorporates",
+    "value": "both the root and its leafy greens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating both the root and its leafy greens"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Chef Elena Torres",
+    "relation": "introduced_to_patrons",
+    "value": "beetroot risotto",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which Chef Torres introduced to the patrons on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "root vegetables",
+    "relation": "can_lead_to",
+    "value": "a diverse array of dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Experimentation in the kitchen with root vegetables can lead to a diverse array of dishes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Thanksgiving",
+    "relation": "traditionally_graced_by",
+    "value": "pies and crumbles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "beyond the expected pies and crumbles that traditionally grace Thanksgiving tables"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "orchard fruits",
+    "relation": "versatility_goes_beyond",
+    "value": "the expected pies and crumbles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The versatility of orchard fruits goes far beyond the expected pies and crumbles"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chef Michael Langdon",
+    "relation": "demonstrated_at",
+    "value": "Washington D.C. cooking workshop",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As Chef Michael Langdon demonstrated in a Washington D.C. cooking workshop on September 29, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "apples",
+    "relation": "can_pivot_between",
+    "value": "savory and sweet applications",
+    "time": "September 29, 2023",
+    "speaker": "Chef Michael Langdon",
+    "verbatim": [
+     "fruits like apples can pivot between savory and sweet applications with ease"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "apple and fennel salad",
+    "relation": "described_as",
+    "value": "an innovative example",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An innovative example is an apple and fennel salad"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "apple and fennel salad",
+    "relation": "features",
+    "value": "the crunch and tartness of the fruit contrast the aniseed-like taste of the fennel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the crunch and tartness of the fruit contrast the aniseed-like taste of the fennel"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "fennel",
+    "relation": "tastes_like",
+    "value": "aniseed-like",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the aniseed-like taste of the fennel"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "apple and fennel salad",
+    "relation": "dressed_in",
+    "value": "a cider vinaigrette",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all dressed in a cider vinaigrette that encapsulates the essence of autumn"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "pear and almond tart",
+    "relation": "is_a",
+    "value": "dessert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For a dessert that marries nutrition with indulgence, consider a pear and almond tart"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "pear and almond tart",
+    "relation": "features",
+    "value": "frangipane",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the frangipane's richness highlights the pears' juicy sweetness"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "pears",
+    "relation": "juicy_sweetness_highlighted_by",
+    "value": "frangipane's richness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the frangipane's richness highlights the pears' juicy sweetness"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "quince",
+    "relation": "presents_challenge",
+    "value": "a unique culinary challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quince presents a unique culinary challenge due to its astringency when raw"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "quince",
+    "relation": "has_property",
+    "value": "astringency when raw",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quince presents a unique culinary challenge due to its astringency when raw"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "quince",
+    "relation": "caused_by",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quince presents a unique culinary challenge due to its astringency when raw"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "quince",
+    "relation": "prepared_as",
+    "value": "cooked down into a jam or poached in wine with spices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when cooked down into a jam or poached in wine with spices"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "quince",
+    "relation": "transforms_into",
+    "value": "a delicacy that pairs wonderfully with both cheeses and desserts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "when cooked down into a jam or poached in wine with spices, it transforms into a delicacy that pairs wonderfully with both cheeses and desserts"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "quince",
+    "relation": "pairs_with",
+    "value": "cheeses and desserts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pairs wonderfully with both cheeses and desserts"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "online symposium on Local Produce and Nutritional Health",
+    "relation": "hosted_on",
+    "value": "October 18, 2023",
+    "time": "October 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During an online symposium on Local Produce and Nutritional Health, hosted on October 18, 2023"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "spoke_at",
+    "value": "online symposium on Local Produce and Nutritional Health",
+    "time": "October 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During an online symposium on Local Produce and Nutritional Health"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "emphasized",
+    "value": "seasonal fruits and vegetables often retain more nutrients",
+    "time": "October 18, 2023",
+    "speaker": "Dr. Lisa Yoon",
+    "verbatim": [
+     "Dr. Lisa Yoon emphasized that seasonal fruits and vegetables often retain more nutrients due to reduced transportation and storage times"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "attributes_retention_to",
+    "value": "reduced transportation and storage times",
+    "time": "October 18, 2023",
+    "speaker": "Dr. Lisa Yoon",
+    "verbatim": [
+     "due to reduced transportation and storage times"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "caused_by",
+    "value_ref": "c67",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lisa Yoon emphasized that seasonal fruits and vegetables often retain more nutrients due to reduced transportation and storage times"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "root vegetables",
+    "relation": "contribute_to",
+    "value": "a well-rounded diet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "root vegetables, with their high fiber content, and orchard fruits, high in vitamins, contribute to a well-rounded diet"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "root vegetables",
+    "relation": "has_property",
+    "value": "high fiber content",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "root vegetables, with their high fiber content"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "orchard fruits",
+    "relation": "high_in",
+    "value": "vitamins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchard fruits, high in vitamins"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "orchard fruits",
+    "relation": "aid_in",
+    "value": "managing weight and improving overall vitality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can aid in managing weight and improving overall vitality"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Local farmers' markets",
+    "relation": "become",
+    "value": "treasure troves of such produce",
+    "time": "in fall",
+    "speaker": null,
+    "verbatim": [
+     "Local farmers' markets become treasure troves of such produce in fall"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "profession",
+    "value": "dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Dr. Yoon advocate for taking advantage of these community resources"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "advocates",
+    "value": "taking advantage of these community resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Dr. Yoon advocate for taking advantage of these community resources"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Local farmers' markets",
+    "relation": "enables",
+    "value": "consumers support local agriculture and reduce the carbon footprint associated with longdistance food transport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By doing so, consumers support local agriculture and reduce the carbon footprint associated with longdistance food transport"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Local farmers' markets",
+    "relation": "enables",
+    "value": "reaping the health benefits of the freshest possible produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while simultaneously reaping the health benefits of the freshest possible produce"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Dr. Lisa Yoon",
+    "relation": "results_in",
+    "value_ref": "c76",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Dr. Yoon advocate for taking advantage of these community resources",
+     "By doing so, consumers support local agriculture and reduce the carbon footprint associated with longdistance food transport"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,786 @@
+{
+ "inventory": [
+  "Harvest Moon Festival",
+  "Lunar Park",
+  "Jamie Chen",
+  "EuroFest 2018",
+  "Heritage Plaza",
+  "Martin and Isabella Hofmann",
+  "European Village Fair",
+  "Oktoberfest",
+  "Global Rhythms Festival",
+  "Carlos Garcia",
+  "Central Park Amphitheater",
+  "The Little Global Village Festival",
+  "Community Recreation Center",
+  "Sarah Kim",
+  "Diwali Festival",
+  "Priya Singh",
+  "Indian and South Asian communities",
+  "Day of the Dead Fiesta",
+  "Mexico",
+  "Maria Lopez",
+  "Diego Ramirez",
+  "Angelica Park's Latino Cultural Committee",
+  "Dia de los Muertos",
+  "public ofrenda",
+  "sugar skulls",
+  "mooncakes",
+  "community potluck",
+  "community rangoli competition",
+  "riverfront"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Harvest Moon Festival",
+    "relation": "held_at",
+    "value": "Lunar Park",
+    "time": "September 3rd",
+    "speaker": null,
+    "verbatim": [
+     "kick-off at Lunar Park on September 3rd from 2 PM until midnight"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Harvest Moon Festival",
+    "relation": "held_from",
+    "value": "2 PM until midnight",
+    "time": "September 3rd",
+    "speaker": null,
+    "verbatim": [
+     "on September 3rd from 2 PM until midnight"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jamie Chen",
+    "relation": "leads",
+    "value": "Harvest Moon Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the leadership of Jamie Chen - an event organizer"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jamie Chen",
+    "relation": "occupation",
+    "value": "event organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jamie Chen - an event organizer promising an incredible experience"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Harvest Moon Festival",
+    "relation": "showcases",
+    "value": "different aspects of East Asian culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcasing different aspects of East Asian culture"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Harvest Moon Festival",
+    "relation": "described_as",
+    "value": "goes beyond mooncakes and lanterns",
+    "time": null,
+    "speaker": "Jamie Chen",
+    "verbatim": [
+     "\"The Harvest Moon Festival goes beyond mooncakes and lanterns,\" Chen notes."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Harvest Moon Festival",
+    "relation": "offers",
+    "value": "traditional dances, martial arts performances, calligraphy workshops and calligrapher services",
+    "time": null,
+    "speaker": "Jamie Chen",
+    "verbatim": [
+     "We offer traditional dances, martial arts performances, calligraphy workshops and calligrapher services"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Harvest Moon Festival",
+    "relation": "enables",
+    "value": "visitors can fully immerse themselves in East Asian culture",
+    "time": null,
+    "speaker": "Jamie Chen",
+    "verbatim": [
+     "so visitors can fully immerse themselves in East Asian culture"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Harvest Moon Festival",
+    "relation": "in_order_to",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": "Jamie Chen",
+    "verbatim": [
+     "We offer traditional dances, martial arts performances, calligraphy workshops and calligrapher services so visitors can fully immerse themselves in East Asian culture."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Harvest Moon Festival",
+    "relation": "participants_invited_to",
+    "value": "bring picnic blankets and participate in the community potluck under the moonlight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants are invited to bring picnic blankets and participate in the community potluck under the moonlight"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "community potluck",
+    "relation": "held_under",
+    "value": "the moonlight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participate in the community potluck under the moonlight"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "mooncakes",
+    "relation": "tasted_at",
+    "value": "community potluck",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participate in the community potluck under the moonlight, where they can taste mooncakes and regional teas"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "EuroFest 2018",
+    "relation": "aims_to",
+    "value": "open up European culture beyond Oktoberfest by engaging local residents with its many layers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EuroFest seeks to open up European culture beyond Oktoberfest by engaging local residents with its many layers."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "EuroFest 2018",
+    "relation": "scheduled_for",
+    "value": "September 16-17th 2023",
+    "time": "September 16-17th 2023",
+    "speaker": null,
+    "verbatim": [
+     "Scheduled for September 16-17th 2023 at Heritage Plaza"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "EuroFest 2018",
+    "relation": "held_at",
+    "value": "Heritage Plaza",
+    "time": "September 16-17th 2023",
+    "speaker": null,
+    "verbatim": [
+     "Scheduled for September 16-17th 2023 at Heritage Plaza"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "EuroFest 2018",
+    "relation": "invites",
+    "value": "visitors to immerse themselves in this wonderful journey through European tradition and culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EuroFest invites visitors to immerse themselves in this wonderful journey through European tradition and culture."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Martin and Isabella Hofmann",
+    "relation": "planned",
+    "value": "European Village Fair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin and Isabella Hofmann have planned an extraordinary two-day European Village Fair event"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "European Village Fair",
+    "relation": "duration",
+    "value": "two-day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an extraordinary two-day European Village Fair event"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "European Village Fair",
+    "relation": "includes",
+    "value": "traditional food stalls, workshops, and even a traditional maypole dance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complete with traditional food stalls, workshops, and even a traditional maypole dance!"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "European Village Fair",
+    "relation": "intention",
+    "value": "to capture the essence of European village fair",
+    "time": null,
+    "speaker": "Isabella Hofmann",
+    "verbatim": [
+     "\"Our intention was to capture the essence of European village fair,\" according to Isabella Hofmann."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "European Village Fair",
+    "relation": "aims_to",
+    "value": "build bridges across cultures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We strive to build bridges across cultures!"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "EuroFest 2018",
+    "relation": "offers_workshops",
+    "value": "cultural crafts workshops such as pottery-making, weaving and glassblowing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engage in cultural crafts workshops such as pottery-making, weaving and glassblowing"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Global Rhythms Festival",
+    "relation": "held_on",
+    "value": "October 8th 2023",
+    "time": "October 8th 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mark your calendars for October 8th 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Global Rhythms Festival",
+    "relation": "held_at",
+    "value": "Central Park Amphitheater",
+    "time": "October 8th 2023",
+    "speaker": null,
+    "verbatim": [
+     "to Central Park Amphitheater for one exciting day"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Global Rhythms Festival",
+    "relation": "duration",
+    "value": "one-day event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this one-day event"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Global Rhythms Festival",
+    "relation": "features_styles_from",
+    "value": "Africa, South America, Caribbean dance styles and more",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bring the sounds and dance styles from Africa, South America, Caribbean dance styles and more"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Carlos Garcia",
+    "relation": "curated",
+    "value": "Global Rhythms Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Curated by local dance enthusiast and choreographer Carlos Garcia"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Carlos Garcia",
+    "relation": "occupation",
+    "value": "local dance enthusiast and choreographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Curated by local dance enthusiast and choreographer Carlos Garcia"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Global Rhythms Festival",
+    "relation": "described_as",
+    "value": "isn't simply about watching performers; it's also about learning, participating and feeling the global pulse through dance",
+    "time": null,
+    "speaker": "Carlos Garcia",
+    "verbatim": [
+     "\"The festival isn't simply about watching performers; it's also about learning, participating and feeling the global pulse through dance,\" according to Garcia."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Global Rhythms Festival",
+    "relation": "hosts_workshops",
+    "value": "salsa, samba, Afrobeat and Bollywood dance styles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There will be workshops featuring salsa, samba, Afrobeat and Bollywood dance styles"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Global Rhythms Festival",
+    "relation": "hosts",
+    "value": "percussion workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the festival will also host percussion workshops"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "The Little Global Village Festival",
+    "relation": "held_at",
+    "value": "Community Recreation Center",
+    "time": "October 21-22nd 2023",
+    "speaker": null,
+    "verbatim": [
+     "will take place over two days at the Community Recreation Center from October 21-22nd 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "The Little Global Village Festival",
+    "relation": "duration",
+    "value": "two days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will take place over two days"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "The Little Global Village Festival",
+    "relation": "held_on",
+    "value": "October 21-22nd 2023",
+    "time": "October 21-22nd 2023",
+    "speaker": null,
+    "verbatim": [
+     "from October 21-22nd 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "The Little Global Village Festival",
+    "relation": "aims_to",
+    "value": "introduce young people to global cultures through educational, interactive activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to introduce young people to global cultures through educational, interactive activities."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sarah Kim",
+    "relation": "occupation",
+    "value": "educator and event organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "notes educator and event organizer Sarah Kim"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "Children learn best through play",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "\"Children learn best through play,\" notes educator and event organizer Sarah Kim."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "The Little Global Village Festival",
+    "relation": "offers",
+    "value": "storytelling sessions, hand-on arts and crafts projects and interactive games from all around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Little Global Village will offer storytelling sessions, hand-on arts and crafts projects and interactive games from all around the world"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "The Little Global Village Festival",
+    "relation": "welcomes",
+    "value": "families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Families are welcome to embark on this voyage of discovery!"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "The Little Global Village Festival",
+    "relation": "provides",
+    "value": "an entertaining yet educational environment for children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing families looking to foster a sense of global awareness an entertaining yet educational environment for their children."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Diwali Festival",
+    "relation": "described_as",
+    "value": "one of the world's greatest festivals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diwali marks one of the world's greatest festivals"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Diwali Festival",
+    "relation": "held_on",
+    "value": "November 4th 2023",
+    "time": "November 4th 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 4th 2023, thousands of lanterns and fireworks will illuminate our riverfront"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "riverfront",
+    "relation": "illuminated_by",
+    "value": "thousands of lanterns and fireworks",
+    "time": "November 4th 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 4th 2023, thousands of lanterns and fireworks will illuminate our riverfront"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Indian and South Asian communities",
+    "relation": "honor",
+    "value": "one of their most meaningful festivals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as members from Indian and South Asian communities honor one of their most meaningful festivals"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Priya Singh",
+    "relation": "occupation",
+    "value": "event coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Event coordinator Priya Singh is thrilled to show the festival in all its splendor."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Priya Singh",
+    "relation": "feels",
+    "value": "thrilled to show the festival in all its splendor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Event coordinator Priya Singh is thrilled to show the festival in all its splendor."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Diwali Festival",
+    "relation": "signifies",
+    "value": "the triumph of light over darkness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diwali signifies the triumph of light over darkness"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Diwali Festival",
+    "relation": "invites",
+    "value": "everyone to join the celebrations, sample Indian cuisine and witness performances showcasing South Asian culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we invite everyone to join the celebrations, sample Indian cuisine and witness performances showcasing South Asian culture."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Diwali Festival",
+    "relation": "includes",
+    "value": "community rangoli competition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Visitors can participate in the community rangoli competition"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "community rangoli competition",
+    "relation": "involves",
+    "value": "creating vibrant floor artworks using colored powders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating vibrant floor artworks using colored powders"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "community rangoli competition",
+    "relation": "tradition_of",
+    "value": "Diwali",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a beloved Diwali tradition!"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Mexico",
+    "relation": "hosts",
+    "value": "Day of the Dead Fiesta",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 2, 2023, to round off cultural celebration season, Mexico is holding the Day of the Dead Fiesta"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "held_on",
+    "value": "November 2, 2023",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 2, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "purpose",
+    "value": "to remember our loved ones who have died",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to remember our loved ones who have died with joyous festivities that celebrate life rather than mourn it"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "celebrates",
+    "value": "life rather than mourn it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with joyous festivities that celebrate life rather than mourn it"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "features",
+    "value": "Color, music and food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Color, music and food will mark this vibrant Mexican tradition"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Maria Lopez",
+    "relation": "organized",
+    "value": "Day of the Dead Fiesta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by Maria Lopez and Diego Ramirez of Angelica Park's Latino Cultural Committee"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Diego Ramirez",
+    "relation": "organized",
+    "value": "Day of the Dead Fiesta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by Maria Lopez and Diego Ramirez of Angelica Park's Latino Cultural Committee"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Maria Lopez",
+    "relation": "affiliated_with",
+    "value": "Angelica Park's Latino Cultural Committee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by Maria Lopez and Diego Ramirez of Angelica Park's Latino Cultural Committee"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Diego Ramirez",
+    "relation": "affiliated_with",
+    "value": "Angelica Park's Latino Cultural Committee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by Maria Lopez and Diego Ramirez of Angelica Park's Latino Cultural Committee"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "educates_about",
+    "value": "Dia de los Muertos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this fiesta will celebrate and educate local communities about Dia de los Muertos"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dia de los Muertos",
+    "relation": "described_as",
+    "value": "an occasion for remembering loved ones while simultaneously commemorating them with joy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as an occasion for remembering loved ones while simultaneously commemorating them with joy."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Maria Lopez",
+    "relation": "said",
+    "value": "it should not be about mourning but instead serving as a day for commemoration and joy rather than sadness",
+    "time": null,
+    "speaker": "Lopez",
+    "verbatim": [
+     "According to Lopez, it should not be about mourning but instead serving as a day for commemoration and joy rather than sadness."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "public ofrenda",
+    "relation": "receives",
+    "value": "photographs and mementos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community members are invited to contribute photographs and mementos to the public ofrenda (altar)"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "public ofrenda",
+    "relation": "described_as",
+    "value": "altar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the public ofrenda (altar)"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "includes",
+    "value": "participating in creating sugar skulls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participate in creating sugar skulls"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Day of the Dead Fiesta",
+    "relation": "features",
+    "value": "folk dancing performances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enjoy folk dancing performances that showcase this rich cultural tradition"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Harvest Moon Festival",
+    "relation": "highlights",
+    "value": "how dialogue, inclusivity, and festivity can bring people together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each event, from Harvest Moon Festival to Day of the Dead Fiesta, highlights how dialogue, inclusivity, and festivity can bring people together"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

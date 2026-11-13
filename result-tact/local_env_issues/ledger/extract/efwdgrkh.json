@@ -1,0 +1,564 @@
+{
+ "inventory": [
+  "Spotted Wingtail bird",
+  "Dr. Samantha Tran",
+  "Wings of Hope",
+  "James Rodriguez",
+  "Local Wildlife Protection Act",
+  "Lydia Wong",
+  "University of California at Berkeley",
+  "EcoAdventures",
+  "Elizabeth Martinez",
+  "Grey Scaled Invader",
+  "Aaron Smith",
+  "Wildlife Week",
+  "Young Rangers' program",
+  "Jane Hamilton",
+  "invasive species",
+  "biodiversity loss"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "biodiversity loss",
+    "relation": "is_struggled_with_by",
+    "value": "the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the world struggles with biodiversity loss"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Spotted Wingtail bird",
+    "relation": "is_one_of_species_on_verge_of_extinction",
+    "value": "one of species on the verge of extinction",
+    "time": "since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Biologists in our area have been identifying species on the verge of extinction since September 1, 2023. The Spotted Wingtail bird, known for its distinct markings and melodious songs, is one of them."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Spotted Wingtail bird",
+    "relation": "known_for",
+    "value": "distinct markings and melodious songs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known for its distinct markings and melodious songs"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Spotted Wingtail bird",
+    "relation": "habitat_loss_due_mainly_to",
+    "value": "urbanization and deforestation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The loss of habitat, due mainly to urbanization and deforestation"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "invasive species",
+    "relation": "competes_with",
+    "value": "Spotted Wingtail bird",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "competition from invasive species has caused a dramatic drop in the number of these birds"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Spotted Wingtail bird",
+    "relation": "habitat_loss",
+    "value": "loss of habitat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The loss of habitat"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Spotted Wingtail bird",
+    "relation": "population_dramatically_dropped",
+    "value": "a dramatic drop in the number of these birds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has caused a dramatic drop in the number of these birds"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Spotted Wingtail bird",
+    "relation": "caused_by",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The loss of habitat, due mainly to urbanization and deforestation as well as competition from invasive species has caused a dramatic drop in the number of these birds."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Spotted Wingtail bird",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "competition from invasive species has caused a dramatic drop in the number of these birds"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Spotted Wingtail bird",
+    "relation": "population_decreased_by",
+    "value": "80%",
+    "time": "over the past two decades",
+    "speaker": "Dr. Samantha Tran",
+    "verbatim": [
+     "the population of Spotted wingtails had decreased by 80% over the past two decades"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Samantha Tran",
+    "relation": "shared_information_on",
+    "value": "decline in the population of Spotted wingtails",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023 Dr. Samantha Tran shared that"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Wings of Hope",
+    "relation": "is_a",
+    "value": "a local non-profit organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Wings of Hope\", a local non-profit organization"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Wings of Hope",
+    "relation": "mobilized",
+    "value": "volunteers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have mobilized volunteers in order to create safe havens"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Wings of Hope",
+    "relation": "created",
+    "value": "safe havens for the endangered birds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "create safe havens that provide safe havens for the endangered birds"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Wings of Hope",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have mobilized volunteers in order to create safe havens"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Wings of Hope",
+    "relation": "created",
+    "value": "sanctuaries that provide safe havens for these imperiled birds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to create sanctuaries that provide safe havens for these imperiled birds"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Wings of Hope",
+    "relation": "runs_educational_programs_that",
+    "value": "raise awareness of the plight of this species in local schools and communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their educational programs also raise awareness of the plight of this species in local schools and communities."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "James Rodriguez",
+    "relation": "is_a",
+    "value": "city council member",
+    "time": "from 2023",
+    "speaker": null,
+    "verbatim": [
+     "James Rodriguez, a city council member from 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "James Rodriguez",
+    "relation": "proposed",
+    "value": "Local Wildlife Protection Act",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proposed the \"Local Wildlife Protection Act\""
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Local Wildlife Protection Act",
+    "relation": "would_increase_penalties_for",
+    "value": "illegal clearing of land",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "would increase penalties for illegal clearing of land"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Local Wildlife Protection Act",
+    "relation": "would_provide_subsidies_to",
+    "value": "landowners that dedicate part of their land to wildlife conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide subsidies to landowners that dedicate part of their land to wildlife conservation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "James Rodriguez",
+    "relation": "said",
+    "value": "Workshops & community meetings that led up to the proposal revealed an overwhelming public support for stricter measures to protect native species.",
+    "time": null,
+    "speaker": "Rodriquez",
+    "verbatim": [
+     "Rodriquez says, \"Workshops & community meetings that led up to the proposal revealed an overwhelming public support for stricter measures to protect native species.\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lydia Wong",
+    "relation": "is_a",
+    "value": "zoologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Wong, a zoologist from the University of California at Berkeley"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "University of California at Berkeley",
+    "relation": "affiliated_with",
+    "value": "Lydia Wong",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Wong, a zoologist from the University of California at Berkeley"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lydia Wong",
+    "relation": "uses_technologies_to",
+    "value": "monitor populations and breeding programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "use cutting-edge technologies to monitor populations and breeding programs"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Spotted Wingtail bird",
+    "relation": "fitted_with_GPS_trackers",
+    "value": "50 Spotted wingtails",
+    "time": "since September 2023",
+    "speaker": "Lydia Wong",
+    "verbatim": [
+     "50 Spotted wingtails had been fitted with GPS trackers"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lydia Wong",
+    "relation": "studies",
+    "value": "the migratory patterns of these birds and their interaction with their habitat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to study the migratory patterns of these birds and their interaction with their habitat"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Spotted Wingtail bird",
+    "relation": "in_order_to",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had been fitted with GPS trackers to study the migratory patterns of these birds"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lydia Wong",
+    "relation": "efforts_can_help_identify",
+    "value": "critical areas in need of protection and management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These efforts can help identify critical areas in need of protection and management."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "EcoAdventures",
+    "relation": "is_a",
+    "value": "a local tourism company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoAdventures, a local tourism company"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "EcoAdventures",
+    "relation": "committed_to_contributing",
+    "value": "a percentage of its profits towards wildlife conservation projects in the area",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "committed to contributing a percentage of its profits towards wildlife conservation projects in the area on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Elizabeth Martinez",
+    "relation": "is_CEO_of",
+    "value": "EcoAdventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elizabeth Martinez, CEO of EcoAdventures"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Elizabeth Martinez",
+    "relation": "believes",
+    "value": "supporting the ecosystem is more than just an environmental commitment",
+    "time": null,
+    "speaker": "Elizabeth Martinez",
+    "verbatim": [
+     "believes that supporting the ecosystem is more than just an environmental commitment"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Elizabeth Martinez",
+    "relation": "believes",
+    "value": "supporting the ecosystem is also a smart business decision",
+    "time": null,
+    "speaker": "Elizabeth Martinez",
+    "verbatim": [
+     "It's also a smart business decision."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "EcoAdventures",
+    "relation": "stands_to_gain_from",
+    "value": "the growing interest of tourists in areas with thriving wildlife",
+    "time": null,
+    "speaker": "Elizabeth Martinez",
+    "verbatim": [
+     "We stand to gain from the growing interest of tourists in areas with thriving wildlife."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "invasive species",
+    "relation": "is_one_of_biggest_obstacles_to_conservation",
+    "value": "the threat of nonnative species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the biggest is the threat of nonnative species."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Grey Scaled Invader",
+    "relation": "is_a",
+    "value": "a reptile that is aggressive and preys upon young Spotted Wingtails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The introduction of a reptile that is aggressive and preys upon young Spotted Wingtails - the Grey Scaled Invader"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Grey Scaled Invader",
+    "relation": "preys_upon",
+    "value": "young Spotted Wingtails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preys upon young Spotted Wingtails"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Grey Scaled Invader",
+    "relation": "complicated",
+    "value": "conservation efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has complicated conservation efforts"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "invasive species",
+    "relation": "eradication_campaigns_met_with",
+    "value": "ethical and logistical challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eradication campaigns are met with ethical and logistical challenges."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Aaron Smith",
+    "relation": "is_a",
+    "value": "biologist who has led these campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aaron Smith, a biologist who has led these campaigns"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Aaron Smith",
+    "relation": "stated",
+    "value": "a balanced approach is needed that respects ecosystem integrity while actively managing invasive species which threaten it",
+    "time": "March 3, 2024",
+    "speaker": "Aaron Smith",
+    "verbatim": [
+     "stated on March 3, 2024 that \"a balanced approach is needed that respects ecosystem integrity while actively managing invasive species which threaten it.\""
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Wildlife Week",
+    "relation": "is_a",
+    "value": "a regional event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The \"Wildlife Week\" is a regional event"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Wildlife Week",
+    "relation": "began_as",
+    "value": "a small environmental fair",
+    "time": "April 16, 2024",
+    "speaker": null,
+    "verbatim": [
+     "began as a small environmental fair on April 16, 2024"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Wildlife Week",
+    "relation": "involves",
+    "value": "citizens in workshops, restoration initiatives, and fundraising",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It now involves citizens in workshops, restoration initiatives, and fundraising."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Young Rangers' program",
+    "relation": "launched_on",
+    "value": "May 5, 2024",
+    "time": "May 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched on May 5, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Young Rangers' program",
+    "relation": "aimed_at",
+    "value": "involving students in conservation by engaging them in hands-on activities, such as planting native plants and monitoring wildlife, with local experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is aimed at involving students in conservation by engaging them in hands-on activities, such as planting native plants and monitoring wildlife, with local experts."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jane Hamilton",
+    "relation": "is_a",
+    "value": "high school biology teacher and program coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Hamilton, high school biology teacher, and program coordinator"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jane Hamilton",
+    "relation": "says",
+    "value": "when we teach our students about the importance each species we are investing in our future custodians",
+    "time": null,
+    "speaker": "Jane Hamilton",
+    "verbatim": [
+     "says that when we teach our students about the importance each species we are investing in our future custodians"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

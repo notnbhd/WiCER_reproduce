@@ -1,0 +1,552 @@
+{
+ "inventory": [
+  "autonomous vehicles",
+  "Mayor Linda Harrison",
+  "Springfield",
+  "Department of Transportation",
+  "Jonathan Woods",
+  "Metropolitan Planning Initiative",
+  "Emily Chen",
+  "Machine learning",
+  "Ryan Peterson",
+  "Intelligent Traffic System",
+  "National Road Safety Authority",
+  "Kevin Miller",
+  "Dr. Sara Welch",
+  "Omar Jackson",
+  "public transit"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "autonomous vehicles",
+    "relation": "poised_to_usher_in",
+    "value": "an era of unprecedented change for city landscapes across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The advent of autonomous vehicles (AVs) is poised to usher in an era of unprecedented change for city landscapes across the globe."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "autonomous vehicles",
+    "relation": "shifting_from",
+    "value": "a sci-fi fantasy to reality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As these self-driving marvels shift from being a sci-fi fantasy to reality"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "autonomous vehicles",
+    "relation": "presents",
+    "value": "both the exciting opportunities and daunting challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban planners and traffic management professionals are grappling with both the exciting opportunities and daunting challenges they present."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mayor Linda Harrison",
+    "relation": "flagged_off",
+    "value": "the first fleet of fully autonomous public transit vehicles in Springfield",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, when Mayor Linda Harrison ceremoniously flagged off the first fleet of fully autonomous public transit vehicles in Springfield"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Springfield",
+    "relation": "first_autonomous_transit_fleet_launched",
+    "value": "first fleet of fully autonomous public transit vehicles",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, when Mayor Linda Harrison ceremoniously flagged off the first fleet of fully autonomous public transit vehicles in Springfield"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Department of Transportation",
+    "relation": "reports_share_of_av_traffic",
+    "value": "approximately 5% of all vehicular traffic in the city comprises AVs",
+    "time": "as of 2024",
+    "speaker": "Department of Transportation",
+    "verbatim": [
+     "According to the Department of Transportation's latest report, as of 2024, approximately 5% of all vehicular traffic in the city comprises AVs"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Department of Transportation",
+    "relation": "forecasts_share_of_av_traffic",
+    "value": "40% by the end of the decade",
+    "time": "by the end of the decade",
+    "speaker": "Department of Transportation",
+    "verbatim": [
+     "this figure is expected to leap to 40% by the end of the decade"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jonathan Woods",
+    "relation": "job_title",
+    "value": "City Planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Planner Jonathan Woods of Metropolitan Planning Initiative explains"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Metropolitan Planning Initiative",
+    "relation": "has_city_planner",
+    "value": "Jonathan Woods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Planner Jonathan Woods of Metropolitan Planning Initiative explains"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jonathan Woods",
+    "relation": "states",
+    "value": "AVs promise smoother traffic flows and reduced need for parking spaces adjacent to high-demand areas.",
+    "time": null,
+    "speaker": "Jonathan Woods",
+    "verbatim": [
+     "AVs promise smoother traffic flows and reduced need for parking spaces adjacent to high-demand areas."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jonathan Woods",
+    "relation": "states_opportunity",
+    "value": "a significant opportunity to reclaim vast tracts of land for green spaces or developments",
+    "time": null,
+    "speaker": "Jonathan Woods",
+    "verbatim": [
+     "There's a significant opportunity here to reclaim vast tracts of land for green spaces or developments."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emily Chen",
+    "relation": "job_title",
+    "value": "Urban Development Consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As noted by Urban Development Consultant Emily Chen"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Emily Chen",
+    "relation": "forecasts_parking_requirement_reduction",
+    "value": "a 20 to 30% reduction in inner-city parking requirements",
+    "time": "by 2030",
+    "speaker": "Emily Chen",
+    "verbatim": [
+     "We could see a 20 to 30% reduction in inner-city parking requirements by 2030."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emily Chen",
+    "relation": "states",
+    "value": "Efficient 'drop-and-go' systems will minimize the space wasted on stationary vehicles",
+    "time": null,
+    "speaker": "Emily Chen",
+    "verbatim": [
+     "Efficient 'drop-and-go' systems will minimize the space wasted on stationary vehicles."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "autonomous vehicles",
+    "relation": "enables",
+    "value": "re-zoning previously dedicated parking lots for other uses, such as housing, parks, or commercial spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AVs\u2019 reduced reliance on parking opens up possibilities for re-zoning previously dedicated parking lots for other uses, such as housing, parks, or commercial spaces."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "autonomous vehicles",
+    "relation": "causes",
+    "value": "urban planners to reassess investments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AV-compatible infrastructure demands are causing urban planners to reassess investments."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "autonomous vehicles",
+    "relation": "reduces_need_for",
+    "value": "fewer signs and signals on roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Roads may need fewer signs and signals"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "autonomous vehicles",
+    "relation": "represent",
+    "value": "potential cost-saving opportunities in signage and signal maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such changes represent potential cost-saving opportunities in signage and signal maintenance"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Machine learning",
+    "relation": "role_in_autonomous_vehicle_operations",
+    "value": "at the heart of autonomous vehicle operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Machine learning and AI are at the heart of autonomous vehicle operations"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Machine learning",
+    "relation": "enables",
+    "value": "autonomous vehicles to analyze and respond to dynamic traffic conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling them to analyze and respond to dynamic traffic conditions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "autonomous vehicles",
+    "relation": "can_lead_to",
+    "value": "vastly improved traffic flow and resource allocation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sharing this data with city traffic management systems can lead to vastly improved traffic flow and resource allocation."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Ryan Peterson",
+    "relation": "job_title",
+    "value": "Traffic Manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traffic Manager, Ryan Peterson, highlights the ongoing pilot program"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Ryan Peterson",
+    "relation": "highlights",
+    "value": "the ongoing pilot program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traffic Manager, Ryan Peterson, highlights the ongoing pilot program"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Intelligent Traffic System",
+    "relation": "integrates",
+    "value": "AV data",
+    "time": null,
+    "speaker": "Ryan Peterson",
+    "verbatim": [
+     "By integrating AV data into our Intelligent Traffic System"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Ryan Peterson",
+    "relation": "reports_improvement_in_peak_hour_traffic_flow",
+    "value": "15%",
+    "time": "since January 2024",
+    "speaker": "Ryan Peterson",
+    "verbatim": [
+     "we\u2019ve seen a 15% improvement in peak-hour traffic flow since January 2024"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Ryan Peterson",
+    "relation": "measures_performance_across",
+    "value": "various KPIs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By measuring performance across various KPIs"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Ryan Peterson",
+    "relation": "anticipates",
+    "value": "a substantial reduction in congestion-related costs",
+    "time": null,
+    "speaker": "Ryan Peterson",
+    "verbatim": [
+     "his team anticipates a substantial reduction in congestion-related costs."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Ryan Peterson",
+    "relation": "mechanism_of",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By measuring performance across various KPIs, his team anticipates a substantial reduction in congestion-related costs."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "National Road Safety Authority",
+    "relation": "forecasts_accident_reduction",
+    "value": "AVs could reduce accidents by up to 90% once they account for the majority of vehicular traffic",
+    "time": null,
+    "speaker": "National Road Safety Authority",
+    "verbatim": [
+     "The National Road Safety Authority has reported a cautious but optimistic forecast that AVs could reduce accidents by up to 90% once they account for the majority of vehicular traffic."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "autonomous vehicles",
+    "relation": "eliminates",
+    "value": "risks associated with human driving behaviors such as distraction, impairment, and aggression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which eliminates risks associated with human driving behaviors such as distraction, impairment, and aggression"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Kevin Miller",
+    "relation": "job_title",
+    "value": "Insurance Analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Insurance Analyst Kevin Miller projects a corresponding decline in insurance premiums for AVs, citing reduced risk"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Kevin Miller",
+    "relation": "projects",
+    "value": "a corresponding decline in insurance premiums for AVs",
+    "time": null,
+    "speaker": "Kevin Miller",
+    "verbatim": [
+     "Insurance Analyst Kevin Miller projects a corresponding decline in insurance premiums for AVs"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Kevin Miller",
+    "relation": "forecasts_premium_drop",
+    "value": "a 40% drop in premiums",
+    "time": "by 2030",
+    "speaker": "Kevin Miller",
+    "verbatim": [
+     "Our models show AVs could lead to a 40% drop in premiums by 2030."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Kevin Miller",
+    "relation": "cites_reason",
+    "value": "reduced risk",
+    "time": null,
+    "speaker": "Kevin Miller",
+    "verbatim": [
+     "citing reduced risk"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Kevin Miller",
+    "relation": "caused_by",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "projects a corresponding decline in insurance premiums for AVs, citing reduced risk"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "autonomous vehicles",
+    "relation": "incentive_to_accelerate_adoption",
+    "value": "incentives for consumers and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This economic benefit adds another layer of incentives for consumers and policymakers to accelerate the adoption of autonomous vehicles."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "autonomous vehicles",
+    "relation": "contribute_to",
+    "value": "lowering urban carbon footprints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electric-powered AVs also contribute to lowering urban carbon footprints."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Sara Welch",
+    "relation": "job_title",
+    "value": "City Environmental Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Environmental Officer, Dr. Sara Welch, reports that"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Sara Welch",
+    "relation": "reports",
+    "value": "Springfield has already seen a 10% decrease in vehicle emissions since 2024",
+    "time": "since 2024",
+    "speaker": "Dr. Sara Welch",
+    "verbatim": [
+     "With more AVs on the roads, Springfield has already seen a 10% decrease in vehicle emissions since 2024."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Springfield",
+    "relation": "vehicle_emissions_decreased_by",
+    "value": "10%",
+    "time": "since 2024",
+    "speaker": "Dr. Sara Welch",
+    "verbatim": [
+     "Springfield has already seen a 10% decrease in vehicle emissions since 2024."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "autonomous vehicles",
+    "relation": "increase_in_number_on_roads",
+    "value": "more AVs on the roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With more AVs on the roads"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Springfield",
+    "relation": "caused_by",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With more AVs on the roads, Springfield has already seen a 10% decrease in vehicle emissions since 2024."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "autonomous vehicles",
+    "relation": "can_multiply",
+    "value": "these benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transitioning to shared AV services can multiply these benefits"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "autonomous vehicles",
+    "relation": "reduces",
+    "value": "the total number of vehicles on the road",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing the total number of vehicles on the road and leading to even greater emissions reductions"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "public transit",
+    "relation": "integration_of_avs_promises",
+    "value": "seamless intermodal travel experiences connecting buses, trains, and AV pods in a synchronized dance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Integration of AVs into public transit systems promises to offer seamless intermodal travel experiences, connecting buses, trains, and AV pods in a synchronized dance."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Omar Jackson",
+    "relation": "job_title",
+    "value": "Public Transit Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public Transit Director, Omar Jackson, envisions"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Omar Jackson",
+    "relation": "envisions",
+    "value": "a mix of high-capacity vehicles and on-demand AVs routing with near-perfect efficiency to meet real-time commuter demand",
+    "time": null,
+    "speaker": "Omar Jackson",
+    "verbatim": [
+     "a mix of high-capacity vehicles and on-demand AVs routing with near-perfect efficiency to meet real-time commuter demand."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "autonomous vehicles",
+    "relation": "accelerating_cities_into",
+    "value": "a future of efficiency, safety, and sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "autonomous vehicles are not just shaping the present landscape of urban mobility but are accelerating cities into a future of efficiency, safety, and sustainability."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

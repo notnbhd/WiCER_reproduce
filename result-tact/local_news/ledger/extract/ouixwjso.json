@@ -1,0 +1,563 @@
+{
+ "inventory": [
+  "Local Farmers Market",
+  "Martha Jennings",
+  "Ray",
+  "Ella",
+  "Artisans' Corner",
+  "Jack Thompson",
+  "The Sprightly Trio",
+  "Timmy",
+  "Mr. Becker's Bountiful Bee Farm",
+  "Nora Sutton",
+  "Chef Lila Ramirez",
+  "Sophia Lim",
+  "Mildred Harrington",
+  "climate change",
+  "sustainability"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Local Farmers Market",
+    "relation": "opens_on",
+    "value": "each Saturday",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "comes alive each Saturday as the Local Farmers Market opens its arms to locals and visitors alike"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Local Farmers Market",
+    "relation": "operating_since",
+    "value": "September 5th, 2023",
+    "time": "Since September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 5th, 2023, the market has become an essential stop"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Local Farmers Market",
+    "relation": "located_in",
+    "value": "downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Local Farmers Market in downtown thrives with the harvest"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Local Farmers Market",
+    "relation": "thrives_with",
+    "value": "the harvest",
+    "time": "As the leaves begin to don their autumnal hues",
+    "speaker": null,
+    "verbatim": [
+     "As the leaves begin to don their autumnal hues, the Local Farmers Market in downtown thrives with the harvest"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Local Farmers Market",
+    "relation": "sells_produce",
+    "value": "apples polished to a shine, plump pumpkins, and root vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "apples polished to a shine, plump pumpkins, and root vegetables that promise comfort in the coming chill"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Local Farmers Market",
+    "relation": "inception",
+    "value": "this season",
+    "time": "this season",
+    "speaker": "Martha Jennings",
+    "verbatim": [
+     "a regular since the market's inception this season"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Local Farmers Market",
+    "relation": "perimeter_has",
+    "value": "the creativity of local artisans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The market's perimeter teems with the creativity of local artisans"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Local Farmers Market",
+    "relation": "features",
+    "value": "local musicians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local musicians dot the corners"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Local Farmers Market",
+    "relation": "described_as",
+    "value": "a festival that tickles all senses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The market is not merely an array of stalls but a festival that tickles all senses"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Local Farmers Market",
+    "relation": "vendors_offer",
+    "value": "samples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vendors offer samples like badges of honor, aiming to please and educate."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Local Farmers Market",
+    "relation": "advocates",
+    "value": "sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the market also advocates for sustainability"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Local Farmers Market",
+    "relation": "described_as",
+    "value": "a tightly-knit quilt of faces, flavors, and stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Saturday Farmers Market is a tightly-knit quilt of faces, flavors, and stories"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Martha Jennings",
+    "relation": "regular_since",
+    "value": "the market's inception this season",
+    "time": "this season",
+    "speaker": null,
+    "verbatim": [
+     "Martha Jennings, a regular since the market's inception this season"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Martha Jennings",
+    "relation": "said",
+    "value": "my kitchen is restocked with the freshest ingredients every Saturday",
+    "time": "Every Saturday",
+    "speaker": "Martha Jennings",
+    "verbatim": [
+     "Every Saturday, without fail, my kitchen is restocked with the freshest ingredients."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Ray",
+    "relation": "sells",
+    "value": "heirloom tomatoes",
+    "time": null,
+    "speaker": "Martha Jennings",
+    "verbatim": [
+     "There's Ray's stall with his heirloom tomatoes that remind me of my grandmother's garden"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Ella",
+    "relation": "sells",
+    "value": "sweetest corn this side of the Mississippi",
+    "time": null,
+    "speaker": "Martha Jennings",
+    "verbatim": [
+     "Ella who has the sweetest corn this side of the Mississippi"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Artisans' Corner",
+    "relation": "features",
+    "value": "handcrafted jewelry, pottery, and woodwork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing handcrafted jewelry, pottery, and woodwork with every step"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jack Thompson",
+    "relation": "works_with",
+    "value": "wood",
+    "time": "for over a decade",
+    "speaker": null,
+    "verbatim": [
+     "whose weathered hands have been turning wood into delicate bowls and carvings for over a decade"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jack Thompson",
+    "relation": "makes",
+    "value": "delicate bowls and carvings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose weathered hands have been turning wood into delicate bowls and carvings for over a decade"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jack Thompson",
+    "relation": "works_are_fixture_of",
+    "value": "the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His works, each a whisper of the tree's history, are as much a fixture of the market as the strawberries and spinach"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jack Thompson",
+    "relation": "said",
+    "value": "It's about the connection",
+    "time": null,
+    "speaker": "Jack Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s about the connection,\u201d says Jack"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Sprightly Trio",
+    "relation": "is_a",
+    "value": "family band",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a family band\u2014left market-goers with light steps and lighter hearts"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Sprightly Trio",
+    "relation": "performed_at",
+    "value": "the market",
+    "time": "last October",
+    "speaker": null,
+    "verbatim": [
+     "On a particularly sunny day last October"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Timmy",
+    "relation": "age",
+    "value": "eight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eight-year-old Timmy recalls"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Timmy",
+    "relation": "bought",
+    "value": "a honey stick from Mr. Becker\u2019s Bountiful Bee Farm",
+    "time": null,
+    "speaker": "Timmy",
+    "verbatim": [
+     "Mommy bought me a honey stick from Mr. Becker\u2019s Bountiful Bee Farm"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Timmy",
+    "relation": "danced_to",
+    "value": "the music with my friends",
+    "time": null,
+    "speaker": "Timmy",
+    "verbatim": [
+     "I danced to the music with my friends"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Timmy",
+    "relation": "was_winked_at_by",
+    "value": "the man playing the banjo",
+    "time": null,
+    "speaker": "Timmy",
+    "verbatim": [
+     "The man playing the banjo winked at me!"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mr. Becker's Bountiful Bee Farm",
+    "relation": "sells",
+    "value": "honey sticks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mommy bought me a honey stick from Mr. Becker\u2019s Bountiful Bee Farm"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Nora Sutton",
+    "relation": "described_as",
+    "value": "grandmotherly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grandmotherly Nora Sutton provides insight"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Nora Sutton",
+    "relation": "examines",
+    "value": "a selection of fresh peas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she ponders over a selection of fresh peas"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Nora Sutton",
+    "relation": "said",
+    "value": "This market is our weekly ritual",
+    "time": null,
+    "speaker": "Nora Sutton",
+    "verbatim": [
+     "This market is our weekly ritual."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Nora Sutton",
+    "relation": "taught_children",
+    "value": "to shell these peas just as my mother did with me",
+    "time": null,
+    "speaker": "Nora Sutton",
+    "verbatim": [
+     "I taught my children to shell these peas just as my mother did with me."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chef Lila Ramirez",
+    "relation": "known_for",
+    "value": "her pop-up brunch at the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Lila Ramirez, known for her pop-up brunch at the market"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Lila Ramirez",
+    "relation": "said",
+    "value": "This is where food starts, with these dedicated growers and creators",
+    "time": null,
+    "speaker": "Chef Lila Ramirez",
+    "verbatim": [
+     "This is where food starts, with these dedicated growers and creators."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Lila Ramirez",
+    "relation": "menus_inspired_by",
+    "value": "what I find here",
+    "time": null,
+    "speaker": "Chef Lila Ramirez",
+    "verbatim": [
+     "My menus are inspired by what I find here."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sophia Lim",
+    "relation": "age",
+    "value": "twelve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Twelve-year-old environmental club member, Sophia Lim"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sophia Lim",
+    "relation": "member_of",
+    "value": "environmental club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Twelve-year-old environmental club member, Sophia Lim"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sophia Lim",
+    "relation": "hands_out",
+    "value": "pamphlets on composting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has a stand where she hands out pamphlets on composting"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sophia Lim",
+    "relation": "uses",
+    "value": "homemade reusable fabric bags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leads by example with her homemade reusable fabric bags"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sophia Lim",
+    "relation": "said",
+    "value": "When we take care of the earth, it takes care of us",
+    "time": null,
+    "speaker": "Sophia Lim",
+    "verbatim": [
+     "When we take care of the earth, it takes care of us."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sophia Lim",
+    "relation": "said",
+    "value": "The market is where I learned that",
+    "time": null,
+    "speaker": "Sophia Lim",
+    "verbatim": [
+     "The market is where I learned that,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mildred Harrington",
+    "relation": "occupation",
+    "value": "retired teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retired teacher Mildred Harrington sums it up beautifully"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Mildred Harrington",
+    "relation": "attends_market_since",
+    "value": "this fall",
+    "time": "since it opened this fall",
+    "speaker": "Mildred Harrington",
+    "verbatim": [
+     "I\u2019ve been coming to the market since it opened this fall."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Mildred Harrington",
+    "relation": "said",
+    "value": "It's vibrant, it's alive, and most of all, it's us",
+    "time": null,
+    "speaker": "Mildred Harrington",
+    "verbatim": [
+     "It's vibrant, it's alive, and most of all, it's us."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Mildred Harrington",
+    "relation": "takes_home",
+    "value": "a piece of that heart every week",
+    "time": "every week",
+    "speaker": "Mildred Harrington",
+    "verbatim": [
+     "And every week, I take a piece of that heart home with me."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "climate change",
+    "relation": "backdrop_for",
+    "value": "the market also advocates for sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the shadow of climate change and ecological awareness, the market also advocates for sustainability."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sustainability",
+    "relation": "advocated_by",
+    "value": "the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the market also advocates for sustainability"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "sustainability",
+    "relation": "advocacy_for",
+    "value": "minimal plastic use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the advocacy for minimal plastic use"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "sustainability",
+    "relation": "visible_as",
+    "value": "up-cycled bags swaying from shoppers' shoulders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is common to see up-cycled bags swaying from shoppers\u2019 shoulders"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

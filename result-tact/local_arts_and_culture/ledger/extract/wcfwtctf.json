@@ -1,0 +1,855 @@
+{
+ "inventory": [
+  "Marigold Art Centre",
+  "Evelyn Castillo",
+  "Jackson Li",
+  "Maria",
+  "Alex",
+  "Elm High School",
+  "Ms. Hannah Torres",
+  "Tony",
+  "World Art Workshop",
+  "Sofia",
+  "D\u00eda de los Muertos",
+  "Mexico",
+  "Urban Art class",
+  "youth initiative",
+  "old warehouse",
+  "mural projects",
+  "crowd-funding campaigns",
+  "local art fairs",
+  "joint showcases",
+  "local galleries"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Marigold Art Centre",
+    "relation": "described_as",
+    "value": "vibrant hallways with palpable energy of young minds",
+    "time": "brisk autumn morning",
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "When you walk through the vibrant hallways of the Marigold Art Centre on a brisk autumn morning, you're immediately enveloped by the palpable energy of young minds unleashing their creativity"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Marigold Art Centre",
+    "relation": "filled_with",
+    "value": "the laughter, the chattering, and the sheer delight of creation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The laughter, the chattering, and, most importantly, the sheer delight of creation fill the air."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Marigold Art Centre",
+    "relation": "launched_youth_programs_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "since we launched our youth programs on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Marigold Art Centre",
+    "relation": "became_second_home_for",
+    "value": "many in the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This space, thriving with artistic potential, has become a second home for many in the community"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Evelyn Castillo",
+    "relation": "runs",
+    "value": "youth art workshops and classes",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "I am one of the fortunate individuals who run youth art workshops and classes here at the center."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Evelyn Castillo",
+    "relation": "found_solace_in",
+    "value": "sketchbook and canvas",
+    "time": "Growing up",
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "I found solace and strength in my sketchbook and canvas."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Evelyn Castillo",
+    "relation": "was_dissatisfied_with",
+    "value": "dwindling arts programs in our schools",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Dissatisfied with the dwindling arts programs in our schools"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "youth initiative",
+    "relation": "was_born",
+    "value": "Marigold Art Centre's youth initiative",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "thus, the Marigold Art Centre's youth initiative was born."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Evelyn Castillo",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Dissatisfied with the dwindling arts programs in our schools",
+     "thus, the Marigold Art Centre's youth initiative was born."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "youth initiative",
+    "relation": "purpose",
+    "value": "encouraging artistic exploration amongst the youth",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "a place dedicated solely to encouraging artistic exploration amongst the youth"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Evelyn Castillo",
+    "relation": "partnered_with",
+    "value": "Jackson Li",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "I partnered with Jackson Li"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jackson Li",
+    "relation": "described_as",
+    "value": "local philanthropist and art enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jackson Li, a local philanthropist and art enthusiast"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Jackson Li",
+    "relation": "contributed",
+    "value": "financial backing and community influence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose financial backing and community influence turned our shared vision into a reality"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "old warehouse",
+    "relation": "renovated_by",
+    "value": "Evelyn Castillo and Jackson Li",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Together, we worked tirelessly to renovate an old warehouse"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "old warehouse",
+    "relation": "converted_into",
+    "value": "a bastion of learning and creative experimentation",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "converting it into a bastion of learning and creative experimentation"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "youth initiative",
+    "relation": "targets",
+    "value": "those on the fringes who may not have access to such outlets",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "particularly for those on the fringes who may not have access to such outlets in their daily lives"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "youth initiative",
+    "relation": "gained_momentum",
+    "value": "quickly",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Our initiative quickly gained momentum"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "youth initiative",
+    "relation": "offered",
+    "value": "a diverse curriculum designed to suit varying interests and age groups",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "we opened doors to a diverse curriculum designed to suit varying interests and age groups"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "youth initiative",
+    "relation": "offers_classes_in",
+    "value": "older forms such as painting and sculpture",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Offering classes in older forms such as painting and sculpture"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "youth initiative",
+    "relation": "offers_classes_in",
+    "value": "newer realms like digital arts and animation",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "delving into newer realms like digital arts and animation"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "youth initiative",
+    "relation": "catered_to",
+    "value": "a broad spectrum of young creators",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "we catered to a broad spectrum of young creators"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Maria",
+    "relation": "age",
+    "value": "eight years old",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "I remember eight-year-old Maria, shy and reserved"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Maria",
+    "relation": "described_as",
+    "value": "shy and reserved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eight-year-old Maria, shy and reserved"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maria",
+    "relation": "first_time_at_canvas",
+    "value": "approaching the canvas for the first time",
+    "time": "The early sessions",
+    "speaker": null,
+    "verbatim": [
+     "approaching the canvas for the first time"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria",
+    "relation": "strokes_were",
+    "value": "hesitant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her first strokes were hesitant"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria",
+    "relation": "canvas_blossomed_into",
+    "value": "a riot of color",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her canvas blossomed into a riot of color"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria",
+    "relation": "is_testament_to",
+    "value": "the world inside her that she could not verbalize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a silent testament to the world inside her that she could not verbalize"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Maria",
+    "relation": "received",
+    "value": "gentle encouragement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with gentle encouragement"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Maria",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with gentle encouragement, her canvas blossomed into a riot of color"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Marigold Art Centre",
+    "relation": "became",
+    "value": "a haven",
+    "time": "In the weeks that followed",
+    "speaker": null,
+    "verbatim": [
+     "In the weeks that followed, the Marigold Art Centre became a haven."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Marigold Art Centre",
+    "relation": "attracted",
+    "value": "children flocking in after school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Children flocked in after school"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Marigold Art Centre",
+    "relation": "welcomed",
+    "value": "mistakes as steps towards mastery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an environment that welcomed mistakes as steps towards mastery"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Alex",
+    "relation": "age_group",
+    "value": "teenager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teenager Alex"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Alex",
+    "relation": "was_suspended_from_school",
+    "value": "several times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who had been suspended from school several times"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alex",
+    "relation": "suspended_for",
+    "value": "graffiti",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for graffiti"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Alex",
+    "relation": "found_outlet_in",
+    "value": "Urban Art class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found a constructive outlet for his street art in our Urban Art class"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alex",
+    "relation": "channeled_into",
+    "value": "mural projects",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "we channeled his rebellion into remarkable mural projects"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Alex",
+    "relation": "mechanism_of",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "It was through these very classes that we channeled his rebellion into remarkable mural projects"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "mural projects",
+    "relation": "adorn",
+    "value": "the town's underpasses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mural projects that adorn the town's underpasses"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "mural projects",
+    "relation": "garnered",
+    "value": "admiration rather than disdain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "garnering admiration rather than disdain"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Marigold Art Centre",
+    "relation": "collaborated_with",
+    "value": "local schools",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "we've collaborated with local schools to integrate our workshops with their curriculums"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Ms. Hannah Torres",
+    "relation": "is_art_teacher_at",
+    "value": "Elm High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elm High School art teacher, Ms. Hannah Torres"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "joint showcases",
+    "relation": "resulted_from",
+    "value": "Successful partnerships, like the one with Elm High School art teacher, Ms. Hannah Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Successful partnerships, like the one with Elm High School art teacher, Ms. Hannah Torres, led to joint showcases"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "joint showcases",
+    "relation": "blend",
+    "value": "academic learning with community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "joint showcases that blend academic learning with community engagement"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "joint showcases",
+    "relation": "highlight",
+    "value": "the talent of our youth and the importance of arts in education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These events shine a spotlight not just on the talent of our youth but also highlight the importance of arts in education"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Marigold Art Centre",
+    "relation": "funding_was",
+    "value": "a constant obstacle",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Funding was a constant obstacle"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Marigold Art Centre",
+    "relation": "arts_often_first_to_face",
+    "value": "cuts when budgets tighten",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "the arts are often the first to face cuts when budgets tighten"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Marigold Art Centre",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Funding was a constant obstacle, as the arts are often the first to face cuts when budgets tighten"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Marigold Art Centre",
+    "relation": "initiated",
+    "value": "crowd-funding campaigns",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "we initiated crowd-funding campaigns"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Marigold Art Centre",
+    "relation": "in_order_to",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "To combat this, we initiated crowd-funding campaigns"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Marigold Art Centre",
+    "relation": "hosted",
+    "value": "local art fairs",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "hosted local art fairs"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "local art fairs",
+    "relation": "involved",
+    "value": "business sponsors who showcased their services alongside the children's artwork",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "involving business sponsors who showcased their services alongside the children's artwork"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Tony",
+    "relation": "diagnosed_with",
+    "value": "autism",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "Tony, diagnosed with autism"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Tony",
+    "relation": "found_language_in",
+    "value": "photography classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who found a language he excels in within our photography classes"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Tony",
+    "relation": "excels_in",
+    "value": "a language",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a language he excels in"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Tony",
+    "relation": "work_is",
+    "value": "profound",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The world sees through his lens is profound"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Tony",
+    "relation": "earned_accolades_in",
+    "value": "local galleries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has earned accolades in local galleries"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "World Art Workshop",
+    "relation": "started_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "The World Art Workshop, starting October 2023, was a remarkable addition"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "World Art Workshop",
+    "relation": "children_explored",
+    "value": "traditions from various corners of the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "children explored traditions from various corners of the globe"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "World Art Workshop",
+    "relation": "children_learned",
+    "value": "to appreciate and understand differences through a creative lens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while learning to appreciate and understand differences through a creative lens"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Sofia",
+    "relation": "family_immigrated_from",
+    "value": "Mexico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sofia, whose family immigrated from Mexico"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mexico",
+    "relation": "origin_of",
+    "value": "Sofia's family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family immigrated from Mexico"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Sofia",
+    "relation": "shared",
+    "value": "the festive intricacies of D\u00eda de los Muertos through her vibrant art pieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared the festive intricacies of D\u00eda de los Muertos through her vibrant art pieces"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "D\u00eda de los Muertos",
+    "relation": "described_as",
+    "value": "festive intricacies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the festive intricacies of D\u00eda de los Muertos"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Sofia",
+    "relation": "classroom_gained",
+    "value": "a heartfelt understanding of a culture aside from their own",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through her work, a classroom of young Americans gained a heartfelt understanding of a culture aside from their own"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sofia",
+    "relation": "results_in",
+    "value_ref": "c65",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through her work, a classroom of young Americans gained a heartfelt understanding of a culture aside from their own"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sofia",
+    "relation": "effectively_bridged",
+    "value": "gaps that words often cannot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively bridging gaps that words often cannot"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Marigold Art Centre",
+    "relation": "aspires_to",
+    "value": "the cultivation of well-rounded, empathetic individuals who contribute positively to society",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "the aspiration is for the Marigold Art Centre's efforts to transcend beyond artistry and into the cultivation of well-rounded, empathetic individuals who contribute positively to society"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Marigold Art Centre",
+    "relation": "aims_to_impart",
+    "value": "creative problem-solving, patience to see a project through, and courage to express oneself",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "The creative problem-solving, the patience to see a project through, and the courage to express oneself are skills we aim to impart to each child"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Marigold Art Centre",
+    "relation": "is_testament_to",
+    "value": "the enduring flame of creativity we nurture in our students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is not only a testament to the enduring flame of creativity we nurture in our students"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Marigold Art Centre",
+    "relation": "beacon_for",
+    "value": "what communities can achieve when they invest in the arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also a beacon for what communities can achieve when they invest in the arts"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Marigold Art Centre",
+    "relation": "warmth_grows",
+    "value": "only grows",
+    "time": "As the year moves toward its close and the chill of winter approaches",
+    "speaker": null,
+    "verbatim": [
+     "the warmth within Marigold Art Centre only grows"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Marigold Art Centre",
+    "relation": "validates",
+    "value": "every choice made to empower these children through art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The laughter, growth, and sometimes tears of joy validate every choice made to empower these children through art"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Marigold Art Centre",
+    "relation": "could_include",
+    "value": "The next artist, the next innovator, the next leader",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "The next artist, the next innovator, the next leader could be amidst us"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Marigold Art Centre",
+    "relation": "welcomes",
+    "value": "any child willing to leave a mark",
+    "time": null,
+    "speaker": "Evelyn Castillo",
+    "verbatim": [
+     "welcoming any child willing to leave a mark"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

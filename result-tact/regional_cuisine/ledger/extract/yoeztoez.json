@@ -1,0 +1,795 @@
+{
+ "inventory": [
+  "Emilia Torres",
+  "Dr. Hannah Lee",
+  "Luke Sullivan",
+  "Sullivan household",
+  "Nguyen family",
+  "Minh Nguyen",
+  "Maria Gonzalez",
+  "Aunt Gloria",
+  "Johnson family",
+  "Robinsons",
+  "\"Hearts and Hearth\" food symposium",
+  "Thanksgiving 2023",
+  "Minh Nguyen's birthday celebration",
+  "Maria Gonzalez's quincea\u00f1era",
+  "Johnson family reunion",
+  "Patel Diwali feast",
+  "Fourth of July",
+  "comfort food",
+  "Vietnamese pho",
+  "tamales",
+  "Aunt Gloria's apple pie",
+  "Robinsons' famous fried chicken recipe",
+  "Grandma's creamy mashed potatoes",
+  "paneer-laden dishes",
+  "dieticians"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "comfort food",
+    "relation": "has_become",
+    "value": "especially treasured",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comfort foods, those nourishing meals that hug the soul, have become especially treasured."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "\"Hearts and Hearth\" food symposium",
+    "relation": "held_on",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 3, 2023, at the \"Hearts and Hearth\" food symposium"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emilia Torres",
+    "relation": "is_a",
+    "value": "renowned chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned chef Emilia Torres"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emilia Torres",
+    "relation": "shared_perspective_at",
+    "value": "\"Hearts and Hearth\" food symposium",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "renowned chef Emilia Torres shared her perspective on comfort food"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "comfort food",
+    "relation": "described_as",
+    "value": "culinary embrace",
+    "time": "September 3, 2023",
+    "speaker": "Emilia Torres",
+    "verbatim": [
+     "calling it a \"culinary embrace.\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "comfort food",
+    "relation": "carries",
+    "value": "emotional significance that can evoke memories of family gatherings, holidays, and the simple joy of a shared table",
+    "time": null,
+    "speaker": "Emilia Torres",
+    "verbatim": [
+     "Chef Torres noted that such food, often rooted in tradition, carries emotional significance that can evoke memories of family gatherings, holidays, and the simple joy of a shared table."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "comfort food",
+    "relation": "is_rich_in",
+    "value": "carbohydrates, fats, and proteins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comfort food tends to be rich in carbohydrates, fats, and proteins"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "comfort food",
+    "relation": "translates_to",
+    "value": "an immediate sense of satisfaction and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which translate to an immediate sense of satisfaction and well-being"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "dieticians",
+    "relation": "cautions_against",
+    "value": "excessive consumption of such nutrient-dense meals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dieticians caution against the excessive consumption of such nutrient-dense meals"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "comfort food",
+    "relation": "can_lead_to",
+    "value": "health issues if not enjoyed in moderation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can lead to health issues if not enjoyed in moderation"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "dieticians",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dieticians caution against the excessive consumption of such nutrient-dense meals, which can lead to health issues"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Hannah Lee",
+    "relation": "is_a",
+    "value": "nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nutritionist Dr. Hannah Lee"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Hannah Lee",
+    "relation": "highlighted",
+    "value": "the importance of balance",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 11, 2023, a workshop by nutritionist Dr. Hannah Lee highlighted the importance of balance."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Hannah Lee",
+    "relation": "advised",
+    "value": "The key is not to avoid comfort foods but to refine them",
+    "time": null,
+    "speaker": "Dr. Hannah Lee",
+    "verbatim": [
+     "\"The key is not to avoid comfort foods but to refine them,\" Dr. Lee advised."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "comfort food",
+    "relation": "improvement_strategy",
+    "value": "substituting whole grains for refined ones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Substituting whole grains for refined ones"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "comfort food",
+    "relation": "improvement_strategy",
+    "value": "reducing sodium and sugar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing sodium and sugar"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "comfort food",
+    "relation": "improvement_strategy",
+    "value": "incorporating more vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating more vegetables"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "comfort food",
+    "relation": "improves",
+    "value": "nutritional content",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are all effective strategies to improve nutritional content"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Grandma's creamy mashed potatoes",
+    "relation": "is_sunday_dinner_staple_in",
+    "value": "Sullivan household",
+    "time": "for generations",
+    "speaker": null,
+    "verbatim": [
+     "Grandma's creamy mashed potatoes, a Sunday dinner staple for generations in the Sullivan household"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Grandma's creamy mashed potatoes",
+    "relation": "underwent",
+    "value": "a transformation",
+    "time": "Thanksgiving 2023",
+    "speaker": null,
+    "verbatim": [
+     "underwent a transformation when young Luke Sullivan decided to put his culinary education to good use on Thanksgiving 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Luke Sullivan",
+    "relation": "has",
+    "value": "culinary education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "put his culinary education to good use"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Luke Sullivan",
+    "relation": "is_described_as",
+    "value": "young",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "young Luke Sullivan"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Thanksgiving 2023",
+    "relation": "setting_for",
+    "value": "Luke Sullivan's transformation of Grandma's creamy mashed potatoes",
+    "time": "Thanksgiving 2023",
+    "speaker": null,
+    "verbatim": [
+     "decided to put his culinary education to good use on Thanksgiving 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Luke Sullivan",
+    "relation": "used",
+    "value": "olive oil instead of butter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using olive oil instead of butter"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Luke Sullivan",
+    "relation": "added",
+    "value": "a mix of parsnips with the potatoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mix of parsnips with the potatoes"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Luke Sullivan",
+    "relation": "retained",
+    "value": "the creamy texture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luke retained the"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Luke Sullivan",
+    "relation": "added",
+    "value": "complexity to the flavor profile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but added complexity to the flavor profile"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Luke Sullivan",
+    "relation": "added",
+    "value": "a boost of dietary fiber",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "along with a boost of dietary fiber"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "comfort food",
+    "relation": "transcends",
+    "value": "geographic boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comfort food transcends geographic boundaries."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Nguyen family",
+    "relation": "celebrates_heritage_with",
+    "value": "a healthy pho",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Nguyen family celebrates their Vietnamese heritage with a healthy pho"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Vietnamese pho",
+    "relation": "is_a",
+    "value": "a brothy noodle soup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a brothy noodle soup usually brimming with beef and sodium"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Vietnamese pho",
+    "relation": "usually_contains",
+    "value": "beef and sodium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "usually brimming with beef and sodium"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Nguyen family",
+    "relation": "switched_to",
+    "value": "a less fatty cut of meat and homemade low-sodium broth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By switching to a less fatty cut of meat and homemade low-sodium broth"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Nguyen family",
+    "relation": "preserves",
+    "value": "the dish's comforting warmth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they preserve the dish's comforting warmth"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Nguyen family",
+    "relation": "protects",
+    "value": "their health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while protecting their health"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Nguyen family",
+    "relation": "mechanism_of",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By switching to a less fatty cut of meat and homemade low-sodium broth, they preserve the dish's comforting warmth"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Minh Nguyen's birthday celebration",
+    "relation": "held_on",
+    "value": "September 18, 2023",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Minh Nguyen's birthday celebration on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Minh Nguyen's birthday celebration",
+    "relation": "featured",
+    "value": "the healthy pho adaptation",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This adaptation was a hit at Minh Nguyen's birthday celebration"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Minh Nguyen's birthday celebration",
+    "relation": "guests_enjoyed",
+    "value": "a delicious, heart-friendly version of this classic dish",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "guests enjoyed a delicious, heart-friendly version of this classic dish"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Maria Gonzalez's quincea\u00f1era",
+    "relation": "held_on",
+    "value": "December 3, 2023",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At Maria Gonzalez's quincea\u00f1era on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "tamales",
+    "relation": "served_at",
+    "value": "Maria Gonzalez's quincea\u00f1era",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "traditional tamales were served"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "tamales",
+    "relation": "filling_star",
+    "value": "vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vegetables were the star of the filling"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "tamales",
+    "relation": "masa_prepared_with",
+    "value": "olive oil instead of lard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the masa harina (dough) was prepared with olive oil instead of lard"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Johnson family reunion",
+    "relation": "held_on",
+    "value": "October 14, 2023",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At the Johnson family reunion on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "generated",
+    "value": "a buzz at the Johnson family reunion",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a buzz surrounded Aunt Gloria's apple pie"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "traditionally_laden_with",
+    "value": "sugar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditionally laden with sugar"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "uses",
+    "value": "whole-wheat flour",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "received a makeover with the use of whole-wheat flour"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "uses",
+    "value": "a reduced amount of natural sweeteners like honey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a reduced amount of natural sweeteners like honey"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "satisfied",
+    "value": "the sweet tooth without overloading on processed sugar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A pie that satisfied the sweet tooth without overloading on processed sugar."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Aunt Gloria's apple pie",
+    "relation": "results_in",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "received a makeover with the use of whole-wheat flour and a reduced amount of natural sweeteners like honey.",
+     "The result? A pie that satisfied the sweet tooth without overloading on processed sugar."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "comfort food",
+    "relation": "can_significantly_impact",
+    "value": "nutrition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cooking methods can significantly impact nutrition"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "comfort food",
+    "relation": "preferable_cooking_methods",
+    "value": "Baking, grilling, and steaming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Baking, grilling, and steaming are preferable to frying"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "comfort food",
+    "relation": "preferable_to",
+    "value": "frying",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are preferable to frying"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Robinsons' famous fried chicken recipe",
+    "relation": "appeared_every",
+    "value": "Fourth of July",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which made its appearance every Fourth of July"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Robinsons' famous fried chicken recipe",
+    "relation": "faced_revolution",
+    "value": "a revolution",
+    "time": "July 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "faced a revolution on July 4, 2024"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Robinsons",
+    "relation": "opted_for",
+    "value": "oven-baking with a seasoned panko crust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By opting for oven-baking with a seasoned panko crust"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Robinsons",
+    "relation": "preserved",
+    "value": "the beloved crunch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Robinsons preserved the beloved crunch"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Robinsons",
+    "relation": "cut_down",
+    "value": "oil and fat content",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dramatically cutting down on oil and fat content"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Robinsons",
+    "relation": "mechanism_of",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By opting for oven-baking with a seasoned panko crust, the Robinsons preserved the beloved crunch while dramatically cutting down on oil and fat content."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "paneer-laden dishes",
+    "relation": "portions_considered_at",
+    "value": "Patel Diwali feast",
+    "time": "November 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Patel Diwali feast on November 14, 2023, the portions of paneer-laden dishes were carefully considered"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Patel Diwali feast",
+    "relation": "held_on",
+    "value": "November 14, 2023",
+    "time": "November 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Patel Diwali feast on November 14, 2023"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "paneer-laden dishes",
+    "relation": "ensures",
+    "value": "guests could indulge in various flavors without overconsumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure that guests could indulge in various flavors without overconsumption"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "paneer-laden dishes",
+    "relation": "in_order_to",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the portions of paneer-laden dishes were carefully considered to ensure that guests could indulge in various flavors without overconsumption"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Patel Diwali feast",
+    "relation": "used_strategy",
+    "value": "Small plates and the encouragement of sharing dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small plates and the encouragement of sharing dishes allowed"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Patel Diwali feast",
+    "relation": "allowed",
+    "value": "everyone to taste the diversity of the cuisine while still being mindful of quantity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "everyone to taste the diversity of the cuisine while still being mindful of quantity."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Patel Diwali feast",
+    "relation": "mechanism_of",
+    "value_ref": "c65",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small plates and the encouragement of sharing dishes allowed",
+     "everyone to taste the diversity of the cuisine while still being mindful of quantity."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "comfort food",
+    "relation": "occupies",
+    "value": "a cherished space in the hearts and kitchens of families around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comfort food occupies a cherished space in the hearts and kitchens of families around the world."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "comfort food",
+    "relation": "can_be_made",
+    "value": "healthier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is possible to honor these timeless recipes by making them healthier"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "comfort food",
+    "relation": "healthier_through",
+    "value": "ingredient swaps, updated cooking techniques, or smart portioning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether it's through ingredient swaps, updated cooking techniques, or smart portioning"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

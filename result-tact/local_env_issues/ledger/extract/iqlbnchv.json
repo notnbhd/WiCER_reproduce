@@ -1,0 +1,762 @@
+{
+ "inventory": [
+  "Bangladesh",
+  "eastern United States",
+  "Hurricane such-and-such",
+  "Dr. Rebecca Holloway",
+  "Michael Torres",
+  "Emily Carter",
+  "Old Seabrook",
+  "Jonathan Pierce",
+  "Sarah Nguyen",
+  "Blossom Ridge",
+  "Jane Walker",
+  "Coastal Resilience Coalition",
+  "a great storm in 1934",
+  "the events of November 15, 2027",
+  "a massive hurricane on August 17, 2025",
+  "another storm",
+  "the great flood of September 9, 1943",
+  "natural barriers",
+  "mangrove forests",
+  "sand dunes",
+  "wetlands",
+  "mangrove reforestation efforts",
+  "dune reforestation and stabilization projects",
+  "a tropical nation",
+  "Climate change",
+  "sea-level rise"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "natural barriers",
+    "relation": "targeted_by_strategy",
+    "value": "reinforcement and restoration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One such strategy gaining ground is the reinforcement and restoration of natural barriers"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "natural barriers",
+    "relation": "provided",
+    "value": "passive yet powerful protection mechanisms",
+    "time": "Throughout history",
+    "speaker": null,
+    "verbatim": [
+     "Throughout history, natural barriers have provided coastal communities with passive yet powerful protection mechanisms"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "natural barriers",
+    "relation": "saved",
+    "value": "settlements from the wrath of the elements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "natural defenses saved settlements from the wrath of the elements"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "mangrove forests",
+    "relation": "located_in",
+    "value": "Bangladesh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the expansive mangrove forests of Bangladesh"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "mangrove forests",
+    "relation": "lessen_impacts_of",
+    "value": "storm surge impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mangrove forests of Bangladesh that lessen storm surge impacts"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "sand dunes",
+    "relation": "located_in",
+    "value": "eastern United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sand dunes along the eastern United States"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "sand dunes",
+    "relation": "provide",
+    "value": "frontline defense against hurricanes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sand dunes along the eastern United States providing frontline defense against hurricanes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "natural barriers",
+    "relation": "have_proved",
+    "value": "their worth time and again",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these natural features have proved their worth time and again"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Hurricane such-and-such",
+    "relation": "occurred_on",
+    "value": "September 6, 2023",
+    "time": "September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the wake of Hurricane such-and-such on September 6, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Hurricane such-and-such",
+    "relation": "devastated",
+    "value": "several coastal towns",
+    "time": "September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which devastated several coastal towns"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Rebecca Holloway",
+    "relation": "studies",
+    "value": "historical precedents to reinforce coasts naturally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "environmental experts like Dr. Rebecca Holloway have been studying historical precedents to reinforce coasts naturally"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Rebecca Holloway",
+    "relation": "said",
+    "value": "The interplay between coastal communities and their surrounding natural habitats has always been delicate",
+    "time": null,
+    "speaker": "Dr. Rebecca Holloway",
+    "verbatim": [
+     "The interplay between coastal communities and their surrounding natural habitats has always been delicate."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Rebecca Holloway",
+    "relation": "said",
+    "value": "regions which conserved their natural barriers fared better during extreme weather events",
+    "time": null,
+    "speaker": "Dr. Rebecca Holloway",
+    "verbatim": [
+     "regions which conserved their natural barriers fared better during extreme weather events"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "the events of November 15, 2027",
+    "relation": "involved",
+    "value": "a super cyclone threatened the lives of millions along the coast of a tropical nation",
+    "time": "November 15, 2027",
+    "speaker": null,
+    "verbatim": [
+     "the events of November 15, 2027, when a super cyclone threatened the lives of millions along the coast of a tropical nation"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "a tropical nation",
+    "relation": "coast_threatened_by",
+    "value": "a super cyclone",
+    "time": "November 15, 2027",
+    "speaker": null,
+    "verbatim": [
+     "a super cyclone threatened the lives of millions along the coast of a tropical nation"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "mangrove forests",
+    "relation": "blunted",
+    "value": "the storm's destructive potential",
+    "time": "November 15, 2027",
+    "speaker": null,
+    "verbatim": [
+     "It's the mangrove forests there that blunted the storm's destructive potential"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "mangrove forests",
+    "relation": "acted_as",
+    "value": "a buffer between the sea's fury and the people living beyond the green wall",
+    "time": "November 15, 2027",
+    "speaker": null,
+    "verbatim": [
+     "acting as a buffer between the sea's fury and the people living beyond the green wall"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Michael Torres",
+    "relation": "is",
+    "value": "Environmental anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental anthropologist, Michael Torres points to this event as a critical learning moment."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Michael Torres",
+    "relation": "described_event_as",
+    "value": "a critical learning moment",
+    "time": "November 15, 2027",
+    "speaker": null,
+    "verbatim": [
+     "Michael Torres points to this event as a critical learning moment"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michael Torres",
+    "relation": "said",
+    "value": "It was a turning point, demonstrating the vital role ecosystems play in our survival",
+    "time": "November 15, 2027",
+    "speaker": "Michael Torres",
+    "verbatim": [
+     "It was a turning point, demonstrating the vital role ecosystems play in our survival"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "mangrove forests",
+    "relation": "villages_with_dense_mangroves_reported",
+    "value": "significantly fewer losses and casualties compared to those that had cleared the forests for development or aquaculture purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Villages flanked by dense mangroves reported significantly fewer losses and casualties compared to those that had cleared the forests for development or aquaculture purposes."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "mangrove reforestation efforts",
+    "relation": "caused_by",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This crucial observation spurred a wave of mangrove reforestation efforts"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "mangrove reforestation efforts",
+    "relation": "aimed_at",
+    "value": "restoring this natural protective barrier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at restoring this natural protective barrier"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "a massive hurricane on August 17, 2025",
+    "relation": "affected",
+    "value": "a small coastal town",
+    "time": "August 17, 2025",
+    "speaker": null,
+    "verbatim": [
+     "Another compelling story is that of a small coastal town that weathered a massive hurricane on August 17, 2025"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "sand dunes",
+    "relation": "stabilized_with",
+    "value": "deep-rooted grasses and shrubbery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These dunes, stabilized with deep-rooted grasses and shrubbery"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "sand dunes",
+    "relation": "absorbed",
+    "value": "much of the water's energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "absorbed much of the water's energy"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "sand dunes",
+    "relation": "prevented_inundation_of",
+    "value": "the town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preventing it from inundating the town"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "sand dunes",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": "August 17, 2025",
+    "speaker": null,
+    "verbatim": [
+     "a small coastal town that weathered a massive hurricane on August 17, 2025, thanks to its sand dunes"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emily Carter",
+    "relation": "is",
+    "value": "Civil engineer and coastal resilience advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Civil engineer and coastal resilience advocate Emily Carter recalls"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Emily Carter",
+    "relation": "said",
+    "value": "The success was in the simplicity. By allowing the dunes to grow and be anchored by native vegetation, we watched as they absorbed the shock that would've otherwise wiped out infrastructure",
+    "time": null,
+    "speaker": "Emily Carter",
+    "verbatim": [
+     "The success was in the simplicity. By allowing the dunes to grow and be anchored by native vegetation, we watched as they absorbed the shock that would've otherwise wiped out infrastructure."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Emily Carter",
+    "relation": "has_worked_on",
+    "value": "several dune reforestation and stabilization projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carter has since worked on several dune reforestation and stabilization projects"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "dune reforestation and stabilization projects",
+    "relation": "purpose",
+    "value": "ensuring these natural barriers are robust enough to withstand future climatic assaults",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring these natural barriers are robust enough to withstand future climatic assaults"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Emily Carter",
+    "relation": "in_order_to",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carter has since worked on several dune reforestation and stabilization projects, ensuring these natural barriers are robust enough to withstand future climatic assaults."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Old Seabrook",
+    "relation": "is",
+    "value": "a town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the town of Old Seabrook"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Old Seabrook",
+    "relation": "residents_recall",
+    "value": "the legend of a great storm in 1934",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents recall the legend of a great storm in 1934 that split the earth and reshaped the shoreline"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "a great storm in 1934",
+    "relation": "described_as",
+    "value": "split the earth and reshaped the shoreline",
+    "time": "1934",
+    "speaker": null,
+    "verbatim": [
+     "a great storm in 1934 that split the earth and reshaped the shoreline"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "a great storm in 1934",
+    "relation": "is",
+    "value": "a devastating event",
+    "time": "1934",
+    "speaker": null,
+    "verbatim": [
+     "It was a devastating event"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Old Seabrook",
+    "relation": "respects_and_preserves",
+    "value": "natural barriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taught them to respect and preserve the natural barriers"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Old Seabrook",
+    "relation": "uses",
+    "value": "modern technology to monitor and reinforce these barriers",
+    "time": "Today",
+    "speaker": null,
+    "verbatim": [
+     "Today, Old Seabrook uses modern technology to monitor and reinforce these barriers."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "another storm",
+    "relation": "loomed_large",
+    "value": "another storm loomed large",
+    "time": "On October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 14, 2023, when another storm loomed large"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Old Seabrook",
+    "relation": "used",
+    "value": "sophisticated sensors and AI-driven models",
+    "time": "On October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "sophisticated sensors and AI-driven models predicted the areas that needed immediate reinforcing"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Old Seabrook",
+    "relation": "predicted",
+    "value": "the areas that needed immediate reinforcing",
+    "time": "On October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "sophisticated sensors and AI-driven models predicted the areas that needed immediate reinforcing"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Old Seabrook",
+    "relation": "escaped",
+    "value": "the worst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowed them to escape the worst"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Old Seabrook",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The community's proactive approach, rooted in historical wisdom, allowed them to escape the worst."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jonathan Pierce",
+    "relation": "is",
+    "value": "Local leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local leader Jonathan Pierce emphasized"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jonathan Pierce",
+    "relation": "emphasized",
+    "value": "it's our respect for the natural world and the lessons from our ancestors that truly preserve our way of life",
+    "time": null,
+    "speaker": "Jonathan Pierce",
+    "verbatim": [
+     "While we look to technology to guide us, it's our respect for the natural world and the lessons from our ancestors that truly preserve our way of life."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "wetlands",
+    "relation": "located_near",
+    "value": "the coast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not far from the coast"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "wetlands",
+    "relation": "described_as",
+    "value": "once-drained",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the once-drained wetlands"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "wetlands",
+    "relation": "restoration_shows",
+    "value": "promising results in protecting adjacent areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "restoration ecology has shown promising results in protecting adjacent areas"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "wetlands",
+    "relation": "acted_as",
+    "value": "natural sponges",
+    "time": "Before land reclamation for agriculture",
+    "speaker": null,
+    "verbatim": [
+     "Before land reclamation for agriculture, these wetlands acted as natural sponges"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "wetlands",
+    "relation": "absorbed",
+    "value": "excess water from storms and floods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "absorbing excess water from storms and floods"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "the great flood of September 9, 1943",
+    "relation": "regions_with_intact_wetlands_experienced",
+    "value": "less damage",
+    "time": "September 9, 1943",
+    "speaker": "Historical records",
+    "verbatim": [
+     "Historical records from the great flood of September 9, 1943, indicated that regions with intact wetlands experienced less damage."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Sarah Nguyen",
+    "relation": "is",
+    "value": "Ecologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologists like Sarah Nguyen have anchored restoration projects in the data."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sarah Nguyen",
+    "relation": "anchored",
+    "value": "restoration projects in the data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologists like Sarah Nguyen have anchored restoration projects in the data."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sarah Nguyen",
+    "relation": "said",
+    "value": "We're not just guessing; we're applying concrete evidence from the past to inform our restoration practices",
+    "time": null,
+    "speaker": "Sarah Nguyen",
+    "verbatim": [
+     "We're not just guessing; we're applying concrete evidence from the past to inform our restoration practices"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "wetlands",
+    "relation": "being_restored_to",
+    "value": "their former glory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These wetlands are now being restored to their former glory"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "wetlands",
+    "relation": "creating",
+    "value": "a defense line that both wildlife and humans can benefit from",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a defense line that both wildlife and humans can benefit from"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "wetlands",
+    "relation": "restoration_is",
+    "value": "a slow process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The restoration is a slow process"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "wetlands",
+    "relation": "incremental_benefits_apparent",
+    "value": "already becoming apparent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the incremental benefits are already becoming apparent"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Blossom Ridge",
+    "relation": "flood_levels_reduced_by_wetlands",
+    "value": "significantly",
+    "time": "the rainy season of 2029",
+    "speaker": null,
+    "verbatim": [
+     "For communities like Blossom Ridge, the wetlands have reduced flood levels significantly during the rainy season of 2029."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Climate change",
+    "relation": "presents_threat_to",
+    "value": "coastal communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climate change and sea-level rise present very real threats to coastal communities"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "sea-level rise",
+    "relation": "presents_threat_to",
+    "value": "coastal communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climate change and sea-level rise present very real threats to coastal communities"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "natural barriers",
+    "relation": "reduces_impacts_of",
+    "value": "severe weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as a means to reduce",
+     "the impacts of severe weather events"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Jane Walker",
+    "relation": "director_of",
+    "value": "Coastal Resilience Coalition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Walker, director of the Coastal Resilience Coalition"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Jane Walker",
+    "relation": "sees_movement_as",
+    "value": "a testament to human adaptability and respect for nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sees the movement as a testament to human adaptability and respect for nature"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Jane Walker",
+    "relation": "said",
+    "value": "When we see how past communities survived thanks to these natural barriers, we're reminded that we're part of a larger ecosystem. It's not just about fighting nature, but working with it",
+    "time": null,
+    "speaker": "Jane Walker",
+    "verbatim": [
+     "When we see how past communities survived thanks to these natural barriers, we're reminded that we're part of a larger ecosystem. It's not just about fighting nature, but working with it"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

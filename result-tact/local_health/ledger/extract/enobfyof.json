@@ -1,0 +1,477 @@
+{
+ "inventory": [
+  "Roberta Jameson",
+  "Jacob Carlson",
+  "Theresa Green",
+  "Margaret Li",
+  "Sara Mendez",
+  "Iron Forge Gym",
+  "Zenith Fitness Studio",
+  "Centers for Disease Control and Prevention",
+  "JumpStart Gymnastics",
+  "Kickoff Sports Academy",
+  "VirtuFit",
+  "Health Awareness Weeks",
+  "Fitness for All",
+  "Silver Sneakers",
+  "local health department",
+  "recent survey",
+  "Americans"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "recent survey",
+    "relation": "conducted_after",
+    "value": "September 1, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A recent survey conducted after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "recent survey",
+    "relation": "revealed",
+    "value": "over 15 diverse fitness centers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealed that there are over 15 diverse fitness centers spread strategically across the community"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Iron Forge Gym",
+    "relation": "described_as",
+    "value": "household favorites",
+    "time": "as of fall 2023",
+    "speaker": null,
+    "verbatim": [
+     "have become household favorites as of fall 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Zenith Fitness Studio",
+    "relation": "described_as",
+    "value": "household favorites",
+    "time": "as of fall 2023",
+    "speaker": null,
+    "verbatim": [
+     "have become household favorites as of fall 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Iron Forge Gym",
+    "relation": "owned_by",
+    "value": "Roberta Jameson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Iron Forge Gym, owned by local fitness enthusiast Roberta Jameson"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Roberta Jameson",
+    "relation": "occupation",
+    "value": "local fitness enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Iron Forge Gym, owned by local fitness enthusiast Roberta Jameson"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Iron Forge Gym",
+    "relation": "boasts",
+    "value": "state-of-the-art equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boasts state-of-the-art equipment and free health screening for its members"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Iron Forge Gym",
+    "relation": "offers",
+    "value": "free health screening for its members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boasts state-of-the-art equipment and free health screening for its members"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Zenith Fitness Studio",
+    "relation": "guided_by",
+    "value": "Jacob Carlson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the guidance of famed trainer Jacob Carlson"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jacob Carlson",
+    "relation": "occupation",
+    "value": "famed trainer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the guidance of famed trainer Jacob Carlson"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Zenith Fitness Studio",
+    "relation": "specializes_in",
+    "value": "individualized workout regimes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "specializes in individualized workout regimes, integrating modern fitness principles"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Zenith Fitness Studio",
+    "relation": "integrates",
+    "value": "modern fitness principles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "specializes in individualized workout regimes, integrating modern fitness principles"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Centers for Disease Control and Prevention",
+    "relation": "reported_statistic",
+    "value": "less than 23% of Americans get the recommended amount of exercise",
+    "time": null,
+    "speaker": "Centers for Disease Control and Prevention",
+    "verbatim": [
+     "statistics from the Centers for Disease Control and Prevention (CDC) suggest that less than 23% of Americans get the recommended amount of exercise"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Americans",
+    "relation": "get_recommended_amount_of_exercise",
+    "value": "less than 23%",
+    "time": null,
+    "speaker": "Centers for Disease Control and Prevention",
+    "verbatim": [
+     "less than 23% of Americans get the recommended amount of exercise"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Health Awareness Weeks",
+    "relation": "organized_by",
+    "value": "local establishments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Additionally, local establishments are organizing"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Health Awareness Weeks",
+    "relation": "endorsed_by",
+    "value": "local health department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative endorsed by the local health department"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "local health department",
+    "relation": "endorses",
+    "value": "Health Awareness Weeks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative endorsed by the local health department"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Health Awareness Weeks",
+    "relation": "includes",
+    "value": "seminars, free workshops, and fitness challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These weeks are replete with seminars, free workshops, and fitness challenges"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Health Awareness Weeks",
+    "relation": "purpose",
+    "value": "incentivize regular physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness challenges to incentivize regular physical activity"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Health Awareness Weeks",
+    "relation": "in_order_to",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness challenges to incentivize regular physical activity"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Health Awareness Weeks",
+    "relation": "attendance_trend",
+    "value": "steady uptick",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attendance figures at these events have seen a steady uptick"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Fitness for All",
+    "relation": "spearheaded_by",
+    "value": "Theresa Green",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a program spearheaded by community leader Theresa Green"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Theresa Green",
+    "relation": "occupation",
+    "value": "community leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a program spearheaded by community leader Theresa Green"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Fitness for All",
+    "relation": "instrumental_in",
+    "value": "providing adaptive classes and financial assistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been instrumental in providing adaptive classes and financial assistance"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Fitness for All",
+    "relation": "serves",
+    "value": "differently-abled members of our society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for differently-abled members of our society to access fitness resources"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "JumpStart Gymnastics",
+    "relation": "example_of",
+    "value": "youth engagement boost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Youth engagement has seen a particular boost with the opening of centers like"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "JumpStart Gymnastics",
+    "relation": "focuses_on",
+    "value": "improving physical fitness and developing team skills and cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which focus on not only improving physical fitness but also developing team skills and cooperation"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Kickoff Sports Academy",
+    "relation": "example_of",
+    "value": "youth engagement boost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Youth engagement has seen a particular boost with the opening of centers like"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Kickoff Sports Academy",
+    "relation": "focuses_on",
+    "value": "improving physical fitness and developing team skills and cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which focus on not only improving physical fitness but also developing team skills and cooperation"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Silver Sneakers",
+    "relation": "is_a",
+    "value": "amenity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For the senior population, amenities like"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Silver Sneakers",
+    "relation": "makes_easier",
+    "value": "easier for older adults to find suitable ways to stay fit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have made it easier for older adults to find suitable ways to stay fit"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Margaret Li",
+    "relation": "leads",
+    "value": "slow-paced yoga sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slow-paced yoga sessions helmed by senior fitness expert, Margaret Li"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Margaret Li",
+    "relation": "occupation",
+    "value": "senior fitness expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slow-paced yoga sessions helmed by senior fitness expert, Margaret Li"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "VirtuFit",
+    "relation": "described_as",
+    "value": "local tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local tech startup that aligns VR with fitness training"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "VirtuFit",
+    "relation": "aligns",
+    "value": "VR with fitness training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local tech startup that aligns VR with fitness training"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "VirtuFit",
+    "relation": "user_rise",
+    "value": "consistent rise in users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The consistent rise in users engaging with"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "VirtuFit",
+    "relation": "exemplifies",
+    "value": "this trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exemplifies this trend"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sara Mendez",
+    "relation": "occupation",
+    "value": "nutritionists and wellness coaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local nutritionists and wellness coaches like Sara Mendez"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sara Mendez",
+    "relation": "partners_with",
+    "value": "several gyms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who partners with several gyms to provide members with dietary advice"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sara Mendez",
+    "relation": "provides",
+    "value": "dietary advice to members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who partners with several gyms to provide members with dietary advice"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sara Mendez",
+    "relation": "exemplifies",
+    "value": "the symbiotic relationship between fitness centers and allied health professions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exemplify the symbiotic relationship between fitness centers and allied health professions"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

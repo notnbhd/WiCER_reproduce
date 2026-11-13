@@ -1,0 +1,793 @@
+{
+ "inventory": [
+  "e-waste",
+  "The Global E-Waste Monitor",
+  "Dr. Amanda Clarkson",
+  "Sustainable Electronics Initiative",
+  "lead",
+  "mercury",
+  "cadmium",
+  "arsenic",
+  "Environmental Health Perspectives journal",
+  "India",
+  "China",
+  "extended producer responsibility (EPR)",
+  "Assemblywoman Jessica Marquez",
+  "California",
+  "Electronic Waste Recycling Act of 2024",
+  "James Bentley",
+  "GreenTech Recycling",
+  "Electronics for the Earth",
+  "EarthWatch",
+  "City of Greenburgh",
+  "take-back programs",
+  "ElecTech International",
+  "Emily Rodriguez",
+  "cradle-to-cradle philosophy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "e-waste",
+    "relation": "described_as",
+    "value": "one of the most pressing environmental concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the surge of electronic waste, or e-waste, has become one of the most pressing environmental concerns"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "e-waste",
+    "relation": "volume_trend",
+    "value": "skyrocketed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the volume of discarded electronics has skyrocketed"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "The Global E-Waste Monitor",
+    "relation": "reported_generation",
+    "value": "53.6 million metric tons of e-waste",
+    "time": "As of October 5, 2023",
+    "speaker": "The Global E-Waste Monitor",
+    "verbatim": [
+     "The Global E-Waste Monitor reported that the world generated an estimated 53.6 million metric tons of e-waste just last year"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "e-waste",
+    "relation": "expected_trend",
+    "value": "increase exponentially",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is expected to increase exponentially with the relentless upgrade culture and consumption patterns of modern society"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "e-waste",
+    "relation": "increase_driven_by",
+    "value": "the relentless upgrade culture and consumption patterns of modern society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is expected to increase exponentially with the relentless upgrade culture and consumption patterns of modern society"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "e-waste",
+    "relation": "device_context",
+    "value": "Electronic devices are more affordable and more disposable than ever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electronic devices are more affordable and more disposable than ever."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "e-waste",
+    "relation": "life_cycle_trend",
+    "value": "shortening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the life cycle of electronics shortening"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "e-waste",
+    "relation": "discard_behavior",
+    "value": "consumers and businesses are quick to discard old models for the latest innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers and businesses are quick to discard old models for the latest innovations"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "e-waste",
+    "relation": "caused_by",
+    "value_ref": "c7",
+    "verbatim": [
+     "With the life cycle of electronics shortening, consumers and businesses are quick to discard old models"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Amanda Clarkson",
+    "relation": "described_as",
+    "value": "a leading environmental scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Amanda Clarkson, a leading environmental scientist at the Sustainable Electronics Initiative"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Amanda Clarkson",
+    "relation": "affiliated_with",
+    "value": "Sustainable Electronics Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Amanda Clarkson, a leading environmental scientist at the Sustainable Electronics Initiative"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Amanda Clarkson",
+    "relation": "states",
+    "value": "The digital age is not only defined by the rapid advancement of technology but also by the short-lived tenure of its products.",
+    "time": null,
+    "speaker": "Dr. Amanda Clarkson",
+    "verbatim": [
+     "The digital age is not only defined by the rapid advancement of technology but also by the short-lived tenure of its products."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "e-waste",
+    "relation": "volume",
+    "value": "enormous volumes",
+    "time": null,
+    "speaker": "Dr. Amanda Clarkson",
+    "verbatim": [
+     "This creates enormous volumes of e-waste, much of which contains hazardous materials"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "e-waste",
+    "relation": "contains",
+    "value": "hazardous materials",
+    "time": null,
+    "speaker": "Dr. Amanda Clarkson",
+    "verbatim": [
+     "much of which contains hazardous materials"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "e-waste",
+    "relation": "poses_risk_to",
+    "value": "the environment and human health if not properly managed",
+    "time": null,
+    "speaker": "Dr. Amanda Clarkson",
+    "verbatim": [
+     "pose significant risks to both the environment and human health if not properly managed"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "lead",
+    "relation": "found_in",
+    "value": "most electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most electronic devices contain toxic substances such as lead, mercury, cadmium, and arsenic."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "mercury",
+    "relation": "found_in",
+    "value": "most electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most electronic devices contain toxic substances such as lead, mercury, cadmium, and arsenic."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "cadmium",
+    "relation": "found_in",
+    "value": "most electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most electronic devices contain toxic substances such as lead, mercury, cadmium, and arsenic."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "arsenic",
+    "relation": "found_in",
+    "value": "most electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most electronic devices contain toxic substances such as lead, mercury, cadmium, and arsenic."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "e-waste",
+    "relation": "improper_disposal_location",
+    "value": "often in landfills or through informal recycling processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often in landfills or through informal recycling processes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "e-waste",
+    "relation": "toxins_leach_into",
+    "value": "the soil and groundwater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these toxins can leach into the soil and groundwater"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "e-waste",
+    "relation": "poses_risk_to",
+    "value": "grave health risks to nearby communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "posing grave health risks to nearby communities"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Environmental Health Perspectives journal",
+    "relation": "highlighted_study_on",
+    "value": "a community living near an e-waste recycling site",
+    "time": "On September 12, 2023",
+    "speaker": "Environmental Health Perspectives journal",
+    "verbatim": [
+     "a study by the Environmental Health Perspectives journal highlighted a community living near an e-waste recycling site"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "lead",
+    "relation": "blood_level_in_children",
+    "value": "alarmingly high",
+    "time": "On September 12, 2023",
+    "speaker": "Environmental Health Perspectives journal",
+    "verbatim": [
+     "lead levels in children's blood were found to be alarmingly high"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "lead",
+    "relation": "associated_concern",
+    "value": "developmental delays and other health issues",
+    "time": "On September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leading to concerns about developmental delays and other health issues"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "lead",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "verbatim": [
+     "were found to be alarmingly high, leading to concerns about developmental delays"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "e-waste",
+    "relation": "lack_of",
+    "value": "universal policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the lack of universal policy to tackle e-waste"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "e-waste",
+    "relation": "lawmakers_pressured_to_formulate",
+    "value": "stringent e-waste management regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lawmakers are under mounting pressure to formulate stringent e-waste management regulations"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "India",
+    "relation": "revised_policies_to_include",
+    "value": "extended producer responsibility (EPR)",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "Countries like India and China, who are among the largest producers of e-waste, recently revised their policies to include extended producer responsibility (EPR)"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "China",
+    "relation": "revised_policies_to_include",
+    "value": "extended producer responsibility (EPR)",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "Countries like India and China, who are among the largest producers of e-waste, recently revised their policies to include extended producer responsibility (EPR)"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "India",
+    "relation": "is_among_largest_producers_of",
+    "value": "e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like India and China, who are among the largest producers of e-waste"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "China",
+    "relation": "is_among_largest_producers_of",
+    "value": "e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like India and China, who are among the largest producers of e-waste"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "extended producer responsibility (EPR)",
+    "relation": "holds_manufacturers_accountable_for",
+    "value": "the life cycle of their electronics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby holding manufacturers accountable for the life cycle of their electronics"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "extended producer responsibility (EPR)",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "verbatim": [
+     "extended producer responsibility (EPR), thereby holding manufacturers accountable"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Assemblywoman Jessica Marquez",
+    "relation": "introduced",
+    "value": "Electronic Waste Recycling Act of 2024",
+    "time": "on September 21",
+    "speaker": null,
+    "verbatim": [
+     "Assemblywoman Jessica Marquez introduced the Electronic Waste Recycling Act of 2024 on September 21"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "introduced_by",
+    "value": "Assemblywoman Jessica Marquez",
+    "time": "on September 21",
+    "speaker": null,
+    "verbatim": [
+     "Assemblywoman Jessica Marquez introduced the Electronic Waste Recycling Act of 2024 on September 21"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "jurisdiction",
+    "value": "California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In California, Assemblywoman Jessica Marquez introduced the Electronic Waste Recycling Act of 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "aims_to",
+    "value": "set a precedent for other states",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which aims to set a precedent for other states"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "includes",
+    "value": "measures to facilitate the recovery and recycling of e-waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proposed legislation includes measures to facilitate the recovery and recycling of e-waste"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "ensures",
+    "value": "these materials are treated in an environmentally responsible manner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby ensuring these materials are treated in an environmentally responsible manner"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Electronic Waste Recycling Act of 2024",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "verbatim": [
+     "recycling of e-waste, thereby ensuring these materials are treated in an environmentally responsible manner"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "e-waste",
+    "relation": "recycling_progress",
+    "value": "a silver lining amidst the growing waste challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remarkable progress in e-waste recycling technology presents a silver lining amidst the growing waste challenge."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "e-waste",
+    "relation": "processing_innovations",
+    "value": "advanced shredding techniques, biotechnological methods for metal extraction, and smart electronics designed for easy disassembly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovations such as advanced shredding techniques, biotechnological methods for metal extraction, and smart electronics designed for easy disassembly are transforming the landscape of e-waste processing."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "James Bentley",
+    "relation": "holds_position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Bentley, CEO of GreenTech Recycling, points out"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "James Bentley",
+    "relation": "affiliated_with",
+    "value": "GreenTech Recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Bentley, CEO of GreenTech Recycling, points out"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "James Bentley",
+    "relation": "states",
+    "value": "Modern recycling technology allows us to recover up to 95% of precious metals from e-waste.",
+    "time": null,
+    "speaker": "James Bentley",
+    "verbatim": [
+     "Modern recycling technology allows us to recover up to 95% of precious metals from e-waste."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "e-waste",
+    "relation": "recoverable_precious_metals",
+    "value": "up to 95%",
+    "time": null,
+    "speaker": "James Bentley",
+    "verbatim": [
+     "allows us to recover up to 95% of precious metals from e-waste"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "e-waste",
+    "relation": "reduces_demand_for",
+    "value": "mining these materials from the earth",
+    "time": null,
+    "speaker": "James Bentley",
+    "verbatim": [
+     "Not only does this reduce the demand for mining these materials from the earth"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "e-waste",
+    "relation": "offers",
+    "value": "a sustainable pathway for managing electronic waste",
+    "time": null,
+    "speaker": "James Bentley",
+    "verbatim": [
+     "it also offers a sustainable pathway for managing electronic waste"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "e-waste",
+    "relation": "managed_with",
+    "value": "public education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public education is an essential component of managing e-waste."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "e-waste",
+    "relation": "awareness_initiatives_multiplied",
+    "value": "since late 2023",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Initiatives to inform consumers about the importance of responsible disposal practices have multiplied since late 2023."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Electronics for the Earth",
+    "relation": "launched_on",
+    "value": "October 15",
+    "time": "October 15",
+    "speaker": null,
+    "verbatim": [
+     "the 'Electronics for the Earth' campaign launched on October 15 by nonprofit EarthWatch"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Electronics for the Earth",
+    "relation": "launched_by",
+    "value": "EarthWatch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Electronics for the Earth' campaign launched on October 15 by nonprofit EarthWatch"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "EarthWatch",
+    "relation": "is_a",
+    "value": "nonprofit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by nonprofit EarthWatch"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Electronics for the Earth",
+    "relation": "reached",
+    "value": "over 20 million people through social media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reached over 20 million people through social media"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Electronics for the Earth",
+    "relation": "encouraged",
+    "value": "users to recycle electronic devices at certified facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging users to recycle electronic devices at certified facilities"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "City of Greenburgh",
+    "relation": "organized_events",
+    "value": "community recycling events",
+    "time": "November 2",
+    "speaker": null,
+    "verbatim": [
+     "Community recycling events, such as those organized by the City of Greenburgh on November 2"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "City of Greenburgh",
+    "relation": "events_effective_in",
+    "value": "preventing e-waste from ending up in landfills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are proving to be effective in not only preventing e-waste from ending up in landfills"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "e-waste",
+    "relation": "addressing_requires",
+    "value": "a multi-stakeholder approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A multi-stakeholder approach, where manufacturers, retailers, policymakers, and consumers collaborate, is crucial in addressing the e-waste crisis."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "take-back programs",
+    "relation": "launched_by",
+    "value": "some of the most forward-thinking industry leaders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some of the most forward-thinking industry leaders have launched take-back programs"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "take-back programs",
+    "relation": "allow",
+    "value": "consumers to return old devices to be refurbished, reused, or recycled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where consumers can return old devices to be refurbished, reused, or recycled"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "take-back programs",
+    "relation": "effect",
+    "value": "extending the products' lifecycle and reducing waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thus extending the products' lifecycle and reducing waste"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "take-back programs",
+    "relation": "results_in",
+    "value_ref": "c62",
+    "verbatim": [
+     "to be refurbished, reused, or recycled, thus extending the products' lifecycle and reducing waste"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "ElecTech International",
+    "relation": "is_a",
+    "value": "technology giant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technology giants such as ElecTech International"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "ElecTech International",
+    "relation": "designs_products_with",
+    "value": "cradle-to-cradle philosophy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technology giants such as ElecTech International have begun designing products with a cradle-to-cradle philosophy"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "cradle-to-cradle philosophy",
+    "relation": "ensures",
+    "value": "every component can be recycled or biodegraded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that every component can be recycled or biodegraded"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Emily Rodriguez",
+    "relation": "holds_position",
+    "value": "Chief Sustainability Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Sustainability Officer Emily Rodriguez explains"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Emily Rodriguez",
+    "relation": "states",
+    "value": "designing for the end of a product's life from the beginning, we can minimize environmental impact and chart a new course for the tech industry",
+    "time": null,
+    "speaker": "Emily Rodriguez",
+    "verbatim": [
+     "designing for the end of a product's life from the beginning, we can minimize environmental impact and chart a new course for the tech industry."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "e-waste",
+    "relation": "is",
+    "value": "a multifaceted challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The management of e-waste is a multifaceted challenge"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "e-waste",
+    "relation": "requires",
+    "value": "concerted efforts from all sectors of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requires concerted efforts from all sectors of society"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

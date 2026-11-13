@@ -1,0 +1,821 @@
+{
+ "inventory": [
+  "Hurricane Elara",
+  "Europe",
+  "Caribbean",
+  "Dublin",
+  "Trinity College",
+  "The Emerald Barrier",
+  "Lord Mayor Siobhan Kearney",
+  "Dr. Fiona Byrne",
+  "Collaborative robots",
+  "Green Tides",
+  "Eamon Walsh",
+  "Aoife Kennedy",
+  "Dublin City University",
+  "FloodHack",
+  "Maire Ni Chartaigh",
+  "Cities Above Water",
+  "United Nations Climate Change Conference",
+  "Liam O'Sullivan",
+  "AquaFortis",
+  "Rising Sea Levels"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Europe",
+    "relation": "affected_by",
+    "value": "heatwaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From heatwaves across Europe"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Hurricane Elara",
+    "relation": "located_in",
+    "value": "Caribbean",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Elara's stunning force in the Caribbean"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dublin",
+    "relation": "located_in",
+    "value": "Ireland",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly Dublin in Ireland"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dublin",
+    "relation": "described_as",
+    "value": "beacons of hope and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some cities are rising as beacons of hope and resilience amid such turmoil; most notably Dublin."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dublin",
+    "relation": "sea_levels_increased_over",
+    "value": "the last decade",
+    "time": "the last decade",
+    "speaker": null,
+    "verbatim": [
+     "Dublin has seen sea levels steadily increase over the last decade"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Rising Sea Levels",
+    "relation": "posing_threat_to",
+    "value": "historic landmarks and residential areas alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "posing an imminent threat to historic landmarks and residential areas alike"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Trinity College",
+    "relation": "predicts",
+    "value": "sea levels may rise as much as 1 meter by the end of this century",
+    "time": "by the end of this century",
+    "speaker": "Trinity College researchers",
+    "verbatim": [
+     "Trinity College researchers predict sea levels may rise as much as 1 meter by the end of this century"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Rising Sea Levels",
+    "relation": "prompts",
+    "value": "citizens to act swiftly against further flooding in Dublin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting citizens to act swiftly against further flooding in Dublin"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Trinity College",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Trinity College researchers predict sea levels may rise as much as 1 meter by the end of this century - prompting citizens to act swiftly against further flooding in Dublin"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dublin",
+    "relation": "launched",
+    "value": "The Emerald Barrier",
+    "time": "January 3rd 2024",
+    "speaker": null,
+    "verbatim": [
+     "Dublin launched an ambitious infrastructure pursuit known as The Emerald Barrier on January 3rd 2024"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Emerald Barrier",
+    "relation": "led_by",
+    "value": "Lord Mayor Siobhan Kearney",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the leadership of Lord Mayor Siobhan Kearney"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Lord Mayor Siobhan Kearney",
+    "relation": "leads",
+    "value": "her team of dedicated officials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her team of dedicated officials"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "The Emerald Barrier",
+    "relation": "cost",
+    "value": "multi-billion euro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This multi-billion euro infrastructure undertaking"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Emerald Barrier",
+    "relation": "aims_to",
+    "value": "defend against rising waters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to defend against rising waters"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "The Emerald Barrier",
+    "relation": "creates",
+    "value": "an array of sea walls, surge barriers and cutting-edge flood gates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by creating an array of sea walls, surge barriers and cutting-edge flood gates"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "The Emerald Barrier",
+    "relation": "mechanism_of",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to defend against rising waters by creating an array of sea walls, surge barriers and cutting-edge flood gates"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Emerald Barrier",
+    "relation": "shields",
+    "value": "Dublin against their approaching waters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively shielding Dublin against their approaching waters"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Emerald Barrier",
+    "relation": "symbolizes",
+    "value": "our community's resolve to safeguard its heritage and future",
+    "time": null,
+    "speaker": "Lord Mayor Siobhan Kearney",
+    "verbatim": [
+     "It symbolizes our community's resolve to safeguard its heritage and future"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Emerald Barrier",
+    "relation": "described_as",
+    "value": "more than a simple flood protection measure",
+    "time": null,
+    "speaker": "Lord Mayor Siobhan Kearney",
+    "verbatim": [
+     "Dublin's Emerald Barrier is more than a simple flood protection measure"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Lord Mayor Siobhan Kearney",
+    "relation": "explained_at",
+    "value": "its inaugural event",
+    "time": null,
+    "speaker": "Lord Mayor Siobhan Kearney",
+    "verbatim": [
+     "explained Kearney at its inaugural event"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dublin",
+    "relation": "revitalization_project_design",
+    "value": "futuristic in design, harnessing advanced technologies to predict and withstand natural calamities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin's revitalization project is futuristic in design, harnessing advanced technologies to predict and withstand natural calamities"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Emerald Barrier",
+    "relation": "includes",
+    "value": "sensors and AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This integrated system includes sensors and AI that provide real-time data on water levels, wave patterns, weather anomalies and weather anomalies"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Emerald Barrier",
+    "relation": "provides",
+    "value": "real-time data on water levels, wave patterns, weather anomalies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sensors and AI that provide real-time data on water levels, wave patterns, weather anomalies and weather anomalies"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Fiona Byrne",
+    "relation": "oversees",
+    "value": "the technological development of The Barrier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who oversees the technological development of The Barrier"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Fiona Byrne",
+    "relation": "said",
+    "value": "we are better able to anticipate flood risks with greater precision and prepare more efficiently",
+    "time": null,
+    "speaker": "Dr. Fiona Byrne",
+    "verbatim": [
+     "we are better able to anticipate flood risks with greater precision and prepare more efficiently"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Fiona Byrne",
+    "relation": "uses",
+    "value": "predictive modeling and machine learning algorithms",
+    "time": null,
+    "speaker": "Dr. Fiona Byrne",
+    "verbatim": [
+     "Using predictive modeling and machine learning algorithms, we are better able to anticipate flood risks with greater precision and prepare more efficiently"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Fiona Byrne",
+    "relation": "mechanism_of",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Using predictive modeling and machine learning algorithms, we are better able to anticipate flood risks with greater precision and prepare more efficiently"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Collaborative robots",
+    "relation": "have_proven",
+    "value": "invaluable in construction efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaborative robots (or \"cobots\") have proven invaluable in construction efforts"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Collaborative robots",
+    "relation": "lay_foundation_for",
+    "value": "barriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from laying the foundation for barriers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Collaborative robots",
+    "relation": "strengthen",
+    "value": "weak points along the coastline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "strengthening weak points along the coastline"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Collaborative robots",
+    "relation": "participate_in",
+    "value": "rescue operations during high-risk tide events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participating in rescue operations during high-risk tide events"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Collaborative robots",
+    "relation": "act_as",
+    "value": "rescue robots during high tide events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acting as rescue robots during high tide events"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Collaborative robots",
+    "relation": "operate_alongside",
+    "value": "human workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These nimble machines operate alongside human workers"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Green Tides",
+    "relation": "unveiled_on",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 12, 2023, an ambitious citywide program called Green Tides was unveiled"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Green Tides",
+    "relation": "aims_to",
+    "value": "raising ecological awareness and participation through urban greenery projects like roof gardens and vertical forests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at raising ecological awareness and participation through urban greenery projects like roof gardens and vertical forests"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Green Tides",
+    "relation": "intended_to",
+    "value": "absorb rainwater and reduce runoff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vertical forests to absorb rainwater and reduce runoff"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Eamon Walsh",
+    "relation": "described_as",
+    "value": "a local and father of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exclaimed Eamon Walsh, a local and father of two"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Eamon Walsh",
+    "relation": "said",
+    "value": "each plant they put in the soil represents their personal battle against flooding",
+    "time": null,
+    "speaker": "Eamon Walsh",
+    "verbatim": [
+     "each plant they put in the soil represents their personal battle against flooding"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Eamon Walsh",
+    "relation": "attended",
+    "value": "one of the city's tree planting events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while attending one of the city's tree planting events"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Aoife Kennedy",
+    "relation": "affiliated_with",
+    "value": "Green Tides",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to Aoife Kennedy of Green Tides program"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Aoife Kennedy",
+    "relation": "said",
+    "value": "Rather than build walls to keep water out",
+    "time": null,
+    "speaker": "Aoife Kennedy",
+    "verbatim": [
+     "Rather than build walls to keep water out"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Aoife Kennedy",
+    "relation": "said",
+    "value": "we focus on nurturing land so it can absorb, rebound and thrive with its surroundings",
+    "time": null,
+    "speaker": "Aoife Kennedy",
+    "verbatim": [
+     "we focus on nurturing land so it can absorb, rebound and thrive with its surroundings"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dublin",
+    "relation": "schools_and_universities_include",
+    "value": "curriculums focused on sustainability, disaster preparation and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with schools and universities now including curriculums focused on"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dublin",
+    "relation": "has_produced",
+    "value": "a generation of young Dubliners who not only understand climate change's challenges but are active contributors in crafting solutions to them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this has produced a generation of young Dubliners who not only understand climate change's challenges"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dublin City University",
+    "relation": "made",
+    "value": "a tremendously positive contribution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin City University students have made a tremendously positive contribution"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dublin City University",
+    "relation": "established",
+    "value": "the FloodHack series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through the \"FloodHack\" series they established"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "FloodHack",
+    "relation": "unites",
+    "value": "engineers, software developers, and environmental scientists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uniting engineers, software developers, and environmental scientists for hackathons"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "FloodHack",
+    "relation": "produces",
+    "value": "prototype apps and devices to aid water management and emergency alerts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hackathons that produce prototype apps and devices to aid water management and emergency alerts"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Maire Ni Chartaigh",
+    "relation": "described_as",
+    "value": "a final-year Environmental Science student",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "noted Maire Ni Chartaigh, a final-year Environmental Science student"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Maire Ni Chartaigh",
+    "relation": "said",
+    "value": "Empowering our community is key",
+    "time": null,
+    "speaker": "Maire Ni Chartaigh",
+    "verbatim": [
+     "Empowering our community is key"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Maire Ni Chartaigh",
+    "relation": "said",
+    "value": "If each individual can access tools and knowledge needed to act proactively during a flood event",
+    "time": null,
+    "speaker": "Maire Ni Chartaigh",
+    "verbatim": [
+     "If each individual can access tools and knowledge needed to act proactively during a flood event"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Maire Ni Chartaigh",
+    "relation": "said",
+    "value": "we can dramatically decrease risks to lives and property",
+    "time": null,
+    "speaker": "Maire Ni Chartaigh",
+    "verbatim": [
+     "we can dramatically decrease risks to lives and property"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Maire Ni Chartaigh",
+    "relation": "enables",
+    "value_ref": "c52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If each individual can access tools and knowledge needed to act proactively during a flood event, we can dramatically decrease risks to lives and property"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dublin",
+    "relation": "joined",
+    "value": "an international coalition known as Cities Above Water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instead it has joined an international coalition known as"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Cities Above Water",
+    "relation": "works_to",
+    "value": "share strategies and technologies among cities facing similar issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which works to share strategies and technologies among cities facing similar issues"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Cities Above Water",
+    "relation": "highlights",
+    "value": "threats may be global in scope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This joint endeavor highlights that while threats may be global in scope"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lord Mayor Siobhan Kearney",
+    "relation": "addressed",
+    "value": "the United Nations Climate Change Conference",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "during her address at the United Nations Climate Change Conference"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Lord Mayor Siobhan Kearney",
+    "relation": "highlighted",
+    "value": "this global solidarity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Kearney highlighted this global solidarity"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Lord Mayor Siobhan Kearney",
+    "relation": "said",
+    "value": "When we share knowledge, resources, and technology among cities we strengthen both themselves as well as humanity as an entity against the tides of change",
+    "time": null,
+    "speaker": "Lord Mayor Siobhan Kearney",
+    "verbatim": [
+     "When we share knowledge, resources, and technology among cities we strengthen both themselves as well as humanity as an entity against the tides of change"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Dublin",
+    "relation": "economic_ramifications",
+    "value": "unexpectedly far-reaching economic ramifications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin's concentrated resilience efforts have had unexpectedly far-reaching economic ramifications"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Dublin",
+    "relation": "transforms",
+    "value": "clean tech and green infrastructure industries to flourish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transforming clean tech and green infrastructure industries to flourish"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dublin",
+    "relation": "draws",
+    "value": "talent and investments from abroad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drawing talent and investments from abroad"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Dublin",
+    "relation": "entrepreneurial_ventures_offer",
+    "value": "seafaring services, self-sustainable eco-friendly buildings and advances in water purification technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entrepreneurial ventures have flourished, offering everything from seafaring services to self-sustainable eco-friendly buildings and advances in water purification technology"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Liam O'Sullivan",
+    "relation": "is_CEO_of",
+    "value": "AquaFortis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liam O'Sullivan, CEO of Dublin-based start-up AquaFortis"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "AquaFortis",
+    "relation": "located_in",
+    "value": "Dublin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin-based start-up AquaFortis"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "AquaFortis",
+    "relation": "type",
+    "value": "start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin-based start-up AquaFortis"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Liam O'Sullivan",
+    "relation": "said",
+    "value": "Dublin has proved itself as an innovative city that is turning the tide against disaster",
+    "time": null,
+    "speaker": "Liam O'Sullivan",
+    "verbatim": [
+     "Dublin has proved itself as an innovative city that is turning the tide against disaster"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "AquaFortis",
+    "relation": "pioneers",
+    "value": "solutions which generate jobs while safeguarding a safer tomorrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AquaFortis pioneers solutions which generate jobs while safeguarding a safer tomorrow"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "AquaFortis",
+    "relation": "instead_of",
+    "value": "succumbing to recessive issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instead of succumbing to recessive issues"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Dublin",
+    "relation": "stands_out_against",
+    "value": "a global distress caused by natural disasters",
+    "time": "As 2023 draws to a close",
+    "speaker": null,
+    "verbatim": [
+     "As 2023 draws to a close, Dublin stands out against a global distress caused by natural disasters"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Dublin",
+    "relation": "acts_as",
+    "value": "an inspiring blueprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin acts as an inspiring blueprint"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Dublin",
+    "relation": "marches_forward_by",
+    "value": "arming itself against rising waters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dublin marches forward by arming itself against rising waters"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,597 @@
+{
+ "inventory": [
+  "Applewood Acres",
+  "Pearadise Grove",
+  "Gwendolyn Harper",
+  "Heritage Russet",
+  "Belle Vista Winery",
+  "Marco DeLuca",
+  "Sunnybrook Orchards",
+  "Emily Thompson",
+  "Fruit Wine Gala",
+  "Golden Vineyard",
+  "Blackberry Bliss",
+  "Citrus & Zest Farm",
+  "Hernandez family",
+  "Peachwood Hollow",
+  "Peachwood Peach Melba",
+  "Peach Glazed Pork",
+  "Roberta Jensen",
+  "Hazelwood Farms",
+  "Michael Douglas",
+  "Apple-Pear Cider",
+  "Harvest Moon Cidery",
+  "Autumn Ale Fest",
+  "Orchard Alehouse",
+  "Apple Cinnamon Ale",
+  "Berry Good Spreadables",
+  "Blackcurrant-Raspberry fusion"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Applewood Acres",
+    "relation": "leads_charge_in",
+    "value": "orchard farming renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "producers such as Applewood Acres and Pearadise Grove leading the charge"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Pearadise Grove",
+    "relation": "leads_charge_in",
+    "value": "orchard farming renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "producers such as Applewood Acres and Pearadise Grove leading the charge"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Gwendolyn Harper",
+    "relation": "associated_with",
+    "value": "Applewood Acres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At Applewood Acres, Gwendolyn Harper has pioneered"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Gwendolyn Harper",
+    "relation": "pioneered_use_of",
+    "value": "Heritage Russet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gwendolyn Harper has pioneered the use of the Heritage Russet"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Heritage Russet",
+    "relation": "described_as",
+    "value": "an apple with an intense flavor profile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an apple with an intense flavor profile that marries well with both savory and sweet concoctions"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Heritage Russet",
+    "relation": "pairs_well_with",
+    "value": "both savory and sweet concoctions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marries well with both savory and sweet concoctions"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Belle Vista Winery",
+    "relation": "visited_on",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 12, 2023, I visited the renowned Belle Vista Winery"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Belle Vista Winery",
+    "relation": "described_as",
+    "value": "renowned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the renowned Belle Vista Winery"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Marco DeLuca",
+    "relation": "owner_of",
+    "value": "Belle Vista Winery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owner Marco DeLuca"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Marco DeLuca",
+    "relation": "introduced",
+    "value": "grape preserves and chutneys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has introduced the world to his grape preserves and chutneys"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sunnybrook Orchards",
+    "relation": "supplies",
+    "value": "apricots",
+    "time": "October",
+    "speaker": null,
+    "verbatim": [
+     "apricots from the Sunnybrook Orchards"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emily Thompson",
+    "relation": "occupation",
+    "value": "orchardist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hailed by orchardist Emily Thompson"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sunnybrook Orchards",
+    "relation": "apricots_hailed_by",
+    "value": "Emily Thompson",
+    "time": "October",
+    "speaker": null,
+    "verbatim": [
+     "apricots from the Sunnybrook Orchards, hailed by orchardist Emily Thompson"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Fruit Wine Gala",
+    "relation": "attended_on",
+    "value": "November 5, 2023",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 5, 2023, I attended the Fruit Wine Gala"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Fruit Wine Gala",
+    "relation": "hosted_by",
+    "value": "Golden Vineyard",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "hosted by the Golden Vineyard"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Golden Vineyard",
+    "relation": "hosted",
+    "value": "Fruit Wine Gala",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "hosted by the Golden Vineyard"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Blackberry Bliss",
+    "relation": "stole_the_show_at",
+    "value": "Fruit Wine Gala",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the Blackberry Bliss stole the show"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Blackberry Bliss",
+    "relation": "described_as",
+    "value": "a wine with lush berry notes and velvet finish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This wine, with its lush berry notes and velvet finish"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Blackberry Bliss",
+    "relation": "ranks",
+    "value": "preeminently among the specialties sampled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ranks preeminently among the specialties sampled"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Blackberry Bliss",
+    "relation": "pairs_with",
+    "value": "dark chocolate or a savory venison dish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marrying beautifully with dark chocolate or a savory venison dish"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Citrus & Zest Farm",
+    "relation": "owned_by",
+    "value": "Hernandez family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Citrus & Zest Farm, owned by the Hernandez family"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Hernandez family",
+    "relation": "owns",
+    "value": "Citrus & Zest Farm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Citrus & Zest Farm, owned by the Hernandez family"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Citrus & Zest Farm",
+    "relation": "described_as",
+    "value": "a prime example of innovative grove-to-table endeavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a prime example of innovative grove-to-table endeavors"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Citrus & Zest Farm",
+    "relation": "unveiled",
+    "value": "a line of citrus-infused olive oils",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, the farm unveiled a line of citrus-infused olive oils"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Citrus & Zest Farm",
+    "relation": "olive_oils_became",
+    "value": "a staple in dressings and marinades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which have since become a staple in dressings and marinades"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Peachwood Hollow",
+    "relation": "offers",
+    "value": "the fruit picking experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Orchards like Peachwood Hollow not only offer the fruit picking experience"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Peachwood Hollow",
+    "relation": "educates_consumers_on",
+    "value": "pairing peaches with other local produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also educate consumers on pairing peaches with other local produce"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Peachwood Peach Melba",
+    "relation": "recipe_provided_by",
+    "value": "Roberta Jensen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With recipes like the Peachwood Peach Melba and Peach Glazed Pork provided by orchard owner Roberta Jensen"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Peach Glazed Pork",
+    "relation": "recipe_provided_by",
+    "value": "Roberta Jensen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With recipes like the Peachwood Peach Melba and Peach Glazed Pork provided by orchard owner Roberta Jensen"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Roberta Jensen",
+    "relation": "occupation",
+    "value": "orchard owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided by orchard owner Roberta Jensen"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Hazelwood Farms",
+    "relation": "visited_on",
+    "value": "November 19, 2023",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as I discovered at Hazelwood Farms on November 19, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Douglas",
+    "relation": "occupation",
+    "value": "chef and farm owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As chef and farm owner Michael Douglas described"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Michael Douglas",
+    "relation": "described_nut_as",
+    "value": "an ideal ingredient in pestos, crusts, and even as a base for vegan cheeses",
+    "time": null,
+    "speaker": "Michael Douglas",
+    "verbatim": [
+     "As chef and farm owner Michael Douglas described",
+     "ideal ingredient in pestos, crusts, and even as a base for vegan cheeses"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Michael Douglas",
+    "relation": "has_signature_dish",
+    "value": "hazelnut-encrusted trout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His hazelnut-encrusted trout has quickly become a local favorite"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Michael Douglas",
+    "relation": "hazelnut_trout_became",
+    "value": "a local favorite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hazelnut-encrusted trout has quickly become a local favorite"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Harvest Moon Cidery",
+    "relation": "produces",
+    "value": "Apple-Pear Cider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "products like the Apple-Pear Cider from Harvest Moon Cidery"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Apple-Pear Cider",
+    "relation": "made_by",
+    "value": "Harvest Moon Cidery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "products like the Apple-Pear Cider from Harvest Moon Cidery"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Apple-Pear Cider",
+    "relation": "accentuates",
+    "value": "the fruity crispness of apples with the subtle sweetness of pears",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which accentuates the fruity crispness of apples with the subtle sweetness of pears"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Apple-Pear Cider",
+    "relation": "pairs_with",
+    "value": "creamy brie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This cider pairs exceptionally well with creamy brie"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Apple-Pear Cider",
+    "relation": "serves_as",
+    "value": "a bridge between the fruit and dairy producers of the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as a bridge between the fruit and dairy producers of the region"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Autumn Ale Fest",
+    "relation": "held_on",
+    "value": "October 22, 2023",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During the Autumn Ale Fest held on October 22,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Autumn Ale Fest",
+    "relation": "featured_standout",
+    "value": "Apple Cinnamon Ale",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the standout offering was the Orchard Alehouse\u2019s Apple Cinnamon Ale"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Orchard Alehouse",
+    "relation": "produces",
+    "value": "Apple Cinnamon Ale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Orchard Alehouse\u2019s Apple Cinnamon Ale"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Apple Cinnamon Ale",
+    "relation": "described_as",
+    "value": "a seasonal brew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This seasonal brew"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Apple Cinnamon Ale",
+    "relation": "lends",
+    "value": "a festive fall twist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lending beer a festive fall twist"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Apple Cinnamon Ale",
+    "relation": "pairs_with",
+    "value": "a hearty stew or a tangy cheese platter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cozies up perfectly with a hearty stew or a tangy cheese platter"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Berry Good Spreadables",
+    "relation": "creates",
+    "value": "innovative flavor combinations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "producers like Berry Good Spreadables creating innovative flavor combinations"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Berry Good Spreadables",
+    "relation": "produces",
+    "value": "Blackcurrant-Raspberry fusion",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Their Blackcurrant-Raspberry fusion"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Blackcurrant-Raspberry fusion",
+    "relation": "sampled_on",
+    "value": "September 30, 2023",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Their Blackcurrant-Raspberry fusion, sampled on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Blackcurrant-Raspberry fusion",
+    "relation": "offers",
+    "value": "a tart yet sweet spread ideal for artisan breads and pastries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers a tart yet sweet spread ideal for artisan breads and pastries"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Blackcurrant-Raspberry fusion",
+    "relation": "suits",
+    "value": "an accompaniment to roasted game meats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as an accompaniment to roasted game meats"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

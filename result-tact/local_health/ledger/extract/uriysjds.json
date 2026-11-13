@@ -1,0 +1,655 @@
+{
+ "inventory": [
+  "Dr. Emily Torres",
+  "Lucas Bennett",
+  "Anna Johnson",
+  "Michael Reed",
+  "Sandra Kim",
+  "Awakening the Sedentary Society",
+  "Move More",
+  "Active Classrooms",
+  "Active Spellings",
+  "10,000 Steps Challenge",
+  "public health department",
+  "sedentary lifestyle",
+  "community workshops",
+  "Adaptive fitness programs",
+  "local schools",
+  "heart disease",
+  "diabetes",
+  "obesity",
+  "mental health disorders"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "public health department",
+    "relation": "launched_initiatives",
+    "value": "a series of initiatives to promote exercise and physical activity",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, a series of initiatives have been launched to promote exercise and physical activity"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Emily Torres",
+    "relation": "described_as",
+    "value": "a leading epidemiologist and public health advocate",
+    "time": "a recent interview",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Torres, a leading epidemiologist and public health advocate, noted in a recent interview"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Emily Torres",
+    "relation": "stated",
+    "value": "a sedentary lifestyle is the new smoking",
+    "time": "a recent interview",
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "noted in a recent interview that \"a sedentary lifestyle is the new smoking.\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "sedentary lifestyle",
+    "relation": "associated_risks",
+    "value": "increased rates of heart disease, diabetes, obesity, and mental health disorders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of inactivity include increased rates of heart disease, diabetes, obesity, and mental health disorders"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "heart disease",
+    "relation": "risk_of_inactivity",
+    "value": "increased rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of inactivity include increased rates of heart disease, diabetes, obesity, and mental health disorders"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "diabetes",
+    "relation": "risk_of_inactivity",
+    "value": "increased rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of inactivity include increased rates of heart disease, diabetes, obesity, and mental health disorders"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "obesity",
+    "relation": "risk_of_inactivity",
+    "value": "increased rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of inactivity include increased rates of heart disease, diabetes, obesity, and mental health disorders"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "mental health disorders",
+    "relation": "risk_of_inactivity",
+    "value": "increased rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of inactivity include increased rates of heart disease, diabetes, obesity, and mental health disorders"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "started_on",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The campaign titled \"Awakening the Sedentary Society\" kicked off on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "goal",
+    "value": "bringing this issue to the forefront of the health dialogue in our community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the goal of bringing this issue to the forefront of the health dialogue in our community"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Emily Torres",
+    "relation": "explains",
+    "value": "even minor increases in physical activity can lead to significant health benefits",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "even minor increases in physical activity can lead to significant health benefits"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Emily Torres",
+    "relation": "said",
+    "value": "Simple things like standing instead of sitting, walking instead of taking the car for short trips, can have a profound impact on our well-being.",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "\"Simple things like standing instead of sitting, walking instead of taking the car for short trips, can have a profound impact on our well-being.\""
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Emily Torres",
+    "relation": "said",
+    "value": "Our bodies are designed to move",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "\"Our bodies are designed to move,\" she says."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "emphasizes",
+    "value": "integrating movement into daily routines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is also about integrating movement into daily routines"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "pushes_for",
+    "value": "taking the stairs, park walking meetings, and active commuting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Taking the stairs, park walking meetings, and active commuting are just some examples that the initiative is pushing for"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "aims_to_make_easier",
+    "value": "people move more without having to carve out additional time from their busy schedules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to make it easier for people to move more without having to carve out additional time from their busy schedules"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "in_order_to",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that the initiative is pushing for, to make it easier for people to move more"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "public health department",
+    "relation": "released_survey",
+    "value": "survey conducted by the public health department",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a survey conducted by the public health department, released on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "public health department",
+    "relation": "survey_found_top_reasons_for_not_exercising",
+    "value": "lack of time, lack of motivation, and lack of access to facilities",
+    "time": "November 15, 2023",
+    "speaker": "public health department",
+    "verbatim": [
+     "the top reasons people cite for not exercising are lack of time, lack of motivation, and lack of access to facilities"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Lucas Bennett",
+    "relation": "described_as",
+    "value": "local fitness expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local fitness expert Lucas Bennett"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Lucas Bennett",
+    "relation": "running",
+    "value": "community workshops",
+    "time": "since the start of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "has been running community workshops since the start of December 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "community workshops",
+    "relation": "provide",
+    "value": "practical strategies to overcome these barriers",
+    "time": null,
+    "speaker": "Lucas Bennett",
+    "verbatim": [
+     "The idea is to provide people with practical strategies to overcome these barriers"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "community workshops",
+    "relation": "offer",
+    "value": "time-management tips, motivational techniques, and exercises that don't require any special equipment or location",
+    "time": null,
+    "speaker": "Lucas Bennett",
+    "verbatim": [
+     "introduce exercises that don't require any special equipment or location"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Move More",
+    "relation": "created_through",
+    "value": "the health department's collaboration with app developers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The health department's collaboration with app developers has led to the creation of \"Move More\""
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Move More",
+    "relation": "is",
+    "value": "a smartphone application designed to remind users to stand, stretch, or walk at regular intervals throughout the day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a smartphone application designed to remind users to stand, stretch, or walk at regular intervals throughout the day"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Move More",
+    "relation": "launched_on",
+    "value": "January 10, 2024",
+    "time": "January 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since its launch on January 10, 2024"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Move More",
+    "relation": "downloaded",
+    "value": "over 100,000 times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been downloaded over 100,000 times"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Move More",
+    "relation": "received",
+    "value": "positive feedback for its user-friendly design and the tangible difference it has made in users' lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has received positive feedback for its user-friendly design and the tangible difference it has made in users' lives"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Active Classrooms",
+    "relation": "started_in",
+    "value": "February 2024",
+    "time": "Starting February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Starting February 2024, the \"Active Classrooms\" project has introduced mandatory movement breaks"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Active Classrooms",
+    "relation": "introduced",
+    "value": "mandatory movement breaks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has introduced mandatory movement breaks"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Active Classrooms",
+    "relation": "encouraged",
+    "value": "teachers to include physical activities within lesson plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged teachers to include physical activities within lesson plans"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Anna Johnson",
+    "relation": "described_as",
+    "value": "Primary School Teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Primary School Teacher Anna Johnson shares"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Active Spellings",
+    "relation": "involves",
+    "value": "kids do jumping jacks while spelling out words",
+    "time": null,
+    "speaker": "Anna Johnson",
+    "verbatim": [
+     "where kids do jumping jacks while spelling out words"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Active Spellings",
+    "relation": "observed_effect",
+    "value": "an improvement not just in their activity levels but also in their concentration and engagement",
+    "time": null,
+    "speaker": "Anna Johnson",
+    "verbatim": [
+     "I\u2019ve seen an improvement not just in their activity levels but also in their concentration and engagement"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local schools",
+    "relation": "focal_point_for",
+    "value": "promoting physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local schools have become a focal point for promoting physical activity"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "public health department",
+    "relation": "understands",
+    "value": "habits formed early can last a lifetime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public health initiatives understand that habits formed early can last a lifetime"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "local schools",
+    "relation": "caused_by",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "habits formed early can last a lifetime, which is why local schools have become a focal point"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Awakening the Sedentary Society",
+    "relation": "has_seen",
+    "value": "the rise of widespread community events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The campaign has also seen the rise of widespread community events"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "10,000 Steps Challenge",
+    "relation": "described_as",
+    "value": "a landmark event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been a landmark event, with people of all ages joining in"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "10,000 Steps Challenge",
+    "relation": "took_place_on",
+    "value": "March 5, 2024",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the event that took place on March 5, 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "10,000 Steps Challenge",
+    "relation": "participants_walked",
+    "value": "more than 50 million steps",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "participants collectively walked more than 50 million steps"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Emily Torres",
+    "relation": "remarked",
+    "value": "It\u2019s energizing to see colleagues, friends, and families come together to be more active",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "It\u2019s energizing to see colleagues, friends, and families come together to be more active"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Michael Reed",
+    "relation": "described_as",
+    "value": "Corporate Wellness Consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corporate Wellness Consultant, Michael Reed, explains"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Michael Reed",
+    "relation": "explains",
+    "value": "businesses are now recognizing the link between employee health and their bottom line",
+    "time": null,
+    "speaker": "Michael Reed",
+    "verbatim": [
+     "businesses are now recognizing the link between employee health and their bottom line"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Michael Reed",
+    "relation": "said",
+    "value": "Investing in your employees\u2019 health is investing in your company\u2019s success",
+    "time": null,
+    "speaker": "Michael Reed",
+    "verbatim": [
+     "Investing in your employees\u2019 health is investing in your company\u2019s success"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "sedentary lifestyle",
+    "relation": "workplace_changes",
+    "value": "standing desks, treadmill workstations, and lunch hour walking groups becoming increasingly common",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "standing desks, treadmill workstations, and lunch hour walking groups becoming increasingly common"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sedentary lifestyle",
+    "relation": "workplace_changes_contribute_to",
+    "value": "enhanced productivity and reduced sick days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they have been documented to contribute to enhanced productivity and reduced sick days"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Adaptive fitness programs",
+    "relation": "cater_to",
+    "value": "the needs of individuals with differing abilities and age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adaptive fitness programs cater to these needs"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "public health department",
+    "relation": "emphasizes_access_to",
+    "value": "suitable physical activity options for individuals with differing abilities and age groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have access to suitable physical activity options"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Sandra Kim",
+    "relation": "described_as",
+    "value": "local hero, wheelchair athlete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local hero, wheelchair athlete Sandra Kim"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Sandra Kim",
+    "relation": "is",
+    "value": "a vocal supporter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been a vocal supporter"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Sandra Kim",
+    "relation": "demonstrates",
+    "value": "physical limitations do not have to mean a sedentary life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrating that physical limitations do not have to mean a sedentary life"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Lucas Bennett",
+    "relation": "recommends",
+    "value": "a mix of cardiovascular exercises, strength training, and flexibility work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitness professionals like Lucas Bennett recommend a mix of cardiovascular exercises, strength training, and flexibility work"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Lucas Bennett",
+    "relation": "said",
+    "value": "walking is tremendously effective",
+    "time": null,
+    "speaker": "Lucas Bennett",
+    "verbatim": [
+     "\"For starters, walking is tremendously effective."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lucas Bennett",
+    "relation": "advises",
+    "value": "activities like swimming, cycling, or bodyweight exercises can easily be incorporated into one's lifestyle",
+    "time": null,
+    "speaker": "Lucas Bennett",
+    "verbatim": [
+     "activities like swimming, cycling, or bodyweight exercises can easily be incorporated into one's lifestyle"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Lucas Bennett",
+    "relation": "stresses",
+    "value": "the importance of starting slow to build a sustainable habit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He also stresses the importance of starting slow to build a sustainable habit"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lucas Bennett",
+    "relation": "said",
+    "value": "Consistency over intensity; that\u2019s the mantra for long-term success.",
+    "time": null,
+    "speaker": "Lucas Bennett",
+    "verbatim": [
+     "Consistency over intensity; that\u2019s the mantra for long-term success."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

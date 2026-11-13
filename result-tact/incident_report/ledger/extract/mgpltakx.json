@@ -1,0 +1,634 @@
+{
+ "inventory": [
+  "Newford",
+  "Angela Hartwick",
+  "Dr. Samuel Clarkson",
+  "Oldington",
+  "Jane Fisher",
+  "Broadville",
+  "Laura Keegan",
+  "Riverwood",
+  "Tom Bennett",
+  "Elena Torres",
+  "Metropolitan University's School of Engineering",
+  "smart grid technologies",
+  "quantum networking",
+  "green bonds",
+  "public-private partnerships",
+  "incremental tariff increases",
+  "comprehensive infrastructure overhaul",
+  "aging infrastructure",
+  "utility services"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "aging infrastructure",
+    "relation": "news_reports_describe",
+    "value": "stark picture of the challenges faced",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "News reports from September 2023 paint a stark picture of the challenges faced."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Newford",
+    "relation": "experienced_power_outage",
+    "value": "major power outage",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "On September 15th, a major power outage swept through the city of Newford"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Newford",
+    "relation": "affected_residents",
+    "value": "approximately 100,000 residents",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "leaving approximately 100,000 residents in the dark"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Newford",
+    "relation": "outage_cause",
+    "value": "a transformer failure at a substation built over six decades ago",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "The cause? A transformer failure at a substation built over six decades ago."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Newford",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "On September 15th, a major power outage swept through the city of Newford",
+     "The cause? A transformer failure at a substation built over six decades ago."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Angela Hartwick",
+    "relation": "occupation",
+    "value": "local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Angela Hartwick, a local business owner,"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Angela Hartwick",
+    "relation": "states",
+    "value": "Every minute of power loss means lost revenue.",
+    "time": null,
+    "speaker": "Angela Hartwick",
+    "verbatim": [
+     "Every minute of power loss means lost revenue."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Angela Hartwick",
+    "relation": "states",
+    "value": "My ice cream just melted away, just like my profits for the day.",
+    "time": null,
+    "speaker": "Angela Hartwick",
+    "verbatim": [
+     "My ice cream just melted away, just like my profits for the day."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Samuel Clarkson",
+    "relation": "occupation",
+    "value": "renowned civil engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned civil engineer Dr. Samuel Clarkson"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Samuel Clarkson",
+    "relation": "interviewed_on",
+    "value": "October 20th, 2023",
+    "time": "October 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a recent interview on October 20th, 2023, with renowned civil engineer Dr. Samuel Clarkson"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Samuel Clarkson",
+    "relation": "states",
+    "value": "Many of the power grids and water systems in our cities were installed in the post-war boom",
+    "time": null,
+    "speaker": "Dr. Samuel Clarkson",
+    "verbatim": [
+     "Many of the power grids and water systems in our cities were installed in the post-war boom,"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Samuel Clarkson",
+    "relation": "states",
+    "value": "They were not designed to meet the high demands of today's consumer or the unpredictable conditions of a changing climate.",
+    "time": null,
+    "speaker": "Dr. Samuel Clarkson",
+    "verbatim": [
+     "They were not designed to meet the high demands of today's consumer or the unpredictable conditions of a changing climate."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Oldington",
+    "relation": "experienced_internet_outage",
+    "value": "major internet outage",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "On November 4th, the city of Oldington in the UK experienced a major internet outage"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Oldington",
+    "relation": "located_in",
+    "value": "the UK",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city of Oldington in the UK"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Oldington",
+    "relation": "outage_cause",
+    "value": "old underground cables succumbed to wear and tear",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "when old underground cables succumbed to wear and tear"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Oldington",
+    "relation": "disrupted",
+    "value": "remote work and online schooling for thousands",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "disrupting remote work and online schooling for thousands until repairs could be made"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Oldington",
+    "relation": "caused_by",
+    "value_ref": "c15",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "On November 4th, the city of Oldington in the UK experienced a major internet outage when old underground cables succumbed to wear and tear"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jane Fisher",
+    "relation": "occupation",
+    "value": "remote worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Fisher, a remote worker,"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jane Fisher",
+    "relation": "states",
+    "value": "It's the third time this year.",
+    "time": null,
+    "speaker": "Jane Fisher",
+    "verbatim": [
+     "It's the third time this year."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Broadville",
+    "relation": "approach",
+    "value": "aggressive approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities like Broadville have taken an aggressive approach."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Laura Keegan",
+    "relation": "role",
+    "value": "Mayor",
+    "time": "December 1st",
+    "speaker": null,
+    "verbatim": [
+     "Mayor Laura Keegan announced"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Broadville",
+    "relation": "announced_infrastructure_overhaul",
+    "value": "a comprehensive infrastructure overhaul",
+    "time": "December 1st",
+    "speaker": "Laura Keegan",
+    "verbatim": [
+     "On December 1st, Mayor Laura Keegan announced a comprehensive infrastructure overhaul to be completed by 2030"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "comprehensive infrastructure overhaul",
+    "relation": "completion_deadline",
+    "value": "2030",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to be completed by 2030"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Laura Keegan",
+    "relation": "states",
+    "value": "What we are setting out to do here in Broadville is not just repair, but reimagine our city's infrastructure for the next century.",
+    "time": null,
+    "speaker": "Laura Keegan",
+    "verbatim": [
+     "What we are setting out to do here in Broadville is not just repair, but reimagine our city's infrastructure for the next century."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Broadville",
+    "relation": "plans_to_replace",
+    "value": "aging pipes with new corrosion-resistant materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aging pipes will be replaced with new corrosion-resistant materials"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Broadville",
+    "relation": "plans_to_establish",
+    "value": "redundant power systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "redundant power systems will be established to ensure a continuous supply even when parts of the grid falter"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Broadville",
+    "relation": "hopes",
+    "value": "to serve as a blueprint for others to follow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city hopes to serve as a blueprint for others to follow."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Riverwood",
+    "relation": "described_as",
+    "value": "small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the small town of Riverwood"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Riverwood",
+    "relation": "residents_voted_to",
+    "value": "increase local taxes to fund their utility infrastructure upgrades",
+    "time": "January 5th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "residents voted overwhelmingly on January 5th, 2024, to increase local taxes to fund their utility infrastructure upgrades"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Riverwood",
+    "relation": "vote_manner",
+    "value": "overwhelmingly",
+    "time": "January 5th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "residents voted overwhelmingly on January 5th, 2024"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Riverwood",
+    "relation": "in_order_to",
+    "value_ref": "c29",
+    "time": "January 5th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "residents voted overwhelmingly on January 5th, 2024, to increase local taxes to fund their utility infrastructure upgrades"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Tom Bennett",
+    "relation": "role",
+    "value": "town council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "town council member Tom Bennett puts it"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Tom Bennett",
+    "relation": "states",
+    "value": "is a testament to our town's desire to take control of our utilities' destiny.",
+    "time": null,
+    "speaker": "Tom Bennett",
+    "verbatim": [
+     "is a testament to our town's desire to take control of our utilities' destiny."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Tom Bennett",
+    "relation": "states",
+    "value": "We've been let down one too many times.",
+    "time": null,
+    "speaker": "Tom Bennett",
+    "verbatim": [
+     "We've been let down one too many times."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "aging infrastructure",
+    "relation": "requires_strategy",
+    "value": "proactive strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these efforts epitomize the proactive strategies necessary to navigate away from the pitfalls of aging infrastructure"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "aging infrastructure",
+    "relation": "revitalization_barrier",
+    "value": "financial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one of the primary barriers to infrastructure revitalization is financial"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "utility services",
+    "relation": "discussed_at_summit",
+    "value": "financial experts, utility companies, and government representatives",
+    "time": "February 9th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "At a summit held on February 9th, 2024, financial experts, utility companies, and government representatives discussed creating investment strategies"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "green bonds",
+    "relation": "floated_as",
+    "value": "ways to bridge the funding gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ideas like green bonds, public-private partnerships, and incremental tariff increases have been floated as ways to bridge the funding gap without overwhelming taxpayers or utility customers."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "public-private partnerships",
+    "relation": "floated_as",
+    "value": "ways to bridge the funding gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ideas like green bonds, public-private partnerships, and incremental tariff increases have been floated as ways to bridge the funding gap without overwhelming taxpayers or utility customers."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "incremental tariff increases",
+    "relation": "floated_as",
+    "value": "ways to bridge the funding gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ideas like green bonds, public-private partnerships, and incremental tariff increases have been floated as ways to bridge the funding gap without overwhelming taxpayers or utility customers."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Elena Torres",
+    "relation": "affiliation",
+    "value": "Metropolitan University's School of Engineering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Elena Torres, from the Metropolitan University's School of Engineering,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Elena Torres",
+    "relation": "role",
+    "value": "Professor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Elena Torres"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Elena Torres",
+    "relation": "emphasizes",
+    "value": "the need for educational curricula that stay abreast of technology's rapid pace",
+    "time": null,
+    "speaker": "Elena Torres",
+    "verbatim": [
+     "emphasizes the need for educational curricula that stay abreast of technology's rapid pace"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Elena Torres",
+    "relation": "states",
+    "value": "We're not just teaching students to solve today's problems but to anticipate tomorrow's challenges.",
+    "time": "March 3rd",
+    "speaker": "Elena Torres",
+    "verbatim": [
+     "We're not just teaching students to solve today's problems but to anticipate tomorrow's challenges."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Elena Torres",
+    "relation": "states",
+    "value": "They will be at the helm of infrastructure evolution.",
+    "time": "March 3rd",
+    "speaker": "Elena Torres",
+    "verbatim": [
+     "They will be at the helm of infrastructure evolution."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "smart grid technologies",
+    "relation": "offers",
+    "value": "a more resilient power infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart grid technologies offer a more resilient power infrastructure"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "smart grid technologies",
+    "relation": "can_isolate_and_manage",
+    "value": "outages with precision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With real-time monitoring and response capabilities, smart grids can isolate"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "smart grid technologies",
+    "relation": "minimizes",
+    "value": "the downtime consumers experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and manage outages with precision, minimizing the downtime consumers experience."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "quantum networking",
+    "relation": "holds_promise",
+    "value": "promise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cutting-edge advancements such as quantum networking hold promise"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "quantum networking",
+    "relation": "stage",
+    "value": "still in its infancy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Though still in its infancy, this technology could lead to internet services that are not only faster but also more resistant to disruptions caused by infrastructure failures."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "quantum networking",
+    "relation": "could_lead_to",
+    "value": "internet services that are not only faster but also more resistant to disruptions caused by infrastructure failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this technology could lead to internet services that are not only faster but also more resistant to disruptions caused by infrastructure failures."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "utility services",
+    "relation": "depend_on",
+    "value": "the continuous flow of utilities such as electricity, water, and the ever-critical internet service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rely on the continuous flow of utilities such as electricity, water, and the ever-critical internet service"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "utility services",
+    "relation": "reliability_undermined_by",
+    "value": "deteriorating infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their reliability is often undermined by an age-old adversary \u2013 deteriorating infrastructure"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "utility services",
+    "relation": "consist_of",
+    "value": "a network of power lines, pipes, and servers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a network of power lines, pipes, and servers"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "utility services",
+    "relation": "as_ancient_as",
+    "value": "the towns they service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is often as ancient as the towns they service"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

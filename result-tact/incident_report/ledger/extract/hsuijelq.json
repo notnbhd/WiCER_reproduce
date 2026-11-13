@@ -1,0 +1,596 @@
+{
+ "inventory": [
+  "Dr. Sandra Keaton",
+  "Alex Torres",
+  "National Space and Atmospheric Administration",
+  "major power outage",
+  "power grid",
+  "solar storm",
+  "thunderstorm",
+  "maintenance at a local substation",
+  "previous year's incident on December 12th",
+  "smart grids",
+  "vegetation management program",
+  "renewable energy sources",
+  "rapid response teams",
+  "community preparedness"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "major power outage",
+    "relation": "struck",
+    "value": "our bustling metropolis",
+    "time": "September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a major power outage struck our bustling metropolis"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "major power outage",
+    "relation": "affected",
+    "value": "several neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage, which affected several neighborhoods"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "major power outage",
+    "relation": "brought_to",
+    "value": "daily activities to a halt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought daily activities to a halt"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "major power outage",
+    "relation": "presented",
+    "value": "a stark reminder of our dependency on electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presented a stark reminder of our dependency on electricity"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "major power outage",
+    "relation": "effect_described_as",
+    "value": "disconcerting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The abrupt cessation of electronic hums and buzzing was disconcerting."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "major power outage",
+    "relation": "extinguished",
+    "value": "the streetlights that usually cast a safety net over the nighttime cityscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gone were the streetlights that usually cast a safety net over the nighttime cityscape"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "major power outage",
+    "relation": "extinguished",
+    "value": "the glow from various appliances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even the glow from various appliances had disappeared"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "power grid",
+    "relation": "scene_during_outage",
+    "value": "a candlelight scene reminiscent of a time long before the grid\u2019s web wrapped our lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In their place was a candlelight scene reminiscent of a time long before the grid\u2019s web wrapped our lives."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "major power outage",
+    "relation": "has_origins",
+    "value": "intricate and multifaceted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Power outages, while always inconvenient, often have intricate and multifaceted origins."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "occupation",
+    "value": "Electrical Engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An interview with Electrical Engineer, Dr. Sandra Keaton, on September 20th"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "interviewed_on",
+    "value": "September 20th",
+    "time": "September 20th",
+    "speaker": null,
+    "verbatim": [
+     "An interview with Electrical Engineer, Dr. Sandra Keaton, on September 20th"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "interview_provided",
+    "value": "insight as to why such outages still stun modern society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided insight as to why such outages still stun modern society"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "explained",
+    "value": "aging infrastructure is among the top causes of power outages",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "Dr. Keaton explained that aging infrastructure is among the top causes of power outages."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "power grid",
+    "relation": "design_status",
+    "value": "designed and built decades ago and isn't equipped to handle the increased load from today's hyper-connected society",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "much of our grid was designed and built decades ago and isn't equipped to handle the increased load from today's hyper-connected society."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "thunderstorm",
+    "relation": "preceded",
+    "value": "our city\u2019s blackout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the thunderstorm that preceded our city\u2019s blackout"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "thunderstorm",
+    "relation": "exposes",
+    "value": "the frailties of our dated systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "further exposes the frailties of our dated systems"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "power grid",
+    "relation": "overwhelmed_by",
+    "value": "downed trees, flooding, and lightning strikes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Downed trees, flooding, and lightning strikes routinely overwhelm power lines, transformers, and substations."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "power grid",
+    "relation": "overwhelmed_components",
+    "value": "power lines, transformers, and substations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "routinely overwhelm power lines, transformers, and substations"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "solar storm",
+    "relation": "triggered",
+    "value": "geomagnetic interruptions",
+    "time": "October 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 3rd, 2023, a solar storm triggered geomagnetic interruptions"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "National Space and Atmospheric Administration",
+    "relation": "reports_on",
+    "value": "solar activity\u2019s potential impact on power systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "corroborating reports from the National Space and Atmospheric Administration regarding solar activity\u2019s potential impact on power systems"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "warned_against",
+    "value": "underestimating the human element",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "Dr. Keaton warned against underestimating the human element."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "stated",
+    "value": "human error can have swift and widespread effects",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "From accidental damage during construction to misoperations within control systems, human error can have swift and widespread effects,"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "maintenance at a local substation",
+    "relation": "went_awry_due_to",
+    "value": "miscommunication",
+    "time": "November 8th",
+    "speaker": null,
+    "verbatim": [
+     "on November 8th, maintenance at a local substation went awry due to a",
+     "miscommunication"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "maintenance at a local substation",
+    "relation": "resulted_in",
+    "value": "a significant outage across three neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this seemingly small error cascaded into a significant outage across three neighborhoods."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "maintenance at a local substation",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "miscommunication; this seemingly small error cascaded into a significant outage across three neighborhoods."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Sandra Keaton",
+    "relation": "touched_upon",
+    "value": "a modern threat landscape that includes cyber attacks",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "she touched upon a modern threat landscape that includes cyber attacks"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "power grid",
+    "relation": "makes_target_for",
+    "value": "digital threats",
+    "time": null,
+    "speaker": "Dr. Sandra Keaton",
+    "verbatim": [
+     "Our grid is smarter, yes, but that also makes it a target for digital threats,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "previous year's incident on December 12th",
+    "relation": "involved",
+    "value": "hackers infiltrated a utility network causing outages",
+    "time": "December 12th",
+    "speaker": null,
+    "verbatim": [
+     "where hackers infiltrated a utility network causing outages"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "previous year's incident on December 12th",
+    "relation": "described_as",
+    "value": "a haunting example of such vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was a haunting example of such vulnerabilities"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Torres",
+    "relation": "occupation",
+    "value": "city Energy Commissioner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city Energy Commissioner, Alex Torres"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alex Torres",
+    "relation": "interviewed_on",
+    "value": "December 18th, 2023",
+    "time": "December 18th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "I sought the expertise of city Energy Commissioner, Alex Torres, on December 18th, 2023."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Alex Torres",
+    "relation": "outlined",
+    "value": "several preventive steps that authorities are taking",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "He outlined several preventive steps that authorities are taking."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Alex Torres",
+    "relation": "highlighted",
+    "value": "ongoing infrastructural upgrades",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Mr. Torres highlighted ongoing infrastructural upgrades"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "smart grids",
+    "relation": "transition_from_traditional_grids",
+    "value": "transition from traditional to smart grids",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "emphasizing the transition from traditional to smart grids with real-time monitoring and self-healing capabilities."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "smart grids",
+    "relation": "features",
+    "value": "real-time monitoring and self-healing capabilities",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "smart grids with real-time monitoring and self-healing capabilities"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Alex Torres",
+    "relation": "stated",
+    "value": "ameliorating vulnerable spots and employing more weather-resistant materials",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "We're ameliorating vulnerable spots and employing more weather-resistant materials,"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "vegetation management program",
+    "relation": "initiated_by",
+    "value": "the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city had initiated a rigorous vegetation management program"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "vegetation management program",
+    "relation": "activity",
+    "value": "trimming trees close to power lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trimming trees close to power lines to prevent the commonplace cause of outages due to falling branches"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "vegetation management program",
+    "relation": "prevents",
+    "value": "the commonplace cause of outages due to falling branches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trimming trees close to power lines to prevent the commonplace cause of outages due to falling branches"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "vegetation management program",
+    "relation": "in_order_to",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trimming trees close to power lines to prevent the commonplace cause of outages due to falling branches"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Alex Torres",
+    "relation": "spoke_about",
+    "value": "the efforts in grid modernization",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Commissioner Torres spoke with pride about the efforts in grid modernization."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "renewable energy sources",
+    "relation": "examples",
+    "value": "solar and wind",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Incorporating renewable energy sources like solar and wind helps diversify our electricity supply"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "renewable energy sources",
+    "relation": "helps_diversify",
+    "value": "our electricity supply",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "helps diversify our electricity supply"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "renewable energy sources",
+    "relation": "reduces_risk_of",
+    "value": "widespread outages",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "reduces the risk of widespread outages"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Alex Torres",
+    "relation": "asserted",
+    "value": "incorporating renewable energy sources like solar and wind helps diversify our electricity supply and reduces the risk of widespread outages",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Incorporating renewable energy sources like solar and wind helps diversify our electricity supply and reduces the risk of widespread outages,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "rapid response teams",
+    "relation": "established_as_step",
+    "value": "the establishment of rapid response teams",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Regular audits, staff training, and the establishment of rapid response teams were steps mentioned by Mr. Torres in combating potential cyber incursions."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Alex Torres",
+    "relation": "mentioned_cyber_steps",
+    "value": "regular audits, staff training, and the establishment of rapid response teams",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "Regular audits, staff training, and the establishment of rapid response teams were steps mentioned by Mr. Torres in combating potential cyber incursions."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "community preparedness",
+    "relation": "stressed_importance",
+    "value": "the importance of community preparedness",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "The Commissioner stressed the importance of community preparedness"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "community preparedness",
+    "relation": "suggested",
+    "value": "individuals should have emergency kits and plans in place",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "suggesting that individuals should have emergency kits and plans in place"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "community preparedness",
+    "relation": "stated",
+    "value": "a well-informed and prepared public is a resilient one",
+    "time": null,
+    "speaker": "Alex Torres",
+    "verbatim": [
+     "A well-informed and prepared public is a resilient one,"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "major power outage",
+    "relation": "expected_to_continue",
+    "value": "in some form will continue to challenge us",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outages in some form will continue to challenge us"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "power grid",
+    "relation": "restored",
+    "value": "power was restored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as power was restored"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

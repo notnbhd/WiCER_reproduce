@@ -1,0 +1,274 @@
+{
+ "inventory": [
+  "Dr. Emily Sanders",
+  "Anderson & Hughes Corp.",
+  "Quantum Technologies",
+  "Mental Health Awareness Day",
+  "Sarah Johnson",
+  "Bright World Solutions",
+  "\u2018Let\u2019s Talk\u2019 sessions",
+  "Eclipse Enterprises",
+  "Michael Thompson",
+  "Greenfield Tech",
+  "Annual Wellness Symposium",
+  "Mental Health Policy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Emily Sanders",
+    "relation": "described_as",
+    "value": "a well-known psychologist and workplace wellness consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Sanders, a well-known psychologist and workplace wellness consultant, points out that"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Emily Sanders",
+    "relation": "said",
+    "value": "Businesses suffer an average loss of $1,000 per employee each year due to untreated mental health issues.",
+    "time": null,
+    "speaker": "Dr. Emily Sanders",
+    "verbatim": [
+     "Businesses suffer an average loss of $1,000 per employee each year due to untreated mental health issues."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Mental Health Policy",
+    "relation": "is_foundational",
+    "value": "The creation of a clear, well-communicated mental health policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The creation of a clear, well-communicated mental health policy is foundational."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Anderson & Hughes Corp.",
+    "relation": "established_policies",
+    "value": "comprehensive policies that define their commitment to mental health support",
+    "time": "As of October 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of October 4, 2023, forward-thinking companies like Anderson & Hughes Corp. have established comprehensive policies that define their commitment to mental health support."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Anderson & Hughes Corp.",
+    "relation": "policy_outlines",
+    "value": "procedures and resources available",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their policy outlines procedures and resources available, making it transparent and accessible to all employees."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Anderson & Hughes Corp.",
+    "relation": "policy_makes",
+    "value": "transparent and accessible to all employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it transparent and accessible to all employees."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Anderson & Hughes Corp.",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their policy outlines procedures and resources available, making it transparent and accessible to all employees."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Quantum Technologies",
+    "relation": "observed",
+    "value": "Mental Health Awareness Day",
+    "time": "On November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, the staff at Quantum Technologies observed Mental Health Awareness Day"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mental Health Awareness Day",
+    "relation": "observed_on",
+    "value": "November 12, 2023",
+    "time": "On November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, the staff at Quantum Technologies observed Mental Health Awareness Day"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Quantum Technologies",
+    "relation": "held_workshops",
+    "value": "workshops that discussed common mental health issues, debunked myths, and promoted conversations around mental well-being",
+    "time": "On November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "engaging in workshops that discussed common mental health issues, debunked myths, and promoted conversations around mental well-being"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Johnson",
+    "relation": "is_hr_manager_at",
+    "value": "Bright World Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, HR manager at Bright World Solutions, shared on December 1, 2023,"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Johnson",
+    "relation": "shared",
+    "value": "how their monthly \u2018Let\u2019s Talk\u2019 sessions create a space for employees to share experiences and discuss mental health openly",
+    "time": "December 1, 2023",
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "how their monthly \u2018Let\u2019s Talk\u2019 sessions create a space for employees to share experiences and discuss mental health openly."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Bright World Solutions",
+    "relation": "hosts",
+    "value": "monthly \u2018Let\u2019s Talk\u2019 sessions",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "how their monthly \u2018Let\u2019s Talk\u2019 sessions create a space for employees to share experiences and discuss mental health openly."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "\u2018Let\u2019s Talk\u2019 sessions",
+    "relation": "purpose",
+    "value": "create a space for employees to share experiences and discuss mental health openly",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "how their monthly \u2018Let\u2019s Talk\u2019 sessions create a space for employees to share experiences and discuss mental health openly."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Eclipse Enterprises",
+    "relation": "integrated",
+    "value": "mental health screenings into their annual health and wellness assessments",
+    "time": "By January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "By January 15, 2024, Eclipse Enterprises integrated mental health screenings into their annual health and wellness assessments"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Eclipse Enterprises",
+    "relation": "acknowledged",
+    "value": "mental health is just as important as physical health",
+    "time": "By January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "acknowledging that mental health is just as important as physical health."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Thompson",
+    "relation": "is_leadership_coach",
+    "value": "leadership coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As emphasized by leadership coach Michael"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "Educated leaders are the first line of defense in a mentally healthy workplace.",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "Educated leaders are the first line of defense in a mentally healthy workplace."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Greenfield Tech",
+    "relation": "reported_setting_up",
+    "value": "in-house counseling services and online support platforms for their staff members",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Many companies, including Greenfield Tech, reported on February 20, 2024, have set up in-house counseling services and online support platforms for their staff members."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Annual Wellness Symposium",
+    "relation": "featured",
+    "value": "a panel of experts",
+    "time": "On March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On March 10, 2024, a panel of experts at the Annual Wellness Symposium highlighted the need for continuous evaluation of policies to ensure they meet the changing needs of the workforce."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Annual Wellness Symposium",
+    "relation": "highlighted",
+    "value": "the need for continuous evaluation of policies to ensure they meet the changing needs of the workforce",
+    "time": "On March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On March 10, 2024, a panel of experts at the Annual Wellness Symposium highlighted the need for continuous evaluation of policies to ensure they meet the changing needs of the workforce."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mental Health Policy",
+    "relation": "requires_reassessment",
+    "value": "policies be reassessed and adjusted regularly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lastly, the evolving nature of mental health requires that workplace policies be reassessed and adjusted regularly."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mental Health Policy",
+    "relation": "should_include",
+    "value": "guidelines on how to address mental health-related concerns, the protocol for taking mental health days, access to mental health resources and support services, and confidentiality assurances for those seeking help",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When crafting your policy, consider including guidelines on:"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

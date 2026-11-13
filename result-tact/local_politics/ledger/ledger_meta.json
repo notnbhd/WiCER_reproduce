@@ -1,0 +1,29 @@
+{
+  "topic": "local_politics",
+  "corpus_sha256": "f03c270775fe660f3e2ad141cb31a8957998237dc5c45a612fb4e16201ddc435",
+  "n_documents": 80,
+  "n_claims": 4783,
+  "n_claims_before_merge": 4783,
+  "n_raw": 4783,
+  "n_rejected": 0,
+  "n_multispan": 27,
+  "n_relational": 208,
+  "rejection_rate": 0.0,
+  "n_contradictions": 13,
+  "inventory_size": 1666,
+  "n_canonical_entities": 1491,
+  "entity_collision_rate": 0.0,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 398933,
+    "output_tokens": 1683270,
+    "measured_cost_usd": 0.0
+  }
+}

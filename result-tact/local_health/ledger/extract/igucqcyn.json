@@ -1,0 +1,565 @@
+{
+ "inventory": [
+  "local pharmacies",
+  "pharmacists",
+  "pilot program",
+  "Dr. Samira Desai",
+  "John Mikhail",
+  "Mikhail's pharmacy",
+  "weekly health check-up initiative",
+  "Maria Gonzales",
+  "education workshops",
+  "medical deserts",
+  "David Lee",
+  "Dr. Jessica Feng",
+  "Dr. Feng's clinic",
+  "Thompson's Pharmacy",
+  "mental health support",
+  "telepharmacy services",
+  "general practitioners"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "pilot program",
+    "relation": "began_in",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 2023, when a pilot program in the heart of our city began"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "pilot program",
+    "relation": "spearheaded_by",
+    "value": "Dr. Samira Desai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by local health care advocate Dr. Samira Desai"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Samira Desai",
+    "relation": "is_a",
+    "value": "local health care advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by local health care advocate Dr. Samira Desai"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "pilot program",
+    "relation": "goal",
+    "value": "to maximize the potential of pharmacies, making them vital centers for health promotion and disease prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program's goal was to maximize the potential of pharmacies, making them vital centers for health promotion and disease prevention"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "local pharmacies",
+    "relation": "is_a",
+    "value": "accessible spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacies are accessible spaces"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local pharmacies",
+    "relation": "open_hours",
+    "value": "often open beyond regular clinic hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often open beyond regular clinic hours"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local pharmacies",
+    "relation": "frequented_for",
+    "value": "reasons beyond the need for medication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "frequented for reasons beyond the need for medication"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "pharmacists",
+    "relation": "has_opportunity",
+    "value": "a unique opportunity to engage with community members regularly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists have a unique opportunity to engage with community members regularly"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local pharmacies",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This accessibility means that pharmacists have a unique opportunity to engage with community members regularly"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "John Mikhail",
+    "relation": "is_a",
+    "value": "local pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local pharmacists like John Mikhail"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "pharmacists",
+    "relation": "expanded_roles",
+    "value": "expanded their roles significantly",
+    "time": "Since the inception of Dr. Desai's program",
+    "speaker": null,
+    "verbatim": [
+     "Since the inception of Dr. Desai's program, local pharmacists like John Mikhail have expanded their roles significantly"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mikhail's pharmacy",
+    "relation": "launched",
+    "value": "a weekly health check-up initiative",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023, Mikhail's pharmacy launched a weekly health check-up initiative"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "weekly health check-up initiative",
+    "relation": "offers",
+    "value": "free blood pressure and diabetes screenings to patrons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering free blood pressure and diabetes screenings to patrons"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "pharmacists",
+    "relation": "takes_on_responsibilities_of",
+    "value": "responsibilities typically entrusted to general practitioners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists take on responsibilities typically entrusted to general practitioners"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "pharmacists",
+    "relation": "administer",
+    "value": "vaccines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as administering vaccines"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "pharmacists",
+    "relation": "provide",
+    "value": "smoking cessation assistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing smoking cessation assistance"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "pharmacists",
+    "relation": "offer",
+    "value": "nutritional advice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering nutritional advice"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "local pharmacies",
+    "relation": "has_core_function",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Education has become a core function of the local pharmacy"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local pharmacies",
+    "relation": "education_emphasis",
+    "value": "imparting knowledge about treatment options, lifestyle changes, and the management of chronic diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with an emphasis on imparting knowledge about treatment options, lifestyle changes, and the management of chronic diseases"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maria Gonzales",
+    "relation": "is_a",
+    "value": "Pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacist Maria Gonzales notes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "education workshops",
+    "relation": "started",
+    "value": "late September",
+    "time": "late September",
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "since the start of our education workshops in late September"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Maria Gonzales",
+    "relation": "observed",
+    "value": "a significant uptick in the number of community members coming in to discuss their health concerns",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "we've seen a significant uptick in the number of community members coming in to discuss their health concerns before they become serious issues"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "education workshops",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "since the start of our education workshops in late September, we've seen a significant uptick"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "medical deserts",
+    "relation": "defined_as",
+    "value": "areas where medical practitioners are scarce or too far to access conveniently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'medical deserts' - areas where medical practitioners are scarce or too far to access conveniently"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "medical deserts",
+    "relation": "residents_living_in",
+    "value": "many residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with many residents living in what would be considered 'medical deserts'"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "local pharmacies",
+    "relation": "provides",
+    "value": "a first point of contact for those seeking guidance on health matters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing a first point of contact for those seeking guidance on health matters"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local pharmacies",
+    "relation": "bridges",
+    "value": "the gap in healthcare accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local pharmacies have stepped in to bridge this gap"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "pharmacists",
+    "relation": "offer",
+    "value": "medication reviews and chronic disease management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "medication reviews and chronic disease management"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "pharmacists",
+    "relation": "alleviate_pressure_on",
+    "value": "overburdened clinics and hospitals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacists help alleviate the pressure on overburdened clinics and hospitals"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "pharmacists",
+    "relation": "mechanism_of",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By offering services like medication reviews and chronic disease management, pharmacists help alleviate the pressure on overburdened clinics and hospitals"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "local pharmacies",
+    "relation": "collaborates_with",
+    "value": "general practitioners, dietitians, and other medical professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaboration with general practitioners, dietitians, and other medical professionals has become a cornerstone of the new pharmacy model"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "David Lee",
+    "relation": "is_a",
+    "value": "Pharmacist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacist David Lee partnered"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "David Lee",
+    "relation": "partnered_with",
+    "value": "the nearby clinic, led by Dr. Jessica Feng",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pharmacist David Lee partnered with the nearby clinic, led by Dr. Jessica Feng"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Jessica Feng",
+    "relation": "leads",
+    "value": "the nearby clinic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the nearby clinic, led by Dr. Jessica Feng"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "David Lee",
+    "relation": "purpose_of_partnership",
+    "value": "ensure a seamless transition of care for patients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure a seamless transition of care for patients"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "David Lee",
+    "relation": "in_order_to",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with the nearby clinic, led by Dr. Jessica Feng, to ensure a seamless transition of care for patients"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Feng's clinic",
+    "relation": "established_on",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Our work with Dr. Feng's clinic, established on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Feng's clinic",
+    "relation": "has_been",
+    "value": "a gamechanger for patient follow-ups and medication adherence",
+    "time": null,
+    "speaker": "David Lee",
+    "verbatim": [
+     "has been a gamechanger for patient follow-ups and medication adherence"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "telepharmacy services",
+    "relation": "is_example_of",
+    "value": "how local establishments use technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "telepharmacy services are just a few examples of how local establishments"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "local pharmacies",
+    "relation": "technology_driving_force_in",
+    "value": "improving patient outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The use of technology in local pharmacies has been a driving force in improving patient outcomes"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Thompson's Pharmacy",
+    "relation": "rolled_out",
+    "value": "its app",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Thompson's Pharmacy, which rolled out its app on December 5, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Thompson's Pharmacy",
+    "relation": "is_a",
+    "value": "local establishment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local establishments like Thompson's Pharmacy"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local pharmacies",
+    "relation": "makes_health_management",
+    "value": "more efficient and accessible to individuals, regardless of their physical or time constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making health management more efficient and accessible to individuals, regardless of their physical or time constraints"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local pharmacies",
+    "relation": "initiated",
+    "value": "counseling services and support groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The community's pharmacies, understanding the importance of mental wellness, have initiated counseling services and support groups"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "mental health support",
+    "relation": "demand",
+    "value": "higher demand",
+    "time": "As of the beginning of 2024",
+    "speaker": null,
+    "verbatim": [
+     "As of the beginning of 2024, these services have been in higher demand"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "mental health support",
+    "relation": "importance_within",
+    "value": "the framework of local healthcare resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pointing to the importance of mental health support within the framework of local healthcare resources"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local pharmacies",
+    "relation": "role_will_evolve_shaped_by",
+    "value": "regulatory changes, technological advancements, and the ever-changing needs of the population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The role of local pharmacies will continue to evolve, shaped by regulatory changes, technological advancements, and the ever-changing needs of the population"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "local pharmacies",
+    "relation": "described_as",
+    "value": "central figures in the collective health and wellness of the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmacies are not just points of medication distribution but central figures in the collective health and wellness of the community"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "pharmacists",
+    "relation": "tasked_with",
+    "value": "facilitating preventative care and fostering well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the modern pharmacist is a pivotal figure in the broader health care landscape, tasked with the crucial responsibility of facilitating preventative care and fostering well-being"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

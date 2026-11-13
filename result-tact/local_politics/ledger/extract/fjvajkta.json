@@ -1,0 +1,623 @@
+{
+ "inventory": [
+  "Mayor Linda Emerson",
+  "City Hall",
+  "master plan",
+  "City Engineer Marcus DuBois",
+  "Energy Commissioner Anne Keating",
+  "Julian Torres",
+  "Water Services Director Dr. Hector Mendoza",
+  "Dr. Rebecca Sun",
+  "General Hospital",
+  "two new K-12 schools",
+  "Douglas Freeman",
+  "Sandra Lopez",
+  "municipal bonds",
+  "federal grants",
+  "public-private partnerships",
+  "James O'Reilly",
+  "Sarah Chan",
+  "Smart City Committee",
+  "Internet of Things",
+  "Keith Jennings"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "master plan",
+    "relation": "announced_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "since their announcement on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mayor Linda Emerson",
+    "relation": "spoke_at",
+    "value": "the steps of City Hall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Linda Emerson took to the steps of City Hall"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Mayor Linda Emerson",
+    "relation": "revealed",
+    "value": "the ambitious project aimed at overhauling the city's aging infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing the ambitious project aimed at overhauling the city's aging infrastructure"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mayor Linda Emerson",
+    "relation": "flanked_by",
+    "value": "council members and civil engineers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flanked by council members and civil engineers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mayor Linda Emerson",
+    "relation": "cited_reasons",
+    "value": "a booming population, increased demand for sustainable living, and the relentless wear and tear of time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a booming population, increased demand for sustainable living, and the relentless wear and tear of time"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mayor Linda Emerson",
+    "relation": "emphasized",
+    "value": "the critical need for this transformation",
+    "time": null,
+    "speaker": "Mayor Linda Emerson",
+    "verbatim": [
+     "the Mayor emphasized the critical need for this transformation"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mayor Linda Emerson",
+    "relation": "reason_for",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a booming population, increased demand for sustainable living, and the relentless wear and tear of time, the Mayor emphasized the critical need for this transformation"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "master plan",
+    "relation": "rolled_out_in",
+    "value": "subsequent town hall meetings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rolled out in subsequent town hall meetings"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "City Engineer Marcus DuBois",
+    "relation": "proposed_initiatives",
+    "value": "an impressive array of initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an impressive array of initiatives proposed by City Engineer Marcus DuBois"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "master plan",
+    "relation": "scheduled_rollouts_by",
+    "value": "precinct",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scheduled rollouts for these projects are as per precinct"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "master plan",
+    "relation": "timeline_spans",
+    "value": "from late 2023 through to the end of 2027",
+    "time": "late 2023 through to the end of 2027",
+    "speaker": null,
+    "verbatim": [
+     "timelines spanning from late 2023 through to the end of 2027"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "master plan",
+    "relation": "central_focus",
+    "value": "the comprehensive revitalization of the city's roadways and transportation networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Central to the master plan is the comprehensive revitalization of the city's roadways and transportation networks"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "master plan",
+    "relation": "includes",
+    "value": "the expansion of key arterial roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We're looking at the expansion of key arterial roads"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "master plan",
+    "relation": "includes",
+    "value": "the rehabilitation of numerous bridges that have long outlived their designed lifespans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rehabilitation of numerous bridges that have long outlived their designed lifespans"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "master plan",
+    "relation": "strategies_include",
+    "value": "the implementation of intelligent traffic systems aimed at reducing congestion, promoting carpooling, and ensuring safer pedestrian crossings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Strategies include the implementation of intelligent traffic systems aimed at reducing congestion, promoting carpooling, and ensuring safer pedestrian crossings"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "master plan",
+    "relation": "includes",
+    "value": "the overhaul scheduled for the electrical grid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We cannot overlook the overhaul scheduled for the electrical grid"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "master plan",
+    "relation": "followed",
+    "value": "the recent calamities that these infrastructures have weathered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "especially following the recent calamities that these infrastructures have weathered"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "master plan",
+    "relation": "motivated_by",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We cannot overlook the overhaul scheduled for the electrical grid, especially following the recent calamities that these infrastructures have weathered"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "master plan",
+    "relation": "involves",
+    "value": "fortifying power lines, upgrading substations, and integrating renewable energy sources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The plan involves fortifying power lines, upgrading substations, and integrating renewable energy sources"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Energy Commissioner Anne Keating",
+    "relation": "spearheads",
+    "value": "the electrical grid overhaul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by the dynamic duo of Energy Commissioner Anne Keating and local innovator Julian Torres"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Julian Torres",
+    "relation": "role",
+    "value": "local innovator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local innovator Julian Torres"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Julian Torres",
+    "relation": "spearheads",
+    "value": "the electrical grid overhaul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by the dynamic duo of Energy Commissioner Anne Keating and local innovator Julian Torres"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Water Services Director Dr. Hector Mendoza",
+    "relation": "spearheads",
+    "value": "the upgrading of the city's outdated sewer systems and potable water pipelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as spearheaded by Water Services Director Dr. Hector Mendoza"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Water Services Director Dr. Hector Mendoza",
+    "relation": "upgrade_poised_to",
+    "value": "reduce leakages, ensure consistent water quality, and better manage stormwater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is poised to reduce leakages, ensure consistent water quality, and better manage stormwater"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "master plan",
+    "relation": "central_principle",
+    "value": "Efficiency and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Efficiency and resilience are at the center of the reforms in water and waste management systems"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Rebecca Sun",
+    "relation": "role",
+    "value": "council member for Health and Education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the council member for Health and Education, Dr. Rebecca Sun highlights"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Rebecca Sun",
+    "relation": "highlights",
+    "value": "the critical upgrades to facilities that impact dayto-day lives the most",
+    "time": null,
+    "speaker": "Dr. Rebecca Sun",
+    "verbatim": [
+     "Dr. Rebecca Sun highlights the critical upgrades to facilities that impact dayto-day lives the most"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "General Hospital",
+    "relation": "to_receive",
+    "value": "new wing additions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New wing additions to the General Hospital and state-of-the-art equipment are in the pipeline"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "General Hospital",
+    "relation": "to_receive",
+    "value": "state-of-the-art equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New wing additions to the General Hospital and state-of-the-art equipment are in the pipeline"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "two new K-12 schools",
+    "relation": "located_in",
+    "value": "underserved districts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the construction of two new K-12 schools in underserved districts"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Douglas Freeman",
+    "relation": "role",
+    "value": "City's Parks Commissioner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the City's Parks Commissioner, Douglas Freeman, has envisioned wider green corridors and more accessible parks"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Douglas Freeman",
+    "relation": "envisioned",
+    "value": "wider green corridors and more accessible parks",
+    "time": null,
+    "speaker": "Douglas Freeman",
+    "verbatim": [
+     "has envisioned wider green corridors and more accessible parks"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Douglas Freeman",
+    "relation": "aims_to",
+    "value": "enhance the mental and physical health of the community, encourage outdoor activities, and provide serene spaces for relaxation amidst the urban hustle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to enhance the mental and physical health of the community, encourage outdoor activities, and provide serene spaces for relaxation amidst the urban hustle"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sandra Lopez",
+    "relation": "role",
+    "value": "City Treasurer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Treasurer Sandra Lopez urges for innovative financing strategies"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sandra Lopez",
+    "relation": "urges",
+    "value": "innovative financing strategies",
+    "time": null,
+    "speaker": "Sandra Lopez",
+    "verbatim": [
+     "City Treasurer Sandra Lopez urges for innovative financing strategies"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "municipal bonds",
+    "relation": "included_in_financing_mix",
+    "value": "yes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes a mixture of municipal bonds, federal grants, public-private partnerships, and a slight increase in local taxes allocated specifically to these projects"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "federal grants",
+    "relation": "included_in_financing_mix",
+    "value": "yes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes a mixture of municipal bonds, federal grants, public-private partnerships, and a slight increase in local taxes allocated specifically to these projects"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "public-private partnerships",
+    "relation": "included_in_financing_mix",
+    "value": "yes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes a mixture of municipal bonds, federal grants, public-private partnerships, and a slight increase in local taxes allocated specifically to these projects"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sandra Lopez",
+    "relation": "proposes",
+    "value": "a slight increase in local taxes allocated specifically to these projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and a slight increase in local taxes allocated specifically to these projects"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sandra Lopez",
+    "relation": "practices",
+    "value": "mindful budgeting and transparent financial oversight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With mindful budgeting and transparent financial oversight"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sandra Lopez",
+    "relation": "assures",
+    "value": "fiscal responsibility through every step of the initiative",
+    "time": null,
+    "speaker": "Sandra Lopez",
+    "verbatim": [
+     "the Treasurer assures fiscal responsibility through every step of the initiative"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sandra Lopez",
+    "relation": "mechanism_of",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With mindful budgeting and transparent financial oversight, the Treasurer assures fiscal responsibility through every step of the initiative"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "master plan",
+    "relation": "cornerstone",
+    "value": "public input",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public input has been a cornerstone of the planning process"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "master plan",
+    "relation": "public_input_through",
+    "value": "a series of participatory budgeting sessions and public forums",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through a series of participatory budgeting sessions and public forums"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "James O'Reilly",
+    "relation": "role",
+    "value": "a local cafe owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Residents like James O'Reilly, a local cafe owner, have taken a particularly active role"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "James O'Reilly",
+    "relation": "emphasized",
+    "value": "the need for business-friendly changes to bolster the economic climate",
+    "time": null,
+    "speaker": "James O'Reilly",
+    "verbatim": [
+     "emphasizing the need for business-friendly changes to bolster the economic climate"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sarah Chan",
+    "relation": "role",
+    "value": "head of the Smart City Committee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city planners like Sarah Chan, head of the Smart City Committee"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Smart City Committee",
+    "relation": "head",
+    "value": "Sarah Chan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city planners like Sarah Chan, head of the Smart City Committee"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Internet of Things",
+    "relation": "enables",
+    "value": "city planners to monitor progress, anticipate challenges, and adapt strategies in real time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IoT (Internet of Things) applications, and data analytics will empower city planners like Sarah Chan, head of the Smart City Committee, to monitor progress, anticipate challenges, and adapt strategies in real time"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Keith Jennings",
+    "relation": "role",
+    "value": "Project Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Project Director Keith Jennings cautions about potential disruptions to daily life"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Keith Jennings",
+    "relation": "cautions_about",
+    "value": "potential disruptions to daily life, such as traffic detours and construction noise",
+    "time": null,
+    "speaker": "Keith Jennings",
+    "verbatim": [
+     "cautions about potential disruptions to daily life, such as traffic detours and construction noise"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Keith Jennings",
+    "relation": "requires",
+    "value": "mitigation plans and clear communication to maintain public trust and cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which will require mitigation plans and clear communication to maintain public trust and cooperation"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "master plan",
+    "relation": "expected_outcome",
+    "value": "a city that's not only more navigable but also more sustainable and resilient",
+    "time": "once these projects culminate",
+    "speaker": null,
+    "verbatim": [
+     "residents can expect a city that's not only more navigable but also more sustainable and resilient"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "master plan",
+    "relation": "described_as",
+    "value": "a recommitment to the community's well-being and a proactive step towards ensuring a vibrant, sustainable future for all who call this city home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are a recommitment to the community's well-being and a proactive step towards ensuring a vibrant, sustainable future for all who call this city home"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

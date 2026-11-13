@@ -1,0 +1,65 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (03:52:54)
+ledger: 4434 claims, extracted with {'claude-haiku-5-5 effort=high': 80}
+corpus: 80 docs, sha 2617c80a393f -- matches
+
+[1m== reader[0m  (03:52:55)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== rendering[0m  (03:52:55)
+local_education            paged_none: 44,420/44,444 tokens (ratio 50.0%) coverage=69.1% 
+local_education            paged_bare: 44,271/44,444 tokens (ratio 49.8%) coverage=61.3%  cuts=778 stub_tokens=5,446
+
+[1m== plain verbatim[0m  (03:52:59)
+local_education            paged_none: scored 400 (resumed 0)
+
+[1m== doc reader on paged_bare[0m  (03:58:47)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/WiCER/tact/run.py", line 260, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/WiCER/tact/run.py", line 232, in main
+    e = evaluate_condition(profile, topic, condition, resume=args.resume)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/benchmark/evaluate.py", line 57, in evaluate_condition
+    judgements = judge.score_many(requests)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/wicer_core/judge.py", line 176, in score_many
+    return list(pool.map(self.score, requests))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/wicer_core/judge.py", line 158, in score
+    judgement = self._score_anthropic(user)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/wicer_core/judge.py", line 239, in _score_anthropic
+    resp = self.client.messages.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1029, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_base_client.py", line 1543, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_base_client.py", line 1208, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "Number of concurrent requests across all models has exceeded your organization's limit. Wait for in-flight requests to complete and retry. Limits increase automatically as your organization moves up usage tiers."}, 'request_id': 'req_011CgzGRbJj2yUMSTAGthM2Q'}

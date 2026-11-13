@@ -1,0 +1,658 @@
+{
+ "inventory": [
+  "Springdale",
+  "Springdale City Council",
+  "Elizabeth Torres",
+  "James O'Reilly",
+  "Amelia Sanchez",
+  "Richard Kemp",
+  "Lily Chen",
+  "tax amendments",
+  "tiered property tax system",
+  "increase in sales tax",
+  "local income tax credit"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Springdale City Council",
+    "relation": "voted_for",
+    "value": "sweeping tax amendments",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a landmark decision on September 15, 2023, the local city council of Springdale voted in favor of sweeping tax amendments"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "tax amendments",
+    "relation": "poised_to_alter",
+    "value": "the fiscal landscape for its residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sweeping tax amendments that are poised to significantly alter the fiscal landscape for its residents"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "tax amendments",
+    "relation": "subject_of",
+    "value": "contentious debates and numerous town hall meetings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tax reforms, which were the subject of contentious debates and numerous town hall meetings"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "tax amendments",
+    "relation": "aims_to_address",
+    "value": "the growing concerns of affordable living and economic balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to address the growing concerns of affordable living and economic balance"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "tax amendments",
+    "relation": "raise_critical_questions_about",
+    "value": "their impact on the city\u2019s low-income earners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raise critical questions about their impact on the city\u2019s low-income earners"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Elizabeth Torres",
+    "relation": "spearheaded",
+    "value": "tax amendments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tax amendments, spearheaded by Councilwoman Elizabeth Torres and her committee"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Elizabeth Torres",
+    "relation": "title",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Councilwoman Elizabeth Torres"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "tax amendments",
+    "relation": "introduce",
+    "value": "a tiered property tax system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduce a tiered property tax system intended to distribute the tax burden more equitably among homeowners"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "tiered property tax system",
+    "relation": "intended_to",
+    "value": "distribute the tax burden more equitably among homeowners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tiered property tax system intended to distribute the tax burden more equitably among homeowners"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "tiered property tax system",
+    "relation": "segments_based_on",
+    "value": "assessed property value",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The new system segments property taxes based on assessed property value"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "tiered property tax system",
+    "relation": "intended_to_ease",
+    "value": "the burden on those with less-valued homes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the intention of easing the burden on those with less-valued homes"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Springdale City Council",
+    "relation": "approved",
+    "value": "an increase in sales tax from 7.5% to 8%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the council has approved an increase in sales tax from 7.5% to 8%"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "increase in sales tax",
+    "relation": "rate_change",
+    "value": "from 7.5% to 8%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an increase in sales tax from 7.5% to 8%"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "increase in sales tax",
+    "relation": "generated",
+    "value": "both support and criticism from the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a move that has generated both support and criticism from the public"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "increase in sales tax",
+    "relation": "stated_purpose",
+    "value": "to bolster the city's revenue for upcoming infrastructure projects and enhance community services",
+    "time": null,
+    "speaker": "James O'Reilly",
+    "verbatim": [
+     "This adjustment, as per Councilman James O'Reilly, is to bolster the city's revenue for upcoming infrastructure projects and enhance community services."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "James O'Reilly",
+    "relation": "title",
+    "value": "Councilman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as per Councilman James O'Reilly"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "increase in sales tax",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This adjustment, as per Councilman James O'Reilly, is to bolster the city's revenue for upcoming infrastructure projects and enhance community services."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "local income tax credit",
+    "relation": "designed_to",
+    "value": "alleviate the financial strain on individuals making below a certain income threshold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local income tax credit, designed to alleviate the financial strain on individuals making below a certain income threshold"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local income tax credit",
+    "relation": "specifics_status",
+    "value": "yet to be fully outlined",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While the specifics are yet to be fully outlined"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "local income tax credit",
+    "relation": "framework_suggests",
+    "value": "a sliding credit scale based on annual earnings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initial framework suggests a sliding credit scale based on annual earnings"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "tax amendments",
+    "relation": "debate_centers_on",
+    "value": "its differential impact on the various socioeconomic strata of Springdale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The heart of the tax reform debate lies in its differential impact on the various socioeconomic strata of Springdale"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "tax amendments",
+    "relation": "symbolize",
+    "value": "a pivotal shift in their financial stability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these changes symbolize a pivotal shift in their financial stability"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "tiered property tax system",
+    "relation": "anticipated_to_reduce",
+    "value": "property tax bills for those living in homes valued at less than $250,000",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The progressive property tax model is anticipated to reduce the property tax bills for those living in homes valued at less than $250,000"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "tiered property tax system",
+    "relation": "marks",
+    "value": "a positive stride towards housing affordability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which marks a positive stride towards housing affordability"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "local income tax credit",
+    "relation": "expected_to_put",
+    "value": "additional money back into the pockets of low-income earners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The income tax credit stands to put additional money back into the pockets of low-income earners"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "local income tax credit",
+    "relation": "potentially_offsets",
+    "value": "the increase in living costs brought about by the higher sales tax",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially smoothing out the increase in living costs brought about by the higher sales tax"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "increase in sales tax",
+    "relation": "drew_appeals_from",
+    "value": "those fearing the burden of the increased sales tax",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Town hall meetings saw impassioned speeches and appeals, particularly from those fearing the burden of the increased sales tax"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Amelia Sanchez",
+    "relation": "described_as",
+    "value": "a single mother of three",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amelia Sanchez, a single mother of three who works two part-time jobs"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Amelia Sanchez",
+    "relation": "works",
+    "value": "two part-time jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amelia Sanchez, a single mother of three who works two part-time jobs"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Amelia Sanchez",
+    "relation": "said",
+    "value": "Every cent counts for us.",
+    "time": null,
+    "speaker": "Amelia Sanchez",
+    "verbatim": [
+     "Every cent counts for us."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Amelia Sanchez",
+    "relation": "said",
+    "value": "the city needs money for maintenance and growth",
+    "time": null,
+    "speaker": "Amelia Sanchez",
+    "verbatim": [
+     "I understand the city needs money for maintenance and growth"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Amelia Sanchez",
+    "relation": "said",
+    "value": "it can't be on the backs of those who are already struggling",
+    "time": null,
+    "speaker": "Amelia Sanchez",
+    "verbatim": [
+     "it can't be on the backs of those who are already struggling"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Richard Kemp",
+    "relation": "described_as",
+    "value": "local businessman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local businessman Richard Kemp applauded the council\u2019s actions"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Richard Kemp",
+    "relation": "applauded",
+    "value": "the council\u2019s actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local businessman Richard Kemp applauded the council\u2019s actions"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Richard Kemp",
+    "relation": "said",
+    "value": "Investing in infrastructure and services enhances the city for everyone.",
+    "time": null,
+    "speaker": "Richard Kemp",
+    "verbatim": [
+     "Investing in infrastructure and services enhances the city for everyone."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Richard Kemp",
+    "relation": "said",
+    "value": "We need to look at the bigger picture and the long-term benefits of these tax amendments.",
+    "time": null,
+    "speaker": "Richard Kemp",
+    "verbatim": [
+     "We need to look at the bigger picture and the long-term benefits of these tax amendments."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lily Chen",
+    "relation": "runs",
+    "value": "a local bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small business owners like Lily Chen who runs a local bakery"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lily Chen",
+    "relation": "described_as",
+    "value": "small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small business owners like Lily Chen"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lily Chen",
+    "relation": "said",
+    "value": "An increase in sales tax could lead to a decrease in discretionary spending.",
+    "time": null,
+    "speaker": "Lily Chen",
+    "verbatim": [
+     "An increase in sales tax could lead to a decrease in discretionary spending."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "increase in sales tax",
+    "relation": "results_in",
+    "value": "a decrease in discretionary spending",
+    "time": null,
+    "speaker": "Lily Chen",
+    "verbatim": [
+     "An increase in sales tax could lead to a decrease in discretionary spending."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Lily Chen",
+    "relation": "said",
+    "value": "I worry about how this will impact my daily sales",
+    "time": null,
+    "speaker": "Lily Chen",
+    "verbatim": [
+     "I worry about how this will impact my daily sales"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Lily Chen",
+    "relation": "mentioned_during",
+    "value": "the council's feedback sessions",
+    "time": null,
+    "speaker": "Lily Chen",
+    "verbatim": [
+     "Chen mentioned during the council's feedback sessions."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "increase in sales tax",
+    "relation": "may_affect",
+    "value": "consumer spending habits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sales tax increase might affect consumer spending habits"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "tax amendments",
+    "relation": "may_benefit_larger_businesses",
+    "value": "an upside in the improved infrastructure and community services funded by the tax revisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger businesses, however, may find an upside in the improved infrastructure and community services funded by the tax revisions."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "tax amendments",
+    "relation": "improvements_can_lead_to",
+    "value": "increased property values and a more vibrant local economy over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Improved roads, parks, and public facilities can lead to increased property values and a more vibrant local economy over time."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Springdale City Council",
+    "relation": "pledged",
+    "value": "to implement measures to ease the transition to the new tax system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The city council has pledged to implement measures to ease the transition to the new tax system."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Springdale City Council",
+    "relation": "plans_underway_for",
+    "value": "a series of informational workshops to educate residents on how the changes will affect their personal finances and to assist them in claiming the income tax credit where eligible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Plans are already underway for a series of informational workshops to educate residents on how the changes will affect their personal finances and to assist them in claiming the income tax credit where eligible."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Elizabeth Torres",
+    "relation": "committed_to",
+    "value": "monitoring the economic effects of the amendments closely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Torres has committed to monitoring the economic effects of the amendments closely"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Elizabeth Torres",
+    "relation": "promised",
+    "value": "to revisit the tax structure in two years for assessment and adjustments",
+    "time": "in two years",
+    "speaker": null,
+    "verbatim": [
+     "promising to revisit the tax structure in two years for assessment and adjustments"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Elizabeth Torres",
+    "relation": "said",
+    "value": "It's imperative that we listen to our constituents and ensure these changes serve the greater good without placing undue burden on our most vulnerable populations",
+    "time": null,
+    "speaker": "Elizabeth Torres",
+    "verbatim": [
+     "It's imperative that we listen to our constituents and ensure these changes serve the greater good without placing undue burden on our most vulnerable populations"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Springdale",
+    "relation": "braces_for",
+    "value": "these pivotal changes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Springdale braces for these pivotal changes"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Springdale",
+    "relation": "collective_hope",
+    "value": "the positive outcomes will outweigh the challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a collective hope that the positive outcomes will outweigh the challenges"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "tax amendments",
+    "relation": "potential",
+    "value": "a more equitable tax system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the amendments carry the potential for a more equitable tax system"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Springdale",
+    "relation": "described_as",
+    "value": "commendable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local government's efforts to support low-income families through this transition are commendable"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "tax amendments",
+    "relation": "effects_status",
+    "value": "remains to be seen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the full scope of the amendments\u2019 effects remains to be seen"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Springdale",
+    "relation": "uncertain_outcome",
+    "value": "whether the balance between creating a robust city infrastructure and protecting the interests of low-income earners has been aptly struck",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "only time will tell whether the balance between creating a robust city infrastructure and protecting the interests of low-income earners has been aptly struck"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Springdale City Council",
+    "relation": "set_in_motion",
+    "value": "a significant shift that promises to redefine the social and economic fabric of the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Springdale City Council\u2019s decisions have set in motion a significant shift that promises to redefine the social and economic fabric of the community"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Springdale",
+    "relation": "tax_landscape_shaped_by",
+    "value": "the voices of residents and the concerns of small business owners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the voices of residents like Amelia Sanchez and the concerns of small business owners like Lily Chen will continue to play a critical role in shaping Springdale\u2019s tax landscape for the future"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

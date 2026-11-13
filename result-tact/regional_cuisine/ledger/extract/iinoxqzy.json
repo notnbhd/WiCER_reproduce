@@ -1,0 +1,816 @@
+{
+ "inventory": [
+  "Bangkok",
+  "Bangkok's street food scene",
+  "Somchai",
+  "Pad Thai",
+  "Yaowarat Road",
+  "Chao Phraya river",
+  "Jiraporn",
+  "Jok",
+  "Moo Ping",
+  "Khao Niew",
+  "Arunee",
+  "Pad Kee Mao",
+  "Pla Pao",
+  "Khanom Bueang",
+  "Mango Sticky Rice",
+  "Little India",
+  "Phahurat Market",
+  "Roti",
+  "Green Curry",
+  "Singh",
+  "Masala Chai",
+  "Niran",
+  "Gai Tod",
+  "Silom Road",
+  "Anong",
+  "Som Tam"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Bangkok",
+    "relation": "described_as",
+    "value": "a bustling metropolis renowned for its vibrant street food scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bangkok, a bustling metropolis renowned for its vibrant street food scene"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Bangkok's street food scene",
+    "relation": "offers",
+    "value": "a cornucopia of flavors that serve as a conduit to the heart of Thai culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers a cornucopia of flavors that serve as a conduit to the heart of Thai culture"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bangkok",
+    "relation": "has_streets",
+    "value": "labyrinthine streets and alleys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As you traverse the city's labyrinthine streets and alleys"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Bangkok's street food scene",
+    "relation": "has_diversity",
+    "value": "sheer diversity of culinary options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sheer diversity of culinary options available at every turn"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bangkok's street food scene",
+    "relation": "reflects",
+    "value": "the local way of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a reflection of the local way of life"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Bangkok",
+    "relation": "described_on",
+    "value": "September 6, 2023",
+    "time": "September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 6, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Bangkok",
+    "relation": "atmosphere",
+    "value": "both electric and intimate",
+    "time": "September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "creating an atmosphere that's both electric and intimate"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Bangkok",
+    "relation": "back_alleys_have",
+    "value": "the symphony of sizzling woks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wandering through Bangkok's back alleys, one discovers the symphony of sizzling woks"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Somchai",
+    "relation": "described_as",
+    "value": "generational street food vendor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "generational street food vendors like Somchai"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Somchai",
+    "relation": "age",
+    "value": "68-yearold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Somchai, a 68-yearold who has been serving up 'Pad Thai' from his modest cart in Yaowarat Road for over four decades"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Somchai",
+    "relation": "sells",
+    "value": "Pad Thai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving up 'Pad Thai' from his modest cart in Yaowarat Road"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Somchai",
+    "relation": "cart_location",
+    "value": "Yaowarat Road",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from his modest cart in Yaowarat Road"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Somchai",
+    "relation": "uses",
+    "value": "modest cart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from his modest cart in Yaowarat Road"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Somchai",
+    "relation": "serving_duration",
+    "value": "over four decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for over four decades"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Somchai",
+    "relation": "weaves",
+    "value": "his personal history into the fabric of the city's culinary tapestry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "weaving his personal history into the fabric of the city's culinary tapestry"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Pad Thai",
+    "relation": "served_by",
+    "value": "Somchai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving up 'Pad Thai' from his modest cart"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Yaowarat Road",
+    "relation": "is_location_of",
+    "value": "Somchai's modest cart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from his modest cart in Yaowarat Road"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Chao Phraya river",
+    "relation": "dawn_breaks_over",
+    "value": "dawn",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As dawn breaks over the Chao Phraya river"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jiraporn",
+    "relation": "described_as",
+    "value": "a spirited vendor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jiraporn, a spirited vendor with a smile as warm as her 'Jok' (rice porridge)"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jiraporn",
+    "relation": "starts_day_at",
+    "value": "6:00 AM",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By 6:00 AM, on September 9, 2023, Jiraporn, a spirited vendor"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jiraporn",
+    "relation": "stall_is",
+    "value": "an anchor to many early risers seeking comfort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jiraporn's small stall is an anchor to many early risers seeking comfort in her warm bowls"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jok",
+    "relation": "is",
+    "value": "rice porridge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her 'Jok' (rice porridge)"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jok",
+    "relation": "served_in",
+    "value": "warm bowls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeking comfort in her warm bowls"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jok",
+    "relation": "topped_with",
+    "value": "pork balls and softboiled eggs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "generously topped with pork balls and softboiled eggs"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Moo Ping",
+    "relation": "is",
+    "value": "grilled pork skewers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Moo Ping' (grilled pork skewers)"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Khao Niew",
+    "relation": "is",
+    "value": "sticky rice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Khao Niew' (sticky rice)"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Khao Niew",
+    "relation": "described_as",
+    "value": "a perfect grab-and-go lunch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Khao Niew' (sticky rice), a perfect grab-and-go lunch"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Arunee",
+    "relation": "nickname",
+    "value": "Queen of Moo Ping",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arunee, the so-called 'Queen of Moo Ping,'"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Arunee",
+    "relation": "chatted_on",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Chatting with Arunee, the so-called 'Queen of Moo Ping,' on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Arunee",
+    "relation": "secret_is",
+    "value": "a marinade passed down through generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her secret lies in a marinade passed down through generations"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bangkok's street food scene",
+    "relation": "aroma_of",
+    "value": "grilling meat begins to permeate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the aroma of grilling meat begins to permeate"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bangkok's street food scene",
+    "relation": "preserves",
+    "value": "deep-rooted traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the deep-rooted traditions that Bangkok's street food scene preserves"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Pad Kee Mao",
+    "relation": "is",
+    "value": "drunken noodles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Pad Kee Mao' (drunken noodles)"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Pla Pao",
+    "relation": "is",
+    "value": "grilled fish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sizzling 'Pla Pao' (grilled fish)"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Khanom Bueang",
+    "relation": "is",
+    "value": "Thai crepes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Khanom Bueang' (Thai crepes)"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Pad Kee Mao",
+    "relation": "contrasts_with",
+    "value": "the coolness of Khanom Bueang and Mango Sticky Rice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contrast with the coolness of 'Khanom Bueang' (Thai crepes) and 'Mango Sticky Rice,'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Bangkok's street food scene",
+    "relation": "illuminated_by",
+    "value": "fluorescent lights of countless stalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Illuminated by the fluorescent lights of countless stalls"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Bangkok's street food scene",
+    "relation": "takes_dramatic_turn_at",
+    "value": "the fall of dusk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the fall of dusk, the street food scene takes a dramatic turn"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Bangkok's street food scene",
+    "relation": "caters_to",
+    "value": "the gamut of sweet and savory cravings well into the late hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catering to the gamut of sweet and savory cravings well into the late hours"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Bangkok's street food scene",
+    "relation": "night_air_fills_with",
+    "value": "tantalizing smell of stir-fried dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the night air fills with the tantalizing smell of stir-fried dishes"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Bangkok's street food scene",
+    "relation": "described_as",
+    "value": "not merely a display of Thai flavors but a canvas of cultures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bangkok's street food scene is not merely a display of Thai flavors but a canvas of cultures"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Little India",
+    "relation": "explored_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, I explore the area known as 'Little India' within Phahurat Market"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Little India",
+    "relation": "located_in",
+    "value": "Phahurat Market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the area known as 'Little India' within Phahurat Market"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Roti",
+    "relation": "meets",
+    "value": "Green Curry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Roti' meets 'Green Curry'"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Singh",
+    "relation": "serves",
+    "value": "Masala Chai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like Singh, with his rich 'Masala Chai,'"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Singh",
+    "relation": "epitomizes",
+    "value": "the multicultural layers embedded within Bangkok's gastronomic mosaic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "epitomize the multicultural layers embedded within Bangkok's gastronomic mosaic"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Masala Chai",
+    "relation": "described_as",
+    "value": "rich",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with his rich 'Masala Chai,'"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Niran",
+    "relation": "operates_on",
+    "value": "the quieter end of Silom Road",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Niran, a street food vendor operating on the quieter end of Silom Road"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Silom Road",
+    "relation": "has_vendor",
+    "value": "Niran",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Niran, a street food vendor operating on the quieter end of Silom Road"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Gai Tod",
+    "relation": "is",
+    "value": "Thai fried chicken",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Gai Tod' (Thai fried chicken)"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Gai Tod",
+    "relation": "described_as",
+    "value": "a craft honed over years of trial and error",
+    "time": null,
+    "speaker": "Niran",
+    "verbatim": [
+     "Niran considers his 'Gai Tod' (Thai fried chicken) not as mere sustenance but as a craft honed over years of trial and error"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Niran",
+    "relation": "laments",
+    "value": "the fading presence of street food vendors",
+    "time": null,
+    "speaker": "Niran",
+    "verbatim": [
+     "He laments the fading presence of street food vendors due to rising regulations and changing cityscapes"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Bangkok's street food scene",
+    "relation": "pressure_from",
+    "value": "rising regulations and changing cityscapes",
+    "time": null,
+    "speaker": "Niran",
+    "verbatim": [
+     "due to rising regulations and changing cityscapes"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Niran",
+    "relation": "caused_by",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fading presence of street food vendors due to rising regulations and changing cityscapes"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Bangkok's street food scene",
+    "relation": "visit_night_market_on",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On the evening of September 20, 2023, I find myself amidst a bustling night market"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Bangkok's street food scene",
+    "relation": "congregate",
+    "value": "locals, expatriates, and travelers",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "where locals, expatriates, and travelers congregate"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Bangkok's street food scene",
+    "relation": "binds",
+    "value": "the community together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it binds the community together"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Bangkok's street food scene",
+    "relation": "seating",
+    "value": "plastic stools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sit on plastic stools"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Anong",
+    "relation": "described_as",
+    "value": "a young chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I meet Anong, a young chef who brings a new flair to 'Som Tam' (papaya salad)"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Anong",
+    "relation": "brings_new_flair_to",
+    "value": "Som Tam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings a new flair to 'Som Tam' (papaya salad)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Som Tam",
+    "relation": "is",
+    "value": "papaya salad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Som Tam' (papaya salad)"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Anong",
+    "relation": "infuses",
+    "value": "unlikely ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by infusing unlikely ingredients"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Anong",
+    "relation": "mechanism_of",
+    "value_ref": "c60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings a new flair to 'Som Tam' (papaya salad) by infusing unlikely ingredients"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Anong",
+    "relation": "draws_on",
+    "value": "her grandmother's wisdom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drawing on her grandmother's wisdom"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Anong",
+    "relation": "caters_to",
+    "value": "modern palates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while catering to modern palates"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Bangkok's street food scene",
+    "relation": "faces_challenges",
+    "value": "gentrification and health-conscious trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "confronts new challenges\u2014from gentrification to health-conscious trends"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Bangkok's street food scene",
+    "relation": "could_dilute",
+    "value": "the authenticity of Bangkok's street food",
+    "time": null,
+    "speaker": "some",
+    "verbatim": [
+     "While some fear these could dilute the authenticity of Bangkok's street food"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Bangkok's street food scene",
+    "relation": "embraced_as",
+    "value": "an inevitable evolution",
+    "time": null,
+    "speaker": "others",
+    "verbatim": [
+     "others embrace the change as an inevitable evolution"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Bangkok's street food scene",
+    "relation": "described_as",
+    "value": "a poignant reminder of the transience of local life and culinary heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to be a poignant reminder of the transience of local life and culinary heritage"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Bangkok's street food scene",
+    "relation": "night_winds_down_on",
+    "value": "September 30, 2023",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As the night winds down on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Bangkok's street food scene",
+    "relation": "linger_in",
+    "value": "the memories of those who've savored its offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "linger in the memories of those who've savored its offerings"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

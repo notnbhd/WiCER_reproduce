@@ -1,0 +1,984 @@
+{
+ "inventory": [
+  "Bigfoot",
+  "Dr. Emily Carter",
+  "James \"Jim\" Collins",
+  "Washington Cascades",
+  "Pacific Northwest",
+  "Loch Ness Monster",
+  "Loch Ness",
+  "Scottish Highlands",
+  "Dr. Fiona MacGregor",
+  "Alex Thompson",
+  "Chupacabra",
+  "Puerto Rico",
+  "Maria Sanchez",
+  "Latin America",
+  "Southern United States",
+  "Mothman",
+  "Point Pleasant, West Virginia",
+  "Robert Peterson",
+  "Wendigo",
+  "Canada",
+  "Michael Two-bears",
+  "Hannah Lewis",
+  "Yeti",
+  "Tenzin Sherpa",
+  "Sarah Jennings",
+  "Himalayas",
+  "Dragons",
+  "China",
+  "Li Ming"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Bigfoot",
+    "relation": "sought_in",
+    "value": "Pacific Northwest forests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Pacific Northwest forests chasing after Bigfoot"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Loch Ness Monster",
+    "relation": "sought_in",
+    "value": "remote lakes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the remote lakes in search of Nessie, the Loch Ness Monster"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Washington Cascades",
+    "relation": "site_of_viral_video",
+    "value": "a grainy video captured by a group of hikers",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a grainy video captured by a group of hikers in the Washington Cascades went viral"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Bigfoot",
+    "relation": "also_known_as",
+    "value": "Sasquatch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also known as Sasquatch"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bigfoot",
+    "relation": "hunt_rekindled",
+    "value": "the hunt for Bigfoot",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the hunt for Bigfoot\u2014also known as Sasquatch\u2014has been rekindled"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Washington Cascades",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Since September 4, 2023, when a grainy video captured by a group of hikers in the Washington Cascades went viral, the hunt for Bigfoot"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Carter",
+    "relation": "occupation",
+    "value": "anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthropologists like Dr. Emily Carter argue"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Emily Carter",
+    "relation": "argues",
+    "value": "Bigfoot is an integral part of Native American lore and represents humanity's deep connection to nature",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "argue that Bigfoot is an integral part of Native American lore and represents humanity's deep connection to nature"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Bigfoot",
+    "relation": "part_of",
+    "value": "Native American lore",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "Bigfoot is an integral part of Native American lore"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Bigfoot",
+    "relation": "represents",
+    "value": "humanity's deep connection to nature",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "represents humanity's deep connection to nature"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "James \"Jim\" Collins",
+    "relation": "occupation",
+    "value": "photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Photographers like James \"Jim\" Collins have ventured into these forests"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "James \"Jim\" Collins",
+    "relation": "ventured_into",
+    "value": "these forests, armed with the latest camera gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have ventured into these forests, armed with the latest camera gear"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "James \"Jim\" Collins",
+    "relation": "hoped_to_verify",
+    "value": "the presence of this creature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hoping to verify the presence of this creature"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "James \"Jim\" Collins",
+    "relation": "in_order_to",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ventured into these forests, armed with the latest camera gear, hoping to verify the presence of this creature"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "James \"Jim\" Collins",
+    "relation": "work_featured_in",
+    "value": "various tabloids and magazines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose work has been featured in various tabloids and magazines"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "James \"Jim\" Collins",
+    "relation": "suggests",
+    "value": "Bigfoot is not just an animal but a symbol of the wilderness that modern society is rapidly losing",
+    "time": null,
+    "speaker": "James \"Jim\" Collins",
+    "verbatim": [
+     "suggests that Bigfoot is not just an animal but a symbol of the wilderness that modern society is rapidly losing"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Loch Ness",
+    "relation": "located_in",
+    "value": "Scottish Highlands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Scottish Highlands hold secrets beneath the dark waters of Loch Ness"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Scottish Highlands",
+    "relation": "holds",
+    "value": "secrets beneath the dark waters of Loch Ness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Scottish Highlands hold secrets beneath the dark waters of Loch Ness"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Loch Ness Monster",
+    "relation": "claimed_sighting",
+    "value": "a claimed sighting",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since a claimed sighting on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Loch Ness Monster",
+    "relation": "also_known_as",
+    "value": "Nessie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Loch Ness Monster\u2014 or Nessie\u2014"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Loch Ness Monster",
+    "relation": "captured_imagination",
+    "value": "the global imagination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has once again captured the global imagination"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Loch Ness Monster",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Since a claimed sighting on October 22, 2023, the Loch Ness Monster\u2014 or Nessie\u2014has once again captured the global imagination"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Loch Ness Monster",
+    "relation": "dismissed_as",
+    "value": "misidentifications or hoaxes",
+    "time": null,
+    "speaker": "skeptics",
+    "verbatim": [
+     "Though skeptics dismiss these sightings as misidentifications or hoaxes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Loch Ness Monster",
+    "relation": "believed_in_by",
+    "value": "a dedicated community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a dedicated community that believes in Nessie\u2019s existence"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Fiona MacGregor",
+    "relation": "occupation",
+    "value": "marine biologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marine biologist Dr. Fiona MacGregor suggests"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Loch Ness Monster",
+    "relation": "represents",
+    "value": "more than just a possible prehistoric creature",
+    "time": null,
+    "speaker": "Dr. Fiona MacGregor",
+    "verbatim": [
+     "suggests that Nessie represents more than just a possible prehistoric creature"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Loch Ness Monster",
+    "relation": "embodies",
+    "value": "Scotland's natural mysteries and the cultural pride of its people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It embodies Scotland's natural mysteries and the cultural pride of its people"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Alex Thompson",
+    "relation": "occupation",
+    "value": "underwater photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Underwater photographer Alex Thompson has used submersible drones"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Alex Thompson",
+    "relation": "used",
+    "value": "submersible drones to explore the depths of Loch Ness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has used submersible drones to explore the depths of Loch Ness"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Thompson",
+    "relation": "attempts_to_produce",
+    "value": "irrefutable photographic evidence of this aquatic enigma",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attempting to produce irrefutable photographic evidence of this aquatic enigma"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alex Thompson",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has used submersible drones to explore the depths of Loch Ness, attempting to produce irrefutable photographic evidence of this aquatic enigma"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Chupacabra",
+    "relation": "has_terrified_and_fascinated",
+    "value": "people across Latin America and Southern United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the chupacabra has terrified and fascinated people across Latin America and Southern United States"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chupacabra",
+    "relation": "described_as",
+    "value": "a reptile-like creature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Described as a reptile-like creature with leathery or scaly greenish-gray skin"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chupacabra",
+    "relation": "has_skin",
+    "value": "leathery or scaly greenish-gray skin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leathery or scaly greenish-gray skin"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chupacabra",
+    "relation": "has_spines",
+    "value": "sharp spines or quills running down its back",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sharp spines or quills running down its back"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chupacabra",
+    "relation": "reputed_to_drink_blood_of",
+    "value": "livestock, especially goats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this beast is reputed to drink the blood of livestock, especially goats"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Puerto Rico",
+    "relation": "surge_in_reported_attacks_on",
+    "value": "cattle",
+    "time": "late November 2023",
+    "speaker": null,
+    "verbatim": [
+     "cattle near Puerto Rico in late November 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Chupacabra",
+    "relation": "gained_new_life",
+    "value": "new life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the legend of the chupacabra has gained new life"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Puerto Rico",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After a surge in reported attacks on\ncattle near Puerto Rico in late November 2023, the legend of the chupacabra has gained new life"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Maria Sanchez",
+    "relation": "occupation",
+    "value": "wildlife photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wildlife photographer Maria Sanchez has spent months in the forests of Puerto Rico"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Maria Sanchez",
+    "relation": "spent_months_in",
+    "value": "the forests of Puerto Rico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has spent months in the forests of Puerto Rico"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Maria Sanchez",
+    "relation": "sets_camera_traps",
+    "value": "camera traps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "setting camera traps in the hope of confirming its existence"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Maria Sanchez",
+    "relation": "hoped_to_confirm",
+    "value": "its existence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the hope of confirming its existence"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Sanchez",
+    "relation": "in_order_to",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "setting camera traps in the hope of confirming its existence"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Sanchez",
+    "relation": "work_reflects_on",
+    "value": "the creature itself and the rich tapestry of Latin American folklore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her work reflects not only on the creature itself but also on the rich tapestry of Latin American folklore that it represents"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Mothman",
+    "relation": "sightings_reported_in",
+    "value": "Point Pleasant, West Virginia",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "November 12, 2023, marked the latest in a long line of reported sightings of the Mothman in Point Pleasant, West Virginia"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Point Pleasant, West Virginia",
+    "relation": "latest_sighting_on",
+    "value": "November 12, 2023",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "November 12, 2023, marked the latest in a long line of reported sightings"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mothman",
+    "relation": "described_as",
+    "value": "dark, winged figure with glowing red eyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This dark, winged figure, with glowing red eyes"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mothman",
+    "relation": "rooted_in",
+    "value": "local mythology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is deeply rooted in local mythology"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Mothman",
+    "relation": "said_to_be",
+    "value": "an omen of impending disaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "said to be an omen of impending disaster"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Robert Peterson",
+    "relation": "occupation",
+    "value": "documentarian and photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Documentarian and photographer Robert Peterson has spent years"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Robert Peterson",
+    "relation": "has_spent_years_capturing",
+    "value": "the haunting environment of Point Pleasant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has spent years capturing the haunting environment of Point Pleasant"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Robert Peterson",
+    "relation": "exploring",
+    "value": "the interplay of light and shadow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exploring the interplay of light and shadow"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Robert Peterson",
+    "relation": "creates",
+    "value": "an atmosphere that seems to be whispering tales of the Mothman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to create an atmosphere that seems to be whispering tales of the Mothman"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Robert Peterson",
+    "relation": "in_order_to",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exploring the interplay of light and shadow to create an atmosphere"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Robert Peterson",
+    "relation": "argues",
+    "value": "the creature is not just part of the local folklore but a living, breathing element of Point Pleasant's identity",
+    "time": null,
+    "speaker": "Robert Peterson",
+    "verbatim": [
+     "He argues that the creature is not just part of the local folklore but a living, breathing element of Point Pleasant's identity"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Canada",
+    "relation": "setting_of_wendigo_lore",
+    "value": "Indigenous communities speak of the Wendigo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Far north, in the chilling winds of Canada, Indigenous communities speak of the Wendigo"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Wendigo",
+    "relation": "described_as",
+    "value": "a malevolent, cannibalistic spirit that could possess humans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a malevolent, cannibalistic spirit that could possess humans"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Wendigo",
+    "relation": "sighting_reported_on",
+    "value": "a chilling account of a Wendigo sighting",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a chilling account of a Wendigo sighting was reported on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Michael Two-bears",
+    "relation": "occupation",
+    "value": "First Nations community leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "First Nations community leaders like Michael Two-bears"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Michael Two-bears",
+    "relation": "invited",
+    "value": "cultural scholars and photographers to their lands",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "have invited cultural scholars and photographers to their lands"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Michael Two-bears",
+    "relation": "invited_to_record_and_respect",
+    "value": "their traditions and tales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to record and respect their traditions and tales"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Michael Two-bears",
+    "relation": "in_order_to",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invited cultural scholars and photographers to their lands to record and respect their traditions and tales"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Hannah Lewis",
+    "relation": "occupation",
+    "value": "photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "photographers like Hannah Lewis turn to the stark, unforgiving landscapes"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Hannah Lewis",
+    "relation": "turns_to",
+    "value": "the stark, unforgiving landscapes that reflect the savageness of the Wendigo's legend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "photographers like Hannah Lewis turn to the stark, unforgiving landscapes that reflect the savageness of the Wendigo's legend"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Hannah Lewis",
+    "relation": "captures",
+    "value": "the essence of such an intangible legend on camera",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To capture the essence of such an intangible legend on camera"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Hannah Lewis",
+    "relation": "in_order_to",
+    "value_ref": "c66",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To capture the essence of such an intangible legend on camera, photographers like Hannah Lewis turn to the stark, unforgiving landscapes"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Himalayas",
+    "relation": "setting_of_yeti_stories",
+    "value": "stories of the Yeti",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Across the Himalayas, stories of the Yeti"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Yeti",
+    "relation": "also_known_as",
+    "value": "Abominable Snowman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stories of the Yeti, or \"Abominable Snowman,\""
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Yeti",
+    "relation": "captivated",
+    "value": "climbers and explorers",
+    "time": "for generations",
+    "speaker": null,
+    "verbatim": [
+     "have captivated climbers and explorers for generations"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Yeti",
+    "relation": "track_findings_reported_by",
+    "value": "unverified track findings by mountaineers",
+    "time": "the spring of 2024",
+    "speaker": null,
+    "verbatim": [
+     "Following unverified Yeti track findings by mountaineers in the spring of 2024"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Tenzin Sherpa",
+    "relation": "occupation",
+    "value": "professional tracker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "professional tracker Tenzin Sherpa"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Tenzin Sherpa",
+    "relation": "collaborated_with",
+    "value": "Sarah Jennings",
+    "time": "the spring of 2024",
+    "speaker": null,
+    "verbatim": [
+     "Tenzin Sherpa collaborated with wildlife photographer Sarah Jennings"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Sarah Jennings",
+    "relation": "occupation",
+    "value": "wildlife photographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wildlife photographer Sarah Jennings"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Tenzin Sherpa",
+    "relation": "hopeful_bid_to_document",
+    "value": "this elusive creature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a hopeful bid to document this elusive creature"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Tenzin Sherpa",
+    "relation": "in_order_to",
+    "value_ref": "c75",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborated with wildlife photographer Sarah Jennings in a hopeful bid to document this elusive creature"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Sarah Jennings",
+    "relation": "photographs_attempt_to_capture",
+    "value": "the harsh beauty of the Himalayas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their photographs attempt to capture the harsh beauty of the Himalayas"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Yeti",
+    "relation": "possibly_roams",
+    "value": "unseen and unheard in these white wildernesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a creature that roams unseen and unheard in these white wildernesses"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Dragons",
+    "relation": "reported_sightings_in",
+    "value": "China's remote mountainous regions",
+    "time": "Throughout 2023",
+    "speaker": null,
+    "verbatim": [
+     "Throughout 2023, there were a series of reports from China's remote mountainous regions claiming sightings of dragons"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Dragons",
+    "relation": "described_as",
+    "value": "serpentine beings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serpentine beings believed to control water and weather"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Dragons",
+    "relation": "believed_to_control",
+    "value": "water and weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serpentine beings believed to control water and weather"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Dragons",
+    "relation": "dismissed_as",
+    "value": "fantastical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many dismiss these as fantastical"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Li Ming",
+    "relation": "occupation",
+    "value": "Chinese historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chinese historian Li Ming"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Li Ming",
+    "relation": "sees_as",
+    "value": "vital parts of Chinese mythology deserving of research",
+    "time": null,
+    "speaker": "Li Ming",
+    "verbatim": [
+     "see them as vital parts of Chinese mythology deserving of research"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "China",
+    "relation": "photographers_used_drones_over",
+    "value": "the mountains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Photographers venturing into these areas have used drones to soar above the mountains"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Dragons",
+    "relation": "potentially_hiding_in",
+    "value": "plain sight within the clouds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capturing breathtaking landscapes that hold the potential for dragons to be hiding in plain sight within the clouds"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

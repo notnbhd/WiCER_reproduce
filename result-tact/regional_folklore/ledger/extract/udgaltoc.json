@@ -1,0 +1,808 @@
+{
+ "inventory": [
+  "Professor Martha Haywood",
+  "University of Imaginaria",
+  "Festive Follies: A Look at Seasonal Festivals and their Associated Myths",
+  "Ember Grove",
+  "Jeb McDougle",
+  "Great Pumpkin Parade",
+  "Jenna Fischer",
+  "Coldsnap",
+  "Fiesta of the Fertile Frosty",
+  "Sylvia Knitworth",
+  "Bountifields",
+  "Dancing Scarecrow Gala",
+  "Mayor Bethany O'Reilly",
+  "Dr. Reed Greenstalk",
+  "Summer Solstice",
+  "Sunnydale",
+  "Gunther Flex",
+  "Dawn Duel",
+  "Emily Airheart",
+  "RootsVille",
+  "Turnip Tussle",
+  "Arnold Yarrow",
+  "Sandra Spade",
+  "Aromatown",
+  "Lila Melodia",
+  "Tim Root",
+  "Cornucopia Town",
+  "Maize Mazes",
+  "Willow Bark"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Professor Martha Haywood",
+    "relation": "revealed",
+    "value": "Festive Follies: A Look at Seasonal Festivals and their Associated Myths",
+    "time": "Since September 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1st, 2023, when Professor Martha Haywood of the University of Imaginaria revealed her groundbreaking compendium of \"Festive Follies: A Look at Seasonal Festivals and their Associated Myths,\""
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Professor Martha Haywood",
+    "relation": "affiliated_with",
+    "value": "University of Imaginaria",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Martha Haywood of the University of Imaginaria"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Festive Follies: A Look at Seasonal Festivals and their Associated Myths",
+    "relation": "described_as",
+    "value": "groundbreaking compendium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealed her groundbreaking compendium of"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Ember Grove",
+    "relation": "hosts",
+    "value": "Great Pumpkin Parade",
+    "time": "On October 12th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 12th, 2023, the town of Ember Grove will play host to the blissfully peculiar Great Pumpkin Parade."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jeb McDougle",
+    "relation": "role",
+    "value": "old-timer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "old-timer Jeb McDougle"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jeb McDougle",
+    "relation": "lore_claims",
+    "value": "pumpkins if left out under a harvest moon, will spontaneously carouse and waltz around the field",
+    "time": null,
+    "speaker": "Jeb McDougle",
+    "verbatim": [
+     "According to the local lore told by old-timer Jeb McDougle, pumpkins if left out under a harvest moon, will spontaneously carouse and waltz around the field."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Great Pumpkin Parade",
+    "relation": "participants_dress_in",
+    "value": "orange garb, with leafy headdresses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the townsfolk dress up in orange garb, with leafy headdresses"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Great Pumpkin Parade",
+    "relation": "participants_thrust",
+    "value": "rake-scepters in the air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thrusting their rake-scepters in the air"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Great Pumpkin Parade",
+    "relation": "purpose",
+    "value": "keep the pumpkin spirits high and the crops hearty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To keep the pumpkin spirits high and the crops hearty"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Great Pumpkin Parade",
+    "relation": "in_order_to",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To keep the pumpkin spirits high and the crops hearty, the townsfolk dress up in orange garb, with leafy headdresses"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jenna Fischer",
+    "relation": "profession",
+    "value": "anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "anthropologist Jenna Fischer points out"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jenna Fischer",
+    "relation": "states",
+    "value": "It's a community\u2019s poetic way of expressing their bond with the earth's cycles.",
+    "time": null,
+    "speaker": "Jenna Fischer",
+    "verbatim": [
+     "It's a community\u2019s poetic way of expressing their bond with the earth's cycles."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Jenna Fischer",
+    "relation": "asks",
+    "value": "who would pass up an opportunity to dance with a pumpkin?",
+    "time": null,
+    "speaker": "Jenna Fischer",
+    "verbatim": [
+     "who would pass up an opportunity to dance with a pumpkin?"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Coldsnap",
+    "relation": "celebrates",
+    "value": "Fiesta of the Fertile Frosty",
+    "time": "every December 5th",
+    "speaker": null,
+    "verbatim": [
+     "the village of Coldsnap celebrates the \"Fiesta of the Fertile Frosty\" every December 5th."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Fiesta of the Fertile Frosty",
+    "relation": "held_on",
+    "value": "every December 5th",
+    "time": "every December 5th",
+    "speaker": null,
+    "verbatim": [
+     "every December 5th"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Fiesta of the Fertile Frosty",
+    "relation": "legend_claims",
+    "value": "crafting a snowman with a carrot nose, button eyes, and a particularly dashing scarf will bring good fortune in the form of cold-hard cash",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafting a snowman with a carrot nose, button eyes, and a particularly dashing scarf will bring good fortune in the form of cold-hard cash"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sylvia Knitworth",
+    "relation": "age",
+    "value": "89",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "89-year-old Sylvia Knitworth"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sylvia Knitworth",
+    "relation": "attendance",
+    "value": "hasn\u2019t missed a year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who hasn\u2019t missed a year"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sylvia Knitworth",
+    "relation": "states",
+    "value": "It\u2019s proven",
+    "time": null,
+    "speaker": "Sylvia Knitworth",
+    "verbatim": [
+     "\u201cIt\u2019s proven,\u201d insists 89-year-old Sylvia Knitworth"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sylvia Knitworth",
+    "relation": "reports",
+    "value": "Every time I build a Frosty, I find loose change in my couch the next day!",
+    "time": null,
+    "speaker": "Sylvia Knitworth",
+    "verbatim": [
+     "Every time I build a Frosty, I find loose change in my couch the next day!"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Fiesta of the Fertile Frosty",
+    "relation": "community_effect",
+    "value": "promote community togetherness and laughter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the myth does promote community togetherness and laughter"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Fiesta of the Fertile Frosty",
+    "relation": "agricultural_connection",
+    "value": "seems as thin as ice on a sunny day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the agricultural connection seems as thin as ice on a sunny day"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Fiesta of the Fertile Frosty",
+    "relation": "skepticism",
+    "value": "Economists remain skeptical of the snowmen's supposed financial benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economists, however, remain skeptical of the snowmen's supposed financial benefits."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Bountifields",
+    "relation": "holds",
+    "value": "Dancing Scarecrow Gala",
+    "time": "April 15th",
+    "speaker": null,
+    "verbatim": [
+     "the township of Bountifields holds the \"Dancing Scarecrow Gala\" on April 15th."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dancing Scarecrow Gala",
+    "relation": "held_on",
+    "value": "April 15th",
+    "time": "April 15th",
+    "speaker": null,
+    "verbatim": [
+     "the township of Bountifields holds the \"Dancing Scarecrow Gala\" on April 15th."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dancing Scarecrow Gala",
+    "relation": "involves",
+    "value": "locals erect human-sized scarecrows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the locals erect human-sized scarecrows"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dancing Scarecrow Gala",
+    "relation": "involves",
+    "value": "dress them in flamboyant attire for a barnyard boogie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dress them in flamboyant attire for a barnyard boogie"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dancing Scarecrow Gala",
+    "relation": "involves",
+    "value": "no actual humans are harmed in the making of these effigies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "no actual humans are harmed in the making of these effigies"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mayor Bethany O'Reilly",
+    "relation": "says",
+    "value": "Scarecrows are too gloomy",
+    "time": null,
+    "speaker": "Mayor Bethany O'Reilly",
+    "verbatim": [
+     "\u201cScarecrows are too gloomy,\u201d remarks Mayor Bethany O'Reilly."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mayor Bethany O'Reilly",
+    "relation": "reasons",
+    "value": "if they looked like they were having a good time",
+    "time": null,
+    "speaker": "Mayor Bethany O'Reilly",
+    "verbatim": [
+     "We figured if they looked like they were having a good time"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mayor Bethany O'Reilly",
+    "relation": "expects",
+    "value": "the crops would grow better out of jealousy",
+    "time": null,
+    "speaker": "Mayor Bethany O'Reilly",
+    "verbatim": [
+     "the crops would grow better out of jealousy"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Mayor Bethany O'Reilly",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": "Mayor Bethany O'Reilly",
+    "verbatim": [
+     "We figured if they looked like they were having a good time, the crops would grow better out of jealousy"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Reed Greenstalk",
+    "relation": "profession",
+    "value": "plant psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plant psychologist Dr. Reed Greenstalk agrees with the sentiment"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Reed Greenstalk",
+    "relation": "says",
+    "value": "Happy farmers make for happy plants. Even if it has nothing to do with envy.",
+    "time": null,
+    "speaker": "Dr. Reed Greenstalk",
+    "verbatim": [
+     "\u201cHappy farmers make for happy plants. Even if it has nothing to do with envy.\u201d"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dancing Scarecrow Gala",
+    "relation": "not_scientifically_recognized_as",
+    "value": "an agricultural boost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Although dancing with inanimate objects is not scientifically recognized as an agricultural boost"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Summer Solstice",
+    "relation": "date",
+    "value": "June 21st",
+    "time": "June 21st",
+    "speaker": null,
+    "verbatim": [
+     "the summer solstice, June 21st"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sunnydale",
+    "relation": "believes",
+    "value": "the Earth must be defended from solar flares by a sunrise sword fight",
+    "time": null,
+    "speaker": "villagers of Sunnydale",
+    "verbatim": [
+     "according to the villagers of Sunnydale, the Earth must be defended from solar flares by a sunrise sword fight"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dawn Duel",
+    "relation": "occurs_on",
+    "value": "the summer solstice, June 21st",
+    "time": "June 21st",
+    "speaker": null,
+    "verbatim": [
+     "under the high sun of the summer solstice, June 21st. The day when, according to the villagers of Sunnydale, the Earth must be defended from solar flares by a sunrise sword fight."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dawn Duel",
+    "relation": "involves",
+    "value": "heavy oven mitts and baguettes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Muscle-bound men and women don heavy oven mitts and wield baguettes"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Gunther Flex",
+    "relation": "self_description",
+    "value": "self-appointed solar guardian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "self-appointed solar guardian Gunther Flex"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Gunther Flex",
+    "relation": "says",
+    "value": "It's not about winning, it's about showing the sun who's boss.",
+    "time": null,
+    "speaker": "Gunther Flex",
+    "verbatim": [
+     "\u201cIt's not about winning,\u201d says self-appointed solar guardian Gunther Flex, \u201cit\u2019s about showing the sun who\u2019s boss.\u201d"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Airheart",
+    "relation": "profession",
+    "value": "solar physicist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solar physicist Emily Airheart amusedly notes"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Airheart",
+    "relation": "states",
+    "value": "solar flares can't reach the Earth's surface",
+    "time": null,
+    "speaker": "Emily Airheart",
+    "verbatim": [
+     "Well, technically, solar flares can't reach the Earth's surface"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emily Airheart",
+    "relation": "characterizes_as",
+    "value": "an interesting form of exercise",
+    "time": null,
+    "speaker": "Emily Airheart",
+    "verbatim": [
+     "I suppose it's an interesting form of exercise."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "RootsVille",
+    "relation": "engages_in",
+    "value": "Turnip Tussle",
+    "time": "Come August 7th",
+    "speaker": null,
+    "verbatim": [
+     "Come August 7th, the farming community of RootsVille engages in the curious practice of the \"Turnip Tussle,\""
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Turnip Tussle",
+    "relation": "held_on",
+    "value": "August 7th",
+    "time": "Come August 7th",
+    "speaker": null,
+    "verbatim": [
+     "Come August 7th"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Turnip Tussle",
+    "relation": "practice_involves",
+    "value": "large turnips are hurled across fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where large turnips are hurled across fields"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Turnip Tussle",
+    "relation": "purpose",
+    "value": "promote fertility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to promote fertility"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Turnip Tussle",
+    "relation": "in_order_to",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where large turnips are hurled across fields to promote fertility"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Arnold Yarrow",
+    "relation": "title",
+    "value": "three-time Turnip Toss Champion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "three-time Turnip Toss Champion"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Arnold Yarrow",
+    "relation": "says",
+    "value": "Turnips can't walk into the fields on their own, can they?",
+    "time": null,
+    "speaker": "Arnold Yarrow",
+    "verbatim": [
+     "\u201cTurnips can't walk into the fields on their own, can they?\u201d jests Arnold Yarrow"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Arnold Yarrow",
+    "relation": "says",
+    "value": "We're just helping them find their way to soil-filled bliss.",
+    "time": null,
+    "speaker": "Arnold Yarrow",
+    "verbatim": [
+     "\u201cWe're just helping them find their way to soil-filled bliss.\u201d"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Sandra Spade",
+    "relation": "profession",
+    "value": "horticulturalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Horticulturalist Sandra Spade chuckles at the concept"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sandra Spade",
+    "relation": "says",
+    "value": "physically moving them doesn't help, but it does turn the soil a bit",
+    "time": null,
+    "speaker": "Sandra Spade",
+    "verbatim": [
+     "Well, physically moving them doesn't help, but it does turn the soil a bit."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sandra Spade",
+    "relation": "says",
+    "value": "it's important for farmers to vent out their farming frustrations in some form of vegetable-throwing",
+    "time": null,
+    "speaker": "Sandra Spade",
+    "verbatim": [
+     "Plus, it's important for farmers to vent out their farming frustrations in some form of vegetable-throwing."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Aromatown",
+    "relation": "date",
+    "value": "September 16th",
+    "time": "September 16th",
+    "speaker": null,
+    "verbatim": [
+     "Enter the mythical month of September 16th, in the scent-laden fields of Aromatown."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Aromatown",
+    "relation": "folklore_claims",
+    "value": "singing to plants, especially lavenders, on this particular date at the stroke of midnight will result in a bountiful harvest",
+    "time": "September 16th",
+    "speaker": null,
+    "verbatim": [
+     "Folklore has it that singing to plants, especially lavenders, on this particular date at the stroke of midnight will result in a bountiful harvest."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Aromatown",
+    "relation": "belief",
+    "value": "the sweeter the serenade, the richer the crop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s said that the sweeter the serenade, the richer the crop."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Lila Melodia",
+    "relation": "profession",
+    "value": "vocalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leading the croon is vocalist Lila Melodia"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Lila Melodia",
+    "relation": "swears_by",
+    "value": "nighttime concerts for chlorophyllous beings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who swears by nighttime concerts for chlorophyllous beings"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Tim Root",
+    "relation": "profession",
+    "value": "botanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "botanist\nTim Root."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Tim Root",
+    "relation": "states",
+    "value": "plants respond to vibrations",
+    "time": null,
+    "speaker": "Tim Root",
+    "verbatim": [
+     "it is a botanical fact that they \u201crespond to vibrations,\u201d"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Tim Root",
+    "relation": "says",
+    "value": "they probably prefer classical music to my off-key shower ballads",
+    "time": null,
+    "speaker": "Tim Root",
+    "verbatim": [
+     "Though they probably prefer classical music to my off-key shower ballads,"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Cornucopia Town",
+    "relation": "hosts",
+    "value": "Maize Mazes",
+    "time": "October 31st",
+    "speaker": null,
+    "verbatim": [
+     "we find ourselves lost in the Maize Mazes of Cornucopia Town."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Maize Mazes",
+    "relation": "held_on",
+    "value": "a moonlit night of October 31st",
+    "time": "October 31st",
+    "speaker": null,
+    "verbatim": [
+     "on a moonlit night of October 31st"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Maize Mazes",
+    "relation": "believed_to_ensure",
+    "value": "a season free from pesky earworms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s believed that navigating the labyrinth by moonlight ensures a season free from pesky earworms."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Willow Bark",
+    "relation": "profession",
+    "value": "local shaman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local shaman Willow Bark"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Willow Bark",
+    "relation": "says",
+    "value": "It\u2019s all about the moon\u2019s energy",
+    "time": null,
+    "speaker": "Willow Bark",
+    "verbatim": [
+     "\u201cIt\u2019s all about the moon\u2019s energy,\u201d explains local shaman Willow Bark"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Willow Bark",
+    "relation": "says",
+    "value": "a little bit about not tripping over in the dark",
+    "time": null,
+    "speaker": "Willow Bark",
+    "verbatim": [
+     "and a little bit about not tripping over in the dark"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Maize Mazes",
+    "relation": "moon_pest_control_debated_by",
+    "value": "Entomologists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entomologists may debate the moon\u2019s pest control abilities"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

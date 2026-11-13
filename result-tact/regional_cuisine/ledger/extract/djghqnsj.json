@@ -1,0 +1,752 @@
+{
+ "inventory": [
+  "Southeast Asia",
+  "Southeast Asian cuisine",
+  "Chef Aarav Nguyen",
+  "Saigon Fusion",
+  "Ho Chi Minh City",
+  "Thai green curry",
+  "Vietnamese pho",
+  "Banh Mi sandwich",
+  "Chef Ratu Ayu",
+  "Rendang Sous-Vide",
+  "Spice Symphony",
+  "Jakarta",
+  "Indonesian rendang",
+  "Chef Suphawadee Chin",
+  "Bangkok Modern",
+  "Tom Yum Soup",
+  "Bangkok",
+  "Chef Harith Zamani",
+  "Malay Modernist",
+  "Kuala Lumpur",
+  "sago gula melaka dessert",
+  "Bisma Rajendra",
+  "Kombucha",
+  "Kaffir Lime Kombucha",
+  "Linh Tran",
+  "Vegelicious",
+  "fish sauce",
+  "vegan fish sauce"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Southeast Asia",
+    "relation": "has_culinary_revolution",
+    "value": "a culinary revolution is simmering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a culinary revolution is simmering"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Southeast Asia",
+    "relation": "kitchen_scents_include",
+    "value": "scents of lemongrass and ginger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where scents of lemongrass and ginger marry the soul-stirring heat of chilies"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Southeast Asian cuisine",
+    "relation": "renowned_for",
+    "value": "bold flavors and intricate techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long renowned for its bold flavors and intricate techniques"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Thai green curry",
+    "relation": "has_captivated_palettes",
+    "value": "worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thai green curry and Vietnamese pho have long captivated palettes worldwide"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Vietnamese pho",
+    "relation": "has_captivated_palettes",
+    "value": "worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thai green curry and Vietnamese pho have long captivated palettes worldwide"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Southeast Asian cuisine",
+    "relation": "pioneering_chefs_spotlighting_regional_dishes",
+    "value": "regional dishes with a twist",
+    "time": "since the dawn of 2024",
+    "speaker": null,
+    "verbatim": [
+     "since the dawn of 2024, pioneering chefs have taken the stage to spotlight regional dishes with a twist"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Chef Aarav Nguyen",
+    "relation": "is_a",
+    "value": "Vietnamese-French culinary artiste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Aarav Nguyen, a Vietnamese-French culinary artiste"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Chef Aarav Nguyen",
+    "relation": "opened",
+    "value": "Saigon Fusion",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who opened the avant-garde eatery \"Saigon Fusion,\" in the heart of Ho Chi Minh City on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Saigon Fusion",
+    "relation": "located_in",
+    "value": "the heart of Ho Chi Minh City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the heart of Ho Chi Minh City on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Saigon Fusion",
+    "relation": "opened_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who opened the avant-garde eatery \"Saigon Fusion,\" in the heart of Ho Chi Minh City on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chef Aarav Nguyen",
+    "relation": "fusion_approach",
+    "value": "incorporates French techniques into the baseline of Vietnamese staples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nguyen's approach to fusion incorporates French techniques into the baseline of Vietnamese staples"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Chef Aarav Nguyen",
+    "relation": "approach_reflects",
+    "value": "his mixed heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reflecting his mixed heritage and offering an unprecedented dining experience"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Banh Mi sandwich",
+    "relation": "deconstructed_by",
+    "value": "Chef Aarav Nguyen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Banh Mi sandwich has been deconstructed by Chef Nguyen into a fine dining event"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Banh Mi sandwich",
+    "relation": "is_a",
+    "value": "a classic street food item",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A classic street food item, the Banh Mi sandwich"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Banh Mi sandwich",
+    "relation": "original_elements",
+    "value": "crispy baguette, savory pork, pate, pickled vegetables, and fresh herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Taking apart the elements of crispy baguette, savory pork, pate, pickled vegetables, and fresh herbs"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Banh Mi sandwich",
+    "relation": "reinterpreted_as",
+    "value": "a crispy baguette tuile topped with sous-vide pork belly, a dollop of chicken liver parfait, and a vibrant array of pickled daikon and carrot ribbons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he reinterprets them into a crispy baguette tuile topped with sous-vide pork belly, a dollop of chicken liver parfait, and a vibrant array of pickled daikon and carrot ribbons"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Banh Mi sandwich",
+    "relation": "introduced_to_diners_on",
+    "value": "September 17, 2023",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "formally introduced to diners on September 17, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Banh Mi sandwich",
+    "relation": "reception",
+    "value": "an instant hit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been an instant hit"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Chef Ratu Ayu",
+    "relation": "based_in",
+    "value": "Jakarta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Moving further south, in Jakarta, Chef Ratu Ayu has redefined Indonesian rendang."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Chef Ratu Ayu",
+    "relation": "redefined",
+    "value": "Indonesian rendang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Ratu Ayu has redefined Indonesian rendang."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Chef Ratu Ayu",
+    "relation": "unveiled",
+    "value": "Rendang Sous-Vide",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023, she unveiled \"Rendang Sous-Vide\" at her restaurant"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Chef Ratu Ayu",
+    "relation": "owns_restaurant",
+    "value": "Spice Symphony",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at her restaurant, \"Spice Symphony.\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Indonesian rendang",
+    "relation": "traditional_method",
+    "value": "slow-cooked dry curry that typically takes hours to reach its deep, complex flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditionally slow-cooked dry curry typically takes hours to reach its deep, complex flavors."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Rendang Sous-Vide",
+    "relation": "method",
+    "value": "slow-cooking the beef in a sous-vide bath with a melange of spices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ayu modernizes the process by slow-cooking the beef in a sous-vide bath with a melange of spices"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Rendang Sous-Vide",
+    "relation": "spices_include",
+    "value": "galangal, lemongrass, and kaffir lime leaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including galangal, lemongrass, and kaffir lime leaves"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Rendang Sous-Vide",
+    "relation": "result",
+    "value": "an equally tender and tasteful rendition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in an equally tender and tasteful rendition"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Rendang Sous-Vide",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slow-cooking the beef in a sous-vide bath with a melange of spices, including galangal, lemongrass, and kaffir lime leaves, resulting in an equally tender and tasteful rendition"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Rendang Sous-Vide",
+    "relation": "presented_on",
+    "value": "a bed of coconut turmeric foam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presented on a bed of coconut turmeric foam"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Rendang Sous-Vide",
+    "relation": "beef_seared_to",
+    "value": "perfect crispness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The beef is then seared to perfect crispness"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Bangkok",
+    "relation": "food_markets_buzz_with",
+    "value": "the tangy and tantalizing aroma of Tom Yum Soup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "food markets have always buzzed with the tangy and tantalizing aroma of Tom Yum Soup"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Tom Yum Soup",
+    "relation": "described_as",
+    "value": "hot and sour masterpiece",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This hot and sour masterpiece has found a new identity through the hands of Chef Suphawadee Chin"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Tom Yum Soup",
+    "relation": "new_identity_via",
+    "value": "Chef Suphawadee Chin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This hot and sour masterpiece has found a new identity through the hands of Chef Suphawadee Chin"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chef Suphawadee Chin",
+    "relation": "impressed_patrons_on",
+    "value": "the patrons of her restaurant, \"Bangkok Modern\"",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who on December 1, 2023, impressed the patrons of her restaurant, \"Bangkok Modern,\" with a tom yum consomm\u00e9 encapsulated in delicate spheres using molecular gastronomy techniques"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Suphawadee Chin",
+    "relation": "owns_restaurant",
+    "value": "Bangkok Modern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "impressed the patrons of her restaurant, \"Bangkok Modern,\""
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Suphawadee Chin",
+    "relation": "served",
+    "value": "a tom yum consomm\u00e9 encapsulated in delicate spheres using molecular gastronomy techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a tom yum consomm\u00e9 encapsulated in delicate spheres using molecular gastronomy techniques"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "sago gula melaka dessert",
+    "relation": "transformed_by",
+    "value": "Malaysian Chef Harith Zamani in Kuala Lumpur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the traditional sago gula melaka dessert has been transformed by Malaysian Chef Harith Zamani in Kuala Lumpur"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Chef Harith Zamani",
+    "relation": "nationality",
+    "value": "Malaysian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malaysian Chef Harith Zamani"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Chef Harith Zamani",
+    "relation": "based_in",
+    "value": "Kuala Lumpur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed by Malaysian Chef Harith Zamani in Kuala Lumpur"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "sago gula melaka dessert",
+    "relation": "traditionally_comprises",
+    "value": "sago pearls served with a sweet syrup made from gula melaka (palm sugar) and creamy coconut milk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditionally comprising sago pearls served with a sweet syrup made from gula melaka (palm sugar) and creamy coconut milk"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Malay Modernist",
+    "relation": "opened_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At his restaurant, \"Malay Modernist,\" which opened on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Chef Harith Zamani",
+    "relation": "owns_restaurant",
+    "value": "Malay Modernist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At his restaurant, \"Malay Modernist,\""
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chef Harith Zamani",
+    "relation": "crafted",
+    "value": "sago pearls into translucent spheres that burst with gula melaka syrup, encased in coconut milk gel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Zamani has crafted sago pearls into translucent spheres that burst with gula melaka syrup, encased in coconut milk gel"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "sago gula melaka dessert",
+    "relation": "described_as",
+    "value": "a playful and elegant homage to the humble dessert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a playful and elegant homage to the humble dessert"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Southeast Asian cuisine",
+    "relation": "modern_twist_is",
+    "value": "the seamless exchange of ingredients that blur the lines between East and West while enhancing traditional profiles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's also about the seamless exchange of ingredients that blur the lines between East and West while enhancing traditional profiles"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Kombucha",
+    "relation": "is_a",
+    "value": "a fermented tea enjoying international popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kombucha, a fermented tea enjoying international popularity, has been adopted into local flavors."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Kombucha",
+    "relation": "adopted_into",
+    "value": "local flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been adopted into local flavors"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Kaffir Lime Kombucha",
+    "relation": "emerged_in",
+    "value": "recent months",
+    "time": "in recent months",
+    "speaker": null,
+    "verbatim": [
+     "A fresh take that emerged in recent months comes from the beverage scene."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Bisma Rajendra",
+    "relation": "is_a",
+    "value": "Jakarta-based mixologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A Jakarta-based mixologist, Bisma Rajendra, has crafted a fermented delight"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Bisma Rajendra",
+    "relation": "based_in",
+    "value": "Jakarta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A Jakarta-based mixologist, Bisma Rajendra"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bisma Rajendra",
+    "relation": "crafted",
+    "value": "a fermented delight that integrates kaffir lime leaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has crafted a fermented delight that integrates kaffir lime leaves"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Kaffir Lime Kombucha",
+    "relation": "debuted_on",
+    "value": "September 23, 2023",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "His \"Kaffir Lime Kombucha\" debuted on September 23, 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Kaffir Lime Kombucha",
+    "relation": "sparked",
+    "value": "a trend among regional cafes and bars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since sparked a trend among regional cafes and bars"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Kaffir Lime Kombucha",
+    "relation": "offers",
+    "value": "a citrusy fragrance to the naturally tart drink",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a citrusy fragrance to the naturally tart drink"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "fish sauce",
+    "relation": "cornerstone_of",
+    "value": "flavor in Southeast Asian cuisine",
+    "time": "For centuries",
+    "speaker": null,
+    "verbatim": [
+     "For centuries, fish sauce has been the cornerstone of flavor in Southeast Asian cuisine."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "vegan fish sauce",
+    "relation": "invention_caused_by",
+    "value": "growing global trend towards plant-based diets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the growing global trend towards plant-based diets has led to the invention of vegan fish sauce"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "vegan fish sauce",
+    "relation": "is_a",
+    "value": "soy-based alternative infused with seaweed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a soy-based alternative infused with seaweed"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Linh Tran",
+    "relation": "developed",
+    "value": "vegan fish sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artisans like Linh Tran have developed a soy-based alternative infused with seaweed"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "vegan fish sauce",
+    "relation": "replicates",
+    "value": "the umami depth of traditional fish sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to replicate the umami depth of traditional fish sauce"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "vegan fish sauce",
+    "relation": "first_introduced_in",
+    "value": "Vegelicious",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "First introduced in her Ho Chi Minh City restaurant, \"Vegelicious,\" on November 12, 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Linh Tran",
+    "relation": "owns_restaurant",
+    "value": "Vegelicious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her Ho Chi Minh City restaurant, \"Vegelicious,\""
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Vegelicious",
+    "relation": "located_in",
+    "value": "Ho Chi Minh City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her Ho Chi Minh City restaurant, \"Vegelicious,\""
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "vegan fish sauce",
+    "relation": "catered_to",
+    "value": "vegan palates without compromising the authenticity of the dishes it accompanies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this innovation has catered to vegan palates without compromising the authenticity of the dishes it accompanies"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Southeast Asian cuisine",
+    "relation": "skepticism_among",
+    "value": "culture purists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Altering the core of traditional dishes can sometimes lead to skepticism among culture purists."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Southeast Asian cuisine",
+    "relation": "key_is",
+    "value": "maintain a balance",
+    "time": null,
+    "speaker": "these contemporary chefs",
+    "verbatim": [
+     "The key, as professed by these contemporary chefs, is to maintain a balance."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Southeast Asian cuisine",
+    "relation": "aim_is",
+    "value": "to expand their appeal and accessibility to newer generations and global audiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The aim is not to replace the traditional dishes but to expand their appeal and accessibility to newer generations and global audiences"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

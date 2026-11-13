@@ -1,0 +1,955 @@
+{
+ "inventory": [
+  "Mount Fuji",
+  "Santiago de Compostela",
+  "Spain",
+  "Varanasi",
+  "Ganges River",
+  "Hindus",
+  "Mecca",
+  "Prophet Muhammad",
+  "Muslims",
+  "Hajj",
+  "Dhu alHijjah",
+  "Camino de Santiago",
+  "Camino Frances",
+  "Professor James Callahan",
+  "University of Historical Studies",
+  "Emiko Sato",
+  "Heian period",
+  "Shinto",
+  "Lourdes",
+  "Roman Catholic faith",
+  "Virgin Mary",
+  "Saint Bernadette Soubirous",
+  "Kumbh Mela",
+  "Haridwar",
+  "Allahabad",
+  "Nashik",
+  "Ujjain",
+  "Jerusalem",
+  "Jews",
+  "Christians",
+  "Via Dolorosa",
+  "Jesus Christ",
+  "Dr. Hannah Weiss",
+  "Black Hills",
+  "Lakota Sioux",
+  "Bears Ears",
+  "Native American cultures",
+  "Glastonbury",
+  "King Arthur",
+  "Queen Guinevere",
+  "Tor",
+  "Avalon",
+  "Otherworld",
+  "Abrahamic faiths"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mount Fuji",
+    "relation": "located_in",
+    "value": "Japan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ascending slopes of Japan\u2019s Mount Fuji"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Santiago de Compostela",
+    "relation": "located_in",
+    "value": "Spain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the winding paths leading to Santiago de Compostela in Spain"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Varanasi",
+    "relation": "located_in",
+    "value": "Ganges River",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the heart of the Ganges River, one finds Varanasi"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Varanasi",
+    "relation": "described_as",
+    "value": "one of the oldest living cities in the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "considered one of the oldest living cities in the world"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Hindus",
+    "relation": "perform",
+    "value": "rites of passage in Varanasi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is here that Hindus perform rites of passage"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Hindus",
+    "relation": "believe",
+    "value": "the waters can purify the soul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "believing the waters can purify the soul"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Hindus",
+    "relation": "motivated_by",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is here that Hindus perform rites of passage, believing the waters can purify the soul."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mecca",
+    "relation": "birthplace_of",
+    "value": "Prophet Muhammad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mecca, the birthplace of the Prophet Muhammad"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Muslims",
+    "relation": "turn_in_prayer_towards",
+    "value": "Mecca",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the site towards which millions of Muslims globally turn in prayer"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Hajj",
+    "relation": "observed_on",
+    "value": "from the 8th to the 12th day of Dhu alHijjah",
+    "time": "annually",
+    "speaker": null,
+    "verbatim": [
+     "During the Hajj, observed from the 8th to the 12th day of Dhu alHijjah annually"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dhu alHijjah",
+    "relation": "hajj_observed_days",
+    "value": "8th to the 12th day",
+    "time": "annually",
+    "speaker": null,
+    "verbatim": [
+     "observed from the 8th to the 12th day of Dhu alHijjah annually"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hajj",
+    "relation": "described_as",
+    "value": "mandatory Islamic pilgrimage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "believers from every corner of the globe embark on this mandatory Islamic pilgrimage"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Camino de Santiago",
+    "relation": "also_known_as",
+    "value": "the Way of St. James",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "popularly known as the Way of St. James"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Camino de Santiago",
+    "relation": "experienced",
+    "value": "a significant resurgence in walking the Camino de Santiago",
+    "time": "particularly following September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "particularly following September 1, 2023, there has been a significant resurgence in walking the Camino de Santiago"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Camino de Santiago",
+    "relation": "traversed_since",
+    "value": "the middle ages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this ancient path across Europe has been traversed since the middle ages"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Professor James Callahan",
+    "relation": "affiliated_with",
+    "value": "University of Historical Studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor James Callahan from the University of Historical Studies"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Professor James Callahan",
+    "relation": "opined",
+    "value": "Pilgrimage routes serve as a physical manifestation of one's spiritual quest",
+    "time": null,
+    "speaker": "Professor James Callahan",
+    "verbatim": [
+     "Pilgrimage routes serve as a physical manifestation of one's spiritual quest, muddling the lines between the corporeal and the ethereal\u2014a mystical confluence of body and soul."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Camino de Santiago",
+    "relation": "has_routes",
+    "value": "dozens of routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Camino has dozens of routes"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Camino Frances",
+    "relation": "popularity",
+    "value": "the most popular",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the Camino Frances being the most popular"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Camino Frances",
+    "relation": "route_crosses",
+    "value": "the Pyrenees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stretching across the Pyrenees to the tomb of St. James in northwestern Spain"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Camino Frances",
+    "relation": "leads_to",
+    "value": "the tomb of St. James in northwestern Spain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stretching across the Pyrenees to the tomb of St. James in northwestern Spain"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mount Fuji",
+    "relation": "not_tied_to",
+    "value": "Abrahamic faiths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not all sacred sites are tied to Abrahamic faiths."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mount Fuji",
+    "relation": "ascent_type",
+    "value": "summer night ascent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "climbers endeavor a summer night ascent of Mount Fuji"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Shinto",
+    "relation": "belief",
+    "value": "the sacred mountain brings them closer to the heavens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "motivated by the Shinto belief that the sacred mountain brings them closer to the heavens"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mount Fuji",
+    "relation": "motivated_by",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "climbers endeavor a summer night ascent of Mount Fuji, motivated by the Shinto belief that the sacred mountain brings them closer to the heavens."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emiko Sato",
+    "relation": "occupation",
+    "value": "Japanese scholar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Japanese scholar Emiko Sato puts it"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emiko Sato",
+    "relation": "stated",
+    "value": "the mountain has been celebrated in art and literature, emblematic of Japan\u2019s spiritual landscape",
+    "time": "since the Heian period (794-1185)",
+    "speaker": "Emiko Sato",
+    "verbatim": [
+     "since the Heian period (794-1185), the mountain has been celebrated in art and literature, emblematic of Japan\u2019s spiritual landscape."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mount Fuji",
+    "relation": "celebrated_in",
+    "value": "art and literature",
+    "time": "since the Heian period (794-1185)",
+    "speaker": "Emiko Sato",
+    "verbatim": [
+     "the mountain has been celebrated in art and literature"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Heian period",
+    "relation": "dates",
+    "value": "794-1185",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "since the Heian period (794-1185)"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mount Fuji",
+    "relation": "pilgrims_ascended",
+    "value": "over 300,000 pilgrims",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "It was recorded that in August 2024, over 300,000 pilgrims ascended Mount Fuji"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mount Fuji",
+    "relation": "has_rituals",
+    "value": "rituals of purification at the mountain's numerous historic stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with many engaging in rituals of purification at the mountain's numerous historic stations"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lourdes",
+    "relation": "located_in",
+    "value": "France",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lourdes in France illustrates another slice"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lourdes",
+    "relation": "important_site_for",
+    "value": "Roman Catholic faith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As an important site for the Roman Catholic faith"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lourdes",
+    "relation": "associated_with",
+    "value": "healing and redemption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has been associated with healing and redemption"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Saint Bernadette Soubirous",
+    "relation": "reported_visions_of",
+    "value": "the Virgin Mary",
+    "time": "1858",
+    "speaker": null,
+    "verbatim": [
+     "the reported visions of the Virgin Mary by Saint Bernadette Soubirous in 1858"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Virgin Mary",
+    "relation": "visions_reported_by",
+    "value": "Saint Bernadette Soubirous",
+    "time": "1858",
+    "speaker": null,
+    "verbatim": [
+     "the reported visions of the Virgin Mary by Saint Bernadette Soubirous in 1858"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lourdes",
+    "relation": "transformed_into",
+    "value": "a haven for those seeking miracles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small town has transformed into a haven for those seeking miracles"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lourdes",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ever since the reported visions of the Virgin Mary by Saint Bernadette Soubirous in 1858, the small town has transformed into a haven for those seeking miracles."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lourdes",
+    "relation": "attracts",
+    "value": "in excess of 5 million pilgrims",
+    "time": "yearly",
+    "speaker": null,
+    "verbatim": [
+     "attracting in excess of 5 million pilgrims yearly"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Lourdes",
+    "relation": "pilgrim_numbers",
+    "value": "remained fairly consistent",
+    "time": "in the years following 2023",
+    "speaker": null,
+    "verbatim": [
+     "a number that has remained fairly consistent in the years following 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Kumbh Mela",
+    "relation": "located_in",
+    "value": "India",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "India\u2019s Kumbh Mela"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Kumbh Mela",
+    "relation": "described_as",
+    "value": "world's largest religious gathering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "touted as the world's largest religious gathering"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Kumbh Mela",
+    "relation": "converges_at",
+    "value": "four riverbank pilgrimage sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "converges at four riverbank pilgrimage sites: Haridwar, Allahabad, Nashik, and Ujjain"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Haridwar",
+    "relation": "kumbh_mela_site",
+    "value": "riverbank pilgrimage site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "converges at four riverbank pilgrimage sites: Haridwar, Allahabad, Nashik, and Ujjain"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Allahabad",
+    "relation": "kumbh_mela_site",
+    "value": "riverbank pilgrimage site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "converges at four riverbank pilgrimage sites: Haridwar, Allahabad, Nashik, and Ujjain"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Nashik",
+    "relation": "kumbh_mela_site",
+    "value": "riverbank pilgrimage site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "converges at four riverbank pilgrimage sites: Haridwar, Allahabad, Nashik, and Ujjain"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Ujjain",
+    "relation": "kumbh_mela_site",
+    "value": "riverbank pilgrimage site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "converges at four riverbank pilgrimage sites: Haridwar, Allahabad, Nashik, and Ujjain"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Kumbh Mela",
+    "relation": "origin_legend",
+    "value": "drops of the nectar of immortality spilled over from the celestial Kumbh (pot) carried by the gods",
+    "time": null,
+    "speaker": "Hindu tradition",
+    "verbatim": [
+     "According to Hindu tradition, these locations are where drops of the nectar of immortality spilled over from the celestial Kumbh (pot) carried by the gods."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Kumbh Mela",
+    "relation": "celebrated_in",
+    "value": "Haridwar",
+    "time": "April 22, 2025",
+    "speaker": null,
+    "verbatim": [
+     "The recent Kumbh Mela, celebrated in Haridwar on April 22, 2025"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Kumbh Mela",
+    "relation": "attendance_estimate",
+    "value": "over 120 million people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drew estimates of over 120 million people"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Kumbh Mela",
+    "relation": "attended_by",
+    "value": "sadhus (holy men), pilgrims, and tourists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a kaleidoscope of sadhus (holy men), pilgrims, and tourists immersing themselves in the sacred waters"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Jerusalem",
+    "relation": "sacred_to",
+    "value": "Jews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jerusalem, a city sacred to Jews, Christians, and Muslims alike"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Jerusalem",
+    "relation": "sacred_to",
+    "value": "Christians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jerusalem, a city sacred to Jews, Christians, and Muslims alike"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jerusalem",
+    "relation": "sacred_to",
+    "value": "Muslims",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jerusalem, a city sacred to Jews, Christians, and Muslims alike"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jerusalem",
+    "relation": "focal_point_of",
+    "value": "pilgrimage",
+    "time": "for centuries",
+    "speaker": null,
+    "verbatim": [
+     "has been a focal point of pilgrimage for centuries"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Christians",
+    "relation": "tread",
+    "value": "routes that mirror the events leading to the crucifixion and resurrection of Jesus Christ",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christians in particular tread reverently through routes that mirror the events leading to the crucifixion and resurrection of Jesus Christ"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Jesus Christ",
+    "relation": "associated_with",
+    "value": "crucifixion and resurrection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the events leading to the crucifixion and resurrection of Jesus Christ"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Via Dolorosa",
+    "relation": "also_known_as",
+    "value": "Way of Suffering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Via Dolorosa or the \"Way of Suffering\" is a prominent procession route where believers reflect on the passion of Christ."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Via Dolorosa",
+    "relation": "described_as",
+    "value": "a prominent procession route",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Via Dolorosa or the \"Way of Suffering\" is a prominent procession route where believers reflect on the passion of Christ."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Via Dolorosa",
+    "relation": "believers_reflect_on",
+    "value": "the passion of Christ",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where believers reflect on the passion of Christ"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Dr. Hannah Weiss",
+    "relation": "described_as",
+    "value": "an authority on religious travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hannah Weiss, an authority on religious travel"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dr. Hannah Weiss",
+    "relation": "stated",
+    "value": "Christian pilgrims, along with various denominations, find common ground walking the hallowed path, yearning for a connection with their savior.",
+    "time": null,
+    "speaker": "Dr. Hannah Weiss",
+    "verbatim": [
+     "Christian pilgrims, along with various denominations, find common ground walking the hallowed path, yearning for a connection with their savior."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Native American cultures",
+    "relation": "hold_as_sacred",
+    "value": "an array of natural wonders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Native American cultures hold an array of natural wonders as sacred."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Black Hills",
+    "relation": "considered_center_of_world",
+    "value": "the center of the world",
+    "time": null,
+    "speaker": "Lakota Sioux",
+    "verbatim": [
+     "considered by the Lakota Sioux to be the center of the world"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Lakota Sioux",
+    "relation": "considers",
+    "value": "the Black Hills to be the center of the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "considered by the Lakota Sioux to be the center of the world"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Black Hills",
+    "relation": "described_as",
+    "value": "powerful serenity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the powerful serenity of the Black Hills"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Black Hills",
+    "relation": "is_pilgrimage_site",
+    "value": "pilgrimage sites in their own right",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these sacred spaces are pilgrimage sites in their own right"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Bears Ears",
+    "relation": "described_as",
+    "value": "majestic cliffs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the majestic cliffs of Bears Ears"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Bears Ears",
+    "relation": "revered_by",
+    "value": "multiple indigenous communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revered by multiple indigenous communities"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Bears Ears",
+    "relation": "is_pilgrimage_site",
+    "value": "pilgrimage sites in their own right",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these sacred spaces are pilgrimage sites in their own right"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Native American cultures",
+    "relation": "sacred_spaces_are",
+    "value": "natural embodiments of the spiritual beliefs of their people, not constructed temples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They stand not as constructed temples but as natural embodiments of the spiritual beliefs of their people."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Glastonbury",
+    "relation": "located_in",
+    "value": "England",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the midst of England\u2019s green and pleasant land lies Glastonbury"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Glastonbury",
+    "relation": "located_in",
+    "value": "Somerset",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "trek to this small Somerset town"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Glastonbury",
+    "relation": "steeped_in",
+    "value": "Arthurian legend and the mysteries of Avalon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "steeped in Arthurian legend and the mysteries of Avalon"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Glastonbury",
+    "relation": "abbey_reputed_resting_place_of",
+    "value": "King Arthur and his Queen Guinevere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its abbey reputedly the resting place of King Arthur and his Queen Guinevere"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "King Arthur",
+    "relation": "reputed_resting_place_at",
+    "value": "Glastonbury abbey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its abbey reputedly the resting place of King Arthur and his Queen Guinevere"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Queen Guinevere",
+    "relation": "reputed_resting_place_at",
+    "value": "Glastonbury abbey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its abbey reputedly the resting place of King Arthur and his Queen Guinevere"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Tor",
+    "relation": "believed_to_house",
+    "value": "the entrance to the fabled Otherworld",
+    "time": null,
+    "speaker": "some",
+    "verbatim": [
+     "the Tor, believed by some to house the entrance to the fabled Otherworld"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Otherworld",
+    "relation": "entrance_at",
+    "value": "the Tor",
+    "time": null,
+    "speaker": "some",
+    "verbatim": [
+     "the Tor, believed by some to house the entrance to the fabled Otherworld"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Glastonbury",
+    "relation": "visited_by",
+    "value": "Spiritual seekers and history enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spiritual seekers and history enthusiasts alike trek to this small Somerset town"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Glastonbury",
+    "relation": "spiritual_character",
+    "value": "continues to rise above the historical debate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lingering spiritual character of Glastonbury continues to rise above the historical debate."
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Avalon",
+    "relation": "linked_to",
+    "value": "Glastonbury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "steeped in Arthurian legend and the mysteries of Avalon"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

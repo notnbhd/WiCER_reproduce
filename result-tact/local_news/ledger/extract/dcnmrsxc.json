@@ -1,0 +1,636 @@
+{
+ "inventory": [
+  "City Council",
+  "City Hall",
+  "downtown area",
+  "Linda Martinez",
+  "James Carter",
+  "Amanda Nguyen",
+  "Downtown Business Association",
+  "Frank Simmons",
+  "neighborhood watch program",
+  "Emily Moreno",
+  "Richard Lee",
+  "Carlos Reynolds",
+  "Public Safety Enhancement Proposal",
+  "community-based crime prevention programs",
+  "public awareness campaign",
+  "oversight committee",
+  "surveillance technology",
+  "emergency assistance kiosks",
+  "sales tax",
+  "state and federal grants",
+  "public safety",
+  "street lighting"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "City Hall",
+    "relation": "hosted_meeting_on",
+    "value": "March 10, 2024",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The atmosphere was tense yet hopeful at City Hall on March 10, 2024"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "City Council",
+    "relation": "debated",
+    "value": "a crucial public safety issue",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the City Council debate on a crucial public safety issue"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "City Hall",
+    "relation": "attended_by",
+    "value": "concerned citizens, community leaders, and various stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "concerned citizens, community leaders, and various stakeholders packed into the chamber"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "aims_to",
+    "value": "enhance the security and well-being of the city's bustling urban core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was a significant plan aimed at enhancing the security and well-being of the city's bustling urban core"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "downtown area",
+    "relation": "experienced",
+    "value": "a troubling uptick in public safety incidents",
+    "time": "Recent months",
+    "speaker": null,
+    "verbatim": [
+     "Recent months have witnessed a troubling uptick in public safety incidents downtown"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "downtown area",
+    "relation": "incidents_included",
+    "value": "petty thefts and more severe crimes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From petty thefts to more severe crimes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "downtown area",
+    "relation": "residents_reported",
+    "value": "firsthand experiences of feeling unsafe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several residents who had firsthand experiences to share of feeling unsafe"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "City Council",
+    "relation": "top_agenda_issue",
+    "value": "public safety",
+    "time": "this decisive day",
+    "speaker": null,
+    "verbatim": [
+     "was the number one issue on the City Council's agenda on this decisive day"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Linda Martinez",
+    "relation": "position",
+    "value": "City Council President",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Council President Linda Martinez"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Linda Martinez",
+    "relation": "stated",
+    "value": "The safety of our community is not negotiable.",
+    "time": null,
+    "speaker": "Linda Martinez",
+    "verbatim": [
+     "The safety of our community is not negotiable."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "James Carter",
+    "relation": "position",
+    "value": "Councilmember",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilmember James Carter unveiled the proposal"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "James Carter",
+    "relation": "unveiled",
+    "value": "the proposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilmember James Carter unveiled the proposal that would become a turning point for the downtown area"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "described_as",
+    "value": "a turning point for the downtown area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that would become a turning point for the downtown area"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "developed_in_response_to",
+    "value": "cries for help from concerned businesses and citizens alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developed in direct response to the cries for help from concerned businesses and citizens alike"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "included",
+    "value": "a multi-faceted approach to public safety enhancement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "included a multi-faceted approach to public safety enhancement"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "includes_element",
+    "value": "hiring additional officers specifically for downtown patrols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Increasing the law enforcement presence through hiring additional officers specifically for downtown patrols"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "includes_element",
+    "value": "installing state-of-the-art surveillance technology, including high-definition cameras and emergency assistance kiosks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Installing state-of-the-art surveillance technology, including high-definition cameras and emergency assistance kiosks"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "surveillance technology",
+    "relation": "described_as",
+    "value": "state-of-the-art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Installing state-of-the-art surveillance technology"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "emergency assistance kiosks",
+    "relation": "included_in",
+    "value": "installation of surveillance technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Installing state-of-the-art surveillance technology, including high-definition cameras and emergency assistance kiosks"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "community-based crime prevention programs",
+    "relation": "purpose",
+    "value": "to foster collaboration between police and residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Implementing community-based crime prevention programs to foster collaboration between police and residents"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "street lighting",
+    "relation": "planned_improvement",
+    "value": "Improving street lighting and maintaining clear lines of sight in high-foot-traffic areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Improving street lighting and maintaining clear lines of sight in high-foot-traffic areas to deter potential criminal activity"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "street lighting",
+    "relation": "purpose",
+    "value": "to deter potential criminal activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Improving street lighting and maintaining clear lines of sight in high-foot-traffic areas to deter potential criminal activity"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "public awareness campaign",
+    "relation": "focused_on",
+    "value": "safety, reporting crime, and personal precautions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Launching a public awareness campaign focused on safety, reporting crime, and personal precautions"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "James Carter",
+    "relation": "stated",
+    "value": "a pledge to our city's heart",
+    "time": null,
+    "speaker": "James Carter",
+    "verbatim": [
+     "This proposal isn't merely a list of action items; it's a pledge to our city's heart - to rejuvenate and protect the vibrant community that thrives in our downtown."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Amanda Nguyen",
+    "relation": "occupation",
+    "value": "small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Nguyen, a small business owner whose shop had been affected by the rise in petty crime"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Amanda Nguyen",
+    "relation": "stated",
+    "value": "We're not only losing revenue; we are losing our customers' trust",
+    "time": null,
+    "speaker": "Amanda Nguyen",
+    "verbatim": [
+     "We're not only losing revenue; we are losing our customers' trust, and that fundamentally undermines the community we've worked so hard to build."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Downtown Business Association",
+    "relation": "representative_echoed_support",
+    "value": "Amanda Nguyen's sentiment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including a representative from the Downtown Business Association"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "received_support_from",
+    "value": "individuals from various walks of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Individuals from various walks of life took to the podium to express their backing for the proposal."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Frank Simmons",
+    "relation": "position",
+    "value": "head of a local neighborhood watch program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frank Simmons, head of a local neighborhood watch program"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "neighborhood watch program",
+    "relation": "led_by",
+    "value": "Frank Simmons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frank Simmons, head of a local neighborhood watch program"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Frank Simmons",
+    "relation": "advocated_for",
+    "value": "point three of the proposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who advocated for point three of the proposal, underscoring the importance of community policing and crime prevention"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Frank Simmons",
+    "relation": "stated",
+    "value": "Empowering citizens to be a part of the solution ensures that safety efforts are not just top-down",
+    "time": null,
+    "speaker": "Frank Simmons",
+    "verbatim": [
+     "Empowering citizens to be a part of the solution ensures that safety efforts are not just top-down but woven into the fabric of our daily lives,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Emily Moreno",
+    "relation": "position",
+    "value": "Finance Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Finance Director Emily Moreno laid out the estimated costs"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Emily Moreno",
+    "relation": "presented",
+    "value": "the estimated costs and the proposed funding sources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Finance Director Emily Moreno laid out the estimated costs and the proposed funding sources"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "funding_source",
+    "value": "reallocating portions of the city's budget",
+    "time": null,
+    "speaker": "Emily Moreno",
+    "verbatim": [
+     "including reallocating portions of the city's budget"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "state and federal grants",
+    "relation": "proposed_funding_source",
+    "value": "applying for state and federal grants",
+    "time": null,
+    "speaker": "Emily Moreno",
+    "verbatim": [
+     "applying for state and federal grants"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "sales tax",
+    "relation": "proposed_increase",
+    "value": "a marginal percentage",
+    "time": null,
+    "speaker": "Emily Moreno",
+    "verbatim": [
+     "potentially increasing local sales tax by a marginal percentage"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "sales tax",
+    "relation": "prompted",
+    "value": "a spirited exchange among council members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tax increase suggestion prompted a spirited exchange among council members."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Richard Lee",
+    "relation": "position",
+    "value": "Councilman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilman Richard Lee reminded everyone of the bottom line"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Richard Lee",
+    "relation": "stated",
+    "value": "We cannot put a price on our constituents' safety.",
+    "time": null,
+    "speaker": "Richard Lee",
+    "verbatim": [
+     "We cannot put a price on our constituents' safety."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "City Council",
+    "relation": "voted_by",
+    "value": "council members casting their votes one by one",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One by one, council members cast their votes."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "City Council",
+    "relation": "passed",
+    "value": "the motion with an overwhelming majority",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the motion passed with an overwhelming majority"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Linda Martinez",
+    "relation": "announced_result",
+    "value": "the council votes in favor of implementing the Public Safety Enhancement Proposal",
+    "time": null,
+    "speaker": "Linda Martinez",
+    "verbatim": [
+     "as the result was announced by President Martinez"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Public Safety Enhancement Proposal",
+    "relation": "approved_by",
+    "value": "City Council",
+    "time": null,
+    "speaker": "Linda Martinez",
+    "verbatim": [
+     "The council votes in favor of implementing the Public Safety Enhancement Proposal for our downtown area."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Carlos Reynolds",
+    "relation": "position",
+    "value": "City Manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The City Manager, Carlos Reynolds, wasted no time in detailing the next steps"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Carlos Reynolds",
+    "relation": "stated",
+    "value": "Implementation will start with the immediate recruitment of additional officers",
+    "time": null,
+    "speaker": "Carlos Reynolds",
+    "verbatim": [
+     "Implementation will start with the immediate recruitment of additional officers and the formation of an oversight committee to ensure transparency and community involvement throughout this process."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "oversight committee",
+    "relation": "purpose",
+    "value": "to ensure transparency and community involvement throughout this process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the formation of an oversight committee to ensure transparency and community involvement throughout this process"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Carlos Reynolds",
+    "relation": "announced_timeline",
+    "value": "residents could expect to see enhanced street lighting and increased patrols",
+    "time": "as early as the beginning of the summer",
+    "speaker": "Carlos Reynolds",
+    "verbatim": [
+     "Reynolds announced a timeline for the rollout of the new measures, indicating that residents could expect to see enhanced street lighting and increased patrols as early as the beginning of the summer."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "street lighting",
+    "relation": "expected_enhancement_timing",
+    "value": "as early as the beginning of the summer",
+    "time": "the beginning of the summer",
+    "speaker": "Carlos Reynolds",
+    "verbatim": [
+     "residents could expect to see enhanced street lighting and increased patrols as early as the beginning of the summer"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "downtown area",
+    "relation": "expected_to_be",
+    "value": "safer",
+    "time": "By the close of 2024",
+    "speaker": "Carlos Reynolds",
+    "verbatim": [
+     "Our downtown will not only be safer but will also serve as a model for other communities grappling with similar issues."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "downtown area",
+    "relation": "expected_to_serve_as",
+    "value": "a model for other communities grappling with similar issues",
+    "time": "By the close of 2024",
+    "speaker": "Carlos Reynolds",
+    "verbatim": [
+     "Our downtown will not only be safer but will also serve as a model for other communities grappling with similar issues."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "City Council",
+    "relation": "adjourned",
+    "value": "for the day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the City Council adjourned for the day"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "public safety",
+    "relation": "is",
+    "value": "paramount",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public safety is paramount and will be safeguarded with fervor and vigilance"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "public safety",
+    "relation": "to_be_safeguarded_with",
+    "value": "fervor and vigilance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public safety is paramount and will be safeguarded with fervor and vigilance"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "downtown area",
+    "relation": "new_chapter",
+    "value": "the beginning of a new chapter for downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is the beginning of a new chapter for downtown"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,658 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "Craig Smith",
+  "Dr. Emily Davidson",
+  "John Foster",
+  "GoMobility",
+  "Green Line",
+  "Green Line outage",
+  "Metropolis City",
+  "Department of Public Safety",
+  "Transportation Authority",
+  "Energy Suppliers",
+  "memorandum of understanding (MOU)",
+  "Mobility as a Service (MaaS)",
+  "IoT (Internet of Things) devices",
+  "fiber-optic sensors",
+  "central control hub",
+  "faulty transformer",
+  "preventive maintenance policies",
+  "communication protocol",
+  "city-wide drill",
+  "smart city initiatives",
+  "emergency response protocols"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Green Line outage",
+    "relation": "occurred_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, transit authorities faced a challenge when a series of events led to a prolonged shutdown of the Green Line"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Green Line",
+    "relation": "located_in",
+    "value": "Metropolis City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Green Line, a major subway service in Metropolis City"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Green Line",
+    "relation": "service_type",
+    "value": "major subway service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Green Line, a major subway service in Metropolis City"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Green Line outage",
+    "relation": "circumstance",
+    "value": "a typical busy weekday",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a typical busy weekday when a sudden power surge at the central control hub triggered a failure"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Green Line outage",
+    "relation": "triggered_by",
+    "value": "a sudden power surge at the central control hub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sudden power surge at the central control hub triggered a failure in critical components of the signaling system for the Green Line."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "central control hub",
+    "relation": "triggered_failure_in",
+    "value": "critical components of the signaling system for the Green Line",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "triggered a failure in critical components of the signaling system for the Green Line"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Green Line",
+    "relation": "operating_status",
+    "value": "unable to operate",
+    "time": "By 7:45 AM",
+    "speaker": null,
+    "verbatim": [
+     "By 7:45 AM, the entire line was unable to operate"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Green Line outage",
+    "relation": "stranded",
+    "value": "thousands of commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stranding thousands of commuters"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jane Doe",
+    "relation": "occupation",
+    "value": "local coffee shop owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a local coffee shop owner, recounted the initial chaos"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jane Doe",
+    "relation": "said",
+    "value": "We had no idea what was happening, people were running late, and everyone was looking for alternative routes.",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "We had no idea what was happening, people were running late, and everyone was looking for alternative routes."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Green Line outage",
+    "relation": "immediate_response",
+    "value": "rerouting buses to serve as a makeshift solution for affected train routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The immediate response by transportation officials involved rerouting buses to serve as a makeshift solution for affected train routes."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Craig Smith",
+    "relation": "position",
+    "value": "Director of Transit Operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Craig Smith, the Director of Transit Operations, said in a press conference later that day"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Craig Smith",
+    "relation": "said_at",
+    "value": "a press conference",
+    "time": "later that day",
+    "speaker": "Craig Smith",
+    "verbatim": [
+     "said in a press conference later that day"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Craig Smith",
+    "relation": "said",
+    "value": "Our first priority is to ensure that we can get our riders to their destinations safely and as quickly as possible.",
+    "time": "later that day",
+    "speaker": "Craig Smith",
+    "verbatim": [
+     "Our first priority is to ensure that we can get our riders to their destinations safely and as quickly as possible."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Craig Smith",
+    "relation": "deployed",
+    "value": "over 50 extra buses to cover key sections of the Green Line",
+    "time": null,
+    "speaker": "Craig Smith",
+    "verbatim": [
+     "We have deployed over 50 extra buses to cover key sections of the Green Line."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Green Line outage",
+    "relation": "effect",
+    "value": "delays and overcrowding worsened the morning traffic congestion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delays and overcrowding worsened the morning traffic congestion"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Green Line outage",
+    "relation": "caused_by",
+    "value": "faulty transformer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the power surge was caused by a faulty transformer that had not been adequately maintained"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "faulty transformer",
+    "relation": "maintenance_status",
+    "value": "had not been adequately maintained",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a faulty transformer that had not been adequately maintained"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "faulty transformer",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the power surge was caused by a faulty transformer"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Green Line outage",
+    "relation": "revealed",
+    "value": "vulnerabilities in the system\u2019s oversight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vulnerabilities in the system\u2019s oversight came to light, showing a clear need for more robust preventive measures."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "emergency response protocols",
+    "relation": "subject_of_review",
+    "value": "complete review of the maintenance schedules and the existing emergency response protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The aftermath prompted a complete review of the maintenance schedules and the existing emergency response protocols."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "preventive maintenance policies",
+    "relation": "announced_initiative",
+    "value": "new initiative aimed at enhancing preventive maintenance policies",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "transportation authorities announced a new initiative on November 2, 2023, aimed at enhancing preventive maintenance policies."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "preventive maintenance policies",
+    "relation": "in_order_to",
+    "value": "prevent similar outages in the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To prevent similar outages in the future"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Emily Davidson",
+    "relation": "occupation",
+    "value": "expert in urban transportation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Davidson, an expert in urban transportation systems"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Emily Davidson",
+    "relation": "advised",
+    "value": "an overhaul of standard operating procedures and the implementation of more rigorous equipment checks",
+    "time": null,
+    "speaker": "Dr. Emily Davidson",
+    "verbatim": [
+     "advised on an overhaul of standard operating procedures and the implementation of more rigorous equipment checks"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Emily Davidson",
+    "relation": "said",
+    "value": "By adopting proactive maintenance schedules and applying predictive analytics, we can foresee potential failures and stop them in their tracks.",
+    "time": null,
+    "speaker": "Dr. Emily Davidson",
+    "verbatim": [
+     "By adopting proactive maintenance schedules and applying predictive analytics, we can foresee potential failures and stop them in their tracks."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "fiber-optic sensors",
+    "relation": "installed_along",
+    "value": "critical infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the installation of fiber-optic sensors along critical infrastructure"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "fiber-optic sensors",
+    "relation": "enables",
+    "value": "continuous monitoring of system health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allow for continuous monitoring of system health"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "IoT (Internet of Things) devices",
+    "relation": "provide",
+    "value": "real-time data to control centers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IoT (Internet of Things) devices have been integrated to provide real-time data to control centers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "IoT (Internet of Things) devices",
+    "relation": "enables",
+    "value": "swift identification and diagnostics of irregularities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling swift identification and diagnostics of irregularities"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "John Foster",
+    "relation": "position",
+    "value": "CEO of GoMobility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Foster, CEO of GoMobility, a leading MaaS provider"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "GoMobility",
+    "relation": "described_as",
+    "value": "a leading MaaS provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GoMobility, a leading MaaS provider"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "John Foster",
+    "relation": "emphasized",
+    "value": "the role of MaaS platforms during outages",
+    "time": null,
+    "speaker": "John Foster",
+    "verbatim": [
+     "emphasized the role of MaaS platforms during outages"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "John Foster",
+    "relation": "said_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": "John Foster",
+    "verbatim": [
+     "he said on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Mobility as a Service (MaaS)",
+    "relation": "adapts_to_include",
+    "value": "more ride-share options and bike rentals",
+    "time": null,
+    "speaker": "John Foster",
+    "verbatim": [
+     "our platform adapts to include more ride-share options and bike rentals"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Mobility as a Service (MaaS)",
+    "relation": "role",
+    "value": "instrumental in providing flexible and adaptable options to citizens during disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such platforms are instrumental in providing flexible and adaptable options to citizens during disruptions."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Green Line outage",
+    "relation": "highlighted",
+    "value": "the need for better communication with passengers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need for better communication with passengers"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "communication protocol",
+    "relation": "developed_by",
+    "value": "transit authorities",
+    "time": "In the wake of the outage",
+    "speaker": null,
+    "verbatim": [
+     "In the wake of the outage, transit authorities developed a communication protocol"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "communication protocol",
+    "relation": "uses",
+    "value": "social media, push notifications, and digital displays at stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a communication protocol that utilizes social media, push notifications, and digital displays at stations"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "communication protocol",
+    "relation": "purpose",
+    "value": "provide timely and accurate information to passengers during service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide timely and accurate information to passengers during service interruptions"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "communication protocol",
+    "relation": "developed_after",
+    "value_ref": "c1",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the wake of the outage, transit authorities developed a communication protocol"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Green Line outage",
+    "relation": "highlighted",
+    "value": "the importance of a coordinated strategy that includes various modes of transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident highlighted the importance of a coordinated strategy that includes various modes of transportation."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green Line outage",
+    "relation": "response_plan",
+    "value": "plans that utilize buses, taxis, ridesharing, bicycles, and pedestrian routes as a cohesive network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Authorities are implementing plans that utilize buses, taxis, ridesharing, bicycles, and pedestrian routes as a cohesive network"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "memorandum of understanding (MOU)",
+    "relation": "discussed_at",
+    "value": "emergency meetings",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The need for collaboration between different agencies became apparent during emergency meetings held on October 22, 2023."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Department of Public Safety",
+    "relation": "agreed_on",
+    "value": "memorandum of understanding (MOU)",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Department of Public Safety, Transportation Authority, and Energy Suppliers agreed on a memorandum of understanding (MOU)"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Transportation Authority",
+    "relation": "agreed_on",
+    "value": "memorandum of understanding (MOU)",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Department of Public Safety, Transportation Authority, and Energy Suppliers agreed on a memorandum of understanding (MOU)"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Energy Suppliers",
+    "relation": "agreed_on",
+    "value": "memorandum of understanding (MOU)",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Department of Public Safety, Transportation Authority, and Energy Suppliers agreed on a memorandum of understanding (MOU)"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "memorandum of understanding (MOU)",
+    "relation": "purpose",
+    "value": "solidifies resource sharing and mutual aid during crises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a memorandum of understanding (MOU) that solidifies resource sharing and mutual aid during crises"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "memorandum of understanding (MOU)",
+    "relation": "guarantees",
+    "value": "support and swift action when one part of the network suffers a setback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This guarantees support and swift action when one part of the network suffers a setback."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "city-wide drill",
+    "relation": "held_by",
+    "value": "Metropolis City",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, Metropolis City held a city-wide drill simulating a full-scale network outage."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "city-wide drill",
+    "relation": "simulated",
+    "value": "a full-scale network outage",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, Metropolis City held a city-wide drill simulating a full-scale network outage."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "city-wide drill",
+    "relation": "involved",
+    "value": "transit workers, emergency responders, and volunteers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The exercise involved transit workers, emergency responders, and volunteers"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "city-wide drill",
+    "relation": "purpose",
+    "value": "test the efficiency and practicality of backup plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to test the efficiency and practicality of backup plans"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Metropolis City",
+    "relation": "exploring",
+    "value": "the integration of its transportation networks into wider smart city initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Metropolis City has been exploring the integration of its transportation networks into wider smart city initiatives."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "smart city initiatives",
+    "relation": "includes",
+    "value": "incorporating AI to manage and optimize traffic flows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Incorporating AI to manage and optimize traffic flows"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "smart city initiatives",
+    "relation": "includes",
+    "value": "self-healing systems that can reroute power autonomously",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "self-healing systems that can reroute power autonomously"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Green Line outage",
+    "relation": "wake_up_call_for",
+    "value": "urban transportation planners across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Green Line outage served as a wake-up call for urban transportation planners across the globe"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

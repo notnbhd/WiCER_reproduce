@@ -1,0 +1,556 @@
+{
+ "inventory": [
+  "Edison",
+  "Tesla",
+  "Prospect Avenue",
+  "Luna Park Lane",
+  "Dr. Percival P. Pavement",
+  "Haiku-Fill 3000",
+  "Chlorophyll Cove",
+  "Hortense the Horticulturalist",
+  "ThistleBeGone",
+  "Marge \"The Fork\" Forkins",
+  "Social Soup Spoon",
+  "Timely Tammy",
+  "Ticktock Terry",
+  "Shifty Shoe",
+  "Chatty Cathy",
+  "Chit-Chat Checkpoint",
+  "Sally Shushter",
+  "Ingenious Introvert Isolation Helmet",
+  "Maker Faire"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Edison",
+    "relation": "upstaged_by",
+    "value": "a ragtag team of local inventors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been secretly upstaging the likes of Edison and Tesla"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Tesla",
+    "relation": "upstaged_by",
+    "value": "a ragtag team of local inventors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been secretly upstaging the likes of Edison and Tesla"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Prospect Avenue",
+    "relation": "canvas_for",
+    "value": "a band of eccentric inventors led by Dr. Percival P. Pavement",
+    "time": "Since September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 15, 2023, Prospect Avenue has been the canvas for a band of eccentric inventors led by the notorious Dr. Percival P. Pavement"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Luna Park Lane",
+    "relation": "rumored_site_of",
+    "value": "sidewalk cracks and street chasms turning into poetic statements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rumors abound that on Luna Park Lane, sidewalk cracks and street chasms are turning into poetic statements."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Percival P. Pavement",
+    "relation": "leads",
+    "value": "a band of eccentric inventors",
+    "time": "Since September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a band of eccentric inventors led by the notorious Dr. Percival P. Pavement"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Percival P. Pavement",
+    "relation": "made_infrastructure_woes",
+    "value": "a matter for the muses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has somehow made infrastructure woes a matter for the muses"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Haiku-Fill 3000",
+    "relation": "is_device_of",
+    "value": "a band of eccentric inventors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their device, which they've dubbed the \"Haiku-Fill 3000,\""
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Haiku-Fill 3000",
+    "relation": "injects",
+    "value": "asphalt and artistry into every fissure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "injects not just asphalt but artistry into every fissure"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Haiku-Fill 3000",
+    "relation": "prints",
+    "value": "an inspirational haiku with every pothole filled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this machine prints an inspirational haiku with every pothole filled"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Haiku-Fill 3000",
+    "relation": "prompts",
+    "value": "motorists pondering existential dilemmas like \"Why is the road so traveled?\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "motorists are now pondering existential dilemmas like, \"Why is the road so traveled?\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chlorophyll Cove",
+    "relation": "described_as",
+    "value": "pleasantly tree-lined streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on the pleasantly tree-lined streets of Chlorophyll Cove"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hortense the Horticulturalist",
+    "relation": "sports",
+    "value": "green-tinged spectacles and an endless supply of gardening gloves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hortense the Horticulturalist, our neighbor who sports green-tinged spectacles and an endless supply of gardening gloves"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hortense the Horticulturalist",
+    "relation": "unveiled",
+    "value": "ThistleBeGone",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "unveiled \"ThistleBeGone\" on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "ThistleBeGone",
+    "relation": "unveiled_by",
+    "value": "Hortense the Horticulturalist",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "unveiled \"ThistleBeGone\" on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "ThistleBeGone",
+    "relation": "is_a",
+    "value": "garden-friendly robot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This garden-friendly robot is like a Roomba that's decided to take up residence outdoors."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "ThistleBeGone",
+    "relation": "designed_to",
+    "value": "distinguish between so-called \"good plants\" and \"bad plants\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's designed to distinguish between so-called \"good plants\" and \"bad plants,\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "ThistleBeGone",
+    "relation": "uproots",
+    "value": "unwanted flora without disturbing the prized petunias",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discretely uprooting unwanted flora without disturbing the prized petunias"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "ThistleBeGone",
+    "relation": "whispers",
+    "value": "sweet affirmations to your begonias to boost their self-esteem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It even whispers sweet affirmations to your begonias to boost their self-esteem."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Marge \"The Fork\" Forkins",
+    "relation": "debuted",
+    "value": "Social Soup Spoon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marge \"The Fork\" Forkins, who debuted the \"Social Soup Spoon\""
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Social Soup Spoon",
+    "relation": "launched_at",
+    "value": "a community potluck",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched at a community potluck on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Social Soup Spoon",
+    "relation": "touted_as",
+    "value": "a game-changer in the fight against messy soup etiquette and social isolation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which has been touted as a game-changer in the fight against messy soup etiquette and social isolation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Social Soup Spoon",
+    "relation": "vibrates_when",
+    "value": "soup slurping exceeds acceptable decibels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a feedback loop that gently vibrates when soup slurping exceeds acceptable decibels"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Social Soup Spoon",
+    "relation": "saves_diners_from",
+    "value": "the ignominy of poor table manners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby saving diners from the ignominy of poor table manners"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Social Soup Spoon",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gently vibrates when soup slurping exceeds acceptable decibels, thereby saving diners from the ignominy of poor table manners"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Social Soup Spoon",
+    "relation": "vibrates_to_signal",
+    "value": "when fellow diners are ready for conversation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the spoon vibrates to signal when fellow diners are ready for conversation"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Social Soup Spoon",
+    "relation": "melts_away",
+    "value": "the icy chasms of awkward silences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively melting away the icy chasms of awkward silences"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Timely Tammy",
+    "relation": "member_of_duo",
+    "value": "inventor duo with Ticktock Terry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the chronically on-time inventor duo, Timely Tammy and Ticktock Terry"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Ticktock Terry",
+    "relation": "member_of_duo",
+    "value": "inventor duo with Timely Tammy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the chronically on-time inventor duo, Timely Tammy and Ticktock Terry"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Timely Tammy",
+    "relation": "introduced",
+    "value": "Shifty Shoe",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, they introduced the \"Shifty Shoe\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Ticktock Terry",
+    "relation": "introduced",
+    "value": "Shifty Shoe",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, they introduced the \"Shifty Shoe\""
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Shifty Shoe",
+    "relation": "is_a",
+    "value": "a sneaker with a mission to get you to your appointments with seconds to spare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sneaker with a mission to get you to your appointments with seconds to spare"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Shifty Shoe",
+    "relation": "soles_made_from",
+    "value": "a special material that converts anxiety-induced pacing into kinetic energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The soles are crafted from a special material that converts anxiety-induced pacing into kinetic energy"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Shifty Shoe",
+    "relation": "programmed_to",
+    "value": "sync with your digital calendar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're programmed to sync with your digital calendar"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Shifty Shoe",
+    "relation": "marches_wearer_to_meeting",
+    "value": "if you dilly-dally too long",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "if you dilly-dally too long, your shoes might just start marching you to your meeting"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chatty Cathy",
+    "relation": "may_have_met",
+    "value": "their match",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chatty Cathy and her cohorts may now have met their match"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chit-Chat Checkpoint",
+    "relation": "popped_up_on",
+    "value": "street corners",
+    "time": "starting September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The \"Chit-Chat Checkpoint,\" which popped up on street corners starting September 21, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Chit-Chat Checkpoint",
+    "relation": "is_a",
+    "value": "a shelter where any social butterfly can practice conversations with a remarkably lifelike hologram",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a shelter where any social butterfly can practice conversations with a remarkably lifelike hologram"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Chit-Chat Checkpoint",
+    "relation": "prepares_for",
+    "value": "the real deal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This not only prepares them for the real deal"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Chit-Chat Checkpoint",
+    "relation": "features",
+    "value": "an array of topics and conversational depth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These checkpoints come fitted with an array of topics and conversational depth"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "nicknamed",
+    "value": "Triple-I",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affectionately known as the Triple-I or \"Silencio Sensation.\""
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "nicknamed",
+    "value": "Silencio Sensation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affectionately known as the Triple-I or \"Silencio Sensation.\""
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "launched_at",
+    "value": "the local Maker Faire",
+    "time": "January 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Launched at the local Maker Faire on January 28, 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Maker Faire",
+    "relation": "hosted_launch_of",
+    "value": "Ingenious Introvert Isolation Helmet",
+    "time": "January 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Launched at the local Maker Faire on January 28, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sally Shushter",
+    "relation": "created",
+    "value": "Ingenious Introvert Isolation Helmet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thank the stars for secretive Sally Shushter and her \"Ingenious Introvert Isolation Helmet,\""
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "promises",
+    "value": "solitude in the midst of social scourges like open-floor-plan offices and boisterous birthday bashes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this stylish headgear promises solitude in the midst of social scourges like open-floor-plan offices and boisterous birthday bashes"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "cancels",
+    "value": "noise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The helmet not only cancels noise"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "displays",
+    "value": "programmable \"do not disturb\" symbols depending on the wearer's mood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also displays programmable \"do not disturb\" symbols depending on the wearer's mood"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Ingenious Introvert Isolation Helmet",
+    "relation": "is_a",
+    "value": "a charming cross between a high-tech cone of silence and a mood ring for the modern era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a charming cross between a high-tech cone of silence and a mood ring for the modern era."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

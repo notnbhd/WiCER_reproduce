@@ -1,0 +1,898 @@
+{
+ "inventory": [
+  "National festivals",
+  "Carnival",
+  "Rio",
+  "Yi Peng festival",
+  "Chiang Mai",
+  "Festival of Heritage",
+  "Limerick",
+  "Ireland",
+  "Eileen O'Connell",
+  "Mardi Gras",
+  "New Orleans",
+  "Mayor of New Orleans",
+  "Dia de los Muertos",
+  "Mexico",
+  "Carlos Mendez",
+  "Oaxaca",
+  "Loi Krathong festival",
+  "Thailand",
+  "Somchai Poomlard",
+  "Emma Richardson",
+  "Melbourne",
+  "Disneyfication",
+  "Holi festival",
+  "India",
+  "Aarav Singh",
+  "New Delhi",
+  "social media",
+  "Gianna Vasquez",
+  "Sicily",
+  "globalization"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Carnival",
+    "relation": "held_in",
+    "value": "Rio",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling streets of Rio during Carnival"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Yi Peng festival",
+    "relation": "held_in",
+    "value": "Chiang Mai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sky lanterns adorning the night sky in Chiang Mai on Yi Peng festival"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "National festivals",
+    "relation": "stand_as",
+    "value": "a bold declaration of cultural identity and heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "national festivals have long stood as a bold declaration of cultural identity and heritage"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "National festivals",
+    "relation": "critically_reflected_upon",
+    "value": "the window of a nation's soul provided by these gatherings",
+    "time": "twilight of 2023",
+    "speaker": null,
+    "verbatim": [
+     "as we pass through the twilight of 2023, one cannot help but peer more critically into the window of a nation\u2019s soul"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "globalization",
+    "relation": "has_birthed",
+    "value": "commercial giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The relentless march of globalization and the pursuit of economic gain have birthed a commercial giants"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "National festivals",
+    "relation": "essence_withering",
+    "value": "the essence of these cultural commemorations seems to be withering away",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the essence of these cultural commemorations seems to be withering away"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "globalization",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The relentless march of globalization and the pursuit of economic gain have birthed a commercial giants, and beneath their shadows, the essence of these cultural commemorations seems to be withering away"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "National festivals",
+    "relation": "were",
+    "value": "the heartbeat of a community",
+    "time": "Once upon a time",
+    "speaker": null,
+    "verbatim": [
+     "national festivals were the heartbeat of a community"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Festival of Heritage",
+    "relation": "located_in",
+    "value": "Limerick",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "I visited the \u201cFestival of Heritage\u201d in Limerick, Ireland"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Limerick",
+    "relation": "located_in",
+    "value": "Ireland",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the \u201cFestival of Heritage\u201d in Limerick, Ireland"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Eileen O'Connell",
+    "relation": "age",
+    "value": "75",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eileen O'Connell, a 75-year-old weaver"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Eileen O'Connell",
+    "relation": "occupation",
+    "value": "weaver",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eileen O'Connell, a 75-year-old weaver"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Eileen O'Connell",
+    "relation": "recalled",
+    "value": "the festival was all about coming together, telling tales, and young ones learning the crafts",
+    "time": null,
+    "speaker": "Eileen O'Connell",
+    "verbatim": [
+     "the festival was all about coming together, telling tales, and young ones learning the crafts."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eileen O'Connell",
+    "relation": "said",
+    "value": "Now, it\u2019s more of a show for those with cameras and less of heritage.",
+    "time": null,
+    "speaker": "Eileen O'Connell",
+    "verbatim": [
+     "Now, it\u2019s more of a show for those with cameras and less of heritage."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "National festivals",
+    "relation": "attract",
+    "value": "tourism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "festivals are a magnet for tourism\u2014a boon for local economies"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "National festivals",
+    "relation": "benefit",
+    "value": "local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "festivals are a magnet for tourism\u2014a boon for local economies"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "National festivals",
+    "relation": "referenced_by",
+    "value": "City officials and industry stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City officials and industry stakeholders often glowingly reference this aspect"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mayor of New Orleans",
+    "relation": "cited",
+    "value": "a record increase in tourist spending during Mardi Gras",
+    "time": "September 5, 2023",
+    "speaker": "Mayor of New Orleans",
+    "verbatim": [
+     "on September 5, 2023, the Mayor of New Orleans cheerfully cited a record increase in tourist spending during Mardi Gras"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mardi Gras",
+    "relation": "tourist_spending_increase",
+    "value": "a record increase in tourist spending",
+    "time": "September 5, 2023",
+    "speaker": "Mayor of New Orleans",
+    "verbatim": [
+     "cheerfully cited a record increase in tourist spending during Mardi Gras"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "National festivals",
+    "relation": "risk",
+    "value": "being stripped of their intended purpose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When such festivals transform into mere attractions, they risk being stripped of their intended purpose."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "National festivals",
+    "relation": "transform_into",
+    "value": "mere attractions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When such festivals transform into mere attractions"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "National festivals",
+    "relation": "results_in",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When such festivals transform into mere attractions, they risk being stripped of their intended purpose."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "National festivals",
+    "relation": "rather_than",
+    "value": "vehicles for cultural transmission",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rather than vehicles for cultural transmission, they become standardized experiences packaged for consumption."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "National festivals",
+    "relation": "become",
+    "value": "standardized experiences packaged for consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they become standardized experiences packaged for consumption"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dia de los Muertos",
+    "relation": "located_in",
+    "value": "Mexico",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s November 2, 2023, and the vibrant festivities of Dia de los Muertos are underway in Mexico."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dia de los Muertos",
+    "relation": "features",
+    "value": "stalls decked with sugar skulls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stalls decked with sugar skulls line the streets"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dia de los Muertos",
+    "relation": "features",
+    "value": "sounds of mariachi bands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sounds of mariachi bands fill the air"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Carlos Mendez",
+    "relation": "located_in",
+    "value": "Oaxaca",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos Mendez, a local artist in Oaxaca, voices a growing concern."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Carlos Mendez",
+    "relation": "occupation",
+    "value": "local artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos Mendez, a local artist in Oaxaca, voices a growing concern."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Carlos Mendez",
+    "relation": "voices",
+    "value": "a growing concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "voices a growing concern"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Carlos Mendez",
+    "relation": "said",
+    "value": "Tourists come to see a spectacle",
+    "time": null,
+    "speaker": "Carlos Mendez",
+    "verbatim": [
+     "Tourists come to see a spectacle"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Carlos Mendez",
+    "relation": "said",
+    "value": "We paint our faces and dance for them",
+    "time": null,
+    "speaker": "Carlos Mendez",
+    "verbatim": [
+     "We paint our faces and dance for them, but do they understand the tradition?"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Carlos Mendez",
+    "relation": "said",
+    "value": "Sometimes, I worry we\u2019re forgetting it ourselves.",
+    "time": null,
+    "speaker": "Carlos Mendez",
+    "verbatim": [
+     "Sometimes, I worry we\u2019re forgetting it ourselves."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "National festivals",
+    "relation": "transitioning_from",
+    "value": "intimate, community-focused events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Festivals are transitioning from intimate, community-focused events to grand performances"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "National festivals",
+    "relation": "transitioning_to",
+    "value": "grand performances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Festivals are transitioning from intimate, community-focused events to grand performances"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "National festivals",
+    "relation": "locals_might_feel",
+    "value": "like extras in their own narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where locals might feel like extras in their own narrative"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "National festivals",
+    "relation": "receiving",
+    "value": "unprecedented international attention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "festivals are receiving unprecedented international attention, ostensibly celebrating and elevating national heritage"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "National festivals",
+    "relation": "ostensibly_celebrates",
+    "value": "national heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "festivals are receiving unprecedented international attention, ostensibly celebrating and elevating national heritage"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "National festivals",
+    "relation": "risks",
+    "value": "simplifying and repackaging deep cultural rituals into accessible bite-sized experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this spotlight risks simplifying and repackaging deep cultural rituals into accessible bite-sized experiences."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Loi Krathong festival",
+    "relation": "located_in",
+    "value": "Thailand",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At Thailand\u2019s Loi Krathong festival on November 12, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Loi Krathong festival",
+    "relation": "involves",
+    "value": "attendees release baskets onto waterways as a symbolic gesture of letting go of negativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attendees release baskets onto waterways as a symbolic gesture of letting go of negativity"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Somchai Poomlard",
+    "relation": "occupation",
+    "value": "organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an organizer, Somchai Poomlard, noted"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Somchai Poomlard",
+    "relation": "said",
+    "value": "The sentiment gets lost amidst the selfie sticks and staged photo ops.",
+    "time": null,
+    "speaker": "Somchai Poomlard",
+    "verbatim": [
+     "The sentiment gets lost amidst the selfie sticks and staged photo ops."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Somchai Poomlard",
+    "relation": "said",
+    "value": "It\u2019s starting to feel like we\u2019re serving an Instagram aesthetic rather than our ancestors.",
+    "time": null,
+    "speaker": "Somchai Poomlard",
+    "verbatim": [
+     "It\u2019s starting to feel like we\u2019re serving an Instagram aesthetic rather than our ancestors."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "National festivals",
+    "relation": "leaves_erosion_of",
+    "value": "authentic cultural presentation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tug-of-war between fiscal pressures and authentic cultural presentation leaves us witnessing an erosion of the latter."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "National festivals",
+    "relation": "organizers_trapped_in",
+    "value": "the cycle of funding and profit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Festival organizers, trapped in the cycle of funding and profit"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "National festivals",
+    "relation": "organizers_may_prioritize",
+    "value": "the wants of an international audience over the needs of the culture itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Festival organizers, trapped in the cycle of funding and profit, may prioritize the wants of an international audience over the needs of the culture itself."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "National festivals",
+    "relation": "results_in",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Festival organizers, trapped in the cycle of funding and profit, may prioritize"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Emma Richardson",
+    "relation": "occupation",
+    "value": "cultural anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Richardson, a cultural anthropologist from Melbourne, offered insights during a symposium on September 21, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Emma Richardson",
+    "relation": "from",
+    "value": "Melbourne",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Richardson, a cultural anthropologist from Melbourne, offered insights during a symposium on September 21, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Emma Richardson",
+    "relation": "offered_insights_during",
+    "value": "a symposium",
+    "time": "September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Emma Richardson, a cultural anthropologist from Melbourne, offered insights during a symposium on September 21, 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Emma Richardson",
+    "relation": "said",
+    "value": "When the narrative is driven by economic imperatives, the cultural narratives are the first casualties.",
+    "time": "September 21, 2023",
+    "speaker": "Emma Richardson",
+    "verbatim": [
+     "When the narrative is driven by economic imperatives, the cultural narratives are the first casualties."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Emma Richardson",
+    "relation": "said",
+    "value": "We see a 'Disneyfication,' where complex cultural expressions are reduced to amusement park attractions.",
+    "time": "September 21, 2023",
+    "speaker": "Emma Richardson",
+    "verbatim": [
+     "We see a 'Disneyfication,' where complex cultural expressions are reduced to amusement park attractions."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Disneyfication",
+    "relation": "reduces",
+    "value": "complex cultural expressions to amusement park attractions",
+    "time": null,
+    "speaker": "Emma Richardson",
+    "verbatim": [
+     "where complex cultural expressions are reduced to amusement park attractions"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "social media",
+    "relation": "broadcasts",
+    "value": "experiences instantaneously to global audiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experiences are broadcasted instantaneously to global audiences through social media platforms"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "National festivals",
+    "relation": "have_never_had",
+    "value": "a larger stage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these festivals have never had a larger stage"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "social media",
+    "relation": "can_act_as",
+    "value": "a vital amplifier of cultural practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This digital sphere can act as a vital amplifier of cultural practices"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "social media",
+    "relation": "potential_to_dilute",
+    "value": "profound cultural expressions into clich\u00e9d hashtags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has the potential to dilute profound cultural expressions into clich\u00e9d hashtags"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Holi festival",
+    "relation": "located_in",
+    "value": "India",
+    "time": "March 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "As observed during India\u2019s vibrant Holi festival on March 8, 2024"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Aarav Singh",
+    "relation": "occupation",
+    "value": "social media analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aarav Singh, a social media analyst in New Delhi, remarked"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Aarav Singh",
+    "relation": "located_in",
+    "value": "New Delhi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aarav Singh, a social media analyst in New Delhi, remarked"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Aarav Singh",
+    "relation": "said",
+    "value": "On one end, the world gets to see Holi's explosion of colors, but on the other, its spiritual and historic roots get overshadowed by the spectacle of it all.",
+    "time": "March 8, 2024",
+    "speaker": "Aarav Singh",
+    "verbatim": [
+     "On one end, the world gets to see Holi's explosion of colors, but on the other, its spiritual and historic roots get overshadowed by the spectacle of it all."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Holi festival",
+    "relation": "features",
+    "value": "explosion of colors",
+    "time": null,
+    "speaker": "Aarav Singh",
+    "verbatim": [
+     "the world gets to see Holi's explosion of colors"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Holi festival",
+    "relation": "roots_overshadowed_by",
+    "value": "the spectacle of it all",
+    "time": null,
+    "speaker": "Aarav Singh",
+    "verbatim": [
+     "its spiritual and historic roots get overshadowed by the spectacle of it all"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "National festivals",
+    "relation": "onus_on",
+    "value": "organizers and participants to uphold the deeper significance of these festivals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there\u2019s an onus on both organizers and participants to uphold the deeper significance of these festivals"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "National festivals",
+    "relation": "question_posed",
+    "value": "Must a festival lose its soul to gain the world's attention?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Must a festival lose its soul to gain the world's attention?"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Gianna Vasquez",
+    "relation": "occupation",
+    "value": "festival curator",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Gianna Vasquez, a festival curator in Sicily, proposed on September 30, 2023, during a conference on cultural preservation"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Gianna Vasquez",
+    "relation": "located_in",
+    "value": "Sicily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gianna Vasquez, a festival curator in Sicily, proposed on September 30, 2023, during a conference on cultural preservation"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Gianna Vasquez",
+    "relation": "proposed",
+    "value": "a movement back towards authenticity, a festival renaissance that honors the genuine spirit of our traditions",
+    "time": "September 30, 2023",
+    "speaker": "Gianna Vasquez",
+    "verbatim": [
+     "proposed on September 30, 2023, during a conference on cultural preservation",
+     "We need a movement back towards authenticity, a festival renaissance that honors the genuine spirit of our traditions."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "National festivals",
+    "relation": "pivotal_step",
+    "value": "creating awareness and educating tourists about the genuine cultural practices underlying festivals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Creating awareness and educating tourists about the genuine cultural practices underlying festivals may be a pivotal step."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "National festivals",
+    "relation": "participants_in",
+    "value": "preservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they become participants in preservation, not just passive"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "National festivals",
+    "relation": "approach_embraces",
+    "value": "the global interest in such events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach embraces the global interest in such events while bolstering the respect these traditions deserve."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "National festivals",
+    "relation": "bolsters",
+    "value": "the respect these traditions deserve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach embraces the global interest in such events while bolstering the respect these traditions deserve."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "National festivals",
+    "relation": "road_ahead_is",
+    "value": "balancing commercial success with cultural authenticity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The road ahead for national festivals is balancing commercial success with cultural authenticity."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "National festivals",
+    "relation": "is_tightrope_bound_by",
+    "value": "threads of tradition and the heavy coins of commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a tightrope bound by threads of tradition and the heavy coins of commerce."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "National festivals",
+    "relation": "navigation_dictates",
+    "value": "whether festivals maintain their role as authentic representations of a nation's culture or devolve into theme park renditions of our past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "How we navigate this will dictate whether festivals maintain their role as authentic representations of a nation's culture or devolve into theme park renditions of our past."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "National festivals",
+    "relation": "window_status",
+    "value": "remains open, but the view is changing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The window to a nation\u2019s soul afforded by these festivals remains open, but the view is changing."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "National festivals",
+    "relation": "fate_determined_by",
+    "value": "time and our collective cultural conscience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Only time\u2014and our collective cultural conscience\u2014will determine the true fate of our national festivals and, by extension, our cherished cultural heritage."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

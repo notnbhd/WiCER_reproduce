@@ -1,0 +1,686 @@
+{
+ "inventory": [
+  "Dr. Elena Vasquez",
+  "GenoCraft",
+  "Dr. Marcus Yung",
+  "Dr. Rajeev Narayan",
+  "Dr. Fiona Cho",
+  "NeuroSynth",
+  "Alzheimer's",
+  "Parkinson's",
+  "Dr. Jamal Peterson",
+  "Dr. Lisa Ming",
+  "SmartPatch",
+  "Dr. Robert Kean",
+  "SpeedVax",
+  "Dr. Naomi Schwartz",
+  "superfoods",
+  "Dr. Henry Lau",
+  "Dr. Vivian Zhou"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Elena Vasquez",
+    "relation": "unveiled",
+    "value": "a remarkable platform for personalized medicine",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the local team headed by Dr. Elena Vasquez unveiled a remarkable platform for personalized medicine"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Elena Vasquez",
+    "relation": "headed",
+    "value": "local team",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the local team headed by Dr. Elena Vasquez"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "GenoCraft",
+    "relation": "is_a",
+    "value": "program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Known as GenoCraft, the program uses advanced algorithms"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "GenoCraft",
+    "relation": "uses",
+    "value": "advanced algorithms to interpret individual genetic makeup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program uses advanced algorithms to interpret individual genetic makeup"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "GenoCraft",
+    "relation": "provides",
+    "value": "customized treatment plans that cater to each person's unique genetic landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby providing customized treatment plans that cater to each person's unique genetic landscape"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "GenoCraft",
+    "relation": "could_revolutionize",
+    "value": "how we treat genetic disorders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could potentially revolutionize how we treat genetic disorders"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "GenoCraft",
+    "relation": "praised_for",
+    "value": "technological ingenuity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Vasquez's GenoCraft has been praised not just for its technological ingenuity"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "GenoCraft",
+    "relation": "praised_for",
+    "value": "bringing personalized healthcare closer to becoming an everyday reality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also for bringing personalized healthcare closer to becoming an everyday reality"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Marcus Yung",
+    "relation": "spearheaded",
+    "value": "research",
+    "time": "November 13, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the research spearheaded by Dr. Marcus Yung on November 13, 2023, has been pivotal"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Marcus Yung",
+    "relation": "developed",
+    "value": "an AI-driven diagnostic tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Yung's team developed an AI-driven diagnostic tool that uses machine learning to predict the onset of chronic diseases long before conventional symptoms emerge"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Marcus Yung",
+    "relation": "tool_uses",
+    "value": "machine learning to predict the onset of chronic diseases long before conventional symptoms emerge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses machine learning to predict the onset of chronic diseases long before conventional symptoms emerge"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Marcus Yung",
+    "relation": "tool_analyzes",
+    "value": "vast datasets of patient history and current health markers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing vast datasets of patient history and current health markers"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Marcus Yung",
+    "relation": "tool_alerts",
+    "value": "individuals to future health risks with stunning accuracy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the AI system can alert individuals to future health risks with stunning accuracy"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Marcus Yung",
+    "relation": "mechanism_of",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing vast datasets of patient history and current health markers, the AI system can alert individuals to future health risks with stunning accuracy"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Rajeev Narayan",
+    "relation": "is",
+    "value": "nanotechnology expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lab of nanotechnology expert Dr. Rajeev Narayan"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Rajeev Narayan",
+    "relation": "tested",
+    "value": "nanoparticles designed to seek and destroy cancer cells without harming healthy tissue",
+    "time": "September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 21, 2023, Dr. Narayan's research group successfully tested nanoparticles designed to seek and destroy cancer cells without harming healthy tissue."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Rajeev Narayan",
+    "relation": "status",
+    "value": "still in clinical trials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This form of precision oncology, still in clinical trials"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Rajeev Narayan",
+    "relation": "could_mean",
+    "value": "treatments for cancer might one day be as targeted and routine as taking an antibiotic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could mean that treatments for cancer might one day be as targeted and routine as taking an antibiotic"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Rajeev Narayan",
+    "relation": "side_effects",
+    "value": "minimal side effects currently associated with chemotherapy or radiation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with minimal side effects currently associated with chemotherapy or radiation"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Fiona Cho",
+    "relation": "is",
+    "value": "Neurobiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neurobiologist Dr. Fiona Cho's project, NeuroSynth, is generating considerable excitement."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Fiona Cho",
+    "relation": "leads_project",
+    "value": "NeuroSynth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neurobiologist Dr. Fiona Cho's project, NeuroSynth, is generating considerable excitement."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "NeuroSynth",
+    "relation": "generating",
+    "value": "considerable excitement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neurobiologist Dr. Fiona Cho's project, NeuroSynth, is generating considerable excitement."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "NeuroSynth",
+    "relation": "announced_breakthrough",
+    "value": "a breakthrough",
+    "time": "December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "With a breakthrough announced on December 8, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "NeuroSynth",
+    "relation": "aims_to",
+    "value": "restore synaptic connections lost due to degenerative diseases like Alzheimer's and Parkinson's",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "NeuroSynth aims to restore synaptic connections lost due to degenerative diseases like Alzheimer's and Parkinson's."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alzheimer's",
+    "relation": "example_of",
+    "value": "degenerative diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "degenerative diseases like Alzheimer's and Parkinson's"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Parkinson's",
+    "relation": "example_of",
+    "value": "degenerative diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "degenerative diseases like Alzheimer's and Parkinson's"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Fiona Cho",
+    "relation": "employs_approach",
+    "value": "a combination of regenerative medicine and bioengineering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employing a combination of regenerative medicine and bioengineering"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Fiona Cho",
+    "relation": "could_reverse",
+    "value": "neurological decline and improve the quality of life for millions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Cho's work could reverse neurological decline and improve the quality of life for millions."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Fiona Cho",
+    "relation": "mechanism_of",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employing a combination of regenerative medicine and bioengineering, Dr. Cho's work could reverse neurological decline and improve the quality of life for millions."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "work_credited_with",
+    "value": "3D printing into the biological realm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "3D printing has transcended the limits of manufacturing into the biological realm, thanks to the work of Dr. Jamal Peterson and his team."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "printed",
+    "value": "the first functioning kidney prototype for transplant",
+    "time": "January 17, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 17, 2024, they printed the first functioning kidney prototype for transplant."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "expected_to_lower",
+    "value": "the risk of organ rejection significantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using the patient's cells, the risk of organ rejection is expected to be significantly lowered."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "uses",
+    "value": "the patient's cells",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using the patient's cells"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "mechanism_of",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using the patient's cells, the risk of organ rejection is expected to be significantly lowered."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Jamal Peterson",
+    "relation": "could_mean",
+    "value": "the end of transplant waiting lists and the beginning of readily available, life-saving treatments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bioprinting organs could mean the end of transplant waiting lists and the beginning of readily available, life-saving treatments."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Dr. Lisa Ming",
+    "relation": "is",
+    "value": "Electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electrical engineer Dr. Lisa Ming and her interdisciplinary team introduced SmartPatch on February 9, 2024."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Lisa Ming",
+    "relation": "introduced",
+    "value": "SmartPatch",
+    "time": "February 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Electrical engineer Dr. Lisa Ming and her interdisciplinary team introduced SmartPatch on February 9, 2024."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "SmartPatch",
+    "relation": "administers_medication",
+    "value": "medication through the skin based on the data it collects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it administers medication through the skin based on the data it collects"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "SmartPatch",
+    "relation": "described_as",
+    "value": "a portable and personal pharmacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it a portable and personal pharmacy"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "SmartPatch",
+    "relation": "treats",
+    "value": "emergent issues in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The latest addition to wearable technology is not just tracking health-related metrics but also treating emergent issues in real-time."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Robert Kean",
+    "relation": "is",
+    "value": "Local immunologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local immunologist Dr. Robert Kean's lab has revolutionized vaccine development through SpeedVax, unveiled on March 22, 2024."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Robert Kean",
+    "relation": "revolutionized",
+    "value": "vaccine development through SpeedVax",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local immunologist Dr. Robert Kean's lab has revolutionized vaccine development through SpeedVax, unveiled on March 22, 2024."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "SpeedVax",
+    "relation": "unveiled_on",
+    "value": "March 22, 2024",
+    "time": "March 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "unveiled on March 22, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "SpeedVax",
+    "relation": "can_produce",
+    "value": "trial-ready vaccines within weeks, not years, in response to emerging threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SpeedVax can formulate and produce trial-ready vaccines within weeks, not years, in response to emerging threats."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "SpeedVax",
+    "relation": "could_change",
+    "value": "the course of future pandemics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This could change the course of future pandemics, allowing for swift containment and saving countless lives."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Naomi Schwartz",
+    "relation": "is",
+    "value": "Geneticist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Geneticist Dr. Naomi Schwartz and her team's work on 'superfoods' is setting the stage for a nutritional paradigm shift."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Dr. Naomi Schwartz",
+    "relation": "work_on",
+    "value": "superfoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Geneticist Dr. Naomi Schwartz and her team's work on 'superfoods' is setting the stage for a nutritional paradigm shift."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Naomi Schwartz",
+    "relation": "setting_stage_for",
+    "value": "a nutritional paradigm shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is setting the stage for a nutritional paradigm shift"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "superfoods",
+    "relation": "engineered",
+    "value": "plant strains that provide optimized nutrient profiles to cater to individual health needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They have engineered plant strains that provide optimized nutrient profiles to cater to individual health needs, announced on April 4, 2024."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "superfoods",
+    "relation": "announced_on",
+    "value": "April 4, 2024",
+    "time": "April 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "announced on April 4, 2024"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "superfoods",
+    "relation": "may_play_role_in",
+    "value": "combating malnutrition and related illnesses worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tailored superfoods may play a critical role in combating malnutrition and related illnesses worldwide."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Dr. Henry Lau",
+    "relation": "is",
+    "value": "Data scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data scientists like Dr. Henry Lau are employing predictive analytics to map health trends across populations."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Henry Lau",
+    "relation": "employs",
+    "value": "predictive analytics to map health trends across populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data scientists like Dr. Henry Lau are employing predictive analytics to map health trends across populations."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Henry Lau",
+    "relation": "introduced",
+    "value": "predictive modeling tools",
+    "time": "May 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Introduced on May 15, 2024, his predictive modeling tools"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Henry Lau",
+    "relation": "tools_help",
+    "value": "healthcare systems prepare for and prevent disease outbreaks, adjust resource allocation, and improve overall community health outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "help healthcare systems prepare for and prevent disease outbreaks, adjust resource allocation, and improve overall community health outcomes"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Vivian Zhou",
+    "relation": "is",
+    "value": "Ethicist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ethicist Dr. Vivian Zhou is at the forefront of the movement advocating for responsible innovation."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Vivian Zhou",
+    "relation": "advocates",
+    "value": "responsible innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ethicist Dr. Vivian Zhou is at the forefront of the movement advocating for responsible innovation."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Dr. Vivian Zhou",
+    "relation": "announced",
+    "value": "framework",
+    "time": "June 29, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Her framework, announced on June 29, 2024, ensures that these advances benefit all segments of society"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Dr. Vivian Zhou",
+    "relation": "ensures",
+    "value": "these advances benefit all segments of society and are developed with considerations for longterm implications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensures that these advances benefit all segments of society and are developed with considerations for longterm implications"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Dr. Vivian Zhou",
+    "relation": "maintains",
+    "value": "a delicate balance between progress and ethical responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maintaining a delicate balance between progress and ethical responsibility"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

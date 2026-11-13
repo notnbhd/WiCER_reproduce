@@ -1,0 +1,555 @@
+{
+ "inventory": [
+  "Public health",
+  "Preventive care",
+  "Early detection",
+  "Health Horizons",
+  "Dr. Samantha Greene",
+  "The Smart Screen Initiative",
+  "Local health department",
+  "Dr. Jonathan Chase",
+  "Vax4All",
+  "Martha Simmons",
+  "eHealth Companion",
+  "Together in Health",
+  "Primary care providers",
+  "Chronic illnesses",
+  "Diabetes",
+  "Heart disease",
+  "Certain cancers",
+  "Flu"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Public health",
+    "relation": "is_increasingly_becoming",
+    "value": "the watchtowers for community health management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are increasingly becoming the watchtowers for community health management"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Health Horizons",
+    "relation": "launched_on",
+    "value": "October 2, 2023",
+    "time": "October 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 2, 2023, marked the launch of \"Health Horizons,\""
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Health Horizons",
+    "relation": "aims_to",
+    "value": "bolster preventive care awareness in our community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a comprehensive public health campaign aimed at bolstering preventive care awareness in our community."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Samantha Greene",
+    "relation": "campaign_director_of",
+    "value": "Health Horizons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As highlighted by Dr. Samantha Greene, the campaign director,"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Samantha Greene",
+    "relation": "states",
+    "value": "preventive care does not start in the doctor\u2019s office",
+    "time": null,
+    "speaker": "Dr. Samantha Greene",
+    "verbatim": [
+     "Preventive care does not start in the doctor\u2019s office."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Preventive care",
+    "relation": "starts_with",
+    "value": "awareness and knowledge",
+    "time": null,
+    "speaker": "Dr. Samantha Greene",
+    "verbatim": [
+     "It starts with awareness and knowledge, which empower individuals to make informed choices about their well-being."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Health Horizons",
+    "relation": "has_tenets",
+    "value": "education on health risks; advocating for preventive practices; promoting consistent screening for early disease detection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is hinged on three central tenets: education on health risks, advocating for preventive practices, and promoting consistent screening for early disease detection."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Health Horizons",
+    "relation": "schedules",
+    "value": "informative workshops, free pamphlets, and interactive webinars",
+    "time": "throughout the year",
+    "speaker": null,
+    "verbatim": [
+     "Informative workshops, free pamphlets, and interactive webinars are scheduled throughout the year"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Public health",
+    "relation": "educates_on",
+    "value": "lifestyle choices such as diet, exercise, and regular health check-ups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through educating the populace on the importance of lifestyle choices such as diet, exercise, and regular health check-ups"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Public health",
+    "relation": "aims_to_reduce",
+    "value": "the onset and impact of chronic illnesses like diabetes, heart disease, and certain cancers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these campaigns are geared towards reducing the onset and impact of chronic illnesses like diabetes, heart disease, and certain cancers."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Public health",
+    "relation": "in_order_to",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through educating the populace on the importance of lifestyle choices such as diet, exercise, and regular health check-ups, these campaigns are geared towards reducing the onset and impact of chronic illnesses like diabetes, heart disease, and certain cancers."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Chronic illnesses",
+    "relation": "includes",
+    "value": "diabetes, heart disease, and certain cancers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chronic illnesses like diabetes, heart disease, and certain cancers."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Public health",
+    "relation": "affirms_adage",
+    "value": "prevention is better than cure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affirming the adage 'prevention is better than cure.'"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Public health",
+    "relation": "deploys_strategy",
+    "value": "early intervention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the critical strategies deployed in public health efforts entails early intervention"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "The Smart Screen Initiative",
+    "relation": "unveiled_on",
+    "value": "November 15, 2023",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Take for instance, \"The Smart Screen Initiative,\" unveiled on November 15, 2023."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "The Smart Screen Initiative",
+    "relation": "spearheaded_by",
+    "value": "Local health department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by the local health department"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Smart Screen Initiative",
+    "relation": "has_made_strides_in",
+    "value": "making necessary screenings more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this initiative has made strides in making necessary screenings more accessible."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Smart Screen Initiative",
+    "relation": "partners_with",
+    "value": "clinics and mobile health units",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Partnering with clinics and mobile health units"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Smart Screen Initiative",
+    "relation": "aims_to_reach",
+    "value": "individuals who have previously faced barriers to screening due to socioeconomic factors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to reach individuals who have previously faced barriers to screening due to socioeconomic factors."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "The Smart Screen Initiative",
+    "relation": "informed_by",
+    "value": "research showing that early detection of diseases significantly enhances treatment success rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The initiative is informed by research showing that early detection of diseases significantly"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Early detection",
+    "relation": "enhances",
+    "value": "treatment success rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhances treatment success rates."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Jonathan Chase",
+    "relation": "states",
+    "value": "early detection can turn the tide against many diseases",
+    "time": null,
+    "speaker": "Dr. Jonathan Chase",
+    "verbatim": [
+     "There\u2019s no doubt that early detection can turn the tide against many diseases."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Jonathan Chase",
+    "relation": "states",
+    "value": "easy access to screening tests is a concrete step towards transforming health outcomes",
+    "time": null,
+    "speaker": "Dr. Jonathan Chase",
+    "verbatim": [
+     "Easy access to screening tests is a concrete step towards transforming health outcomes."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Public health",
+    "relation": "rolled_out",
+    "value": "targeted programs to meet the varied needs of diverse populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public health departments have thus rolled out targeted programs to meet the varied needs of diverse populations."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Public health",
+    "relation": "includes",
+    "value": "community drives with a focus on vaccinations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These include community drives with a focus on vaccinations"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Vax4All",
+    "relation": "conducted_in",
+    "value": "late September 2023",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "such as the \"Vax4All\" campaign conducted in late September 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Vax4All",
+    "relation": "immunizes",
+    "value": "at-risk and underprivileged sectors of the population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "health workers mobilizing to immunize at-risk and underprivileged sectors of the population against the flu"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Vax4All",
+    "relation": "immunizes_against",
+    "value": "flu",
+    "time": "before the onset of the winter season",
+    "speaker": null,
+    "verbatim": [
+     "immunize at-risk and underprivileged sectors of the population against the flu, before the onset of the winter season."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Martha Simmons",
+    "relation": "participated_in",
+    "value": "Vax4All campaign",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martha Simmons, a nurse who participated in the \"Vax4All\" campaign"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Martha Simmons",
+    "relation": "occupation",
+    "value": "nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martha Simmons, a nurse who participated"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Martha Simmons",
+    "relation": "states",
+    "value": "reaching out to communities directly enables offering the vaccine and clearing up misconceptions",
+    "time": null,
+    "speaker": "Martha Simmons",
+    "verbatim": [
+     "By reaching out to communities directly, we can not only offer the vaccine but also clear up misconceptions and provide personal counsel on other preventive care measures,"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "eHealth Companion",
+    "relation": "launched_on",
+    "value": "September 23, 2023",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on September 23, 2023, the \"eHealth Companion\" app is a prime example of this digital innovation."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "eHealth Companion",
+    "relation": "provides",
+    "value": "reminders for scheduled screenings, personalized health tips, and a direct line to health advisors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these tools provide reminders for scheduled screenings, personalized health tips, and a direct line to health advisors."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Preventive care",
+    "relation": "revolutionized_by",
+    "value": "mobile applications, telehealth services, and online portals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mobile applications, telehealth services, and online portals have revolutionized the way preventive care is delivered and accessed."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Public health",
+    "relation": "data_analytics_help_prioritize",
+    "value": "resources, trends, and outbreaks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data analytics obtained from these technologies help public health officials prioritize resources, trends, and outbreaks"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Public health",
+    "relation": "enables",
+    "value": "a more targeted approach in campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for a more targeted approach in campaigns."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Public health",
+    "relation": "synergizes_with",
+    "value": "Primary care providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public health campaigns meticulously synergize with primary care providers to ensure a consistent and cohesive preventative care strategy."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Primary care providers",
+    "relation": "shares_onus_with",
+    "value": "patients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a partnership that places the onus not only on patients but also on the primary caregivers."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Together in Health",
+    "relation": "inaugurated_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, the \"Together in Health\" program was inaugurated"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Together in Health",
+    "relation": "championed",
+    "value": "a synchronized patient care approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "championing a synchronized patient care approach."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Together in Health",
+    "relation": "involves_regular_meetings_between",
+    "value": "public health representatives and local clinics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular meetings between public health representatives and local clinics ensure updates on best practices in preventive care are shared and implemented."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Public health",
+    "relation": "has_direct_bearing_on",
+    "value": "the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The thrust that public health campaigns bring to preventive care and screening has a direct bearing on the workforce."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Preventive care",
+    "relation": "effects",
+    "value": "healthy individuals contribute more effectively to their jobs, exhibit greater productivity, and take fewer sick days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Healthy individuals contribute more effectively to their jobs, exhibit greater productivity, and take fewer sick days."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Preventive care",
+    "relation": "cornerstone_for",
+    "value": "building resilient professional communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investing in health education and prevention programs is, therefore, a cornerstone for building resilient professional communities."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Public health",
+    "relation": "described_as",
+    "value": "the guardian of our collective well-being, a silent partner in our daily endeavors, and a crusader for longevity and quality of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public health is the guardian of our collective well-being, a silent partner in our daily endeavors, and a crusader for longevity and quality of life."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Health Horizons",
+    "relation": "demonstrates",
+    "value": "an unwavering commitment to this cause",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs such as \"Health Horizons\" and \"The Smart Screen Initiative\" demonstrate an unwavering commitment to this cause."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "The Smart Screen Initiative",
+    "relation": "demonstrates",
+    "value": "an unwavering commitment to this cause",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs such as \"Health Horizons\" and \"The Smart Screen Initiative\" demonstrate an unwavering commitment to this cause."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Preventive care",
+    "relation": "must_persist_in",
+    "value": "our homes, workplaces, and broader society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the conversation and actions toward preventive healthcare must persist in our homes, workplaces, and broader society."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

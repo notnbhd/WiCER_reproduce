@@ -1,0 +1,507 @@
+{
+ "inventory": [
+  "Dr. Ava Johnson",
+  "MindMatters",
+  "Michael Chang",
+  "ConnectHive",
+  "Sarah Bentley",
+  "EnlightenEd",
+  "WellSpace",
+  "Eric Kline",
+  "Voices for Vitality",
+  "Amina Weber",
+  "WholeChild",
+  "Dr. Omar Singh",
+  "Community Pulse",
+  "Zoe Ramirez"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Ava Johnson",
+    "relation": "profession",
+    "value": "clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One such luminary, Dr. Ava Johnson, a clinical psychologist with over two decades of experience"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Ava Johnson",
+    "relation": "experience",
+    "value": "over two decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a clinical psychologist with over two decades of experience"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Ava Johnson",
+    "relation": "kick_started",
+    "value": "MindMatters initiative",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "kick-started the 'MindMatters' initiative on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "MindMatters",
+    "relation": "started_by",
+    "value": "Dr. Ava Johnson",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "kick-started the 'MindMatters' initiative on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "MindMatters",
+    "relation": "focus",
+    "value": "supporting individuals and educating the masses about the importance of mental well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This program focuses on not just supporting individuals but also on educating the masses about the importance of mental well-being"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Ava Johnson",
+    "relation": "stated",
+    "value": "Ignorance breeds stigma, and stigma stifles the search for help.",
+    "time": null,
+    "speaker": "Dr. Ava Johnson",
+    "verbatim": [
+     "Ignorance breeds stigma, and stigma stifles the search for help."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Michael Chang",
+    "relation": "profession",
+    "value": "techsavvy philanthropist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by techsavvy philanthropist Michael Chang"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Michael Chang",
+    "relation": "spearheaded",
+    "value": "ConnectHive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by techsavvy philanthropist Michael Chang"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "ConnectHive",
+    "relation": "emerged_on",
+    "value": "November 15, 2023",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "emerged on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "ConnectHive",
+    "relation": "is",
+    "value": "a platform where individuals find others who echo their struggles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as a platform where individuals find others who echo their struggles"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "ConnectHive",
+    "relation": "provides",
+    "value": "a virtual sanctuary from isolation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "therefore providing a virtual sanctuary from isolation"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "ConnectHive",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where individuals find others who echo their struggles, therefore providing a virtual sanctuary from isolation"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Michael Chang",
+    "relation": "stated",
+    "value": "Technology provides anonymity to those apprehensive about seeking help,",
+    "time": null,
+    "speaker": "Michael Chang",
+    "verbatim": [
+     "Technology provides anonymity to those apprehensive about seeking help,"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "ConnectHive",
+    "relation": "described_as",
+    "value": "more than an app; it\u2019s a lifeline for those who feel adrift in their mental health journey",
+    "time": null,
+    "speaker": "Michael Chang",
+    "verbatim": [
+     "ConnectHive is more than an app; it\u2019s a lifeline for those who feel adrift in their mental health journey."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Bentley",
+    "relation": "profession",
+    "value": "education innovator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Bentley, an education innovator"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Bentley",
+    "relation": "launched",
+    "value": "EnlightenEd project",
+    "time": "January 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "\u2018EnlightenEd\u2019 project on January 5, 2024"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "EnlightenEd",
+    "relation": "launched_on",
+    "value": "January 5, 2024",
+    "time": "January 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "\u2018EnlightenEd\u2019 project on January 5, 2024"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "EnlightenEd",
+    "relation": "is",
+    "value": "interactive digital platform gamifies learning about mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interactive digital platform gamifies learning about mental health"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "EnlightenEd",
+    "relation": "aimed_at",
+    "value": "younger audiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it more palatable and engaging for younger audiences"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sarah Bentley",
+    "relation": "believes",
+    "value": "getting to grips with mental health from a young age can serve as a preventative measure",
+    "time": null,
+    "speaker": "Sarah Bentley",
+    "verbatim": [
+     "Bentley believes that getting to grips with mental health from a young age can serve as a preventative measure"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Bentley",
+    "relation": "stated",
+    "value": "If we teach our kids about mental health the way we teach them about physical health, we're shaping a more understanding and resilient future generation.",
+    "time": null,
+    "speaker": "Sarah Bentley",
+    "verbatim": [
+     "If we teach our kids about mental health the way we teach them about physical health, we're shaping a more understanding and resilient future generation."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Eric Kline",
+    "relation": "profession",
+    "value": "organizational psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by organizational psychologist Eric Kline"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Eric Kline",
+    "relation": "founded",
+    "value": "WellSpace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'WellSpace', founded by organizational psychologist Eric Kline"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "WellSpace",
+    "relation": "launched_on",
+    "value": "February 20, 2024",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "is an initiative launched on February 20, 2024"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "WellSpace",
+    "relation": "aims",
+    "value": "to transform office environments into spaces where mental health holds equal weight as productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to transform office environments into spaces where mental health holds equal weight as productivity"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Eric Kline",
+    "relation": "stated",
+    "value": "Businesses are starting to understand that taking care of employees' mental health directly correlates to their performance,",
+    "time": null,
+    "speaker": "Eric Kline",
+    "verbatim": [
+     "Businesses are starting to understand that taking care of employees' mental health directly correlates to their performance,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "WellSpace",
+    "relation": "offers",
+    "value": "workshops, resources, and in-house counseling sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "WellSpace offers workshops, resources, and in-house counseling sessions"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Amina Weber",
+    "relation": "profession",
+    "value": "social activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conceived by social activist Amina Weber on March 22, 2024"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Voices for Vitality",
+    "relation": "conceived_by",
+    "value": "Amina Weber",
+    "time": "March 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "conceived by social activist Amina Weber on March 22, 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Voices for Vitality",
+    "relation": "brings",
+    "value": "real stories to the forefront",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings real stories to the forefront"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Voices for Vitality",
+    "relation": "encourages",
+    "value": "community members to share their personal battles and triumphs concerning mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative encourages community members to share their personal battles and triumphs concerning mental health"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Amina Weber",
+    "relation": "stated",
+    "value": "Stories have the power to move hearts and change minds,",
+    "time": null,
+    "speaker": "Amina Weber",
+    "verbatim": [
+     "Stories have the power to move hearts and change minds,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Omar Singh",
+    "relation": "profession",
+    "value": "child psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by child psychologist Dr. Omar Singh"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Omar Singh",
+    "relation": "spearheaded",
+    "value": "WholeChild",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by child psychologist Dr. Omar Singh"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "WholeChild",
+    "relation": "introduced_into",
+    "value": "local schools",
+    "time": "April 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the 'WholeChild' program was introduced into local schools on April 25, 2024"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "WholeChild",
+    "relation": "includes",
+    "value": "modules on emotional intelligence and mental resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only does it incorporate modules on emotional intelligence and mental resilience"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "WholeChild",
+    "relation": "ensures",
+    "value": "teachers are sufficiently trained to identify and address signs of mental distress in students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also ensures that teachers are sufficiently trained to identify and address signs of mental distress in students"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "WholeChild",
+    "relation": "views",
+    "value": "mental health education as an indispensable part of the learning experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program views mental health education as an indispensable part of the learning experience"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Zoe Ramirez",
+    "relation": "profession",
+    "value": "nurse practitioner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative started by nurse practitioner Zoe Ramirez"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Zoe Ramirez",
+    "relation": "started",
+    "value": "Community Pulse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative started by nurse practitioner Zoe Ramirez"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Community Pulse",
+    "relation": "inception",
+    "value": "June 1, 2024",
+    "time": "June 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since its inception on June 1,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Community Pulse",
+    "relation": "focuses",
+    "value": "mental health first aid training for ordinary citizens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focuses on mental health first aid training for ordinary citizens"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Community Pulse",
+    "relation": "equipped",
+    "value": "individuals with the skills to offer initial support and guide those in distress towards appropriate services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has equipped individuals with the skills to offer initial support and guide those in distress towards appropriate services"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Zoe Ramirez",
+    "relation": "stated",
+    "value": "Every member of our community can be a beacon of hope for someone in a dark place,",
+    "time": null,
+    "speaker": "Zoe Ramirez",
+    "verbatim": [
+     "Every member of our community can be a beacon of hope for someone in a dark place,"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

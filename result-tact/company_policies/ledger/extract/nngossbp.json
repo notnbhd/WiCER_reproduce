@@ -1,0 +1,472 @@
+{
+ "inventory": [
+  "Globex Corporation",
+  "Travel and Expense Policy",
+  "Booking Procedures",
+  "GlobexTraveler Portal",
+  "Preferred Vendors",
+  "Preferred Airlines",
+  "Partner Hotels",
+  "Employees",
+  "Strategic Partnerships",
+  "Transparency in Expense Management",
+  "Travel Marketplace",
+  "Data and Analytics Benefit"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Globex Corporation",
+    "relation": "recognizes",
+    "value": "the need for travel as an essential part of doing business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we recognize the need for travel as an essential part of doing business"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Travel and Expense Policy",
+    "relation": "focused_on",
+    "value": "booking procedures and preferred vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we've crafted a meticulous travel policy focused on booking procedures and preferred vendors"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Travel and Expense Policy",
+    "relation": "purpose",
+    "value": "ensure that both the company and its employees benefit from the travel and expense arrangements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To ensure that both the company and its employees benefit from the travel and expense arrangements"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Booking Procedures",
+    "relation": "is_aspect_of",
+    "value": "Globex Corporation's travel policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "let's pick apart the booking aspect of Globex Corporation's travel policy"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Employees",
+    "relation": "encouraged_to_use",
+    "value": "GlobexTraveler Portal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are strongly encouraged to utilize the company-approved online booking tool: GlobexTraveler Portal."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "GlobexTraveler Portal",
+    "relation": "is",
+    "value": "company-approved online booking tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the company-approved online booking tool: GlobexTraveler Portal"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "GlobexTraveler Portal",
+    "relation": "designed_to",
+    "value": "facilitate all travel arrangements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tool is designed to facilitate all travel arrangements"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "GlobexTraveler Portal",
+    "relation": "provides",
+    "value": "a centralized platform for flight bookings, hotel reservations, and car rentals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing a centralized platform for flight bookings, hotel reservations, and car rentals"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "GlobexTraveler Portal",
+    "relation": "simplifies",
+    "value": "travel logistics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by consolidating bookings through GlobexTraveler Portal, the company simplifies travel logistics, thereby reducing administrative overhead and potential for error"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "GlobexTraveler Portal",
+    "relation": "guarantees",
+    "value": "access to corporate rates and real-time assistance for travel-related inquiries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it guarantees that employees have access to corporate rates and real-time assistance for travel-related inquiries"
+    ]
+   },
+   {
+    "relation": "results_in",
+    "entity": "GlobexTraveler Portal",
+    "value_ref": "c9",
+    "id": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by consolidating bookings through GlobexTraveler Portal, the company simplifies travel logistics"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Preferred Vendors",
+    "relation": "forms",
+    "value": "mutually beneficial relationships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Globex Corporation's collaboration with select vendors morphs into mutually beneficial relationships."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Preferred Vendors",
+    "relation": "enables_negotiation_of",
+    "value": "discounts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By designating preferred vendors, the company not only negotiates discounts"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Preferred Vendors",
+    "relation": "secures",
+    "value": "value-added amenities for its employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also secures value-added amenities for its employees"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Preferred Airlines",
+    "relation": "offers",
+    "value": "expedited boarding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preferred airlines often offer expedited boarding"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Partner Hotels",
+    "relation": "might_provide",
+    "value": "complimentary room upgrades or late checkout options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partner hotels might provide complimentary room upgrades or late checkout options"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Preferred Vendors",
+    "relation": "reviewed_to_ensure_alignment_with",
+    "value": "the evolving needs of both employees and the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These relationships aren't static; they are constantly reviewed to ensure they align with the evolving needs of both employees and the company."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Preferred Vendors",
+    "relation": "review_includes",
+    "value": "analyzing cost-effectiveness and monitoring service quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From analyzing cost-effectiveness to monitoring service quality"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Preferred Vendors",
+    "relation": "fosters",
+    "value": "strategic alliances that yield tangible benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Globex's preferred vendor lists are about fostering strategic alliances that yield tangible benefits"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Globex Corporation",
+    "relation": "frequent_corporate_travel_linked_to",
+    "value": "substantial expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frequent corporate travel is unavoidably linked to substantial expenses."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Travel and Expense Policy",
+    "relation": "serves",
+    "value": "a dual purpose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Globex Corporation's policy serves a dual purpose."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Travel and Expense Policy",
+    "relation": "assists_with",
+    "value": "controlling spend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It not only assists with controlling spend"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Travel and Expense Policy",
+    "relation": "ensures",
+    "value": "employees are not left to navigate the exhaustive array of options in the travel marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also ensures that employees are not left to navigate the exhaustive array of options in the travel marketplace"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Travel and Expense Policy",
+    "relation": "achieved_by",
+    "value": "steering employees towards preferred vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by steering employees towards preferred vendors, Globex Corporation's policy serves a dual purpose"
+    ]
+   },
+   {
+    "relation": "mechanism_of",
+    "entity": "Travel and Expense Policy",
+    "value_ref": "c21",
+    "id": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by steering employees towards preferred vendors, Globex Corporation's policy serves a dual purpose"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Strategic Partnerships",
+    "relation": "yields",
+    "value": "economies of scale for Globex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through such strategic partnerships, Globex benefits from economies of scale, which then trickle down to the employee experience"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Strategic Partnerships",
+    "relation": "trickles_down_to",
+    "value": "the employee experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which then trickle down to the employee experience"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Strategic Partnerships",
+    "relation": "cost_savings_are",
+    "value": "an intended consequence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cost savings aren't merely a byproduct; they\u2019re an intended consequence that both sides can relish."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Data and Analytics Benefit",
+    "relation": "is",
+    "value": "less visible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What\u2019s less visible is the data and analytics benefit"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Data and Analytics Benefit",
+    "relation": "gives_company",
+    "value": "insightful travel patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the company gains insightful travel patterns that can be leveraged for future negotiations and policy adjustments"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Data and Analytics Benefit",
+    "relation": "leveraged_for",
+    "value": "future negotiations and policy adjustments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the company gains insightful travel patterns that can be leveraged for future negotiations and policy adjustments"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Transparency in Expense Management",
+    "relation": "importance_of",
+    "value": "transparency in all travel-related transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The policy underscores the importance of transparency in all travel-related transactions."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Employees",
+    "relation": "encouraged_to",
+    "value": "keep thorough records and retain receipts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are encouraged to keep thorough records and retain receipts, particularly when opting for services outside the preferred vendors list."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Employees",
+    "relation": "retain_receipts_particularly_when",
+    "value": "opting for services outside the preferred vendors list",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly when opting for services outside the preferred vendors list"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Preferred Vendors",
+    "relation": "adherence_translates_to",
+    "value": "easier expense tracking and reimbursement processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how adherence to the preferred network translates to easier expense tracking and reimbursement processes"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Travel and Expense Policy",
+    "relation": "designed_for",
+    "value": "mutual gain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a system designed for mutual gain"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Preferred Vendors",
+    "relation": "constructed_with",
+    "value": "strategic forethought",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the relationships with preferred vendors are constructed with strategic forethought"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Preferred Vendors",
+    "relation": "aims_for",
+    "value": "an optimal balance of costsavings, convenience, and enhanced travel experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming for an optimal balance of costsavings, convenience, and enhanced travel experience"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Employees",
+    "relation": "roam_the_globe_under",
+    "value": "Globex's wing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As employees roam the globe under Globex's wing"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Preferred Vendors",
+    "relation": "interaction_is",
+    "value": "a cog in a well-oiled machine aimed at streamlining corporate travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each interaction with a preferred vendor is a cog in a well-oiled machine aimed at streamlining corporate travel"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Preferred Vendors",
+    "relation": "is_cornerstone_of",
+    "value": "a larger ecosystem that supports both operational efficiency and employee satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these vendor partnerships aren't merely financial arrangements; they're a cornerstone of a larger ecosystem that supports both operational efficiency and employee satisfaction"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

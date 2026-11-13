@@ -1,0 +1,696 @@
+{
+ "inventory": [
+  "Wellville",
+  "Dr. Miranda Hughes",
+  "Leslie Thompson",
+  "Wellville Wellness Center",
+  "Your Health, Your Hands",
+  "Local Health Heroes Initiative",
+  "David Goodman",
+  "Thornton Industries",
+  "Hour for Health",
+  "Power of Prevention workshops",
+  "Dr. Samuel Jensen",
+  "Women's Health Sunday",
+  "Men's Health Marathon",
+  "local health initiative",
+  "preventive services",
+  "health screenings",
+  "mobile clinics",
+  "pop-up health centers",
+  "town hall meeting"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wellville",
+    "relation": "healthcare_status",
+    "value": "a quiet revolution in healthcare is underway",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quiet revolution in healthcare is underway"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellville",
+    "relation": "is_a",
+    "value": "a bustling town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the bustling town of Wellville"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "local health initiative",
+    "relation": "commenced_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "With September 15, 2023, marked as the commencement of a new and vibrant local health initiative"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Miranda Hughes",
+    "relation": "role",
+    "value": "a prominent figure in Wellville's community healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Miranda Hughes, a prominent figure in Wellville's community healthcare"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Miranda Hughes",
+    "relation": "proposed_on",
+    "value": "an unremarkably warm morning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The seeds were sown on an unremarkably warm morning when Dr. Miranda Hughes"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Miranda Hughes",
+    "relation": "proposed",
+    "value": "the idea of widespread, accessible health screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "first proposed the idea of widespread, accessible health screenings at a town hall meeting"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Miranda Hughes",
+    "relation": "proposed_at",
+    "value": "town hall meeting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "first proposed the idea of widespread, accessible health screenings at a town hall meeting"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "town hall meeting",
+    "relation": "attendees_showed",
+    "value": "a murmur of agreement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The murmur of agreement among the attendees that day"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local health initiative",
+    "relation": "promotes",
+    "value": "preventive health services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since burgeoned into a formidable local campaign that actively promotes preventive health services"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Miranda Hughes",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "verbatim": [
+     "first proposed the idea of widespread, accessible health screenings at a town hall meeting",
+     "has since burgeoned into a formidable local campaign that actively promotes preventive health services"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Wellville",
+    "relation": "community_calendar_features",
+    "value": "bi-weekly health events",
+    "time": "By November 2023",
+    "speaker": null,
+    "verbatim": [
+     "By November 2023, Wellville's community calendar is flush with bi-weekly health events"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "health screenings",
+    "relation": "includes_screenings_for",
+    "value": "blood pressure, cholesterol, diabetes, and mental health checkups",
+    "time": "By November 2023",
+    "speaker": null,
+    "verbatim": [
+     "These include screenings for blood pressure, cholesterol, diabetes, and mental health checkups"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "health screenings",
+    "relation": "cost",
+    "value": "free or at nominal costs",
+    "time": "By November 2023",
+    "speaker": null,
+    "verbatim": [
+     "all services provided free or at nominal costs to ensure maximum attendance"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "health screenings",
+    "relation": "in_order_to",
+    "value_ref": "c13",
+    "verbatim": [
+     "all services provided free or at nominal costs to ensure maximum attendance"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "health screenings",
+    "relation": "attendance_trend",
+    "value": "residents attend with the same regularity as a cherished weekly brunch or a beloved book club meeting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A heartening trend has emerged where residents now attend health screenings with the same regularity as a cherished weekly brunch or a beloved book club meeting"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "preventive services",
+    "relation": "saves",
+    "value": "lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preventive services save lives"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Leslie Thompson",
+    "relation": "occupation",
+    "value": "a registered nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leslie Thompson, a registered nurse and a vigorous advocate for preventive healthcare"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Leslie Thompson",
+    "relation": "role",
+    "value": "a vigorous advocate for preventive healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a vigorous advocate for preventive healthcare"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Leslie Thompson",
+    "relation": "spearheads",
+    "value": "a series of workshops aimed at demystifying health screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheads a series of workshops aimed at demystifying health screenings"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Leslie Thompson",
+    "relation": "said",
+    "value": "People fear what they don't understand",
+    "time": null,
+    "speaker": "Leslie Thompson",
+    "verbatim": [
+     "\"People fear what they don't understand,\" says Thompson"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Leslie Thompson",
+    "relation": "said",
+    "value": "a simple screening today can prevent a complicated health issue tomorrow",
+    "time": null,
+    "speaker": "Leslie Thompson",
+    "verbatim": [
+     "Once they realize that a simple screening today can prevent a complicated health issue tomorrow"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Wellville Wellness Center",
+    "relation": "opened_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Wellville Wellness Center, which opened its doors on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Wellville Wellness Center",
+    "relation": "equips_residents_with",
+    "value": "the information and means to monitor their well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipping residents with the information and means to monitor their well-being"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Wellville Wellness Center",
+    "relation": "philosophy",
+    "value": "rooted in empowerment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Center's philosophy is rooted in empowerment"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Wellville Wellness Center",
+    "relation": "slogan",
+    "value": "Your Health, Your Hands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its popular slogan \"Your Health, Your Hands\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Your Health, Your Hands",
+    "relation": "slogan_of",
+    "value": "Wellville Wellness Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its popular slogan \"Your Health, Your Hands\""
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Local Health Heroes Initiative",
+    "relation": "founded_by",
+    "value": "David Goodman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Local Health Heroes Initiative, founded by entrepreneur David Goodman"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Goodman",
+    "relation": "occupation",
+    "value": "entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by entrepreneur David Goodman"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Local Health Heroes Initiative",
+    "relation": "partnered_with",
+    "value": "local health providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has partnered with local health providers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Local Health Heroes Initiative",
+    "relation": "underwrites",
+    "value": "a portion of the costs associated with advanced screenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to underwrite a portion of the costs associated with advanced screenings"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "health screenings",
+    "relation": "advanced_screenings_include",
+    "value": "mammograms and colonoscopies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advanced screenings, which include mammograms and colonoscopies"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "local health initiative",
+    "relation": "access",
+    "value": "Doors are open to all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Doors are open to all"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "local health initiative",
+    "relation": "message",
+    "value": "socioeconomic status should not deter one from seeking healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "socioeconomic status should not deter one from seeking healthcare"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Thornton Industries",
+    "relation": "is_a",
+    "value": "a leading manufacturing plant in Wellville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thornton Industries, a leading manufacturing plant in Wellville"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Thornton Industries",
+    "relation": "introduced",
+    "value": "Hour for Health program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has introduced an 'Hour for Health' program"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Hour for Health",
+    "relation": "motivates_employees_to",
+    "value": "undertake health screenings during work hours without penalizing their pay",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "motivating employees to undertake health screenings during work hours without penalizing their pay"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Hour for Health",
+    "relation": "launched_on",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This initiative, launched on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Hour for Health",
+    "relation": "hailed_as",
+    "value": "monumental in opening the door for discussions surrounding health in the workplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been hailed as monumental in opening the door for discussions surrounding health in the workplace"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "health screenings",
+    "relation": "awareness_raised_by",
+    "value": "local sports teams dedicating games",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local sports teams dedicate games to raise awareness about health screenings"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "local health initiative",
+    "relation": "health_fairs_sponsored_by",
+    "value": "civic organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "civic organizations sponsor health fairs"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local health initiative",
+    "relation": "transforms_narrative_to",
+    "value": "a shared quest for community wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transforming the narrative from an individual to a shared quest for community wellness"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "local health initiative",
+    "relation": "described_as",
+    "value": "the quintessence of community mobilization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This is the quintessence of community mobilization"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local health initiative",
+    "relation": "pillar",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fueling the engine of this health movement is education."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Power of Prevention workshops",
+    "relation": "led_by",
+    "value": "seasoned physicians like Dr. Samuel Jensen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Power of Prevention workshops, led by seasoned physicians like Dr. Samuel Jensen"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Samuel Jensen",
+    "relation": "occupation",
+    "value": "seasoned physician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seasoned physicians like Dr. Samuel Jensen"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Power of Prevention workshops",
+    "relation": "pivotal_in",
+    "value": "providing essential education on the benefits of early detection and prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been pivotal in providing essential education on the benefits of early detection and prevention"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Power of Prevention workshops",
+    "relation": "teaching_models",
+    "value": "collaborative teaching involving interactive sessions, storytelling, and engaging Q&As",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With models of collaborative teaching involving interactive sessions, storytelling, and engaging Q&As"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Power of Prevention workshops",
+    "relation": "made",
+    "value": "the concept of preventive healthcare less intimidating and more approachable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these workshops have made the concept of preventive healthcare less intimidating and more approachable"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "local health initiative",
+    "relation": "cornerstone",
+    "value": "inclusivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inclusivity is the cornerstone of the local health screenings initiative"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "local health initiative",
+    "relation": "extends_beyond",
+    "value": "the town center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Efforts extend beyond the town center"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "mobile clinics",
+    "relation": "reach",
+    "value": "marginalized neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reaching out to marginalized neighborhoods through mobile clinics and pop-up health centers"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "pop-up health centers",
+    "relation": "reach",
+    "value": "marginalized neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reaching out to marginalized neighborhoods through mobile clinics and pop-up health centers"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "local health initiative",
+    "relation": "message",
+    "value": "a person's zip code should never limit their access to quality healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a person's zip code should never limit their access to quality healthcare"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "health screenings",
+    "relation": "have_become",
+    "value": "a social connective tissue as much as a medical service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "health screenings have become a social connective tissue as much as a medical service"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Women's Health Sunday",
+    "relation": "is_special_screening_day",
+    "value": "special screening day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Special screening days, like the Women's Health Sunday"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Men's Health Marathon",
+    "relation": "is_special_screening_day",
+    "value": "special screening day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the Men's Health Marathon, complete with healthy food stands and live music"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Men's Health Marathon",
+    "relation": "features",
+    "value": "healthy food stands and live music",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the Men's Health Marathon, complete with healthy food stands and live music"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "health screenings",
+    "relation": "creating",
+    "value": "a buzz and fostering strong community bonds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are creating a buzz and fostering strong community bonds"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "health screenings",
+    "relation": "turns_waits_into",
+    "value": "opportunities for social interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning potentially anxious waits for screenings into opportunities for social interaction"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "health screenings",
+    "relation": "chart_course_for",
+    "value": "a brighter tomorrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wellville's local health screenings and preventive services continue to chart the course for a brighter tomorrow"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "health screenings",
+    "relation": "attitude_evolved",
+    "value": "from caution and reluctance to optimism and routine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evolving from caution and reluctance to optimism and routine"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

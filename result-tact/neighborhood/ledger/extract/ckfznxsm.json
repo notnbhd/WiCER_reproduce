@@ -1,0 +1,981 @@
+{
+ "inventory": [
+  "Tanaka Family",
+  "Tokyo",
+  "Asakusa District",
+  "Japan",
+  "Oshogatsu",
+  "Keiko Tanaka",
+  "Yuki",
+  "Haruto",
+  "Hiroshi",
+  "Osoji",
+  "kadomatsu",
+  "shimenawa",
+  "Osechi ryori",
+  "jubako",
+  "Kazunoko",
+  "Kuromame",
+  "Datemaki",
+  "Toso",
+  "kimonos",
+  "Senso-ji",
+  "Joya-no-Kane",
+  "Kaminarimon",
+  "hatsumode",
+  "Karuta",
+  "hyakuninisshu",
+  "kotatsu"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Tokyo",
+    "relation": "dateline_date",
+    "value": "10 September 2023",
+    "time": "10 September 2023",
+    "speaker": null,
+    "verbatim": [
+     "TOKYO, 10 September 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Tokyo",
+    "relation": "described_as",
+    "value": "bustling metropolis where ancient temples and modern skyscrapers coexist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Tokyo's bustling metropolis, where ancient temples and modern skyscrapers coexist"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Tanaka Family",
+    "relation": "celebrates",
+    "value": "their time-honored tradition to preserve its rich cultural heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a family celebrates their time-honored tradition to preserve its rich cultural heritage"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Tanaka Family",
+    "relation": "has_roots_spanning",
+    "value": "several generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with roots that go back several generations"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Tanaka Family",
+    "relation": "located_in",
+    "value": "historic Asakusa District",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the historic Asakusa District"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Tanaka Family",
+    "relation": "tells_story_of",
+    "value": "the Oshogatsu, or New Year's, celebrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "open their doors to tell the story of the 'Oshogatsu,' or New Year's, celebrations."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Oshogatsu",
+    "relation": "means",
+    "value": "New Year's celebrations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Oshogatsu,' or New Year's, celebrations"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Asakusa District",
+    "relation": "hosts",
+    "value": "the annual spectacle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Tokyoites prepare for the annual spectacle in Asakusa's residential lanes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Tanaka Family",
+    "relation": "preparing_to_honor",
+    "value": "the heritage bestowed on them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Tanaka family is preparing to honor the heritage bestowed on them"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Tanaka Family",
+    "relation": "has_ancestral_house",
+    "value": "ancestral house at the center of these traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The family's ancestral house is at the center of these traditions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Keiko Tanaka",
+    "relation": "is",
+    "value": "matriarch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keiko Tanaka is the matriarch and begins the story."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Keiko Tanaka",
+    "relation": "says",
+    "value": "Our family tradition serves as the thread connecting us to our ancestors",
+    "time": null,
+    "speaker": "Keiko Tanaka",
+    "verbatim": [
+     "Our family tradition serves as the thread connecting us to our ancestors"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Keiko Tanaka",
+    "relation": "guardian_of",
+    "value": "ancient rituals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keiko and her children Yuki and Haruto have been the guardians of ancient rituals"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Yuki",
+    "relation": "is_child_of",
+    "value": "Keiko Tanaka",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keiko and her children Yuki and Haruto"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Haruto",
+    "relation": "is_child_of",
+    "value": "Keiko Tanaka",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keiko and her children Yuki and Haruto"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Hiroshi",
+    "relation": "is_husband_of",
+    "value": "Keiko Tanaka",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alongside Hiroshi, their husband"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Osoji",
+    "relation": "is",
+    "value": "a thorough clean",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a thorough clean, called 'Osoji,' is performed"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Osoji",
+    "relation": "explained_as",
+    "value": "cleaning is more than just tidiness",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "Hiroshi, while dusting an antique shelf, explains that cleaning is more than just tidiness."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Osoji",
+    "relation": "purifies",
+    "value": "the living space",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "It is also about purifying the living space"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Osoji",
+    "relation": "welcomes",
+    "value": "the gods of the new year",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "to welcome the gods of the new year"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Osoji",
+    "relation": "in_order_to",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "purifying the living space in order to welcome the gods of the new year"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Yuki",
+    "relation": "is",
+    "value": "eldest sister",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yuki, Yuki's eldest sister, says"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Yuki",
+    "relation": "says",
+    "value": "It is also about our readiness to begin anew, with a clean mind and environment",
+    "time": null,
+    "speaker": "Yuki",
+    "verbatim": [
+     "It is also about our readiness to begin anew, with a clean mind and environment."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "kadomatsu",
+    "relation": "is",
+    "value": "bamboo and pine decorations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'kadomatsu,' bamboo and pine decorations"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "shimenawa",
+    "relation": "is",
+    "value": "sacred straw ropes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'shimenawa,' sacred straw ropes"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "kadomatsu",
+    "relation": "symbolize",
+    "value": "the sanctity and prosperity of the home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These symbolize the sanctity and prosperity of the home."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "shimenawa",
+    "relation": "symbolize",
+    "value": "the sanctity and prosperity of the home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These symbolize the sanctity and prosperity of the home."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Yuki",
+    "relation": "takes_great_pleasure_in",
+    "value": "this tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yuki and Haruto take great pleasure in this tradition"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Haruto",
+    "relation": "takes_great_pleasure_in",
+    "value": "this tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yuki and Haruto take great pleasure in this tradition"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Yuki",
+    "relation": "contributes_more_each_year",
+    "value": "to the decoration",
+    "time": "each year",
+    "speaker": null,
+    "verbatim": [
+     "each year they contribute more to the decoration."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Haruto",
+    "relation": "contributes_more_each_year",
+    "value": "to the decoration",
+    "time": "each year",
+    "speaker": null,
+    "verbatim": [
+     "each year they contribute more to the decoration."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Osechi ryori",
+    "relation": "is",
+    "value": "culinary centerpiece for the Tanaka New Year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Osechi ryori' is the culinary centerpiece for the Tanaka New Year."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Osechi ryori",
+    "relation": "is",
+    "value": "an assortment of colorful dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's an assortment of colorful dishes carefully packed in multi-tiered boxes known as 'jubako."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "jubako",
+    "relation": "is",
+    "value": "multi-tiered boxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "carefully packed in multi-tiered boxes known as 'jubako."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Osechi ryori",
+    "relation": "represents",
+    "value": "hope for the new year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each item of food in Osechi-ryori represents hope for the new year"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Kazunoko",
+    "relation": "represents",
+    "value": "fertility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 'Kazunoko for fertility'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Kuromame",
+    "relation": "represents",
+    "value": "health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 'Kuromame for health'"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Datemaki",
+    "relation": "represents",
+    "value": "knowledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 'Datemaki for knowledge'"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Keiko Tanaka",
+    "relation": "says",
+    "value": "Preparing Osechi takes a lot of work and is a collaborative effort",
+    "time": null,
+    "speaker": "Keiko Tanaka",
+    "verbatim": [
+     "Preparing Osechi takes a lot of work and is a collaborative effort."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Osechi ryori",
+    "relation": "is_family_affair",
+    "value": "each step, from preparing the ingredients up to the final arrangement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each step, from preparing the ingredients up to the final arrangement is a family affair."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Tanaka Family",
+    "relation": "gathers_on",
+    "value": "New Year's Eve",
+    "time": "New Year's Eve",
+    "speaker": null,
+    "verbatim": [
+     "The family gathers on New Year's Eve to drink 'Toso,'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Toso",
+    "relation": "is",
+    "value": "a medicinal spiced sake",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Toso,' a medicinal spiced sake"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Toso",
+    "relation": "believed_to_keep_away",
+    "value": "evil spirits and illnesses",
+    "time": "the entire year",
+    "speaker": null,
+    "verbatim": [
+     "is believed to keep away evil spirits and illnesses for the entire year"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Hiroshi",
+    "relation": "in_charge_of",
+    "value": "the preparation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hiroshi is in charge of the preparation"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Hiroshi",
+    "relation": "learned_recipe_from",
+    "value": "father",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having learned the recipe from father"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Hiroshi",
+    "relation": "says",
+    "value": "The ritual of drinking Toso was one I vividly remember from my childhood.",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "The ritual of drinking Toso was one I vividly remember from my childhood."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Hiroshi",
+    "relation": "says",
+    "value": "Now I pass it along to my children.",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "Now I pass it along to my children."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Hiroshi",
+    "relation": "pours",
+    "value": "the aromatic brew in cups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as he pours the aromatic brew in cups"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Senso-ji",
+    "relation": "visited_by",
+    "value": "family members dressed in their best 'kimonos'",
+    "time": "As midnight approaches",
+    "speaker": null,
+    "verbatim": [
+     "family members dressed in their best 'kimonos' visit Senso-ji"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "kimonos",
+    "relation": "worn_by",
+    "value": "family members dressed in their best",
+    "time": "As midnight approaches",
+    "speaker": null,
+    "verbatim": [
+     "family members dressed in their best 'kimonos' visit Senso-ji"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Joya-no-Kane",
+    "relation": "involves",
+    "value": "ringing the temple bell 108 times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The temple bell is rung 108 time"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Joya-no-Kane",
+    "relation": "symbolizes",
+    "value": "the dispel of the 108 temptations of this world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to symbolize the dispel of the 108 temptations of this world"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Keiko Tanaka",
+    "relation": "says",
+    "value": "Each bell ring reminds us of our imperfections and that we must continue to strive for self-improvement.",
+    "time": null,
+    "speaker": "Keiko Tanaka",
+    "verbatim": [
+     "Each bell ring reminds us of our imperfections and that we must continue to strive for self-improvement."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Keiko Tanaka",
+    "relation": "reflects_on",
+    "value": "the meaning of the sound",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keiko reflects on the meaning of the sound."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Kaminarimon",
+    "relation": "means",
+    "value": "Thunder Gate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Kaminarimon,' or 'Thunder Gate,' which leads to Sensoji"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Kaminarimon",
+    "relation": "leads_to",
+    "value": "Sensoji",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which leads to Sensoji"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Kaminarimon",
+    "relation": "visited_by",
+    "value": "Locals and tourists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Locals and tourists stand in awe under the watchful gaze of the 'Kaminarimon,'"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Senso-ji",
+    "relation": "has",
+    "value": "old bronze bell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The old bronze bell is resonating as it echoes."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Yuki",
+    "relation": "says",
+    "value": "Even though I hear it each year, the sound has never failed to stir me.",
+    "time": null,
+    "speaker": "Yuki",
+    "verbatim": [
+     "Even though I hear it each year, the sound has never failed to stir me."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "hatsumode",
+    "relation": "means",
+    "value": "first shrine visit ritual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'hatsumode,' or first shrine visit ritual"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Tanaka Family",
+    "relation": "engages_in",
+    "value": "an energetic session of Karuta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Tanaka Family engages in an energetic session of a traditional Japanese game called 'Karuta.'"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Karuta",
+    "relation": "is",
+    "value": "a traditional Japanese game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a traditional Japanese game called 'Karuta.'"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Tanaka Family",
+    "relation": "home_filled_with",
+    "value": "animated voices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Tanaka family's home is filled with animated voices"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Karuta",
+    "relation": "uses",
+    "value": "classical Japanese poetry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using classical Japanese poetry known as 'hyakuninisshu'"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "hyakuninisshu",
+    "relation": "is",
+    "value": "classical Japanese poetry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "classical Japanese poetry known as 'hyakuninisshu'"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Haruto",
+    "relation": "is",
+    "value": "the youngest of the group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Haruto, who is the youngest of the group"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Haruto",
+    "relation": "says",
+    "value": "It's more than just a game. It's a memory and reflex exercise, and it keeps alive the beautiful poetry of our poets.",
+    "time": null,
+    "speaker": "Haruto",
+    "verbatim": [
+     "It's more than just a game. It's a memory and reflex exercise, and it keeps alive the beautiful poetry of our poets."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "kotatsu",
+    "relation": "is",
+    "value": "a table covered with a heavy blanket",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'kotatsu,' a table covered with a heavy blanket"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Tanaka Family",
+    "relation": "gathers_around",
+    "value": "the heated kotatsu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The family gathers around the heated 'kotatsu,'"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Tanaka Family",
+    "relation": "reflects_on",
+    "value": "their year and future goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to reflect on their year and discuss future goals"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "kotatsu",
+    "relation": "provides_warmth_from",
+    "value": "the heater under the table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The warmth of the family is felt not only from the heater under the table"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Hiroshi",
+    "relation": "says",
+    "value": "These traditions are more than a nod at history.",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "These traditions are more than a nod at history."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Hiroshi",
+    "relation": "says",
+    "value": "These traditions are a constant reminder to who we are and our history.",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "These traditions are a constant reminder to who we are and our history."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Hiroshi",
+    "relation": "says",
+    "value": "We are proud of our heritage and have a duty to preserve it.",
+    "time": null,
+    "speaker": "Hiroshi",
+    "verbatim": [
+     "We are proud of our heritage and have a duty to preserve it."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Tanaka Family",
+    "relation": "is_committed_to",
+    "value": "celebrating their customs and passing on the importance of these rites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is steadfastly committed to celebrating their customs and passing on the importance of these rites."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Japan",
+    "relation": "has_families_like_tanaka",
+    "value": "so many other families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like so many other families in Japan"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Tokyo",
+    "relation": "is",
+    "value": "a city on the edge of the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo is a city on the edge of the future."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Tanaka Family",
+    "relation": "has_role",
+    "value": "an important role in transmitting their legacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every family member, old and young, has an important role to play in transmitting their legacy."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Tanaka Family",
+    "relation": "safeguards",
+    "value": "their heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are safeguarding their heritage"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Tanaka Family",
+    "relation": "heritage_basis_of_identity_for",
+    "value": "many generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which has been the basis of their identity for many generations"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Oshogatsu",
+    "relation": "remains_woven_into",
+    "value": "the fabric of everyday life",
+    "time": "even after the celebrations are over",
+    "speaker": null,
+    "verbatim": [
+     "The essence of Oshogatsu traditions will remain woven into the fabric of everyday life"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Tanaka Family",
+    "relation": "maintains_balance_between",
+    "value": "tradition and modernity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By maintaining a delicate balance between tradition and modernity"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Tanaka Family",
+    "relation": "ensures",
+    "value": "the legacy of centuries old practices will thrive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they ensure the legacy of centuries old practices will thrive"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Tanaka Family",
+    "relation": "mechanism_of",
+    "value_ref": "c83",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By maintaining a delicate balance between tradition and modernity, they ensure the legacy of centuries old practices will thrive."
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Tanaka Family",
+    "relation": "shapes",
+    "value": "their own personal narratives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shapes not only their own personal narratives"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Japan",
+    "relation": "cultural_fabric_shaped",
+    "value": "the cultural fabric of Japan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also the cultural fabric of Japan"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

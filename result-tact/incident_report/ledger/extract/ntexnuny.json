@@ -1,0 +1,750 @@
+{
+ "inventory": [
+  "Emily Roberts",
+  "Boston",
+  "eastern seaboard",
+  "The National Power Reliability Council",
+  "Dr. Aaron Zhang",
+  "Pacific Electrical & Power Co.",
+  "Maria Gonzalez",
+  "smart grids",
+  "artificial intelligence (AI)",
+  "Laura Chen",
+  "MIT",
+  "predictive maintenance",
+  "the U.S. power grid",
+  "cyber-attacks",
+  "ageing policies",
+  "modern energy markets",
+  "Texas",
+  "the crippling winter storm of February 2023",
+  "Austin Energy",
+  "Detroit's blackout on November 8, 2023",
+  "Sarah Kim",
+  "Seattle",
+  "Thomas Edison",
+  "IoT devices",
+  "machine learning",
+  "home solar installations"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "eastern seaboard",
+    "relation": "struck_by_outage_on",
+    "value": "a significant power outage",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, a significant power outage struck the eastern seaboard"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "eastern seaboard",
+    "relation": "outage_affected_population",
+    "value": "over 10 million people across several states",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "affecting over 10 million people across several states"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "eastern seaboard",
+    "relation": "outage_effect",
+    "value": "Traffic lights went dark",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Traffic lights went dark, public transportation halted"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "eastern seaboard",
+    "relation": "outage_effect",
+    "value": "public transportation halted",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Traffic lights went dark, public transportation halted"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emily Roberts",
+    "relation": "resident_of",
+    "value": "downtown Boston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Roberts, a resident of downtown Boston, recounts the experience"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Boston",
+    "relation": "resident",
+    "value": "Emily Roberts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Roberts, a resident of downtown Boston"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emily Roberts",
+    "relation": "described_experience_as",
+    "value": "a complete shutdown",
+    "time": null,
+    "speaker": "Emily Roberts",
+    "verbatim": [
+     "It was a complete shutdown."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Roberts",
+    "relation": "said_outage_felt_like",
+    "value": "being transported back in time",
+    "time": null,
+    "speaker": "Emily Roberts",
+    "verbatim": [
+     "It felt like being transported back in time."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Roberts",
+    "relation": "outage_left_without",
+    "value": "lights, internet, heating",
+    "time": null,
+    "speaker": "Emily Roberts",
+    "verbatim": [
+     "We were cut off from everything \u2013 no lights, no internet, no heating."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "The National Power Reliability Council",
+    "relation": "released_report_on",
+    "value": "October 4, 2023",
+    "time": "October 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A report released on October 4, 2023, by The National Power Reliability Council pointed to outdated infrastructure"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The National Power Reliability Council",
+    "relation": "report_pointed_to",
+    "value": "outdated infrastructure unable to handle the demands of modern power consumption",
+    "time": "October 4, 2023",
+    "speaker": "The National Power Reliability Council",
+    "verbatim": [
+     "pointed to outdated infrastructure unable to handle the demands of modern power consumption"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Aaron Zhang",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity expert Dr. Aaron Zhang warned of an increase in cyber-attacks on the grid"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Aaron Zhang",
+    "relation": "warned_of",
+    "value": "an increase in cyber-attacks on the grid",
+    "time": null,
+    "speaker": "Dr. Aaron Zhang",
+    "verbatim": [
+     "cybersecurity expert Dr. Aaron Zhang warned of an increase in cyber-attacks on the grid"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Aaron Zhang",
+    "relation": "said",
+    "value": "our power systems are becoming a prime target for disruption.",
+    "time": null,
+    "speaker": "Dr. Aaron Zhang",
+    "verbatim": [
+     "our power systems are becoming a prime target for disruption."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "smart grids",
+    "relation": "uses",
+    "value": "digital communications technology to detect and react to local changes in usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional grids are evolving into smart grids, which use digital communications technology to detect and react to local changes in usage."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Pacific Electrical & Power Co.",
+    "relation": "located_in",
+    "value": "California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilities like California's Pacific Electrical & Power Co."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Pacific Electrical & Power Co.",
+    "relation": "investing_heavily_in",
+    "value": "these upgrades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are beginning to invest heavily in these upgrades"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Pacific Electrical & Power Co.",
+    "relation": "chief_executive",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with CEO Maria Gonzalez noting"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Maria Gonzalez",
+    "relation": "position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with CEO Maria Gonzalez noting"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maria Gonzalez",
+    "relation": "said",
+    "value": "Smart grids are not a luxury but a necessity to ensure reliability in the 21st century.",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Smart grids are not a luxury but a necessity to ensure reliability in the 21st century."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "smart grids",
+    "relation": "described_as",
+    "value": "not a luxury but a necessity to ensure reliability in the 21st century",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Smart grids are not a luxury but a necessity to ensure reliability in the 21st century."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "smart grids",
+    "relation": "offer_solution_to",
+    "value": "increase power system reliability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smart grids offer a promising solution to increase power system reliability."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "smart grids",
+    "relation": "incorporates",
+    "value": "IoT devices, AI, and machine learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating IoT devices, AI, and machine learning, smart grids can anticipate and respond to issues in real time."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "smart grids",
+    "relation": "can_anticipate_and_respond_to",
+    "value": "issues in real time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating IoT devices, AI, and machine learning, smart grids can anticipate and respond to issues in real time."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "IoT devices",
+    "relation": "incorporated_into",
+    "value": "smart grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating IoT devices, AI, and machine learning, smart grids can anticipate"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "machine learning",
+    "relation": "incorporated_into",
+    "value": "smart grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating IoT devices, AI, and machine learning, smart grids can anticipate"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "smart grids",
+    "relation": "mechanism_of",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating IoT devices, AI, and machine learning, smart grids can anticipate and respond to issues in real time."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "artificial intelligence (AI)",
+    "relation": "can_detect",
+    "value": "a malfunctioning transformer before it fails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local substation equipped with AI can detect a malfunctioning transformer before it fails"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "artificial intelligence (AI)",
+    "relation": "can_reroute_power",
+    "value": "reroute power accordingly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reroute power accordingly, potentially avoiding a widespread outage."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "artificial intelligence (AI)",
+    "relation": "potentially_avoids",
+    "value": "a widespread outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially avoiding a widespread outage"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "artificial intelligence (AI)",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reroute power accordingly, potentially avoiding a widespread outage"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "artificial intelligence (AI)",
+    "relation": "has_potential_to_provide",
+    "value": "solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the potential of emerging technologies like smart grids and artificial intelligence (AI) to provide solutions"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "smart grids",
+    "relation": "has_potential_to_provide",
+    "value": "solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the potential of emerging technologies like smart grids and artificial intelligence (AI) to provide solutions"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "artificial intelligence (AI)",
+    "relation": "holds_key_to_transforming",
+    "value": "power system maintenance from reactive to predictive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI holds the key to transforming power system maintenance from reactive to predictive."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "predictive maintenance",
+    "relation": "maintenance_shift",
+    "value": "from reactive to predictive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI holds the key to transforming power system maintenance from reactive to predictive."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "artificial intelligence (AI)",
+    "relation": "can_analyze",
+    "value": "vast amounts of data to predict when and where equipment might fail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Systems equipped with AI can analyze vast amounts of data to predict when and where equipment might fail."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Laura Chen",
+    "relation": "occupation",
+    "value": "AI researcher at MIT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Chen, an AI researcher at MIT, explains"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "MIT",
+    "relation": "employs",
+    "value": "Laura Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Chen, an AI researcher at MIT, explains"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Laura Chen",
+    "relation": "said",
+    "value": "AI can crunch historical and real-time data to foresee an impending failure",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "AI can crunch historical and real-time data to foresee an impending failure"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "artificial intelligence (AI)",
+    "relation": "can_foresee_failure_weeks_in_advance",
+    "value": "sometimes weeks in advance",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "to foresee an impending failure, sometimes weeks in advance"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "artificial intelligence (AI)",
+    "relation": "allows",
+    "value": "maintenance or replacement before an issue escalates",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "allowing for maintenance or replacement before an issue escalates."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "artificial intelligence (AI)",
+    "relation": "results_in",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "to foresee an impending failure, sometimes weeks in advance, allowing for maintenance or replacement before an issue escalates."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "smart grids",
+    "relation": "faces",
+    "value": "several barriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Deployment of smart grids and AI technologies faces several barriers."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "the U.S. power grid",
+    "relation": "upgrade_cost_estimate",
+    "value": "in the billions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "estimates ranging in the billions to upgrade the U.S. power grid."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "smart grids",
+    "relation": "faces_barrier",
+    "value": "privacy and security concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are also privacy and security concerns"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "cyber-attacks",
+    "relation": "new_vectors_opened_by",
+    "value": "increased connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as increased connectivity opens up new vectors for cyberattacks."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "ageing policies",
+    "relation": "may_not_address",
+    "value": "the dynamics of modern energy markets and technological capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ageing policies may not adequately address the dynamics of modern energy markets and technological capabilities."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Texas",
+    "relation": "smart_grid_upgrades_following",
+    "value": "the crippling winter storm of February 2023",
+    "time": "February 2023",
+    "speaker": null,
+    "verbatim": [
+     "In Texas, following the crippling winter storm of February 2023, efforts to upgrade to smart grid technology have shown promise."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "the crippling winter storm of February 2023",
+    "relation": "preceded",
+    "value": "efforts to upgrade to smart grid technology in Texas",
+    "time": "February 2023",
+    "speaker": null,
+    "verbatim": [
+     "following the crippling winter storm of February 2023, efforts to upgrade to smart grid technology have shown promise"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Texas",
+    "relation": "smart_grid_upgrades",
+    "value": "have shown promise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "efforts to upgrade to smart grid technology have shown promise"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Austin Energy",
+    "relation": "reported_reduction_in_outage_incidents",
+    "value": "40%",
+    "time": null,
+    "speaker": "Austin Energy",
+    "verbatim": [
+     "Local utility Austin Energy has reported a 40% reduction in outage incidents"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Austin Energy",
+    "relation": "reduction_attributed_to",
+    "value": "their new grid's real-time response capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to their new grid's real-time response capabilities"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Austin Energy",
+    "relation": "caused_by",
+    "value_ref": "c52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 40% reduction in outage incidents thanks to their new grid's real-time response capabilities"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Detroit's blackout on November 8, 2023",
+    "relation": "left_residents_without_power_for",
+    "value": "three days",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Detroit's blackout on November 8, 2023, that left residents without power for three days."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Detroit's blackout on November 8, 2023",
+    "relation": "example_of",
+    "value": "areas that have delayed these upgrades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "areas that have delayed these upgrades continue to suffer frequent and prolonged outages, such as Detroit's blackout on November 8, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "smart grids",
+    "relation": "permit",
+    "value": "greater consumer engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smart grids permit greater consumer engagement"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "smart grids",
+    "relation": "allows",
+    "value": "real-time energy usage tracking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for real-time energy usage tracking"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "smart grids",
+    "relation": "allows",
+    "value": "the possibility to sell back excess power from home solar installations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the possibility to sell back excess power from home solar installations"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "home solar installations",
+    "relation": "can_sell_back",
+    "value": "excess power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the possibility to sell back excess power from home solar installations"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Sarah Kim",
+    "relation": "occupation",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a software developer in Seattle, appreciates the advancements"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Sarah Kim",
+    "relation": "based_in",
+    "value": "Seattle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a software developer in Seattle, appreciates the advancements"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Seattle",
+    "relation": "home_of",
+    "value": "Sarah Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a software developer in Seattle"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "I love being able to manage my energy use more actively.",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "I love being able to manage my energy use more actively."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "It's empowering and also helps me save on my bills.",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "It's empowering and also helps me save on my bills."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Thomas Edison",
+    "relation": "era_of",
+    "value": "reliable electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Thomas Edison's era of reliable electricity fades into history"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

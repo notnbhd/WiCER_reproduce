@@ -1,0 +1,474 @@
+{
+ "inventory": [
+  "XYZ Technologies",
+  "Travel and Expense Policies",
+  "non-reimbursable expenses",
+  "in-flight Wi-Fi",
+  "personal leisure activities",
+  "meals and entertainment",
+  "business dining",
+  "per diem",
+  "business travel",
+  "expense compliance",
+  "employees"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "XYZ Technologies",
+    "relation": "asserts_plan",
+    "value": "to balance frugal practice with the necessities of modern business travel",
+    "time": null,
+    "speaker": "XYZ Technologies",
+    "verbatim": [
+     "XYZ Technologies asserts its plan to balance frugal practice with the necessities of modern business travel"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Travel and Expense Policies",
+    "relation": "may_foster",
+    "value": "a penny-wise, pound-foolish culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "policies may inadvertently foster a penny-wise, pound-foolish culture"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "non-reimbursable expenses",
+    "relation": "may_unjustly_burden",
+    "value": "the employee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or unjustly burden the employee"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "non-reimbursable expenses",
+    "relation": "may_create",
+    "value": "a myopic focus on cost-cutting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a myopic focus on cost-cutting"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "non-reimbursable expenses",
+    "relation": "areas_deserving_of",
+    "value": "reevaluation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several areas are deserving of reevaluation"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Travel and Expense Policies",
+    "relation": "prohibits",
+    "value": "covering costs for any personal leisure activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the policy strictly prohibits covering costs for any personal leisure activities"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "personal leisure activities",
+    "relation": "may_transpire",
+    "value": "business development opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potential business development opportunities that may transpire during such activities"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "in-flight Wi-Fi",
+    "relation": "categorized_as",
+    "value": "a non-reimbursable expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the categorization of in-flight Wi-Fi as a non-reimbursable expense"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "XYZ Technologies",
+    "relation": "promotes",
+    "value": "connectivity and productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Technologies promotes connectivity and productivity"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "XYZ Technologies",
+    "relation": "denies",
+    "value": "the tools necessary for this to occur at 30,000 feet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet denies the tools necessary for this to occur at 30,000 feet"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "XYZ Technologies",
+    "relation": "denial_occurs_at",
+    "value": "30,000 feet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "denies the tools necessary for this to occur at 30,000 feet"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "meals and entertainment",
+    "relation": "policy_is",
+    "value": "inflexible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYX Technologies' stance on meals and entertainment is equally inflexible"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "meals and entertainment",
+    "relation": "subject_to",
+    "value": "stringent limits placed on the reimbursement of such expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with stringent limits placed on the reimbursement of such expenses"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "business dining",
+    "relation": "may_sow",
+    "value": "seeds of partnership",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where seeds of partnership may be sowed"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "per diem",
+    "relation": "described_as",
+    "value": "meager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared meals that exceed the meager per diem"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "business dining",
+    "relation": "may_exceed",
+    "value": "per diem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared meals that exceed the meager per diem"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "XYZ Technologies",
+    "relation": "appears_to_brandish",
+    "value": "an iron fist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Technologies appears to brandish an iron fist"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "expense compliance",
+    "relation": "enforced_with",
+    "value": "stringent audits and severe repercussions for policy violators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wielding stringent audits and severe repercussions for policy violators"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "expense compliance",
+    "relation": "may_cultivate",
+    "value": "an atmosphere of distrust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This culture of scrutiny may cultivate an atmosphere of distrust"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "employees",
+    "relation": "deterred_from",
+    "value": "making potentially advantageous financial decisions for the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "deterring employees from making potentially",
+     "advantageous financial decisions for the company"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "employees",
+    "relation": "fear_of",
+    "value": "stepping outside the narrowly drawn lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for fear of stepping outside the narrowly drawn lines"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "XYZ Technologies",
+    "relation": "described_as",
+    "value": "a forward-thinking organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a forward-thinking organization, XYZ Technologies must revisit its policies on nonreimbursable expenses"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "XYZ Technologies",
+    "relation": "must_revisit",
+    "value": "its policies on nonreimbursable expenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Technologies must revisit its policies on nonreimbursable expenses"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Travel and Expense Policies",
+    "relation": "recommended_reassessment_of",
+    "value": "the prohibitive nature of current non-reimbursable itemization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reassess the prohibitive nature of current non-reimbursable itemization"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "non-reimbursable expenses",
+    "relation": "allows_exceptions_that",
+    "value": "can prove beneficial in a broader strategic context",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for exceptions that can prove beneficial in a broader strategic context"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "in-flight Wi-Fi",
+    "relation": "recommended_rethinking_of",
+    "value": "the outright denial of in-flight services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rethink the outright denial of in-flight services that can boost productivity"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "in-flight Wi-Fi",
+    "relation": "can_boost",
+    "value": "productivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in-flight services that can boost productivity"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "meals and entertainment",
+    "relation": "recommended_flexibility_in",
+    "value": "the meals and entertainment budget",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inject flexibility into the meals and entertainment budget"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "business dining",
+    "relation": "acknowledged_as",
+    "value": "the nuanced dance of relationship-building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acknowledging the nuanced dance of relationship-building"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "expense compliance",
+    "relation": "recommended_shift_from",
+    "value": "strict enforcement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shift compliance from strict enforcement to a model that values employee judgment and recognizes the fluid nature of business needs"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "expense compliance",
+    "relation": "recommended_shift_to",
+    "value": "a model that values employee judgment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shift compliance from strict enforcement to a model that values employee judgment"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "business travel",
+    "relation": "necessities_balanced_with",
+    "value": "frugal practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to balance frugal practice with the necessities of modern business travel"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "XYZ Technologies",
+    "relation": "policies_appear_constricted_by",
+    "value": "their own rigidity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their policies appear constricted by their own rigidity"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "XYZ Technologies",
+    "relation": "aims_to_navigate",
+    "value": "the fine line between necessary and superfluous spending",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Technologies aims to navigate the fine line between necessary and superfluous spending"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Travel and Expense Policies",
+    "relation": "call_for",
+    "value": "policies that match the complexity and dynamism of today's business dealings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A call is made for policies that match the complexity and dynamism of today's business dealings"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Travel and Expense Policies",
+    "relation": "should_not_be",
+    "value": "a one-size-fits-all approach rooted in skepticism and control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rather than a one-size-fits-all approach rooted in skepticism and control"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Travel and Expense Policies",
+    "relation": "should_be_refashioned_to",
+    "value": "empower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Let us refashion these policies, not to police but to empower"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "XYZ Technologies",
+    "relation": "propelled_by",
+    "value": "the winds of efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Only then can we truly optimize the winds of efficiency that are meant to propel XYZ Technologies forward"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "XYZ Technologies",
+    "relation": "wind_seems",
+    "value": "a questionable breeze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the actual wind in these sails seems, at times, less a gale and more a questionable breeze"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "XYZ Technologies",
+    "relation": "policies_scrutinized_with",
+    "value": "a critical eye",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we cast a critical eye on XYZ Technologies' policies"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "expense compliance",
+    "relation": "results_in",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This culture of scrutiny may cultivate an atmosphere of distrust",
+     "deterring employees from making potentially",
+     "advantageous financial decisions for the company"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

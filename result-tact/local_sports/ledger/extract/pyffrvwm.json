@@ -1,0 +1,678 @@
+{
+ "inventory": [
+  "Emily Torres",
+  "Serenity River",
+  "kayaking",
+  "kayaking clinics",
+  "Harmony Lake",
+  "stand-up paddleboarding (SUP)",
+  "Marco Zhang",
+  "Ocean View Beach",
+  "windsurfing",
+  "Layla Johnson",
+  "local windsurfing club",
+  "Paddle for Peace",
+  "canoeing",
+  "Thrillseeker's Cove",
+  "jet skiing",
+  "Tyler Smith",
+  "wakeboarding",
+  "Infinity Bay",
+  "Jasmine Lee",
+  "sailing regattas",
+  "Whispering Creek",
+  "fishing",
+  "Local Anglers' Fishing Derby",
+  "Matthew Chang"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "kayaking",
+    "relation": "outing_on",
+    "value": "September 4, 2023",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "From serene kayak outings on September 4, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "wakeboarding",
+    "relation": "featured_on",
+    "value": "the 19th",
+    "time": "the 19th",
+    "speaker": null,
+    "verbatim": [
+     "to the highadrenaline rush of wakeboarding on the 19th"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Torres",
+    "relation": "is_a",
+    "value": "local kayaking enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local kayaking enthusiast Emily Torres glides over the glassy surface"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emily Torres",
+    "relation": "glides_over",
+    "value": "the glassy surface",
+    "time": "this crisp morning",
+    "speaker": null,
+    "verbatim": [
+     "On this crisp morning, local kayaking enthusiast Emily Torres glides over the glassy surface"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Serenity River",
+    "relation": "described_as",
+    "value": "a tranquil escape from the bustle of everyday life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nestled within the winding turns of Serenity River lies a tranquil escape from the bustle of everyday life."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Serenity River",
+    "relation": "hosts",
+    "value": "a variety of wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The river, bordered by lush greenery, hosts a variety of wildlife"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Serenity River",
+    "relation": "bordered_by",
+    "value": "lush greenery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The river, bordered by lush greenery,"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "kayaking clinics",
+    "relation": "popularity",
+    "value": "a hit this season",
+    "time": "this season",
+    "speaker": null,
+    "verbatim": [
+     "Kayaking clinics have been a hit this season"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "kayaking clinics",
+    "relation": "beginner_lessons_commenced_on",
+    "value": "September 7",
+    "time": "September 7",
+    "speaker": null,
+    "verbatim": [
+     "with beginner lessons that commenced on September 7"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "kayaking clinics",
+    "relation": "provide_opportunities_for",
+    "value": "all skill levels to participate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing opportunities for all skill levels to participate and enjoy the serene environment"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "kayaking clinics",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "verbatim": [
+     "with beginner lessons that commenced on September 7, providing opportunities for all skill levels to participate"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "stand-up paddleboarding (SUP)",
+    "relation": "has_seen",
+    "value": "a surge in popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The art of stand-up paddleboarding (SUP) has seen a surge in popularity"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Harmony Lake",
+    "relation": "visited_by",
+    "value": "beginners and seasoned paddlers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at Harmony Lake, beginners and seasoned paddlers alike come to test their balance"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "stand-up paddleboarding (SUP)",
+    "relation": "group_lesson_on",
+    "value": "a group lesson in progress",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "These photos from September 15 showcase a group lesson in progress, led by local SUP guru, Marco Zhang"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Marco Zhang",
+    "relation": "is_a",
+    "value": "local SUP guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by local SUP guru, Marco Zhang"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Marco Zhang",
+    "relation": "led",
+    "value": "a group lesson in progress",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "These photos from September 15 showcase a group lesson in progress, led by local SUP guru, Marco Zhang"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Harmony Lake",
+    "relation": "environment",
+    "value": "an ideal environment for those looking to find their footing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lake's calm waters are an ideal environment for those looking to find their footing"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "stand-up paddleboarding (SUP)",
+    "relation": "combines",
+    "value": "fitness with meditation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sport that combines fitness with meditation"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "stand-up paddleboarding (SUP)",
+    "relation": "community_races_scheduled",
+    "value": "throughout the season",
+    "time": "throughout the season",
+    "speaker": null,
+    "verbatim": [
+     "Community races are scheduled throughout the season"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "windsurfing",
+    "relation": "located_off",
+    "value": "Ocean View Beach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The thrills of windsurfing can be felt just off the shores of Ocean View Beach"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Ocean View Beach",
+    "relation": "described_as",
+    "value": "the perfect playground for those seeking speed and exhilaration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the wind crafts the perfect playground for those seeking speed and exhilaration"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Layla Johnson",
+    "relation": "is_a",
+    "value": "professional windsurfer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "professional windsurfer Layla Johnson harnesses the power of nature"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Layla Johnson",
+    "relation": "captured_on",
+    "value": "September 22",
+    "time": "September 22",
+    "speaker": null,
+    "verbatim": [
+     "Captured here on September 22, professional windsurfer Layla Johnson"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "local windsurfing club",
+    "relation": "offers",
+    "value": "lessons",
+    "time": "throughout September",
+    "speaker": null,
+    "verbatim": [
+     "The local windsurfing club offers lessons throughout September, catering to both rookies and veterans"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "local windsurfing club",
+    "relation": "caters_to",
+    "value": "rookies and veterans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catering to both rookies and veterans aiming to master the wind's unpredictable nature"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Paddle for Peace",
+    "relation": "held_on",
+    "value": "September 29",
+    "time": "September 29",
+    "speaker": null,
+    "verbatim": [
+     "On the peaceful morning of September 29, a community of canoeists set out on the annual \"Paddle for Peace\" event"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Paddle for Peace",
+    "relation": "is_a",
+    "value": "annual event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "set out on the annual \"Paddle for Peace\" event"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Paddle for Peace",
+    "relation": "promotes",
+    "value": "camaraderie and reflection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promoting camaraderie and reflection"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Paddle for Peace",
+    "relation": "themes",
+    "value": "team spirit and mutual encouragement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where team spirit and mutual encouragement were the day's themes"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "canoeing",
+    "relation": "invites",
+    "value": "families, friends, and solo adventurers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inviting families, friends, and solo adventurers to bond with nature and each other"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Paddle for Peace",
+    "relation": "reminder_of",
+    "value": "the harmonious relationship between sport and the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event served as a reminder of the harmonious relationship between sport and the environment."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Thrillseeker's Cove",
+    "relation": "is_hub_for",
+    "value": "jet skiing enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thrillseeker\u2019s Cove has become a hub for jet skiing enthusiasts"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Thrillseeker's Cove",
+    "relation": "action_on",
+    "value": "a blur of action",
+    "time": "October 5",
+    "speaker": null,
+    "verbatim": [
+     "Against the backdrop of an azure sky on October 5, the cove was a blur of action"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Tyler Smith",
+    "relation": "is_a",
+    "value": "local champion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local champion, Tyler Smith, performed a series of heart-stopping stunts"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Tyler Smith",
+    "relation": "performed",
+    "value": "a series of heart-stopping stunts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local champion, Tyler Smith, performed a series of heart-stopping stunts"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "jet skiing",
+    "relation": "offers",
+    "value": "safety courses and rentals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Safety courses and rentals are available"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "jet skiing",
+    "relation": "ensures",
+    "value": "a secure and accessible way for newcomers to join the adventure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Safety courses and rentals are available, ensuring a secure and accessible way for newcomers to join the adventure."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "wakeboarding",
+    "relation": "competition_on",
+    "value": "October 12",
+    "time": "October 12",
+    "speaker": null,
+    "verbatim": [
+     "this year's wakeboarding competition on October 12 raised the bar for aquatic athletes"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Infinity Bay",
+    "relation": "hosted",
+    "value": "the wakeboarding competition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Held at the renowned Infinity Bay, competitors from all over the region"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Infinity Bay",
+    "relation": "described_as",
+    "value": "renowned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Held at the renowned Infinity Bay"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "wakeboarding",
+    "relation": "competitors_from",
+    "value": "all over the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "competitors from all over the region showcased an array of acrobatic feats behind speedboats"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jasmine Lee",
+    "relation": "is_a",
+    "value": "talented wakeboarder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Talented wakeboarder Jasmine Lee captured the crowd's awe"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Jasmine Lee",
+    "relation": "executed",
+    "value": "a flawless flip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Talented wakeboarder Jasmine Lee captured the crowd's awe as she executed a flawless flip, frozen in time by our cameras"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "wakeboarding",
+    "relation": "offers",
+    "value": "training camps and open sessions for the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training camps and open sessions for the public make this extreme sport a staple"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "wakeboarding",
+    "relation": "described_as",
+    "value": "extreme sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "make this extreme sport a staple for the thrill-seekers in our community"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "sailing regattas",
+    "relation": "held_in",
+    "value": "early October",
+    "time": "early October",
+    "speaker": null,
+    "verbatim": [
+     "the sailing regattas of early October mark a seasonal tradition"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sailing regattas",
+    "relation": "described_as",
+    "value": "a seasonal tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sailing regattas of early October mark a seasonal tradition"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "sailing regattas",
+    "relation": "photographed_during",
+    "value": "October\u2019s first sailing weekend",
+    "time": "October\u2019s first sailing weekend",
+    "speaker": null,
+    "verbatim": [
+     "The snapshots from October\u2019s first sailing weekend reflect a dance of boats"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "sailing regattas",
+    "relation": "accompanied_by",
+    "value": "sailing classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sailing classes are also on offer, teaching the art of the wind and tides to those who yearn to captain their own vessel."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Whispering Creek",
+    "relation": "fog_caresses_surface",
+    "value": "fog caresses the surface",
+    "time": "On the serene mornings of autumn",
+    "speaker": null,
+    "verbatim": [
+     "where fog caresses the surface of Whispering Creek"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "fishing",
+    "relation": "described_as",
+    "value": "a meditative sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fishing becomes a meditative sport"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Local Anglers' Fishing Derby",
+    "relation": "held_on",
+    "value": "October 17",
+    "time": "October 17",
+    "speaker": null,
+    "verbatim": [
+     "Here we see photographs of the Local Anglers' Fishing Derby on October 17, where patience is key."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Local Anglers' Fishing Derby",
+    "relation": "requires",
+    "value": "patience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where patience is key"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Matthew Chang",
+    "relation": "is_a",
+    "value": "angler",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Angler Matthew Chang surfaced as the victor"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Matthew Chang",
+    "relation": "placed",
+    "value": "the victor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Angler Matthew Chang surfaced as the victor"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Matthew Chang",
+    "relation": "caught",
+    "value": "a record-setting bass",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reeling in a record-setting bass amid the cheers of onlookers"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Matthew Chang",
+    "relation": "mechanism_of",
+    "value_ref": "c55",
+    "verbatim": [
+     "Angler Matthew Chang surfaced as the victor, reeling in a record-setting bass"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "fishing",
+    "relation": "serves_as",
+    "value": "a respite from life's unceasing hustle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as a respite from life's unceasing hustle"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "fishing",
+    "relation": "brings",
+    "value": "a sense of peace and patience to its practitioners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fishing brings a sense of peace and patience to its practitioners"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

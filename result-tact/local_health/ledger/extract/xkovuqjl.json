@@ -1,0 +1,485 @@
+{
+ "inventory": [
+  "Dr. Linda S. Gilbert",
+  "Jameson Greer",
+  "Elizabeth Young",
+  "Faraday University",
+  "Dr. Ravi Patel",
+  "Dr. Serena Chen",
+  "International Sleep Research Conference",
+  "Dr. Harold Price",
+  "Julia Benson",
+  "Sleeping Soundly",
+  "Dr. Michelle G. Kim",
+  "Derek Thomson",
+  "American Sleep Association",
+  "Sarah Thompson",
+  "Mindful Sleep Foundation",
+  "Sleep apnea",
+  "Restless leg syndrome",
+  "Narcolepsy",
+  "REM sleep",
+  "Insomnia",
+  "Circadian rhythms",
+  "Sleep hygiene",
+  "Mental health",
+  "Mood disorders",
+  "Sleep deprivation"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Linda S. Gilbert",
+    "relation": "is_a",
+    "value": "practicing psychiatrist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Linda S. Gilbert, a practicing psychiatrist"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Linda S. Gilbert",
+    "relation": "published_study",
+    "value": "study",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Gilbert notes in her study published on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Linda S. Gilbert",
+    "relation": "stated",
+    "value": "Sleep is not merely a period of rest but a critical process that helps regulate emotions and cognitive function",
+    "time": "October 15, 2023",
+    "speaker": "Dr. Linda S. Gilbert",
+    "verbatim": [
+     "Sleep is not merely a period of rest but a critical process that helps regulate emotions and cognitive function"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mental health",
+    "relation": "has_symbiotic_relationship_with",
+    "value": "sleep",
+    "time": null,
+    "speaker": "Dr. Linda S. Gilbert",
+    "verbatim": [
+     "emphasize the symbiotic relationship between mental health and sleep"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jameson Greer",
+    "relation": "is_a",
+    "value": "42-year-old software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jameson Greer, a 42-year-old software developer"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jameson Greer",
+    "relation": "claims_thriving_on",
+    "value": "a mere five hours of sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boast about thriving on a mere five hours of sleep"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Elizabeth Young",
+    "relation": "is_a",
+    "value": "35-yearold school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elizabeth Young, a 35-yearold school teacher"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Elizabeth Young",
+    "relation": "experiences",
+    "value": "anxiety without her full eight hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experiences anxiety without her full eight hours"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Faraday University",
+    "relation": "has_sleep_clinic",
+    "value": "sleep clinic that produced research led by Dr. Ravi Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Research from the sleep clinic at the Faraday University, led by Dr. Ravi Patel"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Ravi Patel",
+    "relation": "led_research_presented",
+    "value": "research from the sleep clinic at the Faraday University",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Research from the sleep clinic at the Faraday University, led by Dr. Ravi Patel and presented on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mood disorders",
+    "relation": "showed_stark_increase_linked_to",
+    "value": "circadian rhythm disruptions",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "evidenced a stark increase in mood disorders linked to circadian rhythm disruptions among their patients"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Circadian rhythms",
+    "relation": "play_role_in",
+    "value": "our sleep-wake cycles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Circadian rhythms play a monumental role in our sleep-wake cycles"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Circadian rhythms",
+    "relation": "disruption_can_cause",
+    "value": "significant mental health disturbances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their disruption can cause significant mental health disturbances"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Circadian rhythms",
+    "relation": "affected_by",
+    "value": "disproportionate exposure to light, irregular sleep schedules, and lifestyle choices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Disproportionate exposure to light, irregular sleep schedules, and lifestyle choices impose detrimental effects on these natural oscillations"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "REM sleep",
+    "relation": "characterized_by",
+    "value": "rapid eye movement, dreams, and heightened brain activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "REM sleep, characterized by rapid eye movement, dreams, and heightened brain activity"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "REM sleep",
+    "relation": "is_intertwined_with",
+    "value": "our mental and emotional processing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is profoundly intertwined with our mental and emotional processing"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Serena Chen",
+    "relation": "is_a",
+    "value": "neurologist and sleep specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Serena Chen, a neurologist and sleep specialist"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Serena Chen",
+    "relation": "presented_study_at",
+    "value": "International Sleep Research Conference",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Serena Chen, a neurologist and sleep specialist, presented a study at the International Sleep Research Conference on January 20, 2024"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "REM sleep",
+    "relation": "directly_impacts",
+    "value": "our learning capacity and emotional resilience",
+    "time": "January 20, 2024",
+    "speaker": "Dr. Serena Chen",
+    "verbatim": [
+     "showing that REM sleep directly impacts our learning capacity and emotional resilience"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Insomnia",
+    "relation": "co_occurs_with",
+    "value": "mental health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Insomnia and mental health conditions often reside within the same dark alley"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Insomnia",
+    "relation": "may_be_precursor_of",
+    "value": "mental health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each as the other's companion and sometimes as its precursor"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Harold Price",
+    "relation": "is_a",
+    "value": "sleep psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Harold Price, a sleep psychologist"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Harold Price",
+    "relation": "stated",
+    "value": "the treatment of insomnia in individuals with depression can significantly amplify the effects of psychotherapy and medication",
+    "time": "February 11, 2024",
+    "speaker": "Dr. Harold Price",
+    "verbatim": [
+     "the treatment of insomnia in individuals with depression can significantly amplify the effects of psychotherapy and medication"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Julia Benson",
+    "relation": "is_a",
+    "value": "wellness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wellness coach Julia Benson introduced her 'Sleeping Soundly' program"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sleeping Soundly",
+    "relation": "introduced_by",
+    "value": "Julia Benson",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "March 5, 2024, marks the date when wellness coach Julia Benson introduced her 'Sleeping Soundly' program"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sleeping Soundly",
+    "relation": "advocates",
+    "value": "a consistent nighttime routine, a calming sleeping environment, and the avoidance of stimulants before bed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advocating for a consistent nighttime routine, a calming sleeping environment, and the avoidance of stimulants before bed"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sleep hygiene",
+    "relation": "elevates_defense_against",
+    "value": "mental fatigue and emotional turmoil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These components of sleep hygiene markedly elevate one's defense against mental fatigue and emotional turmoil"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Michelle G. Kim",
+    "relation": "is_a",
+    "value": "psychiatrist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Michelle G. Kim, a psychiatrist who published her review"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Michelle G. Kim",
+    "relation": "published_review_on",
+    "value": "the use of sleeping pills versus natural remedies",
+    "time": "April 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a psychiatrist who published her review on the use of sleeping pills versus natural remedies on April 4, 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Michelle G. Kim",
+    "relation": "stresses",
+    "value": "the importance of consulting healthcare professionals before combining medication for sleep and mental health",
+    "time": null,
+    "speaker": "Dr. Michelle G. Kim",
+    "verbatim": [
+     "stresses the importance of consulting healthcare professionals before combining medication for sleep and mental health"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Derek Thomson",
+    "relation": "is_a",
+    "value": "sleep therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sleep therapist, Derek Thomson"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Derek Thomson",
+    "relation": "highlighted_in_panel_discussion",
+    "value": "practicing mindfulness, relaxation techniques, and limiting screen time prior to bed can foster a more organic drift to sleep, enhancing mental health without reliance on pharmacological interventions",
+    "time": "May 16, 2024",
+    "speaker": "Derek Thomson",
+    "verbatim": [
+     "highlighted in his panel discussion on May 16, 2024, that practicing mindfulness, relaxation techniques, and limiting screen time prior to bed can foster a more organic drift to sleep, enhancing mental health without reliance on pharmacological interventions"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sleep apnea",
+    "relation": "named_example_of_sleep_disorder_that_can_wield_havoc_if_undiagnosed",
+    "value": "psychological state",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sleep apnea, restless leg syndrome, and narcolepsy are a few examples that, if left undiagnosed, can wield havoc on one's psychological state"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Restless leg syndrome",
+    "relation": "named_example_of_sleep_disorder_that_can_wield_havoc_if_undiagnosed",
+    "value": "psychological state",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sleep apnea, restless leg syndrome, and narcolepsy are a few examples that, if left undiagnosed, can wield havoc on one's psychological state"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Narcolepsy",
+    "relation": "named_example_of_sleep_disorder_that_can_wield_havoc_if_undiagnosed",
+    "value": "psychological state",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sleep apnea, restless leg syndrome, and narcolepsy are a few examples that, if left undiagnosed, can wield havoc on one's psychological state"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Mental health",
+    "relation": "linked_to_sleep_disorders",
+    "value": "sleep disorders can be indicative or exacerbating of mental health conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they can be indicative or exacerbating of mental health conditions"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "American Sleep Association",
+    "relation": "held_national_seminar_on",
+    "value": "diagnosing and treating sleep disorders",
+    "time": "June 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The significance of diagnosing and treating these disorders became a focal point during the American Sleep Association's national seminar, as discussed on June 22, 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sarah Thompson",
+    "relation": "director_of",
+    "value": "Mindful Sleep Foundation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, the director of the Mindful Sleep Foundation"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sarah Thompson",
+    "relation": "launched",
+    "value": "public health campaign",
+    "time": "July 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, the director of the Mindful Sleep Foundation, launched a public health campaign on July 14, 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sarah Thompson",
+    "relation": "aimed_to_educate_communities_on",
+    "value": "the importance of sleep, the risks of sleep deprivation, and its potential to exacerbate mental health issues",
+    "time": "July 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "aiming to educate communities on the importance of sleep, the risks of sleep deprivation, and its potential to exacerbate mental health issues"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sleep deprivation",
+    "relation": "can_exacerbate",
+    "value": "mental health issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the risks of sleep deprivation, and its potential to exacerbate mental health issues"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

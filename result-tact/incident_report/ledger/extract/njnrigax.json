@@ -1,0 +1,583 @@
+{
+ "inventory": [
+  "Dr. Rebecca Smith",
+  "Julia Hernandez",
+  "Dr. James O'Connor",
+  "Senator Elizabeth Warren",
+  "Daniel Franklin",
+  "St. Martha's Hospital",
+  "Riverside Clinic",
+  "Centers for Medicare & Medicaid Services",
+  "Federal Emergency Management Agency",
+  "a regional hospital",
+  "September 16, 2023 power outage",
+  "the cyber-attack",
+  "an unprecedented ice storm",
+  "a week-long power disruption in July 2024",
+  "a water main break in August 2024",
+  "emergency generators",
+  "telemedicine services",
+  "electronic health records management (EHR)",
+  "mobile and pop-up clinics",
+  "Smart grids and distributed energy systems",
+  "AI-driven predictive maintenance",
+  "green infrastructure",
+  "mutual aid agreements",
+  "legislation to increase funding for healthcare resilience projects"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "St. Martha's Hospital",
+    "relation": "located_in",
+    "value": "in the heart of downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "St. Martha's Hospital in the heart of downtown"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "September 16, 2023 power outage",
+    "relation": "lasted_for",
+    "value": "six hours",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an unexpected power outage that lasted for six hours"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "September 16, 2023 power outage",
+    "relation": "affected",
+    "value": "St. Martha's Hospital",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 16, 2023, St. Martha's Hospital in the heart of downtown experienced an unexpected power outage"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "emergency generators",
+    "relation": "kicked_in",
+    "value": "kicked in",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The hospital's emergency generators kicked in"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "emergency generators",
+    "relation": "exposed_gaps_in",
+    "value": "their capacity to handle prolonged outages",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the incident exposed gaps in their capacity to handle prolonged outages"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Rebecca Smith",
+    "relation": "role",
+    "value": "the attending physician",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Rebecca Smith, the attending physician, stated"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Rebecca Smith",
+    "relation": "stated",
+    "value": "we faced considerable challenges in maintaining our critical care operations",
+    "time": "September 16, 2023",
+    "speaker": "Dr. Rebecca Smith",
+    "verbatim": [
+     "we faced considerable challenges in maintaining our critical care operations"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Rebecca Smith",
+    "relation": "stated",
+    "value": "The outages put a strain on ventilators",
+    "time": "September 16, 2023",
+    "speaker": "Dr. Rebecca Smith",
+    "verbatim": [
+     "The outages put a strain on ventilators"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Rebecca Smith",
+    "relation": "stated",
+    "value": "some surgeries had to be postponed",
+    "time": "September 16, 2023",
+    "speaker": "Dr. Rebecca Smith",
+    "verbatim": [
+     "some surgeries had to be postponed"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "September 16, 2023 power outage",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "without stable power, some surgeries had to be postponed"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "September 16, 2023 power outage",
+    "relation": "underscores",
+    "value": "even short-term interruptions can lead to medical appointments and procedures being rescheduled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident underscores how even short-term interruptions can lead to medical appointments and procedures being rescheduled"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "telemedicine services",
+    "relation": "requires",
+    "value": "robust internet service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "robust internet service is crucial for telemedicine services"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "electronic health records management (EHR)",
+    "relation": "requires",
+    "value": "robust internet service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "robust internet service is crucial for telemedicine services, electronic health records management (EHR), and communication within healthcare networks"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "a regional hospital",
+    "relation": "lost",
+    "value": "internet connectivity",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when a regional hospital lost internet connectivity due to a cyber-attack"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "the cyber-attack",
+    "relation": "caused",
+    "value": "loss of internet connectivity at a regional hospital",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when a regional hospital lost internet connectivity due to a cyber-attack"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "a regional hospital",
+    "relation": "caused_by",
+    "value_ref": "c15",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "lost internet connectivity due to a cyber-attack"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "a regional hospital",
+    "relation": "doctors_could_not_access",
+    "value": "patient records or digital imaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Doctors couldn't access patient records or digital imaging"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "the cyber-attack",
+    "relation": "led_to_disruption_of",
+    "value": "patient care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "disrupting patient care and risking complications in treatments"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Julia Hernandez",
+    "relation": "role",
+    "value": "an IT specialist at the hospital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julia Hernandez, an IT specialist at the hospital, noted"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Julia Hernandez",
+    "relation": "stated",
+    "value": "The attack revealed how dependent we are on digital systems.",
+    "time": null,
+    "speaker": "Julia Hernandez",
+    "verbatim": [
+     "The attack revealed how dependent we are on digital systems."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Julia Hernandez",
+    "relation": "stated",
+    "value": "We're working on enhancing our offline capabilities and backup systems.",
+    "time": null,
+    "speaker": "Julia Hernandez",
+    "verbatim": [
+     "We're working on enhancing our offline capabilities and backup systems."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "an unprecedented ice storm",
+    "relation": "knocked_out",
+    "value": "power and water services in several northeastern healthcare facilities",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "unprecedented ice storm knocked out power and water services in several northeastern healthcare facilities"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "an unprecedented ice storm",
+    "relation": "prompted",
+    "value": "a review of emergency protocols and resource management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This disaster prompted a review of emergency protocols and resource management."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "an unprecedented ice storm",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This disaster prompted a review of emergency protocols and resource management."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "St. Martha's Hospital",
+    "relation": "is_investing_in",
+    "value": "more robust backup systems",
+    "time": "now",
+    "speaker": null,
+    "verbatim": [
+     "hospitals like St. Martha's are now investing in more robust backup systems and conducting regular stress tests on their infrastructure"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "St. Martha's Hospital",
+    "relation": "conducts",
+    "value": "regular stress tests on their infrastructure",
+    "time": "now",
+    "speaker": null,
+    "verbatim": [
+     "conducting regular stress tests on their infrastructure"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "mobile and pop-up clinics",
+    "relation": "operate_independent_of",
+    "value": "the main grid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mobile and pop-up clinics that can operate independent of the main grid"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "mobile and pop-up clinics",
+    "relation": "status",
+    "value": "gaining traction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the establishment of mobile and pop-up clinics that can operate independent of the main grid is gaining traction"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Centers for Medicare & Medicaid Services",
+    "relation": "recommends",
+    "value": "comprehensive contingency plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recommendations from the Centers for Medicare & Medicaid Services (CMS) to have comprehensive contingency plans"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Centers for Medicare & Medicaid Services",
+    "relation": "recommends_including",
+    "value": "sufficiently maintaining emergency power supplies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which include sufficiently maintaining emergency power supplies"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Federal Emergency Management Agency",
+    "relation": "collaborates_with",
+    "value": "healthcare providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Federal Emergency Management Agency (FEMA) also collaborates with healthcare providers"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Federal Emergency Management Agency",
+    "relation": "helps_with",
+    "value": "organize drills, simulate service interruptions, and enhance communication channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborates with healthcare providers to organize drills, simulate service interruptions, and enhance communication channels"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. James O'Connor",
+    "relation": "role",
+    "value": "an emergency room director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. James O'Connor, an emergency room director, emphasized"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. James O'Connor",
+    "relation": "stated",
+    "value": "Our teams now have quarterly drills that simulate various outage scenarios.",
+    "time": null,
+    "speaker": "Dr. James O'Connor",
+    "verbatim": [
+     "Our teams now have quarterly drills that simulate various outage scenarios."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. James O'Connor",
+    "relation": "stated",
+    "value": "Preparedness is key to reducing the potential risks associated with utility failures.",
+    "time": null,
+    "speaker": "Dr. James O'Connor",
+    "verbatim": [
+     "Preparedness is key to reducing the potential risks associated with utility failures."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "a week-long power disruption in July 2024",
+    "relation": "affected",
+    "value": "multiple hospitals in the Midwest",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "a week-long power disruption in July 2024, which affected multiple hospitals in the Midwest"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "a week-long power disruption in July 2024",
+    "relation": "results_in",
+    "value": "a call for policy changes",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "Following a week-long power disruption in July 2024, which affected multiple hospitals in the Midwest, there was a call for policy changes."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Senator Elizabeth Warren",
+    "relation": "led_lawmakers_who_proposed",
+    "value": "legislation to increase funding for healthcare resilience projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lawmakers, led by Senator Elizabeth Warren, proposed legislation to increase funding for healthcare resilience projects."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "legislation to increase funding for healthcare resilience projects",
+    "relation": "proposed_by",
+    "value": "Lawmakers, led by Senator Elizabeth Warren",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lawmakers, led by Senator Elizabeth Warren, proposed legislation to increase funding for healthcare resilience projects."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Senator Elizabeth Warren",
+    "relation": "stated",
+    "value": "Investing in our healthcare infrastructure's ability to withstand disturbances is not just sensible\u2014it's imperative for public safety",
+    "time": null,
+    "speaker": "Senator Elizabeth Warren",
+    "verbatim": [
+     "Investing in our healthcare infrastructure's ability to withstand disturbances is not just sensible\u2014it's imperative for public safety"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Smart grids and distributed energy systems",
+    "relation": "enhance",
+    "value": "the reliability of power supplies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smart grids and distributed energy systems enhance the reliability of power supplies."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "AI-driven predictive maintenance",
+    "relation": "can_foresee",
+    "value": "issues in utility systems before they lead to interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI-driven predictive maintenance can foresee issues in utility systems before they lead to interruptions."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Daniel Franklin",
+    "relation": "role",
+    "value": "an engineer specializing in hospital infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Daniel Franklin, an engineer specializing in hospital infrastructure, says"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Daniel Franklin",
+    "relation": "stated",
+    "value": "Advanced energy system monitoring tools and the integration of renewable energy sources are revolutionizing how healthcare settings manage utilities.",
+    "time": null,
+    "speaker": "Daniel Franklin",
+    "verbatim": [
+     "Advanced energy system monitoring tools and the integration of renewable energy sources are revolutionizing how healthcare settings manage utilities."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "a water main break in August 2024",
+    "relation": "jeopardized",
+    "value": "sanitation at Riverside Clinic",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "When a water main break in August 2024 jeopardized sanitation at Riverside Clinic"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Riverside Clinic",
+    "relation": "sanitation_jeopardized_by",
+    "value": "a water main break in August 2024",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "a water main break in August 2024 jeopardized sanitation at Riverside Clinic"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Riverside Clinic",
+    "relation": "received_help_from_neighboring_facilities",
+    "value": "sterile equipment and accepted patient transfers",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "neighboring facilities stepped in, providing sterile equipment and accepting patient transfers"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "a water main break in August 2024",
+    "relation": "results_in",
+    "value_ref": "c47",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "When a water main break in August 2024 jeopardized sanitation at Riverside Clinic, neighboring facilities stepped in"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "mutual aid agreements",
+    "relation": "necessity_demonstrated_by_response",
+    "value": "the necessity for healthcare facilities to establish mutual aid agreements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the necessity for healthcare facilities to establish mutual aid agreements"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "green infrastructure",
+    "relation": "reduces",
+    "value": "the burden on utility services during extreme weather episodes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating green infrastructure can reduce the burden on utility services during extreme weather episodes."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

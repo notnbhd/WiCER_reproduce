@@ -1,0 +1,924 @@
+{
+ "inventory": [
+  "Charles Madison",
+  "Elmwood High School",
+  "Rosemary Academy",
+  "Northside Middle School",
+  "Dr. Helen Fischer",
+  "The Mosaic Project",
+  "Harmony Intermediate School",
+  "Angela Thompson",
+  "Westbrook High",
+  "Larry Johnson",
+  "Leadership through Sports",
+  "Sofia Rodriguez",
+  "Sunnyside Elementary",
+  "Thomas Bradley",
+  "Innovation Tech High",
+  "Code for Future",
+  "Maria Gonzalez",
+  "The Global Village",
+  "Crescentwood Middle School",
+  "Frederick Daniels",
+  "Oakleaf High School",
+  "debate team",
+  "extracurricular programs",
+  "student engagement"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "student engagement",
+    "relation": "revive",
+    "value": "student interest and participation in school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to revive student interest and participation in school"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "extracurricular programs",
+    "relation": "augmented_by",
+    "value": "various educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "various educational institutions have taken a proactive step by augmenting their extracurricular offerings"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "extracurricular programs",
+    "relation": "shift_observed_since",
+    "value": "a noticeable shift is being observed across the local education systems",
+    "time": "Since the beginning of the academic term on September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the beginning of the academic term on September 1, 2023, a noticeable shift is being observed across the local education systems."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Charles Madison",
+    "relation": "principal_of",
+    "value": "Elmwood High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charles Madison, the principal of Elmwood High School, announced on September 12"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Charles Madison",
+    "relation": "announced",
+    "value": "an ambitious initiative to inject more vitality into their extracurricular programs",
+    "time": "September 12",
+    "speaker": null,
+    "verbatim": [
+     "announced on September 12 an ambitious initiative to inject more vitality into their extracurricular programs"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Charles Madison",
+    "relation": "stated_aim",
+    "value": "to foster a more engaged, well-rounded student body",
+    "time": null,
+    "speaker": "Charles Madison",
+    "verbatim": [
+     "In his words, the aim was \u201cto foster a more engaged, well-rounded student body.\u201d"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Rosemary Academy",
+    "relation": "mirrored_initiative",
+    "value": "mirrored the initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This step was mirrored by other schools, including Rosemary Academy and Northside Middle School"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Northside Middle School",
+    "relation": "mirrored_initiative",
+    "value": "mirrored the initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This step was mirrored by other schools, including Rosemary Academy and Northside Middle School"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "extracurricular programs",
+    "relation": "trend",
+    "value": "a sweeping trend towards acknowledging the significance of activities outside the traditional academic curriculum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indicating a sweeping trend towards acknowledging the significance of activities outside the traditional academic curriculum"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "extracurricular programs",
+    "relation": "characterized_as",
+    "value": "not merely afterschool pastimes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These programs are not merely afterschool pastimes"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "extracurricular programs",
+    "relation": "purpose",
+    "value": "complement educational objectives and provide a more holistic learning experience for students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are structured to complement educational objectives and provide a more holistic learning experience for students"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "extracurricular programs",
+    "relation": "include",
+    "value": "sports teams, technology clubs, art workshops, debate teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ranging from sports teams to technology clubs, art workshops to debate teams"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "extracurricular programs",
+    "relation": "chosen_to_cater_to",
+    "value": "diverse interests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the activities are chosen to cater to diverse interests, aiming to reach every student demographic"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "extracurricular programs",
+    "relation": "aims_to_reach",
+    "value": "every student demographic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to reach every student demographic"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "extracurricular programs",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the activities are chosen to cater to diverse interests, aiming to reach every student demographic"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "extracurricular programs",
+    "relation": "psychological_benefit",
+    "value": "fertile ground for students to explore their capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychologically, these organized activities are fertile ground for students to explore their capabilities"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "extracurricular programs",
+    "relation": "social_benefit",
+    "value": "bridge gaps and create inclusive environments where students form friendships and networks that often last a lifetime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Socially, they can bridge gaps and create inclusive environments where students form friendships and networks that often last a lifetime."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "extracurricular programs",
+    "relation": "benefits_emphasized_by",
+    "value": "Scholarly studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scholarly studies have long emphasized the multi-dimensional benefits of extracurricular activities"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Helen Fischer",
+    "relation": "occupation",
+    "value": "a developmental psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Helen Fischer, a developmental psychologist, presented her findings on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Helen Fischer",
+    "relation": "presented_findings",
+    "value": "her findings",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "presented her findings on October 5, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Helen Fischer",
+    "relation": "stated",
+    "value": "Students engaged in extracurricular activities are more likely to display improved social skills, higher self-esteem, and elevated academic achievement.",
+    "time": "October 5, 2023",
+    "speaker": "Dr. Helen Fischer",
+    "verbatim": [
+     "Students engaged in extracurricular activities are more likely to display improved social skills, higher self-esteem, and elevated academic achievement."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Helen Fischer",
+    "relation": "research_supports",
+    "value": "the educational shift we are witnessing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her research bolsters the educational shift we are witnessing."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Mosaic Project",
+    "relation": "located_at",
+    "value": "Harmony Intermediate School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\u201cThe Mosaic Project\u201d at Harmony Intermediate School"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Mosaic Project",
+    "relation": "spearheaded_by",
+    "value": "Vice Principal Angela Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Vice Principal Angela Thompson"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Angela Thompson",
+    "relation": "position",
+    "value": "Vice Principal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Vice Principal Angela Thompson"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "The Mosaic Project",
+    "relation": "launched_on",
+    "value": "September 22, 2023",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "The Mosaic Project",
+    "relation": "combines",
+    "value": "various extracurricular clubs under a cohesive umbrella",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this initiative combines various extracurricular clubs under a cohesive umbrella"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "The Mosaic Project",
+    "relation": "encourages",
+    "value": "students from different walks of life to work together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging students from different walks of life to work together"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Angela Thompson",
+    "relation": "stated",
+    "value": "We want our students to see the value in every thread of our social fabric, to appreciate diversity and to grow as leaders",
+    "time": null,
+    "speaker": "Angela Thompson",
+    "verbatim": [
+     "We want our students to see the value in every thread of our social fabric, to appreciate diversity and to grow as leaders,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "extracurricular programs",
+    "relation": "instrumental_in",
+    "value": "building strong, inclusive communities within schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such programs are instrumental in building strong, inclusive communities within schools"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "extracurricular programs",
+    "relation": "teaches",
+    "value": "the importance of teamwork, empathy, and respect for different perspectives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "teaching the importance of teamwork, empathy, and respect for different perspectives"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "extracurricular programs",
+    "relation": "role",
+    "value": "teaching life skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Athletic programs have also received amplified attention for their role in teaching life skills."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Larry Johnson",
+    "relation": "coach_at",
+    "value": "Westbrook High",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At Westbrook High, Coach Larry Johnson unveiled"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Larry Johnson",
+    "relation": "position",
+    "value": "Coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At Westbrook High, Coach Larry Johnson unveiled"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Larry Johnson",
+    "relation": "unveiled",
+    "value": "a \u201cLeadership through Sports\u201d program",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "unveiled a \u201cLeadership through Sports\u201d program on September 15"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Larry Johnson",
+    "relation": "stated",
+    "value": "It\u2019s about more than just winning games; it\u2019s about preparing kids for life",
+    "time": null,
+    "speaker": "Larry Johnson",
+    "verbatim": [
+     "It\u2019s about more than just winning games; it\u2019s about preparing kids for life,"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Leadership through Sports",
+    "relation": "focuses_on",
+    "value": "sportsmanship, perseverance, and dedication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His program focuses on sportsmanship, perseverance, and dedication"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Leadership through Sports",
+    "relation": "attributes_resonate",
+    "value": "well beyond the field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attributes that resonate well beyond the field"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "extracurricular programs",
+    "relation": "athletes_learn",
+    "value": "to balance practice with studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "High school athletes learn to balance practice with studies"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "extracurricular programs",
+    "relation": "develops",
+    "value": "superior timemanagement skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often leading to superior timemanagement skills"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "extracurricular programs",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "High school athletes learn to balance practice with studies, often leading to superior timemanagement skills."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "extracurricular programs",
+    "relation": "physical_benefits",
+    "value": "contributing to the overall well-being of students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the physical benefits of exercise are well-documented, contributing to the overall well-being of students"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "extracurricular programs",
+    "relation": "serve_as",
+    "value": "enriching outlets for self-expression and creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arts programs in schools serve as enriching outlets for self-expression and creativity"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sofia Rodriguez",
+    "relation": "position",
+    "value": "art instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As art instructor Sofia Rodriguez of Sunnyside Elementary puts it"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sofia Rodriguez",
+    "relation": "employed_at",
+    "value": "Sunnyside Elementary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As art instructor Sofia Rodriguez of Sunnyside Elementary puts it"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sofia Rodriguez",
+    "relation": "stated",
+    "value": "Art is a universal language that every child can speak.",
+    "time": null,
+    "speaker": "Sofia Rodriguez",
+    "verbatim": [
+     "Art is a universal language that every child can speak."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sofia Rodriguez",
+    "relation": "program_introduced_to",
+    "value": "the school curriculum",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Her program, introduced to the school curriculum on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sofia Rodriguez",
+    "relation": "program_offers",
+    "value": "children a chance to express emotions, develop aesthetic senses, and think outside the box",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers children a chance to express emotions, develop aesthetic senses, and think outside the box"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "extracurricular programs",
+    "relation": "includes",
+    "value": "drama, music, visual arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether it\u2019s drama, music, or visual arts, participating in these activities"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "extracurricular programs",
+    "relation": "provides",
+    "value": "a respite from the rigidity of academia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participating in these activities provides a respite from the rigidity of academia"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Thomas Bradley",
+    "relation": "position",
+    "value": "computer science teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas Bradley, a computer science teacher at Innovation Tech High, initiated"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Thomas Bradley",
+    "relation": "employed_at",
+    "value": "Innovation Tech High",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas Bradley, a computer science teacher at Innovation Tech High, initiated"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Thomas Bradley",
+    "relation": "initiated",
+    "value": "the \u201cCode for Future\u201d club",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "initiated the \u201cCode for Future\u201d club on September 20"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Code for Future",
+    "relation": "initiated_by",
+    "value": "Thomas Bradley",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "Thomas Bradley, a computer science teacher at Innovation Tech High, initiated the \u201cCode for Future\u201d club on September 20."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Thomas Bradley",
+    "relation": "stated",
+    "value": "We\u2019re not just teaching coding; we\u2019re instilling a passion for innovation and problem-solving",
+    "time": null,
+    "speaker": "Thomas Bradley",
+    "verbatim": [
+     "We\u2019re not just teaching coding; we\u2019re instilling a passion for innovation and problem-solving,"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "extracurricular programs",
+    "relation": "critical_in",
+    "value": "a world that\u2019s increasingly becoming digital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such clubs are critical in a world that\u2019s increasingly becoming digital."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "extracurricular programs",
+    "relation": "prepare_students_for",
+    "value": "future careers in STEM fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They not only prepare students for future careers in STEM fields"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "extracurricular programs",
+    "relation": "promotes",
+    "value": "digital literacy \u2014 an essential skill in modern society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promote digital literacy \u2014 an essential skill in modern society"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "student engagement",
+    "relation": "technology_clubs_are",
+    "value": "powerhouses for student engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technology clubs have emerged as powerhouses for student engagement."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Maria Gonzalez",
+    "relation": "position",
+    "value": "Spanish teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, the Spanish teacher who founded \u201cThe Global Village\u201d club at Crescentwood Middle School"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Maria Gonzalez",
+    "relation": "founded",
+    "value": "The Global Village club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, the Spanish teacher who founded \u201cThe Global Village\u201d club at Crescentwood Middle School"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "The Global Village",
+    "relation": "founded_by",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, the Spanish teacher who founded \u201cThe Global Village\u201d club at Crescentwood Middle School"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "The Global Village",
+    "relation": "located_at",
+    "value": "Crescentwood Middle School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, the Spanish teacher who founded \u201cThe Global Village\u201d club at Crescentwood Middle School"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "The Global Village",
+    "relation": "inception_on",
+    "value": "October 10",
+    "time": "October 10",
+    "speaker": null,
+    "verbatim": [
+     "Since its inception on October 10"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Maria Gonzalez",
+    "relation": "observed",
+    "value": "growing interest from students eager to learn new languages and celebrate cultural diversity",
+    "time": "Since its inception on October 10",
+    "speaker": null,
+    "verbatim": [
+     "Gonzalez has seen growing interest from students eager to learn new languages and celebrate cultural diversity."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Maria Gonzalez",
+    "relation": "aims_to_provide",
+    "value": "students with an immersive cultural experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to provide students with an immersive cultural experience"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "extracurricular programs",
+    "relation": "promote",
+    "value": "global awareness and sensitivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These clubs promote global awareness and sensitivity"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "extracurricular programs",
+    "relation": "prepares_for",
+    "value": "a more interconnected global community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preparing them for a more interconnected global community"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "debate team",
+    "relation": "led_by",
+    "value": "Frederick Daniels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the debate team led by Frederick Daniels at Oakleaf High School"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "debate team",
+    "relation": "located_at",
+    "value": "Oakleaf High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the debate team led by Frederick Daniels at Oakleaf High School"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "debate team",
+    "relation": "began_on",
+    "value": "September 18",
+    "time": "Beginning from September 18",
+    "speaker": null,
+    "verbatim": [
+     "Beginning from September 18, Daniels\u2019 debate team members have engaged in discussions"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "debate team",
+    "relation": "engaged_in",
+    "value": "discussions on a range of current issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have engaged in discussions on a range of current issues"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "debate team",
+    "relation": "sharpens",
+    "value": "critical thinking and public speaking skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sharpening critical thinking and public speaking skills"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "extracurricular programs",
+    "relation": "empowers",
+    "value": "students to express their thoughts confidently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been fundamental in empowering students to express their thoughts confidently"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "debate team",
+    "relation": "articulation_is",
+    "value": "a valuable asset in any field students may choose to pursue in their future lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ability to articulate well-founded arguments and engage in respectful discourse is a valuable asset in any field students may choose to pursue in their future lives."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "extracurricular programs",
+    "relation": "enhance_and_expand",
+    "value": "local schools continue to enhance and expand their extracurricular programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As local schools continue to enhance and expand their extracurricular programs"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "extracurricular programs",
+    "relation": "promises",
+    "value": "to cultivate more engaged, capable, and rounded individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promising to cultivate more engaged, capable, and rounded individuals"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "extracurricular programs",
+    "relation": "offers",
+    "value": "a multidimensional education, equipping students with not just academic acumen but essential life skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tapestry of after-school activities offers a multidimensional education, equipping students with not just academic acumen but essential life skills."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "extracurricular programs",
+    "relation": "impact_may_unfold",
+    "value": "over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the full impact of these initiatives may unfold over time"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "student engagement",
+    "relation": "holds_potential",
+    "value": "promising potential - not just for the educational institutions and their communities, but for society as a whole",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the journey towards engaging each student holds promising potential - not just for the educational institutions and their communities, but for society as a whole"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "student engagement",
+    "relation": "described_as",
+    "value": "an unfolding narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The story of student engagement through extracurricular initiatives is an unfolding narrative"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,488 @@
+{
+ "inventory": [
+  "Sarah Johnson",
+  "Brewed Awakening",
+  "Carlos Rodriguez",
+  "Small Business Administration",
+  "Rachel Kim",
+  "local Chamber of Commerce",
+  "Tom\u00e1s Garc\u00eda",
+  "Maya Patel",
+  "Green Innovations",
+  "David Chen",
+  "Shop Local Saturdays",
+  "Small Business Success Fund",
+  "city council",
+  "local government agencies",
+  "local university's business incubator program",
+  "Code For All",
+  "multiplier effect"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Johnson",
+    "relation": "owns_business",
+    "value": "Brewed Awakening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson\u2019s \"Brewed Awakening\" coffee shop"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Brewed Awakening",
+    "relation": "business_type",
+    "value": "coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Brewed Awakening\" coffee shop"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Brewed Awakening",
+    "relation": "opened_on",
+    "value": "September 15",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "which opened its doors on September 15"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Brewed Awakening",
+    "relation": "has_become",
+    "value": "a morning staple for many",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has quickly become a morning staple for many"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Carlos Rodriguez",
+    "relation": "owns_business",
+    "value": "electronics repair shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos Rodriguez's electronics repair shop"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Carlos Rodriguez",
+    "relation": "started_welcoming_customers_on",
+    "value": "October 3",
+    "time": "October 3",
+    "speaker": null,
+    "verbatim": [
+     "which started welcoming customers on October 3"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Carlos Rodriguez",
+    "relation": "fills_niche",
+    "value": "a much-needed niche in the neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fills a much-needed niche in the neighborhood"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Small Business Administration",
+    "relation": "reports_jobs_created",
+    "value": "approximately 120 new jobs in our neighborhood alone",
+    "time": "since September 2023",
+    "speaker": "Small Business Administration",
+    "verbatim": [
+     "According to the Small Business Administration, since September 2023, new small businesses have been responsible for creating approximately 120 new jobs in our neighborhood alone."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Rachel Kim",
+    "relation": "founded",
+    "value": "boutique digital marketing firm",
+    "time": "November",
+    "speaker": null,
+    "verbatim": [
+     "Rachel Kim, who started a boutique digital marketing firm in November"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Rachel Kim",
+    "relation": "recruits",
+    "value": "locally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prides herself on recruiting locally and providing mentorship programs"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Rachel Kim",
+    "relation": "provides",
+    "value": "mentorship programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prides herself on recruiting locally and providing mentorship programs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "local Chamber of Commerce",
+    "relation": "finds_retained_per_dollar_local",
+    "value": "approximately 67 cents",
+    "time": null,
+    "speaker": "local Chamber of Commerce",
+    "verbatim": [
+     "for every dollar spent at a local business, approximately 67 cents stays within the local economy"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "local Chamber of Commerce",
+    "relation": "finds_retained_per_dollar_non_local",
+    "value": "40 cents when spending at a non-local chain",
+    "time": null,
+    "speaker": "local Chamber of Commerce",
+    "verbatim": [
+     "as opposed to just 40 cents when spending at a non-local chain"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "local Chamber of Commerce",
+    "relation": "statistic_demonstrates",
+    "value": "how new businesses can fuel an ecosystem of growth and sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This statistic demonstrates how new businesses can fuel an ecosystem of growth and sustainability."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "multiplier effect",
+    "relation": "is_emphasized_by",
+    "value": "Local economics experts",
+    "time": null,
+    "speaker": "Local economics experts",
+    "verbatim": [
+     "Local economics experts often emphasize the 'multiplier effect' of spending at local businesses."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "multiplier effect",
+    "relation": "keeps_money_within",
+    "value": "stay within the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "likely to stay within the community, benefiting other businesses and public services through taxes."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "multiplier effect",
+    "relation": "benefits",
+    "value": "other businesses and public services through taxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "benefiting other businesses and public services through taxes"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "multiplier effect",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "likely to stay within the community, benefiting other businesses and public services through taxes."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Tom\u00e1s Garc\u00eda",
+    "relation": "owns_business",
+    "value": "artisanal cheese shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tom\u00e1s Garc\u00eda's artisanal cheese shop, which opened on December 1"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Tom\u00e1s Garc\u00eda",
+    "relation": "opened_on",
+    "value": "December 1",
+    "time": "December 1",
+    "speaker": null,
+    "verbatim": [
+     "which opened on December 1"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Tom\u00e1s Garc\u00eda",
+    "relation": "offers",
+    "value": "cheese-tasting events and workshops on sustainable farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it offers cheese-tasting events and workshops on sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Tom\u00e1s Garc\u00eda",
+    "relation": "engenders",
+    "value": "a spirit of community education and engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which engender a spirit of community education and engagement"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Tom\u00e1s Garc\u00eda",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it offers cheese-tasting events and workshops on sustainable farming practices, which engender a spirit of community education and engagement"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maya Patel",
+    "relation": "described_as",
+    "value": "a young entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maya Patel, a young entrepreneur, launched a daycare service in January"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maya Patel",
+    "relation": "launched",
+    "value": "a daycare service",
+    "time": "January",
+    "speaker": null,
+    "verbatim": [
+     "launched a daycare service in January"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maya Patel",
+    "relation": "offers",
+    "value": "extended hours for working parents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that offers extended hours for working parents"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maya Patel",
+    "relation": "was_severely_lacking_before",
+    "value": "the daycare service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a service that was severely lacking before"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Green Innovations",
+    "relation": "is_store_type",
+    "value": "eco-friendly products store",
+    "time": "February",
+    "speaker": null,
+    "verbatim": [
+     "\"Green Innovations,\" an eco-friendly products store by environmentalist David Chen in February"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "David Chen",
+    "relation": "operates",
+    "value": "Green Innovations",
+    "time": "February",
+    "speaker": null,
+    "verbatim": [
+     "an eco-friendly products store by environmentalist David Chen in February"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "David Chen",
+    "relation": "described_as",
+    "value": "environmentalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by environmentalist David Chen"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Green Innovations",
+    "relation": "provides",
+    "value": "unique products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David's store provides not only unique products but also an educational space where the community can learn about sustainable living."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Green Innovations",
+    "relation": "provides",
+    "value": "an educational space where the community can learn about sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an educational space where the community can learn about sustainable living"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Shop Local Saturdays",
+    "relation": "aids",
+    "value": "in bolstering these new ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives like \"Shop Local Saturdays\" or the creation of mentorship programs by more established local business owners aid in bolstering these new ventures."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Small Business Success Fund",
+    "relation": "provides",
+    "value": "micro-grants to new ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which provides micro-grants to new ventures"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "city council",
+    "relation": "established",
+    "value": "Small Business Success Fund",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "The city council's recent establishment of the \"Small Business Success Fund,\""
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local government agencies",
+    "relation": "has_stepped_in",
+    "value": "stepped in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local government agencies have also stepped in"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "local government agencies",
+    "relation": "offers",
+    "value": "entrepreneurial workshops and small business grants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering entrepreneurial workshops and small business grants"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "local university's business incubator program",
+    "relation": "launched_in",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "The local university's business incubator program, launched in September 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "local university's business incubator program",
+    "relation": "has_supported",
+    "value": "several budding ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since supported several budding ventures"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "local university's business incubator program",
+    "relation": "supported",
+    "value": "Code For All",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since supported several budding ventures, like \"Code For All,\""
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Code For All",
+    "relation": "is_coding_boot_camp",
+    "value": "a coding boot camp for teens and adults",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Code For All,\" a coding boot camp for teens and adults"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Code For All",
+    "relation": "opened_in",
+    "value": "early January",
+    "time": "early January",
+    "speaker": null,
+    "verbatim": [
+     "that opened its doors in early January"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

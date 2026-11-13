@@ -1,0 +1,832 @@
+{
+ "inventory": [
+  "Rivertown Rowers",
+  "Grand River",
+  "Elizabeth Johansen",
+  "Michael Thompson",
+  "Dr. Nathan Pierce",
+  "Jasmine Carter",
+  "Sarah Kim",
+  "Pioneering Injury Prevention and Recovery Program",
+  "September 3, 2023",
+  "educational boot camp",
+  "September 15, 2023",
+  "wearables",
+  "video analysis",
+  "hydrotherapy",
+  "dry needling",
+  "neuromuscular training",
+  "sports psychologists",
+  "community seminar",
+  "November 22, 2023",
+  "regional sports medicine conferences"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Rivertown Rowers",
+    "relation": "is_a",
+    "value": "semi-professional rowing team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Rivertown Rowers, a semi-professional rowing team based along the serene banks of the Grand River"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Rivertown Rowers",
+    "relation": "based_along",
+    "value": "serene banks of the Grand River",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a semi-professional rowing team based along the serene banks of the Grand River"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Grand River",
+    "relation": "location_of",
+    "value": "Rivertown Rowers, based along its banks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "based along the serene banks of the Grand River"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Rivertown Rowers",
+    "relation": "implementing",
+    "value": "a robust injury prevention and recovery strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have taken noteworthy strides in implementing a robust injury prevention and recovery strategy"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "inception_date",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the program's inception on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "September 3, 2023",
+    "relation": "marks",
+    "value": "inception of the program",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the program's inception on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Rivertown Rowers",
+    "relation": "injury_rates",
+    "value": "significant downturn",
+    "time": "Since the program's inception on September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "there's been a significant downturn in injury rates"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Rivertown Rowers",
+    "relation": "athlete_performance",
+    "value": "uptick",
+    "time": "Since the program's inception on September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an uptick in athlete performance"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Elizabeth Johansen",
+    "relation": "role",
+    "value": "team captain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "team captain Elizabeth Johansen and head coach Michael Thompson"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Michael Thompson",
+    "relation": "role",
+    "value": "head coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "team captain Elizabeth Johansen and head coach Michael Thompson"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Elizabeth Johansen",
+    "relation": "observed",
+    "value": "distressing pattern of frequent injuries stymying the Rowers' progress",
+    "time": "Just over a year ago",
+    "speaker": null,
+    "verbatim": [
+     "Just over a year ago, team captain Elizabeth Johansen and head coach Michael Thompson observed a distressing pattern of frequent injuries stymying the Rowers' progress"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Rivertown Rowers",
+    "relation": "injuries_included",
+    "value": "sprains, tendinitis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From sprains to tendinitis"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "role",
+    "value": "sport physician known for his pioneering work in athletic health initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Nathan Pierce, a sport physician known for his pioneering work in athletic health initiatives"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Elizabeth Johansen",
+    "relation": "determined_to",
+    "value": "curb this trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Determined to curb this trend"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Elizabeth Johansen",
+    "relation": "sought_expertise_of",
+    "value": "Dr. Nathan Pierce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they sought the expertise of Dr. Nathan Pierce"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Elizabeth Johansen",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Determined to curb this trend, they sought the expertise of Dr. Nathan Pierce"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Rivertown Rowers",
+    "relation": "outlined",
+    "value": "a dual-faceted program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the team outlined a dual-faceted program focused on pre-emptive measures to reduce the risk of injury as well as structured recovery plans"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "component",
+    "value": "pre-emptive measures to reduce the risk of injury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focused on pre-emptive measures to reduce the risk of injury"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "component",
+    "value": "structured recovery plans promoting swift and sustainable returns to action for those sidelined",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "structured recovery plans promoting swift and sustainable returns to action for those sidelined"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "kicked_off_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Kicking off on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "September 15, 2023",
+    "relation": "marks",
+    "value": "start of the program with an educational boot camp",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Kicking off on September 15, 2023, the program began with an educational boot camp"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "began_with",
+    "value": "educational boot camp",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the program began with an educational boot camp for athletes and coaching staff"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "educational boot camp",
+    "relation": "audience",
+    "value": "athletes and coaching staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program began with an educational boot camp for athletes and coaching staff"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "educational boot camp",
+    "relation": "covered",
+    "value": "the spectrum of common rowing injuries, body mechanics, nutrition, and the importance of mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "covering the spectrum of common rowing injuries, body mechanics, nutrition, and the importance of mental health"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "educational boot camp",
+    "relation": "workshops_highlighted",
+    "value": "the intricate balance between rigorous training and adequate rest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Workshops highlighted the intricate balance between rigorous training and adequate rest, emphasizing injury awareness"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "educational boot camp",
+    "relation": "emphasized",
+    "value": "injury awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Workshops highlighted the intricate balance between rigorous training and adequate rest, emphasizing injury awareness"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "conducted",
+    "value": "comprehensive individual assessments for each team member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Pierce and his team followed up with comprehensive individual assessments for each team member"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "assessments_identified",
+    "value": "potential areas of concern, ranging from muscular imbalances to poor rowing technique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "identifying potential areas of concern - ranging from muscular imbalances to poor rowing technique"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Pioneering Injury Prevention and Recovery Program",
+    "relation": "goal",
+    "value": "to personalize injury prevention training regimens, targeting the specific needs of each rower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The goal was to personalize injury prevention training regimens, targeting the specific needs of each rower"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rivertown Rowers",
+    "relation": "adopted_routine",
+    "value": "a daily routine inclusive of dynamic warmups, functional strength training, flexibility drills, and cool-down sessions",
+    "time": "By October of 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October of 2023, the Rowers pivoted towards a daily routine inclusive of dynamic warmups, functional strength training, flexibility drills, and cool-down sessions"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rivertown Rowers",
+    "relation": "routine_purpose",
+    "value": "reinforce the body's natural defense against injury",
+    "time": "By October of 2023",
+    "speaker": null,
+    "verbatim": [
+     "to reinforce the body's natural defense against injury"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rivertown Rowers",
+    "relation": "in_order_to",
+    "value_ref": "c31",
+    "time": "By October of 2023",
+    "speaker": null,
+    "verbatim": [
+     "cool-down sessions to reinforce the body's natural defense against injury"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jasmine Carter",
+    "relation": "role",
+    "value": "strength and conditioning coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their strength and conditioning coach, Jasmine Carter,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jasmine Carter",
+    "relation": "curated_routines",
+    "value": "effective and engaging routines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "played a pivotal role in curating these routines, ensuring they were both effective and engaging for the athletes"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "reviewed_progress",
+    "value": "regularly, tweaking the programs as necessary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Pierce regularly reviewed their progress, tweaking the programs as necessary."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "believed_in",
+    "value": "a scientific approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He believed in a scientific approach"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Nathan Pierce",
+    "relation": "uses_data",
+    "value": "VO2 max and lactate thresholds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using data such as VO2 max and lactate thresholds to inform training intensity and rest periods"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "wearables",
+    "relation": "tracks",
+    "value": "heart rate, sleep quality, and stress levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wearables capable of tracking heart rate, sleep quality, and stress levels became standard-issue"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "wearables",
+    "relation": "became",
+    "value": "standard-issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wearables capable of tracking heart rate, sleep quality, and stress levels became standard-issue"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "wearables",
+    "relation": "data_offered",
+    "value": "tangible insights into each athlete's recovery needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering tangible insights into each athlete's recovery needs"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "wearables",
+    "relation": "allowed",
+    "value": "tailored rest days when red flags appeared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for tailored rest days when red flags appeared"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "video analysis",
+    "relation": "enabled",
+    "value": "coaches and athletes to dissect rowing technique at a granular level",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the introduction of video analysis let coaches and athletes dissect rowing technique at a granular level"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "video analysis",
+    "relation": "combined_with",
+    "value": "real-time feedback on the water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Combined with real-time feedback on the water"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "video analysis",
+    "relation": "prevents",
+    "value": "overuse injuries stemming from poor form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technical adjustments could be made to prevent overuse injuries stemming from poor form"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Rivertown Rowers",
+    "relation": "recovery_approach",
+    "value": "structured approach to recovery intertwining physical rehabilitation with ongoing psychological support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Rivertown Rowers faced this truth head-on with a structured approach to recovery, one which intertwined physical rehabilitation with ongoing psychological support"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "sports psychologists",
+    "relation": "included_in",
+    "value": "the recovery process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The inclusion of sports psychologists in the recovery process illuminated the often-overlooked emotional and mental toll of injuries"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sports psychologists",
+    "relation": "illuminated",
+    "value": "the often-overlooked emotional and mental toll of injuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The inclusion of sports psychologists in the recovery process illuminated the often-overlooked emotional and mental toll of injuries"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sarah Kim",
+    "relation": "works_as",
+    "value": "local physical therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the team coordinated closely with local physical therapists, including the widely respected Sarah Kim"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Sarah Kim",
+    "relation": "reputation",
+    "value": "widely respected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the team coordinated closely with local physical therapists, including the widely respected Sarah Kim"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Rivertown Rowers",
+    "relation": "coordinated_with",
+    "value": "local physical therapists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the team coordinated closely with local physical therapists"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Rivertown Rowers",
+    "relation": "rehabilitation_plans",
+    "value": "comprehensive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rehabilitation plans were comprehensive"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "hydrotherapy",
+    "relation": "rehabilitation_technique",
+    "value": "cutting-edge technique to stimulate healing and restore function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrating cutting-edge techniques such as hydrotherapy, dry needling, and neuromuscular training to stimulate healing and restore function"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "dry needling",
+    "relation": "rehabilitation_technique",
+    "value": "cutting-edge technique to stimulate healing and restore function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrating cutting-edge techniques such as hydrotherapy, dry needling, and neuromuscular training to stimulate healing and restore function"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "neuromuscular training",
+    "relation": "rehabilitation_technique",
+    "value": "cutting-edge technique to stimulate healing and restore function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrating cutting-edge techniques such as hydrotherapy, dry needling, and neuromuscular training to stimulate healing and restore function"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Rivertown Rowers",
+    "relation": "hosted",
+    "value": "a community seminar",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the team hosted a community seminar on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "community seminar",
+    "relation": "held_on",
+    "value": "November 22, 2023",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the team hosted a community seminar on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "November 22, 2023",
+    "relation": "date_of",
+    "value": "community seminar",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the team hosted a community seminar on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "community seminar",
+    "relation": "audience",
+    "value": "local high school teams, recreational clubs, and healthcare professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sharing their insights with local high school teams, recreational clubs, and healthcare professionals"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "community seminar",
+    "relation": "fostered",
+    "value": "a dialogue around best practices in injury prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The seminar fostered a dialogue around best practices in injury prevention"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "community seminar",
+    "relation": "emphasized",
+    "value": "the shared responsibility of athletes, coaches, and healthcare workers in fostering safer sports environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasized the shared responsibility of athletes, coaches, and healthcare workers in fostering safer sports environments"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Rivertown Rowers",
+    "relation": "injury_occurrences",
+    "value": "35% reduction in injury occurrences compared to the previous year",
+    "time": "As of early 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Rivertown Rowers saw a 35% reduction in injury occurrences compared to the previous year"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Rivertown Rowers",
+    "relation": "recovery_period_reduction",
+    "value": "an average of two weeks",
+    "time": "As of early 2024",
+    "speaker": null,
+    "verbatim": [
+     "cut by an average of two weeks - a remarkable feat highlighting the efficacy of the new recovery protocols"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Rivertown Rowers",
+    "relation": "new_recovery_protocols_highlight",
+    "value": "efficacy of the new recovery protocols",
+    "time": "As of early 2024",
+    "speaker": null,
+    "verbatim": [
+     "cut by an average of two weeks - a remarkable feat highlighting the efficacy of the new recovery protocols"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Elizabeth Johansen",
+    "relation": "noted",
+    "value": "an observable boost in team morale",
+    "time": null,
+    "speaker": "Elizabeth Johansen",
+    "verbatim": [
+     "Elizabeth Johansen noted an observable boost in team morale"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Rivertown Rowers",
+    "relation": "athletes_expressed",
+    "value": "a newfound sense of confidence in their training and competition readiness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "athletes expressing a newfound sense of confidence in their training and competition readiness"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Rivertown Rowers",
+    "relation": "camaraderie",
+    "value": "a significant intangible benefit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The camaraderie cultivated through shared commitment to health and wellness has been regarded as a significant intangible benefit."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Rivertown Rowers",
+    "relation": "considering",
+    "value": "integrating more individualized nutrition plans and expanding psychological support resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There's talk of integrating more individualized nutrition plans and expanding psychological support resources"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Michael Thompson",
+    "relation": "plans_to_present",
+    "value": "this case study at upcoming regional sports medicine conferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coach Thompson is keen on presenting this case study at upcoming regional sports medicine conferences"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "regional sports medicine conferences",
+    "relation": "venue_for",
+    "value": "case study presented by Michael Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presenting this case study at upcoming regional sports medicine conferences"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Michael Thompson",
+    "relation": "hopes",
+    "value": "that the Rowers' success story can inspire and inform similar initiatives elsewhere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hoping that the Rowers' success story can inspire and inform similar initiatives elsewhere"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Michael Thompson",
+    "relation": "in_order_to",
+    "value_ref": "c70",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coach Thompson is keen on presenting this case study at upcoming regional sports medicine conferences, hoping that the Rowers' success story can inspire and inform similar initiatives elsewhere"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Rivertown Rowers",
+    "relation": "rows_on",
+    "value": "Grand River",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's evolving with every stroke they take on the Grand River"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Rivertown Rowers",
+    "relation": "story_status",
+    "value": "far from over",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their story is far from over"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

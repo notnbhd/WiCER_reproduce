@@ -1,0 +1,362 @@
+{
+ "inventory": [
+  "time capsule",
+  "old town square",
+  "the local library",
+  "Jonathan McDowell",
+  "the old train station",
+  "Eleanor Whitfield",
+  "Jeremy",
+  "the small flower shop",
+  "Hasselback family homestead",
+  "Donovan Family Theatre",
+  "Cecilia Donovan",
+  "Art Nouveau"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "time capsule",
+    "relation": "buried_ago",
+    "value": "half a century ago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a time capsule buried half a century ago"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "time capsule",
+    "relation": "sealed_in",
+    "value": "autumn of 1973",
+    "time": "autumn of 1973",
+    "speaker": null,
+    "verbatim": [
+     "sealed by our forebears in the autumn of 1973"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "time capsule",
+    "relation": "contains",
+    "value": "blueprints and scale models of our local architecture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Those artifacts were the blueprints and scale models of our local architecture"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "time capsule",
+    "relation": "made_of",
+    "value": "metal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that metal container"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "old town square",
+    "relation": "community_gathered_at",
+    "value": "the old town square",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community gathered around the old town square"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "the local library",
+    "relation": "architectural_style",
+    "value": "Victorian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a majestic Victorian building that stood as the intellectual beacon of our hometown"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the local library",
+    "relation": "original_blueprints_signed_by",
+    "value": "Jonathan McDowell",
+    "time": "November 12, 1973",
+    "speaker": null,
+    "verbatim": [
+     "its original blueprints, signed by architect Jonathan McDowell on November 12, 1973"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jonathan McDowell",
+    "relation": "occupation",
+    "value": "architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signed by architect Jonathan McDowell"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jonathan McDowell",
+    "relation": "status",
+    "value": "long passed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "McDowell, long passed"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jonathan McDowell",
+    "relation": "design_features",
+    "value": "ornate gables with subtle Art Nouveau curves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his designs combining ornate gables with subtle Art Nouveau curves"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Art Nouveau",
+    "relation": "incorporated_in",
+    "value": "designs of Jonathan McDowell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his designs combining ornate gables with subtle Art Nouveau curves"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jonathan McDowell",
+    "relation": "drawings_detailed",
+    "value": "hand-carved wooden bannisters and secret reading nooks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His drawings detailed hand-carved wooden bannisters and secret reading nooks"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "the local library",
+    "relation": "no_longer_has",
+    "value": "hand-carved wooden bannisters and secret reading nooks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "secret reading nooks that are, sadly, no longer part of the modernized building"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "the local library",
+    "relation": "current_\u72b6\u6001",
+    "value": "modernized building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "no longer part of the modernized building"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "the old train station",
+    "relation": "replaced_by",
+    "value": "a hub of gleaming metal and glass",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now replaced by a hub of gleaming metal and glass"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "the old train station",
+    "relation": "model_crafted_by",
+    "value": "Eleanor Whitfield and her son, Jeremy",
+    "time": "September 22, 1973",
+    "speaker": null,
+    "verbatim": [
+     "crafted by local artisan Eleanor Whitfield and her son, Jeremy, on September 22, 1973"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Eleanor Whitfield",
+    "relation": "occupation",
+    "value": "local artisan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafted by local artisan Eleanor Whitfield"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Eleanor Whitfield",
+    "relation": "crafted_model_of",
+    "value": "the old train station",
+    "time": "September 22, 1973",
+    "speaker": null,
+    "verbatim": [
+     "crafted by local artisan Eleanor Whitfield and her son, Jeremy, on September 22, 1973"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jeremy",
+    "relation": "parent",
+    "value": "Eleanor Whitfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her son, Jeremy"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jeremy",
+    "relation": "crafted_model_of",
+    "value": "the old train station",
+    "time": "September 22, 1973",
+    "speaker": null,
+    "verbatim": [
+     "crafted by local artisan Eleanor Whitfield and her son, Jeremy, on September 22, 1973"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "the old train station",
+    "relation": "model_captures",
+    "value": "quaint charm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "captured the quaint charm of that station"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "the old train station",
+    "relation": "had_feature",
+    "value": "wooden benches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "complete with its wooden benches"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "the small flower shop",
+    "relation": "location",
+    "value": "the corner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small flower shop that used to light up the corner"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "the old train station",
+    "relation": "used_for",
+    "value": "farewells and reunions played out daily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the station was a place where farewells and reunions played out daily"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Hasselback family homestead",
+    "relation": "blueprint_dated",
+    "value": "October 2, 1973",
+    "time": "October 2, 1973",
+    "speaker": null,
+    "verbatim": [
+     "On a yellowed piece of paper dated October 2, 1973, the Hasselback family homestead was drawn with meticulous care"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Hasselback family homestead",
+    "relation": "represents",
+    "value": "craftsmanship and a self-sustaining life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each line a testament to craftsmanship and a self-sustaining life"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Donovan Family Theatre",
+    "relation": "blueprints_inked_by",
+    "value": "Cecilia Donovan",
+    "time": "September 30, 1973",
+    "speaker": null,
+    "verbatim": [
+     "Its blueprints, proudly inked by Cecilia Donovan on September 30, 1973"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Cecilia Donovan",
+    "relation": "inked_blueprints_of",
+    "value": "Donovan Family Theatre",
+    "time": "September 30, 1973",
+    "speaker": null,
+    "verbatim": [
+     "proudly inked by Cecilia Donovan on September 30, 1973"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Donovan Family Theatre",
+    "relation": "features",
+    "value": "intricate stage design and velvet-curtained balconies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the intricate stage design and the velvet-curtained balconies that once housed our grandest performances"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Cecilia Donovan",
+    "relation": "sketch_type",
+    "value": "hand-drawn sketches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her hand-drawn sketches revealed the intricate stage design"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Donovan Family Theatre",
+    "relation": "described_as",
+    "value": "my sanctuary",
+    "time": null,
+    "speaker": "narrator",
+    "verbatim": [
+     "that theatre was my sanctuary"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

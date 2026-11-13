@@ -1,0 +1,668 @@
+{
+ "inventory": [
+  "Neo-Tokyo",
+  "Dr. Keiko Hashimoto",
+  "Urban Tech-Weave",
+  "New Amsterdam",
+  "Paul Richardson",
+  "AI-powered traffic management system",
+  "vehicle-to-infrastructure (V2I) technologies",
+  "Maplewood",
+  "Susan Zhang",
+  "smart grid",
+  "Bayview",
+  "Michael Santos",
+  "Green Haven",
+  "Lauren Bennett",
+  "Environmental Sensory Network (ESN)",
+  "MetroCentra",
+  "Fiber-Web Expansion Project",
+  "Jonathan Abrams",
+  "Vista Grande",
+  "Ingrid Weber",
+  "smart cities"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Neo-Tokyo",
+    "relation": "underwent",
+    "value": "a massive digital transformation",
+    "time": "starting September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "underwent a massive digital transformation starting September 12, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Neo-Tokyo",
+    "relation": "described_as",
+    "value": "bustling metropolis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling metropolis of Neo-Tokyo"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Keiko Hashimoto",
+    "relation": "role",
+    "value": "Chief Urban Technologist of Neo-Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neo-Tokyo's Chief Urban Technologist, Dr. Keiko Hashimoto"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Keiko Hashimoto",
+    "relation": "coined_term",
+    "value": "Urban Tech-Weave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Coining the term \"Urban Tech-Weave,\" Dr. Hashimoto spearheaded"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Keiko Hashimoto",
+    "relation": "spearheaded",
+    "value": "integration of IoT devices across public utilities, transportation networks, and energy grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded the integration of IoT devices across public utilities, transportation networks, and energy grids"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Keiko Hashimoto",
+    "relation": "envisioned",
+    "value": "a city where data not only informed policy but became the lifeblood of infrastructure itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had envisioned a city where data not only informed policy but became the lifeblood of infrastructure itself"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Urban Tech-Weave",
+    "relation": "creates",
+    "value": "an intricate tapestry of connected services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating an intricate tapestry of connected services"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "New Amsterdam",
+    "relation": "earned",
+    "value": "accolades for its revolutionary take on urban transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city of New Amsterdam has earned accolades for its revolutionary take on urban transportation"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "AI-powered traffic management system",
+    "relation": "launched_on",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an AI-powered traffic management system that was launched on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "New Amsterdam",
+    "relation": "reduced_traffic_congestion_by",
+    "value": "40%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city has reduced traffic congestion by an astonishing 40%"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "AI-powered traffic management system",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through the implementation of an AI-powered traffic management system that was launched on October 3, 2023, the city has reduced traffic congestion by an astonishing 40%."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Paul Richardson",
+    "relation": "role",
+    "value": "Transport Initiatives Director of New Amsterdam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paul Richardson, the city\u2019s Transport Initiatives Director"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Paul Richardson",
+    "relation": "attributes_success_to",
+    "value": "the seamless integration of vehicle-to-infrastructure (V2I) technologies",
+    "time": null,
+    "speaker": "Paul Richardson",
+    "verbatim": [
+     "attributes this success to the seamless integration of vehicle-to-infrastructure (V2I) technologies"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "vehicle-to-infrastructure (V2I) technologies",
+    "relation": "enables",
+    "value": "real-time communication between vehicles and traffic signals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These systems allow for real-time communication between vehicles and traffic signals"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "New Amsterdam",
+    "relation": "emissions_change",
+    "value": "emissions have dropped",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result, emissions have dropped while commuter satisfaction has soared."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "New Amsterdam",
+    "relation": "commuter_satisfaction_change",
+    "value": "soared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result, emissions have dropped while commuter satisfaction has soared."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "vehicle-to-infrastructure (V2I) technologies",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring a harmonious flow of vehicles on the road. As a result, emissions have dropped"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Maplewood",
+    "relation": "country",
+    "value": "Canada",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Canadian city of Maplewood"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Maplewood",
+    "relation": "introduced",
+    "value": "a city-wide smart grid",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "having introduced a city-wide smart grid on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "smart grid",
+    "relation": "introduced_by",
+    "value": "Maplewood",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "having introduced a city-wide smart grid on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Susan Zhang",
+    "relation": "role",
+    "value": "Smart Grid Director of Maplewood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maplewood's Smart Grid Director, Susan Zhang, explains"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Susan Zhang",
+    "relation": "explains",
+    "value": "the deployment of smart meters and home energy management systems have paved the way for a decentralized yet cohesive energy network",
+    "time": null,
+    "speaker": "Susan Zhang",
+    "verbatim": [
+     "the deployment of smart meters and home energy management systems have paved the way for a decentralized yet cohesive energy network"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Maplewood",
+    "relation": "residents_can",
+    "value": "monitor and adjust their consumption in real time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Residents can now monitor and adjust their consumption in real time."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maplewood",
+    "relation": "maintained",
+    "value": "a steady and sustainable consumption level",
+    "time": "In the peak of winter",
+    "speaker": null,
+    "verbatim": [
+     "Maplewood has managed to maintain a steady and sustainable consumption level"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maplewood",
+    "relation": "testament_to",
+    "value": "the ingenuity of its interconnected systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a testament to the ingenuity of its interconnected systems"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bayview",
+    "relation": "described_as",
+    "value": "coastal city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the coastal city of Bayview"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Bayview",
+    "relation": "network_went_live",
+    "value": "a cutting-edge surveillance and response network",
+    "time": "December 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "After a cutting-edge surveillance and response network went live on December 20, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Michael Santos",
+    "relation": "role",
+    "value": "Emergency Services Coordinator of Bayview",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bayview's Emergency Services Coordinator, Michael Santos, reported"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Santos",
+    "relation": "reported",
+    "value": "a 25% decrease in emergency response times",
+    "time": null,
+    "speaker": "Michael Santos",
+    "verbatim": [
+     "reported a 25% decrease in emergency response times"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Bayview",
+    "relation": "enables",
+    "value": "anticipate and respond to incidents before they escalate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allows the city to anticipate and respond to incidents before they escalate"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bayview",
+    "relation": "aids",
+    "value": "swift deployment of emergency services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time data processing aids in the swift deployment of emergency services"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bayview",
+    "relation": "predictive_policing_tools",
+    "value": "successful in curtailing crime rates significantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "predictive policing tools have been successful in curtailing crime rates significantly"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Green Haven",
+    "relation": "received",
+    "value": "international recognition",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "Cities such as Green Haven have received international recognition since the inauguration of their Environmental Sensory Network (ESN) in early 2024."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Environmental Sensory Network (ESN)",
+    "relation": "inaugurated_in",
+    "value": "early 2024",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "since the inauguration of their Environmental Sensory Network (ESN) in early 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lauren Bennett",
+    "relation": "role",
+    "value": "Environmental Chief",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Environmental Chief Lauren Bennett"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Environmental Sensory Network (ESN)",
+    "relation": "integrates",
+    "value": "thousands of micro-sensors throughout the urban landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrates thousands of micro-sensors throughout the urban landscape"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Environmental Sensory Network (ESN)",
+    "relation": "monitors",
+    "value": "air quality, water levels, and even soil conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These sensors continuously monitor air quality, water levels, and even soil conditions"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Environmental Sensory Network (ESN)",
+    "relation": "provides",
+    "value": "invaluable data that shapes the city\u2019s environmental policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing invaluable data that shapes"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Green Haven",
+    "relation": "seen",
+    "value": "a radical improvement in air quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green Haven has seen a radical improvement in air quality"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Green Haven",
+    "relation": "seen",
+    "value": "a significant decrease in water waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a significant decrease in water waste"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Environmental Sensory Network (ESN)",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thanks to these networked technologies, Green Haven has seen a radical improvement in air quality"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "MetroCentra",
+    "relation": "described_as",
+    "value": "a rising star in urban planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MetroCentra, a rising star in urban planning"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "MetroCentra",
+    "relation": "completed",
+    "value": "Fiber-Web Expansion Project",
+    "time": "February 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "it completed its \"Fiber-Web Expansion Project\" on February 5, 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Fiber-Web Expansion Project",
+    "relation": "brought",
+    "value": "high-speed internet access to every nook and cranny of the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative has brought high-speed internet access to every nook and cranny of the city"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Fiber-Web Expansion Project",
+    "relation": "eliminating",
+    "value": "the 'digital divide'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively eliminating the 'digital divide'"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jonathan Abrams",
+    "relation": "role",
+    "value": "City CIO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City CIO, Jonathan Abrams, recognizes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Jonathan Abrams",
+    "relation": "recognizes",
+    "value": "without a robust and expansive digital infrastructure, none of the integrative technologies employed across various urban services would function effectively",
+    "time": null,
+    "speaker": "Jonathan Abrams",
+    "verbatim": [
+     "without a robust and expansive digital infrastructure, none of the integrative technologies employed across various urban services would function effectively"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "MetroCentra",
+    "relation": "investment_serves_as",
+    "value": "the digital backbone for its integrated technological ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investment in fiber optics and wireless networking serves as the digital backbone"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Vista Grande",
+    "relation": "pioneering_in",
+    "value": "citizen engagement platforms",
+    "time": "since January 2024",
+    "speaker": null,
+    "verbatim": [
+     "the city of Vista Grande has been pioneering in citizen engagement platforms since January 2024"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Ingrid Weber",
+    "relation": "role",
+    "value": "Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Ingrid Weber has ushered in a new era of participatory governance"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Ingrid Weber",
+    "relation": "ushered_in",
+    "value": "a new era of participatory governance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By leveraging social media, mobile apps, and participatory portals, Mayor Ingrid Weber has ushered in a new era of participatory governance."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Vista Grande",
+    "relation": "platforms_enable",
+    "value": "citizens to report issues, provide feedback on city initiatives, and even participate in decision-making processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enable citizens to report issues, provide feedback on city initiatives, and even participate in decision-making processes"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Vista Grande",
+    "relation": "engagement_ensures",
+    "value": "integrative technologies are tailored to the true needs and desires of the populace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This level of engagement ensures that the integrative technologies being implemented are tailored to the true needs and desires of the populace"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "smart cities",
+    "relation": "captivated",
+    "value": "the imaginations of urban planners, tech enthusiasts, and policymakers alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the concept of 'smart cities' has captivated the imaginations of urban planners, tech enthusiasts, and policymakers alike"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "smart cities",
+    "relation": "municipalities_turning_to",
+    "value": "integrative technologies to enhance urban infrastructure",
+    "time": "As we move beyond the threshold of 2023",
+    "speaker": null,
+    "verbatim": [
+     "municipalities worldwide are increasingly turning to integrative technologies to enhance urban infrastructure"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "smart cities",
+    "relation": "engaged_in",
+    "value": "a grand experiment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities across the globe are engaged in a grand experiment"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "smart cities",
+    "relation": "commitment",
+    "value": "leveraging technology to create more efficient, sustainable, and livable urban environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the commitment to leveraging technology to create more efficient, sustainable, and livable urban environments"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "smart cities",
+    "relation": "described_as",
+    "value": "responsive, adaptive organisms primed to meet the evolving needs of their inhabitants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cities are not just places of residence, but responsive, adaptive organisms primed to meet the evolving needs of their inhabitants"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

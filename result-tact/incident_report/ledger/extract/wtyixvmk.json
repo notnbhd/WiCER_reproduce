@@ -1,0 +1,1008 @@
+{
+ "inventory": [
+  "Anytown, USA",
+  "internet outage",
+  "TeleComCo",
+  "backbone infrastructure",
+  "Samantha Kline",
+  "Jake Martinez",
+  "Priya Gupta",
+  "low-power mesh network",
+  "Michael Thompson",
+  "Local libraries",
+  "Lydia Vasquez",
+  "Crafty Hands",
+  "George Newman",
+  "Natalie Wu",
+  "Carlos Mendoza",
+  "Local theaters",
+  "streaming services",
+  "local cafes",
+  "Schools",
+  "Community centers and local halls"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "internet outage",
+    "relation": "start_date",
+    "value": "September 22, 2023",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 22, 2023: As dawn broke over the skyline of Anytown, USA"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Anytown, USA",
+    "relation": "residents_woke_to",
+    "value": "a peculiar silence",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "residents woke up to a peculiar silence"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Anytown, USA",
+    "relation": "screens_status",
+    "value": "Screens were dark, routers idle",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Screens were dark, routers idle."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "internet outage",
+    "relation": "described_as",
+    "value": "historically prolonged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was the beginning of what would be a historically prolonged internet outage"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "internet outage",
+    "relation": "scope",
+    "value": "swept across the nation, leaving millions disconnected from the world wide web",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "swept across the nation, leaving millions disconnected from the world wide web"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "internet outage",
+    "relation": "initially_believed_to_be",
+    "value": "a minor glitch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage, first thought to be a minor glitch"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "Panicked calls overloaded telephone lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Panicked calls overloaded telephone lines"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "neighbors emerged from their houses seeking answers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "neighbors emerged from their houses seeking answers"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local cafes",
+    "relation": "has",
+    "value": "backup internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local cafes with backup internet"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "local cafes",
+    "relation": "saw",
+    "value": "a surge in patronage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local cafes with backup internet suddenly saw a surge in patronage"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Samantha Kline",
+    "relation": "occupation",
+    "value": "a telecommuting graphic designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Kline, a telecommuting graphic designer"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Samantha Kline",
+    "relation": "said",
+    "value": "I have deadlines. I live online. When the internet crashed, it felt like my lifeline had been cut.",
+    "time": null,
+    "speaker": "Samantha Kline",
+    "verbatim": [
+     "I have deadlines. I live online. When the internet crashed, it felt like my lifeline had been cut."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "internet outage",
+    "relation": "early_response",
+    "value": "a scramble to identify alternative connectivity options",
+    "time": "In the first hours",
+    "speaker": null,
+    "verbatim": [
+     "In the first hours, there was a scramble to identify alternative connectivity options."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "internet outage",
+    "relation": "network_status",
+    "value": "congested and unstable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quickly realizing the network was congested and unstable"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "internet outage",
+    "relation": "response",
+    "value": "Others rushed to public places in a vain attempt to access a signal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Others rushed to public places in a vain attempt to access a signal."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "internet outage",
+    "relation": "response",
+    "value": "Those with mobile data turned to their phones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Those with mobile data turned to their phones"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "internet outage",
+    "relation": "described_as",
+    "value": "not a temporary inconvenience",
+    "time": "By day three",
+    "speaker": null,
+    "verbatim": [
+     "This was not a temporary inconvenience."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "internet outage",
+    "relation": "caused_by",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage stemmed from a catastrophic failure in the backbone infrastructure operated by TeleComCo"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "backbone infrastructure",
+    "relation": "suffered",
+    "value": "a catastrophic failure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a catastrophic failure in the backbone infrastructure operated by TeleComCo"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "TeleComCo",
+    "relation": "operates",
+    "value": "backbone infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the backbone infrastructure operated by TeleComCo"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "internet outage",
+    "relation": "repair_estimate",
+    "value": "ranging from weeks to months",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with repair estimates ranging from weeks to months"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Anytown, USA",
+    "relation": "residents_forced_to",
+    "value": "adjust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People were forced to adjust."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jake Martinez",
+    "relation": "occupation",
+    "value": "owner of a local bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entrepreneurs like Jake Martinez, owner of a local bookstore"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jake Martinez",
+    "relation": "said",
+    "value": "I turned my store into an information hub.",
+    "time": null,
+    "speaker": "Jake Martinez",
+    "verbatim": [
+     "I turned my store into an information hub."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jake Martinez",
+    "relation": "said",
+    "value": "We went old school - cash sales, book clubs, discussions.",
+    "time": null,
+    "speaker": "Jake Martinez",
+    "verbatim": [
+     "We went old school - cash sales, book clubs, discussions."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jake Martinez",
+    "relation": "said",
+    "value": "People are hungry for connection.",
+    "time": null,
+    "speaker": "Jake Martinez",
+    "verbatim": [
+     "People are hungry for connection."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "Book sales soared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Book sales soared, board game nights made a fierce comeback"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "board game nights made a fierce comeback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "board game nights made a fierce comeback"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "neighborhoods seemed alive with the chatter of face-to-face conversations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "neighborhoods seemed alive with the chatter of face-to-face conversations"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "Consumers started reporting instances of rediscovering offline activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumers started reporting instances of rediscovering offline activities."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "internet outage",
+    "relation": "response",
+    "value": "Tech-savvy teenagers rigged makeshift antennas to capture faint open Wi-Fi signals from miles away",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tech-savvy teenagers rigged makeshift antennas to capture faint open Wi-Fi signals from miles away."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Priya Gupta",
+    "relation": "led",
+    "value": "a group of engineers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A group of engineers, led by Priya Gupta"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "low-power mesh network",
+    "relation": "set_up_by",
+    "value": "a group of engineers, led by Priya Gupta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A group of engineers, led by Priya Gupta, even set up a low-power mesh network"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "low-power mesh network",
+    "relation": "built_with",
+    "value": "repurposed routers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using repurposed routers"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "low-power mesh network",
+    "relation": "created",
+    "value": "a local intranet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a local intranet that kept a small section of the city connected"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "low-power mesh network",
+    "relation": "kept_connected",
+    "value": "a small section of the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "kept a small section of the city connected"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "low-power mesh network",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "set up a low-power mesh network using repurposed routers, creating a local intranet"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Priya Gupta",
+    "relation": "said",
+    "value": "It was about reclaiming agency. We couldn't fix the main problem, but we could mitigate its impact locally.",
+    "time": null,
+    "speaker": "Priya Gupta",
+    "verbatim": [
+     "It was about reclaiming agency. We couldn't fix the main problem, but we could mitigate its impact locally."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Schools",
+    "relation": "reliant_on",
+    "value": "online platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools, heavily reliant on online platforms, faced a unique challenge."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Schools",
+    "relation": "faced",
+    "value": "a unique challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools, heavily reliant on online platforms, faced a unique challenge."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Schools",
+    "relation": "homework_and_resources",
+    "value": "unreachable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With internetdependent homework and resources unreachable"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Schools",
+    "relation": "had_to",
+    "value": "rethink their strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educators had to rethink their strategies"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Schools",
+    "relation": "caused_by",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With internetdependent homework and resources unreachable, educators had to rethink their strategies."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Michael Thompson",
+    "relation": "occupation",
+    "value": "teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teachers like Michael Thompson"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Michael Thompson",
+    "relation": "resorted_to",
+    "value": "printed materials and offline learning software",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teachers like Michael Thompson resorted to printed materials and offline learning software."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "It was retro, but it worked. We returned to physical textbooks and handouts.",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "It was retro, but it worked. We returned to physical textbooks and handouts."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "education isn't about the fancy tools; it's about engagement",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "It reminded us that education isn't about the fancy tools; it's about engagement,"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Local libraries",
+    "relation": "experienced",
+    "value": "a renaissance of sorts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local libraries experienced a renaissance of sorts"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Local libraries",
+    "relation": "students_flocked_for",
+    "value": "reference books and spaces to study",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with students flocking to them not for computers, but for reference books and spaces to study"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "internet outage",
+    "relation": "pushed",
+    "value": "the concept of continuity planning to its limits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this internet void pushed the concept of continuity planning to its limits"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "Companies with no offline fallback found themselves at a standstill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies with no offline fallback found themselves at a standstill"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "others who embraced flexibility managed to trudge on",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "others who embraced flexibility managed to trudge on"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Lydia Vasquez",
+    "relation": "owner_of",
+    "value": "Crafty Hands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Vasquez, owner of \"Crafty Hands\" - a local arts and craft store"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Crafty Hands",
+    "relation": "is",
+    "value": "a local arts and craft store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Crafty Hands\" - a local arts and craft store"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lydia Vasquez",
+    "relation": "took_business_to",
+    "value": "the streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "took her business to the streets, setting up sidewalk displays and engaging with the community in person."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Crafty Hands",
+    "relation": "set_up",
+    "value": "sidewalk displays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "setting up sidewalk displays"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lydia Vasquez",
+    "relation": "said",
+    "value": "It was like stepping back in time, but it also reminded people that we're here.",
+    "time": null,
+    "speaker": "Lydia Vasquez",
+    "verbatim": [
+     "It was like stepping back in time, but it also reminded people that we're here."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Lydia Vasquez",
+    "relation": "said",
+    "value": "It was personal, and it worked.",
+    "time": null,
+    "speaker": "Lydia Vasquez",
+    "verbatim": [
+     "It was personal, and it worked."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "internet outage",
+    "relation": "had_impact_on",
+    "value": "an unforeseen impact on mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The forced digital detox had an unforeseen impact on mental health."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "internet outage",
+    "relation": "reported_effects",
+    "value": "reduced anxiety levels, more quality time spent among families, and a surge in outdoor activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reports emerged of reduced anxiety levels, more quality time spent among families, and a surge in outdoor activities."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "George Newman",
+    "relation": "occupation",
+    "value": "a software engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Newman, a software engineer accustomed to being online over 12 hours a day"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "George Newman",
+    "relation": "online_hours_per_day",
+    "value": "over 12 hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "accustomed to being online over 12 hours a day"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "George Newman",
+    "relation": "said",
+    "value": "I haven't felt this relaxed in years",
+    "time": null,
+    "speaker": "George Newman",
+    "verbatim": [
+     "I haven't felt this relaxed in years,"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "George Newman",
+    "relation": "said",
+    "value": "My family and I have started evening walks.",
+    "time": null,
+    "speaker": "George Newman",
+    "verbatim": [
+     "My family and I have started evening walks."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "George Newman",
+    "relation": "said",
+    "value": "It's become our thing.",
+    "time": null,
+    "speaker": "George Newman",
+    "verbatim": [
+     "It's become our thing."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "internet outage",
+    "relation": "served_as",
+    "value": "an unexpected catalyst for community cohesion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage served as an unexpected catalyst for community cohesion."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "neighbors began to know one another beyond cursory nods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Neighbors began to know one another beyond cursory nods."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Community centers and local halls",
+    "relation": "became",
+    "value": "bustling meeting points",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community centers and local halls became bustling meeting points"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Community centers and local halls",
+    "relation": "hosted",
+    "value": "events that were once advertised online but now spread by word of mouth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosting events that were once advertised online but now spread by word of mouth"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Natalie Wu",
+    "relation": "occupation",
+    "value": "a community organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natalie Wu, a community organizer, shared"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Natalie Wu",
+    "relation": "said",
+    "value": "Suddenly, everyone's present \u2014 really present.",
+    "time": null,
+    "speaker": "Natalie Wu",
+    "verbatim": [
+     "Suddenly, everyone's present \u2014 really present."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Natalie Wu",
+    "relation": "said",
+    "value": "We've had to organize events without digital aids, which turned out to be incredibly effective.",
+    "time": null,
+    "speaker": "Natalie Wu",
+    "verbatim": [
+     "We've had to organize events without digital aids, which turned out to be incredibly effective."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "streaming services",
+    "relation": "were",
+    "value": "down",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With streaming services down"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "internet outage",
+    "relation": "affected",
+    "value": "the entertainment industry took one of the most significant hits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the entertainment industry took one of the most significant hits."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "streaming services",
+    "relation": "results_in",
+    "value_ref": "c74",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With streaming services down, the entertainment industry took one of the most significant hits."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "internet outage",
+    "relation": "sparked",
+    "value": "a renaissance of live performances and street art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this void sparked a renaissance of live performances and street art."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Local theaters",
+    "relation": "reported",
+    "value": "record ticket sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local theaters reported record ticket sales"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "internet outage",
+    "relation": "effect",
+    "value": "independent artists found new audiences eager for entertainment off the screen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "independent artists found new audiences eager for entertainment off the screen."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Carlos Mendoza",
+    "relation": "occupation",
+    "value": "a local musician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos Mendoza, a local musician."
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Carlos Mendoza",
+    "relation": "said",
+    "value": "We've improvised",
+    "time": null,
+    "speaker": "Carlos Mendoza",
+    "verbatim": [
+     "We've improvised,"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Carlos Mendoza",
+    "relation": "said",
+    "value": "We started doing small concerts in the park, and the community loved it!",
+    "time": null,
+    "speaker": "Carlos Mendoza",
+    "verbatim": [
+     "We started doing small concerts in the park, and the community loved it!"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Carlos Mendoza",
+    "relation": "said",
+    "value": "It's raw and real.",
+    "time": null,
+    "speaker": "Carlos Mendoza",
+    "verbatim": [
+     "It's raw and real."
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "internet outage",
+    "relation": "narrative_shift",
+    "value": "from desperation to discovery",
+    "time": "As weeks turned into a month",
+    "speaker": null,
+    "verbatim": [
+     "the narrative had shifted from desperation to discovery"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "internet outage",
+    "relation": "highlighted",
+    "value": "vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The outage highlighted vulnerabilities"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "internet outage",
+    "relation": "showcased",
+    "value": "the resilience and adaptability of the human spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also showcased the resilience and adaptability of the human spirit"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Anytown, USA",
+    "relation": "crafted",
+    "value": "a new rhythm of existence steeped in personal interactions and community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People, even as they longed for their connected lives, had crafted a new rhythm of existence steeped in personal interactions and community engagement."
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "internet outage",
+    "relation": "restoration_status",
+    "value": "eventual restoration of services looming on the horizon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the eventual restoration of services looming on the horizon"
+    ]
+   },
+   {
+    "id": "c88",
+    "entity": "internet outage",
+    "relation": "expected_effect",
+    "value": "an indelible mark on consumer behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lessons learned during this period would leave an indelible mark on consumer behavior"
+    ]
+   },
+   {
+    "id": "c89",
+    "entity": "internet outage",
+    "relation": "possibly_reshaping",
+    "value": "societal norms for years to come",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "possibly reshaping societal norms for years to come"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

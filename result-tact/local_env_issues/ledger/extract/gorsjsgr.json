@@ -1,0 +1,737 @@
+{
+ "inventory": [
+  "Wildlife Corridors",
+  "Interstate of Doom",
+  "Marty McClaw",
+  "Sally Squeakears",
+  "Acorn stations",
+  "Walnut vending machines",
+  "Milton Mole",
+  "Underground passageways",
+  "Chuck Chirpington",
+  "Wind farms",
+  "Fly-ways",
+  "Mid-air insect buffets",
+  "Finny McScales",
+  "Engineered streams",
+  "Natural overpasses",
+  "Dawn Deerhart",
+  "Ricky Raccoon",
+  "Moonlit pathways",
+  "Lucy Lynx",
+  "Endangered species",
+  "Genetic diversity",
+  "Habitat connectivity",
+  "Wildlife-vehicle collisions"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wildlife Corridors",
+    "relation": "is_described_as",
+    "value": "newest infrastructure craze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the newest infrastructure craze: wildlife corridors"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wildlife Corridors",
+    "relation": "published_on",
+    "value": "September 23, 2023",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 23, 2023, Local Wildlife News"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Interstate of Doom",
+    "relation": "is_a",
+    "value": "a road",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not just any road, but the Interstate of Doom."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Wildlife Corridors",
+    "relation": "is_described_as",
+    "value": "a bridge covered in grass and trees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "imagine someone built a bridge over that road, but it's covered in grass and trees."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Wildlife Corridors",
+    "relation": "reports_since",
+    "value": "hoofed commuters taking to these nature highways with gusto",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, reports have flooded in of hoofed commuters taking to these nature highways with gusto."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Marty McClaw",
+    "relation": "is_a",
+    "value": "local moose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local moose, Marty McClaw, gave his two antlers up"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Marty McClaw",
+    "relation": "gave",
+    "value": "his two antlers up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gave his two antlers up"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Marty McClaw",
+    "relation": "previously_faced",
+    "value": "a huge stretch of concrete in the way",
+    "time": "Last week",
+    "speaker": "Marty McClaw",
+    "verbatim": [
+     "Last week, I was trying to get from one forest to another, and there was this huge stretch of concrete in the way."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Marty McClaw",
+    "relation": "crosses_via",
+    "value": "the leafy bridge",
+    "time": "Now",
+    "speaker": "Marty McClaw",
+    "verbatim": [
+     "Now, I just scamper over the leafy bridge"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Marty McClaw",
+    "relation": "no_longer_worries_about",
+    "value": "18-wheelers",
+    "time": "Now",
+    "speaker": "Marty McClaw",
+    "verbatim": [
+     "don\u2019t even have to worry about 18-wheelers"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Marty McClaw",
+    "relation": "enables",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": "Marty McClaw",
+    "verbatim": [
+     "Now, I just scamper over the leafy bridge and don\u2019t even have to worry about 18-wheelers."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Marty McClaw",
+    "relation": "exclaimed",
+    "value": "Game changer!",
+    "time": null,
+    "speaker": "Marty McClaw",
+    "verbatim": [
+     "Game changer!"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sally Squeakears",
+    "relation": "is_a",
+    "value": "a gray squirrel with an eye for acorn quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sally Squeakears, a gray squirrel with an eye for acorn quality, remarked"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Wildlife Corridors",
+    "relation": "assessed_as",
+    "value": "splendid",
+    "time": null,
+    "speaker": "Sally Squeakears",
+    "verbatim": [
+     "These corridors are splendid!"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sally Squeakears",
+    "relation": "requests",
+    "value": "a few more acorn stations",
+    "time": null,
+    "speaker": "Sally Squeakears",
+    "verbatim": [
+     "could we install a few more acorn stations?"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sally Squeakears",
+    "relation": "requests",
+    "value": "a few walnut vending machines",
+    "time": null,
+    "speaker": "Sally Squeakears",
+    "verbatim": [
+     "a few walnut vending machines wouldn't hurt."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Acorn stations",
+    "relation": "requested_by",
+    "value": "Sally Squeakears",
+    "time": null,
+    "speaker": "Sally Squeakears",
+    "verbatim": [
+     "could we install a few more acorn stations?"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Walnut vending machines",
+    "relation": "requested_by",
+    "value": "Sally Squeakears",
+    "time": null,
+    "speaker": "Sally Squeakears",
+    "verbatim": [
+     "a few walnut vending machines wouldn't hurt."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Underground passageways",
+    "relation": "all_the_rage_among",
+    "value": "the digging crew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Underground passageways are all the rage amongst the digging crew."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Milton Mole",
+    "relation": "known_as",
+    "value": "\u2018The Excavator\u2019",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known in the underworld as \u2018The Excavator\u2019"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Milton Mole",
+    "relation": "said",
+    "value": "it's nice to see top-dwellers getting around without becoming road pizza",
+    "time": null,
+    "speaker": "Milton Mole",
+    "verbatim": [
+     "It's nice to see top-dwellers getting around without becoming road pizza"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Milton Mole",
+    "relation": "has_been_tunneling_for",
+    "value": "centuries",
+    "time": null,
+    "speaker": "Milton Mole",
+    "verbatim": [
+     "we've been tunneling for",
+     "centuries."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Wildlife Corridors",
+    "relation": "is_described_as",
+    "value": "the mole superhighway with added earthworm rest stops",
+    "time": null,
+    "speaker": "Milton Mole",
+    "verbatim": [
+     "They're like the mole superhighway with added earthworm rest stops."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Wildlife Corridors",
+    "relation": "used_by",
+    "value": "birds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "birds wing their way through aerial corridors"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Wind farms",
+    "relation": "is_described_as",
+    "value": "obstacle courses",
+    "time": null,
+    "speaker": "Chuck Chirpington",
+    "verbatim": [
+     "these wind farms are like obstacle courses"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Chuck Chirpington",
+    "relation": "is_a",
+    "value": "a well-traveled pigeon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chuck Chirpington, a well-traveled pigeon."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Chuck Chirpington",
+    "relation": "was_flying",
+    "value": "south",
+    "time": null,
+    "speaker": "Chuck Chirpington",
+    "verbatim": [
+     "I was flying south"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Fly-ways",
+    "relation": "introduced_around",
+    "value": "wind farms",
+    "time": null,
+    "speaker": "Chuck Chirpington",
+    "verbatim": [
+     "they\u2019ve introduced these 'fly-ways' around them"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Fly-ways",
+    "relation": "is_described_as",
+    "value": "smooth sailing",
+    "time": null,
+    "speaker": "Chuck Chirpington",
+    "verbatim": [
+     "it\u2019s like smooth sailing"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mid-air insect buffets",
+    "relation": "planned",
+    "value": "plans",
+    "time": null,
+    "speaker": "Chuck Chirpington",
+    "verbatim": [
+     "I overheard there are plans for mid-air insect buffets."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Engineered streams",
+    "relation": "used_by",
+    "value": "fish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fish now swim through engineered streams"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Engineered streams",
+    "relation": "act_as",
+    "value": "wet corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engineered streams that act as wet corridors, circumventing dams and roads."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Engineered streams",
+    "relation": "circumvent",
+    "value": "dams and roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "circumventing dams and roads."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Finny McScales",
+    "relation": "is_a",
+    "value": "a chatty trout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Finny McScales, a chatty trout, bubbled enthusiastically"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Finny McScales",
+    "relation": "described_upstream_swimming_as",
+    "value": "a workout",
+    "time": null,
+    "speaker": "Finny McScales",
+    "verbatim": [
+     "Swimming upstream was always a workout"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Finny McScales",
+    "relation": "dodged",
+    "value": "fishing hooks and bear paws",
+    "time": null,
+    "speaker": "Finny McScales",
+    "verbatim": [
+     "dodging fishing hooks and bear paws? That was too much."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Finny McScales",
+    "relation": "described_waterways_as",
+    "value": "the fish version of first-class travel",
+    "time": null,
+    "speaker": "Finny McScales",
+    "verbatim": [
+     "These waterways are like the fish version of first-class travel \u2013 no turbulence!"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Wildlife Corridors",
+    "relation": "associated_with_spike_in",
+    "value": "discussions about traffic management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there has been a spike in discussions about traffic management."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Wildlife Corridors",
+    "relation": "traffic_jam_concept",
+    "value": "no longer laughable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of a wild traffic jam is no longer laughable."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Natural overpasses",
+    "relation": "introduced_by",
+    "value": "experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To address it, experts have introduced organic overpasses."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Natural overpasses",
+    "relation": "addresses",
+    "value": "wild traffic jam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To address it, experts have introduced organic overpasses."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dawn Deerhart",
+    "relation": "is_a",
+    "value": "a doe with a fawn in tow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dawn Deerhart, a doe with a fawn in tow,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dawn Deerhart",
+    "relation": "said",
+    "value": "deer have rush hours too",
+    "time": null,
+    "speaker": "Dawn Deerhart",
+    "verbatim": [
+     "It\u2019s about time they realized deer have rush hours too,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dawn Deerhart",
+    "relation": "requests",
+    "value": "more green lights, as in, more green paths",
+    "time": null,
+    "speaker": "Dawn Deerhart",
+    "verbatim": [
+     "We need more green lights \u2013 as in, more green paths."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dawn Deerhart",
+    "relation": "said",
+    "value": "keeps the hooves moving",
+    "time": null,
+    "speaker": "Dawn Deerhart",
+    "verbatim": [
+     "Keeps the hooves moving, you know."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Moonlit pathways",
+    "relation": "rallied_for_by",
+    "value": "Owls, raccoons, and other nocturnal beings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owls, raccoons, and other nocturnal beings have rallied for moonlit pathways"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Moonlit pathways",
+    "relation": "highlights",
+    "value": "the benefits for the star-gazing, night-crawling community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighting the benefits for the star-gazing, night-crawling community."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Ricky Raccoon",
+    "relation": "sports",
+    "value": "his signature \u2018mask\u2019",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ricky Raccoon, sporting his signature \u2018mask\u2019, lauded"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Ricky Raccoon",
+    "relation": "said",
+    "value": "need to travel under the cover of darkness",
+    "time": null,
+    "speaker": "Ricky Raccoon",
+    "verbatim": [
+     "We night-timers need to travel under the cover of darkness."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Wildlife Corridors",
+    "relation": "is_described_as",
+    "value": "perfect for a midnight stroll or dumpster raid",
+    "time": null,
+    "speaker": "Ricky Raccoon",
+    "verbatim": [
+     "Those well-lit corridors? Perfect for a midnight stroll or dumpster raid."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Ricky Raccoon",
+    "relation": "gives_approval",
+    "value": "two paws up",
+    "time": null,
+    "speaker": "Ricky Raccoon",
+    "verbatim": [
+     "Two paws up!"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Endangered species",
+    "relation": "finding_a_mate",
+    "value": "can feel like an episode of The Bachelor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For those endangered species, finding a mate can feel like an episode of The Bachelor"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Lucy Lynx",
+    "relation": "is_a",
+    "value": "a solitary feline with a love for privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy Lynx, a solitary feline with a love for privacy, purred"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Lucy Lynx",
+    "relation": "said",
+    "value": "impossible to find a decent mate without humans peeking",
+    "time": null,
+    "speaker": "Lucy Lynx",
+    "verbatim": [
+     "It was getting impossible to find a decent mate without humans peeking."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Wildlife Corridors",
+    "relation": "is_described_as",
+    "value": "whisker-licking good for my love life",
+    "time": null,
+    "speaker": "Lucy Lynx",
+    "verbatim": [
+     "Now, these secluded paths? Whisker-licking good for my love life!"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Wildlife Corridors",
+    "relation": "underlying_truth",
+    "value": "anything but a joke",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the underlying truth is anything but a joke."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Wildlife Corridors",
+    "relation": "is_essential",
+    "value": "essential lifelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These wildlife corridors are essential lifelines that maintain genetic diversity"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Wildlife Corridors",
+    "relation": "maintains",
+    "value": "genetic diversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maintain genetic diversity"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Genetic diversity",
+    "relation": "maintained_by",
+    "value": "wildlife corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "essential lifelines that maintain genetic diversity"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Wildlife Corridors",
+    "relation": "enhances",
+    "value": "habitat connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhance habitat connectivity"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Habitat connectivity",
+    "relation": "enhanced_by",
+    "value": "wildlife corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhance habitat connectivity"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Wildlife Corridors",
+    "relation": "reduces",
+    "value": "wildlife-vehicle collisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce wildlife-vehicle collisions"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Wildlife-vehicle collisions",
+    "relation": "reduced_by",
+    "value": "wildlife corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce wildlife-vehicle collisions"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Wildlife Corridors",
+    "relation": "may_be",
+    "value": "the gold standard for how we co-habitat with the furrier members of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they just might be the gold standard for how we co-habitat with the furrier members of society."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,604 @@
+{
+ "inventory": [
+  "Local Political Parties",
+  "Mayflower Party",
+  "Maria Gonzalez",
+  "Pioneer Party",
+  "Dr. Andrew Sherman",
+  "Susan Patel",
+  "Urban Progressives",
+  "Courage Coalition",
+  "Innovation Network",
+  "James Carver",
+  "telehealth expansion",
+  "Eco Party",
+  "Lily Cho",
+  "National Health Party",
+  "Alex Thompson",
+  "Unity Party",
+  "Resilience League",
+  "the pandemic"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Local Political Parties",
+    "relation": "shift_in_public_health_approach",
+    "value": "a noticeable shift in how these parties approach public health",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there has been a noticeable shift in how these parties approach public health"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Local Political Parties",
+    "relation": "intends",
+    "value": "to transform rhetoric into action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a clear intention to transform rhetoric into action"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "the pandemic",
+    "relation": "anniversary_is",
+    "value": "fourth anniversary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the wake of the pandemic's fourth anniversary"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Local Political Parties",
+    "relation": "began_showing_interest_in",
+    "value": "public health issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local political scene began to manifest a tangible interest in public health issues"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Local Political Parties",
+    "relation": "interest_driven_by",
+    "value": "advocacy groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an interest driven by advocacy groups and intensified by public demand"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Local Political Parties",
+    "relation": "interest_intensified_by",
+    "value": "public demand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an interest driven by advocacy groups and intensified by public demand"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mayflower Party",
+    "relation": "helmed_by",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leading the charge is the Mayflower Party, helmed by the charismatic Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maria Gonzalez",
+    "relation": "personal_brush_with",
+    "value": "the healthcare system during the pandemic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose personal brush with the healthcare system during the pandemic prompted a newfound dedication to health equity"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Gonzalez",
+    "relation": "dedication_to",
+    "value": "health equity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompted a newfound dedication to health equity"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Maria Gonzalez",
+    "relation": "caused_by",
+    "value_ref": "c8",
+    "verbatim": [
+     "whose personal brush with the healthcare system during the pandemic prompted a newfound dedication to health equity"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Maria Gonzalez",
+    "relation": "announced",
+    "value": "a comprehensive plan to address the determinants of health at the community level",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 12, 2023, Gonzalez announced a comprehensive plan to address the determinants of health at the community level"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Gonzalez",
+    "relation": "vowed",
+    "value": "to bridge the gap between healthcare providers and the underserved populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vowing to bridge the gap between healthcare providers and the underserved populations"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Local Political Parties",
+    "relation": "core_tenet",
+    "value": "preventative care and the strengthening of primary healthcare services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One core tenet of local party platforms is the renewed focus on preventative care and the strengthening of primary healthcare services"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Local Political Parties",
+    "relation": "reasoning",
+    "value": "preventing disease is more cost-effective than treating it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing that preventing disease is more cost-effective than treating it"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Local Political Parties",
+    "relation": "pushing_for",
+    "value": "expanded funding for vaccination programs and health education initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these parties are pushing for expanded funding for vaccination programs and health education initiatives"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Local Political Parties",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "verbatim": [
+     "Recognizing that preventing disease is more cost-effective than treating it, these parties are pushing for expanded funding"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Pioneer Party",
+    "relation": "spokesperson",
+    "value": "Dr. Andrew Sherman",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Pioneer Party's spokesperson, Dr. Andrew Sherman"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Andrew Sherman",
+    "relation": "advocated",
+    "value": "investing in community health workers who can provide both clinical services and health promotion in their neighborhoods",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During the town hall on October 5, 2023, the Pioneer Party's spokesperson, Dr. Andrew Sherman, made a strong case for investing in community health workers who can provide both clinical services and health promotion in their neighborhoods"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Local Political Parties",
+    "relation": "mental_health_proposals_indicate",
+    "value": "a promising shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "groundbreaking policy proposals by the local chapters of national parties indicate a promising shift"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Susan Patel",
+    "relation": "role",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Susan Patel of the Urban Progressives"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Susan Patel",
+    "relation": "affiliated_with",
+    "value": "Urban Progressives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Susan Patel of the Urban Progressives"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Susan Patel",
+    "relation": "advocated",
+    "value": "destigmatization of mental health issues and the provision of adequate funding for mental health services",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "destigmatization of mental health issues and the provision of adequate funding for mental health services"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Local Political Parties",
+    "relation": "acknowledging",
+    "value": "the historical neglect of minority communities and the direct links such neglect has to prevalent chronic diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Parties are now acknowledging the historical neglect of minority communities and the direct links such neglect has to prevalent chronic diseases"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Courage Coalition",
+    "relation": "known_for",
+    "value": "grassroots activism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Courage Coalition, known for its grassroots activism"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Courage Coalition",
+    "relation": "orchestrated",
+    "value": "a series of workshops",
+    "time": "starting on September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "orchestrated a series of workshops starting on September 17, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Courage Coalition",
+    "relation": "aim",
+    "value": "educating residents and policymakers on socio-economic and racial determinants of health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the aim of educating residents and policymakers on socio-economic and racial determinants of health"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Courage Coalition",
+    "relation": "in_order_to",
+    "value_ref": "c26",
+    "verbatim": [
+     "orchestrated a series of workshops starting on September 17, 2023, with the aim of educating residents and policymakers on socio-economic and racial determinants of health"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Innovation Network",
+    "relation": "prides_itself_on",
+    "value": "forward-thinking policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Innovation Network, which prides itself on forward-thinking policies"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Innovation Network",
+    "relation": "introduced",
+    "value": "a measure for telehealth expansion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has introduced a measure for telehealth expansion"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "telehealth expansion",
+    "relation": "proposed_by",
+    "value": "James Carver",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "proposed on October 20, 2023, by its leading policy strategist, James Carver"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "James Carver",
+    "relation": "proposed",
+    "value": "telehealth expansion",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "proposed on October 20, 2023, by its leading policy strategist, James Carver"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "James Carver",
+    "relation": "role",
+    "value": "leading policy strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its leading policy strategist, James Carver"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "telehealth expansion",
+    "relation": "underlined_need_for",
+    "value": "digital health services, especially in rural and underserved areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This proposal underlined the need for digital health services, especially in rural and underserved areas"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Eco Party",
+    "relation": "roots",
+    "value": "deep roots in environmental issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Eco Party, with its deep roots in environmental issues"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Eco Party",
+    "relation": "advocating_for",
+    "value": "the increase of urban greenery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been advocating for the increase of urban greenery"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Eco Party",
+    "relation": "links_greenery_to",
+    "value": "mental health improvement and overall community health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "linking it to mental health improvement and overall community health"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lily Cho",
+    "relation": "role",
+    "value": "prominent party member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prominent party member Lily Cho"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lily Cho",
+    "relation": "emphasized",
+    "value": "the importance of public parks and green spaces as \"natural havens\" that promote physical activity and mental well-being",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a panel discussion on November 15, 2023, prominent party member Lily Cho emphasized the importance of public parks and green spaces as \"natural havens\" that promote physical activity and mental well-being"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "National Health Party",
+    "relation": "led_by",
+    "value": "Alex Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local chapter of the National Health Party, led by nutritionist-turned-politician Alex Thompson"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Alex Thompson",
+    "relation": "role",
+    "value": "nutritionist-turned-politician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by nutritionist-turned-politician Alex Thompson"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "National Health Party",
+    "relation": "proposed",
+    "value": "a set of policies focusing on urban agriculture and partnerships with local farms to ensure fresh produce is available in low-income neighborhoods",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "proposed a set of policies on December 1, 2023, focusing on urban agriculture and partnerships with local farms to ensure fresh produce is available in low-income neighborhoods"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Local Political Parties",
+    "relation": "necessity",
+    "value": "collaboration with healthcare providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An emerging theme across all party lines is the necessity for collaboration with healthcare providers"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Local Political Parties",
+    "relation": "reaching_out_to_form_alliances_with",
+    "value": "local clinics, hospitals, and non-profit organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "political parties are reaching out to form alliances with local clinics, hospitals, and non-profit organizations"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Unity Party",
+    "relation": "initiative_started_on",
+    "value": "September 28, 2023",
+    "time": "September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Unity Party's initiative, started on September 28, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Unity Party",
+    "relation": "aims",
+    "value": "to create advisory boards that include healthcare professionals alongside elected officials to inform policy decisions related to public health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to create advisory boards that include healthcare professionals alongside elected officials to inform policy decisions related to public health"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "the pandemic",
+    "relation": "lessons_underpinned",
+    "value": "the importance of a robust public health infrastructure capable of responding rapidly to health crises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lessons learned from the pandemic have underpinned the importance of a robust public health infrastructure capable of responding rapidly to health crises"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Resilience League",
+    "relation": "advocated",
+    "value": "upgrading public health laboratories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Parties like the Resilience League have been vocal about upgrading public health laboratories"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Resilience League",
+    "relation": "advocated",
+    "value": "establishing emergency operation centers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "establishing emergency operation centers"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Resilience League",
+    "relation": "advocated",
+    "value": "improving surveillance systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving surveillance systems"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Resilience League",
+    "relation": "presented_platform_for",
+    "value": "pandemic preparedness",
+    "time": "October 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "improving surveillance systems as part of their platform for pandemic preparedness, presented on October 27, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Local Political Parties",
+    "relation": "role",
+    "value": "the vanguard for reform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with local parties serving as the vanguard for reform"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Local Political Parties",
+    "relation": "staking_claim_as",
+    "value": "pivotal actors in shaping a healthier, more equitable future for all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these parties are staking their claim as pivotal actors in shaping a healthier, more equitable future for all"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Local Political Parties",
+    "relation": "commitment_to",
+    "value": "the physical health of respective jurisdictions but also to the socio-economic and environmental conditions that underpin community well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It signals a commitment not only to the physical health of respective jurisdictions but also to the socio-economic and environmental conditions that underpin community well-being"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,708 @@
+{
+ "inventory": [
+  "Grandma Elsie Mayfield",
+  "Grandma Elsie's Raspberry Jam",
+  "Charlottesville, Virginia",
+  "Chester Ballard",
+  "Chester's Blackberry Cobbler",
+  "autumn festival",
+  "Roanoke",
+  "Sylvia Torres",
+  "Strawberry Sunshine Spread",
+  "Richmond",
+  "The Nguyen family",
+  "Blueberry Chia Pudding",
+  "Hien Nguyen",
+  "pandan",
+  "Shenandoah Valley",
+  "community jam-making sessions",
+  "Marlene Dietrichson"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "farmstead_located_in",
+    "value": "Charlottesville, Virginia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On a quaint family-owned farmstead in the rolling hills of Charlottesville, Virginia"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Charlottesville, Virginia",
+    "relation": "has_farmstead",
+    "value": "a family-owned farmstead in the rolling hills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On a quaint family-owned farmstead in the rolling hills of Charlottesville, Virginia"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "age",
+    "value": "77",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "77-year old Grandma Elsie Mayfield"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "taught_by",
+    "value": "her own grandmother",
+    "time": "the late 1940s",
+    "speaker": null,
+    "verbatim": [
+     "Taught by her own grandmother in the late 1940s"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "prepares",
+    "value": "her famous raspberry jam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she lovingly prepares her famous raspberry jam"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "process_starts_with",
+    "value": "handpicking the best berries at dawn's first light",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which starts with handpicking the best berries at dawn's first light"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Grandma Elsie Mayfield",
+    "relation": "said",
+    "value": "The key to good jam is love and patience",
+    "time": null,
+    "speaker": "Grandma Elsie Mayfield",
+    "verbatim": [
+     "\"The key to good jam is love and patience,\" she says."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "ingredients",
+    "value": "berries, sugar, and a squeeze of lemon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her recipe is simple: berries, sugar, and a squeeze of lemon"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "described_as",
+    "value": "extraordinary results",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but the results are extraordinary"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "described_as",
+    "value": "a vibrant, ruby-red spread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a vibrant, ruby-red spread that captures the essence of autumn"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "represents",
+    "value": "generational wisdom passed down through the rhythm of the seasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a testament to generational wisdom passed down through the rhythm of the seasons"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "is",
+    "value": "a family favorite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elsie\u2019s jams are not just a family favorite"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Grandma Elsie's Raspberry Jam",
+    "relation": "raspberry_condition",
+    "value": "the raspberries are just right: plump, deep red, and bursting with flavor",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 15, 2023, and the raspberries are just right: plump, deep red, and bursting with flavor."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "autumn festival",
+    "relation": "held_on",
+    "value": "the weekend of September 23",
+    "time": "the weekend of September 23",
+    "speaker": null,
+    "verbatim": [
+     "an autumn festival is in full swing on the weekend of September 23"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "autumn festival",
+    "relation": "located_near",
+    "value": "a short drive away from Elsie\u2019s home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A short drive away from Elsie\u2019s home"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Chester Ballard",
+    "relation": "featured_at",
+    "value": "autumn festival",
+    "time": "the weekend of September 23",
+    "speaker": null,
+    "verbatim": [
+     "with Chester Ballard stealing the spotlight with his mouthwatering blackberry cobbler"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Chester Ballard",
+    "relation": "occupation",
+    "value": "a baker by trade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A baker by trade and a food lover at heart"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Chester Ballard",
+    "relation": "described_as",
+    "value": "a food lover at heart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A baker by trade and a food lover at heart"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "described_as",
+    "value": "the stuff of local legend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chester\u2019s dessert is the stuff of local legend"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "has_layers",
+    "value": "sweet, cinnamon-kissed blackberries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His delectable cobbler has layers of sweet, cinnamon-kissed blackberries topped with a golden, buttery crust"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "topped_with",
+    "value": "a golden, buttery crust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "topped with a golden, buttery crust"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "effect",
+    "value": "sends flurries of excitement through the crowd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sends flurries of excitement through the crowd as it\u2019s pulled hot from the oven"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "served_with",
+    "value": "vanilla bean ice cream",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slices are served with generous scoops of vanilla bean ice cream"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Chester's Blackberry Cobbler",
+    "relation": "epitomizes",
+    "value": "the communal spirit of the season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It epitomizes the communal spirit of the season"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Chester Ballard",
+    "relation": "said",
+    "value": "Each berry adds its character to the dish, a little zing here, a touch of sweetness there.",
+    "time": null,
+    "speaker": "Chester Ballard",
+    "verbatim": [
+     "Chester shares, \"Each berry adds its character to the dish, a little zing here, a touch of sweetness there.\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Roanoke",
+    "relation": "home_of",
+    "value": "Sylvia Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In nearby Roanoke, Sylvia Torres"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sylvia Torres",
+    "relation": "located_in",
+    "value": "Roanoke",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In nearby Roanoke, Sylvia Torres, a young entrepreneur and food blogger"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sylvia Torres",
+    "relation": "occupation",
+    "value": "a young entrepreneur and food blogger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sylvia Torres, a young entrepreneur and food blogger"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sylvia Torres",
+    "relation": "built",
+    "value": "a cottage industry around her passion for berries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has taken her passion for berries and built a cottage industry around it"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Strawberry Sunshine Spread",
+    "relation": "release_date",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, she releases"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Strawberry Sunshine Spread",
+    "relation": "described_as",
+    "value": "a jam that captures the waning days of summer in a jar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her latest creation\u2014Strawberry Sunshine Spread\u2014a jam that captures the waning days of summer in a jar"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Strawberry Sunshine Spread",
+    "relation": "infused_with",
+    "value": "basil and black pepper",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infusing her strawberry spread with unexpected ingredients such as basil and black pepper"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Strawberry Sunshine Spread",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infusing her strawberry spread with unexpected ingredients such as basil and black pepper to enhance the fruit's natural zest"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Strawberry Sunshine Spread",
+    "relation": "enhances",
+    "value": "the fruit's natural zest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to enhance the fruit's natural zest"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sylvia Torres",
+    "relation": "success_due_to",
+    "value": "her innovative approach to classic jam-making",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sylvia's success lies in her innovative approach to classic jam-making"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sylvia Torres",
+    "relation": "said",
+    "value": "It's about elevating the familiar",
+    "time": null,
+    "speaker": "Sylvia Torres",
+    "verbatim": [
+     "\"It's about elevating the familiar,\" she explains, \"to transform an everyday toast topping into a gastronomic delight.\""
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sylvia Torres",
+    "relation": "shares_recipes_on",
+    "value": "her blog",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which she generously shares on her blog"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "The Nguyen family",
+    "relation": "runs",
+    "value": "a popular caf\u00e9 in Richmond",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the Nguyen family, who run a popular caf\u00e9 in Richmond"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Richmond",
+    "relation": "location_of_cafe_run_by",
+    "value": "The Nguyen family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who run a popular caf\u00e9 in Richmond"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "The Nguyen family",
+    "relation": "blends",
+    "value": "traditional Vietnamese flavors with American classics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They have found a niche by blending traditional Vietnamese flavors with American classics."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "The Nguyen family",
+    "relation": "latest_offering",
+    "value": "Blueberry Chia Pudding",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Their latest offering, debuted on October 20, 2023, is a testament to their unique culinary perspective: Blueberry Chia Pudding."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "debut_date",
+    "value": "October 20, 2023",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Their latest offering, debuted on October 20, 2023, is a testament to their unique culinary perspective: Blueberry Chia Pudding."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "base",
+    "value": "creamy chia pudding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The dessert features a base of creamy chia pudding infused with delicate notes of coconut milk and pandan"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "flavor_notes",
+    "value": "coconut milk and pandan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infused with delicate notes of coconut milk and pandan"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "pandan",
+    "relation": "used_in",
+    "value": "Blueberry Chia Pudding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infused with delicate notes of coconut milk and pandan"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "pandan",
+    "relation": "described_as",
+    "value": "a fragrant leaf",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pandan\u2014a fragrant leaf popular in Southeast Asian cuisine"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "pandan",
+    "relation": "popular_in",
+    "value": "Southeast Asian cuisine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pandan\u2014a fragrant leaf popular in Southeast Asian cuisine"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "topping",
+    "value": "a compote made from the freshest local blueberries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Atop sits a compote made from the freshest local blueberries, simmered to perfection with just a hint of lemongrass."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "flavored_with",
+    "value": "lemongrass",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simmered to perfection with just a hint of lemongrass"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Blueberry Chia Pudding",
+    "relation": "served_in",
+    "value": "a glass cup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a story of heritage and innovation served in a glass cup"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Hien Nguyen",
+    "relation": "said",
+    "value": "It\u2019s a dance of flavors that respects both cultures",
+    "time": null,
+    "speaker": "Hien Nguyen",
+    "verbatim": [
+     "\"It\u2019s a dance of flavors that respects both cultures,\" muses Hien Nguyen"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Hien Nguyen",
+    "relation": "role",
+    "value": "matriarch of the family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hien Nguyen, the matriarch of the family"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "community jam-making sessions",
+    "relation": "located_in",
+    "value": "Shenandoah Valley",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community jam-making sessions that have begun to pop up around the Shenandoah Valley"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Shenandoah Valley",
+    "relation": "hosts",
+    "value": "community jam-making sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community jam-making sessions that have begun to pop up around the Shenandoah Valley"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "community jam-making sessions",
+    "relation": "held_on",
+    "value": "November 2, 2023",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "like the one held on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "community jam-making sessions",
+    "relation": "purpose",
+    "value": "preserving the season's fruits but also fostering connections within the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not only about preserving the season's fruits but also about fostering connections within the community"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "community jam-making sessions",
+    "relation": "led_by",
+    "value": "Marlene Dietrichson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by local chef and activist Marlene Dietrichson"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Marlene Dietrichson",
+    "relation": "role",
+    "value": "local chef and activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by local chef and activist Marlene Dietrichson"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Marlene Dietrichson",
+    "relation": "said",
+    "value": "We blend the berries, but we also blend our cultures, our histories",
+    "time": null,
+    "speaker": "Marlene Dietrichson",
+    "verbatim": [
+     "\u201cWe blend the berries, but we also blend our cultures, our histories,\" Marlene says"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "community jam-making sessions",
+    "relation": "activity",
+    "value": "participants mash strawberries, swirl blueberries, and sprinkle sugar and spices into bubbling pots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as participants mash strawberries, swirl blueberries, and sprinkle sugar and spices into bubbling pots"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "community jam-making sessions",
+    "relation": "encourages",
+    "value": "people from all walks of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourage people from all walks of life to come together"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "community jam-making sessions",
+    "relation": "results_in",
+    "value": "an assortment of jams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The result is an assortment of jams, each jar a collective memory"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

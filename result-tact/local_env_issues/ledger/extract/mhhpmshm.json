@@ -1,0 +1,851 @@
+{
+ "inventory": [
+  "Henderson Park",
+  "urban green spaces",
+  "biodiversity",
+  "Dr. Alice Morgan",
+  "migratory birds",
+  "ruby-throated hummingbird",
+  "warblers",
+  "robins",
+  "blue jays",
+  "sparrows",
+  "insects",
+  "pollinators",
+  "milkweed plants",
+  "monarch butterflies",
+  "Dr. David Lee",
+  "Emily Rivers",
+  "urban water features",
+  "ponds and streams",
+  "amphibians",
+  "green herons",
+  "Marcus Zhang",
+  "native species",
+  "environmental education",
+  "community-led conservation initiatives",
+  "educational signs",
+  "nocturnal creatures"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Henderson Park",
+    "relation": "visited_on",
+    "value": "March 10th, 2024",
+    "time": "March 10th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on this mild morning of March 10th, 2024"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Henderson Park",
+    "relation": "described_as",
+    "value": "a vibrant hub for city-dwelling species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a vibrant hub for city-dwelling species"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Henderson Park",
+    "relation": "is_more_than",
+    "value": "a patch of grass for picnickers and joggers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this park is more than just a patch of grass for picnickers and joggers"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Henderson Park",
+    "relation": "located_in",
+    "value": "Tucked away amidst the hum of urban life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tucked away amidst the hum of urban life"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Henderson Park",
+    "relation": "described_as",
+    "value": "a serene enclave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this serene enclave"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "urban green spaces",
+    "relation": "promotes",
+    "value": "biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the understated role of urban green spaces in promoting biodiversity"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "critical oases amidst the concrete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are critical oases amidst the concrete"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "urban green spaces",
+    "relation": "provides",
+    "value": "refuge and resources for a plethora of species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing refuge and resources for a plethora of species"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "urban green spaces",
+    "relation": "supports",
+    "value": "a complex web of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each plant, each tree is a pillar that supports a complex web of life"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Alice Morgan",
+    "relation": "has_occupation",
+    "value": "ornithologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ornithologist Dr. Alice Morgan shared with me"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Alice Morgan",
+    "relation": "shared_with_narrator_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, ornithologist Dr. Alice Morgan shared with me"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "urban green spaces",
+    "relation": "serves_as",
+    "value": "pivotal stopover points for migratory birds",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "urban parks serve as pivotal stopover points for migratory birds"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "ruby-throated hummingbird",
+    "relation": "receives_shelter_and_nourishment_from",
+    "value": "urban green spaces",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "These corridors of greenery offer shelter and nourishment for species like the ruby-throated hummingbird and the warblers"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "warblers",
+    "relation": "receives_shelter_and_nourishment_from",
+    "value": "urban green spaces",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "offer shelter and nourishment for species like the ruby-throated hummingbird and the warblers"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "migratory birds",
+    "relation": "traverse",
+    "value": "thousands of miles",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "which traverse thousands of miles"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "migratory birds",
+    "relation": "would_struggle_to_complete",
+    "value": "their epic migrations",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "many of these birds would struggle to complete their epic migrations."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "urban green spaces",
+    "relation": "absence_results_in",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": "Dr. Alice Morgan",
+    "verbatim": [
+     "Without urban green spaces,",
+     "many of these birds would struggle to complete their epic migrations."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "robins",
+    "relation": "described_as",
+    "value": "inquisitive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from the inquisitive robins"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "blue jays",
+    "relation": "described_as",
+    "value": "cackling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cackling blue jays"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "robins",
+    "relation": "plays_role_in",
+    "value": "the park's ecology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "play their part in the park's ecology"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "blue jays",
+    "relation": "plays_role_in",
+    "value": "the park's ecology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "play their part in the park's ecology"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "robins",
+    "relation": "disperses",
+    "value": "seeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dispersing seeds and controlling insect populations"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "blue jays",
+    "relation": "disperses",
+    "value": "seeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dispersing seeds and controlling insect populations"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "robins",
+    "relation": "controls",
+    "value": "insect populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "controlling insect populations"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "blue jays",
+    "relation": "controls",
+    "value": "insect populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "controlling insect populations"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "sparrows",
+    "relation": "dart_into",
+    "value": "a bush",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a pair of sparrows dart into a bush"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "sparrows",
+    "relation": "cradle",
+    "value": "bits of fluff and twigs for their nest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cradling bits of fluff and twigs for their nest"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Henderson Park",
+    "relation": "hosts",
+    "value": "insects of all kinds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The park is alive with insects of all kinds."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "milkweed plants",
+    "relation": "micro_habitat_for",
+    "value": "monarch butterflies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cluster of milkweed plants that had become a micro-habitat for monarch butterflies"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "monarch butterflies",
+    "relation": "micro_habitat",
+    "value": "milkweed plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cluster of milkweed plants that had become a micro-habitat for monarch butterflies"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dr. David Lee",
+    "relation": "has_occupation",
+    "value": "Lepidopterist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lepidopterist Dr. David Lee"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. David Lee",
+    "relation": "spoke_with_narrator_on",
+    "value": "September 30, 2023",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whom I had the chance to speak with on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. David Lee",
+    "relation": "highlighted",
+    "value": "the importance of green spaces such as these for insects",
+    "time": null,
+    "speaker": "Dr. David Lee",
+    "verbatim": [
+     "highlighted the importance of green spaces such as these for insects"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "pollinators",
+    "relation": "faces",
+    "value": "alarming declines",
+    "time": null,
+    "speaker": "Dr. David Lee",
+    "verbatim": [
+     "particularly pollinators that are facing alarming declines"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "urban green spaces",
+    "relation": "can_be_vital_in",
+    "value": "conserving insect populations",
+    "time": null,
+    "speaker": "Dr. David Lee",
+    "verbatim": [
+     "These urban areas can be vital in conserving insect populations"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "urban green spaces",
+    "relation": "contributes_to",
+    "value": "a patchwork that can support varied invertebrates",
+    "time": null,
+    "speaker": "Dr. David Lee",
+    "verbatim": [
+     "Each garden, each park, contributes to a patchwork that can support varied invertebrates"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "insects",
+    "relation": "play_role_in",
+    "value": "our own survival, particularly through pollination",
+    "time": null,
+    "speaker": "Dr. David Lee",
+    "verbatim": [
+     "which in turn play a role in our own survival, particularly through pollination."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "ponds and streams",
+    "relation": "located_in",
+    "value": "Henderson Park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a babbling brook that winds through the park"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "urban water features",
+    "relation": "described_as",
+    "value": "more than aesthetic embellishments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban water features are more than aesthetic embellishments"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "urban water features",
+    "relation": "described_as",
+    "value": "critical components of the city's ecological framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "critical components of the city's ecological framework"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Rivers",
+    "relation": "has_occupation",
+    "value": "Ecologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecologist Emily Rivers"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Rivers",
+    "relation": "studies",
+    "value": "urban water bodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who studies urban water bodies"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Rivers",
+    "relation": "conversation_on",
+    "value": "October 11, 2023",
+    "time": "October 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during our conversation on October 11, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "urban water features",
+    "relation": "promotes",
+    "value": "biodiversity",
+    "time": null,
+    "speaker": "Emily Rivers",
+    "verbatim": [
+     "the complex roles these features play in promoting biodiversity"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "ponds and streams",
+    "relation": "provides_habitat_for",
+    "value": "amphibians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From providing habitat to amphibians"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "amphibians",
+    "relation": "receives_habitat_from",
+    "value": "ponds and streams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From providing habitat to amphibians"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "ponds and streams",
+    "relation": "filters",
+    "value": "urban runoff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acting as filters for urban runoff"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "ponds and streams",
+    "relation": "are",
+    "value": "biodiversity hotspots in their own right",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are biodiversity hotspots in their own right"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "ponds and streams",
+    "relation": "can_host",
+    "value": "an array of life",
+    "time": null,
+    "speaker": "Emily Rivers",
+    "verbatim": [
+     "Even a small pond can host an array of life"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "ponds and streams",
+    "relation": "hosts",
+    "value": "green herons",
+    "time": null,
+    "speaker": "Emily Rivers",
+    "verbatim": [
+     "from the microscopic algae to the green herons that stalk the shallows"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "green herons",
+    "relation": "stalk",
+    "value": "the shallows",
+    "time": null,
+    "speaker": "Emily Rivers",
+    "verbatim": [
+     "the green herons that stalk the shallows"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "ponds and streams",
+    "relation": "serve_as",
+    "value": "stepping stones for aquatic species navigating the urban landscape",
+    "time": null,
+    "speaker": "Emily Rivers",
+    "verbatim": [
+     "these water bodies can also serve as stepping stones for aquatic species navigating the urban landscape"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Henderson Park",
+    "relation": "plant_selection_criterion",
+    "value": "its ability to thrive in urban conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "selected for its ability to thrive in urban conditions"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Marcus Zhang",
+    "relation": "has_occupation",
+    "value": "horticulturist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "horticulturist, Marcus Zhang"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Marcus Zhang",
+    "relation": "discussed_with_narrator_on",
+    "value": "November 20, 2023",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whom I engaged in a thought-provoking discussion with on November 20, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Marcus Zhang",
+    "relation": "has_curated",
+    "value": "the park's plant life to promote biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has spent years curating the park's plant life to promote biodiversity"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "native species",
+    "relation": "is_focus",
+    "value": "our focus",
+    "time": null,
+    "speaker": "Marcus Zhang",
+    "verbatim": [
+     "Native species are our focus"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "native species",
+    "relation": "adapted_to",
+    "value": "the local climate and soil",
+    "time": null,
+    "speaker": "Marcus Zhang",
+    "verbatim": [
+     "They are already adapted to the local climate and soil"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "native species",
+    "relation": "offers_best_support_for",
+    "value": "local wildlife",
+    "time": null,
+    "speaker": "Marcus Zhang",
+    "verbatim": [
+     "they offer the best support for local wildlife"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Henderson Park",
+    "relation": "features",
+    "value": "a myriad of human interactions with this green space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I am surrounded by a myriad of human interactions with this green space"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "urban green spaces",
+    "relation": "fosters_advocates_for",
+    "value": "its existence and expansion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they become advocates for its existence and expansion"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "educational signs",
+    "relation": "located_in",
+    "value": "dotted around the park",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational signs dotted around the park"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "educational signs",
+    "relation": "informs",
+    "value": "visitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "visitors are informed and empowered to protect the biodiversity"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "community-led conservation initiatives",
+    "relation": "empowers",
+    "value": "visitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community-led conservation initiatives, visitors are informed and empowered"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "educational signs",
+    "relation": "mechanism_of",
+    "value_ref": "c63",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through educational signs dotted around the park",
+     "visitors are informed and empowered to protect the biodiversity"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "biodiversity",
+    "relation": "thrives_in",
+    "value": "these green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the biodiversity that thrives in"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "environmental education",
+    "relation": "importance",
+    "value": "cannot be overstated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The role of environmental education cannot be overstated"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "environmental education",
+    "relation": "produces",
+    "value": "potential defenders of biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every individual who leaves the park with a greater appreciation for nature becomes a potential defender of biodiversity"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "environmental education",
+    "relation": "explained_by",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cannot be overstated, as every individual who leaves the park with a greater appreciation for nature becomes a potential defender of biodiversity"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Henderson Park",
+    "relation": "transitions_into",
+    "value": "an evening refuge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The park transitions into an evening refuge"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "nocturnal creatures",
+    "relation": "appears_in",
+    "value": "an evening refuge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an evening refuge where nocturnal creatures will soon take the stage"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "urban green spaces",
+    "relation": "is_cornerstone_in",
+    "value": "maintaining biodiversity within the city's limits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands irrefutably as a cornerstone in maintaining biodiversity within the city's limits"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "havens amidst the concrete and steel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These havens, amidst the concrete and steel"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "urban green spaces",
+    "relation": "serves",
+    "value": "the multitude of species that call the city home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the multitude of species that call the city home"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

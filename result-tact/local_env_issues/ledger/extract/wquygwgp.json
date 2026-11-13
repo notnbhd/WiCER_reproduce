@@ -1,0 +1,831 @@
+{
+ "inventory": [
+  "Dr. Emily Harris",
+  "Martin Thompson",
+  "Sandra Liu",
+  "Green Horizon Initiative",
+  "Jane Peterson",
+  "Michael Decker",
+  "Jessica Clarke",
+  "our town",
+  "the coal industry",
+  "coal factories",
+  "wind turbines",
+  "the old coal depot",
+  "solar farm",
+  "local bylaws",
+  "local government",
+  "incentives",
+  "tax breaks",
+  "retraining programs",
+  "curriculum",
+  "regional initiatives",
+  "shared wind farms",
+  "proposed hydroelectric project",
+  "environmental groups",
+  "energy efficiency",
+  "renewable energy",
+  "climate change",
+  "fossil fuels",
+  "municipal facilities",
+  "neighborhood solar panel buying clubs",
+  "community-led recycling programs",
+  "educational workshops",
+  "tree-planting days",
+  "subsidies for electric vehicle purchases",
+  "photovoltaic panels",
+  "City Council",
+  "sustainability"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "wind turbines",
+    "relation": "located_on",
+    "value": "the outskirts of our small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wind turbines on the outskirts of our small town"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "coal factories",
+    "relation": "were_once_synonymous_with",
+    "value": "our local landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the roaring coal factories that were once synonymous with our local landscape"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "our town",
+    "relation": "changes_took_shape_after",
+    "value": "September 1, 2023",
+    "time": "after September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "changes that took shape gradually yet persistently after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "our town",
+    "relation": "embraced",
+    "value": "energy efficiency and the adoption of renewable energy in our local infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how our community embraced energy efficiency and the adoption of renewable energy in our local infrastructure"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "our town",
+    "relation": "history_intertwined_with",
+    "value": "the coal industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The history of our town is deeply intertwined with the coal industry."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "the coal industry",
+    "relation": "left_families_with",
+    "value": "coal dust in their hair and soot in their lungs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Generations of families grew up with coal dust in their hair and soot in their lungs."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the coal industry",
+    "relation": "provided",
+    "value": "jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jobs depended on it"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the coal industry",
+    "relation": "supported",
+    "value": "economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "economies thrived with it"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the coal industry",
+    "relation": "environmental_effect",
+    "value": "environment suffered silently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet the environment suffered silently"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "our town",
+    "relation": "local_opinion_began_to_shift",
+    "value": "local opinion began to shift",
+    "time": "In the early 2020s",
+    "speaker": null,
+    "verbatim": [
+     "In the early 2020s, local opinion began to shift"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "climate change",
+    "relation": "became_more_apparent",
+    "value": "effects became more apparent",
+    "time": "In the early 2020s",
+    "speaker": null,
+    "verbatim": [
+     "the effects of climate change became more apparent"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "fossil fuels",
+    "relation": "health_implications_could_not_be_ignored",
+    "value": "health implications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the health implications of fossil fuels could no longer be ignored"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Emily Harris",
+    "relation": "role",
+    "value": "a local environmental health expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Harris, a local environmental health expert, notes"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Emily Harris",
+    "relation": "observed",
+    "value": "a surge in respiratory issues",
+    "time": "Around 2023",
+    "speaker": "Dr. Emily Harris",
+    "verbatim": [
+     "Around 2023, we saw a surge in respiratory issues"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "the coal industry",
+    "relation": "was",
+    "value": "a major contributor",
+    "time": null,
+    "speaker": "Dr. Emily Harris",
+    "verbatim": [
+     "the evidence was clear that coal was a major contributor"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "environmental groups",
+    "relation": "planted_seed_of_change",
+    "value": "the seed of change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the relentless push by environmental groups that planted the seed of change"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Martin Thompson",
+    "relation": "joined_forces_with",
+    "value": "the local government",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Martin Thompson, a former coal plant manager, joined forces with the local government"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Martin Thompson",
+    "relation": "former_role",
+    "value": "coal plant manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin Thompson, a former coal plant manager"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local government",
+    "relation": "spearheaded",
+    "value": "initiatives toward greener energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to spearhead initiatives toward greener energy"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Martin Thompson",
+    "relation": "said",
+    "value": "I've seen the damage firsthand",
+    "time": null,
+    "speaker": "Martin Thompson",
+    "verbatim": [
+     "I've seen the damage firsthand"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "our town",
+    "relation": "needed_to",
+    "value": "pivot",
+    "time": null,
+    "speaker": "Martin Thompson",
+    "verbatim": [
+     "Our town needed to pivot"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "City Council",
+    "relation": "saw_surge_in",
+    "value": "environmental discussions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Council meetings saw a surge in environmental discussions"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sandra Liu",
+    "relation": "role",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by Councilwoman Sandra Liu"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sandra Liu",
+    "relation": "proponent_of",
+    "value": "energy efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a staunch proponent of energy efficiency"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sandra Liu",
+    "relation": "argued",
+    "value": "We must first reduce our energy consumption",
+    "time": "November 10, 2023",
+    "speaker": "Sandra Liu",
+    "verbatim": [
+     "We must first reduce our energy consumption",
+     "Liu argued in a council meeting on November 10, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sandra Liu",
+    "relation": "initiated_draft_of",
+    "value": "local bylaws",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her perspective initiated the draft of local bylaws"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local bylaws",
+    "relation": "promoted",
+    "value": "energy efficiency in building designs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local bylaws that promoted energy efficiency in building designs"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local bylaws",
+    "relation": "promoted",
+    "value": "retrofitting older structures with insulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "retrofitting older structures with insulation"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "municipal facilities",
+    "relation": "to_install",
+    "value": "energy-efficient lighting systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "installing energy-efficient lighting systems throughout municipal facilities"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sandra Liu",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We must first reduce our energy consumption",
+     "Her perspective initiated the draft of local bylaws"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Green Horizon Initiative",
+    "relation": "launched_on",
+    "value": "January 5, 2024",
+    "time": "January 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a grassroots movement launched on January 5, 2024"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Green Horizon Initiative",
+    "relation": "aimed_at",
+    "value": "empowering citizens to take part in the town's transformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at empowering citizens to take part in the town's transformation"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Green Horizon Initiative",
+    "relation": "establishment_was",
+    "value": "a turning point",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A turning point was the establishment of the 'Green Horizon Initiative,'"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "our town",
+    "relation": "engagement_levels",
+    "value": "soared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engagement levels soared"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "neighborhood solar panel buying clubs",
+    "relation": "mechanism_of",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether it was through neighborhood solar panel buying clubs",
+     "engagement levels soared"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "educational workshops",
+    "relation": "topic",
+    "value": "reducing household energy consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational workshops on reducing household",
+     "energy consumption"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jane Peterson",
+    "relation": "role",
+    "value": "a school teacher and activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Peterson, a school teacher and activist, recalled"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jane Peterson",
+    "relation": "said",
+    "value": "People were initially resistant to the change",
+    "time": null,
+    "speaker": "Jane Peterson",
+    "verbatim": [
+     "People were initially resistant to the change"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jane Peterson",
+    "relation": "said",
+    "value": "there was a collective effort to make a difference",
+    "time": null,
+    "speaker": "Jane Peterson",
+    "verbatim": [
+     "there was a collective effort to make a difference"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jane Peterson",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": "Jane Peterson",
+    "verbatim": [
+     "once they understood the benefits and savings involved",
+     "there was a collective effort to make a difference"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local government",
+    "relation": "set_aside_budget_for",
+    "value": "incentives",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The local government set aside a budget on February 22, 2024, for incentives"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "incentives",
+    "relation": "encouraged",
+    "value": "homeowners and businesses to adopt renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incentives that encouraged homeowners and businesses to adopt renewable energy"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "tax breaks",
+    "relation": "applies_to",
+    "value": "solar panel installation, wind power projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax breaks for solar panel installation, wind power projects"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "tax breaks",
+    "relation": "helped_ease",
+    "value": "the financial hurdle of transitioning to cleaner energy sources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped ease the financial hurdle of transitioning to cleaner energy sources"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "subsidies for electric vehicle purchases",
+    "relation": "helped_ease",
+    "value": "the financial hurdle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even subsidies for electric vehicle purchases helped ease the financial hurdle"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Michael Decker",
+    "relation": "role",
+    "value": "business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Business owner Michael Decker noted"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Michael Decker",
+    "relation": "noted",
+    "value": "the positive impact this had on his operational costs",
+    "time": null,
+    "speaker": "Michael Decker",
+    "verbatim": [
+     "noted the positive impact this had on his operational costs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Michael Decker",
+    "relation": "said",
+    "value": "Switching to solar has cut my energy bills by half",
+    "time": null,
+    "speaker": "Michael Decker",
+    "verbatim": [
+     "Switching to solar has cut my energy bills by half"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Michael Decker",
+    "relation": "return_on_investment",
+    "value": "much better than expected",
+    "time": null,
+    "speaker": "Michael Decker",
+    "verbatim": [
+     "the ROI was much better than expected"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "tax breaks",
+    "relation": "contributed_to",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": "Michael Decker",
+    "verbatim": [
+     "with the tax benefits, the ROI was much better than expected"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "the old coal depot",
+    "relation": "transformed_into",
+    "value": "a solar farm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the transformation of the old coal depot into a solar farm"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "the old coal depot",
+    "relation": "replaced_with",
+    "value": "rows of shiny photovoltaic panels",
+    "time": "By April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "By April 15, 2024, the once dark, coal-laden land had been replaced with rows of shiny photovoltaic panels"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "solar farm",
+    "relation": "generated",
+    "value": "clean energy for hundreds of homes",
+    "time": "By April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "generating clean energy for hundreds of homes"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "the old coal depot",
+    "relation": "symbolized",
+    "value": "a shift in identity for our town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This repurposing symbolized a shift in identity for our town"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "our town",
+    "relation": "no_longer_chained_to",
+    "value": "the fading echo of coal's dominance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we were no longer chained to the fading echo of coal's dominance"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "sustainability",
+    "relation": "embedded_into",
+    "value": "the education system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embedding the principles of sustainability into the education system"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "curriculum",
+    "relation": "updated_to_include",
+    "value": "environmental science and sustainable practices",
+    "time": "Beginning the school year of 2024",
+    "speaker": null,
+    "verbatim": [
+     "Beginning the school year of 2024, the curriculum was updated to include environmental science and sustainable practices"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "tree-planting days",
+    "relation": "participated_in_by",
+    "value": "Children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Children excitedly participated in tree-planting days"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "the coal industry",
+    "relation": "job_losses",
+    "value": "job losses in the coal sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coupled with job losses in the coal sector"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Martin Thompson",
+    "relation": "emphasized",
+    "value": "the benefits of retraining programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Advocates like Thompson emphasized the benefits of retraining programs"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Martin Thompson",
+    "relation": "said",
+    "value": "Former coal workers found opportunities in the renewable sector\u2014installation, maintenance, and more",
+    "time": null,
+    "speaker": "Martin Thompson",
+    "verbatim": [
+     "Former coal workers found opportunities in the renewable sector\u2014installation, maintenance, and more"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "our town",
+    "relation": "energy_profile_grew",
+    "value": "greener",
+    "time": "With each passing month",
+    "speaker": null,
+    "verbatim": [
+     "our town's energy profile grew greener"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "regional initiatives",
+    "relation": "paved_way_by",
+    "value": "collaborations with neighboring cities and investors",
+    "time": "By the summer of 2024",
+    "speaker": null,
+    "verbatim": [
+     "By the summer of 2024, collaborations with neighboring cities and investors had paved the way for regional initiatives"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "regional initiatives",
+    "relation": "included",
+    "value": "shared wind farms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as shared wind farms and a proposed hydroelectric project"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "proposed hydroelectric project",
+    "relation": "example_of",
+    "value": "regional initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as shared wind farms and a proposed hydroelectric project"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Jessica Clarke",
+    "relation": "role",
+    "value": "a local environmental consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Clarke, a local environmental consultant, emphasized the importance of such partnerships"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Jessica Clarke",
+    "relation": "said",
+    "value": "Energy transformation can't happen in isolation",
+    "time": null,
+    "speaker": "Jessica Clarke",
+    "verbatim": [
+     "Energy transformation can't happen in isolation."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Jessica Clarke",
+    "relation": "said",
+    "value": "It's the collective effort that will lead to substantial outcomes",
+    "time": null,
+    "speaker": "Jessica Clarke",
+    "verbatim": [
+     "It's the collective effort that will lead to substantial outcomes."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "our town",
+    "relation": "transformation_seemed",
+    "value": "almost inconceivable",
+    "time": "a decade ago",
+    "speaker": null,
+    "verbatim": [
+     "our town has undergone a transformation that seemed almost inconceivable a decade ago"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "our town",
+    "relation": "journey_paved_with",
+    "value": "small, consistent steps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the journey here was paved with small, consistent steps"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "our town",
+    "relation": "feeling_that_encapsulates_transformation",
+    "value": "hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's hope\u2014a sentiment shared by the generations witnessing this change"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

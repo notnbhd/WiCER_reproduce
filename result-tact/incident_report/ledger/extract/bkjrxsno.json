@@ -1,0 +1,773 @@
+{
+ "inventory": [
+  "telecommunications outages",
+  "a major telecommunications provider",
+  "Deloitte",
+  "Emily Tran",
+  "California",
+  "New York",
+  "Dr. Alex Richardson",
+  "Thomas Keller",
+  "Chicago",
+  "FCC",
+  "Jessica Saunders",
+  "Artificial Intelligence (AI)",
+  "Machine Learning (ML)",
+  "Alison Beer",
+  "Dr. Henrik Larsen",
+  "Copenhagen Institute for Future Studies",
+  "Martin Zhu",
+  "Europe",
+  "Asia",
+  "United States",
+  "September 15, 2023 nationwide outage",
+  "October 3, 2023 wildfire service interruption",
+  "October 18 software bug outage",
+  "November 4, 2023 outage",
+  "February 8, 2024 undersea cable failure"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "a major telecommunications provider",
+    "relation": "experienced",
+    "value": "a nationwide outage",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, a major telecommunications provider experienced a nationwide outage"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "September 15, 2023 nationwide outage",
+    "relation": "left_customers_without",
+    "value": "millions of customers without cellular and internet services",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leaving millions of customers without cellular and internet services for several hours"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "September 15, 2023 nationwide outage",
+    "relation": "duration",
+    "value": "several hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for several hours"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "telecommunications outages",
+    "relation": "prompted_concerns_among",
+    "value": "business leaders and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident prompted concerns among business leaders and policymakers about the financial toll these disruptions can take."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Deloitte",
+    "relation": "estimated_productivity_drop",
+    "value": "0.5%",
+    "time": null,
+    "speaker": "Deloitte",
+    "verbatim": [
+     "According to a study by Deloitte, even a 0.5% drop in productivity from such outages could result in a loss of nearly $15 billion to the national economy annually."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Deloitte",
+    "relation": "estimated_loss_to_national_economy",
+    "value": "nearly $15 billion to the national economy annually",
+    "time": null,
+    "speaker": "Deloitte",
+    "verbatim": [
+     "could result in a loss of nearly $15 billion to the national economy annually"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Deloitte",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 0.5% drop in productivity from such outages could result in a loss of nearly $15 billion"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Tran",
+    "relation": "is_a",
+    "value": "a Seattle entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Tran, a Seattle entrepreneur"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Tran",
+    "relation": "operates",
+    "value": "an ecommerce business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ecommerce businesses like the one operated by Emily Tran"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emily Tran",
+    "relation": "reported_sales_decline",
+    "value": "a 75% decline in our online sales",
+    "time": "The day we experienced the outage",
+    "speaker": "Emily Tran",
+    "verbatim": [
+     "\"The day we experienced the outage, we saw a 75% decline in our online sales,\" Tran said."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "telecommunications outages",
+    "relation": "results_in",
+    "value": "loss in revenue, customer trust, and competitive edge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses that rely on cloud services or real-time data exchange are often left inoperable, leading to loss in revenue, customer trust, and competitive edge."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "telecommunications outages",
+    "relation": "caused_by",
+    "value": "natural disasters, aging infrastructure, cybersecurity breaches, human errors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From natural disasters to aging infrastructure, and cybersecurity breaches to human errors, the causes are varied and complex."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "California",
+    "relation": "experienced",
+    "value": "a service interruption",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 3, 2023, California experienced a service interruption due to a wildfire disrupting key infrastructure."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "October 3, 2023 wildfire service interruption",
+    "relation": "caused_by",
+    "value": "a wildfire disrupting key infrastructure",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to a wildfire disrupting key infrastructure"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "October 3, 2023 wildfire service interruption",
+    "relation": "occurred_in",
+    "value": "California",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 3, 2023, California experienced a service interruption"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "October 18 software bug outage",
+    "relation": "occurred_in",
+    "value": "New York",
+    "time": "October 18",
+    "speaker": null,
+    "verbatim": [
+     "on October 18, New York's outages were traced to a software bug during a routine upgrade"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "October 18 software bug outage",
+    "relation": "caused_by",
+    "value": "a software bug during a routine upgrade",
+    "time": "October 18",
+    "speaker": null,
+    "verbatim": [
+     "New York's outages were traced to a software bug during a routine upgrade"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "October 18 software bug outage",
+    "relation": "occurred_after",
+    "value": "October 3, 2023 wildfire service interruption",
+    "time": "Weeks later",
+    "speaker": null,
+    "verbatim": [
+     "Weeks later, on October 18"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Alex Richardson",
+    "relation": "is_a",
+    "value": "a telecommunications expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alex Richardson, a telecommunications expert, explains that"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Alex Richardson",
+    "relation": "explains",
+    "value": "as networks become more complex and interconnected, the potential for a domino effect increases",
+    "time": null,
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "As networks become more complex and interconnected, the potential for a domino effect increases."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Alex Richardson",
+    "relation": "states",
+    "value": "A single failure can cascade through the system, creating widespread outages",
+    "time": null,
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "A single failure can cascade through the system, creating widespread outages."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "telecommunications outages",
+    "relation": "borne_by",
+    "value": "small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses often bear the brunt of telecom outages."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "telecommunications outages",
+    "relation": "makes_recovery_harder_for",
+    "value": "small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these companies may find it harder to recover from an unexpected loss of service"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Thomas Keller",
+    "relation": "owns",
+    "value": "a small graphic design studio in Chicago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas Keller, owner of a small graphic design studio in Chicago"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Thomas Keller",
+    "relation": "faced",
+    "value": "a 12-hour outage",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 4, 2023, Thomas Keller, owner of a small graphic design studio in Chicago, faced a 12-hour outage"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "November 4, 2023 outage",
+    "relation": "pushed_back",
+    "value": "project deadlines",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "that pushed back project deadlines"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "November 4, 2023 outage",
+    "relation": "disrupted",
+    "value": "communication with clients",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disrupted communication with clients"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Thomas Keller",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced a 12-hour outage that pushed back project deadlines"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Thomas Keller",
+    "relation": "stated",
+    "value": "not big enough to absorb the impact the way a larger company might",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "We're not big enough to absorb the impact the way",
+     "a larger company might,\" Keller noted"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Thomas Keller",
+    "relation": "emphasized",
+    "value": "the tight margins small businesses operate under",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "emphasizing the tight margins small businesses operate under"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "FCC",
+    "relation": "at_forefront_of_effort_in",
+    "value": "the United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FCC, for instance, has been at the forefront of this effort in the United States."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "United States",
+    "relation": "led_regulatory_effort_by",
+    "value": "FCC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FCC, for instance, has been at the forefront of this effort in the United States."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jessica Saunders",
+    "relation": "is_a",
+    "value": "an FCC spokesperson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Saunders, an FCC spokesperson,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jessica Saunders",
+    "relation": "conveyed_intent_of",
+    "value": "the commission's intent",
+    "time": "November 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jessica Saunders, an FCC spokesperson, conveyed the commission's intent on November 29, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "FCC",
+    "relation": "plans_regulations_requiring",
+    "value": "faster responses and more transparent communication from providers",
+    "time": "November 29, 2023",
+    "speaker": "Jessica Saunders",
+    "verbatim": [
+     "We are working towards regulations that will require faster responses and more transparent communication from providers in the wake of outages."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "telecommunications outages",
+    "relation": "addressed_by",
+    "value": "stricter standards and protocols from governments and regulatory bodies worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Governments and regulatory bodies worldwide have been pushing for stricter standards and protocols to ensure greater reliability and accountability from service providers."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "telecommunications outages",
+    "relation": "providers_investing_in",
+    "value": "more robust and redundant network architectures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Providers are investing in more robust and redundant network architectures."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "deployed_for",
+    "value": "predictive maintenance, spotting vulnerabilities before they lead to service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence (AI) and Machine Learning (ML) are increasingly being deployed for predictive maintenance, spotting vulnerabilities before they lead to service interruptions."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Machine Learning (ML)",
+    "relation": "deployed_for",
+    "value": "predictive maintenance, spotting vulnerabilities before they lead to service interruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence (AI) and Machine Learning (ML) are increasingly being deployed for predictive maintenance, spotting vulnerabilities before they lead to service interruptions."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "anticipates_outages_with_accuracy",
+    "value": "over 90% accuracy",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 10, 2023, a tech startup announced the development of a new AI-driven platform that anticipates outages with over 90% accuracy by analyzing patterns in network data."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "analyzes",
+    "value": "patterns in network data",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "by analyzing patterns in network data"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "telecommunications outages",
+    "relation": "anticipated_by",
+    "value": "a new AI-driven platform developed by a tech startup",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a tech startup announced the development of a new AI-driven platform that anticipates outages"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Alison Beer",
+    "relation": "is_CEO_of",
+    "value": "the startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The startup's CEO, Alison Beer, stated"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Alison Beer",
+    "relation": "stated",
+    "value": "What we offer is a way for providers to stay ahead of the curve and ensure that the service their customers rely on remains uninterrupted",
+    "time": null,
+    "speaker": "Alison Beer",
+    "verbatim": [
+     "What we offer is a way for providers to stay ahead of the curve and ensure that the service their customers rely on remains uninterrupted."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "telecommunications outages",
+    "relation": "can_be",
+    "value": "costly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every minute of downtime can be costly, particularly as the global economy becomes more interconnected."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "telecommunications outages",
+    "relation": "could_lead_to",
+    "value": "direct financial losses, reputational damage, and reduced stakeholder confidence",
+    "time": "January 15, 2024",
+    "speaker": "a report",
+    "verbatim": [
+     "A report published on January 15, 2024, revealed that telecommunications outages could lead to direct financial losses, reputational damage, and reduced stakeholder confidence."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "telecommunications outages",
+    "relation": "could_lead_to",
+    "value": "declines in stock prices and investor trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This, in turn, can lead to declines in stock prices and investor trust"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "telecommunications outages",
+    "relation": "translates_into",
+    "value": "tangible economic repercussions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "translating into tangible economic repercussions"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "telecommunications outages",
+    "relation": "not_confined_to",
+    "value": "the United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The issue of telecom outages is not confined to the United States."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "February 8, 2024 undersea cable failure",
+    "relation": "affected",
+    "value": "communication services across several countries in Europe and Asia",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 8, 2024, a major undersea cable failure affected communication services across several countries in Europe and Asia"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Europe",
+    "relation": "affected_by",
+    "value": "February 8, 2024 undersea cable failure",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 8, 2024, a major undersea cable failure affected communication services across several countries in Europe and Asia"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Asia",
+    "relation": "affected_by",
+    "value": "February 8, 2024 undersea cable failure",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 8, 2024, a major undersea cable failure affected communication services across several countries in Europe and Asia"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "February 8, 2024 undersea cable failure",
+    "relation": "demonstrates",
+    "value": "the interconnected nature of modern telecommunications infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrating the interconnected nature of modern telecommunications infrastructure"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Henrik Larsen",
+    "relation": "affiliated_with",
+    "value": "Copenhagen Institute for Future Studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Henrik Larsen from the Copenhagen Institute for Future Studies"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Henrik Larsen",
+    "relation": "highlights_need_for",
+    "value": "a global response",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Experts like Dr. Henrik Larsen from the Copenhagen Institute for Future Studies highlight the need for a global response."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Henrik Larsen",
+    "relation": "stated",
+    "value": "Telecom networks do not recognize borders",
+    "time": null,
+    "speaker": "Dr. Henrik Larsen",
+    "verbatim": [
+     "Telecom networks do not recognize borders."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Henrik Larsen",
+    "relation": "asserts",
+    "value": "imperative that countries collaborate on standards, information sharing, and joint response strategies",
+    "time": null,
+    "speaker": "Dr. Henrik Larsen",
+    "verbatim": [
+     "imperative that countries collaborate on standards, information sharing, and joint response strategies"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Martin Zhu",
+    "relation": "is_CEO_of",
+    "value": "the financial tech firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the financial tech firm helmed by CEO Martin Zhu"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Martin Zhu",
+    "relation": "firm_invested_in",
+    "value": "comprehensive continuity plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like the financial tech firm helmed by CEO Martin Zhu have invested in comprehensive continuity plans."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Martin Zhu",
+    "relation": "stated",
+    "value": "Our operations require an uninterrupted connection to the financial markets",
+    "time": "March 1, 2024",
+    "speaker": "Martin Zhu",
+    "verbatim": [
+     "\"Our operations require an uninterrupted connection to the financial markets,\" Zhu stated on March 1, 2024."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Martin Zhu",
+    "relation": "developed_strategy",
+    "value": "a multi-tiered strategy that includes redundant systems, offline capabilities, and partnerships with multiple service providers",
+    "time": null,
+    "speaker": "Martin Zhu",
+    "verbatim": [
+     "\"As a result, we've developed a multi-tiered strategy that includes redundant systems, offline capabilities, and partnerships with multiple service providers.\""
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Martin Zhu",
+    "relation": "results_in",
+    "value_ref": "c61",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Our operations require an uninterrupted connection to the financial markets,\" Zhu stated on March 1, 2024.",
+     "\"As a result, we've developed a multi-tiered strategy"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "telecommunications outages",
+    "relation": "fear_expands_as",
+    "value": "the world continues to digitize at an astonishing rate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the world continues to digitize at an astonishing rate, the fear of telecommunications outages and their impact on economies and businesses only expands."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "telecommunications outages",
+    "relation": "solution",
+    "value": "a multi-faceted approach that combines technology with human insight, regulatory foresight, and international cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The true solution lies in a multi-faceted approach that combines technology with human insight, regulatory foresight, and international cooperation."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "telecommunications outages",
+    "relation": "stakeholders_play_role",
+    "value": "Service providers, regulators, businesses, and consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Service providers, regulators, businesses, and consumers will all play a role in shaping more resilient telecommunications for the future."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "telecommunications outages",
+    "relation": "highlighted_vulnerability_of",
+    "value": "these networks",
+    "time": "Recent events",
+    "speaker": null,
+    "verbatim": [
+     "Recent events have brought the vulnerability of these networks into the spotlight"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Chicago",
+    "relation": "location_of_studio_owned_by",
+    "value": "Thomas Keller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas Keller, owner of a small graphic design studio in Chicago"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,851 @@
+{
+ "inventory": [
+  "Innovatopolis",
+  "Maria Gonzalez",
+  "Eco-Convertor",
+  "Jaden Smith",
+  "AquaHarvest",
+  "Harjit Singh",
+  "SunStead",
+  "Leyla Abdi",
+  "Green Charge",
+  "Theodore \"Theo\" Kim",
+  "SkyCrop Farms",
+  "Dr. Ravi Patel",
+  "EcoMinds",
+  "Helen Zhao",
+  "ZeroWaste Solutions",
+  "Alex Rodriguez",
+  "PureAir Towers"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Innovatopolis",
+    "relation": "described_as",
+    "value": "bustling city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the bustling city of Innovatopolis"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Innovatopolis",
+    "relation": "experiencing",
+    "value": "a wave of inventive genius altering the landscape of sustainability and environmental conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a wave of inventive genius is altering the landscape of sustainability and environmental conservation"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Innovatopolis",
+    "relation": "has_district",
+    "value": "eastern district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the eastern district of the city"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Innovatopolis",
+    "relation": "has_rooftops_with",
+    "value": "untapped potential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the untapped potential of Innovatopolis\u2019 rooftops"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Innovatopolis",
+    "relation": "pursuing",
+    "value": "zero-waste goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping Innovatopolis inch closer to its zero-waste goals"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Maria Gonzalez",
+    "relation": "is_a",
+    "value": "local inventor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local inventor Maria Gonzalez turns everyday waste into treasure"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Maria Gonzalez",
+    "relation": "transforms",
+    "value": "everyday waste into treasure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local inventor Maria Gonzalez turns everyday waste into treasure"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maria Gonzalez",
+    "relation": "works_in",
+    "value": "small garage on the outskirts of Innovatopolis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a small garage nestled on the outskirts of Innovatopolis"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Gonzalez",
+    "relation": "unveiled",
+    "value": "latest invention",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was on a balmy morning in early September 2023 when Maria unveiled her latest invention"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Maria Gonzalez",
+    "relation": "concerned_with",
+    "value": "the plastics clogging our waterways and landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long concerned with the plastics clogging our waterways and landscapes"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Eco-Convertor",
+    "relation": "is",
+    "value": "a home-based system that transforms household plastic waste into 3D printing filament",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a home-based system that transforms household plastic waste into 3D printing filament"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Eco-Convertor",
+    "relation": "invented_by",
+    "value": "Maria Gonzalez",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was on a balmy morning in early September 2023 when Maria unveiled her latest invention"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Eco-Convertor",
+    "relation": "offers",
+    "value": "households the opportunity to participate directly in the recycling loop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria's invention offers households the opportunity to participate directly in the recycling loop"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eco-Convertor",
+    "relation": "caught_attention_of",
+    "value": "local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her invention has already caught the attention of local schools"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Eco-Convertor",
+    "relation": "slated_to_be_featured_in",
+    "value": "a state-wide program for environmental education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is slated to be featured in a state-wide program for environmental education"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jaden Smith",
+    "relation": "is_a",
+    "value": "self-taught engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jaden Smith, a self-taught engineer, launched"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jaden Smith",
+    "relation": "launched",
+    "value": "AquaHarvest",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 8, 2023, marked the day when Jaden Smith, a self-taught engineer, launched"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "AquaHarvest",
+    "relation": "is",
+    "value": "a compact, solar-powered device designed for urban homes that collects and purifies rainwater for daily use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a compact, solar-powered device designed for urban homes that collects and purifies rainwater for daily use"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "AquaHarvest",
+    "relation": "created_by",
+    "value": "Jaden Smith",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 8, 2023, marked the day when Jaden Smith, a self-taught engineer, launched"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "AquaHarvest",
+    "relation": "located_in",
+    "value": "eastern district of the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meanwhile, in the eastern district of the city, another breakthrough offers hope"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "AquaHarvest",
+    "relation": "saved",
+    "value": "gallons of municipal water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jaden's innovation has already saved gallons of municipal water"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "AquaHarvest",
+    "relation": "ignited",
+    "value": "a conversation about water independence in urban settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has ignited a conversation about water independence in urban settings"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "AquaHarvest",
+    "relation": "operates_in_region_with",
+    "value": "water restrictions and occasional droughts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a region fraught with water restrictions and occasional droughts"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Harjit Singh",
+    "relation": "is_a",
+    "value": "local renewable energy enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by local renewable energy enthusiast, Harjit Singh"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Harjit Singh",
+    "relation": "has_degree_in",
+    "value": "environmental science",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harjit, with a degree in environmental science and a passion for solar technology"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Harjit Singh",
+    "relation": "passion_for",
+    "value": "solar technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harjit, with a degree in environmental science and a passion for solar technology"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Harjit Singh",
+    "relation": "recognized",
+    "value": "the untapped potential of Innovatopolis\u2019 rooftops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognized the untapped potential of Innovatopolis\u2019 rooftops"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "SunStead",
+    "relation": "spearheaded_by",
+    "value": "Harjit Singh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the \"SunStead\" project, spearheaded by local renewable energy enthusiast, Harjit Singh"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "SunStead",
+    "relation": "began_rolling_out",
+    "value": "late September 2023",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "His initiative, which began rolling out in late September 2023"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "SunStead",
+    "relation": "involves",
+    "value": "installing solar panels on residential and commercial buildings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves installing solar panels on residential and commercial buildings at minimal cost to property owners"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "SunStead",
+    "relation": "installation_cost_to_property_owners",
+    "value": "minimal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at minimal cost to property owners"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "SunStead",
+    "relation": "excess_energy",
+    "value": "fed back into the community grid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the excess energy being fed back into the community grid"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "SunStead",
+    "relation": "reduces",
+    "value": "the collective carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This project not only reduces the collective carbon footprint"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "SunStead",
+    "relation": "lowers",
+    "value": "energy costs for the participating locals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also lowers energy costs for the participating locals"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Green Charge",
+    "relation": "created_by",
+    "value": "Leyla Abdi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we find Leyla Abdi\u2019s \"Green Charge\" initiative"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Green Charge",
+    "relation": "inception",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since its inception on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Green Charge",
+    "relation": "transformed",
+    "value": "public green spaces into hubs of clean energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Green Charge\" has transformed public green spaces into hubs of clean energy"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Green Charge",
+    "relation": "integrates",
+    "value": "inconspicuous kinetic-energy-harvesting devices within the pathways of parks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By integrating inconspicuous kinetic-energy-harvesting devices within the pathways of parks"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Green Charge",
+    "relation": "captures",
+    "value": "the energy generated by pedestrians and converts it into electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "captures the energy generated by pedestrians and converts it into electricity"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Green Charge",
+    "relation": "powers",
+    "value": "street lights and small community infrastructures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This electricity is then utilized to power up street lights and small community infrastructures"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Green Charge",
+    "relation": "promotes",
+    "value": "outdoor activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only does this promote outdoor activities"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Green Charge",
+    "relation": "fortifies_commitment_to_reducing_reliance_on",
+    "value": "fossil fuels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also fortifies the city's commitment to reducing its reliance on fossil fuels"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green Charge",
+    "relation": "mechanism_of",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By integrating inconspicuous kinetic-energy-harvesting devices within the pathways of parks, Leyla\u2019s project captures the energy generated by pedestrians"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Theodore \"Theo\" Kim",
+    "relation": "is_a",
+    "value": "urban farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban farmer Theodore \"Theo\" Kim would prove"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "SkyCrop Farms",
+    "relation": "owned_by",
+    "value": "Theodore \"Theo\" Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his business, \u201cSkyCrop Farms,\u201d flourishes"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "SkyCrop Farms",
+    "relation": "located_in",
+    "value": "a quiet corner in a downtown neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On a quiet corner in a downtown neighborhood, his business, \u201cSkyCrop Farms,\u201d flourishes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "SkyCrop Farms",
+    "relation": "launched_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on September 15, 2023, SkyCrop Farms uses vertical farming techniques and hydroponics"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "SkyCrop Farms",
+    "relation": "uses",
+    "value": "vertical farming techniques and hydroponics to grow produce year-round in a controlled environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses vertical farming techniques and hydroponics to grow produce year-round in a controlled environment"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "SkyCrop Farms",
+    "relation": "minimizes",
+    "value": "water usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "minimizing water usage"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "SkyCrop Farms",
+    "relation": "eliminates",
+    "value": "the need for pesticides",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "completely eliminating the need for pesticides"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "SkyCrop Farms",
+    "relation": "occupies",
+    "value": "otherwise unused rooftop spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His farms, which occupy otherwise unused rooftop spaces"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "SkyCrop Farms",
+    "relation": "supplies",
+    "value": "local restaurants and markets with fresh, hyper-local produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have already begun supplying local restaurants and markets with fresh, hyper-local produce"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Ravi Patel",
+    "relation": "is_a",
+    "value": "environmental engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental engineer Dr. Ravi Patel, for example, has developed"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Ravi Patel",
+    "relation": "developed",
+    "value": "EcoMinds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has developed an interactive software program, \"EcoMinds,\" which he introduced to local schools on October 21, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Ravi Patel",
+    "relation": "aim",
+    "value": "to mold environmentally conscious citizens from an early age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His aim is to mold environmentally conscious citizens from an early age"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "EcoMinds",
+    "relation": "is",
+    "value": "an interactive software program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has developed an interactive software program, \"EcoMinds,\""
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "EcoMinds",
+    "relation": "developed_by",
+    "value": "Dr. Ravi Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental engineer Dr. Ravi Patel, for example, has developed an interactive software program"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "EcoMinds",
+    "relation": "introduced_to",
+    "value": "local schools",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which he introduced to local schools on October 21, 2023"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "EcoMinds",
+    "relation": "uses",
+    "value": "gamification to teach students about ecology, resource management, and the impacts of climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The program uses gamification to teach students about ecology, resource management, and the impacts of climate change"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Helen Zhao",
+    "relation": "is_a",
+    "value": "inventor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that's where inventor Helen Zhao comes into the picture"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Helen Zhao",
+    "relation": "mission",
+    "value": "to close the loop on waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Helen's mission is to close the loop on waste"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "ZeroWaste Solutions",
+    "relation": "founded_by",
+    "value": "Helen Zhao",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her startup, \"ZeroWaste Solutions,\" launched an advanced waste sorting and processing facility on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "ZeroWaste Solutions",
+    "relation": "launched",
+    "value": "an advanced waste sorting and processing facility",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Her startup, \"ZeroWaste Solutions,\" launched an advanced waste sorting and processing facility on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "ZeroWaste Solutions",
+    "relation": "uses",
+    "value": "a combination of machine learning and robotic automation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The facility uses a combination of machine learning and robotic automation to efficiently sort recyclable materials and dramatically improve recovery rates"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "ZeroWaste Solutions",
+    "relation": "in_order_to",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The facility uses a combination of machine learning and robotic automation to efficiently sort recyclable materials and dramatically improve recovery rates"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Alex Rodriguez",
+    "relation": "is_a",
+    "value": "chemical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chemical engineer Alex Rodriguez developed the \"PureAir Towers\" system"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "PureAir Towers",
+    "relation": "developed_by",
+    "value": "Alex Rodriguez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chemical engineer Alex Rodriguez developed the \"PureAir Towers\" system"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "PureAir Towers",
+    "relation": "first_prototype_set_up",
+    "value": "first prototype",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "set up the first prototype on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "PureAir Towers",
+    "relation": "scattered_in",
+    "value": "pollution hotspots around the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tower systems are scattered strategically in pollution hotspots around the city"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "PureAir Towers",
+    "relation": "absorb",
+    "value": "contaminants and particulate matter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where they absorb contaminants and particulate matter, releasing cleaner air"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "PureAir Towers",
+    "relation": "releases",
+    "value": "cleaner air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where they absorb contaminants and particulate matter, releasing cleaner air"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "PureAir Towers",
+    "relation": "influenced_by",
+    "value": "the natural process of photosynthesis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Influenced by the natural process of photosynthesis"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "PureAir Towers",
+    "relation": "purifies",
+    "value": "the air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the towers not only purify the air but also add an aesthetically pleasing element to the urban landscape with their plant-covered modules"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "PureAir Towers",
+    "relation": "has",
+    "value": "plant-covered modules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with their plant-covered modules"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Alex Rodriguez",
+    "relation": "addresses",
+    "value": "the ever-growing concern of urban air pollution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facing the ever-growing concern of urban air pollution"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

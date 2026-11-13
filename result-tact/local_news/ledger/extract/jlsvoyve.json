@@ -1,0 +1,874 @@
+{
+ "inventory": [
+  "Green Terrace",
+  "Sarah Thompson",
+  "Whim",
+  "Jack Steward",
+  "Mindful Spaces",
+  "Vanessa and Karl Jenkins",
+  "Palette",
+  "Marco Gonzalez",
+  "TechTrim",
+  "Julian Castro",
+  "Code Playhouse",
+  "Lisa and Raj Patel",
+  "Escape Lounge",
+  "Aiden Smith and Naomi Kim",
+  "synesthesia",
+  "climate change",
+  "small businesses",
+  "STEM education"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Green Terrace",
+    "relation": "founded_by",
+    "value": "Sarah Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enter Green Terrace, brainchild of Sarah Thompson"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Green Terrace",
+    "relation": "opened_on",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which officially opened its doors on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Green Terrace",
+    "relation": "described_as",
+    "value": "compact urban gardening store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This compact urban gardening store is solving city access to fresh produce"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Green Terrace",
+    "relation": "solves",
+    "value": "city access to fresh produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This compact urban gardening store is solving city access to fresh produce by selling all-in-one kits"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Green Terrace",
+    "relation": "sells",
+    "value": "all-in-one kits for growing herbs and vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "selling all-in-one kits for growing herbs and vegetables right on one's balcony or windowsill"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Green Terrace",
+    "relation": "mechanism_of",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is solving city access to fresh produce by selling all-in-one kits"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Green Terrace",
+    "relation": "described_as",
+    "value": "a statement against the industrialization of food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a statement against the industrialization of food and a vote for sustainability"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Green Terrace",
+    "relation": "represents",
+    "value": "a vote for sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a statement against the industrialization of food and a vote for sustainability"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Thompson",
+    "relation": "vision_addresses",
+    "value": "climate change through localized agriculture and reducing carbon footprints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thompson's vision plugs into a bigger picture - addressing climate change through localized agriculture and reducing carbon footprints."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "climate change",
+    "relation": "addressed_through",
+    "value": "localized agriculture and reducing carbon footprints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "addressing climate change through localized agriculture and reducing carbon footprints."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Whim",
+    "relation": "launched_by",
+    "value": "Jack Steward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Steward launched his concept store \u2018Whim\u2019 on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Whim",
+    "relation": "opened_on",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jack Steward launched his concept store \u2018Whim\u2019 on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Whim",
+    "relation": "curates",
+    "value": "an experience through quality and storytelling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whim curates an experience through quality and storytelling"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Whim",
+    "relation": "contrasts_with",
+    "value": "traditional stores that focus on quantity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unlike traditional stores that focus on quantity"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Whim",
+    "relation": "specializes_in",
+    "value": "artisanship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Specializing in artisanship"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Whim",
+    "relation": "product_feature",
+    "value": "every product on display comes with a narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every product on display comes with a narrative"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Whim",
+    "relation": "sells_examples",
+    "value": "a hand-woven scarf or a set of handcrafted earthenware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "be it a hand-woven scarf or a set of handcrafted earthenware"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Whim",
+    "relation": "facilitates",
+    "value": "workshops where customers can meet the artisans and even try their hand at making something themselves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whim facilitates workshops where customers can meet the artisans and even try their hand at making something themselves."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Whim",
+    "relation": "described_as",
+    "value": "a cultural hub that bridges the gap between creators and consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a cultural hub that bridges the gap between creators and consumers"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Whim",
+    "relation": "has_grown",
+    "value": "to be more than a mere shopping destination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This concept store has grown to be more than a mere shopping destination"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Mindful Spaces",
+    "relation": "set_up_by",
+    "value": "Vanessa and Karl Jenkins",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Vanessa and Karl Jenkins, a duo passionate about mental health, set up \u2018Mindful Spaces\u2019 on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mindful Spaces",
+    "relation": "opened_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "set up \u2018Mindful Spaces\u2019 on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Vanessa and Karl Jenkins",
+    "relation": "passionate_about",
+    "value": "mental health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a duo passionate about mental health"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mindful Spaces",
+    "relation": "presents",
+    "value": "an array of sensory rooms designed to help individuals with anxiety and stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mindful Spaces presents an array of sensory rooms designed to help individuals with anxiety and stress."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mindful Spaces",
+    "relation": "designed_to",
+    "value": "help individuals with anxiety and stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sensory rooms designed to help individuals with anxiety and stress"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mindful Spaces",
+    "relation": "contrasts_with",
+    "value": "the standard wellness center layout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Straying from the standard wellness center layout"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mindful Spaces",
+    "relation": "features",
+    "value": "soundproof calming rooms featuring ambient sounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "soundproof calming rooms featuring ambient sounds"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mindful Spaces",
+    "relation": "features",
+    "value": "rooms with walls made entirely of tactile materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rooms with walls made entirely of tactile materials"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Vanessa and Karl Jenkins",
+    "relation": "provides",
+    "value": "a much-needed sanctuary for the sensory overloaded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Jenkins are providing a much-needed sanctuary for the sensory overloaded"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Palette",
+    "relation": "opened_by",
+    "value": "Marco Gonzalez",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the opening of 'Palette,' a concept restaurant by chef Marco Gonzalez on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Palette",
+    "relation": "opened_on",
+    "value": "November 5, 2023",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the opening of 'Palette,' a concept restaurant by chef Marco Gonzalez on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Palette",
+    "relation": "described_as",
+    "value": "a concept restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the opening of 'Palette,' a concept restaurant by chef Marco Gonzalez"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Palette",
+    "relation": "described_as",
+    "value": "where gastronomy meets art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Palette is no ordinary diner; it is where gastronomy meets art."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Palette",
+    "relation": "offers",
+    "value": "a multi-sensory dining experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gonzalez\u2019s establishment offers a multi-sensory dining experience."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Palette",
+    "relation": "tasting_menus_correspond_with",
+    "value": "color schemes and textures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tasting menus correspond with color schemes and textures"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Palette",
+    "relation": "draws_on",
+    "value": "synesthesia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Drawing on the concept of synesthesia where people can 'see' sounds or 'taste' colors"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Palette",
+    "relation": "ensures",
+    "value": "each dish is not only a treat for the palate but also a feast for the eyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that each dish is not only a treat for the palate but also a feast for the eyes"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Palette",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tasting menus correspond with color schemes and textures, ensuring that each dish"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Marco Gonzalez",
+    "relation": "role",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a concept restaurant by chef Marco Gonzalez"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "synesthesia",
+    "relation": "defined_as",
+    "value": "people can 'see' sounds or 'taste' colors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the concept of synesthesia where people can 'see' sounds or 'taste' colors"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "TechTrim",
+    "relation": "launched_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Julian Castro\u2019s \u2018TechTrim\u2019 has become a talking point since its launch on December 1, 2023."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "TechTrim",
+    "relation": "described_as",
+    "value": "a tech-driven hair salon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is a tech-driven hair salon that uses 3D imaging and AI"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "TechTrim",
+    "relation": "uses",
+    "value": "3D imaging and AI to predict hair trends and suggest styles personalized to each customer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses 3D imaging and AI to predict hair trends and suggest styles personalized to each customer"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "TechTrim",
+    "relation": "combines_technology_in_order_to",
+    "value": "minimize error and maximize satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combines the latest technology to minimize error and maximize satisfaction"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Julian Castro",
+    "relation": "former_occupation",
+    "value": "software engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Castro, a former software engineer with a passion for style"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Julian Castro",
+    "relation": "passionate_about",
+    "value": "style",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Castro, a former software engineer with a passion for style"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Julian Castro",
+    "relation": "associated_with",
+    "value": "TechTrim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julian Castro\u2019s \u2018TechTrim\u2019"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "TechTrim",
+    "relation": "fills_niche",
+    "value": "between traditional hairdressing and the futuristic possibilities that technology offers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His business fills a niche between traditional hairdressing and the futuristic possibilities that technology offers."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "TechTrim",
+    "relation": "has_become",
+    "value": "a talking point",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a talking point since its launch on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Code Playhouse",
+    "relation": "opened_by",
+    "value": "Lisa and Raj Patel",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the recent opening of \u2018Code Playhouse\u2019 by Lisa and Raj Patel on December 10, 2023, is a game-changer."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Code Playhouse",
+    "relation": "opened_on",
+    "value": "December 10, 2023",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the recent opening of \u2018Code Playhouse\u2019 by Lisa and Raj Patel on December 10, 2023, is a game-changer."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Code Playhouse",
+    "relation": "described_as",
+    "value": "an immersive environment where children learn programming through gamification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's an immersive environment where children learn programming through gamification."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Code Playhouse",
+    "relation": "teaches",
+    "value": "programming through gamification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where children learn programming through gamification"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Code Playhouse",
+    "relation": "features",
+    "value": "interactive walls, programmable robots, and a plethora of gadgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Interactive walls, programmable robots, and a plethora of gadgets turn coding lessons into a veritable playground."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Code Playhouse",
+    "relation": "turns_coding_lessons_into",
+    "value": "a veritable playground",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turn coding lessons into a veritable playground."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Lisa and Raj Patel",
+    "relation": "filling_gap",
+    "value": "the gap of engaging STEM education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Patels are actively filling the gap of engaging STEM education that nurtures problem-solving skills from a young age."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "STEM education",
+    "relation": "nurtures",
+    "value": "problem-solving skills from a young age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engaging STEM education that nurtures problem-solving skills from a young age"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Escape Lounge",
+    "relation": "conceived_by",
+    "value": "Aiden Smith and Naomi Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the innovative \u2018Escape Lounge,\u2019 conceived by the entrepreneurial team of Aiden Smith and Naomi Kim, opened on January 15, 2024."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Escape Lounge",
+    "relation": "opened_on",
+    "value": "January 15, 2024",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "opened on January 15, 2024."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Escape Lounge",
+    "relation": "combines",
+    "value": "escape room-style puzzles with a laid-back caf\u00e9 ambiance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this lounge combines escape room-style puzzles with a laid-back caf\u00e9 ambiance"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Escape Lounge",
+    "relation": "described_as",
+    "value": "an avant-garde take on 'escapism'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An avant-garde take on \u2018escapism\u2019"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Aiden Smith and Naomi Kim",
+    "relation": "recognized",
+    "value": "a gap in adult leisure \u2013 the need for stimulating, intellectual recreation combined with social interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smith and Kim recognized a gap in adult leisure \u2013 the need for stimulating, intellectual recreation combined with social interaction."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "small businesses",
+    "relation": "seen_as",
+    "value": "the lifeblood of local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses are often seen as the lifeblood of local economies"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "small businesses",
+    "relation": "creates",
+    "value": "jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They create jobs, inject novel ideas into communities, and meet specific market gaps"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "small businesses",
+    "relation": "injects",
+    "value": "novel ideas into communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inject novel ideas into communities"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "small businesses",
+    "relation": "meets",
+    "value": "specific market gaps with a freshness that larger corporations sometimes lack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "meet specific market gaps with a freshness that larger corporations sometimes lack"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "small businesses",
+    "relation": "cropped_up",
+    "value": "a slew of innovative small businesses in our vicinity",
+    "time": "Over the past few months",
+    "speaker": null,
+    "verbatim": [
+     "Over the past few months, a slew of innovative small businesses have cropped up in our vicinity"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "small businesses",
+    "relation": "heralds",
+    "value": "a wave of entrepreneurship that marries creativity with practicality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heralding a wave of entrepreneurship that marries creativity with practicality"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "small businesses",
+    "relation": "demonstrates",
+    "value": "an acute understanding of modern needs and tastes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each of these trailblazing small businesses demonstrates an acute understanding of modern needs and tastes."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "small businesses",
+    "relation": "serve_to",
+    "value": "diversify the local market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their innovative concepts are not only serving to diversify the local market"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "small businesses",
+    "relation": "could_influence",
+    "value": "national, even global trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are also creating ripples that could influence national, even global trends."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "small businesses",
+    "relation": "stimulate",
+    "value": "economic growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These small businesses are not only creating jobs and stimulating economic growth"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "small businesses",
+    "relation": "induce",
+    "value": "community cohesiveness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but they also induce community cohesiveness by bringing"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "small businesses",
+    "relation": "assessed_as",
+    "value": "it's too early to predict the long-term success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While it\u2019s too early to predict the long-term success of these insurgent businesses"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "small businesses",
+    "relation": "initial_impact",
+    "value": "undeniably positive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their initial impact is undeniably positive."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "small businesses",
+    "relation": "generates",
+    "value": "new market gaps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are not only filling existing market gaps but also generating new ones"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "small businesses",
+    "relation": "compels_others_to",
+    "value": "think outside the traditional business model box",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compelling others to think outside the traditional business model box."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

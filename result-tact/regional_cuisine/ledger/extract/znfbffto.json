@@ -1,0 +1,693 @@
+{
+ "inventory": [
+  "Emily Harwood",
+  "Dr. Raj Patel",
+  "Luis Gomez",
+  "Anita Desai",
+  "Simon Yu",
+  "Jennifer Lee",
+  "Jacob Miller",
+  "Stephanie Cho",
+  "Berry Innovation Center",
+  "Thornfield",
+  "Beyond Beauty",
+  "SweetLeaf Farm",
+  "FarmChain Initiative",
+  "stevia plant",
+  "ugly produce",
+  "blockchain technology",
+  "smart greenhouses",
+  "sensor-based drip systems",
+  "vertical farming techniques",
+  "agritech",
+  "sustainable watering systems",
+  "non-invasive pest control",
+  "apple harvest",
+  "zucchini",
+  "tomato plants",
+  "eggplants",
+  "bell peppers",
+  "strawberries",
+  "raspberries",
+  "blueberries",
+  "refined sugar",
+  "QR code",
+  "pollinator-friendly farming practices",
+  "AI climate control"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Emily Harwood",
+    "relation": "occupation",
+    "value": "local orchard owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to local orchard owner Emily Harwood"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "apple harvest",
+    "relation": "outlook",
+    "value": "particularly promising",
+    "time": "This year",
+    "speaker": "Emily Harwood",
+    "verbatim": [
+     "This year, according to local orchard owner Emily Harwood, the apple harvest looks particularly promising."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Harwood",
+    "relation": "uses",
+    "value": "new agritech",
+    "time": null,
+    "speaker": "Emily Harwood",
+    "verbatim": [
+     "We've utilized new agritech to enhance the natural sweetness and crunch of our apples,"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "agritech",
+    "relation": "enhances",
+    "value": "the natural sweetness and crunch of our apples",
+    "time": null,
+    "speaker": "Emily Harwood",
+    "verbatim": [
+     "We've utilized new agritech to enhance the natural sweetness and crunch of our apples,"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "sustainable watering systems",
+    "relation": "enables",
+    "value": "fruits that are not only tastier but also kinder to our planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New technologies in sustainable watering systems and non-invasive pest control have allowed orchards like Emily's to produce fruits that are not only tastier but also kinder to our planet."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "non-invasive pest control",
+    "relation": "enables",
+    "value": "fruits that are not only tastier but also kinder to our planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New technologies in sustainable watering systems and non-invasive pest control have allowed orchards like Emily's to produce fruits that are not only tastier but also kinder to our planet."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Berry Innovation Center",
+    "relation": "located_in",
+    "value": "Thornfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the Berry Innovation Center in Thornfield"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Thornfield",
+    "relation": "location_of",
+    "value": "Berry Innovation Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the Berry Innovation Center in Thornfield"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Raj Patel",
+    "relation": "works_at",
+    "value": "Berry Innovation Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the Berry Innovation Center in Thornfield, lead researcher Dr. Raj Patel"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Raj Patel",
+    "relation": "role",
+    "value": "lead researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lead researcher Dr. Raj Patel"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Raj Patel",
+    "relation": "developing",
+    "value": "resilient berry strains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Raj Patel has been developing resilient berry strains."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Raj Patel",
+    "relation": "said_working_on",
+    "value": "varieties that thrive in changing climates while maintaining, and in some cases, boosting their antioxidant levels",
+    "time": null,
+    "speaker": "Dr. Raj Patel",
+    "verbatim": [
+     "We're working on varieties that thrive in changing climates while maintaining, and in some cases, boosting their antioxidant levels,"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "strawberries",
+    "relation": "may_be_supercharged_with",
+    "value": "health benefits",
+    "time": "tomorrow",
+    "speaker": null,
+    "verbatim": [
+     "strawberries, raspberries, and blueberries of tomorrow may well be supercharged with health benefits"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "raspberries",
+    "relation": "may_be_supercharged_with",
+    "value": "health benefits",
+    "time": "tomorrow",
+    "speaker": null,
+    "verbatim": [
+     "strawberries, raspberries, and blueberries of tomorrow may well be supercharged with health benefits"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "blueberries",
+    "relation": "may_be_supercharged_with",
+    "value": "health benefits",
+    "time": "tomorrow",
+    "speaker": null,
+    "verbatim": [
+     "strawberries, raspberries, and blueberries of tomorrow may well be supercharged with health benefits"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "strawberries",
+    "relation": "caused_by",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been developing resilient berry strains.",
+     "Thanks to such advancements, strawberries, raspberries, and blueberries of tomorrow may well be supercharged with health benefits."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "zucchini",
+    "relation": "undergoing",
+    "value": "a transformation, becoming even more versatile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The classic zucchini, often a staple in light summer dishes, is undergoing a transformation, becoming even more versatile."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Luis Gomez",
+    "relation": "occupation",
+    "value": "Urban farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban farmer Luis Gomez takes pride in his heirloom zucchini crop."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Luis Gomez",
+    "relation": "takes_pride_in",
+    "value": "his heirloom zucchini crop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban farmer Luis Gomez takes pride in his heirloom zucchini crop."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "vertical farming techniques",
+    "relation": "used_to",
+    "value": "save space and maximize yield without compromising the zucchini's flavor",
+    "time": null,
+    "speaker": "Luis Gomez",
+    "verbatim": [
+     "We apply vertical farming techniques to save space and maximize yield without compromising the zucchini's flavor,"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "eggplants",
+    "relation": "described_as",
+    "value": "hearty vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hearty vegetables like eggplants and bell peppers are not far behind."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "bell peppers",
+    "relation": "described_as",
+    "value": "hearty vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hearty vegetables like eggplants and bell peppers are not far behind."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "smart greenhouses",
+    "relation": "equipped_with",
+    "value": "AI climate control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing smart greenhouses equipped with AI climate control"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "smart greenhouses",
+    "relation": "enables_producers_to",
+    "value": "optimize growing conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "producers can optimize growing conditions"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "smart greenhouses",
+    "relation": "uses",
+    "value": "less water and energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These smart greenhouses also use less water and energy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "sensor-based drip systems",
+    "relation": "allow",
+    "value": "efficient water usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Breakthroughs in irrigation technology, such as the implementation of sensor-based drip systems, allow for efficient water usage."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "sensor-based drip systems",
+    "relation": "in_use_since",
+    "value": "broader use",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "These systems, now in broader use since September 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "sensor-based drip systems",
+    "relation": "deliver_water_to",
+    "value": "the plants' roots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "deliver water directly to the plants' roots"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "sensor-based drip systems",
+    "relation": "reduces",
+    "value": "waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly reducing waste"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Anita Desai",
+    "relation": "occupation",
+    "value": "tomato grower",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says tomato grower Anita Desai."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Anita Desai",
+    "relation": "says",
+    "value": "remarkable improvements in the taste and size of our tomatoes due to the precision irrigation",
+    "time": null,
+    "speaker": "Anita Desai",
+    "verbatim": [
+     "We see remarkable improvements in the taste and size of our tomatoes due to the precision irrigation,"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "tomato plants",
+    "relation": "improved_taste_and_size_due_to",
+    "value": "precision irrigation",
+    "time": null,
+    "speaker": "Anita Desai",
+    "verbatim": [
+     "We see remarkable improvements in the taste and size of our tomatoes due to the precision irrigation,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Simon Yu",
+    "relation": "occupation",
+    "value": "geneticist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "geneticists like Simon Yu are pushing the boundaries even further."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Simon Yu",
+    "relation": "experimenting_with",
+    "value": "tomato plants that can pull more nutrients from the soil",
+    "time": null,
+    "speaker": "Simon Yu",
+    "verbatim": [
+     "We've been experimenting with tomato plants that can pull more nutrients from the soil, leading to a higher concentration of vitamins in the fruit itself,"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "tomato plants",
+    "relation": "leads_to",
+    "value": "a higher concentration of vitamins in the fruit itself",
+    "time": null,
+    "speaker": "Simon Yu",
+    "verbatim": [
+     "leading to a higher concentration of vitamins in the fruit itself"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "ugly produce",
+    "relation": "described_as",
+    "value": "as delicious and nutritious as their picture-perfect counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These are the items that, despite their non-conformity to traditional beauty standards, are as delicious and nutritious as their picture-perfect counterparts."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Beyond Beauty",
+    "relation": "owned_by",
+    "value": "Jennifer Lee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer Lee's \"Beyond Beauty\" markets"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Beyond Beauty",
+    "relation": "made_headlines",
+    "value": "made headlines",
+    "time": "the summer of 2023",
+    "speaker": null,
+    "verbatim": [
+     "which made headlines in the summer of 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Beyond Beauty",
+    "relation": "sells",
+    "value": "solely \"ugly\" produce at a discount",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sell solely \"ugly\" produce at a discount"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Beyond Beauty",
+    "relation": "tackles",
+    "value": "food waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tackling food waste"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Beyond Beauty",
+    "relation": "makes_accessible",
+    "value": "high-quality, fresh food to more people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making high-quality, fresh food accessible to more people"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jennifer Lee",
+    "relation": "owns",
+    "value": "Beyond Beauty markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer Lee's \"Beyond Beauty\" markets"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "refined sugar",
+    "relation": "dominance_is",
+    "value": "numbered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the days of refined sugar dominance are numbered."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "stevia plant",
+    "relation": "known_for",
+    "value": "no-calorie sweetness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The stevia plant, known for its no-calorie sweetness,"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "stevia plant",
+    "relation": "popularity",
+    "value": "an upswing in popularity among health-conscious consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen an upswing in popularity among health-conscious consumers"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "SweetLeaf Farm",
+    "relation": "owned_by",
+    "value": "Jacob Miller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jacob Miller's SweetLeaf Farm"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "SweetLeaf Farm",
+    "relation": "doubled",
+    "value": "its stevia yield",
+    "time": "Over the past summer",
+    "speaker": null,
+    "verbatim": [
+     "Over the past summer, Jacob Miller's SweetLeaf Farm has successfully doubled its stevia yield"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "SweetLeaf Farm",
+    "relation": "used",
+    "value": "pollinator-friendly farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "doubled its stevia yield with pollinator-friendly farming practices"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "SweetLeaf Farm",
+    "relation": "achieved_with",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "doubled its stevia yield with pollinator-friendly farming practices"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "SweetLeaf Farm",
+    "relation": "hints_at",
+    "value": "a symbiotic future of food production where farm ecology and output bloom in unison",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hinting at a symbiotic future of food production where farm ecology and output bloom in unison"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "blockchain technology",
+    "relation": "enables",
+    "value": "a more efficient and transparent journey of food from the soil to your plate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The journey of food from the soil to your plate is becoming more efficient and transparent, thanks in no small part to blockchain technology."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "blockchain technology",
+    "relation": "adopted_by",
+    "value": "Farmers, distributors, and retailers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Farmers, distributors, and retailers are increasingly adopting these secure digital ledgers to track the journey of produce."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "blockchain technology",
+    "relation": "ensures",
+    "value": "quality and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This system ensures quality and safety, reducing the chances of contamination and fraud."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "blockchain technology",
+    "relation": "reduces",
+    "value": "the chances of contamination and fraud",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This system ensures quality and safety, reducing the chances of contamination and fraud."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Stephanie Cho",
+    "relation": "role",
+    "value": "head of FarmChain Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stephanie Cho, head of FarmChain Initiative, shared in August"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "FarmChain Initiative",
+    "relation": "head",
+    "value": "Stephanie Cho",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stephanie Cho, head of FarmChain Initiative, shared in August"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Stephanie Cho",
+    "relation": "stated",
+    "value": "Our platform allows consumers to scan a QR code and instantly learn the story of their meal, from seed to harvest to their plate.",
+    "time": "August",
+    "speaker": "Stephanie Cho",
+    "verbatim": [
+     "Our platform allows consumers to scan a QR code and instantly learn the story of their meal, from seed to harvest to their plate."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "FarmChain Initiative",
+    "relation": "platform_allows",
+    "value": "consumers to scan a QR code and instantly learn the story of their meal",
+    "time": null,
+    "speaker": "Stephanie Cho",
+    "verbatim": [
+     "Our platform allows consumers to scan a QR code and instantly learn the story of their meal, from seed to harvest to their plate."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "QR code",
+    "relation": "used_to_learn",
+    "value": "the story of their meal, from seed to harvest to their plate",
+    "time": null,
+    "speaker": "Stephanie Cho",
+    "verbatim": [
+     "allows consumers to scan a QR code and instantly learn the story of their meal, from seed to harvest to their plate."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

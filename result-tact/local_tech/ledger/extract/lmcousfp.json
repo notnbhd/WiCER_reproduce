@@ -1,0 +1,909 @@
+{
+ "inventory": [
+  "Bob Anderson",
+  "Springfield, Illinois",
+  "Midwest",
+  "AgriTech Expo",
+  "Claire Thompson",
+  "Local Innovations in Farming initiative",
+  "Field Management Information System",
+  "precision irrigation",
+  "precision agriculture",
+  "smart farming innovations",
+  "drones",
+  "soil sensors",
+  "data analytics platforms",
+  "pesticides",
+  "aquifer levels",
+  "community workshops",
+  "harvest season of 2024",
+  "local farming community"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Midwest",
+    "relation": "has_crops",
+    "value": "corn and soybean fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nestled among the traditional vast expanses of corn and soybean fields"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local farming community",
+    "relation": "once_skeptical_of",
+    "value": "so-called 'high-tech' farming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local farmers, once skeptical of so-called 'high-tech' farming, are increasingly adopting smart farming innovations."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "local farming community",
+    "relation": "increasingly_adopting",
+    "value": "smart farming innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local farmers, once skeptical of so-called 'high-tech' farming, are increasingly adopting smart farming innovations."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "smart farming innovations",
+    "relation": "described_as",
+    "value": "a quiet revolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quiet revolution is taking place"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "smart farming innovations",
+    "relation": "described_as",
+    "value": "an evolving narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Behind this shift is an evolving narrative"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "smart farming innovations",
+    "relation": "results_in",
+    "value": "a sustainable and profitable future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a sustainable and profitable future"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "smart farming innovations",
+    "relation": "article_dated",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 15, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Bob Anderson",
+    "relation": "is_a",
+    "value": "a third-generation farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Anderson, a third-generation farmer from Springfield, Illinois"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Springfield, Illinois",
+    "relation": "home_of",
+    "value": "Bob Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Anderson, a third-generation farmer from Springfield, Illinois"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Bob Anderson",
+    "relation": "regarded_smartphone_as",
+    "value": "a tool for communication, not cultivation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regarded his smartphone as a tool for communication, not cultivation"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Bob Anderson",
+    "relation": "trust_lay_in",
+    "value": "the knowledge handed down through generations \u2014 the feel of the soil, the look of the skies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His trust lay in the knowledge handed down through generations \u2014 the feel of the soil, the look of the skies."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "AgriTech Expo",
+    "relation": "visited_by",
+    "value": "Bob Anderson",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a visit to the AgriTech Expo on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Bob Anderson",
+    "relation": "introduced_to_potential_of",
+    "value": "precision agriculture",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "But a visit to the AgriTech Expo on October 3, 2023, introduced Bob to the potential of precision agriculture."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bob Anderson",
+    "relation": "stated",
+    "value": "I've always thought if it ain't broke, don't fix it",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "\"I've always thought if it ain't broke, don't fix it,\" Bob said, reflecting on his initial reluctance."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bob Anderson",
+    "relation": "realized",
+    "value": "'not broke' isn't the same as 'can't be improved'",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "But I realized 'not broke' isn't the same as 'can't be improved.'"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Bob Anderson",
+    "relation": "encountered",
+    "value": "a series of eye-opening innovations",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At the expo, Bob encountered a series of eye-opening innovations"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "drones",
+    "relation": "capable_of",
+    "value": "monitoring crop health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drones capable of monitoring crop health"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "soil sensors",
+    "relation": "report",
+    "value": "moisture and nutrient levels in real time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "soil sensors that report moisture and nutrient levels in real time"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "data analytics platforms",
+    "relation": "interpret",
+    "value": "this information to optimize planting patterns and irrigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "data analytics platforms that interpret this information to optimize planting patterns and irrigation"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bob Anderson",
+    "relation": "received_grant_from",
+    "value": "Local Innovations in Farming initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Armed with curiosity and a grant from the Local Innovations in Farming initiative"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Bob Anderson",
+    "relation": "began",
+    "value": "smart farming experiment",
+    "time": "spring of 2024",
+    "speaker": null,
+    "verbatim": [
+     "Bob began his smart farming experiment in the spring of 2024."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Bob Anderson",
+    "relation": "adopted",
+    "value": "a Field Management Information System (FMIS)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The first step was adopting a Field Management Information System (FMIS)."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Field Management Information System",
+    "relation": "described_as",
+    "value": "integrated digital framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This integrated digital framework allowed him to monitor every acre of his farm with an unprecedented level of detail."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Field Management Information System",
+    "relation": "enables",
+    "value": "monitoring every acre of his farm with an unprecedented level of detail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This integrated digital framework allowed him to monitor every acre of his farm with an unprecedented level of detail."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Bob Anderson",
+    "relation": "installed",
+    "value": "soil sensors across different patches of his farmland",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob installed soil sensors across different patches of his farmland."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bob Anderson",
+    "relation": "checked",
+    "value": "his tablet for real-time data on soil conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he found himself checking his tablet for real-time data on soil conditions, rather than relying solely on his instincts."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Bob Anderson",
+    "relation": "found",
+    "value": "not all of his land required the same amount of water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A pattern quickly emerged: not all of his land required the same amount of water."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Bob Anderson",
+    "relation": "stated",
+    "value": "I was bringing the same rain to every part of my farm when some spots were crying for sunshine",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "\"I was bringing the same rain to every part of my farm when some spots were crying for sunshine,\" Bob said, referring to his uniform irrigation practices."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Bob Anderson",
+    "relation": "referred_to",
+    "value": "his uniform irrigation practices",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "\"I was bringing the same rain to every part of my farm when some spots were crying for sunshine,\" Bob said, referring to his uniform irrigation practices."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Bob Anderson",
+    "relation": "switched_to",
+    "value": "precision irrigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped Bob switch to precision irrigation"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "precision irrigation",
+    "relation": "ensures",
+    "value": "each crop received the exact amount of water needed at the optimal time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that each crop received the exact amount of water needed at the optimal time"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Field Management Information System",
+    "relation": "enables",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The FMIS's data helped Bob switch to precision irrigation"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "precision irrigation",
+    "relation": "reduced_water_consumption_by",
+    "value": "20%",
+    "time": "the first year",
+    "speaker": null,
+    "verbatim": [
+     "reduced water consumption by 20% in the first year alone"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "precision irrigation",
+    "relation": "improved",
+    "value": "crop yield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all while improving crop yield"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "precision irrigation",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tailored approach reduced water consumption by 20% in the first year alone"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Bob Anderson",
+    "relation": "admitted",
+    "value": "Using less water was a game changer, not just for my bills, but for my conscience",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "\"Using less water was a game changer, not just for my bills, but for my conscience,\" admitted Bob."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "aquifer levels",
+    "relation": "described_as",
+    "value": "a growing concern in the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As aquifer levels in the region had been a growing concern"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "precision irrigation",
+    "relation": "made",
+    "value": "a significant environmental impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "any savings in water use made a significant environmental impact"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "drones",
+    "relation": "viewed_as",
+    "value": "toys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initially viewed as toys by many of Bob's peers"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "drones",
+    "relation": "proved_to_be",
+    "value": "a cornerstone of modern farming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these unmanned aerial vehicles quickly proved to be a cornerstone of modern farming"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "drones",
+    "relation": "provided",
+    "value": "highresolution images",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They provided highresolution images"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "drones",
+    "relation": "identified",
+    "value": "pest infestations and plant diseases long before they became visible to the naked eye",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "identified pest infestations and plant diseases long before they became visible to the naked eye"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "pesticides",
+    "relation": "traditionally_applied_to",
+    "value": "entire fields as a preventive measure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditionally, entire fields would be sprayed with pesticides as a preventive measure"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "drones",
+    "relation": "helped_limit",
+    "value": "chemical applications to only the affected areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the drones helped Bob limit chemical applications to only the affected areas"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "pesticides",
+    "relation": "use_dropped_by",
+    "value": "35%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His pesticide use dropped by 35%"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "pesticides",
+    "relation": "reduced",
+    "value": "costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cutting costs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "pesticides",
+    "relation": "reduced",
+    "value": "chemical runoff into the local water system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing chemical runoff into the local water system"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "pesticides",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His pesticide use dropped by 35%, cutting costs"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "drones",
+    "relation": "results_in",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the drones helped Bob limit chemical applications to only the affected areas",
+     "His pesticide use dropped by 35%"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bob Anderson",
+    "relation": "sought_expertise_of",
+    "value": "Claire Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob sought the expertise of Claire Thompson"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Bob Anderson",
+    "relation": "had_collected",
+    "value": "a growing season's worth of data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a growing season's worth of data collected"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Claire Thompson",
+    "relation": "is_a",
+    "value": "a data scientist specializing in agricultural analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a data scientist specializing in agricultural analytics"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Claire Thompson",
+    "relation": "used",
+    "value": "advanced software to interpret the vast amounts of data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Claire used advanced software to interpret the vast amounts of data"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Claire Thompson",
+    "relation": "predicted",
+    "value": "future trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "predicting future trends"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Claire Thompson",
+    "relation": "advised_on",
+    "value": "how to improve crop genetics, enhance soil health, and ultimately, increase profit margins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advising on how to improve crop genetics, enhance soil health, and ultimately, increase profit margins"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Claire Thompson",
+    "relation": "stated",
+    "value": "the data from his farm is like a story",
+    "time": null,
+    "speaker": "Claire Thompson",
+    "verbatim": [
+     "\"I showed Bob that the data from his farm is like a story,\" explained Claire."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Claire Thompson",
+    "relation": "stated",
+    "value": "It reveals the past, illuminates the present, and hints at the future",
+    "time": null,
+    "speaker": "Claire Thompson",
+    "verbatim": [
+     "It reveals the past, illuminates the present, and hints at the future."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Bob Anderson",
+    "relation": "began_experimenting_with",
+    "value": "new crop varieties better suited to the precise conditions of his soil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With her help, Bob began experimenting with new crop varieties that were better suited to the precise conditions of his soil."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Bob Anderson",
+    "relation": "yield_increased_by",
+    "value": "15%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This targeted cultivation led to a remarkable 15% increase in his yields."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Bob Anderson",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With her help, Bob began experimenting with new crop varieties",
+     "This targeted cultivation led to a remarkable 15% increase in his yields."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "smart farming innovations",
+    "relation": "had",
+    "value": "an unexpected social impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adopting smart farming innovations had an unexpected social impact."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Bob Anderson",
+    "relation": "became",
+    "value": "something of a local celebrity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob became something of a local celebrity"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "community workshops",
+    "relation": "hosted_by",
+    "value": "Bob Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosting community workshops that demystified technology"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "community workshops",
+    "relation": "demystified",
+    "value": "technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosting community workshops that demystified technology"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "community workshops",
+    "relation": "encouraged",
+    "value": "other farmers to explore precision agriculture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged other farmers to explore precision agriculture"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Bob Anderson",
+    "relation": "farm_transformed_into",
+    "value": "a hub of knowledge-sharing and innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His farm, once a bastion of traditional practices, transformed into a hub of knowledge-sharing and innovation."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "local farming community",
+    "relation": "described_as",
+    "value": "a new kind of community sprouting up",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "\"We're seeing a new kind of community sprouting up,\" reported Bob."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "local farming community",
+    "relation": "exchanging",
+    "value": "data findings over the fence",
+    "time": null,
+    "speaker": "Bob Anderson",
+    "verbatim": [
+     "Neighbors exchanging data findings over the fence, just like they used to share weather forecasts."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Bob Anderson",
+    "relation": "venture_yielded",
+    "value": "tangible results",
+    "time": "harvest season of 2024",
+    "speaker": null,
+    "verbatim": [
+     "As the harvest season of 2024 approached, Bob's venture into smart farming yielded tangible results."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Bob Anderson",
+    "relation": "production_changed",
+    "value": "increased",
+    "time": "harvest season of 2024",
+    "speaker": null,
+    "verbatim": [
+     "His production had increased"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Bob Anderson",
+    "relation": "environmental_footprint_changed",
+    "value": "decreased",
+    "time": "harvest season of 2024",
+    "speaker": null,
+    "verbatim": [
+     "his environmental footprint had decreased"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Bob Anderson",
+    "relation": "efficiencies_converted_into",
+    "value": "financial savings \u2014 and earnings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the efficiencies gained converted directly into financial savings \u2014 and earnings"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Bob Anderson",
+    "relation": "garnered",
+    "value": "a deeper understanding and connection to his land",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob had garnered a deeper understanding and connection to his land."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "smart farming innovations",
+    "relation": "described_as",
+    "value": "not a surrender of traditional ways to technology, but rather a harmonious partnership between them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It wasn't a surrender of traditional ways to technology, but rather a harmonious partnership between them."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Bob Anderson",
+    "relation": "described_as",
+    "value": "an unlikely advocate for agritech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An unlikely advocate for agritech"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Bob Anderson",
+    "relation": "revolutionized",
+    "value": "his own agricultural practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob had effectively revolutionized his own agricultural practices"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Bob Anderson",
+    "relation": "created",
+    "value": "a ripple effect throughout the local farming community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a ripple effect throughout the local farming community"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Bob Anderson",
+    "relation": "results_in",
+    "value_ref": "c77",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob had effectively revolutionized his own agricultural practices, creating a ripple effect throughout the local farming community."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "smart farming innovations",
+    "relation": "sown_seeds_for",
+    "value": "a bountiful future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had sown the seeds for a bountiful future"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "smart farming innovations",
+    "relation": "promised",
+    "value": "sustainability and growth in more ways than one",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a future that promised sustainability and growth in more ways than one"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,29 @@
+{
+  "topic": "company_policies",
+  "corpus_sha256": "7aa7ab622e092a98b15f7878a6b8fff0f910d036662973f24e2a5a5c18e21132",
+  "n_documents": 80,
+  "n_claims": 3219,
+  "n_claims_before_merge": 3220,
+  "n_raw": 3221,
+  "n_rejected": 1,
+  "n_multispan": 27,
+  "n_relational": 184,
+  "rejection_rate": 0.0003104625892579944,
+  "n_contradictions": 20,
+  "inventory_size": 1049,
+  "n_canonical_entities": 920,
+  "entity_collision_rate": 0.0010869565217391304,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 273976,
+    "output_tokens": 1079663,
+    "measured_cost_usd": 0.0
+  }
+}

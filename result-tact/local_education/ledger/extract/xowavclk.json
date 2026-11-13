@@ -1,0 +1,978 @@
+{
+ "inventory": [
+  "Jefferson Community College",
+  "Adult Education Programs",
+  "Michael Carter",
+  "Sarah Nguyen",
+  "Daniel Lopez",
+  "Aisha Patel",
+  "Linda Ferguson",
+  "Emily Thompson",
+  "Carlos Rivera",
+  "Maria Zhang",
+  "John Bradley",
+  "Stephanie White",
+  "Rajeev Singh",
+  "Counseling and Career Services Center",
+  "cybersecurity program",
+  "nursing seminar",
+  "advanced manufacturing class",
+  "Digital Marketing Strategies",
+  "Intro to Business Management",
+  "Introduction to Coding",
+  "culinary arts kitchen",
+  "Community colleges",
+  "lifelong learning"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jefferson Community College",
+    "relation": "established_in",
+    "value": "post-September 2023",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Established post-September 2023, JCC's Adult Education Programs have been pivotal in transforming lives and invigorating the local workforce."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Adult Education Programs",
+    "relation": "has_impact",
+    "value": "pivotal in transforming lives and invigorating the local workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adult Education Programs have been pivotal in transforming lives and invigorating the local workforce."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jefferson Community College",
+    "relation": "described_as",
+    "value": "a sanctuary for adult learners seeking new opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emerges as a sanctuary for adult learners seeking new opportunities"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jefferson Community College",
+    "relation": "located_in",
+    "value": "on the outskirts of downtown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the outskirts of downtown, nestled within a bustling campus"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Michael Carter",
+    "relation": "age",
+    "value": "42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At age 42, Michael, a veteran,"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Michael Carter",
+    "relation": "is",
+    "value": "a veteran",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At age 42, Michael, a veteran,"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Michael Carter",
+    "relation": "represents",
+    "value": "the mosaic of adult students attending community colleges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At age 42, Michael, a veteran, represents the mosaic of adult students attending community colleges."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Michael Carter",
+    "relation": "enrolled_in",
+    "value": "cybersecurity program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he decided to enroll in JCC's cybersecurity program"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Michael Carter",
+    "relation": "motivated_by",
+    "value": "after years in the service and subsequent struggles in transitioning to civilian employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after years in the service and subsequent struggles in transitioning to civilian employment"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Michael Carter",
+    "relation": "caused_by",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after years in the service and subsequent struggles in transitioning to civilian employment, he decided to enroll in JCC's cybersecurity program"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Michael Carter",
+    "relation": "alarm_time",
+    "value": "6:30 AM",
+    "time": "6:30 AM",
+    "speaker": null,
+    "verbatim": [
+     "It's 6:30 AM, and Michael Carter's alarm clock pierces the silence of his small apartment."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Michael Carter",
+    "relation": "rises",
+    "value": "with the sun",
+    "time": "Each day",
+    "speaker": null,
+    "verbatim": [
+     "Each day, he rises with the sun"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sarah Nguyen",
+    "relation": "age",
+    "value": "35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Nguyen, a 35-year-old single mother"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sarah Nguyen",
+    "relation": "is",
+    "value": "a single mother",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Nguyen, a 35-year-old single mother"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Nguyen",
+    "relation": "attends",
+    "value": "nursing seminar",
+    "time": "today",
+    "speaker": null,
+    "verbatim": [
+     "hastily reviews her notes for today's nursing seminar"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Nguyen",
+    "relation": "aspires_to",
+    "value": "becoming a registered nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With aspirations of becoming a registered nurse"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Nguyen",
+    "relation": "balances",
+    "value": "a parttime job and parenting responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "balances her studies with a parttime job and parenting responsibilities"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Nguyen",
+    "relation": "located_in",
+    "value": "a classroom not far from Michael\u2019s",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a classroom not far from Michael\u2019s, Sarah Nguyen"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Community colleges",
+    "relation": "offers",
+    "value": "flexibly scheduled classes and support services designed to help adult learners like her succeed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering flexibly scheduled classes and support services designed to help adult learners like her succeed"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Community colleges",
+    "relation": "described_as",
+    "value": "a godsend for her",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community colleges like JCC are a godsend for her"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jefferson Community College",
+    "relation": "buzzes_with",
+    "value": "activity",
+    "time": "noon",
+    "speaker": null,
+    "verbatim": [
+     "As the clock strikes noon, JCC buzzes with activity."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Adult Education Programs",
+    "relation": "fosters",
+    "value": "an environment where backgrounds blur into a cohesive learning tapestry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The adult education programs foster an environment where backgrounds blur into a cohesive learning tapestry."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Daniel Lopez",
+    "relation": "age",
+    "value": "50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an advanced manufacturing class, 50-year-old Daniel Lopez"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Daniel Lopez",
+    "relation": "is",
+    "value": "a worker seeking to upskill in the face of automation threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "50-year-old Daniel Lopez, a worker seeking to upskill in the face of automation threats"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Daniel Lopez",
+    "relation": "attends",
+    "value": "advanced manufacturing class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an advanced manufacturing class, 50-year-old Daniel Lopez"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Daniel Lopez",
+    "relation": "paired_with",
+    "value": "Aisha Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pairs with Aisha Patel"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Aisha Patel",
+    "relation": "is",
+    "value": "a young entrepreneur looking to understand the manufacturing process better",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aisha Patel, a young entrepreneur looking to understand the manufacturing process better"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Aisha Patel",
+    "relation": "attends",
+    "value": "advanced manufacturing class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In an advanced manufacturing class, 50-year-old Daniel Lopez, a worker seeking to upskill in the face of automation threats, pairs with Aisha Patel"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "advanced manufacturing class",
+    "relation": "dialogue_features",
+    "value": "perspectives that only such diversity can bring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their dialogue is rich with perspectives that only such diversity can bring."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jefferson Community College",
+    "relation": "instructors_from",
+    "value": "varied industries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instructors at JCC hail from varied industries, often bringing real-world experiences into the classroom."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Linda Ferguson",
+    "relation": "title",
+    "value": "Professor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Take Professor Linda Ferguson, for instance."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Linda Ferguson",
+    "relation": "experience",
+    "value": "two decades in marketing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With two decades in marketing under her belt"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Linda Ferguson",
+    "relation": "teaches",
+    "value": "Digital Marketing Strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she facilitates lively discussions in her \"Digital Marketing Strategies\" class"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Digital Marketing Strategies",
+    "relation": "aims_to_ensure",
+    "value": "students stay abreast of the latest trends and tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring students stay abreast of the latest trends and tools"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jefferson Community College",
+    "relation": "commitment_to",
+    "value": "practical, hands-on education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of JCC's cornerstones is its commitment to practical, hands-on education."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Carlos Rivera",
+    "relation": "age",
+    "value": "38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the stateof-the-art culinary arts kitchen, 38-year-old Carlos Rivera carefully pipes frosting onto a cake."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Carlos Rivera",
+    "relation": "pipes",
+    "value": "frosting onto a cake",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "carefully pipes frosting onto a cake"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Carlos Rivera",
+    "relation": "located_in",
+    "value": "culinary arts kitchen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the stateof-the-art culinary arts kitchen, 38-year-old Carlos Rivera"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "culinary arts kitchen",
+    "relation": "described_as",
+    "value": "stateof-the-art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the stateof-the-art culinary arts kitchen"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Emily Thompson",
+    "relation": "title",
+    "value": "Chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the watchful eye of Chef Emily Thompson"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Thompson",
+    "relation": "is",
+    "value": "a pastry aficionado and small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the watchful eye of Chef Emily Thompson, a pastry aficionado and small business owner"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Carlos Rivera",
+    "relation": "supervised_by",
+    "value": "Emily Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under the watchful eye of Chef Emily Thompson"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Carlos Rivera",
+    "relation": "aspires_to",
+    "value": "opening his own bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fueling his dream of opening his own bakery"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Community colleges",
+    "relation": "emphasize",
+    "value": "skill-based education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community college's emphasis on skill-based education"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Zhang",
+    "relation": "age",
+    "value": "45-yearold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Zhang, a 45-yearold former accountant"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Maria Zhang",
+    "relation": "former_occupation",
+    "value": "accountant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Zhang, a 45-yearold former accountant"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Maria Zhang",
+    "relation": "engaged_in",
+    "value": "data analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is engrossed in data analytics"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Maria Zhang",
+    "relation": "career_status",
+    "value": "Transitioning careers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transitioning careers, Maria values"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Maria Zhang",
+    "relation": "values",
+    "value": "the college's modern resources and proactive approach to adult learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria values the college's modern resources and proactive approach to adult learning"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jefferson Community College",
+    "relation": "provides",
+    "value": "up-to-date software and datasets from local businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which includes up-to-date software and datasets from local businesses"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Community colleges",
+    "relation": "provide",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community colleges like JCC do not only provide education; they nurture their students."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Community colleges",
+    "relation": "nurture",
+    "value": "their students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community colleges like JCC do not only provide education; they nurture their students."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Counseling and Career Services Center",
+    "relation": "activity_in",
+    "value": "abuzz with activity in the late afternoon",
+    "time": "late afternoon",
+    "speaker": null,
+    "verbatim": [
+     "The Counseling and Career Services Center is abuzz with activity in the late afternoon."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "John Bradley",
+    "relation": "role",
+    "value": "Counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Counselors like John Bradley work closely with adult learners"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "John Bradley",
+    "relation": "works_with",
+    "value": "adult learners to navigate academic pressures and juggle life responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Counselors like John Bradley work closely with adult learners to navigate academic pressures and juggle life responsibilities."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Counseling and Career Services Center",
+    "relation": "offers",
+    "value": "career guidance, resume workshops, and mock interviews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They offer career guidance, resume workshops, and mock interviews"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Counseling and Career Services Center",
+    "relation": "purpose_of_offers",
+    "value": "ensuring that students' educational investments pay off in meaningful employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all aimed at ensuring that students' educational investments pay off in meaningful employment"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Counseling and Career Services Center",
+    "relation": "in_order_to",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They offer career guidance, resume workshops, and mock interviews, all aimed at ensuring that students' educational investments pay off in meaningful employment."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Stephanie White",
+    "relation": "title",
+    "value": "career counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stephanie White, a career counselor at JCC, underscores the importance of this support."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Stephanie White",
+    "relation": "works_at",
+    "value": "JCC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a career counselor at JCC"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Stephanie White",
+    "relation": "underscores",
+    "value": "the importance of this support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stephanie White, a career counselor at JCC, underscores the importance of this support."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Stephanie White",
+    "relation": "says",
+    "value": "Our adult learners come from all walks of life.",
+    "time": null,
+    "speaker": "Stephanie White",
+    "verbatim": [
+     "Our adult learners come from all walks of life."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Stephanie White",
+    "relation": "says",
+    "value": "Some are looking for a second chance, others for career advancement",
+    "time": null,
+    "speaker": "Stephanie White",
+    "verbatim": [
+     "Some are looking for a second chance, others for career advancement"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Stephanie White",
+    "relation": "says",
+    "value": "It's our job to help them find their way and to reassure them that it's never too late to learn and grow.",
+    "time": null,
+    "speaker": "Stephanie White",
+    "verbatim": [
+     "It's our job to help them find their way and to reassure them that it's never too late to learn and grow."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Jefferson Community College",
+    "relation": "accommodates",
+    "value": "those who can only attend classes after work",
+    "time": "As evening approaches",
+    "speaker": null,
+    "verbatim": [
+     "accommodating those who can only attend classes after work."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Jefferson Community College",
+    "relation": "takes_on",
+    "value": "a serene ambience",
+    "time": "As evening approaches",
+    "speaker": null,
+    "verbatim": [
+     "the campus takes on a serene ambience"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Intro to Business Management",
+    "relation": "taught_by",
+    "value": "Rajeev Singh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taught by adjunct professor and local entrepreneur, Rajeev Singh"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Rajeev Singh",
+    "relation": "title",
+    "value": "adjunct professor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taught by adjunct professor and local entrepreneur, Rajeev Singh"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Rajeev Singh",
+    "relation": "is",
+    "value": "local entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taught by adjunct professor and local entrepreneur, Rajeev Singh"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Rajeev Singh",
+    "relation": "discusses",
+    "value": "the nuances of effective management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He's discussing the nuances of effective management"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Intro to Business Management",
+    "relation": "students_find",
+    "value": "new truths in his teachings that resonate with their own aspirations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "finding new truths in his teachings that resonate with their own aspirations"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Introduction to Coding",
+    "relation": "has_students",
+    "value": "adults of varying ages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a computer lab is filled with adults of varying ages"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Introduction to Coding",
+    "relation": "learners_at",
+    "value": "different stages of mastering this new language",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are at different stages of mastering this new language"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Introduction to Coding",
+    "relation": "represents",
+    "value": "a step toward the future they envision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each keystroke represents a step toward the future they envision"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Introduction to Coding",
+    "relation": "envisions",
+    "value": "a future where age or past educational shortcomings are no hindrances to success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A future where age or past educational shortcomings are no hindrances to success"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Jefferson Community College",
+    "relation": "concludes",
+    "value": "the halls slowly empty as another day of learning concludes",
+    "time": "Night",
+    "speaker": null,
+    "verbatim": [
+     "Night settles on JCC, and the halls slowly empty as another day of learning concludes."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Adult Education Programs",
+    "relation": "students_leave",
+    "value": "some hurrying to catch the bus home, others to night shifts at work",
+    "time": "Night",
+    "speaker": null,
+    "verbatim": [
+     "some hurrying to catch the bus home"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "lifelong learning",
+    "relation": "pursuit_of",
+    "value": "personal and professional growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a relentless pursuit of personal and professional growth through lifelong learning"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Adult Education Programs",
+    "relation": "reflects",
+    "value": "a growing trend across the nation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are reflective of a growing trend across the nation"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Community colleges",
+    "relation": "recognize",
+    "value": "the vital role they play in adult education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community colleges are recognizing the vital role they play in adult education"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Community colleges",
+    "relation": "offers",
+    "value": "flexible schedules, affordable tuition, and targeted programs that align with regional labor market needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering flexible schedules, affordable tuition, and targeted programs that align with regional labor market needs"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Adult Education Programs",
+    "relation": "fosters",
+    "value": "academic growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not just fostering academic growth"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Adult Education Programs",
+    "relation": "reshapes",
+    "value": "the economic and social fabric of communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are also reshaping the economic and social fabric of communities"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Adult Education Programs",
+    "relation": "plays_role",
+    "value": "a central role in ensuring that education remains inclusive and adaptive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such initiatives play a central role in ensuring that education remains inclusive and adaptive"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Adult Education Programs",
+    "relation": "caters_to",
+    "value": "the evolving demographic of students hungry for knowledge, regardless of their stage in life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catering to the evolving demographic of students hungry for knowledge, regardless of their stage in life"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Jefferson Community College",
+    "relation": "dedication_is",
+    "value": "not uncommon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such dedication is not uncommon at JCC."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

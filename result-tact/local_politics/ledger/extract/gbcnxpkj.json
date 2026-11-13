@@ -1,0 +1,892 @@
+{
+ "inventory": [
+  "Elmtree",
+  "Sarah Jennings",
+  "Elmtree Parents for Education Council",
+  "Sunnyside",
+  "Bob Freeman",
+  "Sunnyside Gardens United",
+  "Midland",
+  "Felicia Mwangi",
+  "Liberty Town",
+  "Michael Rodriguez",
+  "Liberty Town Safety Alliance",
+  "Riverside",
+  "Judy Tran",
+  "Fairview",
+  "Fairview Forward",
+  "Oakdale",
+  "Oakdale's Money-Smart Community Program",
+  "Metroville",
+  "Urban Transit Authority",
+  "Joshua Kim",
+  "Disabled Riders Coalition",
+  "Clearwater",
+  "Laura Hsu",
+  "Clearwater Justice Project",
+  "Lakeside City",
+  "Walter Simmons",
+  "Lakeside Water Watchers",
+  "School Board Election",
+  "Mayoral Race",
+  "Sheriff Election",
+  "City Clerk Election",
+  "Referendum",
+  "Treasurer's Race",
+  "Transit Authority Election",
+  "District Attorney Race",
+  "Water Commissioner Election"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Elmtree",
+    "relation": "is_a",
+    "value": "small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small town of Elmtree witnessed an unprecedented surge in parental involvement in school affairs"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Elmtree",
+    "relation": "witnessed",
+    "value": "an unprecedented surge in parental involvement in school affairs",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "back in November 2023, the small town of Elmtree witnessed an unprecedented surge in parental involvement in school affairs"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "School Board Election",
+    "relation": "elected",
+    "value": "Sarah Jennings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It all began with the election of a new school board member, Sarah Jennings."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sarah Jennings",
+    "relation": "elected_as",
+    "value": "new school board member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It all began with the election of a new school board member, Sarah Jennings."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Jennings",
+    "relation": "campaign_focused_on",
+    "value": "parental input in curriculum development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennings\u2019s campaign, which focused on parental input in curriculum development, struck a chord with local parents."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Elmtree Parents for Education Council",
+    "relation": "formed_by",
+    "value": "once-casual observers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Post-election, these once-casual observers formed the Elmtree Parents for Education Council"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Elmtree Parents for Education Council",
+    "relation": "formed_after",
+    "value": "School Board Election",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Post-election, these once-casual observers formed the Elmtree Parents for Education Council"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Elmtree Parents for Education Council",
+    "relation": "has_members",
+    "value": "members well-versed in educational policy and active in local and state decisionmaking processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which now boasts members well-versed in educational policy and active in local and state decisionmaking processes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "School Board Election",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Post-election, these once-casual observers formed the Elmtree Parents for Education Council"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mayoral Race",
+    "relation": "held_in",
+    "value": "city of Sunnyside",
+    "time": "spring of 2024",
+    "speaker": null,
+    "verbatim": [
+     "In the spring of 2024, the mayoral race in the city of Sunnyside became unexpectedly contentious over the issue of community spaces."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mayoral Race",
+    "relation": "became_contentious_over",
+    "value": "the issue of community spaces",
+    "time": "spring of 2024",
+    "speaker": null,
+    "verbatim": [
+     "In the spring of 2024, the mayoral race in the city of Sunnyside became unexpectedly contentious over the issue of community spaces."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sunnyside",
+    "relation": "is_a",
+    "value": "city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the mayoral race in the city of Sunnyside became unexpectedly contentious"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Bob Freeman",
+    "relation": "was_challenger_in",
+    "value": "Mayoral Race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Challenger Bob Freeman made community gardens a pillar of his platform"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bob Freeman",
+    "relation": "platform_pillar",
+    "value": "community gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Challenger Bob Freeman made community gardens a pillar of his platform"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bob Freeman",
+    "relation": "lost",
+    "value": "Mayoral Race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Although Freeman lost, the election aftermath saw the sprouting of Sunnyside Gardens United"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Freeman's platform",
+    "relation": "resonated_with",
+    "value": "the city's urban agriculture enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which resonated with the city's urban agriculture enthusiasts"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sunnyside Gardens United",
+    "relation": "formed_after",
+    "value": "Mayoral Race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the election aftermath saw the sprouting of Sunnyside Gardens United"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sunnyside Gardens United",
+    "relation": "activity",
+    "value": "converting abandoned lots into green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a group now instrumental in converting abandoned lots into green spaces"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Felicia Mwangi",
+    "relation": "was",
+    "value": "unknown candidate",
+    "time": "March 2025",
+    "speaker": null,
+    "verbatim": [
+     "unknown candidate Felicia Mwangi clinched a stunning win for a seat on the City Council of Midland"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Felicia Mwangi",
+    "relation": "won_seat_on",
+    "value": "City Council of Midland",
+    "time": "March 2025",
+    "speaker": null,
+    "verbatim": [
+     "unknown candidate Felicia Mwangi clinched a stunning win for a seat on the City Council of Midland"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Felicia Mwangi",
+    "relation": "campaign_focused_on",
+    "value": "local volunteerism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Running on a shoestring campaign focusing on local volunteerism"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Felicia Mwangi",
+    "relation": "inspired",
+    "value": "a new wave of city pride and service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mwangi's win inspired a new wave of city pride and service."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Midland",
+    "relation": "volunteers_increased_by",
+    "value": "40%",
+    "time": "Since her victory",
+    "speaker": null,
+    "verbatim": [
+     "Since her victory, Midland has seen a 40% increase in volunteers for community projects"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Midland",
+    "relation": "volunteer_projects_include",
+    "value": "food drives and literacy programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for community projects, from food drives to literacy programs"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sheriff Election",
+    "relation": "held_in",
+    "value": "Liberty Town",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "Such was the case in Liberty Town, where the 2023 Sheriff elections saw Michael Rodriguez"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Rodriguez",
+    "relation": "is_a",
+    "value": "advocate for community policing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Rodriguez, an advocate for community policing, taking office."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Michael Rodriguez",
+    "relation": "took_office_after",
+    "value": "Sheriff Election",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "the 2023 Sheriff elections saw Michael Rodriguez, an advocate for community policing, taking office."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Michael Rodriguez",
+    "relation": "platform_emphasized",
+    "value": "transparency and community involvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His platform, which emphasized transparency and community involvement"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Liberty Town Safety Alliance",
+    "relation": "formed_on",
+    "value": "February 13, 2024",
+    "time": "February 13, 2024",
+    "speaker": null,
+    "verbatim": [
+     "resulted in the formation of the Liberty Town Safety Alliance on February 13, 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Liberty Town Safety Alliance",
+    "relation": "is_a",
+    "value": "a civilian council",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Liberty Town Safety Alliance on February 13, 2024, a civilian council now working hand in hand with police"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Liberty Town Safety Alliance",
+    "relation": "goal",
+    "value": "foster trust and reduce crime rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a civilian council now working hand in hand with police to foster trust and reduce crime rates"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Rodriguez",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His platform, which emphasized transparency and community involvement, resulted in the formation of the Liberty Town Safety Alliance on February 13, 2024"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Judy Tran",
+    "relation": "is_a",
+    "value": "local librarian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Judy Tran, a local librarian, ran for City Clerk of Riverside"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Judy Tran",
+    "relation": "ran_for",
+    "value": "City Clerk Election",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Judy Tran, a local librarian, ran for City Clerk of Riverside"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Judy Tran",
+    "relation": "platform",
+    "value": "government transparency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on a platform of government transparency"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Judy Tran",
+    "relation": "won",
+    "value": "City Clerk Election",
+    "time": "December 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since her victory on December 3, 2024, there has been a ripple effect"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "City Clerk Election",
+    "relation": "held_in",
+    "value": "Riverside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Judy Tran, a local librarian, ran for City Clerk of Riverside"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "City Clerk Election",
+    "relation": "ripple_effect",
+    "value": "residents are now more likely than ever to file public record requests, engage in council meetings, and report governmental inefficiencies",
+    "time": "December 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since her victory on December 3, 2024, there has been a ripple effect; residents are now more likely than ever to file public record requests, engage in council meetings, and report governmental inefficiencies."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "City Clerk Election",
+    "relation": "engagement_level",
+    "value": "at an all-time high",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engagement is at an all-time high"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Referendum",
+    "relation": "held_on",
+    "value": "September 10, 2025",
+    "time": "September 10, 2025",
+    "speaker": null,
+    "verbatim": [
+     "Election Day, September 10, 2025, marked a turning point for the community of Fairview"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Referendum",
+    "relation": "held_in",
+    "value": "Fairview",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marked a turning point for the community of Fairview when a local referendum"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Referendum",
+    "relation": "purpose",
+    "value": "reduce the town\u2019s carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local referendum to reduce the town\u2019s carbon footprint passed with a slim margin"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Referendum",
+    "relation": "outcome",
+    "value": "passed with a slim margin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local referendum to reduce the town\u2019s carbon footprint passed with a slim margin"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Fairview Forward",
+    "relation": "resulted_from",
+    "value": "Referendum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This vote was the catalyst for the \"Fairview Forward\" initiative"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Fairview Forward",
+    "relation": "is_a",
+    "value": "initiative, a collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the \"Fairview Forward\" initiative, a collective that saw residents"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Fairview Forward",
+    "relation": "activities",
+    "value": "ratcheting up recycling efforts, championing renewable energy, and supporting local, sustainable businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a collective that saw residents ratcheting up recycling efforts, championing renewable energy, and supporting local, sustainable businesses"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Fairview",
+    "relation": "became",
+    "value": "a beacon of environmental stewardship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The otherwise average town has now become a beacon of environmental stewardship."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Referendum",
+    "relation": "results_in",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This vote was the catalyst for the \"Fairview Forward\" initiative"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Oakdale",
+    "relation": "scandal",
+    "value": "misuse of municipal funds",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "In 2023, the small town of Oakdale was rocked by a scandal involving the misuse of municipal funds."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Oakdale",
+    "relation": "is_a",
+    "value": "small town",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "In 2023, the small town of Oakdale was rocked by a scandal"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Treasurer's Race",
+    "relation": "brought_to_forefront",
+    "value": "these issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The subsequent Treasurer\u2019s race brought these issues to the forefront"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Treasurer's Race",
+    "relation": "led_to",
+    "value": "Oakdale's Money-Smart Community Program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and, surprisingly, led to Oakdale's Money-Smart Community Program."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Oakdale's Money-Smart Community Program",
+    "relation": "backbone",
+    "value": "the newly elected treasurer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the newly elected treasurer as a backbone"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Oakdale's Money-Smart Community Program",
+    "relation": "participants_in",
+    "value": "workshops about budgeting, investing, and petitioning for financial transparency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "everyday citizens are now participating in workshops about budgeting, investing, and petitioning for financial transparency."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Transit Authority Election",
+    "relation": "held_in",
+    "value": "Metroville",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "The 2024 campaign for the head of Urban Transit Authority in Metroville wasn\u2019t expected to be notable."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Transit Authority Election",
+    "relation": "for_office_of",
+    "value": "head of Urban Transit Authority",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "The 2024 campaign for the head of Urban Transit Authority in Metroville"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Urban Transit Authority",
+    "relation": "located_in",
+    "value": "Metroville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 2024 campaign for the head of Urban Transit Authority in Metroville"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Joshua Kim",
+    "relation": "message",
+    "value": "improving public transportation for disabled riders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "candidate Joshua Kim\u2019s message on improving public transportation for disabled riders turned the tides."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Joshua Kim",
+    "relation": "finished",
+    "value": "second",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Although Kim finished second"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Disabled Riders Coalition",
+    "relation": "formed_after",
+    "value": "Transit Authority Election",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Disabled Riders Coalition, formed in the election's wake"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Disabled Riders Coalition",
+    "relation": "achievement",
+    "value": "significant improvements to the city's transport system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has succeeded in advocating for significant improvements to the city's transport system"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Transit Authority Election",
+    "relation": "lesson",
+    "value": "even in loss, a campaign can deliver positive change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proving that even in loss, a campaign can deliver positive change."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "District Attorney Race",
+    "relation": "held_in",
+    "value": "Clearwater",
+    "time": "June 6, 2025",
+    "speaker": null,
+    "verbatim": [
+     "On June 6, 2025, the heated District Attorney race in the city of Clearwater"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "District Attorney Race",
+    "relation": "became",
+    "value": "a referendum on criminal justice policies",
+    "time": "June 6, 2025",
+    "speaker": null,
+    "verbatim": [
+     "became a referendum on criminal justice policies."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Laura Hsu",
+    "relation": "is_a",
+    "value": "reformist candidate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The election of reformist candidate Laura Hsu led to an overhaul in prosecutorial practices"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Laura Hsu",
+    "relation": "elected_in",
+    "value": "District Attorney Race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The election of reformist candidate Laura Hsu led to an overhaul in prosecutorial practices"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Laura Hsu",
+    "relation": "led_to",
+    "value": "an overhaul in prosecutorial practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The election of reformist candidate Laura Hsu led to an overhaul in prosecutorial practices"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Clearwater Justice Project",
+    "relation": "established_following",
+    "value": "the election of reformist candidate Laura Hsu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and the establishment of the Clearwater Justice Project."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Clearwater",
+    "relation": "community_relations_with_law_enforcement",
+    "value": "improved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result, community relations with law enforcement have improved"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Clearwater",
+    "relation": "newfound_engagement",
+    "value": "in discussions around justice and equity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and there is newfound engagement in discussions around justice and equity."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Water Commissioner Election",
+    "relation": "held_in",
+    "value": "Lakeside City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Walter Simmons, an environmental scientist, ran for Water Commissioner in Lakeside City"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Walter Simmons",
+    "relation": "is_a",
+    "value": "environmental scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Walter Simmons, an environmental scientist, ran for Water Commissioner in Lakeside City"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Walter Simmons",
+    "relation": "lost",
+    "value": "Water Commissioner Election",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite his loss, Simmons's platform highlighting water conservation issues"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Walter Simmons",
+    "relation": "platform",
+    "value": "highlighting water conservation issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite his loss, Simmons's platform highlighting water conservation issues sowed the seeds"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Lakeside Water Watchers",
+    "relation": "originated_after",
+    "value": "Water Commissioner Election",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sowed the seeds of what is now the Lakeside Water Watchers"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Lakeside Water Watchers",
+    "relation": "role",
+    "value": "critical in passing local regulations to protect water resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a group that has been critical in passing local regulations to protect water resources."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Lakeside Water Watchers",
+    "relation": "is_a",
+    "value": "fervent group of hydro-activists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This fervent group of hydro-activists ensures that every drop counts in the ongoing battle for water sustainability."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

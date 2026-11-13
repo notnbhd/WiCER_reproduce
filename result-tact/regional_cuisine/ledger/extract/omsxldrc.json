@@ -1,0 +1,834 @@
+{
+ "inventory": [
+  "Hendrickson household",
+  "Vermont",
+  "Fireplace Feast",
+  "Grandma Edith",
+  "Amy",
+  "Jake",
+  "Fletcher family",
+  "Georgia",
+  "Great-Uncle Leroy",
+  "Emily Fletcher",
+  "Anne",
+  "Easter Sunday",
+  "Thompsons",
+  "Houston, Texas",
+  "Grandpa Joe",
+  "Lucas",
+  "Olivia",
+  "July 4th",
+  "harvest moon",
+  "Oregon",
+  "Martins",
+  "Grandma Linda",
+  "Carson family",
+  "Massachusetts",
+  "All Hallows' Eve",
+  "Aunt Clarice",
+  "Thanksgiving",
+  "Patterson family",
+  "Virginia",
+  "Grandpa Earl",
+  "Christmas",
+  "Hanukkah",
+  "Kwanzaa"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Hendrickson household",
+    "relation": "located_in",
+    "value": "Vermont",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Hendrickson household in snowy Vermont"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Vermont",
+    "relation": "described_as",
+    "value": "snowy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in snowy Vermont"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Hendrickson household",
+    "relation": "celebrates",
+    "value": "Fireplace Feast",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 15, 2023, the Hendrickson household in snowy Vermont keeps this spirit alive with their annual 'Fireplace Feast'."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Fireplace Feast",
+    "relation": "frequency",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their annual 'Fireplace Feast'"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Fireplace Feast",
+    "relation": "featured_dish",
+    "value": "Grandma Edith's famed beef stew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the heart of this tantalizing spread is Grandma Edith's famed beef stew"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Grandma Edith",
+    "relation": "known_for",
+    "value": "famed beef stew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grandma Edith's famed beef stew"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Grandma Edith",
+    "relation": "simmers_for",
+    "value": "hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simmering for hours until its aroma fills the room"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Grandma Edith",
+    "relation": "stew_aroma_marries",
+    "value": "woodsy scent of burning logs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marrying perfectly with the woodsy scent of burning logs"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Grandma Edith",
+    "relation": "insists",
+    "value": "best taught through cookery",
+    "time": null,
+    "speaker": "Grandma Edith",
+    "verbatim": [
+     "something that Edith insists is best taught through cookery"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Grandma Edith",
+    "relation": "recipe_requires",
+    "value": "patience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a recipe that requires patience"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Grandma Edith",
+    "relation": "stew_rich_with",
+    "value": "root vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rich with root vegetables"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Grandma Edith",
+    "relation": "stew_seasoned_with",
+    "value": "a secretive blend of herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seasoned with a secretive blend of herbs"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Amy",
+    "relation": "grandchild_of",
+    "value": "Grandma Edith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Edith's grandkids, Amy and Jake, chop, stir, and taste"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Jake",
+    "relation": "grandchild_of",
+    "value": "Grandma Edith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Edith's grandkids, Amy and Jake, chop, stir, and taste"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Amy",
+    "relation": "learns",
+    "value": "the importance of slow cooking and shared efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they learn the importance of slow cooking and shared efforts"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Amy",
+    "relation": "lesson_extends_beyond",
+    "value": "the kitchen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a lesson that will go beyond the kitchen"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Fletcher family",
+    "relation": "located_in",
+    "value": "Georgia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Fletcher family of Georgia"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Fletcher family",
+    "relation": "looks_forward_to",
+    "value": "Easter Sunday alfresco lunch",
+    "time": "April 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the Fletcher family of Georgia looks forward to their Easter Sunday alfresco lunch on April 9, 2024"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Easter Sunday",
+    "relation": "celebrated_as",
+    "value": "alfresco lunch",
+    "time": "April 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "their Easter Sunday alfresco lunch on April 9, 2024"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Fletcher family",
+    "relation": "prepares",
+    "value": "the age-old glazed ham recipe",
+    "time": "This year",
+    "speaker": null,
+    "verbatim": [
+     "they prepare the age-old glazed ham recipe passed down from Great-Uncle Leroy"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Great-Uncle Leroy",
+    "relation": "passed_down",
+    "value": "the age-old glazed ham recipe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the age-old glazed ham recipe passed down from Great-Uncle Leroy"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Great-Uncle Leroy",
+    "relation": "insisted",
+    "value": "the sweet and savory glaze was the secret to mending any family quarrel",
+    "time": null,
+    "speaker": "Great-Uncle Leroy",
+    "verbatim": [
+     "who insisted that the sweet and savory glaze was the secret to mending any family quarrel"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emily Fletcher",
+    "relation": "age",
+    "value": "12-year-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "12-year-old Emily Fletcher"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Anne",
+    "relation": "supervises",
+    "value": "Emily Fletcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the watchful eye of her mother Anne"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Fletcher",
+    "relation": "mother",
+    "value": "Anne",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her mother Anne"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Fletcher",
+    "relation": "learns_under",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the watchful eye of her mother Anne, learns the delicate process of scoring the ham\u2019s surface and the art of basting"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Fletcher",
+    "relation": "learns",
+    "value": "the delicate process of scoring the ham\u2019s surface and the art of basting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learns the delicate process of scoring the ham\u2019s surface and the art of basting"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emily Fletcher",
+    "relation": "rite_of_passage",
+    "value": "into the family fold of culinary custodians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as the young girl's rite of passage into the family fold of culinary custodians"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Thompsons",
+    "relation": "located_in",
+    "value": "Houston, Texas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from the bustling city of Houston, Texas"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Houston, Texas",
+    "relation": "described_as",
+    "value": "bustling city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling city of Houston, Texas"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "July 4th",
+    "relation": "celebrated_by",
+    "value": "Thompsons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "July 4th is more than just a patriotic display for the Thompsons"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Thompsons",
+    "relation": "fires_up",
+    "value": "the grill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a date that has them firing up the grill"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Thompsons",
+    "relation": "honors",
+    "value": "Grandpa Joe's barbecue ribs recipe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "honoring Grandpa Joe's barbecue ribs recipe"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Grandpa Joe",
+    "relation": "recipe_described_as",
+    "value": "a legend in its own right",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grandpa Joe's barbecue ribs recipe, a legend in its own right"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Grandpa Joe",
+    "relation": "taught_by",
+    "value": "his grandfather",
+    "time": "during sweltering summer afternoons",
+    "speaker": null,
+    "verbatim": [
+     "taught to Joe by his grandfather during sweltering summer afternoons"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "July 4th",
+    "relation": "neighborhood_smells_of",
+    "value": "smokey goodness",
+    "time": "July 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On July 4, 2024, the entire neighborhood smells of smokey"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lucas",
+    "relation": "grandchild_of",
+    "value": "Grandpa Joe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joe makes sure that his grandchildren, Lucas and Olivia, can recite each one as they prepare the ribs"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Olivia",
+    "relation": "grandchild_of",
+    "value": "Grandpa Joe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joe makes sure that his grandchildren, Lucas and Olivia, can recite each one as they prepare the ribs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lucas",
+    "relation": "can_recite",
+    "value": "each rub and marinate layer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joe makes sure that his grandchildren, Lucas and Olivia, can recite each one as they prepare the ribs"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Grandpa Joe",
+    "relation": "ritual_not_simply_for",
+    "value": "flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not simply for flavor, this ritual is Grandpa Joe\u2019s way of embedding family history amid the spice jars and sauce bottles"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Grandpa Joe",
+    "relation": "ritual_embeds",
+    "value": "family history amid the spice jars and sauce bottles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this ritual is Grandpa Joe\u2019s way of embedding family history amid the spice jars and sauce bottles"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "harvest moon",
+    "relation": "ascends",
+    "value": "into the night sky",
+    "time": "September 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on September 21, 2023, the harvest moon ascends into the night sky"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Martins",
+    "relation": "located_in",
+    "value": "Oregon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Oregon, where orchards yield their bounty, the Martins celebrate"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Oregon",
+    "relation": "orchards_yield",
+    "value": "their bounty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where orchards yield their bounty"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Martins",
+    "relation": "serves",
+    "value": "Pumpkin, apple, and pecan pies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pumpkin, apple, and pecan pies sit side by side"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Martins",
+    "relation": "pies_represent",
+    "value": "a chapter of the family's narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each a chapter of the family's narrative"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Grandma Linda",
+    "relation": "rolls_out",
+    "value": "pie crusts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grandma Linda and her battalion of grandkids dust the kitchen with flour as they roll out pie crusts"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Grandma Linda",
+    "relation": "tradition_demands",
+    "value": "precision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tradition that demands precision and yet accommodates a pinch of play"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Grandma Linda",
+    "relation": "tradition_accommodates",
+    "value": "a pinch of play",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tradition that demands precision and yet accommodates a pinch of play"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Grandma Linda",
+    "relation": "said",
+    "value": "Every pie is a promise of the coming together",
+    "time": null,
+    "speaker": "Grandma Linda",
+    "verbatim": [
+     "\"Every pie is a promise of the coming together,\" Linda often muses"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Grandma Linda",
+    "relation": "ensures_granddaughters_master",
+    "value": "the flaky crusts and spiced fillings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that her granddaughters master the flaky crusts and spiced fillings that symbolize the heartiness of the family"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Grandma Linda",
+    "relation": "crusts_and_fillings_symbolize",
+    "value": "the heartiness of the family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that her granddaughters master the flaky crusts and spiced fillings that symbolize the heartiness of the family"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Carson family",
+    "relation": "located_in",
+    "value": "Massachusetts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Carson family of Massachusetts"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Carson family",
+    "relation": "transforms",
+    "value": "pumpkins into jack-olanterns and apples into caramel delights",
+    "time": "October 31, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On October 31, 2024, the Carson family of Massachusetts transforms pumpkins into jack-olanterns and apples into caramel delights"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Aunt Clarice",
+    "relation": "makes",
+    "value": "cinnamonspiced apple cider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aunt Clarice's cinnamonspiced apple cider"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Aunt Clarice",
+    "relation": "cider_supposedly_awakens",
+    "value": "cheer in every spirit, living or ethereal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "becomes a potion that supposedly awakens cheer in every spirit, living or ethereal"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Aunt Clarice",
+    "relation": "kitchen_hosts",
+    "value": "nieces and nephews partaking in candy-apple making",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarice\u2019s kitchen buzzes with nieces and nephews partaking in candy-apple making"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Aunt Clarice",
+    "relation": "nieces_learn",
+    "value": "how to safely melt caramel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learning how to safely melt caramel and discussing the proper dipping techniques"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Aunt Clarice",
+    "relation": "nieces_wear",
+    "value": "their spookiest costumes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all while donning their spookiest costumes"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Thanksgiving",
+    "relation": "date",
+    "value": "November 23, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thanksgiving rolls in on November 23, 2023"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Patterson family",
+    "relation": "located_in",
+    "value": "Virginia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Patterson family of Virginia gathers"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Patterson family",
+    "relation": "gathers_to",
+    "value": "celebrate and share gratitude",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Patterson family of Virginia gathers to celebrate and share gratitude."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Patterson family",
+    "relation": "serves",
+    "value": "the majestic turkey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Central to their table is the majestic turkey"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Grandpa Earl",
+    "relation": "guarded_and_perfected",
+    "value": "a family recipe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a family recipe guarded and perfected by Grandpa Earl"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Patterson family",
+    "relation": "turkey_seasoned_with",
+    "value": "sage, thyme, and love",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seasoned with sage, thyme, and love"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Patterson family",
+    "relation": "turkey_symbolizes",
+    "value": "the Patterson family's resilience and unity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a symbol of the Patterson family's resilience and unity"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Grandpa Earl",
+    "relation": "watched_by",
+    "value": "the young ones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the young ones watch Earl and mimic his seasoned hands stuffing and trussing"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Grandpa Earl",
+    "relation": "hands_mimicked_in",
+    "value": "stuffing and trussing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mimic his seasoned hands stuffing and trussing"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Patterson family",
+    "relation": "values_form_cornerstone",
+    "value": "the ethos of thankfulness, the joy of plenty, and the spirit of giving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ethos of thankfulness, the joy of plenty, and the spirit of giving that form the cornerstone of the Patterson's family values"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Christmas",
+    "relation": "listed_as",
+    "value": "December festivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether it's Christmas, Hanukkah, Kwanzaa, or any other year-end celebration"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Hanukkah",
+    "relation": "listed_as",
+    "value": "December festivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether it's Christmas, Hanukkah, Kwanzaa, or any other year-end celebration"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Kwanzaa",
+    "relation": "listed_as",
+    "value": "December festivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether it's Christmas, Hanukkah, Kwanzaa, or any other year-end celebration"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

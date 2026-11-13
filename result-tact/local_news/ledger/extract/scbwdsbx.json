@@ -1,0 +1,295 @@
+{
+ "inventory": [
+  "Johnson's Organic Market",
+  "Linda's Caf\u00e9",
+  "Rick's Bicycle Shop",
+  "Thompson's Home Supplies",
+  "Oceanview Restaurant",
+  "Elite Technologies",
+  "Bloom Nurseries",
+  "Green Auto Wash",
+  "Eco-Homes Inc.",
+  "QuickBooks Office Supplies",
+  "climate change"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "climate change",
+    "relation": "driver_of_business_innovation",
+    "value": "growing concerns of climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enlightened by the growing concerns of climate change"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Johnson's Organic Market",
+    "relation": "unveiled",
+    "value": "solar panel-covered roof",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Johnson's Organic Market, which unveiled its solar panel-covered roof on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Johnson's Organic Market",
+    "relation": "leads_by_example_in",
+    "value": "renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses like Johnson's Organic Market, which unveiled its solar panel-covered roof on November 5, 2023, are leading by example"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Linda's Caf\u00e9",
+    "relation": "started_zero_waste_journey",
+    "value": "zero-waste journey",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Linda's Caf\u00e9, which started its zero-waste journey in late September 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Linda's Caf\u00e9",
+    "relation": "employed",
+    "value": "strategic waste segregation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has employed strategic waste segregation to ensure that all recyclable material is properly processed"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Linda's Caf\u00e9",
+    "relation": "in_order_to",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has employed strategic waste segregation to ensure that all recyclable material is properly processed"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Rick's Bicycle Shop",
+    "relation": "offered",
+    "value": "discounts to customers who commute by bike or public transportation",
+    "time": "since October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Rick's Bicycle Shop, since October 12, 2023, has offered discounts to customers who commute by bike or public transportation"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Thompson's Home Supplies",
+    "relation": "began_stocking",
+    "value": "biodegradable cleaning products and compostable paper goods",
+    "time": "as of September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Thompson's Home Supplies began stocking biodegradable cleaning products and compostable paper goods as of September 15, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Oceanview Restaurant",
+    "relation": "replaced_single_use_plastics_with",
+    "value": "biodegradable options",
+    "time": "starting October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Oceanview Restaurant, which replaced all its single-use plastic utensils and straws with biodegradable options starting October 1, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Elite Technologies",
+    "relation": "is_a",
+    "value": "local IT firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elite Technologies, a local IT firm"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Elite Technologies",
+    "relation": "reported",
+    "value": "30% reduction in energy costs",
+    "time": "December 3, 2023",
+    "speaker": "Elite Technologies",
+    "verbatim": [
+     "On December 3, 2023, Elite Technologies, a local IT firm, reported a 30% reduction in energy costs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Elite Technologies",
+    "relation": "replaced",
+    "value": "old servers and cooling systems with newer energy-efficient models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after replacing its old servers and cooling systems with newer energy-efficient models"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Elite Technologies",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reported a 30% reduction in energy costs after replacing its old servers and cooling systems with newer energy-efficient models"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bloom Nurseries",
+    "relation": "launched",
+    "value": "community garden project",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20, 2023, Bloom Nurseries launched a community garden project"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bloom Nurseries",
+    "relation": "provides_space_for",
+    "value": "local residents to cultivate native plants and support urban wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing space for local residents to cultivate native plants and support urban wildlife"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Green Auto Wash",
+    "relation": "introduced",
+    "value": "water recycling system to its car wash process",
+    "time": "Starting November 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting November 18, 2023, Green Auto Wash introduced a water recycling system to its car wash process"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Green Auto Wash",
+    "relation": "reduces_water_usage",
+    "value": "significantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly reducing water usage"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Green Auto Wash",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced a water recycling system to its car wash process, significantly reducing water usage"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Eco-Homes Inc.",
+    "relation": "is_a",
+    "value": "local real estate developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local real estate developers like Eco-Homes Inc."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Eco-Homes Inc.",
+    "relation": "laid_foundation",
+    "value": "foundation",
+    "time": "October 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the laying of their foundation on October 27, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Eco-Homes Inc.",
+    "relation": "used",
+    "value": "recycled and sustainable materials",
+    "time": "Since the laying of their foundation on October 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "they have used recycled and sustainable materials"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Eco-Homes Inc.",
+    "relation": "incorporated",
+    "value": "energy-efficient designs into their construction projects",
+    "time": "Since the laying of their foundation on October 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "incorporated energy-efficient designs into their construction projects"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "QuickBooks Office Supplies",
+    "relation": "organizes",
+    "value": "monthly workshops",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "QuickBooks Office Supplies, for instance, has been organizing monthly workshops since September 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "QuickBooks Office Supplies",
+    "relation": "workshops_purpose",
+    "value": "enlighten both staff and customers about the benefits of choosing sustainable office products",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "to enlighten both staff and customers about the benefits of choosing sustainable office products"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "QuickBooks Office Supplies",
+    "relation": "in_order_to",
+    "value_ref": "c23",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "has been organizing monthly workshops since September 2023 to enlighten both staff and customers about the benefits of choosing sustainable office products"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

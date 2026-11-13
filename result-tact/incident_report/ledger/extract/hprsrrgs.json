@@ -1,0 +1,831 @@
+{
+ "inventory": [
+  "Martha Jensen",
+  "Duluth, Minnesota",
+  "Dr. Emily Rios",
+  "National Renewable Energy Laboratory",
+  "Julian Torres",
+  "Denver, Colorado",
+  "Captain Hardeep Singh",
+  "Montague, Michigan",
+  "Sarah Phillips",
+  "Iowa",
+  "Texas",
+  "North America",
+  "Arctic Circle",
+  "Earth",
+  "the sun",
+  "Coronal Mass Ejection (CME)",
+  "geomagnetic induced current (GIC)",
+  "Northern Lights",
+  "space weather",
+  "solar storm",
+  "solar flare",
+  "Earth's magnetic field",
+  "power grids",
+  "GPS",
+  "satellite communications",
+  "polar routes",
+  "aviation industry",
+  "agriculture",
+  "solar storm response plan",
+  "space weather forecasting models"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the sun",
+    "relation": "spews_out",
+    "value": "streams of charged particles and radiation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sun is a hive of activity, spewing out streams of charged particles and radiation"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "the sun",
+    "relation": "emissions_can_impact",
+    "value": "our technology, our economy, and our modern way of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can have profound impacts on our technology, our economy, and our modern way of life"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "solar storm",
+    "relation": "disrupts",
+    "value": "Earth's magnetic field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar storms, in particular, can wreak havoc by disrupting the Earth's magnetic field."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "the sun",
+    "relation": "expelled",
+    "value": "a colossal cloud of charged solar particles",
+    "time": "November 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 7, 2023, the sun expelled a colossal cloud of charged solar particles"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Coronal Mass Ejection (CME)",
+    "relation": "described_as",
+    "value": "a colossal cloud of charged solar particles expelled by the sun",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a phenomenon known as a Coronal Mass Ejection (CME)"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Coronal Mass Ejection (CME)",
+    "relation": "hurtled_towards",
+    "value": "Earth at breakneck speeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The massive burst hurtled towards Earth at breakneck speeds"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Coronal Mass Ejection (CME)",
+    "relation": "triggered",
+    "value": "alerts from space weather forecasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "triggering alerts from space weather forecasters"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Coronal Mass Ejection (CME)",
+    "relation": "sent_utility_companies_into",
+    "value": "a state of high alert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sending utility companies into a state of high alert"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Northern Lights",
+    "relation": "seen_as_far_south_as",
+    "value": "Texas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "auroras painted the skies as far south as Texas"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Coronal Mass Ejection (CME)",
+    "relation": "accompanied_by",
+    "value": "widespread power disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the aesthetics belied a harsher reality: widespread power disruptions."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Martha Jensen",
+    "relation": "resides_in",
+    "value": "Duluth, Minnesota",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martha Jensen, residing in the normally serene community of Duluth, Minnesota,"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Duluth, Minnesota",
+    "relation": "described_as",
+    "value": "the normally serene community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the normally serene community of Duluth, Minnesota"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Duluth, Minnesota",
+    "relation": "went_dark_on",
+    "value": "November 9",
+    "time": "November 9",
+    "speaker": null,
+    "verbatim": [
+     "It was November 9, two days after the solar flare was detected, when their quaint town went dark."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "solar flare",
+    "relation": "was_detected",
+    "value": "two days before November 9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "two days after the solar flare was detected"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Martha Jensen",
+    "relation": "hoped_to_witness",
+    "value": "the famed Northern Lights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a chance to witness the famed Northern Lights"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Martha Jensen",
+    "relation": "said_outage_began_at",
+    "value": "around seven-thirty in the evening",
+    "time": null,
+    "speaker": "Martha Jensen",
+    "verbatim": [
+     "It was around seven-thirty in the evening when everything just shut down."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Martha Jensen",
+    "relation": "reported_outside_temperature",
+    "value": "about twenty degrees",
+    "time": null,
+    "speaker": "Martha Jensen",
+    "verbatim": [
+     "outside, it was about twenty degrees"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Martha Jensen",
+    "relation": "experienced",
+    "value": "no lights and no heat",
+    "time": null,
+    "speaker": "Martha Jensen",
+    "verbatim": [
+     "No lights, no heat"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "power grids",
+    "relation": "affected_by",
+    "value": "geomagnetic induced current (GIC)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The town's power grid had succumbed to a geomagnetic induced current (GIC)"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "geomagnetic induced current (GIC)",
+    "relation": "caused_by",
+    "value": "solar storm's impact on the Earth's magnetic field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a result of the solar storm's impact on the Earth's magnetic field"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "power grids",
+    "relation": "described_as",
+    "value": "extensive networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Electricity grids are extensive networks"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "power grids",
+    "relation": "contain",
+    "value": "looped cords of conductive material stretching for miles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "within these systems are looped cords of conductive material stretching for miles"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Earth",
+    "relation": "magnetosphere_fluctuates",
+    "value": "wildly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Earth\u2019s magnetosphere fluctuates wildly"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "solar storm",
+    "relation": "induces",
+    "value": "currents in these long conductors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inducing currents in these long conductors"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Emily Rios",
+    "relation": "is_a",
+    "value": "an electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Rios, an electrical engineer from the National Renewable Energy Laboratory"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Emily Rios",
+    "relation": "affiliated_with",
+    "value": "National Renewable Energy Laboratory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Rios, an electrical engineer from the National Renewable Energy Laboratory"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "power grids",
+    "relation": "designed_to_handle",
+    "value": "certain loads",
+    "time": null,
+    "speaker": "Dr. Emily Rios",
+    "verbatim": [
+     "Our power systems are designed to handle certain loads."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "geomagnetic induced current (GIC)",
+    "relation": "creates",
+    "value": "extra currents that can overload transformers and other critical infrastructure",
+    "time": null,
+    "speaker": "Dr. Emily Rios",
+    "verbatim": [
+     "they create extra currents that can overload transformers and other critical infrastructure"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "geomagnetic induced current (GIC)",
+    "relation": "described_as",
+    "value": "a silent tsunami for the electrical world",
+    "time": null,
+    "speaker": "Dr. Emily Rios",
+    "verbatim": [
+     "It's like a silent tsunami for the electrical world."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "solar storm",
+    "relation": "disrupted",
+    "value": "satellite communications, including GPS signals and internet connectivity",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 23, 2023, a moderate solar storm disrupted satellite communications, including GPS signals and internet connectivity"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "solar storm",
+    "relation": "severity",
+    "value": "moderate",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a moderate solar storm"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "solar storm",
+    "relation": "affected_region",
+    "value": "parts of North America",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "across parts of North America"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "solar storm",
+    "relation": "less_severe_than",
+    "value": "the November power outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while not as severe as the November power outages"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "solar storm",
+    "relation": "sent_ripples_through",
+    "value": "the business and communications sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "still sent ripples through the business and communications sectors"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Julian Torres",
+    "relation": "located_in",
+    "value": "Denver, Colorado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Denver, Colorado, Julian Torres, a freelance web designer, experienced the upset firsthand."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Julian Torres",
+    "relation": "is_a",
+    "value": "a freelance web designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Denver, Colorado, Julian Torres, a freelance web designer, experienced the upset firsthand."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Julian Torres",
+    "relation": "said_work_depends_on",
+    "value": "stable internet",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "My work depends on stable internet,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Julian Torres",
+    "relation": "missed_deadline",
+    "value": "a crucial deadline",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "I missed a crucial deadline because I couldn't coordinate with my team or access my online resources."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Julian Torres",
+    "relation": "could_not",
+    "value": "coordinate with my team or access my online resources",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "because I couldn't coordinate with my team or access my online resources"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Julian Torres",
+    "relation": "missed_deadline_caused_by",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "I missed a crucial deadline because I couldn't coordinate with my team or access my online resources."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Julian Torres",
+    "relation": "said_experience_was",
+    "value": "maddening",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "It was maddening."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "aviation industry",
+    "relation": "affected_by",
+    "value": "solar storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The aviation industry is another sector that feels the impact of solar storms."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "polar routes",
+    "relation": "preferred_for",
+    "value": "long-haul flights to save time and fuel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pilots prefer routing over the poles for long-haul flights to save time and fuel."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "polar routes",
+    "relation": "vulnerable_to",
+    "value": "space weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these polar routes are extremely vulnerable to space weather events"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Captain Hardeep Singh",
+    "relation": "is_a",
+    "value": "a commercial airline pilot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Captain Hardeep Singh, a commercial airline pilot, narrates one such journey from September 28, 2023."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Captain Hardeep Singh",
+    "relation": "narrates_journey_on",
+    "value": "one such journey",
+    "time": "September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Captain Hardeep Singh, a commercial airline pilot, narrates one such journey from September 28, 2023."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Captain Hardeep Singh",
+    "relation": "approached",
+    "value": "the Arctic Circle",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "As we approached the Arctic Circle"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Captain Hardeep Singh",
+    "relation": "reported_communications_became",
+    "value": "patchy",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "our communications started to get patchy"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Captain Hardeep Singh",
+    "relation": "had_been_warned_of",
+    "value": "potential solar activity",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "We had been warned of potential solar activity"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Captain Hardeep Singh",
+    "relation": "rerouted_for",
+    "value": "safety",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "we had to reroute for safety"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Captain Hardeep Singh",
+    "relation": "reroute_resulted_in",
+    "value": "a delay for passengers and added costs for the airline",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "which meant a delay for passengers and added costs for the airline"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Captain Hardeep Singh",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": "Captain Hardeep Singh",
+    "verbatim": [
+     "we had to reroute for safety, which meant a delay for passengers and added costs for the airline."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Montague, Michigan",
+    "relation": "described_as",
+    "value": "the small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the small town of Montague, Michigan"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "solar storm",
+    "relation": "caused_power_outages_in",
+    "value": "Montague, Michigan",
+    "time": "early March 2024",
+    "speaker": null,
+    "verbatim": [
+     "back-to-back power outages due to severe solar storms in early March 2024"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "solar storm",
+    "relation": "severity",
+    "value": "severe",
+    "time": "early March 2024",
+    "speaker": null,
+    "verbatim": [
+     "severe solar storms in early March 2024"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Montague, Michigan",
+    "relation": "caused_by",
+    "value_ref": "c54",
+    "time": "early March 2024",
+    "speaker": null,
+    "verbatim": [
+     "due to severe solar storms in early March 2024"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Montague, Michigan",
+    "relation": "community_rallied_to",
+    "value": "support each other",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community rallied to support each other"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Montague, Michigan",
+    "relation": "local_businesses_provided",
+    "value": "warmth and food for those in need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses provided warmth and food for those in need"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "solar storm response plan",
+    "relation": "implemented_by",
+    "value": "the town's emergency services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the town's emergency services implemented a solar storm response plan"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "solar storm response plan",
+    "relation": "was_testament_to",
+    "value": "human resolve and adaptation to the challenges posed by space weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These measures were a testament to human resolve and adaptation to the challenges posed by space weather."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "agriculture",
+    "relation": "faced_trouble_during",
+    "value": "an October solar flare incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Even agriculture, an industry seemingly unrelated to solar events, faced trouble during an October solar flare incident."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "GPS",
+    "relation": "crucial_for",
+    "value": "precision farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GPS technology, crucial for precision farming practices,"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "GPS",
+    "relation": "suffered_accuracy_drops",
+    "value": "accuracy drops",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "suffered accuracy drops on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "GPS",
+    "relation": "temporarily_stalled_operations_for",
+    "value": "farmers like Sarah Phillips from Iowa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "temporarily stalling operations for farmers like Sarah Phillips from Iowa"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Sarah Phillips",
+    "relation": "from",
+    "value": "Iowa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "farmers like Sarah Phillips from Iowa"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sarah Phillips",
+    "relation": "relies_on",
+    "value": "GPS for planting and harvesting",
+    "time": null,
+    "speaker": "Sarah Phillips",
+    "verbatim": [
+     "We rely on GPS for planting and harvesting,"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sarah Phillips",
+    "relation": "said_unreliable_gps_throws_off",
+    "value": "our entire schedule",
+    "time": null,
+    "speaker": "Sarah Phillips",
+    "verbatim": [
+     "it throws off our entire schedule"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Sarah Phillips",
+    "relation": "said_it_makes_realize",
+    "value": "how connected everything is",
+    "time": null,
+    "speaker": "Sarah Phillips",
+    "verbatim": [
+     "It makes you realize how connected everything is."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "power grids",
+    "relation": "hardening_measure",
+    "value": "hardening electrical grids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Measures like hardening electrical grids, improving satellite shielding, and the development of more accurate space weather forecasting models have become priorities."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "satellite communications",
+    "relation": "shielding_measure",
+    "value": "improving satellite shielding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Measures like hardening electrical grids, improving satellite shielding, and the development of more accurate space weather forecasting models have become priorities."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "space weather forecasting models",
+    "relation": "development_is_priority",
+    "value": "more accurate space weather forecasting models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Measures like hardening electrical grids, improving satellite shielding, and the development of more accurate space weather forecasting models have become priorities."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "space weather",
+    "relation": "is_critical_issue_with",
+    "value": "direct consequences for society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "space weather is not just a matter for scientists to ponder but a critical issue with direct consequences for society."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

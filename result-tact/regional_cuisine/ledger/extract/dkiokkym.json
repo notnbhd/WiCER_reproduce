@@ -1,0 +1,1134 @@
+{
+ "inventory": [
+  "Gianni Romano",
+  "Marie-Claire Fontaine",
+  "Carlos Garc\u00eda",
+  "Elijah Williams",
+  "Yasmin Haddad",
+  "Emma Richardson",
+  "Lucas Martinez",
+  "Naples",
+  "France",
+  "Provence",
+  "Madrid",
+  "Austin",
+  "Texas",
+  "Beirut",
+  "Lebanon",
+  "Melbourne",
+  "Australia",
+  "Buenos Aires",
+  "United States",
+  "Middle East",
+  "Spain",
+  "wood-fired oven",
+  "Neapolitan pizza",
+  "boule",
+  "Gambas al Ajillo",
+  "brisket",
+  "manakish",
+  "chocolate lava cake",
+  "empanadas",
+  "chimichurri sauce",
+  "za'atar",
+  "San Marzano tomato sauce",
+  "mozzarella di bufala",
+  "barbecue pit",
+  "terracotta dish"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "wood-fired oven",
+    "relation": "popularity_resurgence",
+    "value": "notable resurgence in the popularity of this cooking method",
+    "time": "As of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 1, 2023, there has been a notable resurgence in the popularity of this cooking method."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "wood-fired oven",
+    "relation": "imparts",
+    "value": "a distinct char and smoky flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Revered for imparting a distinct char and smoky flavor"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "wood-fired oven",
+    "relation": "is_a",
+    "value": "an ancient technique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wood-fired oven baking is an ancient technique that continues to charm food enthusiasts and chefs alike"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Naples",
+    "relation": "has_pizzerias_described_as",
+    "value": "smoky pizzerias",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the smoky pizzerias of Naples"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "France",
+    "relation": "has_rustic_bakeries",
+    "value": "rural bakeries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rustic bakeries in rural France"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Neapolitan pizza",
+    "relation": "baked_in",
+    "value": "a wood-fired oven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nothing compares to a Neapolitan pizza, baked in a wood-fired oven"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Gianni Romano",
+    "relation": "originally_from",
+    "value": "Naples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned pizza chef Gianni Romano, originally from Naples"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Gianni Romano",
+    "relation": "occupation",
+    "value": "Renowned pizza chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned pizza chef Gianni Romano"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Gianni Romano",
+    "relation": "shared_secrets",
+    "value": "his secrets",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Renowned pizza chef Gianni Romano, originally from Naples, shared his secrets on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Gianni Romano",
+    "relation": "key_is",
+    "value": "the high heat and quick cooking time of the wood-fired oven",
+    "time": null,
+    "speaker": "Gianni Romano",
+    "verbatim": [
+     "The key, he revealed, lies in the high heat and quick cooking time of the wood-fired oven, which creates the perfect balance of a crispy crust and melted cheese."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "wood-fired oven",
+    "relation": "creates",
+    "value": "the perfect balance of a crispy crust and melted cheese",
+    "time": null,
+    "speaker": "Gianni Romano",
+    "verbatim": [
+     "which creates the perfect balance of a crispy crust and melted cheese"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Gianni Romano",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": "Gianni Romano",
+    "verbatim": [
+     "the high heat and quick cooking time of the wood-fired oven, which creates the perfect balance of a crispy crust and melted cheese"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Neapolitan pizza",
+    "relation": "dough_made_from",
+    "value": "high-gluten flour, water, yeast, and salt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Using a simple dough made from high-gluten flour, water, yeast, and salt"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Neapolitan pizza",
+    "relation": "topped_with",
+    "value": "fresh San Marzano tomato sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fresh San Marzano tomato sauce and slices of mozzarella di bufala melt together to adorn this classic with fresh basil leaves"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Neapolitan pizza",
+    "relation": "topped_with",
+    "value": "slices of mozzarella di bufala",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fresh San Marzano tomato sauce and slices of mozzarella di bufala melt together to adorn this classic with fresh basil leaves"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Neapolitan pizza",
+    "relation": "garnished_with",
+    "value": "fresh basil leaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fresh San Marzano tomato sauce and slices of mozzarella di bufala melt together to adorn this classic with fresh basil leaves"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Gianni Romano",
+    "relation": "encourages_bakers_to",
+    "value": "keep an eye on the wood selection",
+    "time": null,
+    "speaker": "Gianni Romano",
+    "verbatim": [
+     "Gianni encourages bakers to keep an eye on the wood selection"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Neapolitan pizza",
+    "relation": "aroma_influenced_by",
+    "value": "different woods",
+    "time": null,
+    "speaker": "Gianni Romano",
+    "verbatim": [
+     "as different woods can subtly influence the aroma and taste of the pizza"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "wood-fired oven",
+    "relation": "excels_at",
+    "value": "creating smoky, chargrilled tapas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wood-fired ovens also excel at creating smoky, chargrilled tapas"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "France",
+    "relation": "countryside_described_as",
+    "value": "picturesque",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the picturesque countryside of France"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "France",
+    "relation": "rustic_bread_baked_in",
+    "value": "ancient stone ovens fueled by oak or cherry wood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rustic bread is baked to perfection in ancient stone ovens fueled by oak or cherry wood"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Marie-Claire Fontaine",
+    "relation": "occupation",
+    "value": "artisane boulangerie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artisane boulangerie Marie-Claire Fontaine"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Marie-Claire Fontaine",
+    "relation": "invited_into_bakery",
+    "value": "her cozy bakery nestled in Provence",
+    "time": "On a crisp morning in November 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a crisp morning in November 2023, artisane boulangerie Marie-Claire Fontaine invited us into her cozy bakery nestled in Provence."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Provence",
+    "relation": "location_of_bakery",
+    "value": "Marie-Claire Fontaine's cozy bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her cozy bakery nestled in Provence"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "boule",
+    "relation": "trick_to_perfect_boule",
+    "value": "the overnight fermentation of the dough",
+    "time": null,
+    "speaker": "Marie-Claire Fontaine",
+    "verbatim": [
+     "She shared that the trick to a perfect boule lies in the overnight fermentation of the dough"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "boule",
+    "relation": "develops",
+    "value": "a deep flavor and airy texture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which develops a deep flavor and airy texture"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "boule",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": "Marie-Claire Fontaine",
+    "verbatim": [
+     "the overnight fermentation of the dough, which develops a deep flavor and airy texture"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "boule",
+    "relation": "bakes_from",
+    "value": "the outside in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it starts to bake from the outside in"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "boule",
+    "relation": "forms",
+    "value": "a thick crunchy crust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a thick crunchy crust that's simply irresistible"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "boule",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Once the boule hits the blistering hot oven floor, it starts to bake from the outside in, creating a thick crunchy crust"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "boule",
+    "relation": "infused_with",
+    "value": "an earthy, complex flavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The radiating heat and the aroma of the wood infuse the bread with an earthy, complex flavor that can't be replicated in standard ovens."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "boule",
+    "relation": "flavor_not_replicable_in",
+    "value": "standard ovens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The radiating heat and the aroma of the wood infuse the bread with an earthy, complex flavor that can't be replicated in standard ovens."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Carlos Garc\u00eda",
+    "relation": "occupation",
+    "value": "culinary maestro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Madrid's culinary maestro Carlos Garc\u00eda"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Carlos Garc\u00eda",
+    "relation": "based_in",
+    "value": "Madrid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Madrid's culinary maestro Carlos Garc\u00eda"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Carlos Garc\u00eda",
+    "relation": "works_at",
+    "value": "bustling tapas bar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his bustling tapas bar"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Carlos Garc\u00eda",
+    "relation": "explained_artistry_of",
+    "value": "Gambas al Ajillo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "took time from his bustling tapas bar to explain the artistry behind Gambas al Ajillo"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Gambas al Ajillo",
+    "relation": "described_as",
+    "value": "shrimp sizzling in garlicky oil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gambas al Ajillo - shrimp sizzling in garlicky oil"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Gambas al Ajillo",
+    "relation": "cooked_in",
+    "value": "a terracotta dish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The dish is traditionally cooked in a terracotta dish placed in the glowing embers of the wood fire."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "terracotta dish",
+    "relation": "placed_in",
+    "value": "the glowing embers of the wood fire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The dish is traditionally cooked in a terracotta dish placed in the glowing embers of the wood fire."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Gambas al Ajillo",
+    "relation": "caramelizes",
+    "value": "the garlic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The intense heat from the oven caramelizes the garlic"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Gambas al Ajillo",
+    "relation": "infuses",
+    "value": "a delicious smokiness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infusing the shrimp with a delicious smokiness"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Carlos Garc\u00eda",
+    "relation": "swears_by",
+    "value": "the pairing of hearty Spanish olive oil with fresh, plump shrimp and a generous amount of garlic",
+    "time": null,
+    "speaker": "Carlos Garc\u00eda",
+    "verbatim": [
+     "Carlos swears by the pairing of hearty Spanish olive oil with fresh, plump",
+     "shrimp and a generous amount of garlic, sprinkled with chili and parsley"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Gambas al Ajillo",
+    "relation": "sprinkled_with",
+    "value": "chili and parsley",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sprinkled with chili and parsley for a taste that brings together the vibrancy of Spain"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Gambas al Ajillo",
+    "relation": "brings_together",
+    "value": "the vibrancy of Spain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for a taste that brings together the vibrancy of Spain"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "wood-fired oven",
+    "relation": "takes_form_of",
+    "value": "smoldering barbecue pits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the wood-fired oven takes a different shape in the form of smoldering barbecue pits"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "United States",
+    "relation": "has_southern_regions",
+    "value": "southern regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the southern regions of the United States"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Elijah Williams",
+    "relation": "occupation",
+    "value": "pitmaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pitmaster Elijah Williams of Austin, Texas"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Elijah Williams",
+    "relation": "based_in",
+    "value": "Austin, Texas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pitmaster Elijah Williams of Austin, Texas"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Austin",
+    "relation": "pitmaster_from",
+    "value": "Elijah Williams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pitmaster Elijah Williams of Austin, Texas"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Texas",
+    "relation": "contains_city",
+    "value": "Austin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pitmaster Elijah Williams of Austin, Texas"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Elijah Williams",
+    "relation": "introduced_us_to",
+    "value": "the finesse of low-and-slow cooking",
+    "time": "On a sunny September afternoon in 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny September afternoon in 2023, pitmaster Elijah Williams of Austin, Texas, introduced us to the finesse of low-and-slow cooking."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Elijah Williams",
+    "relation": "shared_process_of",
+    "value": "preparing a brisket seasoned with a simple rub of salt, pepper, and a hint of cayenne",
+    "time": null,
+    "speaker": "Elijah Williams",
+    "verbatim": [
+     "He shared the process of preparing a brisket seasoned with a simple rub of salt, pepper, and a hint of cayenne."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "brisket",
+    "relation": "seasoned_with",
+    "value": "a simple rub of salt, pepper, and a hint of cayenne",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a brisket seasoned with a simple rub of salt, pepper, and a hint of cayenne"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "brisket",
+    "relation": "smoked_over",
+    "value": "a combination of oak and hickory woods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The meat is then smoked over a combination of oak and hickory woods"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "brisket",
+    "relation": "smoked_for",
+    "value": "many hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smoked over a combination of oak and hickory woods for many hours"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "brisket",
+    "relation": "reaches",
+    "value": "tender, melt-in-your-mouth perfection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "until it reaches tender, melt-in-your-mouth perfection"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "barbecue pit",
+    "relation": "embodies",
+    "value": "control over heat and smoke",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the barbecue pit embodies the same principle \u2013 control over heat and smoke \u2013 that defines wood-fired cooking"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "barbecue pit",
+    "relation": "is_not",
+    "value": "the traditional dome-shaped oven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Though not the traditional dome-shaped oven"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Middle East",
+    "relation": "journey_incomplete_without",
+    "value": "a taste of the Middle East",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "would not be complete without a taste of the Middle East"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Middle East",
+    "relation": "renowned_for",
+    "value": "flatbreads and endless spices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned for flatbreads and endless spices, this region takes pride in Manakish"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Middle East",
+    "relation": "takes_pride_in",
+    "value": "manakish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this region takes pride in Manakish"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "manakish",
+    "relation": "described_as",
+    "value": "a popular street food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Manakish, a popular street food often referred to as the pizza of the Arab world"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "manakish",
+    "relation": "often_referred_to_as",
+    "value": "the pizza of the Arab world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often referred to as the pizza of the Arab world"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Beirut",
+    "relation": "located_in",
+    "value": "Lebanon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Beirut, Lebanon"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Yasmin Haddad",
+    "relation": "location",
+    "value": "Beirut",
+    "time": "on a bustling October morning",
+    "speaker": null,
+    "verbatim": [
+     "In Beirut, Lebanon, on a bustling October morning, local baker Yasmin Haddad shared her family's manakish recipe."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Yasmin Haddad",
+    "relation": "occupation",
+    "value": "local baker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local baker Yasmin Haddad"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Yasmin Haddad",
+    "relation": "shared_recipe",
+    "value": "her family's manakish recipe",
+    "time": "on a bustling October morning",
+    "speaker": null,
+    "verbatim": [
+     "In Beirut, Lebanon, on a bustling October morning, local baker Yasmin Haddad shared her family's manakish recipe."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "manakish",
+    "relation": "slathered_with",
+    "value": "za'atar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The flatbread is slathered with za'atar\u2014a mix of sumac, sesame seeds, and thyme\u2014and topped with a variety of ingredients ranging from cheese to ground meat."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "za'atar",
+    "relation": "composed_of",
+    "value": "sumac, sesame seeds, and thyme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "za'atar\u2014a mix of sumac, sesame seeds, and thyme\u2014"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "manakish",
+    "relation": "topped_with",
+    "value": "a variety of ingredients ranging from cheese to ground meat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "topped with a variety of ingredients ranging from cheese to ground meat"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "manakish",
+    "relation": "baked_in",
+    "value": "a traditional oven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Baked in a traditional oven"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "manakish",
+    "relation": "dough_behaviour",
+    "value": "puffs slightly and browns at the edges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the dough puffs slightly and browns at the edges"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "manakish",
+    "relation": "allows",
+    "value": "the spices to fuse with the crispy base for an aromatic, savory bite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing the spices to fuse with the crispy base for an aromatic, savory bite"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "wood-fired oven",
+    "relation": "not_limited_to",
+    "value": "bread and savory dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wood-fired baking is not purely the domain of bread and savory dishes."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Emma Richardson",
+    "relation": "occupation",
+    "value": "Pastry chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pastry chef Emma Richardson from Melbourne, Australia"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Emma Richardson",
+    "relation": "from",
+    "value": "Melbourne",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pastry chef Emma Richardson from Melbourne, Australia"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Melbourne",
+    "relation": "located_in",
+    "value": "Australia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pastry chef Emma Richardson from Melbourne, Australia"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Emma Richardson",
+    "relation": "surprises_with",
+    "value": "a dessert that benefits gorgeously from the wood-fired treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "surprises us with a dessert that benefits gorgeously from the wood-fired treatment"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Emma Richardson",
+    "relation": "showcased",
+    "value": "her chocolate lava cake",
+    "time": "On October 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 23, 2023, she showcased her chocolate lava cake"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "chocolate lava cake",
+    "relation": "described_as",
+    "value": "a rich, fudgy creation with a molten center of pure chocolate bliss",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her chocolate lava cake\u2014a rich, fudgy creation with a molten center of pure chocolate bliss"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "wood-fired oven",
+    "relation": "ensures",
+    "value": "a crusty outer shell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The searing heat of the wood-fired oven ensures a crusty outer shell while preserving the liquid heart"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "wood-fired oven",
+    "relation": "preserves",
+    "value": "the liquid heart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The searing heat of the wood-fired oven ensures a crusty outer shell while preserving the liquid heart"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "chocolate lava cake",
+    "relation": "mastered_through",
+    "value": "precise timing and temperature control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a balance painstakingly mastered through precise timing and temperature control"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Emma Richardson",
+    "relation": "suggests",
+    "value": "using a high-quality dark chocolate and serving it hot, with a dollop of vanilla ice cream",
+    "time": null,
+    "speaker": "Emma Richardson",
+    "verbatim": [
+     "Emma suggests using a high-quality dark chocolate and serving it hot, with a dollop of vanilla ice cream to cut through the richness."
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Emma Richardson",
+    "relation": "dollop_in_order_to",
+    "value": "cut through the richness",
+    "time": null,
+    "speaker": "Emma Richardson",
+    "verbatim": [
+     "with a dollop of vanilla ice cream to cut through the richness"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "wood-fired oven",
+    "relation": "testament_to",
+    "value": "the universality of this ancient cooking method",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The diversity of wood-fired oven recipes is testament to the universality of this ancient cooking method."
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "Middle East",
+    "relation": "flatbreads_shine_under_dome",
+    "value": "flatbreads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not only the Middle Eastern flatbreads that shine under the dome"
+    ]
+   },
+   {
+    "id": "c88",
+    "entity": "empanadas",
+    "relation": "origin",
+    "value": "Argentinian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also Argentinian empanadas"
+    ]
+   },
+   {
+    "id": "c89",
+    "entity": "Lucas Martinez",
+    "relation": "occupation",
+    "value": "Buenos Aires chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Buenos Aires chef, Lucas Martinez, reminds us"
+    ]
+   },
+   {
+    "id": "c90",
+    "entity": "Lucas Martinez",
+    "relation": "based_in",
+    "value": "Buenos Aires",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Buenos Aires chef, Lucas Martinez, reminds us"
+    ]
+   },
+   {
+    "id": "c91",
+    "entity": "empanadas",
+    "relation": "filled_with",
+    "value": "spiced beef, olives, and eggs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The empanadas, with their flaky pastry filled with spiced beef, olives, and eggs"
+    ]
+   },
+   {
+    "id": "c92",
+    "entity": "empanadas",
+    "relation": "acquire",
+    "value": "a smoky edge and a flaky tenderness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acquire a smoky edge and a flaky tenderness from the oven's robust heat"
+    ]
+   },
+   {
+    "id": "c93",
+    "entity": "empanadas",
+    "relation": "heat_source",
+    "value": "the oven's robust heat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acquire a smoky edge and a flaky tenderness from the oven's robust heat"
+    ]
+   },
+   {
+    "id": "c94",
+    "entity": "empanadas",
+    "relation": "caused_by",
+    "value_ref": "c92",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acquire a smoky edge and a flaky tenderness from the oven's robust heat"
+    ]
+   },
+   {
+    "id": "c95",
+    "entity": "empanadas",
+    "relation": "heat_unmatched_by",
+    "value": "anything else",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unmatched by anything else"
+    ]
+   },
+   {
+    "id": "c96",
+    "entity": "empanadas",
+    "relation": "baked_until",
+    "value": "golden and crisp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Baking them until they're golden and crisp"
+    ]
+   },
+   {
+    "id": "c97",
+    "entity": "Lucas Martinez",
+    "relation": "serves",
+    "value": "these treats alongside a sharp chimichurri sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he serves these treats alongside a sharp chimichurri sauce that cuts through the rich pastry"
+    ]
+   },
+   {
+    "id": "c98",
+    "entity": "chimichurri sauce",
+    "relation": "described_as",
+    "value": "sharp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sharp chimichurri sauce that cuts through the rich pastry"
+    ]
+   },
+   {
+    "id": "c99",
+    "entity": "chimichurri sauce",
+    "relation": "cuts_through",
+    "value": "the rich pastry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sharp chimichurri sauce that cuts through the rich pastry"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

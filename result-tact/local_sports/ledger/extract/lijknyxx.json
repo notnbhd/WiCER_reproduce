@@ -1,0 +1,827 @@
+{
+ "inventory": [
+  "Campus Clash",
+  "intramural sports",
+  "soccer",
+  "basketball",
+  "ultimate Frisbee",
+  "Quidditch",
+  "J.K. Rowling",
+  "Harry Potter series",
+  "Smithson University",
+  "Battles of the Ballers",
+  "Thompson Gymnasium",
+  "smart basketballs",
+  "Greenfield College",
+  "Strikers Showdown",
+  "Marcus DiAngelo",
+  "wearable fitness trackers",
+  "Harrison College",
+  "Frisbee Frenzy",
+  "Jerry P. Thompson",
+  "Carnegie Mage University",
+  "Wizard's Cup",
+  "Samantha Blake",
+  "LED lighting systems",
+  "Jordan Michaels",
+  "Lancaster Tech",
+  "Volleyverse",
+  "volleyball",
+  "badminton",
+  "Birdie Bash",
+  "Wellington University",
+  "Virtual Showdown",
+  "League of Legends",
+  "Overwatch",
+  "esports",
+  "esports arenas",
+  "sports analytics",
+  "wearable tech"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "intramural sports",
+    "relation": "kicks_off",
+    "value": "in full swing",
+    "time": "September",
+    "speaker": null,
+    "verbatim": [
+     "intramural sports kick off in full swing"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "intramural sports",
+    "relation": "includes",
+    "value": "soccer",
+    "time": "this year",
+    "speaker": null,
+    "verbatim": [
+     "this year brings an eclectic mix ranging from the time-honored soccer and basketball to more avant-garde options like ultimate Frisbee and Quidditch"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "intramural sports",
+    "relation": "includes",
+    "value": "basketball",
+    "time": "this year",
+    "speaker": null,
+    "verbatim": [
+     "this year brings an eclectic mix ranging from the time-honored soccer and basketball to more avant-garde options like ultimate Frisbee and Quidditch"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "intramural sports",
+    "relation": "includes",
+    "value": "ultimate Frisbee",
+    "time": "this year",
+    "speaker": null,
+    "verbatim": [
+     "this year brings an eclectic mix ranging from the time-honored soccer and basketball to more avant-garde options like ultimate Frisbee and Quidditch"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "intramural sports",
+    "relation": "includes",
+    "value": "Quidditch",
+    "time": "this year",
+    "speaker": null,
+    "verbatim": [
+     "this year brings an eclectic mix ranging from the time-honored soccer and basketball to more avant-garde options like ultimate Frisbee and Quidditch"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Quidditch",
+    "relation": "inspired_by",
+    "value": "J.K. Rowling's Harry Potter series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the magical game inspired by J.K. Rowling's Harry Potter series"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "J.K. Rowling",
+    "relation": "author_of",
+    "value": "Harry Potter series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "J.K. Rowling's Harry Potter series"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Smithson University",
+    "relation": "unveils",
+    "value": "Battles of the Ballers",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting September 15, 2023, Smithson University unveils its \"Battles of the Ballers\" basketball league"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Battles of the Ballers",
+    "relation": "start_date",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting September 15, 2023, Smithson University unveils its \"Battles of the Ballers\" basketball league"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Battles of the Ballers",
+    "relation": "sport",
+    "value": "basketball",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Battles of the Ballers\" basketball league"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Battles of the Ballers",
+    "relation": "opening_game_time",
+    "value": "7 PM tip-off",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the opening game set for a 7 PM tip-off at the university\u2019s historic Thompson Gymnasium"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Battles of the Ballers",
+    "relation": "opening_game_venue",
+    "value": "Thompson Gymnasium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the opening game set for a 7 PM tip-off at the university\u2019s historic Thompson Gymnasium"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Thompson Gymnasium",
+    "relation": "described_as",
+    "value": "historic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the university\u2019s historic Thompson Gymnasium"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Smithson University",
+    "relation": "has_venue",
+    "value": "Thompson Gymnasium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the university\u2019s historic Thompson Gymnasium"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "smart basketballs",
+    "relation": "equipped_with",
+    "value": "sensors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced smart basketballs equipped with sensors to track player performance"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "smart basketballs",
+    "relation": "purpose",
+    "value": "track player performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced smart basketballs equipped with sensors to track player performance"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "smart basketballs",
+    "relation": "introduced_by",
+    "value": "the university\u2019s intramural department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the university\u2019s intramural department has introduced smart basketballs"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "soccer",
+    "relation": "season_signal",
+    "value": "beginning of soccer season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it signals the beginning of soccer season"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Strikers Showdown",
+    "relation": "start_date",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 3, 2023, marks the date when Greenfield College's immaculate lawns transform into battlegrounds for the \"Strikers Showdown\" intramural soccer league"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Greenfield College",
+    "relation": "hosts",
+    "value": "Strikers Showdown",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Greenfield College's immaculate lawns transform into battlegrounds for the \"Strikers Showdown\" intramural soccer league"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Strikers Showdown",
+    "relation": "sport",
+    "value": "soccer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intramural soccer league"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Greenfield College",
+    "relation": "lawns_are",
+    "value": "immaculate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greenfield College's immaculate lawns"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Marcus DiAngelo",
+    "relation": "role",
+    "value": "coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the watchful eye of coach Marcus DiAngelo"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Marcus DiAngelo",
+    "relation": "former_occupation",
+    "value": "professional player",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coach Marcus DiAngelo, a former professional player known for his savvy tactics"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Marcus DiAngelo",
+    "relation": "known_for",
+    "value": "savvy tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coach Marcus DiAngelo, a former professional player known for his savvy tactics"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "wearable fitness trackers",
+    "relation": "introduced_by",
+    "value": "the college",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the college introduces wearable fitness trackers for players"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "wearable fitness trackers",
+    "relation": "purpose",
+    "value": "insights into their stamina",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wearable fitness trackers for players, offering insights into their stamina and helping to prevent injuries through proactive physique analysis"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "wearable fitness trackers",
+    "relation": "purpose",
+    "value": "preventing injuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping to prevent injuries through proactive physique analysis"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Harrison College",
+    "relation": "hosts",
+    "value": "Frisbee Frenzy",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20, 2023, their \"Frisbee Frenzy\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Frisbee Frenzy",
+    "relation": "start_date",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20, 2023, their \"Frisbee Frenzy\""
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "ultimate Frisbee",
+    "relation": "uses",
+    "value": "apps that help to analyze game strategies and enhance team coordination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "players use apps that help to analyze game strategies and enhance team coordination"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jerry P. Thompson",
+    "relation": "role",
+    "value": "Referee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Referee Jerry P. Thompson notes the exponential growth the intramural sport has seen"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "intramural sports",
+    "relation": "growth",
+    "value": "exponential growth",
+    "time": null,
+    "speaker": "Jerry P. Thompson",
+    "verbatim": [
+     "Referee Jerry P. Thompson notes the exponential growth the intramural sport has seen"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jerry P. Thompson",
+    "relation": "said",
+    "value": "It's not just about throwing a disc; it's strategic play, athleticism, and community.",
+    "time": null,
+    "speaker": "Jerry P. Thompson",
+    "verbatim": [
+     "It's not just about throwing a disc; it's strategic play, athleticism, and community."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "ultimate Frisbee",
+    "relation": "attracts",
+    "value": "a new wave of athletes",
+    "time": null,
+    "speaker": "Jerry P. Thompson",
+    "verbatim": [
+     "Ultimate frisbee attracts a new wave of athletes who thrive in a team-oriented and upbeat environment."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Quidditch",
+    "relation": "described_as",
+    "value": "a revered intramural competition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fantasy sport of Quidditch has transcended the pages of fiction to become a revered intramural competition"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Carnegie Mage University",
+    "relation": "hosts",
+    "value": "Wizard's Cup",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Carnegie Mage University will host the \"Wizard's Cup,\""
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Wizard's Cup",
+    "relation": "start_date",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Carnegie Mage University will host the \"Wizard's Cup,\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Wizard's Cup",
+    "relation": "is_a",
+    "value": "a tournament",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tournament where students mount broomsticks and make a magical push for victory"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Quidditch",
+    "relation": "emphasis",
+    "value": "inclusivity and gender equality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With an emphasis on inclusivity and gender equality, Quidditch provides a fresh narrative to traditional sports"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Samantha Blake",
+    "relation": "role",
+    "value": "team captain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "team captain Samantha Blake, who champions the diversity and strategic depth found in this enchanting sport"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Samantha Blake",
+    "relation": "champions",
+    "value": "the diversity and strategic depth found in this enchanting sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "team captain Samantha Blake, who champions the diversity and strategic depth found in this enchanting sport"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Smithson University",
+    "relation": "provides_courts_with",
+    "value": "LED lighting systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As players at Smithson University lace up their sneakers, they now have access to courts equipped with LED lighting systems that respond to game events"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "LED lighting systems",
+    "relation": "responds_to",
+    "value": "game events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As players at Smithson University lace up their sneakers, they now have access to courts equipped with LED lighting systems that respond to game events"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jordan Michaels",
+    "relation": "role",
+    "value": "Athlete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Athlete Jordan Michaels appreciates the personalized touch"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jordan Michaels",
+    "relation": "said",
+    "value": "The analytics don't lie. They push you to be better because you can see it, right there in the numbers.",
+    "time": null,
+    "speaker": "Jordan Michaels",
+    "verbatim": [
+     "The analytics don't lie. They push you to be better because you can see it, right there in the numbers."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sports analytics",
+    "relation": "used_for",
+    "value": "tracking progression and tailoring training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coaches use software to track progression and tailor training programs"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "volleyball",
+    "relation": "category",
+    "value": "indoor intramural sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indoor intramural sports like volleyball and badminton"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "badminton",
+    "relation": "category",
+    "value": "indoor intramural sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indoor intramural sports like volleyball and badminton"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Lancaster Tech",
+    "relation": "unveils",
+    "value": "Volleyverse",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 25, 2023, Lancaster Tech will unveil its new \"Volleyverse\" event, a mixed-gender league aimed at spiking enthusiasm for the sport"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Volleyverse",
+    "relation": "start_date",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 25, 2023, Lancaster Tech will unveil its new \"Volleyverse\" event, a mixed-gender league aimed at spiking enthusiasm for the sport"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Volleyverse",
+    "relation": "is_a",
+    "value": "mixed-gender league",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On September 25, 2023, Lancaster Tech will unveil its new \"Volleyverse\" event, a mixed-gender league aimed at spiking enthusiasm for the sport"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Birdie Bash",
+    "relation": "start_date",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the \"Birdie Bash\" commences on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Birdie Bash",
+    "relation": "provides",
+    "value": "a fast-paced arena for shuttlecock smashes and agile athleticism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing a fast-paced arena for shuttlecock smashes and agile athleticism"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "badminton",
+    "relation": "has_event",
+    "value": "Birdie Bash",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Badminton buffs are not forgotten, as the \"Birdie Bash\" commences on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "volleyball",
+    "relation": "benefits_from",
+    "value": "advances in floor materials designed for optimal performance and injury prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These indoor sports benefit from advances in floor materials designed for optimal performance and injury prevention"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "badminton",
+    "relation": "benefits_from",
+    "value": "advances in floor materials designed for optimal performance and injury prevention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These indoor sports benefit from advances in floor materials designed for optimal performance and injury prevention"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "esports",
+    "relation": "trend",
+    "value": "ascendancy within the intramural domain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intellectual vigor takes center stage with the ascendancy of esports within the intramural domain"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Wellington University",
+    "relation": "students_prepare_for",
+    "value": "Virtual Showdown",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "students from Wellington University prepare for the highly anticipated \"Virtual Showdown\" beginning September 30, 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Virtual Showdown",
+    "relation": "start_date",
+    "value": "September 30, 2023",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "students from Wellington University prepare for the highly anticipated \"Virtual Showdown\" beginning September 30, 2023"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Virtual Showdown",
+    "relation": "features_title",
+    "value": "League of Legends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "battle it out across popular titles like \"League of Legends\" and \"Overwatch,\""
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Virtual Showdown",
+    "relation": "features_title",
+    "value": "Overwatch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "battle it out across popular titles like \"League of Legends\" and \"Overwatch,\""
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Virtual Showdown",
+    "relation": "broadcast",
+    "value": "live on gaming platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the competition broadcasted live on gaming platforms and enjoyed by a global audience"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Virtual Showdown",
+    "relation": "audience",
+    "value": "global audience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the competition broadcasted live on gaming platforms and enjoyed by a global audience"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "esports arenas",
+    "relation": "equipped_with",
+    "value": "state-of-the-art computers, ergonomic gaming chairs, and stellar audio-visual systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Esports arenas have been equipped with state-of-the-art computers, ergonomic gaming chairs, and stellar audio-visual systems"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "intramural sports",
+    "relation": "emphasizes",
+    "value": "participation over purely winning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intramural opportunities invite students to embrace the essence of participation over purely winning"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "intramural sports",
+    "relation": "creates",
+    "value": "lasting bonds among participants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the essence of these events lies in their ability to weave lasting bonds among participants"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "sports analytics",
+    "relation": "impact",
+    "value": "play and performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As sports analytics and wearable tech make their marks on play and performance"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "wearable tech",
+    "relation": "impact",
+    "value": "play and performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As sports analytics and wearable tech make their marks on play and performance"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "smart basketballs",
+    "relation": "in_order_to",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart basketballs equipped with sensors to track player performance"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "wearable fitness trackers",
+    "relation": "in_order_to",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering insights into their stamina and helping to prevent injuries"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

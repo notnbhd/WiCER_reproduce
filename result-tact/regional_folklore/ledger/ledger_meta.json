@@ -1,0 +1,29 @@
+{
+  "topic": "regional_folklore",
+  "corpus_sha256": "c05fc19a41bed441705a3d080db8c02270b26afac5e1a0831ebf6b214f336a32",
+  "n_documents": 80,
+  "n_claims": 4747,
+  "n_claims_before_merge": 4750,
+  "n_raw": 4751,
+  "n_rejected": 1,
+  "n_multispan": 36,
+  "n_relational": 138,
+  "rejection_rate": 0.00021048200378867606,
+  "n_contradictions": 27,
+  "inventory_size": 1739,
+  "n_canonical_entities": 1540,
+  "entity_collision_rate": 0.0006493506493506494,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 410047,
+    "output_tokens": 1688762,
+    "measured_cost_usd": 0.0
+  }
+}

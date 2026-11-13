@@ -1,0 +1,813 @@
+{
+ "inventory": [
+  "Mindfulness",
+  "Buddhism",
+  "Jon Kabat-Zinn",
+  "Dr. Emily Torres",
+  "San Diego",
+  "Jane Nguyen",
+  "Journal of Mental Health and Clinical Psychology",
+  "Dr. Alex Richardson",
+  "amygdala",
+  "Michael Thompson",
+  "Aspen",
+  "Sara Beltran",
+  "downtown Chicago",
+  "Dr. Leo Smith",
+  "New York City",
+  "Philadelphia high school",
+  "pilot program",
+  "anxiety",
+  "depression",
+  "insomnia",
+  "chronic pain",
+  "cancer",
+  "meditation",
+  "mindful eating",
+  "mindful walking",
+  "mobile apps",
+  "online platforms",
+  "guided meditations",
+  "virtual mindfulness courses",
+  "support communities",
+  "digital distractions",
+  "Hospitals and clinics",
+  "Educational institutions",
+  "Companies"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mindfulness",
+    "relation": "has_seen_rise_in_popularity",
+    "value": "an unprecedented rise in popularity",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of late 2023, this age-old practice has seen an unprecedented rise in popularity"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mindfulness",
+    "relation": "potential_to_revolutionize",
+    "value": "mental and emotional health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its potential to revolutionize mental and emotional health"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Mindfulness",
+    "relation": "caused_by",
+    "value_ref": "c2",
+    "time": "As of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "has seen an unprecedented rise in popularity, thanks to its potential to revolutionize mental and emotional health"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mindfulness",
+    "relation": "originates_in",
+    "value": "ancient contemplative traditions, most notably Buddhism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its origins can be traced back to ancient contemplative traditions, most notably Buddhism"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Buddhism",
+    "relation": "origin_of",
+    "value": "Mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its origins can be traced back to ancient contemplative traditions, most notably Buddhism"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mindfulness",
+    "relation": "entered_western_consciousness_through",
+    "value": "the work of figures like Jon Kabat-Zinn",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness entered the Western consciousness primarily through the work of figures like Jon Kabat-Zinn"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jon Kabat-Zinn",
+    "relation": "figure_in_western_spread_of",
+    "value": "Mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness entered the Western consciousness primarily through the work of figures like Jon Kabat-Zinn"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Emily Torres",
+    "relation": "occupation",
+    "value": "a renowned psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Torres, a renowned psychologist based in San Diego"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Torres",
+    "relation": "based_in",
+    "value": "San Diego",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Torres, a renowned psychologist based in San Diego"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mindfulness",
+    "relation": "described_as",
+    "value": "a universally embraced pillar of psychological resilience",
+    "time": "In September of 2023",
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "Mindfulness has transcended its spiritual genesis to become a universally embraced pillar of psychological resilience."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mindfulness",
+    "relation": "defined_as",
+    "value": "the practice of being acutely aware of the present moment, free from judgment and full of acceptance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness is the practice of being acutely aware of the present moment, free from judgment and full of acceptance"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mindfulness",
+    "relation": "encompasses",
+    "value": "an observance of thoughts, feelings, bodily sensations, and the surrounding environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This conscious awareness encompasses an observance of thoughts, feelings, bodily sensations, and the surrounding environment."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mindfulness",
+    "relation": "described_as",
+    "value": "a way of life that fosters an intimate dialogue with one's personal experiences",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "a way of life that fosters an intimate dialogue with one's personal experiences"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mindfulness",
+    "relation": "is_adaptable_in",
+    "value": "daily life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its adaptability in daily life"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mindfulness",
+    "relation": "attributed_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ubiquity of mindfulness can largely be attributed to its adaptability in daily life."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mindfulness",
+    "relation": "applications_include",
+    "value": "mindful eating, mindful walking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From mindful eating to mindful walking, the applications are varied and vast."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "mindful eating",
+    "relation": "is_application_of",
+    "value": "Mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From mindful eating to mindful walking"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "mindful walking",
+    "relation": "is_application_of",
+    "value": "Mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From mindful eating to mindful walking"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jane Nguyen",
+    "relation": "occupation",
+    "value": "a local yoga instructor and mindfulness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Nguyen, a local yoga instructor and mindfulness coach who conducted a series of successful workshops beginning in autumn 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jane Nguyen",
+    "relation": "conducted",
+    "value": "a series of successful workshops",
+    "time": "beginning in autumn 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jane Nguyen, a local yoga instructor and mindfulness coach who conducted a series of successful workshops beginning in autumn 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jane Nguyen",
+    "relation": "notes_that",
+    "value": "We no longer see mindfulness as a retreat from life but as a way to fully immerse oneself in it, moment by moment",
+    "time": null,
+    "speaker": "Jane Nguyen",
+    "verbatim": [
+     "We no longer see mindfulness as a retreat from life but as a way to fully immerse oneself in it, moment by moment."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mindfulness",
+    "relation": "backed_by",
+    "value": "a growing body of scientific research",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's backed by a growing body of scientific research"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Journal of Mental Health and Clinical Psychology",
+    "relation": "published",
+    "value": "a study",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study published in the \"Journal of Mental Health and Clinical Psychology\" on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "anxiety",
+    "relation": "symptoms_decreased_with_daily_mindfulness",
+    "value": "significant decrease",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "participants who engaged in daily mindfulness practices reported a significant decrease in symptoms of anxiety and depression"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "depression",
+    "relation": "symptoms_decreased_with_daily_mindfulness",
+    "value": "significant decrease",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "participants who engaged in daily mindfulness practices reported a significant decrease in symptoms of anxiety and depression"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Alex Richardson",
+    "relation": "occupation",
+    "value": "prominent neuroscientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "research shared by the prominent neuroscientist Dr. Alex Richardson in a public lecture on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Alex Richardson",
+    "relation": "shared_research_in",
+    "value": "a public lecture",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "research shared by the prominent neuroscientist Dr. Alex Richardson in a public lecture on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mindfulness",
+    "relation": "found_to_alter",
+    "value": "the structure and function of the brain",
+    "time": "September 30, 2023",
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "mindfulness has been found to alter the structure and function of the brain"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mindfulness",
+    "relation": "expands_regions_associated_with",
+    "value": "attention, emotion regulation, and self-awareness",
+    "time": "September 30, 2023",
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "Regions associated with attention, emotion regulation, and self-awareness expand"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "amygdala",
+    "relation": "described_as",
+    "value": "stress-inducing",
+    "time": "September 30, 2023",
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "the stress-inducing amygdala shrinks in size"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "amygdala",
+    "relation": "shrinks_in_size",
+    "value": "shrinks in size",
+    "time": "September 30, 2023",
+    "speaker": "Dr. Alex Richardson",
+    "verbatim": [
+     "the stress-inducing amygdala shrinks in size"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Michael Thompson",
+    "relation": "described_as",
+    "value": "a father of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, a father of two from Aspen"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Michael Thompson",
+    "relation": "lives_in",
+    "value": "Aspen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, a father of two from Aspen"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Michael Thompson",
+    "relation": "said_mindfulness_rescued_him_from",
+    "value": "the brink of emotional collapse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared how mindfulness rescued him from the brink of emotional collapse"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Michael Thompson",
+    "relation": "found_way_out_of",
+    "value": "a dark maze of stress and insomnia",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "After starting mindfulness, I gradually found my way out of a dark maze of stress and insomnia."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "insomnia",
+    "relation": "experienced_by",
+    "value": "Michael Thompson",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "I gradually found my way out of a dark maze of stress and insomnia"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sara Beltran",
+    "relation": "occupation",
+    "value": "a nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sara Beltran, a nurse in downtown Chicago"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sara Beltran",
+    "relation": "works_in",
+    "value": "downtown Chicago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sara Beltran, a nurse in downtown Chicago"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sara Beltran",
+    "relation": "said",
+    "value": "Mindfulness redefined my relationship with work",
+    "time": null,
+    "speaker": "Sara Beltran",
+    "verbatim": [
+     "Mindfulness redefined my relationship with work."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sara Beltran",
+    "relation": "said_can_now_approach_each_day_with",
+    "value": "a centered calmness and compassion",
+    "time": null,
+    "speaker": "Sara Beltran",
+    "verbatim": [
+     "I can now approach each day with a centered calmness and compassion"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Leo Smith",
+    "relation": "occupation",
+    "value": "a psychiatrist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Leo Smith, a psychiatrist based in New York City who has integrated mindfulness into his practice since late 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Leo Smith",
+    "relation": "based_in",
+    "value": "New York City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Leo Smith, a psychiatrist based in New York City who has integrated mindfulness into his practice since late 2023"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Leo Smith",
+    "relation": "integrated_mindfulness_into_practice_since",
+    "value": "late 2023",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Leo Smith, a psychiatrist based in New York City who has integrated mindfulness into his practice since late 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Leo Smith",
+    "relation": "said",
+    "value": "When coupled with traditional mental health treatments, mindfulness becomes a potent tool for healing and growth",
+    "time": null,
+    "speaker": "Dr. Leo Smith",
+    "verbatim": [
+     "When coupled with traditional mental health treatments, mindfulness becomes a potent tool for healing and growth"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Hospitals and clinics",
+    "relation": "offer",
+    "value": "mindfulness training for patients dealing with chronic pain, cancer, and other stress-related conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospitals and clinics across the country have started to offer mindfulness training for patients dealing with chronic pain, cancer, and other stress-related conditions"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Hospitals and clinics",
+    "relation": "located_in",
+    "value": "across the country",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospitals and clinics across the country"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "chronic pain",
+    "relation": "addressed_by",
+    "value": "mindfulness training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness training for patients dealing with chronic pain"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "cancer",
+    "relation": "addressed_by",
+    "value": "mindfulness training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness training for patients dealing with chronic pain, cancer, and other stress-related conditions"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Educational institutions",
+    "relation": "affected_by",
+    "value": "the mindfulness wave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational institutions have not remained untouched by the mindfulness wave"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "pilot program",
+    "relation": "launched_in",
+    "value": "a Philadelphia high school",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "A pilot program launched in a Philadelphia high school in early September 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Philadelphia high school",
+    "relation": "hosted",
+    "value": "a pilot program",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "A pilot program launched in a Philadelphia high school in early September 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "pilot program",
+    "relation": "introduced",
+    "value": "mindfulness sessions for students struggling with academic anxiety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced mindfulness sessions for students struggling with academic anxiety"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "anxiety",
+    "relation": "academic_anxiety_addressed_by",
+    "value": "mindfulness sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness sessions for students struggling with academic anxiety"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "pilot program",
+    "relation": "preliminary_results",
+    "value": "marked improvements in students\u2019 concentration, emotional regulation, and overall academic performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The preliminary results were striking, with marked improvements in students\u2019 concentration, emotional regulation, and overall academic performance."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Mindfulness",
+    "relation": "is_not",
+    "value": "a cure-all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mindfulness is not a cure-all"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mindfulness",
+    "relation": "criticized_as",
+    "value": "a quick fix or a trendy band-aid solution",
+    "time": null,
+    "speaker": "Critics",
+    "verbatim": [
+     "often seen as a quick fix or a trendy band-aid solution"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Mindfulness",
+    "relation": "commercialization_raised_questions_about",
+    "value": "the quality and authenticity of many programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the commercialization of mindfulness has raised questions about the quality and authenticity of many programs"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Mindfulness",
+    "relation": "stressed_by_practitioners",
+    "value": "approaching the practice with patience and a true understanding of its principles",
+    "time": null,
+    "speaker": "mindfulness practitioners",
+    "verbatim": [
+     "mindfulness practitioners stress the importance of approaching the practice with patience and a true understanding of its principles"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Mindfulness",
+    "relation": "requires",
+    "value": "commitment and consistency",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "Mindfulness requires commitment and consistency."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Mindfulness",
+    "relation": "fosters",
+    "value": "gradual change, not overnight miracles",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "It fosters gradual change, not overnight miracles."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Mindfulness",
+    "relation": "entered",
+    "value": "the digital age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the advent of mobile apps and online platforms, mindfulness has entered the digital age."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "mobile apps",
+    "relation": "offer",
+    "value": "guided meditations, virtual mindfulness courses, and support communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Apps offering guided meditations, virtual mindfulness courses, and support communities are proliferating"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "guided meditations",
+    "relation": "offered_by",
+    "value": "mobile apps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Apps offering guided meditations"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "virtual mindfulness courses",
+    "relation": "offered_by",
+    "value": "mobile apps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Apps offering guided meditations, virtual mindfulness courses, and support communities"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "support communities",
+    "relation": "offered_by",
+    "value": "mobile apps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Apps offering guided meditations, virtual mindfulness courses, and support communities"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "mobile apps",
+    "relation": "usage_spiked",
+    "value": "remarkably",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "their usage has spiked remarkably since September 2023"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Companies",
+    "relation": "harness_technology_to",
+    "value": "make mindfulness practices more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies have been quick to harness technology to make mindfulness practices more accessible."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "digital distractions",
+    "relation": "may_undermine",
+    "value": "the very essence of mindfulness",
+    "time": null,
+    "speaker": "Critics",
+    "verbatim": [
+     "Critics, however, warn of the potential for digital distractions to undermine the very essence of mindfulness."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "technology serves as a bridge rather than a barrier to the practice",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "As long as technology serves as a bridge rather than a barrier to the practice"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Michael Thompson",
+    "relation": "considers_technology",
+    "value": "a positive force",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "a positive force"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

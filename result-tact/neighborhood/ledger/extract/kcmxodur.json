@@ -1,0 +1,507 @@
+{
+ "inventory": [
+  "Eleanor Vargas",
+  "Urban Revitalization Plan",
+  "Nathan Harwood",
+  "Harwood Properties",
+  "Rosemary O'Connor",
+  "Elm Street",
+  "Red Lion Pub",
+  "Patrick Byrne",
+  "Lila Hammond",
+  "City Hall",
+  "Diego Martinez",
+  "City Council",
+  "Anika Singh",
+  "town hall meeting",
+  "urban development"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Urban Revitalization Plan",
+    "relation": "announced_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Urban Revitalization Plan announced on September 5, 2023, by City Planner Eleanor Vargas"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Urban Revitalization Plan",
+    "relation": "announced_by",
+    "value": "Eleanor Vargas",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Urban Revitalization Plan announced on September 5, 2023, by City Planner Eleanor Vargas"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Eleanor Vargas",
+    "relation": "job_title",
+    "value": "City Planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Planner Eleanor Vargas"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Eleanor Vargas",
+    "relation": "occupation",
+    "value": "urban planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As urban planner Eleanor Vargas urges us forward"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Urban Revitalization Plan",
+    "relation": "goal",
+    "value": "to transform the urban landscape into a thriving hub for modern living and enterprise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to transform the urban landscape into a thriving hub for modern living and enterprise"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eleanor Vargas",
+    "relation": "said",
+    "value": "It is time for our city to step into the future",
+    "time": null,
+    "speaker": "Eleanor Vargas",
+    "verbatim": [
+     "It is time for our city to step into the future"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Urban Revitalization Plan",
+    "relation": "emboldened",
+    "value": "developers and investors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fervor for this new age did not take long to embolden developers and investors"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Nathan Harwood",
+    "relation": "position",
+    "value": "CEO of Harwood Properties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nathan Harwood, CEO of Harwood Properties"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Nathan Harwood",
+    "relation": "became_synonymous_with",
+    "value": "this urban facelift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became synonymous with this urban facelift"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Harwood Properties",
+    "relation": "broke_ground_on",
+    "value": "the first of multiple mixeduse skyscrapers",
+    "time": "By October 15",
+    "speaker": null,
+    "verbatim": [
+     "By October 15, his company had broken ground on what would be the first of multiple mixeduse skyscrapers"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Nathan Harwood",
+    "relation": "said",
+    "value": "We're building communities, not just buildings",
+    "time": null,
+    "speaker": "Nathan Harwood",
+    "verbatim": [
+     "We're building communities, not just buildings"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Nathan Harwood",
+    "relation": "addressed",
+    "value": "a crowd of locals and media who had gathered to mark the occasion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "asserted to a crowd of locals and media who had gathered to mark the occasion"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Rosemary O'Connor",
+    "relation": "age",
+    "value": "80-year-old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rosemary O'Connor, an 80-year-old resident of Elm Street"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Rosemary O'Connor",
+    "relation": "resident_of",
+    "value": "Elm Street",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rosemary O'Connor, an 80-year-old resident of Elm Street"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Rosemary O'Connor",
+    "relation": "said",
+    "value": "This was once a place where everyone knew your name",
+    "time": null,
+    "speaker": "Rosemary O'Connor",
+    "verbatim": [
+     "This was once a place where everyone knew your name"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Rosemary O'Connor",
+    "relation": "said",
+    "value": "Now, I barely recognize the faces that pass by my porch.",
+    "time": null,
+    "speaker": "Rosemary O'Connor",
+    "verbatim": [
+     "Now, I barely recognize the faces that pass by my porch."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Red Lion Pub",
+    "relation": "operating_since",
+    "value": "1932",
+    "time": "1932",
+    "speaker": null,
+    "verbatim": [
+     "The Red Lion Pub, a mainstay since 1932"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Red Lion Pub",
+    "relation": "described_as",
+    "value": "a bulwark against the wave of modernization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands defiantly as a bulwark",
+     "against the wave of modernization"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Patrick Byrne",
+    "relation": "owner_of",
+    "value": "Red Lion Pub",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its owner, Patrick Byrne, grapples with the pressure to sell"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Patrick Byrne",
+    "relation": "faces",
+    "value": "the pressure to sell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "grapples with the pressure to sell"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Patrick Byrne",
+    "relation": "said",
+    "value": "Sure, the money\u2019s good, but what happens to our stories, our gatherings, our shared memories?",
+    "time": null,
+    "speaker": "Patrick Byrne",
+    "verbatim": [
+     "Sure, the money\u2019s good, but what happens to our stories, our gatherings, our shared memories?"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Lila Hammond",
+    "relation": "described_as",
+    "value": "a veteran environmental activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lila Hammond, a veteran environmental activist"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lila Hammond",
+    "relation": "points_to",
+    "value": "the ecological footprint of urban development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "points to an overlooked narrative: the ecological footprint of urban development"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Lila Hammond",
+    "relation": "led",
+    "value": "a rally at City Hall",
+    "time": "December 2",
+    "speaker": null,
+    "verbatim": [
+     "On December 2, she led a rally at City Hall"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "City Hall",
+    "relation": "hosted",
+    "value": "a rally led by Lila Hammond",
+    "time": "December 2",
+    "speaker": null,
+    "verbatim": [
+     "she led a rally at City Hall"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lila Hammond",
+    "relation": "said",
+    "value": "Let's not trade our green for grey!",
+    "time": null,
+    "speaker": "Lila Hammond",
+    "verbatim": [
+     "Let's not trade our green for grey!"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "urban development",
+    "relation": "replaced",
+    "value": "meadows, now usurped by concrete foundations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a time when children played in meadows, now usurped by concrete foundations"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Diego Martinez",
+    "relation": "occupation",
+    "value": "Social worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social worker Diego Martinez highlights the displacement"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Diego Martinez",
+    "relation": "said",
+    "value": "Rapid development is creating pockets of wealth, but also pockets of exclusion.",
+    "time": null,
+    "speaker": "Diego Martinez",
+    "verbatim": [
+     "Rapid development is creating pockets of wealth, but also pockets of exclusion."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "urban development",
+    "relation": "effect",
+    "value": "young professionals edging out those who can no longer keep pace with the rising cost of living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Young professionals flock to these burgeoning conclaves of cosmopolitan life, often edging out those who can no longer keep pace with the rising cost of living."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "urban development",
+    "relation": "risks",
+    "value": "stratification and the dilution of its diverse character",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "risks stratification and the dilution of its diverse character"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "urban development",
+    "relation": "effect",
+    "value": "long-standing establishments, mom-and-pop stores, and structures listed as cultural landmarks face an uncertain fate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long-standing establishments, mom-and-pop stores, and structures listed as cultural landmarks face an uncertain fate"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "urban development",
+    "relation": "effect",
+    "value": "the green canvas of the city contracts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the green canvas of the city contracts"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "urban development",
+    "relation": "effect",
+    "value": "the quaint suburbs are rapidly transforming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the quaint suburbs that once played host to generations of residents are rapidly transforming"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "urban development",
+    "relation": "described_as",
+    "value": "newly erected high-rises and sprawling commercial complexes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bordered by newly erected high-rises and sprawling commercial complexes"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "City Council",
+    "relation": "organized",
+    "value": "a town hall meeting",
+    "time": "November 14",
+    "speaker": null,
+    "verbatim": [
+     "On November 14, the City Council organized a town hall meeting"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "town hall meeting",
+    "relation": "organized_by",
+    "value": "City Council",
+    "time": "November 14",
+    "speaker": null,
+    "verbatim": [
+     "On November 14, the City Council organized a town hall meeting"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "town hall meeting",
+    "relation": "topic",
+    "value": "the impacts of urban development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ostensibly a discussion on the impacts of urban development"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "town hall meeting",
+    "relation": "became",
+    "value": "a passionate forum where the voices of the community demanded to be heard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it turned into a passionate forum where the voices of the community demanded to be heard"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "town hall meeting",
+    "relation": "moderated_by",
+    "value": "Anika Singh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Anika Singh moderated with a declarative goal"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Anika Singh",
+    "relation": "position",
+    "value": "Councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Councilwoman Anika Singh"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Anika Singh",
+    "relation": "said",
+    "value": "We seek to find the balance between growth and preservation.",
+    "time": null,
+    "speaker": "Anika Singh",
+    "verbatim": [
+     "We seek to find the balance between growth and preservation."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Eleanor Vargas",
+    "relation": "said",
+    "value": "Innovation must not come at the expense of our soul.",
+    "time": null,
+    "speaker": "Eleanor Vargas",
+    "verbatim": [
+     "Innovation must not come at the expense of our soul."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "urban development",
+    "relation": "caused_by",
+    "value_ref": "c1",
+    "verbatim": [
+     "This growth is not without precedent; the spur can be traced back to the Urban Revitalization Plan announced on September 5, 2023"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

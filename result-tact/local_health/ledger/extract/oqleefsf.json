@@ -1,0 +1,651 @@
+{
+ "inventory": [
+  "Move Your Mind",
+  "Andrea Mitchell",
+  "Dr. Julian Torres",
+  "University's Psychology Department",
+  "community center",
+  "mind-body connection",
+  "endorphins",
+  "adrenaline",
+  "cortisol",
+  "city hall",
+  "Eric Turner",
+  "Jenny Phillips",
+  "Wellness Without Barriers",
+  "Linda Gomez",
+  "local run club"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Move Your Mind",
+    "relation": "launched_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Move Your Mind",
+    "relation": "spearheaded_by",
+    "value": "Andrea Mitchell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by local fitness enthusiast Andrea Mitchell"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Move Your Mind",
+    "relation": "aim",
+    "value": "promoting holistic well-being through group fitness programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the aim of promoting holistic well-being through group fitness programs"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Move Your Mind",
+    "relation": "in_order_to",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched on September 5, 2023, with the aim of promoting holistic well-being through group fitness programs"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Andrea Mitchell",
+    "relation": "occupation",
+    "value": "local fitness enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local fitness enthusiast Andrea Mitchell"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "mind-body connection",
+    "relation": "understood_for",
+    "value": "centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has been understood for centuries"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "mind-body connection",
+    "relation": "supported_by",
+    "value": "contemporary scientific research",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is increasingly supported by contemporary scientific research"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Julian Torres",
+    "relation": "occupation",
+    "value": "renowned psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Julian Torres, a renowned psychologist"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Julian Torres",
+    "relation": "addressed_gathering_at",
+    "value": "community center",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, Dr. Julian Torres, a renowned psychologist, addressed a gathering at the community center"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Julian Torres",
+    "relation": "illustrated",
+    "value": "how exercise impacts the brain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illustrating how exercise impacts the brain"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Julian Torres",
+    "relation": "explained",
+    "value": "physical activity releases endorphins",
+    "time": null,
+    "speaker": "Dr. Julian Torres",
+    "verbatim": [
+     "Dr. Torres explained that physical activity releases endorphins"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "endorphins",
+    "relation": "described_as",
+    "value": "the body's natural stress-relievers and mood lifters",
+    "time": null,
+    "speaker": "Dr. Julian Torres",
+    "verbatim": [
+     "endorphins, which are the body's natural stress-relievers and mood lifters"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "adrenaline",
+    "relation": "is_type_of",
+    "value": "the body's stress hormones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce levels of the body's stress hormones, such as adrenaline and cortisol"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "cortisol",
+    "relation": "is_type_of",
+    "value": "the body's stress hormones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce levels of the body's stress hormones, such as adrenaline and cortisol"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "adrenaline",
+    "relation": "level_reduced_by",
+    "value": "physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Furthermore, it can reduce levels of the body's stress hormones, such as adrenaline and cortisol"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "cortisol",
+    "relation": "level_reduced_by",
+    "value": "physical activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Furthermore, it can reduce levels of the body's stress hormones, such as adrenaline and cortisol"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "University's Psychology Department",
+    "relation": "conducted",
+    "value": "a study",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Analytics from a study conducted by the University's Psychology Department"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "University's Psychology Department",
+    "relation": "released_on",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "released on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "University's Psychology Department",
+    "relation": "suggests",
+    "value": "individuals who engage in regular physical activity boast better sleep patterns, increased self-esteem, and enhanced cognitive function as compared to those who do not prioritize exercise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggest that individuals who engage in regular physical activity boast better sleep patterns, increased self-esteem, and enhanced cognitive function as compared to those who do not prioritize exercise"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "University's Psychology Department",
+    "relation": "found_after",
+    "value": "six weeks of consistent group exercise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after six weeks of consistent group exercise, participants reported"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "University's Psychology Department",
+    "relation": "found",
+    "value": "40% decrease in symptoms of depression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 40% decrease in symptoms of depression"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "University's Psychology Department",
+    "relation": "found",
+    "value": "30% increase in overall life satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 30% increase in overall life satisfaction"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Andrea Mitchell",
+    "relation": "role",
+    "value": "program's director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mitchell, who also serves as the program's director"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Andrea Mitchell",
+    "relation": "believes",
+    "value": "group settings create a space of accountability and encouragement that is unparalleled",
+    "time": null,
+    "speaker": "Andrea Mitchell",
+    "verbatim": [
+     "believes that group settings create a space of accountability and encouragement that is unparalleled"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Andrea Mitchell",
+    "relation": "remarked",
+    "value": "When people come together with a common goal, especially in a fitness setting, they form a connection that extends beyond physical health",
+    "time": "September 29, 2023",
+    "speaker": "Andrea Mitchell",
+    "verbatim": [
+     "When people come together with a common goal, especially in a fitness setting, they form a connection that extends beyond physical health"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Andrea Mitchell",
+    "relation": "remarked_at",
+    "value": "city hall meeting",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mitchell remarked at a city hall meeting on September 29, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Eric Turner",
+    "relation": "occupation",
+    "value": "personal trainer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eric Turner, a personal trainer who has recently transitioned to leading group sessions"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Eric Turner",
+    "relation": "observes",
+    "value": "a tangible difference in the energy, motivation, and overall satisfaction of his clients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "observes a tangible difference in the energy, motivation, and overall satisfaction of his clients"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Eric Turner",
+    "relation": "says",
+    "value": "The social aspect of a group workout often pushes individuals to accomplish more than they would alone",
+    "time": null,
+    "speaker": "Eric Turner",
+    "verbatim": [
+     "The social aspect of a group workout often pushes individuals to accomplish more than they would alone"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jenny Phillips",
+    "relation": "occupation",
+    "value": "mother of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenny Phillips, a mother of two and a recent member"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jenny Phillips",
+    "relation": "member_status",
+    "value": "recent member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mother of two and a recent member"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jenny Phillips",
+    "relation": "shared_story_at",
+    "value": "a wellness seminar",
+    "time": "November 3",
+    "speaker": null,
+    "verbatim": [
+     "shared her story at a wellness seminar on November 3"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jenny Phillips",
+    "relation": "experienced",
+    "value": "postpartum depression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Struggling with postpartum depression"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jenny Phillips",
+    "relation": "tried",
+    "value": "various methods with limited success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phillips tried various methods with limited success"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jenny Phillips",
+    "relation": "joined",
+    "value": "a local aerobics class through the initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she joined a local aerobics class through the initiative"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jenny Phillips",
+    "relation": "expressed",
+    "value": "The connections I've made and the routine we share have brought more joy and energy to my life",
+    "time": null,
+    "speaker": "Jenny Phillips",
+    "verbatim": [
+     "The connections I've made and the routine we share have brought more joy and energy to my life"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jenny Phillips",
+    "relation": "highlights",
+    "value": "a common sentiment among members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighting a common sentiment among members"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jenny Phillips",
+    "relation": "inspires",
+    "value": "others",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Personal journeys such as Phillips' serve to inspire others"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Wellness Without Barriers",
+    "relation": "introduced_by",
+    "value": "Move Your Mind",
+    "time": "October 10",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, \"Move Your Mind\" introduced \"Wellness Without Barriers,\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Wellness Without Barriers",
+    "relation": "is_a",
+    "value": "sub-initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sub-initiative targeting less-represented groups including older adults, people with disabilities, and low-income families"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Wellness Without Barriers",
+    "relation": "targets",
+    "value": "less-represented groups including older adults, people with disabilities, and low-income families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "targeting less-represented groups including older adults, people with disabilities, and low-income families"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Wellness Without Barriers",
+    "relation": "celebrated",
+    "value": "across the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This move was celebrated across the community"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Wellness Without Barriers",
+    "relation": "effect",
+    "value": "expanding the dialogue around mental health to sectors that previously may have faced more obstacles to participation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expanding the dialogue around mental health to sectors that previously may have faced more obstacles to participation"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Wellness Without Barriers",
+    "relation": "caused_by",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This move was celebrated across the community, as it meant expanding the dialogue around mental health to sectors that previously may have faced more obstacles to participation"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Linda Gomez",
+    "relation": "occupation",
+    "value": "former school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "former school teacher Linda Gomez"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Linda Gomez",
+    "relation": "battled",
+    "value": "anxiety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gomez, having battled with anxiety"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Linda Gomez",
+    "relation": "combined",
+    "value": "her educational skills with her passion for fitness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has combined her educational skills with her passion for fitness"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Linda Gomez",
+    "relation": "conducting",
+    "value": "free workshops",
+    "time": "Since October 18",
+    "speaker": null,
+    "verbatim": [
+     "Since October 18, she has been conducting free workshops"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Linda Gomez",
+    "relation": "workshops_aim",
+    "value": "to arm individuals with the knowledge and strategies for using exercise as a tool for managing mental health issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to arm individuals with the knowledge and strategies for using exercise as a tool for managing mental health issues"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Dr. Julian Torres",
+    "relation": "recommends",
+    "value": "setting realistic expectations and committing to small, manageable increments of activity",
+    "time": null,
+    "speaker": "Dr. Julian Torres",
+    "verbatim": [
+     "Dr. Torres and fitness experts alike recommend setting realistic expectations and committing to small, manageable increments of activity"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "local run club",
+    "relation": "meeting_held_on",
+    "value": "November 17",
+    "time": "November 17",
+    "speaker": null,
+    "verbatim": [
+     "echoed at a local run club meeting on November 17"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "local run club",
+    "relation": "pledged",
+    "value": "to support one another's fitness goals",
+    "time": "November 17",
+    "speaker": null,
+    "verbatim": [
+     "members pledged to support one another's fitness goals"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "local run club",
+    "relation": "recognized",
+    "value": "each person's journey is unique",
+    "time": "November 17",
+    "speaker": null,
+    "verbatim": [
+     "recognizing that each person's journey is unique"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Move Your Mind",
+    "relation": "reflects",
+    "value": "a growing recognition of the role that a supportive community plays in personal wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The \"Move Your Mind\" initiative reflects a growing recognition of the role that a supportive community plays in personal wellness"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Move Your Mind",
+    "relation": "continues_to_grow",
+    "value": "continues to grow",
+    "time": "end of the year",
+    "speaker": null,
+    "verbatim": [
+     "the \"Move Your Mind\" initiative continues to grow"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Move Your Mind",
+    "relation": "involvement",
+    "value": "local businesses and health professionals becoming increasingly involved",
+    "time": "end of the year",
+    "speaker": null,
+    "verbatim": [
+     "with local businesses and health professionals becoming increasingly involved"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Move Your Mind",
+    "relation": "is_a",
+    "value": "a living testament to the importance of a holistic approach to mental wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The initiative is a living testament to the importance of a holistic approach to mental wellness"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

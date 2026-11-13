@@ -1,0 +1,612 @@
+{
+ "inventory": [
+  "Jorge Hernandez",
+  "Elisa Santos",
+  "Dr. Renee Lichtenstein",
+  "Gonzalezes",
+  "Muhammad Kadir",
+  "Sofia Chang",
+  "Mayor Samuel K. Jackson",
+  "Annette Wu",
+  "Dr. Tomas Guerrero",
+  "Dr. Helena Yip",
+  "Western America",
+  "Southeast Asia",
+  "California",
+  "the Philippines",
+  "Typhoon Isidora",
+  "small brush fire",
+  "climate change",
+  "global warming",
+  "post-traumatic stress disorder",
+  "United Nations",
+  "disaster-response teams",
+  "building codes",
+  "early warning systems"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Western America",
+    "relation": "hit_by",
+    "value": "devastating wildfires",
+    "time": "early September",
+    "speaker": null,
+    "verbatim": [
+     "the devastating wildfires that ravaged parts of Western America in early September"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Southeast Asia",
+    "relation": "hit_by",
+    "value": "catastrophic flooding",
+    "time": "just a month later",
+    "speaker": null,
+    "verbatim": [
+     "the catastrophic flooding in Southeast Asia just a month later"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "climate change",
+    "relation": "described_as",
+    "value": "intensifying drumbeat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the intensifying drumbeat of climate change"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "small brush fire",
+    "relation": "occurred_on",
+    "value": "September 5th, 2023",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 5th, 2023, a small brush fire"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "small brush fire",
+    "relation": "spurred_by",
+    "value": "drought and an incessant heatwave",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spurred by drought and an incessant heatwave"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "small brush fire",
+    "relation": "erupted_into",
+    "value": "an inferno",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "erupted into an inferno in California"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "small brush fire",
+    "relation": "located_in",
+    "value": "California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "erupted into an inferno in California"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "California",
+    "relation": "site_of",
+    "value": "small brush fire",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "erupted into an inferno in California"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "small brush fire",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "verbatim": [
+     "spurred by drought and an incessant heatwave, erupted into an inferno"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "small brush fire",
+    "relation": "engulfed_neighborhoods",
+    "value": "several neighborhoods",
+    "time": "Within hours",
+    "speaker": null,
+    "verbatim": [
+     "Within hours, several neighborhoods were engulfed."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jorge Hernandez",
+    "relation": "occupation",
+    "value": "a seasoned firefighter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jorge Hernandez, a seasoned firefighter, recounted"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jorge Hernandez",
+    "relation": "said",
+    "value": "We fought tooth and nail against those flames. But sometimes, the wind and dry earth were beyond our control.",
+    "time": null,
+    "speaker": "Jorge Hernandez",
+    "verbatim": [
+     "We fought tooth and nail against those flames. But sometimes, the wind and dry earth were beyond our control."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "small brush fire",
+    "relation": "displaced",
+    "value": "thousands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event displaced thousands"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "small brush fire",
+    "relation": "left_behind",
+    "value": "a charred landscape and the question of recovery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving behind a charred landscape and the question of recovery"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Typhoon Isidora",
+    "relation": "made_landfall_on",
+    "value": "October 11th",
+    "time": "October 11th",
+    "speaker": null,
+    "verbatim": [
+     "Typhoon Isidora made landfall on October 11th"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Typhoon Isidora",
+    "relation": "landfall_in",
+    "value": "the Philippines",
+    "time": "A little over a month later",
+    "speaker": null,
+    "verbatim": [
+     "across the globe in the Philippines, Typhoon Isidora made landfall"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "the Philippines",
+    "relation": "hit_by",
+    "value": "Typhoon Isidora",
+    "time": "October 11th",
+    "speaker": null,
+    "verbatim": [
+     "across the globe in the Philippines, Typhoon Isidora made landfall"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Typhoon Isidora",
+    "relation": "classified_as",
+    "value": "category 5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This category 5 typhoon unleashed torrential rains"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Typhoon Isidora",
+    "relation": "unleashed",
+    "value": "torrential rains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This category 5 typhoon unleashed torrential rains"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Typhoon Isidora",
+    "relation": "led_to",
+    "value": "levees breaking and homes being swept away",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "torrential rains that led to levees breaking and homes being swept away"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Typhoon Isidora",
+    "relation": "results_in",
+    "value_ref": "c20",
+    "verbatim": [
+     "torrential rains that led to levees breaking"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Elisa Santos",
+    "relation": "occupation",
+    "value": "a teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elisa Santos, a teacher who turned her school into a temporary shelter"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Elisa Santos",
+    "relation": "turned_school_into",
+    "value": "a temporary shelter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elisa Santos, a teacher who turned her school into a temporary shelter"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Elisa Santos",
+    "relation": "said",
+    "value": "The water kept rising, and all we could do was move to higher ground and help whoever we could.",
+    "time": null,
+    "speaker": "Elisa Santos",
+    "verbatim": [
+     "The water kept rising, and all we could do was move to higher ground and help whoever we could."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Renee Lichtenstein",
+    "relation": "occupation",
+    "value": "Climatologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climatologist Dr. Renee Lichtenstein points out"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Renee Lichtenstein",
+    "relation": "observed",
+    "value": "an increase in extreme weather events",
+    "time": "Since the calendar turned over to 2023",
+    "speaker": "Dr. Renee Lichtenstein",
+    "verbatim": [
+     "Since the calendar turned over to 2023, we\u2019ve seen an increase in extreme weather events."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Renee Lichtenstein",
+    "relation": "stated_consistent_with",
+    "value": "predictions about global warming and its effects",
+    "time": null,
+    "speaker": "Dr. Renee Lichtenstein",
+    "verbatim": [
+     "Our climate is indicating distress, which is consistent with the predictions about global warming and its effects."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "global warming",
+    "relation": "subject_of_predictions",
+    "value": "its effects",
+    "time": null,
+    "speaker": "Dr. Renee Lichtenstein",
+    "verbatim": [
+     "consistent with the predictions about global warming and its effects"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Gonzalezes",
+    "relation": "located_in",
+    "value": "fire-ravaged communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In fire-ravaged communities, families such as the Gonzalezes sift through the ashes"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Gonzalezes",
+    "relation": "sift_through",
+    "value": "the ashes where their kitchen once stood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "families such as the Gonzalezes sift through the ashes where their kitchen once stood"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Gonzalezes",
+    "relation": "searching_for",
+    "value": "anything salvageable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "looking for anything salvageable"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Gonzalezes",
+    "relation": "seek_to",
+    "value": "heal from their losses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their story mirrors countless others as they look to heal from their losses."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Muhammad Kadir",
+    "relation": "occupation",
+    "value": "farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "farmers like Muhammad Kadir stare at the decimated fields"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Muhammad Kadir",
+    "relation": "located_in",
+    "value": "flood-hit regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in flood-hit regions, farmers like Muhammad Kadir"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Muhammad Kadir",
+    "relation": "stares_at",
+    "value": "the decimated fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "farmers like Muhammad Kadir stare at the decimated fields"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Muhammad Kadir",
+    "relation": "unsure_how_to",
+    "value": "recover the only livelihood they've ever known",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unsure how to recover the only livelihood they've ever known"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "disaster-response teams",
+    "relation": "composed_of",
+    "value": "dedicated individuals including emergency workers like Sofia Chang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Disaster-response teams, composed of dedicated individuals including emergency workers like Sofia Chang"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "disaster-response teams",
+    "relation": "spend",
+    "value": "countless hours in the field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spend countless hours in the field"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sofia Chang",
+    "relation": "occupation",
+    "value": "emergency worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emergency workers like Sofia Chang"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sofia Chang",
+    "relation": "said",
+    "value": "It\u2019s about providing immediate relief, but it\u2019s also about the long-term support that these communities will inevitably need.",
+    "time": null,
+    "speaker": "Sofia Chang",
+    "verbatim": [
+     "\u201cIt\u2019s about providing immediate relief,\u201d Sofia explains, \u201cbut it\u2019s also about the long-term support that these communities will inevitably need.\u201d"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "building codes",
+    "relation": "subject_of_initiative",
+    "value": "strengthening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives to strengthen building codes"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mayor Samuel K. Jackson",
+    "relation": "said",
+    "value": "We cannot skimp on safety. The next disaster is not a question of if, but when.",
+    "time": null,
+    "speaker": "Mayor Samuel K. Jackson",
+    "verbatim": [
+     "\u201cWe cannot skimp on safety. The next disaster is not a question of if, but when.\u201d"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Annette Wu",
+    "relation": "occupation",
+    "value": "a college student",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "people like Annette Wu, a college student, came out in droves"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Annette Wu",
+    "relation": "supported",
+    "value": "the aid efforts",
+    "time": "clean-up operations post-Typhoon Isidora",
+    "speaker": null,
+    "verbatim": [
+     "people like Annette Wu, a college student, came out in droves to support the aid efforts"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Annette Wu",
+    "relation": "said",
+    "value": "We might feel small against nature\u2019s might, but together, we are powerful.",
+    "time": null,
+    "speaker": "Annette Wu",
+    "verbatim": [
+     "\u201cWe might feel small against nature\u2019s might,\u201d she tells us, \u201cbut together, we are powerful.\u201d"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Typhoon Isidora",
+    "relation": "followed_by",
+    "value": "clean-up operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This was evident during the clean-up operations post-Typhoon Isidora"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Dr. Tomas Guerrero",
+    "relation": "occupation",
+    "value": "Economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economist Dr. Tomas Guerrero explains"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Tomas Guerrero",
+    "relation": "said",
+    "value": "Natural disasters can set communities back years, economically speaking. Recovery needs to include economic planning and solid investment to aid those hit hardest.",
+    "time": null,
+    "speaker": "Dr. Tomas Guerrero",
+    "verbatim": [
+     "\u201cNatural disasters can set communities back years, economically speaking. Recovery needs to include economic planning and solid investment to aid those hit hardest.\u201d"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "United Nations",
+    "relation": "emphasize",
+    "value": "the critical need for coordinated, swift, and sustainable action in regards to climate change mitigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "International agencies like the United Nations emphasize the critical need for coordinated, swift, and sustainable action in regards to climate change mitigation."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "post-traumatic stress disorder",
+    "relation": "requires",
+    "value": "psychological support for victims",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychological support for victims dealing with post-traumatic stress disorder (PTSD) and anxiety is a necessity."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Dr. Helena Yip",
+    "relation": "occupation",
+    "value": "psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "individuals,\u201d says psychologist Dr. Helena Yip, underlining the need for comprehensive mental health services."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Dr. Helena Yip",
+    "relation": "said",
+    "value": "It\u2019s not just homes that need rebuilding, but also the mental well-being of individuals",
+    "time": null,
+    "speaker": "Dr. Helena Yip",
+    "verbatim": [
+     "\u201cIt\u2019s not just homes that need rebuilding, but also the mental well-being of",
+     "individuals,\u201d says psychologist Dr. Helena Yip"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "early warning systems",
+    "relation": "measure_to_improve",
+    "value": "improving early warning systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From improving early warning systems to designing cities that can withstand extreme weather, every measure needs to be employed with urgency and precision."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

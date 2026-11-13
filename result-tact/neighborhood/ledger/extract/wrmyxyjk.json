@@ -1,0 +1,841 @@
+{
+ "inventory": [
+  "Springfield Heights",
+  "Sarah Johnson",
+  "Michael Thompson",
+  "Dr. Linda Cartwright",
+  "Rajiv Menon",
+  "Emily Torres",
+  "Jasmine Iyer",
+  "city council",
+  "public transport advocacy group",
+  "traffic congestion",
+  "public transportation",
+  "high-occupancy vehicle (HOV) lane",
+  "carpooling",
+  "bike-sharing programs",
+  "bus fleet",
+  "rail network",
+  "Commute Smart initiative",
+  "congestion charges",
+  "flexitime",
+  "public-private partnerships",
+  "AI-driven traffic management systems",
+  "traffic signal optimization",
+  "electric vehicles",
+  "real-time tracking app",
+  "multimodal transport solutions",
+  "self-driving cars",
+  "local schools education programs",
+  "town hall meeting",
+  "pedestrian zones"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Springfield Heights",
+    "relation": "experienced_traffic_snarl_on",
+    "value": "traffic snarl",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 12, 2023, local residents of Springfield Heights found themselves in a traffic snarl so monumental that it made the front page of every local news outlet."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "traffic congestion",
+    "relation": "made_front_page_of",
+    "value": "every local news outlet",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "it made the front page of every local news outlet"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "traffic congestion",
+    "relation": "central_issue_for",
+    "value": "many communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managing traffic congestion and public transportation woes remains a central issue for many communities"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sarah Johnson",
+    "relation": "juggles",
+    "value": "two jobs and parenthood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commuters like Sarah Johnson, who juggles two jobs and parenthood"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Johnson",
+    "relation": "commute_duration",
+    "value": "two hours",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "It took me two hours to drive what usually is a thirty-minute journey."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Johnson",
+    "relation": "usual_commute_duration",
+    "value": "thirty-minute journey",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "what usually is a thirty-minute journey"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Johnson",
+    "relation": "opinion_of_commute",
+    "value": "exhausting and unsustainable",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "It's exhausting and unsustainable."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Michael Thompson",
+    "relation": "role",
+    "value": "city planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city planner Michael Thompson explained"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Michael Thompson",
+    "relation": "spoke_at",
+    "value": "a town hall meeting",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a town hall meeting on September 20, 2023, city planner Michael Thompson explained"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "traffic congestion",
+    "relation": "is_multifaceted",
+    "value": "a multifaceted problem",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "We are dealing with a multifaceted problem."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "traffic congestion",
+    "relation": "caused_by",
+    "value": "the number of cars on the roads",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "not only about the number of cars on the roads"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "traffic congestion",
+    "relation": "caused_by",
+    "value": "poor urban planning, limited public transport options, and lack of real-time traffic management",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "poor urban planning, limited public transport options, and lack of real-time traffic management."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Springfield Heights",
+    "relation": "has_seen",
+    "value": "a surge in vehicle ownership without a corresponding expansion in road infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Springfield Heights, like many urban areas, has seen a surge in vehicle ownership without a corresponding expansion in road infrastructure."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "traffic congestion",
+    "relation": "creates",
+    "value": "bottlenecks that choke the free flow of movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This imbalance creates bottlenecks that choke the free flow of movement."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "traffic congestion",
+    "relation": "contributed_by",
+    "value": "non-optimized traffic signals and outdated planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "non-optimized traffic signals and outdated planning contribute to unnecessary delays"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "bus fleet",
+    "relation": "criticized_for",
+    "value": "being small, outdated, and often off-schedule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The bus fleet of Springfield Heights has been criticized for being small, outdated, and often off-schedule"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "bus fleet",
+    "relation": "drives_away",
+    "value": "potential riders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which drives away potential riders who then turn to their own vehicles"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "traffic congestion",
+    "relation": "increased_by",
+    "value": "potential riders turning to their own vehicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potential riders who then turn to their own vehicles, adding to the traffic woes"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "bus fleet",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which drives away potential riders who then turn to their own vehicles, adding to the traffic woes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Linda Cartwright",
+    "relation": "role",
+    "value": "Urban transport expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban transport expert Dr. Linda Cartwright suggests"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Linda Cartwright",
+    "relation": "suggests",
+    "value": "road-sharing strategies that prioritize highoccupancy vehicles and public transit",
+    "time": null,
+    "speaker": "Dr. Linda Cartwright",
+    "verbatim": [
+     "We should be focusing on road-sharing strategies that prioritize highoccupancy vehicles and public transit."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "city council",
+    "relation": "proposed",
+    "value": "a high-occupancy vehicle (HOV) lane on the busiest avenue",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, the city council proposed a high-occupancy vehicle (HOV) lane on the busiest avenue"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "high-occupancy vehicle (HOV) lane",
+    "relation": "location",
+    "value": "the busiest avenue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on the busiest avenue"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "high-occupancy vehicle (HOV) lane",
+    "relation": "serves",
+    "value": "vehicles with three or more passengers, including buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which would serve vehicles with three or more passengers, including buses."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Springfield Heights",
+    "relation": "considering",
+    "value": "encouraging carpooling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encouraging carpooling is another strategic move the city is considering"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "carpooling",
+    "relation": "reinforced_through",
+    "value": "awareness campaigns and incentives like reduced parking fees for carpoolers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reinforced through awareness campaigns and incentives like reduced parking fees for carpoolers"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Rajiv Menon",
+    "relation": "role",
+    "value": "Local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local business owner Rajiv Menon says"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "carpooling",
+    "relation": "could_cut_down",
+    "value": "employees' commute time",
+    "time": null,
+    "speaker": "Rajiv Menon",
+    "verbatim": [
+     "If carpooling can cut down my employees'"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Rajiv Menon",
+    "relation": "supports",
+    "value": "carpooling",
+    "time": null,
+    "speaker": "Rajiv Menon",
+    "verbatim": [
+     "I'm all for it."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rajiv Menon",
+    "relation": "believes",
+    "value": "happier employees mean better productivity",
+    "time": null,
+    "speaker": "Rajiv Menon",
+    "verbatim": [
+     "Happier employees mean better productivity."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "bike-sharing programs",
+    "relation": "floated_as",
+    "value": "sustainable alternatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bike-sharing programs and promoting walking \u2013 through better sidewalks and pedestrian zones \u2013 are also being floated as sustainable alternatives."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "pedestrian zones",
+    "relation": "used_to_promote",
+    "value": "walking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promoting walking \u2013 through better sidewalks and pedestrian zones"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "bike-sharing programs",
+    "relation": "alleviates",
+    "value": "traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These not only alleviate traffic but promote healthier lifestyles."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "bike-sharing programs",
+    "relation": "promotes",
+    "value": "healthier lifestyles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These not only alleviate traffic but promote healthier lifestyles."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emily Torres",
+    "relation": "role",
+    "value": "public transport advocacy group leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public transport advocacy group leader Emily Torres"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "bus fleet",
+    "relation": "needs",
+    "value": "more buses, running more frequently, and reliable",
+    "time": null,
+    "speaker": "Emily Torres",
+    "verbatim": [
+     "We need more buses, running more frequently, and they need to be reliable"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "bus fleet",
+    "relation": "plan_dated",
+    "value": "November 15, 2023",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A proposal dated November 15, 2023, outlines a plan"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "bus fleet",
+    "relation": "planned_increase",
+    "value": "40%",
+    "time": "over the next three years",
+    "speaker": null,
+    "verbatim": [
+     "gradually increase the bus fleet by 40% over the next three years"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "bus fleet",
+    "relation": "incorporates",
+    "value": "electric models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating electric models to curb emissions"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "bus fleet",
+    "relation": "curbs",
+    "value": "emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to curb emissions"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "bus fleet",
+    "relation": "in_order_to",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating electric models to curb emissions"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "real-time tracking app",
+    "relation": "tracks",
+    "value": "buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time tracking of buses through a dedicated app is also part of the plan to enhance the user experience."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "real-time tracking app",
+    "relation": "part_of_plan_to",
+    "value": "enhance the user experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "part of the plan to enhance the user experience"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "real-time tracking app",
+    "relation": "requires",
+    "value": "accurate bus timings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If commuters can rely on accurate bus timings"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "real-time tracking app",
+    "relation": "less_likely_to",
+    "value": "revert to using a personal vehicle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they're less likely to revert to using a personal vehicle"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "multimodal transport solutions",
+    "relation": "is",
+    "value": "essential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of multimodal transport solutions is essential."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "rail network",
+    "relation": "expansion_can_create",
+    "value": "a seamless transportation experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Expanding the reach of the existing rail network and ensuring it syncs with bus schedules can create a seamless transportation experience."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "rail network",
+    "relation": "syncs_with",
+    "value": "bus schedules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring it syncs with bus schedules"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "multimodal transport solutions",
+    "relation": "includes",
+    "value": "bikes, scooters, and rideshare services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Combining different modes of transport, such as bikes, scooters, and rideshare services, is also a concept gaining traction."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "traffic signal optimization",
+    "relation": "uses",
+    "value": "real-time data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traffic signal optimization using real-time data can drastically cut waiting times and reduce congestion."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "traffic signal optimization",
+    "relation": "reduces",
+    "value": "waiting times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can drastically cut waiting times"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "traffic signal optimization",
+    "relation": "reduces",
+    "value": "congestion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce congestion"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Jasmine Iyer",
+    "relation": "role",
+    "value": "tech entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech entrepreneur Jasmine Iyer"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jasmine Iyer",
+    "relation": "spoke_at",
+    "value": "a conference",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during a conference on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "AI-driven traffic management systems",
+    "relation": "is",
+    "value": "not science fiction",
+    "time": null,
+    "speaker": "Jasmine Iyer",
+    "verbatim": [
+     "Deploying AI-driven traffic management systems is not science fiction"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "AI-driven traffic management systems",
+    "relation": "is",
+    "value": "a practical solution",
+    "time": null,
+    "speaker": "Jasmine Iyer",
+    "verbatim": [
+     "a practical solution"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "traffic congestion",
+    "relation": "reduced_by",
+    "value": "infrastructure improvements such as widening roads where feasible, improving junctions, and constructing overpasses or underpasses at key intersections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "infrastructure improvements, such as widening roads where feasible, improving junctions, and constructing overpasses or underpasses at key intersections, can significantly reduce congestion."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "self-driving cars",
+    "relation": "may_be_part_of",
+    "value": "the future of transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Infrastructure must also accommodate the future of transportation, which may include self-driving cars and other advancements."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Commute Smart initiative",
+    "relation": "launched_on",
+    "value": "October 25, 2023",
+    "time": "October 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "initiative launched on October 25, 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Commute Smart initiative",
+    "relation": "involves",
+    "value": "local volunteers conducting surveys and promoting public transportation to peers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves local volunteers conducting surveys and promoting public transportation to peers"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "local schools education programs",
+    "relation": "explored_engagement",
+    "value": "students in transport challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engaging students in transport challenges is also being explored"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "local schools education programs",
+    "relation": "starting",
+    "value": "education programs on traffic and public transit systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with local schools starting education programs on traffic and public transit systems"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "public-private partnerships",
+    "relation": "being_explored_as",
+    "value": "a potential avenue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public-private partnerships are a potential avenue being explored"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "public-private partnerships",
+    "relation": "local_businesses_interested_in",
+    "value": "sponsoring bike-share stations and subsidizing public transit passes for employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sponsoring bike-share stations and subsidizing public transit passes for employees"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Springfield Heights",
+    "relation": "key_targets",
+    "value": "Investing in greener public transport, renewable energy solutions for traffic management, and promoting electric vehicle use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investing in greener public transport, renewable energy solutions for traffic management, and promoting electric vehicle use are key targets for Springfield Heights"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "congestion charges",
+    "relation": "implemented_during",
+    "value": "peak hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Implementing congestion charges during peak hours"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "congestion charges",
+    "relation": "part_of",
+    "value": "the legislative approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are all part of the legislative approach"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "flexitime",
+    "relation": "tax_benefits_offered_to",
+    "value": "businesses that adopt flexitime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing tax benefits for businesses that adopt flexitime"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "flexitime",
+    "relation": "purpose",
+    "value": "reduce peak congestion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to reduce peak congestion"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "flexitime",
+    "relation": "in_order_to",
+    "value_ref": "c69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing tax benefits for businesses that adopt flexitime to reduce peak congestion"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "traffic congestion",
+    "relation": "is_growing_concern",
+    "value": "a growing concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managing traffic congestion and public transportation woes are a growing concern"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Springfield Heights",
+    "relation": "journey_status",
+    "value": "only beginning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is only beginning"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Springfield Heights",
+    "relation": "steps_are_testament_to",
+    "value": "the power of community action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the steps being taken are a testament to the power of community action"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,541 @@
+{
+ "inventory": [
+  "Jamie Richardson",
+  "Maplewood Neighborhood Association",
+  "Dr. Lakshmi Gupta",
+  "Sow the Future",
+  "Alex Moritz",
+  "The Beacon Project",
+  "Regina Hall",
+  "Trevor Nash",
+  "Green Shoots program",
+  "Victor Hugo",
+  "neighborhood tree-planting drive",
+  "neighborhood associations",
+  "climate change",
+  "urban forestry",
+  "AI-powered app"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "neighborhood associations",
+    "relation": "aims_to_combat",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in an effort to combat climate change"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "transformed",
+    "value": "vacant lots and barren parks into lush landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this green initiative has transformed vacant lots and barren parks into lush landscapes"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "start_date",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "since the initiation of the program on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "urban forestry",
+    "relation": "subject_of_calls_for",
+    "value": "increased urban forestry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following international calls for increased urban forestry"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "participants",
+    "value": "local community members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local community members have taken to the streets with saplings in hand"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "born_from",
+    "value": "a collective recognition that local action is paramount in the face of global environmental challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's born out of a collective recognition that local action is paramount in the face of global environmental challenges."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jamie Richardson",
+    "relation": "president_of",
+    "value": "Maplewood Neighborhood Association",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jamie Richardson, the president of the Maplewood Neighborhood Association"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maplewood Neighborhood Association",
+    "relation": "president",
+    "value": "Jamie Richardson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jamie Richardson, the president of the Maplewood Neighborhood Association"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Lakshmi Gupta",
+    "relation": "occupation",
+    "value": "a noted botanist and community activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lakshmi Gupta, a noted botanist and community activist"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "neighborhood associations",
+    "relation": "goal",
+    "value": "increase the tree canopy in their neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these associations are working tirelessly to increase the tree canopy in their neighborhoods."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jamie Richardson",
+    "relation": "stated_goal",
+    "value": "not just to beautify our surroundings but to contribute to a wider ecosystem that supports urban wildlife and combats air pollution",
+    "time": null,
+    "speaker": "Jamie Richardson",
+    "verbatim": [
+     "Our goal is not just to beautify our surroundings but to contribute to a wider ecosystem that supports urban wildlife and combats air pollution"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jamie Richardson",
+    "relation": "said",
+    "value": "Each tree we plant is a step towards a healthier, more sustainable future.",
+    "time": null,
+    "speaker": "Jamie Richardson",
+    "verbatim": [
+     "Each tree we plant is a step towards a healthier, more sustainable future."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "neighborhood associations",
+    "relation": "speculating_on",
+    "value": "how future tech advances could streamline their environmental efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "speculating on how future tech advances could streamline their environmental efforts"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "technology_role",
+    "value": "drones for aerial mapping and soil sensors providing real-time data on moisture and pH levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the use of drones for aerial mapping to identify optimal planting locations to soil sensors that provide real-time data on moisture and pH levels"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sow the Future",
+    "relation": "is_a",
+    "value": "startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One startup, Sow the Future,"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sow the Future",
+    "relation": "testing",
+    "value": "an AI-powered app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has begun testing an AI-powered app"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "AI-powered app",
+    "relation": "guides_volunteers_on",
+    "value": "where to plant based on historical climate patterns and projected urban development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guides volunteers on where to plant based on historical climate patterns and projected urban development"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "AI-powered app",
+    "relation": "ensures",
+    "value": "successful growth rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tech is not only ensuring successful growth rates"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "AI-powered app",
+    "relation": "educates_residents_on",
+    "value": "the importance of native species and their role in local ecosystems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is also educating residents on the importance of native species and their role in local ecosystems."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Alex Moritz",
+    "relation": "occupation",
+    "value": "tech entrepreneur and local resident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech entrepreneur and local resident Alex Moritz"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Alex Moritz",
+    "relation": "said",
+    "value": "We're experimenting with intelligent systems to monitor tree health remotely",
+    "time": null,
+    "speaker": "Alex Moritz",
+    "verbatim": [
+     "We're experimenting with intelligent systems to monitor tree health remotely,"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Alex Moritz",
+    "relation": "collaborates_on",
+    "value": "the project",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who is collaborating on the project"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Alex Moritz",
+    "relation": "said",
+    "value": "Think of it like a Fitbit for trees, giving us insights on growth, nutrient uptake, and even stress levels due to environmental factors.",
+    "time": null,
+    "speaker": "Alex Moritz",
+    "verbatim": [
+     "Think of it like a Fitbit for trees, giving us insights on growth, nutrient uptake, and even stress levels due to environmental factors."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Beacon Project",
+    "relation": "led_by",
+    "value": "Regina Hall",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Beacon Project, led by the energetic Regina Hall"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Regina Hall",
+    "relation": "occupation",
+    "value": "a retired school teacher turned environmental advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a retired school teacher turned environmental advocate"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "The Beacon Project",
+    "relation": "aims_to",
+    "value": "interconnect various neighborhoods through green corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This project aims to interconnect various neighborhoods through green corridors"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "The Beacon Project",
+    "relation": "enables",
+    "value": "allowing animals and insects to migrate safely across urban spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing animals and insects to migrate safely across urban spaces"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "The Beacon Project",
+    "relation": "results_in",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through green corridors, allowing animals and insects to migrate safely across urban spaces"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Regina Hall",
+    "relation": "aims_to",
+    "value": "galvanize an entire community around conservation efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she aims to galvanize an entire community around conservation efforts"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "The Beacon Project",
+    "relation": "hosts",
+    "value": "workshops on sustainability and ecology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosting workshops on sustainability and ecology"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "The Beacon Project",
+    "relation": "serves_as",
+    "value": "an educational platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Beacon Project also serves as an educational platform"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "The Beacon Project",
+    "relation": "emphasizes",
+    "value": "the critical role urban environments play in the larger battle against climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizing the critical role urban environments play in the larger battle against climate change"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Regina Hall",
+    "relation": "said",
+    "value": "It's essential we see the bigger picture",
+    "time": null,
+    "speaker": "Regina Hall",
+    "verbatim": [
+     "It's essential we see the bigger picture,\" Hall emphasizes."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Regina Hall",
+    "relation": "said",
+    "value": "As we grow this network of green spaces, we facilitate biodiversity and reinforce the structure of our local ecosystems.",
+    "time": null,
+    "speaker": "Regina Hall",
+    "verbatim": [
+     "As we grow this network of green spaces, we facilitate biodiversity and reinforce the structure of our local ecosystems."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "involves",
+    "value": "local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An integral part of the neighborhood tree-planting drive is the involvement of local schools."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Green Shoots program",
+    "relation": "pairs",
+    "value": "classroom learning with hands-on gardening and planting activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pairing classroom learning with hands-on gardening and planting activities"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Green Shoots program",
+    "relation": "characteristic",
+    "value": "particularly successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Green Shoots program has been particularly successful"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Trevor Nash",
+    "relation": "occupation",
+    "value": "a local science teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Trevor Nash, a local science teacher"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Trevor Nash",
+    "relation": "said",
+    "value": "Our students aren't just reading about photosynthesis and the water cycle, they are seeing it in action and playing a role in helping their environment.",
+    "time": null,
+    "speaker": "Trevor Nash",
+    "verbatim": [
+     "Our students aren't just reading about photosynthesis and the water cycle, they are seeing it in action and playing a role in helping their environment."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "neighborhood associations",
+    "relation": "faces_challenges",
+    "value": "Unpredictable weather patterns, urban development pressures, and funding deficits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unpredictable weather patterns, urban development pressures, and funding deficits present substantial hurdles."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "neighborhood associations",
+    "relation": "overcome_obstacles_through",
+    "value": "innovative fundraising methods and strategically partnering with businesses and non-profit organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "neighborhood associations have displayed remarkable resilience in overcoming these obstacles, often through innovative fundraising methods and strategically partnering with businesses and non-profit organizations."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jamie Richardson",
+    "relation": "said",
+    "value": "Funding can be tough",
+    "time": null,
+    "speaker": "Jamie Richardson",
+    "verbatim": [
+     "\"Funding can be tough,\" acknowledges Richardson."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Jamie Richardson",
+    "relation": "said",
+    "value": "we've seen amazing support through crowdfunding campaigns, local sponsorships, and even in-kind donations from local nurseries",
+    "time": null,
+    "speaker": "Jamie Richardson",
+    "verbatim": [
+     "But we've seen amazing support through crowdfunding campaigns, local sponsorships, and even in-kind donations from local nurseries."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "impact",
+    "value": "indisputable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The profound impact of these neighborhood-driven tree-planting drives is indisputable."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "neighborhood tree-planting drive",
+    "relation": "could_be_bolstered_by",
+    "value": "autonomous planting vehicles, biodegradable planting drones, and enhanced genetic selection for hardier tree species",
+    "time": "In the near future",
+    "speaker": null,
+    "verbatim": [
+     "In the near future, advancements such as autonomous planting vehicles, biodegradable planting drones, and enhanced genetic selection for hardier tree species could further bolster these initiatives"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Victor Hugo",
+    "relation": "said",
+    "value": "What we do in life echoes in eternity.",
+    "time": null,
+    "speaker": "Victor Hugo",
+    "verbatim": [
+     "As Victor Hugo once said, \"What we do in life echoes in eternity.\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "neighborhood associations",
+    "relation": "expected_to",
+    "value": "reverberate for many generations to come",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The echoes of today's tree planting drives by neighborhood associations are set to reverberate for many generations to come."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

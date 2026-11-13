@@ -1,0 +1,934 @@
+{
+ "inventory": [
+  "steam cooking",
+  "bamboo steaming",
+  "bamboo steamers",
+  "Han Dynasty",
+  "Chinese cuisine",
+  "Chef Mei Lin",
+  "Lotus Bloom",
+  "San Francisco",
+  "Michelle Kwan",
+  "Han Dynasty Homeware Steamer",
+  "Zh\u0113n Bamboo Steamer",
+  "Fujian",
+  "Imperial Bamboo Gourmet Steamer",
+  "Chef David Choi",
+  "Seoulful Delights",
+  "GreenLeaf Bamboo Steamer",
+  "Chef Ricardo Silva",
+  "The Steam Lab",
+  "modern electronic steamers",
+  "modern metal steamers",
+  "Grace Tang",
+  "New York City",
+  "mineral oil"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "steam cooking",
+    "relation": "described_as",
+    "value": "an age-old technique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steam cooking, an age-old technique with a rich heritage across various cultures"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "steam cooking",
+    "relation": "is_cornerstone_of",
+    "value": "healthy eating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as a cornerstone of healthy eating"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "steam cooking",
+    "relation": "has_enjoyed",
+    "value": "a renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "steam cooking has enjoyed a renaissance"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "steam cooking",
+    "relation": "renaissance_driven_by",
+    "value": "modern-day emphasis on preserving nutrients and embracing whole foods",
+    "time": "modern-day",
+    "speaker": null,
+    "verbatim": [
+     "With the modern-day emphasis on preserving nutrients and embracing whole foods"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "bamboo steaming",
+    "relation": "appreciated_for",
+    "value": "flavor and craftsmanship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an appreciation of both flavor and craftsmanship"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Chinese cuisine",
+    "relation": "has_staple",
+    "value": "bamboo steamers",
+    "time": "for centuries",
+    "speaker": null,
+    "verbatim": [
+     "Bamboo steamers have been a staple in Asian kitchens, especially Chinese cuisine, for centuries."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "bamboo steamers",
+    "relation": "staple_in",
+    "value": "Asian kitchens",
+    "time": "for centuries",
+    "speaker": null,
+    "verbatim": [
+     "Bamboo steamers have been a staple in Asian kitchens, especially Chinese cuisine, for centuries."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "bamboo steaming",
+    "relation": "originated_during",
+    "value": "Han Dynasty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Believed to have originated during the Han Dynasty"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "bamboo steaming",
+    "relation": "involves",
+    "value": "a stackable design that allows multiple dishes to be cooked simultaneously over a wok of simmering water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves a stackable design that allows multiple dishes to be cooked simultaneously over a wok of simmering water"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "steam cooking",
+    "relation": "cooks_food",
+    "value": "gently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the steam rises, it cooks the food gently"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "steam cooking",
+    "relation": "retains",
+    "value": "much of its original texture, color, and nutrients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing it to retain much of its original texture, color, and nutrients"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "steam cooking",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the steam rises, it cooks the food gently, allowing it to retain much of its original texture, color, and nutrients."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Chef Mei Lin",
+    "relation": "works_at",
+    "value": "Lotus Bloom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Mei Lin of the \"Lotus Bloom\" restaurant in San Francisco"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Lotus Bloom",
+    "relation": "located_in",
+    "value": "San Francisco",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "restaurant in San Francisco"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Lotus Bloom",
+    "relation": "opened_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which opened its doors on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "modern metal steamers",
+    "relation": "cannot_be_replicated_with",
+    "value": "the subtle infusion of the bamboo basket's aroma",
+    "time": null,
+    "speaker": "Culinary experts, including Chef Mei Lin",
+    "verbatim": [
+     "believe that the subtle infusion of the bamboo basket's aroma is an added advantage that can't be replicated with modern metal steamers"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "bamboo steaming",
+    "relation": "enhances_with",
+    "value": "a delicate, earthy scent",
+    "time": null,
+    "speaker": "Chef Lin",
+    "verbatim": [
+     "enhances it with a delicate, earthy scent"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "bamboo steamers",
+    "relation": "available_in",
+    "value": "the market",
+    "time": "today",
+    "speaker": null,
+    "verbatim": [
+     "several iterations of bamboo steamers being available in the market"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Michelle Kwan",
+    "relation": "occupation",
+    "value": "food writer and critic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michelle Kwan, a food writer and critic"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Michelle Kwan",
+    "relation": "began_journey_on",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "kicking off her journey on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michelle Kwan",
+    "relation": "sought_to_identify",
+    "value": "the best bamboo steamers suited to varying budgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embarked on a journey to identify the best bamboo steamers suited to varying budgets"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "price_tier",
+    "value": "affordable end of the spectrum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the affordable end of the spectrum lies the Han Dynasty Homeware Steamer"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "construction",
+    "value": "100% natural bamboo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boasting 100% natural bamboo construction"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "available_in",
+    "value": "multiple sizes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "available in multiple sizes"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "price",
+    "value": "$25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Priced at an impressive $25"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "offers",
+    "value": "durability and satisfactory performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering durability and satisfactory performance"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "suitable_for",
+    "value": "novices",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "it is an accessible starting point for novices"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "may_require",
+    "value": "pre-soaking to prevent sticking",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "the steamer might require pre-soaking to prevent sticking"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Han Dynasty Homeware Steamer",
+    "relation": "may_not_have",
+    "value": "the longest life span",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "may not have the longest life span"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Fujian",
+    "relation": "source_of_materials_for",
+    "value": "Zh\u0113n Bamboo Steamer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sourcing materials from the sustainable bamboo forests of Fujian"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "sources_materials_from",
+    "value": "the sustainable bamboo forests of Fujian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sourcing materials from the sustainable bamboo forests of Fujian"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "price",
+    "value": "$50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "priced at $50"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "represents",
+    "value": "a jump in quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "represents a jump in quality"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "lid_fits",
+    "value": "snugly",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "the woven bamboo lid fits snugly"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "traps_steam",
+    "value": "effectively",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "trapping steam effectively"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "speeds_up",
+    "value": "cooking time",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "speeding up cooking time"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "has_feature",
+    "value": "metal banding",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "she mentioned the metal banding as a departure from the all-natural aesthetic"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "adds_durability",
+    "value": "durability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it undeniably added to the steamer's durability"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Zh\u0113n Bamboo Steamer",
+    "relation": "suitable_for",
+    "value": "regular steam cooking enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it an excellent choice for regular steam cooking enthusiasts"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "is",
+    "value": "a handcrafted luxury item",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a handcrafted luxury item"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "attention_from",
+    "value": "professionals like Chef David Choi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has gained the attention of professionals like Chef David Choi"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chef David Choi",
+    "relation": "works_at",
+    "value": "Seoulful Delights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef David Choi of \"Seoulful Delights,\""
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Seoulful Delights",
+    "relation": "opened_in",
+    "value": "late September of 2023",
+    "time": "late September of 2023",
+    "speaker": null,
+    "verbatim": [
+     "which opened in late September of 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "retail_price",
+    "value": "around $100",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retailing for around $100"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "combines",
+    "value": "beauty with function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combines beauty with function"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "prevents",
+    "value": "small food items from slipping",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its fine mesh bottom prevents small food items from slipping"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "ensures",
+    "value": "even steam distribution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensures even steam distribution"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "prevents",
+    "value": "moisture escape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the silicon lip around the lid prevents moisture escape"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Imperial Bamboo Gourmet Steamer",
+    "relation": "highlighted_as",
+    "value": "a prime example of innovation meeting tradition",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "Kwan highlighted as a prime example of innovation meeting tradition"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "targeted_at",
+    "value": "eco-conscious cooks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eco-conscious cooks can look toward the GreenLeaf Bamboo Steamer"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "retail_price",
+    "value": "roughly $75",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which sells for roughly $75"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "commitment_to",
+    "value": "sustainability, from cultivation to packaging",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "Kwan was impressed by the brand's commitment to sustainability, from cultivation to packaging"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "uses",
+    "value": "a dense bamboo weave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing a dense bamboo weave"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "promises",
+    "value": "longevity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises longevity"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "requires",
+    "value": "no additional lining",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requires no additional lining, as is the case with cheaper alternatives"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "reduces",
+    "value": "waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thus reducing waste"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "GreenLeaf Bamboo Steamer",
+    "relation": "results_in",
+    "value_ref": "c56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requires no additional lining, as is the case with cheaper alternatives, thus reducing waste"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "bamboo steamers",
+    "relation": "can_rival",
+    "value": "modern electronic steamers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its ability to rival modern electronic steamers"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "modern electronic steamers",
+    "relation": "offer",
+    "value": "the convenience of set-it-and-forget-it timers and multiple functions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While the latter offer the convenience of set-it-and-forget-it timers and multiple functions"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "modern electronic steamers",
+    "relation": "lack",
+    "value": "the bespoke qualities that bamboo brings to the table",
+    "time": null,
+    "speaker": "Kwan",
+    "verbatim": [
+     "Kwan argues that they lack the bespoke qualities that bamboo brings to the table"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Michelle Kwan",
+    "relation": "debated_with",
+    "value": "Chef Ricardo Silva",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She mentions a debate she had with Chef Ricardo Silva"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Chef Ricardo Silva",
+    "relation": "works_at",
+    "value": "The Steam Lab",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modernist eatery \"The Steam Lab,\""
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "The Steam Lab",
+    "relation": "is_a",
+    "value": "modernist eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modernist eatery \"The Steam Lab,\""
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "bamboo steamers",
+    "relation": "has",
+    "value": "an irreplaceable charm and a connection to the past",
+    "time": null,
+    "speaker": "Chef Ricardo Silva",
+    "verbatim": [
+     "who admitted that bamboo steamers have an irreplaceable charm and a connection to the past that electric variants simply cannot match"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "bamboo steamers",
+    "relation": "contingent_on",
+    "value": "proper maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partly contingent upon proper maintenance"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Grace Tang",
+    "relation": "runs",
+    "value": "popular cooking classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grace Tang, who runs popular cooking classes in New York City"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Grace Tang",
+    "relation": "runs_classes_in",
+    "value": "New York City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grace Tang, who runs popular cooking classes in New York City"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Grace Tang",
+    "relation": "stresses",
+    "value": "the importance of hand-washing and thoroughly drying bamboo steamers after each use",
+    "time": null,
+    "speaker": "Grace Tang",
+    "verbatim": [
+     "stresses the importance of hand-washing and thoroughly drying bamboo steamers after each use"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "bamboo steamers",
+    "relation": "hand_washing_and_drying_prevents",
+    "value": "mold and mildew",
+    "time": null,
+    "speaker": "Grace Tang",
+    "verbatim": [
+     "hand-washing and thoroughly drying bamboo steamers after each use to prevent mold and mildew"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Grace Tang",
+    "relation": "in_order_to",
+    "value_ref": "c69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hand-washing and thoroughly drying bamboo steamers after each use to prevent mold and mildew"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Grace Tang",
+    "relation": "suggests",
+    "value": "storing them in a well-ventilated area",
+    "time": null,
+    "speaker": "Grace Tang",
+    "verbatim": [
+     "suggests storing them in a well-ventilated area"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Grace Tang",
+    "relation": "suggests",
+    "value": "occasionally rubbing mineral oil on the surfaces",
+    "time": null,
+    "speaker": "Grace Tang",
+    "verbatim": [
+     "occasionally rubbing mineral oil on the surfaces"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "mineral oil",
+    "relation": "used_for",
+    "value": "maintaining the bamboo's integrity",
+    "time": null,
+    "speaker": "Grace Tang",
+    "verbatim": [
+     "to maintain the bamboo's integrity"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Michelle Kwan",
+    "relation": "scoured",
+    "value": "numerous online platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scouring numerous online platforms"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Michelle Kwan",
+    "relation": "found",
+    "value": "users often cited ease of use and clean-up as principal factors in their satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kwan found that users often cited ease of use and clean-up as principal factors in their satisfaction"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Michelle Kwan",
+    "relation": "noticed",
+    "value": "some users raised concerns over warp and wear, especially in lower-quality models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she also noticed that some users raised concerns over warp and wear, especially in lower-quality models"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Michelle Kwan",
+    "relation": "highlights",
+    "value": "the importance of investing a little extra for a premium product",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighting the importance of investing a little extra for a premium product"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "bamboo steamers",
+    "relation": "holds_ground_in",
+    "value": "modern kitchens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bamboo steamer holds its ground in modern kitchens"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "bamboo steamers",
+    "relation": "is_a",
+    "value": "an invaluable tool for healthful and flavorful cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as an invaluable tool for healthful and flavorful cooking"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "bamboo steamers",
+    "relation": "available_for",
+    "value": "every culinary aficionado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a bamboo steamer for every culinary aficionado"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "bamboo steaming",
+    "relation": "provides",
+    "value": "culinary benefits and an intangible heritage link",
+    "time": null,
+    "speaker": "Michelle Kwan",
+    "verbatim": [
+     "traditional cooking methods like bamboo steaming provide not only culinary benefits but also an intangible heritage link"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "bamboo steaming",
+    "relation": "resonates_with",
+    "value": "home chefs and professionals alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to resonate with home chefs and professionals alike"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

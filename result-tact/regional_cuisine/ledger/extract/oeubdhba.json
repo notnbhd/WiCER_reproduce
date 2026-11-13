@@ -1,0 +1,935 @@
+{
+ "inventory": [
+  "Andalusia",
+  "Spain",
+  "Mediterranean Sea",
+  "Andalusian cuisine",
+  "Phoenicians",
+  "Romans",
+  "Moors",
+  "Iberia",
+  "Mediterranean cuisine",
+  "Reconquista",
+  "Christian forces",
+  "gazpacho",
+  "New World",
+  "Andalusian tapas",
+  "Alfonso X",
+  "Spain's Golden Age",
+  "the Americas",
+  "potatoes",
+  "tomatoes",
+  "bell peppers",
+  "chocolate",
+  "Seville",
+  "C\u00e1diz",
+  "rabo de toro",
+  "chocos",
+  "Libro de cozina",
+  "migas",
+  "puchero",
+  "Spanish Civil War",
+  "return to democracy in 1975",
+  "Dani Garc\u00eda",
+  "M\u00e1laga",
+  "Andalusian Culinary Heritage Symposium",
+  "pesca\u00edto frito",
+  "morcilla"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Andalusia",
+    "relation": "is_a",
+    "value": "southern autonomous community in Spain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The region of Andalusia, a southern autonomous community in Spain"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Andalusia",
+    "relation": "located_in",
+    "value": "Spain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a southern autonomous community in Spain"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Andalusia",
+    "relation": "described_as",
+    "value": "as rich in history as it is in culinary traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is as rich in history as it is in culinary traditions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Andalusia",
+    "relation": "has_shore_on",
+    "value": "Mediterranean Sea",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the Mediterranean Sea lapping at its shores"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Andalusian cuisine",
+    "relation": "described_as",
+    "value": "a complex tapestry woven from multiple influences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Andalusian cuisine is a complex tapestry woven from multiple influences"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Phoenicians",
+    "relation": "introduced",
+    "value": "the cultivation of olives and wine",
+    "time": "11th century BC",
+    "speaker": null,
+    "verbatim": [
+     "From the Phoenicians in the 11th century BC, who introduced the cultivation of olives and wine"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Romans",
+    "relation": "followed_suit_with",
+    "value": "their own agricultural practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the Romans, who followed suit with their own agricultural practices"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Andalusia",
+    "relation": "early_gastronomic_profile",
+    "value": "simple, hearty fare designed to feed its agrarian societies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Andalusia\u2019s early gastronomic profile was one of simple, hearty fare designed to feed its agrarian societies"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Andalusian cuisine",
+    "relation": "marked_seismic_shift",
+    "value": "a seismic shift",
+    "time": "the 8th century AD",
+    "speaker": null,
+    "verbatim": [
+     "the 8th century AD marked a seismic shift"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Moors",
+    "relation": "crossed_into",
+    "value": "Iberia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Moors crossed into Iberia"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Moors",
+    "relation": "brought",
+    "value": "advanced irrigation techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing with them advanced irrigation techniques"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Moors",
+    "relation": "brought",
+    "value": "new crops like rice and citrus fruits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "new crops like rice and citrus fruits"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Moors",
+    "relation": "brought",
+    "value": "a palette of exotic spices like cumin and saffron",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a palette of exotic spices like cumin and saffron"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mediterranean cuisine",
+    "relation": "foundation_laid_by",
+    "value": "This Arabic infusion into local diets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This Arabic infusion into local diets laid the foundation of what we now broadly label as Mediterranean cuisine"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Christian forces",
+    "relation": "reclaimed",
+    "value": "Andalusia from Moorish rule",
+    "time": "late 15th century",
+    "speaker": null,
+    "verbatim": [
+     "the Christian forces reclaimed Andalusia from Moorish rule"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Moors",
+    "relation": "ruled_over",
+    "value": "Andalusia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reclaimed Andalusia from Moorish rule"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Andalusian cuisine",
+    "relation": "paved_way_for",
+    "value": "dishes that are emblematic of Andalusian gastronomy today",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The combination of Moorish and Christian influences paved the way for dishes that are emblematic of Andalusian gastronomy today."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "gazpacho",
+    "relation": "origin",
+    "value": "a modest combination of bread, olive oil, and garlic pounded in a mortar by the Romans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What began as a modest combination of bread, olive oil, and garlic pounded in a mortar by the Romans"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Romans",
+    "relation": "pounded_in_mortar",
+    "value": "bread, olive oil, and garlic for gazpacho",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What began as a modest combination of bread, olive oil, and garlic pounded in a mortar by the Romans"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Moors",
+    "relation": "added_to_gazpacho",
+    "value": "vinegar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "evolved with the addition of vinegar by the Moors"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "gazpacho",
+    "relation": "became",
+    "value": "a refreshing, cold soup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned into a refreshing, cold soup with the introduction of tomatoes and peppers from the New World after 1492"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "New World",
+    "relation": "source_of",
+    "value": "tomatoes and peppers",
+    "time": "after 1492",
+    "speaker": null,
+    "verbatim": [
+     "tomatoes and peppers from the New World after 1492"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "gazpacho",
+    "relation": "caused_by",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned into a refreshing, cold soup with the introduction of tomatoes and peppers from the New World after 1492"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Andalusian tapas",
+    "relation": "origin",
+    "value": "both necessity and innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sprang from both necessity and innovation"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alfonso X",
+    "relation": "ruled_during",
+    "value": "13th-century rule",
+    "time": "13th-century",
+    "speaker": "traditional story",
+    "verbatim": [
+     "during the 13th-century rule of Alfonso X"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Alfonso X",
+    "relation": "nicknamed",
+    "value": "The Wise King",
+    "time": null,
+    "speaker": "traditional story",
+    "verbatim": [
+     "Alfonso X, 'The Wise King,'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alfonso X",
+    "relation": "health_limited_food_intake",
+    "value": "could only consume small amounts of food with wine between meals",
+    "time": "13th-century",
+    "speaker": "traditional story",
+    "verbatim": [
+     "ill health dictated that he could only consume small amounts of food with wine between meals"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Andalusian tapas",
+    "relation": "caused_by",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": "traditional story",
+    "verbatim": [
+     "ill health dictated that he could only consume small amounts of food with wine between meals, ultimately leading to the custom of tapas"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Andalusian tapas",
+    "relation": "began_to_resemble",
+    "value": "the varied and flavorful small plates",
+    "time": "the postreconquest period",
+    "speaker": null,
+    "verbatim": [
+     "in the postreconquest period, that tapas began to resemble the varied and flavorful small plates"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Spain's Golden Age",
+    "relation": "time_period",
+    "value": "the 16th and 17th centuries",
+    "time": "The 16th and 17th centuries",
+    "speaker": null,
+    "verbatim": [
+     "The 16th and 17th centuries, often referred to as Spain\u2019s Golden Age"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Andalusian cuisine",
+    "relation": "reached",
+    "value": "new heights of sophistication",
+    "time": "The 16th and 17th centuries",
+    "speaker": null,
+    "verbatim": [
+     "saw Andalusian cuisine reach new heights of sophistication"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "the Americas",
+    "relation": "source_of",
+    "value": "the influx of wealth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of wealth from the Americas brought previously unknown foodstuffs"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "potatoes",
+    "relation": "introduced_from",
+    "value": "the Americas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of wealth from the Americas brought previously unknown foodstuffs such as potatoes, tomatoes, bell peppers, and chocolate"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "tomatoes",
+    "relation": "introduced_from",
+    "value": "the Americas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of wealth from the Americas brought previously unknown foodstuffs such as potatoes, tomatoes, bell peppers, and chocolate"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "bell peppers",
+    "relation": "introduced_from",
+    "value": "the Americas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of wealth from the Americas brought previously unknown foodstuffs such as potatoes, tomatoes, bell peppers, and chocolate"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "chocolate",
+    "relation": "introduced_from",
+    "value": "the Americas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of wealth from the Americas brought previously unknown foodstuffs such as potatoes, tomatoes, bell peppers, and chocolate"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "potatoes",
+    "relation": "integrated_into",
+    "value": "local dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were gradually integrated into local dishes"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "tomatoes",
+    "relation": "integrated_into",
+    "value": "local dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were gradually integrated into local dishes"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "bell peppers",
+    "relation": "integrated_into",
+    "value": "local dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were gradually integrated into local dishes"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "chocolate",
+    "relation": "integrated_into",
+    "value": "local dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were gradually integrated into local dishes"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Seville",
+    "relation": "aristocratic_tables_with",
+    "value": "epic feasts boasted artful displays of the region's abundance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This amalgamation reached the aristocratic tables of Seville and C\u00e1diz, where epic feasts boasted artful displays of the region's abundance."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "C\u00e1diz",
+    "relation": "aristocratic_tables_with",
+    "value": "epic feasts boasted artful displays of the region's abundance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This amalgamation reached the aristocratic tables of Seville and C\u00e1diz, where epic feasts boasted artful displays of the region's abundance."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "rabo de toro",
+    "relation": "described_as",
+    "value": "oxtail stew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rabo de toro (oxtail stew)"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "chocos",
+    "relation": "described_as",
+    "value": "cuttlefish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chocos (cuttlefish)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "rabo de toro",
+    "relation": "appeared_in",
+    "value": "cookbooks",
+    "time": "during this period",
+    "speaker": null,
+    "verbatim": [
+     "meat dishes like rabo de toro (oxtail stew) and chocos (cuttlefish) began to appear more frequently in cookbooks"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "chocos",
+    "relation": "appeared_in",
+    "value": "cookbooks",
+    "time": "during this period",
+    "speaker": null,
+    "verbatim": [
+     "meat dishes like rabo de toro (oxtail stew) and chocos (cuttlefish) began to appear more frequently in cookbooks"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Libro de cozina",
+    "relation": "authorship",
+    "value": "anonymously authored",
+    "time": "late 16th century",
+    "speaker": null,
+    "verbatim": [
+     "like the anonymously authored \"Libro de cozina\" of the late 16th century"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Andalusian cuisine",
+    "relation": "rooted_in",
+    "value": "the rural, the simple, the sustenance of the common folk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heart of Andalusian cuisine has always been rooted in the rural, the simple, the sustenance of the common folk"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "migas",
+    "relation": "described_as",
+    "value": "fried bread crumbs with chorizo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "migas (fried bread crumbs with chorizo)"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "puchero",
+    "relation": "described_as",
+    "value": "a humble meat and vegetable stew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "puchero (a humble meat and vegetable stew)"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "migas",
+    "relation": "traces_back_to",
+    "value": "the peasant tables of yore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dishes like migas (fried bread crumbs with chorizo) and puchero (a humble meat and vegetable stew) trace back to the peasant tables of yore"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "puchero",
+    "relation": "traces_back_to",
+    "value": "the peasant tables of yore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "puchero (a humble meat and vegetable stew) trace back to the peasant tables of yore"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Andalusian cuisine",
+    "relation": "transformed_leftovers_into",
+    "value": "comforting, richly flavored meals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where leftovers and less desirable cuts of meat were transformed into comforting, richly flavored meals"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "migas",
+    "relation": "remains_staple",
+    "value": "staples, largely unaltered by the passage of time",
+    "time": "Even today",
+    "speaker": null,
+    "verbatim": [
+     "Even today, these dishes remain staples, largely unaltered by the passage of time"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "puchero",
+    "relation": "remains_staple",
+    "value": "staples, largely unaltered by the passage of time",
+    "time": "Even today",
+    "speaker": null,
+    "verbatim": [
+     "Even today, these dishes remain staples, largely unaltered by the passage of time"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Andalusian cuisine",
+    "relation": "pulled_between",
+    "value": "the forces of tradition and innovation",
+    "time": "As the world moved into the 20th and 21st centuries",
+    "speaker": null,
+    "verbatim": [
+     "As the world moved into the 20th and 21st centuries, Andalusian cuisine, like many others, found itself pulled between the forces of tradition and innovation."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Spanish Civil War",
+    "relation": "put_pressure_on",
+    "value": "the country's food culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Spanish Civil War and the subsequent dictatorship put severe pressure on the country's food culture"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Spain",
+    "relation": "had_dictatorship",
+    "value": "the subsequent dictatorship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Spanish Civil War and the subsequent dictatorship"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Spanish Civil War",
+    "relation": "accompanied_by",
+    "value": "rationing and scarcity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with rationing and scarcity leading to yet more inventive ways of using available ingredients"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "return to democracy in 1975",
+    "relation": "preceded",
+    "value": "gastronomic renaissance",
+    "time": "1975",
+    "speaker": null,
+    "verbatim": [
+     "The gastronomic renaissance that bloomed after the return to democracy in 1975"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Andalusian cuisine",
+    "relation": "allowed_to_flourish_by",
+    "value": "the gastronomic renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The gastronomic renaissance that bloomed after the return to democracy in 1975, however, allowed Andalusian cuisine to flourish anew."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dani Garc\u00eda",
+    "relation": "described_as",
+    "value": "Avant-garde chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Avant-garde chefs like Dani Garc\u00eda"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Dani Garc\u00eda",
+    "relation": "reinterpreted",
+    "value": "traditional dishes using modern culinary techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Avant-garde chefs like Dani Garc\u00eda have reinterpreted traditional dishes using modern culinary techniques"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Andalusian cuisine",
+    "relation": "international_recognition",
+    "value": "international recognition of Andalusian gastronomy that balances respect for tradition with a celebration of creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to an international recognition of Andalusian gastronomy that balances respect for tradition with a celebration of creativity"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dani Garc\u00eda",
+    "relation": "results_in",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have reinterpreted traditional dishes using modern culinary techniques, leading to an international recognition"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "M\u00e1laga",
+    "relation": "hosted",
+    "value": "the third annual Andalusian Culinary Heritage Symposium",
+    "time": "November 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "November 17, 2023, marks a significant date as M\u00e1laga hosted the third annual Andalusian Culinary Heritage Symposium"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Andalusian Culinary Heritage Symposium",
+    "relation": "held_in",
+    "value": "M\u00e1laga",
+    "time": "November 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "M\u00e1laga hosted the third annual Andalusian Culinary Heritage Symposium"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Andalusian Culinary Heritage Symposium",
+    "relation": "edition",
+    "value": "third annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the third annual Andalusian Culinary Heritage Symposium"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Andalusian Culinary Heritage Symposium",
+    "relation": "attended_by",
+    "value": "chefs from across the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where chefs from across the world came to discover and discuss the historical roots of the region's dishes"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Andalusian Culinary Heritage Symposium",
+    "relation": "showed",
+    "value": "how centuries-old recipes were being transformed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There they could see how centuries-old recipes were being transformed while still paying homage to the humble origins of this rich cuisine."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "pesca\u00edto frito",
+    "relation": "described_as",
+    "value": "fried fish",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sizzling pesca\u00edto frito (fried fish) enjoyed in coastal towns"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "pesca\u00edto frito",
+    "relation": "enjoyed_in",
+    "value": "coastal towns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sizzling pesca\u00edto frito (fried fish) enjoyed in coastal towns"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "morcilla",
+    "relation": "described_as",
+    "value": "blood sausage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the savory morcilla (blood sausage) of the mountains"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "morcilla",
+    "relation": "found_in",
+    "value": "the mountains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the savory morcilla (blood sausage) of the mountains"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Andalusian cuisine",
+    "relation": "reflects",
+    "value": "the ebb and flow of cultures that have crossed its borders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Andalusian cuisine continues to reflect the ebb and flow of cultures that have crossed its borders."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Andalusian cuisine",
+    "relation": "contemporary_focus",
+    "value": "sustainability and locally sourced ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the contemporary focus on sustainability and locally sourced ingredients resonates deeply with the region's agrarian past"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Andalusian cuisine",
+    "relation": "guardians_of_heritage",
+    "value": "Farmers and artisanal producers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Farmers and artisanal producers are receiving renewed appreciation as the guardians of Andalusian culinary heritage."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Andalusian cuisine",
+    "relation": "absorbed",
+    "value": "the shocks of history \u2014 conquests, discoveries, and revolutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is a cuisine that has absorbed the shocks of history \u2014 conquests, discoveries, and revolutions"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Andalusia",
+    "relation": "described_as",
+    "value": "a vibrant, ever-evolving testament to Andalusia's enduring spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to emerge as a vibrant, ever-evolving testament to Andalusia's enduring spirit"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Andalusian cuisine",
+    "relation": "story_status",
+    "value": "still being written",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the story of Andalusian cuisine is still being written"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Andalusian cuisine",
+    "relation": "recounts_chapters_of",
+    "value": "Romans, Moors, or Christians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each flavor recounts ancestors' chapters, whether they be Romans, Moors, or Christians."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

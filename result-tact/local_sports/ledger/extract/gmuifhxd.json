@@ -1,0 +1,597 @@
+{
+ "inventory": [
+  "Dr. Lillian Brooks",
+  "Annual Sports Science Symposium",
+  "New York City",
+  "Dr. Eric Sullivan",
+  "New Haven Falcons",
+  "Rochester Royals",
+  "Jenna Watkins",
+  "Phoenix Trackers",
+  "sleep kits",
+  "Dr. Maya Patel",
+  "Stanford University",
+  "Boulder Climbers",
+  "Dr. Owen Grant",
+  "Chelsea Bar",
+  "Austin Arrows"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Annual Sports Science Symposium",
+    "relation": "located_in",
+    "value": "New York City",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Annual Sports Science Symposium in New York City"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "presented_at",
+    "value": "Annual Sports Science Symposium",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 12, 2023, at the Annual Sports Science Symposium in New York City, Dr. Lillian Brooks, a leading sleep researcher, presented compelling evidence"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "role",
+    "value": "leading sleep researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lillian Brooks, a leading sleep researcher"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "presented_evidence_on",
+    "value": "how sleep affects reaction times, strategic thinking, and overall athletic prowess",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "presented compelling evidence on how sleep affects reaction times, strategic thinking, and overall athletic prowess."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "cited",
+    "value": "numerous studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Citing numerous studies, Dr. Brooks emphasized"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "emphasized",
+    "value": "consistent sleep of 7-9 hours can significantly improve an athlete\u2019s speed, accuracy, and reaction time",
+    "time": null,
+    "speaker": "Dr. Lillian Brooks",
+    "verbatim": [
+     "Dr. Brooks emphasized that consistent sleep of 7-9 hours can significantly improve an athlete\u2019s speed, accuracy, and reaction time."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Lillian Brooks",
+    "relation": "supported_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Citing numerous studies, Dr. Brooks emphasized"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Eric Sullivan",
+    "relation": "role",
+    "value": "sports science consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sports science consultant Dr. Eric Sullivan"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Eric Sullivan",
+    "relation": "initiated_collaboration_with",
+    "value": "New Haven Falcons",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "sports science consultant Dr. Eric Sullivan initiated a ground-breaking collaboration with the New Haven Falcons, a prominent basketball team, on September 5, 2023."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "New Haven Falcons",
+    "relation": "role",
+    "value": "prominent basketball team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the New Haven Falcons, a prominent basketball team"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "New Haven Falcons",
+    "relation": "collaboration_purpose",
+    "value": "to methodically study and improve players' sleep patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative was to methodically study and improve players' sleep patterns."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "New Haven Falcons",
+    "relation": "monitors_sleep_with",
+    "value": "wearable technology that tracked both duration and quality of sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sullivan and the Falcons\u2019 coaching staff meticulously started monitoring the players' sleep through wearable technology that tracked both duration and quality of sleep."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Eric Sullivan",
+    "relation": "started_monitoring",
+    "value": "players' sleep through wearable technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sullivan and the Falcons\u2019 coaching staff meticulously started monitoring the players' sleep through wearable technology that tracked both duration and quality of sleep."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "New Haven Falcons",
+    "relation": "tailored_training_and_recovery_protocols_to",
+    "value": "each player\u2019s individual needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing this data, they were able to tailor training and recovery protocols to each player\u2019s individual needs."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "New Haven Falcons",
+    "relation": "enabled_by",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing this data, they were able to tailor training and recovery protocols"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Rochester Royals",
+    "relation": "role",
+    "value": "top-tier soccer club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Rochester Royals, a top-tier soccer club"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Rochester Royals",
+    "relation": "announced_partnership_with",
+    "value": "a technology firm",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 18, 2023, the Rochester Royals, a top-tier soccer club, announced a partnership with a technology firm"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Rochester Royals",
+    "relation": "partnership_purpose",
+    "value": "to design a sleep-optimization environment for their athletes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to design a sleep-optimization environment for their athletes."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Rochester Royals",
+    "relation": "included",
+    "value": "sleep-friendly lighting in players\u2019 residences, temperature-controlled mattresses, and blackout curtains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This included sleep-friendly lighting in players\u2019 residences, temperature-controlled mattresses, and blackout curtains."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jenna Watkins",
+    "relation": "role",
+    "value": "Head of Performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Royals' Head of Performance, Jenna Watkins"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jenna Watkins",
+    "relation": "said_players_report_feeling",
+    "value": "more rested",
+    "time": null,
+    "speaker": "Jenna Watkins",
+    "verbatim": [
+     "Our players report feeling more rested"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jenna Watkins",
+    "relation": "said_seeing",
+    "value": "an uptick in their training performance metrics",
+    "time": null,
+    "speaker": "Jenna Watkins",
+    "verbatim": [
+     "we are seeing an uptick in their training performance metrics"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jenna Watkins",
+    "relation": "said_signs_are",
+    "value": "very encouraging; it's early days yet",
+    "time": null,
+    "speaker": "Jenna Watkins",
+    "verbatim": [
+     "It's early days yet, but the signs are very encouraging"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Phoenix Trackers",
+    "relation": "role",
+    "value": "elite running group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Phoenix Trackers, an elite running group"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Phoenix Trackers",
+    "relation": "introduced",
+    "value": "sleep kits for their athletes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have introduced sleep kits for their athletes"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "sleep kits",
+    "relation": "consist_of",
+    "value": "earplugs, eye masks, and portable white-noise machines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consisting of earplugs, eye masks, and portable white-noise machines"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "sleep kits",
+    "relation": "implemented_since",
+    "value": "September 28, 2023",
+    "time": "since September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Implemented since September 28, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Phoenix Trackers",
+    "relation": "arrange_sleep_consultants_to_teach",
+    "value": "relaxation techniques to aid in falling asleep quickly, even in unfamiliar environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Trackers also arrange for sleep consultants to teach their athletes relaxation techniques to aid in falling asleep quickly, even in unfamiliar environments."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Maya Patel",
+    "relation": "role",
+    "value": "sports physician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by sports physician Dr. Maya Patel"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Maya Patel",
+    "relation": "published_study_on",
+    "value": "a study",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study published on November 3, 2023, by sports physician Dr. Maya Patel"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Stanford University",
+    "relation": "collaborated_on_study_with",
+    "value": "Dr. Maya Patel",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in collaboration with Stanford University"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Maya Patel",
+    "relation": "discovered",
+    "value": "a link between proper sleep and injury recovery times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discovered a link between proper sleep and injury recovery times."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Maya Patel",
+    "relation": "study_followed",
+    "value": "injured athletes who were given comprehensive sleep guidance during their recovery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The study followed injured athletes who were given comprehensive sleep guidance during their recovery."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Maya Patel",
+    "relation": "recovery_speed_difference",
+    "value": "up to 30% faster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "those who adhered to the optimized sleep schedule recovered up to 30% faster than those who did not."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Boulder Climbers",
+    "relation": "role",
+    "value": "professional cycling team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Boulder Climbers, a professional cycling team"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Boulder Climbers",
+    "relation": "integrated",
+    "value": "sleep monitoring devices into their health and wellness programs",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Boulder Climbers, a professional cycling team, integrated sleep monitoring devices into their health and wellness programs on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Boulder Climbers",
+    "relation": "focus",
+    "value": "identifying sleep deficiencies that could be leading to suboptimal training responses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their focus was on identifying sleep deficiencies that could be leading to suboptimal training responses."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Boulder Climbers",
+    "relation": "devices_track",
+    "value": "sleep stages, heart rate, and movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These devices, which track sleep stages, heart rate, and movement"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Boulder Climbers",
+    "relation": "devices_provide",
+    "value": "a wealth of data that can be analyzed to optimize rest periods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide a wealth of data that can be analyzed to optimize rest periods."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Owen Grant",
+    "relation": "role",
+    "value": "Boulder Climbers' physiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Boulder Climbers\u2019 physiologist Dr. Owen Grant mentioned"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Owen Grant",
+    "relation": "said",
+    "value": "Our usage of sleep tech has been a revelation.",
+    "time": null,
+    "speaker": "Dr. Owen Grant",
+    "verbatim": [
+     "Our usage of sleep tech has been a revelation."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Owen Grant",
+    "relation": "said_can_individualize",
+    "value": "each cyclist's training load based on how well they're recovering",
+    "time": null,
+    "speaker": "Dr. Owen Grant",
+    "verbatim": [
+     "We can now individualize each cyclist's training load based on how well they're recovering, as evidenced by their sleep data."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Owen Grant",
+    "relation": "recovery_evidenced_by",
+    "value": "sleep data",
+    "time": null,
+    "speaker": "Dr. Owen Grant",
+    "verbatim": [
+     "as evidenced by their sleep data."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Chelsea Bar",
+    "relation": "role",
+    "value": "renowned sports nutrition specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chelsea Bar, a renowned sports nutrition specialist"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Chelsea Bar",
+    "relation": "working_with",
+    "value": "Austin Arrows",
+    "time": "since October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Chelsea Bar, a renowned sports nutrition specialist, has been working with the Austin",
+     "Arrows, a football team, since October 20, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Austin Arrows",
+    "relation": "role",
+    "value": "football team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arrows, a football team"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Chelsea Bar",
+    "relation": "developing",
+    "value": "pre-bedtime snacks that incorporate ingredients known to enhance sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to develop pre-bedtime snacks that incorporate ingredients known to enhance sleep, such as cherries, milk, and almonds."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chelsea Bar",
+    "relation": "snack_ingredients",
+    "value": "cherries, milk, and almonds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as cherries, milk, and almonds"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chelsea Bar",
+    "relation": "in_order_to",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Arrows, a football team, since October 20, 2023, to develop pre-bedtime snacks"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Austin Arrows",
+    "relation": "regulate",
+    "value": "caffeine intake, particularly in the hours leading up to bedtime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Austin Arrows also regulate caffeine intake, particularly in the hours leading up to bedtime"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Austin Arrows",
+    "relation": "caffeine_purpose",
+    "value": "to ensure that it does not impair their athletes\u2019 ability to fall asleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure that it does not impair their athletes\u2019 ability to fall asleep."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Austin Arrows",
+    "relation": "in_order_to",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulate caffeine intake, particularly in the hours leading up to bedtime, to ensure that it does not impair their athletes\u2019 ability to fall asleep."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

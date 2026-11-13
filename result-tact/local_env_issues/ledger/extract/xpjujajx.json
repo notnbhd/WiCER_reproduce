@@ -1,0 +1,828 @@
+{
+ "inventory": [
+  "Susan Rodriguez",
+  "Jonathan Lee",
+  "Michael Thompson",
+  "Alicia Kim",
+  "Gregor Mendel",
+  "Karen Smith",
+  "Environmental Protection Agency",
+  "Green Future",
+  "Ernie's Caf\u00e9",
+  "Lillian's Supermarket",
+  "United States",
+  "Boulder",
+  "Greensboro",
+  "Asheville",
+  "composting",
+  "recycling programs",
+  "landfills",
+  "incinerators",
+  "community gardens",
+  "victory gardens",
+  "compost drives",
+  "curbside pickup of organic waste",
+  "home composting kits",
+  "municipal collection programs",
+  "compact, odor-free indoor composters",
+  "innovative apps",
+  "community composting"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "composting",
+    "relation": "significant_shift_in",
+    "value": "consumer habits",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, a significant shift has been observed in consumer habits"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "composting",
+    "relation": "complement_to",
+    "value": "recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "composting is gaining ground as a vital complement to recycling"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "recycling programs",
+    "relation": "seen_as",
+    "value": "part of a broader spectrum of waste management solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditional recycling programs\u2014 once the banner of sustainability\u2014are now being seen as part of a broader spectrum of waste management solutions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "landfills",
+    "relation": "condition",
+    "value": "overflowing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the reality of overflowing landfills"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Susan Rodriguez",
+    "relation": "is_a",
+    "value": "local environmental enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local environmental enthusiasts, like Susan Rodriguez and Jonathan Lee, are leading the charge"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jonathan Lee",
+    "relation": "is_a",
+    "value": "local environmental enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local environmental enthusiasts, like Susan Rodriguez and Jonathan Lee, are leading the charge"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "composting",
+    "relation": "described_as",
+    "value": "the next logical step",
+    "time": "one brisk October morning",
+    "speaker": "Susan Rodriguez",
+    "verbatim": [
+     "\"Composting is the next logical step,\" Rodriguez explains one brisk October morning at a community garden in downtown."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Susan Rodriguez",
+    "relation": "explains_at",
+    "value": "a community garden in downtown",
+    "time": "one brisk October morning",
+    "speaker": null,
+    "verbatim": [
+     "Rodriguez explains one brisk October morning at a community garden in downtown."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Susan Rodriguez",
+    "relation": "says_focus_has_been_on",
+    "value": "recycling plastics, glass, and paper",
+    "time": null,
+    "speaker": "Susan Rodriguez",
+    "verbatim": [
+     "\"We've been so focused on recycling plastics, glass, and paper, but what about the organic stuff\u2014the food scraps, the yard waste? That's a resource we've been throwing away.\""
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Susan Rodriguez",
+    "relation": "says_organic_stuff_is",
+    "value": "That's a resource we've been throwing away",
+    "time": null,
+    "speaker": "Susan Rodriguez",
+    "verbatim": [
+     "That's a resource we've been throwing away."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Susan Rodriguez",
+    "relation": "sentiment_reflects",
+    "value": "a growing public awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their sentiment reflects a growing public awareness."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jonathan Lee",
+    "relation": "sentiment_reflects",
+    "value": "a growing public awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their sentiment reflects a growing public awareness."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "home composting kits",
+    "relation": "availability",
+    "value": "increasing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "supported by an increasing availability of home composting kits and municipal collection programs"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "municipal collection programs",
+    "relation": "availability",
+    "value": "increasing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "supported by an increasing availability of home composting kits and municipal collection programs"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Environmental Protection Agency",
+    "relation": "released_study_on",
+    "value": "yard trimmings and food scraps",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study released on November 15, 2023, by the Environmental Protection Agency"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Environmental Protection Agency",
+    "relation": "reveals",
+    "value": "yard trimmings and food scraps together constituted over 30% of the United States' waste stream",
+    "time": "November 15, 2023",
+    "speaker": "Environmental Protection Agency",
+    "verbatim": [
+     "reveals that yard trimmings and food scraps together constituted over 30% of the United States' waste stream"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "United States",
+    "relation": "waste_stream_share_of_yard_trimmings_and_food_scraps",
+    "value": "over 30%",
+    "time": "November 15, 2023",
+    "speaker": "Environmental Protection Agency",
+    "verbatim": [
+     "constituted over 30% of the United States' waste stream"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "composting",
+    "relation": "primarily_ended_up_in",
+    "value": "landfills or incinerators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this wealth of potential compost was primarily ending up in landfills or incinerators"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "landfills",
+    "relation": "primary_destination_of_potential_compost",
+    "value": "landfills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this wealth of potential compost was primarily ending up in landfills or incinerators"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "incinerators",
+    "relation": "primary_destination_of_potential_compost",
+    "value": "incinerators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this wealth of potential compost was primarily ending up in landfills or incinerators"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michael Thompson",
+    "relation": "is_a",
+    "value": "a waste management consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "states Michael Thompson, a waste management consultant"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael Thompson",
+    "relation": "states",
+    "value": "By turning our kitchen and garden waste into compost, we're turning a waste problem into a soil solution",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "\"By turning our kitchen and garden waste into compost, we're turning a waste problem into a soil solution,\" states Michael Thompson"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael Thompson",
+    "relation": "analysis_finds",
+    "value": "reducing overall waste volume by as much as 24%",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "According to Thompson's analysis, if every household composted, the reduction in landfill waste could be staggering\u2014reducing overall waste volume by as much as 24%"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "composting",
+    "relation": "could_reduce_waste_volume_by",
+    "value": "as much as 24%",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "According to Thompson's analysis, if every household composted, the reduction in landfill waste could be staggering\u2014reducing overall waste volume by as much as 24%"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Boulder",
+    "relation": "taken_pioneering_steps_to",
+    "value": "integrate composting into their recycling programs",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "cities like Boulder, Greensboro, and Asheville have taken pioneering steps since late 2023 to integrate composting into their recycling programs"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Greensboro",
+    "relation": "taken_pioneering_steps_to",
+    "value": "integrate composting into their recycling programs",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "cities like Boulder, Greensboro, and Asheville have taken pioneering steps since late 2023 to integrate composting into their recycling programs"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Asheville",
+    "relation": "taken_pioneering_steps_to",
+    "value": "integrate composting into their recycling programs",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "cities like Boulder, Greensboro, and Asheville have taken pioneering steps since late 2023 to integrate composting into their recycling programs"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Boulder",
+    "relation": "waste_management_director",
+    "value": "Alicia Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Boulder's Waste Management Director, Alicia Kim"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Alicia Kim",
+    "relation": "job_title",
+    "value": "Boulder's Waste Management Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Boulder's Waste Management Director, Alicia Kim"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alicia Kim",
+    "relation": "says",
+    "value": "It's all about capturing value from what was once considered trash",
+    "time": null,
+    "speaker": "Alicia Kim",
+    "verbatim": [
+     "\"It's all about capturing value from what was once considered trash,\" says Boulder's Waste Management Director, Alicia Kim."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "composting",
+    "relation": "diverts_waste_from_landfill",
+    "value": "every ton of compost produced is a ton of waste diverted from the landfill",
+    "time": null,
+    "speaker": "Alicia Kim",
+    "verbatim": [
+     "Every ton of compost produced is a ton of waste diverted from the landfill"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "composting",
+    "relation": "boosts",
+    "value": "our local agriculture",
+    "time": null,
+    "speaker": "Alicia Kim",
+    "verbatim": [
+     "and a boost for our local agriculture too"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Curbside pickup of organic waste",
+    "relation": "accompanies",
+    "value": "traditional recycling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Curbside pickup of organic waste now accompanies traditional recycling"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Curbside pickup of organic waste",
+    "relation": "delivers_raw_materials_to",
+    "value": "centrally managed composting facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delivering raw materials to centrally managed composting facilities"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "composting",
+    "relation": "initial_resistance_stems_from",
+    "value": "concerns about cost and convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initial resistance often stems from concerns about cost and convenience."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "composting",
+    "relation": "operational_hurdles",
+    "value": "ensuring contamination-free waste streams and managing odors at composting sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Operational issues, from ensuring contamination-free waste streams to managing odors at composting sites, are also hurdles that municipalities must leap to ensure successful program adoption"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Ernie's Caf\u00e9",
+    "relation": "made_composting_core_part_of_operations",
+    "value": "a core part of operations",
+    "time": "since December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Forward-thinking businesses, like Ernie's Caf\u00e9 and Lillian's Supermarket, have made composting a core part of operations since December 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lillian's Supermarket",
+    "relation": "made_composting_core_part_of_operations",
+    "value": "a core part of operations",
+    "time": "since December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Forward-thinking businesses, like Ernie's Caf\u00e9 and Lillian's Supermarket, have made composting a core part of operations since December 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Ernie's Caf\u00e9",
+    "relation": "composts",
+    "value": "scraps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They compost scraps, donate organic waste for composting, and encourage responsible consumer behavior through education."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Ernie's Caf\u00e9",
+    "relation": "donates_organic_waste_for",
+    "value": "composting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "donate organic waste for composting"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Ernie's Caf\u00e9",
+    "relation": "encourages_responsible_consumer_behavior_through",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourage responsible consumer behavior through education"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Lillian's Supermarket",
+    "relation": "composts",
+    "value": "scraps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They compost scraps, donate organic waste for composting, and encourage responsible consumer behavior through education."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Lillian's Supermarket",
+    "relation": "donates_organic_waste_for",
+    "value": "composting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "donate organic waste for composting"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Lillian's Supermarket",
+    "relation": "encourages_responsible_consumer_behavior_through",
+    "value": "education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourage responsible consumer behavior through education"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Gregor Mendel",
+    "relation": "job_title",
+    "value": "Lillian's manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shares Lillian's manager, Gregor Mendel"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Gregor Mendel",
+    "relation": "states",
+    "value": "It's good for the planet, and our customers really support the initiative",
+    "time": null,
+    "speaker": "Gregor Mendel",
+    "verbatim": [
+     "\"It's good for the planet, and our customers really support the initiative,\" shares Lillian's manager, Gregor Mendel."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "composting",
+    "relation": "emerging_as_key_players_in",
+    "value": "redirecting valuable organic resources away from landfills and back into the production cycle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "supermarkets and eateries are now emerging as key players in redirecting valuable organic resources away from landfills and back into the production cycle"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "composting",
+    "relation": "results_in",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result of these changes, supermarkets and eateries are now emerging as key players"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "composting",
+    "relation": "not_fully_understood_by_most_individuals",
+    "value": "the process, benefits, and practices associated with composting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most individuals are familiar with the basics of recycling but may not understand the process, benefits, and practices associated with composting."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Karen Smith",
+    "relation": "is_a",
+    "value": "a sustainability coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Karen Smith, a sustainability coordinator with the non-profit Green Future"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Karen Smith",
+    "relation": "employed_by",
+    "value": "Green Future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sustainability coordinator with the non-profit Green Future"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Green Future",
+    "relation": "is_a",
+    "value": "non-profit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sustainability coordinator with the non-profit Green Future"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Karen Smith",
+    "relation": "active_since",
+    "value": "early autumn of 2023",
+    "time": "since early autumn of 2023",
+    "speaker": null,
+    "verbatim": [
+     "who has been hitting the pavement since early autumn of 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Karen Smith",
+    "relation": "says",
+    "value": "Knowledge is critical for participation",
+    "time": null,
+    "speaker": "Karen Smith",
+    "verbatim": [
+     "\"Knowledge is critical for participation,\" Smith highlights during a workshop at a local library."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Karen Smith",
+    "relation": "spoke_during",
+    "value": "a workshop at a local library",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smith highlights during a workshop at a local library."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Karen Smith",
+    "relation": "says_job_is",
+    "value": "to demystify composting",
+    "time": null,
+    "speaker": "Karen Smith",
+    "verbatim": [
+     "Our job is to demystify composting"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "composting",
+    "relation": "illustrated_by_demonstrations",
+    "value": "compost enriches the soil and supports plant growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engaging demonstrations that illustrate how compost enriches the soil and supports plant growth are among the strategies employed to entice more people into the habit of composting."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "innovative apps",
+    "relation": "launched_in",
+    "value": "post-September 2023",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Innovative apps launched post-September 2023"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "innovative apps",
+    "relation": "provide",
+    "value": "tutorials on composting methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide tutorials on composting methods"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "innovative apps",
+    "relation": "connect_users_with",
+    "value": "nearby composting facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even connect them with nearby composting facilities"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "compact, odor-free indoor composters",
+    "relation": "availability_has",
+    "value": "surged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the availability of compact, odor-free indoor composters has surged"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "compact, odor-free indoor composters",
+    "relation": "accommodates",
+    "value": "the space constraints of urban dwellers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "accommodating the space constraints of urban dwellers"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "home composting kits",
+    "relation": "became",
+    "value": "household staples",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "products that once occupied a niche market become household staples"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "community composting",
+    "relation": "knits_neighborhoods_together",
+    "value": "neighborhoods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the practice of community composting is knitting neighborhoods together"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "community gardens",
+    "relation": "accepts",
+    "value": "organic waste from residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community gardens and environmental clubs, apart from accepting organic waste from residents"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "community gardens",
+    "relation": "started_organizing",
+    "value": "compost drives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have started organizing 'compost drives' comparable to traditional recycling efforts"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "compost drives",
+    "relation": "comparable_to",
+    "value": "traditional recycling efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have started organizing 'compost drives' comparable to traditional recycling efforts"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "community composting",
+    "relation": "material_becomes",
+    "value": "the building blocks for lush communal spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The material that gardeners and residents contribute becomes the building blocks for lush communal spaces"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "community composting",
+    "relation": "engages",
+    "value": "people from all walks of life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engages people from all walks of life"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "composting",
+    "relation": "learned_in",
+    "value": "school curriculum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "young students who learn the value of composting in their school curriculum"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "victory gardens",
+    "relation": "era",
+    "value": "wartime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "older citizens who reminisce about wartime 'victory gardens,'"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "composting",
+    "relation": "rich_with",
+    "value": "opportunities for connection and education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the narrative of composting is rich with opportunities for connection and education"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

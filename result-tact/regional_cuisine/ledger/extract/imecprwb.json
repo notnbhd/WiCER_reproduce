@@ -1,0 +1,885 @@
+{
+ "inventory": [
+  "Emily Thompson",
+  "Todd Benson",
+  "Sara Kim",
+  "Janet Lee",
+  "Marcus Green",
+  "Lucy O'Donnell",
+  "Kelly Sanchez",
+  "Dan Thompson",
+  "The Undercover Veggie Pizza Parade",
+  "super sauce",
+  "Vegetable Victory",
+  "The Great Grain Train",
+  "Cheesy Quinoa Monsters",
+  "quinoa",
+  "The Smoothie Sleuth Strategy",
+  "Purple Potions of Power",
+  "Mac and Cheese Masquerade",
+  "cauliflower",
+  "The Illusion of Dessert",
+  "Chocolate Clouds of Mystery",
+  "avocados",
+  "Pancake Illusions",
+  "oats",
+  "The Wrap Game",
+  "Superhero Roll-Up",
+  "spinach",
+  "Wholesome Disguised Dips",
+  "Dare-to-Dip",
+  "broccoli"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "The Undercover Veggie Pizza Parade",
+    "relation": "dated",
+    "value": "September 4, 2023",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Undercover Veggie Pizza Parade - September 4, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emily Thompson",
+    "relation": "described_as",
+    "value": "a savvy mom of twin picky eaters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Thompson, a savvy mom of twin picky eaters"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Thompson",
+    "relation": "shared_solution_for",
+    "value": "packing nutrients into a crowd-pleaser: pizza",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared her stealthy solution for packing nutrients into a crowd-pleaser: pizza"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emily Thompson",
+    "relation": "created",
+    "value": "super sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She created a super sauce"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "super sauce",
+    "relation": "contains",
+    "value": "roasted red peppers, cherry tomatoes, carrots, zucchinis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a vibrant blend of roasted red peppers, cherry tomatoes, carrots \u2014 and yes, the elusive zucchinis \u2014 all pureed into camouflage"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "super sauce",
+    "relation": "preparation",
+    "value": "pureed into camouflage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all pureed into camouflage"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emily Thompson",
+    "relation": "said",
+    "value": "My kids think it\u2019s just a funky tomato sauce, but little do they know, they\u2019re getting their full serving of veggies!",
+    "time": null,
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "\u201cMy kids think it\u2019s just a funky tomato sauce, but little do they know, they\u2019re getting their full serving of veggies!\u201d"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Thompson",
+    "relation": "uses_as_secret_weapon",
+    "value": "a whole-wheat crust extravagantly garnished with their favorite toppings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her secret weapon? The distraction of a whole-wheat crust extravagantly garnished with their favorite toppings"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Thompson",
+    "relation": "shaped",
+    "value": "bell peppers into stars and olives into smiley faces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cleverly shaping bell peppers into stars and olives into smiley faces"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Vegetable Victory",
+    "relation": "name_given_to",
+    "value": "this operation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consider this operation Vegetable Victory!"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Great Grain Train",
+    "relation": "dated",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Great Grain Train - October 15, 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Todd Benson",
+    "relation": "described_as",
+    "value": "a father and selfproclaimed 'Grain Magician'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Todd Benson, a father and selfproclaimed 'Grain Magician,'"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "quinoa",
+    "relation": "described_as",
+    "value": "a friendly seed with incognito power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the incognito power of this friendly seed"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "quinoa",
+    "relation": "described_as",
+    "value": "a blank canvas",
+    "time": null,
+    "speaker": "Todd Benson",
+    "verbatim": [
+     "\u201cThink of quinoa as a blank canvas,\u201d Todd proclaims"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Todd Benson",
+    "relation": "revealed_recipe",
+    "value": "Cheesy Quinoa Monsters",
+    "time": "evening of October 15",
+    "speaker": null,
+    "verbatim": [
+     "He revealed his signature recipe on the evening of October 15: 'Cheesy Quinoa Monsters'"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "contains",
+    "value": "mascarpone cheese",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mascarpone cheese melts through warm quinoa tinted with natural food coloring"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "uses",
+    "value": "quinoa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mascarpone cheese melts through warm quinoa tinted with natural food coloring"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "tinted_with",
+    "value": "natural food coloring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mascarpone cheese melts through warm quinoa tinted with natural food coloring"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "results_in",
+    "value": "a green but irresistible goo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in a green but irresistible goo"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "served_in",
+    "value": "individual cups with funny face garnishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Served in individual cups with funny face garnishes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "eagerly_devoured_by",
+    "value": "his kids",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his kids eagerly devour these mini monsters"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cheesy Quinoa Monsters",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mascarpone cheese melts through warm quinoa tinted with natural food coloring, resulting in a green but irresistible goo"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Smoothie Sleuth Strategy",
+    "relation": "dated",
+    "value": "September 28, 2023",
+    "time": "September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Smoothie Sleuth Strategy - September 28, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sara Kim",
+    "relation": "described_as",
+    "value": "renowned for her ingenuity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sara Kim, renowned for her ingenuity,"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sara Kim",
+    "relation": "uses",
+    "value": "her blender",
+    "time": "By dawn",
+    "speaker": null,
+    "verbatim": [
+     "pulls out her blender with a sly smile"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "avocados",
+    "relation": "hidden_in",
+    "value": "her blueberry-banana smoothies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hidden in the whirlwind of her blueberry-banana smoothies are avocados and spinach"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "spinach",
+    "relation": "hidden_in",
+    "value": "her blueberry-banana smoothies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hidden in the whirlwind of her blueberry-banana smoothies are avocados and spinach"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "avocados",
+    "relation": "disguised_by",
+    "value": "the sweet fruit puree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vanishing without a trace against the sweet fruit puree"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sara Kim",
+    "relation": "said",
+    "value": "It\u2019s a covert operation executed in a blender",
+    "time": "September 28",
+    "speaker": "Sara Kim",
+    "verbatim": [
+     "\u201cIt\u2019s a covert operation executed in a blender,\u201d Sara explained"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Purple Potions of Power",
+    "relation": "poured_by",
+    "value": "Sara Kim",
+    "time": "September 28",
+    "speaker": null,
+    "verbatim": [
+     "as she poured the lush purple concoction on September 28"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Purple Potions of Power",
+    "relation": "topped_with",
+    "value": "a playful straw and a sprinkle of chia seeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Topped with a playful straw and a sprinkle of chia seeds"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Purple Potions of Power",
+    "relation": "kids_consume",
+    "value": "antioxidants and fibers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have her kids slurping down antioxidants and fibers"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Mac and Cheese Masquerade",
+    "relation": "dated",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mac and Cheese Masquerade - November 1, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Janet Lee",
+    "relation": "revealed",
+    "value": "a mac and cheese masterpiece that embraces cauliflower as one of its own",
+    "time": "On a chilly November evening",
+    "speaker": null,
+    "verbatim": [
+     "as Janet Lee revealed her culinary cloak and dagger: a mac and cheese masterpiece that embraces cauliflower as one of its own"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "cauliflower",
+    "relation": "prepared_as",
+    "value": "cooked and pureed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cooked and pureed, the white cruciferous veggie"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "cauliflower",
+    "relation": "described_as",
+    "value": "white cruciferous veggie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cooked and pureed, the white cruciferous veggie"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Janet Lee",
+    "relation": "has_children",
+    "value": "twins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Janet's twins gobble up the classic"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Mac and Cheese Masquerade",
+    "relation": "eaten_by",
+    "value": "Janet's twins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Janet's twins gobble up the classic without ever guessing they're part of a palate-expanding plot"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Janet Lee",
+    "relation": "said",
+    "value": "Double, double, toil and trouble; cheese and cauliflower bubble,",
+    "time": null,
+    "speaker": "Janet Lee",
+    "verbatim": [
+     "\u201cDouble, double, toil and trouble; cheese and cauliflower bubble,\u201d she chuckled"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mac and Cheese Masquerade",
+    "relation": "eaten_by",
+    "value": "her children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her children polish off their plates with gusto"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "The Illusion of Dessert",
+    "relation": "dated",
+    "value": "December 20, 2023",
+    "time": "December 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Illusion of Dessert - December 20, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Marcus Green",
+    "relation": "described_as",
+    "value": "a dessert wizard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Green, a dessert wizard,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Marcus Green",
+    "relation": "shared",
+    "value": "perhaps the cleverest ruse of them all",
+    "time": "on a frigid December day",
+    "speaker": null,
+    "verbatim": [
+     "on a frigid December day, Marcus Green, a dessert wizard, shared perhaps the cleverest ruse of them all"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "avocados",
+    "relation": "hidden_in",
+    "value": "his chocolate pudding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hidden within the velvety folds of his chocolate pudding are the unsuspecting avocados"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "avocados",
+    "relation": "provides",
+    "value": "creaminess and nutritional might",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lending creaminess and nutritional might"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Chocolate Clouds of Mystery",
+    "relation": "named_by",
+    "value": "Marcus Green",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His concoction of 'Chocolate Clouds of Mystery', as he fondly calls them"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Chocolate Clouds of Mystery",
+    "relation": "described_as",
+    "value": "so rich and decadent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His concoction of 'Chocolate Clouds of Mystery', as he fondly calls them, is so rich and decadent"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chocolate Clouds of Mystery",
+    "relation": "eaten_by",
+    "value": "his kids leap before asking 'What's really in this?'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his kids leap before asking 'What's really in this?'"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chocolate Clouds of Mystery",
+    "relation": "delivers",
+    "value": "wholesome goodness under the guise of a chocolatey reward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wholesome goodness infiltrates their taste buds under the guise of a chocolatey reward"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Pancake Illusions",
+    "relation": "dated",
+    "value": "September 22, 2023",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Pancake Illusions - September 22, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Pancake Illusions",
+    "relation": "performed_by",
+    "value": "Lucy O'Donnell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy O'Donnell\u2019s excellent execution of a pancake performance"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Lucy O'Donnell",
+    "relation": "added_to_batter",
+    "value": "oats and mashed bananas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Planting oats and mashed bananas into the batter"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "oats",
+    "relation": "added_to",
+    "value": "the batter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Planting oats and mashed bananas into the batter"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Lucy O'Donnell",
+    "relation": "creates",
+    "value": "fluffy, nutrient-packed hotcakes ready to stack high",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she creates fluffy, nutrient-packed hotcakes ready to stack high"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lucy O'Donnell",
+    "relation": "said",
+    "value": "The artistry is in the toppings",
+    "time": null,
+    "speaker": "Lucy O'Donnell",
+    "verbatim": [
+     "\u201cThe artistry is in the toppings,\u201d Lucy admits"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Lucy O'Donnell",
+    "relation": "uses_as_toppings",
+    "value": "Greek yogurt and an array of fruits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using Greek yogurt and an array of fruits to craft faces atop each pancake stack"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lucy O'Donnell",
+    "relation": "hair_made_of",
+    "value": "raspberries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From crazy hair made of raspberries to kiwi slices for eyes"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Lucy O'Donnell",
+    "relation": "eyes_made_of",
+    "value": "kiwi slices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From crazy hair made of raspberries to kiwi slices for eyes"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Lucy O'Donnell",
+    "relation": "children_consume",
+    "value": "fiber and potassium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her children are none the wiser as they consume fiber and potassium with delight"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "The Wrap Game",
+    "relation": "dated",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Wrap Game - October 10, 2023"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Kelly Sanchez",
+    "relation": "favors",
+    "value": "the wrap approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kelly Sanchez swears by the wrap approach"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Kelly Sanchez",
+    "relation": "uses_strategy_to",
+    "value": "enthrall her young son",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a strategy to enthrall her young son"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Kelly Sanchez",
+    "relation": "in_order_to",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kelly Sanchez swears by the wrap approach, a strategy to enthrall her young son"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Kelly Sanchez",
+    "relation": "has_son",
+    "value": "a young son who would gladly skip greens at any opportunity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her young son, who would gladly skip greens at any opportunity"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Kelly Sanchez",
+    "relation": "layers",
+    "value": "turkey slices, cheese, and a thin sliver of spinach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Within a whole grain tortilla, she layers turkey slices, cheese, and \u2014 here's the covert twist \u2014 a thin sliver of spinach perfectly concealed"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "spinach",
+    "relation": "concealed_in",
+    "value": "a whole grain tortilla",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Within a whole grain tortilla, she layers turkey slices, cheese, and \u2014 here's the covert twist \u2014 a thin sliver of spinach perfectly concealed"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Kelly Sanchez",
+    "relation": "labeled",
+    "value": "Superhero Roll-Up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Labeled the 'Superhero Roll-Up,'"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Superhero Roll-Up",
+    "relation": "believed_to_fuel",
+    "value": "his favorite characters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her son is convinced he's eating what fuels his favorite characters"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Superhero Roll-Up",
+    "relation": "accompanied_by",
+    "value": "spirited anecdotes about veggie strength",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spirited anecdotes about veggie strength accompany each bite"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Wholesome Disguised Dips",
+    "relation": "dated",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Wholesome Disguised Dips - September 12, 2023"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Dan Thompson",
+    "relation": "family_loves",
+    "value": "a good dip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Thompson family loves a good dip"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Dan Thompson",
+    "relation": "shared",
+    "value": "his healthy hack",
+    "time": "on a breezy evening",
+    "speaker": null,
+    "verbatim": [
+     "on a breezy evening, Dan Thompson shared his healthy hack"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Dare-to-Dip",
+    "relation": "ingredients",
+    "value": "roasted eggplant, Greek yogurt, and a hint of lemon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His 'Dare-to-Dip' sauce is a quirky blend of roasted eggplant, Greek yogurt, and a hint of lemon"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Dare-to-Dip",
+    "relation": "disguised_as",
+    "value": "a typical ranch dip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "disguised as a typical ranch dip"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "broccoli",
+    "relation": "becomes",
+    "value": "a 'tree' worthy of exploration and, ultimately, consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even broccoli turns into a 'tree' worthy of exploration and, ultimately, consumption"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Dan Thompson",
+    "relation": "said",
+    "value": "It\u2019s a dip that\u2019s a trip",
+    "time": null,
+    "speaker": "Dan Thompson",
+    "verbatim": [
+     "\u201cIt\u2019s a dip that\u2019s a trip,\u201d Dan explains"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Dan Thompson",
+    "relation": "observed",
+    "value": "his children dive back in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "watching his children dive back in for"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

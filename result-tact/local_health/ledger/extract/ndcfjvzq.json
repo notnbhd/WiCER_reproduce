@@ -1,0 +1,645 @@
+{
+ "inventory": [
+  "National Institute on Aging",
+  "Step into Wellness",
+  "Journal of Geriatric Medicine",
+  "Dr. Susan Bowerman",
+  "Silver Fitness Circles",
+  "Elderly Health and Wellness Association",
+  "Jonathan Myers",
+  "VitaSenior",
+  "Lucy Williams",
+  "Dr. Mohammed Khan",
+  "Angela Richardson",
+  "Emily Cho",
+  "Lifetime Fitness Program",
+  "Thomas Lee",
+  "Dr. Lila Robinson",
+  "Helen Keller",
+  "agefriendly cities"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "National Institute on Aging",
+    "relation": "spearheaded",
+    "value": "the initiative 'Step into Wellness'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by the National Institute on Aging (NIA), the initiative 'Step into Wellness' aims to reignite a commitment to fitness among those aged 65 and older."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "National Institute on Aging",
+    "relation": "abbreviated_as",
+    "value": "NIA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "National Institute on Aging (NIA)"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "National Institute on Aging",
+    "relation": "employs",
+    "value": "Dr. Susan Bowerman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Susan Bowerman, Director of Geriatric Health at the NIA"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Step into Wellness",
+    "relation": "aims_to",
+    "value": "reignite a commitment to fitness among those aged 65 and older",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initiative 'Step into Wellness' aims to reignite a commitment to fitness among those aged 65 and older."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Step into Wellness",
+    "relation": "rollout_date",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "October 3, 2023, marked the rollout of a comprehensive campaign tackling the issue of geriatric inactivity."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Journal of Geriatric Medicine",
+    "relation": "published_study",
+    "value": "a recent study",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a recent study published on September 15, 2023, by the Journal of Geriatric Medicine"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Journal of Geriatric Medicine",
+    "relation": "reported_finding",
+    "value": "60% of seniors engage in no regular physical activity whatsoever",
+    "time": "September 15, 2023",
+    "speaker": "Journal of Geriatric Medicine",
+    "verbatim": [
+     "a staggering 60% of seniors engage in no regular physical activity whatsoever."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Step into Wellness",
+    "relation": "caused_by",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Its inception comes in the wake of troubling statistics."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Susan Bowerman",
+    "relation": "job_title",
+    "value": "Director of Geriatric Health at the NIA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Susan Bowerman, Director of Geriatric Health at the NIA, has underscored the urgency for action."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Susan Bowerman",
+    "relation": "underscored",
+    "value": "the urgency for action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has underscored the urgency for action."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Susan Bowerman",
+    "relation": "stated",
+    "value": "As one ages, the natural tendency is to slow down.",
+    "time": null,
+    "speaker": "Dr. Susan Bowerman",
+    "verbatim": [
+     "As one ages, the natural tendency is to slow down."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Susan Bowerman",
+    "relation": "stated",
+    "value": "this inactivity accelerates the aging process itself, leading to a cascade of health issues",
+    "time": null,
+    "speaker": "Dr. Susan Bowerman",
+    "verbatim": [
+     "this inactivity accelerates the aging process itself, leading to a cascade of health issues."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Silver Fitness Circles",
+    "relation": "launched_on",
+    "value": "September 2, 2023",
+    "time": "September 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on September 2, 2023, the 'Silver Fitness Circles' program was launched by the Elderly Health and Wellness Association (EHWA)."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Elderly Health and Wellness Association",
+    "relation": "launched",
+    "value": "Silver Fitness Circles program",
+    "time": "September 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the 'Silver Fitness Circles' program was launched by the Elderly Health and Wellness Association (EHWA)"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Elderly Health and Wellness Association",
+    "relation": "abbreviated_as",
+    "value": "EHWA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Elderly Health and Wellness Association (EHWA)"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Silver Fitness Circles",
+    "relation": "led_by",
+    "value": "Jonathan Myers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by community health expert, Jonathan Myers, this program is introducing a variety of accessible fitness classes designed specifically for older adults."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jonathan Myers",
+    "relation": "job_title",
+    "value": "community health expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by community health expert, Jonathan Myers"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Silver Fitness Circles",
+    "relation": "offers",
+    "value": "a variety of accessible fitness classes designed specifically for older adults",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this program is introducing a variety of accessible fitness classes designed specifically for older adults."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jonathan Myers",
+    "relation": "stated",
+    "value": "These classes aren't just about exercise",
+    "time": null,
+    "speaker": "Jonathan Myers",
+    "verbatim": [
+     "\"These classes aren't just about exercise,\" explains Myers."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jonathan Myers",
+    "relation": "stated",
+    "value": "They're about building a sense of community and making sure that seniors have a social support structure which is equally important as they age.",
+    "time": null,
+    "speaker": "Jonathan Myers",
+    "verbatim": [
+     "They're about building a sense of community and making sure that seniors have a social support structure which is equally important as they age."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "VitaSenior",
+    "relation": "piloted_on",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which was piloted on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "VitaSenior",
+    "relation": "offers",
+    "value": "virtual classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides virtual classes, connects users with physical therapists, and creates custom fitness plans"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "VitaSenior",
+    "relation": "connects_users_with",
+    "value": "physical therapists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides virtual classes, connects users with physical therapists, and creates custom fitness plans"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "VitaSenior",
+    "relation": "creates",
+    "value": "custom fitness plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides virtual classes, connects users with physical therapists, and creates custom fitness plans"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "VitaSenior",
+    "relation": "in_response_to",
+    "value": "the challenge of reaching those who are homebound or have limited mobility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One challenge in promoting active lifestyles is reaching those who are homebound or have limited mobility.",
+     "In response, the inception of digital platforms like 'VitaSenior'"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lucy Williams",
+    "relation": "age",
+    "value": "71",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy Williams, 71, shares her personal testimony:"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lucy Williams",
+    "relation": "stated",
+    "value": "I was hesitant at first",
+    "time": null,
+    "speaker": "Lucy Williams",
+    "verbatim": [
+     "I was hesitant at first, but 'VitaSenior' helped me to stay active from the comfort of my own home."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "VitaSenior",
+    "relation": "helped",
+    "value": "Lucy Williams to stay active from the comfort of her own home",
+    "time": null,
+    "speaker": "Lucy Williams",
+    "verbatim": [
+     "'VitaSenior' helped me to stay active from the comfort of my own home."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lucy Williams",
+    "relation": "stated",
+    "value": "It's also wonderful to be able to connect with others who are working to maintain their own health.",
+    "time": null,
+    "speaker": "Lucy Williams",
+    "verbatim": [
+     "It's also wonderful to be able to connect with others who are working to maintain their own health."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "job_title",
+    "value": "Renowned physical therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned physical therapist, Dr. Mohammed Khan, has been part of this educational push since September 20, 2023, dismantling myths through outreach."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "participates_in",
+    "value": "this educational push",
+    "time": "since September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "has been part of this educational push since September 20, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "works_on",
+    "value": "dismantling myths through outreach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dismantling myths through outreach."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "stated",
+    "value": "Many older adults fear injury or believe that high-intensity activity is the only way to stay fit",
+    "time": null,
+    "speaker": "Dr. Mohammed Khan",
+    "verbatim": [
+     "\"Many older adults fear injury or believe that high-intensity activity is the only way to stay fit,\" Khan expresses."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "advocates_for",
+    "value": "safe, low-impact exercise options such as walking, swimming, and tai chi",
+    "time": null,
+    "speaker": "Dr. Mohammed Khan",
+    "verbatim": [
+     "we're advocating for safe, low-impact exercise options such as walking, swimming, and tai chi, which are incredibly beneficial."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Mohammed Khan",
+    "relation": "assessed_as",
+    "value": "incredibly beneficial",
+    "time": null,
+    "speaker": "Dr. Mohammed Khan",
+    "verbatim": [
+     "which are incredibly beneficial."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Angela Richardson",
+    "relation": "job_title",
+    "value": "councilwoman",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local government officials, including councilwoman Angela Richardson, convened to discuss the development of public spaces conducive to older adult fitness."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Angela Richardson",
+    "relation": "convened_on",
+    "value": "to discuss the development of public spaces conducive to older adult fitness",
+    "time": "October 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 19, 2023, local government officials, including councilwoman Angela Richardson, convened to discuss the development of public spaces conducive to older adult fitness."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Angela Richardson",
+    "relation": "discussion_included",
+    "value": "more walking trails, senior-friendly parks, and accessible gym equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes more walking trails, senior-friendly parks, and accessible gym equipment."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Angela Richardson",
+    "relation": "stated",
+    "value": "With the right infrastructure in place, we can empower our older residents to lead more active lives",
+    "time": null,
+    "speaker": "Angela Richardson",
+    "verbatim": [
+     "\"With the right infrastructure in place, we can empower our older residents to lead more active lives,\" Richardson states."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "agefriendly cities",
+    "relation": "aims_to",
+    "value": "foster inclusive and accessible urban environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which aim to foster inclusive and accessible urban environments."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "agefriendly cities",
+    "relation": "global_movement",
+    "value": "global movements toward agefriendly cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach aligns with global movements toward agefriendly cities"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Cho",
+    "relation": "job_title",
+    "value": "Nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Emily Cho points out"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Cho",
+    "relation": "stated",
+    "value": "You can't just look at diet or exercise in isolation, especially in seniors.",
+    "time": null,
+    "speaker": "Emily Cho",
+    "verbatim": [
+     "You can't just look at diet or exercise in isolation, especially in seniors."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emily Cho",
+    "relation": "stated",
+    "value": "It is important to combine both for overall health, increasing the efficacy of each.",
+    "time": null,
+    "speaker": "Emily Cho",
+    "verbatim": [
+     "It is important to combine both for overall health, increasing the efficacy of each."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Lifetime Fitness Program",
+    "relation": "introduced_on",
+    "value": "September 9, 2023",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced on September 9, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Lifetime Fitness Program",
+    "relation": "offers",
+    "value": "courses on understanding body mechanics as people age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which offers courses on understanding body mechanics as people age."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Thomas Lee",
+    "relation": "job_title",
+    "value": "physical educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "asserts physical educator Thomas Lee."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Thomas Lee",
+    "relation": "stated",
+    "value": "Education is empowering",
+    "time": null,
+    "speaker": "Thomas Lee",
+    "verbatim": [
+     "\"Education is empowering,\" asserts physical educator Thomas Lee."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Thomas Lee",
+    "relation": "stated",
+    "value": "they're more likely to take that step towards an active lifestyle",
+    "time": null,
+    "speaker": "Thomas Lee",
+    "verbatim": [
+     "they're more likely to take that step towards an active lifestyle."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Thomas Lee",
+    "relation": "results_in",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "understand how their bodies work and how much control they can have over their health",
+     "they're more likely to take that step towards an active lifestyle."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Dr. Lila Robinson",
+    "relation": "spoke_at",
+    "value": "the conference",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, a conference was held that gathered such professionals to strategize on joint efforts.",
+     "says gerontologist Dr. Lila Robinson at the conference"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Dr. Lila Robinson",
+    "relation": "job_title",
+    "value": "gerontologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says gerontologist Dr. Lila Robinson at the conference"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Lila Robinson",
+    "relation": "stated",
+    "value": "Alone, we can do so little; together, we can do so much",
+    "time": null,
+    "speaker": "Dr. Lila Robinson",
+    "verbatim": [
+     "\"Alone, we can do so little; together, we can do so much,\" says gerontologist Dr. Lila Robinson at the conference"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Lila Robinson",
+    "relation": "echoed_words_of",
+    "value": "Helen Keller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "echoing the words of Helen Keller"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Helen Keller",
+    "relation": "words_echoed_by",
+    "value": "Dr. Lila Robinson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "echoing the words of Helen Keller"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Lila Robinson",
+    "relation": "stressed",
+    "value": "the importance of collaboration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stressing the importance of collaboration."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

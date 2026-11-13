@@ -1,0 +1,514 @@
+{
+ "inventory": [
+  "Dr. Karen West",
+  "James Rodriguez",
+  "Marybeth Lin",
+  "John Smith",
+  "Dr. Elizabeth Green",
+  "Samantha Lee",
+  "Health Equity Research Group",
+  "End-of-Life Care Alliance",
+  "City Hospital",
+  "Dignified Death Act",
+  "end-of-life care",
+  "hospice care",
+  "palliative care",
+  "advanced directives",
+  "telehealth initiatives",
+  "assisted dying",
+  "cultural competence",
+  "the right to die with dignity",
+  "patient autonomy",
+  "public system"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Dr. Karen West",
+    "relation": "occupation",
+    "value": "expert in bioethics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Karen West, an expert in bioethics who spoke to us on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Karen West",
+    "relation": "interviewed_on",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who spoke to us on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Karen West",
+    "relation": "states",
+    "value": "End-of-life care often requires addressing delicate issues such as patient autonomy, the right to die with dignity, and the degree of medical intervention appropriate in the final days",
+    "time": null,
+    "speaker": "Dr. Karen West",
+    "verbatim": [
+     "End-of-life care often requires addressing delicate issues such as patient autonomy, the right to die with dignity, and the degree of medical intervention appropriate in the final days"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "patient autonomy",
+    "relation": "listed_as_delicate_issue",
+    "value": "delicate issue in end-of-life care",
+    "time": null,
+    "speaker": "Dr. Karen West",
+    "verbatim": [
+     "End-of-life care often requires addressing delicate issues such as patient autonomy"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "the right to die with dignity",
+    "relation": "listed_as_delicate_issue",
+    "value": "delicate issue in end-of-life care",
+    "time": null,
+    "speaker": "Dr. Karen West",
+    "verbatim": [
+     "delicate issues such as patient autonomy, the right to die with dignity"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "James Rodriguez",
+    "relation": "occupation",
+    "value": "social worker who has facilitated numerous care plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Rodriguez, a social worker who has facilitated numerous care plans"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "James Rodriguez",
+    "relation": "states",
+    "value": "sometimes what the medical team deems as \u2018best\u2019 may not align with what the patient or family consider being most respectful of their wishes",
+    "time": null,
+    "speaker": "James Rodriguez",
+    "verbatim": [
+     "sometimes what the medical team deems as \u2018best\u2019 may not align with what the patient or family consider being most respectful of their wishes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "assisted dying",
+    "relation": "raises_moral_questions",
+    "value": "moral questions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "assisted dying solutions pose moral questions"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the right to die with dignity",
+    "relation": "advocated_by",
+    "value": "others",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "others advocate for the right to die with dignity"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "the right to die with dignity",
+    "relation": "grappled_with_by",
+    "value": "jurisdictions, legally and ethically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "something that jurisdictions continue to grapple with legally and ethically"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Health Equity Research Group",
+    "relation": "published_study_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study published on September 15, 2023, by the Health Equity Research Group"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Health Equity Research Group",
+    "relation": "found",
+    "value": "Patients from lower socio-economic backgrounds often receive significantly less palliative care and are more likely to experience inadequate pain management and support",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Patients from lower socio-economic backgrounds often receive significantly less palliative care and are more likely to experience inadequate pain management and support."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Marybeth Lin",
+    "relation": "occupation",
+    "value": "researcher on the study",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marybeth Lin, a researcher on the study"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "cultural competence",
+    "relation": "is_layer_of",
+    "value": "this issue",
+    "time": null,
+    "speaker": "Marybeth Lin",
+    "verbatim": [
+     "Another layer to this issue, as Marybeth Lin, a researcher on the study, points out, is cultural competence."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "cultural competence",
+    "relation": "requires",
+    "value": "Healthcare providers must be adept at understanding the cultural context of the patients they care for",
+    "time": null,
+    "speaker": "Marybeth Lin",
+    "verbatim": [
+     "Healthcare providers must be adept at understanding the cultural context of the patients they care for."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "cultural competence",
+    "relation": "lack_results_in",
+    "value": "alienation and reduced use of end-of-life services among diverse populations",
+    "time": null,
+    "speaker": "Marybeth Lin",
+    "verbatim": [
+     "The lack of culturally tailored care can result in alienation and reduced use of end-of-life services among diverse populations"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "John Smith",
+    "relation": "father_passed_away_in",
+    "value": "a state-funded facility",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose father passed away in a state-funded facility on",
+     "December 1, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "public system",
+    "relation": "described_as",
+    "value": "overburdened",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "the overburdened public system often meant that his father did not receive the individual attention nor the comfort he needed in his last days"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "public system",
+    "relation": "often_meant",
+    "value": "his father did not receive the individual attention nor the comfort he needed in his last days",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "the overburdened public system often meant that his father did not receive the individual attention nor the comfort he needed in his last days"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "public system",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "the overburdened public system often meant that his father did not receive"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "hospice care",
+    "relation": "emphasizes",
+    "value": "palliative care and psychological support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospice care, a philosophy that emphasizes palliative care and psychological support"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "hospice care",
+    "relation": "accessibility_trend",
+    "value": "increasingly becoming more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is increasingly becoming more accessible"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "hospice care",
+    "relation": "offers",
+    "value": "a space where the terminally ill can spend their last days in comfort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospice facilities offer a space where the terminally ill can spend their last days in comfort, often allowing more personal and serene farewells."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "end-of-life care",
+    "relation": "technology_uptick",
+    "value": "an uptick in the use of technology to aid in end-of-life care",
+    "time": "As of November 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of November 2023, there has also been an uptick in the use of technology to aid in endof-life care"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "telehealth initiatives",
+    "relation": "enables",
+    "value": "individuals in remote areas to access specialists and receive adequate support without the need to travel long distances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Telehealth initiatives, for instance, enable individuals in remote areas to access specialists and receive adequate support without the need to travel long distances."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "End-of-Life Care Alliance",
+    "relation": "founded_by",
+    "value": "Samantha Lee",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "End-of-Life Care Alliance, founded by Samantha Lee in early September 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Samantha Lee",
+    "relation": "founded",
+    "value": "End-of-Life Care Alliance",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "End-of-Life Care Alliance, founded by Samantha Lee in early September 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "End-of-Life Care Alliance",
+    "relation": "provides",
+    "value": "resources and counseling for individuals and families navigating the complexities of terminal illness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide resources and counseling for individuals and families navigating the complexities of terminal illness"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "End-of-Life Care Alliance",
+    "relation": "works_to_ensure",
+    "value": "emotional and logistical support is available irrespective of individual economic or social standing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These groups work tirelessly to ensure emotional and logistical support is available irrespective of individual economic or social standing."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dignified Death Act",
+    "relation": "passed_on",
+    "value": "October 22, 2023",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dignified Death Act passed on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dignified Death Act",
+    "relation": "signifies",
+    "value": "a shift towards acknowledging the importance of autonomy and dignity at life\u2019s closing stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signify a shift towards acknowledging the importance of autonomy and dignity at life\u2019s closing stages"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dignified Death Act",
+    "relation": "makes_provisions_for",
+    "value": "advanced directives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The act makes provisions for advanced directives"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "advanced directives",
+    "relation": "defined_as",
+    "value": "documents that specify a person\u2019s end-of-life wishes in terms of care and treatments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advanced directives \u2013 documents that specify a person\u2019s end-of-life wishes in terms of care and treatments"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dignified Death Act",
+    "relation": "supports",
+    "value": "the rights of individuals to make these determinations before becoming incapacitated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "supports the rights of individuals to make these determinations before becoming incapacitated"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dignified Death Act",
+    "relation": "grapples_with",
+    "value": "preventing abuse and ensuring that end-of-life decisions are made with consent and understanding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Legislation such as this also grapples with preventing abuse and ensuring that end-of-life decisions are made with consent and understanding"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Dr. Elizabeth Green",
+    "relation": "occupation",
+    "value": "palliative care specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Elizabeth Green, a palliative care specialist at the City Hospital"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "City Hospital",
+    "relation": "employs",
+    "value": "Dr. Elizabeth Green",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Elizabeth Green, a palliative care specialist at the City Hospital"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Elizabeth Green",
+    "relation": "shared_on",
+    "value": "November 12, 2023",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "shared on November 12, 2023, that"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Elizabeth Green",
+    "relation": "states",
+    "value": "many fear discussing death, but avoiding the conversation can lead to decisions being made in crisis situations rather than with thoughtful planning",
+    "time": "November 12, 2023",
+    "speaker": "Dr. Elizabeth Green",
+    "verbatim": [
+     "many fear discussing death, but avoiding the conversation can lead to decisions being made in crisis situations rather than with thoughtful planning."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "end-of-life care",
+    "relation": "requires",
+    "value": "clear and empathetic communication between patients, families, and healthcare providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Critical to effective end-of-life care is clear and empathetic communication between patients, families, and healthcare providers."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "end-of-life care",
+    "relation": "access_differs_across",
+    "value": "socioeconomic groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Across socioeconomic groups, access to quality end-of-life care can differ greatly"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "end-of-life care",
+    "relation": "equity_status",
+    "value": "elusive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revealing a landscape where equity remains elusive"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "end-of-life care",
+    "relation": "access_not_equal_across",
+    "value": "all segments of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not all segments of society have equal access to end-of-life care services."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "end-of-life care",
+    "relation": "experience_altered_by",
+    "value": "the ability to afford private care or the lack thereof",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ability to afford private care or the lack thereof can drastically alter the end-of-life experience."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

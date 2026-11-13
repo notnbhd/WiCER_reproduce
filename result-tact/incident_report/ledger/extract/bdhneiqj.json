@@ -1,0 +1,743 @@
+{
+ "inventory": [
+  "Consumer Rights",
+  "Service Level Agreements (SLAs)",
+  "Internet Service Providers (ISPs)",
+  "Metroville area",
+  "unexpected internet outage",
+  "XYZ Telecom",
+  "John Doe",
+  "Doe's Delicacies",
+  "Internet Everywhere",
+  "QuickConnect",
+  "Sarah Smith",
+  "Cyberspace Commission",
+  "Jane Wilson",
+  "NetRights",
+  "Roberta Gonzalez",
+  "5G networks",
+  "24-hour customer support pledge",
+  "proactive credit system",
+  "uptime guarantee"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Consumer Rights",
+    "relation": "highlighted_by",
+    "value": "a recent wave of incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a recent wave of incidents has highlighted the importance of consumer rights"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "concerns",
+    "value": "internet outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "clarity within Service Level Agreements (SLAs) when it comes to internet outages"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "compared_in_article",
+    "value": "address their commitments within the industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compare how Internet Service Providers (ISPs) address their commitments within the industry"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "unexpected internet outage",
+    "relation": "occurred_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, customers across the Metroville area experienced an unexpected internet outage."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Metroville area",
+    "relation": "experienced",
+    "value": "unexpected internet outage",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, customers across the Metroville area experienced an unexpected internet outage."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "XYZ Telecom",
+    "relation": "acknowledged",
+    "value": "a severed underground cable during road construction work led to a massive interruption of their service",
+    "time": null,
+    "speaker": "XYZ Telecom",
+    "verbatim": [
+     "Following a wave of calls and complaints, XYZ Telecom acknowledged that a severed underground cable during road construction work led to a massive interruption of their service."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "unexpected internet outage",
+    "relation": "cause",
+    "value": "a severed underground cable during road construction work",
+    "time": null,
+    "speaker": "XYZ Telecom",
+    "verbatim": [
+     "a severed underground cable during road construction work"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "unexpected internet outage",
+    "relation": "caused_by",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a severed underground cable during road construction work led to a massive interruption of their service"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "unexpected internet outage",
+    "relation": "restored_for_some_consumers_within",
+    "value": "hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While some consumers were back online within hours"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "unexpected internet outage",
+    "relation": "blackout_duration_for_others",
+    "value": "over two days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "others endured a connectivity blackout that stretched over two days"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "unexpected internet outage",
+    "relation": "caused",
+    "value": "frustration among residential users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This outage not only caused frustration among residential users"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "unexpected internet outage",
+    "relation": "interrupted",
+    "value": "businesses that depend on online presence and cloud services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also interrupted businesses that depend on online presence and cloud services"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "John Doe",
+    "relation": "owner_of",
+    "value": "Doe's Delicacies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Doe, the owner of Doe's Delicacies"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Doe's Delicacies",
+    "relation": "is_a",
+    "value": "a local bakery with a substantial online ordering system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Doe's Delicacies, a local bakery with a substantial online ordering system"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Doe",
+    "relation": "claimed",
+    "value": "the outage cost his business nearly a thousand dollars in revenue",
+    "time": null,
+    "speaker": "John Doe",
+    "verbatim": [
+     "claimed the outage cost his business nearly a thousand dollars in revenue"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Doe's Delicacies",
+    "relation": "revenue_loss",
+    "value": "nearly a thousand dollars",
+    "time": null,
+    "speaker": "John Doe",
+    "verbatim": [
+     "the outage cost his business nearly a thousand dollars in revenue"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "is_a",
+    "value": "contracts between service providers and consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Service Level Agreements serve as contracts between service providers and consumers"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "outlines",
+    "value": "remedies for failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outlining remedies for failures"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "compared",
+    "value": "XYZ Telecom, Internet Everywhere, and QuickConnect",
+    "time": "In the wake of the September outages",
+    "speaker": null,
+    "verbatim": [
+     "a comparative analysis across various ISPs\u2014XYZ Telecom, Internet Everywhere, and QuickConnect"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "revealed",
+    "value": "differences in how these companies approach SLAs",
+    "time": "In the wake of the September outages",
+    "speaker": null,
+    "verbatim": [
+     "revealed differences in how these companies approach SLAs"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "XYZ Telecom",
+    "relation": "promises",
+    "value": "99.9% network uptime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Telecom's SLA promises 99.9% network uptime"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "XYZ Telecom",
+    "relation": "credit_policy",
+    "value": "credits issued if service availability falls below this threshold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with credits issued if service availability falls below this threshold"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "XYZ Telecom",
+    "relation": "credit_cap",
+    "value": "one month's service charge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the credit is capped at one month's service charge"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "XYZ Telecom",
+    "relation": "requires",
+    "value": "customers to apply formally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requires customers to apply formally"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Internet Everywhere",
+    "relation": "has",
+    "value": "a proactive credit system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet Everywhere has a more consumer-friendly approach with a proactive credit system"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Internet Everywhere",
+    "relation": "guarantees",
+    "value": "99.95% uptime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they guarantee 99.95% uptime"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Internet Everywhere",
+    "relation": "credit_trigger",
+    "value": "an outage exceeds four continuous hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "credit accounts automatically if an outage exceeds four continuous hours"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Internet Everywhere",
+    "relation": "credits_accounts",
+    "value": "automatically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "credit accounts automatically"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sarah Smith",
+    "relation": "recalled_receiving",
+    "value": "a credit memo within a week of the outage",
+    "time": "within a week of the outage",
+    "speaker": "Sarah Smith",
+    "verbatim": [
+     "Customer Sarah Smith recalled receiving a credit memo within a week of the outage"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sarah Smith",
+    "relation": "received_credit_without",
+    "value": "without any action on her part",
+    "time": null,
+    "speaker": "Sarah Smith",
+    "verbatim": [
+     "without any action on her part"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "QuickConnect",
+    "relation": "is_a",
+    "value": "a smaller competitive ISP",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QuickConnect, a smaller competitive ISP"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "QuickConnect",
+    "relation": "uptime_guarantee",
+    "value": "99.9% uptime guarantee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Beyond a 99.9% uptime guarantee"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "QuickConnect",
+    "relation": "offers",
+    "value": "a 24-hour customer support pledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they provide a 24-hour customer support pledge"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "24-hour customer support pledge",
+    "relation": "includes",
+    "value": "a hotline for businesses experiencing critical service issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including a hotline for businesses experiencing critical service issues"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "QuickConnect",
+    "relation": "rapid_response_allowed",
+    "value": "affected businesses to enact their continuity plans swiftly",
+    "time": null,
+    "speaker": "Reports",
+    "verbatim": [
+     "Reports suggest that QuickConnect's rapid response allowed affected businesses to enact their continuity plans swiftly"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "QuickConnect",
+    "relation": "mitigated",
+    "value": "the outage's impact",
+    "time": null,
+    "speaker": "Reports",
+    "verbatim": [
+     "mitigating the outage's impact"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "QuickConnect",
+    "relation": "results_in",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": "Reports",
+    "verbatim": [
+     "Reports suggest that QuickConnect's rapid response allowed affected businesses to enact their continuity plans swiftly, mitigating the outage's impact."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "stakeholders",
+    "value": "Consumer rights organizations and government regulators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumer rights organizations and government regulators have a stake in the execution and enforcement of SLAs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Cyberspace Commission",
+    "relation": "is_a",
+    "value": "Regulatory authority",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulatory authority Cyberspace Commission mandates"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Cyberspace Commission",
+    "relation": "mandates",
+    "value": "all ISPs provide clear and concise SLAs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mandates that all ISPs provide clear and concise SLAs"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jane Wilson",
+    "relation": "is_a",
+    "value": "Compliance officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance officer, Jane Wilson, explained"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jane Wilson",
+    "relation": "explained",
+    "value": "the body actively monitors these agreements",
+    "time": null,
+    "speaker": "Jane Wilson",
+    "verbatim": [
+     "Compliance officer, Jane Wilson, explained that the body actively monitors these agreements"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Cyberspace Commission",
+    "relation": "aims_to_ensure",
+    "value": "ISPs deliver on their promises and that consumers receive fair compensation for service disruptions",
+    "time": null,
+    "speaker": "Jane Wilson",
+    "verbatim": [
+     "ISPs deliver on their promises and that consumers receive fair compensation for service disruptions."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Cyberspace Commission",
+    "relation": "initiated_review_of",
+    "value": "XYZ Telecom's compliance with their stated service commitments",
+    "time": "Following the September incidents",
+    "speaker": null,
+    "verbatim": [
+     "the commission initiated a review of XYZ Telecom's compliance with their stated service commitments"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Cyberspace Commission",
+    "relation": "raised_awareness_of",
+    "value": "the importance of regulatory oversight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raising awareness of the importance of regulatory oversight"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "often_overlooked_by",
+    "value": "customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customers often overlook the fine print of SLAs"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "NetRights",
+    "relation": "is_a",
+    "value": "Consumer advocate group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumer advocate group, NetRights, encourages users"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "NetRights",
+    "relation": "encourages",
+    "value": "users to understand key SLA components, such as uptime guarantees, credit issuance procedures, and how to formally report an outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encourages users to understand key SLA components, such as uptime guarantees, credit issuance procedures, and how to formally report an outage"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "uptime guarantee",
+    "relation": "is_key_sla_component",
+    "value": "Service Level Agreements (SLAs)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as uptime guarantees"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Roberta Gonzalez",
+    "relation": "claimed_credits_from",
+    "value": "her ISP",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customer Roberta Gonzalez shared her experience on how she successfully claimed credits from her ISP"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Roberta Gonzalez",
+    "relation": "credit_trigger",
+    "value": "service down for more than six hours",
+    "time": null,
+    "speaker": "Roberta Gonzalez",
+    "verbatim": [
+     "if the service was down for more than six hours, I should get a credit"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Roberta Gonzalez",
+    "relation": "filed",
+    "value": "a claim",
+    "time": null,
+    "speaker": "Roberta Gonzalez",
+    "verbatim": [
+     "I filed a claim"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Roberta Gonzalez",
+    "relation": "claim_outcome",
+    "value": "the company honored their agreement",
+    "time": null,
+    "speaker": "Roberta Gonzalez",
+    "verbatim": [
+     "the company honored their agreement"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "competition_can_enhance",
+    "value": "consumer protections within SLAs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Competition among ISPs can serve to enhance consumer protections within SLAs"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "face_pressure_to",
+    "value": "offer more favorable terms to attract and retain customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ISPs face pressure to offer more favorable terms to attract and retain customers"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "competitive_environment_can_lead_to",
+    "value": "better guarantees, more generous compensation, and easier claim procedures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This competitive environment can lead to SLAs with better guarantees, more generous compensation, and easier claim procedures"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "QuickConnect",
+    "relation": "introduces",
+    "value": "innovations in customer service and issue resolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As smaller ISPs like QuickConnect introduce innovations in customer service and issue resolution"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "may_revamp",
+    "value": "their own SLAs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "larger providers may find the incentive to revamp their own SLAs"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "QuickConnect",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As smaller ISPs like QuickConnect introduce innovations in customer service and issue resolution, larger providers may find the incentive to revamp their own SLAs"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "5G networks",
+    "relation": "rollout_suggests",
+    "value": "a future landscape with fewer outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggest a future landscape with fewer outages"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Service Level Agreements (SLAs)",
+    "relation": "importance_remains_paramount",
+    "value": "robust SLAs that genuinely protect consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of robust SLAs that genuinely protect consumers remains paramount"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "underscored_by",
+    "value": "The increasing incidences of cyber-attacks and natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The increasing incidences of cyber-attacks and natural disasters also underscore the need for ISPs to refine their SLAs"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "need_to_refine",
+    "value": "their SLAs in favor of protective measures for consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need for ISPs to refine their SLAs in favor of protective measures for consumers"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "collaborating_with",
+    "value": "cybersecurity experts and infrastructure specialists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leading ISPs are now collaborating with cybersecurity experts and infrastructure specialists"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "in_order_to",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborating with cybersecurity experts and infrastructure specialists to minimize disruption risks"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

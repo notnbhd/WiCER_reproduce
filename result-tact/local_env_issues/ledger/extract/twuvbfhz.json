@@ -1,0 +1,592 @@
+{
+ "inventory": [
+  "Dr. Jessica Crane",
+  "city council",
+  "Clean Air Act of 2023",
+  "Councilman Andre Richards",
+  "Green Corridor Project",
+  "Sarah Kim",
+  "Innovatech Solutions",
+  "Environmental Protection Initiative (EPI)",
+  "Tom\u00e1s Gutierrez",
+  "Cycle-to-Work",
+  "Urban Forestry Initiative",
+  "GreenNow",
+  "Dr. Naomi Watts",
+  "CloudScan",
+  "Jenna Castillo",
+  "air quality monitoring app",
+  "Green Minds Initiative",
+  "Dr. Marcus Leung",
+  "Liza Jameson",
+  "ReclaimTech",
+  "Brian O'Connor",
+  "air pollution"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "air pollution",
+    "relation": "has_surged_to_forefront_of",
+    "value": "environmental concerns",
+    "time": "In the past decade",
+    "speaker": null,
+    "verbatim": [
+     "In the past decade, air pollution has surged to the forefront of environmental concerns"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "air pollution",
+    "relation": "prompted",
+    "value": "a surge of conservation efforts aimed at controlling emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting a surge of conservation efforts aimed at controlling emissions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Jessica Crane",
+    "relation": "is_a",
+    "value": "an environmental chemist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seated across from me is Dr. Jessica Crane, an environmental chemist"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Jessica Crane",
+    "relation": "interviewed_at",
+    "value": "a little downtown caf\u00e9 known for its commitment to sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at a little downtown caf\u00e9 known for its commitment to sustainability"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Jessica Crane",
+    "relation": "interviewed_on",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 3, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Jessica Crane",
+    "relation": "said",
+    "value": "We've seen a notable shift in urban air quality over the last few decades",
+    "time": null,
+    "speaker": "Dr. Jessica Crane",
+    "verbatim": [
+     "We've seen a notable shift in urban air quality over the last few decades"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "air pollution",
+    "relation": "caused_by",
+    "value": "Industrial expansion, increased vehicular traffic, and even some of the consumer choices",
+    "time": null,
+    "speaker": "Dr. Jessica Crane",
+    "verbatim": [
+     "Industrial expansion, increased vehicular traffic, and even some of the consumer choices contribute to the deterioration of clean air."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "city council",
+    "relation": "passed",
+    "value": "Clean Air Act of 2023",
+    "time": "August 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on August 28, 2023, the city council passed the Clean Air Act of 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Clean Air Act of 2023",
+    "relation": "spearheaded_by",
+    "value": "Councilman Andre Richards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by Councilman Andre Richards"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Clean Air Act of 2023",
+    "relation": "imposes",
+    "value": "stricter regulations on industrial emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Act imposes stricter regulations on industrial emissions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Clean Air Act of 2023",
+    "relation": "incentivizes",
+    "value": "electric vehicle use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incentivizes electric vehicle use"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Clean Air Act of 2023",
+    "relation": "funds",
+    "value": "expansion of green spaces to act as natural air filters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "funds expansion of green spaces to act as natural air filters"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Green Corridor Project",
+    "relation": "converts_old_railways_into",
+    "value": "greenways",
+    "time": null,
+    "speaker": "Councilman Andre Richards",
+    "verbatim": [
+     "where we're converting old railways into greenways"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Councilman Andre Richards",
+    "relation": "said",
+    "value": "We are particularly proud of the Green Corridor Project",
+    "time": "during the passing of the legislation",
+    "speaker": "Councilman Andre Richards",
+    "verbatim": [
+     "We are particularly proud of the Green Corridor Project"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Green Corridor Project",
+    "relation": "purpose",
+    "value": "give the city's lungs \u2013 literally speaking \u2013 the breath of life",
+    "time": null,
+    "speaker": "Councilman Andre Richards",
+    "verbatim": [
+     "to give the city's lungs \u2013 literally speaking \u2013 the breath of life."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Green Corridor Project",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where we're converting old railways into greenways to give the city's lungs \u2013 literally speaking \u2013 the breath of life"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Kim",
+    "relation": "ceo_of",
+    "value": "Innovatech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, the CEO of Innovatech Solutions"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Innovatech Solutions",
+    "relation": "is_a",
+    "value": "a prominent manufacturing company in the area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a prominent manufacturing company in the area"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Innovatech Solutions",
+    "relation": "committed_to_reducing_carbon_footprint_by",
+    "value": "50%",
+    "time": "as of September 2023",
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "We've committed to reducing our carbon footprint by 50% as of September 2023."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Innovatech Solutions",
+    "relation": "integrating",
+    "value": "solar energy",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "We're integrating solar energy"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Innovatech Solutions",
+    "relation": "participates_in",
+    "value": "carbon credit programs",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "participating in carbon credit programs"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Innovatech Solutions",
+    "relation": "invests_in",
+    "value": "R&D to create cleaner manufacturing processes",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "investing in R&D to create cleaner manufacturing processes"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Environmental Protection Initiative (EPI)",
+    "relation": "led_by",
+    "value": "Tom\u00e1s Gutierrez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Environmental Protection Initiative (EPI), led by its director, Tom\u00e1s Gutierrez"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Environmental Protection Initiative (EPI)",
+    "relation": "launched",
+    "value": "'Cycle-to-Work' campaign",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched the 'Cycle-to-Work' campaign on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Cycle-to-Work",
+    "relation": "pledge",
+    "value": "Employees city-wide pledged to cycle or use public transportation at least once a week",
+    "time": null,
+    "speaker": "Tom\u00e1s Gutierrez",
+    "verbatim": [
+     "Employees city-wide pledged to cycle or use public transportation at least once a week"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Tom\u00e1s Gutierrez",
+    "relation": "said",
+    "value": "We've seen an incredible turnout.",
+    "time": null,
+    "speaker": "Tom\u00e1s Gutierrez",
+    "verbatim": [
+     "We've seen an incredible turnout."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Tom\u00e1s Gutierrez",
+    "relation": "lobbying_for",
+    "value": "better public transportation and infrastructure",
+    "time": null,
+    "speaker": "Tom\u00e1s Gutierrez",
+    "verbatim": [
+     "We are also lobbying for better public transportation and infrastructure"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Tom\u00e1s Gutierrez",
+    "relation": "in_order_to",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We are also lobbying for better public transportation and infrastructure to make non-polluting commute options more viable."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Urban Forestry Initiative",
+    "relation": "launched_by",
+    "value": "GreenNow",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Urban Forestry Initiative launched on September 22, 2023, by the community-driven nonprofit, GreenNow."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "GreenNow",
+    "relation": "is_a",
+    "value": "community-driven nonprofit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community-driven nonprofit, GreenNow"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Urban Forestry Initiative",
+    "relation": "headed_by",
+    "value": "Dr. Naomi Watts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Headed by botanist Dr. Naomi Watts"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Naomi Watts",
+    "relation": "is_a",
+    "value": "botanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Headed by botanist Dr. Naomi Watts"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Urban Forestry Initiative",
+    "relation": "planted",
+    "value": "over 5,000 trees in the urban area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initiative has already planted over 5,000 trees in the urban area"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Naomi Watts",
+    "relation": "said",
+    "value": "Each tree we plant is another step towards a more resilient environment",
+    "time": null,
+    "speaker": "Dr. Naomi Watts",
+    "verbatim": [
+     "Each tree we plant is another step towards a more resilient environment"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Naomi Watts",
+    "relation": "said",
+    "value": "Trees are nature's air purifiers. They absorb pollutants, give off oxygen, and create habitats for urban wildlife.",
+    "time": null,
+    "speaker": "Dr. Naomi Watts",
+    "verbatim": [
+     "Trees are nature's air purifiers. They absorb pollutants, give off oxygen, and create habitats for urban wildlife."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "CloudScan",
+    "relation": "is_a",
+    "value": "local tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local tech startup CloudScan"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "CloudScan",
+    "relation": "developed",
+    "value": "an air quality monitoring app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CloudScan has developed an air quality monitoring app"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "air quality monitoring app",
+    "relation": "released_on",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which they released on October 1, 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jenna Castillo",
+    "relation": "cto_of",
+    "value": "CloudScan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenna Castillo, the CTO of CloudScan"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "air quality monitoring app",
+    "relation": "uses",
+    "value": "real-time data from air quality sensors across the city",
+    "time": null,
+    "speaker": "Jenna Castillo",
+    "verbatim": [
+     "Our app uses real-time data from air quality sensors across the city"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "air quality monitoring app",
+    "relation": "aims_to",
+    "value": "empowering citizens with knowledge",
+    "time": null,
+    "speaker": "Jenna Castillo",
+    "verbatim": [
+     "It's about empowering citizens with knowledge"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Green Minds Initiative",
+    "relation": "launched_in",
+    "value": "local schools",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a program launched in local schools on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green Minds Initiative",
+    "relation": "spearheaded_by",
+    "value": "Dr. Marcus Leung",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by environmental educator Dr. Marcus Leung"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Marcus Leung",
+    "relation": "is_a",
+    "value": "environmental educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by environmental educator Dr. Marcus Leung"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Green Minds Initiative",
+    "relation": "aims_to",
+    "value": "embed environmental literacy in the next generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initiative seeks to embed environmental literacy in the next generation"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Marcus Leung",
+    "relation": "suggests",
+    "value": "teaching children the value of clean air is an investment in a future where these issues are taken seriously",
+    "time": null,
+    "speaker": "Dr. Marcus Leung",
+    "verbatim": [
+     "If we can teach children the value of clean air, the reasons for pollution, and how to combat it, then we're investing in a future where these issues are taken seriously"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Liza Jameson",
+    "relation": "is_a",
+    "value": "a community organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liza Jameson, a community organizer,"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Liza Jameson",
+    "relation": "said",
+    "value": "Clean air shouldn't be a privilege. It's our right, and it's a collective responsibility.",
+    "time": null,
+    "speaker": "Liza Jameson",
+    "verbatim": [
+     "Clean air shouldn't be a privilege. It's our right, and it's a collective responsibility."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "ReclaimTech",
+    "relation": "announced",
+    "value": "its zero-emissions facility",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "ReclaimTech, which announced its zero-emissions facility on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Brian O'Connor",
+    "relation": "is_a",
+    "value": "energy analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to energy analyst Brian O'Connor"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Brian O'Connor",
+    "relation": "predicts",
+    "value": "renewable energy could account for over half of the city's energy demands",
+    "time": "by 2025",
+    "speaker": "Brian O'Connor",
+    "verbatim": [
+     "renewable energy could account for over half of the city's energy demands by 2025."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,636 @@
+{
+ "inventory": [
+  "Zero-Waste Cooking",
+  "Emilio Garcia",
+  "Barcelona",
+  "Aisha Sullivan",
+  "New Orleans",
+  "Chef Mei Lin",
+  "Vancouver",
+  "Henderson Farm",
+  "Chef Roberto Flores",
+  "Mexico City",
+  "Chef Nadine Brown",
+  "Johannesburg",
+  "Hiroshi Yamamoto",
+  "Kyoto",
+  "Michelin Guide",
+  "Chef Lola Martins",
+  "Lisbon",
+  "Chef Amar Shah",
+  "Global Local",
+  "Chef Sandra Lee",
+  "San Francisco",
+  "dehydration device"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Zero-Waste Cooking",
+    "relation": "philosophy_adopted_by",
+    "value": "kitchens across various cultures",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, kitchens across various cultures have begun redefining their practices under the philosophy of zero-waste cooking"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Zero-Waste Cooking",
+    "relation": "minimizes",
+    "value": "food waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helps in minimizing food waste"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Zero-Waste Cooking",
+    "relation": "champions",
+    "value": "full utilization of ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "champions the concept of full utilization of ingredients"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Zero-Waste Cooking",
+    "relation": "necessitated_by",
+    "value": "scarcity and frugality",
+    "time": "In the past",
+    "speaker": null,
+    "verbatim": [
+     "In the past, scarcity and frugality necessitated the use of every edible part of food"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emilio Garcia",
+    "relation": "is_from",
+    "value": "Barcelona",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern regional chefs like Emilio Garcia from Barcelona and Aisha Sullivan from New Orleans"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Aisha Sullivan",
+    "relation": "is_from",
+    "value": "New Orleans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern regional chefs like Emilio Garcia from Barcelona and Aisha Sullivan from New Orleans"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emilio Garcia",
+    "relation": "resurrects",
+    "value": "ancestral knowledge and techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern regional chefs like Emilio Garcia from Barcelona and Aisha Sullivan from New Orleans are resurrecting ancestral knowledge and techniques"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emilio Garcia",
+    "relation": "showcased",
+    "value": "a Catalan dish",
+    "time": "On November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 5, 2023, Garcia showcased a Catalan dish"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emilio Garcia",
+    "relation": "substituted",
+    "value": "traditional seafood elements with by-products of the same ingredients",
+    "time": "On November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "he substituted the traditional seafood elements with by-products of the same ingredients"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emilio Garcia",
+    "relation": "surprised_diners_with",
+    "value": "the depth of flavors that can come from what's often discarded",
+    "time": "On November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "surprising his diners with the depth of flavors that can come from what's often discarded"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emilio Garcia",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he substituted the traditional seafood elements with by-products of the same ingredients, surprising his diners with the depth of flavors that can come from what's often discarded"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Aisha Sullivan",
+    "relation": "reintroduced",
+    "value": "a Creole vegetable dish",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sullivan reintroduced a Creole vegetable dish on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Aisha Sullivan",
+    "relation": "used_ingredients",
+    "value": "stems and leaves",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "using stems and leaves which would typically not make it to the main course"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Aisha Sullivan",
+    "relation": "brought",
+    "value": "an unexpected texture and richness to the meal",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "yet brought an unexpected texture and richness to the meal"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Chef Mei Lin",
+    "relation": "based_in",
+    "value": "Vancouver",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the collaboration between Chef Mei Lin of Vancouver and the Henderson Farm"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Chef Mei Lin",
+    "relation": "collaborates_with",
+    "value": "Henderson Farm",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the collaboration between Chef Mei Lin of Vancouver and the Henderson Farm, announced on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Henderson Farm",
+    "relation": "collaboration_announced_on",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Henderson Farm, announced on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Zero-Waste Cooking",
+    "relation": "usually_discarded_parts",
+    "value": "carrot tops and beet leaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including the usually discarded parts like carrot tops and beet leaves"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Chef Roberto Flores",
+    "relation": "gives_workshops_in",
+    "value": "Mexico City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "workshops and cooking classes given by figures like Chef Roberto Flores in Mexico City"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Chef Roberto Flores",
+    "relation": "began_series_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who began his series on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Zero-Waste Cooking",
+    "relation": "involves",
+    "value": "society as a whole",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves society as a whole in the zero-waste movement"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Chef Nadine Brown",
+    "relation": "based_in",
+    "value": "Johannesburg",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Nadine Brown in Johannesburg"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Chef Nadine Brown",
+    "relation": "menu_debuted_on",
+    "value": "zero-waste-focused menu",
+    "time": "October 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "her zero-waste-focused menu that debuted on October 9, 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Chef Nadine Brown",
+    "relation": "reduces_costs_associated_with",
+    "value": "waste removal and ingredient purchases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her restaurant reduces costs associated with waste removal and ingredient purchases"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Chef Nadine Brown",
+    "relation": "offers_dishes_at",
+    "value": "a more affordable price point",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing her to offer high-quality dishes at a more affordable price point to her customers"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Chef Nadine Brown",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her restaurant reduces costs associated with waste removal and ingredient purchases, allowing her to offer high-quality dishes at a more affordable price point to her customers"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "based_in",
+    "value": "Kyoto",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Hiroshi Yamamoto in Kyoto are renowned for their seasonal menus"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "renowned_for",
+    "value": "seasonal menus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Hiroshi Yamamoto in Kyoto are renowned for their seasonal menus"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "curated",
+    "value": "a special winter menu",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, Yamamoto curated a special winter menu"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "featured",
+    "value": "dishes made from daikon radishes",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "featuring dishes made from daikon radishes"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "used_parts",
+    "value": "both the root and the green tops",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "using both the root and the green tops"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Hiroshi Yamamoto",
+    "relation": "heralds",
+    "value": "a return to seasonal and sustainable eating practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heralding a return to seasonal and sustainable eating practices"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Michelin Guide",
+    "relation": "incorporated",
+    "value": "a new rating system",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a groundbreaking event on September 8, 2023, a popular Michelin Guide incorporated a new rating system"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Michelin Guide",
+    "relation": "awarded_recognition_to",
+    "value": "restaurants excelling in zero-waste operations",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "that awarded additional recognition to restaurants excelling in zero-waste operations"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Michelin Guide",
+    "relation": "reviews_restaurants_for",
+    "value": "culinary excellence and sustainability practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michelin-starred restaurants are increasingly being reviewed not just for their culinary excellence but for their sustainability practices as well"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chef Lola Martins",
+    "relation": "based_in",
+    "value": "Lisbon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Lola Martins in Lisbon"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Chef Lola Martins",
+    "relation": "advocates",
+    "value": "resurrecting old Portuguese culinary arts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Lola Martins in Lisbon is an advocate for resurrecting old Portuguese culinary arts"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Chef Lola Martins",
+    "relation": "integrates",
+    "value": "forgotten local ingredients and their full usage into her recipes",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "integrating forgotten local ingredients and their full usage into her recipes since late 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Chef Lola Martins",
+    "relation": "mechanism_of",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is an advocate for resurrecting old Portuguese culinary arts, and she has been doing this by integrating forgotten local ingredients"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Chef Amar Shah",
+    "relation": "launched",
+    "value": "Global Local campaign",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Initiatives like Chef Amar Shah's \"Global Local\" campaign launched on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Global Local",
+    "relation": "launched_on",
+    "value": "November 22, 2023",
+    "time": "November 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "campaign launched on November 22, 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Global Local",
+    "relation": "aims_to_create",
+    "value": "a network of like-minded restaurants and kitchens committed to zero-waste practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to create a network of like-minded restaurants and kitchens committed to zero-waste practices"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Global Local",
+    "relation": "creates",
+    "value": "a global impact through local action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a global impact through local action"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Global Local",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to create a network of like-minded restaurants and kitchens committed to zero-waste practices, thus creating a global impact through local action"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "dehydration device",
+    "relation": "released_on",
+    "value": "October 17, 2023",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a dehydration device released on October 17, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "dehydration device",
+    "relation": "released_by",
+    "value": "Chef Sandra Lee",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a dehydration device released on October 17, 2023, by Chef Sandra Lee in San Francisco"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Chef Sandra Lee",
+    "relation": "based_in",
+    "value": "San Francisco",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Sandra Lee in San Francisco"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chef Sandra Lee",
+    "relation": "turned_surplus_into",
+    "value": "shelf-stable garnishes and flavorings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which allowed her to turn surplus fruits and vegetable trimmings into shelf-stable garnishes and flavorings"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "dehydration device",
+    "relation": "enables",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a dehydration device released on October 17, 2023, by Chef Sandra Lee in San Francisco, which allowed her to turn surplus fruits and vegetable trimmings into shelf-stable garnishes and flavorings"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Zero-Waste Cooking",
+    "relation": "is_gift_of_preservation_for",
+    "value": "future generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a gift of preservation for future generations"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Zero-Waste Cooking",
+    "relation": "contributes_to",
+    "value": "a healthier planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chefs and consumers alike contribute to a healthier planet"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Zero-Waste Cooking",
+    "relation": "paves_way_for",
+    "value": "a greener tomorrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "paves the way for a greener tomorrow"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Zero-Waste Cooking",
+    "relation": "is",
+    "value": "a comprehensive approach that intertwines sustainability with economic viability, preserving culinary heritage, and community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a comprehensive approach that intertwines sustainability with economic viability, preserving culinary heritage, and community engagement"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Zero-Waste Cooking",
+    "relation": "is_more_than",
+    "value": "just a trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this is more than just a trend"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Zero-Waste Cooking",
+    "relation": "helps_preserve",
+    "value": "culinary practices that are on the brink of extinction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it helps in rediscovering and preserving culinary practices that are on the brink of extinction"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

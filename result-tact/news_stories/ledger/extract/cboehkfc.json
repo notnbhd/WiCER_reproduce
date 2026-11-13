@@ -1,0 +1,901 @@
+{
+ "inventory": [
+  "Tokyo",
+  "2011 Great East Japan earthquake",
+  "Japan",
+  "magnitude 4.5 earthquake",
+  "Dr. Hirotaka Nakamura",
+  "Tokyo Institute of Seismology",
+  "Izu Peninsula",
+  "magnitude 6.7 earthquake",
+  "Tokyo Bay",
+  "Narita airport",
+  "Haneda airport",
+  "Tokyo's disaster response protocols",
+  "Governor Yuriko Koike",
+  "community support networks",
+  "Kenji Watanabe",
+  "Pacific Plate",
+  "North American Plate",
+  "Eurasian Plate",
+  "Philippine Sea Plate",
+  "community centers",
+  "Mika Yoshida",
+  "Yasuo Takahashi",
+  "Tokyo Chamber of Commerce",
+  "Japan Meteorological Agency",
+  "earthquake early warning systems",
+  "P-waves",
+  "S-waves",
+  "Chile",
+  "New Zealand",
+  "Tokyo City Hall",
+  "Seiji Maehara"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Tokyo",
+    "relation": "dateline_date",
+    "value": "October 11, 2023",
+    "time": "October 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "TOKYO, October 11, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Tokyo",
+    "relation": "experienced",
+    "value": "multiple tremors and earthquakes",
+    "time": "Over the past week",
+    "speaker": null,
+    "verbatim": [
+     "Over the past week, Tokyo metropolitan area residents have experienced multiple tremors and earthquakes"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Tokyo",
+    "relation": "officials_prompted_to_review",
+    "value": "disaster preparedness strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting officials to review disaster preparedness strategies"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Tokyo",
+    "relation": "caused_by",
+    "value_ref": "c2",
+    "verbatim": [
+     "leaving many on edge and prompting officials to review disaster preparedness strategies"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "2011 Great East Japan earthquake",
+    "relation": "memories_remain_fresh_within",
+    "value": "Japan's collective consciousness",
+    "time": "2011",
+    "speaker": null,
+    "verbatim": [
+     "As memories of 2011 Great East Japan earthquake remain fresh within Japan's collective consciousness"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Japan",
+    "relation": "susceptible_to",
+    "value": "natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a stark reminder of Japan's susceptibility to natural disasters"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "magnitude 4.5 earthquake",
+    "relation": "struck",
+    "value": "Izu Peninsula",
+    "time": "On September 23rd",
+    "speaker": null,
+    "verbatim": [
+     "On September 23rd, a magnitude 4.5 earthquake struck Izu Peninsula south of Tokyo"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Izu Peninsula",
+    "relation": "located_relative_to",
+    "value": "south of Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "struck Izu Peninsula south of Tokyo"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Hirotaka Nakamura",
+    "relation": "affiliated_with",
+    "value": "Tokyo Institute of Seismology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hirotaka Nakamura from Tokyo Institute of Seismology"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "magnitude 4.5 earthquake",
+    "relation": "described_as",
+    "value": "a bellwether",
+    "time": null,
+    "speaker": "Dr. Hirotaka Nakamura",
+    "verbatim": [
+     "called it a bellwether"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "magnitude 4.5 earthquake",
+    "relation": "signalled",
+    "value": "stress accumulation along critical faultlines near densely populated Tokyo",
+    "time": null,
+    "speaker": "Dr. Hirotaka Nakamura",
+    "verbatim": [
+     "signalling stress accumulation along critical faultlines near densely populated Tokyo"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Tokyo",
+    "relation": "smaller_tremors_spread_throughout",
+    "value": "Tokyo and its neighboring prefectures",
+    "time": "Subsequently",
+    "speaker": null,
+    "verbatim": [
+     "Subsequently, smaller tremors spread throughout Tokyo and its neighboring prefectures"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Tokyo",
+    "relation": "raised_concerns_among",
+    "value": "seismologists as well as public officials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raising concerns among seismologists as well as public officials alike"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Japan",
+    "relation": "experienced",
+    "value": "magnitude 6.7 earthquake",
+    "time": "On October 4th",
+    "speaker": null,
+    "verbatim": [
+     "On October 4th, Japan experienced a devastating magnitude 6.7 earthquake"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "described_as",
+    "value": "devastating",
+    "time": "On October 4th",
+    "speaker": null,
+    "verbatim": [
+     "a devastating magnitude 6.7 earthquake"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "inflicted",
+    "value": "substantial damage on infrastructure and residential areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inflicted substantial damage on infrastructure and residential areas primarily along the coastal regions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "damage_concentrated",
+    "value": "primarily along the coastal regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "primarily along the coastal regions"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "hit_during",
+    "value": "rush hour at Tokyo Bay's core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The earthquake hit during rush hour at Tokyo Bay's core"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Tokyo Bay",
+    "relation": "site_of_earthquake_hit",
+    "value": "core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The earthquake hit during rush hour at Tokyo Bay's core"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "disrupted",
+    "value": "transport services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "disrupting transport services"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "magnitude 6.7 earthquake",
+    "relation": "triggered",
+    "value": "widespread blackouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "triggering widespread blackouts"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Narita airport",
+    "relation": "forced_to_close",
+    "value": "temporarily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing Narita and Haneda airports to close temporarily"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Haneda airport",
+    "relation": "forced_to_close",
+    "value": "temporarily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing Narita and Haneda airports to close temporarily"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Narita airport",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "verbatim": [
+     "forcing Narita and Haneda airports to close temporarily"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Haneda airport",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "verbatim": [
+     "forcing Narita and Haneda airports to close temporarily"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Tokyo's disaster response protocols",
+    "relation": "were_deployed",
+    "value": "swiftly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo's disaster response protocols were swiftly deployed."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Governor Yuriko Koike",
+    "relation": "led",
+    "value": "first responders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "First responders led by Governor Yuriko Koike"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Governor Yuriko Koike",
+    "relation": "first_responders_immediately_began",
+    "value": "work to assess and address immediate damages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "First responders led by Governor Yuriko Koike immediately began work to assess and address immediate damages"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Tokyo",
+    "relation": "emergency_services_dispatched_to_provide",
+    "value": "medical care and aid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emergency services were dispatched to provide medical care and aid"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "community support networks",
+    "relation": "activated",
+    "value": "activated",
+    "time": "since 2011",
+    "speaker": null,
+    "verbatim": [
+     "community support networks have been activated since 2011"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "community support networks",
+    "relation": "offer",
+    "value": "aid and information services for locals affected by disaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer aid and information services for locals affected by disaster"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "community support networks",
+    "relation": "in_order_to",
+    "value_ref": "c31",
+    "time": "since 2011",
+    "speaker": null,
+    "verbatim": [
+     "community support networks have been activated since 2011 in order to offer aid and information services"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Kenji Watanabe",
+    "relation": "occupation",
+    "value": "urban planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban planner Kenji Watanabe"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Kenji Watanabe",
+    "relation": "leads_team_of",
+    "value": "engineers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban planner Kenji Watanabe and his team of engineers"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Tokyo",
+    "relation": "infrastructure_vulnerabilities_exposed_by",
+    "value": "Recent seismic activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recent seismic activity has cast new light on Tokyo's infrastructure vulnerabilities"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Kenji Watanabe",
+    "relation": "conducts_assessments_on",
+    "value": "buildings, bridges and public transportation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to conduct assessments on buildings, bridges and public transportation systems that may be at risk and retrofit them accordingly"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Kenji Watanabe",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "verbatim": [
+     "prompting urban planner Kenji Watanabe and his team of engineers to conduct assessments"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Tokyo",
+    "relation": "situated_at",
+    "value": "junction of four tectonic plates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Situated at the junction of four tectonic plates"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Pacific Plate",
+    "relation": "member_of_plate_junction",
+    "value": "one of four tectonic plates at Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Situated at the junction of four tectonic plates - Pacific Plate, North American Plate, Eurasian Plate and Philippine Sea Plate"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "North American Plate",
+    "relation": "member_of_plate_junction",
+    "value": "one of four tectonic plates at Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Situated at the junction of four tectonic plates - Pacific Plate, North American Plate, Eurasian Plate and Philippine Sea Plate"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Eurasian Plate",
+    "relation": "member_of_plate_junction",
+    "value": "one of four tectonic plates at Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Situated at the junction of four tectonic plates - Pacific Plate, North American Plate, Eurasian Plate and Philippine Sea Plate"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Philippine Sea Plate",
+    "relation": "member_of_plate_junction",
+    "value": "one of four tectonic plates at Tokyo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Situated at the junction of four tectonic plates - Pacific Plate, North American Plate, Eurasian Plate and Philippine Sea Plate"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Tokyo",
+    "relation": "described_as",
+    "value": "one of the world's most earthquake-prone capitals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo stands as one of the world's most earthquake-prone capitals"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Tokyo",
+    "relation": "can_experience",
+    "value": "significant seismic activity due to their interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can experience significant seismic activity due to their interaction"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Tokyo",
+    "relation": "covers",
+    "value": "a vast area with diverse geological foundations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo covers a vast area with diverse geological foundations"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "community centers",
+    "relation": "made_concerted_efforts",
+    "value": "to increase public awareness and preparedness",
+    "time": "Following the Great East Japan Earthquake",
+    "speaker": null,
+    "verbatim": [
+     "Following the Great East Japan Earthquake, community centers have made concerted efforts to increase public awareness and preparedness"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mika Yoshida",
+    "relation": "led",
+    "value": "regular drills and educational programs at community centers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by individuals such as Mika Yoshida, regular drills and educational programs have been organized at community centers under Yoshida's direction"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mika Yoshida",
+    "relation": "works_closely_with",
+    "value": "local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yoshida who works closely with local schools on integrating disaster readiness into curriculum plans"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mika Yoshida",
+    "relation": "said",
+    "value": "turning anxiety into action",
+    "time": null,
+    "speaker": "Mika Yoshida",
+    "verbatim": [
+     "turning anxiety into action, according to Yoshida"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "community centers",
+    "relation": "in_order_to",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regular drills and educational programs have been organized at community centers under Yoshida's direction so residents know how to react in case of another earthquake"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Yasuo Takahashi",
+    "relation": "position",
+    "value": "head of Tokyo Chamber of Commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to Yasuo Takahashi, head of Tokyo Chamber of Commerce"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tokyo Chamber of Commerce",
+    "relation": "headed_by",
+    "value": "Yasuo Takahashi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yasuo Takahashi, head of Tokyo Chamber of Commerce"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Yasuo Takahashi",
+    "relation": "noted",
+    "value": "disruptions to supply chains and financial markets following each trembler",
+    "time": null,
+    "speaker": "Yasuo Takahashi",
+    "verbatim": [
+     "He noted disruptions to supply chains and financial markets following each trembler"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Yasuo Takahashi",
+    "relation": "said",
+    "value": "every minute of downtime can lead to millions in losses",
+    "time": null,
+    "speaker": "Yasuo Takahashi",
+    "verbatim": [
+     "every minute of downtime can lead to millions in losses"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Yasuo Takahashi",
+    "relation": "said",
+    "value": "rebuilding efforts are becoming an increasing burden on both Tokyo's local and national governments",
+    "time": null,
+    "speaker": "Yasuo Takahashi",
+    "verbatim": [
+     "rebuilding efforts are becoming an increasing burden on both Tokyo's local and national governments"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Japan Meteorological Agency",
+    "relation": "operates",
+    "value": "earthquake early warning systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Japan Meteorological Agency's (JMA) earthquake early warning systems have once again proven invaluable"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Japan Meteorological Agency",
+    "relation": "abbreviated_as",
+    "value": "JMA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Japan Meteorological Agency's (JMA)"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "earthquake early warning systems",
+    "relation": "proven",
+    "value": "invaluable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have once again proven invaluable"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "earthquake early warning systems",
+    "relation": "uses_sensors_that_detect",
+    "value": "primary waves (P-waves)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing sensors that detect primary waves (P-waves)"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "P-waves",
+    "relation": "also_known_as",
+    "value": "primary waves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "detect primary waves (P-waves)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "P-waves",
+    "relation": "gives_people_time_before",
+    "value": "S-waves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giving people time to prepare before more damaging secondary waves arrive (S-waves)"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "S-waves",
+    "relation": "also_known_as",
+    "value": "secondary waves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "more damaging secondary waves arrive (S-waves)"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "S-waves",
+    "relation": "described_as",
+    "value": "more damaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "more damaging secondary waves arrive (S-waves)"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "earthquake early warning systems",
+    "relation": "upgrades_prioritized",
+    "value": "upgrades to this technology have been prioritized",
+    "time": "Since recent events occurred",
+    "speaker": null,
+    "verbatim": [
+     "Since recent events occurred, upgrades to this technology have been prioritized"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "earthquake early warning systems",
+    "relation": "improving",
+    "value": "accuracy and lead times of warnings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving accuracy and lead times of warnings"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "earthquake early warning systems",
+    "relation": "gives_residents_time_to",
+    "value": "take shelter or shut down critical infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "giving residents and officials ample time to take shelter or shut down critical infrastructure"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Japan",
+    "relation": "long_relied_on",
+    "value": "international cooperation when it comes to disaster management",
+    "time": "long",
+    "speaker": null,
+    "verbatim": [
+     "Japan has long relied on international cooperation when it comes to disaster management"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Chile",
+    "relation": "delegation_came_together_in",
+    "value": "Tokyo",
+    "time": "following recent seismic events",
+    "speaker": null,
+    "verbatim": [
+     "delegations from countries like Chile and New Zealand familiar with earthquake risks have come together in Tokyo"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "New Zealand",
+    "relation": "delegation_came_together_in",
+    "value": "Tokyo",
+    "time": "following recent seismic events",
+    "speaker": null,
+    "verbatim": [
+     "delegations from countries like Chile and New Zealand familiar with earthquake risks have come together in Tokyo"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Chile",
+    "relation": "familiar_with",
+    "value": "earthquake risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "countries like Chile and New Zealand familiar with earthquake risks"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "New Zealand",
+    "relation": "familiar_with",
+    "value": "earthquake risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "countries like Chile and New Zealand familiar with earthquake risks"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Tokyo City Hall",
+    "relation": "discussions_under_way",
+    "value": "discussions regarding disaster mitigation and resilience building resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At Tokyo City Hall, discussions regarding disaster mitigation and resilience building resources are currently under discussion"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Seiji Maehara",
+    "relation": "position",
+    "value": "Minister of Infrastructure and Transport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Seiji Maehara, Minister of Infrastructure and Transport"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Seiji Maehara",
+    "relation": "advocated",
+    "value": "increased budgets to strengthen Tokyo's defenses against future earthquakes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have advocated for increased budgets to strengthen Tokyo's defenses against future earthquakes"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Seiji Maehara",
+    "relation": "said",
+    "value": "Investing in resilience not only saves lives but also makes economic sense in the long run",
+    "time": null,
+    "speaker": "Seiji Maehara",
+    "verbatim": [
+     "Investing in resilience not only saves lives but also makes economic sense in the long run"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Seiji Maehara",
+    "relation": "urges",
+    "value": "a nationwide review of seismic preparedness strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who urges for a nationwide review of seismic preparedness strategies"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Tokyo",
+    "relation": "left_indelible_mark_on",
+    "value": "landscape and psyche",
+    "time": "Recent earthquakes",
+    "speaker": null,
+    "verbatim": [
+     "Recent earthquakes have left an indelible mark on Tokyo's landscape and psyche"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Tokyo",
+    "relation": "hopes_to",
+    "value": "learn from these events while strengthening infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tokyo hopes to learn from these events while strengthening infrastructure"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Tokyo",
+    "relation": "guaranteeing",
+    "value": "safety and wellbeing of millions of residents living within its limits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "guaranteeing safety and wellbeing of millions of residents living within its limits"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

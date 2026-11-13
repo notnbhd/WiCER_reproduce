@@ -1,0 +1,569 @@
+{
+ "inventory": [
+  "Mayor Linda Evergreen",
+  "Department of Pipe Dreams and Waterworks",
+  "Barry Cistern",
+  "Department of Ground Control",
+  "Frank Tarley",
+  "Visionaries of Urban Planning",
+  "Penelope Perspective",
+  "Elon Musk",
+  "City Hall",
+  "Monorail system",
+  "Financial analysts",
+  "Sir Reginald Redtape",
+  "Compliance gurus",
+  "Budgetary Illusions Department",
+  "Ima Moneykeeper",
+  "Town hall meetings",
+  "Public input sessions",
+  "External consultants",
+  "Council meetings",
+  "Groundbreaking ceremonies",
+  "Public transit"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mayor Linda Evergreen",
+    "relation": "presides_over",
+    "value": "the first meeting concerning the upcoming fiscal year's financial distributicals",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "It's September 15th, a particularly sunny day in City Hall, as Mayor Linda Evergreen presides over the first meeting concerning the upcoming fiscal year's financial distributicals"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mayor Linda Evergreen",
+    "relation": "has_advisors",
+    "value": "a team of advisors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her team of advisors has been overcaffeinated to survive the marathon of numbers and projections"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "City Hall",
+    "relation": "hosted",
+    "value": "the first meeting concerning the upcoming fiscal year's financial distributicals",
+    "time": "September 15th",
+    "speaker": null,
+    "verbatim": [
+     "a particularly sunny day in City Hall"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Department of Pipe Dreams and Waterworks",
+    "relation": "headed_by",
+    "value": "Barry Cistern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "headed by the ever-dry-witted Barry Cistern"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Barry Cistern",
+    "relation": "described_as",
+    "value": "ever-dry-witted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ever-dry-witted Barry Cistern"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Department of Pipe Dreams and Waterworks",
+    "relation": "requests",
+    "value": "$50 million",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He's asking for a mere $50 million to replace the city's aging water pipes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Department of Pipe Dreams and Waterworks",
+    "relation": "requests_funding_for",
+    "value": "replace the city's aging water pipes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to replace the city's aging water pipes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Department of Pipe Dreams and Waterworks",
+    "relation": "in_order_to",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He's asking for a mere $50 million to replace the city's aging water pipes"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Department of Pipe Dreams and Waterworks",
+    "relation": "met_with",
+    "value": "wide-eyed stares and dramatic gasps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a request that was, as tradition dictates, met with wide-eyed stares and dramatic gasps"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Department of Ground Control",
+    "relation": "led_by",
+    "value": "Frank Tarley",
+    "time": "September 23rd",
+    "speaker": null,
+    "verbatim": [
+     "the Department of Ground Control, led by a stoic man known for his love of asphalt, Frank Tarley"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Frank Tarley",
+    "relation": "described_as",
+    "value": "a stoic man known for his love of asphalt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a stoic man known for his love of asphalt, Frank Tarley"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Department of Ground Control",
+    "relation": "presented",
+    "value": "a proposal featuring a charismatic PowerPoint deck",
+    "time": "September 23rd",
+    "speaker": null,
+    "verbatim": [
+     "on the fateful day of September 23rd, the Department of Ground Control, led by a stoic man known for his love of asphalt, Frank Tarley, pushed forth his proposal featuring a charismatic PowerPoint deck"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Department of Ground Control",
+    "relation": "requests",
+    "value": "another $50 million",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to request a modest sum, say another $50 million, to remedy the roadway craters"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Department of Ground Control",
+    "relation": "requests_funding_for",
+    "value": "remedy the roadway craters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to remedy the roadway craters that make our morning commutes resemble a moon landing"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Visionaries of Urban Planning",
+    "relation": "described_as",
+    "value": "starry-eyed",
+    "time": "a week later",
+    "speaker": null,
+    "verbatim": [
+     "Fast-forward to a week later, and we're introduced to the starry-eyed Visionaries of Urban Planning"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Visionaries of Urban Planning",
+    "relation": "described_as",
+    "value": "a division known to sketch skylines like Renaissance painters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a division known to sketch skylines like Renaissance painters"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Penelope Perspective",
+    "relation": "leads",
+    "value": "Visionaries of Urban Planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their leader, Penelope Perspective, is known for forecasting the future of city transportation"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Penelope Perspective",
+    "relation": "forecasts",
+    "value": "the future of city transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is known for forecasting the future of city transportation with grandiose plans"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Penelope Perspective",
+    "relation": "plans",
+    "value": "grandiose plans that would make Elon Musk look like a hobbyist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with grandiose plans that would make Elon Musk look like a hobbyist"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Elon Musk",
+    "relation": "compared_as",
+    "value": "a hobbyist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that would make Elon Musk look like a hobbyist"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Penelope Perspective",
+    "relation": "plans_for",
+    "value": "a monorail system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her ambitious plans for a monorail system were all but assured"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Monorail system",
+    "relation": "price_tag",
+    "value": "$200 million",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cool $200 million"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Monorail system",
+    "relation": "plans_all_but_assured_until",
+    "value": "the price tag was casually slipped into conversation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were all but assured until the price tag \u2013 a cool $200 million \u2013 was casually slipped into conversation"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Monorail system",
+    "relation": "prompted",
+    "value": "the floor to erupt into chaos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting the floor to erupt into chaos like a scene straight from ancient Rome"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Financial analysts",
+    "relation": "point_out",
+    "value": "the city\u2019s treasure chest is looking more like a piggy bank after an unfortunate encounter with a hammer",
+    "time": "October 3rd",
+    "speaker": null,
+    "verbatim": [
+     "the financial analysts, a band of mystics with spreadsheets, point out that the city\u2019s treasure chest is looking more like a piggy bank after an unfortunate encounter with a hammer"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Financial analysts",
+    "relation": "described_as",
+    "value": "a band of mystics with spreadsheets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a band of mystics with spreadsheets"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Compliance gurus",
+    "relation": "joined",
+    "value": "the fray",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "Enter the compliance gurus, the legal connoisseurs, who join the fray on October 10th"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Compliance gurus",
+    "relation": "reminded",
+    "value": "the funds must be accompanied by a labyrinth of regulations tighter than a hipster's skinny jeans",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "reminding everyone that the funds must be accompanied by a labyrinth of regulations tighter than a hipster's skinny jeans"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sir Reginald Redtape",
+    "relation": "is_a",
+    "value": "compliance knight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our compliance knight, Sir Reginald Redtape, elucidates"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sir Reginald Redtape",
+    "relation": "states",
+    "value": "for every million spent, there\u2019s a bonus stack of paperwork high enough to rival the Tower of Babel",
+    "time": null,
+    "speaker": "Sir Reginald Redtape",
+    "verbatim": [
+     "elucidates that for every million spent, there\u2019s a bonus stack of paperwork high enough to rival the Tower of Babel"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Town hall meetings",
+    "relation": "begin_in",
+    "value": "autumn",
+    "time": "As autumn leaves start to gild the city sidewalks",
+    "speaker": null,
+    "verbatim": [
+     "As autumn leaves start to gild the city sidewalks, town hall meetings begin."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Town hall meetings",
+    "relation": "described_as",
+    "value": "a nectar so sweet it can only be described as democratic ambrosia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This is where the voice of the people is distilled into a nectar so sweet it can only be described as democratic ambrosia"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Town hall meetings",
+    "relation": "described_as",
+    "value": "just another mix of sound bites and lip service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it\u2019s just another mix of sound bites and lip service stirring in the pot of municipal theater"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Public input sessions",
+    "relation": "became",
+    "value": "a recurring sketch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public input sessions became a recurring sketch"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Public input sessions",
+    "relation": "embraced_as",
+    "value": "both a ritual and a rite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embraced by civic thespians as both a ritual and a rite"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "External consultants",
+    "relation": "arrived",
+    "value": "external consultants",
+    "time": "November",
+    "speaker": null,
+    "verbatim": [
+     "November rolls around, and with it, the arrival of external consultants"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "External consultants",
+    "relation": "described_as",
+    "value": "mercenaries of modern business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mercenaries of modern business, marching in lockstep, wielding briefcases like shields and buzzwords like swords"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "External consultants",
+    "relation": "fee",
+    "value": "never fewer than six figures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a modest sum that mystically never seems to feature fewer than six figures"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "External consultants",
+    "relation": "promise",
+    "value": "a blueprint for fiscal paradise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they promise a blueprint for fiscal paradise"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "External consultants",
+    "relation": "blueprint_resembles",
+    "value": "last year's model with a fresh coat of jargon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that blueprint suspiciously resembles last year's model with a fresh coat of jargon"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Council meetings",
+    "relation": "described_as",
+    "value": "a never-ending M\u00f6bius strip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The council meetings have become a never-ending M\u00f6bius strip"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Council meetings",
+    "relation": "options_described_as",
+    "value": "each as bland and indistinguishable as the next",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each as bland and indistinguishable as the next"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Council meetings",
+    "relation": "held_on",
+    "value": "December 2nd",
+    "time": "December 2nd",
+    "speaker": null,
+    "verbatim": [
+     "In an unexpected twist during a council meeting on December 2nd"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Ima Moneykeeper",
+    "relation": "head_of",
+    "value": "Budgetary Illusions Department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the head of the Budgetary Illusions Department, Ima Moneykeeper, unveils a clever sleight of hand"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ima Moneykeeper",
+    "relation": "unveiled",
+    "value": "a clever sleight of hand",
+    "time": "December 2nd",
+    "speaker": null,
+    "verbatim": [
+     "In an unexpected twist during a council meeting on December 2nd, the head of the Budgetary Illusions Department, Ima Moneykeeper, unveils a clever sleight of hand"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ima Moneykeeper",
+    "relation": "deficits_vanished_into",
+    "value": "surpluses",
+    "time": "December 2nd",
+    "speaker": null,
+    "verbatim": [
+     "projected deficits vanished into surpluses"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Budgetary Illusions Department",
+    "relation": "act_debunked_by",
+    "value": "a junior analyst",
+    "time": "December 2nd",
+    "speaker": null,
+    "verbatim": [
+     "a junior analyst accidentally debunked the act with an inconvenient reality check"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Groundbreaking ceremonies",
+    "relation": "involve",
+    "value": "more goldpainted shovels than common sense",
+    "time": "December",
+    "speaker": null,
+    "verbatim": [
+     "December ends on a cliffhanger, with groundbreaking ceremonies that involve more goldpainted shovels than common sense"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Public transit",
+    "relation": "described_as",
+    "value": "reminiscent of a mid-century time capsule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the public transit reminiscent of a mid-century time capsule"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,611 @@
+{
+ "inventory": [
+  "Chad Fitbitzki",
+  "Jill Charger",
+  "Tim Toned",
+  "Diane Digisleep",
+  "Mike Muscl\u00e9",
+  "Amy Algorithm",
+  "Kevin Clickbait",
+  "Sell-Out Sit-Outs",
+  "Instagrunt",
+  "SweatChat",
+  "our beloved town",
+  "our local park",
+  "the local jogging path",
+  "the great wearable awakening",
+  "jogging jewelry",
+  "fitness technology",
+  "wearable technology",
+  "local nutritionists",
+  "experts"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "our beloved town",
+    "relation": "unfolding_on_streets_of",
+    "value": "a curious spectacle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There is a curious spectacle unfolding on the streets of our beloved town"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "our beloved town",
+    "relation": "fitness_trend_dated",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 15, 2023, and the latest local fitness trend is not a revolutionary workout routine or a magical diet, but rather, a digital obsession."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "fitness technology",
+    "relation": "is_described_as",
+    "value": "a digital obsession",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the latest local fitness trend is not a revolutionary workout routine or a magical diet, but rather, a digital obsession"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "our local park",
+    "relation": "resembles",
+    "value": "a scene from a low-budget sci-fi movie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our local park has started to resemble a scene from a low-budget sci-fi movie"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "fitness technology",
+    "relation": "results_in",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thanks to advancements in fitness technology, our local park has started to resemble a scene from a low-budget sci-fi movie"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "our local park",
+    "relation": "has_visitors_wearing",
+    "value": "gadgets that would make even James Bond green with envy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "everyone's wearing gadgets that would make even James Bond green with envy"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "our beloved town",
+    "relation": "residents_strap_on",
+    "value": "every conceivable piece of wearable technology",
+    "time": "September",
+    "speaker": null,
+    "verbatim": [
+     "September has seen the residents of our \"not so quiet anymore\" town strap on every conceivable piece of wearable technology."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "wearable technology",
+    "relation": "motivated_by",
+    "value": "the digital arms race to be the healthiest versions of ourselves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the digital arms race to be the healthiest versions of ourselves"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Chad Fitbitzki",
+    "relation": "is_described_as",
+    "value": "local gym-goer and self-proclaimed fitness guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local gym-goer and self-proclaimed \"fitness guru,\" Chad Fitbitzki"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Chad Fitbitzki",
+    "relation": "claims",
+    "value": "if his wearable doesn't track it, his sweat isn't worth the drip",
+    "time": null,
+    "speaker": "Chad Fitbitzki",
+    "verbatim": [
+     "claims that if his wearable doesn't track it, his sweat isn't worth the drip."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chad Fitbitzki",
+    "relation": "asked",
+    "value": "do you even lift if you're not closing your activity rings?",
+    "time": null,
+    "speaker": "Chad Fitbitzki",
+    "verbatim": [
+     "\"I mean, do you even lift if you're not closing your activity rings?\" he asked."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Chad Fitbitzki",
+    "relation": "owns",
+    "value": "17 different wearables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his personal collection boasts 17 different wearables"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Chad Fitbitzki",
+    "relation": "explains",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chad would know, as his personal collection boasts 17 different wearables that cover him from head to toe"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "fitness technology",
+    "relation": "gyms_show",
+    "value": "real-time data of every local fitness fanatic's heart-rate, reps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gyms now resemble command centers with screens aglow with real-time data of every local fitness fanatic's heart-rate, reps"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Jill Charger",
+    "relation": "is_described_as",
+    "value": "a regular on the spin bike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jill Charger, a regular on the spin bike, confided"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jill Charger",
+    "relation": "said",
+    "value": "when her tracker runs out of juice mid-workout, it's as if all her effort evaporates into the cloudless, non-synced ether",
+    "time": null,
+    "speaker": "Jill Charger",
+    "verbatim": [
+     "confided that when her tracker runs out of juice mid-workout, it's as if all her effort evaporates into the cloudless, non-synced ether."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jill Charger",
+    "relation": "lamented",
+    "value": "I can't even fathom the calories that go uncounted",
+    "time": null,
+    "speaker": "Jill Charger",
+    "verbatim": [
+     "\"I can't even fathom the calories that go uncounted,\" she lamented"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jill Charger",
+    "relation": "owns",
+    "value": "seven power banks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "anxiously patting her seven power banks"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "wearable technology",
+    "relation": "worn_as",
+    "value": "a statement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "people wear their fitness trackers not only for form or function but as a statement"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "wearable technology",
+    "relation": "fashion_condition",
+    "value": "matching your yoga pants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "If your wearable doesn't match your yoga pants, then darling, you're just not part of the fit fam."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Tim Toned",
+    "relation": "is_described_as",
+    "value": "a budding influencer and 'fit-tech' connoisseur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tim Toned, a budding influencer and 'fit-tech' connoisseur, pioneered"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Tim Toned",
+    "relation": "pioneered",
+    "value": "jogging jewelry",
+    "time": "October 2nd",
+    "speaker": null,
+    "verbatim": [
+     "pioneered what experts are reluctantly calling \"jogging jewelry\" on October 2nd"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "jogging jewelry",
+    "relation": "called_by",
+    "value": "experts",
+    "time": null,
+    "speaker": "experts",
+    "verbatim": [
+     "what experts are reluctantly calling \"jogging jewelry\""
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Tim Toned",
+    "relation": "ensemble_of",
+    "value": "meticulously coordinated wearables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His ensemble of meticulously coordinated wearables"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Tim Toned",
+    "relation": "has_captured",
+    "value": "the hearts, minds, and insecure wrists of many locals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has captured the hearts, minds, and insecure wrists of many locals"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "fitness technology",
+    "relation": "equivalent_of",
+    "value": "using a flip phone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The idea of a simple step tracker is today's equivalent of using a flip phone"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Diane Digisleep",
+    "relation": "is_described_as",
+    "value": "an insomniac by nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diane Digisleep, an insomniac by nature, now swears by"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Diane Digisleep",
+    "relation": "swears_by",
+    "value": "her tracker's ability to tell her exactly how little sleep she's getting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now swears by her tracker's ability to tell her exactly how little sleep she's getting"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Diane Digisleep",
+    "relation": "shared",
+    "value": "My smartwatch has shown me that I'm not just sleep deprived; it's more of a sleep drought.",
+    "time": null,
+    "speaker": "Diane Digisleep",
+    "verbatim": [
+     "My smartwatch has shown me that I'm not just sleep deprived; it's more of a sleep drought."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "fitness technology",
+    "relation": "displaces",
+    "value": "trainers and coaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Trainers and coaches are abdicating their thrones as high-tech bands and smartwatches bark orders"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mike Muscl\u00e9",
+    "relation": "has_not_spoken_to_human_about_fitness_since",
+    "value": "the great wearable awakening",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mike Muscl\u00e9, a local who hasn't spoken to a human about fitness since \"the great wearable awakening\" of late 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "the great wearable awakening",
+    "relation": "dated",
+    "value": "late 2023",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"the great wearable awakening\" of late 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Mike Muscl\u00e9",
+    "relation": "claims",
+    "value": "these devices push him harder than any flesh-and-bone coach could",
+    "time": null,
+    "speaker": "Mike Muscl\u00e9",
+    "verbatim": [
+     "claims these devices push him harder than any flesh-and-bone coach could."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Mike Muscl\u00e9",
+    "relation": "said",
+    "value": "My watch yelled at me the other day for not squatting low enough",
+    "time": null,
+    "speaker": "Mike Muscl\u00e9",
+    "verbatim": [
+     "\"My watch yelled at me the other day for not squatting low enough,\" he said"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Mike Muscl\u00e9",
+    "relation": "felt",
+    "value": "pride swelling in his chest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pride swelling in his chest like his biceps during a curl"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "fitness technology",
+    "relation": "has_spread_to",
+    "value": "social media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media hasn't escaped the clutches of the fitness tech craze, either."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "the local jogging path",
+    "relation": "is_now",
+    "value": "a bizarre blend of sprinters staring at their wrists and pausing to post their progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local jogging path is now a bizarre blend of sprinters staring at their wrists and pausing to post their progress on \"Instagrunt\" or \"SweatChat.\""
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Instagrunt",
+    "relation": "used_to_post",
+    "value": "progress of sprinters on the local jogging path",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pausing to post their progress on \"Instagrunt\" or \"SweatChat.\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "SweatChat",
+    "relation": "used_to_post",
+    "value": "progress of sprinters on the local jogging path",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pausing to post their progress on \"Instagrunt\" or \"SweatChat.\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "fitness technology",
+    "relation": "makes_puzzling",
+    "value": "a workout that isn't uploaded instantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "if a workout isn't uploaded instantly, it becomes philosophically puzzling: did it even happen?"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local nutritionists",
+    "relation": "voiced_concern_that",
+    "value": "individuals may be burning fewer calories than the data they're consuming",
+    "time": null,
+    "speaker": "local nutritionists",
+    "verbatim": [
+     "local nutritionists have voiced concerns that individuals may be burning fewer calories than the data they're consuming."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Amy Algorithm",
+    "relation": "is_described_as",
+    "value": "a dietician with a penchant for puns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amy Algorithm, a dietician with a penchant for puns, noted"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Amy Algorithm",
+    "relation": "noted",
+    "value": "Our residents are less worried about their sugar intake and more concerned with their stream of data.",
+    "time": null,
+    "speaker": "Amy Algorithm",
+    "verbatim": [
+     "\"Our residents are less worried about their sugar intake and more concerned with their stream of data.\""
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "fitness technology",
+    "relation": "fuels_competition_for",
+    "value": "the most badges, trophies, and digital cheers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the rising competition to attain the most badges, trophies, and digital cheers"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "fitness technology",
+    "relation": "blurs",
+    "value": "the line between physical fitness and digital fatigue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the line between physical fitness and digital fatigue is as blurred as a runner sprinting past you"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sell-Out Sit-Outs",
+    "relation": "is_described_as",
+    "value": "a local group of tech-resistant fitness lovers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Sell-Out Sit-Outs, a local group of tech-resistant fitness lovers"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sell-Out Sit-Outs",
+    "relation": "practices",
+    "value": "pre-tech rituals of jumping jacks and rope skipping sans electronics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continue their pre-tech rituals of jumping jacks and rope skipping sans electronics"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "our beloved town",
+    "relation": "fitness_scene_is",
+    "value": "evolving, or as critics might argue, revolving around our wrists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our local fitness scene is evolving, or as critics might argue, revolving around our wrists."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "wearable technology",
+    "relation": "dictates",
+    "value": "the ebb and flow of our communal pursuit of health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each glowing notification not only motivates, but also dictates the ebb and flow of our communal pursuit of health."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "our beloved town",
+    "relation": "onboard_for",
+    "value": "whatever shiny, beeping, data-spitting device comes their way",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our locals are onboard for whatever shiny, beeping, data-spitting device comes their way, as long as it promises an even more optimized workout, of course."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "our beloved town",
+    "relation": "will_adapt_if",
+    "value": "it looks good on social media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as long as it looks good on social media, we'll adapt."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Kevin Clickbait",
+    "relation": "is_described_as",
+    "value": "local teen and social commentator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the wise words of local teen and social commentator, Kevin Clickbait"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Kevin Clickbait",
+    "relation": "said",
+    "value": "If the data's lit, you must commit.",
+    "time": null,
+    "speaker": "Kevin Clickbait",
+    "verbatim": [
+     "\"If the data's lit, you must commit.\""
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

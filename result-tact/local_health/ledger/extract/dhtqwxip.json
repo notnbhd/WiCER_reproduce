@@ -1,0 +1,413 @@
+{
+ "inventory": [
+  "Sarah Peterson",
+  "Minneapolis",
+  "Rachel Stein",
+  "Westdale High School",
+  "Anthony Miller",
+  "Mental Health Services Administration",
+  "National Alliance on Mental Illness",
+  "Crisis Text Line",
+  "Psychology Today",
+  "Individual Therapy",
+  "Group Therapy",
+  "Psychiatric Services",
+  "Online Counseling",
+  "Support Groups",
+  "Sliding scale fees",
+  "Teletherapy",
+  "Community mental health centers",
+  "Self-care routine"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Peterson",
+    "relation": "is_a",
+    "value": "licensed clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Peterson, a licensed clinical psychologist based in Minneapolis"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Peterson",
+    "relation": "based_in",
+    "value": "Minneapolis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a licensed clinical psychologist based in Minneapolis"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Peterson",
+    "relation": "shared_insights_on",
+    "value": "approaching parents or guardians about the need for mental health support",
+    "time": "On September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 5, 2023, Sarah Peterson, a licensed clinical psychologist based in Minneapolis, shared insights on approaching parents or guardians about the need for mental health support."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Minneapolis",
+    "relation": "is_base_of",
+    "value": "Sarah Peterson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a licensed clinical psychologist based in Minneapolis"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Peterson",
+    "relation": "states",
+    "value": "Preparation is key.",
+    "time": null,
+    "speaker": "Sarah Peterson",
+    "verbatim": [
+     "Preparation is key."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Peterson",
+    "relation": "advises",
+    "value": "Arm yourself with information about what you're experiencing and the types of help available.",
+    "time": null,
+    "speaker": "Sarah Peterson",
+    "verbatim": [
+     "Arm yourself with information about what you're experiencing and the types of help available."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Peterson",
+    "relation": "states",
+    "value": "natural to fear judgment or misunderstanding",
+    "time": null,
+    "speaker": "Sarah Peterson",
+    "verbatim": [
+     "natural to fear judgment or misunderstanding"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Peterson",
+    "relation": "states",
+    "value": "This can make a huge difference.",
+    "time": null,
+    "speaker": "Sarah Peterson",
+    "verbatim": [
+     "This can make a huge difference."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Peterson",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": "Sarah Peterson",
+    "verbatim": [
+     "Arm yourself with information about what you're experiencing and the types of help available.",
+     "This can make a huge difference."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Rachel Stein",
+    "relation": "is_a",
+    "value": "school counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Stein, a school counselor at Westdale High School"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Rachel Stein",
+    "relation": "works_at",
+    "value": "Westdale High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Stein, a school counselor at Westdale High School"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Westdale High School",
+    "relation": "employs",
+    "value": "Rachel Stein as school counselor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Stein, a school counselor at Westdale High School"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Rachel Stein",
+    "relation": "led_seminar_on",
+    "value": "mental wellness",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who recently led a seminar on mental wellness on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Rachel Stein",
+    "relation": "emphasizes",
+    "value": "the importance of recognizing signs that someone may need help",
+    "time": null,
+    "speaker": "Rachel Stein",
+    "verbatim": [
+     "emphasizes the importance of recognizing signs that someone may need help"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Rachel Stein",
+    "relation": "signs_include",
+    "value": "Increasing isolation, changes in eating or sleeping patterns, and prolonged feelings of sadness or irritability could be signals",
+    "time": null,
+    "speaker": "Rachel Stein",
+    "verbatim": [
+     "Increasing isolation, changes in eating or sleeping patterns, and prolonged feelings of sadness or irritability could be signals"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Individual Therapy",
+    "relation": "description",
+    "value": "One-on-one sessions with a licensed therapist to work through personal issues",
+    "time": "As of November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Individual Therapy: One-on-one sessions with a licensed therapist to work through personal issues."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Group Therapy",
+    "relation": "description",
+    "value": "Facilitated by a professional, individuals with similar challenges share experiences and support one another",
+    "time": "As of November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Group Therapy: Facilitated by a professional, individuals with similar challenges share experiences and support one another."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Psychiatric Services",
+    "relation": "description",
+    "value": "For those who may need medical intervention, psychiatrists can provide diagnoses and prescribe medications",
+    "time": "As of November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Psychiatric Services: For those who may need medical intervention, psychiatrists can provide diagnoses and prescribe medications."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Online Counseling",
+    "relation": "description",
+    "value": "Technological advances have made accessing therapy from the comfort of home more widespread and accepted",
+    "time": "As of November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Online Counseling: Technological advances have made accessing therapy from the comfort of home more widespread and accepted."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Support Groups",
+    "relation": "description",
+    "value": "Peer-led groups can offer comfort and advice from those with lived experiences",
+    "time": "As of November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Support Groups: Peer-led groups can offer comfort and advice from those with lived experiences."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "National Alliance on Mental Illness",
+    "relation": "launched_campaign",
+    "value": "campaign aimed at reducing the stigma of mental health care",
+    "time": "On December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 8, 2023, the National Alliance on Mental Illness (NAMI) launched a campaign aimed at reducing the stigma of mental health care, which includes providing a database of affordable services."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "National Alliance on Mental Illness",
+    "relation": "abbreviated_as",
+    "value": "NAMI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the National Alliance on Mental Illness (NAMI)"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "National Alliance on Mental Illness",
+    "relation": "campaign_includes",
+    "value": "providing a database of affordable services",
+    "time": "On December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which includes providing a database of affordable services"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sliding scale fees",
+    "relation": "can_make",
+    "value": "services more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sliding scale fees, teletherapy, and community mental health centers are just a few options that can make services more accessible."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Teletherapy",
+    "relation": "can_make",
+    "value": "services more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sliding scale fees, teletherapy, and community mental health centers are just a few options that can make services more accessible."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Community mental health centers",
+    "relation": "can_make",
+    "value": "services more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sliding scale fees, teletherapy, and community mental health centers are just a few options that can make services more accessible."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Crisis Text Line",
+    "relation": "offers",
+    "value": "immediate help at no cost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as the Crisis Text Line that offer immediate help at no cost"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Crisis Text Line",
+    "relation": "is_example_of",
+    "value": "hotlines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations and hotlines such as the Crisis Text Line"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Psychology Today",
+    "relation": "is_example_of",
+    "value": "online database",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "online databases like Psychology Today"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Anthony Miller",
+    "relation": "role",
+    "value": "advocate with the Mental Health Services Administration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthony Miller, an advocate with the Mental Health Services Administration"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mental Health Services Administration",
+    "relation": "has_advocate",
+    "value": "Anthony Miller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthony Miller, an advocate with the Mental Health Services Administration"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Anthony Miller",
+    "relation": "suggests",
+    "value": "checking credentials but also meeting with potential therapists to gauge comfort and compatibility",
+    "time": null,
+    "speaker": "Anthony Miller",
+    "verbatim": [
+     "suggests not only checking credentials but also meeting with potential therapists to gauge comfort and compatibility"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Anthony Miller",
+    "relation": "states",
+    "value": "There has to be a good fit.",
+    "time": null,
+    "speaker": "Anthony Miller",
+    "verbatim": [
+     "There has to be a good fit."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Self-care routine",
+    "relation": "is_important",
+    "value": "vital, in conjunction with professional help",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developing a robust self-care routine is vital"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Self-care routine",
+    "relation": "includes",
+    "value": "regular exercise, a healthy diet, enough sleep, and stress management techniques such as meditation or yoga",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes regular exercise, a healthy diet, enough sleep, and stress management techniques such as meditation or yoga."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

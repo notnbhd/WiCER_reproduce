@@ -1,0 +1,931 @@
+{
+ "inventory": [
+  "St. Margaret's Church",
+  "Main Street",
+  "Charles Henley",
+  "Rosalind Clarke",
+  "Helen Smith",
+  "Jack Reynolds",
+  "Anna Petrov",
+  "Michael Wong",
+  "initial town hall meeting",
+  "Our initiative",
+  "planned unveiling of the church",
+  "heritage buildings",
+  "our town",
+  "volunteers",
+  "Local businesses",
+  "Architects and engineers",
+  "church bells",
+  "crucifix above the altar",
+  "drones",
+  "social media"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "St. Margaret's Church",
+    "relation": "has_stained_glass_windows",
+    "value": "stained glass windows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the stained glass windows of St. Margaret\u2019s Church"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "St. Margaret's Church",
+    "relation": "embraced_by",
+    "value": "the rolling hills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rolling hills that embraced it"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "St. Margaret's Church",
+    "relation": "seemed_integral_to",
+    "value": "our town's skyline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a structure that seemed as integral to our town's skyline"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "heritage buildings",
+    "relation": "described_as",
+    "value": "the often silent sentinels of our past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the often silent sentinels of our past: heritage buildings"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "heritage buildings",
+    "relation": "require",
+    "value": "more than just expert hands for restoration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these structures require more than just expert hands for restoration"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "volunteers",
+    "relation": "stepped_onto",
+    "value": "the scaffoldings",
+    "time": "September 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It is September 14, 2023, when I first step onto the scaffoldings as a volunteer"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "volunteers",
+    "relation": "purpose",
+    "value": "to restore the charm and preserve the soul of an edifice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all drawn together by a singular purpose: to restore the charm and preserve the soul of an edifice"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "St. Margaret's Church",
+    "relation": "was_crumbling_beneath",
+    "value": "the weight of time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an edifice that was crumbling beneath the weight of time"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "St. Margaret's Church",
+    "relation": "had_stood_for",
+    "value": "almost two centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "St. Margaret's had stood for almost two centuries"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "St. Margaret's Church",
+    "relation": "located_on",
+    "value": "the crest of a hill overlooking Main Street",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on the crest of a hill overlooking Main Street"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Main Street",
+    "relation": "overlooked_by",
+    "value": "St. Margaret's Church",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the crest of a hill overlooking Main Street"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "St. Margaret's Church",
+    "relation": "is_testament_to",
+    "value": "the generations that came before us",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was a testament to the generations that came before us"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "St. Margaret's Church",
+    "relation": "has_detailed_carvings_on",
+    "value": "the pillars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The detailed carvings on the pillars"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "crucifix above the altar",
+    "relation": "described_as",
+    "value": "painstakingly crafted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the painstakingly crafted crucifix above the altar"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "church bells",
+    "relation": "sounded_at",
+    "value": "noon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the way the church bells sounded at noon"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "St. Margaret's Church",
+    "relation": "spoke_of",
+    "value": "a legacy that intertwined with our daily lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "everything spoke of a legacy that intertwined with our daily lives"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "initial town hall meeting",
+    "relation": "held_on",
+    "value": "September 28, 2023",
+    "time": "September 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "I recall the initial town hall meeting on September 28, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "initial town hall meeting",
+    "relation": "orchestrated_by",
+    "value": "Charles Henley",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchestrated by Charles Henley"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Charles Henley",
+    "relation": "occupation",
+    "value": "local historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charles Henley, a local historian"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Charles Henley",
+    "relation": "articulated",
+    "value": "the urgency of our collective action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His fervent articulation of the urgency of our collective action"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Charles Henley",
+    "relation": "outlined",
+    "value": "the grim reality facing the church",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "did more than just outline the grim reality facing the church"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Charles Henley",
+    "relation": "revived",
+    "value": "a shared identity that had long been neglected by the hustle of modern life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it revived a shared identity that had long been neglected by the hustle of modern life"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Our initiative",
+    "relation": "is",
+    "value": "no short-term affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our initiative was no short-term affair"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Architects and engineers",
+    "relation": "led_by",
+    "value": "Rosalind Clarke",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Architects and engineers, led by the renowned Rosalind Clarke"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Rosalind Clarke",
+    "relation": "described_as",
+    "value": "renowned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the renowned Rosalind Clarke"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Architects and engineers",
+    "relation": "worked_over",
+    "value": "blueprints and surveys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schemed tirelessly over blueprints and surveys"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Architects and engineers",
+    "relation": "needed",
+    "value": "more than just theoretical solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They needed more than just theoretical solutions"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Architects and engineers",
+    "relation": "required",
+    "value": "hands eager to apply mortar, to polish wood, and to handle a paintbrush with care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they required hands eager to apply mortar, to polish wood, and to handle a paintbrush with care"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "volunteers",
+    "relation": "task",
+    "value": "brushing away years of dust and grime from ancient pews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "My involvement began humbly, brushing away years of dust and grime from ancient pews"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "our town",
+    "relation": "reconnected_with",
+    "value": "the town I called home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I felt a reconnection to the town I called home"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "volunteers",
+    "relation": "diversity",
+    "value": "its greatest strength",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our group's diversity was its greatest strength."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Helen Smith",
+    "relation": "occupation",
+    "value": "retired teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Helen Smith, a retired teacher"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Helen Smith",
+    "relation": "imparted",
+    "value": "local history lessons imbued with stories and anecdotes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "imparted local history lessons imbued with stories and anecdotes while we worked"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jack Reynolds",
+    "relation": "occupation",
+    "value": "young graphic designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Reynolds, a young graphic designer"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jack Reynolds",
+    "relation": "helped_produce",
+    "value": "promotional material",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped produce promotional material"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Our initiative",
+    "relation": "transformed_into",
+    "value": "a vibrant project",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transformed our cause into a vibrant project"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jack Reynolds",
+    "relation": "compelled",
+    "value": "more to join",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compelling more to join"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jack Reynolds",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helped produce promotional material that transformed our cause into a vibrant project, compelling more to join"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "volunteers",
+    "relation": "contributed",
+    "value": "something unique to the tableau",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each person brought something unique to the tableau"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "volunteers",
+    "relation": "weaved",
+    "value": "a rich tapestry from the threads of our shared endeavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "weaving a rich tapestry from the threads of our shared endeavor"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "volunteers",
+    "relation": "numbers_swelled",
+    "value": "numbers swelled",
+    "time": "By November",
+    "speaker": null,
+    "verbatim": [
+     "By November, our numbers had swelled"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "volunteers",
+    "relation": "included",
+    "value": "Students and professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Students and professionals stood shoulder to shoulder"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "volunteers",
+    "relation": "weekends_became_synonymous_with",
+    "value": "work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Weekends became synonymous with work"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "St. Margaret's Church",
+    "relation": "has",
+    "value": "high ceilings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "around the church's high ceilings"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Our initiative",
+    "relation": "aimed_at",
+    "value": "instilling hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was about instilling hope"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Local businesses",
+    "relation": "contributed",
+    "value": "materials and funds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses chipped in with materials and funds"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "volunteers",
+    "relation": "received_meals_from",
+    "value": "cafes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cafes provided hearty meals for volunteers"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "volunteers",
+    "relation": "had_musicians",
+    "value": "musicians filled the air with melodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "musicians filled the air with melodies during breaks"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Our initiative",
+    "relation": "cultivated",
+    "value": "something more significant than mere structural preservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our shared mission cultivated something more significant than mere structural preservation"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Our initiative",
+    "relation": "breathed_life_into",
+    "value": "our sense of togetherness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it breathed life into our sense of togetherness"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "St. Margaret's Church",
+    "relation": "stained_glass_windows_were",
+    "value": "painstakingly restored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the stained glass windows we had so painstakingly restored"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Our initiative",
+    "relation": "challenged_by",
+    "value": "the cold",
+    "time": "Throughout the winter of 2023",
+    "speaker": null,
+    "verbatim": [
+     "as the cold set in and made our efforts all the more challenging"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "volunteers",
+    "relation": "resilience_and_camaraderie",
+    "value": "never faltered",
+    "time": "Throughout the winter of 2023",
+    "speaker": null,
+    "verbatim": [
+     "the resilience and camaraderie of the volunteers never faltered"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "volunteers",
+    "relation": "showed_up_in_weather",
+    "value": "Snow or shine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Snow or shine, they bundled up and showed up"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "volunteers",
+    "relation": "revealed_that",
+    "value": "the warmth of a committed community could fend off the chill of the dreariest days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every action revealing that the warmth of a committed community could fend off the chill of the dreariest days"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "volunteers",
+    "relation": "dismantled",
+    "value": "barriers between us",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we also dismantled barriers between us"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Our initiative",
+    "relation": "transcended",
+    "value": "age, background, and belief",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our task transcended age, background, and belief"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Our initiative",
+    "relation": "uniting_under",
+    "value": "a common flag of reverence for history and culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uniting us under a common flag of reverence for history and culture"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Our initiative",
+    "relation": "described_as",
+    "value": "a balm for a disjointed era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was a balm for a disjointed era"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Anna Petrov",
+    "relation": "described_as",
+    "value": "a teenager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Petrov, a teenager"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Anna Petrov",
+    "relation": "initially_joined_as",
+    "value": "as a way to fulfill community service hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who initially joined as a way to fulfill community service hours"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Anna Petrov",
+    "relation": "transformed_into",
+    "value": "one of the most dedicated volunteers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eventually transform into one of the most dedicated volunteers"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Anna Petrov",
+    "relation": "shifted_from",
+    "value": "reluctance to enthusiasm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her shift from reluctance to enthusiasm"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "our town",
+    "relation": "brought_new_growth",
+    "value": "new growth",
+    "time": "Spring",
+    "speaker": null,
+    "verbatim": [
+     "Spring brought new growth to the town"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "St. Margaret's Church",
+    "relation": "surroundings_festooned_by",
+    "value": "flora",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the flora that festooned the surroundings of St. Margaret's"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "planned unveiling of the church",
+    "relation": "scheduled_for",
+    "value": "April 15, 2024",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the planned unveiling of the church on April 15, 2024"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Our initiative",
+    "relation": "had_hit",
+    "value": "a few snags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the project had hit a few snags"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Our initiative",
+    "relation": "could_be_overcome_by",
+    "value": "the combined talents and determination of our team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "none so severe that the combined talents and determination of our team couldn't overcome"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Michael Wong",
+    "relation": "occupation",
+    "value": "Local carpenters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local carpenters like Michael Wong"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Michael Wong",
+    "relation": "family_lived_in_town_for",
+    "value": "generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family had lived in the town for generations"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Michael Wong",
+    "relation": "crafted",
+    "value": "replacement pieces for the decayed wooden fixtures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafted replacement pieces for the decayed wooden fixtures"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Michael Wong",
+    "relation": "shows_respect_for",
+    "value": "his predecessors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each whittle and carve a stroke of respect for his predecessors"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "drones",
+    "relation": "captured",
+    "value": "the full scale of the renovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drones capturing the full scale of the renovation"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "drones",
+    "relation": "served_as",
+    "value": "documentation and inspiration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving both as documentation and as inspiration"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "social media",
+    "relation": "channel_for_following",
+    "value": "our progress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "those who followed our progress through social media"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Our initiative",
+    "relation": "status",
+    "value": "nearing completion",
+    "time": "Now",
+    "speaker": null,
+    "verbatim": [
+     "as the restoration is nearing completion"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "heritage buildings",
+    "relation": "history_preserved_for",
+    "value": "future generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the layers of history have been preserved for future generations"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "our town",
+    "relation": "has",
+    "value": "a palpable excitement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's a palpable excitement that courses through the town"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Our initiative",
+    "relation": "morphed_into",
+    "value": "a protective embrace of our collective memory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The project has morphed into a protective embrace of our collective memory"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Our initiative",
+    "relation": "guards_against",
+    "value": "the erasure of character and identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that guards against the erasure of character and identity often found in unchecked modernization"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Our initiative",
+    "relation": "proves",
+    "value": "the potential of a united community in heritage preservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that proves the potential of a united community in heritage preservation"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "St. Margaret's Church",
+    "relation": "walls_fortified_by",
+    "value": "the labor of our bonds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the labor of our bonds that fortifies the walls of St. Margaret's"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

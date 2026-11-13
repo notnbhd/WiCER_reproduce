@@ -1,0 +1,788 @@
+{
+ "inventory": [
+  "Willow Lake",
+  "Jim Thompson",
+  "Silver Creek",
+  "Maria Gonzalez",
+  "Catch and Release",
+  "World Rivers Day",
+  "Bill Sanders",
+  "Lakeside Anglers",
+  "Mark Daniels",
+  "Autumn Catch Challenge",
+  "Henry Liu",
+  "Annual Riverside Festival",
+  "Women's Angling Network",
+  "Big Catch Tournament",
+  "Cast for a Cure",
+  "Sarah Jennings",
+  "local environmental groups",
+  "local fishing clubs",
+  "state and local fishing regulations",
+  "ice fishing"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Willow Lake",
+    "relation": "renowned_for",
+    "value": "abundant bass population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned for its abundant bass population"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Willow Lake",
+    "relation": "described_as",
+    "value": "a picturesque body of water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a picturesque body of water"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jim Thompson",
+    "relation": "frequents",
+    "value": "Willow Lake",
+    "time": "since its stocking in late September",
+    "speaker": null,
+    "verbatim": [
+     "Seasoned angler Jim Thompson, who has frequented Willow Lake since its stocking in late September"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Willow Lake",
+    "relation": "stocked_in",
+    "value": "late September",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "since its stocking in late September"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jim Thompson",
+    "relation": "key_to_success",
+    "value": "patience and the right bait",
+    "time": null,
+    "speaker": "Jim Thompson",
+    "verbatim": [
+     "\"The key is patience and the right bait,\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jim Thompson",
+    "relation": "says",
+    "value": "Early mornings are magical here",
+    "time": null,
+    "speaker": "Jim Thompson",
+    "verbatim": [
+     "Early mornings are magical here"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Willow Lake",
+    "relation": "fish_population_change",
+    "value": "an uptick in the fish population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recent reports confirm an uptick in the fish population"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local environmental groups",
+    "relation": "conservation_efforts",
+    "value": "conservation efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to conservation efforts by local environmental groups"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "local environmental groups",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recent reports confirm an uptick in the fish population, thanks to conservation efforts by local environmental groups"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Willow Lake",
+    "relation": "has",
+    "value": "clear waters and ample fishing piers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lake's clear waters and ample fishing piers"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Silver Creek",
+    "relation": "is_haven_for",
+    "value": "those looking to hook trout",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "another haven for those looking to hook trout"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Gonzalez",
+    "relation": "position",
+    "value": "fishing club president",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fishing club president Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Maria Gonzalez",
+    "relation": "organizes",
+    "value": "monthly outings for members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizes monthly outings for members"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Maria Gonzalez",
+    "relation": "says",
+    "value": "about community and respecting our aquatic resources",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "it's about community and respecting our aquatic resources"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Catch and Release",
+    "relation": "kickstarted_on",
+    "value": "World Rivers Day",
+    "time": "September 24",
+    "speaker": null,
+    "verbatim": [
+     "kickstarted on World Rivers Day, September 24"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Catch and Release",
+    "relation": "emphasizes",
+    "value": "sustainable practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizes sustainable practices"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "World Rivers Day",
+    "relation": "date",
+    "value": "September 24",
+    "time": "September 24",
+    "speaker": null,
+    "verbatim": [
+     "World Rivers Day, September 24"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "local fishing clubs",
+    "relation": "partnered_with",
+    "value": "schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local fishing clubs have partnered with schools"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local fishing clubs",
+    "relation": "offers",
+    "value": "educational workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to offer educational workshops"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bill Sanders",
+    "relation": "occupation",
+    "value": "environmental educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by environmental educator Bill Sanders"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Bill Sanders",
+    "relation": "leads",
+    "value": "teaching young anglers about the ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focuses on teaching young anglers about the ecosystem"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Bill Sanders",
+    "relation": "says",
+    "value": "Kids learn best when they're engaged",
+    "time": null,
+    "speaker": "Bill Sanders",
+    "verbatim": [
+     "Kids learn best when they're engaged"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Bill Sanders",
+    "relation": "says",
+    "value": "understanding the life cycle of what's beneath the water",
+    "time": null,
+    "speaker": "Bill Sanders",
+    "verbatim": [
+     "it\u2019s understanding the life cycle of what's beneath the water"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Bill Sanders",
+    "relation": "lessons_commenced",
+    "value": "early October",
+    "time": "early October",
+    "speaker": null,
+    "verbatim": [
+     "His lessons, which commenced in early October"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Bill Sanders",
+    "relation": "lessons_intertwine",
+    "value": "biology with the joy of fishing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "intertwine biology with the joy of fishing"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Bill Sanders",
+    "relation": "lessons_foster",
+    "value": "a deeper appreciation for local waterways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a deeper appreciation for local waterways"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local fishing clubs",
+    "relation": "outreach_impact",
+    "value": "student memberships rising throughout the fall",
+    "time": "throughout the fall",
+    "speaker": null,
+    "verbatim": [
+     "student memberships rising throughout the fall"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lakeside Anglers",
+    "relation": "formed_in",
+    "value": "October",
+    "time": "just this past October",
+    "speaker": null,
+    "verbatim": [
+     "a club formed just this past October"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mark Daniels",
+    "relation": "founder_of",
+    "value": "Lakeside Anglers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Founder Mark Daniels"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mark Daniels",
+    "relation": "says",
+    "value": "a group that values conservation, education, but mostly, fellowship",
+    "time": null,
+    "speaker": "Mark Daniels",
+    "verbatim": [
+     "We're a group that values conservation, education, but mostly, fellowship."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lakeside Anglers",
+    "relation": "hosts",
+    "value": "bi-monthly clean-ups along the banks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosts bi-monthly clean-ups along the banks"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lakeside Anglers",
+    "relation": "preserves",
+    "value": "habitats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "preserves habitats"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lakeside Anglers",
+    "relation": "fundraises_for",
+    "value": "local conservation initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fundraises for local conservation initiatives"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Autumn Catch Challenge",
+    "relation": "organized_by",
+    "value": "Lakeside Anglers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their upcoming event"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Autumn Catch Challenge",
+    "relation": "scheduled_for",
+    "value": "November 12",
+    "time": "November 12",
+    "speaker": null,
+    "verbatim": [
+     "scheduled for November 12"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Autumn Catch Challenge",
+    "relation": "is",
+    "value": "a charity event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's also a charity event"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Autumn Catch Challenge",
+    "relation": "proceeds_go_to",
+    "value": "protecting waterways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with proceeds going to protect waterways"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Henry Liu",
+    "relation": "occupation",
+    "value": "local sporting goods store owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local sporting goods store owner, Henry Liu"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Henry Liu",
+    "relation": "says",
+    "value": "You don't need the fanciest gear to start",
+    "time": null,
+    "speaker": "Henry Liu",
+    "verbatim": [
+     "You don't need the fanciest gear to start."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Henry Liu",
+    "relation": "says",
+    "value": "A simple rod, reel, and some basic lures or bait will do the trick",
+    "time": null,
+    "speaker": "Henry Liu",
+    "verbatim": [
+     "A simple rod, reel, and some basic lures or bait will do the trick."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Henry Liu",
+    "relation": "started_offering",
+    "value": "beginner workshops",
+    "time": "September 15",
+    "speaker": null,
+    "verbatim": [
+     "started offering beginner workshops on September 15"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Henry Liu",
+    "relation": "workshops_booked",
+    "value": "booked solid throughout the season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been booked solid throughout the season"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "state and local fishing regulations",
+    "relation": "should_be_familiarized_by",
+    "value": "beginners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's vital for beginners to familiarize themselves with state and local fishing regulations"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "state and local fishing regulations",
+    "relation": "designed_to",
+    "value": "manage fish populations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed not only to manage fish populations"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "state and local fishing regulations",
+    "relation": "designed_to",
+    "value": "ensure safety and fairness among anglers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure safety and fairness among anglers"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Annual Riverside Festival",
+    "relation": "scheduled_for",
+    "value": "the weekend of October 25-27",
+    "time": "the weekend of October 25-27",
+    "speaker": null,
+    "verbatim": [
+     "set for the weekend of October 25-27"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Annual Riverside Festival",
+    "relation": "promises",
+    "value": "demonstrations, competitions, and family-friendly events centered on fishing and environmental education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises demonstrations, competitions, and family-friendly events centered on fishing and environmental education"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Women's Angling Network",
+    "relation": "hosts",
+    "value": "a workshop series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is hosting a workshop series"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Women's Angling Network",
+    "relation": "series_purpose",
+    "value": "empower female fishers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to empower female fishers"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Women's Angling Network",
+    "relation": "first_workshop_held_on",
+    "value": "October 5",
+    "time": "October 5",
+    "speaker": null,
+    "verbatim": [
+     "held on October 5"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Women's Angling Network",
+    "relation": "first_workshop_outcome",
+    "value": "a resounding success",
+    "time": "October 5",
+    "speaker": null,
+    "verbatim": [
+     "was a resounding success"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Women's Angling Network",
+    "relation": "more_workshops_planned",
+    "value": "more planned throughout the season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with more planned throughout the season"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Big Catch Tournament",
+    "relation": "fifth_anniversary",
+    "value": "fifth anniversary",
+    "time": "September 6",
+    "speaker": null,
+    "verbatim": [
+     "celebrated its fifth anniversary on September 6"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Big Catch Tournament",
+    "relation": "raised",
+    "value": "over $10,000 for local river restoration projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raised over $10,000 for local river restoration projects"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Cast for a Cure",
+    "relation": "scheduled_for",
+    "value": "November 3",
+    "time": "November 3",
+    "speaker": null,
+    "verbatim": [
+     "the Cast for a Cure event on November 3"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Cast for a Cure",
+    "relation": "aims_to_support",
+    "value": "local cancer research foundations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to support local cancer research foundations"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Sarah Jennings",
+    "relation": "described_as",
+    "value": "a survivor and avid angler",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, a survivor and avid angler"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Sarah Jennings",
+    "relation": "role",
+    "value": "organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizers like Sarah Jennings"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Sarah Jennings",
+    "relation": "emphasizes",
+    "value": "the power of community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasize the power of community"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Sarah Jennings",
+    "relation": "says",
+    "value": "harnessing our collective passion for a greater good",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "it\u2019s about harnessing our collective passion for a greater good"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "ice fishing",
+    "relation": "has_seen",
+    "value": "a surge in popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a surge in popularity"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "ice fishing",
+    "relation": "lakes_become",
+    "value": "frozen arenas for anglers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lakes transform into frozen arenas for anglers"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "ice fishing",
+    "relation": "caused_by",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a surge in popularity, as lakes transform into frozen arenas for anglers"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "local environmental groups",
+    "relation": "championed",
+    "value": "preventative measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Preventative measures are also being championed by local environmental groups"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "local environmental groups",
+    "relation": "aims_to_protect",
+    "value": "fish during colder months",
+    "time": "colder months",
+    "speaker": null,
+    "verbatim": [
+     "to protect fish during colder months"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "local environmental groups",
+    "relation": "in_order_to",
+    "value_ref": "c65",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Preventative measures are also being championed by local environmental groups to protect fish during colder months."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "local environmental groups",
+    "relation": "initiatives_include",
+    "value": "habitat structures under the ice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives include habitat structures under the ice"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "local environmental groups",
+    "relation": "aims_to_ensure",
+    "value": "fish populations thrive come spring",
+    "time": "come spring",
+    "speaker": null,
+    "verbatim": [
+     "ensuring fish populations thrive come spring"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "local environmental groups",
+    "relation": "results_in",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives include habitat structures under the ice, ensuring fish populations thrive come spring."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

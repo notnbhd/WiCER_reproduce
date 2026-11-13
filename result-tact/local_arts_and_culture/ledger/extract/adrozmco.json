@@ -1,0 +1,625 @@
+{
+ "inventory": [
+  "Community theaters",
+  "Springfield Playhouse",
+  "Jonathan Perry",
+  "Emma Thompson",
+  "Greenville Community Theater",
+  "Ian Scott",
+  "Riverside Theater",
+  "Set Swap",
+  "Jessica Brooks",
+  "Baytown Little Theater",
+  "The Crucible",
+  "Michael Henderson",
+  "Youngstown Playhouse",
+  "Sarah Kim",
+  "Dover Theater Collective",
+  "Bill Thomson",
+  "Sandy Martinez",
+  "Steve Johnson",
+  "Madison Avenue Theater",
+  "Amanda Lee",
+  "Lakeside Theatre",
+  "Gordon Smith"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Springfield Playhouse",
+    "relation": "managed_by",
+    "value": "Jonathan Perry",
+    "time": "since September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Community theaters, like the Springfield Playhouse, managed by theater director Jonathan Perry since September 12, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jonathan Perry",
+    "relation": "has_role",
+    "value": "theater director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "managed by theater director Jonathan Perry since September 12, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jonathan Perry",
+    "relation": "stated_in_interview_on",
+    "value": "September 25",
+    "time": "September 25",
+    "speaker": "Jonathan Perry",
+    "verbatim": [
+     "Perry mentioned in an interview on September 25"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jonathan Perry",
+    "relation": "states",
+    "value": "Tight budgets push our creativity. We find that limitation can actually be the mother of invention.",
+    "time": "September 25",
+    "speaker": "Jonathan Perry",
+    "verbatim": [
+     "Tight budgets push our creativity. We find that limitation can actually be the mother of invention."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emma Thompson",
+    "relation": "works_as",
+    "value": "local set designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Thompson, a local set designer in Greenville Community Theater"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emma Thompson",
+    "relation": "works_at",
+    "value": "Greenville Community Theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Thompson, a local set designer in Greenville Community Theater"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emma Thompson",
+    "relation": "states",
+    "value": "You have to know what you need before you start beg, borrowing, or building.",
+    "time": null,
+    "speaker": "Emma Thompson",
+    "verbatim": [
+     "You have to know what you need before you start beg, borrowing, or building."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emma Thompson",
+    "relation": "advises",
+    "value": "creating a comprehensive list of scenes and sketching out designs well before the rehearsal process begins",
+    "time": null,
+    "speaker": "Emma Thompson",
+    "verbatim": [
+     "She advises creating a comprehensive list of scenes and sketching out designs well before the rehearsal process begins."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Ian Scott",
+    "relation": "based_in",
+    "value": "Dallas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dallas-based set designer Ian Scott remarks"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Ian Scott",
+    "relation": "works_as",
+    "value": "set designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dallas-based set designer Ian Scott remarks"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Ian Scott",
+    "relation": "states",
+    "value": "Community theaters have a knack for recycling. We often salvage and revamp items from previous productions or discover gems in thrift stores.",
+    "time": null,
+    "speaker": "Ian Scott",
+    "verbatim": [
+     "Community theaters have a knack for recycling. We often salvage and revamp items from previous productions or discover gems in thrift stores."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Riverside Theater",
+    "relation": "held",
+    "value": "'Set Swap' meet",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, the Riverside Theater held a 'Set Swap' meet"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Set Swap",
+    "relation": "purpose",
+    "value": "allowing local theaters to exchange set pieces and props",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing local theaters to exchange set pieces and props"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Set Swap",
+    "relation": "popularity",
+    "value": "has since grown in popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a practice that has since grown in popularity"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Jessica Brooks",
+    "relation": "works_as",
+    "value": "set designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Brooks, a set designer from the Baytown Little Theater"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jessica Brooks",
+    "relation": "works_at",
+    "value": "Baytown Little Theater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Brooks, a set designer from the Baytown Little Theater"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jessica Brooks",
+    "relation": "points_out",
+    "value": "local hardware stores might donate or discount materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local hardware stores might donate or discount materials"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jessica Brooks",
+    "relation": "borrowed",
+    "value": "a full set of period furniture from a local high school",
+    "time": null,
+    "speaker": "Jessica Brooks",
+    "verbatim": [
+     "We once borrowed a full set of period furniture from a local high school after their production of 'The Crucible' wrapped up"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Crucible",
+    "relation": "produced_by",
+    "value": "a local high school",
+    "time": null,
+    "speaker": "Jessica Brooks",
+    "verbatim": [
+     "after their production of 'The Crucible' wrapped up"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jessica Brooks",
+    "relation": "discussed_production_in",
+    "value": "November",
+    "time": "November",
+    "speaker": "Jessica Brooks",
+    "verbatim": [
+     "Brooks shares about their November production."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Michael Henderson",
+    "relation": "works_as",
+    "value": "set designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Michael Henderson, Youngstown Playhouse\u2019s set designer."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael Henderson",
+    "relation": "works_at",
+    "value": "Youngstown Playhouse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Michael Henderson, Youngstown Playhouse\u2019s set designer."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael Henderson",
+    "relation": "states",
+    "value": "We use reversible flats and modular units that can easily transform from the facade of a house to a palace wall",
+    "time": null,
+    "speaker": "Michael Henderson",
+    "verbatim": [
+     "We use reversible flats and modular units that can easily transform from the facade of a house to a palace wall"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Michael Henderson",
+    "relation": "reveals",
+    "value": "with a change of paint or a different set of decorations, these pieces can create entirely new scenes",
+    "time": null,
+    "speaker": "Michael Henderson",
+    "verbatim": [
+     "He reveals that with a change of paint or a different set of decorations, these pieces can create entirely new scenes"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Youngstown Playhouse",
+    "relation": "reopened_in",
+    "value": "December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "since their reopening post-renovation in December 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Youngstown Playhouse",
+    "relation": "pieces_tricked_audiences_since",
+    "value": "reopening post-renovation in December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "which have tricked audiences since their reopening post-renovation in December 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sarah Kim",
+    "relation": "works_as",
+    "value": "techie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a techie from the Dover Theater Collective"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sarah Kim",
+    "relation": "works_at",
+    "value": "Dover Theater Collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a techie from the Dover Theater Collective"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sarah Kim",
+    "relation": "suggests",
+    "value": "Projectors can create stunning backdrops and are great for dynamic scenes.",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "Projectors can create stunning backdrops and are great for dynamic scenes."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dover Theater Collective",
+    "relation": "used",
+    "value": "inexpensive LED lighting and secondhand projectors",
+    "time": "As of their last production on January 2024",
+    "speaker": null,
+    "verbatim": [
+     "As of their last production on January 2024, inexpensive LED lighting and secondhand projectors have been used to enhance physical set pieces"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dover Theater Collective",
+    "relation": "used_to",
+    "value": "enhance physical set pieces",
+    "time": "As of their last production on January 2024",
+    "speaker": null,
+    "verbatim": [
+     "have been used to enhance physical set pieces, providing both a modern touch and a solution to budget constraints"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bill Thomson",
+    "relation": "works_as",
+    "value": "seasoned painter and set designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bill Thomson, a seasoned painter and set designer"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Bill Thomson",
+    "relation": "states",
+    "value": "A well-painted backdrop can add depth and texture to a flat surface, making it seem much more elaborate",
+    "time": null,
+    "speaker": "Bill Thomson",
+    "verbatim": [
+     "A well-painted backdrop can add depth and texture to a flat surface, making it seem much more elaborate"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Bill Thomson",
+    "relation": "cites",
+    "value": "evocative silhouetted scenes from their late January production that relied solely on strategic lighting",
+    "time": "late January",
+    "speaker": null,
+    "verbatim": [
+     "Thomson further exemplifies this by citing the evocative silhouetted scenes from their late January production that relied solely on strategic lighting."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sandy Martinez",
+    "relation": "works_as",
+    "value": "innovative set builder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandy Martinez, an innovative set builder"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sandy Martinez",
+    "relation": "approach",
+    "value": "instead of building solid structures",
+    "time": null,
+    "speaker": "Sandy Martinez",
+    "verbatim": [
+     "Instead of building solid structures, Sandy Martinez, an innovative set builder, shares"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sandy Martinez",
+    "relation": "states",
+    "value": "We create illusions with materials like fabric and foam.",
+    "time": null,
+    "speaker": "Sandy Martinez",
+    "verbatim": [
+     "We create illusions with materials like fabric and foam."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sandy Martinez",
+    "relation": "led",
+    "value": "a workshop in creative construction",
+    "time": "On February 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 18, 2024, Martinez led a workshop in creative construction"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sandy Martinez",
+    "relation": "workshop_taught",
+    "value": "how to cut costs without cutting artistic vision",
+    "time": "On February 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "teaching local theater enthusiasts how to cut costs without cutting artistic vision"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Steve Johnson",
+    "relation": "works_as",
+    "value": "veteran theater director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "veteran theater director Steve Johnson"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Steve Johnson",
+    "relation": "states",
+    "value": "Every member of our set design team is versed in DIY techniques.",
+    "time": null,
+    "speaker": "Steve Johnson",
+    "verbatim": [
+     "Every member of our set design team is versed in DIY techniques."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Madison Avenue Theater",
+    "relation": "team_skills_include",
+    "value": "simple carpentry skills to crafting fake flowers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From simple carpentry skills to crafting fake flowers"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Madison Avenue Theater",
+    "relation": "saved_costs_and_enhanced_visuals_in",
+    "value": "March 2024 production",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "these diversified skills from his team at the Madison Avenue Theater saved costs and enhanced the visual appeal of their March 2024 production"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Madison Avenue Theater",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these diversified skills from his team at the Madison Avenue Theater saved costs and enhanced the visual appeal"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Amanda Lee",
+    "relation": "works_as",
+    "value": "production manager",
+    "time": "since April 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Amanda Lee, the production manager at Lakeside Theatre since April 5, 2024"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Amanda Lee",
+    "relation": "works_at",
+    "value": "Lakeside Theatre",
+    "time": "since April 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Amanda Lee, the production manager at Lakeside Theatre since April 5, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Amanda Lee",
+    "relation": "states",
+    "value": "We've had people donate items left over from garage sales",
+    "time": null,
+    "speaker": "Amanda Lee",
+    "verbatim": [
+     "We've had people donate items left over from garage sales"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Gordon Smith",
+    "relation": "works_as",
+    "value": "community theater enthusiast and actor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community theater enthusiast and actor Gordon Smith"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Gordon Smith",
+    "relation": "states",
+    "value": "The charm of community theater lies in its authenticity, in seeing how much can be done with so little, and in the end, it's the performance that captivates, not just the set.",
+    "time": null,
+    "speaker": "Gordon Smith",
+    "verbatim": [
+     "The charm of community theater lies in its authenticity, in seeing how much can be done with so little, and in the end, it's the performance that captivates, not just the set."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Community theaters",
+    "relation": "operate_with",
+    "value": "tight purse strings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community theaters often operate with tight purse strings"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Community theaters",
+    "relation": "struggle_with",
+    "value": "financial constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often struggle with financial constraints"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Community theaters",
+    "relation": "part_of",
+    "value": "the local arts scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "makes community theater such a vibrant part of the local arts scene"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Community theaters",
+    "relation": "involvement_brings",
+    "value": "new ideas, materials, and unexpected solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Involving the community can provide more than just additional hands; it can bring in new ideas, materials, and unexpected solutions."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Community theaters",
+    "relation": "community_investment_leads_to",
+    "value": "more likely to pitch in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When the community is invested in the theater, they're more likely to pitch in."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

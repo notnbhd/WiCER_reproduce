@@ -1,0 +1,830 @@
+{
+ "inventory": [
+  "Jennifer S. Abbott",
+  "MTA",
+  "Harold Peng",
+  "BART (Bay Area Rapid Transit)",
+  "Maria Gonzalez",
+  "Jane Richardson",
+  "MARTA",
+  "Samuel Lee",
+  "Thomas Klein",
+  "Transit for Future",
+  "East Coast",
+  "West Coast",
+  "New York City",
+  "San Francisco",
+  "Silicon Valley",
+  "Chicago",
+  "Atlanta",
+  "Seattle",
+  "climate change",
+  "East Coast blizzard",
+  "November 5 snowstorm",
+  "San Francisco power outage",
+  "weather-related transit delays and cancellations",
+  "public transit systems",
+  "individuals with disabilities and older adults",
+  "electric bus fleet",
+  "wildfires and heatwaves",
+  "rolling blackouts"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "climate change",
+    "relation": "severe_weather_trend",
+    "value": "severe weather conditions are becoming increasingly commonplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the wake of climate change, severe weather conditions are becoming increasingly commonplace."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "experienced_spike_in",
+    "value": "a significant spike in weatherrelated transportation disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities across the globe have been experiencing a significant spike in weatherrelated transportation disruptions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "public transit systems",
+    "relation": "impact_profound",
+    "value": "profound",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the impact of these events on public transit systems has been profound"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "public transit systems",
+    "relation": "results_in",
+    "value": "numerous delays and cancellations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to numerous delays and cancellations"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "weather_anomaly_patterns",
+    "value": "distinct patterns of weather anomalies affecting various regions",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, there have been distinct patterns of weather anomalies affecting various regions."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "East Coast",
+    "relation": "hit_by",
+    "value": "an unprecedented blizzard",
+    "time": "September 14",
+    "speaker": null,
+    "verbatim": [
+     "the East Coast was hit by an unprecedented blizzard on September 14"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "East Coast blizzard",
+    "relation": "described_as",
+    "value": "a once-in-a-decade event",
+    "time": null,
+    "speaker": "meteorologists",
+    "verbatim": [
+     "which according to meteorologists, was a once-in-a-decade event"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "East Coast blizzard",
+    "relation": "occurred_on",
+    "value": "September 14",
+    "time": "September 14",
+    "speaker": null,
+    "verbatim": [
+     "the East Coast was hit by an unprecedented blizzard on September 14"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "West Coast",
+    "relation": "has_grappled_with",
+    "value": "wildfires and heatwaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the West Coast has grappled with wildfires and heatwaves"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "wildfires and heatwaves",
+    "relation": "causes",
+    "value": "rolling blackouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "causing rolling blackouts and impacting electrically powered transit systems"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "wildfires and heatwaves",
+    "relation": "impacts",
+    "value": "electrically powered transit systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "impacting electrically powered transit systems"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "wildfires and heatwaves",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "verbatim": [
+     "the West Coast has grappled with wildfires and heatwaves, causing rolling blackouts"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "New York City",
+    "relation": "blizzard_timing",
+    "value": "could not have been worse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In New York City, the blizzard's timing could not have been worse."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "East Coast blizzard",
+    "relation": "brought_city_to_standstill",
+    "value": "New York City",
+    "time": "a Monday morning",
+    "speaker": null,
+    "verbatim": [
+     "The storm brought the city to a standstill on a Monday morning"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "New York City",
+    "relation": "commuters_stranded",
+    "value": "thousands of commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving thousands of commuters stranded"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "East Coast blizzard",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "verbatim": [
+     "The storm brought the city to a standstill on a Monday morning, leaving thousands of commuters stranded."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "New York City",
+    "relation": "subway_lines_halted",
+    "value": "halted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Subway lines were halted"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "New York City",
+    "relation": "buses_unable_to_navigate",
+    "value": "the snow-clogged streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "buses were unable to navigate the snow-clogged streets"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jennifer S. Abbott",
+    "relation": "position",
+    "value": "MTA Chief Operating Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer S. Abbott, the MTA Chief Operating Officer, stated that"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jennifer S. Abbott",
+    "relation": "stated",
+    "value": "the city's transportation infrastructure was pushed beyond its limits.",
+    "time": null,
+    "speaker": "Jennifer S. Abbott",
+    "verbatim": [
+     "the city's transportation infrastructure was pushed beyond its limits."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "MTA",
+    "relation": "chief_operating_officer",
+    "value": "Jennifer S. Abbott",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer S. Abbott, the MTA Chief Operating Officer"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "San Francisco power outage",
+    "relation": "occurred_on",
+    "value": "October 3",
+    "time": "October 3",
+    "speaker": null,
+    "verbatim": [
+     "in San Francisco on October 3, a major power outage"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "San Francisco",
+    "relation": "experienced",
+    "value": "a major power outage",
+    "time": "October 3",
+    "speaker": null,
+    "verbatim": [
+     "in San Francisco on October 3, a major power outage"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "San Francisco power outage",
+    "relation": "aggravated_by",
+    "value": "extreme heatwaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a major power outage, aggravated by extreme heatwaves"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "BART (Bay Area Rapid Transit)",
+    "relation": "shutdown_duration",
+    "value": "several hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led to the shutdown of the BART (Bay Area Rapid Transit) system for several hours"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "San Francisco power outage",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "verbatim": [
+     "a major power outage, aggravated by extreme heatwaves, led to the shutdown of the BART (Bay Area Rapid Transit) system for several hours"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Silicon Valley",
+    "relation": "tech_worker_commute_crippled",
+    "value": "tech workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crippling the commute for tech workers in Silicon Valley"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "financial_impact",
+    "value": "unmistakable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial impact of these events is unmistakable."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Harold Peng",
+    "relation": "occupation",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to economist Dr. Harold Peng"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Harold Peng",
+    "relation": "said",
+    "value": "When public transportation grinds to a halt, there is a ripple effect on the economy.",
+    "time": null,
+    "speaker": "Harold Peng",
+    "verbatim": [
+     "When public transportation grinds to a halt, there is a ripple effect on the economy."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Harold Peng",
+    "relation": "said",
+    "value": "Businesses suffer from reduced productivity, and hourly wage workers take a direct hit when they are unable to report for work.",
+    "time": null,
+    "speaker": "Harold Peng",
+    "verbatim": [
+     "Businesses suffer from reduced productivity, and hourly wage workers take a direct hit when they are unable to report for work."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "public transit systems",
+    "relation": "incurs",
+    "value": "substantial costs for transit system repairs and upgrades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emergency weather conditions also incur substantial costs for transit system repairs and upgrades"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "public transit systems",
+    "relation": "funds_diverted_from",
+    "value": "other critical infrastructure projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with funds often being diverted from other critical infrastructure projects"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "public transit systems",
+    "relation": "paramount_concern",
+    "value": "the safety of the commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A paramount concern is the safety of the commuters."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "November 5 snowstorm",
+    "relation": "occurred_in",
+    "value": "Chicago",
+    "time": "November 5",
+    "speaker": null,
+    "verbatim": [
+     "During the November 5 snowstorm in Chicago"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chicago",
+    "relation": "hosted",
+    "value": "November 5 snowstorm",
+    "time": "November 5",
+    "speaker": null,
+    "verbatim": [
+     "During the November 5 snowstorm in Chicago"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "November 5 snowstorm",
+    "relation": "passengers_trapped",
+    "value": "passengers being trapped in a train for several hours with little to no heat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reports emerged of passengers being trapped in a train for several hours with little to no heat"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maria Gonzalez",
+    "relation": "role",
+    "value": "public safety advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public safety advocates like Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Maria Gonzalez",
+    "relation": "called_for",
+    "value": "better emergency response plans to protect public transit users during extreme weather events.",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "better emergency response plans to protect public transit users during extreme weather events."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "individuals with disabilities and older adults",
+    "relation": "disproportionately_affected_by",
+    "value": "service disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who are disproportionately affected by service disruptions"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "individuals with disabilities and older adults",
+    "relation": "reliable_transportation_is",
+    "value": "particularly vital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Access to reliable transportation is particularly vital for individuals with disabilities and older adults"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "individuals with disabilities and older adults",
+    "relation": "failure_to_accommodate",
+    "value": "an ongoing issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The failure to accommodate these populations during crises has been an ongoing issue"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "individuals with disabilities and older adults",
+    "relation": "exacerbated_by",
+    "value": "the growing frequency of harsh weather conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which appears to be exacerbated by the growing frequency of harsh weather conditions"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "public transit systems",
+    "relation": "struggling_to_adapt",
+    "value": "to this new normal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transit authorities have been struggling to adapt to this new normal."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jane Richardson",
+    "relation": "position",
+    "value": "director of Emergency Management for Atlanta's MARTA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Richardson, the director of Emergency Management for Atlanta's MARTA"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jane Richardson",
+    "relation": "admitted",
+    "value": "Our existing infrastructure was not designed for the severity and the frequency of the weather events we're now seeing.",
+    "time": "December 10",
+    "speaker": "Jane Richardson",
+    "verbatim": [
+     "Our existing infrastructure was not designed for the severity and the frequency of the weather events we're now seeing."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "MARTA",
+    "relation": "director_of_emergency_management",
+    "value": "Jane Richardson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Richardson, the director of Emergency Management for Atlanta's MARTA"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Atlanta",
+    "relation": "transit_agency",
+    "value": "MARTA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Atlanta's MARTA"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "pressing_need",
+    "value": "significant investments in resilient infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a pressing need for significant investments in resilient infrastructure to withstand these changes"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "public transit systems",
+    "relation": "increasingly_viewed_as",
+    "value": "integrating climate change forecasts into long-term transit planning and upgrading outdated systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Integrating climate change forecasts into long-term transit planning and upgrading outdated systems is increasingly viewed as a necessity."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "personal_stories_surface_with",
+    "value": "missed job interviews, family events, or crucial medical appointments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Personal stories of missed job interviews, family events, or crucial medical appointments surface with every transit disruption."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Samuel Lee",
+    "relation": "daughter_missed",
+    "value": "a college entrance examination",
+    "time": "January 15",
+    "speaker": null,
+    "verbatim": [
+     "whose daughter missed a college entrance examination due to a flood-related train delay on January 15"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Samuel Lee",
+    "relation": "daughter_missed_due_to",
+    "value": "a flood-related train delay",
+    "time": "January 15",
+    "speaker": null,
+    "verbatim": [
+     "whose daughter missed a college entrance examination due to a flood-related train delay on January 15"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Samuel Lee",
+    "relation": "caused_by",
+    "value_ref": "c53",
+    "verbatim": [
+     "daughter missed a college entrance examination due to a flood-related train delay"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Samuel Lee",
+    "relation": "remarked",
+    "value": "It's more than an inconvenience; it's about life opportunities being compromised,",
+    "time": null,
+    "speaker": "Samuel Lee",
+    "verbatim": [
+     "It's more than an inconvenience; it's about life opportunities being compromised,"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "mental_health_concern",
+    "value": "a growing concern over the mental health impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There is also a growing concern over the mental health impact"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "public transit systems",
+    "relation": "investing_in",
+    "value": "advanced weather-tracking technology and communication systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some cities are investing in advanced weather-tracking technology and communication systems"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "public transit systems",
+    "relation": "purpose_of_investment",
+    "value": "to better inform commuters of potential delays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to better inform commuters of potential delays"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "public transit systems",
+    "relation": "in_order_to",
+    "value_ref": "c58",
+    "verbatim": [
+     "some cities are investing in advanced weather-tracking technology and communication systems to better inform commuters of potential delays"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "public transit systems",
+    "relation": "push_for",
+    "value": "greener public transit options that not only resist weatherrelated disruptions but also contribute to the reduction of greenhouse gas emissions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a push for greener public transit options that not only resist weatherrelated disruptions but also contribute to the reduction of greenhouse gas emissions"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Seattle",
+    "relation": "transit_authority_deploying",
+    "value": "a fleet of electric buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initiatives in Seattle, where the transit authority is deploying a fleet"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "electric bus fleet",
+    "relation": "fitted_with",
+    "value": "batteries capable of withstanding extreme temperature variations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fitted with batteries capable of withstanding extreme temperature variations"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "requires",
+    "value": "collective effort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reveal a broader challenge that requires collective effort"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "calls_for",
+    "value": "a dialogue to forge strategic plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local governments, transit authorities, urban planners, and community representatives must join in a dialogue to forge strategic plans."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "climate change",
+    "relation": "impact_on",
+    "value": "public transportation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to mitigate the impact of climate change on public transportation systems"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Thomas Klein",
+    "relation": "role",
+    "value": "Environmental activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental activists, like Thomas Klein of the \"Transit for Future\" campaign"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Thomas Klein",
+    "relation": "affiliated_with",
+    "value": "Transit for Future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental activists, like Thomas Klein of the \"Transit for Future\" campaign"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Transit for Future",
+    "relation": "campaign_involves",
+    "value": "Thomas Klein",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental activists, like Thomas Klein of the \"Transit for Future\" campaign"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Thomas Klein",
+    "relation": "urged",
+    "value": "an immediate increase in funding and political will to transform public transit into a reliable and weather-resilient network for all.",
+    "time": null,
+    "speaker": "Thomas Klein",
+    "verbatim": [
+     "an immediate increase in funding and political will to transform public transit into a reliable and weather-resilient network for all."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "climate change",
+    "relation": "drives",
+    "value": "climate-driven weather events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the evolving challenges of climate-driven weather events"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "weather-related transit delays and cancellations",
+    "relation": "policy_implication",
+    "value": "policy decisions made today will have lasting implications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "policy decisions made today will have lasting implications."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "public transit systems",
+    "relation": "testament_to",
+    "value": "investments in resilient infrastructure, community emergency preparedness, and innovative transit solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investments in resilient infrastructure, community emergency preparedness, and innovative transit solutions stand as testament to a society's adaptability in the face of climate adversity."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "public transit systems",
+    "relation": "task_at_hand",
+    "value": "to fundamentally rethink how public transportation can adapt and thrive in an era defined by climate uncertainty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the task at hand is not only to respond to these outages but to fundamentally rethink how public transportation can adapt and thrive in an era defined by climate uncertainty"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

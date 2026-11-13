@@ -1,0 +1,789 @@
+{
+ "inventory": [
+  "internet",
+  "Dr. Samantha Keynes",
+  "dial-up connections",
+  "broadband",
+  "undersea cables",
+  "satellite links",
+  "wireless networks",
+  "Cable Cuts",
+  "Atlanta",
+  "John McDougal",
+  "Cyber Attacks",
+  "Distributed Denial of Service (DDoS) attacks",
+  "September 17, 2023 DDoS attack",
+  "Valerie Cruz",
+  "East Coast",
+  "Natural Disasters",
+  "December 1, 2023 earthquake",
+  "California",
+  "Anthony Rivera",
+  "Equipment Failure",
+  "data centers",
+  "routers",
+  "Tim O'Neill",
+  "September 29, 2023 incident",
+  "Human Error",
+  "October 9, 2023 software update",
+  "Lizbeth Chen",
+  "Monitoring and Response",
+  "AI monitoring systems",
+  "mobile command centers",
+  "drones",
+  "response plans"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "internet",
+    "relation": "has_woven_into",
+    "value": "the very fabric of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the internet has woven itself into the very fabric of society"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "internet",
+    "relation": "is_as_essential_as",
+    "value": "electricity or running water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "becoming as essential to daily life as electricity or running water"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "internet",
+    "relation": "remains_vulnerable_to",
+    "value": "disruptions that can fray the threads of connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it remains vulnerable to disruptions that can fray the threads of connectivity"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "dial-up connections",
+    "relation": "ruled",
+    "value": "the roost",
+    "time": "In the early 2000s",
+    "speaker": null,
+    "verbatim": [
+     "In the early 2000s, dial-up connections ruled the roost"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "broadband",
+    "relation": "was",
+    "value": "a luxury",
+    "time": "In the early 2000s",
+    "speaker": null,
+    "verbatim": [
+     "broadband was a luxury"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "internet",
+    "relation": "could_be_severed_by",
+    "value": "a disrupted phone line",
+    "time": "Back then",
+    "speaker": null,
+    "verbatim": [
+     "Back then, a disrupted phone line could sever your internet access."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "internet",
+    "relation": "is_a_complex_tapestry_of",
+    "value": "undersea cables, satellite links, and vast wireless networks",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Today, on October 14, 2023, our internet ecosystem is a complex tapestry of undersea cables, satellite links, and vast wireless networks."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "undersea cables",
+    "relation": "is_component_of",
+    "value": "internet ecosystem",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Today, on October 14, 2023, our internet ecosystem is a complex tapestry of undersea cables, satellite links, and vast wireless networks."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "satellite links",
+    "relation": "is_component_of",
+    "value": "internet ecosystem",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Today, on October 14, 2023, our internet ecosystem is a complex tapestry of undersea cables, satellite links, and vast wireless networks."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "wireless networks",
+    "relation": "is_component_of",
+    "value": "internet ecosystem",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Today, on October 14, 2023, our internet ecosystem is a complex tapestry of undersea cables, satellite links, and vast wireless networks."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "internet",
+    "relation": "has_challenge",
+    "value": "the more complicated the system, the more can go wrong",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yet, this advancement is not without its own challenges; the more complicated the system, the more can go wrong."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Samantha Keynes",
+    "relation": "described_as",
+    "value": "a telecommunications expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Samantha Keynes, a telecommunications expert, reflects"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Samantha Keynes",
+    "relation": "said",
+    "value": "there are more points of failure",
+    "time": null,
+    "speaker": "Dr. Samantha Keynes",
+    "verbatim": [
+     "The shift from simpler networks to today\u2019s intricate web of connectivity means there are more points of failure."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Samantha Keynes",
+    "relation": "said",
+    "value": "it equips us with the tools and redundancies to quickly identify and address these issues",
+    "time": null,
+    "speaker": "Dr. Samantha Keynes",
+    "verbatim": [
+     "But it also equips us with the tools and redundancies to quickly identify and address these issues."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cable Cuts",
+    "relation": "has_been_one_of",
+    "value": "the most common causes of internet service disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cable cuts, whether undersea or land-based, have historically been one of the most common causes of internet service disruptions."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Cable Cuts",
+    "relation": "caused_by",
+    "value": "Accidents during construction work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Accidents during construction work or anchor drags in oceanic routes often lead to severed connections that ripple through the network."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Cable Cuts",
+    "relation": "caused_by",
+    "value": "anchor drags in oceanic routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Accidents during construction work or anchor drags in oceanic routes often lead to severed connections that ripple through the network."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Cable Cuts",
+    "relation": "leads_to",
+    "value": "severed connections that ripple through the network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Accidents during construction work or anchor drags in oceanic routes often lead to severed connections that ripple through the network."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Atlanta",
+    "relation": "site_of_cable_cut_by",
+    "value": "a construction crew",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 19, 2023, a construction crew accidentally cut a major fiber-optic cable in Atlanta, causing widespread outages that affected thousands."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Atlanta",
+    "relation": "suffered_outages_affecting",
+    "value": "thousands",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a construction crew accidentally cut a major fiber-optic cable in Atlanta, causing widespread outages that affected thousands."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cable Cuts",
+    "relation": "caused_widespread_outages_in",
+    "value": "Atlanta",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a construction crew accidentally cut a major fiber-optic cable in Atlanta, causing widespread outages"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cable Cuts",
+    "relation": "repairs_were",
+    "value": "swift",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "While repairs were swift"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Cable Cuts",
+    "relation": "highlighted",
+    "value": "the fragile nature of our physical internet backbone",
+    "time": "November 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the incident highlighted the fragile nature of our physical internet backbone."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "John McDougal",
+    "relation": "described_as",
+    "value": "a senior network engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John McDougal, a senior network engineer, recounts"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "John McDougal",
+    "relation": "said",
+    "value": "We've reinforced our cables with stronger materials",
+    "time": null,
+    "speaker": "John McDougal",
+    "verbatim": [
+     "We've reinforced our cables with stronger materials and routed them to avoid high-risk areas, but the potential for human error remains."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "John McDougal",
+    "relation": "said",
+    "value": "routed cables to avoid high-risk areas",
+    "time": null,
+    "speaker": "John McDougal",
+    "verbatim": [
+     "We've reinforced our cables with stronger materials and routed them to avoid high-risk areas, but the potential for human error remains."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "John McDougal",
+    "relation": "said",
+    "value": "the potential for human error remains",
+    "time": null,
+    "speaker": "John McDougal",
+    "verbatim": [
+     "but the potential for human error remains."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Cyber Attacks",
+    "relation": "have_surged",
+    "value": "over the years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity breaches and Distributed Denial of Service (DDoS) attacks have surged over the years"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Cyber Attacks",
+    "relation": "motivated_by",
+    "value": "malicious parties seeking to disrupt services for a multitude of reasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with malicious parties seeking to disrupt services for a multitude of reasons."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "September 17, 2023 DDoS attack",
+    "relation": "targeted",
+    "value": "major service providers",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, a DDoS attack targeted major service providers, leading to sporadic outages across the East Coast."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "September 17, 2023 DDoS attack",
+    "relation": "led_to",
+    "value": "sporadic outages across the East Coast",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, a DDoS attack targeted major service providers, leading to sporadic outages across the East Coast."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "East Coast",
+    "relation": "experienced",
+    "value": "sporadic outages",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leading to sporadic outages across the East Coast."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Valerie Cruz",
+    "relation": "described_as",
+    "value": "Cybersecurity specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity specialist, Valerie Cruz, notes"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Valerie Cruz",
+    "relation": "said",
+    "value": "In the past, such attacks would have caused prolonged blackouts.",
+    "time": null,
+    "speaker": "Valerie Cruz",
+    "verbatim": [
+     "In the past, such attacks would have caused prolonged blackouts."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Valerie Cruz",
+    "relation": "said",
+    "value": "with advanced mitigation protocols, we manage to recover much faster, often within hours",
+    "time": null,
+    "speaker": "Valerie Cruz",
+    "verbatim": [
+     "Now, with advanced mitigation protocols, we manage to recover much faster, often within hours."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Natural Disasters",
+    "relation": "include",
+    "value": "Hurricanes, earthquakes, and wildfires",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricanes, earthquakes, and wildfires can incapacitate not only power lines but also the data lines crisscrossing our lands and seas."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Natural Disasters",
+    "relation": "can_incapacitate",
+    "value": "power lines and data lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricanes, earthquakes, and wildfires can incapacitate not only power lines but also the data lines crisscrossing our lands and seas."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "December 1, 2023 earthquake",
+    "relation": "located_off",
+    "value": "the coast of California",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The December 1, 2023, earthquake off the coast of California serves as a stark example"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "December 1, 2023 earthquake",
+    "relation": "recovery_took",
+    "value": "days",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recovery took days due to the sheer scale of the damage"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "December 1, 2023 earthquake",
+    "relation": "recovery_took_days_due_to",
+    "value": "the sheer scale of the damage",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "recovery took days due to the sheer scale of the damage"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "California",
+    "relation": "affected_by",
+    "value": "December 1, 2023 earthquake",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The December 1, 2023, earthquake off the coast of California serves as a stark example"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Anthony Rivera",
+    "relation": "leads",
+    "value": "an emergency response team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emergency response teams, like the one led by Anthony Rivera, have become more adept at assessing and repairing damaged networks."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Anthony Rivera",
+    "relation": "described_as",
+    "value": "a frontline responder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "frontline responders like Anthony Rivera remind us of the imperative to keep learning and adapting."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Anthony Rivera",
+    "relation": "said",
+    "value": "We now have mobile command centers and drones that help us restore services faster than ever before",
+    "time": null,
+    "speaker": "Anthony Rivera",
+    "verbatim": [
+     "We now have mobile command centers and drones that help us restore services faster than ever before."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Anthony Rivera",
+    "relation": "said",
+    "value": "the forces of nature can be overwhelming",
+    "time": null,
+    "speaker": "Anthony Rivera",
+    "verbatim": [
+     "Still, the forces of nature can be overwhelming."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "mobile command centers",
+    "relation": "help_restore_services",
+    "value": "faster than ever before",
+    "time": null,
+    "speaker": "Anthony Rivera",
+    "verbatim": [
+     "We now have mobile command centers and drones that help us restore services faster than ever before."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "drones",
+    "relation": "help_restore_services",
+    "value": "faster than ever before",
+    "time": null,
+    "speaker": "Anthony Rivera",
+    "verbatim": [
+     "We now have mobile command centers and drones that help us restore services faster than ever before."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Equipment Failure",
+    "relation": "is",
+    "value": "a mundane yet significant disruption source",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipment failure within the sprawling data centers and routing facilities scattered globally is a mundane yet significant disruption source."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "data centers",
+    "relation": "are_located",
+    "value": "scattered globally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipment failure within the sprawling data centers and routing facilities scattered globally is a mundane yet significant disruption source."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "routers",
+    "relation": "failure_can_cascade_into",
+    "value": "outages affecting millions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A router failure at a data hub can cascade into outages affecting millions."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Tim O'Neill",
+    "relation": "described_as",
+    "value": "a data center operations manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tim O'Neill, a data center operations manager, recalls the September 29, 2023, incident"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "September 29, 2023 incident",
+    "relation": "involved",
+    "value": "A cooling system malfunction in our facility",
+    "time": "September 29, 2023",
+    "speaker": "Tim O'Neill",
+    "verbatim": [
+     "A cooling system malfunction in our facility led to overheating and automatic shutdowns."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "September 29, 2023 incident",
+    "relation": "led_to",
+    "value": "overheating and automatic shutdowns",
+    "time": "September 29, 2023",
+    "speaker": "Tim O'Neill",
+    "verbatim": [
+     "A cooling system malfunction in our facility led to overheating and automatic shutdowns."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Tim O'Neill",
+    "relation": "said",
+    "value": "It's a reminder that physical infrastructure needs constant monitoring and maintenance",
+    "time": null,
+    "speaker": "Tim O'Neill",
+    "verbatim": [
+     "It's a reminder that physical infrastructure needs constant monitoring and maintenance."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Human Error",
+    "relation": "is",
+    "value": "a constant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "human error remains a constant."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Human Error",
+    "relation": "examples_include",
+    "value": "Misconfigured network settings or erroneous code deployment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Misconfigured network settings or erroneous code deployment have led to significant outages"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Human Error",
+    "relation": "led_to",
+    "value": "significant outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Misconfigured network settings or erroneous code deployment have led to significant outages"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "October 9, 2023 software update",
+    "relation": "was",
+    "value": "a routine software update that went awry",
+    "time": "October 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "such as the one experienced on October 9, 2023, when a routine software update went awry, impacting service for several hours."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "October 9, 2023 software update",
+    "relation": "impacted",
+    "value": "service for several hours",
+    "time": "October 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "impacting service for several hours."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Lizbeth Chen",
+    "relation": "described_as",
+    "value": "network administrator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As network administrator Lizbeth Chen puts it"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Lizbeth Chen",
+    "relation": "said",
+    "value": "No matter the technology, the human element can always introduce unpredictability.",
+    "time": null,
+    "speaker": "Lizbeth Chen",
+    "verbatim": [
+     "No matter the technology, the human element can always introduce unpredictability."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Monitoring and Response",
+    "relation": "learned_lessons_from",
+    "value": "past disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The lessons learned from past disruptions have not gone to waste."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "AI monitoring systems",
+    "relation": "detects",
+    "value": "irregularities in milliseconds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern monitoring systems are equipped with AI that detects irregularities in milliseconds, often before users notice any issue."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "AI monitoring systems",
+    "relation": "detects_before_users_notice",
+    "value": "often",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern monitoring systems are equipped with AI that detects irregularities in milliseconds, often before users notice any issue."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "response plans",
+    "relation": "developed_by",
+    "value": "Providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Providers have also developed more sophisticated response plans"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "response plans",
+    "relation": "allow",
+    "value": "reroute traffic and bring backup systems online at unprecedented speeds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to reroute traffic and bring backup systems online at unprecedented speeds."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Monitoring and Response",
+    "relation": "reflect",
+    "value": "the increasing priority given to maintaining uninterrupted internet services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These advancements reflect the increasing priority given to maintaining uninterrupted internet services."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "internet",
+    "relation": "evolved_from_to",
+    "value": "from a burgeoning network to an indispensable utility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The internet's evolution from a burgeoning network to an indispensable utility has brought additional complexities"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,504 @@
+{
+ "inventory": [
+  "Lila Martinez",
+  "Mike Thompson",
+  "Sarah Gibson",
+  "George Lim",
+  "Zoe Chen",
+  "Alex Bern",
+  "Sandra Keeling",
+  "Neil Patel",
+  "Emily Park",
+  "City Marathon",
+  "Winter Wonderland Extravaganza",
+  "Transit-Event Coordination Hub",
+  "Temporary Transit Volunteer Program",
+  "Transit Authority",
+  "downtown core",
+  "light rail system",
+  "unplanned power outage",
+  "emergency operation centers",
+  "backup generators",
+  "infrastructure resilience",
+  "alert systems",
+  "universal access"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "City Marathon",
+    "relation": "occurred_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "occurred on October 15, 2023, when the downtown core was inundated with participants for the annual City Marathon."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "City Marathon",
+    "relation": "is_annual",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual City Marathon"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "downtown core",
+    "relation": "inundated_with",
+    "value": "participants for the annual City Marathon",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the downtown core was inundated with participants for the annual City Marathon"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Lila Martinez",
+    "relation": "job_title",
+    "value": "Transportation Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transportation Director Lila Martinez recalls"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Lila Martinez",
+    "relation": "recalls",
+    "value": "the vast coordination efforts that made it possible to accommodate the influx of both participants and observers",
+    "time": null,
+    "speaker": "Lila Martinez",
+    "verbatim": [
+     "Transportation Director Lila Martinez recalls the vast coordination efforts that made it possible to accommodate the influx of both participants and observers."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Lila Martinez",
+    "relation": "accommodated_influx_of",
+    "value": "participants and observers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to accommodate the influx of both participants and observers"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Lila Martinez",
+    "relation": "enabled",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that made it possible to accommodate the influx of both participants and observers"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Lila Martinez",
+    "relation": "said",
+    "value": "We had all hands on deck to rework routes, set up additional services, and ensure that emergency vehicles had clear access at all times",
+    "time": null,
+    "speaker": "Lila Martinez",
+    "verbatim": [
+     "We had all hands on deck to rework routes, set up additional services, and ensure that emergency vehicles had clear access at all times"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "unplanned power outage",
+    "relation": "occurred_on",
+    "value": "November 1",
+    "time": "November 1",
+    "speaker": null,
+    "verbatim": [
+     "a swift response to an unplanned power outage was necessary on November 1"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "light rail system",
+    "relation": "ground_to_halt",
+    "value": "a critical section of the light rail system ground to a halt",
+    "time": "November 1",
+    "speaker": null,
+    "verbatim": [
+     "a critical section of the light rail system ground to a halt"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Transit Authority",
+    "relation": "has_spokesperson",
+    "value": "Mike Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transit Authority spokesperson Mike Thompson reflected on the event"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mike Thompson",
+    "relation": "said",
+    "value": "Our priority is rider safety and service continuity.",
+    "time": null,
+    "speaker": "Mike Thompson",
+    "verbatim": [
+     "Our priority is rider safety and service continuity."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "unplanned power outage",
+    "relation": "addressed_by",
+    "value": "rerouting certain lines and employing backup generators",
+    "time": null,
+    "speaker": "Mike Thompson",
+    "verbatim": [
+     "The power issue was addressed by rerouting certain lines and employing backup generators."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "backup generators",
+    "relation": "used_to_address",
+    "value": "the power issue",
+    "time": null,
+    "speaker": "Mike Thompson",
+    "verbatim": [
+     "The power issue was addressed by rerouting certain lines and employing backup generators."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Winter Wonderland Extravaganza",
+    "relation": "scheduled_for",
+    "value": "December 20-25",
+    "time": "December 20-25",
+    "speaker": null,
+    "verbatim": [
+     "With the Winter Wonderland Extravaganza scheduled for December 20-25"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Winter Wonderland Extravaganza",
+    "relation": "promises_to_draw",
+    "value": "crowds from all over the region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city's famous holiday tradition promises to draw crowds from all over the region."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Gibson",
+    "relation": "job_title",
+    "value": "Event Coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Event Coordinator Sarah Gibson remarked"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Gibson",
+    "relation": "said",
+    "value": "While it's a time for celebration, it's also a high-alert period for transportation services.",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "While it's a time for celebration, it's also a high-alert period for transportation services."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sarah Gibson",
+    "relation": "coordinating_with",
+    "value": "the city's traffic authority",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "We're coordinating with the city's traffic authority to"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "George Lim",
+    "relation": "job_title",
+    "value": "independent transit consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Lim, an independent transit consultant."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "emergency operation centers",
+    "relation": "should_function",
+    "value": "round-the-clock",
+    "time": null,
+    "speaker": "George Lim",
+    "verbatim": [
+     "It's all about building robust emergency operation centers that can function round-the-clock,"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "George Lim",
+    "relation": "said",
+    "value": "During a major event or emergency, transit operations become a real-time chess game, with every move carefully coordinated and communicated.",
+    "time": null,
+    "speaker": "George Lim",
+    "verbatim": [
+     "During a major event or emergency, transit operations become a real-time chess game, with every move carefully coordinated and communicated."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Transit-Event Coordination Hub",
+    "relation": "is_recently_implemented_system",
+    "value": "recently implemented system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One recently implemented system is the Transit-Event Coordination Hub (TECH)"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Transit-Event Coordination Hub",
+    "relation": "integrates",
+    "value": "live data from various transport modes and public services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which integrates live data from various transport modes and public services"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Transit-Event Coordination Hub",
+    "relation": "allows",
+    "value": "us to respond quickly to changes and distribute updated information to the public through various digital platforms",
+    "time": null,
+    "speaker": "Zoe Chen",
+    "verbatim": [
+     "TECH allows us to respond quickly to changes and distribute updated information to the public through various digital platforms,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Zoe Chen",
+    "relation": "job_title",
+    "value": "technology officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technology officer Zoe Chen."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Temporary Transit Volunteer Program",
+    "relation": "launched_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an initiative launched on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Temporary Transit Volunteer Program",
+    "relation": "has_made",
+    "value": "a notable difference",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has made a notable difference"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Temporary Transit Volunteer Program",
+    "relation": "leverages",
+    "value": "community involvement, where local volunteers help with guiding passengers and providing information during disruptions",
+    "time": null,
+    "speaker": "Alex Bern",
+    "verbatim": [
+     "TTVP leverages community involvement, where local volunteers help with guiding passengers and providing information during disruptions,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Bern",
+    "relation": "job_title",
+    "value": "workforce strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "workforce strategist Alex Bern, who has been instrumental in shaping the program."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alex Bern",
+    "relation": "instrumental_in",
+    "value": "shaping the program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has been instrumental in shaping the program."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sandra Keeling",
+    "relation": "job_title",
+    "value": "daily commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Keeling, a daily commuter."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sandra Keeling",
+    "relation": "said",
+    "value": "Some days, the diversions are barely noticeable, while other times, it feels like I can't get anywhere on time",
+    "time": null,
+    "speaker": "Sandra Keeling",
+    "verbatim": [
+     "Some days, the diversions are barely noticeable, while other times, it feels like I can't get anywhere on time,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "infrastructure resilience",
+    "relation": "receiving",
+    "value": "significant investments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significant investments in infrastructure resilience have become a focal point."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "infrastructure resilience",
+    "relation": "encompasses",
+    "value": "everything from the installation of more robust power systems to the development of weather-resistant materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This encompasses everything from the installation of more robust power systems to the development of weather-resistant materials."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "alert systems",
+    "relation": "streamlined_to_be",
+    "value": "more proactive",
+    "time": null,
+    "speaker": "Neil Patel",
+    "verbatim": [
+     "We've streamlined our alert systems to be more proactive"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "alert systems",
+    "relation": "sends",
+    "value": "timely notifications through mobile apps and social media",
+    "time": null,
+    "speaker": "Neil Patel",
+    "verbatim": [
+     "timely notifications through mobile apps and social media,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Neil Patel",
+    "relation": "job_title",
+    "value": "public relations manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public relations manager Neil Patel."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Emily Park",
+    "relation": "job_title",
+    "value": "Director of Accessibility Services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Director of Accessibility Services, Emily Park, advocates for a transit system that considers the needs of all users."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Emily Park",
+    "relation": "advocates_for",
+    "value": "a transit system that considers the needs of all users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Director of Accessibility Services, Emily Park, advocates for a transit system that considers the needs of all users."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Park",
+    "relation": "aims_for",
+    "value": "universal access",
+    "time": null,
+    "speaker": "Emily Park",
+    "verbatim": [
+     "we aim for universal access."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Park",
+    "relation": "gives_example_of_service_change",
+    "value": "a new ramp or a temporary shuttle service",
+    "time": null,
+    "speaker": "Emily Park",
+    "verbatim": [
+     "whether it's a new ramp or a temporary shuttle service"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Park",
+    "relation": "says_feedback_from_users_has_been",
+    "value": "invaluable",
+    "time": null,
+    "speaker": "Emily Park",
+    "verbatim": [
+     "feedback from our users has been invaluable"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

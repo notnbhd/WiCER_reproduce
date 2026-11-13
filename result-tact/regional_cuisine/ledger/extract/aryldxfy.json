@@ -1,0 +1,907 @@
+{
+ "inventory": [
+  "Tuscany",
+  "Italy",
+  "Alessandra Gavazzi",
+  "Florence",
+  "ribollita",
+  "cucina povera",
+  "Eastern European cuisine",
+  "Prague",
+  "Polish pierogi",
+  "Jan Kowalski",
+  "Krakow",
+  "Middle Eastern cuisine",
+  "mezze",
+  "kibbeh",
+  "Samira Haddad",
+  "Indian cuisine",
+  "Hyderabad",
+  "Kerala",
+  "Anjali D'Souza",
+  "Mediterranean diet",
+  "Mediterranean",
+  "Greek moussaka",
+  "Eleni Pappas",
+  "French cuisine",
+  "coq au vin",
+  "Provence",
+  "ratatouille",
+  "Olivier Dubois",
+  "Taipei"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Taipei",
+    "relation": "features",
+    "value": "bustling night markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the bustling night markets of Taipei"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Tuscany",
+    "relation": "has_feature",
+    "value": "sun-drenched fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the sun-drenched fields of Tuscany"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Italy",
+    "relation": "reputation_for_cuisine",
+    "value": "extraordinary cuisine, universally acknowledged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Italy's reputation for extraordinary cuisine is universally acknowledged."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Tuscany",
+    "relation": "dishes_described_as",
+    "value": "simple, rustic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the simple, rustic dishes of Tuscany stand out for their straightforward preparation"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Tuscany",
+    "relation": "dishes_feature",
+    "value": "straightforward preparation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stand out for their straightforward preparation and reliance on high-quality, local ingredients"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Tuscany",
+    "relation": "dishes_rely_on",
+    "value": "high-quality, local ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reliance on high-quality, local ingredients"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Alessandra Gavazzi",
+    "relation": "occupation",
+    "value": "chef",
+    "time": "October 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As chef Alessandra Gavazzi noted on October 23, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Alessandra Gavazzi",
+    "relation": "said",
+    "value": "Tuscan cuisine is not about complicated techniques; it's all about enhancing the natural flavors.",
+    "time": "October 23, 2023",
+    "speaker": "Alessandra Gavazzi",
+    "verbatim": [
+     "\"Tuscan cuisine is not about complicated techniques; it's all about enhancing the natural flavors.\""
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Alessandra Gavazzi",
+    "relation": "held_cooking_workshop_in",
+    "value": "Florence",
+    "time": "October 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during her cooking workshop in Florence"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Tuscany",
+    "relation": "land_described_as",
+    "value": "fertile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The region's fertile land yields"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Tuscany",
+    "relation": "yields",
+    "value": "olives, grapes, cereals, vegetables, and the famed Tuscan beans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The region's fertile land yields olives, grapes, cereals, vegetables, and the famed Tuscan beans"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "ribollita",
+    "relation": "key_ingredient",
+    "value": "Tuscan beans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the famed Tuscan beans that form the backbone of ribollita"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "ribollita",
+    "relation": "is_a",
+    "value": "a hearty bread and vegetable stew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hearty bread and vegetable stew"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "ribollita",
+    "relation": "used_by",
+    "value": "thrifty Tuscan housewives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a means for thrifty Tuscan housewives to use up leftovers"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "ribollita",
+    "relation": "purpose",
+    "value": "use up leftovers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to use up leftovers"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "ribollita",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a means for thrifty Tuscan housewives to use up leftovers"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "ribollita",
+    "relation": "contains",
+    "value": "kale, cannellini beans, chunks of bread soaked in a tomato-based broth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rich with kale, cannellini beans, and chunks of bread soaked in a tomato-based broth"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "ribollita",
+    "relation": "is_emblematic_of",
+    "value": "cucina povera",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is emblematic of the Tuscan philosophy of cucina povera"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "cucina povera",
+    "relation": "translates_to",
+    "value": "poor cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cucina povera, translating to \"poor cooking,\""
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "cucina povera",
+    "relation": "speaks_of",
+    "value": "making sumptuous meals out of the simplest ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which speaks of making sumptuous meals out of the simplest ingredients"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Prague",
+    "relation": "scene",
+    "value": "chilly evening; scent of roasting meats and simmering stews filled the cobbled streets",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a chilly evening in Prague, on November 12, 2023, the scent of roasting meats and simmering stews filled the cobbled streets."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Eastern European cuisine",
+    "relation": "characterized_by",
+    "value": "comforting, robust flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Broadly characterized by its comforting, robust flavors"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Eastern European cuisine",
+    "relation": "offers",
+    "value": "warmth during its harsh winters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers warmth during its harsh winters"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Eastern European cuisine",
+    "relation": "reflects",
+    "value": "the toughness and resilience of its people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reflects the toughness and resilience of its people"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Polish pierogi",
+    "relation": "is_a",
+    "value": "stuffed dumplings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These stuffed dumplings are an embodiment of Eastern Europe's soul."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Polish pierogi",
+    "relation": "is_embodiment_of",
+    "value": "Eastern Europe's soul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These stuffed dumplings are an embodiment of Eastern Europe's soul."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Polish pierogi",
+    "relation": "filled_with",
+    "value": "savory minced meat, sweetened cheese, or seasonal fruits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether filled with savory minced meat, sweetened cheese, or seasonal fruits"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Polish pierogi",
+    "relation": "role",
+    "value": "a staple in homes and a festive treat during occasions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allows them to be a staple in homes and a festive treat during occasions"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jan Kowalski",
+    "relation": "occupation",
+    "value": "third-generation pierogi maker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jan Kowalski, a third-generation pierogi maker from Krakow"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jan Kowalski",
+    "relation": "from",
+    "value": "Krakow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jan Kowalski, a third-generation pierogi maker from Krakow"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jan Kowalski",
+    "relation": "said",
+    "value": "Each pierogi is pinched by hand, just as my grandmother taught me. It's a labor of love.",
+    "time": null,
+    "speaker": "Jan Kowalski",
+    "verbatim": [
+     "\"Each pierogi is pinched by hand, just as my grandmother taught me. It's a labor of love.\""
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jan Kowalski",
+    "relation": "expresses",
+    "value": "pride in his craft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expresses pride in his craft"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Middle Eastern cuisine",
+    "relation": "renowned_for",
+    "value": "fragrant blends of spices and grains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned for its fragrant blends of spices and grains"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Middle Eastern cuisine",
+    "relation": "is_testament_to",
+    "value": "the region's diverse cultures and storied past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a testament to the region's diverse cultures and storied past"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "mezze",
+    "relation": "is_a",
+    "value": "a selection of small dishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mezze\u2014a selection of small dishes such as hummus, tabbouleh, and baba ganoush"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "mezze",
+    "relation": "includes",
+    "value": "hummus, tabbouleh, baba ganoush",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mezze\u2014a selection of small dishes such as hummus, tabbouleh, and baba ganoush"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "mezze",
+    "relation": "often_shared_among",
+    "value": "diners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are often shared among diners, promoting a sense of togetherness and community"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "mezze",
+    "relation": "promotes",
+    "value": "a sense of togetherness and community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promoting a sense of togetherness and community"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "mezze",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are often shared among diners, promoting a sense of togetherness and community"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "kibbeh",
+    "relation": "made_from",
+    "value": "minced meat and bulgur wheat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These delectable morsels, made from minced meat and bulgur wheat"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "kibbeh",
+    "relation": "varies_by",
+    "value": "region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vary from region to region"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "kibbeh",
+    "relation": "encapsulates",
+    "value": "the zest and nuances of each locality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encapsulating the zest and nuances of each locality"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "kibbeh",
+    "relation": "making_expresses",
+    "value": "creativity and tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is said that in the art of making kibbeh, Middle Eastern cooks express both creativity and tradition."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Samira Haddad",
+    "relation": "nationality",
+    "value": "Lebanese",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Samira Haddad, a Lebanese chef remarked on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Samira Haddad",
+    "relation": "occupation",
+    "value": "chef",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Samira Haddad, a Lebanese chef remarked on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Samira Haddad",
+    "relation": "said",
+    "value": "Kibbeh connects us to our land. Its spices and herbs, like mint and cinnamon, are the essence of our orchards and fields.",
+    "time": "September 15, 2023",
+    "speaker": "Samira Haddad",
+    "verbatim": [
+     "\"Kibbeh connects us to our land. Its spices and herbs, like mint and cinnamon, are the essence of our orchards and fields.\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "kibbeh",
+    "relation": "spices_include",
+    "value": "mint and cinnamon",
+    "time": null,
+    "speaker": "Samira Haddad",
+    "verbatim": [
+     "Its spices and herbs, like mint and cinnamon"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Indian cuisine",
+    "relation": "characterized_by",
+    "value": "a riot of colors, aromas, and flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "India's regional dishes are a riot of colors, aromas, and flavors"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Indian cuisine",
+    "relation": "reflects",
+    "value": "the country's expansive history and diversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each dish reciting a chapter of the country's expansive history and diversity"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Indian cuisine",
+    "relation": "northern_plains_offer",
+    "value": "rich, creamy curries and fluffy bread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The northern plains offer rich, creamy curries and fluffy bread"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Indian cuisine",
+    "relation": "coastal_states_bring",
+    "value": "a bounty of seafood simmered in coconut milk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the coastal states bring a bounty of seafood simmered in coconut milk"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Indian cuisine",
+    "relation": "southern_lands_supply",
+    "value": "an array of sun-soaked vegetables and rice dishes, spiced deftly and distinctively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the southern lands supply an array of sun-soaked vegetables and rice dishes, spiced deftly and distinctively"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Hyderabad",
+    "relation": "known_for",
+    "value": "aromatic biryanis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the aromatic biryanis of Hyderabad"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Hyderabad",
+    "relation": "biryani_layered_with",
+    "value": "basmati rice and marinated meats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expertly layered with basmati rice and marinated meats"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Kerala",
+    "relation": "known_for",
+    "value": "tangy fish curries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the tangy fish curries of Kerala"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Indian cuisine",
+    "relation": "shaped_by",
+    "value": "religion, geography, and trade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the profound role that religion, geography, and trade have played in shaping the Indian palate"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Anjali D'Souza",
+    "relation": "occupation",
+    "value": "culinary historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As noted by Anjali D'Souza, a culinary historian"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Anjali D'Souza",
+    "relation": "said",
+    "value": "Each Indian dish carries within it a fragment of history, whether it's the saffron brought by Persian traders or the chili introduced by the Portuguese.",
+    "time": null,
+    "speaker": "Anjali D'Souza",
+    "verbatim": [
+     "\"Each Indian dish carries within it a fragment of history, whether it's the saffron brought by Persian traders or the chili introduced by the Portuguese.\""
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Indian cuisine",
+    "relation": "saffron_brought_by",
+    "value": "Persian traders",
+    "time": null,
+    "speaker": "Anjali D'Souza",
+    "verbatim": [
+     "the saffron brought by Persian traders"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Indian cuisine",
+    "relation": "chili_introduced_by",
+    "value": "the Portuguese",
+    "time": null,
+    "speaker": "Anjali D'Souza",
+    "verbatim": [
+     "the chili introduced by the Portuguese"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Mediterranean",
+    "relation": "has_been",
+    "value": "a thoroughfare for merchants, sailors, and adventurers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The blue waters of the Mediterranean have long been a thoroughfare for merchants, sailors, and adventurers."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mediterranean",
+    "relation": "exchange_resulted_in",
+    "value": "a culinary mosaic renowned for its health benefits and exceptional tastes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This vibrant intercultural exchange paved the way for a culinary mosaic renowned for its health benefits and exceptional tastes."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Mediterranean diet",
+    "relation": "includes",
+    "value": "heart-healthy olive oil, fresh seafood, and abundance of fruits and vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Mediterranean diet, with its heart-healthy olive oil, fresh seafood, and abundance of fruits and vegetables"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Mediterranean diet",
+    "relation": "is_legacy_of",
+    "value": "the region's historical cross-pollination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is an enduring legacy of the region's historical cross-pollination"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Greek moussaka",
+    "relation": "provides_window_into",
+    "value": "this approach to cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greek moussaka provides a window into this approach to cooking."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Greek moussaka",
+    "relation": "comprises",
+    "value": "layers of ground lamb or beef, sliced eggplant, and a creamy b\u00e9chamel sauce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comprising layers of ground lamb or beef, sliced eggplant, and a creamy b\u00e9chamel sauce"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Greek moussaka",
+    "relation": "is",
+    "value": "a cultural icon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "moussaka is as much a cultural icon as it is a beloved dish"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Eleni Pappas",
+    "relation": "occupation",
+    "value": "Food critic",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Food critic Eleni Pappas commented on her blog post dated September 29, 2023"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Eleni Pappas",
+    "relation": "commented_on",
+    "value": "her blog post",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Food critic Eleni Pappas commented on her blog post dated September 29, 2023"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Eleni Pappas",
+    "relation": "said",
+    "value": "Moussaka is like Greece itself: layered, complex, and steeped in tradition.",
+    "time": "September 29, 2023",
+    "speaker": "Eleni Pappas",
+    "verbatim": [
+     "\"Moussaka is like Greece itself: layered, complex, and steeped in tradition.\""
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "French cuisine",
+    "relation": "has_set_standard_for",
+    "value": "aspiring chefs worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where meticulous attention to quality and technique has long set the standard for aspiring chefs worldwide"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "French cuisine",
+    "relation": "is_tribute_to",
+    "value": "the French esteem for culinary excellence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a tribute to the French esteem for culinary excellence"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "coq au vin",
+    "relation": "preparation_described_as",
+    "value": "earnest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The earnest preparation of a coq au vin"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Provence",
+    "relation": "has_feature",
+    "value": "rustic kitchens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the rustic kitchens of Provence"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "ratatouille",
+    "relation": "prepared_in",
+    "value": "rustic kitchens of Provence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the rustic kitchens of Provence, ratatouille is prepared with reverence for its ingredients"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "ratatouille",
+    "relation": "ingredients",
+    "value": "zucchini, eggplant, bell peppers, and tomatoes, all sun-ripened and drenched in provincial herbs and olive oil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "zucchini, eggplant, bell peppers, and tomatoes, all sun-ripened and drenched in provincial herbs and olive oil"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "ratatouille",
+    "relation": "narrates",
+    "value": "the bond between the French people and their fertile terre",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "narrates the bond between the French people and their fertile terre"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Olivier Dubois",
+    "relation": "occupation",
+    "value": "chef",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, chef Olivier Dubois revealed"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Olivier Dubois",
+    "relation": "said",
+    "value": "When we cook ratatouille, we are sharing a piece of our homeland.",
+    "time": "December 1, 2023",
+    "speaker": "Olivier Dubois",
+    "verbatim": [
+     "\"When we cook ratatouille, we are sharing a piece of our homeland.\""
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

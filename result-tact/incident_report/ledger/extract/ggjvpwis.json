@@ -1,0 +1,707 @@
+{
+ "inventory": [
+  "The Global Internet Outage Crisis",
+  "New York City",
+  "London",
+  "Mumbai, India",
+  "UK",
+  "Internet service providers (ISPs)",
+  "Terms of Service (TOS)",
+  "force majeure clauses",
+  "Caroline Edwards",
+  "Federal Communications Commission (FCC)",
+  "United States",
+  "Institute of Business Management",
+  "Darren Xu",
+  "Toronto",
+  "European Commission",
+  "G20 nations"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "began_after",
+    "value": "September 1, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we look back on the months following September 1, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "caused",
+    "value": "widespread panic and confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the world has faced an unprecedented series of internet outages, causing widespread panic and confusion"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "raised",
+    "value": "critical legal questions regarding the responsibilities of service providers and the rights of consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have also raised critical legal questions regarding the responsibilities of service providers and the rights of consumers"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "began_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Beginning on September 5, 2023, a series of sporadic but significant outages began to hit several locations globally."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "first_reported_in",
+    "value": "New York City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The first was reported in New York City"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "New York City",
+    "relation": "outage_cause",
+    "value": "a construction accident led to the severing of a major fiber-optic cable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where a construction accident led to the severing of a major fiber-optic cable"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "New York City",
+    "relation": "outage_effect",
+    "value": "parts of the city without internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving parts of the city without internet for over 24 hours"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "New York City",
+    "relation": "outage_duration",
+    "value": "over 24 hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving parts of the city without internet for over 24 hours"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "New York City",
+    "relation": "results_in",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a construction accident led to the severing of a major fiber-optic cable, leaving parts of the city without internet for over 24 hours"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "London",
+    "relation": "disruption_date",
+    "value": "September 10",
+    "time": "September 10",
+    "speaker": null,
+    "verbatim": [
+     "Just days later, on September 10, London experienced a similar disruption"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "London",
+    "relation": "disruption_cause",
+    "value": "a software fault at a central exchange",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a software fault at a central exchange led to a cascade of network failures across the UK"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "UK",
+    "relation": "network_failures",
+    "value": "a cascade of network failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a software fault at a central exchange led to a cascade of network failures across the UK"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "London",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a software fault at a central exchange led to a cascade of network failures across the UK"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mumbai, India",
+    "relation": "reports_emerged_by",
+    "value": "October 19",
+    "time": "October 19",
+    "speaker": null,
+    "verbatim": [
+     "The situation worsened by October 19, with reports coming out of Mumbai, India"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mumbai, India",
+    "relation": "disruption_cause",
+    "value": "a cyber-attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where a cyber-attack crippled the city's internet infrastructure for an entire week"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mumbai, India",
+    "relation": "infrastructure_crippled_for",
+    "value": "an entire week",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crippled the city's internet infrastructure for an entire week"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "experts_pointed_toward",
+    "value": "a series of vulnerabilities in global internet infrastructure and the possibility of coordinated attacks",
+    "time": null,
+    "speaker": "experts",
+    "verbatim": [
+     "experts began pointing toward a series of vulnerabilities in global internet infrastructure and the possibility of coordinated attacks"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "legal_implications_are",
+    "value": "complex and varied across jurisdictions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The legal implications of such widespread internet disruptions are complex and varied across jurisdictions."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Internet service providers (ISPs)",
+    "relation": "typically_outline",
+    "value": "their service commitments and the expected uptime in their Terms of Service (TOS)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet service providers (ISPs) typically outline their service commitments and the expected uptime in their Terms of Service (TOS)."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Terms of Service (TOS)",
+    "relation": "contains",
+    "value": "service commitments and the expected uptime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Internet service providers (ISPs) typically outline their service commitments and the expected uptime in their Terms of Service (TOS)."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "force majeure clauses",
+    "relation": "contained_in",
+    "value": "most service agreements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most service agreements contain 'force majeure' clauses excusing the ISP from liability in the case of events beyond their control."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "force majeure clauses",
+    "relation": "excuse",
+    "value": "the ISP from liability in the case of events beyond their control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'force majeure' clauses excusing the ISP from liability in the case of events beyond their control"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "tests_limits_of",
+    "value": "these contractual provisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prolonged or repeated outages, such as those that have occurred post-September 2023, test the limits of these contractual provisions"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "consumers_seeking",
+    "value": "legal recourse for the inconvenience and economic losses sustained during these outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consumers are increasingly seeking legal recourse for the inconvenience and economic losses sustained during these outages."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Caroline Edwards",
+    "relation": "occupation",
+    "value": "consumer rights advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Renowned consumer rights advocate Caroline Edwards"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Caroline Edwards",
+    "relation": "spoke_on",
+    "value": "October 23",
+    "time": "October 23",
+    "speaker": null,
+    "verbatim": [
+     "Caroline Edwards, speaking on October 23"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Caroline Edwards",
+    "relation": "stated",
+    "value": "while one-off incidents may be forgivable, recurring outages signify a systemic failure that could necessitate compensation for affected parties",
+    "time": "October 23",
+    "speaker": "Caroline Edwards",
+    "verbatim": [
+     "while one-off incidents may be forgivable, recurring outages signify a systemic failure that could necessitate compensation for affected parties."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "consumer_protection_laws_ensure",
+    "value": "users receive a certain quality of service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumer protection laws ensure that users receive a certain quality of service"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "failure_can_lead_to",
+    "value": "legal challenges against providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "failure to provide such can lead to legal challenges against providers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "authority_to",
+    "value": "regulate ISPs and ensure consumers are protected from unfair practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Federal Communications Commission (FCC) in the United States has the authority to regulate ISPs and ensure consumers are protected from unfair practices."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "jurisdiction",
+    "value": "United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Federal Communications Commission (FCC) in the United States"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "United States",
+    "relation": "regulatory_body",
+    "value": "Federal Communications Commission (FCC)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Federal Communications Commission (FCC) in the United States"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "businesses_affected",
+    "value": "e-commerce platforms, online services, and remote work capabilities severely hampered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with e-commerce platforms, online services, and remote work capabilities severely hampered"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Institute of Business Management",
+    "relation": "study_dated",
+    "value": "November 2, 2023",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study from the Institute of Business Management, dated November 2, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Institute of Business Management",
+    "relation": "estimated_global_economic_impact_of_October_outages",
+    "value": "in the billions",
+    "time": "October",
+    "speaker": "Institute of Business Management",
+    "verbatim": [
+     "estimated the global economic impact of the October outages alone to be in the billions"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Darren Xu",
+    "relation": "occupation",
+    "value": "small business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Darren Xu, a small business owner from Toronto"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Darren Xu",
+    "relation": "location",
+    "value": "Toronto",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Darren Xu, a small business owner from Toronto"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Toronto",
+    "relation": "home_of",
+    "value": "Darren Xu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Darren Xu, a small business owner from Toronto"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Darren Xu",
+    "relation": "considering",
+    "value": "pursuing legal actions for damages caused by these outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is one of many who consider pursuing legal actions for damages caused by these outages"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Darren Xu",
+    "relation": "relies_on",
+    "value": "a continuously available internet to run our operations",
+    "time": null,
+    "speaker": "Darren Xu",
+    "verbatim": [
+     "We rely on a continuously available internet to run our operations."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Darren Xu",
+    "relation": "stated",
+    "value": "When it's down, we don't just lose customers, we lose trust, and that's harder to regain",
+    "time": "November 15",
+    "speaker": "Darren Xu",
+    "verbatim": [
+     "When it's down, we don't just lose customers, we lose trust, and that's harder to regain"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Darren Xu",
+    "relation": "interview_on",
+    "value": "November 15",
+    "time": "November 15",
+    "speaker": "Darren Xu",
+    "verbatim": [
+     "Xu stated in an interview on November 15."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "prompted",
+    "value": "government bodies around the world to reconsider the existing regulatory structures guiding internet provision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Government bodies around the world have been prompted to reconsider the existing regulatory structures guiding internet provision."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "began_inquiry_on",
+    "value": "November 20",
+    "time": "November 20",
+    "speaker": null,
+    "verbatim": [
+     "the FCC began an inquiry on November 20 into the reliability standards of ISPs"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "inquiry_into",
+    "value": "the reliability standards of ISPs",
+    "time": "November 20",
+    "speaker": null,
+    "verbatim": [
+     "the FCC began an inquiry on November 20 into the reliability standards of ISPs"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "signaled",
+    "value": "the potential for tighter regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signaling the potential for tighter regulations"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "European Commission",
+    "relation": "set_up_task_force_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the European Commission set up a task force on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "European Commission",
+    "relation": "task_force_goal",
+    "value": "assessing the resilience of the European internet infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the goal of assessing the resilience of the European internet infrastructure"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "European Commission",
+    "relation": "in_order_to",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "set up a task force on December 1, 2023, with the goal of assessing the resilience of the European internet infrastructure"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "illustrates",
+    "value": "a growing consensus among policymakers that the legal framework for digital communication services needs strengthening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Both of these actions illustrate a growing consensus among policymakers that the legal framework for digital communication services needs strengthening in response to the frequency and scale of recent outages."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "strengthening_response_to",
+    "value": "the frequency and scale of recent outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in response to the frequency and scale of recent outages"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "pointing_toward",
+    "value": "cybersecurity threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the nature of the outages pointing toward cybersecurity threats, legal frameworks are also being tested for their robustness in this regard."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "legal_frameworks_tested_for",
+    "value": "their robustness in this regard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "legal frameworks are also being tested for their robustness in this regard"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Mumbai, India",
+    "relation": "attack_underscored",
+    "value": "the need for more stringent cybersecurity measures and clearer legal definitions relating to digital attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The attack on Mumbai's internet infrastructure underscored the need for more stringent cybersecurity measures and clearer legal definitions relating to digital attacks."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "increasing_chorus_calling_for",
+    "value": "international agreements and collaborations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's an increasing chorus calling for international agreements and collaborations"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "G20 nations",
+    "relation": "issued_statement_on",
+    "value": "December 10, 2023",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A statement issued by the G20 nations on December 10, 2023"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "G20 nations",
+    "relation": "acknowledged",
+    "value": "the need for a cooperative response to cyber threats and infrastructure weaknesses that could lead to internet disruptions",
+    "time": "December 10, 2023",
+    "speaker": "G20 nations",
+    "verbatim": [
+     "acknowledged the need for a cooperative response to cyber threats and infrastructure weaknesses that could lead to internet disruptions"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "highlighted",
+    "value": "the dependency of modern society on stable internet connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighted the dependency of modern society on stable internet connectivity"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "put_into_relief",
+    "value": "the need for robust legal mechanisms that can address these challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have also put into relief the need for robust legal mechanisms that can address these challenges"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "road_ahead_includes",
+    "value": "improving infrastructure, better preparing for cyber threats, and ensuring that legal frameworks can provide adequate protection and recourse in the event of future outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The road ahead includes improving infrastructure, better preparing for cyber threats, and ensuring that legal frameworks can provide adequate protection and recourse in the event of future outages."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "has_become",
+    "value": "a call to action for governments, service providers, and citizens alike to fortify their collective approach to internet resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the recent crisis has become a call to action for governments, service providers, and citizens alike to fortify their collective approach to internet resilience."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "The Global Internet Outage Crisis",
+    "relation": "will_shape",
+    "value": "the future of internet service provision and the rights of consumers around the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unfolding legal discussions and policy responses will undoubtedly shape the future of internet service provision and the rights of consumers around the globe."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

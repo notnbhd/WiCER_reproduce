@@ -1,0 +1,983 @@
+{
+ "inventory": [
+  "rock climbing",
+  "bouldering",
+  "George Mallory",
+  "John Salath\u00e9",
+  "Yosemite",
+  "America",
+  "pitons",
+  "Royal Robbins",
+  "Yvon Chouinard",
+  "clean climbing",
+  "nuts and hexes",
+  "Ray Jardine",
+  "spring-loaded camming devices",
+  "Alex Grant",
+  "Sarah Levin",
+  "dynamic climbing ropes",
+  "harness designs",
+  "laybacking",
+  "jamming",
+  "edging",
+  "Jeff Johnson",
+  "indoor gyms",
+  "technique clinics",
+  "John Sherman",
+  "V-scale",
+  "Boulder Bash",
+  "Emma Davidson",
+  "Luke Martinez"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "rock climbing",
+    "relation": "began_as",
+    "value": "a sport for the earnest few",
+    "time": "early 20th century",
+    "speaker": null,
+    "verbatim": [
+     "Beginning in the early 20th century as a sport for the earnest few"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "rock climbing",
+    "relation": "evolved_into",
+    "value": "much-loved activities that bond both beginners and pros",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have evolved into much-loved activities that bond both beginners and pros"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "rock climbing",
+    "relation": "conjures_images_of",
+    "value": "alpine adventurers, draped in heavy tweed, their leather hobnail boots scrambling over craggy edges",
+    "time": "1920s",
+    "speaker": null,
+    "verbatim": [
+     "Back in the 1920s, a mere reference to rock climbing would conjure images of alpine adventurers, draped in heavy tweed, their leather hobnail boots scrambling over craggy edges"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "rock climbing",
+    "relation": "ropes_made_of",
+    "value": "hemp",
+    "time": "1920s",
+    "speaker": null,
+    "verbatim": [
+     "Those were the days when ropes were made of hemp"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "pitons",
+    "relation": "made_by",
+    "value": "handforged",
+    "time": "1920s",
+    "speaker": null,
+    "verbatim": [
+     "metal spikes were handforged"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "pitons",
+    "relation": "served_as",
+    "value": "the primary lifeline for climbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serving as the primary lifeline for climbers"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "George Mallory",
+    "relation": "described_as",
+    "value": "legend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "legends like George Mallory"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "George Mallory",
+    "relation": "influenced",
+    "value": "the ethos of climbing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "legends like George Mallory influenced the ethos of climbing"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "George Mallory",
+    "relation": "viewed_climbing_as",
+    "value": "a noble pursuit in its own right, not solely as preparation for mountaineering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not solely as preparation for mountaineering but as a noble pursuit in its own right"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "John Salath\u00e9",
+    "relation": "described_as",
+    "value": "a Yosemite legend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Salath\u00e9, a Yosemite legend who immigrated to America in 1939"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "John Salath\u00e9",
+    "relation": "immigrated_to",
+    "value": "America",
+    "time": "1939",
+    "speaker": null,
+    "verbatim": [
+     "John Salath\u00e9, a Yosemite legend who immigrated to America in 1939"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "America",
+    "relation": "received_immigrant_from",
+    "value": "John Salath\u00e9",
+    "time": "1939",
+    "speaker": null,
+    "verbatim": [
+     "John Salath\u00e9, a Yosemite legend who immigrated to America in 1939"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Yosemite",
+    "relation": "associated_with_legend",
+    "value": "John Salath\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Yosemite legend"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John Salath\u00e9",
+    "relation": "revolutionized",
+    "value": "the climbing gear of the era",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "revolutionized the climbing gear of the era"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Salath\u00e9",
+    "relation": "shaped_pitons_from",
+    "value": "discarded automobile parts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He shaped pitons out of discarded automobile parts"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "pitons",
+    "relation": "compared_to_european_gear",
+    "value": "stronger and more durable than the European gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were stronger and more durable than the European gear"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "pitons",
+    "relation": "facilitated",
+    "value": "climbs that were previously thought impossible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This facilitated climbs that were previously thought impossible"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "pitons",
+    "relation": "building_blocks_for",
+    "value": "climbing protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These pitons were the building blocks for climbing protection"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "pitons",
+    "relation": "laid_foundation_for",
+    "value": "today's advanced gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "laid the foundation for today's advanced gear"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Royal Robbins",
+    "relation": "advocated",
+    "value": "clean climbing",
+    "time": "1960s",
+    "speaker": null,
+    "verbatim": [
+     "the 1960s marked a significant shift with climbers like Royal Robbins and Yvon Chouinard advocating for clean climbing"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Yvon Chouinard",
+    "relation": "advocated",
+    "value": "clean climbing",
+    "time": "1960s",
+    "speaker": null,
+    "verbatim": [
+     "the 1960s marked a significant shift with climbers like Royal Robbins and Yvon Chouinard advocating for clean climbing"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "clean climbing",
+    "relation": "aimed_to",
+    "value": "preserve rock faces and minimize human impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a philosophy that sought to preserve rock faces and minimize human impact"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "clean climbing",
+    "relation": "ushered_in",
+    "value": "the era of nuts and hexes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This ushered in the era of nuts and hexes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "nuts and hexes",
+    "relation": "described_as",
+    "value": "passive protection gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which were passive protection gear that didn't require hammering and thus respected the rock"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "nuts and hexes",
+    "relation": "did_not_require",
+    "value": "hammering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "didn't require hammering"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "nuts and hexes",
+    "relation": "respected",
+    "value": "the rock",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "respected the rock"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "nuts and hexes",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "didn't require hammering and thus respected the rock"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "spring-loaded camming devices",
+    "relation": "innovated_by",
+    "value": "Ray Jardine",
+    "time": "1978",
+    "speaker": null,
+    "verbatim": [
+     "spring-loaded camming devices, innovated by Ray Jardine in 1978"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Ray Jardine",
+    "relation": "innovated",
+    "value": "spring-loaded camming devices",
+    "time": "1978",
+    "speaker": null,
+    "verbatim": [
+     "spring-loaded camming devices, innovated by Ray Jardine in 1978"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "spring-loaded camming devices",
+    "relation": "advent_during",
+    "value": "a true renaissance",
+    "time": "The 1970s and 1980s",
+    "speaker": null,
+    "verbatim": [
+     "The 1970s and 1980s witnessed a true renaissance with the advent of spring-loaded camming devices"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "spring-loaded camming devices",
+    "relation": "nicknamed",
+    "value": "friends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These \"friends\" revolutionized protection"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "spring-loaded camming devices",
+    "relation": "revolutionized",
+    "value": "protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These \"friends\" revolutionized protection"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "spring-loaded camming devices",
+    "relation": "became",
+    "value": "a staple in a climber's rack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became a staple in a climber's rack"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "spring-loaded camming devices",
+    "relation": "sound_synonymous_with",
+    "value": "safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The subtle 'whirr' of a cam's trigger became synonymous with safety"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "spring-loaded camming devices",
+    "relation": "allowed",
+    "value": "climbers to ascend with confidence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing climbers to ascend with confidence"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Alex Grant",
+    "relation": "described_as",
+    "value": "local climbing legends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local climbing legends, such as Alex Grant and Sarah Levin"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sarah Levin",
+    "relation": "described_as",
+    "value": "local climbing legends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local climbing legends, such as Alex Grant and Sarah Levin"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Alex Grant",
+    "relation": "pioneered",
+    "value": "numerous local routes",
+    "time": "since the late 2000s",
+    "speaker": null,
+    "verbatim": [
+     "such as Alex Grant and Sarah Levin who pioneered numerous local routes since the late 2000s"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sarah Levin",
+    "relation": "pioneered",
+    "value": "numerous local routes",
+    "time": "since the late 2000s",
+    "speaker": null,
+    "verbatim": [
+     "such as Alex Grant and Sarah Levin who pioneered numerous local routes since the late 2000s"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "dynamic climbing ropes",
+    "relation": "not_as_commonplace_in_past",
+    "value": "not as commonplace as now",
+    "time": null,
+    "speaker": "Alex Grant and Sarah Levin",
+    "verbatim": [
+     "dynamic climbing ropes and improved harness designs were not as commonplace as now"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "harness designs",
+    "relation": "not_as_commonplace_in_past",
+    "value": "not as commonplace as now",
+    "time": null,
+    "speaker": "Alex Grant and Sarah Levin",
+    "verbatim": [
+     "dynamic climbing ropes and improved harness designs were not as commonplace as now"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Alex Grant",
+    "relation": "observed",
+    "value": "an unprecedented increase in the climbing community",
+    "time": "Since September of 2023",
+    "speaker": "Alex Grant and Sarah Levin",
+    "verbatim": [
+     "Since September of 2023, they've seen an unprecedented increase in the climbing community"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sarah Levin",
+    "relation": "observed",
+    "value": "an unprecedented increase in the climbing community",
+    "time": "Since September of 2023",
+    "speaker": "Alex Grant and Sarah Levin",
+    "verbatim": [
+     "Since September of 2023, they've seen an unprecedented increase in the climbing community"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "rock climbing",
+    "relation": "gear_described_as",
+    "value": "not only safer but more ergonomic and refined",
+    "time": "Since September of 2023",
+    "speaker": "Alex Grant and Sarah Levin",
+    "verbatim": [
+     "with gear that is not only safer but more ergonomic and refined"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "rock climbing",
+    "relation": "raw_strength_no_longer",
+    "value": "ruling the vertical domain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gone are the days of raw strength ruling the vertical domain"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "rock climbing",
+    "relation": "technique_now_dominates",
+    "value": "technique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technique now sits on the throne"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "rock climbing",
+    "relation": "is_about",
+    "value": "the marriage of mental and physical fortitude",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climbing has always been about the marriage of mental and physical fortitude"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "rock climbing",
+    "relation": "involves",
+    "value": "a symphony of balance, precision, and efficient movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a symphony of balance, precision, and efficient movement"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "laybacking",
+    "relation": "refined_by",
+    "value": "climbers of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laybacking, jamming, and edging were fundamental techniques refined by climbers of the past"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "laybacking",
+    "relation": "still_holds_value",
+    "value": "immense value in the climber's repertoire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "movements that still hold immense value in the climber's repertoire"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "jamming",
+    "relation": "refined_by",
+    "value": "climbers of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laybacking, jamming, and edging were fundamental techniques refined by climbers of the past"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "jamming",
+    "relation": "still_holds_value",
+    "value": "immense value in the climber's repertoire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "movements that still hold immense value in the climber's repertoire"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "edging",
+    "relation": "refined_by",
+    "value": "climbers of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laybacking, jamming, and edging were fundamental techniques refined by climbers of the past"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "edging",
+    "relation": "still_holds_value",
+    "value": "immense value in the climber's repertoire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "movements that still hold immense value in the climber's repertoire"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jeff Johnson",
+    "relation": "described_as",
+    "value": "the most experienced climbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The most experienced climbers, like Jeff Johnson"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jeff Johnson",
+    "relation": "scaling_walls_since",
+    "value": "scaling walls",
+    "time": "since the '80s",
+    "speaker": null,
+    "verbatim": [
+     "Jeff Johnson, who has been scaling walls since the '80s"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Jeff Johnson",
+    "relation": "can_attest_to",
+    "value": "the transformation in climbing styles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can attest to the transformation in climbing styles"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "indoor gyms",
+    "relation": "provided",
+    "value": "a platform for climbers to train consistently",
+    "time": "in the 1990s",
+    "speaker": null,
+    "verbatim": [
+     "The introduction of indoor gyms in the 1990s provided a platform for climbers to train consistently"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "indoor gyms",
+    "relation": "led_to",
+    "value": "the development of more gymnastic and dynamic movements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to the development of more gymnastic and dynamic movements"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "indoor gyms",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided a platform for climbers to train consistently, leading to the development of more gymnastic and dynamic movements"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "rock climbing",
+    "relation": "contributed_to",
+    "value": "the collective climbing knowledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "elite climbers have contributed significantly to the collective climbing knowledge"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "technique clinics",
+    "relation": "was",
+    "value": "an underground trend shared among small circles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technique clinics, once an underground trend shared among small circles, have become widespread"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "technique clinics",
+    "relation": "became",
+    "value": "widespread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technique clinics, once an underground trend shared among small circles, have become widespread"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "technique clinics",
+    "relation": "organized_across_city",
+    "value": "many such sessions",
+    "time": "since the autumn of 2023",
+    "speaker": null,
+    "verbatim": [
+     "with many such sessions being organized across the city since the autumn of 2023"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "bouldering",
+    "relation": "described_as",
+    "value": "a more accessible form that rejects ropes and harnesses for climbs typically shorter in length",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bouldering burgeons up as a more accessible form that rejects ropes and harnesses for climbs typically shorter in length"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "bouldering",
+    "relation": "origins",
+    "value": "the alpine training regimens of mountaineers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with origins that can be traced back to the alpine training regimens of mountaineers"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "bouldering",
+    "relation": "boom_signifies",
+    "value": "a shift towards this purist form of climbing",
+    "time": "in the late 20th century",
+    "speaker": null,
+    "verbatim": [
+     "The bouldering boom in the late 20th century signifies a shift towards this purist form of climbing"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "John Sherman",
+    "relation": "popularized",
+    "value": "the V-scale for grading boulder problems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Sherman, who popularized the V-scale for grading boulder problems"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "John Sherman",
+    "relation": "contributed_to",
+    "value": "bouldering's individuality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributed to bouldering's individuality"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "V-scale",
+    "relation": "used_for",
+    "value": "grading boulder problems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "popularized the V-scale for grading boulder problems"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "bouldering",
+    "relation": "culture_vivid_in",
+    "value": "the dense crowds that gather at local boulder hotspots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Today's culture around bouldering is vivid in the dense crowds that gather at local boulder hotspots"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "bouldering",
+    "relation": "beginners_learn_through_osmosis",
+    "value": "from the bold moves of the pros",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where beginners learn through osmosis from the bold moves of the pros"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Boulder Bash",
+    "relation": "occurred_on",
+    "value": "September 15, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual Boulder Bash, which occurred last on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Boulder Bash",
+    "relation": "described_as",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual Boulder Bash"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Boulder Bash",
+    "relation": "commemorates",
+    "value": "this subculture of climbing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "commemorate this subculture of climbing"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Boulder Bash",
+    "relation": "celebrates",
+    "value": "the athletic prowess and problemsolving skills required to conquer these challenging routes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "celebrating the athletic prowess and problemsolving skills required to conquer these challenging routes"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "rock climbing",
+    "relation": "enabled_by",
+    "value": "comprehensive safety systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With comprehensive safety systems, climbers can push boundaries further"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "rock climbing",
+    "relation": "molds",
+    "value": "the identity of this sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continue to mold the identity of this sport"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Emma Davidson",
+    "relation": "described_as",
+    "value": "local climbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local climbers such as Emma Davidson and Luke Martinez"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Luke Martinez",
+    "relation": "described_as",
+    "value": "local climbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local climbers such as Emma Davidson and Luke Martinez"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Emma Davidson",
+    "relation": "began_climbing_as",
+    "value": "neophytes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who began their ascent on these very walls as neophytes"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Luke Martinez",
+    "relation": "began_climbing_as",
+    "value": "neophytes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who began their ascent on these very walls as neophytes"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Emma Davidson",
+    "relation": "now_mentoring",
+    "value": "the next generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now mentoring the next generation"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Luke Martinez",
+    "relation": "now_mentoring",
+    "value": "the next generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now mentoring the next generation"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Emma Davidson",
+    "relation": "inspires",
+    "value": "new climbers to reach heights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their stories, lessons, and camaraderie inspire new climbers to reach heights"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "Luke Martinez",
+    "relation": "inspires",
+    "value": "new climbers to reach heights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their stories, lessons, and camaraderie inspire new climbers to reach heights"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

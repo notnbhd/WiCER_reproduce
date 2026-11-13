@@ -1,0 +1,676 @@
+{
+ "inventory": [
+  "Fairwich",
+  "Grimsley House",
+  "Grimsley family",
+  "Edward Mallory",
+  "Echoes of the Eerie: Ghost Stories of Fairwich",
+  "Wailing Widow of Wickery Bridge",
+  "Megan Jacobs",
+  "Old Willow Cemetery",
+  "Mr. Alistair Crane",
+  "Lady in Gray",
+  "Fairwich Times",
+  "Jessica Newcomb",
+  "Haunts and Histories",
+  "Phantoms and Pubs",
+  "Amelia Barton",
+  "ghost tourism",
+  "storytelling"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Fairwich",
+    "relation": "described_as",
+    "value": "no ordinary town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This was no ordinary town"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Fairwich",
+    "relation": "ghost_stories_passed_down",
+    "value": "from one generation to another",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "passed down from one generation to another"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Grimsley House",
+    "relation": "located_in",
+    "value": "old town of Fairwich",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "huddled outside the storied Grimsley House in the old town of Fairwich"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Grimsley House",
+    "relation": "visited_by_group_on",
+    "value": "a group of curious individuals",
+    "time": "late October 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a crisp evening in late October 2023",
+     "a group of curious individuals huddled outside the storied Grimsley House"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "storytelling",
+    "relation": "is",
+    "value": "a vessel for history, culture, and, at times, warnings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as a vessel for history, culture, and, at times, warnings"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "storytelling",
+    "relation": "is_hallowed_ritual_in",
+    "value": "Fairwich",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In Fairwich, as in many other towns with a propensity for the paranormal, storytelling is a hallowed ritual."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Edward Mallory",
+    "relation": "is",
+    "value": "local historian and folklorist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local historian and folklorist, Edward Mallory"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Echoes of the Eerie: Ghost Stories of Fairwich",
+    "relation": "published_by",
+    "value": "Edward Mallory",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, local historian and folklorist, Edward Mallory, published his compendium"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Echoes of the Eerie: Ghost Stories of Fairwich",
+    "relation": "contains",
+    "value": "ghostly anecdotes and haunted histories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing to the public a curation of ghostly anecdotes and haunted histories"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Edward Mallory",
+    "relation": "work_drew_on",
+    "value": "accounts dating back to the 1800s",
+    "time": "1800s",
+    "speaker": null,
+    "verbatim": [
+     "Mallory's work drew from accounts dating back to the 1800s"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "storytelling",
+    "relation": "superstitions_of_1800s_were",
+    "value": "explanations for the unexplainable, comfort for the uncomfortable",
+    "time": "1800s",
+    "speaker": null,
+    "verbatim": [
+     "they were explanations for the unexplainable, comfort for the uncomfortable"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Echoes of the Eerie: Ghost Stories of Fairwich",
+    "relation": "includes",
+    "value": "tales of the Wailing Widow of Wickery Bridge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The compendium includes tales of the Wailing Widow of Wickery Bridge"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Wailing Widow of Wickery Bridge",
+    "relation": "lamenting",
+    "value": "the untimely death of her betrothed, lost to the treacherous waters below",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can still be heard lamenting the untimely death of her betrothed, lost to the treacherous waters below"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Grimsley House",
+    "relation": "is",
+    "value": "a Victorian mansion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Victorian mansion that has stood since October 1883"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Grimsley House",
+    "relation": "has_stood_since",
+    "value": "October 1883",
+    "time": "October 1883",
+    "speaker": null,
+    "verbatim": [
+     "a Victorian mansion that has stood since October 1883"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Grimsley House",
+    "relation": "said_to_be_home_to_spirits_of",
+    "value": "Grimsley family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is said to be home to the spirits of its original inhabitants, the Grimsley family."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Grimsley family",
+    "relation": "original_inhabitants_of",
+    "value": "Grimsley House",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the spirits of its original inhabitants, the Grimsley family"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Grimsley House",
+    "relation": "reported_phenomenon",
+    "value": "inexplicable footsteps",
+    "time": null,
+    "speaker": "Witnesses",
+    "verbatim": [
+     "Witnesses have reported inexplicable footsteps"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Grimsley House",
+    "relation": "reported_phenomenon",
+    "value": "ghostly apparitions in period attire",
+    "time": null,
+    "speaker": "Witnesses",
+    "verbatim": [
+     "ghostly apparitions in period attire"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Grimsley House",
+    "relation": "reported_phenomenon",
+    "value": "the faint sounds of a piano playing from the desolate ballroom",
+    "time": null,
+    "speaker": "Witnesses",
+    "verbatim": [
+     "the faint sounds of a piano playing from the desolate ballroom"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Grimsley House",
+    "relation": "became",
+    "value": "an infamous landmark",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the decades since it became an infamous landmark"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Megan Jacobs",
+    "relation": "is",
+    "value": "a lifelong resident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Megan Jacobs, a lifelong resident"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Megan Jacobs",
+    "relation": "experienced_encounter_at",
+    "value": "Grimsley House",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a lifelong resident who experienced an unexplained encounter at Grimsley House in September 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Megan Jacobs",
+    "relation": "recounted",
+    "value": "The air was heavy, and then, out of nowhere, a chill just ran down my spine, and I heard a whisper calling my name, though there was no one there.",
+    "time": null,
+    "speaker": "Megan Jacobs",
+    "verbatim": [
+     "The air was heavy, and then, out of nowhere, a chill just ran down my spine, and I heard a whisper calling my name, though there was no one there."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Old Willow Cemetery",
+    "relation": "located_in",
+    "value": "heart of Fairwich",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traveling a little further into the heart of Fairwich, the Old Willow Cemetery"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Old Willow Cemetery",
+    "relation": "has_allure",
+    "value": "dark allure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Old Willow Cemetery holds its own dark allure"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Old Willow Cemetery",
+    "relation": "resting_place_of",
+    "value": "many of Fairwich's earliest settlers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Resting place to many of Fairwich's earliest settlers"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Old Willow Cemetery",
+    "relation": "surrounded_by_tales_of",
+    "value": "ghostly guardians who keep watch over the slumbering dead",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this graveyard is surrounded by tales of ghostly guardians who keep watch over the slumbering dead"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mr. Alistair Crane",
+    "relation": "is",
+    "value": "caretaker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The caretaker, Mr. Alistair Crane, stated"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mr. Alistair Crane",
+    "relation": "stated",
+    "value": "There's a certain peace here during the day, but come nightfall, there's a stirring that words can't justly describe.",
+    "time": "September 20, 2023",
+    "speaker": "Mr. Alistair Crane",
+    "verbatim": [
+     "There's a certain peace here during the day, but come nightfall, there's a stirring that words can't justly describe."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lady in Gray",
+    "relation": "is_frequent_sighting_at",
+    "value": "Old Willow Cemetery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most frequent sightings at Old Willow"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lady in Gray",
+    "relation": "described_as",
+    "value": "a spectral figure that floats among the gravestones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a spectral figure that floats among the gravestones"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lady in Gray",
+    "relation": "face_obscured_by",
+    "value": "the hood of her cloak",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her face obscured by the hood of her cloak"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lady in Gray",
+    "relation": "appears_to",
+    "value": "those who are carrying heavy burdens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Superstition has it that she appears to those who are carrying heavy burdens"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lady in Gray",
+    "relation": "offers",
+    "value": "silent company and, perhaps, solace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering silent company and, perhaps, solace"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Fairwich Times",
+    "relation": "published",
+    "value": "a survey indicating that 67% of the local population believes in the supernatural to some degree",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 8, 2023, the Fairwich Times published a survey"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Fairwich",
+    "relation": "local_population_belief_in_supernatural",
+    "value": "67%",
+    "time": "September 8, 2023",
+    "speaker": "Fairwich Times",
+    "verbatim": [
+     "67% of the local population believes in the supernatural to some degree"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Fairwich",
+    "relation": "fosters",
+    "value": "a culture where past and present intermingle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a culture where past and present intermingle"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "storytelling",
+    "relation": "spreads_through",
+    "value": "podcasts, blogs, or social media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "be it through podcasts, blogs, or social media"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jessica Newcomb",
+    "relation": "host_of",
+    "value": "Haunts and Histories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Newcomb, host of the popular podcast"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jessica Newcomb",
+    "relation": "visited",
+    "value": "Fairwich",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "visited Fairwich on September 25, 2023, to cover its eerie allure"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jessica Newcomb",
+    "relation": "remarked",
+    "value": "The thing about ghost stories is that they're never just about the scares",
+    "time": null,
+    "speaker": "Jessica Newcomb",
+    "verbatim": [
+     "The thing about ghost stories is that they're never just about the scares,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Jessica Newcomb",
+    "relation": "remarked",
+    "value": "They speak to something deeper within us - our fears, our hopes, and our understanding of life and death.",
+    "time": null,
+    "speaker": "Jessica Newcomb",
+    "verbatim": [
+     "They speak to something deeper within us - our fears, our hopes, and our understanding of life and death."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "ghost tourism",
+    "relation": "interest_grows_with",
+    "value": "the allure of the supernatural",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the allure of the supernatural grows, so does the interest in ghost tourism."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Fairwich",
+    "relation": "steady_increase_in_visitors_since",
+    "value": "the turn of the millennium",
+    "time": "Since the turn of the millennium",
+    "speaker": null,
+    "verbatim": [
+     "Since the turn of the millennium, Fairwich has seen a steady increase in visitors"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Fairwich",
+    "relation": "ghost_tours_sell_out",
+    "value": "especially around Halloween",
+    "time": "Every year",
+    "speaker": null,
+    "verbatim": [
+     "Every year, especially around Halloween, the town's ghost tours sell out"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Phantoms and Pubs",
+    "relation": "combines",
+    "value": "historical pub crawls with ghost stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company that combines historical pub crawls with ghost stories"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Phantoms and Pubs",
+    "relation": "has_flourished",
+    "value": "true",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have flourished"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Amelia Barton",
+    "relation": "is_owner_of",
+    "value": "Phantoms and Pubs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amelia Barton, the owner"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Phantoms and Pubs",
+    "relation": "highest_bookings_to_date",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": "Amelia Barton",
+    "verbatim": [
+     "reported that September 2023 saw their highest bookings to date"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Amelia Barton",
+    "relation": "said",
+    "value": "People come for the ghosts but stay for the history",
+    "time": null,
+    "speaker": "Amelia Barton",
+    "verbatim": [
+     "People come for the ghosts but stay for the history,"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Amelia Barton",
+    "relation": "said",
+    "value": "There's a thrill in the possibility of encountering the unknown, and here, the past lingers like a persistent fog.",
+    "time": null,
+    "speaker": "Amelia Barton",
+    "verbatim": [
+     "There's a thrill in the possibility of encountering the unknown, and here, the past lingers like a persistent fog."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "storytelling",
+    "relation": "community_gathers_to_share",
+    "value": "the collective experience of storytelling",
+    "time": "for centuries",
+    "speaker": null,
+    "verbatim": [
+     "The community gathers, as it has for centuries, to share in the collective experience of storytelling."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "storytelling",
+    "relation": "essence_has_not_changed",
+    "value": "the essence of these tales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the essence of these tales has not."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "storytelling",
+    "relation": "is_fundamental_part_of",
+    "value": "the regional identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are a fundamental part of the regional identity"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Edward Mallory",
+    "relation": "stands_before",
+    "value": "his neighbors and friends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Edward Mallory, standing before his neighbors and friends"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Edward Mallory",
+    "relation": "opens",
+    "value": "the well-worn pages of his compendium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opens the well-worn pages of his compendium"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Edward Mallory",
+    "relation": "begins",
+    "value": "another tale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "clearing his throat before beginning another tale"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "storytelling",
+    "relation": "crowd_drawn_to",
+    "value": "the warmth of the story's fire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The crowd leans in, drawn to the warmth of the story's fire"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

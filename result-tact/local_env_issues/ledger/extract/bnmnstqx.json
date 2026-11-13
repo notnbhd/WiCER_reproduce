@@ -1,0 +1,580 @@
+{
+ "inventory": [
+  "Sarah Jackson",
+  "Urban Greenspace Institute",
+  "GreenSpots",
+  "CityHive",
+  "Michael Thompson",
+  "Urban Canopy Project",
+  "Geographic Information System (GIS)",
+  "Elena Martinez",
+  "James Walters",
+  "Linden Greenway",
+  "Cleveland, Ohio",
+  "Olivia Sanchez",
+  "Tom Geller",
+  "Green Circuit",
+  "New York City",
+  "Growing Minds project",
+  "Chicago",
+  "Laura Phelps",
+  "Amanda Rodriguez",
+  "Park Partner Program",
+  "InfoSystems"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Jackson",
+    "relation": "position",
+    "value": "Chairperson of the Urban Greenspace Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jackson, Chairperson of the Urban Greenspace Institute"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Jackson",
+    "relation": "stated",
+    "value": "We cannot stand for a society where a zip code determines your right to clean air, relaxation, and connection with nature.",
+    "time": "September 15",
+    "speaker": "Sarah Jackson",
+    "verbatim": [
+     "stated on September 15, \"We cannot stand for a society where a zip code determines your right to clean air, relaxation, and connection with nature.\""
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "GreenSpots",
+    "relation": "launched_on",
+    "value": "October 12",
+    "time": "October 12",
+    "speaker": null,
+    "verbatim": [
+     "October 12 marked the launch of the GreenSpots initiative by the nonprofit organization CityHive."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "GreenSpots",
+    "relation": "launched_by",
+    "value": "CityHive",
+    "time": "October 12",
+    "speaker": null,
+    "verbatim": [
+     "October 12 marked the launch of the GreenSpots initiative by the nonprofit organization CityHive."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "CityHive",
+    "relation": "is_a",
+    "value": "nonprofit organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by the nonprofit organization CityHive"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Michael Thompson",
+    "relation": "position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by CEO Michael Thompson"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "GreenSpots",
+    "relation": "led_by",
+    "value": "Michael Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by CEO Michael Thompson, GreenSpots employs"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "GreenSpots",
+    "relation": "employs",
+    "value": "a multifaceted strategy to revitalize neglected spaces and make them accessible for all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GreenSpots employs a multifaceted strategy to revitalize neglected spaces and make them accessible for all."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Michael Thompson",
+    "relation": "stated",
+    "value": "It's about bringing the park to the people, whether that's by adaptive redesign or by creating entirely new spaces within their neighborhoods,",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "\"It's about bringing the park to the people, whether that's by adaptive redesign or by creating entirely new spaces within their neighborhoods,\" says Thompson."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "GreenSpots",
+    "relation": "flagship_project",
+    "value": "adaptive use of underutilized or vacant lots, transforming them into micro-parks and community gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the program's flagship projects is the adaptive use of underutilized or vacant lots, transforming them into micro-parks and community gardens."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "GreenSpots",
+    "relation": "involves",
+    "value": "local residents in both design and maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By involving local residents in both design and maintenance"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "GreenSpots",
+    "relation": "ensures",
+    "value": "these spaces meet specific community needs and foster a sense of ownership and pride",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program ensures that these spaces meet specific community needs and foster a sense of ownership and pride."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "GreenSpots",
+    "relation": "mechanism_of",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By involving local residents in both design and maintenance, the program ensures that these spaces meet specific community needs"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Urban Canopy Project",
+    "relation": "started_on",
+    "value": "November 3",
+    "time": "November 3",
+    "speaker": null,
+    "verbatim": [
+     "The Urban Canopy Project, which kicked off on November 3"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Urban Canopy Project",
+    "relation": "employs",
+    "value": "cutting-edge Geographic Information System (GIS) technology to map out the city's green assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employs cutting-edge Geographic Information System (GIS) technology to map out the city's green assets"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Elena Martinez",
+    "relation": "position",
+    "value": "the project's lead researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Elena Martinez, the project's lead researcher"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Elena Martinez",
+    "relation": "stated",
+    "value": "Our interactive map lets residents discover hidden green gems and also crowdsource information about the usability and condition of these spaces,",
+    "time": null,
+    "speaker": "Elena Martinez",
+    "verbatim": [
+     "\"Our interactive map lets residents discover hidden green gems and also crowdsource information about the usability and condition of these spaces,\" explains Dr. Elena Martinez"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Urban Canopy Project",
+    "relation": "installs",
+    "value": "QR codes in parks that link to digital platforms where visitors can learn about the park's flora and fauna, history, and upcoming community events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QR codes in parks that link to digital platforms where visitors can learn about the park's flora and fauna, history, and upcoming community events."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "James Walters",
+    "relation": "position",
+    "value": "urban planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban planners like James Walters"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "James Walters",
+    "relation": "believes",
+    "value": "Design charrettes and public forums ignite conversations on how a park should serve its community.",
+    "time": null,
+    "speaker": "James Walters",
+    "verbatim": [
+     "Urban planners like James Walters believe that \"Design charrettes and public forums ignite conversations on how a park should serve its community.\""
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Linden Greenway",
+    "relation": "located_in",
+    "value": "Cleveland, Ohio",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Linden Greenway in Cleveland, Ohio"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Linden Greenway",
+    "relation": "transformed_into",
+    "value": "a cohesive, accessible park through direct community involvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where a previously disconnected series of green patches was transformed into a cohesive, accessible park through direct community involvement"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Olivia Sanchez",
+    "relation": "spearheaded",
+    "value": "the Linden Greenway project",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The project, spearheaded by landscape architect Olivia Sanchez"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Olivia Sanchez",
+    "relation": "position",
+    "value": "landscape architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded by landscape architect Olivia Sanchez"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Linden Greenway",
+    "relation": "incorporated_feedback_from",
+    "value": "over 500 residents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporated feedback from over 500 residents"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Linden Greenway",
+    "relation": "catered_to",
+    "value": "varied needs, including recreational facilities for youths and serene spots for elders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catered to varied needs, including recreational facilities for youths and serene spots for elders"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Linden Greenway",
+    "relation": "in_order_to",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporated feedback from over 500 residents to ensure that the greenway catered to varied needs"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Tom Geller",
+    "relation": "position",
+    "value": "urban mobility expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban mobility expert Tom Geller"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Tom Geller",
+    "relation": "revealed",
+    "value": "plans for a \"Green Circuit\" in New York City",
+    "time": "December 5",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, urban mobility expert Tom Geller revealed plans for a \"Green Circuit\" in New York City."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Green Circuit",
+    "relation": "located_in",
+    "value": "New York City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plans for a \"Green Circuit\" in New York City."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Green Circuit",
+    "relation": "aims_to",
+    "value": "link existing parks with pedestrian and bike pathways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative aims to link existing parks with pedestrian and bike pathways"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Green Circuit",
+    "relation": "promotes",
+    "value": "sustainable transportation options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while promoting sustainable transportation options"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Tom Geller",
+    "relation": "stated",
+    "value": "It's about creating a green thread that weaves through the urban fabric, offering safe, scenic routes to our parks,",
+    "time": null,
+    "speaker": "Tom Geller",
+    "verbatim": [
+     "\"It's about creating a green thread that weaves through the urban fabric, offering safe, scenic routes to our parks,\" explains Geller."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Growing Minds project",
+    "relation": "launched_in",
+    "value": "schools across Chicago",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "The Growing Minds project, launched in schools across Chicago on September 20"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Growing Minds project",
+    "relation": "launched_on",
+    "value": "September 20",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "The Growing Minds project, launched in schools across Chicago on September 20"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Growing Minds project",
+    "relation": "integrates",
+    "value": "green spaces into curricula",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrates green spaces into curricula"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Growing Minds project",
+    "relation": "supports",
+    "value": "schools in creating small parks on their grounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The project supports schools in creating small parks on their grounds"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Laura Phelps",
+    "relation": "position",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says educator Laura Phelps"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Laura Phelps",
+    "relation": "stated",
+    "value": "When you turn a lesson into a living experience, it sticks,",
+    "time": null,
+    "speaker": "Laura Phelps",
+    "verbatim": [
+     "\"When you turn a lesson into a living experience, it sticks,\" says educator Laura Phelps"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Laura Phelps",
+    "relation": "witnessed",
+    "value": "the program cultivate both knowledge and stewardship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has witnessed the program cultivate both knowledge and stewardship"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Amanda Rodriguez",
+    "relation": "position",
+    "value": "social worker and advocacy leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Rodriguez, a social worker and advocacy leader"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Amanda Rodriguez",
+    "relation": "emphasizes",
+    "value": "the importance of designing parks with inclusivity at the forefront",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizes the importance of designing parks with inclusivity at the forefront"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Amanda Rodriguez",
+    "relation": "stated",
+    "value": "It's about more than just adding ramps,",
+    "time": null,
+    "speaker": "Amanda Rodriguez",
+    "verbatim": [
+     "\"It's about more than just adding ramps,\" she insists."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Amanda Rodriguez",
+    "relation": "initiative_began_on",
+    "value": "October 3",
+    "time": "October 3",
+    "speaker": null,
+    "verbatim": [
+     "Since her team's initiative began on October 3"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Amanda Rodriguez",
+    "relation": "focused_on",
+    "value": "sensory gardens for the visually impaired, quiet zones for neurodivergent individuals, and open spaces for cultural celebrations reflective of neighborhood demographics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they've focused on sensory gardens for the visually impaired, quiet zones for neurodivergent individuals, and open spaces for cultural celebrations reflective of neighborhood demographics."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Park Partner Program",
+    "relation": "encourages",
+    "value": "businesses to 'adopt' a green space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Park Partner Program encourages businesses to 'adopt' a green space"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Park Partner Program",
+    "relation": "provides",
+    "value": "funding and volunteers for its maintenance and improvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing funding and volunteers for its maintenance and improvement"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "InfoSystems",
+    "relation": "is_a",
+    "value": "tech giant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech giant InfoSystems"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "InfoSystems",
+    "relation": "announced",
+    "value": "sponsorship of three city parks",
+    "time": "November 15",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, tech giant InfoSystems announced their sponsorship of three city parks"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "InfoSystems",
+    "relation": "cited_reason",
+    "value": "commitment to environmental sustainability and community wellness",
+    "time": null,
+    "speaker": "InfoSystems",
+    "verbatim": [
+     "citing it as part of their \"commitment to environmental sustainability and community wellness.\""
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

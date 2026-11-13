@@ -1,0 +1,588 @@
+{
+ "inventory": [
+  "Lincoln Lions",
+  "Coach Martin Sanders",
+  "GoFundMe",
+  "Kickstarter",
+  "Lacey Lakeview Lacrosse",
+  "Southridge Hawks",
+  "Hawks Day",
+  "Rent-a-Player",
+  "Emily Thompson",
+  "Riverside Rowers",
+  "Panthers Volleyball Club",
+  "Golden Eagles Basketball",
+  "Pinnacle Parkour Group",
+  "American Ninja Warrior",
+  "Dynamo Divers",
+  "Mrs. Allison Beckwith",
+  "community sports grant",
+  "Seaside Soccer Club",
+  "Coastal Fair",
+  "Thanksgiving Turkey Trots",
+  "Beach Volleyball tournaments",
+  "local chain of fitness centers",
+  "tech company",
+  "Government-led sports initiatives"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "GoFundMe",
+    "relation": "is_crowdfunding_site",
+    "value": "crowdfunding site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smart utilization of crowdfunding sites such as GoFundMe and Kickstarter has become a prevalent approach."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Kickstarter",
+    "relation": "is_crowdfunding_site",
+    "value": "crowdfunding site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smart utilization of crowdfunding sites such as GoFundMe and Kickstarter has become a prevalent approach."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Lincoln Lions",
+    "relation": "is_a",
+    "value": "local high school soccer team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Lincoln Lions, a local high school soccer team that raised over $5,000 within a month in October 2023 for their tournament in a different state"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Lincoln Lions",
+    "relation": "raised_funds",
+    "value": "over $5,000",
+    "time": "within a month in October 2023",
+    "speaker": null,
+    "verbatim": [
+     "raised over $5,000 within a month in October 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Lincoln Lions",
+    "relation": "fundraised_for",
+    "value": "their tournament in a different state",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for their tournament in a different state"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Coach Martin Sanders",
+    "relation": "guided",
+    "value": "the Lincoln Lions in creating a compelling video",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Guided by Coach Martin Sanders, they created a compelling video"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Lincoln Lions",
+    "relation": "created",
+    "value": "a compelling video that showcased the team's spirit, commitment, and need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they created a compelling video that showcased the team's spirit, commitment, and need"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Lincoln Lions",
+    "relation": "video_resonated_with",
+    "value": "potential donors who reside beyond their local community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which resonated well with potential donors who reside beyond their local community"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Lacey Lakeview Lacrosse",
+    "relation": "initiated",
+    "value": "social media challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "initiated by the Lacey Lakeview Lacrosse team"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Lacey Lakeview Lacrosse",
+    "relation": "challenges_drew_support_from",
+    "value": "across the country",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have roped in support from across the country"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Southridge Hawks",
+    "relation": "hosted",
+    "value": "Hawks Day",
+    "time": "September 17th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Southridge Hawks hosted a \"Hawks Day\" on September 17th, 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Hawks Day",
+    "relation": "included",
+    "value": "a mini-sports clinic for children, autograph sessions with local sports personalities, and a variety of games and food stalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which included a mini-sports clinic for children, autograph sessions with local sports personalities, and a variety of games and food stalls"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Hawks Day",
+    "relation": "raised",
+    "value": "a substantial fund",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event not only raised a substantial fund"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Southridge Hawks",
+    "relation": "strengthened_connection_with",
+    "value": "the local populace and potential sponsors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "strengthened the team's connection with the local populace and potential sponsors"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Rent-a-Player",
+    "relation": "is",
+    "value": "team members offer their services for household chores or business needs in exchange for a donation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Rent-a-Player,\" where team members offer their services for household chores or business needs in exchange for a donation"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Emily Thompson",
+    "relation": "is",
+    "value": "star pitcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like when star pitcher Emily Thompson painted a mural for a local eatery"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Emily Thompson",
+    "relation": "painted",
+    "value": "a mural for a local eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "painted a mural for a local eatery"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Emily Thompson",
+    "relation": "raised_funds_and_awareness_for",
+    "value": "her softball team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raising both funds and awareness for her softball team"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Emily Thompson",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "verbatim": [
+     "painted a mural for a local eatery, raising both funds and awareness for her softball team"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Riverside Rowers",
+    "relation": "secured",
+    "value": "a full year sponsorship deal with a local chain of fitness centers",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "The Riverside Rowers secured a full year sponsorship deal with a local chain of fitness centers in late September"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Riverside Rowers",
+    "relation": "generated",
+    "value": "enough funds to cover their travel costs well into the 2024 season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "generating enough funds to cover their travel costs well into the 2024 season"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Riverside Rowers",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "verbatim": [
+     "secured a full year sponsorship deal with a local chain of fitness centers in late September, generating enough funds to cover their travel costs well into the 2024 season"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "local chain of fitness centers",
+    "relation": "sponsored",
+    "value": "The Riverside Rowers",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "The Riverside Rowers secured a full year sponsorship deal with a local chain of fitness centers in late September"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Panthers Volleyball Club",
+    "relation": "partnered_with",
+    "value": "a tech company",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "When the Panthers Volleyball Club partnered with a tech company to host a gaming tournament on November 4th"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Panthers Volleyball Club",
+    "relation": "hosted",
+    "value": "a gaming tournament",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "partnered with a tech company to host a gaming tournament on November 4th"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "tech company",
+    "relation": "partnered_with",
+    "value": "Panthers Volleyball Club",
+    "time": "November 4th",
+    "speaker": null,
+    "verbatim": [
+     "partnered with a tech company to host a gaming tournament on November 4th"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Panthers Volleyball Club",
+    "relation": "raised",
+    "value": "an unexpected $3,000",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "raised an unexpected $3,000"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Panthers Volleyball Club",
+    "relation": "tournament_attracted",
+    "value": "the youth demographic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it attracted the youth demographic"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Golden Eagles Basketball",
+    "relation": "held",
+    "value": "a three-day workshop led by former college stars for young players",
+    "time": "October 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Such was the case on October 20th, 2023, when Golden Eagles Basketball held a three-day workshop led by former college stars for young players"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Golden Eagles Basketball",
+    "relation": "supported_fund_of",
+    "value": "the basketball team's fund",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The clinic not only supported the basketball team's fund"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Golden Eagles Basketball",
+    "relation": "provided",
+    "value": "invaluable mentorship opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also provided the young attendees with invaluable mentorship opportunities"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Beach Volleyball tournaments",
+    "relation": "held_during",
+    "value": "the summer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as Beach Volleyball tournaments during the summer"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Beach Volleyball tournaments",
+    "relation": "attract",
+    "value": "participants beyond the team's immediate circle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inventive sporting events, such as Beach Volleyball tournaments during the summer or Thanksgiving Turkey Trots, attract participants beyond the team's immediate circle."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Thanksgiving Turkey Trots",
+    "relation": "attract",
+    "value": "participants beyond the team's immediate circle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inventive sporting events, such as Beach Volleyball tournaments during the summer or Thanksgiving Turkey Trots, attract participants beyond the team's immediate circle."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Pinnacle Parkour Group",
+    "relation": "raised",
+    "value": "over $2,500",
+    "time": "September 30th",
+    "speaker": null,
+    "verbatim": [
+     "The Pinnacle Parkour Group raised over $2,500 on September 30th"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Pinnacle Parkour Group",
+    "relation": "hosted",
+    "value": "a communitywide obstacle race",
+    "time": "September 30th",
+    "speaker": null,
+    "verbatim": [
+     "by hosting a communitywide obstacle race"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Pinnacle Parkour Group",
+    "relation": "raised_by_means_of",
+    "value_ref": "c36",
+    "verbatim": [
+     "raised over $2,500 on September 30th by hosting a communitywide obstacle race"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "American Ninja Warrior",
+    "relation": "is_a",
+    "value": "TV show",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the popularity of TV shows like \"American Ninja Warrior.\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "American Ninja Warrior",
+    "relation": "inspired_obstacle_race_of",
+    "value": "Pinnacle Parkour Group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a communitywide obstacle race inspired by the popularity of TV shows like \"American Ninja Warrior.\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dynamo Divers",
+    "relation": "secured",
+    "value": "a $10,000 community sports grant",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Dynamo Divers dive team, with the help of an experienced grant writer parent, Mrs. Allison Beckwith, secured a $10,000 community sports grant in December 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Mrs. Allison Beckwith",
+    "relation": "is",
+    "value": "an experienced grant writer parent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the help of an experienced grant writer parent, Mrs. Allison Beckwith"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mrs. Allison Beckwith",
+    "relation": "helped_secure",
+    "value": "a $10,000 community sports grant",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "with the help of an experienced grant writer parent, Mrs. Allison Beckwith, secured a $10,000 community sports grant in December 2023"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "community sports grant",
+    "relation": "amount",
+    "value": "$10,000",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "secured a $10,000 community sports grant in December 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "community sports grant",
+    "relation": "awarded_to",
+    "value": "Dynamo Divers",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Dynamo Divers dive team, with the help of an experienced grant writer parent, Mrs. Allison Beckwith, secured a $10,000 community sports grant in December 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "community sports grant",
+    "relation": "earmarked_for",
+    "value": "updating their pool equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "earmarked for updating their pool equipment"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dynamo Divers",
+    "relation": "pool_equipment_condition",
+    "value": "had long been in a state of disrepair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which had long been in a state of disrepair"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Government-led sports initiatives",
+    "relation": "provide",
+    "value": "financial support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Government-led sports initiatives occasionally provide financial support"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Government-led sports initiatives",
+    "relation": "recognize",
+    "value": "the importance of sports in fostering youth development and community spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the importance of sports in fostering youth development and community spirit"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Seaside Soccer Club",
+    "relation": "participated_in",
+    "value": "the annual Coastal Fair",
+    "time": "November 25th",
+    "speaker": null,
+    "verbatim": [
+     "This method proved beneficial for the Seaside Soccer Club at the annual Coastal Fair on November 25th"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Coastal Fair",
+    "relation": "held_on",
+    "value": "November 25th",
+    "time": "November 25th",
+    "speaker": null,
+    "verbatim": [
+     "at the annual Coastal Fair on November 25th"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Seaside Soccer Club",
+    "relation": "contributed_to",
+    "value": "their new uniforms through a homemade candle sale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which notably contributed to their new uniforms through a homemade candle sale"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

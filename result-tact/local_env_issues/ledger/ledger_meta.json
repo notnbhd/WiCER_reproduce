@@ -1,0 +1,29 @@
+{
+  "topic": "local_env_issues",
+  "corpus_sha256": "8041066b1e9870993ead993e6619dc20f758745b5ed1ed894c5ae0331f8982ba",
+  "n_documents": 80,
+  "n_claims": 4902,
+  "n_claims_before_merge": 4902,
+  "n_raw": 4902,
+  "n_rejected": 0,
+  "n_multispan": 38,
+  "n_relational": 222,
+  "rejection_rate": 0.0,
+  "n_contradictions": 46,
+  "inventory_size": 1660,
+  "n_canonical_entities": 1562,
+  "entity_collision_rate": 0.004481434058898848,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 399031,
+    "output_tokens": 1806904,
+    "measured_cost_usd": 0.0
+  }
+}

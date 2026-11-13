@@ -1,0 +1,641 @@
+{
+ "inventory": [
+  "Thompson's Farm",
+  "John Thompson",
+  "Susan Rodriguez",
+  "Emily Thompson",
+  "Chef Marco DiLorenzo",
+  "La Dolce Vita",
+  "beekeeping",
+  "honey",
+  "honey-infused vinaigrette",
+  "honey-glazed duck",
+  "honey caramel apple",
+  "annual harvest festival",
+  "colony collapse disorder",
+  "habitat loss",
+  "goldenrod",
+  "aster"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Thompson's Farm",
+    "relation": "hosts_apiaries",
+    "value": "tenderly cultivated apiaries",
+    "time": "morning of September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This is the scene set on the morning of September 5th, 2023, in the tenderly cultivated apiaries of Thompson's Farm"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "beekeeping",
+    "relation": "described_as",
+    "value": "not just an occupation but a testament to time-honored practices that shape regional cuisine and local farming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditional beekeeping is not just an occupation but a testament to time-honored practices that shape regional cuisine and local farming"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "beekeeping",
+    "relation": "intertwined_with",
+    "value": "the pastoral idylls of rural life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The preservation of beekeeping is closely intertwined with the pastoral idylls of rural life"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "beekeeping",
+    "relation": "passed_down_through",
+    "value": "generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a craft passed down through generations"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "John Thompson",
+    "relation": "is_patriarch_of",
+    "value": "Thompson Farm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Thompson, the patriarch of Thompson Farm"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "John Thompson",
+    "relation": "kept_bees_for",
+    "value": "over three decades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Having kept bees for over three decades"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "John Thompson",
+    "relation": "says_father_was",
+    "value": "a beekeeper",
+    "time": null,
+    "speaker": "John Thompson",
+    "verbatim": [
+     "My father was a beekeeper, and his father before him"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "John Thompson",
+    "relation": "says_beekeeping_is",
+    "value": "stewardship, about ensuring that these essential pollinators can thrive so all of us can benefit",
+    "time": null,
+    "speaker": "John Thompson",
+    "verbatim": [
+     "Beekeeping isn't about taking from the bees; it's about stewardship, about ensuring that these essential pollinators can thrive so all of us can benefit."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "beekeeping",
+    "relation": "role_in_agriculture",
+    "value": "cannot be overstated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role bees play in agriculture cannot be overstated"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "beekeeping",
+    "relation": "bees_pollinate",
+    "value": "crops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are the silent workers that pollinate and ensure the proliferation of crops."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Susan Rodriguez",
+    "relation": "partners_with",
+    "value": "beekeepers like Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local farmers like Susan Rodriguez recognize this and partner with beekeepers like Thompson to host hives on their land."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Susan Rodriguez",
+    "relation": "noted_increase_in_orchard_fruit_yield",
+    "value": "an increase in her orchard's fruit yield",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, Rodriguez has noted an increase in her orchard's fruit yield"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Susan Rodriguez",
+    "relation": "attributes_yield_increase_to",
+    "value": "this partnership",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "which she directly attributes to this partnership"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Susan Rodriguez",
+    "relation": "caused_by",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, Rodriguez has noted an increase in her orchard's fruit yield, which she directly attributes to this partnership."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Susan Rodriguez",
+    "relation": "says_bees_pollinate_trees",
+    "value": "in turn, we get more fruit",
+    "time": null,
+    "speaker": "Susan Rodriguez",
+    "verbatim": [
+     "The bees pollinate the trees, and in turn, we get more fruit."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Susan Rodriguez",
+    "relation": "says_offers_customers",
+    "value": "honey that's as local and fresh as it gets",
+    "time": null,
+    "speaker": "Susan Rodriguez",
+    "verbatim": [
+     "Plus, I can offer my customers honey that's as local and fresh as it gets."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Thompson's Farm",
+    "relation": "hive_boxes_painted_in",
+    "value": "soft colors that blend with the landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On Thompson's bee farm, the hive boxes are painted in soft colors that blend with the landscape"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Thompson's Farm",
+    "relation": "hues_purpose",
+    "value": "help bees identify their home hive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the different hues help bees identify their home hive"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "honey",
+    "relation": "production_influenced_by",
+    "value": "the change of the seasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The change of the seasons also plays a vital role in the production of honey"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "honey",
+    "relation": "early_spring_flavor",
+    "value": "a light, almost floral-tasting honey",
+    "time": "In early spring",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "wildflowers, which produce a light, almost floral-tasting honey"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "honey",
+    "relation": "early_spring_sources",
+    "value": "clover and wildflowers",
+    "time": "In early spring",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "In early spring, we get clover and"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Emily Thompson",
+    "relation": "described_as",
+    "value": "Thompson's daughter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Thompson's daughter, Emily, who's been an eager apprentice under her father's tutelage"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emily Thompson",
+    "relation": "apprentice_under",
+    "value": "her father",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who's been an eager apprentice under her father's tutelage"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "honey",
+    "relation": "fall_change",
+    "value": "darker, richer",
+    "time": "as we move into fall",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "But as we move into fall, the honey gets darker, richer\u2014thanks to the goldenrod and aster."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "goldenrod",
+    "relation": "contributes_to_fall_honey_darkening",
+    "value": "thanks to the goldenrod",
+    "time": "fall",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "thanks to the goldenrod and aster"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "aster",
+    "relation": "contributes_to_fall_honey_darkening",
+    "value": "thanks to the aster",
+    "time": "fall",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "thanks to the goldenrod and aster"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "honey",
+    "relation": "caused_by",
+    "value_ref": "c25",
+    "time": "as we move into fall",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "the honey gets darker, richer\u2014thanks to the goldenrod and aster."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "honey",
+    "relation": "caused_by",
+    "value_ref": "c26",
+    "time": "as we move into fall",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "the honey gets darker, richer\u2014thanks to the goldenrod and aster."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "honey",
+    "relation": "described_as",
+    "value": "a culinary link to the landscape",
+    "time": "across these months",
+    "speaker": null,
+    "verbatim": [
+     "The specialty honey produced across these months is not just a sweet treat but a culinary link to the landscape."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "honey",
+    "relation": "encapsulates",
+    "value": "the specific flora of the region and the very essence of its corresponding season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each jar encapsulates the specific flora of the region and the very essence of its corresponding season."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "honey",
+    "relation": "use_extends_beyond",
+    "value": "the breakfast table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The use of this liquid gold extends beyond the breakfast table"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Chef Marco DiLorenzo",
+    "relation": "chef_at",
+    "value": "La Dolce Vita",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Marco DiLorenzo of La Dolce Vita"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "La Dolce Vita",
+    "relation": "described_as",
+    "value": "a quaint eatery nestled in the heart of town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "La Dolce Vita, a quaint eatery nestled in the heart of town"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Marco DiLorenzo",
+    "relation": "prides_himself_on",
+    "value": "his seasonal menus that highlight local ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prides himself on his seasonal menus that highlight local ingredients"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Marco DiLorenzo",
+    "relation": "says_using_thompsons_honey_allows",
+    "value": "me to create dishes that speak of our home",
+    "time": "one crisp September day",
+    "speaker": "Chef Marco DiLorenzo",
+    "verbatim": [
+     "Using Thompson's honey allows me to create dishes that speak of our home"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "honey-infused vinaigrette",
+    "relation": "featured_on",
+    "value": "our fall menu",
+    "time": "fall",
+    "speaker": "Chef Marco DiLorenzo",
+    "verbatim": [
+     "our fall menu features a honey-infused vinaigrette that dresses a salad made entirely from local produce"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "honey-infused vinaigrette",
+    "relation": "dresses",
+    "value": "a salad made entirely from local produce",
+    "time": null,
+    "speaker": "Chef Marco DiLorenzo",
+    "verbatim": [
+     "a honey-infused vinaigrette that dresses a salad made entirely from local produce"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "honey-glazed duck",
+    "relation": "is",
+    "value": "popular",
+    "time": null,
+    "speaker": "Chef Marco DiLorenzo",
+    "verbatim": [
+     "our popular honey-glazed duck"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "honey-glazed duck",
+    "relation": "sourced_from",
+    "value": "a farm just down the road",
+    "time": null,
+    "speaker": "Chef Marco DiLorenzo",
+    "verbatim": [
+     "sourced from a farm just down the road."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "honey",
+    "relation": "found_in",
+    "value": "entrees, sides, and desserts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sweetness of honey often finds its way into entrees, sides, and desserts alike."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "honey",
+    "relation": "recipe_preparation_status",
+    "value": "in full swing",
+    "time": "with the holidays fast approaching",
+    "speaker": null,
+    "verbatim": [
+     "preparation for honey-based recipes is in full swing"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "honey caramel apple",
+    "relation": "described_as",
+    "value": "a community favorite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A community favorite is the honey caramel apple"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "honey caramel apple",
+    "relation": "debut_at",
+    "value": "annual harvest festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which makes its anticipated debut at the annual harvest festival"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "annual harvest festival",
+    "relation": "held_on",
+    "value": "first Saturday of October",
+    "time": "each year",
+    "speaker": null,
+    "verbatim": [
+     "held each year on the first Saturday of October"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "beekeeping",
+    "relation": "described_as",
+    "value": "a slice of heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's about holding onto a slice of heritage"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "beekeeping",
+    "relation": "statement_of",
+    "value": "cultural identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maintaining practices like traditional beekeeping is a statement of cultural identity"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "honey",
+    "relation": "harvested_by",
+    "value": "hand without the intrusive drone of machines",
+    "time": null,
+    "speaker": "Elders in the community",
+    "verbatim": [
+     "honey was harvested by hand without the intrusive drone of machines"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "honey",
+    "relation": "natural_sweetness",
+    "value": "a flavor untouched by the complexities of modernity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a flavor untouched by the complexities of modernity"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "colony collapse disorder",
+    "relation": "described_as",
+    "value": "threat",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "Threats like colony collapse disorder and habitat loss have made the headlines in recent years"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "colony collapse disorder",
+    "relation": "made_headlines",
+    "value": "have made the headlines",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "Threats like colony collapse disorder and habitat loss have made the headlines in recent years"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "habitat loss",
+    "relation": "described_as",
+    "value": "threat",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "Threats like colony collapse disorder and habitat loss"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "habitat loss",
+    "relation": "made_headlines",
+    "value": "made the headlines",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "habitat loss have made the headlines in recent years"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "colony collapse disorder",
+    "relation": "implications_stretch_to",
+    "value": "far beyond honey production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with implications that stretch far beyond honey production"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Thompson's Farm",
+    "relation": "efforts_spearheaded_by",
+    "value": "the Thompsons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local efforts, spearheaded by individuals like the Thompsons"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Thompson's Farm",
+    "relation": "created_initiatives_that",
+    "value": "educate the public on the importance of supporting local bees and their keepers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have created initiatives that educate the public on the importance of supporting local bees and their keepers"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Emily Thompson",
+    "relation": "steps_up_to",
+    "value": "carry the legacy forward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As young people like Emily Thompson step up to carry the legacy forward"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

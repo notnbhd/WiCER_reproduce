@@ -1,0 +1,536 @@
+{
+ "inventory": [
+  "John Smith",
+  "Mary Johnson",
+  "Dave Thomas",
+  "Linda Green",
+  "Alice Walters",
+  "Mike",
+  "Steven Harris",
+  "Elizabeth \"Lizzy\" Wright",
+  "Jim Reynolds",
+  "Patricia \"Patty\" Sutton",
+  "baby boomer generation",
+  "local underprivileged school",
+  "local community health clinic",
+  "local startup incubator",
+  "local women's shelter",
+  "local food bank",
+  "affordable housing project",
+  "local park",
+  "community clean-up initiative",
+  "animal shelter",
+  "volunteer group"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "baby boomer generation",
+    "relation": "reached_milestone",
+    "value": "this milestone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the baby boomer generation has reached this milestone"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "John Smith",
+    "relation": "occupation",
+    "value": "retired teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, a retired teacher"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "John Smith",
+    "relation": "began_volunteering_at",
+    "value": "local underprivileged school",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "John Smith, a retired teacher, began his volunteering journey on October 15, 2023, at a local underprivileged school."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "John Smith",
+    "relation": "mission",
+    "value": "to help bridge the educational divide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His mission was simple: to help bridge the educational divide."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "John Smith",
+    "relation": "states",
+    "value": "Teaching was more than just a job for me",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "\"Teaching was more than just a job for me,\" Smith says"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "John Smith",
+    "relation": "describes_teaching_as",
+    "value": "a lifelong passion",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "it's a lifelong passion."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "John Smith",
+    "relation": "states",
+    "value": "Volunteering allows me to continue doing what I love while giving back to the community.",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "Volunteering allows me to continue doing what I love while giving back to the community."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mary Johnson",
+    "relation": "former_occupation",
+    "value": "nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mary Johnson, a former nurse"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mary Johnson",
+    "relation": "retired_from_career",
+    "value": "celebrated her career's sunset",
+    "time": "last winter",
+    "speaker": null,
+    "verbatim": [
+     "a former nurse who celebrated her career's sunset last winter"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mary Johnson",
+    "relation": "volunteers_at",
+    "value": "local community health clinic",
+    "time": "every Thursday",
+    "speaker": null,
+    "verbatim": [
+     "She now volunteers at the local community health clinic every Thursday"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "local community health clinic",
+    "relation": "provides",
+    "value": "basic healthcare services to those without insurance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing basic healthcare services to those without insurance."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mary Johnson",
+    "relation": "states",
+    "value": "Retirement doesn't equate to inactivity",
+    "time": null,
+    "speaker": "Mary Johnson",
+    "verbatim": [
+     "\"Retirement doesn't equate to inactivity,\" Johnson states firmly."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mary Johnson",
+    "relation": "states",
+    "value": "I've never felt more alive and purposeful",
+    "time": null,
+    "speaker": "Mary Johnson",
+    "verbatim": [
+     "\"In fact, I've never felt more alive and purposeful.\""
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dave Thomas",
+    "relation": "began_volunteering_at",
+    "value": "local startup incubator",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Dave Thomas, who started volunteering at a local startup incubator on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dave Thomas",
+    "relation": "role",
+    "value": "invaluable resource for young entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become an invaluable resource for young entrepreneurs."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dave Thomas",
+    "relation": "states",
+    "value": "It's not just about the business acumen",
+    "time": null,
+    "speaker": "Dave Thomas",
+    "verbatim": [
+     "\"It's not just about the business acumen,\" remarks Thomas"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dave Thomas",
+    "relation": "states",
+    "value": "the life lessons that shape their ethical and professional growth",
+    "time": null,
+    "speaker": "Dave Thomas",
+    "verbatim": [
+     "\"but the life lessons that shape their ethical and professional growth.\""
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Linda Green",
+    "relation": "began_volunteering_at",
+    "value": "local women's shelter",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Linda Green who began volunteering at a local women\u2019s shelter on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Linda Green",
+    "relation": "expertise",
+    "value": "social work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses her expertise in social work"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Linda Green",
+    "relation": "provides",
+    "value": "counseling and support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide counseling and support."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Linda Green",
+    "relation": "states",
+    "value": "These young women need guidance and someone to believe in them",
+    "time": null,
+    "speaker": "Linda Green",
+    "verbatim": [
+     "These young women need guidance and someone to believe in them."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Linda Green",
+    "relation": "states",
+    "value": "my time is well-spent",
+    "time": null,
+    "speaker": "Linda Green",
+    "verbatim": [
+     "If I can be that person, even for a handful of them, my time is well-spent,\" says Green."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Alice Walters",
+    "relation": "volunteers_at",
+    "value": "local food bank",
+    "time": "every week since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Retirees like Alice Walters and her husband, Mike, have taken to volunteering at the local food bank every week since September 2023."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mike",
+    "relation": "married_to",
+    "value": "Alice Walters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her husband, Mike"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alice Walters",
+    "relation": "married_to",
+    "value": "Mike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retirees like Alice Walters and her husband, Mike,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mike",
+    "relation": "volunteers_at",
+    "value": "local food bank",
+    "time": "every week since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Alice Walters and her husband, Mike, have taken to volunteering at the local food bank every week since September 2023."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alice Walters",
+    "relation": "states",
+    "value": "It\u2019s not only about the meals but also about the bonds formed and the affirmation that no one in our community should go hungry.",
+    "time": null,
+    "speaker": "The Walters couple",
+    "verbatim": [
+     "\"It\u2019s not only about the meals but also about the bonds formed and the affirmation that no one in our community should go hungry.\""
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Steven Harris",
+    "relation": "occupation",
+    "value": "retired engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steven Harris, a retired engineer"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Steven Harris",
+    "relation": "volunteers_for",
+    "value": "affordable housing project",
+    "time": "since early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "dedicated his time to an affordable housing project since early September 2023."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "affordable housing project",
+    "relation": "completed",
+    "value": "several low-cost homes",
+    "time": "by mid-March 2024",
+    "speaker": null,
+    "verbatim": [
+     "the community saw the completion of several low-cost homes by mid-March 2024"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "affordable housing project",
+    "relation": "provides",
+    "value": "shelter for numerous needy families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing shelter for numerous needy families."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Steven Harris",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through his efforts and leadership, the community saw the completion of several low-cost homes by mid-March 2024"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Elizabeth \"Lizzy\" Wright",
+    "relation": "occupation",
+    "value": "retired attorney",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elizabeth \"Lizzy\" Wright, a retired attorney"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Elizabeth \"Lizzy\" Wright",
+    "relation": "started_offering",
+    "value": "pro-bono legal advice",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "started offering pro-bono legal advice in late September 2023."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Elizabeth \"Lizzy\" Wright",
+    "relation": "facilitated",
+    "value": "access to justice for countless individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her contributions have facilitated access to justice for countless individuals who otherwise could not afford legal representation."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jim Reynolds",
+    "relation": "role",
+    "value": "a role model for such generosity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jim Reynolds became a role model for such generosity"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jim Reynolds",
+    "relation": "led",
+    "value": "community clean-up initiative",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "he led a community clean-up initiative in the local park on October 10, 2023."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "community clean-up initiative",
+    "relation": "located_in",
+    "value": "local park",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "led a community clean-up initiative in the local park on October 10, 2023."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jim Reynolds",
+    "relation": "enthusiasm",
+    "value": "infectious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His enthusiasm was infectious"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "volunteer group",
+    "relation": "meets",
+    "value": "monthly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a volunteer group that meets monthly"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "volunteer group",
+    "relation": "purpose",
+    "value": "to maintain the park's beauty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a volunteer group that meets monthly to maintain the park's beauty."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jim Reynolds",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His enthusiasm was infectious, leading to a volunteer group"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local park",
+    "relation": "maintained_by",
+    "value": "volunteer group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a volunteer group that meets monthly to maintain the park's beauty."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Patricia \"Patty\" Sutton",
+    "relation": "helps_at",
+    "value": "animal shelter",
+    "time": "since her retirement party",
+    "speaker": null,
+    "verbatim": [
+     "Patricia \"Patty\" Sutton, who has been helping at the animal shelter since her retirement party"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Patricia \"Patty\" Sutton",
+    "relation": "states",
+    "value": "There's no greater joy than seeing these animals find loving homes because of our collective effort.",
+    "time": null,
+    "speaker": "Patricia \"Patty\" Sutton",
+    "verbatim": [
+     "\"There's no greater joy than seeing these animals find loving homes because of our collective effort.\""
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "animal shelter",
+    "relation": "outcome",
+    "value": "animals find loving homes",
+    "time": null,
+    "speaker": "Patricia \"Patty\" Sutton",
+    "verbatim": [
+     "seeing these animals find loving homes"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

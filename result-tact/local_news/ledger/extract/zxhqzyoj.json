@@ -1,0 +1,720 @@
+{
+ "inventory": [
+  "first-mile/last-mile (FMLM) challenge",
+  "Sandra Nguyen",
+  "Sarah Johnson",
+  "GoRide Tech",
+  "David Thompson",
+  "Michael Zhang",
+  "Jason Rodriguez",
+  "city's transportation department",
+  "FMLM shuttles",
+  "smart app",
+  "public-private partnerships",
+  "city council meeting",
+  "ride-sharing services",
+  "subway station",
+  "The elderly",
+  "people with disabilities",
+  "parents with young children"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "defined_as",
+    "value": "bridging the gap between home and public transport stations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bridging the gap between home and public transport stations, also known as the first-mile/last-mile (FMLM) challenge"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "described_as",
+    "value": "the missing link in our quest for a fully accessible, seamless public transportation system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the missing link in our quest for a fully accessible, seamless public transportation system"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "commute_began",
+    "value": "Monday morning",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was a crisp Monday morning on September 4, 2023, when I set out to navigate the concrete jungle that is our city."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "faced_by",
+    "value": "millions of urban travelers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the puzzle that millions of urban travelers solve each day"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "subway station",
+    "relation": "distance_from_home",
+    "value": "a mile and a half away",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "my first task was to reach the nearest subway station, a mile and a half away"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "lacks",
+    "value": "a direct transport route",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Like many others in my neighborhood, without a direct transport route"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "involves",
+    "value": "shoe leather express, also known as walking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shoe leather express\u2014also known as walking"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "ride-sharing services",
+    "relation": "used_on",
+    "value": "days less kind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on days less kind, ride-sharing services to dodge the weather's unpredictability"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "ride-sharing services",
+    "relation": "used_to",
+    "value": "dodge the weather's unpredictability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ride-sharing services to dodge the weather's unpredictability"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "ride-sharing services",
+    "relation": "in_order_to",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ride-sharing services to dodge the weather's unpredictability, a hefty extra expense"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "ride-sharing services",
+    "relation": "cost",
+    "value": "a hefty extra expense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hefty extra expense that can quickly add up"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "city's transportation department",
+    "relation": "made_announcement",
+    "value": "a recent announcement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A recent announcement by the city's transportation department caught my eye"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "city's transportation department",
+    "relation": "unveiled",
+    "value": "a plan to improve FMLM connections",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the city unveiled a plan to improve FMLM connections."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sandra Nguyen",
+    "relation": "title",
+    "value": "Transportation Commissioner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Transportation Commissioner Sandra Nguyen"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sandra Nguyen",
+    "relation": "spearheaded",
+    "value": "the initiative to deploy a fleet of electric shuttle buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Transportation Commissioner Sandra Nguyen, the initiative's focus was to deploy a fleet of electric shuttle buses"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "FMLM shuttles",
+    "relation": "deployed_as",
+    "value": "a fleet of electric shuttle buses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "deploy a fleet of electric shuttle buses that would circulate through neighborhoods like mine"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "FMLM shuttles",
+    "relation": "route",
+    "value": "neighborhoods like mine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "circulate through neighborhoods like mine, bridging the gaps to major transit hubs"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "FMLM shuttles",
+    "relation": "purpose",
+    "value": "bridging the gaps to major transit hubs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bridging the gaps to major transit hubs"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "FMLM shuttles",
+    "relation": "promised_to",
+    "value": "alleviate much of our daily commuter strain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was an ambitious plan that promised to alleviate much of our daily commuter strain."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "smart app",
+    "relation": "capable_of",
+    "value": "tracking these shuttles in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrated a smart app capable of tracking these shuttles in real-time"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "smart app",
+    "relation": "integrated_into",
+    "value": "the city's new program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city's new program integrated a smart app"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Johnson",
+    "relation": "role",
+    "value": "a fellow commuter and tech enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, a fellow commuter and tech enthusiast, shared her optimism with me"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "I'm looking forward to syncing my morning routine with the shuttle schedule.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "I'm looking forward to syncing my morning routine with the shuttle schedule."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "It feels like we're finally making strides toward smarter transit solutions.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "It feels like we're finally making strides toward smarter transit solutions."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "requires",
+    "value": "significant investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Effective FMLM solutions required significant investment."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "public-private partnerships",
+    "relation": "partnered_with",
+    "value": "several tech companies, including GoRide Tech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnerships with several tech companies, including a major player in the ride-sharing market, GoRide Tech"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "GoRide Tech",
+    "relation": "described_as",
+    "value": "a major player in the ride-sharing market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including a major player in the ride-sharing market, GoRide Tech"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "public-private partnerships",
+    "relation": "mechanism_of",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Effective FMLM solutions required significant investment.",
+     "The city had cleverly navigated this obstacle by fostering"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "David Thompson",
+    "relation": "title",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO David Thompson explained"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "David Thompson",
+    "relation": "believes_in",
+    "value": "the transformative power of public-private partnerships",
+    "time": null,
+    "speaker": "David Thompson",
+    "verbatim": [
+     "We believe in the transformative power of public-private partnerships."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "David Thompson",
+    "relation": "contributes",
+    "value": "resources and expertise",
+    "time": null,
+    "speaker": "David Thompson",
+    "verbatim": [
+     "By contributing our resources and expertise"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "David Thompson",
+    "relation": "helping_build",
+    "value": "a more connected and sustainable city",
+    "time": null,
+    "speaker": "David Thompson",
+    "verbatim": [
+     "we are helping to build a more connected and sustainable city."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "David Thompson",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By contributing our resources and expertise, we are helping to build a more connected and sustainable city."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "FMLM shuttles",
+    "relation": "operating_for",
+    "value": "a few weeks",
+    "time": "early November",
+    "speaker": null,
+    "verbatim": [
+     "It's now early November, and the shuttles have been operating for a few weeks."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "FMLM shuttles",
+    "relation": "transformed_routine",
+    "value": "from a grueling race against the clock to a more serene, structured procession",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "My morning routine has transformed from a grueling race against the clock to a more serene, structured procession."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "FMLM shuttles",
+    "relation": "arrives",
+    "value": "within a few minutes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "within a few minutes, a quiet electric shuttle hums to a stop in front of me"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "FMLM shuttles",
+    "relation": "usually_shared_with",
+    "value": "a handful of neighbors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The shuttle is usually shared with a handful of neighbors"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "FMLM shuttles",
+    "relation": "covers",
+    "value": "the first mile of my journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the shuttle efficiently covers the first mile of my journey"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "FMLM shuttles",
+    "relation": "enhances",
+    "value": "the sense of community during our transit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also enhances the sense of community during our transit"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "FMLM shuttles",
+    "relation": "conversations_about",
+    "value": "the benefits and improvements we've noticed since the services began",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often about the benefits and improvements we've noticed since the services began"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Michael Zhang",
+    "relation": "role",
+    "value": "Commuter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commuter Michael Zhang remarked"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Michael Zhang",
+    "relation": "said",
+    "value": "It's changed the way I view public transit. I feel more connected to my city than ever before.",
+    "time": null,
+    "speaker": "Michael Zhang",
+    "verbatim": [
+     "It's changed the way I view public transit. I feel more connected to my city than ever before."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "FMLM shuttles",
+    "relation": "increases",
+    "value": "accessibility for everyone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the increase in accessibility it presents for everyone"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "The elderly",
+    "relation": "previously_underserved_by",
+    "value": "the transportation infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "previously underserved by the transportation infrastructure"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "The elderly",
+    "relation": "now_able_to",
+    "value": "trip through those first and last miles with ease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now trip through those first and last miles with ease"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "people with disabilities",
+    "relation": "previously_underserved_by",
+    "value": "the transportation infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "previously underserved by the transportation infrastructure"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "people with disabilities",
+    "relation": "now_able_to",
+    "value": "trip through those first and last miles with ease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now trip through those first and last miles with ease"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "parents with young children",
+    "relation": "previously_underserved_by",
+    "value": "the transportation infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "previously underserved by the transportation infrastructure"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "parents with young children",
+    "relation": "now_able_to",
+    "value": "trip through those first and last miles with ease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now trip through those first and last miles with ease"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "FMLM shuttles",
+    "relation": "passengers_embark_with",
+    "value": "smiles rather than the fatigue-laden expressions I used to see",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embarking and disembarking the shuttle with smiles rather than the fatigue-laden expressions I used to see"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "FMLM shuttles",
+    "relation": "value_is",
+    "value": "abundantly clear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the value of this advancement is abundantly clear"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "resolved",
+    "value": "not completely resolved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By no means is the FMLM issue completely resolved."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "FMLM shuttles",
+    "relation": "still_needs",
+    "value": "adjustments to be made, more areas to cover, and operational kinks to iron out",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are still adjustments to be made, more areas to cover, and operational kinks to iron out."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "FMLM shuttles",
+    "relation": "has_issues",
+    "value": "occasional delays and technical glitches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Occasional delays and technical glitches test our patience"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "FMLM shuttles",
+    "relation": "hiccups_are",
+    "value": "part of any new system's journey to maturity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such hiccups are part of any new system's journey to maturity"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "city council meeting",
+    "relation": "held_on",
+    "value": "November 29",
+    "time": "November 29",
+    "speaker": null,
+    "verbatim": [
+     "The latest city council meeting on November 29 included discussions"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "city council meeting",
+    "relation": "discussed",
+    "value": "evaluating the FMLM services to determine where to expand next",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "included discussions led by council member Jason Rodriguez on evaluating the FMLM services to determine where to expand next"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Jason Rodriguez",
+    "relation": "title",
+    "value": "council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by council member Jason Rodriguez"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Jason Rodriguez",
+    "relation": "led_discussions_on",
+    "value": "evaluating the FMLM services to determine where to expand next",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discussions led by council member Jason Rodriguez on evaluating the FMLM services to determine where to expand next"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "FMLM shuttles",
+    "relation": "metrics_show",
+    "value": "increased ridership and overall satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With metrics showing increased ridership and overall satisfaction"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "FMLM shuttles",
+    "relation": "next_rollout_phase",
+    "value": "not if but when the next rollout phase will begin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the question is not if but when the next rollout phase will begin"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "represents",
+    "value": "a commitment to enhancing the urban living experience, fostering social inclusivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they represent a commitment to enhancing the urban living experience, fostering social inclusivity"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "first-mile/last-mile (FMLM) challenge",
+    "relation": "states",
+    "value": "every mile of our journey matters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "acknowledging that every mile of our journey matters"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

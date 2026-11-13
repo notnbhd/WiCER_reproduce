@@ -1,0 +1,585 @@
+{
+ "inventory": [
+  "Alexander Birch",
+  "Sarah Mendez",
+  "AquaHarvester",
+  "Jonathan Ng",
+  "SunBuddy",
+  "Grace Ebunoluwa",
+  "The Wind Weaver",
+  "Martin Zhao",
+  "Rain Reclaim",
+  "Dr. Emily Santos",
+  "BioBlox",
+  "Daniel Kim",
+  "AgriCycle",
+  "Evelyn Fisher",
+  "Green Inventors Educational Program"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Alexander Birch",
+    "relation": "occupation",
+    "value": "local mill owner",
+    "time": "fall of 1923",
+    "speaker": null,
+    "verbatim": [
+     "Alexander Birch, a local mill owner from the fall of 1923"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Alexander Birch",
+    "relation": "developed",
+    "value": "a water wheel system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developed a water wheel system that powered his entire property without causing any environmental harm"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Alexander Birch",
+    "relation": "powered",
+    "value": "his entire property without causing any environmental harm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a water wheel system that powered his entire property without causing any environmental harm"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Alexander Birch",
+    "relation": "developed_before",
+    "value": "the term 'renewable energy' came into vogue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "long before the term 'renewable energy' came into vogue"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Mendez",
+    "relation": "occupation",
+    "value": "mechanical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A mechanical engineer by training"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Mendez",
+    "relation": "unveiled",
+    "value": "AquaHarvester",
+    "time": "late October of that year",
+    "speaker": null,
+    "verbatim": [
+     "Mendez unveiled her \"AquaHarvester\" in late October of that year"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "AquaHarvester",
+    "relation": "cleans",
+    "value": "waterways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This ingenious device cleans waterways by skimming pollutants"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "AquaHarvester",
+    "relation": "skims",
+    "value": "pollutants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cleans waterways by skimming pollutants"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "AquaHarvester",
+    "relation": "mechanism_of",
+    "value_ref": "c7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cleans waterways by skimming pollutants"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "AquaHarvester",
+    "relation": "harvests",
+    "value": "kinetic energy from the current",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harvesting kinetic energy from the current to power itself"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "AquaHarvester",
+    "relation": "powers",
+    "value": "itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harvesting kinetic energy from the current to power itself"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "AquaHarvester",
+    "relation": "in_order_to",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harvesting kinetic energy from the current to power itself"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "AquaHarvester",
+    "relation": "exemplifies",
+    "value": "the principles of circular economy and sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a brilliant testament to the principles of circular economy and sustainability"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Jonathan Ng",
+    "relation": "occupation",
+    "value": "high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jonathan Ng, a high school teacher with a knack for electronics"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Jonathan Ng",
+    "relation": "launched",
+    "value": "SunBuddy",
+    "time": "August 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched the 'SunBuddy.'"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "SunBuddy",
+    "relation": "is",
+    "value": "a portable solar panel system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a portable solar panel system"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "SunBuddy",
+    "relation": "designed_to_power",
+    "value": "local community centers during blackouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to power local community centers during blackouts"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "SunBuddy",
+    "relation": "designed_to_promote",
+    "value": "energy independence in off-grid areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promote energy independence in off-grid areas"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "SunBuddy",
+    "relation": "reflects",
+    "value": "the increasing reliance on solar power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ng\u2019s contraption reflects the increasing reliance on solar power"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "SunBuddy",
+    "relation": "demonstrates",
+    "value": "the sun\u2019s ubiquity can be harnessed to meet local needs in an affordable, sustainable way",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrating that the sun\u2019s ubiquity can be harnessed to meet local needs in an affordable, sustainable way"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Grace Ebunoluwa",
+    "relation": "introduced",
+    "value": "The Wind Weaver",
+    "time": "November 2024",
+    "speaker": null,
+    "verbatim": [
+     "in November 2024, introduced \"The Wind Weaver,\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Wind Weaver",
+    "relation": "is",
+    "value": "a small-scale wind turbine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small-scale wind turbine tailored for urban homes"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Wind Weaver",
+    "relation": "tailored_for",
+    "value": "urban homes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small-scale wind turbine tailored for urban homes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Wind Weaver",
+    "relation": "small_enough_to_fit",
+    "value": "on a city balcony",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small enough to fit on a city balcony"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "The Wind Weaver",
+    "relation": "powerful_enough_to",
+    "value": "supplement a home's energy needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "powerful enough to supplement a home's energy needs"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "The Wind Weaver",
+    "relation": "shows",
+    "value": "a growing trend of maximizing local spaces for clean energy production",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shows a growing trend of maximizing local spaces for clean energy production"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Martin Zhao",
+    "relation": "motivated_by",
+    "value": "an appreciation for the value of water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Likewise, an appreciation for the value of water led to Martin Zhao\u2019s \"Rain Reclaim\" system."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Martin Zhao",
+    "relation": "unveiled",
+    "value": "Rain Reclaim",
+    "time": "March 2025",
+    "speaker": null,
+    "verbatim": [
+     "Unveiled in March 2025, Zhao's system collects and purifies rainwater for household use"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Rain Reclaim",
+    "relation": "collects",
+    "value": "rainwater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collects and purifies rainwater for household use"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rain Reclaim",
+    "relation": "purifies",
+    "value": "rainwater for household use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collects and purifies rainwater for household use"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rain Reclaim",
+    "relation": "reduces_reliance_on",
+    "value": "treated municipal water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing reliance on treated municipal water"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rain Reclaim",
+    "relation": "eases_strain_on",
+    "value": "local water treatment facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "easing the strain on local water treatment facilities"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Rain Reclaim",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collects and purifies rainwater for household use, reducing reliance on treated municipal water"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Rain Reclaim",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing reliance on treated municipal water and easing the strain on local water treatment facilities"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Emily Santos",
+    "relation": "occupation",
+    "value": "avid gardener and chemist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "avid gardener and chemist Dr. Emily Santos"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Dr. Emily Santos",
+    "relation": "created",
+    "value": "BioBlox",
+    "time": "September 2025",
+    "speaker": null,
+    "verbatim": [
+     "with her creation of 'BioBlox.'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "BioBlox",
+    "relation": "is",
+    "value": "biodegradable building materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These biodegradable building materials"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "BioBlox",
+    "relation": "made_from",
+    "value": "agricultural waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "made from agricultural waste"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "BioBlox",
+    "relation": "could_replace",
+    "value": "their non-biodegradable counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could one day replace their non-biodegradable counterparts"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "BioBlox",
+    "relation": "offers",
+    "value": "a promising solution to the ubiquity of plastic waste in our environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a promising solution to the ubiquity of plastic waste in our environment"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Daniel Kim",
+    "relation": "occupation",
+    "value": "app developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Kim, an app developer with a passion for organic farming"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Daniel Kim",
+    "relation": "released",
+    "value": "AgriCycle",
+    "time": "June 2026",
+    "speaker": null,
+    "verbatim": [
+     "he released \"AgriCycle\" in June 2026"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "AgriCycle",
+    "relation": "helps_farmers_optimize",
+    "value": "crop rotation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This app helps local farmers optimize crop rotation and reduce waste"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "AgriCycle",
+    "relation": "helps_farmers_reduce",
+    "value": "waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "optimize crop rotation and reduce waste"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "AgriCycle",
+    "relation": "connects_farmers_to",
+    "value": "immediate markets and potential buyers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by connecting them to immediate markets and potential buyers"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "AgriCycle",
+    "relation": "mechanism_of",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce waste by connecting them to immediate markets and potential buyers"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "AgriCycle",
+    "relation": "advocates",
+    "value": "sustainable farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thus advocating for sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Evelyn Fisher",
+    "relation": "launched",
+    "value": "Green Inventors Educational Program",
+    "time": "April 2027",
+    "speaker": null,
+    "verbatim": [
+     "who in April 2027 launched the 'Green Inventors Educational Program' (GIEP) in local schools"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Evelyn Fisher",
+    "relation": "launched_in",
+    "value": "local schools",
+    "time": "April 2027",
+    "speaker": null,
+    "verbatim": [
+     "who in April 2027 launched the 'Green Inventors Educational Program' (GIEP) in local schools"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Green Inventors Educational Program",
+    "relation": "serves_to",
+    "value": "inform young minds and inspire the next generation of inventors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The GIEP serves to both inform young minds and inspire the next generation of inventors."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Evelyn Fisher",
+    "relation": "showcased",
+    "value": "the importance of integrating lessons on sustainability and environmental responsibility into educational curricula",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcased the importance of integrating lessons on sustainability and environmental responsibility into educational curricula"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

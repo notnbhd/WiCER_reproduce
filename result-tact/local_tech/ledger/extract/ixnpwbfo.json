@@ -1,0 +1,809 @@
+{
+ "inventory": [
+  "Silicon Valley",
+  "Dr. Amelia Richardson",
+  "University of California",
+  "HiredTech",
+  "Bureau of Labor Statistics",
+  "Maxine Thompson",
+  "Department of Education",
+  "Jane Park",
+  "Bob Marino",
+  "CodeFuture",
+  "Thom Walters",
+  "coding and computational thinking",
+  "coding literacy",
+  "mandate issued on November 15, 2023",
+  "initiative launched on September 1, 2023",
+  "digital divide",
+  "technological equity",
+  "hands-on, project-based learning",
+  "minds-on approach"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "mandate issued on November 15, 2023",
+    "relation": "applies_to",
+    "value": "schools across the state",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following a mandate issued on November 15, 2023, schools across the state are preparing"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "coding and computational thinking",
+    "relation": "to_be_integrated_into",
+    "value": "curricula",
+    "time": "by the start of the next academic year",
+    "speaker": null,
+    "verbatim": [
+     "schools across the state are preparing to fully integrate coding and computational thinking into their curricula by the start of the next academic year."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "coding and computational thinking",
+    "relation": "caused_by",
+    "value_ref": "c1",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following a mandate issued on November 15, 2023, schools across the state are preparing to fully integrate coding and computational thinking"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "coding and computational thinking",
+    "relation": "aims_to_equip_students_with",
+    "value": "essential digital skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This ambitious initiative aims not only to equip students with essential digital skills"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "coding and computational thinking",
+    "relation": "aims_to_solidify",
+    "value": "the region's economic prowess",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also to solidify the region's economic prowess in an increasingly tech-driven world."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Silicon Valley",
+    "relation": "location_of",
+    "value": "a quiet revolution in the realm of education and workforce development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the heart of Silicon Valley, a quiet revolution is taking place in the realm of education and workforce development."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Amelia Richardson",
+    "relation": "affiliated_with",
+    "value": "University of California",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Amelia Richardson from the University of California"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Amelia Richardson",
+    "relation": "described_as",
+    "value": "like an economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economists, like Dr. Amelia Richardson from the University of California"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "coding literacy",
+    "relation": "described_as",
+    "value": "the literacy of the 21st century",
+    "time": null,
+    "speaker": "Dr. Amelia Richardson",
+    "verbatim": [
+     "coding is the literacy of the 21st century."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Amelia Richardson",
+    "relation": "paper_dated",
+    "value": "her recent paper",
+    "time": "December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In her recent paper dated December 8, 2023, Richardson states"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Amelia Richardson",
+    "relation": "states",
+    "value": "the demand for digital-savvy workers has surged beyond the tech sector",
+    "time": null,
+    "speaker": "Dr. Amelia Richardson",
+    "verbatim": [
+     "Richardson states that the demand for digital-savvy workers has surged beyond the tech sector"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Amelia Richardson",
+    "relation": "states",
+    "value": "the demand for digital-savvy workers now permeates every facet of the modern economy",
+    "time": null,
+    "speaker": "Dr. Amelia Richardson",
+    "verbatim": [
+     "and now permeates every facet of the modern economy."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "coding literacy",
+    "relation": "described_as",
+    "value": "technological proficiency is no longer a luxury but an economic necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technological proficiency is no longer a luxury but an economic necessity."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "HiredTech",
+    "relation": "reports",
+    "value": "jobs requiring coding skills are growing at a rate 50% faster than the market overall",
+    "time": null,
+    "speaker": "HiredTech",
+    "verbatim": [
+     "Jobs requiring coding skills are growing at a rate 50% faster than the market overall, according to a report from the tech recruitment firm HiredTech."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "HiredTech",
+    "relation": "described_as",
+    "value": "tech recruitment firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the tech recruitment firm HiredTech"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "coding literacy",
+    "relation": "spans_fields",
+    "value": "financial services, healthcare, and manufacturing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they span across fields like financial services, healthcare, and manufacturing."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "coding literacy",
+    "relation": "not_confined_to",
+    "value": "software development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These roles are not confined to software development"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Bureau of Labor Statistics",
+    "relation": "projects",
+    "value": "a 13% increase in employment in computer and information technology occupations",
+    "time": "by 2030",
+    "speaker": null,
+    "verbatim": [
+     "The Bureau of Labor Statistics projects that by 2030, there would be a 13% increase in employment in computer and information technology occupations"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Bureau of Labor Statistics",
+    "relation": "projects",
+    "value": "significantly outpacing the average for all occupations",
+    "time": "by 2030",
+    "speaker": null,
+    "verbatim": [
+     "significantly outpacing the average for all occupations."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maxine Thompson",
+    "relation": "claims",
+    "value": "We need to prepare our children not just to consume technology but to understand and control it",
+    "time": null,
+    "speaker": "Maxine Thompson",
+    "verbatim": [
+     "We need to prepare our children not just to consume technology but to understand and control it,"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maxine Thompson",
+    "relation": "works_as",
+    "value": "a curriculum specialist at the Department of Education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maxine Thompson, a curriculum specialist at the Department of Education"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Maxine Thompson",
+    "relation": "interviewed_on",
+    "value": "an interview",
+    "time": "January 23, 2024",
+    "speaker": null,
+    "verbatim": [
+     "in an interview on January 23, 2024."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Department of Education",
+    "relation": "employs",
+    "value": "Maxine Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maxine Thompson, a curriculum specialist at the Department of Education"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maxine Thompson",
+    "relation": "claims",
+    "value": "Interacting with technology is one thing; being able to create and innovate with it is another.",
+    "time": null,
+    "speaker": "Maxine Thompson",
+    "verbatim": [
+     "Interacting with technology is one thing; being able to create and innovate with it is another."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "coding and computational thinking",
+    "relation": "represents",
+    "value": "a paradigm shift from passive consumption of technology to active creation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of coding and computational thinking represents a paradigm shift from passive consumption of technology to active creation."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "coding literacy",
+    "relation": "viewed_as",
+    "value": "a fundamental aspect of literacy",
+    "time": null,
+    "speaker": "Educators like Thompson",
+    "verbatim": [
+     "Educators like Thompson view coding not merely as a technical skill but as a fundamental aspect of literacy"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "coding literacy",
+    "relation": "includes",
+    "value": "problemsolving, logical thinking, and creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a fundamental aspect of literacy that includes problemsolving, logical thinking, and creativity."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "coding and computational thinking",
+    "relation": "is_significant_hurdle",
+    "value": "training and recruiting teachers proficient in these skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training and recruiting teachers proficient in these skills is a significant hurdle."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "coding and computational thinking",
+    "relation": "has_challenges",
+    "value": "the rollout of such a comprehensive curriculum change is not without its challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rollout of such a comprehensive curriculum change is not without its challenges."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "initiative launched on September 1, 2023",
+    "relation": "launched_on",
+    "value": "September 1, 2023",
+    "time": "September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "An initiative to tackle this was launched on September 1, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "initiative launched on September 1, 2023",
+    "relation": "involves",
+    "value": "partnerships with universities and private coding bootcamps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involving partnerships with universities and private coding bootcamps"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "initiative launched on September 1, 2023",
+    "relation": "aims_to",
+    "value": "fast-track the upskilling of educators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to fast-track the upskilling of educators."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "initiative launched on September 1, 2023",
+    "relation": "tackles",
+    "value": "training and recruiting teachers proficient in these skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An initiative to tackle this was launched"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "initiative launched on September 1, 2023",
+    "relation": "in_order_to",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involving partnerships with universities and private coding bootcamps to fast-track the upskilling of educators."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "technological equity",
+    "relation": "described_as",
+    "value": "another concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another concern is the issue of technological equity."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jane Park",
+    "relation": "works_as",
+    "value": "a local education advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Park, a local education advocate, speaks ardently about the"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "digital divide",
+    "relation": "risks",
+    "value": "leaving behind students from less affluent backgrounds",
+    "time": null,
+    "speaker": "Jane Park",
+    "verbatim": [
+     "that risks leaving behind students from less affluent backgrounds."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jane Park",
+    "relation": "speaks_about",
+    "value": "the digital divide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "speaks ardently about the \"digital divide\" that risks leaving behind students from less affluent backgrounds"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "technological equity",
+    "relation": "response",
+    "value": "schools are ramping up efforts to secure funding for digital tools and resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response, schools are ramping up efforts to secure funding for digital tools and resources"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "technological equity",
+    "relation": "in_response_to",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response, schools are ramping up efforts"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "technological equity",
+    "relation": "aims_to_ensure",
+    "value": "all students have equitable access to this critical education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring all students have equitable access to this critical education."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "technological equity",
+    "relation": "in_order_to",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schools are ramping up efforts to secure funding for digital tools and resources, ensuring all students have equitable access to this critical education."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "hands-on, project-based learning",
+    "relation": "is_emphasis_of",
+    "value": "the new curriculum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most innovative aspects of the new curriculum is its emphasis on hands-on, project-based learning."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "hands-on, project-based learning",
+    "relation": "allocates",
+    "value": "time and resources to allow students to work on tangible projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools are allocating time and resources to allow students to work on tangible projects"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "hands-on, project-based learning",
+    "relation": "reveals",
+    "value": "the practical application of coding and computational thinking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tangible projects that reveal the practical application of coding and computational thinking."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "minds-on approach",
+    "relation": "fosters",
+    "value": "deeper understanding and retention of the material",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "approach fosters deeper understanding and retention of the material"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "minds-on approach",
+    "relation": "encourages",
+    "value": "students to explore, experiment, and discover possibilities within the technological landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging students to explore, experiment, and discover possibilities within the technological landscape."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "coding and computational thinking",
+    "relation": "success_relies_on",
+    "value": "strong partnerships between educational institutions and the tech industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The success of this educational venture relies on strong partnerships between educational institutions and the tech industry."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "coding and computational thinking",
+    "relation": "partnership_activity",
+    "value": "constructing bridges with local startups and established tech giants, developing internship opportunities, and co-creating curricular materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools are constructing bridges with local startups and established tech giants, developing internship opportunities, and co-creating curricular materials that reflect real-world needs."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "coding and computational thinking",
+    "relation": "offered_by_community_organizations",
+    "value": "after-school programs and weekend workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community organizations have also stepped up, offering after-school programs and weekend workshops"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "coding and computational thinking",
+    "relation": "purpose_of_community_programs",
+    "value": "support learning outside the classroom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to support learning outside the classroom."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "coding and computational thinking",
+    "relation": "in_order_to",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering after-school programs and weekend workshops to support learning outside the classroom."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Bob Marino",
+    "relation": "founder_of",
+    "value": "CodeFuture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Marino, the founder of CodeFuture"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "CodeFuture",
+    "relation": "described_as",
+    "value": "a non-profit dedicated to expanding tech education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CodeFuture, a non-profit dedicated to expanding tech education"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Bob Marino",
+    "relation": "states",
+    "value": "These initiatives are invaluable in continuing the momentum and fostering a culture of innovation.",
+    "time": null,
+    "speaker": "Bob Marino",
+    "verbatim": [
+     "These initiatives are invaluable in continuing the momentum and fostering a culture of innovation."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "coding and computational thinking",
+    "relation": "underscores",
+    "value": "the increasingly close relationship between curriculum design and economic imperatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This educational revamp also underscores the increasingly close relationship between curriculum design and economic imperatives."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "coding and computational thinking",
+    "relation": "is_not",
+    "value": "merely educational reform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of coding and computational thinking into the curriculum is not merely educational reform;"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "coding and computational thinking",
+    "relation": "is",
+    "value": "an economic strategy aimed at maintaining competitiveness on both an individual and a regional level",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's an economic strategy aimed at maintaining competitiveness on both an individual and a regional level."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Thom Walters",
+    "relation": "claims",
+    "value": "Educating our youth is also about ensuring our economic security and leadership",
+    "time": null,
+    "speaker": "Thom Walters",
+    "verbatim": [
+     "Educating our youth is also about ensuring our economic security and leadership,"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Thom Walters",
+    "relation": "works_as",
+    "value": "a Silicon Valley economic analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Thom Walters, a Silicon Valley economic analyst."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Thom Walters",
+    "relation": "claims",
+    "value": "If we fail to prepare our workforce for the demands of the future, we risk falling behind on the global stage",
+    "time": null,
+    "speaker": "Thom Walters",
+    "verbatim": [
+     "If we fail to prepare our workforce for the demands of the future, we risk falling behind on the global stage."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Silicon Valley",
+    "relation": "is_being_watched_by",
+    "value": "other states and even countries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Other states and even countries are watching closely as the Silicon Valley experiment unfolds."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Silicon Valley",
+    "relation": "may_spread",
+    "value": "similar educational reforms could spread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Should it prove successful, it's anticipated that similar educational reforms could spread."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Silicon Valley",
+    "relation": "conditional_on",
+    "value": "Should it prove successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Should it prove successful, it's anticipated that similar educational reforms could spread."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Silicon Valley",
+    "relation": "could_realign",
+    "value": "global educational standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This could realign global educational standards"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Silicon Valley",
+    "relation": "ensures",
+    "value": "future generations are better equipped to navigate a techno-centric economic landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that future generations are better equipped to navigate a techno-centric economic landscape."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "coding and computational thinking",
+    "relation": "results_timing",
+    "value": "not immediate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While the results of this initiative will not be immediate"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "coding and computational thinking",
+    "relation": "expected_to_sow",
+    "value": "seeds that are crucial for future economic growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the expectation is that the integration of coding and computational thinking into the curriculum will sow seeds that are crucial for future economic growth."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "coding literacy",
+    "relation": "becomes",
+    "value": "a vital component of a modern citizen's identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technological literacy becomes not just a skill but a vital component of a modern citizen's identity."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "coding and computational thinking",
+    "relation": "marks",
+    "value": "a significant step towards a future where economic vitality relies on the minds of those who can expertly navigate and innovate within the digital domain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These curricular developments, though challenging, mark a significant step towards a future where economic vitality relies on the minds of those who can expertly navigate and innovate within the digital domain."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "coding and computational thinking",
+    "relation": "described_as",
+    "value": "challenging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These curricular developments, though challenging"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

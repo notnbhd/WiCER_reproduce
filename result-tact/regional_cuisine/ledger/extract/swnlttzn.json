@@ -1,0 +1,832 @@
+{
+ "inventory": [
+  "Alice Martin",
+  "Dr. James Patterson",
+  "Laura Thompson",
+  "Michael Roberts",
+  "Sarah Kim",
+  "Jacob Lee",
+  "Harold Greene",
+  "wild mushrooms",
+  "mushroom foraging",
+  "morels",
+  "fly agaric",
+  "chanterelle",
+  "porcini",
+  "oyster mushrooms",
+  "autumnal equinox",
+  "Autumn",
+  "sustainability",
+  "mindfulness",
+  "woodlands"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "wild mushrooms",
+    "relation": "guide_covers",
+    "value": "Foraging and Cooking with Wild Fungi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Mushroom Guide: Foraging and Cooking with Wild Fungi"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "mushroom foraging",
+    "relation": "takes_place_in",
+    "value": "the woodlands and fields of our countryside",
+    "time": "On a misty September morning",
+    "speaker": null,
+    "verbatim": [
+     "a quiet, contemplative activity begins in the woodlands and fields of our countryside"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "mushroom foraging",
+    "relation": "described_as",
+    "value": "a quiet, contemplative activity",
+    "time": "On a misty September morning",
+    "speaker": null,
+    "verbatim": [
+     "a quiet, contemplative activity begins in the woodlands and fields of our countryside"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "mushroom foraging",
+    "relation": "knowledge_passed_down_through",
+    "value": "generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a wealth of knowledge passed down through generations"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "mushroom foraging",
+    "relation": "season_starts",
+    "value": "September 5th, 2023",
+    "time": "September 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 5th, 2023 marks this season's start for many fungi enthusiasts"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "wild mushrooms",
+    "relation": "sought_as",
+    "value": "the elusive, the mysterious, and the profoundly beautiful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeking the elusive, the mysterious, and the profoundly beautiful: wild mushrooms"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Alice Martin",
+    "relation": "occupation",
+    "value": "a seasoned forager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice Martin, a seasoned forager who treads lightly amongst the fallen leaves and mossy logs"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "mushroom foraging",
+    "relation": "described_as",
+    "value": "a form of meditation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For her, mushroom foraging is far more than a hobby\u2014it's a form of meditation, an act of connecting with the earth."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Alice Martin",
+    "relation": "said",
+    "value": "Each mushroom I encounter is a testament to nature's intricate design",
+    "time": null,
+    "speaker": "Alice Martin",
+    "verbatim": [
+     "Each mushroom I encounter is a testament to nature's intricate design"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Alice Martin",
+    "relation": "parts_foliage_to_reveal",
+    "value": "a cluster of earthy morels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she gently parts the foliage to reveal a cluster of earthy morels"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "morels",
+    "relation": "revealed_by",
+    "value": "Alice Martin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to reveal a cluster of earthy morels"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Alice Martin",
+    "relation": "in_order_to",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she gently parts the foliage to reveal a cluster of earthy morels"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "woodlands",
+    "relation": "hush_envelops",
+    "value": "a cathedral-like silence that lends a spiritual depth to her quest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The hush of the forest envelops her, a cathedral-like silence that lends a spiritual depth to her quest."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "wild mushrooms",
+    "relation": "linked_with",
+    "value": "the ebb and flow of the seasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mushrooms are intimately linked with the ebb and flow of the seasons"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "wild mushrooms",
+    "relation": "grow_in_response_to",
+    "value": "the subtle signals of the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "growing in response to the subtle signals of the environment"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Autumn",
+    "relation": "begins_with",
+    "value": "the autumnal equinox",
+    "time": "September 23rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Autumn\u2014beginning with the autumnal equinox on September 23rd, 2023\u2014is prime time for foragers."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "autumnal equinox",
+    "relation": "date",
+    "value": "September 23rd, 2023",
+    "time": "September 23rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "beginning with the autumnal equinox on September 23rd, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Autumn",
+    "relation": "is_prime_time_for",
+    "value": "foragers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is prime time for foragers"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Autumn",
+    "relation": "has_weather",
+    "value": "cool nights and warm days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This season, with its cool nights and warm days, provides the ideal conditions for a fungal renaissance."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Autumn",
+    "relation": "provides",
+    "value": "the ideal conditions for a fungal renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides the ideal conditions for a fungal renaissance"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. James Patterson",
+    "relation": "occupation",
+    "value": "Mycologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mycologist Dr. James Patterson notes"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. James Patterson",
+    "relation": "said",
+    "value": "The autumn season brings a resurgence of life in fungal form, each species marking the passage of time in their own unique way.",
+    "time": null,
+    "speaker": "Dr. James Patterson",
+    "verbatim": [
+     "The autumn season brings a resurgence of life in fungal form, each species marking the passage of time in their own unique way."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "fly agaric",
+    "relation": "described_as",
+    "value": "a fairy tale classic with its red cap and white spots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the vibrant fly agaric, a fairy tale classic with its red cap and white spots"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "fly agaric",
+    "relation": "cap_color",
+    "value": "red",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its red cap and white spots"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "chanterelle",
+    "relation": "described_as",
+    "value": "the understated elegance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the understated elegance of the chanterelle, with its golden hues and refined taste"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "chanterelle",
+    "relation": "has_hues",
+    "value": "golden hues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its golden hues and refined taste"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "chanterelle",
+    "relation": "has_taste",
+    "value": "refined taste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its golden hues and refined taste"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "wild mushrooms",
+    "relation": "variety_is",
+    "value": "limitless",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the variety is limitless"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "wild mushrooms",
+    "relation": "array_described_as",
+    "value": "breathtaking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The array of mushrooms that nature presents is breathtaking."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Laura Thompson",
+    "relation": "first_successful_hunt_for",
+    "value": "porcini",
+    "time": "October 14th",
+    "speaker": null,
+    "verbatim": [
+     "October 14th is a date etched in the minds of those like Laura Thompson, who fondly recalls her first successful hunt for the elusive porcini."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "porcini",
+    "relation": "hunted_by",
+    "value": "Laura Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her first successful hunt for the elusive porcini"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Laura Thompson",
+    "relation": "quoted",
+    "value": "There's something magical in finding a mushroom you've read about, dreamed about, and finally, it's there at your feet, ready to be part of your story.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There's something magical in finding a mushroom you've read about, dreamed about, and finally, it's there at your feet, ready to be part of your story."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "mushroom foraging",
+    "relation": "comes_with",
+    "value": "great responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With foraging comes great responsibility."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "sustainability",
+    "relation": "described_as",
+    "value": "a creed all must adhere to when engaging with nature's bounty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sustainability is a creed all must adhere to when engaging with nature's bounty."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Michael Roberts",
+    "relation": "said",
+    "value": "You take only what you need, and always leave the land as you found it",
+    "time": null,
+    "speaker": "Michael Roberts",
+    "verbatim": [
+     "You take only what you need, and always leave the land as",
+     "you found it,"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Michael Roberts",
+    "relation": "occupation",
+    "value": "an advocate for ethical foraging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Roberts, an advocate for ethical foraging"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Michael Roberts",
+    "relation": "said_on",
+    "value": "a cool November morning",
+    "time": "a cool November morning",
+    "speaker": null,
+    "verbatim": [
+     "on a cool November morning"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "mushroom foraging",
+    "relation": "practiced_with",
+    "value": "a reverence for the ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "True foragers practice their craft with a reverence for the ecosystem"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "mushroom foraging",
+    "relation": "ensures",
+    "value": "they do not disrupt the delicate balance within the woodland realms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that they do not disrupt the delicate balance within the woodland realms"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "mushroom foraging",
+    "relation": "in_order_to",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "True foragers practice their craft with a reverence for the ecosystem, ensuring that they do not disrupt the delicate balance within the woodland realms"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "wild mushrooms",
+    "relation": "appear_to_untrained_eye",
+    "value": "all mushrooms might look similar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To the untrained eye, all mushrooms might look similar"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "wild mushrooms",
+    "relation": "speak_volumes_to",
+    "value": "those in tune with their language",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to those in tune with their language, they speak volumes"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sarah Kim",
+    "relation": "drawn_to_woods_on",
+    "value": "crisp December dawns",
+    "time": "crisp December dawns",
+    "speaker": null,
+    "verbatim": [
+     "draws individuals like Sarah Kim to the woods on crisp December dawns"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "It's about listening",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "\"It's about listening,\" she says"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "The mushrooms will tell you their secrets, but only if you're willing to hear.",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "The mushrooms will tell you their secrets, but only if you're willing to hear."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "mushroom foraging",
+    "relation": "connection_transcends",
+    "value": "the physical realm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This connection transcends the physical realm, touching something deeper within the soul."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "wild mushrooms",
+    "relation": "assume_new_roles",
+    "value": "becoming the stars of gastronomic masterpieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here, the wild fungi assume new roles, becoming the stars of gastronomic masterpieces."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jacob Lee",
+    "relation": "occupation",
+    "value": "an esteemed chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jacob Lee, an esteemed chef"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jacob Lee",
+    "relation": "found_inspiration_on",
+    "value": "September 29th",
+    "time": "September 29th",
+    "speaker": null,
+    "verbatim": [
+     "Jacob Lee, an esteemed chef, found inspiration on September 29th"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jacob Lee",
+    "relation": "stumbled_upon",
+    "value": "a trove of oyster mushrooms",
+    "time": "September 29th",
+    "speaker": null,
+    "verbatim": [
+     "when he stumbled upon a trove of oyster mushrooms"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Jacob Lee",
+    "relation": "caused_by",
+    "value_ref": "c50",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found inspiration on September 29th when he stumbled upon a trove of oyster mushrooms"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "oyster mushrooms",
+    "relation": "become",
+    "value": "the centerpiece of his autumnal menu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In his kitchen, these humble treasures become the centerpiece of his autumnal menu"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "oyster mushrooms",
+    "relation": "flavors_enhanced_by",
+    "value": "his respect for their wild origins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their delicate flavors enhanced by his respect for their wild origins"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "mushroom foraging",
+    "relation": "described_as",
+    "value": "a communion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a communion, a shared experience deeply rooted in the age-old tradition of community and kinship."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "mushroom foraging",
+    "relation": "sharing_meal_transcends",
+    "value": "mere consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The act of sharing a meal prepared with foraged mushrooms transcends mere consumption."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "wild mushrooms",
+    "relation": "imbued_with",
+    "value": "the essence of the earth and the toil of the hands that harvested them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each bite is imbued with the essence of the earth and the toil of the hands that harvested them"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "wild mushrooms",
+    "relation": "linger_long_in",
+    "value": "memory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "meals featuring foraged fungi often linger long in memory"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "mushroom foraging",
+    "relation": "has_quality",
+    "value": "a healing quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There's a healing quality to both the act of foraging and the culinary enjoyment of mushrooms."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "mushroom foraging",
+    "relation": "described_as",
+    "value": "therapeutic, a mindfulness practice that grounds one in the present moment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the seeking in itself is therapeutic, a mindfulness practice that grounds one in the present moment"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "mindfulness",
+    "relation": "grounds_one_in",
+    "value": "the present moment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mindfulness practice that grounds one in the present moment"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "wild mushrooms",
+    "relation": "preparation_can_be",
+    "value": "a meditative ritual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the preparation of mushrooms for cooking can be a meditative ritual"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Harold Greene",
+    "relation": "reflects_on",
+    "value": "while meticulously cleaning his harvest",
+    "time": "an October afternoon",
+    "speaker": null,
+    "verbatim": [
+     "As Harold Greene reflects on an October afternoon while meticulously cleaning his harvest"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Harold Greene",
+    "relation": "said",
+    "value": "In the quiet, with each brush stroke, I find peace.",
+    "time": null,
+    "speaker": "Harold Greene",
+    "verbatim": [
+     "In the quiet, with each brush stroke, I find peace."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "wild mushrooms",
+    "relation": "remains_claimed_by",
+    "value": "the frost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the frost begins to claim the remains of the fall's fungi"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "mushroom foraging",
+    "relation": "foragers_retreat_from",
+    "value": "their haunts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the foragers too retreat from their haunts"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "wild mushrooms",
+    "relation": "described_as",
+    "value": "mysterious beings of the forest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these mysterious beings of the forest"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "mushroom foraging",
+    "relation": "does_not_hibernate",
+    "value": "the knowledge and love for these mysterious beings of the forest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the knowledge and love for these mysterious beings of the forest do not hibernate with them"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "mushroom foraging",
+    "relation": "described_as",
+    "value": "a living tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a living tradition that promises to keep the ancient art of mushroom foraging alive"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "mushroom foraging",
+    "relation": "promised_to_keep_alive",
+    "value": "the ancient art of mushroom foraging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promises to keep the ancient art of mushroom foraging alive"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "woodlands",
+    "relation": "hibernating",
+    "value": "now hibernating",
+    "time": "December",
+    "speaker": null,
+    "verbatim": [
+     "casting long shadows over the now hibernating woodlands"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "mushroom foraging",
+    "relation": "cycle_will_begin",
+    "value": "anew",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cycle will begin anew"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "mushroom foraging",
+    "relation": "humanity_reaffirms_connection_to",
+    "value": "the natural world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "humanity reaffirms its connection to the natural world"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "wild mushrooms",
+    "relation": "not_just_uncovered",
+    "value": "something infinitely more profound within ourselves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is not just the mushrooms that are uncovered, but something infinitely more profound within ourselves"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,437 @@
+{
+ "inventory": [
+  "Tristan",
+  "Iseult",
+  "Orpheus",
+  "Eurydice",
+  "Otsuyu",
+  "Juliet",
+  "Romeo",
+  "Dr. Rebecca Huang",
+  "Professor Gianni Bellini",
+  "Emily Thompson",
+  "Scotland",
+  "Greece",
+  "Glastonbury",
+  "University of Edinburgh",
+  "Venice",
+  "Toronto",
+  "Japan",
+  "Edo period",
+  "Romantic Literature Conference",
+  "underworld",
+  "patriarchal structures"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Scotland",
+    "relation": "described_as",
+    "value": "mist-laden hills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the mist-laden hills of Scotland"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Greece",
+    "relation": "described_as",
+    "value": "sun-kissed shores",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the sun-kissed shores of Greece"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Glastonbury",
+    "relation": "hosted_gathering_of",
+    "value": "folklorists and romance enthusiasts",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "On one cold, windswept evening in November 2023, a group of folklorists and romance enthusiasts congregated in the quaint town of Glastonbury"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Glastonbury",
+    "relation": "described_as",
+    "value": "quaint town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "congregated in the quaint town of Glastonbury"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Tristan",
+    "relation": "romance_with",
+    "value": "Iseult",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fabled lovers Tristan and Iseult"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Iseult",
+    "relation": "romance_with",
+    "value": "Tristan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fabled lovers Tristan and Iseult"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Tristan",
+    "relation": "romance_defied",
+    "value": "a king's decree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose legendary romance defied a king's decree"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Tristan",
+    "relation": "romance_occurred_amid",
+    "value": "a potion-induced love frenzy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "burgeoned amidst a potion-induced love frenzy"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Tristan",
+    "relation": "tale_reflects",
+    "value": "the sacrificial nature of love within a historical context of patriarchal hegemony",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The tale's grim resolution, concomitant with themes of duty and desire, provides a somber reflection on the sacrificial nature of love within a historical context of patriarchal hegemony."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Orpheus",
+    "relation": "saga_dates_back_to",
+    "value": "ancient Greek mythology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heartbreaking saga of Orpheus and Eurydice, dating back to ancient Greek mythology"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Orpheus",
+    "relation": "lover_of",
+    "value": "Eurydice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heartbreaking saga of Orpheus and Eurydice"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Orpheus",
+    "relation": "love_transcended",
+    "value": "the boundaries of the mortal realm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose love transcended the boundaries of the mortal realm"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Orpheus",
+    "relation": "faced",
+    "value": "the harrowing void of the underworld with naught but his lyre and his voice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced the harrowing void of the underworld with naught but his lyre and his voice"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Orpheus",
+    "relation": "lost_beloved_due_to",
+    "value": "an irreversible moment of doubt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "only to lose his beloved to an irreversible moment of doubt"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "underworld",
+    "relation": "described_as",
+    "value": "harrowing void",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced the harrowing void of the underworld"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Japan",
+    "relation": "origin_of_tale",
+    "value": "Otsuyu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consider the Japanese tale of the faithful wife Otsuyu"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Otsuyu",
+    "relation": "described_as",
+    "value": "faithful wife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consider the Japanese tale of the faithful wife Otsuyu"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Otsuyu",
+    "relation": "becomes",
+    "value": "a spectral presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who becomes a spectral presence"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Otsuyu",
+    "relation": "unable_to_find_peace_without",
+    "value": "the devotion of her unworthy lover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unable to find peace without the devotion of her unworthy lover"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Edo period",
+    "relation": "story_recounted_since",
+    "value": "Otsuyu's story",
+    "time": "since the late Edo period",
+    "speaker": null,
+    "verbatim": [
+     "Her story, recounted in hushed tones since the late Edo period"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Rebecca Huang",
+    "relation": "occupation",
+    "value": "noted gender studies scholar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "noted gender studies scholar Dr. Rebecca Huang at the University of Edinburgh"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Rebecca Huang",
+    "relation": "facilitated",
+    "value": "critical discussions",
+    "time": "13th of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Critical discussions facilitated on the 13th of December 2023 by noted gender studies scholar Dr. Rebecca Huang"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "University of Edinburgh",
+    "relation": "hosted",
+    "value": "critical discussions",
+    "time": "13th of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Critical discussions facilitated on the 13th of December 2023 by noted gender studies scholar Dr. Rebecca Huang at the University of Edinburgh"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Rebecca Huang",
+    "relation": "illustrated",
+    "value": "male characters are often depicted as valiant heroes whose love-driven quests confer upon them a patina of nobility",
+    "time": null,
+    "speaker": "Dr. Rebecca Huang",
+    "verbatim": [
+     "are often depicted as valiant heroes whose love-driven quests confer upon them a patina of nobility, even when their quests culminate in tragedy."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Rebecca Huang",
+    "relation": "described_female_figures_as",
+    "value": "agency diminished, worth intertwined with the degree of their sacrifice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "female figures frequently have their agency diminished, their worth intertwined with the degree of their sacrifice"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "patriarchal structures",
+    "relation": "reflected_in",
+    "value": "portrayals of female figures with diminished agency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their worth intertwined with the degree of their sacrifice\u2014a reflection of longstanding patriarchal structures"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Romantic Literature Conference",
+    "relation": "held_in",
+    "value": "Venice",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Romantic Literature Conference held in Venice on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Venice",
+    "relation": "hosted",
+    "value": "Romantic Literature Conference",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Romantic Literature Conference held in Venice on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Professor Gianni Bellini",
+    "relation": "presented",
+    "value": "his paper on the transformation of tragic romance through the ages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When Professor Gianni Bellini presented his paper on the transformation of tragic romance through the ages"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Juliet",
+    "relation": "wields_words_and_will_with",
+    "value": "the same fortitude as their beloved Romeos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heroines like Juliet wield their words and will with the same fortitude as their beloved Romeos"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Orpheus",
+    "relation": "guided_by",
+    "value": "Eurydice's wisdom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where Orpheus listens\u2014guided by Eurydice's wisdom\u2014to successfully navigate the pitfalls of the underworld"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Orpheus",
+    "relation": "reimagined_to_navigate",
+    "value": "the pitfalls of the underworld",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where Orpheus listens\u2014guided by Eurydice's wisdom\u2014to successfully navigate the pitfalls of the underworld"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Toronto",
+    "relation": "hosted",
+    "value": "an intimate symposium",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during an intimate symposium in Toronto on February 22, 2024"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Emily Thompson",
+    "relation": "spoke_at",
+    "value": "an intimate symposium in Toronto",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during an intimate symposium in Toronto on February 22, 2024, author and cultural critic Emily Thompson shed light on"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emily Thompson",
+    "relation": "occupation",
+    "value": "author and cultural critic",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "author and cultural critic Emily Thompson shed light on modern adaptations"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Emily Thompson",
+    "relation": "shed_light_on",
+    "value": "modern adaptations of classic tragic romances in literature and film",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "shed light on modern adaptations of classic tragic romances in literature and film"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Emily Thompson",
+    "relation": "proposed",
+    "value": "retellings offered a subversive approach to the orthodoxies ingrained in the originals",
+    "time": "February 22, 2024",
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "These retellings, she proposed, offered a subversive approach to the orthodoxies ingrained in the originals"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

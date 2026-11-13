@@ -1,0 +1,660 @@
+{
+ "inventory": [
+  "OceanicWeb",
+  "FastNet",
+  "Melanie Houston",
+  "SecureNet",
+  "Tyler Beckett",
+  "MegaNet",
+  "WorldConnect",
+  "Roger Lin",
+  "Sarah Klein",
+  "United States",
+  "Los Angeles",
+  "Midwest region",
+  "ISPs",
+  "internet service disruptions",
+  "cyberattacks",
+  "Distributed Denial of Service (DDoS) attack",
+  "ransomware attacks",
+  "category 3 hurricane",
+  "fiber-optic cable",
+  "construction crew",
+  "Human error",
+  "scheduled update",
+  "temporary internet restrictions",
+  "cloud service provider"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "internet service disruptions",
+    "relation": "caused_by",
+    "value": "multitude of factors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This in-depth investigation reveals the multitude of factors that contribute to internet service disruptions"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "cyberattacks",
+    "relation": "spike_in",
+    "value": "a spike in cyberattack incidents",
+    "time": "recent months",
+    "speaker": null,
+    "verbatim": [
+     "marked by a spike in cyberattack incidents in recent months"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "internet service disruptions",
+    "relation": "leaves",
+    "value": "people left in the dark",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With people left in the dark and businesses scrambling to operate"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "category 3 hurricane",
+    "relation": "swept_through",
+    "value": "southeastern coast of the United States",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A category 3 hurricane swept through the southeastern coast of the United States"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "category 3 hurricane",
+    "relation": "led_to",
+    "value": "internet outages",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Achingly familiar to thousands of citizens were the inevitable internet outages."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "category 3 hurricane",
+    "relation": "led_to",
+    "value": "a multi-day loss of connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the hurricane led to a multi-day loss of connectivity"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "category 3 hurricane",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the hurricane led to a multi-day loss of connectivity"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "OceanicWeb",
+    "relation": "struggled_to_restore",
+    "value": "services to the affected regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies like OceanicWeb and FastNet struggling to restore services to the affected regions"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "FastNet",
+    "relation": "struggled_to_restore",
+    "value": "services to the affected regions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies like OceanicWeb and FastNet struggling to restore services to the affected regions"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "construction crew",
+    "relation": "severed",
+    "value": "a major fiber-optic cable",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a construction crew accidentally severed a major fiber-optic cable in Los Angeles"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "fiber-optic cable",
+    "relation": "located_in",
+    "value": "Los Angeles",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "severed a major fiber-optic cable in Los Angeles"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Melanie Houston",
+    "relation": "occupation",
+    "value": "local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As recounted by eyewitness Melanie Houston, a local business owner"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Melanie Houston",
+    "relation": "said",
+    "value": "It was as if our lifeline was cut. We couldn't process transactions, and our communications were halted for hours.",
+    "time": null,
+    "speaker": "Melanie Houston",
+    "verbatim": [
+     "It was as if our lifeline was cut. We couldn't process transactions, and our communications were halted for hours."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Human error",
+    "relation": "is_culprit_of",
+    "value": "internet service disruptions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Human error is another significant culprit."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Human error",
+    "relation": "can_have_domino_effect",
+    "value": "a domino effect on the grid that ties the internet together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident accentuated the domino effect that a single mistake can have on the grid that ties the internet together"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "cyberattacks",
+    "relation": "can_disrupt",
+    "value": "vast networks and services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophisticated and organized acts of cyber campaigns have proven their ability to disrupt vast networks and services."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "SecureNet",
+    "relation": "is_a",
+    "value": "prominent internet service provider (ISP)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SecureNet, a prominent internet service provider (ISP)"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "SecureNet",
+    "relation": "victim_of",
+    "value": "Distributed Denial of Service (DDoS) attack",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "was victim to a Distributed Denial of Service (DDoS) attack"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Distributed Denial of Service (DDoS) attack",
+    "relation": "left_without_internet",
+    "value": "thousands of businesses and homes",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "left thousands of businesses and homes without internet for almost an entire day"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Distributed Denial of Service (DDoS) attack",
+    "relation": "duration",
+    "value": "almost an entire day",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "for almost an entire day"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Tyler Beckett",
+    "relation": "occupation",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity analyst Tyler Beckett"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Distributed Denial of Service (DDoS) attack",
+    "relation": "described_as",
+    "value": "a coordinated barrage of requests aimed at the ISP's servers, overwhelming them to the point of inoperability",
+    "time": null,
+    "speaker": "Tyler Beckett",
+    "verbatim": [
+     "was a coordinated barrage of requests aimed at the ISP's servers, overwhelming them to the point of inoperability"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "ransomware attacks",
+    "relation": "involves",
+    "value": "malicious software encrypts data or locks users out of their systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "malicious software encrypts data or locks users out of their systems"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "ransomware attacks",
+    "relation": "demands",
+    "value": "a hefty ransom for the restoration of services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ransom for the restoration of services"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "ransomware attacks",
+    "relation": "trend",
+    "value": "a trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uncovers a trend in ransomware attacks"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "MegaNet",
+    "relation": "infiltrated_by",
+    "value": "hackers",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "hackers infiltrated the network of MegaNet"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "MegaNet",
+    "relation": "is_a",
+    "value": "ISP serving the Midwest region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MegaNet, an ISP serving the Midwest region"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "MegaNet",
+    "relation": "attackers_demanded",
+    "value": "a ransom",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The attackers not only demanded a ransom"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "MegaNet",
+    "relation": "services_disrupted_across",
+    "value": "multiple states",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "succeeded in substantially disrupting services across multiple states during the impasse"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "ISPs",
+    "relation": "engage_in",
+    "value": "network maintenance to upgrade and ensure the reliability of their services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ISPs routinely engage in network maintenance to upgrade and ensure the reliability of their services"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "ISPs",
+    "relation": "plan_maintenance_windows",
+    "value": "planned and communicated to customers in advance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these maintenance windows are planned and communicated to customers in advance, seeking to mitigate impact"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "ISPs",
+    "relation": "purpose_of_advance_communication",
+    "value": "mitigate impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeking to mitigate impact"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "scheduled update",
+    "relation": "conducted_by",
+    "value": "WorldConnect",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 22, 2023, during a scheduled update by WorldConnect"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "WorldConnect",
+    "relation": "experienced",
+    "value": "a glitch",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a glitch occurred that led to a prolonged blackout instead of a brief period of unavailability"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "scheduled update",
+    "relation": "led_to",
+    "value": "a prolonged blackout instead of a brief period of unavailability",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a glitch occurred that led to a prolonged blackout instead of a brief period of unavailability"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Roger Lin",
+    "relation": "occupation",
+    "value": "network technician involved in the update",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Roger Lin, a network technician involved in the update"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Roger Lin",
+    "relation": "said",
+    "value": "We anticipated a smooth rollout, but a configuration error led to unforeseen troubles that took us by surprise.",
+    "time": null,
+    "speaker": "Roger Lin",
+    "verbatim": [
+     "We anticipated a smooth rollout, but a configuration error led to unforeseen troubles that took us by surprise."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "scheduled update",
+    "relation": "caused_by",
+    "value": "a configuration error",
+    "time": null,
+    "speaker": "Roger Lin",
+    "verbatim": [
+     "a configuration error led to unforeseen troubles that took us by surprise"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "temporary internet restrictions",
+    "relation": "imposed_by",
+    "value": "a country",
+    "time": "October 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when a country imposed temporary internet restrictions to control the flow of information"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "temporary internet restrictions",
+    "relation": "in_order_to",
+    "value": "control the flow of information",
+    "time": "October 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to control the flow of information amidst political upheaval"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "temporary internet restrictions",
+    "relation": "occurred_amid",
+    "value": "political upheaval",
+    "time": "October 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to control the flow of information amidst political upheaval"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "temporary internet restrictions",
+    "relation": "affected",
+    "value": "global operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This maneuver affected global operations"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sarah Klein",
+    "relation": "occupation",
+    "value": "security expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security expert Sarah Klein points out"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sarah Klein",
+    "relation": "said",
+    "value": "ISPs tend to push their existing infrastructure to the limits before investing in upgrades.",
+    "time": null,
+    "speaker": "Sarah Klein",
+    "verbatim": [
+     "ISPs tend to push their existing infrastructure to the limits before investing in upgrades."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "ISPs",
+    "relation": "dependent_on",
+    "value": "outdated systems vulnerable to new threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many ISPs are still dependent on outdated systems vulnerable to new threats"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "ISPs",
+    "relation": "infrastructure_failed",
+    "value": "the aging infrastructure of a local ISP failed under the strain of modern, high-bandwidth demands",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the aging infrastructure of a local ISP failed under the strain of modern, high-bandwidth demands"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "internet service disruptions",
+    "relation": "lasted",
+    "value": "several hours",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "causing a disruption for several hours until temporary fixes were applied"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "internet service disruptions",
+    "relation": "ended_by",
+    "value": "temporary fixes",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "until temporary fixes were applied"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "cloud service provider",
+    "relation": "suffered",
+    "value": "an outage",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a crucial cloud service provider suffered an outage"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "cloud service provider",
+    "relation": "described_as",
+    "value": "crucial",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a crucial cloud service provider"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "cloud service provider",
+    "relation": "had_cascading_effect_on",
+    "value": "the ISPs relying on their services",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which had a cascading effect on the ISPs relying on their services"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "cloud service provider",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "suffered an outage, which had a cascading effect"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "internet service disruptions",
+    "relation": "further_affected",
+    "value": "the end-users who remained oblivious to these interdependent relationships",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "further affecting the end-users who remained oblivious to these interdependent relationships"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "ISPs",
+    "relation": "rely_on",
+    "value": "third-party services and partners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ISPs rely heavily on third-party services and partners"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "internet service disruptions",
+    "relation": "can_lead_to",
+    "value": "widespread outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An interruption within this chain can lead to widespread outages."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cyberattacks",
+    "relation": "poses_threat_to",
+    "value": "our internet stability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the frequency of cyberattacks poses a significant threat to our internet stability"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "internet service disruptions",
+    "relation": "requires",
+    "value": "a combined effort from governments, ISPs, businesses, and individuals toward stronger cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a combined effort from governments, ISPs, businesses, and individuals toward stronger cybersecurity measures is essential."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

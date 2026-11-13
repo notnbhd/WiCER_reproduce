@@ -1,0 +1,407 @@
+{
+ "inventory": [
+  "XYZ Corporation",
+  "XYZ Corporation Travel and Expense Policy",
+  "Pre-Travel Authorization",
+  "Travel Authorization Form",
+  "corporate travel portal",
+  "preferred vendors",
+  "Airlines",
+  "Hotels",
+  "Car Rental Companies",
+  "volume discounts",
+  "Compliance with company booking procedures",
+  "Travel Management Department"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "XYZ Corporation Travel and Expense Policy",
+    "relation": "provides_guidelines_on",
+    "value": "booking travel arrangements and utilizing preferred vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This policy provides clear and comprehensive guidelines on booking travel arrangements and utilizing our network of preferred vendors"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "XYZ Corporation Travel and Expense Policy",
+    "relation": "ensures",
+    "value": "cost-effectiveness, personal safety, and the integrity of expense management process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adherence to our travel policy ensures cost-effectiveness, personal safety, and the integrity of our expense management process."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "XYZ Corporation",
+    "relation": "values",
+    "value": "managing corporate travel and expenses effectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At XYZ Corporation, we value the importance of managing corporate travel and expenses effectively."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Pre-Travel Authorization",
+    "relation": "requires_approval_from",
+    "value": "direct supervisor, before making any travel arrangements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "All XYZ Corporation employees must obtain approval from their direct supervisor before making any travel arrangements."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Travel Authorization Form",
+    "relation": "required_submission_by",
+    "value": "employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are required to submit a Travel Authorization Form that outlines the purpose of their trip, estimated costs, and itinerary details."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Travel Authorization Form",
+    "relation": "outlines",
+    "value": "purpose of their trip, estimated costs, and itinerary details",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees are required to submit a Travel Authorization Form that outlines the purpose of their trip, estimated costs, and itinerary details."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Pre-Travel Authorization",
+    "relation": "permits_after_approval",
+    "value": "employees may proceed with booking their travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Once approved, employees may proceed with booking their travel in accordance with the following procedures."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "corporate travel portal",
+    "relation": "required_for_booking",
+    "value": "all travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "All travel must be booked through the XYZ Corporation's designated corporate travel portal"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "corporate travel portal",
+    "relation": "offers",
+    "value": "a streamlined booking process and access to preferential rates with approved vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which offers a streamlined booking process and access to preferential rates with our approved vendors"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "corporate travel portal",
+    "relation": "updated",
+    "value": "regularly, to reflect the latest deals and travel options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The portal is regularly updated to reflect the latest deals and travel options"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "preferred vendors",
+    "relation": "required_booking_vendors_for",
+    "value": "flights, accommodations, and car rentals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees are required to book all flights, accommodations, and car rentals through our preferred vendors listed on the travel portal."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "preferred vendors",
+    "relation": "listed_on",
+    "value": "travel portal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our preferred vendors listed on the travel portal"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "volume discounts",
+    "relation": "benefits",
+    "value": "XYZ Corporation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Corporation can maintain consistency and benefit from volume discounts"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "volume discounts",
+    "relation": "contribute_to",
+    "value": "significant savings for the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which contribute to significant savings for the company"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Airlines",
+    "relation": "negotiated_rates_with",
+    "value": "XYZ Corporation has negotiated favorable rates with a select group of airlines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Corporation has negotiated favorable rates with a select group of airlines."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Airlines",
+    "relation": "offer",
+    "value": "discounted fares, flexible ticketing options, and additional amenities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These airlines offer a range of benefits, including discounted fares, flexible ticketing options, and additional amenities"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Hotels",
+    "relation": "provide",
+    "value": "competitive rates, convenient locations, and amenities such as free Wi-Fi and meeting facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing competitive rates, convenient locations, and amenities such as free Wi-Fi and meeting facilities"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Hotels",
+    "relation": "must_be_booked_through",
+    "value": "corporate portal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is crucial to book these accommodations through the corporate portal to ensure access to these corporate rates."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Car Rental Companies",
+    "relation": "agreements_with",
+    "value": "XYZ Corporation, leading car rental companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We have established agreements with leading car rental companies to provide our employees with various options for ground transportation."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Car Rental Companies",
+    "relation": "offer",
+    "value": "a range of vehicle types, special corporate rates and insurance coverages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our preferred vendors offer a range of vehicle types to suit different travel needs, along with special corporate rates and insurance coverages."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Compliance with company booking procedures",
+    "relation": "is",
+    "value": "a mandatory aspect of the corporate travel process, not merely a recommendation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance with company booking procedures is not merely a recommendation but a mandatory aspect of the corporate travel process."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Compliance with company booking procedures",
+    "relation": "effect",
+    "value": "Optimize company resources by unlocking special rates and discounts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Optimize company resources by unlocking special rates and discounts"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Compliance with company booking procedures",
+    "relation": "effect",
+    "value": "Provide transparency and accountability in travel spending",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Provide transparency and accountability in travel spending"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Compliance with company booking procedures",
+    "relation": "effect",
+    "value": "Ensure personal safety with vetted service providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensure personal safety with vetted service providers"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Compliance with company booking procedures",
+    "relation": "effect",
+    "value": "Simplify expense reporting with streamlined booking records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simplify expense reporting with streamlined booking records"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Compliance with company booking procedures",
+    "relation": "effect",
+    "value": "Facilitate the management of travel itineraries and potential travel risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facilitate the management of travel itineraries and potential travel risks"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Compliance with company booking procedures",
+    "relation": "non_compliance_may_result_in",
+    "value": "personal liability for expenses or disciplinary action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Non-compliance with these procedures may result in personal liability for expenses or disciplinary action."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "XYZ Corporation",
+    "relation": "takes_seriously",
+    "value": "these guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Corporation takes these guidelines seriously and expects all employees to demonstrate the same level of commitment to policy adherence."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "XYZ Corporation",
+    "relation": "expects",
+    "value": "all employees demonstrate the same level of commitment to policy adherence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ Corporation takes these guidelines seriously and expects all employees to demonstrate the same level of commitment to policy adherence."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "XYZ Corporation",
+    "relation": "expects",
+    "value": "all team members uphold the protocols outlined in the travel policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We at XYZ Corporation expect all team members to uphold the protocols outlined in our travel policy."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Compliance with company booking procedures",
+    "relation": "is_crucial_for",
+    "value": "the cost-effective, safe, and well-managed conduct of business travel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consistent compliance with these booking procedures and preferred vendor use is crucial for the cost-effective, safe, and well-managed conduct of business travel."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "XYZ Corporation",
+    "relation": "negotiating_position_strengthened_by",
+    "value": "collective adherence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Our\ncollective adherence strengthens our negotiating position with suppliers and ensures the sustainability of our expense management practices."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Travel Management Department",
+    "relation": "employees_encouraged_to_contact",
+    "value": "before making travel commitments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees are encouraged to contact the Travel Management Department before making travel commitments."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "preferred vendors",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees are required to book all flights, accommodations, and car rentals through our preferred vendors listed on the travel portal.",
+     "By doing so, XYZ Corporation can maintain consistency and benefit from volume discounts"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Compliance with company booking procedures",
+    "relation": "results_in",
+    "value_ref": "c23",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By following these guidelines, employees: "
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

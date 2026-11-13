@@ -1,0 +1,682 @@
+{
+ "inventory": [
+  "Neighborhood Fun Run",
+  "Poplar Street",
+  "Bobbie Jenkins",
+  "motivational walking seminar",
+  "Mrs. Harrison",
+  "city council",
+  "Tom Green",
+  "Jerry McFinnigan",
+  "local taxidermist",
+  "Carol",
+  "Casio watches",
+  "Herbert",
+  "Chihuahua",
+  "Johnson twins",
+  "Larry",
+  "Maple Drive",
+  "high school cheerleading squad",
+  "local cat enthusiast",
+  "Janet",
+  "Pete's Pizzeria",
+  "Sarah's Smoothies",
+  "Plants vs Zombies",
+  "Gatorade",
+  "local bands"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Neighborhood Fun Run",
+    "relation": "scheduled_for",
+    "value": "September 10, 2023",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "slated for a bright and breezy morning on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Neighborhood Fun Run",
+    "relation": "is_a",
+    "value": "local walkathon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizing a local walkathon"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bobbie Jenkins",
+    "relation": "returned_from",
+    "value": "motivational walking seminar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bobbie Jenkins, having just returned from a motivational walking seminar"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "motivational walking seminar",
+    "relation": "exists",
+    "value": "yes, they exist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(yes, they exist)"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bobbie Jenkins",
+    "relation": "proposed",
+    "value": "host our own fun run",
+    "time": null,
+    "speaker": "Bobbie Jenkins",
+    "verbatim": [
+     "\"Why don't we host our own fun run?\" she typed"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Bobbie Jenkins",
+    "relation": "typed_with",
+    "value": "contagious enthusiasm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she typed with contagious enthusiasm"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Neighborhood Fun Run",
+    "relation": "planning_stage_was",
+    "value": "a hilarious mishmash of overambitious ideas and good intentions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enter the planning stage \u2014 a hilarious mishmash of overambitious ideas and good intentions."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Poplar Street",
+    "relation": "setting_of",
+    "value": "where the plot began",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"The Starting Line: A Plot Brews on Poplar Street\""
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Neighborhood Fun Run",
+    "relation": "involved",
+    "value": "permit applications and safety regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we found ourselves in a labyrinth of permit applications and safety regulations"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mrs. Harrison",
+    "relation": "owns",
+    "value": "prized rose bush",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cordoning off Mrs. Harrison's prized rose bush"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "city council",
+    "relation": "meeting_required_for",
+    "value": "cordoning off Mrs. Harrison's prized rose bush",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cordoning off Mrs. Harrison's prized rose bush would require a city council meeting"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Plants vs Zombies",
+    "relation": "route_plotting_turned_into",
+    "value": "live-action version with the neighborhood's garden landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plotting a route would turn into a live-action version of \"Plants vs Zombies\" with the neighborhood's garden landscapes"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Tom Green",
+    "relation": "described_as",
+    "value": "local flora aficionado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local flora aficionado, Tom Green"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Tom Green",
+    "relation": "weekly_watering_schedule_clashed_with",
+    "value": "hydrating runners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hydrating runners clashed with the weekly watering schedule of the local flora aficionado, Tom Green"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Neighborhood Fun Run",
+    "relation": "water_station_duties_became",
+    "value": "a hot topic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "assigning water station duties became a hot topic"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jerry McFinnigan",
+    "relation": "described_as",
+    "value": "relentless charm, could sell ice to an Eskimo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the relentless charm of Jerry McFinnigan, who could sell ice to an Eskimo"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jerry McFinnigan",
+    "relation": "aided",
+    "value": "outreach to every local business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "That led us to the doorsteps of every local business, aided by the relentless charm of Jerry McFinnigan"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "local taxidermist",
+    "relation": "agreed_to",
+    "value": "donate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local taxidermist agreed to donate"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "local taxidermist",
+    "relation": "offered",
+    "value": "coupons for 10% off your next stuffed badger as runner prizes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "handing out coupons for 10% off your next stuffed badger as runner prizes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "local taxidermist",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local taxidermist agreed to donate, resulting in the prospect of handing out coupons for 10% off your next stuffed badger as runner prizes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Carol",
+    "relation": "works_in",
+    "value": "IT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carol from IT"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Carol",
+    "relation": "attempted",
+    "value": "a makeshift timing system involving bells, smartphone stopwatches, and popsicle sticks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carol from IT attempted to set up a makeshift timing system that involved a complex series of bells, smartphone stopwatches, and the handing over of popsicle sticks to mark laps"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Casio watches",
+    "relation": "used_as",
+    "value": "race timer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our race timer, old Casio watches duct-taped together"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Carol",
+    "relation": "analytics_were",
+    "value": "optimistic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her \"actionable analytics\" were, well, optimistic."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Neighborhood Fun Run",
+    "relation": "decided_themed_costumes_would",
+    "value": "add pizzazz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we decided that themed costumes would add pizzazz"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Herbert",
+    "relation": "age",
+    "value": "sixty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sixty-year-old Herbert"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Herbert",
+    "relation": "dressed_as",
+    "value": "banana",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Watching sixty-year-old Herbert dress as a banana"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Herbert",
+    "relation": "chased",
+    "value": "his runaway Chihuahua",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chasing his runaway Chihuahua"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Chihuahua",
+    "relation": "dressed_as",
+    "value": "banana",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his runaway Chihuahua (also dressed as a banana)"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Johnson twins",
+    "relation": "wore",
+    "value": "full astronaut gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Johnson twins showed up in full astronaut gear"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Johnson twins",
+    "relation": "claimed",
+    "value": "We're ready to run to the moon, or at least to the corner store for more Gatorade.",
+    "time": null,
+    "speaker": "Johnson twins",
+    "verbatim": [
+     "claiming, \"We're ready to run to the moon, or at least to the corner store for more Gatorade.\""
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Gatorade",
+    "relation": "sought_at",
+    "value": "more Gatorade at the corner store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the corner store for more Gatorade"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Neighborhood Fun Run",
+    "relation": "had_volunteers",
+    "value": "more volunteers than we knew what to do with",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We had more volunteers than we knew what to do with"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Neighborhood Fun Run",
+    "relation": "volunteer_group_turned_sign_holding_into",
+    "value": "interpretative dance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a group of teens who turned sign holding into interpretative dance"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Larry",
+    "relation": "described_as",
+    "value": "retired drill sergeant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larry, the retired drill sergeant living on Maple Drive"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Larry",
+    "relation": "lives_on",
+    "value": "Maple Drive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larry, the retired drill sergeant living on Maple Drive"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Larry",
+    "relation": "took_traffic_directing_duties",
+    "value": "a little too seriously, complete with whistle and arm gestures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "took his traffic directing duties a little too seriously, complete with whistle and arm gestures that would signal an airplane to its gate"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Neighborhood Fun Run",
+    "relation": "meant_to_be",
+    "value": "a musical tour de force",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fun run was meant to be a musical tour de force"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "local bands",
+    "relation": "played_at",
+    "value": "intervals along the course",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with different local bands playing at intervals along the course"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Neighborhood Fun Run",
+    "relation": "turned_into",
+    "value": "an impromptu battle of the bands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it quickly turned into an impromptu battle of the bands"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Neighborhood Fun Run",
+    "relation": "gave_instead_of",
+    "value": "front-row rock concerts instead of the usual peaceful Saturday morning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "neighbors getting front-row rock concerts instead of the usual peaceful Saturday morning"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "high school cheerleading squad",
+    "relation": "aimed_to",
+    "value": "outshine the music",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "determined to outshine the music"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "high school cheerleading squad",
+    "relation": "gave",
+    "value": "enthusiastic support that would make even a sloth pick up the pace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gave participants the kind of enthusiastic support that would make even a sloth pick up the pace"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "high school cheerleading squad",
+    "relation": "chant",
+    "value": "Go Run, Go Stride, Go Conquer, Don't Hide!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Go Run, Go Stride, Go Conquer, Don't Hide!\" chant was coupled with aggressive pom-pom shaking"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "high school cheerleading squad",
+    "relation": "coupled_chant_with",
+    "value": "aggressive pom-pom shaking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chant was coupled with aggressive pom-pom shaking"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "local cat enthusiast",
+    "relation": "let_join",
+    "value": "her feline friends join in on the fun",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local cat enthusiast letting her feline friends join in on the fun"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Neighborhood Fun Run",
+    "relation": "included",
+    "value": "'catwalk' section of the race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 'catwalk' section of the race certainly gave participants pause \u2014 and paws."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Janet",
+    "relation": "described_as",
+    "value": "rookie baker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rookie baker Janet\u2019s"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Janet",
+    "relation": "energy_bars_were",
+    "value": "nap-inducing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned out to be not so much energy-inducing as they were nap-inducing"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Janet",
+    "relation": "bars_tested_on",
+    "value": "her husband",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they were tested on her husband"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Janet",
+    "relation": "husband_known_for",
+    "value": "impressive ability to fall asleep anywhere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who\u2019s known for his impressive ability to fall asleep anywhere"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Neighborhood Fun Run",
+    "relation": "aimed_to",
+    "value": "keep runners and walkers hydrated and energized",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The idea was simple: keep our runners and walkers hydrated and energized."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Neighborhood Fun Run",
+    "relation": "refreshment_stations_became",
+    "value": "mini food festivals with treats from around the neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our refreshment stations became mini food festivals with treats from around the neighborhood"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Pete's Pizzeria",
+    "relation": "decided",
+    "value": "a slice mid-run was a splendid idea",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pete's Pizzeria decided a slice mid-run was a splendid idea"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sarah's Smoothies",
+    "relation": "showcased",
+    "value": "newest kale and spirulina super blend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah's Smoothies took the opportunity to showcase her newest kale and spirulina super blend"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Neighborhood Fun Run",
+    "relation": "refuel_with",
+    "value": "gourmet slices and green goo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Who knew one could refuel with gourmet slices and green goo?"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Neighborhood Fun Run",
+    "relation": "was",
+    "value": "a carbo-loading paradise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a carbo-loading paradise"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Neighborhood Fun Run",
+    "relation": "caused_participants_to_linger",
+    "value": "a tad longer than anticipated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a carbo-loading paradise that had participants lingering a tad longer than anticipated."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Neighborhood Fun Run",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was a carbo-loading paradise that had participants lingering a tad longer than anticipated."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

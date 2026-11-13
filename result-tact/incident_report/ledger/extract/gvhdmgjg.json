@@ -1,0 +1,513 @@
+{
+ "inventory": [
+  "mass transit systems",
+  "New York's MTA",
+  "Chicago",
+  "'L' train system",
+  "London",
+  "Underground services",
+  "London's TfL",
+  "David Patterson",
+  "Kevin Blanchard",
+  "Cityscape Analytics",
+  "Small Business Association",
+  "Sarah Goldberg",
+  "Department for Transport",
+  "grid improvements",
+  "Lisa Freeman",
+  "Joseph Tan",
+  "October incident",
+  "Chicago storm incident",
+  "climate change",
+  "emergency response protocols"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "mass transit systems",
+    "relation": "is_pivotal_for",
+    "value": "daily routines of millions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the efficiency of mass transit systems is pivotal for the daily routines of millions"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "mass transit systems",
+    "relation": "includes",
+    "value": "Metro lines, buses, trams, and suburban rail services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Metro lines, buses, trams, and suburban rail services stand as the lifelines of urban mobility"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "mass transit systems",
+    "relation": "is_hampered_by",
+    "value": "power-related incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their functionality is deeply hampered by power-related incidents"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "New York's MTA",
+    "relation": "reported_service_interruption",
+    "value": "service interruption",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As recent as October 5, 2023, New York's MTA reported a service interruption"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "New York's MTA",
+    "relation": "interruption_caused_by",
+    "value": "substation fault",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "due to a substation fault that brought a significant portion of the subway network to a sudden halt"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "New York's MTA",
+    "relation": "interruption_impacted_riders",
+    "value": "an estimated 500,000 riders",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "impacting an estimated 500,000 riders"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "New York's MTA",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New York's MTA reported a service interruption due to a substation fault"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Chicago",
+    "relation": "blackouts_caused_by",
+    "value": "severe storms",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Another notable event happened on September 18, 2023, in Chicago where severe storms led to extensive blackouts"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "'L' train system",
+    "relation": "affected_by",
+    "value": "blackouts",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "including on the 'L' train system"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Chicago",
+    "relation": "delays_lasted",
+    "value": "for hours",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "causing delays that rippled through the city's economic veins for hours"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "London",
+    "relation": "reported_disruptions_on",
+    "value": "Underground services",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "London reported similar disruptions on their Underground services on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Underground services",
+    "relation": "disruption_attributed_to",
+    "value": "electrical surges in the aged power grid supplying the transit systems",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "attributed to electrical surges in the aged power grid supplying the transit systems"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "New York's MTA",
+    "relation": "incurs_costs_from_outages",
+    "value": "emergency response, repair operations, and refunds or credits to commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transit authorities like New York's MTA or London's TfL incur immediate costs from power outages, including emergency response, repair operations, and refunds or credits to commuters"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "London's TfL",
+    "relation": "incurs_costs_from_outages",
+    "value": "emergency response, repair operations, and refunds or credits to commuters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transit authorities like New York's MTA or London's TfL incur immediate costs from power outages, including emergency response, repair operations, and refunds or credits to commuters"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "David Patterson",
+    "relation": "job_title",
+    "value": "the MTA's Chief Financial Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Patterson, the MTA's Chief Financial Officer, highlighted repair costs"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "David Patterson",
+    "relation": "highlighted",
+    "value": "repair costs and loss of farebox revenue near $4 million from the October incident",
+    "time": null,
+    "speaker": "David Patterson",
+    "verbatim": [
+     "David Patterson, the MTA's Chief Financial Officer, highlighted repair costs and loss of farebox revenue near $4 million from the October incident"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "October incident",
+    "relation": "cost_approximately",
+    "value": "near $4 million",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "loss of farebox revenue near $4 million from the October incident"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Kevin Blanchard",
+    "relation": "job_title",
+    "value": "an Economist with Cityscape Analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kevin Blanchard, an Economist with Cityscape Analytics"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Cityscape Analytics",
+    "relation": "employs",
+    "value": "Kevin Blanchard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kevin Blanchard, an Economist with Cityscape Analytics"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Kevin Blanchard",
+    "relation": "states",
+    "value": "A single hour of outage during peak times can result in millions in lost economic output.",
+    "time": null,
+    "speaker": "Kevin Blanchard",
+    "verbatim": [
+     "A single hour of outage during peak times can result in millions in lost economic output."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Small Business Association",
+    "relation": "conducted_study",
+    "value": "study in the aftermath of the Chicago 'L' train incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A study by the Small Business Association in the aftermath of the Chicago 'L' train incident"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Small Business Association",
+    "relation": "noted_sales_slump",
+    "value": "an average sales slump of 7%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses reported an average sales slump of 7%, attributed to decreased foot traffic on that day"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Small Business Association",
+    "relation": "attributed_to",
+    "value": "decreased foot traffic on that day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses reported an average sales slump of 7%, attributed to decreased foot traffic on that day"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "mass transit systems",
+    "relation": "consumer_confidence_wanes_with",
+    "value": "each outage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumer confidence in the transit systems wanes with each outage"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "mass transit systems",
+    "relation": "resulted_in",
+    "value": "longer-term shifts in commuter behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in longer-term shifts in commuter behavior"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "mass transit systems",
+    "relation": "results_in",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumer confidence in the transit systems wanes with each outage, resulting in longer-term shifts in commuter behavior"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "mass transit systems",
+    "relation": "commuters_seeking_alternatives_increase",
+    "value": "10% increase in individuals seeking alternative modes of transportation",
+    "time": "Following the September incidents",
+    "speaker": "local commuter groups",
+    "verbatim": [
+     "Following the September incidents, surveys by local commuter groups showed a 10% increase in individuals seeking alternative modes of transportation"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "London",
+    "relation": "allocated_funding",
+    "value": "\u00a3150 million for grid improvements",
+    "time": null,
+    "speaker": "Sarah Goldberg",
+    "verbatim": [
+     "London allocated \u00a3150 million for grid improvements scheduled for completion by late 2024"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "grid improvements",
+    "relation": "scheduled_completion",
+    "value": "late 2024",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "grid improvements scheduled for completion by late 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "grid improvements",
+    "relation": "aim",
+    "value": "substantially reduce the frequency and impact of power-related disruptions",
+    "time": null,
+    "speaker": "Sarah Goldberg",
+    "verbatim": [
+     "substantially reduce the frequency and impact of power-related disruptions"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sarah Goldberg",
+    "relation": "job_title",
+    "value": "a spokesperson for the Department for Transport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Goldberg, a spokesperson for the Department for Transport"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Department for Transport",
+    "relation": "has_spokesperson",
+    "value": "Sarah Goldberg",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Goldberg, a spokesperson for the Department for Transport"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "New York's MTA",
+    "relation": "plans",
+    "value": "a multi-billion dollar initiative to update its substations and power lines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New York's MTA plans include a multi-billion dollar initiative to update its substations and power lines"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "New York's MTA",
+    "relation": "investment_hinges_on",
+    "value": "federal funding and public support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an investment that hinges on federal funding and public support"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "emergency response protocols",
+    "relation": "includes",
+    "value": "predictive maintenance, faster restoration practices, clear communication to the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern management involves predictive maintenance, faster restoration practices, and clear communication to the public"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "emergency response protocols",
+    "relation": "is_pivotal_in",
+    "value": "mitigating immediate disruption impacts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These procedures are pivotal in mitigating immediate disruption impacts"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "New York's MTA",
+    "relation": "boasted_restoration_time",
+    "value": "just two hours",
+    "time": "during the October event",
+    "speaker": null,
+    "verbatim": [
+     "The MTA boasted a restoration time of just two hours during the October event"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "October incident",
+    "relation": "improvement_over_previous_events",
+    "value": "a significant improvement from a similar event in previous years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a significant improvement from a similar event in previous years"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Chicago storm incident",
+    "relation": "part_of_trend",
+    "value": "a larger trend of extreme weather exacerbated by climate change affecting power systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Chicago storm incident is part of a larger trend of extreme weather exacerbated by climate change affecting power systems"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "climate change",
+    "relation": "exacerbates",
+    "value": "extreme weather",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "extreme weather exacerbated by climate change affecting power systems"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Lisa Freeman",
+    "relation": "job_title",
+    "value": "climatologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to climatologist Dr. Lisa Freeman"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Lisa Freeman",
+    "relation": "states",
+    "value": "Urban transit systems must adapt to a future where severe weather events are more common, adding another layer of complexity to outage management.",
+    "time": null,
+    "speaker": "Lisa Freeman",
+    "verbatim": [
+     "Urban transit systems must adapt to a future where severe weather events are more common, adding another layer of complexity to outage management."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Joseph Tan",
+    "relation": "job_title",
+    "value": "transit policy expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the words of transit policy expert Joseph Tan"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Joseph Tan",
+    "relation": "states",
+    "value": "Power outages are more than mere inconveniences; they are critical economic disruptors that can have cascading effects across multiple sectors.",
+    "time": null,
+    "speaker": "Joseph Tan",
+    "verbatim": [
+     "Power outages are more than mere inconveniences; they are critical economic disruptors that can have cascading effects across multiple sectors."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

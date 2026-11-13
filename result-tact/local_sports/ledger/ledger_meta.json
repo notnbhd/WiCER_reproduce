@@ -1,0 +1,29 @@
+{
+  "topic": "local_sports",
+  "corpus_sha256": "b50caebc77025c6c1002f4a917e1b010fe5c5e063589b4743031c602daf3931d",
+  "n_documents": 80,
+  "n_claims": 4752,
+  "n_claims_before_merge": 4752,
+  "n_raw": 4755,
+  "n_rejected": 3,
+  "n_multispan": 21,
+  "n_relational": 154,
+  "rejection_rate": 0.0006309148264984228,
+  "n_contradictions": 23,
+  "inventory_size": 1507,
+  "n_canonical_entities": 1410,
+  "entity_collision_rate": 0.0028368794326241137,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 396983,
+    "output_tokens": 1577577,
+    "measured_cost_usd": 0.0
+  }
+}

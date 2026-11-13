@@ -1,0 +1,562 @@
+{
+ "inventory": [
+  "Eleanor Grayson",
+  "James Lukas",
+  "Alisha Patel",
+  "Philip Barnett",
+  "Old Town Hall",
+  "Exampleville",
+  "Old Exampleville",
+  "Kyoto",
+  "Barcelona",
+  "Neighbourhood Stories",
+  "Exampleville's local tech startups",
+  "seminar held in November 2023",
+  "city council meeting on September 27, 2023",
+  "symposium dated December 10, 2023",
+  "app developed by Exampleville's local tech startups",
+  "architectural heritage",
+  "architectural conservation",
+  "smart growth models",
+  "smart cities",
+  "innovative zoning policy",
+  "buffer zones",
+  "mixed-use developments",
+  "urban sprawl",
+  "city's masterplan",
+  "heritage education programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "architectural heritage",
+    "relation": "described_as",
+    "value": "a complex puzzle faced by city planners, architects, and local communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the protection and conservation of architectural heritage are increasingly becoming a complex puzzle faced by city planners, architects, and local communities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "seminar held in November 2023",
+    "relation": "held_in",
+    "value": "the historical auditorium of the Old Town Hall",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a seminar was held in the historical auditorium of the Old Town Hall"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Old Town Hall",
+    "relation": "restored_in",
+    "value": "2016",
+    "time": "2016",
+    "speaker": null,
+    "verbatim": [
+     "which has been a beacon of heritage in the bustling city of Exampleville since its restoration in 2016"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Old Town Hall",
+    "relation": "located_in",
+    "value": "Exampleville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Old Town Hall, which has been a beacon of heritage in the bustling city of Exampleville"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Exampleville",
+    "relation": "described_as",
+    "value": "bustling city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the bustling city of Exampleville"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "seminar held in November 2023",
+    "relation": "focal_point",
+    "value": "the city's blueprint for the future",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "The focal point of this seminar was the city's blueprint for the future"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "city's masterplan",
+    "relation": "would_forge_path_for",
+    "value": "urban growth while conserving its rich architectural past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how its masterplan would forge a path for urban growth while conserving its rich architectural past"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Eleanor Grayson",
+    "relation": "occupation",
+    "value": "a renowned architectural preservationist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eleanor Grayson, a renowned architectural preservationist"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Eleanor Grayson",
+    "relation": "delivered_keynote_speech_at",
+    "value": "seminar held in November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Eleanor Grayson, a renowned architectural preservationist, delivered a keynote speech"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Eleanor Grayson",
+    "relation": "highlighted",
+    "value": "the delicate balancing act that urban developers must perform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delivered a keynote speech that highlighted the delicate balancing act that urban developers must perform"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Eleanor Grayson",
+    "relation": "said",
+    "value": "As we propel into an era of smart cities and sustainable development, we cannot afford to let the narrative of our past be drowned out by the drumbeats of progress",
+    "time": null,
+    "speaker": "Eleanor Grayson",
+    "verbatim": [
+     "As we propel into an era of smart cities and sustainable development, we cannot afford to let the narrative of our past be drowned out by the drumbeats of progress."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Eleanor Grayson",
+    "relation": "advocates_for",
+    "value": "a synergy between new urban infrastructure and historic architecture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conservationists like Grayson, who advocate for a synergy between new urban infrastructure and historic architecture"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "James Lukas",
+    "relation": "occupation",
+    "value": "urban planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban planner James Lukas"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Exampleville",
+    "relation": "journey_outlined_by",
+    "value": "James Lukas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Exampleville's journey, as outlined by urban planner James Lukas"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "James Lukas",
+    "relation": "presented_vision_at",
+    "value": "city council meeting on September 27, 2023",
+    "time": "September 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as outlined by urban planner James Lukas during a city council meeting on September 27, 2023"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "James Lukas",
+    "relation": "described_vision_as",
+    "value": "both bold and cautious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lukas presented a vision that was both bold and cautious"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "innovative zoning policy",
+    "relation": "required_to_safeguard",
+    "value": "areas with historical significance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that required an innovative zoning policy to safeguard areas with historical significance"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "James Lukas",
+    "relation": "argued",
+    "value": "There must be buffer zones around our historical landmarks where the architecture dictates the ethos, not the other way around",
+    "time": null,
+    "speaker": "James Lukas",
+    "verbatim": [
+     "There must be buffer zones around our historical landmarks where the architecture dictates the ethos, not the other way around"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "buffer zones",
+    "relation": "located_around",
+    "value": "our historical landmarks",
+    "time": null,
+    "speaker": "James Lukas",
+    "verbatim": [
+     "There must be buffer zones around our historical landmarks"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "James Lukas",
+    "relation": "approach_inspired_by",
+    "value": "the successful strategies implemented in cities like Kyoto and Barcelona",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His approach, inspired by the successful strategies implemented in cities like Kyoto and Barcelona, calls for mixed-use developments"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Kyoto",
+    "relation": "implemented_successful_strategies",
+    "value": "successful strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the successful strategies implemented in cities like Kyoto and Barcelona"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Barcelona",
+    "relation": "implemented_successful_strategies",
+    "value": "successful strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the successful strategies implemented in cities like Kyoto and Barcelona"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "mixed-use developments",
+    "relation": "should_be_integrated_around",
+    "value": "protected structures and neighborhoods",
+    "time": null,
+    "speaker": "James Lukas",
+    "verbatim": [
+     "calls for mixed-use developments to be sensitively integrated around protected structures and neighborhoods"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "urban sprawl",
+    "relation": "would_accommodate",
+    "value": "population growth and economic demands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The urban sprawl would thereby accommodate population growth and economic demands"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "urban sprawl",
+    "relation": "would_not_displace",
+    "value": "the inherent character of the city's historical districts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "without displacing the inherent character of the city's historical districts"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "smart growth models",
+    "relation": "touted_as",
+    "value": "a means to ensure that urban development pays homage to architectural heritage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart growth models have been touted as a means to ensure that urban development pays homage to architectural heritage"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alisha Patel",
+    "relation": "occupation",
+    "value": "an expert in smart city design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alisha Patel, an expert in smart city design"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Alisha Patel",
+    "relation": "spoke_at",
+    "value": "symposium dated December 10, 2023",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Alisha Patel, an expert in smart city design, spoke at a symposium dated December 10, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "symposium dated December 10, 2023",
+    "relation": "topic",
+    "value": "the potential for urban tech solutions",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spoke at a symposium dated December 10, 2023, about the potential for urban tech solutions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alisha Patel",
+    "relation": "said",
+    "value": "Incorporating technology does not mean disregarding our history",
+    "time": null,
+    "speaker": "Alisha Patel",
+    "verbatim": [
+     "Incorporating technology does not mean disregarding our history"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alisha Patel",
+    "relation": "said",
+    "value": "We can utilize data analysis, 3D modeling, and even augmented reality to understand, preserve, and restore our architectural heritage more effectively",
+    "time": null,
+    "speaker": "Alisha Patel",
+    "verbatim": [
+     "We can utilize data analysis, 3D modeling, and even augmented reality to understand, preserve, and restore our architectural heritage more effectively"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "smart cities",
+    "relation": "enables",
+    "value": "city planners and architects can not only build around historical sites with precision but also engage the public in the preservation story",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using these tools, city planners and architects can not only build around historical sites with precision but also engage the public in the preservation story."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "app developed by Exampleville's local tech startups",
+    "relation": "provides",
+    "value": "residents and visitors with an interactive tour of the city's historical buildings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An app, for instance, developed by Exampleville's local tech startups, provides residents and visitors with an interactive tour of the city's historical buildings"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Exampleville's local tech startups",
+    "relation": "developed",
+    "value": "an app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An app, for instance, developed by Exampleville's local tech startups"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "app developed by Exampleville's local tech startups",
+    "relation": "includes",
+    "value": "details of their original design, the stories behind them, and the efforts taken towards their restoration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including details of their original design, the stories behind them, and the efforts taken towards their restoration"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "app developed by Exampleville's local tech startups",
+    "relation": "serves_to_create",
+    "value": "a collective consciousness about the value of these structures, encouraging active community participation in their safeguarding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This serves to create a collective consciousness about the value of these structures, encouraging active community participation in their safeguarding."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "architectural conservation",
+    "relation": "ripple_effect_felt_by",
+    "value": "the communities that live around these historic sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ripple effect of urban development on architectural conservation is most deeply felt by the communities that live around these historic sites."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Philip Barnett",
+    "relation": "occupation",
+    "value": "a third-generation shop owner in the heritage-rich district of Old Exampleville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Philip Barnett, a third-generation shop owner in the heritage-rich district of Old Exampleville"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Old Exampleville",
+    "relation": "described_as",
+    "value": "heritage-rich district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the heritage-rich district of Old Exampleville"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Philip Barnett",
+    "relation": "believes",
+    "value": "community engagement is the cornerstone of successful conservation efforts",
+    "time": null,
+    "speaker": "Philip Barnett",
+    "verbatim": [
+     "believes that community engagement is the cornerstone of successful conservation efforts"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Philip Barnett",
+    "relation": "said",
+    "value": "When we are involved in the decision-making processes, we ensure that the essence of our neighborhood stays intact",
+    "time": null,
+    "speaker": "Philip Barnett",
+    "verbatim": [
+     "When we are involved in the decision-making processes, we ensure that the essence of our neighborhood stays intact"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Neighbourhood Stories",
+    "relation": "received_statement_from",
+    "value": "Philip Barnett",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he shared with Neighbourhood Stories"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "architectural conservation",
+    "relation": "provides_insights",
+    "value": "invaluable insights into the socio-cultural importance of heritage sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's this kind of active participation that provides city planners with invaluable insights into the socio-cultural importance of heritage sites."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "architectural conservation",
+    "relation": "initiatives_range_from",
+    "value": "volunteer-led restoration projects to heritage education programs in local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives can range from volunteer-led restoration projects to heritage education programs in local schools."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "heritage education programs",
+    "relation": "located_in",
+    "value": "local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heritage education programs in local schools"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "architectural heritage",
+    "relation": "incentive_grows_stronger_when",
+    "value": "enabling residents to harness the economic potential of their neighborhoods through tourism and cultural events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by enabling residents to harness the economic potential of their neighborhoods through tourism and cultural events"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "architectural heritage",
+    "relation": "incentive_for_maintaining_grows",
+    "value": "only grows stronger",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the incentive for maintaining architectural heritage only grows stronger"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "architectural heritage",
+    "relation": "caused_by",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by enabling residents to harness the economic potential of their neighborhoods through tourism and cultural events, the incentive for maintaining architectural heritage only grows stronger."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

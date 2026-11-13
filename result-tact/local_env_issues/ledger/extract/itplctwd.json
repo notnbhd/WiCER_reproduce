@@ -1,0 +1,641 @@
+{
+ "inventory": [
+  "Sarah Greenfield",
+  "James O'Reilly",
+  "Dr. Emma Zhang",
+  "Dr. Henry Thomson",
+  "Maria Lopez",
+  "Eric Sanders",
+  "Robert Hughes",
+  "Chloe Kim",
+  "Mark Stinson",
+  "Alan Smith",
+  "Renewable Farming Fair",
+  "compost",
+  "rainwater harvesting",
+  "native plants",
+  "beneficial insects",
+  "ladybugs",
+  "lacewings",
+  "crop rotation",
+  "companion planting",
+  "no-till gardening",
+  "drip irrigation",
+  "organic fertilizers",
+  "chemical fertilizers",
+  "solar power",
+  "garden journal",
+  "chemical insecticides",
+  "pesticides"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Greenfield",
+    "relation": "role",
+    "value": "agronomy expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As revealed by Sarah Greenfield, an agronomy expert, on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "compost",
+    "relation": "reduces",
+    "value": "landfill waste",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Greenfield",
+    "verbatim": [
+     "composting not only reduces landfill waste"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "compost",
+    "relation": "enriches_soil_with",
+    "value": "vital nutrients",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Greenfield",
+    "verbatim": [
+     "but also enriches the soil with vital nutrients"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "compost",
+    "relation": "eliminates_need_for",
+    "value": "chemical fertilizers",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Greenfield",
+    "verbatim": [
+     "thus eliminating the need for chemical fertilizers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "compost",
+    "relation": "results_in",
+    "value_ref": "c4",
+    "time": "September 15, 2023",
+    "speaker": "Sarah Greenfield",
+    "verbatim": [
+     "enriches the soil with vital nutrients, thus eliminating the need for chemical fertilizers"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "compost",
+    "relation": "made_from",
+    "value": "kitchen scraps and yard waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "kitchen scraps and yard waste transform into black gold"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "James O'Reilly",
+    "relation": "role",
+    "value": "conservationist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conservationist James O'Reilly"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "James O'Reilly",
+    "relation": "illustrated",
+    "value": "the benefits of rainwater harvesting",
+    "time": "October 2, 2023",
+    "speaker": "James O'Reilly",
+    "verbatim": [
+     "Conservationist James O'Reilly, during a workshop on October 2, 2023, illustrated the benefits of rainwater harvesting"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "rainwater harvesting",
+    "relation": "involves",
+    "value": "collecting rainwater in barrels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By collecting rainwater in barrels"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "rainwater harvesting",
+    "relation": "reduces",
+    "value": "strain on municipal supplies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing strain on municipal supplies and your own pocketbook"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "rainwater harvesting",
+    "relation": "water_source_is",
+    "value": "a natural and cost-effective resource",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you can water your plants with a natural and cost-effective resource"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Emma Zhang",
+    "relation": "role",
+    "value": "botanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Botanist Dr. Emma Zhang"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Emma Zhang",
+    "relation": "emphasized",
+    "value": "the importance of selecting native plants for your garden",
+    "time": "November 5, 2023",
+    "speaker": "Dr. Emma Zhang",
+    "verbatim": [
+     "Botanist Dr. Emma Zhang emphasized on November 5, 2023, the importance of selecting native plants for your garden"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "native plants",
+    "relation": "adapted_to",
+    "value": "local conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These flora are adapted to local conditions"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "native plants",
+    "relation": "requires",
+    "value": "far less maintenance, water",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "require far less maintenance, water"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "native plants",
+    "relation": "more_resistant_to",
+    "value": "local pests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are more resistant to local pests"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "native plants",
+    "relation": "mitigates_need_for",
+    "value": "pesticides",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mitigating the need for pesticides"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "native plants",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are more resistant to local pests, mitigating the need for pesticides"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Henry Thomson",
+    "relation": "role",
+    "value": "entomologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "entomologist Dr. Henry Thomson"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Henry Thomson",
+    "relation": "stated",
+    "value": "these insects are nature's pest control agents",
+    "time": "December 8, 2023",
+    "speaker": "Dr. Henry Thomson",
+    "verbatim": [
+     "On December 8, 2023, entomologist Dr. Henry Thomson shared how these insects are nature's pest control agents"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "beneficial insects",
+    "relation": "prey_on",
+    "value": "aphids and other garden nuisances",
+    "time": null,
+    "speaker": "Dr. Henry Thomson",
+    "verbatim": [
+     "preying on aphids and other garden nuisances"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "ladybugs",
+    "relation": "example_of",
+    "value": "beneficial insects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "beneficial insects like ladybugs and lacewings"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "lacewings",
+    "relation": "example_of",
+    "value": "beneficial insects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "beneficial insects like ladybugs and lacewings"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "beneficial insects",
+    "relation": "habitat_created_instead_of",
+    "value": "chemical insecticides",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instead of reaching for chemical insecticides, create a habitat for beneficial insects"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria Lopez",
+    "relation": "role",
+    "value": "organic farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Lopez, an organic farmer,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Lopez",
+    "relation": "demonstrated",
+    "value": "growing a diverse range of plants can improve soil health",
+    "time": "January 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "As Maria Lopez, an organic farmer, demonstrated at her farm on January 14, 2024, growing a diverse range of plants can improve soil health"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "crop rotation",
+    "relation": "deters",
+    "value": "pests and diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rotate crops and practice companion planting to naturally deter pests and diseases."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "companion planting",
+    "relation": "deters",
+    "value": "pests and diseases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rotate crops and practice companion planting to naturally deter pests and diseases."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "companion planting",
+    "relation": "improves",
+    "value": "soil health",
+    "time": "January 14, 2024",
+    "speaker": "Maria Lopez",
+    "verbatim": [
+     "growing a diverse range of plants can improve soil health"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Eric Sanders",
+    "relation": "role",
+    "value": "conservationist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conservationist Eric Sanders"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Eric Sanders",
+    "relation": "championed",
+    "value": "no-till gardening",
+    "time": "February 20, 2024",
+    "speaker": "Eric Sanders",
+    "verbatim": [
+     "No-till gardening, championed by conservationist Eric Sanders in a seminar on February 20, 2024"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "no-till gardening",
+    "relation": "preserves",
+    "value": "soil structure and fertility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Soil structure and fertility are preserved when disturbing the soil is minimized."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "no-till gardening",
+    "relation": "relies_on",
+    "value": "natural processes to break down organic matter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relies on natural processes to break down organic matter"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "no-till gardening",
+    "relation": "encourages",
+    "value": "a thriving ecosystem below the surface",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging a thriving ecosystem below the surface"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "no-till gardening",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relies on natural processes to break down organic matter, encouraging a thriving ecosystem below the surface"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Robert Hughes",
+    "relation": "role",
+    "value": "irrigation specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Irrigation specialist Robert Hughes"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Robert Hughes",
+    "relation": "introduced",
+    "value": "a crowd of aspiring gardeners to the world of drip irrigation",
+    "time": "March 9, 2024",
+    "speaker": "Robert Hughes",
+    "verbatim": [
+     "Irrigation specialist Robert Hughes introduced a crowd of aspiring gardeners on March 9, 2024, to the world of drip irrigation."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "drip irrigation",
+    "relation": "delivers_water",
+    "value": "directly to the roots of plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This technique delivers water directly to the roots of plants"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "drip irrigation",
+    "relation": "minimizes",
+    "value": "evaporation and water waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "minimizing evaporation and water waste"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "drip irrigation",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delivers water directly to the roots of plants, minimizing evaporation and water waste"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Chloe Kim",
+    "relation": "role",
+    "value": "Nutritionist and home gardener",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist and home gardener Chloe Kim"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chloe Kim",
+    "relation": "explained",
+    "value": "the long-term benefits of organic fertilizers",
+    "time": "April 7, 2024",
+    "speaker": "Chloe Kim",
+    "verbatim": [
+     "Nutritionist and home gardener Chloe Kim explained during her garden tour on April 7, 2024, the long-term benefits of organic fertilizers"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "organic fertilizers",
+    "relation": "release_nutrients",
+    "value": "slowly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These naturally sourced fertilizers release nutrients slowly"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "organic fertilizers",
+    "relation": "improves",
+    "value": "soil health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "improving soil health"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "organic fertilizers",
+    "relation": "diminishes",
+    "value": "the risk of runoff pollutants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "diminishing the risk of runoff pollutants"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "organic fertilizers",
+    "relation": "results_in",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "release nutrients slowly, improving soil health"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "solar power",
+    "relation": "includes",
+    "value": "solar-powered lights and irrigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by using solar-powered lights and irrigation systems"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mark Stinson",
+    "relation": "role",
+    "value": "engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engineer Mark Stinson"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mark Stinson",
+    "relation": "exhibited",
+    "value": "how solar tech can be seamlessly integrated into garden management",
+    "time": "May 5, 2024",
+    "speaker": "Mark Stinson",
+    "verbatim": [
+     "where he exhibited how solar tech can be seamlessly integrated into garden management"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Mark Stinson",
+    "relation": "showcased_at",
+    "value": "Renewable Farming Fair",
+    "time": "May 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "This tip was brightly showcased by engineer Mark Stinson at the Renewable Farming Fair on May 5, 2024"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Renewable Farming Fair",
+    "relation": "event_date",
+    "value": "May 5, 2024",
+    "time": "May 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "at the Renewable Farming Fair on May 5, 2024"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Alan Smith",
+    "relation": "role",
+    "value": "local gardening enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local gardening enthusiast Alan Smith"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Alan Smith",
+    "relation": "reported",
+    "value": "keeping track of your plants' growth patterns, pest issues, and weather impacts can help you fine-tune your eco-friendly garden over time",
+    "time": "June 12, 2024",
+    "speaker": "Alan Smith",
+    "verbatim": [
+     "As reported by local gardening enthusiast Alan Smith on June 12, 2024, keeping track of your plants' growth patterns, pest issues, and weather impacts can help you fine-tune your eco-friendly garden over time"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "garden journal",
+    "relation": "records",
+    "value": "the progress and learning curve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "document the progress and learning curve in a garden journal"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "garden journal",
+    "relation": "tracks",
+    "value": "plants' growth patterns, pest issues, and weather impacts",
+    "time": "June 12, 2024",
+    "speaker": "Alan Smith",
+    "verbatim": [
+     "keeping track of your plants' growth patterns, pest issues, and weather impacts"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

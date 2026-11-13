@@ -1,0 +1,528 @@
+{
+ "inventory": [
+  "Bob \"Bolt\" Johnson",
+  "Harold",
+  "Susan Smith",
+  "Tony 'Tires' McLire",
+  "city council",
+  "Electric Enlightenment",
+  "EVs",
+  "autonomous vehicles",
+  "autonomous mode",
+  "autonomous gizmos",
+  "local industries",
+  "taxi drivers",
+  "pizzeria"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Bob \"Bolt\" Johnson",
+    "relation": "holds_title",
+    "value": "Mayor",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mayor Bob \"Bolt\" Johnson"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Bob \"Bolt\" Johnson",
+    "relation": "announced",
+    "value": "the grand plan",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced the grand plan"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bob \"Bolt\" Johnson",
+    "relation": "said",
+    "value": "It's time to put our pedal to the metal and drive our city into the future. No more gas guzzlers! We go electric!",
+    "time": "September 12, 2023",
+    "speaker": "Bob \"Bolt\" Johnson",
+    "verbatim": [
+     "It's time to put our pedal to the metal and drive our city into the future. No more gas guzzlers! We go electric!"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Bob \"Bolt\" Johnson",
+    "relation": "did_not_smile_at_own_pun",
+    "value": "the pun he dropped",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "not once cracking a smile at the pun he dropped"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Bob \"Bolt\" Johnson",
+    "relation": "was_in",
+    "value": "a car that suspiciously smelt new",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in a car that suspiciously smelt new"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "EVs",
+    "relation": "acronym_for",
+    "value": "electric vehicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "electric vehicles (EVs for those in the acronym know)"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "autonomous vehicles",
+    "relation": "era_upon_us",
+    "value": "the era of autonomous and electric vehicles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the era of autonomous and electric vehicles (EVs for those in the acronym know) is upon us"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local industries",
+    "relation": "are_joining",
+    "value": "the party",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our very own local industries are joining the party"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "EVs",
+    "relation": "not_driven_by",
+    "value": "rogue AIs plotting world domination\u2014yet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these vehicles are not driven by rogue AIs plotting world domination\u2014yet"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "EVs",
+    "relation": "subject_of",
+    "value": "myths so grand, they rival tales of old",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These electrifying chariots have been the subjects of myths so grand, they rival tales of old"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "EVs",
+    "relation": "is_not_powered_by",
+    "value": "lightning captured during tempests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we debunk the myth that they're powered by lightning captured during tempests"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "EVs",
+    "relation": "powered_by",
+    "value": "good ol' electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's actually just good ol' electricity"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "EVs",
+    "relation": "rumored_range_limit",
+    "value": "cannot be driven beyond the sight of home without needing a plug",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggest that one cannot drive an EV beyond the sight of their home without it whimpering for a plug"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "EVs",
+    "relation": "range",
+    "value": "go for miles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "modern EVs go for miles"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "autonomous gizmos",
+    "relation": "believed_to_host",
+    "value": "a mini spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each car hosts a mini spirit"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "autonomous gizmos",
+    "relation": "navigate_with",
+    "value": "such finesse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These phantom pilots, as imagination would have it, navigate with such finesse"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "autonomous gizmos",
+    "relation": "consist_of",
+    "value": "sensors and algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's just sensors and algorithms"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "autonomous gizmos",
+    "relation": "will_laugh_at_jokes",
+    "value": "no",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they won't laugh at your jokes"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Harold",
+    "relation": "occupation",
+    "value": "local electric mechanic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harold, the local electric mechanic"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Harold",
+    "relation": "claims_cannot_be_electrocuted_because",
+    "value": "rubber-soled shoes",
+    "time": null,
+    "speaker": "Harold",
+    "verbatim": [
+     "who reassures us he can't get electrocuted because of his rubber-soled shoes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Harold",
+    "relation": "claimed_coffee_was",
+    "value": "'engine oil' coffee",
+    "time": null,
+    "speaker": "Harold",
+    "verbatim": [
+     "what he claimed was 'engine oil' coffee"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Harold",
+    "relation": "reports_customers_asking_for",
+    "value": "a tank fill-up",
+    "time": null,
+    "speaker": "Harold",
+    "verbatim": [
+     "folks still come in asking for a tank fill-up"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Harold",
+    "relation": "said",
+    "value": "It's electricity, people! You 'charge' it, not 'fill' it",
+    "time": null,
+    "speaker": "Harold",
+    "verbatim": [
+     "It's electricity, people! You 'charge' it, not 'fill' it"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Harold",
+    "relation": "plugging_in",
+    "value": "yet another car",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plugging in yet another car dreaming of electrons"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "city council",
+    "relation": "organized",
+    "value": "a fair",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "the city council organized a fair on October 10th"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Electric Enlightenment",
+    "relation": "is_a",
+    "value": "a fair",
+    "time": "October 10th",
+    "speaker": null,
+    "verbatim": [
+     "organized a fair on October 10th, aptly named 'Electric Enlightenment'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Electric Enlightenment",
+    "relation": "included",
+    "value": "test drives, info booths, and French fries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It had everything: test drives, info booths, and French fries"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Electric Enlightenment",
+    "relation": "information_seemed",
+    "value": "a side show to the main event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "information seemed a side show to the main event"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Susan Smith",
+    "relation": "holds_title",
+    "value": "councilmember",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "councilmember Susan Smith"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Susan Smith",
+    "relation": "mistakenly_activated",
+    "value": "autonomous mode",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "watching councilmember Susan Smith mistakenly activating the autonomous mode"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Susan Smith",
+    "relation": "professed",
+    "value": "her undying love for the vehicle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "professing her undying love for the vehicle"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "autonomous mode",
+    "relation": "navigated",
+    "value": "cones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as it obediently navigated cones"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "EVs",
+    "relation": "means_saying_goodbye_to",
+    "value": "the pricey pump",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "saying sayonara to the pricey pump"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "EVs",
+    "relation": "cuts_carbon_footprint_to",
+    "value": "a dainty size 3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cutting our carbon footprint down to a dainty size 3"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "EVs",
+    "relation": "air_no_longer",
+    "value": "a cocktail of exhaust fumes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's no longer a cocktail of exhaust fumes"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "taxi drivers",
+    "relation": "view_autonomous_vehicles_with",
+    "value": "suspicion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Taxi drivers eye them with suspicion"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "taxi drivers",
+    "relation": "convinced_that",
+    "value": "these AI chauffeurs are plotting their unemployment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "convinced that these AI chauffeurs are plotting their unemployment"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Tony 'Tires' McLire",
+    "relation": "occupation",
+    "value": "cabby",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cabby Tony 'Tires' McLire"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Tony 'Tires' McLire",
+    "relation": "said",
+    "value": "Next thing you know, they'll be taking over the pizzeria",
+    "time": null,
+    "speaker": "Tony 'Tires' McLire",
+    "verbatim": [
+     "Next thing you know, they'll be taking over the pizzeria"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Tony 'Tires' McLire",
+    "relation": "unaware_of",
+    "value": "the robot that just delivered his lunch slice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unaware of the robot that just delivered his lunch slice"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "pizzeria",
+    "relation": "may_be_taken_over_by",
+    "value": "AI chauffeurs",
+    "time": null,
+    "speaker": "Tony 'Tires' McLire",
+    "verbatim": [
+     "they'll be taking over the pizzeria"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "autonomous vehicles",
+    "relation": "will_not_fist_bump",
+    "value": "you after an epic maneuver",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an autonomous car won\u2019t fist-bump you after an epic maneuver"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "EVs",
+    "relation": "will_not_pamper_with",
+    "value": "the fragrant fumes of gas or the melodic chug of a diesel engine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EVs won\u2019t pamper you with the fragrant fumes of gas or the melodic chug of a diesel engine"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "EVs",
+    "relation": "trade_off",
+    "value": "clean air and not having to wrestle with a steering wheel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "isn't clean air and not having to wrestle with a steering wheel a fair trade-off"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "autonomous vehicles",
+    "relation": "promises",
+    "value": "a cleaner, more efficient future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it\u2019s a technology that promises a cleaner, more efficient future"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "taxi drivers",
+    "relation": "caused_by",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Taxi drivers eye them with suspicion, convinced that these AI chauffeurs are plotting their unemployment"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,679 @@
+{
+ "inventory": [
+  "Sarah Jennings",
+  "Raj Patel",
+  "Glow Haven",
+  "TechSavvy Solutions",
+  "Melissa Chen",
+  "Paws & Reflect",
+  "James McDonald",
+  "Brew Beginnings",
+  "Erika Svensson",
+  "Wax & Wane",
+  "Carlos Garcia",
+  "Rolling Flavors",
+  "Liu Mei",
+  "Tales & Teacups",
+  "Lisa Horowitz",
+  "Past Perfect",
+  "Marcus Davidson",
+  "Curds & Whey",
+  "Small Business Development Center (SBDC)",
+  "chamber of commerce",
+  "business plan"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Jennings",
+    "relation": "described_as",
+    "value": "a local",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "locals like Sarah Jennings and Raj Patel"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Raj Patel",
+    "relation": "described_as",
+    "value": "a local",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "locals like Sarah Jennings and Raj Patel"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Jennings",
+    "relation": "launched",
+    "value": "Glow Haven",
+    "time": "October 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who launched her boutique organic skincare line \"Glow Haven\" on October 5th, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Glow Haven",
+    "relation": "is_a",
+    "value": "boutique organic skincare line",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "boutique organic skincare line \"Glow Haven\""
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Glow Haven",
+    "relation": "launched_on",
+    "value": "October 5th, 2023",
+    "time": "October 5th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched her boutique organic skincare line \"Glow Haven\" on October 5th, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Jennings",
+    "relation": "underscores",
+    "value": "the importance of fulfilling a specific market need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscore the importance of fulfilling a specific market need"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Jennings",
+    "relation": "conducted_research",
+    "value": "extensive research",
+    "time": "Before her grand opening",
+    "speaker": null,
+    "verbatim": [
+     "Before her grand opening, Jennings conducted extensive research to understand her target audience"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Jennings",
+    "relation": "research_aimed_at",
+    "value": "understanding her target audience and how her products could cater to an unmet demand for vegan and environmentally friendly skincare options",
+    "time": "Before her grand opening",
+    "speaker": null,
+    "verbatim": [
+     "to understand her target audience and how her products could cater to an unmet demand for vegan and environmentally friendly skincare options"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Jennings",
+    "relation": "in_order_to",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennings conducted extensive research to understand her target audience"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Raj Patel",
+    "relation": "opened",
+    "value": "TechSavvy Solutions",
+    "time": "November 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when he opened the doors to \"TechSavvy Solutions,\" a local tech repair shop, on November 20th, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "TechSavvy Solutions",
+    "relation": "is_a",
+    "value": "local tech repair shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"TechSavvy Solutions,\" a local tech repair shop"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "TechSavvy Solutions",
+    "relation": "opened_on",
+    "value": "November 20th, 2023",
+    "time": "November 20th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "opened the doors to \"TechSavvy Solutions,\" a local tech repair shop, on November 20th, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Raj Patel",
+    "relation": "business_plan_covered",
+    "value": "market analysis and marketing strategies to financial projections and operational structures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His comprehensive plan covered everything from market analysis and marketing strategies to financial projections and operational structures"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "business plan",
+    "relation": "described_as",
+    "value": "the blueprint of every successful venture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The blueprint of every successful venture is its business plan"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "business plan",
+    "relation": "helps",
+    "value": "securing financing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted plan not only helps in securing financing"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "business plan",
+    "relation": "provides",
+    "value": "a roadmap to navigate the initial bumps of starting a business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also provides a roadmap to navigate the initial bumps of starting a business"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Melissa Chen",
+    "relation": "introduced",
+    "value": "Paws & Reflect",
+    "time": "this December",
+    "speaker": null,
+    "verbatim": [
+     "Melissa Chen, who introduced her pet grooming salon \"Paws & Reflect\" this December"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Paws & Reflect",
+    "relation": "is_a",
+    "value": "pet grooming salon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her pet grooming salon \"Paws & Reflect\""
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Melissa Chen",
+    "relation": "focuses_on",
+    "value": "developing a strong brand identity that resonates with pet owners' values of compassion and care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "focuses heavily on developing a strong brand identity that resonates with pet owners' values of compassion and care"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Paws & Reflect",
+    "relation": "carved_out",
+    "value": "a niche in a crowded market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have helped \"Paws & Reflect\" carve out a niche in a crowded market"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Paws & Reflect",
+    "relation": "helped_by",
+    "value": "modern shop design, customer loyalty program, and active social media presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her modern shop design, customer loyalty program, and active social media presence have helped \"Paws & Reflect\" carve out a niche in a crowded market."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "James McDonald",
+    "relation": "owner_of",
+    "value": "Brew Beginnings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James McDonald, the owner of the upscale coffee shop, \"Brew Beginnings,\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Brew Beginnings",
+    "relation": "is_a",
+    "value": "upscale coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the upscale coffee shop, \"Brew Beginnings,\""
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "James McDonald",
+    "relation": "said",
+    "value": "Networking isn't just about collecting contacts; it's about planting relations",
+    "time": null,
+    "speaker": "James McDonald",
+    "verbatim": [
+     "\"Networking isn't just about collecting contacts; it's about planting relations,\" muses James McDonald"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Brew Beginnings",
+    "relation": "launched_in",
+    "value": "late September",
+    "time": "late September",
+    "speaker": null,
+    "verbatim": [
+     "its launch in late September"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Brew Beginnings",
+    "relation": "started_percolating_joy",
+    "value": "joy in the community",
+    "time": "since its launch in late September",
+    "speaker": null,
+    "verbatim": [
+     "percolating joy in the community since its launch in late September"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "James McDonald",
+    "relation": "attends",
+    "value": "city council meetings, local business fairs, and connecting with other entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By attending city council meetings, local business fairs, and connecting with other entrepreneurs"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "James McDonald",
+    "relation": "created",
+    "value": "a supportive network that drives both collaborative opportunities and customer referrals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "McDonald has been able to create a supportive network that drives both collaborative opportunities and customer referrals"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "James McDonald",
+    "relation": "results_in",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By attending city council meetings, local business fairs, and connecting with other entrepreneurs, McDonald has been able to create a supportive network"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Erika Svensson",
+    "relation": "opened",
+    "value": "Wax & Wane",
+    "time": "October 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Erika Svensson's homemade candle shop \"Wax & Wane,\" which opened on October 15th, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Wax & Wane",
+    "relation": "is_a",
+    "value": "homemade candle shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "homemade candle shop \"Wax & Wane,\""
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Wax & Wane",
+    "relation": "opened_on",
+    "value": "October 15th, 2023",
+    "time": "October 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which opened on October 15th, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Wax & Wane",
+    "relation": "uses",
+    "value": "social media marketing and search engine optimization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilizes the power of social media marketing and search engine optimization"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Erika Svensson",
+    "relation": "uses_platforms",
+    "value": "Instagram and Pinterest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engaging content on platforms like Instagram and Pinterest"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Erika Svensson",
+    "relation": "reached",
+    "value": "customers beyond the local scope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have allowed Svensson to reach customers beyond the local scope"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Carlos Garcia",
+    "relation": "said",
+    "value": "Keeping a tight leash on expenses without stifrying growth has been my mantra",
+    "time": null,
+    "speaker": "Carlos Garcia",
+    "verbatim": [
+     "\"Keeping a tight leash on expenses without stifrying growth has been my mantra,\" states Carlos Garcia"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Carlos Garcia",
+    "relation": "owner_of",
+    "value": "Rolling Flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family-run taco truck, \"Rolling Flavors,\""
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Rolling Flavors",
+    "relation": "is_a",
+    "value": "family-run taco truck",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family-run taco truck, \"Rolling Flavors,\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Rolling Flavors",
+    "relation": "became",
+    "value": "an instant hit",
+    "time": "after its debut in mid-November",
+    "speaker": null,
+    "verbatim": [
+     "\"Rolling Flavors,\" became an instant hit after its debut in mid-November"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Rolling Flavors",
+    "relation": "debuted_in",
+    "value": "mid-November",
+    "time": "mid-November",
+    "speaker": null,
+    "verbatim": [
+     "after its debut in mid-November"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Liu Mei",
+    "relation": "runs",
+    "value": "Tales & Teacups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liu Mei's bookstore, \"Tales & Teacups,\""
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Tales & Teacups",
+    "relation": "is_a",
+    "value": "bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liu Mei's bookstore, \"Tales & Teacups,\""
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Tales & Teacups",
+    "relation": "opened_in",
+    "value": "early December",
+    "time": "early December",
+    "speaker": null,
+    "verbatim": [
+     "since its opening in early December"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Tales & Teacups",
+    "relation": "built",
+    "value": "a reputation for its welcoming atmosphere and personalized recommendations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has built a reputation for its welcoming atmosphere and personalized recommendations"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Liu Mei",
+    "relation": "said",
+    "value": "We remember names, preferences, and even birthdays, which makes our customers feel valued and turns them into loyal patrons",
+    "time": null,
+    "speaker": "Liu Mei",
+    "verbatim": [
+     "\"We remember names, preferences, and even birthdays, which makes our customers feel valued and turns them into loyal patrons,\" Mei smiles"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Lisa Horowitz",
+    "relation": "owner_of",
+    "value": "Past Perfect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa Horowitz's vintage furniture emporium \"Past Perfect,\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Past Perfect",
+    "relation": "is_a",
+    "value": "vintage furniture emporium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa Horowitz's vintage furniture emporium \"Past Perfect,\""
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Past Perfect",
+    "relation": "grand_opening",
+    "value": "grand opening",
+    "time": "last September",
+    "speaker": null,
+    "verbatim": [
+     "Since its grand opening last September"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Lisa Horowitz",
+    "relation": "kept_versatile",
+    "value": "her inventory and store policies",
+    "time": "Since its grand opening last September",
+    "speaker": null,
+    "verbatim": [
+     "Horowitz has kept her inventory and store policies versatile"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Lisa Horowitz",
+    "relation": "adjusts_to",
+    "value": "feedback and trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adjusting to feedback and trends"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Lisa Horowitz",
+    "relation": "purpose_of_adjusting",
+    "value": "to stay relevant and competitive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adjusting to feedback and trends to stay relevant and competitive"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Lisa Horowitz",
+    "relation": "in_order_to",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adjusting to feedback and trends to stay relevant and competitive"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Marcus Davidson",
+    "relation": "owner_of",
+    "value": "Curds & Whey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the opening of his artisanal cheese shop, \"Curds & Whey,\""
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Curds & Whey",
+    "relation": "is_a",
+    "value": "artisanal cheese shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his artisanal cheese shop, \"Curds & Whey,\""
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Curds & Whey",
+    "relation": "threatened_by",
+    "value": "a supply chain issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When a supply chain issue threatened the opening of his artisanal cheese shop"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Marcus Davidson",
+    "relation": "viewed_setback_as",
+    "value": "a learning moment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Davidson chose to see it as a learning moment"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Curds & Whey",
+    "relation": "celebrated_for",
+    "value": "its resilience and impressive array of local and imported cheeses",
+    "time": "Today",
+    "speaker": null,
+    "verbatim": [
+     "Today, his business is celebrated for its resilience and impressive array of local and imported cheeses"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Small Business Development Center (SBDC)",
+    "relation": "is_resource_for",
+    "value": "entrepreneurs tapping into local wisdom and assistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "entrepreneurs can tap into local wisdom and assistance"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "chamber of commerce",
+    "relation": "is_resource_for",
+    "value": "entrepreneurs tapping into local wisdom and assistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "joining the chamber of commerce"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

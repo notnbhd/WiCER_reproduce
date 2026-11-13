@@ -1,0 +1,635 @@
+{
+ "inventory": [
+  "Dr. Sarah Levinson",
+  "Michael Thompson",
+  "Journal of Nutrition and Disease Prevention",
+  "Thompson Integrative Medicine Institute",
+  "Annual Health and Wellness Conference",
+  "New York",
+  "'Food for Health' symposium",
+  "food as medicine",
+  "nutritional therapy",
+  "nutritional counseling",
+  "preventive health",
+  "chronic diseases",
+  "type 2 diabetes",
+  "heart disease",
+  "telehealth services",
+  "pharmaceutical industry"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "food as medicine",
+    "relation": "integration_has_been",
+    "value": "slow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its integration into the modern health system has been slow"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "pharmaceutical industry",
+    "relation": "focus_on",
+    "value": "medication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "overshadowed by the pharmaceutical industry's focus on medication"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "food as medicine",
+    "relation": "is",
+    "value": "anything but new",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of food as medicine is anything but new."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "nutritional therapy",
+    "relation": "shift_towards",
+    "value": "nutritional therapies for preventive health",
+    "time": "as we move forward past September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a groundswell of support from both healthcare professionals and the public is seeing a shift towards nutritional therapies for preventive health"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "nutritional therapy",
+    "relation": "receives_support_from",
+    "value": "healthcare professionals and the public",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a groundswell of support from both healthcare professionals and the public"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Sarah Levinson",
+    "relation": "addressed_gathering_at",
+    "value": "Annual Health and Wellness Conference",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, Dr. Sarah Levinson, a prominent figure in preventive medicine, addressed a gathering at the Annual Health and Wellness Conference in New York"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Sarah Levinson",
+    "relation": "is",
+    "value": "a prominent figure in preventive medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sarah Levinson, a prominent figure in preventive medicine"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Annual Health and Wellness Conference",
+    "relation": "located_in",
+    "value": "New York",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at the Annual Health and Wellness Conference in New York"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Sarah Levinson",
+    "relation": "stated",
+    "value": "Our plates hold more than just our next meal; they hold the key to our health.",
+    "time": null,
+    "speaker": "Dr. Sarah Levinson",
+    "verbatim": [
+     "Our plates hold more than just our next meal; they hold the key to our health."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "preventive health",
+    "relation": "believed_by_health_professionals_to_need",
+    "value": "nutrition to take center stage in disease prevention strategies",
+    "time": null,
+    "speaker": "many health professionals",
+    "verbatim": [
+     "many health professionals who believe that it's time for nutrition to take center stage in disease prevention strategies"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "nutritional therapy",
+    "relation": "is_defined_as",
+    "value": "the tailored use of foods and nutrients to promote health, manage, and prevent disease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritional therapy is the tailored use of foods and nutrients to promote health, manage, and prevent disease."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "nutritional therapy",
+    "relation": "rooted_in",
+    "value": "the belief that food not only provides the fuel our bodies need to function but also the necessary compounds to heal, repair, and maintain optimal health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's rooted in the belief that food not only provides the fuel our bodies need to function but also the necessary compounds to heal, repair, and maintain optimal health."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "nutritional counseling",
+    "relation": "should_be",
+    "value": "a primary service in health systems",
+    "time": null,
+    "speaker": "Proponents like Levinson",
+    "verbatim": [
+     "Proponents like Levinson argue that nutritional counseling should be a primary service in health systems"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "nutritional counseling",
+    "relation": "potential_to_prevent",
+    "value": "a myriad of conditions, ranging from diabetes to heart disease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to its potential to prevent a myriad of conditions, ranging from diabetes to heart disease"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "nutritional counseling",
+    "relation": "improves",
+    "value": "overall wellbeing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its role in improving overall wellbeing"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "nutritional counseling",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "verbatim": [
+     "Proponents like Levinson argue that nutritional counseling should be a primary service in health systems due to its potential to prevent a myriad of conditions, ranging from diabetes to heart disease"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "heart disease",
+    "relation": "potentially_preventable_through",
+    "value": "nutritional counseling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to its potential to prevent a myriad of conditions, ranging from diabetes to heart disease"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Journal of Nutrition and Disease Prevention",
+    "relation": "published",
+    "value": "a paper",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A paper published on October 15, 2023, by the Journal of Nutrition and Disease Prevention revealed that"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Journal of Nutrition and Disease Prevention",
+    "relation": "reported",
+    "value": "diets rich in fruits, vegetables, whole grains, nuts, and seeds were associated with a reduced risk of chronic diseases",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "revealed that diets rich in fruits, vegetables, whole grains, nuts, and seeds were associated with a reduced risk of chronic diseases"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "chronic diseases",
+    "relation": "associated_with_reduced_risk_by",
+    "value": "diets rich in fruits, vegetables, whole grains, nuts, and seeds",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "diets rich in fruits, vegetables, whole grains, nuts, and seeds were associated with a reduced risk of chronic diseases"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "food as medicine",
+    "relation": "evidence_shows",
+    "value": "dietary choices are significant in the maintenance of health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcases how significant dietary choices are in the maintenance of health"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "chronic diseases",
+    "relation": "burden",
+    "value": "never been higher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The burden of chronic diseases has never been higher."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "chronic diseases",
+    "relation": "are_leading_causes_of",
+    "value": "death and disability worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are the leading causes of death and disability worldwide."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "chronic diseases",
+    "relation": "strains",
+    "value": "health systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With health systems strained by the increasing incidence of these conditions"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "preventive health",
+    "relation": "pressing_need",
+    "value": "pivot towards preventive measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's a pressing need to pivot towards preventive measures"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "nutritional therapy",
+    "relation": "can_play_role_in",
+    "value": "a crucial role in this pivot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nutritional therapy can play a crucial role in this pivot."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "type 2 diabetes",
+    "relation": "incidence",
+    "value": "steadily increasing over the past decades",
+    "time": "over the past decades",
+    "speaker": null,
+    "verbatim": [
+     "the case of type 2 diabetes, which has been steadily increasing over the past decades"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "nutritional therapy",
+    "relation": "can_be",
+    "value": "transformative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "illustrates how nutritional interventions can be transformative"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Thompson",
+    "relation": "is",
+    "value": "Registered Dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Registered Dietitian Michael Thompson, who has studied diabetes management extensively"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Michael Thompson",
+    "relation": "studied",
+    "value": "diabetes management extensively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has studied diabetes management extensively"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Michael Thompson",
+    "relation": "stated",
+    "value": "By individualizing diet plans and focusing on whole, unprocessed foods, we've seen patients significantly improve their blood sugar control without solely relying on medication.",
+    "time": "September 20, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "By individualizing diet plans and focusing on whole, unprocessed foods, we've seen patients significantly improve their blood sugar control without solely relying on medication."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "nutritional counseling",
+    "relation": "is_matter_of",
+    "value": "economics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's also a matter of economics"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "chronic diseases",
+    "relation": "treatment_cost",
+    "value": "astronomical and on the rise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cost of treating chronic diseases is astronomical and on the rise."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "nutritional therapy",
+    "relation": "can_reduce",
+    "value": "the reliance on expensive medications and invasive procedures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By investing in nutritional therapies, health systems can reduce the reliance on expensive medications and invasive procedures"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "nutritional therapy",
+    "relation": "may_lead_to",
+    "value": "potential savings and more sustainable care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to potential savings and more sustainable care"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "nutritional therapy",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "verbatim": [
+     "By investing in nutritional therapies, health systems can reduce the reliance on expensive medications and invasive procedures, leading to potential savings and more sustainable care."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "nutritional therapy",
+    "relation": "challenge_is",
+    "value": "accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the challenges in making nutritional therapy a standard part of healthcare is accessibility."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "nutritional counseling",
+    "relation": "not_everyone_has",
+    "value": "the means or opportunity to consult with a nutritionist or dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not everyone has the means or opportunity to consult with a nutritionist or dietitian."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "telehealth services",
+    "relation": "have_gained",
+    "value": "popularity",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As reported on September 30, 2023, telehealth services that offer nutritional counseling have gained popularity"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "telehealth services",
+    "relation": "offer",
+    "value": "nutritional counseling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "telehealth services that offer nutritional counseling"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "telehealth services",
+    "relation": "allows",
+    "value": "individuals to receive tailored dietary advice from the comfort of their homes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing individuals to receive tailored dietary advice from the comfort of their homes"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "nutritional therapy",
+    "relation": "requires",
+    "value": "healthcare providers to be educated on its importance and efficacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "healthcare providers themselves need to be educated on its importance and efficacy"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Thompson Integrative Medicine Institute",
+    "relation": "is_described_as",
+    "value": "a medical school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Medical schools like the Thompson Integrative Medicine Institute"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Thompson Integrative Medicine Institute",
+    "relation": "established_on",
+    "value": "November 5, 2023",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Thompson Integrative Medicine Institute, established on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Thompson Integrative Medicine Institute",
+    "relation": "includes_in_curricula",
+    "value": "comprehensive nutritional education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now including comprehensive nutritional education in their curricula"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Thompson Integrative Medicine Institute",
+    "relation": "aims_to_ensure",
+    "value": "new generations of doctors are equipped to prescribe food as medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure new generations of doctors are equipped to prescribe food as medicine"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Thompson Integrative Medicine Institute",
+    "relation": "in_order_to",
+    "value_ref": "c46",
+    "verbatim": [
+     "including comprehensive nutritional education in their curricula to ensure new generations of doctors are equipped to prescribe food as medicine"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "nutritional therapy",
+    "relation": "requires",
+    "value": "continued research, public education, and policy change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continued research, public education, and policy change are vital to cementing the role of nutritional therapy in the healthcare system."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "'Food for Health' symposium",
+    "relation": "held_on",
+    "value": "January 22, 2024",
+    "time": "January 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "'Food for Health' symposium on January 22, 2024"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "'Food for Health' symposium",
+    "relation": "is",
+    "value": "recent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the recent 'Food for Health' symposium"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "'Food for Health' symposium",
+    "relation": "gathers",
+    "value": "health professionals, lawmakers, and food industry leaders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gather health professionals,lawmakers, and food industry leaders to discuss the way forward"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "'Food for Health' symposium",
+    "relation": "brings",
+    "value": "hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bring hope as they gather"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "nutritional therapy",
+    "relation": "demonstrates",
+    "value": "a societal shift towards more holistic, integrative health practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unmistakable momentum behind nutritional therapies demonstrates a societal shift towards more holistic, integrative health practices."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "food as medicine",
+    "relation": "has_place_alongside",
+    "value": "medication and medical interventions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interventions will always have their place"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "food as medicine",
+    "relation": "should_be_recognized_as",
+    "value": "the powerful medicine it can be",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to be recognized as the powerful medicine it can be."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "New York",
+    "relation": "hosts",
+    "value": "Annual Health and Wellness Conference",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Annual Health and Wellness Conference in New York"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

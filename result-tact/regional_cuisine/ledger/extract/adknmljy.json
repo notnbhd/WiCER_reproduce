@@ -1,0 +1,878 @@
+{
+ "inventory": [
+  "Chef Liang Zhao",
+  "Flame's Embrace",
+  "Guangdong province",
+  "Han Dynasty",
+  "Yunnan",
+  "SousChef Anna Lin",
+  "Nutritionist Emily Wong",
+  "wok",
+  "Wok Stir-Frying",
+  "chuan (spatula)",
+  "zhu (ladle)",
+  "Szechuan pepper",
+  "Argentinean chimichurri",
+  "Asian cuisine",
+  "fusion cuisine",
+  "carbon steel",
+  "ancient recipes",
+  "cooking demo",
+  "grand opening gala",
+  "community cooking class",
+  "consistency checks",
+  "handcrafted ceramics"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wok Stir-Frying",
+    "relation": "refined_over",
+    "value": "thousands of years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wok Stir-Frying is an art form that has been refined over thousands of years"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wok Stir-Frying",
+    "relation": "cornerstone_of",
+    "value": "Asian cuisine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cornerstone of Asian cuisine that has captivated food enthusiasts around the world"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wok Stir-Frying",
+    "relation": "has_captivated",
+    "value": "food enthusiasts around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cornerstone of Asian cuisine that has captivated food enthusiasts around the world"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Chef Liang Zhao",
+    "relation": "has_mastered",
+    "value": "the wok's fiery dance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has mastered the wok's fiery dance at his restaurant"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Chef Liang Zhao",
+    "relation": "runs_restaurant",
+    "value": "Flame's Embrace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his restaurant \"Flame's Embrace\" since its opening on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Flame's Embrace",
+    "relation": "opened_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "since its opening on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "wok",
+    "relation": "originated_in",
+    "value": "Guangdong province",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "Originally from the Guangdong province"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "wok",
+    "relation": "history_dates_back_to",
+    "value": "Han Dynasty",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "the wok has a history dating back to the Han Dynasty"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "wok",
+    "relation": "is",
+    "value": "a cooking implement and a vessel carrying the legacy of generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not only a cooking implement but a vessel carrying the legacy of generations"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "carbon steel",
+    "relation": "surface_condition",
+    "value": "seasoned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the seasoned carbon steel surface"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chef Liang Zhao",
+    "relation": "techniques_mirror",
+    "value": "techniques passed down through the centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mirror techniques passed down through the centuries"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "wok",
+    "relation": "suited_for",
+    "value": "stir-frying due to its high sides and rounded bottom",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "The wok, Chef Zhao explains, is uniquely suited for stir-frying due to its high sides and rounded bottom"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "wok",
+    "relation": "shape_allows",
+    "value": "quick cooking and even heat distribution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The shape allows for quick cooking and even heat distribution."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "wok",
+    "relation": "described_as",
+    "value": "a tool of expression",
+    "time": null,
+    "speaker": "Zhao",
+    "verbatim": [
+     "It's not just a pan; it's a tool of expression"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "wok",
+    "relation": "crafted_on",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "crafted on October 3, 2023, by a master wok-maker in Yunnan"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "wok",
+    "relation": "crafted_by",
+    "value": "a master wok-maker",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "crafted on October 3, 2023, by a master wok-maker in Yunnan"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "wok",
+    "relation": "crafted_in",
+    "value": "Yunnan",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "crafted on October 3, 2023, by a master wok-maker in Yunnan"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "wok",
+    "relation": "must_be_seasoned_before",
+    "value": "stir-frying",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Before stir-frying can even begin, a chef must season the wok"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Chef Liang Zhao",
+    "relation": "seasoned_wok_on",
+    "value": "October 11",
+    "time": "October 11",
+    "speaker": null,
+    "verbatim": [
+     "carried out by Chef Zhao on October 11"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "wok",
+    "relation": "seasoning_process",
+    "value": "coating it with oil and heating it until it smokes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves coating it with oil and heating it until it smokes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "wok",
+    "relation": "seasoning_creates",
+    "value": "a naturally non-stick surface",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a naturally non-stick surface"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "wok",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heating it until it smokes, creating a naturally non-stick surface"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Chef Liang Zhao",
+    "relation": "compares_seasoning_to",
+    "value": "nurturing a relationship",
+    "time": null,
+    "speaker": "Zhao",
+    "verbatim": [
+     "It's like nurturing a relationship"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Chef Liang Zhao",
+    "relation": "states",
+    "value": "It takes time to develop that perfect patina",
+    "time": null,
+    "speaker": "Zhao",
+    "verbatim": [
+     "It takes time to develop that perfect patina."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Chef Liang Zhao",
+    "relation": "states",
+    "value": "You cannot create a symphony without understanding your instruments",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "You cannot create a symphony without understanding your instruments"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Chef Liang Zhao",
+    "relation": "lays_out",
+    "value": "an array of vibrant vegetables and succulent meats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lays out an array of vibrant vegetables and succulent meats"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Chef Liang Zhao",
+    "relation": "emphasizes",
+    "value": "the need for fresh, quality ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He emphasizes the need for fresh, quality ingredients"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Chef Liang Zhao",
+    "relation": "procurement_dates_recorded_in",
+    "value": "his kitchen's records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with procurement dates etched carefully in his kitchen's records"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Wok Stir-Frying",
+    "relation": "requires",
+    "value": "every ingredient chopped uniformly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every ingredient must be chopped uniformly, ensuring even cooking."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Wok Stir-Frying",
+    "relation": "ensures",
+    "value": "even cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring even cooking"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Wok Stir-Frying",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every ingredient must be chopped uniformly, ensuring even cooking."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "SousChef Anna Lin",
+    "relation": "demonstrated",
+    "value": "the meticulous process",
+    "time": "October 21",
+    "speaker": null,
+    "verbatim": [
+     "On October 21, SousChef Anna Lin demonstrated the meticulous process"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "SousChef Anna Lin",
+    "relation": "transformed",
+    "value": "raw ingredients into bite-sized morsels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transforming raw ingredients into bite-sized morsels ready for the wok's sizzling embrace"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Liang Zhao",
+    "relation": "marinade_combinations_perfected_over",
+    "value": "years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combinations measured and perfected over years"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Liang Zhao",
+    "relation": "notes",
+    "value": "The difference between good and exceptional lies in the balance of flavors",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "The difference between good and exceptional lies in the balance of flavors"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chef Liang Zhao",
+    "relation": "displayed",
+    "value": "a set of ancient recipes",
+    "time": "October 30",
+    "speaker": null,
+    "verbatim": [
+     "displaying a set of ancient recipes reinterpreted on October 30"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "ancient recipes",
+    "relation": "reinterpreted_on",
+    "value": "October 30",
+    "time": "October 30",
+    "speaker": null,
+    "verbatim": [
+     "displaying a set of ancient recipes reinterpreted on October 30"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Wok Stir-Frying",
+    "relation": "is",
+    "value": "an intense, fast-paced process that demands the chef's undivided attention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stir-frying is an intense, fast-paced process that demands the chef's undivided attention."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "wok",
+    "relation": "must_be_heated",
+    "value": "just right",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "The wok must be heated just right"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Chef Liang Zhao",
+    "relation": "caressed_gas_flames_with_wok",
+    "value": "the gas flames with his wok",
+    "time": "November 2",
+    "speaker": null,
+    "verbatim": [
+     "caressing the gas flames with his wok on November 2"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "wok",
+    "relation": "creates",
+    "value": "a scorching base for the stir-fry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a scorching base for the stir-fry"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chef Liang Zhao",
+    "relation": "movements_are",
+    "value": "both vigorous and precise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Zhao\u2019s movements are both vigorous and precise."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Chef Liang Zhao",
+    "relation": "stated",
+    "value": "There's a rhythm to it",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "There's a rhythm to it"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Chef Liang Zhao",
+    "relation": "clanging_became",
+    "value": "the kitchen's melody since its inception",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rhythmic clanging that has become the kitchen's melody since its inception"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Wok Stir-Frying",
+    "relation": "requires",
+    "value": "a delicate balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Adding ingredients in quick succession while maintaining their individual textures is a delicate balance."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Wok Stir-Frying",
+    "relation": "ingredient_order",
+    "value": "Proteins first, then the vegetables, and finally aromatics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Proteins first, then the vegetables, and finally aromatics"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Chef Liang Zhao",
+    "relation": "perfected_sequence_over",
+    "value": "months of practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the chef has perfected over months of practice"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chef Liang Zhao",
+    "relation": "adds",
+    "value": "a drizzle of sauce, a sprinkle of herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Zhao adds the final touches: a drizzle of sauce, a sprinkle of herbs"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chef Liang Zhao",
+    "relation": "precision_honed_since",
+    "value": "the restaurant's grand opening gala",
+    "time": "November 22",
+    "speaker": null,
+    "verbatim": [
+     "honed to precision since the restaurant's grand opening gala on November 22"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "grand opening gala",
+    "relation": "held_on",
+    "value": "November 22",
+    "time": "November 22",
+    "speaker": null,
+    "verbatim": [
+     "the restaurant's grand opening gala on November 22"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "chuan (spatula)",
+    "relation": "is_utensil_for",
+    "value": "the wok",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wok's partner in crime is the chuan (spatula) or zhu (ladle)."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "zhu (ladle)",
+    "relation": "is_utensil_for",
+    "value": "the wok",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wok's partner in crime is the chuan (spatula) or zhu (ladle)."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Chef Liang Zhao",
+    "relation": "opts_for",
+    "value": "his trusty chuan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For precise control, Chef Zhao opts for his trusty chuan"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "chuan (spatula)",
+    "relation": "acquired_on",
+    "value": "December 1",
+    "time": "December 1",
+    "speaker": null,
+    "verbatim": [
+     "his trusty chuan, acquired on December 1"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "chuan (spatula)",
+    "relation": "described_as",
+    "value": "an extension of my hand",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "It's an extension of my hand"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Chef Liang Zhao",
+    "relation": "maneuvers",
+    "value": "it through ingredients with the confidence of a seasoned artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maneuvering it through ingredients with the confidence of a seasoned artist"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Flame's Embrace",
+    "relation": "unveiled",
+    "value": "a new line of handcrafted ceramics",
+    "time": "December 15",
+    "speaker": null,
+    "verbatim": [
+     "On December 15, the restaurant unveiled a new line of handcrafted ceramics"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "handcrafted ceramics",
+    "relation": "chosen_to",
+    "value": "complement the wok's creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chosen to complement the wok's creations"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Chef Liang Zhao",
+    "relation": "believes",
+    "value": "presentation is key \u2013 it's the prelude to the gastronomical experience",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "Chef Zhao believes that presentation is key \u2013 it's the prelude to the gastronomical experience"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Nutritionist Emily Wong",
+    "relation": "shared_insights_at",
+    "value": "a cooking demo",
+    "time": "January 5",
+    "speaker": null,
+    "verbatim": [
+     "On January 5, Nutritionist Emily Wong shared insights at a cooking demo"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "cooking demo",
+    "relation": "held_on",
+    "value": "January 5",
+    "time": "January 5",
+    "speaker": null,
+    "verbatim": [
+     "On January 5, Nutritionist Emily Wong shared insights at a cooking demo"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Nutritionist Emily Wong",
+    "relation": "states",
+    "value": "The quick cooking process retains more nutrients while requiring less oil",
+    "time": null,
+    "speaker": "Nutritionist Emily Wong",
+    "verbatim": [
+     "The quick cooking process retains more nutrients while requiring less oil"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "consistency checks",
+    "relation": "implemented_since",
+    "value": "February 10",
+    "time": "February 10",
+    "speaker": null,
+    "verbatim": [
+     "With consistency checks implemented since February 10"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Chef Liang Zhao",
+    "relation": "states",
+    "value": "Every dish should be a reflection of your best effort",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "Every dish should be a reflection of your best effort"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "consistency checks",
+    "relation": "ensures",
+    "value": "every plate leaves the kitchen meeting the chef's exacting standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the staff ensures every plate leaves the kitchen meeting the chef's exacting standards"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "consistency checks",
+    "relation": "results_in",
+    "value_ref": "c65",
+    "time": "February 10",
+    "speaker": null,
+    "verbatim": [
+     "With consistency checks implemented since February 10, the staff ensures every plate leaves the kitchen meeting the chef's exacting standards"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "fusion cuisine",
+    "relation": "is",
+    "value": "an adventure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fusion cuisine is an adventure"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Chef Liang Zhao",
+    "relation": "embraced",
+    "value": "fusion cuisine",
+    "time": "March 1",
+    "speaker": null,
+    "verbatim": [
+     "Fusion cuisine is an adventure Chef Zhao embraced on March 1"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Chef Liang Zhao",
+    "relation": "creates_dishes_that",
+    "value": "marry traditional wok techniques with global flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating dishes that marry traditional wok techniques with global flavors"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Chef Liang Zhao",
+    "relation": "states",
+    "value": "Innovation is essential",
+    "time": null,
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "Innovation is essential"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Chef Liang Zhao",
+    "relation": "presented_dish_combining",
+    "value": "Szechuan pepper with Argentinean chimichurri",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presenting a dish that combines Szechuan pepper with Argentinean chimichurri"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Szechuan pepper",
+    "relation": "combined_with",
+    "value": "Argentinean chimichurri",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presenting a dish that combines Szechuan pepper with Argentinean chimichurri"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Chef Liang Zhao",
+    "relation": "encourages",
+    "value": "home cooks to experiment with the wok",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Zhao encourages home cooks to experiment with the wok"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "community cooking class",
+    "relation": "held_on",
+    "value": "March 18",
+    "time": "March 18",
+    "speaker": null,
+    "verbatim": [
+     "On March 18, during a community cooking class, he shared"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Chef Liang Zhao",
+    "relation": "states_all_you_need_is",
+    "value": "a good wok, fresh ingredients, and the courage to play with fire",
+    "time": "March 18",
+    "speaker": "Chef Zhao",
+    "verbatim": [
+     "he shared that all you need is a good wok, fresh ingredients, and the courage to play with fire"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Wok Stir-Frying",
+    "relation": "is",
+    "value": "a heart-pounding performance that goes beyond mere cooking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "wok stirfrying goes beyond mere cooking \u2013 it's a heart-pounding performance"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Wok Stir-Frying",
+    "relation": "reveals",
+    "value": "the passion and precision that fuels the fire of stir-fry mastery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we've discovered the passion and precision that fuels the fire of stir-fry mastery"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

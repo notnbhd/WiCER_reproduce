@@ -1,0 +1,686 @@
+{
+ "inventory": [
+  "Chef Emily Nguyen",
+  "Chef David Ortiz",
+  "Chef Alisha Russo",
+  "Pacific Northwest",
+  "Carmel-by-the-Sea",
+  "Maine",
+  "New Orleans",
+  "New England",
+  "Tokyo's Tsukiji",
+  "Seattle's Pike Place",
+  "coastal Japanese towns",
+  "fishing calendar",
+  "Catch Shares",
+  "foraging trend",
+  "bluefish",
+  "striped bass",
+  "oyster",
+  "chanterelles",
+  "mussels",
+  "salmon",
+  "bouillabaisse",
+  "crawfish boil",
+  "clambake",
+  "squashes",
+  "pumpkins",
+  "sweet potatoes",
+  "September 2023"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Chef Emily Nguyen",
+    "relation": "based_in",
+    "value": "Pacific Northwest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rising star based in the Pacific Northwest renowned for her seafood magic"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Chef Emily Nguyen",
+    "relation": "renowned_for",
+    "value": "seafood magic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rising star based in the Pacific Northwest renowned for her seafood magic"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Chef Emily Nguyen",
+    "relation": "described_as",
+    "value": "a rising star",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a rising star based in the Pacific Northwest renowned for her seafood magic"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "fishing calendar",
+    "relation": "described_as",
+    "value": "a chef's guidebook to what the waters offer throughout the year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fishing calendar is a chef's guidebook to what the waters offer throughout the year."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "bluefish",
+    "relation": "brought_in_by",
+    "value": "the cool currents",
+    "time": "autumn",
+    "speaker": null,
+    "verbatim": [
+     "As the leaves begin their autumnal transformation, the cool currents bring in species like the muscular bluefish"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "bluefish",
+    "relation": "described_as",
+    "value": "muscular",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the muscular bluefish"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "striped bass",
+    "relation": "described_as",
+    "value": "robust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the robust striped bass"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "oyster",
+    "relation": "described_as",
+    "value": "elusive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the elusive oyster"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Chef Emily Nguyen",
+    "relation": "interviewed_on",
+    "value": "a crisp September morning",
+    "time": "On a crisp September morning",
+    "speaker": null,
+    "verbatim": [
+     "On a crisp September morning, I had the privilege of speaking with Chef Emily Nguyen"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Chef Emily Nguyen",
+    "relation": "states",
+    "value": "When you respect the fishing calendar, you not only get the freshest catch",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "When you respect the fishing calendar, you not only get the freshest catch,"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chef Emily Nguyen",
+    "relation": "states",
+    "value": "You're not depleting resources; instead, you're part of a cycle that can continue healthily for years to come.",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "You're not depleting resources; instead, you're part of a cycle that can continue healthily for years to come."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Catch Shares",
+    "relation": "defined_as",
+    "value": "a system ensuring each fisherman a share of the sustainable catch limit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of Catch Shares\u2014a system ensuring each fisherman a share of the sustainable catch limit\u2014 promotes accountability"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Catch Shares",
+    "relation": "promotes",
+    "value": "accountability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promotes accountability and supports the seafood community."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Catch Shares",
+    "relation": "supports",
+    "value": "the seafood community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promotes accountability and supports the seafood community."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "I partner with local fishermen who practice sustainable fishing",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "I partner with local fishermen who practice sustainable fishing,"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Chef David Ortiz",
+    "relation": "owner_of",
+    "value": "a Michelin-starred restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owner of a Michelin-starred restaurant in the coastal town of Carmel-by-the-Sea"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Carmel-by-the-Sea",
+    "relation": "described_as",
+    "value": "coastal town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the coastal town of Carmel-by-the-Sea"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "This way, we maintain the integrity of our dishes while honoring our marine life",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "This way, we maintain the integrity of our dishes while honoring our marine life."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Chef David Ortiz",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I partner with local fishermen who practice sustainable fishing,",
+     "This way, we maintain the integrity of our dishes while honoring our marine life."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "squashes",
+    "relation": "blends_with",
+    "value": "the briny sweetness of the sea",
+    "time": "Autumn",
+    "speaker": null,
+    "verbatim": [
+     "Autumn brings a range of flavors from the earth\u2014squashes, pumpkins, and sweet potatoes\u2014that blend beautifully with the briny sweetness of the sea."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "pumpkins",
+    "relation": "blends_with",
+    "value": "the briny sweetness of the sea",
+    "time": "Autumn",
+    "speaker": null,
+    "verbatim": [
+     "Autumn brings a range of flavors from the earth\u2014squashes, pumpkins, and sweet potatoes\u2014that blend beautifully with the briny sweetness of the sea."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "sweet potatoes",
+    "relation": "blends_with",
+    "value": "the briny sweetness of the sea",
+    "time": "Autumn",
+    "speaker": null,
+    "verbatim": [
+     "Autumn brings a range of flavors from the earth\u2014squashes, pumpkins, and sweet potatoes\u2014that blend beautifully with the briny sweetness of the sea."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "I favor hearty, warm broths",
+    "time": "In the cooler months",
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "In the cooler months, I favor hearty, warm broths,"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "bouillabaisse",
+    "relation": "contains",
+    "value": "a variety of fish",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "with a variety of fish is perfect as it blends the richness of the sea with the rustic coziness of fall."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "bouillabaisse",
+    "relation": "blends",
+    "value": "the richness of the sea with the rustic coziness of fall",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "as it blends the richness of the sea with the rustic coziness of fall."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "foraging trend",
+    "relation": "described_as",
+    "value": "wild mushrooms, berries, and herbs gathered from the woods and coastline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wild mushrooms, berries, and herbs gathered from the woods and coastline bring out unique flavors in seafood that cultivated crops can't always match."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "foraging trend",
+    "relation": "brings_out",
+    "value": "unique flavors in seafood that cultivated crops can't always match",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wild mushrooms, berries, and herbs gathered from the woods and coastline bring out unique flavors in seafood that cultivated crops can't always match."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Chef Alisha Russo",
+    "relation": "known_for",
+    "value": "her sustainable coastal eatery in Maine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chef Alisha Russo, known for her sustainable coastal eatery in Maine,"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Maine",
+    "relation": "location_of",
+    "value": "Chef Alisha Russo's sustainable coastal eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sustainable coastal eatery in Maine"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Chef Alisha Russo",
+    "relation": "states",
+    "value": "I might find chanterelles in the forest and mussels at low tide.",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "I might find chanterelles in the forest and mussels at low tide."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "chanterelles",
+    "relation": "found_in",
+    "value": "the forest",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "I might find chanterelles in the forest"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "mussels",
+    "relation": "found_at",
+    "value": "low tide",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "mussels at low tide."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Chef Alisha Russo",
+    "relation": "states",
+    "value": "Together, they create a dish that is the very essence of our region.",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "Together, they create a dish that is the very essence of our region."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chef Alisha Russo",
+    "relation": "states",
+    "value": "It's about discovering and respecting the symbiotic relationships of our ecosystem.",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "It's about discovering and respecting the symbiotic relationships of our ecosystem."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Chef Emily Nguyen",
+    "relation": "mixes_techniques_from",
+    "value": "her Vietnamese heritage with those of the local indigenous tribes",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "I like to mix techniques from my Vietnamese heritage with those of the local indigenous tribes."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Chef Emily Nguyen",
+    "relation": "heritage",
+    "value": "Vietnamese",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "my Vietnamese heritage"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "salmon",
+    "relation": "smoked_over",
+    "value": "alder wood",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "we might smoke salmon in the traditional way over alder wood"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "salmon",
+    "relation": "glazed_with",
+    "value": "tamarind and honey",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "add a glaze of tamarind and honey."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "New Orleans",
+    "relation": "known_for",
+    "value": "crawfish boil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In New Orleans, the spicy and bold flavors meld in the iconic crawfish boil."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "crawfish boil",
+    "relation": "described_as",
+    "value": "iconic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the iconic crawfish boil"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "New England",
+    "relation": "ritual",
+    "value": "clambake",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Up north in New England, the clambake reigns supreme as an autumn staple."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "clambake",
+    "relation": "described_as",
+    "value": "an autumn staple",
+    "time": "autumn",
+    "speaker": null,
+    "verbatim": [
+     "the clambake reigns supreme as an autumn staple."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Chef Alisha Russo",
+    "relation": "states",
+    "value": "Preparing seafood is a communal act.",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "Preparing seafood is a communal act."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Chef Alisha Russo",
+    "relation": "states",
+    "value": "It's more than just food; it's a celebration of life and community.",
+    "time": null,
+    "speaker": "Chef Alisha Russo",
+    "verbatim": [
+     "It's more than just food; it's a celebration of life and community."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "coastal Japanese towns",
+    "relation": "fish_is",
+    "value": "a diet staple",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In regions where fish is a diet staple, such as in coastal Japanese towns,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "coastal Japanese towns",
+    "relation": "population_harbors",
+    "value": "a deep understanding of each fish's season, flavor profile, and preparation method",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the population often harbors a deep understanding of each fish's season, flavor profile, and preparation method."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Chef Emily Nguyen",
+    "relation": "states",
+    "value": "Education is key",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "Education is key"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chef Emily Nguyen",
+    "relation": "states",
+    "value": "Once my diners know why we use certain fish at certain times of the year, they have a much richer dining experience.",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "Once my diners know why we use certain fish at certain times of the year, they have a much richer dining experience."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chef Emily Nguyen",
+    "relation": "states",
+    "value": "There's a story behind every dish.",
+    "time": null,
+    "speaker": "Chef Emily Nguyen",
+    "verbatim": [
+     "There's a story behind every dish."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Tokyo's Tsukiji",
+    "relation": "described_as",
+    "value": "famed fish market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from Tokyo's famed Tsukiji to Seattle's Pike Place"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Seattle's Pike Place",
+    "relation": "is_among",
+    "value": "bustling fish markets dotting coastlines around the world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from Tokyo's famed Tsukiji to Seattle's Pike Place"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "I start my day at the local fish market",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "I start my day at the local fish market,"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "It's not just shopping; it's building relationships.",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "It's not just shopping; it's building relationships."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Chef David Ortiz",
+    "relation": "states",
+    "value": "We discuss what's in season, the quality of the catch, and sometimes, they'll tip you off to something special that's just come in.",
+    "time": null,
+    "speaker": "Chef David Ortiz",
+    "verbatim": [
+     "We discuss what's in season, the quality of the catch, and sometimes, they'll tip you off to something special that's just come in."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Chef Emily Nguyen",
+    "relation": "described_as",
+    "value": "at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Nguyen, Ortiz, and Russo are at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Chef David Ortiz",
+    "relation": "described_as",
+    "value": "at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Nguyen, Ortiz, and Russo are at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Chef Alisha Russo",
+    "relation": "described_as",
+    "value": "at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chefs like Nguyen, Ortiz, and Russo are at the vanguard, reinventing and reinterpreting culinary traditions with sustainability at their core."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "fishing calendar",
+    "relation": "reveals",
+    "value": "an oceanic bounty ripe for the taking",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the fishing calendars reveal an oceanic bounty ripe for the taking"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "September 2023",
+    "relation": "described_as",
+    "value": "the teeming waters",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we head into the teeming waters of September 2023"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

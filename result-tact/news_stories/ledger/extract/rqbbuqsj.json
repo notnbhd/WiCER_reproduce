@@ -1,0 +1,790 @@
+{
+ "inventory": [
+  "Mars",
+  "Earth",
+  "Commander Laura Rodriguez",
+  "Odyssey Prime",
+  "Terra flag",
+  "Apollo lunar landings",
+  "Sandra Nguyen",
+  "Mars Habitat One (MH1)",
+  "Raj Patel",
+  "Dr. Tanya Zhang",
+  "Emil Johansson",
+  "Maria Gonzales",
+  "mission control",
+  "Phobos",
+  "Deimos",
+  "communal galley",
+  "hydroponic farms",
+  "atmospheric processing units",
+  "modular dome",
+  "observation lounge",
+  "off-world classroom",
+  "Martian microbes"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Mars",
+    "relation": "colonization_chapter_dated",
+    "value": "seminal chapter",
+    "time": "September 14, 2025",
+    "speaker": null,
+    "verbatim": [
+     "the stars have aligned to pen a seminal chapter on September 14, 2025"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Mars",
+    "relation": "breakthrough_signifies",
+    "value": "humanity\u2019s thirst for exploration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This breakthrough not only signifies humanity\u2019s thirst for exploration"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Earth",
+    "relation": "survival_pursued_beyond",
+    "value": "the confines of Earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its relentless pursuit of survival beyond the confines of Earth"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Commander Laura Rodriguez",
+    "relation": "first_steps_onto",
+    "value": "the crimson terrain of Mars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The indelible first steps onto the crimson terrain of Mars were taken by none other than Commander Laura Rodriguez"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Commander Laura Rodriguez",
+    "relation": "led_crew_of",
+    "value": "Odyssey Prime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who led the intrepid crew of the pioneering vessel, Odyssey Prime"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Odyssey Prime",
+    "relation": "vessel_type",
+    "value": "pioneering vessel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pioneering vessel, Odyssey Prime"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Odyssey Prime",
+    "relation": "mission_goal",
+    "value": "establish the first permanent human settlement beyond Earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "on their monumental mission to establish the first permanent human settlement beyond Earth"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Commander Laura Rodriguez",
+    "relation": "planted_flag",
+    "value": "Terra flag",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The footage of Commander Rodriguez planting the Terra flag into the Martian dust"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Terra flag",
+    "relation": "planted_into",
+    "value": "the Martian dust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "planting the Terra flag into the Martian dust"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Commander Laura Rodriguez",
+    "relation": "planting_footage_broadcast_to",
+    "value": "billions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "broadcasted live to billions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Terra flag",
+    "relation": "planting_signified",
+    "value": "a unifying moment for humanity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "signified a unifying moment for humanity"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Apollo lunar landings",
+    "relation": "comparison_to_planting",
+    "value": "the euphoric chapters of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "akin to the euphoric chapters of the past Apollo lunar landings"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Odyssey Prime",
+    "relation": "crew_accomplishments",
+    "value": "historic accomplishments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the historic accomplishments of the Odyssey Prime crew"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mars Habitat One (MH1)",
+    "relation": "wake_up_calls_synced_with",
+    "value": "the Martian sunrise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wake-up calls at Mars Habitat One (MH1) are synced with the Martian sunrise"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mars Habitat One (MH1)",
+    "relation": "living_quarters_windows",
+    "value": "radiation-resistant panoramic windows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an amber glow that floods the living quarters through the radiation-resistant panoramic windows"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sandra Nguyen",
+    "relation": "role",
+    "value": "an exobiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Nguyen, an exobiologist and mother of two"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sandra Nguyen",
+    "relation": "family",
+    "value": "mother of two",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Nguyen, an exobiologist and mother of two"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sandra Nguyen",
+    "relation": "begins_day_with",
+    "value": "stretches in Mars' lower gravity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "begins her day with stretches in Mars' lower gravity"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sandra Nguyen",
+    "relation": "routine_keeps",
+    "value": "her muscles and bones robust in a lighter gravitational environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a routine that keeps her muscles and bones robust in a lighter gravitational environment"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sandra Nguyen",
+    "relation": "joins_colonists_in",
+    "value": "the communal galley",
+    "time": "By 7 AM Martian time",
+    "speaker": null,
+    "verbatim": [
+     "By 7 AM Martian time, Sandra joins her fellow colonists in the communal galley"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "communal galley",
+    "relation": "breakfast_prepared_by",
+    "value": "a robotic chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where a robotic chef has prepared a breakfast of optimized nutrition"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "communal galley",
+    "relation": "breakfast_nature",
+    "value": "a breakfast of optimized nutrition, capturing flavors from Earth with a Martian twist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a breakfast of optimized nutrition, capturing flavors from Earth with a Martian twist"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mars",
+    "relation": "recycling_allows_reuse_of",
+    "value": "water and organic matter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Efficient recycling systems allow water and organic matter to be reused"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mars",
+    "relation": "recycling_effect",
+    "value": "minimizing waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to be reused, minimizing waste"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Raj Patel",
+    "relation": "title",
+    "value": "Chief Agricultural Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Agricultural Officer, Raj Patel, examines the hydroponic farms"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Raj Patel",
+    "relation": "examines",
+    "value": "the hydroponic farms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Agricultural Officer, Raj Patel, examines the hydroponic farms"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "hydroponic farms",
+    "relation": "grows",
+    "value": "genetically modified plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where genetically modified plants thrive in controlled environments"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "hydroponic farms",
+    "relation": "growing_conditions",
+    "value": "controlled environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where genetically modified plants thrive in controlled environments"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "hydroponic farms",
+    "relation": "crops_are",
+    "value": "a source of sustenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These crops are not only a source of sustenance but also an integral part of the atmospheric processing units"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "atmospheric processing units",
+    "relation": "integral_part_is",
+    "value": "these crops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These crops are not only a source of sustenance but also an integral part of the atmospheric processing units"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "atmospheric processing units",
+    "relation": "enrich_atmosphere_with",
+    "value": "oxygen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which work tirelessly to enrich the Martian atmosphere with oxygen"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Tanya Zhang",
+    "relation": "role",
+    "value": "engineers and researchers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engineers and researchers like Dr. Tanya Zhang push the envelope of human ingenuity"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Tanya Zhang",
+    "relation": "work_involves",
+    "value": "drilling rigs and soil processors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Zhang's work on the Martian surface involves drilling rigs and soil processors"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Tanya Zhang",
+    "relation": "extracts_water_from",
+    "value": "beneath the permafrost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "soil processors that extract water from beneath the permafrost"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Tanya Zhang",
+    "relation": "investigates",
+    "value": "the feasibility of utilizing indigenous materials for construction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while investigating the feasibility of utilizing indigenous materials for construction"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Emil Johansson",
+    "relation": "role",
+    "value": "Life Support Technician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Life Support Technician Emil Johansson conducts routine checks on the habitation modules' life support systems"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Emil Johansson",
+    "relation": "conducts_checks_on",
+    "value": "the habitation modules' life support systems",
+    "time": "As midday approaches",
+    "speaker": null,
+    "verbatim": [
+     "conducts routine checks on the habitation modules' life support systems"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Emil Johansson",
+    "relation": "oversees",
+    "value": "air quality, pressure, temperature, and humidity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Air quality, pressure, temperature, and humidity all fall under his expert scrutiny"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Emil Johansson",
+    "relation": "addresses_discrepancies",
+    "value": "any discrepancy promptly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Any discrepancy is promptly addressed"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mars Habitat One (MH1)",
+    "relation": "maintains",
+    "value": "a perpetual Earth-like atmosphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure a perpetual Earth-like atmosphere within the confines of MH1"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emil Johansson",
+    "relation": "in_order_to",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Any discrepancy is promptly addressed to ensure a perpetual Earth-like atmosphere within the confines of MH1."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Earth",
+    "relation": "has_academic_tradition",
+    "value": "rich academic tradition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are ambassadors of Earth's rich academic tradition"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Maria Gonzales",
+    "relation": "role",
+    "value": "an educator among the pioneers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, an educator among the pioneers"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Gonzales",
+    "relation": "leads",
+    "value": "the first off-world classroom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leads the first off-world classroom where the children learn a curriculum that interweaves standard subjects with survival skills and Martian geology"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "off-world classroom",
+    "relation": "curriculum",
+    "value": "interweaves standard subjects with survival skills and Martian geology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the children learn a curriculum that interweaves standard subjects with survival skills and Martian geology"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sandra Nguyen",
+    "relation": "collects_samples_for",
+    "value": "her research on Martian microbes",
+    "time": "With the afternoon well underway",
+    "speaker": null,
+    "verbatim": [
+     "Sandra once again ventures out, donned in her atmospheric suit, to collect samples for her research on Martian microbes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sandra Nguyen",
+    "relation": "wears",
+    "value": "her atmospheric suit",
+    "time": "With the afternoon well underway",
+    "speaker": null,
+    "verbatim": [
+     "donned in her atmospheric suit"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Martian microbes",
+    "relation": "researched_by",
+    "value": "Sandra Nguyen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to collect samples for her research on Martian microbes"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "mission control",
+    "relation": "data_link_maintained_by",
+    "value": "communications specialists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "communications specialists are hard at work maintaining a constant data link with mission control on Earth"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "mission control",
+    "relation": "located_on",
+    "value": "Earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mission control on Earth"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "mission control",
+    "relation": "data_link_ensures",
+    "value": "the flow of information and connectivity with loved ones millions of miles away",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring the flow of information and connectivity with loved ones millions of miles away"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Mars",
+    "relation": "leisure_like",
+    "value": "the fun found on Earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leisure time on Mars isn't alien to the fun found on Earth"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "modular dome",
+    "relation": "role",
+    "value": "the hub for social activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The modular dome, the hub for social activities, is where the colonists unwind."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "modular dome",
+    "relation": "used_for",
+    "value": "colonists unwind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is where the colonists unwind"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "modular dome",
+    "relation": "offers",
+    "value": "watching the latest films and virtual-reality experiences of Earth's natural wonders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From watching the latest films to indulging in virtual-reality experiences of Earth's natural wonders"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mars",
+    "relation": "settlers_relax_like",
+    "value": "their terrestrial counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Martian settlers find ways to relax just like their terrestrial counterparts"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Phobos",
+    "relation": "moon_status",
+    "value": "one of the twin moons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the twin moons of Phobos and Deimos make their appearance"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Deimos",
+    "relation": "moon_status",
+    "value": "one of the twin moons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the twin moons of Phobos and Deimos make their appearance"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Phobos",
+    "relation": "appears_in",
+    "value": "the Martian evening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the Martian evening descends, and the twin moons of Phobos and Deimos make their appearance"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Sandra Nguyen",
+    "relation": "gathers_in",
+    "value": "the observation lounge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra and her colleagues gather in the observation lounge to share stories and gaze at the unrivaled sunset"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "observation lounge",
+    "relation": "used_for",
+    "value": "sharing stories and gazing at the sunset",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra and her colleagues gather in the observation lounge to share stories and gaze at the unrivaled sunset"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Mars",
+    "relation": "sunset_beauty_magnified_by",
+    "value": "the thin atmosphere and suspended dust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its beauty magnified by the thin atmosphere and suspended dust"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "mission control",
+    "relation": "reminds_of",
+    "value": "upcoming experiments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The voices of mission control remind them of upcoming experiments"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Mars",
+    "relation": "mission_goal",
+    "value": "a second home for humanity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to make Mars a second home for humanity"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Mars",
+    "relation": "night_is_for",
+    "value": "rest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for those among the red hills and canyons of Mars, the night is for rest"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Mars",
+    "relation": "journey_distance",
+    "value": "several million miles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The exploration and colonization of Mars not only embody a journey of several million miles"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Mars",
+    "relation": "pursuit_pushes",
+    "value": "the boundaries of the possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an eternal strive to push the boundaries of the possible"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Mars",
+    "relation": "footprint_grows_as",
+    "value": "settlements expand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As settlements expand and our footprint on the Martian landscape grows"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Mars",
+    "relation": "sunrise_carries",
+    "value": "the promise of discovery and the essence of hope for a prosperous future for humanity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every sunrise carries with it the promise of discovery and the essence of hope for a prosperous future for humanity"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,949 @@
+{
+ "inventory": [
+  "Metropolis",
+  "Sarah Jennings",
+  "John Alvarez",
+  "Liam Anderson",
+  "Elena Rodriguez",
+  "City's Heart Caf\u00e9",
+  "Maya Patel",
+  "David Hanson",
+  "Annalise Thompson",
+  "Robert Gonzalez",
+  "Chloe Tan",
+  "Metro Services",
+  "urban transit systems",
+  "service interruptions",
+  "October 5, 2023",
+  "aging infrastructure",
+  "emergency response teams",
+  "ambulances and fire engines",
+  "bike-sharing programs",
+  "carpooling",
+  "shuttles",
+  "smart-grid system",
+  "preventive maintenance",
+  "metro stations",
+  "deferred maintenance"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "urban transit systems",
+    "relation": "described_as",
+    "value": "the lifeline of any city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban transit systems are the lifeline of any city"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "urban transit systems",
+    "relation": "ensures",
+    "value": "millions of commuters reach their destinations every day",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that millions of commuters reach their destinations every day"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "service interruptions",
+    "relation": "caused_by",
+    "value": "maintenance issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "disrupted due to maintenance issues, leading to service interruptions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "service interruptions",
+    "relation": "affects",
+    "value": "thousands of citizens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "service interruptions that affect thousands of citizens"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "urban transit systems",
+    "relation": "faced_transit_outages",
+    "value": "several major cities",
+    "time": "Over the past few days",
+    "speaker": null,
+    "verbatim": [
+     "Over the past few days, several major cities have faced transit outages"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "aging infrastructure",
+    "relation": "subject_of_challenges_and_consequences_of_maintaining",
+    "value": "challenges and consequences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotlighting the challenges and consequences of maintaining aging infrastructure"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Metropolis",
+    "relation": "commuters_confronted_with",
+    "value": "unexpected transit halts",
+    "time": "On the crisp morning of October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "thousands of commuters in the bustling city of Metropolis were confronted with unexpected transit halts"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Metropolis",
+    "relation": "commuters_affected",
+    "value": "thousands of commuters",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "thousands of commuters in the bustling city of Metropolis"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "October 5, 2023",
+    "relation": "date_of_transit_halts_in",
+    "value": "Metropolis",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On the crisp morning of October 5, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "metro stations",
+    "relation": "announcements_echoed_through",
+    "value": "the concourses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "announcements echoed through the concourses"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "service interruptions",
+    "relation": "announced_as",
+    "value": "Service is temporarily suspended due to essential maintenance work",
+    "time": null,
+    "speaker": "the intercom",
+    "verbatim": [
+     "Service is temporarily suspended due to essential maintenance work"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "service interruptions",
+    "relation": "caused_by",
+    "value": "essential maintenance work",
+    "time": null,
+    "speaker": "the intercom",
+    "verbatim": [
+     "Service is temporarily suspended due to essential maintenance work"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "service interruptions",
+    "relation": "caused",
+    "value": "many commuters to hastily rethink their travel plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leaving many to hastily rethink their travel plans"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sarah Jennings",
+    "relation": "age",
+    "value": "32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, a 32-year-old project manager"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Jennings",
+    "relation": "occupation",
+    "value": "project manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, a 32-year-old project manager"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Jennings",
+    "relation": "experienced",
+    "value": "stranding and confusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found herself caught in an unfolding drama of stranding and confusion"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Jennings",
+    "relation": "said",
+    "value": "It's perplexing and frustrating",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "\"It's perplexing and frustrating,\" she remarked"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "urban transit systems",
+    "relation": "requires",
+    "value": "regular maintenance to remain operational",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "require regular maintenance to remain operational"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "service interruptions",
+    "relation": "caused_by",
+    "value": "neglected upkeep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the service interruptions were a consequence of neglected upkeep"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "deferred maintenance",
+    "relation": "caused_by",
+    "value": "the cities' financial constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cities' financial constraints had led to postponed renovations"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "aging infrastructure",
+    "relation": "stretched_beyond",
+    "value": "its intended lifespan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in an infrastructure that was stretched well beyond its intended lifespan"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "deferred maintenance",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cities' financial constraints had led to postponed renovations, resulting in an infrastructure that was stretched well beyond its intended lifespan."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "John Alvarez",
+    "relation": "occupation",
+    "value": "a seasoned urban planning expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Alvarez, a seasoned urban planning expert, explained"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "John Alvarez",
+    "relation": "said",
+    "value": "The delays in updating and replacing outdated components have finally caught up with us.",
+    "time": null,
+    "speaker": "John Alvarez",
+    "verbatim": [
+     "The delays in updating and replacing outdated components have finally caught up with us."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "John Alvarez",
+    "relation": "predicted",
+    "value": "these disruptions will become more common and more severe",
+    "time": null,
+    "speaker": "John Alvarez",
+    "verbatim": [
+     "Without substantial investment in the system, these disruptions will become more common and more severe."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "John Alvarez",
+    "relation": "condition_for_predicted_disruptions",
+    "value": "substantial investment in the system",
+    "time": null,
+    "speaker": "John Alvarez",
+    "verbatim": [
+     "Without substantial investment in the system, these disruptions will become more common and more severe."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "service interruptions",
+    "relation": "ripple_effects_felt_across",
+    "value": "the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ripple effects of the outage were felt across the city."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Liam Anderson",
+    "relation": "occupation",
+    "value": "a high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liam Anderson, a high school teacher, missed his morning class"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Liam Anderson",
+    "relation": "missed",
+    "value": "his morning class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Liam Anderson, a high school teacher, missed his morning class"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Elena Rodriguez",
+    "relation": "occupation",
+    "value": "a surgeon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elena Rodriguez, a surgeon, experienced a delay"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Elena Rodriguez",
+    "relation": "experienced",
+    "value": "a delay that nearly resulted in the postponement of a critical operation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experienced a delay that nearly resulted in",
+     "the postponement of a critical operation"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Elena Rodriguez",
+    "relation": "said",
+    "value": "It's more than an inconvenience",
+    "time": null,
+    "speaker": "Elena Rodriguez",
+    "verbatim": [
+     "\"It's more than an inconvenience,\" she stressed."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Elena Rodriguez",
+    "relation": "said",
+    "value": "these outages can put lives at risk when essential personnel can't get to where they need to be",
+    "time": null,
+    "speaker": "Elena Rodriguez",
+    "verbatim": [
+     "It's about how these outages can put lives at risk when essential personnel can't get to where they need to be."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "emergency response teams",
+    "relation": "typically_unhampered_by",
+    "value": "traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emergency response teams, typically unhampered by traffic, faced their challenges."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "emergency response teams",
+    "relation": "faced",
+    "value": "their challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emergency response teams, typically unhampered by traffic, faced their challenges."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "ambulances and fire engines",
+    "relation": "reliant_on",
+    "value": "clear roads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ambulances and fire engines, reliant on clear roads"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "ambulances and fire engines",
+    "relation": "navigated_through",
+    "value": "congested streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found themselves navigating through congested streets"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "ambulances and fire engines",
+    "relation": "caused_by",
+    "value": "more people turned to driving in desperation to reach their workplaces on time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as more people turned to driving in desperation to reach their workplaces on time"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "emergency response teams",
+    "relation": "slowed",
+    "value": "response times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slowing response times and raising safety concerns for the entire community"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "emergency response teams",
+    "relation": "raised",
+    "value": "safety concerns for the entire community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "slowing response times and raising safety concerns for the entire community"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "ambulances and fire engines",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found themselves navigating through congested streets as more people turned to driving in desperation to reach their workplaces on time.",
+     "This created a domino effect, slowing response times"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "urban transit systems",
+    "relation": "shutdown_caused",
+    "value": "another blow to the city's vitality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the economic impact was another blow to the city's vitality"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "service interruptions",
+    "relation": "caused",
+    "value": "small businesses suffered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses suffered as customers and employees were delayed or unable to arrive."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "service interruptions",
+    "relation": "delayed",
+    "value": "customers and employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customers and employees were delayed or unable to arrive"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "service interruptions",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses suffered as customers and employees were delayed or unable to arrive."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Maya Patel",
+    "relation": "role",
+    "value": "CEO of City's Heart Caf\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO of \u2018City's Heart Caf\u00e9,\u2019 Maya Patel"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "City's Heart Caf\u00e9",
+    "relation": "has_ceo",
+    "value": "Maya Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO of \u2018City's Heart Caf\u00e9,\u2019 Maya Patel"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Maya Patel",
+    "relation": "lamented",
+    "value": "We're already grappling with tight margins",
+    "time": null,
+    "speaker": "Maya Patel",
+    "verbatim": [
+     "We're already grappling with tight margins."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Maya Patel",
+    "relation": "said",
+    "value": "Losing a day's worth of business isn't something we can afford.",
+    "time": null,
+    "speaker": "Maya Patel",
+    "verbatim": [
+     "Losing a day's worth of business isn't something we can afford."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "David Hanson",
+    "relation": "role",
+    "value": "Local financial expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local financial expert David Hanson adds"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "David Hanson",
+    "relation": "said",
+    "value": "When public transportation halts, there's a significant decrease in consumer spending, productivity takes a hit, and the overall economic health of the city faces a setback.",
+    "time": null,
+    "speaker": "David Hanson",
+    "verbatim": [
+     "When public transportation halts, there's a significant decrease in consumer spending, productivity takes a hit, and the overall economic health of the city faces a setback."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "David Hanson",
+    "relation": "said",
+    "value": "a significant decrease in consumer spending",
+    "time": null,
+    "speaker": "David Hanson",
+    "verbatim": [
+     "there's a significant decrease in consumer spending"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "October 5, 2023",
+    "relation": "stranded_commuters_sought",
+    "value": "alternative means of transportation",
+    "time": "As morning turned to afternoon on October 5",
+    "speaker": null,
+    "verbatim": [
+     "stranded commuters sought alternative means of transportation"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "bike-sharing programs",
+    "relation": "saw",
+    "value": "a spike in usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bike-sharing programs saw a spike in usage"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "service interruptions",
+    "relation": "caused",
+    "value": "sidewalks swelled with individuals determined to reach their destinations on foot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sidewalks swelled with individuals determined to reach their destinations on foot"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "carpooling",
+    "relation": "became",
+    "value": "a spontaneous act among strangers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carpooling became a spontaneous act among strangers"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "carpooling",
+    "relation": "shared_adversity_fueled",
+    "value": "a spirit of cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their shared adversity fueling a spirit of cooperation"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Metropolis",
+    "relation": "officials_responded",
+    "value": "quick to address the situation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facing public outcry, the city's officials were quick to address the situation."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Annalise Thompson",
+    "relation": "role",
+    "value": "Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Annalise Thompson held a press conference"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Annalise Thompson",
+    "relation": "held",
+    "value": "a press conference outlining plans for immediate and long-term measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Annalise Thompson held a press conference outlining plans for immediate and long-term measures."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "shuttles",
+    "relation": "deployed_to_cover",
+    "value": "the most affected routes",
+    "time": null,
+    "speaker": "Annalise Thompson",
+    "verbatim": [
+     "We are deploying additional shuttles to cover the most affected routes."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Annalise Thompson",
+    "relation": "said",
+    "value": "we are accelerating the procurement process for new equipment",
+    "time": null,
+    "speaker": "Annalise Thompson",
+    "verbatim": [
+     "we are accelerating the procurement process for new equipment to prevent such incidents in the future"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Robert Gonzalez",
+    "relation": "role",
+    "value": "Transport secretary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transport secretary, Robert Gonzalez, also shared plans"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Robert Gonzalez",
+    "relation": "shared_plans_for",
+    "value": "upgraded infrastructure and a renewed focus on preventive maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shared plans for upgraded infrastructure and a renewed focus on preventive maintenance"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "preventive maintenance",
+    "relation": "renewed_focus_announced_by",
+    "value": "Robert Gonzalez",
+    "time": null,
+    "speaker": "Robert Gonzalez",
+    "verbatim": [
+     "a renewed focus on preventive maintenance"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "smart-grid system",
+    "relation": "being_considered_for",
+    "value": "our transit network",
+    "time": null,
+    "speaker": "Robert Gonzalez",
+    "verbatim": [
+     "We're looking at a smart-grid system for our transit network"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "smart-grid system",
+    "relation": "enables",
+    "value": "predict and address issues before they result in service stoppages",
+    "time": null,
+    "speaker": "Robert Gonzalez",
+    "verbatim": [
+     "enabling us to predict and address issues before they result in service stoppages"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "smart-grid system",
+    "relation": "enables",
+    "value_ref": "c67",
+    "time": null,
+    "speaker": "Robert Gonzalez",
+    "verbatim": [
+     "We're looking at a smart-grid system for our transit network, enabling us to predict and address issues before they result in service stoppages."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Chloe Tan",
+    "relation": "occupation",
+    "value": "veteran technician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Tan, a veteran technician with Metro Services, spoke of the pressures they face."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Metro Services",
+    "relation": "employs",
+    "value": "Chloe Tan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Tan, a veteran technician with Metro Services"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Chloe Tan",
+    "relation": "spoke_of",
+    "value": "the pressures they face",
+    "time": null,
+    "speaker": "Chloe Tan",
+    "verbatim": [
+     "spoke of the pressures they face"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Chloe Tan",
+    "relation": "said",
+    "value": "Our team is working around the clock.",
+    "time": null,
+    "speaker": "Chloe Tan",
+    "verbatim": [
+     "Our team is working around the clock."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Chloe Tan",
+    "relation": "said",
+    "value": "These systems are complex, and safety is our top priority.",
+    "time": null,
+    "speaker": "Chloe Tan",
+    "verbatim": [
+     "These systems are complex, and safety is our top priority."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Chloe Tan",
+    "relation": "said",
+    "value": "We appreciate the public's patience as we conduct the necessary repairs.",
+    "time": null,
+    "speaker": "Chloe Tan",
+    "verbatim": [
+     "We appreciate the public's patience as we conduct the necessary repairs."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "service interruptions",
+    "relation": "repair_work_continued_under",
+    "value": "the glow of floodlights",
+    "time": "As night fell",
+    "speaker": null,
+    "verbatim": [
+     "As night fell, teams of workers under the glow of floodlights continued their race against time."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "urban transit systems",
+    "relation": "normal_commute_prospects",
+    "value": "tentative",
+    "time": "the following day",
+    "speaker": null,
+    "verbatim": [
+     "Prospects of a normal commute the following day seemed within reach but remained tentative."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "service interruptions",
+    "relation": "left_commuters_with",
+    "value": "a sense of uncertainty about what the new day would bring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Commuters went to bed with a sense of uncertainty about what the new day would bring."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Metropolis",
+    "relation": "needs",
+    "value": "immediate action to resolve maintenance issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a need for immediate action to resolve maintenance issues is clear"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "urban transit systems",
+    "relation": "reliance_grows_as",
+    "value": "urban populations grow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As urban populations grow, so does the reliance on robust and reliable transit systems."
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "deferred maintenance",
+    "relation": "consequences_reminded_of",
+    "value": "the consequences of deferred maintenance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Today's disruptions serve as a stark reminder of the consequences of deferred maintenance"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "urban transit systems",
+    "relation": "essential_role",
+    "value": "the essential role public transportation systems play in daily life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the essential role public transportation systems play in daily life"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "aging infrastructure",
+    "relation": "urgency_of_modernizing",
+    "value": "could not be more pressing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The urgency for modernizing urban infrastructure could not be more pressing."
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Metropolis",
+    "relation": "resilience_shines_through",
+    "value": "the resilience and adaptability of the city's inhabitants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the resilience and adaptability of the city's inhabitants shine through"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

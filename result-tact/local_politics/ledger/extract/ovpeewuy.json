@@ -1,0 +1,643 @@
+{
+ "inventory": [
+  "Everyburg",
+  "Susan Strongarm",
+  "Carlos Community-Heart",
+  "Percy Pothole",
+  "Tommy Textbook",
+  "Volunteer Army",
+  "Council",
+  "policymakers",
+  "The Great Pothole Crusade",
+  "book drive",
+  "old library",
+  "library renovation crusade",
+  "digital archives",
+  "dog park",
+  "potholes",
+  "currency of community spirit",
+  "biodegradable cups",
+  "policy changes"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Everyburg",
+    "relation": "described_as",
+    "value": "sleepy town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the sleepy town of Everyburg"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Volunteer Army",
+    "relation": "decided_because",
+    "value": "they were tired of waiting for the ponderously slow wheels of policy change to turn",
+    "time": "September 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 2, 2023, these unsung heroes decided they were tired of waiting for the ponderously slow wheels of policy change to turn."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Volunteer Army",
+    "relation": "led_by",
+    "value": "Susan Strongarm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these volunteers, led by the indefatigable Susan Strongarm"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Volunteer Army",
+    "relation": "led_by",
+    "value": "Carlos Community-Heart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by the indefatigable Susan Strongarm and the charismatic Carlos Community-Heart"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Volunteer Army",
+    "relation": "sparked",
+    "value": "a revolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sparked a revolution that would have policymakers scouring the thesaurus"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Everyburg",
+    "relation": "issues_noticed",
+    "value": "crumbling infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They saw issues ranging from crumbling infrastructure to the lack of dog parks"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "dog park",
+    "relation": "lack_of_described_as",
+    "value": "a travesty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the lack of dog parks (a travesty, really, in a town known for its awardwinning poodles)"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Everyburg",
+    "relation": "known_for",
+    "value": "awardwinning poodles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a town known for its awardwinning poodles"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Council",
+    "relation": "meetings_described_as",
+    "value": "arenas of relentless yawning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "council meetings became arenas of relentless yawning"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Volunteer Army",
+    "relation": "decided_to",
+    "value": "roll up their sleeves and get down to business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our valiant volunteers decided to roll up their sleeves and get down to business"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Volunteer Army",
+    "relation": "funding_status",
+    "value": "money was no object",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "under the leadership of Susan and Carlos, money was no object."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Volunteer Army",
+    "relation": "crafted",
+    "value": "a currency of community spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They crafted a currency of community spirit"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "currency of community spirit",
+    "relation": "buying_power",
+    "value": "more buying power than cold hard cash",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that apparently had more buying power than cold hard cash when it comes to getting things done"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Volunteer Army",
+    "relation": "had",
+    "value": "Garden shovels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Garden shovels? Check."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Volunteer Army",
+    "relation": "had",
+    "value": "Wheelbarrows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wheelbarrows? You bet."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Volunteer Army",
+    "relation": "had",
+    "value": "Enough donuts to incentivize a small army",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enough donuts to incentivize a small army? Par for the course in the world of Everyburg volunteers."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "policymakers",
+    "relation": "deliberated_on",
+    "value": "renaming streets after historical figures no one remembered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "elected officials deliberated on the crucial matters like renaming streets after historical figures no one remembered"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "potholes",
+    "relation": "state",
+    "value": "suddenly filled",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Potholes that had been lovingly nicknamed by the locals were suddenly filled."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "old library",
+    "relation": "reinforced_with",
+    "value": "something sturdier than hopes and dreams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was now reinforced with something sturdier than hopes and dreams."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "old library",
+    "relation": "previously_kept_together_by",
+    "value": "the sheer willpower of bookworms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The old library, previously kept together by the sheer willpower of bookworms"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Percy Pothole",
+    "relation": "tackled_on",
+    "value": "November 12, 2023",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, Percy Pothole \u2013 a crater so large that children mistook it for a new playground feature \u2013 was tackled head-on."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Percy Pothole",
+    "relation": "described_as",
+    "value": "a crater so large that children mistook it for a new playground feature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a crater so large that children mistook it for a new playground feature"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Council",
+    "relation": "promised_to_address",
+    "value": "Percy Pothole",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Council had long promised to address it, but action was always \"under advisement.\""
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Volunteer Army",
+    "relation": "fixed",
+    "value": "the entire thing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "volunteers, with Carlos heroically wielding a shovel, fixed the entire thing"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Carlos Community-Heart",
+    "relation": "wielded",
+    "value": "a shovel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos heroically wielding a shovel"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "policymakers",
+    "relation": "sipped",
+    "value": "lukewarm coffee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as policymakers sipped their lukewarm coffee"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "policymakers",
+    "relation": "unaware_that",
+    "value": "their jobs were being done without them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "blissfully unaware that their jobs were being done without them"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Susan Strongarm",
+    "relation": "organized",
+    "value": "book drive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She organized a book drive that turned into a library renovation crusade."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "book drive",
+    "relation": "turned_into",
+    "value": "library renovation crusade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She organized a book drive that turned into a library renovation crusade."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Tommy Textbook",
+    "relation": "described_as",
+    "value": "young",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "even young Tommy Textbook"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Tommy Textbook",
+    "relation": "had_never",
+    "value": "physically opened a book in his life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who had never physically opened a book in his life"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "library renovation crusade",
+    "relation": "activities",
+    "value": "to repair, repaint, and rejuvenate the aging building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "came together to repair, repaint, and rejuvenate the aging building."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "digital archives",
+    "relation": "budget_status",
+    "value": "looking into",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local officials, on the other hand, were still \"looking into\" budget allowances for digital archives."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "dog park",
+    "relation": "creation_awaited_from",
+    "value": "the local government",
+    "time": "By December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By December 15, 2023, having previously waited for the local government to create a dog park"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Volunteer Army",
+    "relation": "took_into_own_hands",
+    "value": "the leash",
+    "time": "By December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the volunteers took the leash into their own hands."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "dog park",
+    "relation": "created_from",
+    "value": "an overgrown, unused lot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They turned an overgrown, unused lot into a paradise for pooches."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "dog park",
+    "relation": "has",
+    "value": "newly installed gates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their barks echoing through the newly installed gates."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Council",
+    "relation": "remarks_about",
+    "value": "fiscal responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biting remarks about \"fiscal responsibility\" and the ever-present \"future considerations.\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Council",
+    "relation": "remarks_about",
+    "value": "future considerations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biting remarks about \"fiscal responsibility\" and the ever-present \"future considerations.\""
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "policymakers",
+    "relation": "embroiled_in",
+    "value": "debates so circular they'd make a merry-go-round dizzy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "policymakers were embroiled in debates so circular they'd make a merry-go-round dizzy"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Volunteer Army",
+    "relation": "changed",
+    "value": "the landscape of Everyburg",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our brave volunteers changed the landscape of Everyburg, one fixed park swing and planted tree at a time."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Volunteer Army",
+    "relation": "fixed",
+    "value": "park swing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our brave volunteers changed the landscape of Everyburg, one fixed park swing and planted tree at a time."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Volunteer Army",
+    "relation": "planted",
+    "value": "tree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our brave volunteers changed the landscape of Everyburg, one fixed park swing and planted tree at a time."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Volunteer Army",
+    "relation": "actions_showed",
+    "value": "undeniable efficacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their actions blazed a trail of undeniable efficacy"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "policy changes",
+    "relation": "should_change_with",
+    "value": "the will of the people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What\u2019s the point of policies if they\u2019re not changing with the will of the people?"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "policy changes",
+    "relation": "pace",
+    "value": "snail-like",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the snail-like pace of policy changes"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "policy changes",
+    "relation": "said",
+    "value": "At least someone\u2019s doing something!",
+    "time": null,
+    "speaker": "every disillusioned voter",
+    "verbatim": [
+     "At least someone\u2019s doing something!"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Volunteer Army",
+    "relation": "composed_of",
+    "value": "heroic everyday citizens fed up with the political quagmire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was the heroic everyday citizens fed up with the political quagmire"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Everyburg",
+    "relation": "townsfolk_reveled_in",
+    "value": "newfound functionality of their living spaces",
+    "time": "as the year rolled to a close",
+    "speaker": null,
+    "verbatim": [
+     "the townsfolk reveled in the newfound functionality of"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Council",
+    "relation": "policy_papers_gathering_dust_in",
+    "value": "the dark corners of the council chambers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "policy papers gathering dust in the dark corners of the council chambers"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "biodegradable cups",
+    "relation": "described_as",
+    "value": "eco-friendly, volunteer-assembled, won't-break-down-for-athousand-years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "eco-friendly, volunteer-assembled, won't-break-down-for-athousand-years biodegradable cups"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Volunteer Army",
+    "relation": "showed",
+    "value": "just how influential a dedicated group could be",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose volunteerism showed just how influential a dedicated group could be"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "policy changes",
+    "relation": "key_is",
+    "value": "less talking and more doing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "perhaps less talking and more doing is the key"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "dog park",
+    "relation": "is",
+    "value": "newly erected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the sunset painted the newly erected dog park in hues of triumph"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Everyburg",
+    "relation": "whispered",
+    "value": "Who needs policy changes when you've got an army of volunteers?",
+    "time": null,
+    "speaker": "Everyburg",
+    "verbatim": [
+     "Everyburg seemed to whisper, \"Who needs policy changes when you've got an army of volunteers?\""
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Volunteer Army",
+    "relation": "in_response_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having previously waited for the local government to create a dog park, the volunteers took the leash into their own hands"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,29 @@
+{
+  "topic": "local_health",
+  "corpus_sha256": "a990b567a22da2455f3ad8caaf8f8f69d4589719ff728d13a2a475c6fc092962",
+  "n_documents": 80,
+  "n_claims": 4564,
+  "n_claims_before_merge": 4564,
+  "n_raw": 4564,
+  "n_rejected": 0,
+  "n_multispan": 30,
+  "n_relational": 154,
+  "rejection_rate": 0.0,
+  "n_contradictions": 28,
+  "inventory_size": 1616,
+  "n_canonical_entities": 1475,
+  "entity_collision_rate": 0.002711864406779661,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 391473,
+    "output_tokens": 1578269,
+    "measured_cost_usd": 0.0
+  }
+}

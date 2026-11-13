@@ -1,0 +1,549 @@
+{
+ "inventory": [
+  "New York City",
+  "CybNet",
+  "September's Silence: The Day the Web Stood Still",
+  "San Francisco",
+  "Denial of Service attack",
+  "GlobalNet",
+  "UniWeb",
+  "Richard Branson",
+  "Century Communications",
+  "October 10, 2023 attack",
+  "Gulf Coast",
+  "hurricane season of 2023",
+  "Laura Pennington",
+  "climate change",
+  "cyber warfare",
+  "Dr. Amanda Zhou",
+  "5G",
+  "Senator John K. Hamilton",
+  "Minneapolis",
+  "Austin",
+  "Emily Torres",
+  "Cybersecurity Infrastructure Security Agency"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "New York City",
+    "relation": "digital_life_halted_on",
+    "value": "came to a staggering halt",
+    "time": "September 3, 2023, at 11:45 AM",
+    "speaker": null,
+    "verbatim": [
+     "On September 3, 2023, at 11:45 AM, the bustling digital life of New York City came to a staggering halt."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "New York City",
+    "relation": "outage_duration",
+    "value": "nearly four hours",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "For nearly four hours, financial institutions, media hubs, and millions of individuals found themselves cast adrift in an ocean devoid of internet connectivity."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "New York City",
+    "relation": "affected_parties",
+    "value": "financial institutions, media hubs, and millions of individuals",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "financial institutions, media hubs, and millions of individuals found themselves cast adrift"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "CybNet",
+    "relation": "identified_cause_of_outage",
+    "value": "a damaged undersea cable",
+    "time": null,
+    "speaker": "CybNet",
+    "verbatim": [
+     "The culprit, as revealed by service provider CybNet, was a damaged undersea cable"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "CybNet",
+    "relation": "cable_damage_caused_by",
+    "value": "unprecedented undercurrents",
+    "time": null,
+    "speaker": "CybNet",
+    "verbatim": [
+     "a damaged undersea cable due to unprecedented undercurrents"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "CybNet",
+    "relation": "undercurrents_consequence_of",
+    "value": "shifting climatic patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unprecedented undercurrents, a consequence of shifting climatic patterns"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "New York City",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The culprit, as revealed by service provider CybNet, was a damaged undersea cable"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "San Francisco",
+    "relation": "suffered",
+    "value": "a massive Denial of Service attack",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "San Francisco suffered a massive Denial of Service attack on September 20"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "San Francisco",
+    "relation": "attack_occurred_relative_to_nyc_outage",
+    "value": "two weeks later",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "On the West Coast, just two weeks later, San Francisco suffered"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Denial of Service attack",
+    "relation": "overwhelmed",
+    "value": "the city's main internet infrastructure providers",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "overwhelmed the city's main internet infrastructure providers"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Denial of Service attack",
+    "relation": "orchestrated_by",
+    "value": "unknown entities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This brazen cyber assault was orchestrated by unknown entities"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Denial of Service attack",
+    "relation": "effects",
+    "value": "businesses inoperative and households disconnected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "left businesses inoperative and households disconnected"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "GlobalNet",
+    "relation": "faced_criticism_for",
+    "value": "neglecting infrastructure investment",
+    "time": null,
+    "speaker": "many",
+    "verbatim": [
+     "ISP giants like GlobalNet and UniWeb have faced criticism, with many accusing them of neglecting infrastructure investment."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "UniWeb",
+    "relation": "faced_criticism_for",
+    "value": "neglecting infrastructure investment",
+    "time": null,
+    "speaker": "many",
+    "verbatim": [
+     "ISP giants like GlobalNet and UniWeb have faced criticism, with many accusing them of neglecting infrastructure investment."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "GlobalNet",
+    "relation": "network_condition",
+    "value": "aging, with some components well past their envisaged life expectancy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their sprawling networks of cables, switches, and data centers are aging, with some components well past their envisaged life expectancy."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "UniWeb",
+    "relation": "network_condition",
+    "value": "aging, with some components well past their envisaged life expectancy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their sprawling networks of cables, switches, and data centers are aging, with some components well past their envisaged life expectancy."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Richard Branson",
+    "relation": "occupation",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Richard Branson, a cybersecurity analyst, claims that"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Richard Branson",
+    "relation": "claims",
+    "value": "companies just aren't willing to put up the capital for the large-scale overhauls necessary for a robust network",
+    "time": null,
+    "speaker": "Richard Branson",
+    "verbatim": [
+     "companies just aren't willing to put up the capital for the large-scale overhauls necessary for a robust network"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "cyber warfare",
+    "relation": "described_as",
+    "value": "a menace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the menace that is cyber warfare"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "cyber warfare",
+    "relation": "exacerbated_by",
+    "value": "infrastructure that is often easier to breach due to outdated security protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This threat is exacerbated by infrastructure that is often easier to breach due to outdated security protocols."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "October 10, 2023 attack",
+    "relation": "targeted",
+    "value": "Century Communications",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the October 10, 2023 attack on Century Communications"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "October 10, 2023 attack",
+    "relation": "entry_point",
+    "value": "an outdated firewall",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an outdated firewall was the entry point"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "October 10, 2023 attack",
+    "relation": "used",
+    "value": "a malware strain",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a malware strain that disrupted the service in nine states"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "October 10, 2023 attack",
+    "relation": "disrupted_service_in",
+    "value": "nine states",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disrupted the service in nine states"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Century Communications",
+    "relation": "service_disrupted_in",
+    "value": "nine states",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disrupted the service in nine states"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "October 10, 2023 attack",
+    "relation": "enabled_by",
+    "value_ref": "c22",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "where an outdated firewall was the entry point for a malware strain"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "hurricane season of 2023",
+    "relation": "elucidated",
+    "value": "natural disasters pose a significant risk to the stability of our net",
+    "time": "hurricane season of 2023",
+    "speaker": null,
+    "verbatim": [
+     "The hurricane season of 2023 elucidated this truth",
+     "Natural disasters, too, pose a significant risk to the stability of our net."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Gulf Coast",
+    "relation": "service_providers_knocked_offline",
+    "value": "a number of service providers",
+    "time": "hurricane season of 2023",
+    "speaker": null,
+    "verbatim": [
+     "a number of service providers on the Gulf Coast were knocked offline"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Gulf Coast",
+    "relation": "knocked_offline_due_to",
+    "value": "severe storm damage",
+    "time": "hurricane season of 2023",
+    "speaker": null,
+    "verbatim": [
+     "knocked offline due to severe storm damage"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Laura Pennington",
+    "relation": "occupation",
+    "value": "Environmentalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmentalist Laura Pennington points out that"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Laura Pennington",
+    "relation": "points_out",
+    "value": "climate change is creating more extreme weather events, which our current infrastructure simply isn't designed to withstand",
+    "time": null,
+    "speaker": "Laura Pennington",
+    "verbatim": [
+     "climate change is creating more extreme weather events, which our current infrastructure simply isn't designed to withstand"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "climate change",
+    "relation": "creating",
+    "value": "more extreme weather events",
+    "time": null,
+    "speaker": "Laura Pennington",
+    "verbatim": [
+     "climate change is creating more extreme weather events"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Amanda Zhou",
+    "relation": "occupation",
+    "value": "Telecommunication expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Telecommunication expert Dr. Amanda Zhou asserts"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Amanda Zhou",
+    "relation": "asserts",
+    "value": "The sheer volume of data coursing through our networks is staggering, and with 5G rolling out and more devices coming online, the pressure on these systems will only increase",
+    "time": null,
+    "speaker": "Dr. Amanda Zhou",
+    "verbatim": [
+     "The sheer volume of data coursing through our networks is staggering, and with 5G rolling out and more devices coming online, the pressure on these systems will only increase."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "5G",
+    "relation": "rolling_out",
+    "value": "rolling out",
+    "time": null,
+    "speaker": "Dr. Amanda Zhou",
+    "verbatim": [
+     "with 5G rolling out"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Senator John K. Hamilton",
+    "relation": "argues_for",
+    "value": "more stringent regulatory measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Government officials, such as Senator John K. Hamilton, argue for more stringent regulatory measures"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Senator John K. Hamilton",
+    "relation": "proposes",
+    "value": "a system where companies are held accountable for service stability",
+    "time": null,
+    "speaker": "Senator John K. Hamilton",
+    "verbatim": [
+     "a system where companies are held accountable for service stability"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Minneapolis",
+    "relation": "local_initiatives_prioritized",
+    "value": "robust infrastructure investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In cities like Minneapolis and Austin, we've seen local initiatives that prioritized robust infrastructure investment."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Minneapolis",
+    "relation": "disruptions_are",
+    "value": "less frequent and swiftly addressed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here, disruptions are less frequent and swiftly addressed"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Austin",
+    "relation": "local_initiatives_prioritized",
+    "value": "robust infrastructure investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In cities like Minneapolis and Austin, we've seen local initiatives that prioritized robust infrastructure investment."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Austin",
+    "relation": "disruptions_are",
+    "value": "less frequent and swiftly addressed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here, disruptions are less frequent and swiftly addressed"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Minneapolis",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local initiatives that prioritized robust infrastructure investment. Here, disruptions are less frequent and swiftly addressed"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emily Torres",
+    "relation": "position",
+    "value": "Minneapolis Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Minneapolis Mayor Emily Torres"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emily Torres",
+    "relation": "cited",
+    "value": "the city's partnership with local ISPs as a key to their success",
+    "time": null,
+    "speaker": "Emily Torres",
+    "verbatim": [
+     "Minneapolis Mayor Emily Torres cited the city's partnership with local ISPs as a key to their success"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Emily Torres",
+    "relation": "revealed",
+    "value": "economic incentives and public-private partnerships can be powerful tools",
+    "time": null,
+    "speaker": "Emily Torres",
+    "verbatim": [
+     "economic incentives and public-private partnerships can be powerful tools"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Minneapolis",
+    "relation": "key_to_success",
+    "value": "partnership with local ISPs",
+    "time": null,
+    "speaker": "Emily Torres",
+    "verbatim": [
+     "the city's partnership with local ISPs as a key to their success"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Cybersecurity Infrastructure Security Agency",
+    "relation": "expanding_focus_to",
+    "value": "defensive strategies against cyber threats and promoting infrastructure resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expanding its focus to include not only defensive strategies against cyber threats but also promoting infrastructure resilience"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

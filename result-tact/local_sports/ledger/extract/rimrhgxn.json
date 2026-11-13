@@ -1,0 +1,685 @@
+{
+ "inventory": [
+  "Central Park",
+  "Outdoor Yoga and Fitness Classes",
+  "Kaitlyn Turner",
+  "Marcus Johnson",
+  "Sandra Lee",
+  "James Peterson",
+  "Dr. Amy Grantham",
+  "Vinyasa flows",
+  "restorative poses",
+  "High-Intensity Interval Training (HIIT)",
+  "Kinesiology",
+  "Vitamin D",
+  "cortisol",
+  "green spaces",
+  "mindfulness",
+  "breath control"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Central Park",
+    "relation": "becomes",
+    "value": "a mosaic of vibrant colors",
+    "time": "autumn",
+    "speaker": null,
+    "verbatim": [
+     "As the golden hues of autumn sweep across the city, Central Park becomes a mosaic of vibrant colors"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "began_on",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Beginning on September 5, 2023, locals have embraced a healthier lifestyle by participating in the latest initiative: outdoor yoga and fitness classes."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Central Park",
+    "relation": "provides_sanctuary_from",
+    "value": "the bustling city life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The crisp air and peaceful environment of the park provide a sanctuary from the bustling city life."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Kaitlyn Turner",
+    "relation": "role",
+    "value": "yoga instructor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yoga instructor Kaitlyn Turner and fitness coach Marcus Johnson lead classes"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Marcus Johnson",
+    "relation": "role",
+    "value": "fitness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yoga instructor Kaitlyn Turner and fitness coach Marcus Johnson lead classes"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Kaitlyn Turner",
+    "relation": "credential",
+    "value": "certified yoga practitioner with over a decade of experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Turner, a certified yoga practitioner with over a decade of experience"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Kaitlyn Turner",
+    "relation": "underscores",
+    "value": "the physiological benefits of practicing yoga outdoors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscores the physiological benefits of practicing yoga outdoors"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Kaitlyn Turner",
+    "relation": "said",
+    "value": "Your body starts to marry with the rhythm of nature",
+    "time": null,
+    "speaker": "Kaitlyn Turner",
+    "verbatim": [
+     "\"Your body starts to marry with the rhythm of nature,\" she explains"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Kaitlyn Turner",
+    "relation": "said",
+    "value": "there's this profound sense of harmony that permeates your practice",
+    "time": null,
+    "speaker": "Kaitlyn Turner",
+    "verbatim": [
+     "\"and there's this profound sense of harmony that permeates your practice.\""
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Marcus Johnson",
+    "relation": "holds_degree",
+    "value": "Master's degree in Kinesiology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnson, with his Master's degree in Kinesiology, echoes this sentiment"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Kinesiology",
+    "relation": "degree_held_by",
+    "value": "Marcus Johnson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnson, with his Master's degree in Kinesiology, echoes this sentiment"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Marcus Johnson",
+    "relation": "emphasizes",
+    "value": "natural resistance and varied terrain as beneficial factors in outdoor fitness workouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizing the natural resistance and varied terrain as beneficial factors in outdoor fitness workouts."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "scheduled_from",
+    "value": "8 a.m. to 10 a.m.",
+    "time": "every Tuesday and Thursday",
+    "speaker": null,
+    "verbatim": [
+     "Classes are scheduled every Tuesday and Thursday from 8 a.m. to 10 a.m."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "scheduled_from",
+    "value": "7 a.m. to 9 a.m.",
+    "time": "Saturdays",
+    "speaker": null,
+    "verbatim": [
+     "and Saturdays from 7 a.m. to 9 a.m."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "curriculum_alternates_between",
+    "value": "yoga's tranquility and fitness classes' dynamic intensity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The curriculum alternates between yoga's tranquility and fitness classes' dynamic intensity, catering to a wide range of preferences."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "caters_to",
+    "value": "a wide range of preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catering to a wide range of preferences."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Kaitlyn Turner",
+    "relation": "leads_participants_through",
+    "value": "Vinyasa flows and restorative poses",
+    "time": "yoga days",
+    "speaker": null,
+    "verbatim": [
+     "On yoga days, Turner leads participants on a journey through Vinyasa flows and restorative poses."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Vinyasa flows",
+    "relation": "featured_on",
+    "value": "yoga days",
+    "time": "yoga days",
+    "speaker": null,
+    "verbatim": [
+     "On yoga days, Turner leads participants on a journey through Vinyasa flows and restorative poses."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "restorative poses",
+    "relation": "featured_on",
+    "value": "yoga days",
+    "time": "yoga days",
+    "speaker": null,
+    "verbatim": [
+     "On yoga days, Turner leads participants on a journey through Vinyasa flows and restorative poses."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "focuses_on",
+    "value": "breath control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The classes are not just about flexibility and strength but also focus on breath control"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "breath control",
+    "relation": "enhanced_by",
+    "value": "the fresh park air",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a pivotal element that is enhanced by the fresh park air."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Kaitlyn Turner",
+    "relation": "elaborates_on",
+    "value": "how natural settings can amplify the benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Turner elaborates how natural settings can amplify the benefits: \"Vitamin D from the morning sunlight"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Vitamin D",
+    "relation": "strengthens",
+    "value": "bones",
+    "time": null,
+    "speaker": "Kaitlyn Turner",
+    "verbatim": [
+     "\"Vitamin D from the morning sunlight, for instance, not just strengthens your bones but also uplifts your spirit.\""
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Vitamin D",
+    "relation": "uplifts",
+    "value": "spirit",
+    "time": null,
+    "speaker": "Kaitlyn Turner",
+    "verbatim": [
+     "\"Vitamin D from the morning sunlight, for instance, not just strengthens your bones but also uplifts your spirit.\""
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Marcus Johnson",
+    "relation": "transforms_landscape_into",
+    "value": "a natural gym",
+    "time": "fitness days",
+    "speaker": null,
+    "verbatim": [
+     "on fitness days, Johnson transforms the landscape into a natural gym"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Marcus Johnson",
+    "relation": "uses_park_benches_for",
+    "value": "step-ups",
+    "time": "fitness days",
+    "speaker": null,
+    "verbatim": [
+     "park benches become equipment for step-ups"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "High-Intensity Interval Training (HIIT)",
+    "relation": "held_in",
+    "value": "the green fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the green fields serve as the perfect spot for a High-Intensity Interval Training (HIIT) session."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Marcus Johnson",
+    "relation": "designs",
+    "value": "each class to leverage the park's features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He meticulously designs each class to leverage the park's features"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Marcus Johnson",
+    "relation": "said",
+    "value": "Rather than the echo of a gymnasium, you have the symphony of the outdoors, boosting your endorphin levels as you push through your limits",
+    "time": null,
+    "speaker": "Marcus Johnson",
+    "verbatim": [
+     "\"Rather than the echo of a gymnasium, you have the symphony of the outdoors, boosting your endorphin levels as you push through your limits,\" states Johnson."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "attracts",
+    "value": "participants ranging from college students to retirees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants, ranging from college students to retirees, have found a sense of community in these classes."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sandra Lee",
+    "relation": "age",
+    "value": "35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Lee, a 35-year-old graphic designer, shares her enthusiasm"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sandra Lee",
+    "relation": "occupation",
+    "value": "graphic designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sandra Lee, a 35-year-old graphic designer, shares her enthusiasm"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sandra Lee",
+    "relation": "said",
+    "value": "It's transformed my mornings! I feel energized and ready to take on the day after each session.",
+    "time": null,
+    "speaker": "Sandra Lee",
+    "verbatim": [
+     "\"It\u2019s transformed my mornings! I feel energized and ready to take on the day after each session.\""
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "James Peterson",
+    "relation": "role",
+    "value": "regular attendee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular attendee James Peterson, aged 52, feels that the outdoor exercise has positively affected his lifestyle."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "James Peterson",
+    "relation": "age",
+    "value": "52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular attendee James Peterson, aged 52, feels that the outdoor exercise has positively affected his lifestyle."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "James Peterson",
+    "relation": "said",
+    "value": "My blood pressure has improved, and I find that I'm more alert throughout the day",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "\"My blood pressure has improved, and I find that I\u2019m more alert throughout the day,\" he notes"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "James Peterson",
+    "relation": "outdoor_exercise_affected",
+    "value": "his lifestyle positively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "feels that the outdoor exercise has positively affected his lifestyle."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "James Peterson",
+    "relation": "attributes_improved_health_markers_to",
+    "value": "the classes under the sky",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attributing his improved health markers to the classes under the sky."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Amy Grantham",
+    "relation": "published",
+    "value": "several studies on the subject",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scientists like Dr. Amy Grantham, who has published several studies on the subject"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Amy Grantham",
+    "relation": "points_out",
+    "value": "green spaces can lower stress hormones like cortisol",
+    "time": null,
+    "speaker": "Dr. Amy Grantham",
+    "verbatim": [
+     "point out that green spaces can lower stress hormones like cortisol"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "green spaces",
+    "relation": "can_lower",
+    "value": "stress hormones like cortisol",
+    "time": null,
+    "speaker": "Dr. Amy Grantham",
+    "verbatim": [
+     "green spaces can lower stress hormones like cortisol"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "cortisol",
+    "relation": "is_a",
+    "value": "stress hormone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lower stress hormones like cortisol"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "green spaces",
+    "relation": "provides",
+    "value": "a more conducive setting for physical exertion",
+    "time": null,
+    "speaker": "Dr. Amy Grantham",
+    "verbatim": [
+     "providing a more conducive setting for physical exertion."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "green spaces",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": "Dr. Amy Grantham",
+    "verbatim": [
+     "green spaces can lower stress hormones like cortisol, providing a more conducive setting for physical exertion."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "embodies",
+    "value": "the philosophy of merging the physiological and ecological seamlessly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This park program embodies this philosophy, merging the physiological and ecological seamlessly."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "mindfulness",
+    "relation": "encouraged_by",
+    "value": "The park's setting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The park\u2019s setting encourages mindfulness and a connection with the surrounding environment"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "mindfulness",
+    "relation": "can_lead_to",
+    "value": "a deeper understanding and appreciation of one's physical health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can lead to a deeper understanding and appreciation of one's physical health."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Kaitlyn Turner",
+    "relation": "reports_observing",
+    "value": "participants having increased levels of patience and consistency in their practice",
+    "time": null,
+    "speaker": "Turner and Johnson",
+    "verbatim": [
+     "Turner and Johnson report observing participants having increased levels of patience and consistency in their practice."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Marcus Johnson",
+    "relation": "reports_observing",
+    "value": "participants having increased levels of patience and consistency in their practice",
+    "time": null,
+    "speaker": "Turner and Johnson",
+    "verbatim": [
+     "Turner and Johnson report observing participants having increased levels of patience and consistency in their practice."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "modified_to_suit",
+    "value": "the climate",
+    "time": "late November",
+    "speaker": null,
+    "verbatim": [
+     "the instructors modify sessions to suit the climate."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Central Park",
+    "relation": "transitions_from",
+    "value": "the warm tones of early fall to the chill of late November",
+    "time": "late November",
+    "speaker": null,
+    "verbatim": [
+     "As the park transitions from the warm tones of early fall to the chill of late November"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Central Park",
+    "relation": "prepares_for",
+    "value": "the oncoming winter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the park prepares itself for the oncoming winter"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "uses",
+    "value": "warming sequences to maintain body temperature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From warming sequences to maintain body temperature to using the landscape\u2019s natural shelter"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "uses",
+    "value": "the landscape's natural shelter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From warming sequences to maintain body temperature to using the landscape\u2019s natural shelter"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "simulates",
+    "value": "real-world activities more accurately than an indoor gym could",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simulating real-world activities more accurately than an indoor gym could."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Kaitlyn Turner",
+    "relation": "created",
+    "value": "more than just a fitness class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Turner and Johnson have created more than just a fitness class; it's a symphony"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Marcus Johnson",
+    "relation": "created",
+    "value": "more than just a fitness class",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Turner and Johnson have created more than just a fitness class; it's a symphony"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "is_testament_to",
+    "value": "the physiological benefits of exercising in natural settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their program is a testament to the physiological benefits of exercising in natural settings"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "offers",
+    "value": "a moment of reprieve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Outdoor Yoga and Fitness Classes offer a moment of reprieve"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Outdoor Yoga and Fitness Classes",
+    "relation": "offers_chance_to",
+    "value": "maintain one's fitness journey through the seasons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a chance to maintain one\u2019s fitness journey through the seasons."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

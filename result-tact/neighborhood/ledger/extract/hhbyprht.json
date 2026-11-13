@@ -1,0 +1,762 @@
+{
+ "inventory": [
+  "Sarah Jennings",
+  "Michael Chen",
+  "Dr. Emily Larson",
+  "James Peterson",
+  "Patrick O'Malley",
+  "Ayesha Patel",
+  "Jacob Kim",
+  "University of Summerset",
+  "'Second Career' program",
+  "Coursera",
+  "Udemy",
+  "Google",
+  "Google's 'Career Guru' program",
+  "lifelong career",
+  "career switching"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "lifelong career",
+    "relation": "described_as",
+    "value": "once the norm across numerous industries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "once the norm across numerous industries"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "lifelong career",
+    "relation": "status",
+    "value": "seems to be slowly dissolving into the annals of history",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seems to be slowly dissolving into the annals of history"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "lifelong career",
+    "relation": "replaced_by",
+    "value": "a new era characterized by reinvention and the rise of career switching",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In its place is a new era, one characterized by reinvention and the rise of career switching."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "career switching",
+    "relation": "dated_as_of",
+    "value": "September 10th, 2023",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s September 10th, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "career switching",
+    "relation": "number_of_professionals",
+    "value": "an increasing number of professionals are taking the bold step of starting over in entirely new fields",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an increasing number of professionals are taking the bold step of starting over in entirely new fields"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Jennings",
+    "relation": "age",
+    "value": "38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "38-year-old Sarah Jennings"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Jennings",
+    "relation": "former_role",
+    "value": "marketing director at a prominent beverage company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former marketing director at a prominent beverage company"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Jennings",
+    "relation": "career_switch_decision",
+    "value": "leave behind her two-decade-long career to start afresh as a nurse",
+    "time": "last November",
+    "speaker": null,
+    "verbatim": [
+     "who last November decided to leave behind her two-decade-long career to start afresh as a nurse"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Jennings",
+    "relation": "new_role",
+    "value": "nurse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to start afresh as a nurse"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Jennings",
+    "relation": "motivation",
+    "value": "a calling to be directly involved in helping people and making a tangible difference",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "There was always this calling that I couldn\u2019t ignore. I wanted to be directly involved in helping people and making a tangible difference"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Michael Chen",
+    "relation": "age",
+    "value": "45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Chen, 45, who traded his chef\u2019s hat for software coding boot camps"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Michael Chen",
+    "relation": "former_role",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traded his chef\u2019s hat for software coding boot camps"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Michael Chen",
+    "relation": "switched_to",
+    "value": "software coding boot camps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traded his chef\u2019s hat for software coding boot camps"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Michael Chen",
+    "relation": "motivation",
+    "value": "a better work-life balance and a new mental challenge",
+    "time": null,
+    "speaker": "Michael Chen",
+    "verbatim": [
+     "after years of late nights, I yearned for a better work-life balance and a new mental challenge"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Emily Larson",
+    "relation": "profession",
+    "value": "psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychologist Dr. Emily Larson, who specializes in workplace behavior"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Emily Larson",
+    "relation": "specialty",
+    "value": "workplace behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Psychologist Dr. Emily Larson, who specializes in workplace behavior"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Emily Larson",
+    "relation": "observation",
+    "value": "many clients describe a sense of feeling trapped or stagnant in their first careers",
+    "time": null,
+    "speaker": "Dr. Emily Larson",
+    "verbatim": [
+     "Many of my clients describe a sense of feeling trapped or stagnant in their first careers."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Emily Larson",
+    "relation": "claim",
+    "value": "the decision to pivot is as much about personal growth as it is about professional development",
+    "time": null,
+    "speaker": "Dr. Emily Larson",
+    "verbatim": [
+     "The decision to pivot is as much about personal growth as it is about professional development."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "career switching",
+    "relation": "psychology_role",
+    "value": "psychology plays a pivotal role",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The shift isn't purely emotional; psychology plays a pivotal role."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "career switching",
+    "relation": "sought_fields",
+    "value": "fields that promise greater fulfillment, autonomy, or alignment with personal values and life stages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Career-switchers often seek out fields that promise greater fulfillment, autonomy, or alignment with personal values and life stages."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "career switching",
+    "relation": "significant_driver",
+    "value": "the economic landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the economic landscape is a significant driver"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "career switching",
+    "relation": "volatility_of_sectors",
+    "value": "the volatility of certain sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The volatility of certain sectors, spurred on by technological advancements and globalization, has uprooted traditional career pathways."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "career switching",
+    "relation": "volatility_driven_by",
+    "value": "technological advancements and globalization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spurred on by technological advancements and globalization"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "career switching",
+    "relation": "uprooted",
+    "value": "traditional career pathways",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has uprooted traditional career pathways."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "career switching",
+    "relation": "job_stability",
+    "value": "isn't the cornerstone it once was",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result, job stability isn't the cornerstone it once was."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "career switching",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has uprooted traditional career pathways.",
+     "As a result, job stability isn't the cornerstone it once was."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "James Peterson",
+    "relation": "profession",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As noted by economist James Peterson"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "James Peterson",
+    "relation": "observation",
+    "value": "professions that once seemed insulated from change now at the mercy of innovation",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "We're seeing professions that once seemed insulated from change now at the mercy of innovation."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "James Peterson",
+    "relation": "claim",
+    "value": "it's a wake-up call for many to diversify their skillset",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "It's a wake-up call for many to diversify their skillset."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "career switching",
+    "relation": "educational_offerings",
+    "value": "greatly expanded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational institutions and online platforms have greatly expanded their offerings"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "University of Summerset",
+    "relation": "introduced",
+    "value": "'Second Career' program",
+    "time": "January 15th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the University of Summerset introduced a 'Second Career' program on January 15th, 2024"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "'Second Career' program",
+    "relation": "target_audience",
+    "value": "mid-career adults looking to retrain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed specifically at mid-career adults looking to retrain"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Coursera",
+    "relation": "offers_courses",
+    "value": "courses that enable transitions with relative ease and at the learner's own pace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "websites like Coursera and Udemy are replete with courses that enable transitions with relative ease and at the learner's own pace"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Udemy",
+    "relation": "offers_courses",
+    "value": "courses that enable transitions with relative ease and at the learner's own pace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "websites like Coursera and Udemy are replete with courses that enable transitions with relative ease and at the learner's own pace"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "career switching",
+    "relation": "corporate_support",
+    "value": "internal career mobility and support for employees pursuing new career paths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Forward-thinking companies now provide internal career mobility and support for employees pursuing new career paths."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Google",
+    "relation": "has_program",
+    "value": "'Career Guru' program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Google's 'Career Guru' program"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Google's 'Career Guru' program",
+    "relation": "launched_on",
+    "value": "October 1st, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched on October 1st, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Google's 'Career Guru' program",
+    "relation": "matches",
+    "value": "employees with mentors in different departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "matches employees with mentors in different departments"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Google's 'Career Guru' program",
+    "relation": "explores_career_moves",
+    "value": "potential career moves internally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to explore potential career moves internally"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Google's 'Career Guru' program",
+    "relation": "in_order_to",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "matches employees with mentors in different departments to explore potential career moves internally"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "career switching",
+    "relation": "obstacle",
+    "value": "a steep learning curve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There's often a steep learning curve, and the initial phase can be laden with financial strain and self-doubt."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "career switching",
+    "relation": "obstacle",
+    "value": "the initial phase can be laden with financial strain and self-doubt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the initial phase can be laden with financial strain and self-doubt."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "career switching",
+    "relation": "emotional_toll",
+    "value": "cannot be underestimated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emotional toll cannot be underestimated either"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Patrick O'Malley",
+    "relation": "age",
+    "value": "52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "52-year-old Patrick O'Malley"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Patrick O'Malley",
+    "relation": "former_role",
+    "value": "financial analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former financial analyst and now a high school teacher"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Patrick O'Malley",
+    "relation": "current_role",
+    "value": "high school teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former financial analyst and now a high school teacher"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Patrick O'Malley",
+    "relation": "quote",
+    "value": "You go from feeling like an expert to a novice overnight.",
+    "time": null,
+    "speaker": "Patrick O'Malley",
+    "verbatim": [
+     "You go from feeling like an expert to a novice overnight."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Patrick O'Malley",
+    "relation": "quote",
+    "value": "that first time a student's eyes light up with understanding\u2014it's incomparable",
+    "time": null,
+    "speaker": "Patrick O'Malley",
+    "verbatim": [
+     "But that first time a student's eyes light up with understanding\u2014it's incomparable."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "career switching",
+    "relation": "network_importance",
+    "value": "a strong support network is crucial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A strong support network is crucial."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Ayesha Patel",
+    "relation": "age",
+    "value": "29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "29-year-old Ayesha Patel"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Ayesha Patel",
+    "relation": "career_move",
+    "value": "from retail to cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who went from retail to cybersecurity"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Ayesha Patel",
+    "relation": "networking",
+    "value": "reached out to women in the field through LinkedIn",
+    "time": null,
+    "speaker": "Ayesha Patel",
+    "verbatim": [
+     "I reached out to women in the field through LinkedIn."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Ayesha Patel",
+    "relation": "mentor_help",
+    "value": "They guided me, showed me it was possible, and told me what I needed to get there",
+    "time": null,
+    "speaker": "Ayesha Patel",
+    "verbatim": [
+     "They guided me, showed me it was possible, and told me what I needed to get there"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jacob Kim",
+    "relation": "age",
+    "value": "42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "42-year-old Jacob Kim"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jacob Kim",
+    "relation": "former_role",
+    "value": "lawyer",
+    "time": null,
+    "speaker": "Jacob Kim",
+    "verbatim": [
+     "I spent years building my reputation as a lawyer."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jacob Kim",
+    "relation": "new_role",
+    "value": "graphic designer",
+    "time": null,
+    "speaker": "Jacob Kim",
+    "verbatim": [
+     "I'm not just learning how to be a graphic designer."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Jacob Kim",
+    "relation": "identity",
+    "value": "learning who I am in this new space",
+    "time": null,
+    "speaker": "Jacob Kim",
+    "verbatim": [
+     "I'm learning who I am in this new space"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "career switching",
+    "relation": "reshaping_society",
+    "value": "society's outlook on career paths",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's reshaping society's outlook on career paths."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "career switching",
+    "relation": "moving_away_from",
+    "value": "the idea of a linear career trajectory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We're moving away from the idea of a linear career trajectory"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "career switching",
+    "relation": "policy_need",
+    "value": "policies we need to support lifelong learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the policies we need to support lifelong learning"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "career switching",
+    "relation": "trend",
+    "value": "the stories of career renaissance proliferate",
+    "time": "towards 2024",
+    "speaker": null,
+    "verbatim": [
+     "As the clock ticks towards 2024, the stories of career renaissance proliferate."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Sarah Jennings",
+    "relation": "current_field",
+    "value": "healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, no longer in marketing but on the frontlines of healthcare"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Michael Chen",
+    "relation": "current_role",
+    "value": "techie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Chen, once chef, now techie"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "career switching",
+    "relation": "fundamental_shift",
+    "value": "a fundamental shift in the workforce's psyche",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "countless others represent not only a trend but a fundamental shift in the workforce's psyche"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "career switching",
+    "relation": "motivations",
+    "value": "passion, necessity, or a blend of both",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether driven by passion, necessity, or a blend of both"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "career switching",
+    "relation": "redefining",
+    "value": "the meaning of professional success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "career switchers are redefining the meaning of professional success"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "career switching",
+    "relation": "challenge_status_quo",
+    "value": "the status quo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through their journeys, they challenge the status quo"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,421 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "Canvas of Hope",
+  "John Smith",
+  "Artists Unite",
+  "Emily Johnson",
+  "Alex Martinez",
+  "mural project",
+  "Artful Mind workshops",
+  "Peter Thomson",
+  "Sarah Lee",
+  "Mindful Creations",
+  "Sketch Your Stress Away",
+  "David Gonzalez",
+  "Creative Minds, Nimble Hands",
+  "All Ages Art Gala",
+  "community art therapy programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jane Doe",
+    "relation": "role",
+    "value": "art therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, an art therapist who initiated an outreach program on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jane Doe",
+    "relation": "initiated",
+    "value": "an outreach program",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "an art therapist who initiated an outreach program on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jane Doe",
+    "relation": "said",
+    "value": "Art provides a unique language for individuals to communicate fears, anxieties, and desires without the pressure of finding the 'right words.'",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "Art provides a unique language for individuals to communicate fears, anxieties, and desires without the pressure of finding the 'right words.'"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Canvas of Hope",
+    "relation": "launch_date",
+    "value": "November 1, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs like 'Canvas of Hope', launched on November 1, 2023, by John Smith"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Canvas of Hope",
+    "relation": "launched_by",
+    "value": "John Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs like 'Canvas of Hope', launched on November 1, 2023, by John Smith"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Canvas of Hope",
+    "relation": "shown_to_aid",
+    "value": "the recovery process for individuals dealing with mental health challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have shown that involvement in artistic endeavors can significantly aid in the recovery process for individuals dealing with mental health challenges"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "John Smith",
+    "relation": "said",
+    "value": "Creating art can be a stabilizing force for many of our participants, especially those wrestling with depression or PTSD,",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "Creating art can be a stabilizing force for many of our participants, especially those wrestling with depression or PTSD,"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Artists Unite",
+    "relation": "described_as",
+    "value": "a collaborative community initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Artists Unite', a collaborative community initiative, held an exhibition"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Artists Unite",
+    "relation": "held_exhibition",
+    "value": "an exhibition showcasing artworks created by participants of its therapy programs",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, 'Artists Unite', a collaborative community initiative, held an exhibition showcasing artworks created by participants of its therapy programs."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Artists Unite",
+    "relation": "celebrated",
+    "value": "local talent",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This platform not only celebrated local talent"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Artists Unite",
+    "relation": "boosted",
+    "value": "the self-esteem and confidence of the artists",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "boosted the self-esteem and confidence of the artists"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emily Johnson",
+    "relation": "role",
+    "value": "a participant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Johnson, a participant, shared"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Emily Johnson",
+    "relation": "said",
+    "value": "Seeing my work appreciated by the community has made me realize my worth and potential.",
+    "time": null,
+    "speaker": "Emily Johnson",
+    "verbatim": [
+     "Seeing my work appreciated by the community has made me realize my worth and potential."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Alex Martinez",
+    "relation": "joined",
+    "value": "a mural project",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Alex Martinez, who joined a mural project in January 2024, said"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Alex Martinez",
+    "relation": "said",
+    "value": "This project didn't just beautify the neighborhood; it brought us together. I've made friends for life here.",
+    "time": null,
+    "speaker": "Alex Martinez",
+    "verbatim": [
+     "This project didn't just beautify the neighborhood; it brought us together. I've made friends for life here."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "mural project",
+    "relation": "beautified",
+    "value": "the neighborhood",
+    "time": null,
+    "speaker": "Alex Martinez",
+    "verbatim": [
+     "This project didn't just beautify the neighborhood"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "mural project",
+    "relation": "brought_together",
+    "value": "the people of the neighborhood",
+    "time": null,
+    "speaker": "Alex Martinez",
+    "verbatim": [
+     "it brought us together"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Artful Mind workshops",
+    "relation": "welcomed_participants_in",
+    "value": "February 2024",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "February 2024 saw the 'Artful Mind' workshops welcome participants to engage in artistic practices aimed at developing coping mechanisms for stress and anxiety."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Artful Mind workshops",
+    "relation": "aimed_at",
+    "value": "developing coping mechanisms for stress and anxiety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artistic practices aimed at developing coping mechanisms for stress and anxiety"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Artful Mind workshops",
+    "relation": "taught",
+    "value": "individuals to channel their emotions into art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through these workshops, individuals learned to channel their emotions into art"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Peter Thomson",
+    "relation": "role",
+    "value": "a regular at the monthly art therapy sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Peter Thomson, a regular at the monthly art therapy sessions"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Peter Thomson",
+    "relation": "said",
+    "value": "Deciding on the colors, textures, and forms gives me a sense of control that I often lack in other areas of my life,",
+    "time": null,
+    "speaker": "Peter Thomson",
+    "verbatim": [
+     "Deciding on the colors, textures, and forms gives me a sense of control that I often lack in other areas of my life,"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Lee",
+    "relation": "runs",
+    "value": "Mindful Creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Lee's 'Mindful Creations' program, which started in March 2024"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Mindful Creations",
+    "relation": "started_in",
+    "value": "March 2024",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "Sarah Lee's 'Mindful Creations' program, which started in March 2024"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mindful Creations",
+    "relation": "integrates",
+    "value": "principles of mindfulness into art therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrates principles of mindfulness into art therapy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mindful Creations",
+    "relation": "helps_participants",
+    "value": "stay grounded in the present moment, reducing feelings of anxiety and stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping participants to stay grounded in the present moment, reducing feelings of anxiety and stress"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sketch Your Stress Away",
+    "relation": "held_in",
+    "value": "April 2024",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "Reflecting on the 'Sketch Your Stress Away' event of April 2024"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Gonzalez",
+    "relation": "said",
+    "value": "I leave every session feeling lighter, as if I've let go of the week's stress on the canvas.",
+    "time": null,
+    "speaker": "David Gonzalez",
+    "verbatim": [
+     "I leave every session feeling lighter, as if I've let go of the week's stress on the canvas."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Creative Minds, Nimble Hands",
+    "relation": "detected",
+    "value": "marked improvements in cognitive and fine motor skills among its elder participants",
+    "time": "by June 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'Creative Minds, Nimble Hands' program detected marked improvements in these areas among its elder participants by June 2024."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "All Ages Art Gala",
+    "relation": "held_in",
+    "value": "July 2024",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "The 'All Ages Art Gala' of July 2024 proved this point"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "All Ages Art Gala",
+    "relation": "celebrated",
+    "value": "artwork from every demographic",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "where artwork from every demographic was celebrated"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "All Ages Art Gala",
+    "relation": "featured",
+    "value": "Grandparent-grandchild duos working on collaborative pieces as a heartwarming highlight",
+    "time": "July 2024",
+    "speaker": null,
+    "verbatim": [
+     "Grandparent-grandchild duos working on collaborative pieces became a heartwarming highlight"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "community art therapy programs",
+    "relation": "rooted_in",
+    "value": "the belief that creative expression can be a transformative, therapeutic process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these programs are rooted in the belief that creative expression can be a transformative, therapeutic process"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "community art therapy programs",
+    "relation": "stretch_across",
+    "value": "urban and rural landscapes, breaking boundaries of age, culture, and socioeconomic status",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As they stretch across urban and rural landscapes, breaking boundaries of age, culture, and socioeconomic status"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "community art therapy programs",
+    "relation": "growing_number_of_initiatives_launched_since",
+    "value": "September 2023",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "as witnessed by the growing number of initiatives launched since September 2023"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "community art therapy programs",
+    "relation": "benefits_explored",
+    "value": "top ten benefits of participating",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we explore the top ten benefits of participating in community art therapy programs"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

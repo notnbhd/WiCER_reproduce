@@ -1,0 +1,624 @@
+{
+ "inventory": [
+  "Sarah Jennings",
+  "David Liu",
+  "Elaine Harmon",
+  "The Nook Cafe",
+  "third place",
+  "local market",
+  "urban farm",
+  "farm-to-table event",
+  "grand opening",
+  "local economy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sarah Jennings",
+    "relation": "idea_arrived_on",
+    "value": "a crisp morning, September 15th, 2023",
+    "time": "September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "that idea came on a crisp morning, September 15th, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Jennings",
+    "relation": "noticed",
+    "value": "her neighborhood lacked a cozy spot for community gatherings and the sharing of ideas",
+    "time": "September 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when she noticed her neighborhood lacked a cozy spot for community gatherings and the sharing of ideas"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Jennings",
+    "relation": "was_mesmerized_by",
+    "value": "the concept of a 'third place' between work and home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mesmerized by the concept of a 'third place' between work and home"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "third place",
+    "relation": "defined_as",
+    "value": "between work and home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 'third place' between work and home"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Jennings",
+    "relation": "envisioned",
+    "value": "a cafe that would serve as more than just a place to grab a coffee; it would become a hub for community activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah envisioned a cafe that would serve as more than just a place to grab a coffee; it would become a hub for community activity."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "David Liu",
+    "relation": "found_local_market_selection",
+    "value": "underwhelming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he found the local market selection of organic, locally-sourced produce to be underwhelming"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local market",
+    "relation": "produce_selection_is",
+    "value": "underwhelming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local market selection of organic, locally-sourced produce to be underwhelming"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "David Liu",
+    "relation": "is",
+    "value": "an avid gardener",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An avid gardener, he found"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "David Liu",
+    "relation": "committed_to",
+    "value": "starting a small urban farm that would connect people with the source of their food",
+    "time": "October 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 3rd, 2023, with a handful of seed packets and a heart full of dreams, David committed to the idea of starting a small urban farm that would connect people with the source of their food."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "urban farm",
+    "relation": "planned_as",
+    "value": "a small urban farm that would connect people with the source of their food",
+    "time": "October 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "starting a small urban farm that would connect people with the source of their food"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Jennings",
+    "relation": "spent_nights_devising",
+    "value": "a business plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah spent countless nights devising a business plan"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Jennings",
+    "relation": "learned_about",
+    "value": "the intricacies of small business loans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "learning about the intricacies of small business loans"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sarah Jennings",
+    "relation": "signed_lease_on",
+    "value": "the lease for what would become 'The Nook Cafe.'",
+    "time": "November 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 15th, 2023, she signed the lease for what would become 'The Nook Cafe.'"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Nook Cafe",
+    "relation": "lease_signed_on",
+    "value": "November 15th, 2023",
+    "time": "November 15th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on November 15th, 2023, she signed the lease for what would become 'The Nook Cafe.'"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Jennings",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her efforts began to bear fruit when, on November 15th, 2023, she signed the lease"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "David Liu",
+    "relation": "studied",
+    "value": "modern farming techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David took to studying modern farming techniques"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "David Liu",
+    "relation": "attended",
+    "value": "local agriculture workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attending local agriculture workshops"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "David Liu",
+    "relation": "found_advisor",
+    "value": "Elaine Harmon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He found an advisor in Elaine Harmon"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Elaine Harmon",
+    "relation": "is",
+    "value": "a retired agriculture professor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elaine Harmon, a retired agriculture professor"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Elaine Harmon",
+    "relation": "took_under_wing",
+    "value": "David Liu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who took him under her wing"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "David Liu",
+    "relation": "secured_land",
+    "value": "a small but promising plot of land on the outskirts of town",
+    "time": "December 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By December 1st, 2023, he had secured a small but promising plot of land on the outskirts of town."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sarah Jennings",
+    "relation": "faced_challenge",
+    "value": "the endless red tape of permits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the endless red tape of permits"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Jennings",
+    "relation": "faced_challenge",
+    "value": "the hunt for the perfect barista",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the hunt for the perfect barista"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sarah Jennings",
+    "relation": "faced_challenge",
+    "value": "the mystery of managing supply chains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the mystery of managing supply chains"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sarah Jennings",
+    "relation": "navigated_with",
+    "value": "grit and adaptability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a winning combination of grit and adaptability,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sarah Jennings",
+    "relation": "recruited",
+    "value": "a skilled team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recruiting a skilled team"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sarah Jennings",
+    "relation": "built",
+    "value": "a loyal network of local suppliers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "building a loyal network of local suppliers"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Liu",
+    "relation": "first_crop_decimated_by",
+    "value": "an unexpected frost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his first crop was decimated by an unexpected frost"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "David Liu",
+    "relation": "setback_became",
+    "value": "a lesson in the crucial role of perseverance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this setback became a lesson in the crucial role of perseverance"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "David Liu",
+    "relation": "invested_in",
+    "value": "protective greenhousing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David invested in protective greenhousing"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "David Liu",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David invested in protective greenhousing, which paved the way for a bountiful next harvest."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "grand opening",
+    "relation": "occurred_on",
+    "value": "February 20th, 2024",
+    "time": "February 20th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "February 20th, 2024, marked the grand opening of 'The Nook Cafe.'"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "The Nook Cafe",
+    "relation": "held_grand_opening_on",
+    "value": "February 20th, 2024",
+    "time": "February 20th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "February 20th, 2024, marked the grand opening of 'The Nook Cafe.'"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "The Nook Cafe",
+    "relation": "aroma_of",
+    "value": "freshly ground coffee beans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The aroma of freshly ground coffee beans filled the air"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "The Nook Cafe",
+    "relation": "attracted",
+    "value": "locals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as locals poured in to support Sarah's dream"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "The Nook Cafe",
+    "relation": "became_renowned_for",
+    "value": "its warm, inviting atmosphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cafe quickly became renowned for its warm, inviting atmosphere"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sarah Jennings",
+    "relation": "dedication_paid_off",
+    "value": "creating a space that truly belonged to the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah's dedication to creating a space that truly belonged to the community paid off"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "David Liu",
+    "relation": "held",
+    "value": "a farm-to-table event",
+    "time": "March 14th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "David held a farm-to-table event on March 14th, 2024"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "farm-to-table event",
+    "relation": "held_on",
+    "value": "March 14th, 2024",
+    "time": "March 14th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "David held a farm-to-table event on March 14th, 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "farm-to-table event",
+    "relation": "purpose",
+    "value": "to celebrate the first successful harvest from his urban farm",
+    "time": "March 14th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "to celebrate the first successful harvest from his urban farm"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "farm-to-table event",
+    "relation": "was",
+    "value": "a hit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event was a hit"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "farm-to-table event",
+    "relation": "provided",
+    "value": "residents with a tangible connection to their food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing residents with a tangible connection to their food"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "farm-to-table event",
+    "relation": "educated_residents_on",
+    "value": "the benefits of sustainable farming practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educating them on the benefits of sustainable farming practices"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "urban farm",
+    "relation": "became",
+    "value": "a model for urban agriculture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His farm became a model for urban agriculture"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "urban farm",
+    "relation": "became_source_of_pride_for",
+    "value": "the neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a source of pride for the neighborhood"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "local economy",
+    "relation": "fostered_solidarity_among",
+    "value": "local business owners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the solidarity they have fostered among local business owners"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "The Nook Cafe",
+    "relation": "hosts",
+    "value": "events and workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by hosting events and workshops"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "The Nook Cafe",
+    "relation": "became_place_for",
+    "value": "other entrepreneurs to meet, share advice, and encourage each other",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a place where other entrepreneurs can meet, share advice, and encourage each other"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "David Liu",
+    "relation": "formed_partnerships_with",
+    "value": "other small business owners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David has formed partnerships with other small business owners"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "David Liu",
+    "relation": "exchanges_produce_for",
+    "value": "their goods and services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exchanging his produce for their goods and services"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "David Liu",
+    "relation": "helped_create",
+    "value": "a robust ecosystem of mutually beneficial relationships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which helped to create a robust ecosystem of mutually beneficial relationships"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "David Liu",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David has formed partnerships with other small business owners, exchanging his produce for their goods and services, which helped to create a robust ecosystem of mutually beneficial relationships"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "local economy",
+    "relation": "broader_narrative_reflected_by_story_of",
+    "value": "Sarah and David",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It reflects the broader narrative of our local economy"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "local economy",
+    "relation": "entrepreneurial_ventures_are_revitalizing",
+    "value": "our streets and enriching our communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rising tide of entrepreneurial ventures that are revitalizing our streets and enriching our communities"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "local economy",
+    "relation": "entrepreneurial_spirit_is",
+    "value": "alive and blossoming in our local community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The entrepreneurial spirit is alive and blossoming in our local community"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

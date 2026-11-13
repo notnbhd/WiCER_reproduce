@@ -1,0 +1,851 @@
+{
+ "inventory": [
+  "New Orleans",
+  "Hurricane Zephyr",
+  "Hurricane Katrina",
+  "Hurricane Irma",
+  "LaToya Cantrell",
+  "Dr. Raymond Beasley",
+  "Tulane University",
+  "Patricia Jackson",
+  "Treme neighborhood",
+  "Lower Ninth Ward",
+  "Gulf waters",
+  "human-caused climate change",
+  "Wetlands",
+  "environmental policies",
+  "levee systems",
+  "Post-Katrina reforms",
+  "U.S. Army Corps of Engineers",
+  "CERCLA (Comprehensive Environmental Response Compensation and Liability Act)",
+  "James Morgan",
+  "Green infrastructure solutions",
+  "Louisiana Coastal Protection and Restoration Authority",
+  "Master Plan",
+  "Celeste Browning",
+  "Red Cross",
+  "Manuel Ortiz",
+  "Japan",
+  "Netherlands"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Hurricane Zephyr",
+    "relation": "made_landfall_on",
+    "value": "September 3, 2023",
+    "time": "September 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Zephyr made landfall on September 3, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Hurricane Zephyr",
+    "relation": "highlighted",
+    "value": "both resilience and vulnerabilities inherent to New Orleans' intricate defense mechanisms against nature's fury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has highlighted both resilience and vulnerabilities inherent to New Orleans' intricate defense mechanisms against nature's fury"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "environmental policies",
+    "relation": "designed_to",
+    "value": "mitigate natural disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "environmental policies designed to mitigate natural disasters"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Hurricane Zephyr",
+    "relation": "category",
+    "value": "Category 4 hurricane",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Zephyr was a Category 4 hurricane"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Hurricane Zephyr",
+    "relation": "sustained_winds",
+    "value": "140 mph",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought sustained winds of 140 mph through its city"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "levee systems",
+    "relation": "tested_during",
+    "value": "Hurricane Zephyr",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "testing vital levee systems"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "levee systems",
+    "relation": "upgrade_spending",
+    "value": "millions spent upgrading them since Hurricane Katrina hit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "millions spent upgrading them since Hurricane Katrina hit"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Lower Ninth Ward",
+    "relation": "experienced",
+    "value": "extensive flooding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lower Ninth Ward neighborhoods saw extensive flooding"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Hurricane Zephyr",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lower Ninth Ward neighborhoods saw extensive flooding as a result of it all."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "LaToya Cantrell",
+    "relation": "holds_title",
+    "value": "Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor LaToya Cantrell stated"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "LaToya Cantrell",
+    "relation": "stated",
+    "value": "Nature is telling us something",
+    "time": null,
+    "speaker": "LaToya Cantrell",
+    "verbatim": [
+     "\"Nature is telling us something,\" Mayor LaToya Cantrell stated"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "LaToya Cantrell",
+    "relation": "held_press_conference",
+    "value": "emotionally wrenching press conference",
+    "time": "September 5",
+    "speaker": null,
+    "verbatim": [
+     "in an emotionally wrenching press conference held September 5"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "LaToya Cantrell",
+    "relation": "stated",
+    "value": "Our city meets these challenges head on with all available tools and policies at hand",
+    "time": null,
+    "speaker": "LaToya Cantrell",
+    "verbatim": [
+     "Our city meets these challenges head on with all available tools and policies at hand"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "LaToya Cantrell",
+    "relation": "stated",
+    "value": "adaptation must occur quickly",
+    "time": null,
+    "speaker": "LaToya Cantrell",
+    "verbatim": [
+     "adaptation must occur quickly in order to remain competitive in a changing global society"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "LaToya Cantrell",
+    "relation": "adaptation_purpose",
+    "value": "remain competitive in a changing global society",
+    "time": null,
+    "speaker": "LaToya Cantrell",
+    "verbatim": [
+     "adaptation must occur quickly in order to remain competitive in a changing global society"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "LaToya Cantrell",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": "LaToya Cantrell",
+    "verbatim": [
+     "adaptation must occur quickly in order to remain competitive in a changing global society"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Raymond Beasley",
+    "relation": "is_a",
+    "value": "Climate expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climate expert Dr. Raymond Beasley from Tulane University elaborated"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Raymond Beasley",
+    "relation": "affiliated_with",
+    "value": "Tulane University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Raymond Beasley from Tulane University"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Gulf waters",
+    "relation": "have_warmed",
+    "value": "significantly over time",
+    "time": "over time",
+    "speaker": "Dr. Raymond Beasley",
+    "verbatim": [
+     "saying the Gulf waters have warmed significantly over time"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Gulf waters",
+    "relation": "created",
+    "value": "an ideal breeding ground for destructive hurricanes",
+    "time": null,
+    "speaker": "Dr. Raymond Beasley",
+    "verbatim": [
+     "creating an ideal breeding ground for destructive hurricanes"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Gulf waters",
+    "relation": "results_in",
+    "value_ref": "c20",
+    "time": null,
+    "speaker": "Dr. Raymond Beasley",
+    "verbatim": [
+     "the Gulf waters have warmed significantly over time, creating an ideal breeding ground for destructive hurricanes"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Raymond Beasley",
+    "relation": "said",
+    "value": "It's all part of human-caused climate change.",
+    "time": null,
+    "speaker": "Dr. Raymond Beasley",
+    "verbatim": [
+     "It's all part of human-caused climate change."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "New Orleans",
+    "relation": "vulnerability_increased_by",
+    "value": "urban development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Urban development has long contributed to New Orleans' increased vulnerability."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Wetlands",
+    "relation": "buffer",
+    "value": "storm surges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wetlands that help buffer storm surges"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Wetlands",
+    "relation": "suffered_due_to",
+    "value": "urban expansion and economic activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wetlands that help buffer storm surges have suffered due to urban expansion and economic activities,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Wetlands",
+    "relation": "weakens",
+    "value": "natural defenses of the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "further weakening natural defenses of the city and endangering its citizens"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Wetlands",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have suffered due to urban expansion and economic activities,",
+     "further weakening natural defenses of the city and endangering its citizens"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "New Orleans",
+    "relation": "geographical_disadvantage_makes_living",
+    "value": "all but perilous for its citizens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Combine that with its geographical disadvantage and it makes living here all but perilous for its citizens."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "New Orleans",
+    "relation": "has_not_stood_idly_by",
+    "value": "in the face of increasing damage and threats of further storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New Orleans has not stood idly by in the face of increasing damage and threats of further storms, yet."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Post-Katrina reforms",
+    "relation": "averted",
+    "value": "another greater catastrophe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Post-Katrina reforms were instrumental in averting another greater catastrophe"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "U.S. Army Corps of Engineers",
+    "relation": "invested",
+    "value": "$14.5 billion in strengthening flood protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "U.S. Army Corps of Engineers' $14.5 billion investment into strengthening flood protection"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "U.S. Army Corps of Engineers",
+    "relation": "key_in",
+    "value": "mitigating losses during Hurricane Zephyr",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was key in mitigating losses during Hurricane Zephyr"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Patricia Jackson",
+    "relation": "affiliated_with",
+    "value": "Treme neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "noted Patricia Jackson of Treme neighborhood in New Orleans"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "levee systems",
+    "relation": "let_down",
+    "value": "the levees let us down",
+    "time": "Back in 2005",
+    "speaker": "Patricia Jackson",
+    "verbatim": [
+     "Back in 2005, the levees let us down"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "levee systems",
+    "relation": "held_up",
+    "value": "they have held up",
+    "time": "this time around",
+    "speaker": "Patricia Jackson",
+    "verbatim": [
+     "but this time around they have held up"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Patricia Jackson",
+    "relation": "asked",
+    "value": "Will they hold next time?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Will they hold next time?"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "environmental policies",
+    "relation": "came_under_scrutiny_following",
+    "value": "Hurricane Irma",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following Hurricane Irma, policy-makers have come under intense scrutiny regarding their environmental approach."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "CERCLA (Comprehensive Environmental Response Compensation and Liability Act)",
+    "relation": "deals_with",
+    "value": "contamination and cleanup at hazardous sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which deals with contamination and cleanup at hazardous sites"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "CERCLA (Comprehensive Environmental Response Compensation and Liability Act)",
+    "relation": "became",
+    "value": "a controversial subject",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a controversial subject"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "James Morgan",
+    "relation": "is_a",
+    "value": "Environmental activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environmental activist James Morgan noted"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "James Morgan",
+    "relation": "said",
+    "value": "Our policies need to focus not just on reacting to natural catastrophes like Irma but rather actively incorporate sustainability and climate resilience into development plans.",
+    "time": null,
+    "speaker": "James Morgan",
+    "verbatim": [
+     "Our policies need to focus not just on reacting to natural catastrophes like Irma but rather actively incorporate sustainability and climate resilience into development plans."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "New Orleans",
+    "relation": "faces_issue",
+    "value": "over-reliance on traditional infrastructure like levees and sea walls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One contentious issue facing New Orleans is its over-reliance on traditional infrastructure like levees and sea walls"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "levee systems",
+    "relation": "may_no_longer_suffice",
+    "value": "in light of increasingly severe storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "may no longer suffice in light of increasingly severe storms"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Green infrastructure solutions",
+    "relation": "proposed_as",
+    "value": "additional protective measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green infrastructure solutions and nature-based approaches are being proposed as additional protective measures"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Master Plan",
+    "relation": "belongs_to",
+    "value": "Louisiana Coastal Protection and Restoration Authority",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Louisiana Coastal Protection and Restoration Authority's Master Plan"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Master Plan",
+    "relation": "emphasizes",
+    "value": "this need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "initiatives like Louisiana Coastal Protection and Restoration Authority's Master Plan emphasize this need"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Hurricane Zephyr",
+    "relation": "left_behind",
+    "value": "an immense bill for repairs and recovery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hurricane Zephyr left behind an immense bill for repairs and recovery"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Hurricane Zephyr",
+    "relation": "estimated_economic_damages",
+    "value": "top $8 billion in economic damages alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "estimated to top $8 billion in economic damages alone"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Hurricane Zephyr",
+    "relation": "human_cost",
+    "value": "families struggling with displacement and grief",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Most concerning is its human cost: families continue to struggle with displacement and grief as they adjust."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Celeste Browning",
+    "relation": "affiliated_with",
+    "value": "Red Cross",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Celeste Browning of the Red Cross pointed out immediate needs on the ground"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Celeste Browning",
+    "relation": "pointed_out",
+    "value": "restoration of essential services like power, water and healthcare are priorities",
+    "time": null,
+    "speaker": "Celeste Browning",
+    "verbatim": [
+     "restoration of essential services like power, water and healthcare are priorities"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Celeste Browning",
+    "relation": "said",
+    "value": "emotional and psychological trauma caused by storms is equally as concerning",
+    "time": null,
+    "speaker": "Celeste Browning",
+    "verbatim": [
+     "emotional and psychological trauma caused by storms is equally as concerning"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Celeste Browning",
+    "relation": "said",
+    "value": "we're here as supporters every step of the way",
+    "time": null,
+    "speaker": "Celeste Browning",
+    "verbatim": [
+     "that's why we're here as supporters every step of the way"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Hurricane Irma",
+    "relation": "caused_business_challenges",
+    "value": "businesses put through their own challenges, uncertain of the next steps they needed to take",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses were put through their own challenges after Hurricane Irma struck, uncertain of the next steps they needed to take."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Manuel Ortiz",
+    "relation": "is_a",
+    "value": "Restaurant owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Restaurant owner Manuel Ortiz lamented"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Manuel Ortiz",
+    "relation": "said",
+    "value": "Each time we rebuild, there's the fear it might all be for nothing",
+    "time": null,
+    "speaker": "Manuel Ortiz",
+    "verbatim": [
+     "Each time we rebuild, there's the fear it might all be for nothing,"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Manuel Ortiz",
+    "relation": "called_for",
+    "value": "more than relief funding; assurances must also be put in place that protect investments against further natural disasters",
+    "time": null,
+    "speaker": "Manuel Ortiz",
+    "verbatim": [
+     "while calling for more than relief funding; assurances must also be put in place that protect investments against further natural disasters"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "New Orleans",
+    "relation": "community_came_together",
+    "value": "in response to tragedy with great determination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community has come together in response to tragedy with great determination"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "New Orleans",
+    "relation": "volunteer_groups_joined",
+    "value": "cleanup efforts and providing essential supplies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Volunteer groups have joined in cleanup efforts and providing essential supplies"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "New Orleans",
+    "relation": "shelters_running_at",
+    "value": "full capacity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "shelters and food banks continue to run at full capacity"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "New Orleans",
+    "relation": "international_aid_came",
+    "value": "rushing in, attesting to the global community's unity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "International aid has also come rushing in, attesting to the global community's unity."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Japan",
+    "relation": "has_expertise_in",
+    "value": "disaster management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Japan and the Netherlands, with their expertise in disaster management, have shared their knowledge to show that disaster resilience can be shared endeavor."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Japan",
+    "relation": "shared_knowledge_to_show",
+    "value": "disaster resilience can be shared endeavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have shared their knowledge to show that disaster resilience can be shared endeavor."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Netherlands",
+    "relation": "has_expertise_in",
+    "value": "disaster management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Japan and the Netherlands, with their expertise in disaster management, have shared their knowledge to show that disaster resilience can be shared endeavor."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Netherlands",
+    "relation": "shared_knowledge_to_show",
+    "value": "disaster resilience can be shared endeavor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have shared their knowledge to show that disaster resilience can be shared endeavor."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Hurricane Zephyr",
+    "relation": "impact_under_assessment",
+    "value": "full impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While we continue to assess Hurricane Zephyr's full impact"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "environmental policies",
+    "relation": "shift_toward",
+    "value": "adaptation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "policy conversations and discussions on environmental and structural policies shift toward adaptation"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "environmental policies",
+    "relation": "adaptation_includes",
+    "value": "physical structures and legal frameworks, and a shift in mindset and culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This adaptation includes not just physical structures and legal frameworks, but a shift in mindset and culture as well."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "New Orleans",
+    "relation": "possible_evolution_hinted_by",
+    "value": "shifting residential and commercial zones, diversifying the economy and developing more environmentally sustainable practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conversations regarding shifting residential and commercial zones, diversifying the economy and developing more environmentally sustainable practices hint at New Orleans' possible evolution"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "New Orleans",
+    "relation": "requires",
+    "value": "immediate action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "yet immediate action are imperative"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "New Orleans",
+    "relation": "fate_shaped_by",
+    "value": "what New Orleans does today",
+    "time": "coming decades",
+    "speaker": null,
+    "verbatim": [
+     "what New Orleans does today will shape its fate in coming decades"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Hurricane Zephyr",
+    "relation": "lessons_serve_as",
+    "value": "critical guides in strengthening resilience and sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lessons from Hurricane Zephyr will serve as critical guides in strengthening resilience and sustainability"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "New Orleans",
+    "relation": "storms_expected_to_return",
+    "value": "inevitably",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Storms will inevitably come back"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "New Orleans",
+    "relation": "adaptation_uncertain",
+    "value": "whether we can adapt fast enough to stay ahead of nature remains uncertain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whether we can adapt fast enough to stay ahead of nature remains uncertain"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

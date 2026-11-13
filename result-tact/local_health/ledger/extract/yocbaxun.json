@@ -1,0 +1,813 @@
+{
+ "inventory": [
+  "Local Health and Wellness",
+  "Wellness Workshops",
+  "Sleep Hygiene",
+  "Dr. Clara Mendez",
+  "Nathaniel Thompson",
+  "Rachel Kim",
+  "Dr. Samuel Hanson",
+  "Laura Greene",
+  "Maria Gonzales",
+  "REM (rapid eye movement)",
+  "non-REM phases",
+  "common sleep myths",
+  "ideal sleep environment",
+  "caffeine",
+  "sugar",
+  "tryptophan",
+  "magnesium",
+  "blue light",
+  "mindfulness",
+  "stress",
+  "insomnia",
+  "pre-sleep routines"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Local Health and Wellness",
+    "relation": "announces",
+    "value": "an enlightening series of Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local Health and Wellness is thrilled to announce an enlightening series of Wellness Workshops"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellness Workshops",
+    "relation": "centered_on",
+    "value": "Sleep Hygiene and Maximizing Restorative Sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "series of Wellness Workshops centered on Sleep Hygiene and Maximizing Restorative Sleep"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wellness Workshops",
+    "relation": "designed_to",
+    "value": "unravel the intricacies of a good night\u2019s rest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to unravel the intricacies of a good night\u2019s rest"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sleep Hygiene",
+    "relation": "described_as",
+    "value": "one elemental facet routinely gets side-lined",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one elemental facet routinely gets side-lined: sleep hygiene"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Local Health and Wellness",
+    "relation": "in_response_to",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one elemental facet routinely gets side-lined: sleep hygiene. In response, Local Health and Wellness is thrilled to announce"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Wellness Workshops",
+    "relation": "start_date",
+    "value": "September 10, 2023",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Starting from September 10, 2023, these workshops will be spearheaded by"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Clara Mendez",
+    "relation": "spearheads",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these workshops will be spearheaded by renowned sleep expert Dr. Clara Mendez and her team"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Clara Mendez",
+    "relation": "described_as",
+    "value": "renowned sleep expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "renowned sleep expert Dr. Clara Mendez"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Clara Mendez",
+    "relation": "team_comprises",
+    "value": "certified sleep therapists, nutritionists, and behavioural psychologists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her team, comprising of certified sleep therapists, nutritionists, and behavioural psychologists"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Wellness Workshops",
+    "relation": "scheduled_on",
+    "value": "every Thursday evening",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "running every Thursday evening for six weeks"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Wellness Workshops",
+    "relation": "duration",
+    "value": "six weeks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "running every Thursday evening for six weeks"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Wellness Workshops",
+    "relation": "promises_to_impart",
+    "value": "practical strategies and habits that you can implement into your nightly routine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promise to impart practical strategies and habits that you can implement into your nightly routine"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Clara Mendez",
+    "relation": "leads",
+    "value": "deep dive into the science of sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The series will kick off with a deep dive into the science of sleep led by Dr. Mendez."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Clara Mendez",
+    "relation": "states",
+    "value": "We spend about one-third of our lives asleep",
+    "time": null,
+    "speaker": "Dr. Clara Mendez",
+    "verbatim": [
+     "We spend about one-third of our lives asleep, yet many of us are completely unaware of the complex processes that occur during this period"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Clara Mendez",
+    "relation": "states",
+    "value": "Understanding these mechanisms is the first step towards improving the quality of your rest.",
+    "time": null,
+    "speaker": "Dr. Clara Mendez",
+    "verbatim": [
+     "Understanding these mechanisms is the first step towards improving the quality of your rest."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "REM (rapid eye movement)",
+    "relation": "taught_as",
+    "value": "a stage of sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants will learn about the various stages of sleep, including REM (rapid eye movement)"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "non-REM phases",
+    "relation": "taught_as",
+    "value": "a stage of sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including REM (rapid eye movement) and the various non-REM phases"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "REM (rapid eye movement)",
+    "relation": "plays_critical_role_in",
+    "value": "our overall health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how each plays a critical role in our overall health and well-being"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "non-REM phases",
+    "relation": "plays_critical_role_in",
+    "value": "our overall health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how each plays a critical role in our overall health and well-being"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "common sleep myths",
+    "relation": "debunked_in",
+    "value": "the session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The session will also debunk common sleep myths"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "common sleep myths",
+    "relation": "hinder",
+    "value": "people from achieving a quality rest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "common sleep myths that often hinder people from achieving a quality rest"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "ideal sleep environment",
+    "relation": "focus_on",
+    "value": "creating an ideal sleep environment",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, focus will shift to creating an ideal sleep environment."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Nathaniel Thompson",
+    "relation": "is",
+    "value": "an interior designer specializing in therapeutic spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nathaniel Thompson, an interior designer specializing in therapeutic spaces"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Nathaniel Thompson",
+    "relation": "guides",
+    "value": "attendees through the nuances of an optimized sleeping area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will guide attendees through the nuances of an optimized sleeping area"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "ideal sleep environment",
+    "relation": "variables_addressed",
+    "value": "lighting, temperature, and noise control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Variables such as lighting, temperature, and noise control will be addressed"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sleep Hygiene",
+    "relation": "solutions_offered",
+    "value": "easy, cost-effective solutions for improved sleep hygiene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with easy, cost-effective solutions for improved sleep hygiene"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Nathaniel Thompson",
+    "relation": "emphasizes",
+    "value": "your bedroom should be an oasis of tranquility",
+    "time": null,
+    "speaker": "Nathaniel Thompson",
+    "verbatim": [
+     "your bedroom should be an oasis of tranquility."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Nathaniel Thompson",
+    "relation": "claims",
+    "value": "simple changes, like the right kind of curtains or the proper mattress, can drastically enhance the quality of your sleep",
+    "time": null,
+    "speaker": "Nathaniel Thompson",
+    "verbatim": [
+     "You\u2019d be surprised how simple changes, like the right kind of curtains or the proper mattress, can drastically enhance the quality of your sleep."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Rachel Kim",
+    "relation": "is",
+    "value": "Nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Rachel Kim joins the workshop"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rachel Kim",
+    "relation": "joins_workshop_on",
+    "value": "the workshop",
+    "time": "September 24, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Rachel Kim joins the workshop on September 24, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rachel Kim",
+    "relation": "elucidates",
+    "value": "the connection between diet and sleep",
+    "time": "September 24, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to elucidate the connection between diet and sleep"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rachel Kim",
+    "relation": "analyzes",
+    "value": "how certain foods and eating habits can influence sleep patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She'll provide an in-depth analysis of how certain foods and eating habits can influence sleep patterns."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "caffeine",
+    "relation": "impact_discussed_in_session",
+    "value": "the impact of caffeine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From discussing the impact of caffeine and sugar"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "sugar",
+    "relation": "impact_discussed_in_session",
+    "value": "the impact of sugar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From discussing the impact of caffeine and sugar"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "tryptophan",
+    "relation": "found_in",
+    "value": "sleep-promoting foods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unveiling sleep-promoting foods rich in tryptophan and magnesium"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "magnesium",
+    "relation": "found_in",
+    "value": "sleep-promoting foods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unveiling sleep-promoting foods rich in tryptophan and magnesium"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Rachel Kim",
+    "relation": "advice_grounded_in",
+    "value": "the most current nutritional science",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kim\u2019s advice is grounded in the most current nutritional science."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Rachel Kim",
+    "relation": "states",
+    "value": "Your last meal of the day should aid your body in its night-time rejuvenation process, not work against it",
+    "time": null,
+    "speaker": "Rachel Kim",
+    "verbatim": [
+     "Your last meal of the day should aid your body in its night-time rejuvenation process, not work against it"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Rachel Kim",
+    "relation": "provides_participants",
+    "value": "a handful of tasty bedtime snack recipes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a handful of tasty bedtime snack recipes to boot"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "stress",
+    "relation": "relationship_with_sleep",
+    "value": "a notorious relationship; one often upending the other",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stress and sleep have a notorious relationship; one often upending the other."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "presents",
+    "value": "the fourth workshop",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the fourth workshop on October 1, 2023, will be presented by Dr. Samuel Hanson"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "is",
+    "value": "a clinical psychologist specializing in stress management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Samuel Hanson, a clinical psychologist specializing in stress management"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "provides_strategies_for",
+    "value": "managing stress before bedtime through mindfulness and meditation practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Hanson will provide strategies for attendees on managing stress before bedtime through mindfulness and meditation practices."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "will_cover",
+    "value": "the detrimental impact of blue light from electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he will cover the detrimental impact of blue light from electronic devices"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "blue light",
+    "relation": "originates_from",
+    "value": "electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the detrimental impact of blue light from electronic devices"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "will_provide",
+    "value": "alternatives for pre-sleep activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide alternatives for pre-sleep activities"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Dr. Samuel Hanson",
+    "relation": "explains",
+    "value": "Mindfulness isn\u2019t just meditation\u2014it\u2019s about being present and aware, which in turn can significantly alleviate stress and improve our sleep quality",
+    "time": null,
+    "speaker": "Dr. Samuel Hanson",
+    "verbatim": [
+     "Mindfulness isn\u2019t just meditation\u2014it\u2019s about being present and aware, which in turn can significantly alleviate stress and improve our sleep quality"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "mindfulness",
+    "relation": "alleviates",
+    "value": "stress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which in turn can significantly alleviate stress and improve our sleep quality"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "mindfulness",
+    "relation": "improves",
+    "value": "sleep quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which in turn can significantly alleviate stress and improve our sleep quality"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Laura Greene",
+    "relation": "presents",
+    "value": "the penultimate workshop",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the penultimate workshop on October 8, 2023, sleep therapist Laura Greene"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Laura Greene",
+    "relation": "is",
+    "value": "sleep therapist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sleep therapist Laura Greene emphasizes the significance of pre-sleep routines"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Laura Greene",
+    "relation": "emphasizes",
+    "value": "the significance of pre-sleep routines",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "emphasizes the significance of pre-sleep routines in signaling to your body that it's time to wind down"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "pre-sleep routines",
+    "relation": "signals",
+    "value": "that it's time to wind down",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pre-sleep routines in signaling to your body that it's time to wind down"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Laura Greene",
+    "relation": "discussion_will_encompass",
+    "value": "the importance of consistency in sleep schedules",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "This discussion will encompass the importance of consistency in sleep schedules"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Laura Greene",
+    "relation": "discussion_will_encompass",
+    "value": "the benefits of nighttime routines",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the benefits of nighttime routines"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Laura Greene",
+    "relation": "discussion_will_encompass",
+    "value": "the role of relaxation techniques such as reading or taking a warm bath",
+    "time": "October 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the role of relaxation techniques such as reading or taking a warm bath"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Laura Greene",
+    "relation": "states",
+    "value": "the hour before bedtime is as crucial as the sleep itself.",
+    "time": null,
+    "speaker": "Laura Greene",
+    "verbatim": [
+     "the hour before bedtime is as crucial as the sleep itself."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "pre-sleep routines",
+    "relation": "prepares_body_for",
+    "value": "rest",
+    "time": null,
+    "speaker": "Laura Greene",
+    "verbatim": [
+     "A consistent and calming routine tells your body to prepare for rest and can greatly enhance sleep quality."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "pre-sleep routines",
+    "relation": "enhances",
+    "value": "sleep quality",
+    "time": null,
+    "speaker": "Laura Greene",
+    "verbatim": [
+     "A consistent and calming routine tells your body to prepare for rest and can greatly enhance sleep quality."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Maria Gonzales",
+    "relation": "is",
+    "value": "child sleep consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by child sleep consultant Maria Gonzales"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Maria Gonzales",
+    "relation": "leads_session",
+    "value": "the final workshop",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The final workshop on October 15, 2023, will tailor sleep hygiene practices for different age groups within the family setting. This session, led by child sleep consultant Maria Gonzales"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Sleep Hygiene",
+    "relation": "tailored_for",
+    "value": "different age groups within the family setting",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "will tailor sleep hygiene practices for different age groups within the family setting"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Maria Gonzales",
+    "relation": "aids",
+    "value": "parents in establishing healthy sleep habits for children",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will aid parents in establishing healthy sleep habits for children"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Maria Gonzales",
+    "relation": "accommodates",
+    "value": "the needs of teenagers and older adults",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while also accommodating the needs of teenagers and older adults"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Maria Gonzales",
+    "relation": "will_cover",
+    "value": "sleep training, teenage sleep cycles, and addressing insomnia in the elderly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gonzales will cover various challenges, including sleep training, teenage sleep cycles, and addressing insomnia in the elderly."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "insomnia",
+    "relation": "addressed_for",
+    "value": "the elderly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "addressing insomnia in the elderly"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Maria Gonzales",
+    "relation": "states",
+    "value": "Good sleep hygiene affects the entire family dynamic",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "Good sleep hygiene affects the entire family dynamic"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Maria Gonzales",
+    "relation": "states",
+    "value": "Educating all family members on the importance of sleep can foster a environment conducive to restorative sleep for everyone.",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "Educating all family members on the importance of sleep can foster a environment conducive to",
+     "restorative sleep for everyone."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Wellness Workshops",
+    "relation": "promises_to_provide",
+    "value": "invaluable resources and advice for those struggling with sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This comprehensive series promises to provide invaluable resources and advice for those struggling with sleep"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Wellness Workshops",
+    "relation": "guided_by",
+    "value": "top health experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With guidance from top health experts"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Wellness Workshops",
+    "relation": "promises_attendees_emerge_with",
+    "value": "a deeper understanding and the necessary tools to embrace the profound benefits of high-quality sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attendees will emerge with a deeper understanding and the necessary tools to embrace the profound benefits of high-quality sleep."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,848 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "Dr. Sylvia Torres",
+  "Metropolitan University's Department of Environmental Studies",
+  "Dr. Richard Hammond",
+  "Central Park",
+  "GreenHeart Urban Conservationists",
+  "Emily Watson",
+  "Mark Thompson",
+  "BloomBlock",
+  "Angela Brooks",
+  "Green Blueprint 2024",
+  "Journal of Urban Ecology",
+  "Dr. Torres's research",
+  "urban green spaces",
+  "biodiversity",
+  "urbanization",
+  "urban sprawl",
+  "impervious surfaces",
+  "ecosystem services",
+  "native plant species",
+  "community gardening",
+  "citizen science",
+  "local stewardship programs",
+  "city council",
+  "public forum"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jane Doe",
+    "relation": "wrote",
+    "value": "The Role of Urban Green Spaces in Promoting Biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Role of Urban Green Spaces in Promoting Biodiversity"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jane Doe",
+    "relation": "published_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By Jane Doe, October 5, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "urbanization",
+    "relation": "described_as",
+    "value": "one of the primary threats to biodiversity across the globe",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "In recent years, urbanization has emerged as one of the primary threats to biodiversity across the globe."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "biodiversity",
+    "relation": "threatened_by",
+    "value": "urbanization",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "In recent years, urbanization has emerged as one of the primary threats to biodiversity across the globe."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "vital battlegrounds in the fight to preserve and enhance biodiversity within city limits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban green spaces have become vital battlegrounds in the fight to preserve and enhance biodiversity within city limits"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "urban sprawl",
+    "relation": "engulfs",
+    "value": "the patches of wilderness that have long served as sanctuaries for various species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they often engulf the patches of wilderness that have long served as sanctuaries for various species"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "biodiversity",
+    "relation": "resilience_described_as",
+    "value": "incredibly resilient, often adapting to changing landscapes, but only to a degree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Flora and fauna are incredibly resilient, often adapting to changing landscapes, but only to a degree."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "urban sprawl",
+    "relation": "encapsulates",
+    "value": "more than just human habitats and infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As cities expand, they encapsulate more than just human habitats and infrastructure."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Sylvia Torres",
+    "relation": "affiliated_with",
+    "value": "Metropolitan University's Department of Environmental Studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sylvia Torres, a leading expert from the Metropolitan University's Department of Environmental Studies"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Sylvia Torres",
+    "relation": "described_as",
+    "value": "a leading expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sylvia Torres, a leading expert from the Metropolitan University's Department of Environmental Studies"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Sylvia Torres",
+    "relation": "states",
+    "value": "urban sprawl disrupts ecosystems, leading to loss of species and genetic diversity",
+    "time": null,
+    "speaker": "Dr. Sylvia Torres",
+    "verbatim": [
+     "urban sprawl disrupts ecosystems, leading to loss of species and genetic diversity."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "urban sprawl",
+    "relation": "disrupts",
+    "value": "ecosystems",
+    "time": null,
+    "speaker": "Dr. Sylvia Torres",
+    "verbatim": [
+     "urban sprawl disrupts ecosystems, leading to loss of species and genetic diversity."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "impervious surfaces",
+    "relation": "disrupts",
+    "value": "natural water flow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities are replete with impervious surfaces which disrupt natural water flow and reduce habitat availability, consequently diminishing urban biodiversity."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "impervious surfaces",
+    "relation": "reduces",
+    "value": "habitat availability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities are replete with impervious surfaces which disrupt natural water flow and reduce habitat availability, consequently diminishing urban biodiversity."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "biodiversity",
+    "relation": "diminished_by",
+    "value": "impervious surfaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consequently diminishing urban biodiversity."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "impervious surfaces",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cities are replete with impervious surfaces which disrupt natural water flow and reduce habitat availability, consequently diminishing urban biodiversity."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Sylvia Torres",
+    "relation": "warns",
+    "value": "it is a cascading effect \u2013 once primary species begin to decline, it can lead to the collapse of entire local ecosystems.",
+    "time": null,
+    "speaker": "Dr. Sylvia Torres",
+    "verbatim": [
+     "it is a cascading effect \u2013 once primary species begin to decline, it can lead to the collapse of entire local ecosystems."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "oases for biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban green spaces stand as oases for biodiversity"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "urban green spaces",
+    "relation": "includes",
+    "value": "Parks, gardens, riverbanks, green corridors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Parks, gardens, riverbanks, and green corridors serve multiple purposes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "ecosystem services",
+    "relation": "includes",
+    "value": "air and water purification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from recreation to the provision of ecosystem services such as air and water purification"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "urban green spaces",
+    "relation": "play_role_in",
+    "value": "hosting a variety of species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these verdant pockets play a crucial role in hosting a variety of species"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "city council",
+    "relation": "hosted",
+    "value": "a public forum",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, the city council hosted a public forum"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "public forum",
+    "relation": "hosted_by",
+    "value": "city council",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 17, 2023, the city council hosted a public forum"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Richard Hammond",
+    "relation": "described_as",
+    "value": "a wildlife biologist",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "wildlife biologists like Dr. Richard Hammond"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Richard Hammond",
+    "relation": "shared_findings",
+    "value": "findings that underscored the importance of these green spaces",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "wildlife biologists like Dr. Richard Hammond shared findings that underscored the importance of these green spaces"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Central Park",
+    "relation": "bird_species_recorded",
+    "value": "110 different bird species",
+    "time": "this past year",
+    "speaker": "Dr. Richard Hammond",
+    "verbatim": [
+     "We've recorded 110 different bird species in Central Park alone this past year,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Richard Hammond",
+    "relation": "emphasized",
+    "value": "urban green spaces can indeed support rich biodiversity",
+    "time": null,
+    "speaker": "Dr. Richard Hammond",
+    "verbatim": [
+     "Hammond emphasized, proving that urban green spaces can indeed support rich biodiversity"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "urban green spaces",
+    "relation": "can_support",
+    "value": "rich biodiversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proving that urban green spaces can indeed support rich biodiversity"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Richard Hammond",
+    "relation": "proves",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hammond emphasized, proving that urban green spaces can indeed support rich biodiversity"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "urban green spaces",
+    "relation": "challenge",
+    "value": "no simple task",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maintaining these biodiverse habitats amidst the urban sprawl is no simple task."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "urban green spaces",
+    "relation": "threatened_by",
+    "value": "Pollution, invasive species, and the overuse of green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pollution, invasive species, and the overuse of green spaces all pose significant threats to their ecological integrity."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "urban green spaces",
+    "relation": "considered_by_urban_planning_as",
+    "value": "afterthoughts rather than integral components of city landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "afterthoughts rather than integral components of city landscapes."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "GreenHeart Urban Conservationists",
+    "relation": "is_a",
+    "value": "local non-profit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A local non-profit, GreenHeart Urban Conservationists, led by activist Emily Watson, is at the forefront of tackling these challenges."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "GreenHeart Urban Conservationists",
+    "relation": "led_by",
+    "value": "Emily Watson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GreenHeart Urban Conservationists, led by activist Emily Watson"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Emily Watson",
+    "relation": "described_as",
+    "value": "activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by activist Emily Watson"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "GreenHeart Urban Conservationists",
+    "relation": "at_forefront_of",
+    "value": "tackling these challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is at the forefront of tackling these challenges"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Emily Watson",
+    "relation": "explains",
+    "value": "It's not just about planting trees and creating parks",
+    "time": null,
+    "speaker": "Emily Watson",
+    "verbatim": [
+     "It's not just about planting trees and creating parks,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Emily Watson",
+    "relation": "argues",
+    "value": "spaces should be carefully designed with biodiversity in mind",
+    "time": null,
+    "speaker": "Emily Watson",
+    "verbatim": [
+     "We need to carefully design these spaces with biodiversity in mind"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Emily Watson",
+    "relation": "says_design_includes",
+    "value": "using native plant species and creating habitats that can sustain local wildlife",
+    "time": null,
+    "speaker": "Emily Watson",
+    "verbatim": [
+     "this includes using native plant species and creating habitats that can sustain local wildlife."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "native plant species",
+    "relation": "recommended_by",
+    "value": "Emily Watson",
+    "time": null,
+    "speaker": "Emily Watson",
+    "verbatim": [
+     "this includes using native plant species"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "biodiversity",
+    "relation": "promoted_by",
+    "value": "the involvement of city residents in the creation and maintenance of green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The involvement of city residents in the creation and maintenance of green spaces has proved pivotal in promoting urban biodiversity."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "community gardening",
+    "relation": "has_become",
+    "value": "increasingly prevalent and successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives allowing community gardening, citizen science, and local stewardship programs have become increasingly prevalent and successful."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "citizen science",
+    "relation": "has_become",
+    "value": "increasingly prevalent and successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives allowing community gardening, citizen science, and local stewardship programs have become increasingly prevalent and successful."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local stewardship programs",
+    "relation": "has_become",
+    "value": "increasingly prevalent and successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives allowing community gardening, citizen science, and local stewardship programs have become increasingly prevalent and successful."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "biodiversity",
+    "relation": "support_galvanized_by",
+    "value": "grassroots movements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "grassroots movements have galvanized support for biodiversity-enhancing measures."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Mark Thompson",
+    "relation": "founder_of",
+    "value": "BloomBlock",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mark Thompson, founder of the urban greening initiative \"BloomBlock,\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "BloomBlock",
+    "relation": "described_as",
+    "value": "urban greening initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founder of the urban greening initiative"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mark Thompson",
+    "relation": "attests",
+    "value": "When locals take ownership of their green spaces, be it through small community gardens or participating in larger parks, they contribute significantly to a city's biodiversity.",
+    "time": null,
+    "speaker": "Mark Thompson",
+    "verbatim": [
+     "When locals take ownership of their green spaces, be it through small community gardens or participating in larger parks, they contribute significantly to a city's biodiversity."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "BloomBlock",
+    "relation": "suggests",
+    "value": "a paradigm shift toward a community-led conservation effort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BloomBlock's work, along with similar groups, suggests a paradigm shift toward a community-led conservation effort"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "biodiversity",
+    "relation": "future_paved_by",
+    "value": "local knowledge and commitment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where local knowledge and commitment pave the way for a more biodiverse urban future"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "urban green spaces",
+    "relation": "requires",
+    "value": "solid policy frameworks and strategic planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solid policy frameworks and strategic planning are indispensable."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Angela Brooks",
+    "relation": "states",
+    "value": "Without a city-wide strategy and targeted policies, green spaces are left vulnerable to being undervalued and, worse, redeveloped",
+    "time": null,
+    "speaker": "Angela Brooks",
+    "verbatim": [
+     "Without a city-wide strategy and targeted policies, green spaces are left vulnerable to being undervalued and, worse, redeveloped"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Angela Brooks",
+    "relation": "described_as",
+    "value": "city councilor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "states city councilor Angela Brooks"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Green Blueprint 2024",
+    "relation": "unveiled_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the city unveiled its \"Green Blueprint 2024\" on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Green Blueprint 2024",
+    "relation": "preceded_by",
+    "value": "lengthy consultations with expert ecologists and town hall meetings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Following lengthy consultations with expert ecologists and town hall meetings"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Green Blueprint 2024",
+    "relation": "outlines_goal",
+    "value": "expanding green space coverage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The comprehensive plan outlines goals for expanding green space coverage"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Green Blueprint 2024",
+    "relation": "outlines_goal",
+    "value": "enhancing the connectivity between these spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhancing the connectivity between these spaces"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Green Blueprint 2024",
+    "relation": "outlines_goal",
+    "value": "incorporating biodiversity targets into city planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating biodiversity targets into city planning"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Green Blueprint 2024",
+    "relation": "described_as",
+    "value": "comprehensive plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The comprehensive plan outlines goals"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "urban green spaces",
+    "relation": "role_underlined_by",
+    "value": "Empirical evidence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Empirical evidence has continued to underline the role of green spaces in urban biodiversity conservation."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Dr. Torres's research",
+    "relation": "published_in",
+    "value": "Journal of Urban Ecology",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "published in the prestigious \"Journal of Urban Ecology\" on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dr. Torres's research",
+    "relation": "peer_review_status",
+    "value": "peer-reviewed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Torres's research, peer-reviewed and published"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Dr. Torres's research",
+    "relation": "emphasized",
+    "value": "the positive correlation between well-designed green spaces and species diversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasized the positive correlation between well-designed green spaces and species diversity."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Dr. Torres's research",
+    "relation": "found",
+    "value": "parks with a variety of habitats \u2013 from wetlands to wooded areas \u2013 hosted higher numbers of both plant and animal species",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her study found that parks with a variety of habitats \u2013 from wetlands to wooded areas \u2013 hosted higher numbers of both plant and animal species."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "urban green spaces",
+    "relation": "showed_in_data",
+    "value": "cities with interconnected green spaces allowed for better species movement and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data from satellite imagery and on-the-ground biodiversity assessments showed that cities with interconnected green spaces allowed for better species movement and resilience."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "more than mere aesthetic enhancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "urban green spaces are more than mere aesthetic enhancements."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "urban green spaces",
+    "relation": "described_as",
+    "value": "repositories of genetic diversity, natural air filters, carbon sequestration sites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They're repositories of genetic diversity, natural air filters, carbon sequestration sites, and much more."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "ecosystem services",
+    "relation": "contribute_to",
+    "value": "the health and well-being of urban dwellers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ecological services provided by these spaces directly contribute to the health and well-being of urban dwellers."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "urban green spaces",
+    "relation": "should_evolve_from",
+    "value": "viewing them solely as beautification projects to recognizing their critical ecological functions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The narrative surrounding urban green spaces needs to evolve from viewing them solely as beautification projects to recognizing their critical ecological functions."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Emily Watson",
+    "relation": "says",
+    "value": "Every patch of green in the city is a potential lifeline for numerous species and an essential contributor to our ecological network.",
+    "time": null,
+    "speaker": "Emily Watson",
+    "verbatim": [
+     "Every patch of green in the city is a potential lifeline for numerous species and an essential contributor to our ecological network."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "urban green spaces",
+    "relation": "value_should_not_be",
+    "value": "underestimated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The value of urban green spaces and their vital role in fostering biodiversity must not be underestimated."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "urban green spaces",
+    "relation": "can_become",
+    "value": "beacons of biodiversity amidst our urban landscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these pockets of nature can become beacons of biodiversity amidst our urban landscapes."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "urban green spaces",
+    "relation": "should_be_safeguarded_for",
+    "value": "the benefits they provide, not just to our non-human cohabitants but to the future of urban humanity itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is paramount to safeguard and promote these precious ecosystems for the benefits they provide, not just to our non-human cohabitants but to the future of urban humanity itself."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "urbanization",
+    "relation": "is_occurring_in",
+    "value": "our rapidly urbanizing world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In our rapidly urbanizing world"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

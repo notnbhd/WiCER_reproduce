@@ -1,0 +1,599 @@
+{
+ "inventory": [
+  "local community health center",
+  "wellness workshops",
+  "Dr. Angela Hartley",
+  "Jason Torres",
+  "wearables",
+  "Claire Emerson",
+  "smartwatch",
+  "health apps",
+  "Nina Patel",
+  "data privacy",
+  "insurance companies",
+  "Dr. Omar Jin",
+  "heart rate variability",
+  "Lisa Nguyen",
+  "food tracking apps",
+  "Mark Stevens",
+  "digital health",
+  "health dashboard"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "wellness workshops",
+    "relation": "organized_by",
+    "value": "local community health center",
+    "time": "this month",
+    "speaker": null,
+    "verbatim": [
+     "In a series of wellness workshops organized by the local community health center this month"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "wellness workshops",
+    "relation": "start_date",
+    "value": "September 5, 2023",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "These workshops, which commenced on September 5, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "wellness workshops",
+    "relation": "focus_on",
+    "value": "the transformative power of wearables and health apps in contemporary lifestyles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotlight the transformative power of wearables and health apps in contemporary lifestyles"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Angela Hartley",
+    "relation": "role_at_workshops",
+    "value": "keynote speaker on the opening day",
+    "time": "opening day",
+    "speaker": null,
+    "verbatim": [
+     "who were keynote speakers on the opening day"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jason Torres",
+    "relation": "occupation",
+    "value": "tech entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Angela Hartley and tech entrepreneur Jason Torres"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jason Torres",
+    "relation": "role_at_workshops",
+    "value": "keynote speaker on the opening day",
+    "time": "opening day",
+    "speaker": null,
+    "verbatim": [
+     "Dr. Angela Hartley and tech entrepreneur Jason Torres, who were keynote speakers on the opening day"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Angela Hartley",
+    "relation": "emphasized",
+    "value": "harnessing technology is key to empowering people to take control of their health",
+    "time": null,
+    "speaker": "Dr. Angela Hartley and Jason Torres",
+    "verbatim": [
+     "emphasized how harnessing technology is key to empowering people to take control of their health"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "wearables",
+    "relation": "defined_as",
+    "value": "devices that individuals can wear, like smartwatches or fitness bands",
+    "time": null,
+    "speaker": "Dr. Angela Hartley",
+    "verbatim": [
+     "Wearables, as Dr. Hartley highlighted, are devices that individuals can wear, like smartwatches or fitness bands"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "wearables",
+    "relation": "collect",
+    "value": "data about the user's daily activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which collect a wealth of data about the user\u2019s daily activities"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "wearables",
+    "relation": "measures",
+    "value": "the number of steps taken, heart rate, sleep patterns, and even oxygen saturation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the number of steps taken to heart rate, sleep patterns, and even oxygen saturation"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "wearables",
+    "relation": "provide",
+    "value": "real-time insights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these gadgets provide real-time insights that can be a gateway to understanding one's own health better"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Claire Emerson",
+    "relation": "occupation",
+    "value": "local teacher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local teacher, Claire Emerson"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Claire Emerson",
+    "relation": "credited_smartwatch_for",
+    "value": "the early detection of an irregular heartbeat",
+    "time": null,
+    "speaker": "Claire Emerson",
+    "verbatim": [
+     "who credited her smartwatch for the early detection of an irregular heartbeat"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Claire Emerson",
+    "relation": "prompted_visit_and_treatment",
+    "value": "a timely visit to the doctor and subsequent treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting a timely visit to the doctor and subsequent treatment"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Claire Emerson",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "credited her smartwatch for the early detection of an irregular heartbeat, prompting a timely visit to the doctor and subsequent treatment"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "smartwatch",
+    "relation": "is_a",
+    "value": "wearable device",
+    "time": null,
+    "speaker": "Dr. Angela Hartley",
+    "verbatim": [
+     "devices that individuals can wear, like smartwatches or fitness bands"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Jason Torres",
+    "relation": "spoke_about",
+    "value": "the convergence of mobile technology and health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jason Torres took to the stage to elucidate the convergence of mobile technology and health"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "health apps",
+    "relation": "can_track",
+    "value": "nutritional intake, meditation sessions, and even cognitive health through brain-training exercises",
+    "time": null,
+    "speaker": "Jason Torres",
+    "verbatim": [
+     "modern health apps can track nutritional intake, meditation sessions, and even cognitive health through brain-training exercises"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "health apps",
+    "relation": "leverage",
+    "value": "artificial intelligence to provide personalized health advice and behavioral nudges to encourage a healthier lifestyle",
+    "time": null,
+    "speaker": "Jason Torres",
+    "verbatim": [
+     "a curated list of apps that leverage artificial intelligence to provide personalized health advice and behavioral nudges to encourage a healthier lifestyle"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jason Torres",
+    "relation": "conducted",
+    "value": "a live demonstration on how to integrate health data from various apps to create a comprehensive health dashboard on one's phone or computer",
+    "time": "September 10",
+    "speaker": null,
+    "verbatim": [
+     "During one of the workshops on September 10, Torres conducted a live demonstration on how to integrate health data from various apps to create a comprehensive health dashboard on one's phone or computer"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "health dashboard",
+    "relation": "created_by",
+    "value": "integrating health data from various apps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to integrate health data from various apps to create a comprehensive health dashboard on one's phone or computer"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "wellness workshops",
+    "relation": "entered_stage",
+    "value": "second week",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the workshops entered the second week"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Nina Patel",
+    "relation": "occupation",
+    "value": "cyber security expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cyber security expert Nina Patel"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Nina Patel",
+    "relation": "explained",
+    "value": "the importance of data privacy and security when using these digital health tools",
+    "time": null,
+    "speaker": "Nina Patel",
+    "verbatim": [
+     "cyber security expert Nina Patel explained to attendees the importance of data privacy and security when using these digital health tools"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "data privacy",
+    "relation": "importance_explained_by",
+    "value": "Nina Patel",
+    "time": null,
+    "speaker": "Nina Patel",
+    "verbatim": [
+     "cyber security expert Nina Patel explained to attendees the importance of data privacy and security"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "wellness workshops",
+    "relation": "included",
+    "value": "practical tips on protecting personal health data, understanding privacy policies of wearable devices, and knowing one's rights as a consumer in the digital health space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sessions included practical tips on protecting personal health data, understanding privacy policies of wearable devices, and knowing one's rights as a consumer in the digital health space"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "wellness workshops",
+    "relation": "attendee_concern",
+    "value": "sharing their health data with insurance companies and potential misuse of information",
+    "time": "September 17",
+    "speaker": null,
+    "verbatim": [
+     "a workshop on September 17, where attendees voiced concerns about sharing their health data with insurance companies and potential misuse of information"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Nina Patel",
+    "relation": "guidance_relevant_in",
+    "value": "a workshop on September 17",
+    "time": "September 17",
+    "speaker": null,
+    "verbatim": [
+     "This guidance was particularly relevant in a workshop on September 17"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Omar Jin",
+    "relation": "occupation",
+    "value": "Cardiologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cardiologist Dr. Omar Jin"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Omar Jin",
+    "relation": "interactive_session_topic",
+    "value": "interpreting heart rate variability, resting heart rate, and other key indicators that wearables measure",
+    "time": "September 20",
+    "speaker": null,
+    "verbatim": [
+     "during his interactive session on September 20, took a deep dive into interpreting heart rate variability, resting heart rate, and other key indicators that wearables measure"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "heart rate variability",
+    "relation": "measured_by",
+    "value": "wearables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interpreting heart rate variability, resting heart rate, and other key indicators that wearables measure"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Omar Jin",
+    "relation": "articulated",
+    "value": "these precise metrics can offer a more comprehensive picture of one's cardiovascular health over time",
+    "time": null,
+    "speaker": "Dr. Omar Jin",
+    "verbatim": [
+     "He articulated how these precise metrics can offer a more comprehensive picture of one's cardiovascular health over time"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lisa Nguyen",
+    "relation": "occupation",
+    "value": "Nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Lisa Nguyen\u2019s workshop on September 26 demonstrated"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lisa Nguyen",
+    "relation": "demonstrated",
+    "value": "how food tracking apps could help individuals tailor their diets to meet specific health goals",
+    "time": "September 26",
+    "speaker": null,
+    "verbatim": [
+     "Nutritionist Lisa Nguyen\u2019s workshop on September 26 demonstrated how food tracking apps could help individuals tailor their diets to meet specific health goals"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "food tracking apps",
+    "relation": "can_help",
+    "value": "individuals tailor their diets to meet specific health goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how food tracking apps could help individuals tailor their diets to meet specific health goals"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "food tracking apps",
+    "relation": "combined_with_nutritional_knowledge_can_help",
+    "value": "identify deficiencies, manage weight, and improve overall health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Combining the use of food tracking apps with nutritional knowledge can help identify deficiencies, manage weight, and improve overall health"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lisa Nguyen",
+    "relation": "shared",
+    "value": "success stories from her clients who have benefitted from integrating these modern tools as part of their health routines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lisa also shared success stories from her clients who have benefitted from integrating these modern tools as part of their health routines"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lisa Nguyen",
+    "relation": "described_metaphor",
+    "value": "transforming their smartphones into personal nutritionists",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transforming their smartphones into personal nutritionists"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mark Stevens",
+    "relation": "occupation",
+    "value": "futurist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "futurist Mark Stevens discussing the future of digital health"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mark Stevens",
+    "relation": "discussed",
+    "value": "the future of digital health",
+    "time": "October 1",
+    "speaker": null,
+    "verbatim": [
+     "the workshop on October 1 saw futurist Mark Stevens discussing the future of digital health"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Mark Stevens",
+    "relation": "ties_together",
+    "value": "the insights from the previous sessions",
+    "time": "October 1",
+    "speaker": null,
+    "verbatim": [
+     "Tying together the insights from the previous sessions, the workshop on October 1 saw futurist Mark Stevens"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mark Stevens",
+    "relation": "envisioned",
+    "value": "a world where wearable tech and apps could possibly predict potential health concerns before they manifest into more significant issues",
+    "time": null,
+    "speaker": "Mark Stevens",
+    "verbatim": [
+     "he envisioned a world where wearable tech and apps could possibly predict potential health concerns before they manifest into more significant issues"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "wellness workshops",
+    "relation": "stressed",
+    "value": "the importance of balancing the use of technology with traditional healthcare",
+    "time": null,
+    "speaker": "the facilitators",
+    "verbatim": [
+     "the facilitators stressed the importance of balancing the use of technology with traditional healthcare"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "digital health",
+    "relation": "instrumental_in",
+    "value": "offering convenience and continuous monitoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these digital tools are indeed instrumental in offering convenience and continuous monitoring"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "wellness workshops",
+    "relation": "states_remains_indispensable",
+    "value": "an in-person consultation with healthcare professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the human aspect of health \u2013 an in-person consultation with healthcare professionals \u2013 remains indispensable"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "local community health center",
+    "relation": "took_pivotal_step",
+    "value": "in demystifying the role of technology in health care and promoting its beneficial use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community health center has taken a pivotal step in demystifying the role of technology in health care and promoting its beneficial use"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "wellness workshops",
+    "relation": "underlying_message",
+    "value": "technology, when thoughtfully incorporated into everyday life, can stimulate proactivity and ownership over one's health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technology, when thoughtfully incorporated into everyday life, can stimulate proactivity and ownership over one's health"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "wellness workshops",
+    "relation": "highlighted",
+    "value": "the future of health is undeniably technological",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the integrative approach to these workshops highlighted that while the future of health is undeniably technological"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "digital health",
+    "relation": "community_members_better_equipped_to_navigate",
+    "value": "the landscape of digital health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community members are now better equipped to navigate the landscape of digital health, paving the way for more informed choices and healthier lives"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "wearables",
+    "relation": "part_of",
+    "value": "an ongoing evolution in healthcare, not just a trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the adoption of wearables and health apps is not just a trend but part of an ongoing evolution in healthcare"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "digital health",
+    "relation": "influenced_by",
+    "value": "the ubiquity of smartphones and the internet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ubiquity of smartphones and the internet has irreversibly influenced various facets of life, and health is no exception"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "digital health",
+    "relation": "trend",
+    "value": "the trend of tech adoption in personal health management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The increased individual focus on wellness and preventive healthcare underscores the trend of tech adoption in personal health management"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

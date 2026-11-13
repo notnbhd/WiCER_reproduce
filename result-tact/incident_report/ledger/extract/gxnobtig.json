@@ -1,0 +1,573 @@
+{
+ "inventory": [
+  "Jessica Stanton",
+  "National Grid Response Center",
+  "Dr. Alan Torres",
+  "Mark Davidson",
+  "Catherine Kim",
+  "Sarah Lewis",
+  "Electricity Reliability Council",
+  "Department of Energy",
+  "Bureau of Economic Research",
+  "Resilient Grid Initiative",
+  "Electric Grid Security Act",
+  "Orion AI",
+  "U.S. GDP",
+  "northeastern power grid",
+  "New York City",
+  "Maine",
+  "Texas",
+  "Midwest",
+  "Philadelphia",
+  "October 17, 2023 cascade failure",
+  "November 4, 2023 cybersecurity breach",
+  "January 9th ice storm",
+  "December 12, 2023 outage",
+  "smart grid technologies",
+  "microgrid deployment"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "affected_grid",
+    "value": "northeastern power grid",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cascade failure in the northeastern power grid"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "occurred_on",
+    "value": "October 17, 2023",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A notable incident occurred on October 17, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "affected_population",
+    "value": "8.5 million people",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "left 8.5 million people in the dark for upwards of 48 hours"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "outage_duration",
+    "value": "upwards of 48 hours",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "for upwards of 48 hours"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "triggered_state_of_emergency_in",
+    "value": "six states",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "triggering a state of emergency in six states"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "repercussions_felt_in",
+    "value": "New York City",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The repercussions were felt from New York City to Maine"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "repercussions_felt_in",
+    "value": "Maine",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The repercussions were felt from New York City to Maine"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jessica Stanton",
+    "relation": "job_title",
+    "value": "senior electrical engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Stanton, a senior electrical engineer at the National Grid Response Center"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jessica Stanton",
+    "relation": "works_at",
+    "value": "National Grid Response Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Stanton, a senior electrical engineer at the National Grid Response Center"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "attributed_cause",
+    "value": "a \"perfect storm\" of failing outdated equipment exacerbated by unseasonal weather patterns",
+    "time": "October 17, 2023",
+    "speaker": "Jessica Stanton",
+    "verbatim": [
+     "attributed the blackout to a \"perfect storm\" of failing outdated equipment exacerbated by unseasonal weather patterns"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "October 17, 2023 cascade failure",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": "October 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The repercussions were felt from New York City to Maine, triggering a state of emergency in six states."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "November 4, 2023 cybersecurity breach",
+    "relation": "occurred_on",
+    "value": "November 4, 2023",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity breach on November 4, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "November 4, 2023 cybersecurity breach",
+    "relation": "results_in",
+    "value": "power disruptions across multiple substations in Texas",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "caused power disruptions across multiple substations in Texas"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Texas",
+    "relation": "affected_by",
+    "value": "November 4, 2023 cybersecurity breach",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "caused power disruptions across multiple substations in Texas"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "November 4, 2023 cybersecurity breach",
+    "relation": "implies",
+    "value": "the rise of digital threats to physical infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pointing to the rise of digital threats to physical infrastructure"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Alan Torres",
+    "relation": "job_title",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert, Dr. Alan Torres"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Alan Torres",
+    "relation": "warns_that",
+    "value": "these incidents represent only the \"tip of the iceberg\" regarding the cyber vulnerabilities our power systems face",
+    "time": null,
+    "speaker": "Dr. Alan Torres",
+    "verbatim": [
+     "warns that these incidents represent only the \"tip of the iceberg\" regarding the cyber vulnerabilities our power systems face"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "January 9th ice storm",
+    "relation": "occurred_on",
+    "value": "January 9th",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "2024 began with a severe ice storm on January 9th"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "January 9th ice storm",
+    "relation": "affected_region",
+    "value": "Midwest",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "crippled the Midwest's power grid"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "January 9th ice storm",
+    "relation": "affected_population",
+    "value": "over 3 million people",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "affecting over 3 million people"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "January 9th ice storm",
+    "relation": "described_as",
+    "value": "severe ice storm",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "a severe ice storm"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Midwest",
+    "relation": "affected_by",
+    "value": "January 9th ice storm",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "crippled the Midwest's power grid"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Electricity Reliability Council",
+    "relation": "reported_increase_in_outages",
+    "value": "20% increase in outages caused by equipment failure due to insufficient grid modernization",
+    "time": "over the past six months",
+    "speaker": null,
+    "verbatim": [
+     "Data gathered by the Electricity Reliability Council over the past six months indicates a 20% increase in outages caused by equipment failure due to insufficient grid modernization"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Department of Energy",
+    "relation": "estimated_business_cost",
+    "value": "approximately $150 billion annually",
+    "time": null,
+    "speaker": "Department of Energy",
+    "verbatim": [
+     "the Department of Energy estimating that power outages cost businesses approximately $150 billion annually"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mark Davidson",
+    "relation": "age",
+    "value": "37",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "37-year-old Mark Davidson from Philadelphia"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mark Davidson",
+    "relation": "from",
+    "value": "Philadelphia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "37-year-old Mark Davidson from Philadelphia"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "December 12, 2023 outage",
+    "relation": "occurred_on",
+    "value": "December 12, 2023",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During the widespread outage on December 12, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "December 12, 2023 outage",
+    "relation": "described_as",
+    "value": "widespread",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During the widespread outage on December 12, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "December 12, 2023 outage",
+    "relation": "reported_effect",
+    "value": "his diabetic mother struggled to keep her insulin refrigerated",
+    "time": "December 12, 2023",
+    "speaker": "Mark Davidson",
+    "verbatim": [
+     "reporting that his diabetic mother struggled to keep her insulin refrigerated"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mark Davidson",
+    "relation": "mother_has_condition",
+    "value": "diabetic",
+    "time": "December 12, 2023",
+    "speaker": "Mark Davidson",
+    "verbatim": [
+     "his diabetic mother"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bureau of Economic Research",
+    "relation": "found",
+    "value": "a clear correlation between blackout durations and drops in economic productivity",
+    "time": null,
+    "speaker": "Bureau of Economic Research",
+    "verbatim": [
+     "Analysis from the Bureau of Economic Research indicates a clear correlation between blackout durations and drops in economic productivity."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "U.S. GDP",
+    "relation": "estimated_hit",
+    "value": "0.5% hit for every cumulative week of widespread power outages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The U.S. GDP is estimated to take a 0.5% hit for every cumulative week of widespread power outages"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Resilient Grid Initiative",
+    "relation": "spearheaded_by",
+    "value": "industry leaders like Catherine Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Resilient Grid Initiative, spearheaded by industry leaders like Catherine Kim"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Catherine Kim",
+    "relation": "spearheads",
+    "value": "Resilient Grid Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Resilient Grid Initiative, spearheaded by industry leaders like Catherine Kim"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Resilient Grid Initiative",
+    "relation": "aims_to_invest",
+    "value": "$30 billion into infrastructure upgrades",
+    "time": "over the next decade",
+    "speaker": null,
+    "verbatim": [
+     "aims to inject $30 billion into infrastructure upgrades over the next decade"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Resilient Grid Initiative",
+    "relation": "ties_grid_improvements_to",
+    "value": "renewable energy integration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tying grid improvements directly to renewable energy integration"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "smart grid technologies",
+    "relation": "adopted_by",
+    "value": "Utilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilities are also adopting smart grid technologies"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "smart grid technologies",
+    "relation": "helps",
+    "value": "predict and prevent potential failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which not only help predict and prevent potential failures"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "smart grid technologies",
+    "relation": "expedites",
+    "value": "restoration times when outages do occur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expedite restoration times when outages do occur"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "microgrid deployment",
+    "relation": "enables",
+    "value": "localized energy independence during larger grid failures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with microgrid deployment to enable localized energy independence during larger grid failures"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Electric Grid Security Act",
+    "relation": "enacted_on",
+    "value": "February 6, 2024",
+    "time": "February 6, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Electric Grid Security Act, enacted on February 6, 2024"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Electric Grid Security Act",
+    "relation": "introduces",
+    "value": "mandatory compliance standards for critical infrastructure protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduces mandatory compliance standards for critical infrastructure protection"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sarah Lewis",
+    "relation": "job_title",
+    "value": "security analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security analyst Sarah Lewis"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sarah Lewis",
+    "relation": "notes",
+    "value": "\"pace of legislative action must match the urgency of the threat landscape\"",
+    "time": null,
+    "speaker": "Sarah Lewis",
+    "verbatim": [
+     "security analyst Sarah Lewis notes that the \"pace of legislative action must match the urgency of the threat landscape\""
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Department of Energy",
+    "relation": "partners_with",
+    "value": "Orion AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a partnership between the Department of Energy and tech giant Orion AI"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Orion AI",
+    "relation": "described_as",
+    "value": "tech giant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech giant Orion AI"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Orion AI",
+    "relation": "predicts_outage_risk_with_accuracy",
+    "value": "up to 89%",
+    "time": "three months in advance",
+    "speaker": null,
+    "verbatim": [
+     "seeking to predict outage risks with up to 89% accuracy three months in advance"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Orion AI",
+    "relation": "seeks_to_predict",
+    "value": "outage risks with up to 89% accuracy three months in advance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seeking to predict outage risks with up to 89% accuracy three months in advance"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Department of Energy",
+    "relation": "in_order_to",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a partnership between the Department of Energy and tech giant Orion AI is underway, seeking to predict outage risks"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

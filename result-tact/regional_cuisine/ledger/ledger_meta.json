@@ -1,0 +1,29 @@
+{
+  "topic": "regional_cuisine",
+  "corpus_sha256": "7e619ab5a5bbf794bfd034427b9f55d30f9f6172ac6ca03e6941ed7880b96cb9",
+  "n_documents": 80,
+  "n_claims": 5520,
+  "n_claims_before_merge": 5524,
+  "n_raw": 5525,
+  "n_rejected": 1,
+  "n_multispan": 28,
+  "n_relational": 184,
+  "rejection_rate": 0.00018099547511312217,
+  "n_contradictions": 24,
+  "inventory_size": 2015,
+  "n_canonical_entities": 1738,
+  "entity_collision_rate": 0.0023014959723820483,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 160,
+    "input_tokens": 419750,
+    "output_tokens": 1896739,
+    "measured_cost_usd": 0.0
+  }
+}

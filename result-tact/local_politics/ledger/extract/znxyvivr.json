@@ -1,0 +1,650 @@
+{
+ "inventory": [
+  "Marissa Clarke",
+  "public-private partnership",
+  "Global Infrastructure Solutions",
+  "Julia Hernandez",
+  "Marcus Duval",
+  "city council",
+  "transit hub",
+  "municipal government",
+  "local business owners",
+  "governance policies",
+  "zoning laws",
+  "labor standards",
+  "environmental directives",
+  "open-door policy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Marissa Clarke",
+    "relation": "visited_site_on",
+    "value": "job trailer at a construction site",
+    "time": "October 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when Marissa Clarke stepped into the job trailer parked at the edge of a bustling construction site"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Marissa Clarke",
+    "relation": "greeted",
+    "value": "her team with a warm smile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She greeted her team with a warm smile"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Marissa Clarke",
+    "relation": "job_title",
+    "value": "project manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a project manager overseeing a major public-private partnership (PPP)"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "public-private partnership",
+    "relation": "aims_to",
+    "value": "revitalize our local infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a major public-private partnership (PPP) to revitalize our local infrastructure"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "municipal government",
+    "relation": "agenda",
+    "value": "sustainable development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the municipal government's agenda for sustainable development"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Marissa Clarke",
+    "relation": "said",
+    "value": "It's about finding that sweet spot where all interests meet for the greater good",
+    "time": null,
+    "speaker": "Marissa Clarke",
+    "verbatim": [
+     "It's about finding that sweet spot where all interests meet for the greater good"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "city council",
+    "relation": "announced_partnership_with",
+    "value": "Global Infrastructure Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the city council announced its partnership with Global Infrastructure Solutions"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Global Infrastructure Solutions",
+    "relation": "described_as",
+    "value": "a leading firm renowned for its innovative approaches to urban development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a leading firm renowned for its innovative approaches to urban development"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "transit hub",
+    "relation": "completion_scheduled",
+    "value": "fall of 2025",
+    "time": "fall of 2025",
+    "speaker": null,
+    "verbatim": [
+     "A new transit hub slated to complete by the fall of 2025"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "transit hub",
+    "relation": "intended_to",
+    "value": "connect neighborhoods, boost the local economy, improve environmental conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promising to connect neighborhoods, boost the local economy, and improve environmental conditions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "municipal government",
+    "relation": "funds_stretched_thin",
+    "value": "local government funds stretched thin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With local government funds stretched thin"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "public-private partnership",
+    "relation": "private_investment_becomes",
+    "value": "a lifeline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "private investment becomes a lifeline"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "municipal government",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With local government funds stretched thin, private investment becomes a lifeline"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Julia Hernandez",
+    "relation": "job_title",
+    "value": "City Treasurer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City Treasurer Julia Hernandez remarked"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Julia Hernandez",
+    "relation": "remarked",
+    "value": "We can't do it alone",
+    "time": null,
+    "speaker": "Julia Hernandez",
+    "verbatim": [
+     "\u201cWe can't do it alone,\u201d City Treasurer Julia Hernandez remarked"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "municipal government",
+    "relation": "entered_agreement_on",
+    "value": "this agreement",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when the city entered into this agreement on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Marcus Duval",
+    "relation": "job_title",
+    "value": "CEO of Global Infrastructure Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Duval, CEO of Global Infrastructure Solutions"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Marcus Duval",
+    "relation": "said",
+    "value": "Our collaboration is more than a contract; it's a commitment to the community.",
+    "time": null,
+    "speaker": "Marcus Duval",
+    "verbatim": [
+     "Our collaboration is more than a contract; it's a commitment to the community."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Marcus Duval",
+    "relation": "echoed",
+    "value": "the sentiment of Julia Hernandez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a sentiment echoed by Marcus Duval"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Marissa Clarke",
+    "relation": "liaises_with",
+    "value": "accountants, engineers, and urban planners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she liaises with accountants, engineers, and urban planners"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Marissa Clarke",
+    "relation": "ensures",
+    "value": "private capital is directed where it's most needed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that the influx of private capital is directed where it's most needed"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Marissa Clarke",
+    "relation": "juggles_calls_with",
+    "value": "city officials",
+    "time": "Throughout the day",
+    "speaker": null,
+    "verbatim": [
+     "Throughout the day, Clarke juggles calls with city officials"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Marissa Clarke",
+    "relation": "clarifies",
+    "value": "zoning laws, labor standards, and environmental directives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to clarify zoning laws, labor standards, and environmental directives"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "zoning laws",
+    "relation": "clarified_with",
+    "value": "city officials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "calls with city officials to clarify zoning laws"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "labor standards",
+    "relation": "clarified_with",
+    "value": "city officials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "calls with city officials to clarify zoning laws, labor standards"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "environmental directives",
+    "relation": "clarified_with",
+    "value": "city officials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "calls with city officials to clarify zoning laws, labor standards, and environmental directives"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "public-private partnership",
+    "relation": "must",
+    "value": "walk a tightrope of regulatory compliance and innovative design",
+    "time": null,
+    "speaker": "Marissa Clarke",
+    "verbatim": [
+     "Public-private partnerships, she underlined, must walk a tightrope of regulatory compliance and innovative design."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Marissa Clarke",
+    "relation": "said",
+    "value": "We push boundaries, but never at the cost of community welfare or legal mandates",
+    "time": null,
+    "speaker": "Marissa Clarke",
+    "verbatim": [
+     "We push boundaries, but never at the cost of community welfare or legal mandates"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "governance policies",
+    "relation": "safeguard",
+    "value": "complex partnerships",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The governance policies that safeguard these complex partnerships are robust"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "governance policies",
+    "relation": "described_as",
+    "value": "robust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The governance policies that safeguard these complex partnerships are robust"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Marissa Clarke",
+    "relation": "knows",
+    "value": "the importance of diligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarke knows all too well the importance of diligence"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Marissa Clarke",
+    "relation": "role_demands",
+    "value": "a forensic attention to detail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her role demands a forensic attention to detail"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "public-private partnership",
+    "relation": "public_relations_role",
+    "value": "a vital component for fostering trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "public relations \u2013 a vital component for fostering trust in these partnerships"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Marissa Clarke",
+    "relation": "meets_with",
+    "value": "a group of local business owners at the upcoming transit hub site",
+    "time": "Today",
+    "speaker": null,
+    "verbatim": [
+     "Today, Clarke meets with a group of local business owners at the upcoming transit hub site"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Marissa Clarke",
+    "relation": "aims_to",
+    "value": "address their concerns and highlight how the project could increase foot traffic to their stores",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to address their concerns and highlight how the project could increase foot traffic to their stores"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "transit hub",
+    "relation": "could_increase",
+    "value": "foot traffic to their stores",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the project could increase foot traffic to their stores"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Marissa Clarke",
+    "relation": "said",
+    "value": "This is our community's future; it's crucial they understand not just the 'what', but the 'why' and the 'how' of what we're doing",
+    "time": null,
+    "speaker": "Marissa Clarke",
+    "verbatim": [
+     "This is our community's future; it's crucial they understand not just the 'what', but the 'why' and the 'how' of what we're doing"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Marissa Clarke",
+    "relation": "reiterated",
+    "value": "her open-door policy with stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reiterating her open-door policy with stakeholders"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "open-door policy",
+    "relation": "applies_to",
+    "value": "stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reiterating her open-door policy with stakeholders"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "transit hub",
+    "relation": "feedback_channeled_to",
+    "value": "design and construction teams",
+    "time": "later",
+    "speaker": null,
+    "verbatim": [
+     "Feedback from these sessions will later be channeled back to design and construction teams"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "transit hub",
+    "relation": "described_as",
+    "value": "a project by the public, with the private, for the people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making this a project by the public, with the private, for the people"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "public-private partnership",
+    "relation": "focus_includes",
+    "value": "job creation and building local capacity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly in terms of job creation and building local capacity"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Marissa Clarke",
+    "relation": "relishes",
+    "value": "the chance to bring new opportunities to the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarke relishes the chance to bring new opportunities to the community"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Marissa Clarke",
+    "relation": "stated",
+    "value": "We prioritize hiring locally",
+    "time": null,
+    "speaker": "Marissa Clarke",
+    "verbatim": [
+     "We prioritize hiring locally"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Marissa Clarke",
+    "relation": "reviewed",
+    "value": "a list of applicants for various construction roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she reviewed a list of applicants for various construction roles"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "transit hub",
+    "relation": "integrates",
+    "value": "community members into the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By integrating community members into the workforce"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "transit hub",
+    "relation": "helps_catalyze",
+    "value": "long-term economic growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the project helps catalyze long-term economic growth"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "transit hub",
+    "relation": "mechanism_of",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By integrating community members into the workforce, the project helps catalyze long-term economic growth"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Marissa Clarke",
+    "relation": "beams_with_pride_at",
+    "value": "every new hire",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarke beams with pride at every new hire"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Marissa Clarke",
+    "relation": "riding_wave_of",
+    "value": "change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marissa Clarke and her crew are riding the crest of a powerful wave of change"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Marissa Clarke",
+    "relation": "reflects_on",
+    "value": "the future of PPPs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clarke reflects on the future of PPPs"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Marissa Clarke",
+    "relation": "participates_in",
+    "value": "webinars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She often participates in webinars"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Marissa Clarke",
+    "relation": "contributes",
+    "value": "articles to share her insights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributes articles to share her insights"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Marissa Clarke",
+    "relation": "helps_guide",
+    "value": "new policies that would streamline PPP processes for future projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping to guide new policies that would streamline PPP processes for future projects"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "public-private partnership",
+    "relation": "collaborative_spirit_inherent_in",
+    "value": "successful PPP ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the collaborative spirit inherent in successful PPP ventures"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Marissa Clarke",
+    "relation": "day_includes",
+    "value": "pouring over blueprints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from pouring over blueprints to shaking hands with local shopkeepers"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Marissa Clarke",
+    "relation": "day_includes",
+    "value": "shaking hands with local shopkeepers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from pouring over blueprints to shaking hands with local shopkeepers"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

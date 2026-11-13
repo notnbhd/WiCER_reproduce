@@ -1,0 +1,515 @@
+{
+ "inventory": [
+  "Eldritch Hollow",
+  "Wychwood Forest",
+  "Cameron Ellis",
+  "Madeline Porter",
+  "Dr. Jonathan Rhee",
+  "Brandon Oakes",
+  "The Watcher",
+  "The Eldritch Echo",
+  "Cassandra Leigh",
+  "ancient oak",
+  "local legends"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Eldritch Hollow",
+    "relation": "is",
+    "value": "ancient burial grounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "twilight descends upon the ancient burial grounds of Eldritch Hollow"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Eldritch Hollow",
+    "relation": "believed_to_be_home_to",
+    "value": "restless spirits wandering in search of closure",
+    "time": null,
+    "speaker": "Some",
+    "verbatim": [
+     "Some believe these grounds are home to restless spirits wandering in search of closure"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Cameron Ellis",
+    "relation": "spent_night_at",
+    "value": "Eldritch Hollow",
+    "time": "September 13, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to spend a night at this haunting site on September 13, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Cameron Ellis",
+    "relation": "led_to",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The search for the truth led me, Cameron Ellis, to spend a night at this haunting site on September 13, 2023."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Eldritch Hollow",
+    "relation": "located_in",
+    "value": "Wychwood Forest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The burial grounds are nestled deep in the heart of the dense Wychwood Forest"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Eldritch Hollow",
+    "relation": "distance_from_nearest_town",
+    "value": "miles away from the nearest town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "miles away from the nearest town"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Cameron Ellis",
+    "relation": "arrived_at",
+    "value": "Eldritch Hollow",
+    "time": "sunset",
+    "speaker": null,
+    "verbatim": [
+     "I arrived under the amber glow of sunset"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Cameron Ellis",
+    "relation": "confidence_declined",
+    "value": "as the light waned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the light waned, so did my confidence."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Cameron Ellis",
+    "relation": "set_up_camp_near",
+    "value": "ancient oak",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I set up my camping gear near an ancient oak"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "ancient oak",
+    "relation": "reputed_age",
+    "value": "as old as the stories that envelop this mystic place",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reputed to be as old as the stories that envelop this mystic place"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Madeline Porter",
+    "relation": "profession",
+    "value": "Local historian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local historian Madeline Porter"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Cameron Ellis",
+    "relation": "interviewed",
+    "value": "Madeline Porter",
+    "time": "September 5th",
+    "speaker": null,
+    "verbatim": [
+     "during our interview on September 5th"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Madeline Porter",
+    "relation": "warned_that",
+    "value": "the land remembers those who lay in it and is everwatchful of the living who tread upon it",
+    "time": "September 5th",
+    "speaker": "Madeline Porter",
+    "verbatim": [
+     "had warned me during our interview on September 5th that the land remembers those who lay in it and is everwatchful of the living who tread upon it"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Jonathan Rhee",
+    "relation": "profession",
+    "value": "esteemed anthropologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "esteemed anthropologist Dr. Jonathan Rhee"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Jonathan Rhee",
+    "relation": "states",
+    "value": "burial grounds are seen as physical memories of the society that once flourished around them",
+    "time": "2024",
+    "speaker": "Dr. Jonathan Rhee",
+    "verbatim": [
+     "According to a 2024 article by esteemed anthropologist Dr. Jonathan Rhee, burial grounds are seen as physical memories of the society that once flourished around them"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Cameron Ellis",
+    "relation": "purpose_was",
+    "value": "to witness the cultural tapestry woven by the dead",
+    "time": "autumn's night",
+    "speaker": null,
+    "verbatim": [
+     "In the toe-chill of autumn's night, my purpose became clear: to witness the cultural tapestry woven by the dead."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Brandon Oakes",
+    "relation": "name_graces",
+    "value": "a wing of the nearby university",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Brandon Oakes, a name that graces a wing of the nearby university thanks to his philanthropic family lineage"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Brandon Oakes",
+    "relation": "caused_by",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a name that graces a wing of the nearby university thanks to his philanthropic family lineage"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Brandon Oakes",
+    "relation": "claims",
+    "value": "his ancestors communicated with him during his visit to the Hollow",
+    "time": null,
+    "speaker": "Brandon Oakes",
+    "verbatim": [
+     "claims that his ancestors communicated with him during his visit to the Hollow"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Cameron Ellis",
+    "relation": "considered",
+    "value": "Brandon's mysterious confession",
+    "time": "Around midnight",
+    "speaker": null,
+    "verbatim": [
+     "Around midnight, during my vigil, I considered Brandon's mysterious confession."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cameron Ellis",
+    "relation": "pressed_hand_against",
+    "value": "the damp earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I pressed my hand against the damp earth"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "local legends",
+    "relation": "tells_of",
+    "value": "a spirit known to locals as \"The Watcher\"",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Legend tells of a spirit known to locals as \"The Watcher.\""
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Watcher",
+    "relation": "described_as",
+    "value": "a guardian of the sacred land",
+    "time": null,
+    "speaker": "Some",
+    "verbatim": [
+     "Some say The Watcher is a guardian of the sacred land"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Watcher",
+    "relation": "described_as",
+    "value": "the embodiment of collective history",
+    "time": null,
+    "speaker": "others",
+    "verbatim": [
+     "others whisper it to be the embodiment of collective history"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "The Watcher",
+    "relation": "ensures",
+    "value": "that the stories of the past are not lost to the winds of time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that the stories of the past are not lost to the winds of time"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Cameron Ellis",
+    "relation": "observed",
+    "value": "a soft, blue light emanating from the earth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a faint glow caught my attention\u2014a soft, blue light emanating from the earth"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Cameron Ellis",
+    "relation": "observed",
+    "value": "the light receded with each step",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the light receded with each step"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "The Eldritch Echo",
+    "relation": "named_by",
+    "value": "locals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the phenomenon that locals have dubbed \"The Eldritch Echo\" began to manifest"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "The Eldritch Echo",
+    "relation": "began_to_manifest_at",
+    "value": "near the stroke of 2 AM",
+    "time": "near the stroke of 2 AM",
+    "speaker": null,
+    "verbatim": [
+     "It was near the stroke of 2 AM, the witching hour, when the phenomenon that locals have dubbed \"The Eldritch Echo\" began to manifest."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "The Eldritch Echo",
+    "relation": "described_as",
+    "value": "a revered event that only a brave few have claimed to experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is a revered event that only a brave few have claimed to experience."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Cassandra Leigh",
+    "relation": "profession",
+    "value": "spiritualist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cassandra Leigh, a spiritualist who visited on October 31st, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Cassandra Leigh",
+    "relation": "visited_on",
+    "value": "October 31st, 2023",
+    "time": "October 31st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cassandra Leigh, a spiritualist who visited on October 31st, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Cassandra Leigh",
+    "relation": "reported_hearing",
+    "value": "voices from the other side, speaking in a language of emotion that transcends barriers of life and death",
+    "time": null,
+    "speaker": "those like Cassandra Leigh",
+    "verbatim": [
+     "tell of hearing voices from the other side, speaking in a language of emotion that transcends barriers of life and death"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Cameron Ellis",
+    "relation": "became_aware_of",
+    "value": "a low murmur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sitting still among the silence, I became aware of a low murmur."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Cameron Ellis",
+    "relation": "observed",
+    "value": "no one was there\u2014only a chorus without form",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "My eyes swept the horizon, but no one was there\u2014only a chorus without form"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Eldritch Hollow",
+    "relation": "described_as",
+    "value": "a reservoir of living history and wisdom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are not solely a vault for the deceased but a reservoir of living history and wisdom"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Cameron Ellis",
+    "relation": "learned",
+    "value": "the ethereal experiences of the night seemed unreal, fleeting",
+    "time": "As the first light of dawn approached",
+    "speaker": null,
+    "verbatim": [
+     "As the first light of dawn approached, the ethereal experiences of the night seemed unreal, fleeting."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Cameron Ellis",
+    "relation": "grasped",
+    "value": "a profound truth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "I grasped a profound truth: In the mysteries of ancient burial grounds like Eldritch Hollow, there is a magic that transcends superstition."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Eldritch Hollow",
+    "relation": "magic_is",
+    "value": "the magic of connection to our ancestors, to our heritage, and to the stories that define us",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is the magic of connection to our ancestors, to our heritage, and to the stories that define us."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Eldritch Hollow",
+    "relation": "transformed_from",
+    "value": "a theater of spectral occurrences to a landscape painted with life",
+    "time": "With the rising sun",
+    "speaker": null,
+    "verbatim": [
+     "With the rising sun, the burial ground transformed from a theater of spectral occurrences to a landscape painted with life."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Eldritch Hollow",
+    "relation": "aura_not_dispelled_by_daylight",
+    "value": "the aura of otherworldliness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The return to the realm of daylight did not dispel the aura of otherworldliness of Eldritch Hollow."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "local legends",
+    "relation": "daylight_cast_new_light_on",
+    "value": "the value of local legends and folklore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it cast a new light on the value of local legends and folklore"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local legends",
+    "relation": "uncover",
+    "value": "the cloaked depths of our existence and the spiritual threads that tie us to the land",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is in these tales that we uncover the cloaked depths of our existence and the spiritual threads that tie us to the land."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Eldritch Hollow",
+    "relation": "enigmas_remain",
+    "value": "perhaps forever unsolved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The enigmas of Eldritch Hollow would remain, perhaps forever unsolved, but enriched by one more story\u2014my own."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Cameron Ellis",
+    "relation": "looked_over",
+    "value": "the burial grounds one last time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As I packed my belongings, my eyes wandered over the burial grounds one last time."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

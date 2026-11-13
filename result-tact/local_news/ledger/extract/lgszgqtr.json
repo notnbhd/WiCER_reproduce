@@ -1,0 +1,971 @@
+{
+ "inventory": [
+  "Greendale",
+  "Mayor Linda Matheson",
+  "Neighborhood Improvement Plans",
+  "City Hall",
+  "Parks and Playgrounds Upgrade",
+  "Public-Private Partnerships",
+  "Henderson's Hardware Emporium",
+  "InnovateX",
+  "Phase One",
+  "Hathaway Park",
+  "Sarah Kingston",
+  "Michael Thompson",
+  "James P. Sullivan",
+  "Elijah Patel",
+  "Claire Rodriguez",
+  "Daniel Abrams",
+  "Parks Department",
+  "Parks and Recreation Committee",
+  "Beatrice Monroe",
+  "David Nguyen",
+  "Dr. Anthony Price",
+  "Sandra Clark",
+  "smart benches",
+  "community gardens",
+  "fitness zones",
+  "natural trails",
+  "pocket parks"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Greendale",
+    "relation": "buzzing_with",
+    "value": "excitement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The town of Greendale is buzzing with excitement"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Greendale",
+    "relation": "plans_overhaul_of",
+    "value": "public parks and playgrounds",
+    "time": "this autumn",
+    "speaker": "local officials",
+    "verbatim": [
+     "local officials have announced a major overhaul of the community's public parks and playgrounds, slated to begin this autumn"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "begins",
+    "value": "this autumn",
+    "time": "this autumn",
+    "speaker": null,
+    "verbatim": [
+     "slated to begin this autumn"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Mayor Linda Matheson",
+    "relation": "spearheads",
+    "value": "the parks and playgrounds initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheading this initiative is Mayor Linda Matheson"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mayor Linda Matheson",
+    "relation": "unveiled",
+    "value": "Neighborhood Improvement Plans",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on September 15, 2023, unveiled the comprehensive Neighborhood Improvement Plans"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Neighborhood Improvement Plans",
+    "relation": "described_as",
+    "value": "comprehensive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unveiled the comprehensive Neighborhood Improvement Plans"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Neighborhood Improvement Plans",
+    "relation": "unveiled_at",
+    "value": "City Hall",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during a well-attended press conference at City Hall"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "City Hall",
+    "relation": "hosted",
+    "value": "a well-attended press conference",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a well-attended press conference at City Hall"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "displayed_with",
+    "value": "vibrant renderings of potential park upgrades",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flanked with vibrant renderings of potential park upgrades"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mayor Linda Matheson",
+    "relation": "emphasized",
+    "value": "the importance of providing quality outdoor spaces for residents of all ages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Matheson emphasized the importance of providing quality outdoor spaces for residents of all ages."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mayor Linda Matheson",
+    "relation": "stated",
+    "value": "to create pockets of joy and tranquility amidst our bustling town",
+    "time": null,
+    "speaker": "Mayor Linda Matheson",
+    "verbatim": [
+     "We want to create pockets of joy and tranquility amidst our bustling town."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mayor Linda Matheson",
+    "relation": "stated",
+    "value": "A place where parents can unwind, children can frolic, and the community can grow together",
+    "time": null,
+    "speaker": "Mayor Linda Matheson",
+    "verbatim": [
+     "A place where parents can unwind, children can frolic, and the community can grow together"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mayor Linda Matheson",
+    "relation": "words_drew",
+    "value": "nods of approval and spirited applause from those gathered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her words drawing nods of approval and spirited applause from those gathered"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Public-Private Partnerships",
+    "relation": "key_to",
+    "value": "the project\u2019s success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key to the project\u2019s success is the innovative approach of forging public-private partnerships"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Public-Private Partnerships",
+    "relation": "allowed",
+    "value": "mobilize significant resources without burdening taxpayers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which has allowed the town to mobilize significant resources without burdening taxpayers"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Public-Private Partnerships",
+    "relation": "enables",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key to the project\u2019s success is the innovative approach of forging public-private partnerships, which has allowed the town to mobilize significant resources without burdening taxpayers."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Public-Private Partnerships",
+    "relation": "supported_by",
+    "value": "venture capitalists and local businesses",
+    "time": "By October 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October 2023, venture capitalists and local businesses like the family-owned Henderson's Hardware Emporium and the tech start-up InnovateX had pledged their support"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Public-Private Partnerships",
+    "relation": "provided",
+    "value": "both funding and expertise to reinvigorate the town's green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing both funding and expertise to reinvigorate the town's green spaces"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Henderson's Hardware Emporium",
+    "relation": "pledged_support",
+    "value": "support",
+    "time": "By October 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October 2023, venture capitalists and local businesses like the family-owned Henderson's Hardware Emporium and the tech start-up InnovateX had pledged their support"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Henderson's Hardware Emporium",
+    "relation": "ownership",
+    "value": "family-owned",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the family-owned Henderson's Hardware Emporium"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "InnovateX",
+    "relation": "pledged_support",
+    "value": "support",
+    "time": "By October 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October 2023, venture capitalists and local businesses like the family-owned Henderson's Hardware Emporium and the tech start-up InnovateX had pledged their support"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "InnovateX",
+    "relation": "is_a",
+    "value": "tech start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the tech start-up InnovateX"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "conducted_in",
+    "value": "phases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The revamp will occur in phases"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "aims_for",
+    "value": "minimal disruption to daily life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming for minimal disruption to daily life"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Phase One",
+    "relation": "expected_to_kick_off",
+    "value": "kick-off",
+    "time": "by November 1",
+    "speaker": null,
+    "verbatim": [
+     "Phase One is expected to kick-off by November 1."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Hathaway Park",
+    "relation": "is_oldest_park_in",
+    "value": "Greendale",
+    "time": null,
+    "speaker": "Sarah Kingston",
+    "verbatim": [
+     "We\u2019ll be starting with the oldest park in Greendale, Hathaway Park."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "starts_with",
+    "value": "Hathaway Park",
+    "time": null,
+    "speaker": "Sarah Kingston",
+    "verbatim": [
+     "We\u2019ll be starting with the oldest park in Greendale, Hathaway Park."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Hathaway Park",
+    "relation": "holds_sentimental_value_for",
+    "value": "many residents",
+    "time": null,
+    "speaker": "Sarah Kingston",
+    "verbatim": [
+     "It holds sentimental value to many residents"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Hathaway Park",
+    "relation": "needs",
+    "value": "a facelift",
+    "time": null,
+    "speaker": "Sarah Kingston",
+    "verbatim": [
+     "it's high time it got a facelift"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sarah Kingston",
+    "relation": "title",
+    "value": "Director of Public Works",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kingston, the Director of Public Works overseeing the operations"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sarah Kingston",
+    "relation": "oversees",
+    "value": "the operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Director of Public Works overseeing the operations"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "features",
+    "value": "sustainability features heavily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sustainability features heavily in the redesign efforts."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "includes_green_technology",
+    "value": "solarpowered lights and water-conserving irrigation systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green technology such as solarpowered lights and water-conserving irrigation systems are just a few of the measures that will be integrated."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Michael Thompson",
+    "relation": "occupation",
+    "value": "Landscape architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Landscape architect Michael Thompson, tasked with the greenery aspect"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Michael Thompson",
+    "relation": "tasked_with",
+    "value": "the greenery aspect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Landscape architect Michael Thompson, tasked with the greenery aspect"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Michael Thompson",
+    "relation": "stated",
+    "value": "these spaces will be environmentally responsible and economically sustainable",
+    "time": null,
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "these spaces will be environmentally responsible and economically sustainable"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "James P. Sullivan",
+    "relation": "expertise",
+    "value": "child development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With expertise in child development, educator James P. Sullivan"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "James P. Sullivan",
+    "relation": "occupation",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educator James P. Sullivan"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "James P. Sullivan",
+    "relation": "provides_insight_into",
+    "value": "playground designs focusing on inclusivity and accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides insight into the playground designs focusing on inclusivity and accessibility"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "James P. Sullivan",
+    "relation": "plans",
+    "value": "creative play structures that are ADA-compliant",
+    "time": null,
+    "speaker": "James P. Sullivan",
+    "verbatim": [
+     "We're planning creative play structures that are ADA-compliant"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "provides",
+    "value": "stimulating experiences for children with diverse interests and needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Interactive installations will ensure that the playgrounds provide stimulating experiences for children with diverse interests and needs."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "smart benches",
+    "relation": "equipped_with",
+    "value": "charging stations and free Wi-Fi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "smart benches equipped with charging stations and free Wi-Fi"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "smart benches",
+    "relation": "proposed_by",
+    "value": "Elijah Patel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as proposed by Elijah Patel"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Elijah Patel",
+    "relation": "role",
+    "value": "youngest member of the city council",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elijah Patel, the youngest member of the city council"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "smart benches",
+    "relation": "expected_to",
+    "value": "transform how visitors interact with the space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These features are poised to transform how visitors interact with the space"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "smart benches",
+    "relation": "caters_to",
+    "value": "the connected lifestyles of Greendale's populace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catering to the connected lifestyles of Greendale's populace"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "community gardens",
+    "relation": "expected_to",
+    "value": "make a huge comeback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community gardens are on the trajectory to make a huge comeback"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "community gardens",
+    "relation": "plans_to_allocate",
+    "value": "plots of land within the parks for local residents to cultivate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plans to allocate plots of land within the parks for local residents to cultivate"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "community gardens",
+    "relation": "stated",
+    "value": "will help foster a sense of community and provide an opportunity for residents to learn about sustainable living firsthand",
+    "time": null,
+    "speaker": "Claire Rodriguez",
+    "verbatim": [
+     "The gardens will help foster a sense of community and provide an opportunity for residents to learn about sustainable living firsthand"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Claire Rodriguez",
+    "relation": "occupation",
+    "value": "environmental activist and local resident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "environmental activist and local resident, Claire Rodriguez"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "safety_priority",
+    "value": "paramount concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Safety is a paramount concern in the reimagined parks."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "includes",
+    "value": "state-of-the-art surveillance systems and increased patrol by community security teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The introduction of state-of-the-art surveillance systems and increased patrol by community security teams will help families feel secure."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "helps_families_feel",
+    "value": "secure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will help families feel secure"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "results_in",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The introduction of state-of-the-art surveillance systems and increased patrol by community security teams will help families feel secure."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Daniel Abrams",
+    "relation": "title",
+    "value": "Police Chief",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Police Chief Daniel Abrams"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Daniel Abrams",
+    "relation": "announced_collaboration_with",
+    "value": "Parks Department",
+    "time": null,
+    "speaker": "Daniel Abrams",
+    "verbatim": [
+     "announced a collaboration with the Parks Department"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Parks Department",
+    "relation": "ensures",
+    "value": "these spaces remain havens for families",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure that these spaces remain havens for families"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Daniel Abrams",
+    "relation": "in_order_to",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "announced a collaboration with the Parks Department to ensure that these spaces remain havens for families."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Parks and Recreation Committee",
+    "relation": "expects_to_roll_out",
+    "value": "a calendar filled with community events",
+    "time": "By January of 2024",
+    "speaker": null,
+    "verbatim": [
+     "By January of 2024, the Parks and Recreation Committee expects to roll out a calendar filled with community events"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Parks and Recreation Committee",
+    "relation": "events_include",
+    "value": "outdoor concerts, movie nights, and fitness classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community events such as outdoor concerts, movie nights, and fitness classes"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Beatrice Monroe",
+    "relation": "occupation",
+    "value": "arts coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "arts coordinator Beatrice Monroe"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Beatrice Monroe",
+    "relation": "stated",
+    "value": "bringing people together and enriching the cultural fabric of our town",
+    "time": null,
+    "speaker": "Beatrice Monroe",
+    "verbatim": [
+     "bringing people together and enriching the cultural fabric of our town"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "anticipated_to_bolster",
+    "value": "the local economy by attracting new visitors to the area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "anticipated to bolster the local economy by attracting new visitors to the area"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "creates_jobs",
+    "value": "jobs during the construction phase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating jobs during the construction phase"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "long_term_economic_impacts_expected",
+    "value": "expected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long-term economic impacts are expected due to increased property values and consumer spending."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "increases",
+    "value": "property values and consumer spending",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to increased property values and consumer spending"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "caused_by",
+    "value_ref": "c66",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Long-term economic impacts are expected due to increased property values and consumer spending."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "David Nguyen",
+    "relation": "occupation",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economist David Nguyen notes"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "David Nguyen",
+    "relation": "notes",
+    "value": "Quality public spaces stimulate economic activity",
+    "time": null,
+    "speaker": "David Nguyen",
+    "verbatim": [
+     "Quality public spaces stimulate economic activity"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "guiding_principle",
+    "value": "promoting health and well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Promoting health and well-being is a guiding principle behind the park and playground upgrades."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "fitness zones",
+    "relation": "include",
+    "value": "outdoor gym equipment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "New fitness zones with outdoor gym equipment"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "fitness zones",
+    "relation": "provide",
+    "value": "additional options to stay healthy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will provide residents with additional options to stay healthy"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Dr. Anthony Price",
+    "relation": "occupation",
+    "value": "local pediatrician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Anthony Price, a local pediatrician, praises this approach"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Dr. Anthony Price",
+    "relation": "stated",
+    "value": "Accessibility to outdoor exercise options has a proven positive impact on the community's health",
+    "time": null,
+    "speaker": "Dr. Anthony Price",
+    "verbatim": [
+     "Accessibility to outdoor exercise options has a proven positive impact on the community's health."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "includes",
+    "value": "expansion of natural trails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The upgrade plans also include the expansion of natural trails and the protection of indigenous flora and fauna."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Parks and Playgrounds Upgrade",
+    "relation": "includes",
+    "value": "protection of indigenous flora and fauna",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The upgrade plans also include the expansion of natural trails and the protection of indigenous flora and fauna."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "natural trails",
+    "relation": "included_in",
+    "value": "the upgrade plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The upgrade plans also include the expansion of natural trails"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Sandra Clark",
+    "relation": "occupation",
+    "value": "Biologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biologist Sandra Clark, who has been involved in crafting the nature conservation strategy"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Sandra Clark",
+    "relation": "involved_in",
+    "value": "crafting the nature conservation strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has been involved in crafting the nature conservation strategy"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Sandra Clark",
+    "relation": "assures",
+    "value": "These improvements will create a refuge for both wildlife and people",
+    "time": null,
+    "speaker": "Sandra Clark",
+    "verbatim": [
+     "These improvements will create a refuge for both wildlife and people, fostering a deeper connection with the natural environment."
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Greendale",
+    "relation": "commitment",
+    "value": "revitalizing community spaces doesn't end with parks and playgrounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greendale's commitment to revitalizing community spaces doesn't end with parks and playgrounds."
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "pocket parks",
+    "relation": "repurposed_from",
+    "value": "abandoned lots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "repurposing abandoned lots into pocket parks and community spaces"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "pocket parks",
+    "relation": "ensures",
+    "value": "every neighborhood can benefit from the project",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that every neighborhood can benefit from the project"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "Greendale",
+    "relation": "expects_activity",
+    "value": "an outpour of activity",
+    "time": "The coming months",
+    "speaker": null,
+    "verbatim": [
+     "The coming months will see an outpour of activity"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "Greendale",
+    "relation": "community_anticipates",
+    "value": "vibrant, family-friendly environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community eagerly anticipates the vibrant, family-friendly environments that will emerge"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

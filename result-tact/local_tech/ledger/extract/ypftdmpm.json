@@ -1,0 +1,521 @@
+{
+ "inventory": [
+  "SmithGenomics",
+  "Dr. Bethany Clarke",
+  "VitaTech",
+  "Dr. Aaron Miles",
+  "GeneCorrect",
+  "CRISPR technology",
+  "Dr. Lin Yao",
+  "cystic fibrosis",
+  "HealInnovate",
+  "BioPredict",
+  "Dr. Sophie Bennett",
+  "NeuroLink",
+  "Local Economic Development Office",
+  "Public Health Outreach Program",
+  "influenza",
+  "cancer",
+  "precision medicine"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "VitaTech",
+    "relation": "is_a",
+    "value": "biotech firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VitaTech, a biotech firm that opened its doors on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "VitaTech",
+    "relation": "opened_doors",
+    "value": "December 3, 2023",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "VitaTech, a biotech firm that opened its doors on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "VitaTech",
+    "relation": "developed",
+    "value": "a vaccine aimed at a unique strain of influenza",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rapid development of a vaccine aimed at a unique strain of influenza"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "influenza",
+    "relation": "prevalent_in",
+    "value": "our region",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a unique strain of influenza that\u2019s most prevalent in our region"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Aaron Miles",
+    "relation": "led",
+    "value": "VitaTech vaccine development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by Immunologist Dr. Aaron Miles"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Aaron Miles",
+    "relation": "is_a",
+    "value": "Immunologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Immunologist Dr. Aaron Miles"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "VitaTech",
+    "relation": "vaccine_tailored_to",
+    "value": "the genetic makeup of our local populace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is tailored to the genetic makeup of our local populace"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "VitaTech",
+    "relation": "vaccine_ensures",
+    "value": "a higher efficacy rate and fewer side effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring a higher efficacy rate and fewer side effects"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "VitaTech",
+    "relation": "vaccine_differs_from",
+    "value": "others currently on the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "differs from others currently on the market"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "VitaTech",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is tailored to the genetic makeup of our local populace, ensuring a higher efficacy rate and fewer side effects"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "SmithGenomics",
+    "relation": "unveiled",
+    "value": "a landmark genetic sequencing technology",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, SmithGenomics unveiled a landmark genetic sequencing technology"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "SmithGenomics",
+    "relation": "technology_offers",
+    "value": "a more detailed look at individuals' genetic predispositions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that offers a more detailed look at individuals' genetic predispositions"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Bethany Clarke",
+    "relation": "developed",
+    "value": "a sophisticated algorithm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using a sophisticated algorithm developed by Dr. Bethany Clarke and her team"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "SmithGenomics",
+    "relation": "mapped",
+    "value": "genetic markers that link to several chronic diseases prevalent in our local population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SmithGenomics has successfully mapped genetic markers that link to several chronic diseases prevalent in our local population"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "SmithGenomics",
+    "relation": "mechanism_of",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using a sophisticated algorithm developed by Dr. Bethany Clarke and her team, SmithGenomics has successfully mapped"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "precision medicine",
+    "relation": "can_lead_to",
+    "value": "highly personalized care plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their work in precision medicine can lead to highly personalized care plans"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "precision medicine",
+    "relation": "heralds",
+    "value": "a new phase in disease prevention and management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heralding a new phase in disease prevention and management"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "GeneCorrect",
+    "relation": "is_a",
+    "value": "local biotech firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local biotech firm GeneCorrect"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "GeneCorrect",
+    "relation": "announced",
+    "value": "a breakthrough in using CRISPR technology to repair genetic mutations associated with chronic conditions such as cystic fibrosis",
+    "time": "January 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 4, 2024, GeneCorrect announced a breakthrough in using CRISPR technology to repair genetic mutations associated with chronic conditions such as cystic fibrosis"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "CRISPR technology",
+    "relation": "used_to",
+    "value": "repair genetic mutations associated with chronic conditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using CRISPR technology to repair genetic mutations associated with chronic conditions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "cystic fibrosis",
+    "relation": "is_a",
+    "value": "chronic condition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chronic conditions such as cystic fibrosis"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "cystic fibrosis",
+    "relation": "affects",
+    "value": "a significant portion of our local demographic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a condition that affects a significant portion of our local demographic"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Lin Yao",
+    "relation": "is_a",
+    "value": "geneticist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the dynamic team of geneticists, including Dr. Lin Yao"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "cystic fibrosis",
+    "relation": "potential_to_eradicate_manifestations",
+    "value": "the disease's manifestations in affected individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this initiative has the potential to eradicate the disease's manifestations in affected individuals"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "HealInnovate",
+    "relation": "is_a",
+    "value": "local biotech institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A local biotech institute, HealInnovate, launched a series of clinical trials"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "HealInnovate",
+    "relation": "launched",
+    "value": "a series of clinical trials targeting novel cancer therapies",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "HealInnovate, launched a series of clinical trials on February 15, 2024, targeting novel cancer therapies"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "cancer",
+    "relation": "combated_by",
+    "value": "HealInnovate clinical trials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The trials aim not only to combat the cancer types most common among our population"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "HealInnovate",
+    "relation": "aims_to_combat",
+    "value": "the cancer types most common among our population",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The trials aim not only to combat the cancer types most common among our population"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "HealInnovate",
+    "relation": "aims_to_build",
+    "value": "a comprehensive database to inform future healthcare strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to build a comprehensive database to inform future healthcare strategies"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "HealInnovate",
+    "relation": "trial_participants",
+    "value": "local patients who have previously had limited treatment options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants are local patients who have previously had limited treatment options"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "BioPredict",
+    "relation": "is_a",
+    "value": "local startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local startup BioPredict launched an initiative"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "BioPredict",
+    "relation": "launched",
+    "value": "an initiative employing advanced analytics to predict outbreaks and health trends within our community",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Local startup BioPredict launched an initiative on March 1, 2024, employing advanced analytics to predict outbreaks and health trends within our community"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Sophie Bennett",
+    "relation": "is_a",
+    "value": "data scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by data scientist Dr. Sophie Bennett"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Sophie Bennett",
+    "relation": "led",
+    "value": "BioPredict initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by data scientist Dr. Sophie Bennett"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "BioPredict",
+    "relation": "models_enabled",
+    "value": "healthcare providers to optimize resource allocation and patient care well before potential threats materialize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their models have enabled healthcare providers to optimize resource allocation and patient care well before potential threats materialize"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "NeuroLink",
+    "relation": "established_in",
+    "value": "late 2023",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "NeuroLink, established in late 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "NeuroLink",
+    "relation": "developed",
+    "value": "wearable devices that assist in monitoring stress and anxiety levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has developed wearable devices that assist in monitoring stress and anxiety levels"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "NeuroLink",
+    "relation": "devices_offer",
+    "value": "biofeedback and cognitive behavioral therapy exercises personalized to the user's needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the devices offer biofeedback and cognitive behavioral therapy exercises personalized to the user's needs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "NeuroLink",
+    "relation": "focus",
+    "value": "preventive care",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a focus on preventive care"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "NeuroLink",
+    "relation": "reported_impact",
+    "value": "decreased absenteeism from work and improved overall wellbeing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with reports of decreased absenteeism from work and improved overall wellbeing"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Local Economic Development Office",
+    "relation": "released_report",
+    "value": "a report highlighting the creation of over 1,200 jobs across research, development, and administrative roles within biotech firms",
+    "time": "April 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A report released by the Local Economic Development Office on April 10, 2024, highlights the creation of over 1,200 jobs across research, development, and administrative roles within biotech firms"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Local Economic Development Office",
+    "relation": "reports_jobs_created",
+    "value": "over 1,200 jobs across research, development, and administrative roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlights the creation of over 1,200 jobs across research, development, and administrative roles within biotech firms"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Public Health Outreach Program",
+    "relation": "launched",
+    "value": "to facilitate communication and partnership between local biotech firms and the public",
+    "time": "May 14, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On May 14, 2024, the Public Health Outreach Program (PHOP) was launched to facilitate communication and partnership between local biotech firms and the public"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Public Health Outreach Program",
+    "relation": "abbreviated_as",
+    "value": "PHOP",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Public Health Outreach Program (PHOP)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Public Health Outreach Program",
+    "relation": "fosters",
+    "value": "an environment of trust and engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative fosters an environment of trust and engagement"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

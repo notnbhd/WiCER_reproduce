@@ -1,0 +1,775 @@
+{
+ "inventory": [
+  "Local Health and Wellness community",
+  "Wellness Workshops",
+  "Emma Johnson",
+  "Dr. Robert Langley",
+  "Maria Gonzales",
+  "David Smith",
+  "Jasmine Turner",
+  "John Carter",
+  "SMART goals",
+  "cognitive behavioral therapy",
+  "resilience",
+  "goal-setting",
+  "mindfulness",
+  "self-care",
+  "resilience diaries",
+  "goal-tracking apps",
+  "alumni network"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Wellness Workshops",
+    "relation": "starts_on",
+    "value": "September 15, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With sessions starting on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wellness Workshops",
+    "relation": "aimed_at",
+    "value": "steering individuals towards personal growth through goal setting and developing resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a series of Wellness Workshops aimed at steering individuals towards personal growth through goal setting and developing resilience."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Wellness Workshops",
+    "relation": "described_as",
+    "value": "a beacon for those looking to transform their lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these workshops have become a beacon for those looking to transform their lives."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Wellness Workshops",
+    "relation": "described_as",
+    "value": "engaging, interactive experiences that merge expert advice with personal testimonies and hands-on activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are engaging, interactive experiences that merge expert advice with personal testimonies and hands-on activities"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Wellness Workshops",
+    "relation": "provides",
+    "value": "a nurturing environment for attendees to blossom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing a nurturing environment for attendees to blossom."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Wellness Workshops",
+    "relation": "offers",
+    "value": "a unique blend of support, knowledge, and tools necessary for achieving personal aspirations and weathering life\u2019s inevitable storms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They offer a unique blend of support, knowledge, and tools necessary for achieving personal aspirations and weathering life\u2019s inevitable storms."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emma Johnson",
+    "relation": "occupation",
+    "value": "life coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by the renowned life coach Emma Johnson"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Robert Langley",
+    "relation": "occupation",
+    "value": "psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "along with psychologist Dr. Robert Langley"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emma Johnson",
+    "relation": "organized",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by the renowned life coach Emma Johnson, along with psychologist Dr. Robert Langley"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Robert Langley",
+    "relation": "organized",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organized by the renowned life coach Emma Johnson, along with psychologist Dr. Robert Langley"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Wellness Workshops",
+    "relation": "designed_to",
+    "value": "cut to the core of what hinders personal advancement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these workshops have been meticulously designed to cut to the core of what hinders personal advancement."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emma Johnson",
+    "relation": "approach_influenced_by",
+    "value": "her belief that setting clear, actionable goals is the cornerstone of growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Johnson's approach is deeply influenced by her belief that setting clear, actionable goals is the cornerstone of growth."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Emma Johnson",
+    "relation": "believes",
+    "value": "setting clear, actionable goals is the cornerstone of growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her belief that setting clear, actionable goals is the cornerstone of growth."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emma Johnson",
+    "relation": "says",
+    "value": "Goals give us a roadmap",
+    "time": null,
+    "speaker": "Emma Johnson",
+    "verbatim": [
+     "\"Goals give us a roadmap,\" she explains."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emma Johnson",
+    "relation": "says",
+    "value": "They allow us to focus our energy in the right direction.",
+    "time": null,
+    "speaker": "Emma Johnson",
+    "verbatim": [
+     "\"They allow us to focus our energy in the right direction.\""
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "goal-setting",
+    "relation": "enables",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Goals give us a roadmap,\" she explains.",
+     "\"They allow us to focus our energy in the right direction.\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Robert Langley",
+    "relation": "expertise_in",
+    "value": "cognitive behavioral therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Langley, with his expertise in cognitive behavioral therapy"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "resilience",
+    "relation": "described_as",
+    "value": "a fundamental trait that can be nurtured over time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spotlights resilience as a fundamental trait that can be nurtured over time."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Robert Langley",
+    "relation": "says",
+    "value": "Resilience isn't about never facing challenges",
+    "time": null,
+    "speaker": "Dr. Robert Langley",
+    "verbatim": [
+     "\"Resilience isn't about never facing challenges,\" he says."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Robert Langley",
+    "relation": "says",
+    "value": "It's about developing the tools to recover from setbacks stronger than before.",
+    "time": null,
+    "speaker": "Dr. Robert Langley",
+    "verbatim": [
+     "\"It's about developing the tools to recover from setbacks stronger than before.\""
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Wellness Workshops",
+    "relation": "occurs",
+    "value": "biweekly",
+    "time": "until December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The workshops, occurring biweekly until December 12, 2023, invite participants on a transformative journey."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Wellness Workshops",
+    "relation": "provides",
+    "value": "a space to discover and refine one's vision for the future, coupled with the skills needed to achieve it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They provide a space to discover and refine one's vision for the future, coupled with the skills needed to achieve it."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Wellness Workshops",
+    "relation": "places_heavy_emphasis_on",
+    "value": "goal-setting",
+    "time": "initial workshops",
+    "speaker": null,
+    "verbatim": [
+     "The initial workshops place a heavy emphasis on goal-setting."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Wellness Workshops",
+    "relation": "teaches",
+    "value": "breaking down ambitions into manageable steps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Attendees learn to break down their ambitions into manageable steps."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria Gonzales",
+    "relation": "role",
+    "value": "recent participant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a recent participant, spoke about how the workshops offered her a new perspective on planning her future."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Gonzales",
+    "relation": "spoke_about",
+    "value": "the workshops offered her a new perspective on planning her future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a recent participant, spoke about how the workshops offered her a new perspective on planning her future."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria Gonzales",
+    "relation": "says",
+    "value": "Before, my dreams felt too distant, almost unattainable.",
+    "time": "before",
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "\"Before, my dreams felt too distant, almost unattainable."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Maria Gonzales",
+    "relation": "says",
+    "value": "I\u2019ve realized the power of setting smaller, achievable goals.",
+    "time": "now",
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "But now, I\u2019ve realized the power of setting smaller, achievable goals."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Maria Gonzales",
+    "relation": "says",
+    "value": "It's incredibly empowering",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "It's incredibly empowering,\" she shares."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "SMART goals",
+    "relation": "stands_for",
+    "value": "Specific, Measurable, Achievable, Relevant, Timebound",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The art of creating SMART goals\u2014Specific, Measurable, Achievable, Relevant, and Timebound\u2014is a central theme."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "SMART goals",
+    "relation": "central_theme_of",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The art of creating SMART goals\u2014Specific, Measurable, Achievable, Relevant, and Timebound\u2014is a central theme."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Wellness Workshops",
+    "relation": "leaves_participants_with",
+    "value": "a personal blueprint for success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "personal blueprint for success but also with a newfound confidence in their ability to make lasting changes in their lives."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Wellness Workshops",
+    "relation": "leaves_participants_with",
+    "value": "a newfound confidence in their ability to make lasting changes in their lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also with a newfound confidence in their ability to make lasting changes in their lives."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Wellness Workshops",
+    "relation": "aims_to",
+    "value": "arm attendees with resiliencebuilding strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The workshops aim to arm attendees with resiliencebuilding strategies."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Wellness Workshops",
+    "relation": "uses",
+    "value": "Real-life scenarios, roleplaying, and group discussions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-life scenarios, roleplaying, and group discussions guide participants through the process of navigating setbacks and maintaining focus on their objectives."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "David Smith",
+    "relation": "role",
+    "value": "another participant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Smith, another participant, confided"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "David Smith",
+    "relation": "says",
+    "value": "The resilience training was a gamechanger for me.",
+    "time": null,
+    "speaker": "David Smith",
+    "verbatim": [
+     "The resilience training was a gamechanger for me."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "David Smith",
+    "relation": "says",
+    "value": "Learning that it's okay to fail\u2014and more importantly, how to recover\u2014has removed so much fear.",
+    "time": null,
+    "speaker": "David Smith",
+    "verbatim": [
+     "Learning that it's okay to fail\u2014and more importantly, how to recover\u2014has removed so much fear."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "resilience",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Learning that it's okay to fail\u2014and more importantly, how to recover\u2014has removed so much fear."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Wellness Workshops",
+    "relation": "covers",
+    "value": "mindfulness, self-care, and cultivating a positive support network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conversations delve into topics like mindfulness, self-care, and cultivating a positive support network, tools that are indispensable for sustaining motivation and overcoming adversity."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "mindfulness",
+    "relation": "discussed_in",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conversations delve into topics like mindfulness, self-care, and cultivating a positive support network"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "self-care",
+    "relation": "discussed_in",
+    "value": "Wellness Workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Conversations delve into topics like mindfulness, self-care, and cultivating a positive support network"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Wellness Workshops",
+    "relation": "tools_indispensable_for",
+    "value": "sustaining motivation and overcoming adversity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tools that are indispensable for sustaining motivation and overcoming adversity."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Wellness Workshops",
+    "relation": "provides_proof_that",
+    "value": "the strategies taught can result in real, profound transformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They provide living proof that the strategies taught can result in real, profound transformation."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jasmine Turner",
+    "relation": "attended",
+    "value": "Wellness Workshops",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "One such story is that of Jasmine Turner, who, after attending the workshops in late 2023, launched her own small business."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Jasmine Turner",
+    "relation": "launched",
+    "value": "her own small business",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "One such story is that of Jasmine Turner, who, after attending the workshops in late 2023, launched her own small business."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Jasmine Turner",
+    "relation": "says",
+    "value": "I'd been dreaming about this for years, but I never seemed to make any progress.",
+    "time": null,
+    "speaker": "Jasmine Turner",
+    "verbatim": [
+     "I'd been dreaming about this for years, but I never seemed to make any progress."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jasmine Turner",
+    "relation": "says",
+    "value": "The workshops equipped me with a clear vision and practical steps.",
+    "time": null,
+    "speaker": "Jasmine Turner",
+    "verbatim": [
+     "The workshops equipped me with a clear vision and practical steps."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jasmine Turner",
+    "relation": "says",
+    "value": "they gave me the belief that I could succeed",
+    "time": null,
+    "speaker": "Jasmine Turner",
+    "verbatim": [
+     "they gave me the belief that I could succeed"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Wellness Workshops",
+    "relation": "sense_of_community",
+    "value": "palpable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sense of community within the workshops is palpable, fostering an environment where participants feel safe to share their aspirations and challenges."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Wellness Workshops",
+    "relation": "supportive_network",
+    "value": "continues to grow with each session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This supportive network continues to grow with each session, as individuals connect and bond over shared experiences."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Wellness Workshops",
+    "relation": "breakout_sessions_focus_on",
+    "value": "peer-to-peer coaching and mentoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Collaboration is encouraged, with breakout sessions focusing on peer-to-peer coaching and mentoring."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "John Carter",
+    "relation": "helped_by",
+    "value": "peer-to-peer coaching and mentoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach has been instrumental in helping participants such as John Carter"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "John Carter",
+    "relation": "says",
+    "value": "being able to talk openly about my fears and struggles, and in turn, offer support to others, has been just as valuable as the formal training",
+    "time": null,
+    "speaker": "John Carter",
+    "verbatim": [
+     "being able to talk openly about my fears and struggles, and in turn, offer support to others, has been just as valuable as the formal training."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Wellness Workshops",
+    "relation": "provides",
+    "value": "a personalized toolkit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each participant leaves with a personalized toolkit"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "resilience diaries",
+    "relation": "included_in",
+    "value": "personalized toolkit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brimming with resources such as resilience diaries"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "goal-tracking apps",
+    "relation": "included_in",
+    "value": "personalized toolkit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brimming with resources such as resilience diaries, goal-tracking apps,"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Wellness Workshops",
+    "relation": "provides",
+    "value": "recommended readings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recommended readings, and access to a supportive alumni network."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "alumni network",
+    "relation": "included_in",
+    "value": "personalized toolkit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "access to a supportive alumni network."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "alumni network",
+    "relation": "described_as",
+    "value": "supportive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "access to a supportive alumni network."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Wellness Workshops",
+    "relation": "duration",
+    "value": "several weeks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The workshops may span several weeks, but the benefits extend far beyond."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Wellness Workshops",
+    "relation": "benefits_extend",
+    "value": "far beyond",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but the benefits extend far beyond."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Wellness Workshops",
+    "relation": "perpetuates",
+    "value": "a cycle of consistent personal growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Participants carry these resources into their daily lives, perpetuating a cycle of consistent personal growth."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Emma Johnson",
+    "relation": "says",
+    "value": "We're not just building better goal-setters; we're nurturing individuals who can thrive in the face of life's complexities, long after they leave our workshops.",
+    "time": null,
+    "speaker": "Emma Johnson",
+    "verbatim": [
+     "We're not just building better goal-setters; we're nurturing individuals who can thrive in the face of life's complexities, long after they leave our workshops."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Wellness Workshops",
+    "relation": "described_as",
+    "value": "a step towards personal revolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each session of the Wellness Workshops is a step towards personal revolution."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Local Health and Wellness community",
+    "relation": "seeks_to_enhance",
+    "value": "their life quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local Health and Wellness community members continue to find new avenues to enhance their life quality."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Local Health and Wellness community",
+    "relation": "actively_constructing",
+    "value": "a better future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the people of our Local Health and Wellness community are not just planning for a better future\u2014they are actively constructing it"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Local Health and Wellness community",
+    "relation": "equipped_with",
+    "value": "the skills, knowledge, and support to make their dreams a reality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipped with the skills, knowledge, and support to make their dreams a reality."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

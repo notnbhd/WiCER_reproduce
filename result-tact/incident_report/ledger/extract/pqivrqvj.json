@@ -1,0 +1,540 @@
+{
+ "inventory": [
+  "Joanna Shields",
+  "TechSecure Inc.",
+  "Michael Anderson",
+  "Adam Thompson",
+  "Melinda Kramer",
+  "GlobalCom",
+  "Jane Fisher",
+  "Federal Communications Commission (FCC)",
+  "National Cybersecurity Protection Advancement Act",
+  "Veronica Lee",
+  "ISO/IEC 27001",
+  "Johnathan McKnight",
+  "cyber incidence response team (CIRT)",
+  "eastern seaboard of the United States",
+  "September 5, 2023",
+  "October 21, 2023",
+  "DDoS (Distributed Denial of Service)",
+  "Internet Service Providers (ISPs)",
+  "malware",
+  "ransomware",
+  "phishing",
+  "AI-driven behavioral analytics",
+  "blockchain technology",
+  "quantum encryption",
+  "cyber insurance"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "eastern seaboard of the United States",
+    "relation": "was_affected_by",
+    "value": "a significant disruption",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 5, 2023, a significant disruption affected the eastern seaboard of the United States."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "targeted_by",
+    "value": "a sophisticated cyber-attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The culprit was a sophisticated cyber-attack targeting major ISPs (Internet Service Providers)"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "suffered",
+    "value": "hours of intermittent outages and slowed internet services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which led to hours of intermittent outages and slowed internet services"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Internet Service Providers (ISPs)",
+    "relation": "results_in",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The culprit was a sophisticated cyber-attack targeting major ISPs (Internet Service Providers), which led to hours of intermittent outages and slowed internet services."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Joanna Shields",
+    "relation": "role",
+    "value": "a cybersecurity expert at TechSecure Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joanna Shields, a cybersecurity expert at TechSecure Inc., illustrated the attack's ramifications"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "TechSecure Inc.",
+    "relation": "employs",
+    "value": "Joanna Shields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joanna Shields, a cybersecurity expert at TechSecure Inc.,"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Joanna Shields",
+    "relation": "said",
+    "value": "What we witnessed was an organized effort to destabilize vital communication services through a coordinated DDoS (Distributed Denial of Service) attack.",
+    "time": null,
+    "speaker": "Joanna Shields",
+    "verbatim": [
+     "What we witnessed was an organized effort to destabilize vital communication services through a coordinated DDoS (Distributed Denial of Service) attack."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Joanna Shields",
+    "relation": "said",
+    "value": "This incident was a stark reminder of our vulnerabilities.",
+    "time": null,
+    "speaker": "Joanna Shields",
+    "verbatim": [
+     "This incident was a stark reminder of our vulnerabilities."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "DDoS (Distributed Denial of Service)",
+    "relation": "was_used_in",
+    "value": "a coordinated attack",
+    "time": null,
+    "speaker": "Joanna Shields",
+    "verbatim": [
+     "through a coordinated DDoS (Distributed Denial of Service) attack"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "October 21, 2023",
+    "relation": "marked_date_of",
+    "value": "a phishing campaign hit thousands of unsuspecting mobile users",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 21, 2023, a phishing campaign hit thousands of unsuspecting mobile users"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "phishing",
+    "relation": "targeted",
+    "value": "thousands of unsuspecting mobile users",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a phishing campaign hit thousands of unsuspecting mobile users"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "phishing",
+    "relation": "impersonated",
+    "value": "a message from their carrier",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "texts, posing as a message from their carrier"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "phishing",
+    "relation": "resulted_in",
+    "value": "a wave of compromised personal data",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "texts, posing as a message from their carrier, led to a wave of compromised personal data"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "phishing",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": "October 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "texts, posing as a message from their carrier, led to a wave of compromised personal data"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "malware",
+    "relation": "introduced_through",
+    "value": "phishing or insecure networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware infections, which can be introduced through phishing or insecure networks, are a significant threat."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "malware",
+    "relation": "described_as",
+    "value": "a significant threat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware infections, which can be introduced through phishing or insecure networks, are a significant threat."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "ransomware",
+    "relation": "described_as",
+    "value": "the ticking time bomb that can paralyze the whole network once it detonates",
+    "time": null,
+    "speaker": "Michael Anderson",
+    "verbatim": [
+     "Then there's ransomware, which Michael Anderson, a network engineer, describes as \"the ticking time bomb that can paralyze the whole network once it detonates.\""
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Michael Anderson",
+    "relation": "role",
+    "value": "a network engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Anderson, a network engineer, describes as"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Adam Thompson",
+    "relation": "role",
+    "value": "a former hacker turned IT consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Adam Thompson, a former hacker turned IT consultant, comments"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Adam Thompson",
+    "relation": "said",
+    "value": "Telecom networks are complex ecosystems with many interconnected components.",
+    "time": null,
+    "speaker": "Adam Thompson",
+    "verbatim": [
+     "Telecom networks are complex ecosystems with many interconnected components."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Adam Thompson",
+    "relation": "said",
+    "value": "Attackers often look for the weakest link, which could be an overlooked software update or a misconfigured firewall.",
+    "time": null,
+    "speaker": "Adam Thompson",
+    "verbatim": [
+     "Attackers often look for the weakest link, which could be an overlooked software update or a misconfigured firewall."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Melinda Kramer",
+    "relation": "role",
+    "value": "the CIO of GlobalCom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melinda Kramer, the CIO of GlobalCom, emphasizes"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "GlobalCom",
+    "relation": "has_cio",
+    "value": "Melinda Kramer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melinda Kramer, the CIO of GlobalCom,"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Melinda Kramer",
+    "relation": "said",
+    "value": "It\u2019s about anticipating attacks, not if, but when, and our infrastructure being resilient enough to withstand them.",
+    "time": null,
+    "speaker": "Melinda Kramer",
+    "verbatim": [
+     "It\u2019s about anticipating attacks, not if, but when, and our infrastructure being resilient enough to withstand them."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jane Fisher",
+    "relation": "role",
+    "value": "a cybersecurity trainer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Jane Fisher, a cybersecurity trainer explains"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jane Fisher",
+    "relation": "said",
+    "value": "Through awareness programs and regular drills, employees can act as vigilant gatekeepers rather than unwitting enablers of cyber-attacks.",
+    "time": null,
+    "speaker": "Jane Fisher",
+    "verbatim": [
+     "Through awareness programs and regular drills, employees can act as vigilant gatekeepers rather than unwitting enablers of cyber-attacks."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "tightened_guidelines_for",
+    "value": "telecommunications companies",
+    "time": "Post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Post-September 2023, regulatory bodies such as the Federal Communications Commission (FCC) in the U.S. have tightened guidelines for telecommunications companies."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Federal Communications Commission (FCC)",
+    "relation": "located_in",
+    "value": "U.S.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Federal Communications Commission (FCC) in the U.S."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "National Cybersecurity Protection Advancement Act",
+    "relation": "indicative_of",
+    "value": "strategic steps being implemented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives like the National Cybersecurity Protection Advancement Act are indicative of the strategic steps being implemented."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "National Cybersecurity Protection Advancement Act",
+    "relation": "fosters",
+    "value": "public-private partnerships aimed at sharing critical cyber threat intelligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These acts foster public-private partnerships aimed at sharing critical cyber threat intelligence"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "ISO/IEC 27001",
+    "relation": "provides",
+    "value": "frameworks for managing information security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "standards like ISO/IEC 27001 provide frameworks for managing information security."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "ISO/IEC 27001",
+    "relation": "described_as",
+    "value": "a commitment to maintaining a trusted environment for users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abiding by such standards is not just about compliance; it's a commitment to maintaining a trusted environment for users."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Veronica Lee",
+    "relation": "role",
+    "value": "an IT security compliance officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Veronica Lee, an IT security compliance officer, stated"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Veronica Lee",
+    "relation": "said",
+    "value": "Standards compliance is not a checkbox exercise; it's a continuous commitment.",
+    "time": null,
+    "speaker": "Veronica Lee",
+    "verbatim": [
+     "Standards compliance is not a checkbox exercise; it's a continuous commitment."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "AI-driven behavioral analytics",
+    "relation": "identifies",
+    "value": "patterns that deviate from the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI-driven behavioral analytics can identify patterns that deviate from the norm, flagging potential threats early on."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "AI-driven behavioral analytics",
+    "relation": "flags",
+    "value": "potential threats early on",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flagging potential threats early on"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "blockchain technology",
+    "relation": "used_for",
+    "value": "managing data integrity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The implementation of blockchain technology in managing data integrity and quantum encryption for securing sensitive data are also game-changers in preventing breaches."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "blockchain technology",
+    "relation": "described_as",
+    "value": "game-changers in preventing breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The implementation of blockchain technology in managing data integrity and quantum encryption for securing sensitive data are also game-changers in preventing breaches."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "quantum encryption",
+    "relation": "used_for",
+    "value": "securing sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quantum encryption for securing sensitive data are also game-changers in preventing breaches"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "cyber incidence response team (CIRT)",
+    "relation": "described_as",
+    "value": "indispensable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "establishing a dedicated cyber incidence response team (CIRT) are indispensable"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Johnathan McKnight",
+    "relation": "role",
+    "value": "an incident response manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As highlighted by Johnathan McKnight, an incident response manager,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Johnathan McKnight",
+    "relation": "said",
+    "value": "Our CIRT works round the clock, not only to handle crises but also to simulate attack scenarios for better preparedness.",
+    "time": null,
+    "speaker": "Johnathan McKnight",
+    "verbatim": [
+     "Our CIRT works round the clock, not only to handle crises but also to simulate attack scenarios for better preparedness."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "cyber incidence response team (CIRT)",
+    "relation": "works",
+    "value": "round the clock",
+    "time": null,
+    "speaker": "Johnathan McKnight",
+    "verbatim": [
+     "Our CIRT works round the clock"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "cyber insurance",
+    "relation": "described_as",
+    "value": "a prudent step in managing the financial implications of breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cyber insurance has surfaced as a prudent step in managing the financial implications of breaches"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "cyber insurance",
+    "relation": "alleviates",
+    "value": "the financial burden of a cyberattack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an insurance plan that can alleviate the financial burden of a cyberattack"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "cyber insurance",
+    "relation": "covers",
+    "value": "ransomware, data recovery, and legal liabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Insurance policies tailored to cover ransomware, data recovery, and legal liabilities"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

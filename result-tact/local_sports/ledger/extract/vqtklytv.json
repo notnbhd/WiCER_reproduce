@@ -1,0 +1,691 @@
+{
+ "inventory": [
+  "Thomas Keller",
+  "Maria Gonzalez",
+  "Julie Nguyen",
+  "Payton Electronics",
+  "Tim \u2018the Tank\u2019 Johnson",
+  "James Harris",
+  "Harris & Sons",
+  "the local park",
+  "adventure and obstacle racing",
+  "the community's first obstacle race",
+  "volunteers"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the local park",
+    "relation": "transformed_into",
+    "value": "a battleground for fitness enthusiasts",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the local park in our beloved community transformed into what appeared to be a battleground for fitness enthusiasts"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "adventure and obstacle racing",
+    "relation": "popularity",
+    "value": "soaring in popularity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an adventure and obstacle race that's soaring in popularity"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "adventure and obstacle racing",
+    "relation": "is_sweeping",
+    "value": "our city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This relatively new form of athletic challenge is sweeping our city"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "adventure and obstacle racing",
+    "relation": "appeals_to",
+    "value": "residents eager to test their limits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "residents eager to test their limits in ways conventional gyms and morning jogs can no longer satisfy"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "adventure and obstacle racing",
+    "relation": "originated_from",
+    "value": "the desire to escape the monotony of traditional workouts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "begins with a spark of inspiration\u2014the desire to escape the monotony of traditional workouts"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Thomas Keller",
+    "relation": "former_occupation",
+    "value": "marathon runner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas Keller, a former marathon runner"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Thomas Keller",
+    "relation": "organized",
+    "value": "the community's first obstacle race",
+    "time": "October 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the mastermind behind our community's first obstacle race held on October 2, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the community's first obstacle race",
+    "relation": "held_on",
+    "value": "October 2, 2023",
+    "time": "October 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the mastermind behind our community's first obstacle race held on October 2, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Thomas Keller",
+    "relation": "said_people_want",
+    "value": "fun, social, and a bit of an adventure",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "People are looking for ways to push themselves, but they want it to be fun, social, and a bit of an adventure"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Thomas Keller",
+    "relation": "considered_setting_up",
+    "value": "an obstacle race right here in our backyard",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "That\u2019s what got me thinking about setting up an obstacle race right here in our backyard."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Thomas Keller",
+    "relation": "caused_by",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "People are looking for ways to push themselves, but they want it to be fun, social, and a bit of an adventure. That\u2019s what got me thinking about setting up an obstacle race right here in our backyard."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Thomas Keller",
+    "relation": "faces",
+    "value": "bureaucratic barriers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizers like Keller are leaping over bureaucratic barriers"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "adventure and obstacle racing",
+    "relation": "requires",
+    "value": "a maze of permits and insurance requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tackling a maze of permits and insurance requirements"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Maria Gonzalez",
+    "relation": "occupation",
+    "value": "Local city official",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local city official Maria Gonzalez explained"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Maria Gonzalez",
+    "relation": "stated_requirement",
+    "value": "Organizers must demonstrate that their event won't damage public spaces and that it has adequate safety measures",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Organizers must demonstrate that their event won't damage public spaces and that it has adequate safety measures."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Gonzalez",
+    "relation": "reviewed",
+    "value": "Keller's proposal",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "We had an extensive review of Keller's proposal, which included environmental impact assessments and emergency response plans."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Thomas Keller",
+    "relation": "proposal_included",
+    "value": "environmental impact assessments and emergency response plans",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "We had an extensive review of Keller's proposal, which included environmental impact assessments and emergency response plans."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Julie Nguyen",
+    "relation": "occupation",
+    "value": "professional course designer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julie Nguyen, a professional course designer who worked on our local race"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Julie Nguyen",
+    "relation": "worked_on",
+    "value": "our local race",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julie Nguyen, a professional course designer who worked on our local race"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Julie Nguyen",
+    "relation": "said_obstacles_designed_to",
+    "value": "test a range of physical skills",
+    "time": null,
+    "speaker": "Julie Nguyen",
+    "verbatim": [
+     "Every obstacle is designed to test a range of physical skills"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Julie Nguyen",
+    "relation": "said_must_ensure",
+    "value": "it's safe and scalable for different fitness levels",
+    "time": null,
+    "speaker": "Julie Nguyen",
+    "verbatim": [
+     "we also have to ensure it's safe and scalable for different fitness levels"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Julie Nguyen",
+    "relation": "walks_site",
+    "value": "the site numerous times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nguyen walks the site numerous times"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "adventure and obstacle racing",
+    "relation": "unique_experience_vital_for",
+    "value": "attracting and retaining participants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Creating a unique experience is also vital for attracting and retaining participants."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Julie Nguyen",
+    "relation": "said_incorporates",
+    "value": "local landmarks or cultural elements that resonate with the community",
+    "time": null,
+    "speaker": "Julie Nguyen",
+    "verbatim": [
+     "We try to incorporate local landmarks or cultural elements that resonate with the community."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Julie Nguyen",
+    "relation": "included_obstacle",
+    "value": "an obstacle that had participants scale a wall featuring a mural by a local artist",
+    "time": "This year",
+    "speaker": "Julie Nguyen",
+    "verbatim": [
+     "we included an obstacle that had participants scale a wall featuring a mural by a local artist"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "adventure and obstacle racing",
+    "relation": "attracts",
+    "value": "businesses eager to get involved",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses are often eager to get involved in adventure races due to their extensive reach and potential media coverage."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Thomas Keller",
+    "relation": "approached_businesses_with",
+    "value": "sponsorship proposals",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "We approached several businesses with sponsorship proposals"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Payton Electronics",
+    "relation": "description",
+    "value": "a regional tech powerhouse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Payton Electronics, a regional tech powerhouse"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Payton Electronics",
+    "relation": "among_first_to_see",
+    "value": "the opportunity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was among the first to see the opportunity"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Payton Electronics",
+    "relation": "set_up",
+    "value": "a tech-based obstacle involving virtual reality elements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "setting up a tech-based obstacle involving virtual reality elements"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Payton Electronics",
+    "relation": "obstacle_became",
+    "value": "the crowd favorite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that ended up as the crowd favorite"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "volunteers",
+    "relation": "role",
+    "value": "man the stations, hand out water, and cheer on racers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Volunteers are the unsung heroes who man the stations, hand out water, and cheer on racers."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "volunteers",
+    "relation": "response_to_call",
+    "value": "an overwhelming response",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "Our call for volunteers was met with an overwhelming response"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "volunteers",
+    "relation": "included",
+    "value": "high school teams, local sports clubs, and families",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "We had high school teams, local sports clubs, and families all wanting to get involved."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "the community's first obstacle race",
+    "relation": "course_length",
+    "value": "6-mile",
+    "time": "On race day",
+    "speaker": null,
+    "verbatim": [
+     "tackle the grueling 6-mile course dotted with 25 obstacles"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "the community's first obstacle race",
+    "relation": "obstacle_count",
+    "value": "25",
+    "time": "On race day",
+    "speaker": null,
+    "verbatim": [
+     "tackle the grueling 6-mile course dotted with 25 obstacles"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "the community's first obstacle race",
+    "relation": "features",
+    "value": "mud pits and rope climbs",
+    "time": "On race day",
+    "speaker": null,
+    "verbatim": [
+     "From mud pits to rope climbs"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "the community's first obstacle race",
+    "relation": "preparation_period",
+    "value": "the months of preparation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the months of preparation behind the scenes"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Tim \u2018the Tank\u2019 Johnson",
+    "relation": "occupation",
+    "value": "a race veteran",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tim \u2018the Tank\u2019 Johnson, a race veteran, commented on the palpable spirit"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Tim \u2018the Tank\u2019 Johnson",
+    "relation": "said_events_are",
+    "value": "something special",
+    "time": null,
+    "speaker": "Tim \u2018the Tank\u2019 Johnson",
+    "verbatim": [
+     "There's something special about these events."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Tim \u2018the Tank\u2019 Johnson",
+    "relation": "said_helping",
+    "value": "Everyone is competing, but they're also helping each other overcome each obstacle",
+    "time": null,
+    "speaker": "Tim \u2018the Tank\u2019 Johnson",
+    "verbatim": [
+     "Everyone is competing, but they're also helping each other overcome each obstacle"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Tim \u2018the Tank\u2019 Johnson",
+    "relation": "said_race_is",
+    "value": "a communal triumph",
+    "time": null,
+    "speaker": "Tim \u2018the Tank\u2019 Johnson",
+    "verbatim": [
+     "This isn't just a race; it's a communal triumph."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "James Harris",
+    "relation": "head_of",
+    "value": "Harris & Sons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Harris, head of the local construction company Harris & Sons"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Harris & Sons",
+    "relation": "described_as",
+    "value": "a local construction company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the local construction company Harris & Sons"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "James Harris",
+    "relation": "partnered_with",
+    "value": "the organizers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with the organizers to bring the obstacles from blueprints to reality"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "James Harris",
+    "relation": "asserted",
+    "value": "Safety is paramount",
+    "time": null,
+    "speaker": "James Harris",
+    "verbatim": [
+     "Safety is paramount"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "James Harris",
+    "relation": "said_strict_checks",
+    "value": "strict checks to make sure everything is stable and secure",
+    "time": null,
+    "speaker": "James Harris",
+    "verbatim": [
+     "We go through strict checks to make sure everything is stable and secure"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "James Harris",
+    "relation": "said_setup_begins",
+    "value": "less than 48 hours before the event",
+    "time": null,
+    "speaker": "James Harris",
+    "verbatim": [
+     "the setup begins less than 48 hours before the event"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "adventure and obstacle racing",
+    "relation": "weather_adds",
+    "value": "a level of uncertainty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dealing with the elements adds a level of uncertainty to these events."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "adventure and obstacle racing",
+    "relation": "storm_effect",
+    "value": "turn a tricky obstacle into an almost impossible one",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A sudden storm can turn a tricky obstacle into an almost impossible one."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Thomas Keller",
+    "relation": "monitors",
+    "value": "the weather closely and has contingency plans",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "We monitor the weather closely and have contingency plans"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Thomas Keller",
+    "relation": "said_can_adapt",
+    "value": "we can adapt to provide the safest experience possible",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "We can't control the weather, but we can adapt to provide the safest experience possible."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "adventure and obstacle racing",
+    "relation": "provides",
+    "value": "a learning opportunity for organizers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every event provides a learning opportunity for organizers."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "adventure and obstacle racing",
+    "relation": "feedback_leads_to",
+    "value": "adjustments in course design, obstacle variety, and even the registration process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Feedback from participants leads to adjustments in course design, obstacle variety, and even the registration process."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Thomas Keller",
+    "relation": "excited_about",
+    "value": "the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keller is excited about the future."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Thomas Keller",
+    "relation": "plans_to_integrate",
+    "value": "integrating more tech into races",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "we\u2019re looking into integrating more tech into races, maybe with live tracking of participants or more interactive obstacles"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Thomas Keller",
+    "relation": "cites",
+    "value": "technology advancing",
+    "time": null,
+    "speaker": "Thomas Keller",
+    "verbatim": [
+     "With technology advancing"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Thomas Keller",
+    "relation": "motivated_by",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With technology advancing, we\u2019re looking into integrating more tech into races"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "adventure and obstacle racing",
+    "relation": "offers",
+    "value": "more than just a physical challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adventure and obstacle races offer more than just a physical challenge"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "adventure and obstacle racing",
+    "relation": "anchored_in",
+    "value": "the fitness culture of our local area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The trend of obstacle racing has anchored itself deeply into the fitness culture of our local area."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "adventure and obstacle racing",
+    "relation": "provides_opportunity_for",
+    "value": "individuals to connect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They provide an opportunity for individuals to connect"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

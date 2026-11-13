@@ -1,0 +1,604 @@
+{
+ "inventory": [
+  "Dr. Alice Reed",
+  "Frederick Young",
+  "Susan Martinez",
+  "John Robertson",
+  "Sarah Lee",
+  "Mark Thompson",
+  "Emily Norton",
+  "household chemical products",
+  "cleaning agents",
+  "paints",
+  "batteries",
+  "pesticides",
+  "electronics",
+  "groundwater",
+  "community collection programs",
+  "take-back programs",
+  "America Recycles Day",
+  "local recycling initiative",
+  "vinegar",
+  "baking soda",
+  "manufacturers",
+  "legislation"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "household chemical products",
+    "relation": "disposal_contributes_to",
+    "value": "environmental pollution and threatening public health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the disposal of these chemical-laden products presents a significant challenge, contributing to environmental pollution and threatening public health"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dr. Alice Reed",
+    "relation": "occupation",
+    "value": "environmental expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by environmental expert Dr. Alice Reed"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Alice Reed",
+    "relation": "emphasized",
+    "value": "common household items contain chemicals that can be toxic to the environment when disposed of incorrectly",
+    "time": "October 5th, 2023",
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "such as the one held on October 5th, 2023, by environmental expert Dr. Alice Reed",
+     "it was emphasized that common household items, such as cleaning agents, paints, batteries, and pesticides, contain chemicals that can be toxic to the environment when disposed of incorrectly."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "cleaning agents",
+    "relation": "contain_chemicals",
+    "value": "chemicals that can be toxic to the environment when disposed of incorrectly",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "such as cleaning agents, paints, batteries, and pesticides, contain chemicals that can be toxic to the environment when disposed of incorrectly."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "paints",
+    "relation": "contain_chemicals",
+    "value": "chemicals that can be toxic to the environment when disposed of incorrectly",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "such as cleaning agents, paints, batteries, and pesticides, contain chemicals that can be toxic to the environment when disposed of incorrectly."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "batteries",
+    "relation": "contain_chemicals",
+    "value": "chemicals that can be toxic to the environment when disposed of incorrectly",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "such as cleaning agents, paints, batteries, and pesticides, contain chemicals that can be toxic to the environment when disposed of incorrectly."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "pesticides",
+    "relation": "contain_chemicals",
+    "value": "chemicals that can be toxic to the environment when disposed of incorrectly",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "such as cleaning agents, paints, batteries, and pesticides, contain chemicals that can be toxic to the environment when disposed of incorrectly."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "household chemical products",
+    "relation": "contain",
+    "value": "compounds that can persist in the environment, accumulating in the food chain",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "These household products contain compounds that can persist in the environment, accumulating in the food chain and potentially causing long-term health problems,"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "household chemical products",
+    "relation": "may_cause",
+    "value": "long-term health problems",
+    "time": null,
+    "speaker": "Dr. Alice Reed",
+    "verbatim": [
+     "potentially causing long-term health problems"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "household chemical products",
+    "relation": "mishandling_can_lead_to",
+    "value": "immediate dangers, such as poisoning, fires, and explosions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the mishandling of such products can lead to immediate dangers, such as poisoning, fires, and explosions."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Frederick Young",
+    "relation": "occupation",
+    "value": "environmental scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frederick Young, an environmental scientist"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Frederick Young",
+    "relation": "reported",
+    "value": "contaminants from improperly disposed household chemicals could leach into the soil, reaching groundwater, and eventually polluting water sources",
+    "time": "November 12th, 2023",
+    "speaker": "Frederick Young",
+    "verbatim": [
+     "An alarming report by Frederick Young, an environmental scientist, on November 12th, 2023, showed that contaminants from improperly disposed household chemicals could leach into the soil, reaching groundwater, and eventually polluting water sources."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "groundwater",
+    "relation": "can_be_reached_by",
+    "value": "contaminants leaching from improperly disposed household chemicals",
+    "time": null,
+    "speaker": "Frederick Young",
+    "verbatim": [
+     "could leach into the soil, reaching groundwater, and eventually polluting water sources"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "household chemical products",
+    "relation": "can_result_in",
+    "value": "ecosystem imbalances, water unsafe for consumption, endangered wildlife",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This can result in ecosystem imbalances, rendering water unsafe for consumption and endangering wildlife."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Frederick Young",
+    "relation": "cautioned",
+    "value": "consistent disposal of chemicals down the drain or in regular trash contributes significantly to water and soil pollution",
+    "time": null,
+    "speaker": "Frederick Young",
+    "verbatim": [
+     "Our research suggests that the consistent disposal of chemicals down the drain or in regular trash contributes significantly to water and soil pollution,"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Susan Martinez",
+    "relation": "occupation",
+    "value": "waste management expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Susan Martinez, a waste management expert"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "household chemical products",
+    "relation": "labels_contain",
+    "value": "crucial information on safe handling and disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These typically contain crucial information on safe handling and disposal."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Susan Martinez",
+    "relation": "stated",
+    "value": "consumers should heed label warnings and instructions, which serve as the first line of defense against improper disposal",
+    "time": "September 22nd, 2023",
+    "speaker": "Susan Martinez",
+    "verbatim": [
+     "Consumers should heed label warnings and instructions, which serve as the first line of defense against improper disposal"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Susan Martinez",
+    "relation": "held_workshop_on",
+    "value": "a workshop",
+    "time": "September 22nd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during a workshop on September 22nd, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "household chemical products",
+    "relation": "eliminates_waste_by",
+    "value": "using the product until it's finished",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whenever possible, using the product until it's finished is the most straightforward way to eliminate waste."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "household chemical products",
+    "relation": "using_up_reduces",
+    "value": "waste and curtails the need for disposing of chemicals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This not only reduces waste but also curtails the need for disposing of chemicals."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Susan Martinez",
+    "relation": "advised",
+    "value": "only buy what you need to avoid surplus",
+    "time": null,
+    "speaker": "Susan Martinez",
+    "verbatim": [
+     "Make sure you only buy what you need to avoid surplus,"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "household chemical products",
+    "relation": "segregation_from_regular_trash_is",
+    "value": "vital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "segregating chemicals from regular trash is vital"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "household chemical products",
+    "relation": "should_be_stored",
+    "value": "in a safe, well-ventilated area, away from children and pets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Set aside hazardous products in a safe, well-ventilated area, away from children and pets."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "household chemical products",
+    "relation": "should_be_kept_in",
+    "value": "their original containers with labels intact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensure they are in their original containers with labels intact,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "household chemical products",
+    "relation": "prevents",
+    "value": "the danger of unknown or mixed chemical reactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to prevent the danger of unknown or mixed chemical reactions"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "household chemical products",
+    "relation": "in_order_to",
+    "value_ref": "c26",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensure they are in their original containers with labels intact, to prevent the danger of unknown or mixed chemical reactions."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "community collection programs",
+    "relation": "offered_by",
+    "value": "many communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many communities offer collection programs for household hazardous waste."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "community collection programs",
+    "relation": "collect",
+    "value": "household hazardous waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many communities offer collection programs for household hazardous waste."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "John Robertson",
+    "relation": "occupation",
+    "value": "county environmental coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "county environmental coordinator, John Robertson"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "community collection programs",
+    "relation": "ensures",
+    "value": "professionals handle dangerous chemicals in an environmentally-responsible manner",
+    "time": "October 15th, 2023",
+    "speaker": "John Robertson",
+    "verbatim": [
+     "Participation in such programs ensures that professionals handle dangerous chemicals in an environmentally-responsible manner"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "community collection programs",
+    "relation": "advertise",
+    "value": "collection dates and locations in advance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These programs typically advertise their collection dates and locations in advance."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "batteries",
+    "relation": "has_designated_recycling_programs_due_to",
+    "value": "toxic components",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some products, such as batteries and electronics, often have designated recycling programs due to their toxic components."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "electronics",
+    "relation": "has_designated_recycling_programs_due_to",
+    "value": "toxic components",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Some products, such as batteries and electronics, often have designated recycling programs due to their toxic components."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sarah Lee",
+    "relation": "director_of",
+    "value": "a local recycling initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Lee, director of a local recycling initiative"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "take-back programs",
+    "relation": "offered_by",
+    "value": "retailers and manufacturers",
+    "time": "November 14th, 2023",
+    "speaker": "Sarah Lee",
+    "verbatim": [
+     "Retailers and manufacturers sometimes offer take-back programs for these items"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "manufacturers",
+    "relation": "sometimes_offer",
+    "value": "take-back programs for these items",
+    "time": "November 14th, 2023",
+    "speaker": "Sarah Lee",
+    "verbatim": [
+     "Retailers and manufacturers sometimes offer take-back programs for these items"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "America Recycles Day",
+    "relation": "date",
+    "value": "November 14th, 2023",
+    "time": "November 14th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "America Recycles Day, November 14th, 2023"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "vinegar",
+    "relation": "can_be_used_as",
+    "value": "cleaning agents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vinegar and baking soda can be used as cleaning agents"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "baking soda",
+    "relation": "can_be_used_as",
+    "value": "cleaning agents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vinegar and baking soda can be used as cleaning agents"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sarah Lee",
+    "relation": "said",
+    "value": "Adopting a green lifestyle reduces the volume of harmful chemicals entering the disposal system",
+    "time": null,
+    "speaker": "Sarah Lee",
+    "verbatim": [
+     "Adopting a green lifestyle reduces the volume of harmful chemicals entering the disposal system,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mark Thompson",
+    "relation": "occupation",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educator Mark Thompson"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Mark Thompson",
+    "relation": "stated",
+    "value": "An informed community is an empowered one",
+    "time": "December 1st, 2023",
+    "speaker": "Mark Thompson",
+    "verbatim": [
+     "An informed community is an empowered one"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Mark Thompson",
+    "relation": "spoke_at",
+    "value": "a local high school seminar",
+    "time": "December 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at a local high school seminar on December 1st, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Emily Norton",
+    "relation": "occupation",
+    "value": "political activist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "political activist Emily Norton"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Emily Norton",
+    "relation": "advised",
+    "value": "support legislation that holds manufacturers accountable for their products' lifecycle",
+    "time": "January 19th, 2024",
+    "speaker": "Emily Norton",
+    "verbatim": [
+     "Support legislation that holds manufacturers accountable for their products' lifecycle"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Emily Norton",
+    "relation": "spoke_at",
+    "value": "a city council meeting",
+    "time": "January 19th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during a city council meeting on January 19th, 2024"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "legislation",
+    "relation": "holds_manufacturers_accountable_for",
+    "value": "their products' lifecycle",
+    "time": null,
+    "speaker": "Emily Norton",
+    "verbatim": [
+     "holds manufacturers accountable for their products' lifecycle"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "manufacturers",
+    "relation": "should_be_held_accountable_for",
+    "value": "their products' lifecycle",
+    "time": null,
+    "speaker": "Emily Norton",
+    "verbatim": [
+     "holds manufacturers accountable for their products' lifecycle"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "legislation",
+    "relation": "encourages",
+    "value": "the reduction, reuse, and recycling of chemicals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advocating for policies that encourage the reduction, reuse, and recycling of chemicals"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "manufacturers",
+    "relation": "collective_responsibility_with",
+    "value": "consumers and policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is the collective responsibility of consumers, manufacturers, and policymakers to work in tandem towards a sustainable future"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "household chemical products",
+    "relation": "adverse_effects_can_be_curtailed_by",
+    "value": "implementation of these guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through implementation of these guidelines, individuals can play a substantial role in curtailing the adverse effects of household chemicals on the environment."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

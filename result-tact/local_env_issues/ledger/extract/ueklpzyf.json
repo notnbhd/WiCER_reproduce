@@ -1,0 +1,485 @@
+{
+ "inventory": [
+  "Lincoln High School",
+  "Sarah Martinez",
+  "Lincoln Recycles",
+  "Jackson High School",
+  "Eco-Warriors",
+  "David Chen",
+  "Kennedy High School",
+  "Emily Liu",
+  "smartphone application",
+  "Recycle Fest",
+  "Alex Johnson",
+  "municipal waste management department"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Lincoln Recycles",
+    "relation": "originated_in",
+    "value": "cafeteria of Lincoln High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It all started with a simple idea in the cafeteria of Lincoln High School."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sarah Martinez",
+    "relation": "led_group_of_students",
+    "value": "a group of students",
+    "time": "On a bright September morning, just after the commencement of the 2023 academic year",
+    "speaker": null,
+    "verbatim": [
+     "a group of students led by Sarah Martinez noticed the alarming amount of waste generated during lunch hours."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Martinez",
+    "relation": "noticed",
+    "value": "the alarming amount of waste generated during lunch hours",
+    "time": "On a bright September morning, just after the commencement of the 2023 academic year",
+    "speaker": null,
+    "verbatim": [
+     "a group of students led by Sarah Martinez noticed the alarming amount of waste generated during lunch hours."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sarah Martinez",
+    "relation": "motivation",
+    "value": "wanting to make a difference",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wanting to make a difference, Sarah and her peers initiated the 'Lincoln Recycles' program"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Martinez",
+    "relation": "initiated",
+    "value": "'Lincoln Recycles' program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah and her peers initiated the 'Lincoln Recycles' program"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Martinez",
+    "relation": "motivated_by",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wanting to make a difference, Sarah and her peers initiated the 'Lincoln Recycles' program"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Lincoln Recycles",
+    "relation": "aim",
+    "value": "reducing the school's environmental footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a student-led venture aimed at reducing the school's environmental footprint"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Martinez",
+    "relation": "conducted",
+    "value": "several workshops and presented in classrooms",
+    "time": "By October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By October 15, 2023, Sarah and her team had already conducted several workshops and presented in classrooms"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Lincoln Recycles",
+    "relation": "philosophy",
+    "value": "educate fellow students about the importance of recycling, motivate them to take action, and provide the means to do so",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educate fellow students about the importance of recycling, motivate them to take action, and provide the means to do so"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Lincoln Recycles",
+    "relation": "distinguishing_feature",
+    "value": "emphasis on community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What sets the Lincoln Recycles program apart is its emphasis on community."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Lincoln Recycles",
+    "relation": "fostered_partnerships_with",
+    "value": "local businesses, environmental NGOs, and the municipal waste management department",
+    "time": "By November 2023",
+    "speaker": null,
+    "verbatim": [
+     "By November 2023, the initiative had fostered partnerships with local businesses, environmental NGOs, and the municipal waste management department."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "municipal waste management department",
+    "relation": "partner_of",
+    "value": "Lincoln Recycles",
+    "time": "By November 2023",
+    "speaker": null,
+    "verbatim": [
+     "and the municipal waste management department."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Lincoln Recycles",
+    "relation": "provided",
+    "value": "resources needed for the program's expansion and the reinforcement of its reach beyond school grounds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These collaborations provided the resources needed for the program's expansion and the reinforcement of its reach beyond school grounds."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Lincoln Recycles",
+    "relation": "characterized_as",
+    "value": "not an isolated case",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The success of the Lincoln Recycles program was not an isolated case."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Lincoln High School",
+    "relation": "model_for_other_schools",
+    "value": "Lincoln's model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "other schools took inspiration from Lincoln's model."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jackson High School",
+    "relation": "launched",
+    "value": "'Eco-Warriors' campaign",
+    "time": "early December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jackson High School launched its 'Eco-",
+     "Warriors' campaign in early December 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Eco-Warriors",
+    "relation": "launched_by",
+    "value": "Jackson High School",
+    "time": "early December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Jackson High School launched its 'Eco-",
+     "Warriors' campaign in early December 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Eco-Warriors",
+    "relation": "led_by",
+    "value": "David Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by junior David Chen and his committee"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "David Chen",
+    "relation": "role",
+    "value": "junior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by junior David Chen and his committee"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "David Chen",
+    "relation": "led_committee",
+    "value": "his committee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by junior David Chen and his committee"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jackson High School",
+    "relation": "pioneered",
+    "value": "a recycling drive throughout the neighborhood",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They pioneered a recycling drive throughout the neighborhood"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jackson High School",
+    "relation": "encouraged",
+    "value": "students and residents to partake in responsible waste disposal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraging not only students but also residents to partake in responsible waste disposal."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Kennedy High School",
+    "relation": "developed",
+    "value": "smartphone application",
+    "time": "In January 2024",
+    "speaker": null,
+    "verbatim": [
+     "In January 2024, a group of savvy students from Kennedy High School, including tech whiz Emily Liu, developed a smartphone application to educate users about recycling dos and don'ts."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "smartphone application",
+    "relation": "developed_by",
+    "value": "group of savvy students from Kennedy High School",
+    "time": "In January 2024",
+    "speaker": null,
+    "verbatim": [
+     "a group of savvy students from Kennedy High School, including tech whiz Emily Liu, developed a smartphone application"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Liu",
+    "relation": "included_in",
+    "value": "group of savvy students from Kennedy High School",
+    "time": "In January 2024",
+    "speaker": null,
+    "verbatim": [
+     "a group of savvy students from Kennedy High School, including tech whiz Emily Liu"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Liu",
+    "relation": "described_as",
+    "value": "tech whiz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including tech whiz Emily Liu"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "smartphone application",
+    "relation": "purpose",
+    "value": "educate users about recycling dos and don'ts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developed a smartphone application to educate users about recycling dos and don'ts"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Kennedy High School",
+    "relation": "in_order_to",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "developed a smartphone application to educate users about recycling dos and don'ts"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "smartphone application",
+    "relation": "tracked",
+    "value": "the nearest recycling bins",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The app also tracked the nearest recycling bins and provided pickup services for large recyclable items"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "smartphone application",
+    "relation": "provided",
+    "value": "pickup services for large recyclable items",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided pickup services for large recyclable items"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "smartphone application",
+    "relation": "effect",
+    "value": "making the recycling process more accessible to the whole community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making the recycling process more accessible to the whole community"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Recycle Fest",
+    "relation": "organized_by",
+    "value": "students from several high schools",
+    "time": "March 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "organized by students from several high schools on March 22, 2024"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Recycle Fest",
+    "relation": "launch_of",
+    "value": "first annual event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the launch of the first annual"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Recycle Fest",
+    "relation": "features",
+    "value": "live music, educational booths, recycled art displays, and a recycled fashion show",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With live music, educational booths, recycled art displays, and even a recycled fashion show, the event was a hit"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Recycle Fest",
+    "relation": "raised",
+    "value": "awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The fair not only raised awareness but also celebrated the tangible results the community had achieved thus far."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Recycle Fest",
+    "relation": "celebrated",
+    "value": "tangible results the community had achieved thus far",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "celebrated the tangible results the community had achieved thus far."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Recycle Fest",
+    "relation": "drew",
+    "value": "large crowds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drawing in large crowds and garnering local media attention"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Recycle Fest",
+    "relation": "garnered",
+    "value": "local media attention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drawing in large crowds and garnering local media attention"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Alex Johnson",
+    "relation": "position",
+    "value": "city council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "city council member, Alex Johnson, proposed new legislation to support community-based recycling efforts"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Alex Johnson",
+    "relation": "proposed",
+    "value": "new legislation to support community-based recycling efforts",
+    "time": "April 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on April 10, 2024, city council member, Alex Johnson, proposed new legislation to support community-based recycling efforts"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Alex Johnson",
+    "relation": "motivated_by",
+    "value": "impressive outcomes from these programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In light of the impressive outcomes from these programs"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Alex Johnson",
+    "relation": "recognized",
+    "value": "high school students as key stakeholders in the city's environmental strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing high school students as key stakeholders in the city's environmental strategies."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

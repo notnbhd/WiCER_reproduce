@@ -1,0 +1,29 @@
+{
+  "topic": "local_arts_and_culture",
+  "corpus_sha256": "37e9343035963f3020f192f6ac61ca7b0314eba866bb58995cc0ab4d82e6c885",
+  "n_documents": 80,
+  "n_claims": 4778,
+  "n_claims_before_merge": 4778,
+  "n_raw": 4779,
+  "n_rejected": 1,
+  "n_multispan": 18,
+  "n_relational": 148,
+  "rejection_rate": 0.0002092487968194183,
+  "n_contradictions": 15,
+  "inventory_size": 1733,
+  "n_canonical_entities": 1514,
+  "entity_collision_rate": 0.0006605019815059445,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 161,
+    "input_tokens": 404770,
+    "output_tokens": 1562010,
+    "measured_cost_usd": 0.0
+  }
+}

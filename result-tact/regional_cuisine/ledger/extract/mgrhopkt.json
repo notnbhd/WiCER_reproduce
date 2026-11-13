@@ -1,0 +1,918 @@
+{
+ "inventory": [
+  "Dr. Sophia Martin",
+  "John Patterson",
+  "Chef Emily Rivera",
+  "Oak & Sage",
+  "Carlos Gomez",
+  "Chloe Nguyen",
+  "Green Mantle",
+  "Chef Marcus Reed",
+  "Paw Paw",
+  "Lena Ortiz",
+  "Center for Plant and Culture",
+  "Julia Hong",
+  "Appalachian Mountains",
+  "Virginia",
+  "New Mexico",
+  "Detroit",
+  "Michigan",
+  "San Francisco",
+  "Charleston",
+  "Cherokee Purple tomato",
+  "farm-to-fork movement",
+  "seed keepers",
+  "ethnobotany",
+  "ethnobotanists",
+  "dry farming",
+  "farming journals",
+  "seed library",
+  "Pho",
+  "Paw Paw sorbet"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "ethnobotanists",
+    "relation": "described_as",
+    "value": "scientists who study the relationship between people and plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ethnobotonists \u2014 scientists who study the relationship between people and plants"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "ethnobotanists",
+    "relation": "guide_rediscovery_of",
+    "value": "native ingredients that have fed generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to guide them in rediscovering native ingredients that have fed generations"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Sophia Martin",
+    "relation": "is_a",
+    "value": "ethnobotanist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ethnobotanist Dr. Sophia Martin treks"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Sophia Martin",
+    "relation": "treks_through",
+    "value": "the Appalachian Mountains",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny morning of September 12, 2023, ethnobotanist Dr. Sophia Martin treks through the lush foliage of the Appalachian Mountains"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Appalachian Mountains",
+    "relation": "visited_by",
+    "value": "Dr. Sophia Martin",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "treks through the lush foliage of the Appalachian Mountains"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Sophia Martin",
+    "relation": "examines",
+    "value": "the wild edibles that her ancestors once foraged",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "closely examining the wild edibles that her ancestors once foraged"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Sophia Martin",
+    "relation": "says",
+    "value": "native species hold historical and cultural significance",
+    "time": null,
+    "speaker": "Dr. Sophia Martin",
+    "verbatim": [
+     "native species not only hold historical and cultural significance"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Sophia Martin",
+    "relation": "says",
+    "value": "native species present profound flavors and nutritional benefits often overlooked by contemporary palates",
+    "time": null,
+    "speaker": "Dr. Sophia Martin",
+    "verbatim": [
+     "present profound flavors and nutritional benefits often overlooked by contemporary palates"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Sophia Martin",
+    "relation": "is_among",
+    "value": "a growing number of scientists and culinary professionals spotlighting the significance of indigenous flora in regional foodscapes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Martin is among a growing number of scientists and culinary professionals spotlighting the significance of indigenous flora in regional foodscapes."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Sophia Martin",
+    "relation": "collaborates_with",
+    "value": "local chefs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her collaboration with local chefs has sparked a culinary renaissance"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Sophia Martin",
+    "relation": "sparked",
+    "value": "a culinary renaissance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her collaboration with local chefs has sparked a culinary renaissance"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "farm-to-fork movement",
+    "relation": "emphasizes",
+    "value": "purchasing locally grown produce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the farm-to-fork movement, which emphasizes purchasing locally grown produce"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "farm-to-fork movement",
+    "relation": "supports",
+    "value": "the regional agricultural economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to support the regional agricultural economy"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "farm-to-fork movement",
+    "relation": "reduces",
+    "value": "the environmental impact of long-haul transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce the environmental impact of long-haul transportation"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Patterson",
+    "relation": "is_a",
+    "value": "farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the rolling hills of Virginia, farmer John Patterson"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "John Patterson",
+    "relation": "farms_in",
+    "value": "Virginia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the rolling hills of Virginia"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "John Patterson",
+    "relation": "consults",
+    "value": "his great-grandparents' farming journals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has turned to his great-grandparents' farming journals"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "farming journals",
+    "relation": "dated_back_to",
+    "value": "1898",
+    "time": "1898",
+    "speaker": null,
+    "verbatim": [
+     "his great-grandparents' farming journals, dated back to 1898"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "John Patterson",
+    "relation": "rediscovers",
+    "value": "old planting techniques and heirloom varieties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rediscovering old planting techniques and heirloom varieties that were once the fabric of local cuisine"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Cherokee Purple tomato",
+    "relation": "is_a",
+    "value": "heirloom variety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Cherokee Purple tomato, an heirloom variety my family has cultivated for generations"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cherokee Purple tomato",
+    "relation": "cultivated_by",
+    "value": "my family",
+    "time": null,
+    "speaker": "John Patterson",
+    "verbatim": [
+     "an heirloom variety my family has cultivated for generations"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cherokee Purple tomato",
+    "relation": "has_flavor",
+    "value": "a flavor that simply cannot be matched by mass-produced types",
+    "time": null,
+    "speaker": "John Patterson",
+    "verbatim": [
+     "has a flavor that simply cannot be matched by mass-produced types"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "John Patterson",
+    "relation": "crop_ready_for",
+    "value": "Chef Emily Rivera\u2019s kitchen at her famed Oak & Sage restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ready for Chef Emily Rivera\u2019s kitchen at her famed Oak & Sage restaurant"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Chef Emily Rivera",
+    "relation": "runs",
+    "value": "Oak & Sage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her famed Oak & Sage restaurant"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Oak & Sage",
+    "relation": "described_as",
+    "value": "famed restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her famed Oak & Sage restaurant"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Chef Emily Rivera",
+    "relation": "partnered_with",
+    "value": "John Patterson",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on November 5, 2023, Patterson and Rivera's partnership exemplifies the synergies between farmers and chefs."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "John Patterson",
+    "relation": "partnered_with",
+    "value": "Chef Emily Rivera",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on November 5, 2023, Patterson and Rivera's partnership exemplifies the synergies between farmers and chefs."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "John Patterson",
+    "relation": "collaboration_ensures",
+    "value": "farm freshness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their collaboration not only ensures farm freshness"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "John Patterson",
+    "relation": "collaboration_ensures",
+    "value": "the preservation of cultural heritage embedded within each heirloom vegetable and herb",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also the preservation of cultural heritage embedded within each heirloom vegetable and herb"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "seed keepers",
+    "relation": "described_as",
+    "value": "crucial figures in the movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'seed keepers' are emerging as crucial figures in the movement"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "seed keepers",
+    "relation": "defined_as",
+    "value": "individuals dedicated to preserving and propagating traditional seeds that possess historical and cultural significance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These are individuals dedicated to preserving and propagating traditional seeds that possess historical and cultural significance."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Carlos Gomez",
+    "relation": "is_a",
+    "value": "seed keeper",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a small New Mexico community, seed keeper Carlos Gomez maintains a seed library"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Carlos Gomez",
+    "relation": "located_in",
+    "value": "New Mexico",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a small New Mexico community"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Carlos Gomez",
+    "relation": "maintains",
+    "value": "a seed library",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Carlos Gomez maintains a seed library that dates to his Pueblo ancestors"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "seed library",
+    "relation": "dates_to",
+    "value": "his Pueblo ancestors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a seed library that dates to his Pueblo ancestors"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Carlos Gomez",
+    "relation": "states",
+    "value": "We're not just growing plants; we're cultivating stories, each seed is a chapter of our heritage",
+    "time": null,
+    "speaker": "Carlos Gomez",
+    "verbatim": [
+     "We're not just growing plants; we're cultivating stories, each seed is a chapter of our heritage"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Carlos Gomez",
+    "relation": "gathered_collection_since",
+    "value": "his youth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a collection meticulously gathered since his youth"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "seed library",
+    "relation": "contains",
+    "value": "over 200 varieties of native chilies, beans, corn, and medicinal herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now accounts for over 200 varieties of native chilies, beans, corn, and medicinal herbs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "seed library",
+    "relation": "integral_to",
+    "value": "Pueblo cuisine for centuries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all of which have been integral to Pueblo cuisine for centuries"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Chloe Nguyen",
+    "relation": "is_a",
+    "value": "forward-thinking chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the kitchens of forward-thinking chefs like Chloe Nguyen"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Chloe Nguyen",
+    "relation": "reenergizes_food_scene_of",
+    "value": "Detroit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chloe Nguyen, who is reenergizing Detroit's food scene with her restaurant, Green Mantle"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chloe Nguyen",
+    "relation": "runs",
+    "value": "Green Mantle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with her restaurant, Green Mantle"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green Mantle",
+    "relation": "located_in",
+    "value": "Detroit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reenergizing Detroit's food scene with her restaurant, Green Mantle"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Green Mantle",
+    "relation": "opened_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "since its opening on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Green Mantle",
+    "relation": "features",
+    "value": "a marriage between Vietnamese culinary traditions and Michigan's native plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an inquisitive marriage between Vietnamese culinary traditions and Michigan's native plants"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Green Mantle",
+    "relation": "draws",
+    "value": "food connoisseurs from across the country",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is drawing food connoisseurs from across the country"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Michigan",
+    "relation": "native_plants_featured_by",
+    "value": "Green Mantle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michigan's native plants"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Chloe Nguyen",
+    "relation": "says",
+    "value": "approach my dishes with respect for the overlapping tapestry of cultural foodways and the land itself",
+    "time": null,
+    "speaker": "Chloe Nguyen",
+    "verbatim": [
+     "Working with ethnobotanists and local farmers allows me to approach my dishes with respect for the overlapping tapestry of cultural foodways and the land itself"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Chloe Nguyen",
+    "relation": "signature_dish",
+    "value": "Pho",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her signature dish, a reimagined Pho, features foraged morels and native wild ramps"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Pho",
+    "relation": "features",
+    "value": "foraged morels and native wild ramps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her signature dish, a reimagined Pho, features foraged morels and native wild ramps"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Pho",
+    "relation": "introduces_diners_to",
+    "value": "unexplored semblances between Great Lakes vegetation and Southeast Asian flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introducing diners to the unexplored semblances between Great Lakes vegetation and Southeast Asian flavors"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Paw Paw",
+    "relation": "also_known_as",
+    "value": "vanilla custard apple",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often referred to as the 'vanilla custard apple.'"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Paw Paw",
+    "relation": "not_widely_known",
+    "value": "outside of its native range",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not widely known outside of its native range"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Paw Paw",
+    "relation": "finding_way_into",
+    "value": "regional cuisines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Paw Paw is finding its way into regional cuisines"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Chef Marcus Reed",
+    "relation": "is_a",
+    "value": "culinary pioneer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "culinary pioneers like Chef Marcus Reed"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Chef Marcus Reed",
+    "relation": "introduced",
+    "value": "Paw Paw sorbet",
+    "time": "September 24, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Paw Paw sorbet has become a cult favorite since he introduced it on September 24, 2023"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Paw Paw sorbet",
+    "relation": "became",
+    "value": "a cult favorite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paw Paw sorbet has become a cult favorite"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Chef Marcus Reed",
+    "relation": "eatery_in",
+    "value": "Charleston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in his Charleston eatery"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Chef Marcus Reed",
+    "relation": "declares",
+    "value": "It's about rediscovering what we've lost touch with, and that includes flavors that our native plants and herbs offer",
+    "time": null,
+    "speaker": "Chef Marcus Reed",
+    "verbatim": [
+     "It's about rediscovering what we've lost touch with, and that includes flavors that our native plants and herbs offer"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Paw Paw sorbet",
+    "relation": "described_as",
+    "value": "creamy, tropicalflavored dessert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "perfects a batch of the creamy, tropicalflavored dessert"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "ethnobotany",
+    "relation": "proves_invaluable_in",
+    "value": "climate change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Climate change presents another angle where traditional ethnobotanical knowledge is proving invaluable"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Lena Ortiz",
+    "relation": "is_a",
+    "value": "farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In San Francisco's urban gardens, farmers like Lena Ortiz"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Lena Ortiz",
+    "relation": "farms_in",
+    "value": "San Francisco's urban gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In San Francisco's urban gardens, farmers like Lena Ortiz"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Lena Ortiz",
+    "relation": "reintroduces",
+    "value": "dry farming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "farmers like Lena Ortiz are reintroducing dry farming"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "dry farming",
+    "relation": "practiced_by",
+    "value": "her Hispanic ancestors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a practice that her Hispanic ancestors utilized"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "dry farming",
+    "relation": "requires",
+    "value": "minimal irrigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which requires minimal irrigation and maximizes water conservation"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "dry farming",
+    "relation": "maximizes",
+    "value": "water conservation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which requires minimal irrigation and maximizes water conservation"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Lena Ortiz",
+    "relation": "says",
+    "value": "Plants grown through dry farming have deeper root systems",
+    "time": null,
+    "speaker": "Lena Ortiz",
+    "verbatim": [
+     "Plants grown through dry farming have deeper root systems"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Lena Ortiz",
+    "relation": "tends",
+    "value": "her robust dry-farmed tomato plants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while tending to her robust dry-farmed tomato plants"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "dry farming",
+    "relation": "taste_better",
+    "value": "better",
+    "time": null,
+    "speaker": "some argue",
+    "verbatim": [
+     "some argue, taste better because they have to 'work harder' for nutrients"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "dry farming",
+    "relation": "forces_plants_to",
+    "value": "work harder for nutrients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they have to 'work harder' for nutrients"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "dry farming",
+    "relation": "caused_by",
+    "value_ref": "c71",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taste better because they have to 'work harder' for nutrients"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "dry farming",
+    "relation": "reflects",
+    "value": "an environmental mindfulness and resourcefulness deeply seeded in many indigenous and early settler farming traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such practices reflect an environmental mindfulness and resourcefulness deeply seeded in many indigenous and early settler farming traditions."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Center for Plant and Culture",
+    "relation": "inaugurated_on",
+    "value": "September 1, 2023",
+    "time": "September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Center for Plant and Culture, inaugurated on September 1, 2023"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Center for Plant and Culture",
+    "relation": "aims_to",
+    "value": "educate and inspire the next generation of chefs and farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to educate and inspire the next generation of chefs and farmers"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Center for Plant and Culture",
+    "relation": "offers",
+    "value": "workshops, foraging tours, and cooking classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through workshops, foraging tours, and cooking classes"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Center for Plant and Culture",
+    "relation": "promotes",
+    "value": "an understanding of ethnobotany in a culinary context",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Center promotes an understanding of ethnobotany in a culinary context"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Julia Hong",
+    "relation": "is_director_of",
+    "value": "Center for Plant and Culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Center's director, Julia Hong"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Julia Hong",
+    "relation": "says",
+    "value": "It's an exciting time",
+    "time": null,
+    "speaker": "Julia Hong",
+    "verbatim": [
+     "It's an exciting time"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Julia Hong",
+    "relation": "says",
+    "value": "We're not only tracing the lineage of these plants but also innovating on how they can be incorporated into modern dishes while respecting their origins",
+    "time": null,
+    "speaker": "Julia Hong",
+    "verbatim": [
+     "We're not only tracing the lineage of these plants but also innovating on how they can be incorporated into modern dishes while respecting their origins"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

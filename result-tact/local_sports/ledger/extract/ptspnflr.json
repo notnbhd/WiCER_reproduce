@@ -1,0 +1,880 @@
+{
+ "inventory": [
+  "Jack Thompson",
+  "Maria Gonzalez",
+  "Isaac Clarke",
+  "Caroline Webb",
+  "Tom Herrick",
+  "Ella Morris",
+  "Noah Taylor",
+  "Lenny Richards",
+  "Jenifer Lawrence",
+  "Davit Petrosian",
+  "Junior Strikers Club",
+  "pedal pushers community cycling club",
+  "Ultimate Frisbee",
+  "Soccer",
+  "Flag Football",
+  "Tennis",
+  "Beach Volleyball",
+  "Trail Running",
+  "Canoeing and Kayaking",
+  "Cycling",
+  "Softball",
+  "Outdoor Yoga",
+  "community sports leagues",
+  "walking soccer"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "community sports leagues",
+    "relation": "ranked_as",
+    "value": "top 10 most engaging outdoor activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "here's a rundown of the top 10 most engaging outdoor activities for community sports leagues"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "community sports leagues",
+    "relation": "available_after",
+    "value": "September 1, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that you can dive into after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Ultimate Frisbee",
+    "relation": "described_as",
+    "value": "fast paced",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's fast paced"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Ultimate Frisbee",
+    "relation": "features",
+    "value": "non-contact, mixed-gender gameplay",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its blend of non-contact, mixed-gender gameplay"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Ultimate Frisbee",
+    "relation": "emphasizes",
+    "value": "sportsmanship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its emphasis on sportsmanship"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Ultimate Frisbee",
+    "relation": "gaining_popularity_in",
+    "value": "community sports leagues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ultimate Frisbee has been gaining popularity in community sports leagues"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Ultimate Frisbee",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ultimate Frisbee has been gaining popularity in community sports leagues thanks to its blend of non-contact, mixed-gender gameplay"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jack Thompson",
+    "relation": "role",
+    "value": "commissioner of the local Ultimate league",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Thompson, commissioner of the local Ultimate league"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jack Thompson",
+    "relation": "said",
+    "value": "Whether you've played for years or can't tell a frisbee from a flying saucer, there's a place for you here.",
+    "time": null,
+    "speaker": "Jack Thompson",
+    "verbatim": [
+     "Whether you've played for years or can't tell a frisbee from a flying saucer, there's a place for you here."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Ultimate Frisbee",
+    "relation": "games_played_on",
+    "value": "Sundays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With games typically played on Sundays"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Ultimate Frisbee",
+    "relation": "described_as",
+    "value": "a great way to end your week with some high energy and high spirits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this is a great way to end your week with some high energy and high spirits"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Soccer",
+    "relation": "known_as",
+    "value": "the world's game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Known as the world's game"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Soccer",
+    "relation": "continues_to_enchant",
+    "value": "people of all ages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continues to enchant people of all ages"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Soccer",
+    "relation": "youth_leagues_offered_on",
+    "value": "Saturday mornings",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Youth leagues are offered on Saturday mornings, according to Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Maria Gonzalez",
+    "relation": "director_of",
+    "value": "Junior Strikers Club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, director of the Junior Strikers Club"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Gonzalez",
+    "relation": "has_seen",
+    "value": "a surge in kids signing up",
+    "time": "since early September",
+    "speaker": null,
+    "verbatim": [
+     "who has seen a surge in kids signing up since early September"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Soccer",
+    "relation": "adult_league_plays_on",
+    "value": "weekday evenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For adults, the community league plays on weekday evenings"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Soccer",
+    "relation": "adult_league_offers",
+    "value": "both competitive and recreational divisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering both competitive and recreational divisions"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "walking soccer",
+    "relation": "rise_among",
+    "value": "older enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the rise of walking soccer for older enthusiasts"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Soccer",
+    "relation": "adaptable_for",
+    "value": "all fitness levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the sport proves it's adaptable for all fitness levels"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Junior Strikers Club",
+    "relation": "has_director",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, director of the Junior Strikers Club"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Flag Football",
+    "relation": "leagues_popping_up",
+    "value": "everywhere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local leagues have been popping up everywhere"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Flag Football",
+    "relation": "rosters_filling_quickly_for",
+    "value": "the fall season",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with rosters filling quickly for the fall season"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Isaac Clarke",
+    "relation": "role",
+    "value": "League organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "League organizer Isaac Clarke emphasizes the low barrier to entry"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Isaac Clarke",
+    "relation": "emphasizes",
+    "value": "the low barrier to entry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "League organizer Isaac Clarke emphasizes the low barrier to entry"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Isaac Clarke",
+    "relation": "said",
+    "value": "If you can catch and run, you can play.",
+    "time": null,
+    "speaker": "Isaac Clarke",
+    "verbatim": [
+     "If you can catch and run, you can play."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Flag Football",
+    "relation": "format",
+    "value": "7-on-7",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 7-on-7 format keeps the game moving"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Flag Football",
+    "relation": "allows",
+    "value": "everyone to be a key player",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allows for everyone to be a key player"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Flag Football",
+    "relation": "results_in",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The 7-on-7 format keeps the game moving and allows for everyone to be a key player"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Flag Football",
+    "relation": "games_scheduled_on",
+    "value": "Tuesdays and Thursdays",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Games are scheduled on Tuesdays and Thursdays"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Flag Football",
+    "relation": "scheduling_enables",
+    "value": "a midweek rush of adrenaline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Games are scheduled on Tuesdays and Thursdays, so you can enjoy a midweek rush of adrenaline"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Tennis",
+    "relation": "has_seen",
+    "value": "a revival in community interest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tennis has seen a revival in community interest"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Tennis",
+    "relation": "new_courts_in",
+    "value": "local parks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with new courts popping up in local parks"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Caroline Webb",
+    "relation": "role",
+    "value": "a tennis instructor and league coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Caroline Webb, a tennis instructor and league coordinator"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Caroline Webb",
+    "relation": "said",
+    "value": "It's perfect for all ages because it's low impact and the strategy component keeps your mind sharp.",
+    "time": null,
+    "speaker": "Caroline Webb",
+    "verbatim": [
+     "It's perfect for all ages because it's low impact and the strategy component keeps your mind sharp."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Tennis",
+    "relation": "offers",
+    "value": "singles and doubles leagues, and even mixed-doubles events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "singles and doubles leagues, and even mixed-doubles events"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Beach Volleyball",
+    "relation": "no_longer_limited_to",
+    "value": "beach cities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not just for the beach cities anymore"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Beach Volleyball",
+    "relation": "inland_communities_creating",
+    "value": "sand courts in public spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inland communities are joining in by creating sand courts in public spaces"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Tom Herrick",
+    "relation": "role",
+    "value": "avid player",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says avid player Tom Herrick"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Tom Herrick",
+    "relation": "said",
+    "value": "It's like a mini-vacation every game",
+    "time": null,
+    "speaker": "Tom Herrick",
+    "verbatim": [
+     "It's like a mini-vacation every game"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Beach Volleyball",
+    "relation": "evening_leagues",
+    "value": "under the lights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evening leagues under the lights"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Beach Volleyball",
+    "relation": "creates",
+    "value": "an inviting atmosphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evening leagues under the lights create an inviting atmosphere"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Beach Volleyball",
+    "relation": "is_hit_for",
+    "value": "those looking to unwind after work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it a hit for those looking to unwind after work"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Beach Volleyball",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evening leagues under the lights create an inviting atmosphere, making it a hit for those looking to unwind after work"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Trail Running",
+    "relation": "has_weekly_meetups",
+    "value": "weekly meet-ups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community trail running groups often have weekly meet-ups"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ella Morris",
+    "relation": "role",
+    "value": "leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "according to leader Ella Morris"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Ella Morris",
+    "relation": "said",
+    "value": "You're not just running; you're exploring.",
+    "time": null,
+    "speaker": "Ella Morris",
+    "verbatim": [
+     "You're not just running; you're exploring."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Trail Running",
+    "relation": "welcomes",
+    "value": "all paces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These leagues welcome all paces"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Trail Running",
+    "relation": "makes",
+    "value": "navigating the local terrain both a personal challenge and a shared adventure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "make navigating the local terrain both a personal challenge and a shared adventure"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Canoeing and Kayaking",
+    "relation": "specialized_community_leagues",
+    "value": "community leagues that specialize in canoeing and kayaking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Water sports enthusiasts can join community leagues that specialize in canoeing and kayaking"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Canoeing and Kayaking",
+    "relation": "uses",
+    "value": "local rivers and lakes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These leagues take advantage of local rivers and lakes"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Canoeing and Kayaking",
+    "relation": "turns_paddling_into",
+    "value": "friendly competitive races",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning serene paddling sessions into friendly competitive races"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Noah Taylor",
+    "relation": "role",
+    "value": "water sports coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says water sports coordinator Noah Taylor"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Noah Taylor",
+    "relation": "said",
+    "value": "It's an incredible full-body workout plus you get to enjoy nature's tranquility",
+    "time": null,
+    "speaker": "Noah Taylor",
+    "verbatim": [
+     "It's an incredible full-body workout plus you get to enjoy nature's tranquility"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Canoeing and Kayaking",
+    "relation": "welcomes",
+    "value": "everyone from beginners to advanced paddlers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's a spot for everyone from beginners to advanced paddlers"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Cycling",
+    "relation": "not_solely_for",
+    "value": "spandex-clad road warriors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Community cycling leagues are not solely for the spandex-clad road warriors"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Cycling",
+    "relation": "offers",
+    "value": "a wide range of options from leisurely scenic rides to criterium races",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they offer a wide range of options from leisurely scenic rides to criterium races"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Lenny Richards",
+    "relation": "president_of",
+    "value": "pedal pushers community cycling club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lenny Richards, president of the pedal pushers community cycling club"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Lenny Richards",
+    "relation": "said",
+    "value": "Cycling in a group is safer and far more sociable.",
+    "time": null,
+    "speaker": "Lenny Richards",
+    "verbatim": [
+     "Cycling in a group is safer and far more sociable."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "pedal pushers community cycling club",
+    "relation": "has_president",
+    "value": "Lenny Richards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lenny Richards, president of the pedal pushers community cycling club"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Cycling",
+    "relation": "group_rides_on",
+    "value": "weekends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With family-friendly group rides on weekends"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Cycling",
+    "relation": "offers",
+    "value": "more intense evening sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and more intense evening sessions"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Cycling",
+    "relation": "is",
+    "value": "a refreshing way to see the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biking is a refreshing way to see the city and meet like-minded individuals"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Softball",
+    "relation": "is",
+    "value": "a staple of American community sports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Softball leagues are a staple of American community sports."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Softball",
+    "relation": "strikes",
+    "value": "a delightful balance between competitiveness and social interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They strike a delightful balance between competitiveness and social interaction."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Softball",
+    "relation": "hosts",
+    "value": "a variety of co-ed and single-gender teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leagues often host a variety of co-ed and single-gender teams"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Jenifer Lawrence",
+    "relation": "role",
+    "value": "softball aficionado",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to softball aficionado Jenifer Lawrence"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Jenifer Lawrence",
+    "relation": "no_relation_to",
+    "value": "the actress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "(no relation to the actress)"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Jenifer Lawrence",
+    "relation": "said",
+    "value": "It's a weekly gathering where friendships are born and fostered, and occasionally a bit of softball breaks out.",
+    "time": null,
+    "speaker": "Jenifer Lawrence",
+    "verbatim": [
+     "It's a weekly gathering where friendships are born and fostered, and occasionally a bit of softball breaks out."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Outdoor Yoga",
+    "relation": "features",
+    "value": "the sounds and sights of nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Complete with the sounds and sights of nature"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Outdoor Yoga",
+    "relation": "brings_practice_into",
+    "value": "public parks and green spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings the practice out of the studio and into public parks and green spaces"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Outdoor Yoga",
+    "relation": "is_not",
+    "value": "competitive in the traditional sense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not competitive in the traditional sense"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Outdoor Yoga",
+    "relation": "challenges",
+    "value": "each other to achieve new levels of flexibility and mindfulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community yoga groups often challenge each other to achieve new levels of flexibility and mindfulness"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Davit Petrosian",
+    "relation": "role",
+    "value": "Instructor and group organizer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instructor and group organizer Davit Petrosian says"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Davit Petrosian",
+    "relation": "said",
+    "value": "Being part of a yoga community is grounding. It's the perfect counterbalance to the hustle of everyday life.",
+    "time": null,
+    "speaker": "Davit Petrosian",
+    "verbatim": [
+     "Being part of a yoga community is grounding. It's the perfect counterbalance to the hustle of everyday life."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "community sports leagues",
+    "relation": "are",
+    "value": "thriving and evolving to meet a wide range of interests and abilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community sports leagues thriving and evolving to meet a wide range of interests and abilities"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "community sports leagues",
+    "relation": "focus",
+    "value": "participation, fun, and community spirit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the focus is on participation, fun, and community spirit"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

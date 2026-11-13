@@ -1,0 +1,728 @@
+{
+ "inventory": [
+  "Emily Thompson",
+  "Dr. Michael Hanover",
+  "Marcus DeVere",
+  "Doctor Sarah Jennings",
+  "Lana Martinez",
+  "Zachary Reed",
+  "Chloe Stevens",
+  "Leo Clarkson",
+  "Jasper Lyle",
+  "Jenna Holloway",
+  "World Mental Health Day",
+  "Sleep Warrior Bootcamp",
+  "S-E-L-F protocol",
+  "Pillow Talks",
+  "#GoodnightChallenge",
+  "Hollywood Dreamtime Festival",
+  "Instagram",
+  "YouTube",
+  "Hollywood",
+  "Tinseltown",
+  "sleep deprivation",
+  "insomnia",
+  "anxiety",
+  "depression",
+  "sleep tracking devices",
+  "quantified sleep"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "World Mental Health Day",
+    "relation": "date_of",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023, World Mental Health Day"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emily Thompson",
+    "relation": "occupation",
+    "value": "Actress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Actress Emily Thompson"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Thompson",
+    "relation": "shared_live_session_on",
+    "value": "Instagram live session",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Actress Emily Thompson candidly shared on her Instagram live session"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Instagram",
+    "relation": "hosted_live_session_by",
+    "value": "Emily Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Actress Emily Thompson candidly shared on her Instagram live session"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emily Thompson",
+    "relation": "stated_contributing_factor",
+    "value": "\"burning the midnight oil\" for script readings",
+    "time": null,
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "candidly shared on her Instagram live session that \"burning the midnight oil\" for script readings had been a contributing factor to her anxiety episodes"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "anxiety",
+    "relation": "episodes_experienced_by",
+    "value": "Emily Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her anxiety episodes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "anxiety",
+    "relation": "caused_by",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had been a contributing factor to her anxiety episodes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Michael Hanover",
+    "relation": "occupation",
+    "value": "Leading sleep psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leading sleep psychologist, Dr. Michael Hanover"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Michael Hanover",
+    "relation": "published",
+    "value": "study",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "his study published on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Michael Hanover",
+    "relation": "corroborated",
+    "value": "Emily Thompson's statements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "corroborated these statements"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "sleep deprivation",
+    "relation": "has_comparable_effects_on_brain_as",
+    "value": "excessive alcohol consumption",
+    "time": null,
+    "speaker": "Dr. Michael Hanover",
+    "verbatim": [
+     "sleep deprivation can have comparable effects on the brain as excessive alcohol consumption"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "sleep deprivation",
+    "relation": "can_exacerbate",
+    "value": "symptoms of anxiety and depression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can exacerbate symptoms of anxiety and depression"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Marcus DeVere",
+    "relation": "occupation",
+    "value": "action icon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "action icon Marcus DeVere"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Marcus DeVere",
+    "relation": "featured_in_footage_released_on",
+    "value": "behind-the-scenes footage",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In behind-the-scenes footage released on September 23, 2023, we saw action icon Marcus DeVere"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Marcus DeVere",
+    "relation": "opened_up_about",
+    "value": "his insomnia battles during movie productions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opening up about his insomnia battles during movie productions"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "insomnia",
+    "relation": "battled_by",
+    "value": "Marcus DeVere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his insomnia battles during movie productions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Marcus DeVere",
+    "relation": "faced_challenge",
+    "value": "juggling action sequences and 4 AM call times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Juggling action sequences and 4 AM call times was proving to be kryptonite to his mental fortress."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "sleep deprivation",
+    "relation": "can_disrupt",
+    "value": "emotional regulators within the brain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consistent lack of sleep can disrupt our emotional regulators within the brain"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "sleep deprivation",
+    "relation": "can_lead_to",
+    "value": "heightened stress responses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to heightened stress responses"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "sleep deprivation",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consistent lack of sleep can disrupt our emotional regulators within the brain, leading to heightened stress responses"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Doctor Sarah Jennings",
+    "relation": "occupation",
+    "value": "a sleep expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Doctor Sarah Jennings, a sleep expert, states"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Doctor Sarah Jennings",
+    "relation": "stated",
+    "value": "Your favorite thrill-seeker on the big screen might be navigating a real-life horror story due to sleep disruption.",
+    "time": null,
+    "speaker": "Doctor Sarah Jennings",
+    "verbatim": [
+     "Your favorite thrill-seeker on the big screen might be navigating a real-life horror story due to sleep disruption."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lana Martinez",
+    "relation": "occupation",
+    "value": "charismatic pop diva",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the charismatic pop diva, Lana Martinez"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Lana Martinez",
+    "relation": "shared_sleep_routine_on",
+    "value": "YouTube",
+    "time": "November 1",
+    "speaker": null,
+    "verbatim": [
+     "On November 1, the charismatic pop diva, Lana Martinez, shared her restorative sleep routine on YouTube"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "YouTube",
+    "relation": "hosted_sleep_routine_by",
+    "value": "Lana Martinez",
+    "time": "November 1",
+    "speaker": null,
+    "verbatim": [
+     "On November 1, the charismatic pop diva, Lana Martinez, shared her restorative sleep routine on YouTube"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "YouTube",
+    "relation": "video_views",
+    "value": "5 million views",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a trending video with 5 million views and counting"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lana Martinez",
+    "relation": "uses",
+    "value": "Lavender scented candles, a tech curfew, and a nightly gratitude list",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lana's sleep sanctuary essentials? Lavender scented candles, a tech curfew, and a nightly gratitude list to tame the anxieties"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "anxiety",
+    "relation": "tamed_by",
+    "value": "a nightly gratitude list",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a nightly gratitude list to tame the anxieties"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lana Martinez",
+    "relation": "in_order_to",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a nightly gratitude list to tame the anxieties"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Hollywood",
+    "relation": "mentioned_in_title",
+    "value": "The Sleep Support Squad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Snooze or Lose: The Sleep Support Squad in Hollywood"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Zachary Reed",
+    "relation": "occupation",
+    "value": "A-list wellness coach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A-list wellness coach, Zachary Reed"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Zachary Reed",
+    "relation": "roster_includes",
+    "value": "Chloe Stevens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who\u2019s roster includes names like Chloe Stevens"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Zachary Reed",
+    "relation": "roster_includes",
+    "value": "Leo Clarkson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "names like Chloe Stevens and action star Leo Clarkson"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Chloe Stevens",
+    "relation": "roster_member_of",
+    "value": "Zachary Reed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who\u2019s roster includes names like Chloe Stevens"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Leo Clarkson",
+    "relation": "occupation",
+    "value": "action star",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "action star Leo Clarkson"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Leo Clarkson",
+    "relation": "roster_member_of",
+    "value": "Zachary Reed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "names like Chloe Stevens and action star Leo Clarkson"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Zachary Reed",
+    "relation": "highlighted_date",
+    "value": "pivotal date for kickstarting the Sleep Warrior Bootcamp",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "highlights October 28, 2023, as a pivotal date for kickstarting the 'Sleep Warrior Bootcamp,'"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sleep Warrior Bootcamp",
+    "relation": "kickstart_date",
+    "value": "October 28, 2023",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "highlights October 28, 2023, as a pivotal date for kickstarting the 'Sleep Warrior Bootcamp,'"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sleep Warrior Bootcamp",
+    "relation": "is_initiative_helping",
+    "value": "stars tackle sleep to maintain their mental edge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative helping stars tackle sleep to maintain their mental edge"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Zachary Reed",
+    "relation": "said",
+    "value": "Think of it as a fitness routine for your mind's tranquility",
+    "time": null,
+    "speaker": "Zachary Reed",
+    "verbatim": [
+     "Think of it as a fitness routine for your mind's tranquility"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Tinseltown",
+    "relation": "sleep_coaches_emphasize",
+    "value": "S-E-L-F protocol",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sleep coaches in Tinseltown emphasize the S-E-L-F protocol"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "S-E-L-F protocol",
+    "relation": "includes",
+    "value": "Silence (mindful meditation)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Silence (mindful meditation)"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "S-E-L-F protocol",
+    "relation": "includes",
+    "value": "Environment (optimized for sleep)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Environment (optimized for sleep)"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "S-E-L-F protocol",
+    "relation": "includes",
+    "value": "Lifestyle (nutrition and exercise)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lifestyle (nutrition and exercise)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "S-E-L-F protocol",
+    "relation": "includes",
+    "value": "Function (power napping)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Function (power napping)"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "S-E-L-F protocol",
+    "relation": "boosted",
+    "value": "the stars' on-screen presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has not only boosted the stars' on-screen presence but fortified their mental resilience."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "S-E-L-F protocol",
+    "relation": "fortified",
+    "value": "their mental resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has not only boosted the stars' on-screen presence but fortified their mental resilience."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jasper Lyle",
+    "relation": "hosts",
+    "value": "Pillow Talks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jasper Lyle, with biweekly \"Pillow Talks\" on mental health and sleep on his podcast"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Pillow Talks",
+    "relation": "frequency",
+    "value": "biweekly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biweekly \"Pillow Talks\" on mental health and sleep on his podcast"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Pillow Talks",
+    "relation": "topic",
+    "value": "mental health and sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biweekly \"Pillow Talks\" on mental health and sleep on his podcast"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Pillow Talks",
+    "relation": "published_on",
+    "value": "his podcast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Pillow Talks\" on mental health and sleep on his podcast"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Jasper Lyle",
+    "relation": "inspired",
+    "value": "a shift in the audience's bedtime tales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have inspired a shift in the audience\u2019s bedtime tales"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "#GoodnightChallenge",
+    "relation": "initiated_on",
+    "value": "September 19, 2023",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "#GoodnightChallenge, initiated on September 19, 2023, by reality TV star Jenna Holloway"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "#GoodnightChallenge",
+    "relation": "initiated_by",
+    "value": "Jenna Holloway",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "#GoodnightChallenge, initiated on September 19, 2023, by reality TV star Jenna Holloway"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jenna Holloway",
+    "relation": "occupation",
+    "value": "reality TV star",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reality TV star Jenna Holloway"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jenna Holloway",
+    "relation": "initiated",
+    "value": "#GoodnightChallenge",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "#GoodnightChallenge, initiated on September 19, 2023, by reality TV star Jenna Holloway"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "#GoodnightChallenge",
+    "relation": "involves",
+    "value": "followers committing to a 10 PM lights-out schedule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcase followers committing to a 10 PM lights-out schedule"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Hollywood Dreamtime Festival",
+    "relation": "launched_on",
+    "value": "November 21, 2023",
+    "time": "November 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the first-ever 'Hollywood Dreamtime Festival' launched on November 21, 2023"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Hollywood Dreamtime Festival",
+    "relation": "described_as",
+    "value": "first-ever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the first-ever 'Hollywood Dreamtime Festival'"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Hollywood Dreamtime Festival",
+    "relation": "offers",
+    "value": "communal relaxation practices akin to bedtime stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering communal relaxation practices akin to bedtime stories"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Hollywood Dreamtime Festival",
+    "relation": "aimed_at",
+    "value": "sleep-deprived adults grappling with the mental toll of life in the fast lane",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for the sleep-deprived adults grappling with the mental toll of life in the fast lane"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "quantified sleep",
+    "relation": "described_as",
+    "value": "wearable tech that not only counts steps but also counts sheep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The trend is quantified sleep\u2014wearable tech that not only counts steps but also counts sheep."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "sleep tracking devices",
+    "relation": "purchase_increase",
+    "value": "40% increase",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Health headlines on December 3, 2023, were abuzz when year-end data analytics showed a 40% increase in the purchase of sleep tracking devices by those in the entertainment industry."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

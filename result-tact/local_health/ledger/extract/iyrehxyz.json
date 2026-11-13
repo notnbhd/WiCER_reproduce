@@ -1,0 +1,630 @@
+{
+ "inventory": [
+  "Herbal medicine",
+  "Dr. Emily Stone",
+  "Dr. John Kessler",
+  "Alternative Healthcare Economics Research Institute",
+  "Dr. Lisa Hamilton",
+  "Ginkgo biloba extract",
+  "Alzheimer's",
+  "FDA",
+  "Dr. Mark Daniels",
+  "Center for Integrative Health",
+  "Dr. Nina Patel",
+  "National Center for Complementary and Integrative Health",
+  "Dr. Sandra Beck",
+  "Conventional medicine",
+  "Herbal supplements"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Herbal medicine",
+    "relation": "gaining_traction_in",
+    "value": "modern healthcare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is increasingly gaining traction within the realm of modern healthcare"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Herbal medicine",
+    "relation": "described_as",
+    "value": "an age-old practice of using plant-based substances for medicinal purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herbal medicine, an age-old practice of using plant-based substances for medicinal purposes"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Herbal medicine",
+    "relation": "incorporated_by",
+    "value": "a significant portion of the population",
+    "time": "As of September 15, 2023",
+    "speaker": "recent surveys",
+    "verbatim": [
+     "recent surveys suggest that a significant portion of the population has started incorporating herbal remedies into their health regimen"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Herbal medicine",
+    "relation": "used_alongside_or_in_place_of",
+    "value": "conventional medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alongside, or sometimes in place of, conventional medicine"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Herbal medicine",
+    "relation": "also_known_as",
+    "value": "phytomedicine or botanical medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also known as phytomedicine or botanical medicine"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Herbal medicine",
+    "relation": "involves_use_of",
+    "value": "the use of plants' seeds, berries, roots, leaves, bark, or flowers for medicinal purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves the use of plants' seeds, berries, roots, leaves, bark, or flowers for medicinal purposes"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Herbal medicine",
+    "relation": "tradition_dates_back",
+    "value": "thousands of years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a tradition that dates back thousands of years"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Herbal medicine",
+    "relation": "precursor_to",
+    "value": "modern pharmaceuticals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these remedies were the precursor to modern pharmaceuticals"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Stone",
+    "relation": "occupation",
+    "value": "a leading botanist and herbalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Stone, a leading botanist and herbalist"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Stone",
+    "relation": "stated",
+    "value": "many conventional drugs have their origins in plant-based substances",
+    "time": null,
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "many conventional drugs have their origins in plant-based substances"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Herbal medicine",
+    "relation": "lends_credence_to",
+    "value": "the therapeutic potential of herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a fact lending credence to the therapeutic potential of herbs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Emily Stone",
+    "relation": "supports",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many conventional drugs have their origins in plant-based substances",
+     "a fact lending credence to the therapeutic potential of herbs"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Herbal medicine",
+    "relation": "resurgence_attributed_to",
+    "value": "its perceived efficacy, lower cost, and a desire for a holistic approach to health",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the global resurgence of herbal medicine is attributed to its perceived efficacy, lower cost, and a desire for a holistic approach to health"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Emily Stone",
+    "relation": "gave_interview",
+    "value": "an interview",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In an interview on October 3, 2023, Dr. Stone explained"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Emily Stone",
+    "relation": "explained",
+    "value": "The distinction between herbal and pharmaceutical isn't as wide as some might believe.",
+    "time": "October 3, 2023",
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "The distinction between herbal and pharmaceutical isn't as wide as some might believe."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Emily Stone",
+    "relation": "stated",
+    "value": "There's a synergy that, when correctly applied, can enhance patient outcomes",
+    "time": "October 3, 2023",
+    "speaker": "Dr. Emily Stone",
+    "verbatim": [
+     "There's a synergy that, when correctly applied, can enhance patient outcomes."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Herbal medicine",
+    "relation": "cost_effectiveness_compared_to",
+    "value": "conventional pharmaceuticals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cost-effectiveness compared to conventional pharmaceuticals"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Alternative Healthcare Economics Research Institute",
+    "relation": "published_study",
+    "value": "a study",
+    "time": "November 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study published on November 10, 2023, by the Alternative Healthcare Economics Research Institute (AHERI)"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Alternative Healthcare Economics Research Institute",
+    "relation": "showed",
+    "value": "patients who integrated herbal practices reported lower overall healthcare costs",
+    "time": "November 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "showed that patients who integrated herbal practices reported lower overall healthcare costs"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Herbal medicine",
+    "relation": "associated_with_reduced_expenditure_on",
+    "value": "prescriptions and over-the-counter medications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This included reduced expenditure on prescriptions and over-the-counter medications."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. John Kessler",
+    "relation": "occupation",
+    "value": "a health economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. John Kessler, a health economist"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. John Kessler",
+    "relation": "stated",
+    "value": "Herbal remedies often require less processing and fewer resources to produce than their synthetic counterparts, which is reflected in the consumer's cost.",
+    "time": null,
+    "speaker": "Dr. John Kessler",
+    "verbatim": [
+     "Herbal remedies often require less processing and fewer resources to produce than their synthetic counterparts, which is reflected in the consumer's cost."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. John Kessler",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fewer resources to produce than their synthetic counterparts, which is reflected in the consumer's cost"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. John Kessler",
+    "relation": "emphasized",
+    "value": "long-term savings hinge on the effective use of these medicines under the guidance of knowledgeable practitioners",
+    "time": null,
+    "speaker": "Dr. John Kessler",
+    "verbatim": [
+     "long-term savings hinge on the effective use of these medicines under the guidance of knowledgeable practitioners"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Herbal medicine",
+    "relation": "efficacy_assessment_is",
+    "value": "complex due to the vast array of plants and compounds used",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Assessing the efficacy of herbal medicine is complex due to the vast array of plants and compounds used."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Herbal medicine",
+    "relation": "lacks",
+    "value": "sufficient standardized clinical trials to establish the effectiveness of herbal treatments",
+    "time": null,
+    "speaker": "Some critics",
+    "verbatim": [
+     "Some critics argue that the field lacks sufficient standardized clinical trials to establish the effectiveness of herbal treatments."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Herbal medicine",
+    "relation": "demonstrated_clinical_benefits",
+    "value": "several herbs have demonstrated clinical benefits",
+    "time": null,
+    "speaker": "proponents",
+    "verbatim": [
+     "proponents, backed by a growing body of research, contend that several herbs have demonstrated clinical benefits"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Lisa Hamilton",
+    "relation": "occupation",
+    "value": "a naturopathic physician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lisa Hamilton, a naturopathic physician"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Lisa Hamilton",
+    "relation": "cited_study",
+    "value": "a study from January 2024",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "cited a study from January 2024"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Ginkgo biloba extract",
+    "relation": "shown_to_improve",
+    "value": "cognitive function in patients with mild Alzheimer's",
+    "time": "January 2024",
+    "speaker": "Dr. Lisa Hamilton",
+    "verbatim": [
+     "Ginkgo biloba extract was shown to improve cognitive function in patients with mild Alzheimer's"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alzheimer's",
+    "relation": "severity",
+    "value": "mild",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "patients with mild Alzheimer's"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Lisa Hamilton",
+    "relation": "stated",
+    "value": "This is but one instance where herbal medicine can play a role in managing chronic conditions",
+    "time": "February 20, 2024",
+    "speaker": "Dr. Lisa Hamilton",
+    "verbatim": [
+     "This is but one instance where herbal medicine can play a role in managing chronic conditions"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Lisa Hamilton",
+    "relation": "spoke_at",
+    "value": "a seminar",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "stated Dr. Hamilton in a seminar on February 20, 2024"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Herbal medicine",
+    "relation": "concerns_over",
+    "value": "safety and regulation",
+    "time": null,
+    "speaker": "critics",
+    "verbatim": [
+     "critics often express concerns over the safety and regulation of herbal medicines"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "FDA",
+    "relation": "sets_approval_standards_for",
+    "value": "pharmaceutical drugs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pharmaceutical drugs, which are subject to rigorous testing and approval standards by entities like the FDA"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Herbal supplements",
+    "relation": "held_to_criteria",
+    "value": "not the same stringent criteria as pharmaceutical drugs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "herbal supplements are not held to the same stringent criteria"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Mark Daniels",
+    "relation": "occupation",
+    "value": "a pharmacologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Mark Daniels, a pharmacologist"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Mark Daniels",
+    "relation": "argues",
+    "value": "this lack of regulation can lead to issues with product quality and potential for harmful interactions",
+    "time": null,
+    "speaker": "Dr. Mark Daniels",
+    "verbatim": [
+     "this lack of regulation can lead to issues with product quality and potential for harmful interactions"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Dr. Mark Daniels",
+    "relation": "cautioned",
+    "value": "Patients must consult healthcare providers before starting any herbal regimen, particularly if they are taking prescription medications",
+    "time": "March 1, 2024",
+    "speaker": "Dr. Mark Daniels",
+    "verbatim": [
+     "Patients must consult healthcare providers before starting any herbal regimen, particularly if they are taking prescription medications"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Dr. Mark Daniels",
+    "relation": "spoke_at",
+    "value": "a symposium",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "cautioned in a symposium conducted on March 1, 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Herbal medicine",
+    "relation": "combined_with_conventional_medicine_by",
+    "value": "hospitals and integrative health clinics employing practitioners skilled in both conventional and herbal medicine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hospitals and integrative health clinics are now employing practitioners skilled in both conventional and herbal medicine"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Center for Integrative Health",
+    "relation": "located_in",
+    "value": "New York",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Center for Integrative Health in New York"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Center for Integrative Health",
+    "relation": "launched_initiative_on",
+    "value": "an initiative featuring a dedicated herbal therapy department",
+    "time": "April 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched an initiative on April 10, 2024, featuring a dedicated herbal therapy department"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Dr. Nina Patel",
+    "relation": "position",
+    "value": "Chief Medical Officer at the Center",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Chief Medical Officer at the Center"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Dr. Nina Patel",
+    "relation": "stated",
+    "value": "Integration is key to maximizing patient outcomes",
+    "time": null,
+    "speaker": "Dr. Nina Patel",
+    "verbatim": [
+     "Integration is key to maximizing patient outcomes"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Dr. Nina Patel",
+    "relation": "stated",
+    "value": "Incorporating the benefits of herbal medicine with the advances in conventional medicine offers a holistic approach without compromising patient safety",
+    "time": null,
+    "speaker": "Dr. Nina Patel",
+    "verbatim": [
+     "Incorporating the benefits of herbal medicine with the advances in conventional medicine offers a holistic approach without compromising patient safety."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Herbal medicine",
+    "relation": "included_in_medical_curricula",
+    "value": "courses on herbal medicine and pharmacognosy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Medical curriculums are beginning to include courses on herbal medicine and pharmacognosy"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "National Center for Complementary and Integrative Health",
+    "relation": "funds",
+    "value": "studies to better understand the efficacy and mechanisms of herbal medicines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "constantly funding studies to better understand the efficacy and mechanisms of herbal medicines"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Sandra Beck",
+    "relation": "position",
+    "value": "a research director at the NCCIH",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Sandra Beck, a research director at the NCCIH"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Dr. Sandra Beck",
+    "relation": "stated",
+    "value": "It's an exciting time for herbal medicine research.",
+    "time": "May 15, 2024",
+    "speaker": "Dr. Sandra Beck",
+    "verbatim": [
+     "It's an exciting time for herbal medicine research."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Dr. Sandra Beck",
+    "relation": "stated",
+    "value": "Every study brings us one step closer to fully realizing the potential of these natural therapies.",
+    "time": "May 15, 2024",
+    "speaker": "Dr. Sandra Beck",
+    "verbatim": [
+     "Every study brings us one step closer to fully realizing the potential of these natural therapies."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Herbal medicine",
+    "relation": "challenges_persist",
+    "value": "challenges surrounding regulation and safety",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While challenges surrounding regulation and safety persist"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Herbal medicine",
+    "relation": "collaborative_efforts_paving_way_for",
+    "value": "a more inclusive approach to health and wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the collaborative efforts of healthcare professionals and researchers are paving the way for a more inclusive approach to health and wellness"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Herbal medicine",
+    "relation": "integration_marked_by",
+    "value": "a continual weighing of benefits, costs, and evidence-based outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "marked by a continual weighing of benefits, costs, and evidence-based outcomes"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Herbal medicine",
+    "relation": "guides_toward",
+    "value": "improved health strategies that are both effective and sustainable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ultimately guiding us to improved health strategies that are both effective and sustainable"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}
