@@ -366,8 +366,17 @@ def _covering(spans: Sequence[Sequence[int]], sents: list[tuple[int, int]]) -> t
 # document's ordinal and the cut's -- that a later request trades for the text
 # (tact/paged.py).  A described stub also names up to STUB_TOPICS of the claims
 # the cut carried, entity and relation only: what was there, never its value.
-STUB_STYLES = ("none", "bare", "described")
+#
+# With whole-document fetch the reader only needs to know which document lost
+# what, so ``index`` leaves no stub at the cuts: each document that lost
+# sentences ends with one line naming the entities its cut sentences were
+# about, most-cut first -- ``[cut from document 12: Sophia Rodriguez; ShopSphere]``.
+# A question about something cut whole then has a name to match, and one line
+# per document costs less than a stub per cut.
+STUB_STYLES = ("none", "bare", "described", "index")
 STUB_TOPICS = 2
+INDEX_ENTITIES = 8
+INDEX_ENTITY_WORDS = 6
 
 
 def stub_line(sid: str, claims: Sequence[Claim], style: str) -> str:
@@ -378,6 +387,20 @@ def stub_line(sid: str, claims: Sequence[Claim], style: str) -> str:
             if topic not in topics:
                 topics.append(topic)
     return f"[cut {sid}: {'; '.join(topics[:STUB_TOPICS])}]" if topics else f"[cut {sid}]"
+
+
+def index_line(n: int, claims: Sequence[Claim]) -> str:
+    """The note that closes a document under ``stubs="index"``."""
+    counts: dict[str, int] = {}
+    first: dict[str, tuple[int, str]] = {}
+    for c in claims:
+        name = " ".join(str(c.e).split()[:INDEX_ENTITY_WORDS])
+        if not name or name.startswith("("):
+            continue
+        counts[name] = counts.get(name, 0) + 1
+        first.setdefault(name, (c.pos, c.id))
+    names = sorted(counts, key=lambda e: (-counts[e], first[e]))[:INDEX_ENTITIES]
+    return f"[cut from document {n}: {'; '.join(names)}]" if names else f"[cut from document {n}]"
 
 
 def layout_verbatim(
@@ -406,6 +429,8 @@ def layout_verbatim(
             else:
                 runs.append((i in kept, [i]))
         n_text = n_cut = 0
+        cut_claims: list[str] = []
+        doc_cuts: list[dict[str, Any]] = []
         for is_kept, run in runs:
             ids = sorted({c for i in run for c in owners.get((doc, i), ())})
             if is_kept:
@@ -416,10 +441,19 @@ def layout_verbatim(
             elif stubs != "none":
                 n_cut += 1
                 sid = f"{n}.{n_cut}"
-                sidecar.append({"doc": doc, "block": "cut", "id": sid, "line": len(lines),
-                                "span": [sents[doc][run[0]][0], sents[doc][run[-1]][1]],
-                                "n_sentences": len(run), "claims": ids})
-                lines.append(stub_line(sid, [claims[c] for c in ids] if claims else (), stubs))
+                row = {"doc": doc, "block": "cut", "id": sid, "line": len(lines),
+                       "span": [sents[doc][run[0]][0], sents[doc][run[-1]][1]],
+                       "n_sentences": len(run), "claims": ids}
+                sidecar.append(row)
+                if stubs == "index":
+                    cut_claims += ids
+                    doc_cuts.append(row)
+                else:
+                    lines.append(stub_line(sid, [claims[c] for c in ids] if claims else (), stubs))
+        if stubs == "index" and doc_cuts:
+            for row in doc_cuts:              # every cut points at the note that names it
+                row["line"] = len(lines)
+            lines.append(index_line(n, [claims[c] for c in cut_claims] if claims else ()))
     return "\n".join(lines) + ("\n" if lines else ""), sidecar
 
 

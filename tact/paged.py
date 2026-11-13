@@ -69,9 +69,20 @@ DOC_FETCH_INSTRUCTION = (
 )
 
 
-def build_fetch_prompt(question: str, fetch: str = "cut") -> str:
+INDEX_FETCH_INSTRUCTION = (
+    "Some sentences were cut from the documents above; a document that lost sentences ends "
+    "with a note like [cut from document 12: ...] naming what they were about. If the answer "
+    "is in a cut part, reply with only the word FETCH and the number of that document, for "
+    "example: FETCH 12"
+)
+
+
+def build_fetch_prompt(question: str, fetch: str = "cut", stubs: str = "bare") -> str:
     """The ordinary suffix plus the offer to fetch; nothing else differs."""
-    offer = DOC_FETCH_INSTRUCTION if fetch == "doc" else FETCH_INSTRUCTION
+    if stubs == "index":
+        offer = INDEX_FETCH_INSTRUCTION
+    else:
+        offer = DOC_FETCH_INSTRUCTION if fetch == "doc" else FETCH_INSTRUCTION
     return f"{ANSWER_INSTRUCTION}\n{offer}\n\nQuestion: {question}\nAnswer:"
 
 
@@ -197,7 +208,11 @@ def run_paged(
     cuts = load_cuts(profile, topic, wiki)
     numbers = doc_numbers(cuts, corpus.documents)
     number_of = {doc: n for n, doc in numbers.items()}
-    context = build_wiki_context(wiki_paths(profile, topic, wiki)[0].read_text())
+    md, meta_path = wiki_paths(profile, topic, wiki)
+    context = build_wiki_context(md.read_text())
+    stubs = json.loads(meta_path.read_text()).get("stubs", "bare") if meta_path.exists() else "bare"
+    if stubs == "index" and fetch != "doc":
+        raise ValueError(f"wiki {wiki!r} names documents, not cuts: page it with fetch='doc'")
     questions = corpus.qa if questions is None else questions
 
     reader = reader or ReaderClient(profile.reader)
@@ -234,7 +249,7 @@ def run_paged(
                 requested = gold_cuts[:MAX_ORACLE_FETCH]
                 gens: list[Generation] = []
             else:
-                gens = [reader.chat(context, build_fetch_prompt(q.question, fetch))]
+                gens = [reader.chat(context, build_fetch_prompt(q.question, fetch, stubs))]
                 requested = (parse_fetch_docs if fetch == "doc" else parse_fetch)(gens[0].text)
             fetched = [i for i in requested if i in (numbers if fetch == "doc" else cuts)]
             if mode == "oracle" or requested:
@@ -257,6 +272,7 @@ def run_paged(
 
     summary = {
         "topic": topic, "condition": condition, "wiki": wiki, "mode": mode, "fetch": fetch,
+        "stubs": stubs,
         "n_context_tokens": n_context_tokens, "n_cuts": len(cuts),
         "n_questions": len(questions), "n_generated": len(pending), "n_resumed": len(done),
     }

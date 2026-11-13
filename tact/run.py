@@ -88,7 +88,7 @@ def main(argv: list[str] | None = None, *, profile: Profile | None = None) -> in
     cmds["render"].add_argument("--budget-tokens", type=int, default=None,
                                 help="B in reader tokens instead of the profile's ratio of the "
                                      "source (a corpus larger than the window)")
-    cmds["render"].add_argument("--stubs", choices=("none", "bare", "described"), default="none",
+    cmds["render"].add_argument("--stubs", choices=("none", "bare", "described", "index"), default="none",
                                 help="verbatim only: mark each cut, bare or with what it held")
     cmds["page"].add_argument("--wiki", required=True, help="a wiki rendered with --stubs")
     cmds["page"].add_argument("--mode", choices=("reader", "oracle"), default="reader",

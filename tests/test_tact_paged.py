@@ -365,3 +365,40 @@ def test_render_can_fix_the_budget_in_tokens(profile, topic):
     with pytest.raises(ValueError):
         render_topic(profile, topic, name="x", rho=0.0, count_tokens=words, ratio=0.5,
                      budget_tokens=100)
+
+
+# -- a cut index per document ---------------------------------------------------------------
+
+
+def test_index_style_closes_each_document_with_what_was_cut_from_it():
+    doc = _doc()
+    claims = [_claim_on(doc, 1, SENTS[1], e="Mill"), _claim_on(doc, 2, SENTS[2], e="Aldwin"),
+              _claim_on(doc, 3, SENTS[3], e="Aldwin"), _claim_on(doc, 4, SENTS[5], e="(document)")]
+    text, sidecar = _layout(doc, {0, 4}, claims, stubs="index")
+    lines = text.splitlines()
+    # No stub at the cuts; one note at the end, most-cut entity first, placeholders dropped.
+    assert lines == ["## Mill Town", "", SENTS[0], SENTS[4], "[cut from document 1: Aldwin; Mill]"]
+    cuts = [r for r in sidecar if r["block"] == "cut"]
+    assert [c["id"] for c in cuts] == ["1.1", "1.2"]
+    assert all(lines[c["line"]].startswith("[cut from document 1") for c in cuts)
+    assert doc.text[slice(*cuts[0]["span"])] == " ".join(SENTS[1:4])
+
+
+def test_a_document_with_nothing_cut_gets_no_note():
+    text, sidecar = _layout(_doc(), set(range(len(SENTS))), stubs="index")
+    assert "[cut" not in text and not any(r["block"] == "cut" for r in sidecar)
+
+
+def test_an_index_wiki_offers_documents_and_refuses_cut_fetch(profile, topic):
+    build_ledger(profile, topic, Extractor(profile.compiler, backend="fake"))
+    render_topic(profile, topic, name="idx", rho=0.0, count_tokens=words, style="verbatim",
+                 stubs="index")
+    qa = load_topic(profile, topic).qa[:1]
+    reader = ScriptedReader(["FETCH 1", "after"])
+    run_paged(profile, topic, "idx_doc", wiki="idx", mode="reader", fetch="doc", reader=reader,
+              questions=qa, progress=False)
+    assert "[cut from document 12: ...]" in reader.calls[0]
+    assert "Full text of document 1:" in reader.calls[1]
+    with pytest.raises(ValueError):
+        run_paged(profile, topic, "idx_cut", wiki="idx", mode="reader", fetch="cut",
+                  reader=ScriptedReader([]), questions=qa, progress=False)
