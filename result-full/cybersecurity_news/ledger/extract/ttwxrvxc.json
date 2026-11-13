@@ -1,0 +1,832 @@
+{
+ "inventory": [
+  "Jordan Ellis",
+  "Midtown Federal",
+  "Sophia Rodriguez",
+  "CyberTech International",
+  "Thompson Clark",
+  "Andrew Peterson",
+  "Dr. David Kidman",
+  "Todd Reynolds",
+  "New York City",
+  "financial sector",
+  "a leading multinational bank",
+  "a neighboring bank",
+  "ransomware attack",
+  "spear phishing",
+  "social engineering",
+  "cyber hygiene",
+  "security conference",
+  "cybersecurity training"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "financial sector",
+    "relation": "faces_focus_on",
+    "value": "heightened cybersecurity awareness and training",
+    "time": "The past year",
+    "speaker": null,
+    "verbatim": [
+     "The past year, marked by a surge in sophisticated cyber-attacks, has brought an acute focus on the need for heightened cybersecurity awareness and training among financial sector employees."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "financial sector",
+    "relation": "security_at_stake",
+    "value": "security of millions of customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the security of millions of customers\u2014and the stability of the global economy\u2014at stake"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "financial sector",
+    "relation": "time_of_writing",
+    "value": "the later quarter of 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we enter the later quarter of 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "a leading multinational bank",
+    "relation": "thwarted",
+    "value": "a potentially devastating ransomware attack",
+    "time": "On September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 6, 2023, a leading multinational bank thwarted a potentially devastating ransomware attack"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "ransomware attack",
+    "relation": "thwarted_by",
+    "value": "a leading multinational bank",
+    "time": "On September 6, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a leading multinational bank thwarted a potentially devastating ransomware attack"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "financial sector",
+    "relation": "faces_wider_range_of",
+    "value": "attack vectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "confronting financial institutions with a wider range of attack vectors"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jordan Ellis",
+    "relation": "job_title",
+    "value": "bank teller",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine a typical day in the life of Jordan Ellis, a bank teller at Midtown Federal"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jordan Ellis",
+    "relation": "employer",
+    "value": "Midtown Federal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a bank teller at Midtown Federal"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Midtown Federal",
+    "relation": "is_a",
+    "value": "mid-sized bank",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Midtown Federal, a mid-sized bank headquartered in the bustling heart of New York City"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Midtown Federal",
+    "relation": "headquartered_in",
+    "value": "New York City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mid-sized bank headquartered in the bustling heart of New York City"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "New York City",
+    "relation": "headquarters_of",
+    "value": "Midtown Federal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mid-sized bank headquartered in the bustling heart of New York City"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jordan Ellis",
+    "relation": "logs_onto",
+    "value": "her secured terminal",
+    "time": "At 8:45 a.m.",
+    "speaker": null,
+    "verbatim": [
+     "At 8:45 a.m., she logs onto her secured terminal"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cybersecurity training",
+    "relation": "mandatory_module_on",
+    "value": "the latest phishing tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reminding all employees of the new mandatory training module on the latest phishing tactics"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Jordan Ellis",
+    "relation": "completes",
+    "value": "the online training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan dedicates time to complete the online training."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Jordan Ellis",
+    "relation": "considers_role",
+    "value": "critical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan knows that her role is critical."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sophia Rodriguez",
+    "relation": "job_title",
+    "value": "Chief Information Security Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bank's Chief Information Security Officer, Sophia Rodriguez"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sophia Rodriguez",
+    "relation": "joined_on",
+    "value": "January 2, 2023",
+    "time": "January 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who joined on January 2, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sophia Rodriguez",
+    "relation": "developed",
+    "value": "the training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The training, developed by the bank's Chief Information Security Officer, Sophia Rodriguez"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "cybersecurity training",
+    "relation": "includes",
+    "value": "interactive scenarios that simulate real-life cyber-attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "includes interactive scenarios that simulate real-life cyber-attacks, such as spear phishing and social engineering"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "spear phishing",
+    "relation": "simulated_in",
+    "value": "cybersecurity training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "interactive scenarios that simulate real-life cyber-attacks, such as spear phishing and social engineering"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "social engineering",
+    "relation": "simulated_in",
+    "value": "cybersecurity training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as spear phishing and social engineering"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "financial sector",
+    "relation": "invests_in",
+    "value": "human capital as a cybersecurity measure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial sector's investment in human capital as a cybersecurity measure is evident from recent trends."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "CyberTech International",
+    "relation": "published",
+    "value": "a 2023 report",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a 2023 report by CyberTech International"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "financial sector",
+    "relation": "increased_training_spending_by",
+    "value": "an average of 40%",
+    "time": "in the past year",
+    "speaker": "CyberTech International",
+    "verbatim": [
+     "banks and financial institutions increased their spending on cybersecurity training for employees by an average of 40% in the past year"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "financial sector",
+    "relation": "responds_to",
+    "value": "attacks that have grown more cunning, leveraging human error rather than technical vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This uptick is in response to attacks that have grown more cunning, leveraging human error rather than technical vulnerabilities."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "financial sector",
+    "relation": "caused_by",
+    "value_ref": "c25",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This uptick is in response to attacks that have grown more cunning, leveraging human error rather than technical vulnerabilities."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "a neighboring bank",
+    "relation": "experienced",
+    "value": "a breach",
+    "time": "On March 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On March 12, 2023, a neighboring bank experienced a breach"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "a neighboring bank",
+    "relation": "breach_caused_by",
+    "value": "an employee inadvertently clicked on a malicious link",
+    "time": "On March 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a neighboring bank experienced a breach when an employee inadvertently clicked on a malicious link"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "a neighboring bank",
+    "relation": "breach_granted_access_to",
+    "value": "sensitive customer data",
+    "time": "On March 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "granting hackers access to sensitive customer"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Thompson Clark",
+    "relation": "position",
+    "value": "Midtown Federal's CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "notes Thompson Clark, Midtown Federal's CEO."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Thompson Clark",
+    "relation": "said",
+    "value": "It was a wake-up call for all of us in the industry",
+    "time": null,
+    "speaker": "Thompson Clark",
+    "verbatim": [
+     "\u201cIt was a wake-up call for all of us in the industry,\u201d notes Thompson Clark"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Thompson Clark",
+    "relation": "said",
+    "value": "Investing in our employees\u2019 cybersecurity education is not optional",
+    "time": null,
+    "speaker": "Thompson Clark",
+    "verbatim": [
+     "Investing in our employees\u2019 cybersecurity education is not optional; it\u2019s as crucial as upgrading our digital defenses."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jordan Ellis",
+    "relation": "encounters",
+    "value": "an email asking her to verify her log-in details",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she encounters an email asking her to verify her log-in details"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jordan Ellis",
+    "relation": "recognizes",
+    "value": "the subtle red flags: an unfamiliar sender's domain and an urgent tone pressuring immediate action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she recognizes the subtle red flags: an unfamiliar sender's domain and an urgent tone pressuring immediate action"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jordan Ellis",
+    "relation": "had_recent_training",
+    "value": "her recent training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thanks to her recent training"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jordan Ellis",
+    "relation": "caused_by",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thanks to her recent training, she recognizes the subtle red flags"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jordan Ellis",
+    "relation": "reports",
+    "value": "the suspicious email to Midtown Federal's cybersecurity team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan reports the suspicious email to Midtown Federal's cybersecurity team"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Midtown Federal",
+    "relation": "cybersecurity_team_confirmed",
+    "value": "it was a phishing attempt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who confirms it was a phishing attempt"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jordan Ellis",
+    "relation": "prevents",
+    "value": "potential data leakage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her actions prevent potential data leakage, safeguarding her clients' trust."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jordan Ellis",
+    "relation": "safeguards",
+    "value": "her clients' trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "safeguarding her clients' trust"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jordan Ellis",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan reports the suspicious email to Midtown Federal's cybersecurity team, who confirms it was a phishing attempt.",
+     "Her actions prevent potential data leakage"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Midtown Federal",
+    "relation": "training_approach_serves",
+    "value": "educates while testing employees' ability to detect and respond to threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The hands-on training approach Midtown Federal adopts serves a dual purpose\u2014it educates while testing employees' ability to detect and respond to threats."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Andrew Peterson",
+    "relation": "job_title",
+    "value": "cybersecurity analyst at Midtown Federal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Andrew Peterson, a cybersecurity analyst at Midtown Federal, says"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Andrew Peterson",
+    "relation": "said",
+    "value": "We've moved past theorybased sessions",
+    "time": null,
+    "speaker": "Andrew Peterson",
+    "verbatim": [
+     "We've moved past theorybased sessions."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Andrew Peterson",
+    "relation": "said",
+    "value": "making employees experience the kind of stress and decision-making scenarios",
+    "time": null,
+    "speaker": "Andrew Peterson",
+    "verbatim": [
+     "making employees experience the kind of stress and decision-making scenarios"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "cybersecurity training",
+    "relation": "is_cornerstone_of",
+    "value": "a resilient cybersecurity strategy in the financial sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous education is the cornerstone of a resilient cybersecurity strategy in the financial sector."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Midtown Federal",
+    "relation": "provides_weekly_updates_on",
+    "value": "new cyber threats",
+    "time": "weekly",
+    "speaker": null,
+    "verbatim": [
+     "employees like Jordan receive weekly updates on new cyber threats"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Jordan Ellis",
+    "relation": "receives",
+    "value": "weekly updates on new cyber threats",
+    "time": "weekly",
+    "speaker": null,
+    "verbatim": [
+     "employees like Jordan receive weekly updates on new cyber threats"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Midtown Federal",
+    "relation": "holds_drill",
+    "value": "a comprehensive drill that simulates a full-scale cyber incident",
+    "time": "Every quarter",
+    "speaker": null,
+    "verbatim": [
+     "Every quarter, all staff members participate in a comprehensive drill that simulates a full-scale cyber incident"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Midtown Federal",
+    "relation": "drill_covers",
+    "value": "from technical breach containment to communication with regulators and customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encompassing everything from technical breach containment to communication with regulators and customers"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Dr. David Kidman",
+    "relation": "job_title",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As noted by cybersecurity consultant Dr. David Kidman"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Dr. David Kidman",
+    "relation": "spoke_at",
+    "value": "a recent security conference",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at a recent security conference on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "security conference",
+    "relation": "held_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at a recent security conference on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. David Kidman",
+    "relation": "said",
+    "value": "The most robust firewall and the most sophisticated anti-malware systems can be undone by a single uninformed click",
+    "time": "October 15, 2023",
+    "speaker": "Dr. David Kidman",
+    "verbatim": [
+     "The most robust firewall and the most sophisticated anti-malware systems can be undone by a single uninformed click."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. David Kidman",
+    "relation": "said",
+    "value": "cybersecurity training is not a one-time affair but a career-long commitment",
+    "time": "October 15, 2023",
+    "speaker": "Dr. David Kidman",
+    "verbatim": [
+     "Therefore, cybersecurity training is not a one-time affair but a career-long commitment."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cybersecurity training",
+    "relation": "caused_by",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The most robust firewall and the most sophisticated anti-malware systems can be undone by a single uninformed click.",
+     "Therefore, cybersecurity training is not a one-time affair but a career-long commitment."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "cybersecurity training",
+    "relation": "key_to_success_is",
+    "value": "their adaptive nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One key to successful cybersecurity training programs is their adaptive nature."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Todd Reynolds",
+    "relation": "job_title",
+    "value": "cybersecurity trainer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Todd Reynolds, a cybersecurity trainer, emphasizes"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Todd Reynolds",
+    "relation": "emphasized",
+    "value": "financial employees need training relevant to the rapidly evolving risk landscape",
+    "time": null,
+    "speaker": "Todd Reynolds",
+    "verbatim": [
+     "Todd Reynolds, a cybersecurity trainer, emphasizes that financial employees need training relevant to the rapidly evolving risk landscape."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Todd Reynolds",
+    "relation": "said",
+    "value": "Training programs should be timely, drawing from the latest incidents and threat intelligence",
+    "time": null,
+    "speaker": "Todd Reynolds",
+    "verbatim": [
+     "Training programs should be timely, drawing from the latest incidents and threat intelligence."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Todd Reynolds",
+    "relation": "said",
+    "value": "employees aren't just learning from rigid scenarios but from real-world challenges",
+    "time": null,
+    "speaker": "Todd Reynolds",
+    "verbatim": [
+     "employees aren't just learning from rigid scenarios but from real-world challenges."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Midtown Federal",
+    "relation": "incorporates_into_training",
+    "value": "recent cyber incidents, both internal and external",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Midtown Federal\u2019s cybersecurity team meticulously incorporates recent cyber incidents, both internal and external, into training materials"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "financial sector",
+    "relation": "requires",
+    "value": "a baseline of tech-savotiness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Financial professionals increasingly need to possess a baseline of tech-savotiness in their day-to-day responsibilities."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Jordan Ellis",
+    "relation": "learns",
+    "value": "to recognize threats and practice good cyber hygiene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees like Jordan learn not only to recognize threats but also to practice good cyber hygiene"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "cyber hygiene",
+    "relation": "includes",
+    "value": "managing passwords effectively, securing personal devices used for work, and understanding the safe handling of customer information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes managing passwords effectively, securing personal devices used for work, and understanding the safe handling of customer information."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "financial sector",
+    "relation": "role_is",
+    "value": "multifaceted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The role of financial employees in maintaining cybersecurity is multifaceted."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "financial sector",
+    "relation": "role_includes",
+    "value": "the first line of defense and educators to clients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are not just the first line of defense but also educators to clients."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Jordan Ellis",
+    "relation": "advises_clients_on",
+    "value": "how to secure their online banking accounts and the importance of reporting suspicious activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jordan often finds herself advising clients on how to secure their online banking accounts and the importance of reporting suspicious activities."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Jordan Ellis",
+    "relation": "forges",
+    "value": "an impregnable human shield against cybercrime in the financial sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the shared responsibility of employees like Jordan Ellis that forge an impregnable human shield against cybercrime in the financial sector"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "financial sector",
+    "relation": "becomes_more_secure_when",
+    "value": "employees like Jordan identify phishing attempts or report security weaknesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For every employee like Jordan who successfully identifies a phishing attempt or reports a security weakness, the financial sector becomes incrementally more secure."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "financial sector",
+    "relation": "changing",
+    "value": "the cyber-threat landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "institutions are slowly changing the cyber-threat landscape"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "financial sector",
+    "relation": "must_empower",
+    "value": "their employees, the everyday guardians of our financial data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "financial institutions must empower their employees, the everyday guardians of our financial data"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "financial sector",
+    "relation": "power_to_secure_lies_in",
+    "value": "digital fortifications and the hands of those who wield these tools with awareness, training, and an unyielding commitment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the power to secure the financial industry against cyber threats lies not only in the digital fortifications we construct but also in the hands of those who wield these tools with awareness, training, and an unyielding commitment"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

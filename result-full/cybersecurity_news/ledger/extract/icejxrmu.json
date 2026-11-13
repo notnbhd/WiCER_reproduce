@@ -1,0 +1,646 @@
+{
+ "inventory": [
+  "Digital Education Security Consortium",
+  "Dr. Emily Torres",
+  "SecureEdTech",
+  "Johnathan Goodwill",
+  "Riverside School District",
+  "Phish-a-thon",
+  "David Liu",
+  "Greater Heights Academy",
+  "Multi-Factor Authentication (MFA)",
+  "Laura Peterson",
+  "Christopher Banks",
+  "Susan Carrol",
+  "Valley School District",
+  "Maria Gonzales",
+  "Department of Education",
+  "Cybersecurity Fund for Education",
+  "Educational Cybersecurity Taskforce",
+  "Thomas Finch",
+  "Phishing scams",
+  "Enhanced email filtering"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Phishing scams",
+    "relation": "described_as",
+    "value": "fraudulent communications appear to come from a reputable source to steal sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams, wherein fraudulent communications appear to come from a reputable source to steal sensitive data, have become particularly prevalent."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Phishing scams",
+    "relation": "prevalence",
+    "value": "particularly prevalent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have become particularly prevalent"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Digital Education Security Consortium",
+    "relation": "reports",
+    "value": "educational institutions are experiencing a surge in phishing attacks",
+    "time": null,
+    "speaker": "Digital Education Security Consortium",
+    "verbatim": [
+     "Recent reports from the Digital Education Security Consortium indicate that educational institutions are experiencing a surge in phishing attacks"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Digital Education Security Consortium",
+    "relation": "reported_incident_increase",
+    "value": "30%",
+    "time": "since September 2023",
+    "speaker": "Digital Education Security Consortium",
+    "verbatim": [
+     "with incidents rising by 30% since September 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Emily Torres",
+    "relation": "job_title",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Torres, a cybersecurity analyst at SecureEdTech"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Torres",
+    "relation": "works_at",
+    "value": "SecureEdTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Torres, a cybersecurity analyst at SecureEdTech"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Torres",
+    "relation": "argues_for",
+    "value": "robust and dynamic defense strategies",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "argue for robust and dynamic defense strategies"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Emily Torres",
+    "relation": "warns",
+    "value": "Phishing scams are evolving",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "Phishing scams are evolving"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Torres",
+    "relation": "states",
+    "value": "It\u2019s not just about software; it\u2019s about cultivating a culture of cybersecurity awareness",
+    "time": null,
+    "speaker": "Dr. Emily Torres",
+    "verbatim": [
+     "It\u2019s not just about software; it\u2019s about cultivating a culture of cybersecurity awareness"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Johnathan Goodwill",
+    "relation": "job_title",
+    "value": "IT Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Goodwill, IT Director at Riverside School District"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Johnathan Goodwill",
+    "relation": "works_at",
+    "value": "Riverside School District",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Goodwill, IT Director at Riverside School District"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Johnathan Goodwill",
+    "relation": "pioneered",
+    "value": "Phish-a-thon",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "pioneered a 'Phish-a-thon' on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Phish-a-thon",
+    "relation": "held_on",
+    "value": "November 2, 2023",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "pioneered a 'Phish-a-thon' on November 2, 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Phish-a-thon",
+    "relation": "involved",
+    "value": "faculty were sent a simulated phishing email",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "faculty were sent a simulated phishing email"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Phish-a-thon",
+    "relation": "purpose",
+    "value": "to test their reactions",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "to test their reactions"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Phish-a-thon",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faculty were sent a simulated phishing email to test their reactions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Phish-a-thon",
+    "relation": "click_rate",
+    "value": "60% of recipients clicked the malicious link",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A startling 60% of recipients clicked the malicious link"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Johnathan Goodwill",
+    "relation": "stresses",
+    "value": "the need for continuous education",
+    "time": null,
+    "speaker": "Johnathan Goodwill",
+    "verbatim": [
+     "Goodwill stresses the need for continuous education"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Johnathan Goodwill",
+    "relation": "said",
+    "value": "We can\u2019t just tell our staff and students to be careful once and expect them to be prepared.",
+    "time": null,
+    "speaker": "Johnathan Goodwill",
+    "verbatim": [
+     "We can\u2019t just tell our staff and students to be careful once and expect them to be prepared."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Enhanced email filtering",
+    "relation": "should_be",
+    "value": "non-negotiable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enhanced email filtering should be non-negotiable"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Enhanced email filtering",
+    "relation": "can_block",
+    "value": "many phishing attempts before they reach their intended targets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it can effectively block many phishing attempts before they reach their intended targets"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Enhanced email filtering",
+    "relation": "caused_by",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enhanced email filtering should be non-negotiable, as it can effectively block many phishing attempts before they reach their intended targets"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Enhanced email filtering",
+    "relation": "uses",
+    "value": "sophisticated algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Using sophisticated algorithms"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Enhanced email filtering",
+    "relation": "analyses",
+    "value": "incoming emails for known phishing indicators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these tools analyse incoming emails for known phishing indicators"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "David Liu",
+    "relation": "job_title",
+    "value": "Chief Information Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Liu, Chief Information Officer at Greater Heights Academy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "David Liu",
+    "relation": "works_at",
+    "value": "Greater Heights Academy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Liu, Chief Information Officer at Greater Heights Academy"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "David Liu",
+    "relation": "said",
+    "value": "No filter is perfect",
+    "time": null,
+    "speaker": "David Liu",
+    "verbatim": [
+     "No filter is perfect"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Liu",
+    "relation": "said",
+    "value": "Some emails slip through, which is why user training is indispensable.",
+    "time": null,
+    "speaker": "David Liu",
+    "verbatim": [
+     "Some emails slip through, which is why user training is indispensable."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "described_as",
+    "value": "another best practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another best practice is the implementation of Multi-Factor Authentication (MFA)"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "requires",
+    "value": "users to provide multiple credentials to verify their identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This requires users to provide multiple credentials to verify their identity"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "reduces",
+    "value": "the success of account takeovers following a phishing incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "drastically reducing the success of account takeovers following a phishing incident"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This requires users to provide multiple credentials to verify their identity, drastically reducing the success of account takeovers following a phishing incident"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "adoption",
+    "value": "less than half of the institutions surveyed had MFA in place",
+    "time": "As of December 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of December 2023, less than half of the institutions surveyed had MFA in place."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Laura Peterson",
+    "relation": "job_title",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Peterson, a cybersecurity consultant"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Laura Peterson",
+    "relation": "said",
+    "value": "Implementing MFA across the board can seem daunting, but it\u2019s a necessary step in protecting our educational environments.",
+    "time": null,
+    "speaker": "Laura Peterson",
+    "verbatim": [
+     "Implementing MFA across the board can seem daunting, but it\u2019s a necessary step in protecting our educational environments."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Christopher Banks",
+    "relation": "job_title",
+    "value": "IT security auditor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christopher Banks, an IT security auditor"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Christopher Banks",
+    "relation": "uncovered",
+    "value": "only a quarter of school districts had conducted an audit in the past year",
+    "time": "in the past year",
+    "speaker": null,
+    "verbatim": [
+     "uncovered that only a quarter of school districts had conducted an audit in the past year"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Christopher Banks",
+    "relation": "said",
+    "value": "This oversight is akin to leaving your front door unlocked in a high-crime area",
+    "time": null,
+    "speaker": "Christopher Banks",
+    "verbatim": [
+     "This oversight is akin to leaving your front door unlocked in a high-crime area"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Susan Carrol",
+    "relation": "job_title",
+    "value": "Superintendent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Susan Carrol, Superintendent at Valley School District"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Susan Carrol",
+    "relation": "works_at",
+    "value": "Valley School District",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Susan Carrol, Superintendent at Valley School District"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Valley School District",
+    "relation": "suffered",
+    "value": "a breach",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Valley School District that suffered a breach in September 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Susan Carrol",
+    "relation": "said",
+    "value": "The speed and efficiency of our response were pivotal in minimizing the damage.",
+    "time": null,
+    "speaker": "Susan Carrol",
+    "verbatim": [
+     "The speed and efficiency of our response were pivotal in minimizing the damage."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Maria Gonzales",
+    "relation": "job_title",
+    "value": "policy advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a policy advisor at the Department of Education"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Gonzales",
+    "relation": "works_at",
+    "value": "Department of Education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a policy advisor at the Department of Education"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Gonzales",
+    "relation": "argues_for",
+    "value": "a more structured and proactive policy framework that mandates cybersecurity best practices across all educational levels",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "argues for a more structured and proactive policy framework that mandates cybersecurity best practices across all educational levels"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Maria Gonzales",
+    "relation": "said",
+    "value": "routine preparation can and will save our educational institutions from potential disasters",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "routine preparation can and will save our educational institutions from potential disasters"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Department of Education",
+    "relation": "employs",
+    "value": "Maria Gonzales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a policy advisor at the Department of Education"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Cybersecurity Fund for Education",
+    "relation": "created_on",
+    "value": "January 12, 2024",
+    "time": "January 12, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity Fund for Education, created on January 12, 2024"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Cybersecurity Fund for Education",
+    "relation": "is_a",
+    "value": "grant program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grant programs like the Cybersecurity Fund for Education"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Cybersecurity Fund for Education",
+    "relation": "aims_to",
+    "value": "provide financial assistance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to provide financial assistance"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Cybersecurity Fund for Education",
+    "relation": "enables",
+    "value": "even under-resourced schools to bolster their cyber-defence strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing even under-resourced schools to bolster their cyber-defence strategies"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Cybersecurity Fund for Education",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to provide financial assistance, allowing even under-resourced schools to bolster their cyber-defence strategies"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Educational Cybersecurity Taskforce",
+    "relation": "established_on",
+    "value": "February 5, 2024",
+    "time": "February 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the establishment of the Educational Cybersecurity Taskforce on February 5, 2024"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Thomas Finch",
+    "relation": "leads",
+    "value": "Educational Cybersecurity Taskforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the establishment of the Educational Cybersecurity Taskforce on February 5, 2024",
+     "Its leader, Thomas Finch, lauds its success"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Educational Cybersecurity Taskforce",
+    "relation": "reported_decrease",
+    "value": "a 25% decrease in successful phishing attempts since its inception",
+    "time": null,
+    "speaker": "Thomas Finch",
+    "verbatim": [
+     "a 25% decrease in successful phishing attempts since its inception"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Phishing scams",
+    "relation": "is",
+    "value": "very real and increasingly sophisticated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the threat posed by phishing scams to schools is very real and increasingly sophisticated"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

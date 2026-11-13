@@ -1,0 +1,714 @@
+{
+ "inventory": [
+  "University of Springfield",
+  "FBI's Cyber Division",
+  "Atlas University",
+  "Greenfield School District",
+  "Dr. Laura Henderson",
+  "National Education Security Taskforce (NEST)",
+  "Claridge High School",
+  "EduSecTech",
+  "John Richardson",
+  "Dr. Michael Grant",
+  "Bayshore University",
+  "BYOD (Bring Your Own Device) policies",
+  "educational institutions",
+  "education sector",
+  "online learning platforms",
+  "ransomware",
+  "phishing",
+  "denial-of-service attacks",
+  "cybercriminals",
+  "threat actors",
+  "artificial intelligence and machine learning",
+  "cybersecurity legislation",
+  "student privacy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "education sector",
+    "relation": "has_seen_dramatic_increase_in",
+    "value": "dramatic increase in cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one area that has seen a dramatic increase in cyber threats is the education sector"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "educational institutions",
+    "relation": "opened_up_to",
+    "value": "a range of cyber risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also opened up schools, colleges, and universities to a range of cyber risks"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "educational institutions",
+    "relation": "have_become_hotbeds_for",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational institutions have become hotbeds for cybercriminals"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "educational institutions",
+    "relation": "it_infrastructure_described_as",
+    "value": "often underfunded and underprotected",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT infrastructures that are often underfunded and underprotected"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "educational institutions",
+    "relation": "attacks_interrupted",
+    "value": "the educational process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These cyber attacks have not only interrupted the educational process"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "educational institutions",
+    "relation": "attacks_led_to",
+    "value": "data breaches, financial loss, and exposure of sensitive personal information of students and faculty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have also led to data breaches, financial loss, and even exposed sensitive personal information of students and faculty"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "University of Springfield",
+    "relation": "hit_by",
+    "value": "ransomware attack",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As far back as November 2, 2023, the University of Springfield was hit by a ransomware attack"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "University of Springfield",
+    "relation": "systems_locked_down_for",
+    "value": "weeks",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "that locked down its systems for weeks"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "University of Springfield",
+    "relation": "attack_caused",
+    "value": "considerable disruption during the critical mid-semester period",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "causing considerable disruption during the critical mid-semester period"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "University of Springfield",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that locked down its systems for weeks, causing considerable disruption during the critical mid-semester period"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "FBI's Cyber Division",
+    "relation": "reported",
+    "value": "the number of reported cyber incidents in educational institutions has risen sharply over the past two years",
+    "time": "over the past two years",
+    "speaker": "FBI's Cyber Division",
+    "verbatim": [
+     "According to the FBI's Cyber Division, the number of reported cyber incidents in educational institutions has risen sharply over the past two years."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "threat actors",
+    "relation": "evolved_from_to",
+    "value": "sporadic, isolated attacks to more coordinated and sophisticated campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This evolution has seen a shift from sporadic, isolated attacks to more coordinated and sophisticated campaigns."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cybercriminals",
+    "relation": "deploy_tactics_including",
+    "value": "phishing, ransomware, denial-of-service attacks, and other malicious activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybercriminals are deploying a variety of tactics, including phishing, ransomware, denial-of-service attacks, and other malicious activities."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "phishing",
+    "relation": "used_as_tactic_by",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybercriminals are deploying a variety of tactics, including phishing"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "ransomware",
+    "relation": "used_as_tactic_by",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybercriminals are deploying a variety of tactics, including phishing, ransomware"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "denial-of-service attacks",
+    "relation": "used_as_tactic_by",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including phishing, ransomware, denial-of-service attacks, and other malicious activities"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "threat actors",
+    "relation": "motivated_by",
+    "value": "the rich trove of personal data stored by educational institutions and the relative ease with which they can breach defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These threat actors are motivated by the rich trove of personal data stored by educational institutions and the relative ease with which they can breach defenses."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "educational institutions",
+    "relation": "maintain",
+    "value": "large amounts of sensitive data, including student records, financial information, and intellectual property",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational institutions maintain large amounts of sensitive data, including student records, financial information, and intellectual property"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "educational institutions",
+    "relation": "reason_for_increase_in_attacks",
+    "value": "maintain large amounts of sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the key reasons for the increase in attacks is that educational institutions maintain large amounts of sensitive data"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "online learning platforms",
+    "relation": "made_schools_more_vulnerable",
+    "value": "schools more vulnerable to cyber threats",
+    "time": "post-pandemic",
+    "speaker": null,
+    "verbatim": [
+     "the wide use of online learning platforms, especially post-pandemic, has made schools more vulnerable to cyber threats"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "educational institutions",
+    "relation": "cyber_ecosystem_includes",
+    "value": "an extensive network of devices, many of which are personal and lack standard security protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cyber ecosystem of an educational institution typically includes an extensive network of devices, many of which are personal and lack standard security protocols."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "BYOD (Bring Your Own Device) policies",
+    "relation": "refers_to",
+    "value": "students and faculty using their own devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When students and faculty use their own devices, often referred to as BYOD (Bring Your Own Device) policies"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "BYOD (Bring Your Own Device) policies",
+    "relation": "create",
+    "value": "a diverse array of entry points for malicious actors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they create a diverse array of entry points for malicious actors"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Atlas University",
+    "relation": "disclosed_breach",
+    "value": "a breach affecting over 300,000 individuals",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "on December 5, 2023, when Atlas University disclosed a breach affecting over 300,000 individuals"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Atlas University",
+    "relation": "breach_affected",
+    "value": "over 300,000 individuals",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "disclosed a breach affecting over 300,000 individuals"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Atlas University",
+    "relation": "event_threw_into_sharp_relief",
+    "value": "the massive scale at which personal data can be compromised",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This event threw into sharp relief the massive scale at which personal data can be compromised."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Greenfield School District",
+    "relation": "victim_of",
+    "value": "a severe ransomware attack",
+    "time": "December 20",
+    "speaker": null,
+    "verbatim": [
+     "on December 20, the Greenfield School District became the victim of a severe ransomware attack"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Greenfield School District",
+    "relation": "attack_occurred",
+    "value": "two weeks after the Atlas University breach disclosure",
+    "time": "December 20",
+    "speaker": null,
+    "verbatim": [
+     "Just two weeks later, on December 20"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Greenfield School District",
+    "relation": "attack_left_administration",
+    "value": "scrambling to find alternatives to their paralyzed systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that left the district administration scrambling to find alternatives to their paralyzed systems"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "educational institutions",
+    "relation": "incidents_becoming",
+    "value": "alarmingly common",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These incidents are becoming alarmingly common and signify a trend that shows no sign of abating."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "educational institutions",
+    "relation": "ramping_up",
+    "value": "cybersecurity efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schools and universities are ramping up their cybersecurity efforts"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Laura Henderson",
+    "relation": "is_a",
+    "value": "cybersecurity expert who works with educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Laura Henderson, a cybersecurity expert who works with educational institutions"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Dr. Laura Henderson",
+    "relation": "stated",
+    "value": "Schools are now understanding the importance of implementing robust cybersecurity measures",
+    "time": "January 4, 2024",
+    "speaker": "Dr. Laura Henderson",
+    "verbatim": [
+     "Schools are now understanding the importance of implementing robust cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Laura Henderson",
+    "relation": "stated",
+    "value": "It's not just about setting up firewalls and updating antivirus software; it\u2019s also about educating staff and students about safe online practices",
+    "time": "January 4, 2024",
+    "speaker": "Dr. Laura Henderson",
+    "verbatim": [
+     "It's not just about setting up firewalls and updating antivirus software; it\u2019s also about educating staff and students about safe online practices."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "educational institutions",
+    "relation": "adopting",
+    "value": "multi-layered security strategies that include staff training, incident response planning, and investment in security infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many schools are adopting multi-layered security strategies that include staff training, incident response planning, and investment in security infrastructure."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "National Education Security Taskforce (NEST)",
+    "relation": "launch_date",
+    "value": "January 25, 2024",
+    "time": "January 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 25, 2024, the National Education Security Taskforce (NEST) was launched"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "National Education Security Taskforce (NEST)",
+    "relation": "purpose",
+    "value": "to provide insights and resources for educational leaders to combat cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was launched to provide insights and resources for educational leaders to combat cyber threats"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "National Education Security Taskforce (NEST)",
+    "relation": "in_order_to",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was launched to provide insights and resources for educational leaders to combat cyber threats"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "student privacy",
+    "relation": "raised_concerns_about",
+    "value": "the extent to which supervision is conducted through monitoring internet traffic and analyzing student data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity measures necessarily involve monitoring internet traffic and potentially analyzing student data, which raises concerns about the extent to which this supervision is conducted."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Claridge High School",
+    "relation": "incident_date",
+    "value": "February 10, 2024",
+    "time": "February 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Claridge High School incident of February 10, 2024, is a prime case in point."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Claridge High School",
+    "relation": "implemented",
+    "value": "a controversial monitoring software to detect cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The school implemented a controversial monitoring software to detect cyber threats"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Claridge High School",
+    "relation": "faced_backlash_from",
+    "value": "parents and students who felt their privacy was invaded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced backlash from parents and students who felt their privacy was invaded"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "student privacy",
+    "relation": "requires",
+    "value": "a delicate balance between security and privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tension between security and privacy requires a delicate balance"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "student privacy",
+    "relation": "remains",
+    "value": "a hotly debated issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remains a hotly debated issue"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "educational institutions",
+    "relation": "search_for",
+    "value": "effective ways to protect against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as institutions search for effective ways to protect against cyber threats"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "artificial intelligence and machine learning",
+    "relation": "being_explored_to",
+    "value": "detect abnormal patterns and potential threats more quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial intelligence and machine learning are frontiers being explored to detect abnormal patterns and potential threats more quickly."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "EduSecTech",
+    "relation": "develops",
+    "value": "cutting-edge software tailored for the educational environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pioneering firms like EduSecTech are leading the charge, developing cutting-edge software tailored for the educational environment."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "John Richardson",
+    "relation": "position",
+    "value": "CEO of EduSecTech",
+    "time": "March 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "As John Richardson, CEO of EduSecTech, pointed out on March 15, 2024"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "John Richardson",
+    "relation": "stated",
+    "value": "The cybersecurity solutions of tomorrow need to be adaptive, intuitive, and always a step ahead of the threat actors.",
+    "time": "March 15, 2024",
+    "speaker": "John Richardson",
+    "verbatim": [
+     "The cybersecurity solutions of tomorrow need to be adaptive, intuitive, and always a step ahead of the threat actors."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "education sector",
+    "relation": "call_for",
+    "value": "cohesive policies and collaborative endeavors to tackle cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is also a call for cohesive policies and collaborative endeavors to tackle cybersecurity in the education sector."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "education sector",
+    "relation": "policy_scope_includes",
+    "value": "national strategies and international cooperation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This encompasses not just national strategies, but also international cooperation, as cyber threats know no borders."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "cybersecurity legislation",
+    "relation": "policymakers_urged_to_consider",
+    "value": "the unique needs of the education sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Policymakers are urged to consider the unique needs of the education sector when designing cybersecurity legislation."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "educational institutions",
+    "relation": "partnering_with",
+    "value": "government agencies and cybersecurity firms to foster information sharing and improve collective resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are also burgeoning partnerships between educational institutions, government agencies, and cybersecurity firms to foster information sharing and improve collective resilience."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "educational institutions",
+    "relation": "significantly_reduce",
+    "value": "the risk of successful cyber attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous education and training programs for students, faculty, and staff significantly reduce the risk of successful cyber attacks."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Dr. Michael Grant",
+    "relation": "is_cybersecurity_lecturer_at",
+    "value": "Bayshore University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Michael Grant, a cybersecurity lecturer at Bayshore University, advocates for this approach in his teachings."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Michael Grant",
+    "relation": "advocates",
+    "value": "continuous education and training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advocates for this approach in his teachings"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Dr. Michael Grant",
+    "relation": "stated",
+    "value": "The human element should not be overlooked",
+    "time": null,
+    "speaker": "Dr. Michael Grant",
+    "verbatim": [
+     "The human element should not be overlooked"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Dr. Michael Grant",
+    "relation": "stated",
+    "value": "Regular training and awareness programs can dramatically reduce the incidences of successful phishing and social engineering attacks.",
+    "time": null,
+    "speaker": "Dr. Michael Grant",
+    "verbatim": [
+     "Regular training and awareness programs can dramatically reduce the incidences of successful phishing and social engineering attacks."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "educational institutions",
+    "relation": "at_critical_juncture",
+    "value": "a critical juncture where the need to innovate and adapt is paramount",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational institutions are at a critical juncture where the need to innovate and adapt is paramount."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "educational institutions",
+    "relation": "investing_will_equip_to",
+    "value": "manage the threats of tomorrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investing in comprehensive cybersecurity measures today will equip them to manage the threats of tomorrow."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "educational institutions",
+    "relation": "growing_commitment_to",
+    "value": "steadfastly improve the resilience of educational institutions against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is a growing commitment among educational leaders, policymakers, and cybersecurity professionals to steadfastly improve the resilience of educational institutions against cyber threats."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "education sector",
+    "relation": "future_built_on",
+    "value": "a greater awareness among all stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This, combined with a greater awareness among all stakeholders, is the foundation upon which the future of cybersecurity in education will be built."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

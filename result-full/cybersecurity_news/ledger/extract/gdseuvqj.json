@@ -1,0 +1,776 @@
+{
+ "inventory": [
+  "Quantum computing",
+  "Dr. Emily Cho",
+  "National Quantum Computing Lab",
+  "Shor's",
+  "Peter Shor",
+  "RSA",
+  "ECC",
+  "DSA",
+  "Post-quantum cryptography (PQC)",
+  "International Cybersecurity Alliance",
+  "Project CipherGuard",
+  "Dr. Alan Torres",
+  "lattice-based cryptography",
+  "hash-based cryptography",
+  "multivariate quadratic equation cryptography",
+  "CipherTech",
+  "UnbreakableMesh",
+  "Maria Nguyen",
+  "Fortune 500 companies",
+  "Cybersecurity Institute of Technology",
+  "Dr. Rajiv Singh",
+  "Quantum Key Distribution (QKD)",
+  "Quantum Security Summit",
+  "Geneva",
+  "QuantumSecure Inc.",
+  "Zachary Lin",
+  "QuantumChain",
+  "Eduardo Gomes",
+  "Encryption",
+  "Blockchain"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Quantum computing",
+    "relation": "potentially_outperforms",
+    "value": "traditional computers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially outperforming traditional computers by tackling complex tasks in a fraction of the time"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Quantum computing",
+    "relation": "is_poised_to",
+    "value": "revolutionize the digital landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Quantum computing is poised to revolutionize the digital landscape"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Quantum computing",
+    "relation": "has",
+    "value": "unprecedented processing power and speed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with its unprecedented processing power and speed"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Quantum computing",
+    "relation": "potential_to_break",
+    "value": "current encryption standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The potential for quantum computing to break current encryption standards is no longer a speculative discussion."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Quantum computing",
+    "relation": "investment",
+    "value": "tech giants and nations investing heavily in quantum research",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With tech giants and nations investing heavily in quantum research"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Quantum computing",
+    "relation": "will_impact",
+    "value": "data security significantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these advanced computers will impact data security significantly"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Emily Cho",
+    "relation": "demonstrated",
+    "value": "a quantum computer breaking a widely-used encryption standard in mere minutes",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, Dr. Emily Cho, a leading quantum researcher at the fictional National Quantum Computing Lab, successfully demonstrated a quantum computer breaking a widely-used encryption standard in mere minutes"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Emily Cho",
+    "relation": "position",
+    "value": "a leading quantum researcher",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Cho, a leading quantum researcher"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "National Quantum Computing Lab",
+    "relation": "is",
+    "value": "fictional",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at the fictional National Quantum Computing Lab"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Quantum computing",
+    "relation": "task_time_comparison",
+    "value": "mere minutes versus centuries for conventional computers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in mere minutes\u2014a task that would've taken conventional computers centuries to achieve."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Quantum computing",
+    "relation": "underscored",
+    "value": "the vulnerability of our existing security measures against quantum threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This feat underscored the vulnerability of our existing security measures against quantum threats"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Quantum computing",
+    "relation": "ignited",
+    "value": "an urgent wave of innovation focused on quantum resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ignited an urgent wave of innovation focused on quantum resilience"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Dr. Emily Cho",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This feat underscored the vulnerability of our existing security measures against quantum threats and ignited an urgent wave of innovation focused on quantum resilience"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Emily Cho",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This feat underscored the vulnerability of our existing security measures against quantum threats and ignited an urgent wave of innovation focused on quantum resilience"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Encryption",
+    "relation": "defined_as",
+    "value": "the practice of converting data into a secret code to prevent unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encryption, the practice of converting data into a secret code to prevent unauthorized access"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Encryption",
+    "relation": "stands_as",
+    "value": "the bedrock of digital security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands as the bedrock of digital security"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Encryption",
+    "relation": "protects",
+    "value": "everything from personal messages to national secrets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "protecting everything from personal messages to national secrets"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Encryption",
+    "relation": "relies_on",
+    "value": "complex mathematical problems that are exceedingly difficult for classical computers to solve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encryption relies on complex mathematical problems that are exceedingly difficult for classical computers to solve"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Quantum computing",
+    "relation": "performs_calculations_using",
+    "value": "principles of quantum mechanics, like superposition and entanglement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using principles of quantum mechanics, like superposition and entanglement"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Shor's",
+    "relation": "formulated_by",
+    "value": "Peter Shor",
+    "time": "mid-1990s",
+    "speaker": null,
+    "verbatim": [
+     "Algorithms such as Shor's, formulated by mathematician Peter Shor in the mid-1990s"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Peter Shor",
+    "relation": "occupation",
+    "value": "mathematician",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "formulated by mathematician Peter Shor"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Shor's",
+    "relation": "enables",
+    "value": "factorizing large numbers rapidly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could enable quantum systems to factorize large numbers rapidly"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "RSA",
+    "relation": "relies_on",
+    "value": "the difficulty of this very task",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like RSA, ECC, and DSA which rely on the difficulty of this very task"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "ECC",
+    "relation": "relies_on",
+    "value": "the difficulty of this very task",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like RSA, ECC, and DSA which rely on the difficulty of this very task"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "DSA",
+    "relation": "relies_on",
+    "value": "the difficulty of this very task",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "like RSA, ECC, and DSA which rely on the difficulty of this very task"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Post-quantum cryptography (PQC)",
+    "relation": "heralded_as",
+    "value": "the successor to our aging encryption algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Post-quantum cryptography (PQC) is already being heralded as the successor to our aging encryption algorithms"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Post-quantum cryptography (PQC)",
+    "relation": "standardization_status",
+    "value": "international efforts to standardize PQC are underway",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "international efforts to standardize PQC are underway"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "International Cybersecurity Alliance",
+    "relation": "announced",
+    "value": "Project CipherGuard",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 10, 2023, the fictional International Cybersecurity Alliance announced Project CipherGuard"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "International Cybersecurity Alliance",
+    "relation": "is",
+    "value": "fictional",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fictional International Cybersecurity Alliance"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Project CipherGuard",
+    "relation": "aims_to",
+    "value": "developing and disseminating PQC standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an initiative aimed at developing and disseminating PQC standards"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Project CipherGuard",
+    "relation": "spearheaded_by",
+    "value": "Dr. Alan Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by cryptographer Dr. Alan Torres"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Alan Torres",
+    "relation": "occupation",
+    "value": "cryptographer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by cryptographer Dr. Alan Torres"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Project CipherGuard",
+    "relation": "mission",
+    "value": "to sustain the integrity and confidentiality of information in a post-quantum world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Project CipherGuard is on a mission to sustain the integrity and confidentiality of information in a post-quantum world"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Alan Torres",
+    "relation": "envisions",
+    "value": "a cyber world equipped to withstand the onslaught of quantum processors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "envisioning a cyber world equipped to withstand the onslaught of quantum processors"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Post-quantum cryptography (PQC)",
+    "relation": "requires",
+    "value": "a holistic approach that encompasses policy-making, educating stakeholders, and adopting secure information lifecycle practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it requires a holistic approach that encompasses policy-making, educating stakeholders, and adopting secure information lifecycle practices"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Post-quantum cryptography (PQC)",
+    "relation": "investment_by",
+    "value": "Governments, industries, and academia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Governments, industries, and academia are investing resources and talent to create a robust PQC infrastructure"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "lattice-based cryptography",
+    "relation": "resistant_to",
+    "value": "quantum attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer promising security paradigms resistant to quantum attacks"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "hash-based cryptography",
+    "relation": "resistant_to",
+    "value": "quantum attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer promising security paradigms resistant to quantum attacks"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "multivariate quadratic equation cryptography",
+    "relation": "resistant_to",
+    "value": "quantum attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer promising security paradigms resistant to quantum attacks"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "CipherTech",
+    "relation": "unveiled",
+    "value": "a lattice-based encryption solution named \"UnbreakableMesh\"",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 1, 2023, cybersecurity firm CipherTech unveiled a lattice-based encryption solution named \"UnbreakableMesh\""
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "CipherTech",
+    "relation": "is",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity firm CipherTech"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "UnbreakableMesh",
+    "relation": "attracted_attention_of",
+    "value": "various Fortune 500 companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The product caught the attention of various Fortune 500 companies"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Fortune 500 companies",
+    "relation": "seek_to",
+    "value": "safeguard their future digital assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "various Fortune 500 companies seeking to safeguard their future digital assets"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Nguyen",
+    "relation": "position",
+    "value": "CipherTech's CTO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CipherTech's CTO, Maria Nguyen"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Nguyen",
+    "relation": "pointed_out",
+    "value": "UnbreakableMesh not only counters quantum threats but also improves on current encryption mechanisms' performance and security",
+    "time": null,
+    "speaker": "Maria Nguyen",
+    "verbatim": [
+     "\"UnbreakableMesh not only counters quantum threats but also improves on current encryption mechanisms' performance and security.\""
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "UnbreakableMesh",
+    "relation": "improves_on",
+    "value": "current encryption mechanisms' performance and security",
+    "time": null,
+    "speaker": "Maria Nguyen",
+    "verbatim": [
+     "\"UnbreakableMesh not only counters quantum threats but also improves on current encryption mechanisms' performance and security.\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Cybersecurity Institute of Technology",
+    "relation": "introduced",
+    "value": "a new program dedicated to training the next generation of cybersecurity professionals, with a special focus on quantum-resistant technologies",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 12, 2023, the fictional Cybersecurity Institute of Technology introduced a new program dedicated to training the next generation of cybersecurity professionals, with a special focus on quantum-resistant technologies"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Dr. Rajiv Singh",
+    "relation": "position",
+    "value": "Program lead",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Program lead Dr. Rajiv Singh"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Dr. Rajiv Singh",
+    "relation": "believes",
+    "value": "equipping future cybersecurity professionals with quantum-aware skills is pivotal for a smooth transition to quantum-safe practices",
+    "time": null,
+    "speaker": "Dr. Rajiv Singh",
+    "verbatim": [
+     "believes that \"equipping future cybersecurity professionals with quantum-aware skills is pivotal for a smooth transition to quantum-safe practices.\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Quantum Key Distribution (QKD)",
+    "relation": "works_alongside",
+    "value": "PQC",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another promising technology working alongside PQC is Quantum Key Distribution (QKD)"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Quantum Key Distribution (QKD)",
+    "relation": "leverages",
+    "value": "the principles of quantum mechanics to securely distribute encryption keys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QKD leverages the principles of quantum mechanics to securely distribute encryption keys"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Quantum Key Distribution (QKD)",
+    "relation": "interception_effect",
+    "value": "would disturb the quantum states of the keys and be immediately noticeable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "any attempt at interception would disturb the quantum states of the keys and be immediately noticeable"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Quantum Security Summit",
+    "relation": "held_in",
+    "value": "Geneva",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 15, 2024, experts from around the world congregated at the fictional Quantum Security Summit in Geneva"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Quantum Security Summit",
+    "relation": "discussed",
+    "value": "the progress of these international standardization activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to discuss the progress of these international standardization activities"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Quantum Security Summit",
+    "relation": "outlined",
+    "value": "a cooperative blueprint for implementing PQC worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they outlined a cooperative blueprint for implementing PQC worldwide"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Quantum Security Summit",
+    "relation": "in_order_to",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "congregated at the fictional Quantum Security Summit in Geneva to discuss the progress of these international standardization activities"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "QuantumSecure Inc.",
+    "relation": "is",
+    "value": "recently founded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the recently founded QuantumSecure Inc."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "QuantumSecure Inc.",
+    "relation": "announced",
+    "value": "a major collaborative effort with various tech and finance giants to deploy quantum-safe encryption technologies across cloud services",
+    "time": "February 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on February 2, 2024, the recently founded QuantumSecure Inc. announced a major collaborative effort with various tech and finance giants to deploy quantum-safe encryption technologies across cloud services"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Zachary Lin",
+    "relation": "position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The company's CEO, Zachary Lin, remarked"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Zachary Lin",
+    "relation": "remarked",
+    "value": "This collaboration is a major milestone in proactively addressing the quantum threat and showcases our commitment to global digital security",
+    "time": null,
+    "speaker": "Zachary Lin",
+    "verbatim": [
+     "\"This collaboration is a major milestone in proactively addressing the quantum threat and showcases our commitment to global digital security.\""
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Blockchain",
+    "relation": "characterized_by",
+    "value": "inherently distributed and encrypted nature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The inherently distributed and encrypted nature of blockchain can provide an additional layer of security when integrated with PQC solutions"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Blockchain",
+    "relation": "can_provide",
+    "value": "an additional layer of security when integrated with PQC solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can provide an additional layer of security when integrated with PQC solutions"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Blockchain",
+    "relation": "investigating",
+    "value": "quantum-resistant ledger technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Several blockchain projects are already investigating quantum-resistant ledger technologies"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "QuantumChain",
+    "relation": "launched",
+    "value": "aiming to be the first fully quantum-resistant blockchain platform",
+    "time": "March 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on March 7, 2024, the futuristic QuantumChain project launched, aiming to be the first fully quantum-resistant blockchain platform"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "QuantumChain",
+    "relation": "is",
+    "value": "futuristic project",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the futuristic QuantumChain project"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Eduardo Gomes",
+    "relation": "views_as",
+    "value": "a crucial step in ensuring the longevity and security of distributed ledger technologies in a future dominated by quantum computing",
+    "time": null,
+    "speaker": "Eduardo Gomes",
+    "verbatim": [
+     "\"a crucial step in ensuring the longevity and security of distributed ledger technologies in a future dominated by quantum computing.\""
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Quantum computing",
+    "relation": "continues_to",
+    "value": "evolve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As quantum computing continues to evolve"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

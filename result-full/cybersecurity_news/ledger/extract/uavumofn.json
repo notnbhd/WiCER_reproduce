@@ -1,0 +1,811 @@
+{
+ "inventory": [
+  "multi-factor authentication",
+  "remote work",
+  "Jennifer Smith",
+  "SecureTech Group",
+  "David Gonzalez",
+  "Emily Rodriguez",
+  "DataGuard Inc.",
+  "Mark Chambers",
+  "Robert Lee",
+  "CyberSolutions",
+  "adaptive MFA",
+  "Laura Anderson",
+  "InnovTech",
+  "Jake Sullivan",
+  "Michael Grant",
+  "personal device use (BYOD)",
+  "phishing attacks",
+  "traditional perimeter-based security",
+  "cyber attacks",
+  "quarterly security audits"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "cyber attacks",
+    "relation": "is_described_as",
+    "value": "ever-present threat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "perhaps none more pressing than the ever-present threat of cyber attacks"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "remains",
+    "value": "a staple in the professional landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work remains a staple in the professional landscape"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "cyber attacks",
+    "relation": "exploits",
+    "value": "the vulnerabilities brought about by the dispersal of corporate networks across countless home offices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The invasive tendrils of cybercrime have sought to exploit the vulnerabilities brought about by the dispersal of corporate networks across countless home offices."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "multi-factor authentication",
+    "relation": "emphasized_by",
+    "value": "cybersecurity professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response, cybersecurity professionals are doubling down on the importance of multi-factor authentication (MFA) in the safeguarding of digital resources."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "multi-factor authentication",
+    "relation": "in_response_to",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response, cybersecurity professionals are doubling down on the importance of multi-factor authentication (MFA)"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "multi-factor authentication",
+    "relation": "is",
+    "value": "absolutely essential for a robust remote work security strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The following exposition delves into the crux of why MFA is not only recommended but upon analysis, absolutely essential for a robust remote work security strategy."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "multi-factor authentication",
+    "relation": "defined_as",
+    "value": "a security system that requires two or more forms of identification to gain access to digital assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Multi-factor authentication, at its core, is a security system that requires two or more forms of identification to gain access to digital assets."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jennifer Smith",
+    "relation": "role",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer Smith, a cybersecurity analyst with SecureTech Group"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jennifer Smith",
+    "relation": "works_for",
+    "value": "SecureTech Group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jennifer Smith, a cybersecurity analyst with SecureTech Group"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jennifer Smith",
+    "relation": "stated",
+    "value": "MFA is like a series of gates protecting a fortress. A potential intruder may scale one wall only to find themselves facing another, and another.",
+    "time": "October 5, 2023",
+    "speaker": "Jennifer Smith",
+    "verbatim": [
+     "\"MFA is like a series of gates protecting a fortress. A potential intruder may scale one wall only to find themselves facing another, and another.\""
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "multi-factor authentication",
+    "relation": "combines",
+    "value": "something you know (a password or PIN), something you have (a security token or smartphone), and something you are (biometrics like fingerprints or facial recognition)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Historically, MFA combines something you know (a password or PIN), something you have (a security token or smartphone), and something you are (biometrics like fingerprints or facial recognition)."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "multi-factor authentication",
+    "relation": "reduces",
+    "value": "the likelihood of unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The compounding effect of these multiple layers of verification significantly reduces the likelihood of unauthorized access."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "remote work",
+    "relation": "led_to",
+    "value": "many employees now access company networks from less secure home internet connections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the inception of remote work, many employees now access company networks from less secure home internet connections."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "traditional perimeter-based security",
+    "relation": "was_efficient_within",
+    "value": "the confines of a centralized office",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional perimeter-based security, which was considerably efficient within the confines of a centralized office, has become largely obsolete."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "traditional perimeter-based security",
+    "relation": "has_become",
+    "value": "largely obsolete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional perimeter-based security, which was considerably efficient within the confines of a centralized office, has become largely obsolete."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "David Gonzalez",
+    "relation": "role",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As highlighted by cybersecurity expert David Gonzalez on September 10, 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "David Gonzalez",
+    "relation": "stated",
+    "value": "Remote work has turned every employee's home into a potential access point for cybercriminals.",
+    "time": "September 10, 2023",
+    "speaker": "David Gonzalez",
+    "verbatim": [
+     "\"Remote work has turned every employee's home into a potential access point for cybercriminals.\""
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "remote work",
+    "relation": "introduces",
+    "value": "numerous risks, including unsecured Wi-Fi, personal device use (BYOD), and the danger of phishing attacks targeting off-guard employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The decentralized nature of remote work introduces numerous risks, including unsecured Wi-Fi, personal device use (BYOD), and the danger of phishing attacks targeting off-guard employees."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "phishing attacks",
+    "relation": "target",
+    "value": "off-guard employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the danger of phishing attacks targeting off-guard employees"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "personal device use (BYOD)",
+    "relation": "is_risk_introduced_by",
+    "value": "remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The decentralized nature of remote work introduces numerous risks, including unsecured Wi-Fi, personal device use (BYOD)"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "multi-factor authentication",
+    "relation": "serves_as",
+    "value": "a critical barrier in this scenario",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA serves as a critical barrier in this scenario, deterring would-be attackers who might capitalize on these vulnerabilities."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "multi-factor authentication",
+    "relation": "deters",
+    "value": "would-be attackers who might capitalize on these vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA serves as a critical barrier in this scenario, deterring would-be attackers who might capitalize on these vulnerabilities."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "multi-factor authentication",
+    "relation": "rollout_must_be",
+    "value": "both strategic and comprehensive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rollout of MFA within a company's cybersecurity protocol must be both strategic and comprehensive."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Emily Rodriguez",
+    "relation": "role",
+    "value": "IT manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT manager Emily Rodriguez from DataGuard Inc. shared her company's MFA implementation checklist"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Rodriguez",
+    "relation": "works_for",
+    "value": "DataGuard Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT manager Emily Rodriguez from DataGuard Inc. shared her company's MFA implementation checklist"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Rodriguez",
+    "relation": "shared",
+    "value": "her company's MFA implementation checklist",
+    "time": "September 25, 2023",
+    "speaker": "Emily Rodriguez",
+    "verbatim": [
+     "IT manager Emily Rodriguez from DataGuard Inc. shared her company's MFA implementation checklist"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Rodriguez",
+    "relation": "checklist_started_with",
+    "value": "identifying sensitive data and the systems where MFA would be most critical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which started with identifying sensitive data and the systems where MFA would be most critical"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "multi-factor authentication",
+    "relation": "checklist_subsequent_steps_include",
+    "value": "choosing the right MFA solutions that balance security with user convenience, training employees on MFA usage and best practices, and routinely updating and reviewing access policies to adapt to changing security requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Subsequent steps in the checklist include choosing the right MFA solutions that balance security with user convenience, training employees on MFA usage and best practices, and routinely updating and reviewing access policies to adapt to changing security requirements."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "multi-factor authentication",
+    "relation": "effectiveness_linked_to",
+    "value": "employee compliance and understanding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The effectiveness of MFA is intricately linked to employee compliance and understanding."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "multi-factor authentication",
+    "relation": "organizations_investing_in",
+    "value": "comprehensive training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a result, organizations are investing time in comprehensive training programs."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "multi-factor authentication",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The effectiveness of MFA is intricately linked to employee compliance and understanding.",
+     "As a result, organizations are investing time in comprehensive training programs."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Mark Chambers",
+    "relation": "role",
+    "value": "cybersecurity trainer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mark Chambers, a cybersecurity trainer, emphasized this on November 2, 2023:"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Mark Chambers",
+    "relation": "emphasized",
+    "value": "Employees are the first line of defense. Their adherence to MFA protocols determines its success.",
+    "time": "November 2, 2023",
+    "speaker": "Mark Chambers",
+    "verbatim": [
+     "\"Employees are the first line of defense. Their adherence to MFA protocols determines its success.\""
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "multi-factor authentication",
+    "relation": "training_sessions_must_cover",
+    "value": "the importance of MFA, the various forms it can take, and the critical role employees play in maintaining the security of the systems they access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These training sessions must cover the importance of MFA, the various forms it can take, and the critical role employees play in maintaining the security of the systems they access."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "remote work",
+    "relation": "engenders",
+    "value": "a sense of shared responsibility among remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations are finding that promoting a culture of security goes a long way in engendering a sense of shared responsibility among remote workers."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Robert Lee",
+    "relation": "role",
+    "value": "behavioral psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Robert Lee, a behavioral psychologist who consults for tech firms"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Robert Lee",
+    "relation": "consults_for",
+    "value": "tech firms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Robert Lee, a behavioral psychologist who consults for tech firms"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Robert Lee",
+    "relation": "stated",
+    "value": "Resistance to MFA often stems from misconceptions about its complexity or its impact on work.",
+    "time": "December 1, 2023",
+    "speaker": "Robert Lee",
+    "verbatim": [
+     "\"Resistance to MFA often stems from misconceptions about its complexity or its impact on work.\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "multi-factor authentication",
+    "relation": "faces",
+    "value": "initial resistance to the adoption of new security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's not uncommon for there to be initial resistance to the adoption of new security measures, MFA included."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "multi-factor authentication",
+    "relation": "addressing_concerns_involves",
+    "value": "dispelling myths, demonstrating the simplicity of modern MFA methods, and ensuring that employees are supported throughout the transition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This involves dispelling myths, demonstrating the simplicity of modern MFA methods, and ensuring that employees are supported throughout the transition."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "multi-factor authentication",
+    "relation": "goal_is",
+    "value": "to make MFA a seamless part of the everyday workflow that employees eventually navigate with ease",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The goal is to make MFA a seamless part of the everyday workflow that employees eventually navigate with ease."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "multi-factor authentication",
+    "relation": "decision_factors_include",
+    "value": "compatibility with existing infrastructure, ease of deployment, user-friendliness, and cost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Decision-makers must consider factors like compatibility with existing infrastructure, ease of deployment, user-friendliness, and cost."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "CyberSolutions",
+    "relation": "role",
+    "value": "tech consultancy firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by tech consultancy firm CyberSolutions"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "CyberSolutions",
+    "relation": "published",
+    "value": "an MFA vendor analysis report",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, 2023, an MFA vendor analysis report by tech consultancy firm CyberSolutions revealed"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "CyberSolutions",
+    "relation": "revealed",
+    "value": "adaptive MFA, which uses contextual information to assess risk and adjust authentication requirements, is gaining popularity",
+    "time": "November 15, 2023",
+    "speaker": "CyberSolutions",
+    "verbatim": [
+     "On November 15, 2023, an MFA vendor analysis report by tech consultancy firm CyberSolutions revealed that adaptive MFA, which uses contextual information to assess risk and adjust authentication requirements, is gaining popularity."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "adaptive MFA",
+    "relation": "uses",
+    "value": "contextual information to assess risk and adjust authentication requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adaptive MFA, which uses contextual information to assess risk and adjust authentication requirements"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "adaptive MFA",
+    "relation": "is_gaining",
+    "value": "popularity",
+    "time": "November 15, 2023",
+    "speaker": "CyberSolutions",
+    "verbatim": [
+     "is gaining popularity"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "multi-factor authentication",
+    "relation": "decision_process_includes",
+    "value": "technical evaluations, pilot programs, and feedback from a representative user group",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The decision process includes technical evaluations, pilot programs, and feedback from a representative user group."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Laura Anderson",
+    "relation": "role",
+    "value": "CIO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Laura Anderson, CIO of InnovTech, puts it"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Laura Anderson",
+    "relation": "works_for",
+    "value": "InnovTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Anderson, CIO of InnovTech"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Laura Anderson",
+    "relation": "stated",
+    "value": "The right MFA solution should be almost invisible to the user, yet be a formidable obstacle to intruders.",
+    "time": null,
+    "speaker": "Laura Anderson",
+    "verbatim": [
+     "\"The right MFA solution should be almost invisible to the user, yet be a formidable obstacle to intruders.\""
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "multi-factor authentication",
+    "relation": "is",
+    "value": "an important piece of the cybersecurity puzzle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While MFA is an important piece of the cybersecurity puzzle"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "multi-factor authentication",
+    "relation": "cannot",
+    "value": "stand alone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it cannot stand alone."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "multi-factor authentication",
+    "relation": "comprehensive_strategies_encompass",
+    "value": "strong password policies, regular software updates, secure VPNs for remote access, and endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comprehensive security strategies also encompass strong password policies, regular software updates, secure VPNs for remote access, and endpoint security."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jake Sullivan",
+    "relation": "role",
+    "value": "senior cybersecurity strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As discussed by Jake Sullivan, a senior cybersecurity strategist, during a webinar dated December 8, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jake Sullivan",
+    "relation": "discussed_during",
+    "value": "a webinar",
+    "time": "December 8, 2023",
+    "speaker": "Jake Sullivan",
+    "verbatim": [
+     "As discussed by Jake Sullivan, a senior cybersecurity strategist, during a webinar dated December 8, 2023"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Jake Sullivan",
+    "relation": "stated",
+    "value": "MFA is the front line of a multilayered defense strategy that requires ongoing vigilance and evolution.",
+    "time": "December 8, 2023",
+    "speaker": "Jake Sullivan",
+    "verbatim": [
+     "\"MFA is the front line of a multilayered defense strategy that requires ongoing vigilance and evolution.\""
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "multi-factor authentication",
+    "relation": "should_be_underpinned_by",
+    "value": "real-time monitoring and response",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these strategies should be underpinned by real-time monitoring and response, ensuring that any suspicious activities are promptly identified and addressed."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "multi-factor authentication",
+    "relation": "holistic_approach_ensures",
+    "value": "that even if one defense is bypassed, others are in place to mitigate the risk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This holistic approach to security ensures that even if one defense is bypassed, others are in place to mitigate the risk."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "cyber attacks",
+    "relation": "are_not",
+    "value": "static",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyber threats are not static; they evolve constantly."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "cyber attacks",
+    "relation": "evolve",
+    "value": "constantly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyber threats are not static; they evolve constantly."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "multi-factor authentication",
+    "relation": "refinement_informed_by",
+    "value": "regular reviews of security logs, incident reports, and employee feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular reviews of security logs, incident reports, and employee feedback must inform the refinement of MFA processes."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Michael Grant",
+    "relation": "role",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant Michael Grant shared on January 9, 2024"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Michael Grant",
+    "relation": "stated",
+    "value": "We conduct quarterly security audits that include stress-testing our MFA setup. It\u2019s about staying a step ahead of potential threats.",
+    "time": "January 9, 2024",
+    "speaker": "Michael Grant",
+    "verbatim": [
+     "\"We conduct quarterly security audits that include stress-testing our MFA setup. It\u2019s about staying a step ahead of potential threats.\""
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "quarterly security audits",
+    "relation": "include",
+    "value": "stress-testing our MFA setup",
+    "time": "January 9, 2024",
+    "speaker": "Michael Grant",
+    "verbatim": [
+     "We conduct quarterly security audits that include stress-testing our MFA setup."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "remote work",
+    "relation": "continuous_evaluation_ensures",
+    "value": "remote work security remains water-tight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous evaluation also encompasses staying abreast of emerging technologies and threats to ensure that remote work security remains water-tight."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "multi-factor authentication",
+    "relation": "businesses_increasingly_aware_of",
+    "value": "the critical role MFA plays in securing remote workforces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As businesses become increasingly aware of the critical role MFA plays in securing remote workforces"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "multi-factor authentication",
+    "relation": "investment_expected_to",
+    "value": "rise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investments in MFA technology and training are expected to rise."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "multi-factor authentication",
+    "relation": "likely_to_make",
+    "value": "MFA solutions even more sophisticated and integrated into the work experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Advances in fields such as artificial intelligence and machine learning are likely to make MFA solutions even more sophisticated and integrated into the work experience."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "multi-factor authentication",
+    "relation": "future_innovations_may_offer",
+    "value": "even tighter security without compromising ease of use for legitimate users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The future might also bring about innovations that offer even tighter security without compromising ease of use for legitimate users."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "multi-factor authentication",
+    "relation": "successful_companies_will_be",
+    "value": "those that not only implement strong MFA protocols but also foster a culture of security awareness, making cybersecurity an indivisible part of their corporate DNA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Successful companies will be those that not only implement strong MFA protocols but also foster a culture of security awareness, making cybersecurity an indivisible part of their corporate DNA."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

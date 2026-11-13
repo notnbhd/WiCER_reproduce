@@ -1,0 +1,1020 @@
+{
+ "inventory": [
+  "John Doe",
+  "Samantha Richardson",
+  "Mike Anderson",
+  "Emma Thompson",
+  "XYZ Corporation",
+  "ABC Tech",
+  "DEF Software",
+  "COVID-19 pandemic",
+  "remote work",
+  "phishing scams",
+  "social engineering",
+  "LinkedIn",
+  "project management app",
+  "malware",
+  "machine learning-based email filtering system",
+  "multi-factor authentication",
+  "end-to-end encryption",
+  "simulated phishing tests",
+  "cybersecurity agencies",
+  "social networks"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "rose_following",
+    "value": "enforcement of social distancing due to the COVID-19 pandemic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which saw an unprecedented rise following the enforcement of social distancing due to the COVID-19 pandemic"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "saw_rise",
+    "value": "unprecedented rise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which saw an unprecedented rise"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work",
+    "relation": "employees_work",
+    "value": "outside the traditional office perimeter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With many employees now working outside the traditional office perimeter"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote work",
+    "relation": "left_doors_ajar_for",
+    "value": "cybercriminals to innovate and pounce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the doors have been left ajar for cybercriminals to innovate and pounce"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "remote work",
+    "relation": "exploited_by_cybercriminals",
+    "value": "relaxed digital environments that many home offices possess",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capitalizing on the relaxed digital environments that many home offices possess"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "phishing scams",
+    "relation": "escalated",
+    "value": "alarming escalation in phishing campaigns",
+    "time": "Recent months",
+    "speaker": null,
+    "verbatim": [
+     "Recent months have witnessed an alarming escalation in phishing campaigns"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "phishing scams",
+    "relation": "designed_to",
+    "value": "swipe sensitive information right from under the noses of remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these malicious endeavors are cunningly designed to swipe sensitive information right from under the noses of remote workers"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "remote work",
+    "relation": "mass_transition_after",
+    "value": "mass transition to remote work",
+    "time": "after September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Following the mass transition to remote work after September 1, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "remote work",
+    "relation": "became",
+    "value": "a permanent arrangement for countless businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "what began as a necessity soon turned into a permanent arrangement for countless businesses"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "remote work",
+    "relation": "embraced_for",
+    "value": "flexibility and cost-savings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tech giants and startups alike embraced the flexibility and cost-savings associated with having staff operate from their own abodes"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "remote work",
+    "relation": "required",
+    "value": "cybersecurity measures had to play catch-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity measures had to play catch-up"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "remote work",
+    "relation": "replaced_by",
+    "value": "personal Wi-Fi networks and home computers laden with vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The firewall-protected fortresses of enterprise IT networks were replaced increasingly by uncharted waters - personal Wi-Fi networks and home computers laden with vulnerabilities"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "phishing scams",
+    "relation": "is",
+    "value": "hardly novel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams are hardly novel"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "phishing scams",
+    "relation": "bane_of",
+    "value": "cybersecurity experts",
+    "time": "for years",
+    "speaker": null,
+    "verbatim": [
+     "they've been the bane of cybersecurity experts for years"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "phishing scams",
+    "relation": "tailored_approach_to_exploit",
+    "value": "the remote work scenario",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the tailored approach cybercriminals have now adopted to exploit the remote work scenario"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "phishing scams",
+    "relation": "raises_alarms",
+    "value": "hardly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the email hardly raises alarms"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "John Doe",
+    "relation": "job",
+    "value": "employee at a mid-sized tech firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Doe, an employee at a mid-sized tech firm"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "John Doe",
+    "relation": "received_email_on",
+    "value": "such an email",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "when he received such an email on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "phishing scams",
+    "relation": "imitation_was",
+    "value": "impeccable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The imitation was impeccable"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "John Doe",
+    "relation": "entered",
+    "value": "his old credentials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A click on the 'Reset Password' link and the entry of his old credentials led to the silent theft of his login info."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "John Doe",
+    "relation": "login_info_stolen",
+    "value": "his login info",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led to the silent theft of his login info"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "phishing scams",
+    "relation": "resulted_in",
+    "value": "substantial financial loss for the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in substantial financial loss for the company"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "phishing scams",
+    "relation": "siphoned_off",
+    "value": "crucial data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crucial data had been siphoned off"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "phishing scams",
+    "relation": "relies_on",
+    "value": "social engineering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing relies heavily on social engineering"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "social engineering",
+    "relation": "defined_as",
+    "value": "the art of manipulating individuals into divulging confidential information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social engineering \u2014 the art of manipulating individuals into divulging confidential information"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Samantha Richardson",
+    "relation": "job",
+    "value": "CFO of a burgeoning startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Richardson, a CFO of a burgeoning startup"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Samantha Richardson",
+    "relation": "received_crafted_message_via",
+    "value": "LinkedIn",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 11, 2023, Samantha received a crafted message via LinkedIn."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "LinkedIn",
+    "relation": "delivered_message_to",
+    "value": "Samantha Richardson",
+    "time": "November 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 11, 2023, Samantha received a crafted message via LinkedIn."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Samantha Richardson",
+    "relation": "approached_by",
+    "value": "a seemingly reputable recruiter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A seemingly reputable recruiter discussed a lucrative job opportunity"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Samantha Richardson",
+    "relation": "was_offered",
+    "value": "a lucrative job opportunity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "discussed a lucrative job opportunity"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Samantha Richardson",
+    "relation": "was_asked_for",
+    "value": "personal details and references",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "asking for personal details and references"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Samantha Richardson",
+    "relation": "shared",
+    "value": "the information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha shared the information"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Samantha Richardson",
+    "relation": "information_later_used_for",
+    "value": "impersonating her and authorizing fraudulent financial transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which was later used to impersonate her and authorize fraudulent financial transactions"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "remote work",
+    "relation": "lacks",
+    "value": "the office's natural chatter that might warrant skepticism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without access to the office's natural chatter that might warrant skepticism"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "remote work",
+    "relation": "encounter",
+    "value": "an overwhelming volume of digital communication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often encounter an overwhelming volume of digital communication"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "phishing scams",
+    "relation": "success_bolstered_by",
+    "value": "lapses in digital hygiene practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lapses in digital hygiene practices significantly bolster the success of phishing scams."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Mike Anderson",
+    "relation": "job",
+    "value": "architect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Anderson, an architect"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "remote work",
+    "relation": "using_same_passwords_despite",
+    "value": "repeated advisories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite repeated advisories, many remote workers like Mike Anderson, an architect, find themselves using the same passwords for multiple platforms for convenience."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mike Anderson",
+    "relation": "uses_same_passwords_for",
+    "value": "multiple platforms for convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "find themselves using the same passwords for multiple platforms for convenience"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mike Anderson",
+    "relation": "clicked",
+    "value": "a seemingly benign notification from a project management app",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, this habit opened Pandora's box when Mike clicked on a seemingly benign notification from a project management app he frequently used."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "project management app",
+    "relation": "is",
+    "value": "a fa\u00e7ade, a phishing attempt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The app was a fa\u00e7ade, a phishing attempt"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Mike Anderson",
+    "relation": "credentials_compromised_for",
+    "value": "several other services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led to Mike's credentials for several other services being compromised as well"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "project management app",
+    "relation": "used_frequently_by",
+    "value": "Mike Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a project management app he frequently used"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "remote work",
+    "relation": "blurs",
+    "value": "boundaries between personal and professional online spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With remote work, the boundaries between personal and professional online spaces blur."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "remote work",
+    "relation": "involves",
+    "value": "employees toggling between work and personal tasks on the same device",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees often toggle between work and personal tasks on the same device."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Emma Thompson",
+    "relation": "job",
+    "value": "a journalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Thompson, a journalist"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Emma Thompson",
+    "relation": "fell_victim_to",
+    "value": "a phishing scam",
+    "time": "January 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "on January 25, 2024, fell victim to a phishing scam after clicking a link in a personal email"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Emma Thompson",
+    "relation": "clicked",
+    "value": "a link in a personal email",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after clicking a link in a personal email"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "malware",
+    "relation": "capable_of",
+    "value": "keystroke logging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unleashed malware capable of keystroke logging"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "malware",
+    "relation": "spied_on",
+    "value": "her work activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This malware eventually spied on her work activities"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "malware",
+    "relation": "captured",
+    "value": "sensitive information meant for her publication's upcoming expos\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capturing sensitive information meant for her publication's upcoming expos\u00e9"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Emma Thompson",
+    "relation": "publication_planned",
+    "value": "upcoming expos\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sensitive information meant for her publication's upcoming expos\u00e9"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "phishing scams",
+    "relation": "combated_by",
+    "value": "education and training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In combating these incursions, education and training are vital."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "XYZ Corporation",
+    "relation": "invested_in",
+    "value": "regular training sessions",
+    "time": "post-February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Organizations must invest time and resources, like XYZ Corporation did post-February 2024, into regular training sessions"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "simulated phishing tests",
+    "relation": "prepare",
+    "value": "employees to identify and react to real-life scenarios safely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simulated phishing tests help too, as they prepare employees to identify and react to reallife scenarios safely."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "XYZ Corporation",
+    "relation": "reduced_successful_phishing_attacks_by",
+    "value": "60%",
+    "time": "within six months",
+    "speaker": null,
+    "verbatim": [
+     "XYZ's initiative led to a 60% decrease in successful phishing attacks within six months"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "XYZ Corporation",
+    "relation": "proved",
+    "value": "the efficacy of proactive education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proving the efficacy of proactive education"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "ABC Tech",
+    "relation": "realized",
+    "value": "investment in robust cybersecurity infrastructures is non-negotiable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As organizations like ABC Tech have realized, investment in robust cybersecurity infrastructures is non-negotiable."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "ABC Tech",
+    "relation": "implemented",
+    "value": "advanced multi-factor authentication and end-to-end encryption across all their communication tools",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "ABC Tech implemented advanced multi-factor authentication and end-to-end encryption across all their communication tools in March 2024"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "multi-factor authentication",
+    "relation": "implemented_by",
+    "value": "ABC Tech",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "ABC Tech implemented advanced multi-factor authentication"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "end-to-end encryption",
+    "relation": "implemented_by",
+    "value": "ABC Tech",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "ABC Tech implemented advanced multi-factor authentication and end-to-end encryption"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "ABC Tech",
+    "relation": "layers_intended_to_thwart",
+    "value": "any phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating multiple layers of security intended to thwart any phishing attempts"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "ABC Tech",
+    "relation": "proved",
+    "value": "a watershed moment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The move proved to be a watershed moment"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "ABC Tech",
+    "relation": "mitigated_risk_of",
+    "value": "unauthorized data access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly mitigating the risk of unauthorized data access"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "phishing scams",
+    "relation": "countered_by",
+    "value": "software advancements, particularly in AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Software advancements, particularly in AI, offer promising avenues to detect and block phishing attempts."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "DEF Software",
+    "relation": "introduced",
+    "value": "a machine learning-based email filtering system",
+    "time": "April 2024",
+    "speaker": null,
+    "verbatim": [
+     "DEF Software introduced a machine learning-based email filtering system in April 2024"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "machine learning-based email filtering system",
+    "relation": "learns_to_identify",
+    "value": "the tell-tale signs of phishing emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that \u2018learns\u2019 to identify the tell-tale signs of phishing emails"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "machine learning-based email filtering system",
+    "relation": "identifies",
+    "value": "suspicious attachments or anomalous sender information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as suspicious attachments or anomalous sender information"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "machine learning-based email filtering system",
+    "relation": "provided",
+    "value": "an additional layer of protection for its users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It provided an additional layer of protection for its users"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "machine learning-based email filtering system",
+    "relation": "sifts",
+    "value": "gazillions of emails to flag potential threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "automatically sifting through gazillions of emails to flag potential threats"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "phishing scams",
+    "relation": "underscores_need_for",
+    "value": "unity in global cybersecurity efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underscores the need for unity in global cybersecurity efforts"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "cybersecurity agencies",
+    "relation": "collaborate_to_create",
+    "value": "shared databases of known phishing schemes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cross-border collaborations among cybersecurity agencies can lead to the creation of shared databases of known phishing schemes"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "cybersecurity agencies",
+    "relation": "makes_quicker_and_easier",
+    "value": "for companies and individuals to be apprised of new threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it quicker and easier for companies and individuals to be apprised of new threats"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "social networks",
+    "relation": "host_phishing_attempts_in",
+    "value": "direct messages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing attempts sneak into direct messages on social networks"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "phishing scams",
+    "relation": "pose_as",
+    "value": "enticing advertisements or urgent requests for aid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "posing as enticing advertisements or urgent requests for aid"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "social networks",
+    "relation": "described_as",
+    "value": "deceptively calm seas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the deceptively calm seas that are social media platforms"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "remote work",
+    "relation": "demands",
+    "value": "vigilance not just in our emails but across all digital communication channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demands vigilance not just in our emails but across all digital communication channels"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "phishing scams",
+    "relation": "necessitates",
+    "value": "coordinated efforts among organizations, employees, and cybersecurity professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The ongoing battle against phishing necessitates coordinated efforts among organizations, employees, and cybersecurity professionals."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "remote work",
+    "relation": "is",
+    "value": "a mainstay, not just a trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where remote work is not just a trend but a mainstay"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "remote work",
+    "relation": "can_be_saved_by",
+    "value": "maintaining a healthy skepticism and verifying sources before engaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maintaining a healthy skepticism and verifying sources before engaging can save remote workers from falling prey"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "remote work",
+    "relation": "communication_lines",
+    "value": "disjointed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Given the disjointed communication lines of remote setups"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Given the disjointed communication lines of remote setups, the email hardly raises alarms."
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "John Doe",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A click on the 'Reset Password' link and the entry of his old credentials led to the silent theft of his login info."
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "phishing scams",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crucial data had been siphoned off, resulting in substantial financial loss for the company"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "XYZ Corporation",
+    "relation": "results_in",
+    "value_ref": "c56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "XYZ's initiative led to a 60% decrease in successful phishing attacks within six months"
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "project management app",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The app was a fa\u00e7ade, a phishing attempt that led to Mike's credentials for several other services being compromised as well."
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "Emma Thompson",
+    "relation": "results_in",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after clicking a link in a personal email that unleashed malware capable of keystroke logging"
+    ]
+   },
+   {
+    "id": "c88",
+    "entity": "cybersecurity agencies",
+    "relation": "results_in",
+    "value_ref": "c73",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cross-border collaborations among cybersecurity agencies can lead to the creation of shared databases of known phishing schemes, making it quicker and easier for companies and individuals to be apprised of new threats"
+    ]
+   },
+   {
+    "id": "c89",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without access to the office's natural chatter that might warrant skepticism",
+     "Samantha shared the information"
+    ]
+   },
+   {
+    "id": "c90",
+    "entity": "ABC Tech",
+    "relation": "results_in",
+    "value_ref": "c64",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The move proved to be a watershed moment, significantly mitigating the risk of unauthorized data access."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

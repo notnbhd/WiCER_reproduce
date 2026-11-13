@@ -1,0 +1,801 @@
+{
+ "inventory": [
+  "Cybersecurity and Infrastructure Security Agency",
+  "Federal Bureau of Investigation",
+  "Ellen Miles",
+  "TechForward Inc.",
+  "Phishing",
+  "Email Phishing",
+  "Spear Phishing",
+  "Smishing and Vishing",
+  "Whaling",
+  "Multi-Factor Authentication (MFA)",
+  "remote work",
+  "remote learning",
+  "advanced email filtering systems",
+  "web browsers with updated security features",
+  "AI-powered security measures",
+  "cybercriminals",
+  "teens",
+  "IT departments",
+  "malware",
+  "schools and other educational institutions",
+  "school-provided secure platforms",
+  "third-party applications"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "one of the most significant transformations of our time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the switch to remote work has been one of the most significant transformations of our time"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "brought_challenges",
+    "value": "its own set of challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift, while replete with benefits, has brought about its own set of challenges."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work",
+    "relation": "coincided_with",
+    "value": "a substantial increase in cyber threats, particularly phishing scams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has coincided with a substantial increase in cyber threats, particularly phishing scams"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Phishing",
+    "relation": "results_in",
+    "value": "loss of sensitive data, financial damage, and compromised personal information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The consequences of these deceptive practices are often dire, leading to loss of sensitive data, financial damage, and compromised personal information."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "remote work",
+    "relation": "started_in",
+    "value": "large-scale move to remote work",
+    "time": "early 2020",
+    "speaker": null,
+    "verbatim": [
+     "Since the start of the large-scale move to remote work in early 2020"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "IT departments",
+    "relation": "battling",
+    "value": "a surge in cyber threats",
+    "time": "Since the start of the large-scale move to remote work in early 2020",
+    "speaker": null,
+    "verbatim": [
+     "IT departments across the globe have been battling a surge in cyber threats"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Cybersecurity and Infrastructure Security Agency",
+    "relation": "published_report",
+    "value": "a report",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a report published on September 15, 2023, by the Cybersecurity and Infrastructure Security Agency (CISA)"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Cybersecurity and Infrastructure Security Agency",
+    "relation": "reported",
+    "value": "70% increase in phishing attacks",
+    "time": null,
+    "speaker": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "verbatim": [
+     "there's been a reported 70% increase in phishing attacks since many companies adopted remote work policies"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "remote work",
+    "relation": "policies_adopted_by",
+    "value": "many companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "since many companies adopted remote work policies"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Phishing",
+    "relation": "attributed_to",
+    "value": "less secure networks that remote workers often rely on, combined with the psychological impact of being outside the watchful eye of a traditional office environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The reason for this upsurge has largely been attributed to the less secure networks that remote workers often rely on, combined with the psychological impact of being outside the watchful eye of a traditional office environment."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Phishing",
+    "relation": "immunity",
+    "value": "no one is immune to its dangers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "No one is immune to the dangers of phishing"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "teens",
+    "relation": "increasingly_targeted_by_phishing",
+    "value": "today\u2019s youth, especially teens studying from home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is today\u2019s youth, especially teens studying from home, who are becoming increasingly targeted"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cybercriminals",
+    "relation": "see_as",
+    "value": "young, connected individuals as vulnerable entry points into household networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybercriminals see these young, connected individuals as vulnerable entry points into household networks."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Federal Bureau of Investigation",
+    "relation": "noted_instances_of",
+    "value": "students unknowingly divulging parent\u2019s work credentials or enabling malware installations that compromised entire systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Federal Bureau of Investigation (FBI) has noted instances where students have unknowingly divulged parent\u2019s work credentials or enabled malware installations that compromised entire systems."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "malware",
+    "relation": "compromised",
+    "value": "entire systems",
+    "time": null,
+    "speaker": "Federal Bureau of Investigation (FBI)",
+    "verbatim": [
+     "enabled malware installations that compromised entire systems"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "teens",
+    "relation": "unknowingly_divulged",
+    "value": "parent\u2019s work credentials",
+    "time": null,
+    "speaker": "Federal Bureau of Investigation (FBI)",
+    "verbatim": [
+     "students have unknowingly divulged parent\u2019s work credentials"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Phishing",
+    "relation": "defined_as",
+    "value": "a scamming technique in which a perpetrator masquerades as a trustworthy entity to lure individuals into providing sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At its core, phishing is a scamming technique in which a perpetrator masquerades as a trustworthy entity to lure individuals into providing sensitive data."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Phishing",
+    "relation": "seeks_data_types",
+    "value": "passwords, credit card numbers, and social security numbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This can include passwords, credit card numbers, and social security numbers."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Email Phishing",
+    "relation": "defined_as",
+    "value": "The classic scam where a user receives an email that appears to be from a legitimate company, encouraging them to click on a malicious link or attachment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The classic scam where a user receives an email that appears to be from a legitimate company, encouraging them to click on a malicious link or attachment."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Spear Phishing",
+    "relation": "defined_as",
+    "value": "A more targeted form, where the scammer has some information about the victim and creates a personalized attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A more targeted form, where the scammer has some information about the victim and creates a personalized attack."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Smishing and Vishing",
+    "relation": "defined_as",
+    "value": "Phishing through text messages (SMS) and voice calls, respectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing through text messages (SMS) and voice calls, respectively."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Whaling",
+    "relation": "defined_as",
+    "value": "A form of phishing aimed at high-profile targets like corporate executives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A form of phishing aimed at high-profile targets like corporate executives."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "remote learning",
+    "relation": "has_become",
+    "value": "more prevalent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As remote learning has become more prevalent"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "cybercriminals",
+    "relation": "adapted_techniques_to",
+    "value": "exploit the unique circumstances of remote study environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybercriminals have adapted these techniques to exploit the unique circumstances of remote study environments"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Phishing",
+    "relation": "can_be",
+    "value": "elaborate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing attempts can be elaborate"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Phishing",
+    "relation": "red_flag",
+    "value": "Suspicious Sender Addresses or URLs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Always check the email address or URL to ensure it\u2019s authentic and matches the organization it claims to represent."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Phishing",
+    "relation": "red_flag",
+    "value": "Urgent or Threatening Language",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scammers often create a sense of urgency, prompting hasty actions from the recipient."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Phishing",
+    "relation": "red_flag",
+    "value": "Unsolicited Requests for Information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Be suspicious of any emails or messages asking for sensitive information, especially if it is out of the blue."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Phishing",
+    "relation": "red_flag",
+    "value": "Odd Email Formatting and Misspellings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Odd Email Formatting and Misspellings"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Phishing",
+    "relation": "professional_institutions_send",
+    "value": "wellcrafted communications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professional institutions typically send wellcrafted communications."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Phishing",
+    "relation": "misspellings_are_signs_of",
+    "value": "a scam",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Poor grammar and misspellings can be tell-tale signs of a scam."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "teens",
+    "relation": "can_adopt",
+    "value": "several preventive measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "teens and their families can adopt several preventive measures"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "teens",
+    "relation": "advised_to_keep_software_up_to_date",
+    "value": "all devices and security software",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensure all devices and security software are kept up to date with the latest patches and updates."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "teens",
+    "relation": "updates_contain",
+    "value": "fixes for security vulnerabilities that phishers can exploit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These often contain fixes for security vulnerabilities that phishers can exploit."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "teens",
+    "relation": "advised_to_use",
+    "value": "Multi-Factor Authentication (MFA)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Use Multi-Factor Authentication (MFA)"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "requires",
+    "value": "an additional form of verification beyond a password",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By requiring an additional form of verification beyond a password"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "reduces_risk_of",
+    "value": "unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MFA can greatly reduce the risk of unauthorized access"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Multi-Factor Authentication (MFA)",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By requiring an additional form of verification beyond a password, MFA can greatly reduce the risk of unauthorized access"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "teens",
+    "relation": "advised_to_use",
+    "value": "strong, unique passwords for different services and changing them periodically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Using strong, unique passwords for different services and changing them periodically"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "teens",
+    "relation": "password_practice_limits",
+    "value": "the damage even if one account is compromised",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can limit the damage even if one account is compromised"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "teens",
+    "relation": "should_be_educated_on",
+    "value": "spotting phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teens should be educated on spotting phishing attempts"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "teens",
+    "relation": "encouraged_to_report",
+    "value": "suspicious activity to parents or guardians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "encouraged to report suspicious activity to parents or guardians"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Phishing",
+    "relation": "defense_begins_with",
+    "value": "awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Awareness is the first line of defense."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "schools and other educational institutions",
+    "relation": "play_role",
+    "value": "a critical part in fortifying their communities against phishing scams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools and other educational institutions play a critical part in fortifying their communities against phishing scams."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "schools and other educational institutions",
+    "relation": "must_provide",
+    "value": "resources and training to help students recognize and respond to cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They must provide resources and training to help students recognize and respond to cyber threats."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "schools and other educational institutions",
+    "relation": "must_maintain",
+    "value": "secure networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's essential that institutions maintain secure networks"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "schools and other educational institutions",
+    "relation": "should_promote",
+    "value": "a culture where cybersecurity is taken seriously",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promote a culture where cybersecurity is taken seriously"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "schools and other educational institutions",
+    "relation": "encourages_use_of",
+    "value": "school-provided secure platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes encouraging the use of school-provided secure platforms for submitting assignments and discussing classwork"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "school-provided secure platforms",
+    "relation": "used_for",
+    "value": "submitting assignments and discussing classwork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "school-provided secure platforms for submitting assignments and discussing classwork"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "third-party applications",
+    "relation": "described_as",
+    "value": "potentially insecure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rather than turning to potentially insecure thirdparty applications"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "remote work",
+    "relation": "companies_implemented",
+    "value": "stringent cybersecurity protocols to counter phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies whose employees are working remotely have also implemented stringent cybersecurity protocols to counter phishing attempts."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Ellen Miles",
+    "relation": "position",
+    "value": "Chief Information Security Officer (CISO)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Information Security Officers (CISOs), such as Ellen Miles from TechForward Inc."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Ellen Miles",
+    "relation": "employed_by",
+    "value": "TechForward Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ellen Miles from TechForward Inc."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Ellen Miles",
+    "relation": "comments_reported_on",
+    "value": "comments",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whose comments were reported on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Ellen Miles",
+    "relation": "emphasized",
+    "value": "the necessity of empowering employees with knowledge",
+    "time": null,
+    "speaker": "Chief Information Security Officers (CISOs)",
+    "verbatim": [
+     "have emphasized the necessity of empowering employees with knowledge"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "TechForward Inc.",
+    "relation": "invests_in",
+    "value": "regular cybersecurity training",
+    "time": null,
+    "speaker": "Ellen Miles",
+    "verbatim": [
+     "She highlighted the company's investment in regular cybersecurity training"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "TechForward Inc.",
+    "relation": "established",
+    "value": "clear lines of communication for reporting suspicious activity",
+    "time": null,
+    "speaker": "Ellen Miles",
+    "verbatim": [
+     "the establishment of clear lines of communication for reporting suspicious activity"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Phishing",
+    "relation": "fought_by",
+    "value": "technological advancements in cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technological advancements in cybersecurity are aiding the fight against phishing."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "advanced email filtering systems",
+    "relation": "can_detect_and_isolate",
+    "value": "many phishing attempts before they reach the inbox",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advanced email filtering systems can now detect and isolate many phishing attempts before they reach the inbox"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "web browsers with updated security features",
+    "relation": "can_identify_and_warn_users_about",
+    "value": "suspicious websites",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "web browsers with updated security features can identify and warn users about suspicious websites"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "AI-powered security measures",
+    "relation": "growing_trend",
+    "value": "a growing trend toward AI-powered security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There is also a growing trend toward AI-powered security measures"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "AI-powered security measures",
+    "relation": "learn_and_adapt_to",
+    "value": "new phishing strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI-powered security measures that learn and adapt to new phishing strategies"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "AI-powered security measures",
+    "relation": "offers",
+    "value": "a dynamic defense against these ever-evolving threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a dynamic defense against these ever-evolving threats"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Phishing",
+    "relation": "status",
+    "value": "ongoing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The battle against phishing is ongoing."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "cybercriminals",
+    "relation": "refine_tactics_and_expand_reach",
+    "value": "their tactics and their reach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As cybercriminals refine their tactics and expand their reach"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Phishing",
+    "relation": "requires_vigilance",
+    "value": "individuals and organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "individuals and organizations must remain vigilant"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Phishing",
+    "relation": "expected_to",
+    "value": "will not abate anytime soon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tailored scams, increasingly sophisticated approaches, and the exploitation of the latest news or cultural trends suggest that this digital menace will not abate anytime soon."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Phishing",
+    "relation": "response_hinges_on",
+    "value": "education, awareness, and the proactive adoption of cybersecurity practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The effectiveness of our response hinges on education, awareness, and the proactive adoption of cybersecurity practices."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "remote work",
+    "relation": "continues_to_shape",
+    "value": "our world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As remote work continues to shape our world"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Phishing",
+    "relation": "caused_by",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The reason for this upsurge has largely been attributed to the less secure networks that remote workers often rely on"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

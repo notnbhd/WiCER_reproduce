@@ -1,0 +1,672 @@
+{
+ "inventory": [
+  "SecureWorks",
+  "FinTech Global",
+  "Greenway",
+  "Dr. Maria Petersen",
+  "secureEmail",
+  "John McAlister",
+  "Clarice Watkins",
+  "Sheila Morgan",
+  "InfoCorp Solutions",
+  "remote work",
+  "phishing attacks",
+  "malware dissemination",
+  "credential theft",
+  "human error",
+  "data breaches",
+  "simulated phishing exercises",
+  "Multi-factor authentication (MFA)",
+  "VPNs",
+  "GDPR",
+  "HIPAA",
+  "CCPA",
+  "incident response plan",
+  "gamification and interactive learning sessions",
+  "cybersecurity training program"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "shift_toward_began",
+    "value": "early 2020",
+    "time": "around early 2020",
+    "speaker": null,
+    "verbatim": [
+     "Since the paradigm shift toward remote work around early 2020"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "gives_rise_to",
+    "value": "the inevitable security risks from numerous, often unsupervised, digital workstations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses have been grappling with the inevitable security risks that arise from numerous, often unsupervised, digital workstations"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "data breaches",
+    "relation": "rooted_in",
+    "value": "human error",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a significant proportion of data breaches have their roots somewhere in human error"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote work",
+    "relation": "surge_followed_by",
+    "value": "a notable increase in cyber threats and related incidents",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the wake of the remote work surge post-September 2023, there has been a notable increase in cyber threats and related incidents."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "SecureWorks",
+    "relation": "released_report_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": "SecureWorks",
+    "verbatim": [
+     "According to a report released on October 15, 2023, by the cybersecurity firm SecureWorks"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "SecureWorks",
+    "relation": "reported_increase_in_cyberattacks_targeting_remote_workers",
+    "value": "30%",
+    "time": "since the beginning of the year",
+    "speaker": "SecureWorks",
+    "verbatim": [
+     "there was an astounding 30% increase in cyberattacks targeting remote workers since the beginning of the year"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "phishing attacks",
+    "relation": "reported_among_most_common_attacks",
+    "value": "among the most common types of attacks",
+    "time": "since remote work became the norm",
+    "speaker": "SecureWorks",
+    "verbatim": [
+     "phishing attacks, malware dissemination, and credential theft are the most common types of attacks that have beleaguered corporations since remote work became the norm"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "malware dissemination",
+    "relation": "reported_among_most_common_attacks",
+    "value": "among the most common types of attacks",
+    "time": "since remote work became the norm",
+    "speaker": "SecureWorks",
+    "verbatim": [
+     "phishing attacks, malware dissemination, and credential theft are the most common types of attacks that have beleaguered corporations since remote work became the norm"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "credential theft",
+    "relation": "reported_among_most_common_attacks",
+    "value": "among the most common types of attacks",
+    "time": "since remote work became the norm",
+    "speaker": "SecureWorks",
+    "verbatim": [
+     "phishing attacks, malware dissemination, and credential theft are the most common types of attacks that have beleaguered corporations since remote work became the norm"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "FinTech Global",
+    "relation": "described_as",
+    "value": "multinational corporation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a massive breach at the multinational corporation FinTech Global"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "FinTech Global",
+    "relation": "breach_compromised",
+    "value": "sensitive customer information",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 29, 2023, a massive breach at the multinational corporation FinTech Global compromised sensitive customer information."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "FinTech Global",
+    "relation": "intrusion_traced_to",
+    "value": "an employee who fell victim to a sophisticated phishing scheme",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The intrusion was traced back to an employee who fell victim to a sophisticated phishing scheme."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "FinTech Global",
+    "relation": "employee_had_not_been_following",
+    "value": "prescribed security protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Investigations revealed that the employee had not been following prescribed security protocols and mistakenly uploaded credentials to a fraudulent portal."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "FinTech Global",
+    "relation": "employee_uploaded_credentials_to",
+    "value": "a fraudulent portal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mistakenly uploaded credentials to a fraudulent portal"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Greenway",
+    "relation": "described_as",
+    "value": "retail giant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the retail giant Greenway's customer database was leaked"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Greenway",
+    "relation": "customer_database_leaked_on",
+    "value": "November 4, 2023",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Another case occurred on November 4, 2023, as the retail giant Greenway's customer database was leaked."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Greenway",
+    "relation": "investigation_pointed_to",
+    "value": "a compromised remoteworking employee's device",
+    "time": null,
+    "speaker": "internal investigation",
+    "verbatim": [
+     "An internal investigation pointed towards a compromised remoteworking employee's device that had not been updated with the latest security patches."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Greenway",
+    "relation": "device_not_updated_with",
+    "value": "the latest security patches",
+    "time": null,
+    "speaker": "internal investigation",
+    "verbatim": [
+     "that had not been updated with the latest security patches"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Greenway",
+    "relation": "provided_entry_point_for",
+    "value": "hackers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This lapse provided an entry point for hackers to penetrate and extract valuable consumer data."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Greenway",
+    "relation": "results_in",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had not been updated with the latest security patches",
+     "This lapse provided an entry point for hackers"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "human error",
+    "relation": "could_cause",
+    "value": "havoc on business continuity and reputation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there can be a lapse in human vigilance that could potentially unlock havoc on business continuity and reputation"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Maria Petersen",
+    "relation": "is",
+    "value": "a cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Maria Petersen, a cybersecurity analyst,"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Maria Petersen",
+    "relation": "argued",
+    "value": "human error is the weakest link in the cybersecurity chain",
+    "time": null,
+    "speaker": "Dr. Maria Petersen",
+    "verbatim": [
+     "Experts like Dr. Maria Petersen, a cybersecurity analyst, argue that human error is the weakest link in the cybersecurity chain"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Dr. Maria Petersen",
+    "relation": "said",
+    "value": "no matter how advanced our defenses are technology-wise, a single mistake by an uninformed person can be the tipping point",
+    "time": null,
+    "speaker": "Dr. Maria Petersen",
+    "verbatim": [
+     "no matter how advanced our defenses are technology-wise, a single mistake by an uninformed person can be the tipping point."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dr. Maria Petersen",
+    "relation": "stressed_importance_of",
+    "value": "cybersecurity training as a tool to empower employees",
+    "time": null,
+    "speaker": "Dr. Maria Petersen",
+    "verbatim": [
+     "Dr. Petersen stresses the importance of cybersecurity training as a tool to empower employees, helping them become the first line of defense against cyber threats."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "human error",
+    "relation": "primary_instigator_of",
+    "value": "cybersecurity breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing human error as a primary instigator of cybersecurity breaches is the first step to mitigating risk."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "cybersecurity training program",
+    "relation": "should_be",
+    "value": "comprehensive and continuous rather than a one-off event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A robust cybersecurity training program for remote workers should be comprehensive and continuous rather than a one-off event."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "simulated phishing exercises",
+    "relation": "spearheaded_by",
+    "value": "John McAlister",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simulated phishing exercises, spearheaded by cybersecurity experts like secureEmail's lead consultant John McAlister, have been effective."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "John McAlister",
+    "relation": "lead_consultant_of",
+    "value": "secureEmail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "secureEmail's lead consultant John McAlister"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "simulated phishing exercises",
+    "relation": "were_effective",
+    "value": "effective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been effective"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "simulated phishing exercises",
+    "relation": "reduced_susceptibility_to_phishing_attacks_by",
+    "value": "up to 40% among participating companies",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of a study conducted in December 2023, these exercises have reduced susceptibility to phishing attacks by up to 40% among participating companies."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "cybersecurity training program",
+    "relation": "should_cover",
+    "value": "password creation, updating, and management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Password creation, updating, and management must be covered extensively to prevent unauthorized access."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Multi-factor authentication (MFA)",
+    "relation": "should_be",
+    "value": "a standard practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Multi-factor authentication (MFA) should be a standard practice"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Clarice Watkins",
+    "relation": "emphasized",
+    "value": "the importance of not recycling passwords across different platforms",
+    "time": "January 7, 2024",
+    "speaker": "Clarice Watkins",
+    "verbatim": [
+     "teaching employees the importance of not recycling passwords across different platforms, as emphasized by security guru Clarice Watkins in her webinar on January 7, 2024."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Clarice Watkins",
+    "relation": "described_as",
+    "value": "security guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security guru Clarice Watkins"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Clarice Watkins",
+    "relation": "gave_webinar_on",
+    "value": "a webinar",
+    "time": "January 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "in her webinar on January 7, 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "cybersecurity training program",
+    "relation": "should_include",
+    "value": "the correct use of VPNs and encrypted communication channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Data should be classified according to sensitivity levels, and appropriate handling and sharing protocols should be established, including the correct use of VPNs and encrypted communication channels."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "remote work",
+    "relation": "physical_security_importance",
+    "value": "physical security becomes as important as digital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a remote working scenario, physical security becomes as important as digital."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "cybersecurity training program",
+    "relation": "should_include",
+    "value": "guidelines on securing devices from theft or unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training should include guidelines on securing devices from theft or unauthorized access and the importance of privacy screens and secure storage."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "cybersecurity training program",
+    "relation": "should_include",
+    "value": "the importance of privacy screens and secure storage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training should include guidelines on securing devices from theft or unauthorized access and the importance of privacy screens and secure storage."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "GDPR",
+    "relation": "cited_as_compliance_law_for_remote_workers",
+    "value": "depending on the jurisdiction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Understanding the legal implications of data breaches and the importance of compliance with laws like GDPR, HIPAA, or CCPA, depending on the jurisdiction, is essential for remote workers."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "HIPAA",
+    "relation": "cited_as_compliance_law_for_remote_workers",
+    "value": "depending on the jurisdiction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Understanding the legal implications of data breaches and the importance of compliance with laws like GDPR, HIPAA, or CCPA, depending on the jurisdiction, is essential for remote workers."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "CCPA",
+    "relation": "cited_as_compliance_law_for_remote_workers",
+    "value": "depending on the jurisdiction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Understanding the legal implications of data breaches and the importance of compliance with laws like GDPR, HIPAA, or CCPA, depending on the jurisdiction, is essential for remote workers."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "incident response plan",
+    "relation": "employees_should_be_well_versed_in",
+    "value": "their roles within incident response plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees should be well-versed in their roles within incident response plans"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "incident response plan",
+    "relation": "ensures",
+    "value": "employees know exactly what to do and whom to contact in the event of a suspected cybersecurity incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure they know exactly what to do and whom to contact in the event of a suspected cybersecurity incident"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "incident response plan",
+    "relation": "in_order_to",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees should be well-versed in their roles within incident response plans to ensure they know exactly what to do and whom to contact in the event of a suspected cybersecurity incident."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "cybersecurity training program",
+    "relation": "traditional_modules_yield",
+    "value": "little results when it comes to engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional, often drab, cybersecurity training modules yield little results when it comes to engagement."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sheila Morgan",
+    "relation": "is",
+    "value": "a cybersecurity training specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sheila Morgan, a cybersecurity training specialist, emphasizes"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Sheila Morgan",
+    "relation": "emphasizes",
+    "value": "the importance of making training relatable and compelling",
+    "time": null,
+    "speaker": "Sheila Morgan",
+    "verbatim": [
+     "Sheila Morgan, a cybersecurity training specialist, emphasizes the importance of making training relatable and compelling."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Sheila Morgan",
+    "relation": "team_incorporated",
+    "value": "gamification and interactive learning sessions",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of her team's efforts post-September 2023, they have revolutionized training engagement by incorporating gamification and interactive learning sessions"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "gamification and interactive learning sessions",
+    "relation": "led_to",
+    "value": "a significant rise in employee participation and retention of critical security concepts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which have seen a significant rise in employee participation and retention of critical security concepts"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "gamification and interactive learning sessions",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by incorporating gamification and interactive learning sessions, which have seen a significant rise in employee participation and retention of critical security concepts"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "InfoCorp Solutions",
+    "relation": "set_quantifiable_training_goals",
+    "value": "quantifiable training goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies like InfoCorp Solutions, which set quantifiable training goals and rigorously monitor their achievement"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "InfoCorp Solutions",
+    "relation": "reported_drop_in_incident_rates",
+    "value": "25%",
+    "time": "within six months post the initiation of their revamped cybersecurity training program on February 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "reported a 25% drop in incident rates within six months post the initiation of their revamped cybersecurity training program on February 1, 2024"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "InfoCorp Solutions",
+    "relation": "initiated_revamped_training_program_on",
+    "value": "February 1, 2024",
+    "time": "February 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the initiation of their revamped cybersecurity training program on February 1, 2024"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cybersecurity training program",
+    "relation": "should_include",
+    "value": "pre- and post-training assessments, regular knowledge checks, and monitoring employee compliance with security practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "strategies such as pre- and post-training assessments, regular knowledge checks, and monitoring employee compliance with security practices are essential"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "cybersecurity training program",
+    "relation": "should_be_prioritized_as",
+    "value": "a key component of their defense mechanisms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses must prioritize cybersecurity training as a key component of their defense mechanisms"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "remote work",
+    "relation": "workforce_growing",
+    "value": "a growing remote workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a growing remote workforce, the human element of cybersecurity has never been more pivotal."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

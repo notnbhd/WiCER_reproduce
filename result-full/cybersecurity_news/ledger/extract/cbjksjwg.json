@@ -1,0 +1,524 @@
+{
+ "inventory": [
+  "Lincoln High School",
+  "Jessica Arnold",
+  "Greg Hansen",
+  "Samantha Thomson",
+  "Senator Elizabeth Martinez",
+  "Maria Gonzales",
+  "Student Data Privacy Act",
+  "the breach at Lincoln High School",
+  "student data privacy",
+  "the digital classroom",
+  "the district's recent technology initiative",
+  "the school district",
+  "the financial aid office",
+  "the phishing attempt",
+  "hackers",
+  "educational technology companies",
+  "mandatory transparency reports",
+  "multi-factor authentication processes",
+  "workshops for teachers",
+  "the community town hall meeting"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "student data privacy",
+    "relation": "threatened_by",
+    "value": "egregious breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the glowing screens that promise enlightenment also harbor the potential for egregious breaches in student data privacy"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Lincoln High School",
+    "relation": "classroom_scene_on",
+    "value": "a crisp autumn morning",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a crisp autumn morning in September 2023, the sunrays beam through the classroom windows of Lincoln High School"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "the district's recent technology initiative",
+    "relation": "provided_devices",
+    "value": "tablets and laptops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "clutching tablets and laptops provided by the district's recent technology initiative"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jessica Arnold",
+    "relation": "former_student_of",
+    "value": "Lincoln High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the experiences of Jessica Arnold, a former Lincoln High student"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jessica Arnold",
+    "relation": "accepted_into",
+    "value": "her dream college",
+    "time": "Weeks earlier",
+    "speaker": null,
+    "verbatim": [
+     "Jessica's excitement about being accepted into her dream college was shattered"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jessica Arnold",
+    "relation": "received_email_from",
+    "value": "a peculiar email purportedly from the financial aid office",
+    "time": "Weeks earlier",
+    "speaker": null,
+    "verbatim": [
+     "she received a peculiar email purportedly from the financial aid office requesting additional sensitive information"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the phishing attempt",
+    "relation": "described_as",
+    "value": "sophisticated in its forgery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The email, sophisticated in its forgery"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "the phishing attempt",
+    "relation": "linked_to",
+    "value": "a security breach within the school's digital records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned out to be a phishing attempt linked to a security breach within the school's digital records"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the phishing attempt",
+    "relation": "described_as",
+    "value": "only the tip of the iceberg of a much larger data privacy fiasco",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It was only the tip of the iceberg of a much larger data privacy fiasco."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jessica Arnold",
+    "relation": "enthusiasm_about",
+    "value": "the potentials of a digitized education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Arnold's enthusiasm about the potentials of a digitized education was infectious"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "hackers",
+    "relation": "attacked",
+    "value": "the school's database",
+    "time": "Months earlier",
+    "speaker": null,
+    "verbatim": [
+     "Months earlier, hackers had waged an attack on the school's database"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "hackers",
+    "relation": "stole",
+    "value": "sensitive personal information including social security numbers, birth dates, and home addresses of hundreds of unsuspecting students",
+    "time": "Months earlier",
+    "speaker": null,
+    "verbatim": [
+     "pilfering sensitive personal information including social security numbers, birth dates, and home addresses of hundreds of unsuspecting students"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "the breach at Lincoln High School",
+    "relation": "prompted",
+    "value": "an immediate response",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The breach at Lincoln High School prompted an immediate response."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Greg Hansen",
+    "relation": "is_a",
+    "value": "a private consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greg Hansen, a private consultant hired by the school district"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Greg Hansen",
+    "relation": "hired_by",
+    "value": "the school district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Greg Hansen, a private consultant hired by the school district"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Greg Hansen",
+    "relation": "stated",
+    "value": "We thought we had implemented robust security measures",
+    "time": null,
+    "speaker": "Greg Hansen",
+    "verbatim": [
+     "We thought we had implemented robust security measures"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Greg Hansen",
+    "relation": "stated",
+    "value": "cyber threats are evolving at lightning speed",
+    "time": null,
+    "speaker": "Greg Hansen",
+    "verbatim": [
+     "but cyber threats are evolving at lightning speed"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Greg Hansen",
+    "relation": "stated",
+    "value": "What happened at Lincoln is a stark reminder that our defenses need to be dynamic and continuous",
+    "time": null,
+    "speaker": "Greg Hansen",
+    "verbatim": [
+     "What happened at Lincoln is a stark reminder that our defenses need to be dynamic and continuous"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "the school district",
+    "relation": "pushed_for",
+    "value": "comprehensive digital literacy",
+    "time": "The subsequent weeks",
+    "speaker": null,
+    "verbatim": [
+     "a district-wide push for comprehensive digital literacy"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "the digital classroom",
+    "relation": "opened",
+    "value": "new frontiers of vulnerabilities for attacks on student data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the digital classroom had opened new frontiers of vulnerabilities for attacks on student data"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Samantha Thomson",
+    "relation": "is_a",
+    "value": "an English teacher at Lincoln",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Thomson, an English teacher at Lincoln, observed the effects first-hand"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Lincoln High School",
+    "relation": "employs",
+    "value": "Samantha Thomson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Thomson, an English teacher at Lincoln"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Samantha Thomson",
+    "relation": "observed",
+    "value": "the effects first-hand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Thomson, an English teacher at Lincoln, observed the effects first-hand"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Samantha Thomson",
+    "relation": "recounted",
+    "value": "I saw a shift in my students",
+    "time": null,
+    "speaker": "Samantha Thomson",
+    "verbatim": [
+     "I saw a shift in my students"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Samantha Thomson",
+    "relation": "reported_change",
+    "value": "skepticism and fear started to seep in",
+    "time": null,
+    "speaker": "Samantha Thomson",
+    "verbatim": [
+     "Where there was once eagerness to engage with digital learning tools, skepticism and fear started to seep in."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Samantha Thomson",
+    "relation": "became",
+    "value": "inadvertent cyberspace sentinels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Teachers like Thomson became inadvertent cyberspace sentinels"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "workshops for teachers",
+    "relation": "became",
+    "value": "common practice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Workshops for teachers on recognizing potential data violations and the implementation of multi-factor authentication processes became common practice."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "workshops for teachers",
+    "relation": "covered_topic",
+    "value": "recognizing potential data violations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Workshops for teachers on recognizing potential data violations"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "workshops for teachers",
+    "relation": "covered_topic",
+    "value": "the implementation of multi-factor authentication processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the implementation of multi-factor authentication processes"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Student Data Privacy Act",
+    "relation": "proposed_by",
+    "value": "Senator Elizabeth Martinez",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Enter the Student Data Privacy Act, proposed by Senator Elizabeth Martinez on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Student Data Privacy Act",
+    "relation": "proposed_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Enter the Student Data Privacy Act, proposed by Senator Elizabeth Martinez on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Student Data Privacy Act",
+    "relation": "aims_at",
+    "value": "stringent regulation of data collected by educational technology companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a bill aimed at stringent regulation of data collected by educational technology companies"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Student Data Privacy Act",
+    "relation": "prescribed",
+    "value": "penalties for breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Act prescribed penalties for breaches"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Student Data Privacy Act",
+    "relation": "instituted",
+    "value": "mandatory transparency reports",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instituted mandatory transparency reports detailing what data was collected, where it was stored, and who could access it"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "mandatory transparency reports",
+    "relation": "detail",
+    "value": "what data was collected, where it was stored, and who could access it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mandatory transparency reports detailing what data was collected, where it was stored, and who could access it"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Student Data Privacy Act",
+    "relation": "signaled",
+    "value": "a recognition, belated yet essential, of the urgency to protect student data privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the proposition of the Act signaled a recognition, belated yet essential, of the urgency to protect student data privacy"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Maria Gonzales",
+    "relation": "is_a",
+    "value": "a parent and local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, a parent and local business owner"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maria Gonzales",
+    "relation": "lamented",
+    "value": "My child's education isn't supposed to come at the cost of their privacy",
+    "time": "November 8, 2023",
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "My child's education isn't supposed to come at the cost of their privacy"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "the community town hall meeting",
+    "relation": "held_on",
+    "value": "November 8, 2023",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in a community town hall meeting held on November 8, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Maria Gonzales",
+    "relation": "spoke_at",
+    "value": "the community town hall meeting",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "lamented Maria Gonzales, a parent and local business owner, in a community town hall meeting"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Maria Gonzales",
+    "relation": "words_underlined",
+    "value": "the ferocity of public sentiment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The resonance of Gonzales's words underlined the ferocity of public sentiment"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Lincoln High School",
+    "relation": "recovered_from",
+    "value": "the digital onslaught and its ensuing chaos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Lincoln High School recovered from the digital onslaught and its ensuing chaos"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "the digital classroom",
+    "relation": "evolved_to_encapsulate",
+    "value": "a fortress of privacy for each student",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The digital classroom, once a beacon of modern educational prowess, had now evolved to encapsulate a fortress of privacy for each student."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Jessica Arnold",
+    "relation": "described_as",
+    "value": "healed but not unscarred from her ordeals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Arnold, healed but not unscarred from her ordeals"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jessica Arnold",
+    "relation": "navigated",
+    "value": "these digital corridors with newfound caution and heightened prudence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "navigated these digital corridors with newfound caution and heightened prudence"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

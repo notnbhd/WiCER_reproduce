@@ -1,0 +1,604 @@
+{
+ "inventory": [
+  "John \"I clicked the link\" Doe",
+  "DoGood Corp",
+  "Password123",
+  "Antivirus Software",
+  "Ethel \"The Firewall\" Harris",
+  "Firewalls",
+  "Tim \"The Trojan\" Henderson",
+  "Virtual Private Networks",
+  "Gerard \"Incognito\" Flynn",
+  "Patch Management",
+  "Margaret \"Update Later\" Thompson",
+  "Encryption",
+  "Barry \"Barely Cares\" Gunderson",
+  "Security Training",
+  "Sandra \"Skipped the Seminar\" Smith",
+  "Backups",
+  "Jack \"Just this once I didn't\" Daniels",
+  "Security Audits",
+  "Mildred \"Missed the Memo\" Beasley",
+  "Cybersecurity",
+  "Remote workers",
+  "Endpoint Security",
+  "local caf\u00e9"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Cybersecurity",
+    "relation": "is_described_as",
+    "value": "the least glamorous sideshow in the grand remote work circus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity has become the least glamorous sideshow in the grand remote work circus"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Remote workers",
+    "relation": "continue_to_multiply",
+    "value": "multiply like rabbits with Wi-Fi",
+    "time": "September 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It's September 27, 2023, and as remote workers continue to multiply like rabbits with Wi-Fi"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "John \"I clicked the link\" Doe",
+    "relation": "affiliated_with",
+    "value": "DoGood Corp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John \"I clicked the link\" Doe from the now infamously hacked DoGood Corp"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "DoGood Corp",
+    "relation": "was_hacked",
+    "value": "infamously hacked",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the now infamously hacked DoGood Corp"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "John \"I clicked the link\" Doe",
+    "relation": "password_was",
+    "value": "Password123",
+    "time": null,
+    "speaker": "John \"I clicked the link\" Doe",
+    "verbatim": [
+     "John \"I clicked the link\" Doe from the now infamously hacked DoGood Corp confessed that his password was \"Password123\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Password123",
+    "relation": "is_described_as",
+    "value": "a masterstroke of originality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a masterstroke of originality"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Password123",
+    "relation": "time_to_crack",
+    "value": "0.003 seconds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hackers required a whole 0.003 seconds to crack this cryptographic conundrum"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Antivirus Software",
+    "relation": "is_described_as",
+    "value": "The Digital Equivalent of a Scarecrow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Antivirus Software: The Digital Equivalent of a Scarecrow"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Ethel \"The Firewall\" Harris",
+    "relation": "is_described_as",
+    "value": "Cybersecurity experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity experts, like the esteemed Ethel \"The Firewall\" Harris"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Ethel \"The Firewall\" Harris",
+    "relation": "argues",
+    "value": "having an antivirus is as essential as having a door on a bathroom stall",
+    "time": null,
+    "speaker": "Ethel \"The Firewall\" Harris",
+    "verbatim": [
+     "argue that having an antivirus is as essential as having a door on a bathroom stall"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Antivirus Software",
+    "relation": "seems_to_be",
+    "value": "on break when the modern cyber harpies swoop in for the attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these digital scarecrows often seem to be on break when the modern cyber harpies swoop in for the attack"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Antivirus Software",
+    "relation": "updates_about",
+    "value": "their latest scans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Oh, they'll update you about their latest scans"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Firewalls",
+    "relation": "is_described_as",
+    "value": "those invisible barriers between us and the digital boogeymen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Firewalls, ladies and gentlemen, those invisible barriers between us and the digital boogeymen"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Firewalls",
+    "relation": "is_performed_as",
+    "value": "a veritable circus act performed daily on our devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a veritable circus act performed daily on our devices"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Remote workers",
+    "relation": "believe_in",
+    "value": "the protective embrace of this cyber-safety net",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote workers sleep soundly believing in the protective embrace of this cyber-safety net"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Tim \"The Trojan\" Henderson",
+    "relation": "works_in",
+    "value": "Accounting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tim \"The Trojan\" Henderson from Accounting"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Tim \"The Trojan\" Henderson",
+    "relation": "clicked",
+    "value": "that alluring pop-up promising a free iPhone",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tim \"The Trojan\" Henderson from Accounting clicks on that alluring pop-up promising a free iPhone"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Firewalls",
+    "relation": "loses_magic",
+    "value": "its magic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the enchanted firewall loses its magic"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Firewalls",
+    "relation": "caused_by",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But when push comes to shove, and Tim \"The Trojan\" Henderson from Accounting clicks on that alluring pop-up promising a free iPhone, the enchanted firewall loses its magic"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Virtual Private Networks",
+    "relation": "is_described_as",
+    "value": "the digital cloaks of invisibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enter Virtual Private Networks (VPNs), the digital cloaks of invisibility"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Virtual Private Networks",
+    "relation": "also_known_as",
+    "value": "VPNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual Private Networks (VPNs)"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Gerard \"Incognito\" Flynn",
+    "relation": "uses",
+    "value": "his VPN service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gerard \"Incognito\" Flynn swears by his VPN service"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Gerard \"Incognito\" Flynn",
+    "relation": "got_vpn_at",
+    "value": "\u201ckiller discount\u201d",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which he got at a \u201ckiller discount\u201d after the fifth pop-up ad"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Gerard \"Incognito\" Flynn",
+    "relation": "got_vpn_after",
+    "value": "the fifth pop-up ad",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which he got at a \u201ckiller discount\u201d after the fifth pop-up ad"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Gerard \"Incognito\" Flynn",
+    "relation": "rumored_online_activities_were",
+    "value": "as private as a reality TV star's love life when his VPN decided to play peekaboo at the most inopportune moment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's rumored his online activities were as private as a reality TV star's love life when his VPN decided to play peekaboo at the most inopportune moment"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Patch Management",
+    "relation": "is_described_as",
+    "value": "a divine comedy where the patches are as promptly applied as a New Year's resolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Patch management, a divine comedy where the patches are as promptly applied as a New Year's resolution."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Patch Management",
+    "relation": "promises",
+    "value": "to be the steel umbrella under which we can huddle from the acid rain of cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each software update comes with the promise to be the steel umbrella under which we can huddle from the acid rain of cyber threats"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Margaret \"Update Later\" Thompson",
+    "relation": "device_became",
+    "value": "the entry point for a vicious attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Margaret \"Update Later\" Thompson\u2019s device became the entry point for a vicious attack"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Patch Management",
+    "relation": "procrastination_is_akin_to",
+    "value": "volunteering your limbs to a hungry zombie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "procrastination in the world of patch management is akin to volunteering your limbs to a hungry zombie"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Margaret \"Update Later\" Thompson",
+    "relation": "explained_by",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yet, somehow, Margaret \"Update Later\" Thompson\u2019s device became the entry point for a vicious attack, showcasing that procrastination in the world of patch management is akin to volunteering your limbs to a hungry zombie"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Encryption",
+    "relation": "is_described_as",
+    "value": "the enigmatic art of turning sensitive data into what appears to be the ravings of a caffeine-fuelled conspiracy theorist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encryption is the enigmatic art of turning sensitive data into what appears to be the ravings of a caffeine-fuelled conspiracy theorist."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Remote workers",
+    "relation": "treats_encryption_like",
+    "value": "that gym membership they keep meaning to use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the average remote worker treats encryption like that gym membership they keep meaning to use"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Encryption",
+    "relation": "corporate_emails_get",
+    "value": "the Fort Knox treatment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "corporate emails may get the Fort Knox treatment"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Barry \"Barely Cares\" Gunderson",
+    "relation": "sends",
+    "value": "company secrets over Wi-Fi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Barry \"Barely Cares\" Gunderson sends company secrets over Wi-Fi that's as secure as a diary with a glitter pen for a lock"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Barry \"Barely Cares\" Gunderson",
+    "relation": "wifi_security_is",
+    "value": "as secure as a diary with a glitter pen for a lock",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sends company secrets over Wi-Fi that's as secure as a diary with a glitter pen for a lock"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Security Training",
+    "relation": "is",
+    "value": "mandatory training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Here comes the dragon of cybersecurity \u2013 mandatory training."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Security Training",
+    "relation": "is_described_as",
+    "value": "annual rituals of clicking through slides faster than a speedrunner playing Mario",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these annual rituals of clicking through slides faster than a speedrunner playing Mario"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Security Training",
+    "relation": "effectiveness_is",
+    "value": "as effective as teaching a cat quantum physics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "seem to be as effective as teaching a cat quantum physics"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Security Training",
+    "relation": "pledge_to_transform",
+    "value": "from cyber peasants into knights of the virtual round table",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all remote employees gather in the virtual realm and pledge to transform from cyber peasants into knights of the virtual round table"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sandra \"Skipped the Seminar\" Smith",
+    "relation": "deployed",
+    "value": "the \"I thought it was legit\" defense",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "Sandra \"Skipped the Seminar\" Smith's recent deployment of the \"I thought it was legit\" defense"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Security Training",
+    "relation": "is_testament_to",
+    "value": "the enthralling impact of these training modules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a testament to the enthralling impact of these training modules"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Backups",
+    "relation": "is_described_as",
+    "value": "the digital lifeboats to which we cling like the last cookie in the jar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Backups, the digital lifeboats to which we cling like the last cookie in the jar."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Backups",
+    "relation": "notion_is",
+    "value": "one must save their work with the redundancy of a pop song chorus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The notion that one must save their work with the redundancy of a pop song chorus is drilled into us"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Jack \"Just this once I didn't\" Daniels",
+    "relation": "watched_project_drown",
+    "value": "his project drown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack \"Just this once I didn't\" Daniels watching his project drown"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Jack \"Just this once I didn't\" Daniels",
+    "relation": "realized_backup_was",
+    "value": "as mythical as a freelancer\u2019s vacation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as he realizes his backup was as mythical as a freelancer\u2019s vacation"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Security Audits",
+    "relation": "is_described_as",
+    "value": "the grand theater where companies parade their defenses like peacocks on performance-enhancing supplements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security audits \u2013 the grand theater where companies parade their defenses like peacocks on performance-enhancing supplements."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Security Audits",
+    "relation": "is_described_as",
+    "value": "staged bouts of tick-box exercises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These staged bouts of tick-box exercises are hypnotizing in their dance."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mildred \"Missed the Memo\" Beasley",
+    "relation": "accidentally_left",
+    "value": "a digital door ajar",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mildred \"Missed the Memo\" Beasley accidentally left a digital door ajar"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Security Audits",
+    "relation": "is_described_as",
+    "value": "as full-proof as an alibi from a toddler covered in crayon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these audits are as full-proof as an alibi from a toddler covered in crayon"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Endpoint Security",
+    "relation": "is_subject_of",
+    "value": "the folly of endpoint security strategies in the world of remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our hilarious journey into the folly of endpoint security strategies in the world of remote work comes to an end"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Endpoint Security",
+    "relation": "needs",
+    "value": "a bit more umph than a laugh track and crossed fingers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our endpoint security strategies need a bit more umph than a laugh track and crossed fingers"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "local caf\u00e9",
+    "relation": "is_setting_of",
+    "value": "an unprotected device blissfully connecting to the next open network it encounters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the chirp of an unprotected device blissfully connecting to the next open network it encounters at the local caf\u00e9"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

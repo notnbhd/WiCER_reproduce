@@ -1,0 +1,918 @@
+{
+ "inventory": [
+  "Janet Simmons",
+  "TechForward",
+  "Dr. Malik Johnson",
+  "Emily Torres",
+  "David Liu",
+  "Laura Hayes",
+  "Dr. Samantha Kline",
+  "CyberSolutions Inc.",
+  "Remote work",
+  "Remote work policy",
+  "Cybersecurity",
+  "Cyber attacks",
+  "Global transition to remote work",
+  "Phishing Attacks",
+  "Ransomware",
+  "Unsecured Endpoints",
+  "Data Leakage",
+  "Clear Guidelines",
+  "Regular Training",
+  "Access Control",
+  "Security Tools",
+  "Incident Response Plan",
+  "Virtual Private Network (VPN)",
+  "Multi-factor authentication",
+  "Least privilege access principle",
+  "Behavioral analytics",
+  "AIdriven tools",
+  "Password reuse",
+  "Human element"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Global transition to remote work",
+    "relation": "accelerated_by",
+    "value": "the events of 2020",
+    "time": "2020",
+    "speaker": null,
+    "verbatim": [
+     "This shift, dramatically accelerated by the events of 2020, has endured well beyond the immediate crisis"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Global transition to remote work",
+    "relation": "endured_beyond",
+    "value": "the immediate crisis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has endured well beyond the immediate crisis"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Remote work",
+    "relation": "employees_working_remotely",
+    "value": "a considerable number of employees",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "with a considerable number of employees continuing to work remotely as of March 10, 2024"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Remote work policy",
+    "relation": "protects_against",
+    "value": "cyber attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "protect organizations against the proliferating threat of cyber attacks"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Cyber attacks",
+    "relation": "described_as",
+    "value": "proliferating threat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the proliferating threat of cyber attacks"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Remote work policy",
+    "relation": "primary_goal",
+    "value": "protecting sensitive data and ensuring the integrity of corporate networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The primary goal is protecting sensitive data and ensuring the integrity of corporate networks"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Remote work",
+    "relation": "extends_into",
+    "value": "the homes of workers worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are now extending into the homes of workers worldwide"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Remote work policy",
+    "relation": "aligns_with",
+    "value": "both the convenience of employees and the security protocols deemed non-negotiable by cybersecurity experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a remote work policy that aligns with both the convenience of employees and the security protocols deemed non-negotiable by cybersecurity experts"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Janet Simmons",
+    "relation": "position",
+    "value": "CEO of TechForward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Janet Simmons, CEO of TechForward"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "TechForward",
+    "relation": "known_for",
+    "value": "pioneering approach towards digital workplace solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company known for its pioneering approach towards digital workplace solutions"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Janet Simmons",
+    "relation": "declared",
+    "value": "Remote work is no longer a perk, it's a fundamental aspect of modern business operations.",
+    "time": "September 5, 2023",
+    "speaker": "Janet Simmons",
+    "verbatim": [
+     "Remote work is no longer a perk, it's a fundamental aspect of modern business operations."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Remote work",
+    "relation": "opened",
+    "value": "a Pandora's box of cybersecurity challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The flexibility of working from anywhere has opened a Pandora's box of cybersecurity challenges"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Remote work",
+    "relation": "share_of_workforce_remote",
+    "value": "60%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a stunning 60% of the workforce operates remotely for at least part of the week"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Remote work",
+    "relation": "home_networks_less_secure_than",
+    "value": "their corporate counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "home networks that are often less secure than their corporate counterparts"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Malik Johnson",
+    "relation": "position",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity expert Dr. Malik Johnson emphasized"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Malik Johnson",
+    "relation": "spoke_at",
+    "value": "a virtual conference",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a virtual conference held on November 15, 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Malik Johnson",
+    "relation": "emphasized",
+    "value": "the threat landscape has changed irreversibly with remote work, giving rise to targeted phishing attacks, ransomware incidents, and the proliferation of unsecured personal devices accessing corporate data.",
+    "time": "November 15, 2023",
+    "speaker": "Dr. Malik Johnson",
+    "verbatim": [
+     "the threat landscape has changed irreversibly with remote work, giving rise to targeted phishing attacks, ransomware incidents, and the proliferation of unsecured personal devices accessing corporate data."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Phishing Attacks",
+    "relation": "defined_as",
+    "value": "A deceptive attempt to obtain sensitive data by impersonating legitimate enterprises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A deceptive attempt to obtain sensitive data by impersonating legitimate enterprises"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Phishing Attacks",
+    "relation": "increased_with",
+    "value": "a drastic increase with employees working remotely and relying heavily on email communication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which has seen a drastic increase with employees working remotely and relying heavily on email communication"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Ransomware",
+    "relation": "defined_as",
+    "value": "Malicious software designed to block access to a system until a ransom is paid",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malicious software designed to block access to a system until a ransom is paid"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Ransomware",
+    "relation": "reached_sophistication",
+    "value": "new levels of sophistication",
+    "time": "in the last year",
+    "speaker": null,
+    "verbatim": [
+     "a threat that has reached new levels of sophistication in the last year"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Unsecured Endpoints",
+    "relation": "use_of",
+    "value": "personal devices and networks with inadequate security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote workers often use personal devices and networks with inadequate security measures"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Unsecured Endpoints",
+    "relation": "can_serve_as",
+    "value": "entry points for cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can serve as entry points for cybercriminals"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Data Leakage",
+    "relation": "occurs_through",
+    "value": "accidental sharing or malicious intent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sensitive information can easily find its way outside the corporate networks through accidental sharing or malicious intent"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Data Leakage",
+    "relation": "occurs_without",
+    "value": "the proper safeguards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Without the proper safeguards"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Torres",
+    "relation": "position",
+    "value": "HR specialist",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 20, 2024, HR specialist Emily Torres explained"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Torres",
+    "relation": "explained",
+    "value": "Our remote work policies must evolve beyond just guidelines for productivity; they must integrate advanced cybersecurity practices as part of the routine for every remote employee.",
+    "time": "January 20, 2024",
+    "speaker": "Emily Torres",
+    "verbatim": [
+     "Our remote work policies must evolve beyond just guidelines for productivity"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Remote work policy",
+    "relation": "requires",
+    "value": "a multi-faceted approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requires a multi-faceted approach, tailored to address the nuances of a distributed workforce"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Remote work policy",
+    "relation": "has_key_component",
+    "value": "Clear Guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of a robust remote work policy encompass:"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Remote work policy",
+    "relation": "has_key_component",
+    "value": "Regular Training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of a robust remote work policy encompass:"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Remote work policy",
+    "relation": "has_key_component",
+    "value": "Access Control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of a robust remote work policy encompass:"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Remote work policy",
+    "relation": "has_key_component",
+    "value": "Security Tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of a robust remote work policy encompass:"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Remote work policy",
+    "relation": "has_key_component",
+    "value": "Incident Response Plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key components of a robust remote work policy encompass:"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Clear Guidelines",
+    "relation": "includes",
+    "value": "Explicit instructions regarding the acceptable use of corporate devices, secure Wi-Fi connections, and mandatory Virtual Private Network (VPN) usage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Explicit instructions regarding the acceptable use of corporate devices, secure Wi-Fi connections, and mandatory Virtual Private Network (VPN) usage"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Virtual Private Network (VPN)",
+    "relation": "usage_is",
+    "value": "mandatory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mandatory Virtual Private Network (VPN) usage"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Regular Training",
+    "relation": "consists_of",
+    "value": "Ongoing education for employees on the latest cybersecurity threats and best practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ongoing education for employees on the latest cybersecurity threats and best practices"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Regular Training",
+    "relation": "is_vital_to",
+    "value": "ensure every team member remains a strong link in the security chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is vital to ensure every team member remains a strong link in the security chain"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Access Control",
+    "relation": "implements",
+    "value": "the least privilege access principle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Implementation of the least privilege access principle"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Least privilege access principle",
+    "relation": "ensures",
+    "value": "employees have access only to the resources necessary for their specific roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that employees have access only to the resources necessary for their specific roles"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Security Tools",
+    "relation": "includes",
+    "value": "corporate-approved antivirus software, firewall protection, and multi-factor authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mandating the use of corporate-approved antivirus software, firewall protection, and multi-factor authentication"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Multi-factor authentication",
+    "relation": "mandated_as_part_of",
+    "value": "Security Tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mandating the use of corporate-approved antivirus software, firewall protection, and multi-factor authentication"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Security Tools",
+    "relation": "in_order_to",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "multi-factor authentication to add extra layers of defense"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Incident Response Plan",
+    "relation": "defined_as",
+    "value": "A predefined protocol for employees to follow in the event of a suspected security breach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A predefined protocol for employees to follow in the event of a suspected security breach"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Incident Response Plan",
+    "relation": "mitigates",
+    "value": "damage quickly and efficiently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "helping to mitigate damage quickly and efficiently"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Remote work policy",
+    "relation": "can_balance",
+    "value": "flexibility with control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work policies can successfully balance flexibility with control"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Remote work policy",
+    "relation": "balance_method",
+    "value": "incorporating technology solutions aimed at automating security controls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by incorporating technology solutions aimed at automating security controls without encroaching too deeply on personal autonomy"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Remote work policy",
+    "relation": "mechanism_of",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can successfully balance flexibility with control by incorporating technology solutions"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "David Liu",
+    "relation": "position",
+    "value": "Cyber-physical systems expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyber-physical systems expert, David Liu"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "David Liu",
+    "relation": "stated",
+    "value": "Companies can employ sophisticated tracking tools that monitor the security posture of devices without invading employee privacy.",
+    "time": "March 1, 2024",
+    "speaker": "David Liu",
+    "verbatim": [
+     "Companies can employ sophisticated tracking tools that monitor the security posture of devices without invading employee privacy."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Remote work policy",
+    "relation": "ensures",
+    "value": "workers retain the freedom to work as they choose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can ensure that workers retain the freedom to work as they choose"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Remote work policy",
+    "relation": "ensures",
+    "value": "the company maintains a secure operational perimeter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while the company maintains a secure operational perimeter"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Remote work policy",
+    "relation": "success_hinges_on",
+    "value": "fostering a culture of cybersecurity awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It hinges on fostering a culture of cybersecurity awareness"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Laura Hayes",
+    "relation": "position",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant Laura Hayes pointed out"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Laura Hayes",
+    "relation": "spoke_at",
+    "value": "a webinar",
+    "time": "February 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during a webinar on February 4, 2024"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Laura Hayes",
+    "relation": "stated",
+    "value": "Security is a team sport, and every remote worker is a key player.",
+    "time": "February 4, 2024",
+    "speaker": "Laura Hayes",
+    "verbatim": [
+     "Security is a team sport, and every remote worker is a key player."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Cybersecurity",
+    "relation": "recommended_action",
+    "value": "empower their teams with the knowledge and resources to be proactive defenders against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations should strive to empower their teams with the knowledge and resources to be proactive defenders against cyber threats"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Remote work policy",
+    "relation": "balance_maintained_only_with",
+    "value": "shared responsibility and vigilance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Only with shared responsibility and vigilance can the balance between flexibility and security be effectively maintained"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Human element",
+    "relation": "most_overlooked_factor_in",
+    "value": "remote work environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the factor most frequently overlooked in remote work environments is the human element"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Human element",
+    "relation": "overlooked_despite",
+    "value": "state-of-the-art security protocols and leading-edge cyber defense mechanisms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite state-of-the-art security protocols and leading-edge cyber defense mechanisms"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Password reuse",
+    "relation": "poses",
+    "value": "significant security risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Behavioral patterns, such as password reuse and the dismissal of software updates, pose significant security risks"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Password reuse",
+    "relation": "example_of",
+    "value": "Behavioral patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Behavioral patterns, such as password reuse"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dr. Samantha Kline",
+    "relation": "position",
+    "value": "Organizational psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizational psychologist Dr. Samantha Kline remarked"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Dr. Samantha Kline",
+    "relation": "remarked_in",
+    "value": "a recent study",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "remarked in a recent study, dated September 25, 2023"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Dr. Samantha Kline",
+    "relation": "stated",
+    "value": "Humans are the weakest link in cybersecurity.",
+    "time": "September 25, 2023",
+    "speaker": "Dr. Samantha Kline",
+    "verbatim": [
+     "Humans are the weakest link in cybersecurity."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Dr. Samantha Kline",
+    "relation": "stated",
+    "value": "The implementation of comprehensive remote work policies must be matched with efforts to shift employee behavior towards more secure practices.",
+    "time": "September 25, 2023",
+    "speaker": "Dr. Samantha Kline",
+    "verbatim": [
+     "The implementation of comprehensive remote work policies must be matched with efforts to shift employee behavior towards more secure practices."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Behavioral analytics",
+    "relation": "invested_in_by",
+    "value": "companies are now investing in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies are now investing in behavioral analytics and AIdriven tools"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "AIdriven tools",
+    "relation": "can_detect",
+    "value": "anomalous behavior patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "behavioral analytics and AIdriven tools that can detect anomalous behavior patterns"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "AIdriven tools",
+    "relation": "potentially_thwarts",
+    "value": "cyber attacks before they can cause harm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially thwarting cyber attacks before they can cause harm"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "AIdriven tools",
+    "relation": "mechanism_of",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can detect anomalous behavior patterns, potentially thwarting cyber attacks before they can cause harm"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Cybersecurity",
+    "relation": "culture_responsibility_falls_on",
+    "value": "leaders within an organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The onus of creating a security-conscious culture falls heavily on the leaders within an organization."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Cybersecurity",
+    "relation": "sets_tone_for",
+    "value": "the entire workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sets the tone for the entire workforce"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Cybersecurity",
+    "relation": "overall_security_posture_influenced_by",
+    "value": "leaders who champion cybersecurity and model best practices in their remote work habits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leaders who champion cybersecurity and model best practices in their remote work habits directly influence the organization's overall security posture."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "CyberSolutions Inc.",
+    "relation": "position",
+    "value": "consultancy firm",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "consultancy firm CyberSolutions Inc., released on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "CyberSolutions Inc.",
+    "relation": "released_report_on",
+    "value": "October 10, 2023",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "released on October 10, 2023"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "CyberSolutions Inc.",
+    "relation": "found",
+    "value": "organizations with leaders who prioritize cybersecurity saw a 70% reduction in successful cyber attacks compared to those that did not",
+    "time": "October 10, 2023",
+    "speaker": "CyberSolutions Inc.",
+    "verbatim": [
+     "found that organizations with leaders who prioritize cybersecurity saw a 70% reduction in successful cyber attacks compared to those that did not"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Cyber attacks",
+    "relation": "successful_attacks_reduced_by",
+    "value": "70%",
+    "time": null,
+    "speaker": "CyberSolutions Inc.",
+    "verbatim": [
+     "saw a 70% reduction in successful cyber attacks"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Cybersecurity",
+    "relation": "technology_provides_tools_for",
+    "value": "safeguarding against cyber threats in a remote work environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technology can provide the necessary tools to safeguard against cyber threats in a remote work environment"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Human element",
+    "relation": "status",
+    "value": "cannot be ignored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the human facet of this equation cannot be ignored"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Remote work policy",
+    "relation": "must_go_hand_in_hand_with",
+    "value": "cultivating a vigilant and informed workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Policy development and implementation must go hand-in-hand with cultivating a vigilant and informed workforce"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Cybersecurity",
+    "relation": "recognized_as_critical_by",
+    "value": "a management team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by a management team that recognizes the critical nature of cybersecurity"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,32 @@
+{
+  "method": "tact",
+  "style": "verbatim",
+  "select": "roundrobin",
+  "ratio": 0.37122186834278964,
+  "rho": 0.0,
+  "source_tokens": 237055,
+  "budget_tokens": 88000,
+  "target_tokens": 88000,
+  "actual_tokens": 87982,
+  "actual_ratio_tokens": 0.37114593659699224,
+  "n_claims": 11823,
+  "n_realized": 6080,
+  "coverage": 0.5142518819250613,
+  "n_documents_rendered": 192,
+  "n_sentences": 2731,
+  "routing": {},
+  "topic": "cybersecurity_news",
+  "name": "paged_none_b88",
+  "source_words": 185953,
+  "actual_words": 67973,
+  "actual_ratio_words": 0.3655386038407555,
+  "n_preserved_facts": 0,
+  "ledger": {
+    "n_claims": 11823,
+    "rejection_rate": 0.00016894745734076703,
+    "n_multispan": 118,
+    "n_relational": 542,
+    "n_contradictions": 233,
+    "entity_collision_rate": 0.002553626149131767
+  }
+}

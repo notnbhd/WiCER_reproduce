@@ -1,0 +1,825 @@
+{
+ "inventory": [
+  "Multi-Factor Authentication",
+  "Remote work",
+  "Lisa Reynolds",
+  "Rebecca Hughes",
+  "Dante Patel",
+  "Jenny Kim",
+  "Ann Kirk",
+  "Mark Sullivan",
+  "Laura Chen",
+  "General Data Protection Regulation (GDPR)",
+  "California Consumer Privacy Act (CCPA)",
+  "European Union",
+  "United States",
+  "InfoSec Institute",
+  "One-time passwords (OTPs)",
+  "Biometrics",
+  "Security tokens",
+  "Authenticator app",
+  "Traditional security perimeters",
+  "Cloud computing",
+  "SaaS products",
+  "The pandemic",
+  "Cyber-attacks",
+  "Software companies"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "The pandemic",
+    "relation": "led_to_shift_towards",
+    "value": "remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the global workforce shifted towards remote work in the wake of the pandemic"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Cyber-attacks",
+    "relation": "trend",
+    "value": "increasing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the face of increasing cyber-attacks"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Multi-Factor Authentication",
+    "relation": "is_becoming",
+    "value": "a standard practice for bolstering remote work security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is increasingly becoming a standard practice for bolstering remote work security"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Multi-Factor Authentication",
+    "relation": "broader_adoption_since",
+    "value": "broader adoption",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "since its broader adoption post-September 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Remote work",
+    "relation": "has_benefits",
+    "value": "numerous benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While the convenience of working from any location with an internet connection has numerous benefits"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Lisa Reynolds",
+    "relation": "role",
+    "value": "Cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Lisa Reynolds remarked on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Remote work",
+    "relation": "has_expanded",
+    "value": "the attack surface considerably",
+    "time": "October 15, 2023",
+    "speaker": "Lisa Reynolds",
+    "verbatim": [
+     "Remote work has expanded the attack surface considerably."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Traditional security perimeters",
+    "relation": "no_longer_exist",
+    "value": "no longer exist",
+    "time": "October 15, 2023",
+    "speaker": "Lisa Reynolds",
+    "verbatim": [
+     "Traditional security perimeters no longer exist"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Multi-Factor Authentication",
+    "relation": "is",
+    "value": "not just an option but a necessity",
+    "time": "October 15, 2023",
+    "speaker": "Lisa Reynolds",
+    "verbatim": [
+     "making MFA not just an option but a necessity"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Traditional security perimeters",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional security perimeters no longer exist, making MFA not just an option but a necessity."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Multi-Factor Authentication",
+    "relation": "requires",
+    "value": "multiple methods of verification from independent categories of credentials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requiring multiple methods of verification from independent categories of credentials before granting access to a device or application"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Multi-Factor Authentication",
+    "relation": "combats",
+    "value": "the risk of compromised passwords",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This method combats the risk of compromised passwords"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Multi-Factor Authentication",
+    "relation": "built_on",
+    "value": "three fundamental pillars: something you know (e.g., password), something you have (e.g., smartphone), and something you are (e.g., fingerprint)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "built on three fundamental pillars: something you know (e.g., password), something you have (e.g., smartphone), and something you are (e.g., fingerprint)"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Multi-Factor Authentication",
+    "relation": "requires_each_element_from",
+    "value": "a different category",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each element must be from a different category to ensure security in depth."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Multi-Factor Authentication",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each element must be from a different category to ensure security in depth."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Multi-Factor Authentication",
+    "relation": "typical_instance",
+    "value": "users entering their password and then providing a fingerprint or responding to a prompt on a trusted device",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Typical instances see users entering their password and then providing a fingerprint or responding to a prompt on a trusted device."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Rebecca Hughes",
+    "relation": "provided_clarity_on",
+    "value": "the different types of authentication factors",
+    "time": "November 8, 2023",
+    "speaker": "Rebecca Hughes",
+    "verbatim": [
+     "Rebecca Hughes, a security analyst, provided clarity on November 8, 2023, regarding the different types of authentication factors."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Rebecca Hughes",
+    "relation": "role",
+    "value": "security analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rebecca Hughes, a security analyst,"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Rebecca Hughes",
+    "relation": "stated",
+    "value": "One common misconception is that all secondary steps in two-step verification processes are equal.",
+    "time": "November 8, 2023",
+    "speaker": "Rebecca Hughes",
+    "verbatim": [
+     "One common misconception is that all secondary steps in two-step verification processes are equal."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Rebecca Hughes",
+    "relation": "stated",
+    "value": "receiving a text message with a code is far less secure than a biometric check or a time-sensitive passcode from an authenticator app",
+    "time": "November 8, 2023",
+    "speaker": "Rebecca Hughes",
+    "verbatim": [
+     "receiving a text message with a code, while being a step up from mere passwords, is far less secure than a biometric check or a time-sensitive passcode from an authenticator app"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Authenticator app",
+    "relation": "provides",
+    "value": "time-sensitive passcode",
+    "time": null,
+    "speaker": "Rebecca Hughes",
+    "verbatim": [
+     "a time-sensitive passcode from an authenticator app"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Multi-Factor Authentication",
+    "relation": "employs",
+    "value": "various technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Implementing multi-factor authentication employs various technologies."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "One-time passwords (OTPs)",
+    "relation": "is_common_tool_in",
+    "value": "an MFA framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One-time passwords (OTPs), biometric verification, and security tokens are common tools within an"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Biometrics",
+    "relation": "is_common_tool_in",
+    "value": "an MFA framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One-time passwords (OTPs), biometric verification, and security tokens are common tools within an"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Security tokens",
+    "relation": "is_common_tool_in",
+    "value": "an MFA framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One-time passwords (OTPs), biometric verification, and security tokens are common tools within an"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "One-time passwords (OTPs)",
+    "relation": "are",
+    "value": "temporary codes typically sent via SMS",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "OTPs are temporary codes typically sent via SMS or generated by an authenticator app."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "One-time passwords (OTPs)",
+    "relation": "generated_by",
+    "value": "an authenticator app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "generated by an authenticator app"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Biometrics",
+    "relation": "involves",
+    "value": "advanced technology to recognize unique physiological patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "biometrics involves advanced technology to recognize unique physiological patterns"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Security tokens",
+    "relation": "can_be",
+    "value": "hardware-based, like a USB key",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security tokens can be hardware-based, like a USB key"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Security tokens",
+    "relation": "can_be",
+    "value": "software-based, offering a digital certificate to prove identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or software-based, offering a digital certificate to prove identity"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dante Patel",
+    "relation": "explained",
+    "value": "These systems work in tandem with user directories, authentication servers, and application programming interfaces (APIs) to create a dynamic and multi-layered defense that adapts to evolving threats",
+    "time": "December 22, 2023",
+    "speaker": "Dante Patel",
+    "verbatim": [
+     "These systems work in tandem with user directories, authentication servers, and application programming interfaces (APIs) to create a dynamic and multi-layered defense that adapts to evolving threats"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dante Patel",
+    "relation": "role",
+    "value": "cybersecurity engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dante Patel, a cybersecurity engineer"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Multi-Factor Authentication",
+    "relation": "requires_for_effectiveness",
+    "value": "cross-platform compatibility and seamless integration with various software and services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For MFA to be effective in the realm of remote work, cross-platform compatibility and seamless integration with various software and services are crucial."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Multi-Factor Authentication",
+    "relation": "versatility_is",
+    "value": "vital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The versatility of MFA solutions is vital"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Cloud computing",
+    "relation": "has_driven_development_of",
+    "value": "MFA tools that work across diverse platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of cloud computing and SaaS products has driven the development of MFA tools that work across diverse platforms."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "SaaS products",
+    "relation": "has_driven_development_of",
+    "value": "MFA tools that work across diverse platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of cloud computing and SaaS products has driven the development of MFA tools that work across diverse platforms."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Software companies",
+    "relation": "recognized",
+    "value": "this need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Software companies have recognized this need"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jenny Kim",
+    "relation": "role",
+    "value": "product manager at a leading software firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jenny Kim, a product manager at a leading software firm, stated on January 10, 2024,"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jenny Kim",
+    "relation": "stated",
+    "value": "We've been working tirelessly to ensure that our MFA system integrates smoothly with a variety of platforms, both for usability and security.",
+    "time": "January 10, 2024",
+    "speaker": "Jenny Kim",
+    "verbatim": [
+     "We've been working tirelessly to ensure that our MFA system integrates smoothly with a variety of platforms, both for usability and security."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jenny Kim",
+    "relation": "stated",
+    "value": "Users shouldn't have to compromise on either.",
+    "time": "January 10, 2024",
+    "speaker": "Jenny Kim",
+    "verbatim": [
+     "Users shouldn't have to compromise on either."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Multi-Factor Authentication",
+    "relation": "barrier_to_adoption",
+    "value": "the perceived complexity and possible friction it could introduce into the user experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the barriers to the widespread adoption of MFA is the perceived complexity and possible friction it could introduce into the user experience."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Multi-Factor Authentication",
+    "relation": "cumbersome_security_measures_lead_to",
+    "value": "poor compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as cumbersome security measures can lead to poor compliance"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Multi-Factor Authentication",
+    "relation": "developers_focus_on",
+    "value": "making MFA as user-friendly as possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This is why developers are focusing on making MFA as user-friendly as possible."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Multi-Factor Authentication",
+    "relation": "hurdle",
+    "value": "educating staff on the importance of MFA and training them to use it correctly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educating staff on the importance of MFA and training them to use it correctly is another hurdle."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ann Kirk",
+    "relation": "role",
+    "value": "cybersecurity trainer",
+    "time": "February 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "As noted by cybersecurity trainer Ann Kirk on February 5, 2024,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ann Kirk",
+    "relation": "noted",
+    "value": "User resistance can be a major obstacle.",
+    "time": "February 5, 2024",
+    "speaker": "Ann Kirk",
+    "verbatim": [
+     "User resistance can be a major obstacle."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Ann Kirk",
+    "relation": "stated",
+    "value": "once people understand that MFA significantly reduces the chance of a security breach, they're more willing to incorporate it into their daily routine",
+    "time": "February 5, 2024",
+    "speaker": "Ann Kirk",
+    "verbatim": [
+     "once people understand that MFA significantly reduces the chance of a security breach, they're more willing to incorporate it into their daily routine."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Multi-Factor Authentication",
+    "relation": "reduces_chance_of",
+    "value": "a security breach",
+    "time": "February 5, 2024",
+    "speaker": "Ann Kirk",
+    "verbatim": [
+     "MFA significantly reduces the chance of a security breach"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "jurisdiction",
+    "value": "European Union",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the General Data Protection Regulation (GDPR) in the European Union"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "California Consumer Privacy Act (CCPA)",
+    "relation": "jurisdiction",
+    "value": "United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the California Consumer Privacy Act (CCPA) in the United States"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "mandates",
+    "value": "stricter security measures, which often implicitly or explicitly include multifactor authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now mandating stricter security measures, which often implicitly or explicitly include multifactor authentication"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "California Consumer Privacy Act (CCPA)",
+    "relation": "mandates",
+    "value": "stricter security measures, which often implicitly or explicitly include multifactor authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now mandating stricter security measures, which often implicitly or explicitly include multifactor authentication"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Mark Sullivan",
+    "relation": "role",
+    "value": "legal consultant and cyber-law expert",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "legal consultant and cyber-law expert, Mark Sullivan on March 3, 2024."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Mark Sullivan",
+    "relation": "observed",
+    "value": "Organizations must consider MFA not just as a security best practice",
+    "time": "March 3, 2024",
+    "speaker": "Mark Sullivan",
+    "verbatim": [
+     "Organizations must consider MFA not just as a security best practice"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Mark Sullivan",
+    "relation": "stated",
+    "value": "Failing to implement MFA where necessary can result in hefty fines and damage to reputation",
+    "time": "March 3, 2024",
+    "speaker": "Mark Sullivan",
+    "verbatim": [
+     "Failing to implement MFA where necessary can result in hefty fines and damage to reputation."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Multi-Factor Authentication",
+    "relation": "cost_of_implementation",
+    "value": "costs associated with implementing multi-factor authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While there are costs associated with implementing multi-factor authentication,"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "InfoSec Institute",
+    "relation": "conducted",
+    "value": "a study",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A study conducted by InfoSec Institute on April 15, 2024"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "InfoSec Institute",
+    "relation": "found",
+    "value": "companies that had adopted MFA saw a significant reduction in the likelihood of a breach",
+    "time": "April 15, 2024",
+    "speaker": "InfoSec Institute",
+    "verbatim": [
+     "found that companies that had adopted MFA saw a significant reduction in the likelihood of a breach"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "InfoSec Institute",
+    "relation": "implied_savings",
+    "value": "millions in potential damages, lost business, and regulatory fines",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "which in turn could save millions in potential damages, lost business, and regulatory fines"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "InfoSec Institute",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "saw a significant reduction in the likelihood of a breach, which in turn could save millions in potential damages, lost business, and regulatory fines"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Laura Chen",
+    "relation": "role",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economist Laura Chen provided an insight into the cost dynamics"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Laura Chen",
+    "relation": "stated",
+    "value": "The ROI on MFA is clear.",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "The ROI on MFA is clear."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Laura Chen",
+    "relation": "stated",
+    "value": "It\u2019s an investment in trust and continuity.",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "It\u2019s an investment in trust and continuity."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Laura Chen",
+    "relation": "stated",
+    "value": "The upfront costs are minimal compared to the potential losses from a compromised system.",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "The upfront costs are minimal compared to the potential losses from a compromised system."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Remote work",
+    "relation": "becomes",
+    "value": "a permanent fixture of the professional landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As remote work becomes a permanent fixture of the professional landscape"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Multi-Factor Authentication",
+    "relation": "evolution_will_likely_continue",
+    "value": "the evolution of MFA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the evolution of MFA will likely continue"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Multi-Factor Authentication",
+    "relation": "expected_advancement",
+    "value": "advancements in technology to make the authentication process even more seamless and secure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We can expect advancements in technology to make the authentication process even more seamless and secure."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Biometrics",
+    "relation": "possible_future_innovation",
+    "value": "behavioral biometrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The future might hold innovations such as behavioral biometrics"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Multi-Factor Authentication",
+    "relation": "possible_future_innovation",
+    "value": "AI-enhanced authentication procedures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "behavioral biometrics or AI-enhanced authentication procedures"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Multi-Factor Authentication",
+    "relation": "dialogue_shifted_from",
+    "value": "\u2018if it should be used\u2019 to \u2018how we can optimize its usage\u2019",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The dialogue on MFA has shifted from \u2018if it should be used\u2019 to \u2018how we can optimize its usage\u2019."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Multi-Factor Authentication",
+    "relation": "commitment_to_adopting_is",
+    "value": "an ongoing process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the commitment to adopting robust security practices like MFA is an ongoing process"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Multi-Factor Authentication",
+    "relation": "protects",
+    "value": "businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not only protects businesses but also upholds the privacy and safety of individual users and their data"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

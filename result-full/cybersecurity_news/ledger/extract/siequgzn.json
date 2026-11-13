@@ -1,0 +1,826 @@
+{
+ "inventory": [
+  "Information Security Forum",
+  "Daniel Smith",
+  "Global Cybersecurity Initiative",
+  "John Doe",
+  "Springfield School District",
+  "a small college in New England",
+  "Education Trust",
+  "Jane Miller",
+  "City Learning Trust",
+  "Brighton School System",
+  "Greenwald Academy",
+  "Wilson School District",
+  "Urban Education Institute",
+  "Viewpoint School District",
+  "New Horizons Education Center",
+  "phishing scams",
+  "spear-phishing attacks",
+  "Hackers",
+  "multi-factor authentication",
+  "advanced email filtering software",
+  "system-wide encryption",
+  "phishing incident response plan",
+  "Regular security audits",
+  "training programs",
+  "annual internet safety week"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "phishing scams",
+    "relation": "becomes_most_common_method_of_attack",
+    "value": "the most common method of attack",
+    "time": "after September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "particularly after September 1, 2023, the education sector has found itself in the crosshairs of cyber-attackers, with phishing scams becoming the most common method of attack."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "phishing scams",
+    "relation": "can_wreak_havoc_on",
+    "value": "privacy of students and staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These fraudulent attempts to obtain sensitive information can wreak havoc on the privacy of students and staff"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Information Security Forum",
+    "relation": "conducted_study",
+    "value": "a recent study",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to a recent study by the Information Security Forum (ISF)"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Information Security Forum",
+    "relation": "reports_increase_in_phishing_attacks",
+    "value": "150% increase in phishing attacks on educational institutions globally",
+    "time": "since September 2023",
+    "speaker": "Information Security Forum",
+    "verbatim": [
+     "since September 2023, there has been a staggering 150% increase in phishing attacks on educational institutions globally"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "phishing scams",
+    "relation": "take_form_of",
+    "value": "seemingly legitimate emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These sophisticated scams often take the form of seemingly legitimate emails"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "phishing scams",
+    "relation": "targets",
+    "value": "teachers, administrators, and even students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "targeting unsuspecting recipients - teachers, administrators, and even students"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "phishing scams",
+    "relation": "aims_to",
+    "value": "steal confidential information or deploy malware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a bid to steal confidential information or deploy malware"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Daniel Smith",
+    "relation": "job_title",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Daniel Smith, a cybersecurity analyst at the Global Cybersecurity Initiative"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Daniel Smith",
+    "relation": "works_at",
+    "value": "Global Cybersecurity Initiative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity analyst at the Global Cybersecurity Initiative"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Daniel Smith",
+    "relation": "stated",
+    "value": "a particular threat to the education sector",
+    "time": "October 12, 2023",
+    "speaker": "Daniel Smith",
+    "verbatim": [
+     "Phishing presents a particular threat to the education sector due to the vast amount of personal data schools hold and their often under-funded cybersecurity measures."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "phishing scams",
+    "relation": "threat_due_to",
+    "value": "the vast amount of personal data schools hold and their often under-funded cybersecurity measures",
+    "time": "October 12, 2023",
+    "speaker": "Daniel Smith",
+    "verbatim": [
+     "due to the vast amount of personal data schools hold and their often under-funded cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Daniel Smith",
+    "relation": "caused_by",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing presents a particular threat to the education sector due to the vast amount of personal data schools hold and their often under-funded cybersecurity measures."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "phishing scams",
+    "relation": "have_evolved_to_become",
+    "value": "more deceptive than ever before",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams have evolved, becoming more deceptive than ever before."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John Doe",
+    "relation": "job_title",
+    "value": "Chief Information Officer",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As John Doe, the Chief Information Officer for the Springfield School District, revealed on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Doe",
+    "relation": "works_at",
+    "value": "Springfield School District",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Chief Information Officer for the Springfield School District"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "spear-phishing attacks",
+    "relation": "characterized_as",
+    "value": "highly targeted",
+    "time": "November 5, 2023",
+    "speaker": "John Doe",
+    "verbatim": [
+     "The new wave of 'spear-phishing' attacks are highly targeted"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "spear-phishing attacks",
+    "relation": "exploit",
+    "value": "specific school events or financial operations",
+    "time": "November 5, 2023",
+    "speaker": "John Doe",
+    "verbatim": [
+     "exploit specific school events or financial operations"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "spear-phishing attacks",
+    "relation": "lure",
+    "value": "victims into a false sense of security",
+    "time": "November 5, 2023",
+    "speaker": "John Doe",
+    "verbatim": [
+     "to lure victims into a false sense of security"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Hackers",
+    "relation": "impersonate",
+    "value": "school officials or reputable companies, such as textbook publishers or standardized testing services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hackers often impersonate school officials or reputable companies, such as textbook publishers or standardized testing services."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "phishing scams",
+    "relation": "emails_may_include",
+    "value": "urgent calls to action or threats to compel the recipient to respond quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emails may include urgent calls to action or threats to compel the recipient to respond quickly"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "a small college in New England",
+    "relation": "fell_victim_to",
+    "value": "a phishing scam",
+    "time": "In September of 2023",
+    "speaker": null,
+    "verbatim": [
+     "In September of 2023, a small college in New England fell victim to a phishing scam"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "a small college in New England",
+    "relation": "suffered_theft_of",
+    "value": "thousands of records containing sensitive student data",
+    "time": "In September of 2023",
+    "speaker": null,
+    "verbatim": [
+     "that resulted in the theft of thousands of records containing sensitive student data"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "a small college in New England",
+    "relation": "results_in",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a phishing scam that resulted in the theft of thousands of records containing sensitive student data"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "a small college in New England",
+    "relation": "undermined_trust_in",
+    "value": "the school's ability to protect student information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident not only undermined trust in the school's ability to protect student information"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "a small college in New England",
+    "relation": "led_to",
+    "value": "a costly rectification process that included system upgrades and credit monitoring services for affected parties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also led to a costly rectification process that included system upgrades and credit monitoring services for affected parties"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jane Miller",
+    "relation": "job_title",
+    "value": "director of student privacy",
+    "time": "December 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as the director of student privacy at the Education Trust, Jane Miller commented on December 14, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jane Miller",
+    "relation": "works_at",
+    "value": "Education Trust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the director of student privacy at the Education Trust"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jane Miller",
+    "relation": "stated",
+    "value": "it's not just an IT problem",
+    "time": "December 14, 2023",
+    "speaker": "Jane Miller",
+    "verbatim": [
+     "it's not just an IT problem"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "phishing scams",
+    "relation": "disrupts",
+    "value": "school operations",
+    "time": "December 14, 2023",
+    "speaker": "Jane Miller",
+    "verbatim": [
+     "It disrupts school operations"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "phishing scams",
+    "relation": "places_at_risk",
+    "value": "students' futures",
+    "time": "December 14, 2023",
+    "speaker": "Jane Miller",
+    "verbatim": [
+     "places students' futures at risk"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "phishing scams",
+    "relation": "drives_parents_to_lose_faith_in",
+    "value": "the institution",
+    "time": "December 14, 2023",
+    "speaker": "Jane Miller",
+    "verbatim": [
+     "drives parents to lose faith in the institution"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "training programs",
+    "relation": "should_be_developed_and_updated_by",
+    "value": "IT departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments are advised to develop and regularly update training programs for all school staff and students."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "training programs",
+    "relation": "recommended_for",
+    "value": "all school staff and students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "update training programs for all school staff and students"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "training programs",
+    "relation": "should_inform_users_about",
+    "value": "the latest phishing trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These should inform users about the latest phishing trends"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "training programs",
+    "relation": "should_offer",
+    "value": "clear guidance on identifying and reacting to suspicious emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer clear guidance on identifying and reacting to suspicious emails"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "City Learning Trust",
+    "relation": "launched",
+    "value": "the successful program",
+    "time": "January 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the successful program launched by the City Learning Trust on January 7, 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "City Learning Trust",
+    "relation": "combined",
+    "value": "interactive workshops, regular email updates, and even mock phishing simulations",
+    "time": "January 7, 2024",
+    "speaker": null,
+    "verbatim": [
+     "which combined interactive workshops, regular email updates, and even mock phishing simulations"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "City Learning Trust",
+    "relation": "serves_as_model",
+    "value": "a valuable model for others to follow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as a valuable model for others to follow"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "City Learning Trust",
+    "relation": "purpose",
+    "value": "to keep users alert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to keep users alert"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "City Learning Trust",
+    "relation": "in_order_to",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combined interactive workshops, regular email updates, and even mock phishing simulations to keep users alert"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Brighton School System",
+    "relation": "started_requiring",
+    "value": "multi-factor authentication for all email accounts",
+    "time": "after February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the Brighton School System started requiring for all email accounts after February 15, 2024"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "multi-factor authentication",
+    "relation": "reduces",
+    "value": "the success rate of phishing attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly reducing the success rate of phishing attacks"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Brighton School System",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which the Brighton School System started requiring for all email accounts after February 15, 2024, significantly reducing the success rate of phishing attacks"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "advanced email filtering software",
+    "relation": "can_detect_and_block",
+    "value": "phishing attempts before they reach the user",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advanced email filtering software that can detect and block phishing attempts before they reach the user"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "advanced email filtering software",
+    "relation": "proven_essential_in",
+    "value": "enhancing a school's cybersecurity posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have proven essential in enhancing a school's cybersecurity posture"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "system-wide encryption",
+    "relation": "proven_essential_in",
+    "value": "enhancing a school's cybersecurity posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have proven essential in enhancing a school's cybersecurity posture"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Regular security audits",
+    "relation": "should_be",
+    "value": "a staple practice for IT departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular security audits should be a staple practice for IT departments."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Regular security audits",
+    "relation": "enables",
+    "value": "uncover potential vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schools can uncover potential vulnerabilities"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Regular security audits",
+    "relation": "enables",
+    "value": "respond with appropriate upgrades to their systems and protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "respond with appropriate upgrades to their systems and protocols"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Greenwald Academy",
+    "relation": "undertook",
+    "value": "an example of this proactive approach",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "An example of this proactive approach was undertaken by Greenwald Academy on March 3, 2024"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Regular security audits",
+    "relation": "led_to_discovery_of",
+    "value": "outdated software components",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "where an audit led to the discovery of outdated software components"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Greenwald Academy",
+    "relation": "updated_to_fend_off",
+    "value": "phishing threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "outdated software components that were subsequently updated to fend off phishing threats"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "phishing incident response plan",
+    "relation": "is_crucial",
+    "value": "crucial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Having a comprehensive phishing incident response plan is crucial."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "phishing incident response plan",
+    "relation": "ensures",
+    "value": "everyone knows their role",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This ensures that, in the event of an attack, everyone knows their role"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "phishing incident response plan",
+    "relation": "ensures",
+    "value": "the school can respond swiftly to minimize damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the school can respond swiftly to minimize damage"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "phishing incident response plan",
+    "relation": "should_include",
+    "value": "steps for isolating affected systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The protocol should include steps for isolating affected systems"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "phishing incident response plan",
+    "relation": "should_include",
+    "value": "notifying stakeholders, including legal guardians, law enforcement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "notifying stakeholders, including legal guardians, law enforcement"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "phishing incident response plan",
+    "relation": "should_outline",
+    "value": "recovery steps to restore systems securely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it should outline recovery steps to restore systems securely"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Wilson School District",
+    "relation": "faced",
+    "value": "a severe phishing scam",
+    "time": "April 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The Wilson School District, which faced a severe phishing scam on April 28, 2024"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Wilson School District",
+    "relation": "contained_incident",
+    "value": "the incident within hours",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "efficiently contained the incident within hours"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Wilson School District",
+    "relation": "contained_due_to",
+    "value": "their well-practiced response plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to their well-practiced response plan"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Wilson School District",
+    "relation": "caused_by",
+    "value_ref": "c61",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "efficiently contained the incident within hours due to their well-practiced response plan"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Wilson School District",
+    "relation": "emphasizes",
+    "value": "the importance of such preparedness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizing the importance of such preparedness"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Urban Education Institute",
+    "relation": "launched_initiative",
+    "value": "the initiative",
+    "time": "May 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "The initiative launched by Urban Education Institute on May 21, 2024"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Urban Education Institute",
+    "relation": "included_students_in",
+    "value": "cybersecurity committees",
+    "time": "May 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "where they included students in cybersecurity committees"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Urban Education Institute",
+    "relation": "fosters",
+    "value": "an environment where security is a shared concern",
+    "time": "May 21, 2024",
+    "speaker": null,
+    "verbatim": [
+     "fostering an environment where security is a shared concern"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Viewpoint School District",
+    "relation": "provided",
+    "value": "comprehensive guidelines to parents",
+    "time": "during their annual internet safety week in June 2024",
+    "speaker": null,
+    "verbatim": [
+     "The comprehensive guidelines provided to parents by Viewpoint School District"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "annual internet safety week",
+    "relation": "held_in",
+    "value": "June 2024",
+    "time": "June 2024",
+    "speaker": null,
+    "verbatim": [
+     "during their annual internet safety week in June 2024"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Viewpoint School District",
+    "relation": "guidelines_are_testament_to",
+    "value": "the benefits of parentschool partnership in combating cybersecurity threats",
+    "time": "during their annual internet safety week in June 2024",
+    "speaker": null,
+    "verbatim": [
+     "are a testament to the benefits of parentschool partnership in combating cybersecurity threats"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "phishing scams",
+    "relation": "long_term_costs_can_outweigh",
+    "value": "the initial investment in effective cyber defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the long-term costs of a phishing attack can far outweigh the initial investment in effective cyber defenses"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "New Horizons Education Center",
+    "relation": "adopted",
+    "value": "investment strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the investment strategy adopted by New Horizons Education Center"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "New Horizons Education Center",
+    "relation": "redirected_funds_to",
+    "value": "cyber initiatives",
+    "time": "July 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "which redirected funds to cyber initiatives on July 15, 2024"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

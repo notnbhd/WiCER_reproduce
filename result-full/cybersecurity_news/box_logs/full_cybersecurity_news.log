@@ -1,0 +1,28 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (10:20:32)
+ledger: 11823 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80, 'claude-haiku-5-5 effort=high': 112}
+corpus: 192 docs, sha 72a4b02876c8 -- matches
+
+[1m== reader[0m  (10:20:33)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== rendering[0m  (10:20:33)
+cybersecurity_news         paged_none_b88: 87,982/88,000 tokens (ratio 37.1%) coverage=51.4% 
+cybersecurity_news         paged_bare_b88: 86,196/88,000 tokens (ratio 36.4%) coverage=43.1%  cuts=1714 stub_tokens=11,998
+cybersecurity_news         paged_bare_b55: 53,704/55,000 tokens (ratio 22.7%) coverage=25.1%  cuts=1129 stub_tokens=7,903
+
+[1m== plain verbatim 88K[0m  (10:20:51)
+cybersecurity_news         paged_none_b88: scored 0 (resumed 960)
+
+[1m== doc reader 88K[0m  (10:21:11)
+cybersecurity_news         paged_bare_b88_reader_doc: 1714 cuts in 86,212 tokens, answered 0, scored 0
+
+[1m== doc reader 55K[0m  (10:21:31)
+cybersecurity_news         paged_bare_b55_reader_doc: 1129 cuts in 53,720 tokens, answered 0, scored 0
+
+[1m== doc oracle 88K[0m  (10:21:41)
+cybersecurity_news         paged_bare_b88_oracle_doc: 1714 cuts in 86,212 tokens, answered 0, scored 960
+
+[1m== FULL_TOPIC_DONE[0m  (10:23:41)

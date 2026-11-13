@@ -1,0 +1,787 @@
+{
+ "inventory": [
+  "Gartner",
+  "CyberEdge Group",
+  "Jessica Toms",
+  "SecureItAll Inc.",
+  "StatSecure",
+  "Phishing",
+  "Malware",
+  "Ransomware",
+  "Man-in-the-middle attacks",
+  "Endpoints",
+  "Dr. Alan Houser",
+  "CyberSecCon remote work security conference",
+  "multi-factor authentication (MFA)",
+  "GlobalTech Solutions",
+  "Mark Liu",
+  "CyberWorkforce study",
+  "Nick Foster",
+  "LearnSafe",
+  "Virtual Private Networks (VPNs)",
+  "Laura Olsen",
+  "NextGen Security",
+  "NetSecure",
+  "Security Information and Event Management (SIEM)",
+  "Brad Davis",
+  "Innovatech Ltd.",
+  "3-2-1 backup strategy",
+  "Julie Chen",
+  "Verity Data Services",
+  "Simon Jeffries",
+  "Jeffries & Jeffries",
+  "Zero Trust model",
+  "Josh Kramer",
+  "CyberNet Solutions",
+  "principle of least privilege",
+  "Anne Marie Thompson",
+  "artificial intelligence (AI)",
+  "machine learning (ML)",
+  "Sam Jacobs",
+  "FirewallForensics",
+  "CyberSecure Team Building Event",
+  "Remote work"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Gartner",
+    "relation": "survey_finding",
+    "value": "80% of companies intend to allow employees to work remotely at least part-time",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "figures from a Gartner survey on September 12, 2023, revealing that 80% of companies intend to allow employees to work remotely at least part-time"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Remote work",
+    "relation": "presents",
+    "value": "both opportunities and challenges in terms of cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This hybrid work model has presented both opportunities and challenges in terms of cybersecurity."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Remote work",
+    "relation": "brings_with_it",
+    "value": "an increased vulnerability to cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also brings with it an increased vulnerability to cyber threats"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "CyberEdge Group",
+    "relation": "reported_increase_in_cyberattacks",
+    "value": "a 30% increase in cyberattacks since the start of remote work",
+    "time": "October 5, 2023",
+    "speaker": "CyberEdge Group",
+    "verbatim": [
+     "According to a report released on October 5, 2023, by CyberEdge Group, there has been a 30% increase in cyberattacks since the start of remote work as a common arrangement."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Remote work",
+    "relation": "login_locations",
+    "value": "often less-secure home networks or public Wi-Fi spots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees log in from often less-secure home networks or public Wi-Fi spots"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jessica Toms",
+    "relation": "position",
+    "value": "Chief Information Security Officer at SecureItAll Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT administrators like Jessica Toms, Chief Information Security Officer at SecureItAll Inc., highlighted"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "SecureItAll Inc.",
+    "relation": "employs",
+    "value": "Jessica Toms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Toms, Chief Information Security Officer at SecureItAll Inc."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jessica Toms",
+    "relation": "stated",
+    "value": "Remote work has fundamentally changed the security perimeter. We now need to consider endpoint security as a core focus, extending policies and protocols to every corner of our digital and geographic footprint.",
+    "time": null,
+    "speaker": "Jessica Toms",
+    "verbatim": [
+     "Remote work has fundamentally changed the security perimeter. We now need to consider endpoint security as a core focus, extending policies and protocols to every corner of our digital and geographic footprint."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Phishing",
+    "relation": "risen_by",
+    "value": "120%",
+    "time": "since remote work became the norm",
+    "speaker": "StatSecure",
+    "verbatim": [
+     "Phishing attempts, in particular, have risen by 120% since remote work became the norm, as per a study by StatSecure published on November 21, 2023."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "StatSecure",
+    "relation": "published_study_on",
+    "value": "November 21, 2023",
+    "time": "November 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a study by StatSecure published on November 21, 2023"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Ransomware",
+    "relation": "poses_significant_risk",
+    "value": "significant risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware, ransomware, and man-in-the-middle attacks also pose significant risks"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Malware",
+    "relation": "poses_significant_risk",
+    "value": "significant risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware, ransomware, and man-in-the-middle attacks also pose significant risks"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Man-in-the-middle attacks",
+    "relation": "poses_significant_risk",
+    "value": "significant risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Malware, ransomware, and man-in-the-middle attacks also pose significant risks"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Malware",
+    "relation": "breach_increase",
+    "value": "a 150% increase in malware-related breaches linked to remote work activities",
+    "time": "since early last year",
+    "speaker": "StatSecure",
+    "verbatim": [
+     "a staggering 150% increase in malware-related breaches linked to remote work activities reported since early last year, according to the same study"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Endpoints",
+    "relation": "defined_as",
+    "value": "the devices used to access company networks such as laptops, smartphones, and tablets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Endpoints, the devices used to access company networks such as laptops, smartphones, and tablets, are now the front line in the battle against cyber threats."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Endpoints",
+    "relation": "described_as",
+    "value": "the front line in the battle against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are now the front line in the battle against cyber threats"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Endpoints",
+    "relation": "must_have_installed",
+    "value": "the latest security software, patches, and firewalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT administrators must ensure that every endpoint has the latest security software, patches, and firewalls installed."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Dr. Alan Houser",
+    "relation": "stated",
+    "value": "Endpoint security isn't just about antivirus anymore",
+    "time": null,
+    "speaker": "Dr. Alan Houser",
+    "verbatim": [
+     "Endpoint security isn't just about antivirus anymore"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Dr. Alan Houser",
+    "relation": "stated",
+    "value": "It has to include advanced threat detection, and response capabilities are essential infrastructure for secure remote work",
+    "time": null,
+    "speaker": "Dr. Alan Houser",
+    "verbatim": [
+     "It has to include advanced threat detection, and response capabilities are essential infrastructure for secure remote work"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Dr. Alan Houser",
+    "relation": "gave_keynote_at",
+    "value": "CyberSecCon remote work security conference",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "his keynote speech at the CyberSecCon remote work security conference on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "CyberSecCon remote work security conference",
+    "relation": "hosted_keynote_by",
+    "value": "Dr. Alan Houser",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "his keynote speech at the CyberSecCon remote work security conference on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "requires",
+    "value": "users to provide two or more verification factors to gain access to a resource",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This requires users to provide two or more verification factors to gain access to a resource, vastly improving security."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "vastly_improves",
+    "value": "security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vastly improving security"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "primary_approach_is",
+    "value": "employing multi-factor authentication (MFA) across all systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One primary approach is employing multi-factor authentication (MFA) across all systems."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "GlobalTech Solutions",
+    "relation": "rolled_out_mandate",
+    "value": "a company-wide mandate for MFA",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the IT team at GlobalTech Solutions, led by senior IT administrator Mark Liu, rolled out a company-wide mandate for MFA"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mark Liu",
+    "relation": "led",
+    "value": "the IT team at GlobalTech Solutions",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the IT team at GlobalTech Solutions, led by senior IT administrator Mark Liu"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mark Liu",
+    "relation": "position",
+    "value": "senior IT administrator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by senior IT administrator Mark Liu"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "GlobalTech Solutions",
+    "relation": "resulted_in",
+    "value": "a 70% decrease in unauthorized access attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in a 70% decrease in unauthorized access attempts"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "GlobalTech Solutions",
+    "relation": "results_in",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rolled out a company-wide mandate for MFA, resulting in a 70% decrease in unauthorized access attempts"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "CyberWorkforce study",
+    "relation": "highlights",
+    "value": "95% of cybersecurity breaches are due to human error",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A CyberWorkforce study dated December 1, 2023, highlights that 95% of cybersecurity breaches are due to human error."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Nick Foster",
+    "relation": "position",
+    "value": "Head of Employee Training at LearnSafe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nick Foster, Head of Employee Training at LearnSafe, emphasizes"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "LearnSafe",
+    "relation": "employs",
+    "value": "Nick Foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nick Foster, Head of Employee Training at LearnSafe"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Nick Foster",
+    "relation": "stated",
+    "value": "It's about creating and nurturing a culture of security awareness. Workers should be the first line of defense, not the biggest vulnerability.",
+    "time": null,
+    "speaker": "Nick Foster",
+    "verbatim": [
+     "It's about creating and nurturing a culture of security awareness. Workers should be the first line of defense, not the biggest vulnerability."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "recommended_practice_to",
+    "value": "secure remote workers' web traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The use of Virtual Private Networks (VPNs) is a widely recommended practice to secure remote workers' web traffic."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Laura Olsen",
+    "relation": "affiliated_with",
+    "value": "NextGen Security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT administrators like Laura Olsen of NextGen Security says"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "NextGen Security",
+    "relation": "employs",
+    "value": "Laura Olsen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Olsen of NextGen Security"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Laura Olsen",
+    "relation": "stated",
+    "value": "Our investment into enterprise-grade VPN solutions has paid off by reducing our attack surface for remote workers.",
+    "time": null,
+    "speaker": "Laura Olsen",
+    "verbatim": [
+     "Our investment into enterprise-grade VPN solutions has paid off by reducing our attack surface for remote workers."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "NetSecure",
+    "relation": "reported",
+    "value": "only 60% of remote workers consistently use a VPN",
+    "time": "January 3, 2024",
+    "speaker": "NetSecure",
+    "verbatim": [
+     "the benchmarking report from NetSecure, released on January 3, 2024, indicates that only 60% of remote workers consistently use a VPN"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Security Information and Event Management (SIEM)",
+    "relation": "can_automate",
+    "value": "automate and facilitate this process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The deployment of Security Information and Event Management (SIEM) tools can automate and facilitate this process."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Brad Davis",
+    "relation": "position",
+    "value": "IT director at Innovatech Ltd.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reported Brad Davis, the IT director at Innovatech Ltd., in his interview on February 16, 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Innovatech Ltd.",
+    "relation": "employs",
+    "value": "Brad Davis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reported Brad Davis, the IT director at Innovatech Ltd."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Brad Davis",
+    "relation": "stated",
+    "value": "Our SIEM solution has helped catch several potential breaches by flagging unusual activity before it became a disaster",
+    "time": "February 16, 2024",
+    "speaker": "Brad Davis",
+    "verbatim": [
+     "Our SIEM solution has helped catch several potential breaches by flagging unusual activity before it became a disaster"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "3-2-1 backup strategy",
+    "relation": "defined_as",
+    "value": "three total copies of data, two of which are local but on different devices, and one off-site",
+    "time": "March 2, 2024",
+    "speaker": "Julie Chen",
+    "verbatim": [
+     "Having a 3-2-1 backup strategy \u2013 three total copies of data, two of which are local but on different devices, and one off-site \u2013 has been invaluable"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "3-2-1 backup strategy",
+    "relation": "has_been",
+    "value": "invaluable",
+    "time": "March 2, 2024",
+    "speaker": "Julie Chen",
+    "verbatim": [
+     "Having a 3-2-1 backup strategy \u2013 three total copies of data, two of which are local but on different devices, and one off-site \u2013 has been invaluable"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Julie Chen",
+    "relation": "position",
+    "value": "Data Protection Officer at Verity Data Services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "noted Julie Chen, Data Protection Officer at Verity Data Services, in her seminar on risk management strategies on March 2, 2024"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Verity Data Services",
+    "relation": "employs",
+    "value": "Julie Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Julie Chen, Data Protection Officer at Verity Data Services"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Julie Chen",
+    "relation": "gave_seminar_on",
+    "value": "risk management strategies",
+    "time": "March 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "in her seminar on risk management strategies on March 2, 2024"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Simon Jeffries",
+    "relation": "position",
+    "value": "senior partner at the law firm Jeffries & Jeffries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simon Jeffries, senior partner at the law firm Jeffries & Jeffries"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jeffries & Jeffries",
+    "relation": "is_a",
+    "value": "law firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "senior partner at the law firm Jeffries & Jeffries"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Simon Jeffries",
+    "relation": "highlighted",
+    "value": "the importance of such policies",
+    "time": "April 2023",
+    "speaker": null,
+    "verbatim": [
+     "The importance of such policies was highlighted by Simon Jeffries, senior partner at the law firm Jeffries & Jeffries, following a security breach in April 2023."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Remote work",
+    "relation": "breach_attributed_to",
+    "value": "unclear remote work guidelines",
+    "time": "April 2023",
+    "speaker": null,
+    "verbatim": [
+     "The breach was attributed to unclear remote work guidelines."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Zero Trust model",
+    "relation": "enforces",
+    "value": "strict access controls and not trusting any entity by default, even within the network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Zero Trust model, enforcing strict access controls and not trusting any entity by default, even within the network, is becoming the new norm."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Zero Trust model",
+    "relation": "is_becoming",
+    "value": "the new norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is becoming the new norm"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Josh Kramer",
+    "relation": "position",
+    "value": "network architect at CyberNet Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Josh Kramer, a network architect at CyberNet Solutions, comments"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "CyberNet Solutions",
+    "relation": "employs",
+    "value": "Josh Kramer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Josh Kramer, a network architect at CyberNet Solutions"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Josh Kramer",
+    "relation": "stated",
+    "value": "We're designing network systems around the principle of least privilege, which could very well become a staple of cybersecurity in this era of remote work.",
+    "time": null,
+    "speaker": "Josh Kramer",
+    "verbatim": [
+     "We're designing network systems around the principle of least privilege, which could very well become a staple of cybersecurity in this era of remote work."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "principle of least privilege",
+    "relation": "could_become",
+    "value": "a staple of cybersecurity in this era of remote work",
+    "time": null,
+    "speaker": "Josh Kramer",
+    "verbatim": [
+     "which could very well become a staple of cybersecurity in this era of remote work"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Anne Marie Thompson",
+    "relation": "chaired",
+    "value": "a tech roundtable discussion",
+    "time": "February 25, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a tech roundtable discussion chaired by AI guru Anne Marie Thompson on February 25, 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Anne Marie Thompson",
+    "relation": "position",
+    "value": "AI guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chaired by AI guru Anne Marie Thompson"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "artificial intelligence (AI)",
+    "relation": "can_boost",
+    "value": "cybersecurity efforts",
+    "time": "February 25, 2024",
+    "speaker": "tech roundtable discussion",
+    "verbatim": [
+     "According to a tech roundtable discussion chaired by AI guru Anne Marie Thompson on February 25, 2024, where it was revealed that artificial intelligence (AI) and machine learning (ML) can significantly boost cybersecurity efforts."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "machine learning (ML)",
+    "relation": "can_boost",
+    "value": "cybersecurity efforts",
+    "time": "February 25, 2024",
+    "speaker": "tech roundtable discussion",
+    "verbatim": [
+     "According to a tech roundtable discussion chaired by AI guru Anne Marie Thompson on February 25, 2024, where it was revealed that artificial intelligence (AI) and machine learning (ML) can significantly boost cybersecurity efforts."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "artificial intelligence (AI)",
+    "relation": "enables",
+    "value": "the recognition of patterns and identification of anomalies that could indicate a security threat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These technologies enable the recognition of patterns and identification of anomalies that could indicate a security threat."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "machine learning (ML)",
+    "relation": "enables",
+    "value": "the recognition of patterns and identification of anomalies that could indicate a security threat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These technologies enable the recognition of patterns and identification of anomalies that could indicate a security threat."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sam Jacobs",
+    "relation": "position",
+    "value": "cybersecurity analyst with FirewallForensics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sam Jacobs, a cybersecurity analyst with FirewallForensics"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "FirewallForensics",
+    "relation": "employs",
+    "value": "Sam Jacobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sam Jacobs, a cybersecurity analyst with FirewallForensics"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sam Jacobs",
+    "relation": "underlines",
+    "value": "the importance of a collaborative approach towards cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "underlines the importance of a collaborative approach towards cybersecurity"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "CyberSecure Team Building Event",
+    "relation": "echoed",
+    "value": "the importance of a collaborative approach towards cybersecurity",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "which was echoed across the board at the CyberSecure Team Building Event on March 10, 2024"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

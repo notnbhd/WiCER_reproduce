@@ -1,0 +1,825 @@
+{
+ "inventory": [
+  "CyberTech Conference",
+  "Silicon Valley",
+  "Dr. Emily Stark",
+  "facial recognition software",
+  "VeniTech",
+  "Rajiv Srinivasan",
+  "palm vein authentication system",
+  "VaultVoice",
+  "Laura Chen",
+  "advanced voice recognition system",
+  "cybersecurity roundtable",
+  "John \"Maverick\" Daniels",
+  "Global Privacy Summit",
+  "Brussels",
+  "Maria Gonzalez",
+  "BioSecure",
+  "International Conference on Cybersecurity and Resilience",
+  "TechSecurity University",
+  "live-ness detection",
+  "encryption techniques",
+  "multi-factor authentication methods",
+  "artificial intelligence",
+  "biometric data",
+  "biometric security systems"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "biometric security systems",
+    "relation": "faces_new_challenges_with_advancement",
+    "value": "a new set of challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With each technological advancement comes a new set of challenges"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "CyberTech Conference",
+    "relation": "located_in",
+    "value": "Silicon Valley",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the annual CyberTech Conference in Silicon Valley"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dr. Emily Stark",
+    "relation": "presented_at",
+    "value": "CyberTech Conference",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 5, 2023, at the annual CyberTech Conference in Silicon Valley, Dr. Emily Stark, a leading expert in biometric authentication, showcased the latest developments in biometric technology."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Emily Stark",
+    "relation": "described_as",
+    "value": "a leading expert in biometric authentication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Stark, a leading expert in biometric authentication"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "facial recognition software",
+    "relation": "could_identify",
+    "value": "individuals with near-perfect accuracy, even in crowded scenes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "demonstrations of facial recognition software that could identify individuals with near-perfect accuracy, even in crowded scenes"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Emily Stark",
+    "relation": "said_advances_are_integrating_into",
+    "value": "everyday life, from unlocking smartphones to simplifying airport security",
+    "time": null,
+    "speaker": "Dr. Emily Stark",
+    "verbatim": [
+     "Stark highlighted how these advances were integrating into everyday life, from unlocking smartphones to simplifying airport security."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "biometric security systems",
+    "relation": "do_not_just_scan",
+    "value": "physical characteristics",
+    "time": null,
+    "speaker": "Dr. Emily Stark",
+    "verbatim": [
+     "contemporary biometric systems do not just scan physical characteristics"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "biometric security systems",
+    "relation": "deploy",
+    "value": "sophisticated algorithms to analyze patterns of behavior and movement",
+    "time": null,
+    "speaker": "Dr. Emily Stark",
+    "verbatim": [
+     "they now deploy sophisticated algorithms to analyze patterns of behavior and movement"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "biometric security systems",
+    "relation": "becoming_adept_at",
+    "value": "distinguishing between genuine biometric input and synthetic or spoofed attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these systems are becoming adept at distinguishing between genuine biometric input and synthetic or spoofed attempts"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "artificial intelligence",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the adoption of artificial intelligence, these systems are becoming adept at distinguishing between genuine biometric input and synthetic or spoofed attempts."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "VeniTech",
+    "relation": "described_as",
+    "value": "a tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tech startup named VeniTech"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "VeniTech",
+    "relation": "introduced",
+    "value": "a new palm vein authentication system",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, a tech startup named VeniTech made headlines with a new palm vein authentication system."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Rajiv Srinivasan",
+    "relation": "role",
+    "value": "CTO of VeniTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to the company's CTO, Rajiv Srinivasan"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "palm vein authentication system",
+    "relation": "illuminates_palm_vein_patterns_using",
+    "value": "near-infrared light",
+    "time": null,
+    "speaker": "Rajiv Srinivasan",
+    "verbatim": [
+     "According to the company's CTO, Rajiv Srinivasan, this system illuminates the unique patterns of an individual\u2019s palm veins using near-infrared light."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "palm vein authentication system",
+    "relation": "vein_patterns_are",
+    "value": "exceedingly difficult to replicate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vein patterns are exceedingly difficult to replicate"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "palm vein authentication system",
+    "relation": "vein_patterns_are_hidden",
+    "value": "underneath the skin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are hidden underneath the skin"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "palm vein authentication system",
+    "relation": "dramatically_enhances",
+    "value": "security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which dramatically enhances security"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "palm vein authentication system",
+    "relation": "caused_by",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vein patterns are exceedingly difficult to replicate, as they are hidden underneath the skin"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "palm vein authentication system",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "vein patterns are exceedingly difficult to replicate, as they are hidden underneath the skin, which dramatically enhances security."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "VaultVoice",
+    "relation": "unveiled",
+    "value": "an advanced voice recognition system",
+    "time": "December 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 20, 2023, cybersecurity firm VaultVoice unveiled an advanced voice recognition system"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "VaultVoice",
+    "relation": "described_as",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity firm VaultVoice"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Laura Chen",
+    "relation": "role",
+    "value": "CEO of VaultVoice",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO Laura Chen"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "advanced voice recognition system",
+    "relation": "uses",
+    "value": "a combination of linguistic analysis and vocal biometrics to build a highly accurate voiceprint",
+    "time": null,
+    "speaker": "Laura Chen",
+    "verbatim": [
+     "CEO Laura Chen revealed how their cutting-edge system uses a combination of linguistic analysis and vocal biometrics to build a highly accurate voiceprint."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "VaultVoice",
+    "relation": "innovation_lies_in",
+    "value": "its ability to filter out background noise and focus on the speaker's individual vocal characteristics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VaultVoice's innovation lies in its ability to filter out background noise and focus on the speaker's individual vocal characteristics."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "cybersecurity roundtable",
+    "relation": "held_on",
+    "value": "February 15, 2024",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "While attending a cybersecurity roundtable on February 15, 2024"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "John \"Maverick\" Daniels",
+    "relation": "spoke_about",
+    "value": "the vulnerabilities in biometric systems",
+    "time": "February 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a group of independent security researchers, including the esteemed hacker-turned-consultant John \"Maverick\" Daniels, spoke about the vulnerabilities in biometric systems"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "John \"Maverick\" Daniels",
+    "relation": "described_as",
+    "value": "esteemed hacker-turned-consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the esteemed hacker-turned-consultant John \"Maverick\" Daniels"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "biometric security systems",
+    "relation": "incidents_of_replicated_fingerprints_using",
+    "value": "highresolution photos and 3D printing technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They brought to light recent incidents where sophisticated cybercriminals had replicated fingerprints using highresolution photos and 3D printing technology."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "biometric security systems",
+    "relation": "methods_discussed",
+    "value": "creating synthetic voices and deepfake videos to circumvent voice and facial recognition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Other methods, such as creating synthetic voices and deepfake videos to circumvent voice and facial recognition, were also discussed."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "biometric data",
+    "relation": "creates",
+    "value": "a single point of failure, a treasure trove for hackers",
+    "time": null,
+    "speaker": "John \"Maverick\" Daniels",
+    "verbatim": [
+     "Daniels emphasized that storing biometric data creates a single point of failure, a treasure trove for hackers."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "biometric data",
+    "relation": "cannot_be_changed_as_easily_as",
+    "value": "a password",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Once a biometric identifier is stolen, it cannot be changed as easily as a password."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "biometric security systems",
+    "relation": "presents",
+    "value": "a unique set of challenges for cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The permanence of biometrics therefore presents a unique set of challenges for cybersecurity."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "biometric data",
+    "relation": "results_in",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The permanence of biometrics therefore presents a unique set of challenges for cybersecurity."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "biometric data",
+    "relation": "intersection_with_privacy_described_as",
+    "value": "contentious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The intersection of biometrics and privacy has been contentious."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Global Privacy Summit",
+    "relation": "located_in",
+    "value": "Brussels",
+    "time": "January 17, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 17, 2024, a panel discussion at the Global Privacy Summit in Brussels"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Global Privacy Summit",
+    "relation": "panel_discussion_highlighted",
+    "value": "the ethical considerations of employing biometric data",
+    "time": "January 17, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a panel discussion at the Global Privacy Summit in Brussels highlighted the ethical considerations of employing biometric data."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Maria Gonzalez",
+    "relation": "role",
+    "value": "panelist and privacy advocate",
+    "time": "January 17, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Panelist and privacy advocate, Maria Gonzalez"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maria Gonzalez",
+    "relation": "voiced_concerns_about",
+    "value": "how biometric data is collected, stored, and used",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Panelist and privacy advocate, Maria Gonzalez, voiced concerns about how biometric data is collected, stored, and used."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "biometric security systems",
+    "relation": "potential_for_surveillance_cannot_be_ignored",
+    "value": "government and corporate surveillance using biometric technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The potential for government and corporate surveillance using biometric technologies cannot be ignored"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "biometric security systems",
+    "relation": "must_be_designed_with",
+    "value": "privacy at their core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "systems must be designed with privacy at their core"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "biometric security systems",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The potential for government and corporate surveillance using biometric technologies cannot be ignored, and as such, systems must be designed with privacy at their core."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Maria Gonzalez",
+    "relation": "called_for",
+    "value": "robust legislation governing biometric data",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Gonzalez also pointed out the need for robust legislation governing biometric data."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "biometric data",
+    "relation": "legal_frameworks_must",
+    "value": "keep pace with technology to protect individuals from potential abuses and misappropriation of their biometric identifiers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Legal frameworks must keep pace with technology to protect individuals from potential abuses and misappropriation of their biometric identifiers."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "BioSecure",
+    "relation": "described_as",
+    "value": "a biometric security company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a biometric security company, BioSecure"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "BioSecure",
+    "relation": "victim_of",
+    "value": "a sophisticated attack",
+    "time": "March 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "March 9, 2024, when a biometric security company, BioSecure, fell victim to a sophisticated attack."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "biometric data",
+    "relation": "used_by_attackers",
+    "value": "an elaborate set of artificial intelligence-generated biometric data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The attackers used an elaborate set of artificial intelligence-generated biometric data to gain unauthorized access to secure areas."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "biometric data",
+    "relation": "used_to_gain",
+    "value": "unauthorized access to secure areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "used an elaborate set of artificial intelligence-generated biometric data to gain unauthorized access to secure areas"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "biometric data",
+    "relation": "in_order_to",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "used an elaborate set of artificial intelligence-generated biometric data to gain unauthorized access to secure areas"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "artificial intelligence",
+    "relation": "exposed_potential_as",
+    "value": "a tool in the arsenal of cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident exposed the potential for AI to be a tool in the arsenal of cybercriminals, presenting a new frontier in the fight for cybersecurity."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "artificial intelligence",
+    "relation": "presents",
+    "value": "a new frontier in the fight for cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "presenting a new frontier in the fight for cybersecurity"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "BioSecure",
+    "relation": "ordeal_was",
+    "value": "a wake-up call to the industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BioSecure's ordeal was a wake-up call to the industry, necessitating a re-evaluation of the security protocols around biometric systems."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "BioSecure",
+    "relation": "necessitated",
+    "value": "a re-evaluation of the security protocols around biometric systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "BioSecure's ordeal was a wake-up call to the industry, necessitating a re-evaluation of the security protocols around biometric systems."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "multi-factor authentication methods",
+    "relation": "incorporated_by",
+    "value": "companies across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response to this, companies across the globe are now incorporating multi-factor authentication methods"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "multi-factor authentication methods",
+    "relation": "combine",
+    "value": "biometric checks with other forms of verification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combining biometric checks with other forms of verification to enhance security."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "multi-factor authentication methods",
+    "relation": "enhances",
+    "value": "security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combining biometric checks with other forms of verification to enhance security."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "multi-factor authentication methods",
+    "relation": "in_order_to",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "combining biometric checks with other forms of verification to enhance security."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "multi-factor authentication methods",
+    "relation": "in_response_to",
+    "value_ref": "c52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In response to this, companies across the globe are now incorporating multi-factor authentication methods"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "biometric security systems",
+    "relation": "developing_new_methods_to_shield",
+    "value": "biometric systems from attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity specialists have been hard at work developing new methods to shield biometric systems from attacks."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "TechSecurity University",
+    "relation": "presented_at",
+    "value": "International Conference on Cybersecurity and Resilience",
+    "time": "April 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On April 8, 2024, a research team from TechSecurity University presented a promising solution at the International Conference on Cybersecurity and Resilience."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "TechSecurity University",
+    "relation": "presented",
+    "value": "a promising solution",
+    "time": "April 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On April 8, 2024, a research team from TechSecurity University presented a promising solution at the"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "live-ness detection",
+    "relation": "described_as",
+    "value": "a concept",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They introduced a concept called 'live-ness detection'"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "live-ness detection",
+    "relation": "determines",
+    "value": "whether a biometric sample comes from a live person rather than a replica",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capable of determining whether a biometric sample comes from a live person rather than a replica."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "encryption techniques",
+    "relation": "tailored_for",
+    "value": "biometric data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "progress in encryption techniques specifically tailored for biometric data"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "encryption techniques",
+    "relation": "designed_to_secure",
+    "value": "information at rest, in transit, and during use",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to secure information at rest, in transit, and during use."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "encryption techniques",
+    "relation": "could_be",
+    "value": "a game-changer in protecting biometric information from illicit access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These advancements could be a game-changer in protecting biometric information from illicit access"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "encryption techniques",
+    "relation": "supports_efforts_to_deploy_safely",
+    "value": "the ongoing efforts to deploy biometric systems safely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "support the ongoing efforts to deploy biometric systems safely."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "artificial intelligence",
+    "relation": "will_play",
+    "value": "a pivotal role in the evolution of biometric security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It\u2019s clear that AI will play a pivotal role in the evolution of biometric security."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "artificial intelligence",
+    "relation": "being_used_to",
+    "value": "constantly monitor and adapt biometric systems, anticipating threats before they occur",
+    "time": null,
+    "speaker": "Some experts",
+    "verbatim": [
+     "Some experts believe the future could see AI being used to constantly monitor and adapt biometric systems, anticipating threats before they occur."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "artificial intelligence",
+    "relation": "could_be",
+    "value": "the advanced partner cybersecurity needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI could very well be the advanced partner cybersecurity needs."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "biometric security systems",
+    "relation": "offer_insights_into",
+    "value": "the potential and pitfalls of biometric security systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The stories emerging from the frontlines offer valuable insights into the potential and pitfalls of biometric security systems."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "biometric security systems",
+    "relation": "world_is_rapidly_evolving",
+    "value": "the world of biometrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it becomes evident that the world of biometrics is rapidly evolving."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "biometric security systems",
+    "relation": "shaping",
+    "value": "the future of cybersecurity in our increasingly digitized world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every discovery and each breach is a lesson learnt, shaping the future of cybersecurity in our increasingly digitized world."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

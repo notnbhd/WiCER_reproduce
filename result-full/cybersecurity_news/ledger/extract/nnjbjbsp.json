@@ -1,0 +1,551 @@
+{
+ "inventory": [
+  "Jonathan Powers",
+  "Mia Zhang",
+  "David Klein",
+  "Martha Stevens",
+  "Alex Vance",
+  "Lydia Grant",
+  "Fintech Security Solutions",
+  "Federal Bureau of Investigation",
+  "Financial Sector",
+  "Incident Response Planning",
+  "Incident Response Plan",
+  "Financial Cyber-Attacks",
+  "Retirement Fund Cyber Attack",
+  "Multi-Agency Federal Investigation",
+  "Cybercriminals",
+  "Retirement Savings",
+  "Regular Cyber Attack Simulations",
+  "Real-Time Threat Detection Systems",
+  "AI-Driven Analysis",
+  "Automated Defenses",
+  "Law Enforcement and Regulatory Bodies",
+  "Recovery Measures",
+  "Education and Awareness Initiatives",
+  "Training Programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Financial Sector",
+    "relation": "is_at",
+    "value": "a critical juncture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the financial sector finds itself at a critical juncture"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Financial Cyber-Attacks",
+    "relation": "requires",
+    "value": "robust incident response planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need for robust incident response planning in the face of financial cyber-attacks has never been more pressing"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Financial Sector",
+    "relation": "is_tempting_target_for",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial sector is a tempting target for cybercriminals"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Financial Sector",
+    "relation": "holds",
+    "value": "wealth of personal and institutional data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "given the wealth of personal and institutional data it holds"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Financial Cyber-Attacks",
+    "relation": "can_have_repercussions",
+    "value": "grave repercussions, from economic downturns to the personal financial ruin of individuals who have spent decades in the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyber attacks can have grave repercussions, from economic downturns to the personal financial ruin of individuals who have spent decades in the workforce."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Financial Cyber-Attacks",
+    "relation": "reported_incidents_show",
+    "value": "a sharp increase",
+    "time": "As of November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of November 4, 2023, reported incidents have shown a sharp increase"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Retirement Fund Cyber Attack",
+    "relation": "occurred_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The issue came to the forefront on September 15, 2023, when one of the leading retirement funds experienced a sophisticated cyber attack"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Retirement Fund Cyber Attack",
+    "relation": "compromised",
+    "value": "the records of thousands of retirees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compromised the records of thousands of retirees"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Retirement Fund Cyber Attack",
+    "relation": "resulted_in",
+    "value": "Multi-Agency Federal Investigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This resulted in a multi-agency federal investigation"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Retirement Fund Cyber Attack",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experienced a sophisticated cyber attack that compromised the records of thousands of retirees",
+     "This resulted in a multi-agency federal investigation"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jonathan Powers",
+    "relation": "position",
+    "value": "a seasoned threat intelligence analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jonathan Powers, a seasoned threat intelligence analyst"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jonathan Powers",
+    "relation": "believes",
+    "value": "Incidents such as these are not random; they are well-coordinated and highlight the evolving expertise among cyber adversaries.",
+    "time": null,
+    "speaker": "Jonathan Powers",
+    "verbatim": [
+     "Incidents such as these are not random; they are well-coordinated and highlight the evolving expertise among cyber adversaries."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Incident Response Plan",
+    "relation": "is_bulwark_against",
+    "value": "the consequences of financial cyber-attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A strong incident response plan (IRP) remains the bulwark against the consequences of financial cyber-attacks."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Incident Response Plan",
+    "relation": "defined_as",
+    "value": "the structured approach a company or institution takes immediately after a security breach to mitigate damage, understand the cause, and enforce measures to prevent future occurrences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An IRP is the structured approach a company or institution takes immediately after a security breach to mitigate damage, understand the cause, and enforce measures to prevent future occurrences."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mia Zhang",
+    "relation": "position",
+    "value": "head of cybersecurity at Fintech Security Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mia Zhang, head of cybersecurity at Fintech Security Solutions"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mia Zhang",
+    "relation": "stated",
+    "value": "An IRP isn't just a set of actions\u2014it's a company's commitment to its clients, promising diligence and protection against the inevitable.",
+    "time": null,
+    "speaker": "Mia Zhang",
+    "verbatim": [
+     "An IRP isn't just a set of actions\u2014it's a company's commitment to its clients, promising diligence and protection against the inevitable."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Incident Response Plan",
+    "relation": "contains",
+    "value": "several layers, each with a specific function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An effective IRP contains several layers, each with a specific function."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Incident Response Plan",
+    "relation": "lays_out",
+    "value": "clear roles and responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The plan lays out clear roles and responsibilities"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Incident Response Plan",
+    "relation": "categorizes",
+    "value": "potential incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "categorizes potential incidents"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Incident Response Plan",
+    "relation": "delineates",
+    "value": "precise communication protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delineates precise communication protocols"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Incident Response Plan",
+    "relation": "ensures",
+    "value": "the response is swift, coordinated, and effective in minimizing damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each element is crucial to ensure that the response is swift, coordinated, and effective in minimizing damage."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "David Klein",
+    "relation": "position",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant, David Klein"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "David Klein",
+    "relation": "stated",
+    "value": "The human element is the most unpredictable variable in the equation of cybersecurity. A well-informed team is the most effective deterrent against chaos.",
+    "time": null,
+    "speaker": "David Klein",
+    "verbatim": [
+     "The human element is the most unpredictable variable in the equation of cybersecurity. A well-informed team is the most effective deterrent against chaos."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Regular Cyber Attack Simulations",
+    "relation": "is",
+    "value": "crucial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regularly scheduled cyber attack simulations are crucial"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Regular Cyber Attack Simulations",
+    "relation": "tests",
+    "value": "the efficacy of an IRP",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These exercises not only test the efficacy of an IRP"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Regular Cyber Attack Simulations",
+    "relation": "creates",
+    "value": "muscle memory for the response team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "help in creating muscle memory for the response team"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Martha Stevens",
+    "relation": "position",
+    "value": "bank compliance officer",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As Martha Stevens, a bank compliance officer, observed on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Martha Stevens",
+    "relation": "stated",
+    "value": "Regular simulations bring forth gaps in our responses that we didn't even know existed. Preparedness is all about refining our reflexes.",
+    "time": "December 1, 2023",
+    "speaker": "Martha Stevens",
+    "verbatim": [
+     "Regular simulations bring forth gaps in our responses that we didn't even know existed. Preparedness is all about refining our reflexes."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Real-Time Threat Detection Systems",
+    "relation": "plays_role",
+    "value": "critical roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time threat detection systems, AI-driven analysis, and automated defenses play critical roles."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "AI-Driven Analysis",
+    "relation": "plays_role",
+    "value": "critical roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time threat detection systems, AI-driven analysis, and automated defenses play critical roles."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Automated Defenses",
+    "relation": "plays_role",
+    "value": "critical roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real-time threat detection systems, AI-driven analysis, and automated defenses play critical roles."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Real-Time Threat Detection Systems",
+    "relation": "can_reduce",
+    "value": "the response time to incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tools can significantly reduce the response time to incidents"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Real-Time Threat Detection Systems",
+    "relation": "may_thwart",
+    "value": "attacks before they cause any significant damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "potentially thwarting attacks before they cause any significant damage"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Law Enforcement and Regulatory Bodies",
+    "relation": "collaboration_is",
+    "value": "indispensable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaboration with law enforcement and regulatory bodies becomes indispensable"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alex Vance",
+    "relation": "position",
+    "value": "Cyber Crimes Unit of the Federal Bureau of Investigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Vance, from the Cyber Crimes Unit of the Federal Bureau of Investigation"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Federal Bureau of Investigation",
+    "relation": "works_closely_with",
+    "value": "financial institutions",
+    "time": null,
+    "speaker": "Alex Vance",
+    "verbatim": [
+     "We work closely with financial institutions"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alex Vance",
+    "relation": "stated",
+    "value": "We work closely with financial institutions to not only investigate incidents but also to disseminate information about threats that can aid in the prevention of future attacks",
+    "time": null,
+    "speaker": "Alex Vance",
+    "verbatim": [
+     "We work closely with financial institutions to not only investigate incidents but also to disseminate information about threats that can aid in the prevention of future attacks,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Recovery Measures",
+    "relation": "part_of",
+    "value": "successful incident management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "successful incident management encompasses both response and recovery"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Recovery Measures",
+    "relation": "aim",
+    "value": "restore services and assure customers that their financial assets are secure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Steps must be taken to restore services and assure customers that their financial assets are secure."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Recovery Measures",
+    "relation": "importance",
+    "value": "paramount for legacy professionals nearing retirement, for peace of mind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For legacy professionals nearing retirement, confidence in recovery measures is paramount for peace of mind."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Education and Awareness Initiatives",
+    "relation": "is",
+    "value": "at the heart of a proactive defense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Education and awareness initiatives are at the heart of a proactive defense."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Training Programs",
+    "relation": "designed_for",
+    "value": "employees at all levels, especially those in senior management and nearing retirement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training programs designed for employees at all levels, especially those in senior management and nearing retirement"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Training Programs",
+    "relation": "ensure",
+    "value": "nobody becomes the weakest cybersecurity link",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensure that nobody becomes the weakest cybersecurity link"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Lydia Grant",
+    "relation": "position",
+    "value": "financial planner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the words of financial planner Lydia Grant"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Lydia Grant",
+    "relation": "stated",
+    "value": "Informing our senior professionals about cyber risks and countermeasures is as critical as our technological defenses.",
+    "time": null,
+    "speaker": "Lydia Grant",
+    "verbatim": [
+     "Informing our senior professionals about cyber risks and countermeasures is as critical as our technological defenses."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Retirement Savings",
+    "relation": "considered_essential_to_protect",
+    "value": "essential considerations for protecting the retirement savings and financial well-being of individuals deep into their careers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the essential considerations for protecting the retirement savings and financial well-being of individuals deep into their careers"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Incident Response Planning",
+    "relation": "importance_discussed",
+    "value": "the importance of such planning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This piece dives into the importance of such planning"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

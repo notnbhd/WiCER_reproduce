@@ -1,0 +1,546 @@
+{
+ "inventory": [
+  "Erin Cortez",
+  "Firewalls Don't Blink",
+  "ShieldX",
+  "Acme Corp.",
+  "Maria Zhang",
+  "NovaTech",
+  "ByteShield",
+  "Jake Robertson",
+  "Cybersphere",
+  "XYZ Corporation",
+  "Cyber Escape Room",
+  "Sophia Alvarez",
+  "Global Tech Solutions",
+  "Cyber Champion",
+  "human error",
+  "phishing",
+  "social engineering",
+  "ransomware attacks",
+  "remote working models"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote working models",
+    "relation": "adoption_surged",
+    "value": "a surge in the adoption of remote working models",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there has been a surge in the adoption of remote working models"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote working models",
+    "relation": "associated_with_intensified_vulnerability",
+    "value": "the vulnerability of organizations to cyber threats has significantly intensified",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with this shift, the vulnerability of organizations to cyber threats has significantly intensified"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote working models",
+    "relation": "results_in",
+    "value_ref": "c2",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there has been a surge in the adoption of remote working models",
+     "with this shift, the vulnerability of organizations to cyber threats has significantly intensified"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote working models",
+    "relation": "becoming",
+    "value": "the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With remote work becoming the norm"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "human error",
+    "relation": "described_as",
+    "value": "a factor frequently overlooked yet abundant within any workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a factor frequently overlooked yet abundant within any workforce: human error."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "human error",
+    "relation": "is_attributed_cause_of",
+    "value": "the vulnerability of organizations to cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This vulnerability is largely attributed to a factor frequently overlooked yet abundant within any workforce: human error."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "ShieldX",
+    "relation": "is_a",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity firm ShieldX"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "ShieldX",
+    "relation": "study_indicates",
+    "value": "human error is involved in over 90% of cybersecurity breaches",
+    "time": "October 15, 2023",
+    "speaker": "ShieldX",
+    "verbatim": [
+     "Statistics from a recent study conducted by cybersecurity firm ShieldX on October 15, 2023, indicate that human error is involved in over 90% of cybersecurity breaches."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "human error",
+    "relation": "involved_in_breaches",
+    "value": "over 90% of cybersecurity breaches",
+    "time": "October 15, 2023",
+    "speaker": "ShieldX",
+    "verbatim": [
+     "human error is involved in over 90% of cybersecurity breaches"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Erin Cortez",
+    "relation": "is_a",
+    "value": "renowned cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Erin Cortez, renowned cybersecurity expert and author"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Erin Cortez",
+    "relation": "author_of",
+    "value": "Firewalls Don't Blink",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "author of the best-selling book \"Firewalls Don't Blink,\""
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Firewalls Don't Blink",
+    "relation": "is_a",
+    "value": "best-selling book",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "author of the best-selling book \"Firewalls Don't Blink,\""
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Firewalls Don't Blink",
+    "relation": "written_by",
+    "value": "Erin Cortez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "author of the best-selling book \"Firewalls Don't Blink,\""
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Erin Cortez",
+    "relation": "asserts",
+    "value": "Cybersecurity is only as strong as the weakest link.",
+    "time": null,
+    "speaker": "Erin Cortez",
+    "verbatim": [
+     "Cybersecurity is only as strong as the weakest link."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Erin Cortez",
+    "relation": "asserts",
+    "value": "that weakest link is a well-intentioned employee who simply lacks the necessary training to identify and prevent cyber threats",
+    "time": null,
+    "speaker": "Erin Cortez",
+    "verbatim": [
+     "More often than not, that weakest link is a well-intentioned employee who simply lacks the necessary training to identify and prevent cyber threats."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "phishing",
+    "relation": "employed_by",
+    "value": "modern cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern cybercriminals employ complex techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "social engineering",
+    "relation": "employed_by",
+    "value": "modern cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern cybercriminals employ complex techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "ransomware attacks",
+    "relation": "employed_by",
+    "value": "modern cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Modern cybercriminals employ complex techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "phishing",
+    "relation": "targets",
+    "value": "unsuspecting employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "social engineering",
+    "relation": "targets",
+    "value": "unsuspecting employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "ransomware attacks",
+    "relation": "targets",
+    "value": "unsuspecting employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "techniques like phishing, social engineering, and ransomware attacks that prey on unsuspecting employees"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "phishing",
+    "relation": "used_in_training",
+    "value": "simulated phishing tests",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Simulated phishing tests, gamified learning modules, and immersive cyber-attack simulations can provide practical, hands-on experience without endangering actual systems."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Acme Corp.",
+    "relation": "suffered",
+    "value": "a severe data breach",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Take the infamous case of November 8, 2023, when Acme Corp. suffered a severe data breach"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Acme Corp.",
+    "relation": "breach_cause",
+    "value": "an employee, working from a local caf\u00e9, unknowingly connected to a rogue Wi-Fi network set up by hackers",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "because an employee, working from a local caf\u00e9, unknowingly connected to a rogue Wi-Fi network set up by hackers"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Acme Corp.",
+    "relation": "caused_by",
+    "value_ref": "c24",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "suffered a severe data breach because an employee, working from a local caf\u00e9, unknowingly connected to a rogue Wi-Fi network set up by hackers"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Acme Corp.",
+    "relation": "described_as",
+    "value": "infamous case",
+    "time": "November 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Take the infamous case of November 8, 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria Zhang",
+    "relation": "job_title",
+    "value": "Chief Information Security Officer (CISO)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Zhang, the Chief Information Security Officer (CISO) at NovaTech"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Maria Zhang",
+    "relation": "works_at",
+    "value": "NovaTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Zhang, the Chief Information Security Officer (CISO) at NovaTech"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "NovaTech",
+    "relation": "employs",
+    "value": "Maria Zhang",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Zhang, the Chief Information Security Officer (CISO) at NovaTech"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Maria Zhang",
+    "relation": "commented",
+    "value": "To think cybersecurity is an IT issue is like believing that health and safety are only for doctors and nurses.",
+    "time": "March 5, 2024",
+    "speaker": "Maria Zhang",
+    "verbatim": [
+     "To think cybersecurity is an IT issue is like believing that health and safety are only for doctors and nurses."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Maria Zhang",
+    "relation": "asserts",
+    "value": "Everyone needs to understand the risks and know how to respond.",
+    "time": "March 5, 2024",
+    "speaker": "Maria Zhang",
+    "verbatim": [
+     "Everyone needs to understand the risks and know how to respond."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "ByteShield",
+    "relation": "conducted_survey",
+    "value": "a survey on remote work habits",
+    "time": "September 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A survey on remote work habits conducted by ByteShield on September 19, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "ByteShield",
+    "relation": "survey_found",
+    "value": "68% of remote workers have never received formal cybersecurity training",
+    "time": "September 19, 2023",
+    "speaker": "ByteShield",
+    "verbatim": [
+     "A survey on remote work habits conducted by ByteShield on September 19, 2023, revealed that 68% of remote workers have never received formal cybersecurity training."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jake Robertson",
+    "relation": "job_title",
+    "value": "senior security analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Robertson, a senior security analyst at Cybersphere."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jake Robertson",
+    "relation": "works_at",
+    "value": "Cybersphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Robertson, a senior security analyst at Cybersphere."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Cybersphere",
+    "relation": "employs",
+    "value": "Jake Robertson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Robertson, a senior security analyst at Cybersphere."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jake Robertson",
+    "relation": "asserts",
+    "value": "It's not a one-and-done deal",
+    "time": null,
+    "speaker": "Jake Robertson",
+    "verbatim": [
+     "It's not a one-and-done deal"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jake Robertson",
+    "relation": "asserts",
+    "value": "It's about creating a culture of security mindfulness that informs every click and every email sent or received.",
+    "time": null,
+    "speaker": "Jake Robertson",
+    "verbatim": [
+     "It's about creating a culture of security mindfulness that informs every click and every email sent or received."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "XYZ Corporation",
+    "relation": "unveiled",
+    "value": "Cyber Escape Room",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 12, 2023, XYZ Corporation unveiled their 'Cyber Escape Room,'"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Cyber Escape Room",
+    "relation": "is_a",
+    "value": "an interactive training experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Cyber Escape Room,' an interactive training experience that plunged employees into a gamified scenario"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Cyber Escape Room",
+    "relation": "gamified_scenario",
+    "value": "a gamified scenario where employees had to navigate cyber challenges to 'escape'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "plunged employees into a gamified scenario where they had to navigate cyber challenges to 'escape.'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Cyber Escape Room",
+    "relation": "marks",
+    "value": "a paradigm shift in how cybersecurity training is conceived and delivered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Programs like this mark a paradigm shift in how cybersecurity training is conceived and delivered."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Sophia Alvarez",
+    "relation": "job_title",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Alvarez, a cybersecurity consultant, suggests,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sophia Alvarez",
+    "relation": "suggests",
+    "value": "We should always reinforce the idea that by safeguarding our workplace systems, we're also protecting our personal information from potential compromise.",
+    "time": null,
+    "speaker": "Sophia Alvarez",
+    "verbatim": [
+     "We should always reinforce the idea that by safeguarding our workplace systems, we're also protecting our personal information from potential compromise."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Global Tech Solutions",
+    "relation": "introduced",
+    "value": "Cyber Champion award",
+    "time": "February 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 2, 2024, Global Tech Solutions introduced a 'Cyber Champion' award"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Cyber Champion",
+    "relation": "is_a",
+    "value": "award",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced a 'Cyber Champion' award"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Cyber Champion",
+    "relation": "honors",
+    "value": "employees who have actively contributed to the strengthening of cybersecurity within the company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "honoring employees who have actively contributed to the strengthening of cybersecurity within the company"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

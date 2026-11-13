@@ -1,0 +1,851 @@
+{
+ "inventory": [
+  "James Martins",
+  "SecureTech Innovations",
+  "John Smith",
+  "NextGen Security",
+  "Ashley Rodriguez",
+  "CyberSecure Inc.",
+  "Identity and Access Management (IAM)",
+  "Multi-factor authentication",
+  "Tanya Vasquez",
+  "DataGuard",
+  "Data Encryption",
+  "Mike Chen",
+  "CloudSafe Solutions",
+  "Patch Management",
+  "Peter Thomson",
+  "Endpoint Security",
+  "Sophia Lee",
+  "e-SecureTrain",
+  "Luke Patterson",
+  "ResponseReady",
+  "Response Plan",
+  "Diana Clarke",
+  "AuditMaster Tech",
+  "Security Audits and Assessments",
+  "Cloud Security",
+  "Cloud computing",
+  "Remote work",
+  "Cybersecurity"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Cloud Security",
+    "relation": "article_published_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Protecting Sensitive Information Online September 15, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Remote work",
+    "relation": "trend_continues_to",
+    "value": "evolve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the remote work trend continues to evolve"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Cloud Security",
+    "relation": "has_become",
+    "value": "a crucial aspect for businesses across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cloud security has become a crucial aspect for businesses across the globe"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Remote work",
+    "relation": "involves",
+    "value": "remote teams accessing company data from various locations and often through personal devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With remote teams accessing company data from various locations\u2013and often through personal devices\u2013the probability of cyber threats looms larger than ever."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Remote work",
+    "relation": "increases_probability_of",
+    "value": "cyber threats looms larger than ever",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the probability of cyber threats looms larger than ever"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Cybersecurity",
+    "relation": "should_be",
+    "value": "at the forefront of any organization's remote work policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity should be at the forefront of any organization's remote work policy"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Cloud Security",
+    "relation": "is_segment_of",
+    "value": "Cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud security is a segment of cybersecurity that focuses on protecting data, applications, and infrastructures involved in cloud computing."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Cloud Security",
+    "relation": "focuses_on",
+    "value": "protecting data, applications, and infrastructures involved in cloud computing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud security is a segment of cybersecurity that focuses on protecting data, applications, and infrastructures involved in cloud computing."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Cloud computing",
+    "relation": "is_backbone_of",
+    "value": "remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cloud has become the backbone of remote work"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "James Martins",
+    "relation": "job_title",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to James Martins, a cybersecurity expert from SecureTech Innovations"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "James Martins",
+    "relation": "affiliated_with",
+    "value": "SecureTech Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to James Martins, a cybersecurity expert from SecureTech Innovations"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "James Martins",
+    "relation": "stated",
+    "value": "87% of companies rely on the cloud for their day-to-day operations",
+    "time": null,
+    "speaker": "James Martins",
+    "verbatim": [
+     "87% of companies rely on the cloud for their day-to-day operations"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "James Martins",
+    "relation": "stated",
+    "value": "the potential risk is substantial if security measures do not match the level of threat landscape out there",
+    "time": null,
+    "speaker": "James Martins",
+    "verbatim": [
+     "the potential risk is substantial if security measures do not match the level of threat landscape out there"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cloud Security",
+    "relation": "foundation_for",
+    "value": "all subsequent security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A secure cloud infrastructure acts as the foundation for all subsequent security measures."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Smith",
+    "relation": "job_title",
+    "value": "CTO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, CTO of NextGen Security, advises organizations"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "John Smith",
+    "relation": "affiliated_with",
+    "value": "NextGen Security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, CTO of NextGen Security, advises organizations"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "John Smith",
+    "relation": "advises",
+    "value": "Choose cloud service providers who demonstrate robust security practices, including regular data encryption, strong network protections, and who have a transparent policy on how they handle your data",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "Choose cloud service providers who demonstrate robust security practices, including regular data encryption, strong network protections, and who have a transparent policy on how they handle your data."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Cloud computing",
+    "relation": "solutions_comply_with",
+    "value": "various industry standards and certifications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many service providers offer cloud solutions that comply with various industry standards and certifications."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Cloud Security",
+    "relation": "recommends",
+    "value": "selecting a provider whose security protocols align with your company's needs and regulatory requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's crucial to select a provider whose security protocols align with your company's needs and regulatory requirements."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Identity and Access Management (IAM)",
+    "relation": "is_critical_component_of",
+    "value": "cloud security for remote teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most critical components of cloud security for remote teams is Identity and Access Management."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Identity and Access Management (IAM)",
+    "relation": "controls",
+    "value": "who is authorized to access what information within your organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IAM tools control who is authorized to access what information within your organization."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Identity and Access Management (IAM)",
+    "relation": "minimizes",
+    "value": "the risk of unauthorized data breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tailoring access based on roles and responsibilities minimizes the risk of unauthorized data breaches."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Ashley Rodriguez",
+    "relation": "job_title",
+    "value": "head of IT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ashley Rodriguez, the head of IT at CyberSecure Inc., highlighted"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Ashley Rodriguez",
+    "relation": "affiliated_with",
+    "value": "CyberSecure Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ashley Rodriguez, the head of IT at CyberSecure Inc., highlighted"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Ashley Rodriguez",
+    "relation": "stated",
+    "value": "Implementing multi-factor authentication and strict access controls reduced our risk of unauthorized breaches by over 60% in the past year",
+    "time": "in the past year",
+    "speaker": "Ashley Rodriguez",
+    "verbatim": [
+     "Implementing multi-factor authentication and strict access controls reduced our risk of unauthorized breaches by over 60% in the past year."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Multi-factor authentication",
+    "relation": "reduced_unauthorized_breach_risk_by",
+    "value": "over 60%",
+    "time": "in the past year",
+    "speaker": "Ashley Rodriguez",
+    "verbatim": [
+     "reduced our risk of unauthorized breaches by over 60% in the past year"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Identity and Access Management (IAM)",
+    "relation": "ensures",
+    "value": "only necessary data is exposed to specific employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Properly managing access can ensure that only necessary data is exposed to specific employees, significantly reducing the opportunity for internal mishandling or external attacks."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Identity and Access Management (IAM)",
+    "relation": "reduces",
+    "value": "the opportunity for internal mishandling or external attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly reducing the opportunity for internal mishandling or external attacks"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Data Encryption",
+    "relation": "turns_information_into",
+    "value": "unreadable code for anyone who doesn't have the decryption key",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encrypting data both in transit and at rest can turn sensitive information into unreadable code for anyone who doesn't have the decryption key."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Data Encryption",
+    "relation": "ensures",
+    "value": "even if data is intercepted or accessed by unauthorized individuals, it remains useless without the proper credentials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This step ensures that even if data is intercepted or accessed by unauthorized individuals, it remains useless without the proper credentials."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Tanya Vasquez",
+    "relation": "job_title",
+    "value": "cyber analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Tanya Vasquez, a cyber analyst from DataGuard."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Tanya Vasquez",
+    "relation": "affiliated_with",
+    "value": "DataGuard",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Tanya Vasquez, a cyber analyst from DataGuard."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Data Encryption",
+    "relation": "described_as",
+    "value": "a deadbolt for your data",
+    "time": null,
+    "speaker": "Tanya Vasquez",
+    "verbatim": [
+     "\"Encryption is like a deadbolt for your data,\" explains Tanya Vasquez"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Data Encryption",
+    "relation": "locks_down",
+    "value": "data sent over the internet or waiting in cloud storage, for anyone without the key",
+    "time": null,
+    "speaker": "Tanya Vasquez",
+    "verbatim": [
+     "Whether it's being sent over the internet or waiting in your cloud storage, it's locked down for anyone without the key."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Patch Management",
+    "relation": "software_vulnerabilities_are",
+    "value": "a common entry point for cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Software vulnerabilities are a common entry point for cybercriminals."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Patch Management",
+    "relation": "keeping_up_to_date_prevents",
+    "value": "cybercriminals from exploiting known security issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keeping all software and systems up to date can prevent them from exploiting known security issues."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Patch Management",
+    "relation": "is",
+    "value": "a systematic approach to rolling out software updates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Patch management is a systematic approach to rolling out software updates which can be automated for efficiency."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Patch Management",
+    "relation": "can_be",
+    "value": "automated for efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can be automated for efficiency"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mike Chen",
+    "relation": "job_title",
+    "value": "senior consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Mike Chen, senior consultant at CloudSafe Solutions."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Mike Chen",
+    "relation": "affiliated_with",
+    "value": "CloudSafe Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Mike Chen, senior consultant at CloudSafe Solutions."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Patch Management",
+    "relation": "stated",
+    "value": "An unpatched system is an open invitation for threat actors",
+    "time": null,
+    "speaker": "Mike Chen",
+    "verbatim": [
+     "\"An unpatched system is an open invitation for threat actors,\" says Mike Chen"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Patch Management",
+    "relation": "has_become",
+    "value": "a necessity for businesses with dispersed remote teams",
+    "time": null,
+    "speaker": "Mike Chen",
+    "verbatim": [
+     "Automated patch management has become a necessity for businesses with dispersed remote teams"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Patch Management",
+    "relation": "ensures",
+    "value": "timely updates and maintain a strong defensive posture",
+    "time": null,
+    "speaker": "Mike Chen",
+    "verbatim": [
+     "to ensure timely updates and maintain a strong defensive posture"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Endpoint Security",
+    "relation": "endpoints_increased_by",
+    "value": "employees often use multiple devices to access cloud services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a remote work environment, employees often use multiple devices to access cloud services, increasing the number of endpoints that need to be secured."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Endpoint Security",
+    "relation": "involves",
+    "value": "ensuring that every device connecting to the cloud is secure and compliant with company policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Endpoint security involves ensuring that every device connecting to the cloud is secure and compliant with company policies."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Peter Thomson",
+    "relation": "job_title",
+    "value": "remote work security coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Peter Thomson, a remote work security coordinator, asserts,"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Endpoint Security",
+    "relation": "includes",
+    "value": "antivirus software and mobile device management",
+    "time": null,
+    "speaker": "Peter Thomson",
+    "verbatim": [
+     "such as antivirus software and mobile device management"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Endpoint Security",
+    "relation": "helps_track",
+    "value": "every device connecting to our network",
+    "time": null,
+    "speaker": "Peter Thomson",
+    "verbatim": [
+     "help us keep track of every device connecting to our network, ensuring they're all up-to-date with security protocols."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Cybersecurity",
+    "relation": "technologies_can_fail_if",
+    "value": "users do not know how to use them properly or understand the importance of cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Even the best security technologies can fail if users do not know how to use them properly or understand the importance of cybersecurity."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Cybersecurity",
+    "relation": "requires",
+    "value": "continuous education and training for remote workforce on best security practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous education and training for your remote workforce on the best security practices are paramount."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Sophia Lee",
+    "relation": "job_title",
+    "value": "consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizes consultant Sophia Lee from e-SecureTrain."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Sophia Lee",
+    "relation": "affiliated_with",
+    "value": "e-SecureTrain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizes consultant Sophia Lee from e-SecureTrain."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Cybersecurity",
+    "relation": "stated",
+    "value": "A well-informed team is your best defense against cyber threats",
+    "time": null,
+    "speaker": "Sophia Lee",
+    "verbatim": [
+     "\"A well-informed team is your best defense against cyber threats,\" emphasizes consultant Sophia Lee"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Cybersecurity",
+    "relation": "regular_training_helps",
+    "value": "employees identify and respond to threats and instill a collective responsibility for the organization's cybersecurity",
+    "time": null,
+    "speaker": "Sophia Lee",
+    "verbatim": [
+     "Regular training sessions not only help employees to identify and respond to threats but also instill a collective responsibility for the organization's cybersecurity."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Response Plan",
+    "relation": "rapid_response_is_critical_for",
+    "value": "minimizing the impact on your organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rapid response to a security breach is critical in minimizing the impact on your organization."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Response Plan",
+    "relation": "guides",
+    "value": "your team through the necessary steps to contain and recover from a security incident",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted response plan will guide your team through the necessary steps to contain and recover from a security incident."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Luke Patterson",
+    "relation": "job_title",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "comments Luke Patterson, CEO of ResponseReady."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Luke Patterson",
+    "relation": "affiliated_with",
+    "value": "ResponseReady",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "comments Luke Patterson, CEO of ResponseReady."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Response Plan",
+    "relation": "ensures",
+    "value": "we're not improvising during a critical incident",
+    "time": null,
+    "speaker": "Luke Patterson",
+    "verbatim": [
+     "\"Having a response plan in place ensures we're not improvising during a critical incident,\" comments Luke Patterson"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Response Plan",
+    "relation": "maps_out",
+    "value": "clear roles and responsibilities, communication channels, and recovery steps",
+    "time": null,
+    "speaker": "Luke Patterson",
+    "verbatim": [
+     "It maps out clear roles and responsibilities, communication channels, and recovery steps."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Security Audits and Assessments",
+    "relation": "is",
+    "value": "essential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To stay ahead of potential risks, regular security audits and assessments are essential."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Security Audits and Assessments",
+    "relation": "purpose",
+    "value": "to stay ahead of potential risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To stay ahead of potential risks"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Security Audits and Assessments",
+    "relation": "in_order_to",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To stay ahead of potential risks, regular security audits and assessments are essential."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Security Audits and Assessments",
+    "relation": "helps_identify",
+    "value": "vulnerabilities in your cloud infrastructure and the effectiveness of your security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These practices help in identifying vulnerabilities in your cloud infrastructure and the effectiveness of your security measures."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Diana Clarke",
+    "relation": "job_title",
+    "value": "head of cloud compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diana Clarke, head of cloud compliance at AuditMaster Tech, suggests,"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Diana Clarke",
+    "relation": "affiliated_with",
+    "value": "AuditMaster Tech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Diana Clarke, head of cloud compliance at AuditMaster Tech, suggests,"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Security Audits and Assessments",
+    "relation": "gives",
+    "value": "an objective view of your security standing",
+    "time": null,
+    "speaker": "Diana Clarke",
+    "verbatim": [
+     "Periodic assessments give an objective view of your security standing and help in adjusting strategies to address new and evolving threats."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Security Audits and Assessments",
+    "relation": "helps_adjust",
+    "value": "strategies to address new and evolving threats",
+    "time": null,
+    "speaker": "Diana Clarke",
+    "verbatim": [
+     "help in adjusting strategies to address new and evolving threats"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Cloud Security",
+    "relation": "aims_to",
+    "value": "simplify how remote teams can keep their data safe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "We delve into the world of cloud security measures to simplify how remote teams can keep their data safe."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Cloud Security",
+    "relation": "requires",
+    "value": "a comprehensive approach to protect sensitive information online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This issue begs a comprehensive approach to protect sensitive information online."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Cloud computing",
+    "relation": "has_greatly_facilitated",
+    "value": "the remote work revolution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while the convenience of cloud computing has greatly facilitated the remote work revolution"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Cloud computing",
+    "relation": "presents",
+    "value": "significant cyber threats that must be addressed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also presents significant cyber threats that must be addressed."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Cloud Security",
+    "relation": "enables",
+    "value": "companies and their remote teams can feel confident in securing their sensitive information online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With these strategic measures in place, companies and their remote teams can feel confident in securing their sensitive information online."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Cybersecurity",
+    "relation": "requires",
+    "value": "creating an ongoing culture of cybersecurity vigilance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is imperative to create an ongoing culture of cybersecurity vigilance, where employing best practices for cloud security becomes second nature for the entire organization."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

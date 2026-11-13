@@ -1,0 +1,388 @@
+{
+ "inventory": [
+  "Greenfield University",
+  "Dr. Linda Hastings",
+  "Education Cybersecurity Taskforce",
+  "Wilson County School District",
+  "Michael Rodriguez",
+  "Lincoln High",
+  "Rebecca Morris",
+  "University Park University",
+  "Michael Thompson",
+  "Cybersecurity Education Summit",
+  "Dr. Emily Clarkson",
+  "Department of Education",
+  "SecureEdu",
+  "Janet Lee",
+  "cybersecurity awareness training"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Greenfield University",
+    "relation": "fell_victim_to",
+    "value": "a coordinated ransomware attack",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the cybersecurity community was abuzz when the renowned Greenfield University fell victim to a coordinated ransomware attack that compromised sensitive student data."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Greenfield University",
+    "relation": "attack_compromised",
+    "value": "sensitive student data",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a coordinated ransomware attack that compromised sensitive student data"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Greenfield University",
+    "relation": "breach_aided_by",
+    "value": "unintentional insider actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the revelation that the breach was aided by unintentional insider actions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Dr. Linda Hastings",
+    "relation": "has_role",
+    "value": "a cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Linda Hastings, a cybersecurity expert, notes"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Linda Hastings",
+    "relation": "stated",
+    "value": "Cybercriminals are increasingly exploiting the human element. It's a trend that educators can no longer afford to ignore.",
+    "time": null,
+    "speaker": "Dr. Linda Hastings",
+    "verbatim": [
+     "Cybercriminals are increasingly exploiting the human element. It's a trend that educators can no longer afford to ignore."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Education Cybersecurity Taskforce",
+    "relation": "abbreviated_as",
+    "value": "ECT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Education Cybersecurity Taskforce (ECT)"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Education Cybersecurity Taskforce",
+    "relation": "released_study",
+    "value": "a study",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study released on November 20, 2023, by the Education Cybersecurity Taskforce (ECT) showed"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Education Cybersecurity Taskforce",
+    "relation": "study_found",
+    "value": "over 80% of successful breaches in schools happened due to a lack of awareness among the staff",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "over 80% of successful breaches in schools happened due to a lack of awareness among the staff"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Wilson County School District",
+    "relation": "launched",
+    "value": "an initiative",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the initiative launched on December 1, 2023, by the Wilson County School District."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Wilson County School District",
+    "relation": "introduced",
+    "value": "a mandatory cybersecurity training program for their staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They introduced a mandatory cybersecurity training program for their staff"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Michael Rodriguez",
+    "relation": "led",
+    "value": "the mandatory cybersecurity training program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by cyber expert Michael Rodriguez"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Michael Rodriguez",
+    "relation": "has_role",
+    "value": "cyber expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by cyber expert Michael Rodriguez"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cybersecurity awareness training",
+    "relation": "covered",
+    "value": "email security, password management, and data privacy laws",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This program covered email security, password management, and data privacy laws"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "cybersecurity awareness training",
+    "relation": "aimed_to_build",
+    "value": "a human firewall against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to build a human firewall against cyber threats"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "cybersecurity awareness training",
+    "relation": "described_as",
+    "value": "the first line of defense against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's the first line of defense against cyber threats."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "cybersecurity awareness training",
+    "relation": "challenges_include",
+    "value": "Budget constraints, resistance to change, and a lack of resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Budget constraints, resistance to change, and a lack of resources can be significant hurdles."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Wilson County School District",
+    "relation": "in_order_to",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They introduced a mandatory cybersecurity training program for their staff",
+     "aiming to build a human firewall against cyber threats"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Lincoln High",
+    "relation": "principal",
+    "value": "Rebecca Morris",
+    "time": "January 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 5, 2024, the principal of Lincoln High, Rebecca Morris, expressed her concerns"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Rebecca Morris",
+    "relation": "has_role",
+    "value": "principal of Lincoln High",
+    "time": "January 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 5, 2024, the principal of Lincoln High, Rebecca Morris, expressed her concerns"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Rebecca Morris",
+    "relation": "stated",
+    "value": "We understand the need, but finding the funds and resources necessary to implement a thorough training program is a constant battle.",
+    "time": "January 5, 2024",
+    "speaker": "Rebecca Morris",
+    "verbatim": [
+     "We understand the need, but finding the funds and resources necessary to implement a thorough training program is a constant battle."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "University Park University",
+    "relation": "has_dean",
+    "value": "Michael Thompson, Dean of the College of Education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, Dean of the College of Education at University Park University, spearheaded such a curriculum in their teaching program"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Michael Thompson",
+    "relation": "has_role",
+    "value": "Dean of the College of Education at University Park University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, Dean of the College of Education at University Park University, spearheaded such a curriculum in their teaching program"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Michael Thompson",
+    "relation": "spearheaded",
+    "value": "a cybersecurity curriculum in their teaching program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spearheaded such a curriculum in their teaching program"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Michael Thompson",
+    "relation": "stated",
+    "value": "If cybersecurity becomes a fundamental part of teacher education, we're equipping our future educators with the mindset and skills they need to navigate and protect the digital landscape.",
+    "time": "February 12, 2024",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "If cybersecurity becomes a fundamental part of teacher education, we're equipping our future educators with the mindset and skills they need to navigate and protect the digital landscape."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Cybersecurity Education Summit",
+    "relation": "held_on",
+    "value": "March 10, 2024",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "During the Cybersecurity Education Summit on March 10, 2024"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Emily Clarkson",
+    "relation": "has_role",
+    "value": "keynote speaker at the Cybersecurity Education Summit",
+    "time": "March 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "During the Cybersecurity Education Summit on March 10, 2024, keynote speaker Dr. Emily Clarkson emphasized"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Emily Clarkson",
+    "relation": "stated",
+    "value": "Cybersecurity is not a one-off training session. It's a continuous journey of learning and adapting.",
+    "time": "March 10, 2024",
+    "speaker": "Dr. Emily Clarkson",
+    "verbatim": [
+     "Cybersecurity is not a one-off training session. It's a continuous journey of learning and adapting."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Department of Education",
+    "relation": "partnered_with",
+    "value": "SecureEdu",
+    "time": "April 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the alliance formed between the Department of Education and cybersecurity firm SecureEdu on April 8, 2024"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "SecureEdu",
+    "relation": "has_role",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity firm SecureEdu"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Department of Education",
+    "relation": "aimed_to_provide",
+    "value": "subsidized training resources and threat intelligence to underfunded schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has aimed to provide subsidized training resources and threat intelligence to underfunded schools"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Department of Education",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the alliance formed between the Department of Education and cybersecurity firm SecureEdu on April 8, 2024, has aimed to provide subsidized training resources"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Janet Lee",
+    "relation": "has_role",
+    "value": "educational technology specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Educational technology specialist Janet Lee remarks"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Janet Lee",
+    "relation": "stated",
+    "value": "When students are part of the solution, it fosters a community approach to cybersecurity, significantly reducing risk.",
+    "time": null,
+    "speaker": "Janet Lee",
+    "verbatim": [
+     "When students are part of the solution, it fosters a community approach to cybersecurity, significantly reducing risk."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

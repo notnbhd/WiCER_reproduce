@@ -1,0 +1,732 @@
+{
+ "inventory": [
+  "Kuala Lumpur",
+  "Malaysia",
+  "Cybersecurity Malaysia",
+  "Dr. Farah Alia",
+  "Prof. Harith Lim",
+  "Kuala Lumpur University of Computer Sciences",
+  "CyberIntegra",
+  "CTO Siti Khadijah",
+  "Aiman Fauzi",
+  "Cyber Hygiene Workshop of 2023",
+  "Meera Devi",
+  "FinSec AI",
+  "FinSec's CEO Nik Muhammad",
+  "Prof. Zara Salim",
+  "International Cybersecurity Ethics Symposium",
+  "Ministry of Digital Economy",
+  "CyberSec AI Training Initiative",
+  "Minister Suresh Rajan",
+  "Cyber Collaboration Summit",
+  "Artificial Intelligence (AI)",
+  "Machine Learning",
+  "zero-day exploits",
+  "Security Operations Centers (SOCs)",
+  "phishing attacks",
+  "cyber hygiene practices"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Kuala Lumpur",
+    "relation": "tech_innovation_status",
+    "value": "rapidly growing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where tech innovation is rapidly growing"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "described_as",
+    "value": "an emerging trend of cybersecurity technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence (AI) and machine Learning (ML), an emerging trend of cybersecurity technology"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Machine Learning",
+    "relation": "described_as",
+    "value": "an emerging trend of cybersecurity technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "machine Learning (ML), an emerging trend of cybersecurity technology"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "considered_essential_because_of",
+    "value": "increasingly sophisticated threats posed by cyber criminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Not only can these advancements benefit them but are considered essential, given the increasingly sophisticated threats posed by cyber criminals"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "incorporating_into_security_efforts_is",
+    "value": "never been more pressing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "therefore incorporating AI and ML into security efforts has never been more pressing"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "caused_by",
+    "value_ref": "c4",
+    "verbatim": [
+     "given the increasingly sophisticated threats posed by cyber criminals; therefore incorporating AI and ML into security efforts has never been more pressing"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "link_with_cybersecurity",
+    "value": "ever-increasing link between AI and cybersecurity",
+    "time": "Recent years",
+    "speaker": null,
+    "verbatim": [
+     "Recent years have witnessed an ever-increasing link between AI and cybersecurity"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Cybersecurity Malaysia",
+    "relation": "hosted_conference_in",
+    "value": "2023",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "particularly at Cybersecurity Malaysia conference in 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Cybersecurity Malaysia",
+    "relation": "venue_of_ai_tools_reveal",
+    "value": "conference",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 5, 2023, groundbreaking AI tools designed to protect Malaysia against cyber threats were revealed, under the leadership of Dr. Farah Alia, at Cybersecurity Malaysia conference."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Farah Alia",
+    "relation": "led_revelation_of",
+    "value": "groundbreaking AI tools designed to protect Malaysia against cyber threats",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "groundbreaking AI tools designed to protect Malaysia against cyber threats were revealed, under the leadership of Dr. Farah Alia"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Malaysia",
+    "relation": "protected_against",
+    "value": "cyber threats",
+    "time": "September 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "AI tools designed to protect Malaysia against cyber threats"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "ability",
+    "value": "to analyze vast streams of data for anomalous patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI's ability to analyze vast streams of data for anomalous patterns is revolutionizing threat detection and response times"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "revolutionizing",
+    "value": "threat detection and response times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is revolutionizing threat detection and response times"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Machine Learning",
+    "relation": "subset_of",
+    "value": "AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Machine Learning, a subset of AI, has quickly emerged as an essential asset in cyber security."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Machine Learning",
+    "relation": "emerged_as",
+    "value": "an essential asset in cyber security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has quickly emerged as an essential asset in cyber security"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Machine Learning",
+    "relation": "anticipates_and_combats",
+    "value": "new types of cyber-attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By continuously learning from past data sets and adapting accordingly to anticipate and combat new types of cyber-attacks"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Prof. Harith Lim",
+    "relation": "affiliated_with",
+    "value": "Kuala Lumpur University of Computer Sciences",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Prof. Harith Lim from Kuala Lumpur University of Computer Sciences highlighted on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Machine Learning",
+    "relation": "played_instrumental_role_in",
+    "value": "helping preempt zero-day exploits",
+    "time": "October 14, 2023",
+    "speaker": "Prof. Harith Lim",
+    "verbatim": [
+     "Machine Learning's self-improving algorithms had played an instrumental role in helping preempt zero-day exploits"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "zero-day exploits",
+    "relation": "defined_as",
+    "value": "threats which exploit unknown vulnerabilities within systems or applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "threats which exploit unknown vulnerabilities within systems or applications"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Machine Learning",
+    "relation": "adapts_by",
+    "value": "automatically adapting itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by automatically adapting itself"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Machine Learning",
+    "relation": "mechanism_of",
+    "value_ref": "c18",
+    "verbatim": [
+     "helping preempt zero-day exploits - threats which exploit unknown vulnerabilities within systems or applications - by automatically adapting itself"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "CyberIntegra",
+    "relation": "is_a",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity firm CyberIntegra"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "CyberIntegra",
+    "relation": "issued_report",
+    "value": "a report outlining their AIpowered platforms' 40% reduction of threat detection time over just the past quarter alone",
+    "time": "November 12th 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12th 2023, cybersecurity firm CyberIntegra issued a report outlining their AIpowered platforms' 40% reduction of threat detection time over just the past quarter alone."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "CyberIntegra",
+    "relation": "reported_reduction_in_threat_detection_time",
+    "value": "40%",
+    "time": "over just the past quarter alone",
+    "speaker": null,
+    "verbatim": [
+     "their AIpowered platforms' 40% reduction of threat detection time over just the past quarter alone"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CTO Siti Khadijah",
+    "relation": "highlighted",
+    "value": "AI/ML algorithms speed up detection time and enhance accuracy",
+    "time": null,
+    "speaker": "CTO Siti Khadijah",
+    "verbatim": [
+     "speed up detection time, but also enhance accuracy"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "CTO Siti Khadijah",
+    "relation": "highlighted_outcome",
+    "value": "less false positives and stronger defensive measures",
+    "time": null,
+    "speaker": "CTO Siti Khadijah",
+    "verbatim": [
+     "leading to less false positives and providing for stronger defensive measures"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "CTO Siti Khadijah",
+    "relation": "results_in",
+    "value_ref": "c26",
+    "verbatim": [
+     "enhance accuracy; leading to less false positives and providing for stronger defensive measures"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Aiman Fauzi",
+    "relation": "director_of",
+    "value": "a major Kuala Lumpur-based SOC",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to Aiman Fauzi, director of a major Kuala Lumpur-based SOC on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Security Operations Centers (SOCs)",
+    "relation": "being_revolutionized_by",
+    "value": "AI and machine learning (ML) technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI and machine learning (ML) technologies are revolutionizing Security Operations Centers (SOCs)"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "led_to",
+    "value": "better coordination, faster incident response times, adaptive learning from past intrusions, 24/7 operations with improved efficiency",
+    "time": "December 1, 2023",
+    "speaker": "Aiman Fauzi",
+    "verbatim": [
+     "implementation of AI led to better coordination, faster incident response times, adaptive learning from past intrusions, 24/7 operations with improved efficiency"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "focuses_human_expertise_on",
+    "value": "complex problem solving rather than routine monitoring tasks",
+    "time": "December 1, 2023",
+    "speaker": "Aiman Fauzi",
+    "verbatim": [
+     "focus human expertise on complex problem solving rather than routine monitoring tasks"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "cyber hygiene practices",
+    "relation": "significance_not_diminished_by",
+    "value": "transitioning towards AI-centric cybersecurity strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Transitioning towards AI-centric cybersecurity strategies does not diminish the significance of fundamental cyber hygiene practices."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Cyber Hygiene Workshop of 2023",
+    "relation": "held_on",
+    "value": "December 20th",
+    "time": "December 20th",
+    "speaker": null,
+    "verbatim": [
+     "At the Cyber Hygiene Workshop of 2023 on December 20th"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Meera Devi",
+    "relation": "is_a",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity consultant Meera Devi"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Meera Devi",
+    "relation": "spoke_at",
+    "value": "Cyber Hygiene Workshop of 2023",
+    "time": "December 20th",
+    "speaker": null,
+    "verbatim": [
+     "At the Cyber Hygiene Workshop of 2023 on December 20th, cybersecurity consultant Meera Devi cautioned against over-relying on artificial intelligence (AI)"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Meera Devi",
+    "relation": "cautioned_against",
+    "value": "over-relying on artificial intelligence (AI)",
+    "time": "December 20th",
+    "speaker": "Meera Devi",
+    "verbatim": [
+     "cautioned against over-relying on artificial intelligence (AI)"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Meera Devi",
+    "relation": "called_for",
+    "value": "a balanced approach combining technology with good practices",
+    "time": "December 20th",
+    "speaker": "Meera Devi",
+    "verbatim": [
+     "calling for a balanced approach combining technology with good practices"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "limited_by",
+    "value": "its source data",
+    "time": null,
+    "speaker": "Meera Devi",
+    "verbatim": [
+     "She mentioned how AI could only ever be as good as its source data"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Meera Devi",
+    "relation": "recommended",
+    "value": "regular updates and patches as part of an effective security regimen",
+    "time": null,
+    "speaker": "Meera Devi",
+    "verbatim": [
+     "recommended regular updates and patches as part of an effective security regimen"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "FinSec AI",
+    "relation": "is_a",
+    "value": "a fintech security company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "FinSec AI, a fintech security company"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "FinSec AI",
+    "relation": "unveiled",
+    "value": "an ML-powered tool",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 15, 2024, FinSec AI, a fintech security company, unveiled an ML-powered tool"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "FinSec AI",
+    "relation": "tool_capability",
+    "value": "predict and isolate phishing attacks against financial institutions with remarkable precision",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "could predict and isolate phishing attacks against financial institutions with remarkable precision"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "phishing attacks",
+    "relation": "targets",
+    "value": "financial institutions",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "isolate phishing attacks against financial institutions"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "FinSec's CEO Nik Muhammad",
+    "relation": "stated",
+    "value": "AI learns behaviors specific to this sector so its defense can be tailored specifically",
+    "time": null,
+    "speaker": "FinSec's CEO Nik Muhammad",
+    "verbatim": [
+     "Our AI doesn't just protect; it learns behaviors specific to this sector so its defense can be tailored specifically."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "ethical_considerations_are",
+    "value": "dauntingly complex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its ethical considerations can be dauntingly complex"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "International Cybersecurity Ethics Symposium",
+    "relation": "held_on",
+    "value": "February 5, 2024",
+    "time": "February 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "At the International Cybersecurity Ethics Symposium held February 5, 2024"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Prof. Zara Salim",
+    "relation": "addressed_at",
+    "value": "International Cybersecurity Ethics Symposium",
+    "time": "February 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "At the International Cybersecurity Ethics Symposium held February 5, 2024, Prof. Zara Salim addressed"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Prof. Zara Salim",
+    "relation": "addressed",
+    "value": "how AI may infringe upon privacy rights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Prof. Zara Salim addressed how AI may infringe upon privacy rights"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "may_infringe_upon",
+    "value": "privacy rights",
+    "time": null,
+    "speaker": "Prof. Zara Salim",
+    "verbatim": [
+     "how AI may infringe upon privacy rights"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Prof. Zara Salim",
+    "relation": "detailed",
+    "value": "measures necessary to ensure these systems operate ethically",
+    "time": null,
+    "speaker": "Prof. Zara Salim",
+    "verbatim": [
+     "while detailing measures necessary to ensure these systems operate ethically"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "governance_priority_among",
+    "value": "policymakers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Creating robust governance frameworks around AI implementation has become a priority among policymakers."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "role_in_cybersecurity",
+    "value": "cannot be understated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence's role in cybersecurity cannot be understated"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "highlights_need_for",
+    "value": "skilled workers who can design, manage and interpret AI-driven systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI's integration into cybersecurity highlights the need for skilled workers who can design, manage and interpret AI-driven systems"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Ministry of Digital Economy",
+    "relation": "unveiled",
+    "value": "CyberSec AI Training Initiative",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 2024, the Ministry of Digital Economy unveiled the CyberSec AI Training Initiative"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "CyberSec AI Training Initiative",
+    "relation": "aims_to",
+    "value": "upskilling cybersecurity professionals",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "with an aim of upskilling cybersecurity professionals"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Minister Suresh Rajan",
+    "relation": "noted",
+    "value": "the significance of investing both human capital and AI investments",
+    "time": null,
+    "speaker": "Minister Suresh Rajan",
+    "verbatim": [
+     "Minister Suresh Rajan noted the significance of investing both human capital and AI investments"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Minister Suresh Rajan",
+    "relation": "stated",
+    "value": "one cannot function optimally without both",
+    "time": null,
+    "speaker": "Minister Suresh Rajan",
+    "verbatim": [
+     "one cannot function optimally without both."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "requires",
+    "value": "collaboration from all levels of society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Building an AI-driven cybersecurity infrastructure is no simple undertaking; rather, it takes collaboration from all levels of society"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Cyber Collaboration Summit",
+    "relation": "held_on",
+    "value": "March 5, 2024",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "At the Cyber Collaboration Summit held on March 5, 2024"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Cyber Collaboration Summit",
+    "relation": "agreement_signed",
+    "value": "agreement among tech titans, government agencies, and academic institutions to share knowledge and resources",
+    "time": "March 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "public-private synergy became evident when an agreement among tech titans, government agencies, and academic institutions to share knowledge and resources was signed"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Kuala Lumpur",
+    "relation": "cybersecurity_being_revolutionized_by",
+    "value": "Innovations in AI and ML",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovations in AI and ML are revolutionizing cybersecurity in Kuala Lumpur"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "revolutionizing",
+    "value": "how digital environments are secured",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI is revolutionizing how digital environments are secured"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "full_potential_realized_through",
+    "value": "Training, ethical governance, collaboration, and teamwork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training, ethical governance, collaboration, and teamwork all play important roles in realizing AI's full potential in this rapidly-evolving domain."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "promises",
+    "value": "improved security and a dramatic transformation of cyber warfare itself",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their continued evolution promises not only improved security but also a dramatic transformation of cyber warfare itself"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

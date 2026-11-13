@@ -1,0 +1,578 @@
+{
+ "inventory": [
+  "Oakridge International University",
+  "Oceanview School District",
+  "Dr. Emily Carter",
+  "CyberEduTech",
+  "Lakeview High School",
+  "Susan Martinez",
+  "St. Teresa's College of Information Technology",
+  "Cybersecurity Student Task Force",
+  "Professor Johnathan Liu",
+  "Cybersecurity Alliance for Educational Excellence",
+  "Dr. Samuel Hodges",
+  "Midwestern Research University",
+  "EduSecure",
+  "adaptive AI-powered firewall",
+  "Rolling Meadows School District",
+  "Angela Richardson",
+  "Valley Tech High School",
+  "cyber awareness and training program",
+  "cyber attacks"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Oakridge International University",
+    "relation": "described_as",
+    "value": "prestigious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the prestigious Oakridge International University"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Oakridge International University",
+    "relation": "reported",
+    "value": "a severe data breach",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 14, 2023, the prestigious Oakridge International University reported a severe data breach"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Oakridge International University",
+    "relation": "compromised_personal_information_of",
+    "value": "over 20,000 students and staff",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a severe data breach that compromised the personal information of over 20,000 students and staff."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Oceanview School District",
+    "relation": "experienced",
+    "value": "a ransomware attack",
+    "time": "November 2",
+    "speaker": null,
+    "verbatim": [
+     "on November 2, Oceanview School District experienced a ransomware attack"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Oceanview School District",
+    "relation": "paralyzed",
+    "value": "their entire network",
+    "time": "November 2",
+    "speaker": null,
+    "verbatim": [
+     "a ransomware attack that paralyzed their entire network"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Oceanview School District",
+    "relation": "forced_to_close_schools_for",
+    "value": "two days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forcing the district to close schools for two days"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Oceanview School District",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a ransomware attack that paralyzed their entire network, forcing the district to close schools for two days"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "cyber attacks",
+    "relation": "described_as",
+    "value": "growing trend targeting educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "represent a growing trend targeting educational institutions"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Carter",
+    "relation": "role",
+    "value": "esteemed cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an esteemed cybersecurity analyst from CyberEduTech"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Emily Carter",
+    "relation": "affiliated_with",
+    "value": "CyberEduTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an esteemed cybersecurity analyst from CyberEduTech"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Emily Carter",
+    "relation": "states",
+    "value": "Educational institutions are treasure troves of data and, unfortunately, often lack the cybersecurity infrastructure to protect themselves effectively from increasingly sophisticated attacks.",
+    "time": null,
+    "speaker": "Dr. Emily Carter",
+    "verbatim": [
+     "notes, \"Educational institutions are treasure troves of data and, unfortunately, often lack the cybersecurity infrastructure to protect themselves effectively from increasingly sophisticated attacks.\""
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Lakeview High School",
+    "relation": "experienced",
+    "value": "several phishing attempts and malware scares",
+    "time": "throughout the early months of the school year",
+    "speaker": null,
+    "verbatim": [
+     "After several phishing attempts and malware scares throughout the early months of the school year"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Susan Martinez",
+    "relation": "leads",
+    "value": "the school's IT department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the school's IT department, led by Susan Martinez"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Lakeview High School",
+    "relation": "deployed",
+    "value": "cyber awareness and training program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "galvanized efforts to deploy a cyber awareness and training program"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Lakeview High School",
+    "relation": "partnered_with",
+    "value": "local cybersecurity firms",
+    "time": "By December 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "through partnerships with local cybersecurity firms"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Lakeview High School",
+    "relation": "relied_on",
+    "value": "student involvement",
+    "time": "By December 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "through partnerships with local cybersecurity firms and student involvement"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Lakeview High School",
+    "relation": "enacted",
+    "value": "a powerful cyber defense system that could effectively ward off attacks",
+    "time": "By December 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "they had enacted a powerful cyber defense system that could effectively ward off attacks"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Lakeview High School",
+    "relation": "enabled_by",
+    "value_ref": "c15",
+    "time": "By December 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "through partnerships with local cybersecurity firms and student involvement, they had enacted a powerful cyber defense system"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "St. Teresa's College of Information Technology",
+    "relation": "launched",
+    "value": "an initiative to integrate cyber defense modules into their computer science curriculum",
+    "time": "recently",
+    "speaker": null,
+    "verbatim": [
+     "has recently launched an initiative to integrate cyber defense modules into their computer science curriculum"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "St. Teresa's College of Information Technology",
+    "relation": "teaches_through",
+    "value": "practical simulations and mentorship from industry experts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through practical simulations and mentorship from industry experts, students are learning how to respond to cyber threats in real-time."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "St. Teresa's College of Information Technology",
+    "relation": "repelled",
+    "value": "a complex series of phishing attempts",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 25, 2023, the college successfully repelled a complex series of phishing attempts"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cybersecurity Student Task Force",
+    "relation": "newly_formed",
+    "value": "newly formed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their newly formed Cybersecurity Student Task Force"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Cybersecurity Student Task Force",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "thanks to the vigilance of their newly formed Cybersecurity Student Task Force"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Professor Johnathan Liu",
+    "relation": "states",
+    "value": "Teaching our students about cybersecurity isn't just about protecting the institution; it's about equipping them with crucial skills for their future careers",
+    "time": null,
+    "speaker": "Professor Johnathan Liu",
+    "verbatim": [
+     "\"Teaching our students about cybersecurity isn't just about protecting the institution; it's about equipping them with crucial skills for their future careers,\" said Professor Johnathan Liu"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Professor Johnathan Liu",
+    "relation": "role",
+    "value": "curriculum coordinator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Johnathan Liu, the curriculum coordinator"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Cybersecurity Alliance for Educational Excellence",
+    "relation": "formed_on",
+    "value": "January 15, 2024",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the formation of the Cybersecurity Alliance for Educational Excellence (CAEE) on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Cybersecurity Alliance for Educational Excellence",
+    "relation": "comprises",
+    "value": "twenty universities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This alliance comprises twenty universities across the country"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Cybersecurity Alliance for Educational Excellence",
+    "relation": "pools_resources_to",
+    "value": "strengthen their cyber defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pool their know-how and technical resources to strengthen their cyber defenses."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Dr. Samuel Hodges",
+    "relation": "affiliated_with",
+    "value": "Midwestern Research University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Samuel Hodges of Midwestern Research University"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Dr. Samuel Hodges",
+    "relation": "role",
+    "value": "a key member of the CAEE",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a key member of the CAEE"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Dr. Samuel Hodges",
+    "relation": "states",
+    "value": "Collaboration is our most powerful tool. When we share knowledge and resources, we're not just protecting one institution; we're safeguarding the entire educational network.",
+    "time": null,
+    "speaker": "Dr. Samuel Hodges",
+    "verbatim": [
+     "states, \"Collaboration is our most powerful tool. When we share knowledge and resources, we're not just protecting one institution; we're safeguarding the entire educational network.\""
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "EduSecure",
+    "relation": "launched",
+    "value": "its adaptive AI-powered firewall",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 8, 2024, the tech startup EduSecure launched its adaptive AI-powered firewall"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "EduSecure",
+    "relation": "is_a",
+    "value": "tech startup",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "the tech startup EduSecure"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "adaptive AI-powered firewall",
+    "relation": "designed_for",
+    "value": "educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "specifically for educational institutions."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "adaptive AI-powered firewall",
+    "relation": "adopted_by",
+    "value": "several school districts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This technology, already adopted by several school districts"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "adaptive AI-powered firewall",
+    "relation": "proven",
+    "value": "successful",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This technology, already adopted by several school districts, has proven successful."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Rolling Meadows School District",
+    "relation": "thwarted",
+    "value": "a sophisticated cyber attack",
+    "time": "March 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Rolling Meadows School District, for instance, managed to thwart a sophisticated cyber attack on March 2, 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "adaptive AI-powered firewall",
+    "relation": "provides_feature",
+    "value": "early detection and automated response features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to the early detection and automated response features of EduSecure's firewall"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "adaptive AI-powered firewall",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": "March 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "managed to thwart a sophisticated cyber attack on March 2, 2024, thanks to the early detection and automated response features of EduSecure's firewall."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Rolling Meadows School District",
+    "relation": "resolved_without",
+    "value": "any data compromise or downtime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The incident was resolved without any data compromise or downtime"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Angela Richardson",
+    "relation": "job_title",
+    "value": "IT Director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Angela Richardson, the IT Director at Valley Tech High School"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Angela Richardson",
+    "relation": "affiliated_with",
+    "value": "Valley Tech High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Angela Richardson, the IT Director at Valley Tech High School"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Angela Richardson",
+    "relation": "role",
+    "value": "prominent advocate for cybersecurity education reform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who has become a prominent advocate for cybersecurity education reform"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Valley Tech High School",
+    "relation": "upgraded",
+    "value": "its cyber infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Valley Tech has not only upgraded its cyber infrastructure"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Valley Tech High School",
+    "relation": "embedded",
+    "value": "cybersecurity education into every level of its academic offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embedded cybersecurity education into every level of its academic offerings"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Angela Richardson",
+    "relation": "conducts",
+    "value": "workshops, assemblies, and community outreach programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through workshops, assemblies, and community outreach programs, Richardson is inspiring change well beyond the confines of her school."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Angela Richardson",
+    "relation": "inspires",
+    "value": "change well beyond the confines of her school",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Richardson is inspiring change well beyond the confines of her school."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Angela Richardson",
+    "relation": "asserts",
+    "value": "Empowerment is the key",
+    "time": null,
+    "speaker": "Angela Richardson",
+    "verbatim": [
+     "\"Empowerment is the key,\" Richardson asserts."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Angela Richardson",
+    "relation": "states",
+    "value": "When our students and teachers understand the risks and have the tools to counter them, they become the first line of defense against cyber threats.",
+    "time": null,
+    "speaker": "Angela Richardson",
+    "verbatim": [
+     "\"When our students and teachers understand the risks and have the tools to counter them, they become the first line of defense against cyber threats.\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "cyber attacks",
+    "relation": "framed_as",
+    "value": "no longer a question of 'if' but rather 'when'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's no longer a question of 'if' but rather 'when,'"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,750 @@
+{
+ "inventory": [
+  "Jane Holloway",
+  "CyberGuard",
+  "DataSafe",
+  "BYOD (Bring Your Own Device)",
+  "Alejandro Vasquez",
+  "ProTech Solutions",
+  "Rigorous Access Controls",
+  "Multi-factor authentication (MFA)",
+  "Encryption of Sensitive Data",
+  "Regular Security Audits and Compliance Checks",
+  "General Data Protection Regulation (GDPR)",
+  "Health Insurance Portability and Accountability Act (HIPAA)",
+  "Endpoint Protection Solutions",
+  "Ongoing Security Training for Employees",
+  "Secure Collaboration Tools",
+  "Backup and Disaster Recovery Plans",
+  "CloudSecureTech",
+  "Security Insights",
+  "artificial intelligence (AI) and machine learning",
+  "Phishing",
+  "malware",
+  "ransomware",
+  "remote work",
+  "global health crisis",
+  "cloud security protocols",
+  "remote teams"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "tipping_point_caused_by",
+    "value": "global health crisis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the trend of remote work continues to rise well beyond the tipping point caused by the global health crisis"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote teams",
+    "relation": "routinely_access_share_and_manage",
+    "value": "sensitive information online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote teams now routinely access, share, and manage sensitive information online."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work",
+    "relation": "is_particular_target_due_to",
+    "value": "potential vulnerabilities in home networks and practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work environments are particular targets due to potential vulnerabilities in home networks and practices"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "cloud security protocols",
+    "relation": "surge_in_incidents",
+    "value": "notable surge in cyber incidents related to cloud services",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, there has been a notable surge in cyber incidents related to cloud services."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jane Holloway",
+    "relation": "occupation",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to cybersecurity consultant Jane Holloway"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jane Holloway",
+    "relation": "stated_that",
+    "value": "Cyberattacks on cloud infrastructure have increased by 50% in the last quarter alone.",
+    "time": "in the last quarter alone",
+    "speaker": "Jane Holloway",
+    "verbatim": [
+     "Cyberattacks on cloud infrastructure have increased by 50% in the last quarter alone."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "remote work",
+    "relation": "surge_partly_due_to",
+    "value": "expanded attack surface offered by the scattered workforce and the reliance on cloud environments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This surge is partly due to the expanded attack surface offered by the scattered workforce and the reliance on cloud environments"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "remote work",
+    "relation": "contributes_to",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This surge is partly due to the expanded attack surface offered by the scattered workforce"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "cloud security protocols",
+    "relation": "security_controls_maturity",
+    "value": "may not be as mature or consistently applied as in traditional corporate networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security controls may not be as mature or consistently applied as in traditional corporate networks"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "CyberGuard",
+    "relation": "described_as",
+    "value": "leading cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reports from leading cybersecurity firm CyberGuard"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "CyberGuard",
+    "relation": "reported",
+    "value": "nearly a third of remote employees have admitted to circumventing security measures to get work done faster",
+    "time": null,
+    "speaker": "CyberGuard",
+    "verbatim": [
+     "nearly a third of remote employees have admitted to circumventing security measures to get work done faster"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "cloud security protocols",
+    "relation": "creates_urgent_need",
+    "value": "for businesses to reassess their cloud security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creates an urgent need for businesses to reassess their cloud security measures"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Phishing",
+    "relation": "is_common_threat_to",
+    "value": "remote teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing attempts, malware, and ransomware continue to be the most common threats for remote teams."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "malware",
+    "relation": "is_common_threat_to",
+    "value": "remote teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing attempts, malware, and ransomware continue to be the most common threats for remote teams."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "ransomware",
+    "relation": "is_common_threat_to",
+    "value": "remote teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing attempts, malware, and ransomware continue to be the most common threats for remote teams."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "BYOD (Bring Your Own Device)",
+    "relation": "known_as",
+    "value": "Bring Your Own Device",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known as BYOD (Bring Your Own Device)"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "BYOD (Bring Your Own Device)",
+    "relation": "refers_to",
+    "value": "increased use of personal devices for work purposes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the increased use of personal devices for work purposes"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "BYOD (Bring Your Own Device)",
+    "relation": "often_lacks",
+    "value": "adequate security features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which often lack adequate security features"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "BYOD (Bring Your Own Device)",
+    "relation": "further_compounds",
+    "value": "security incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Security incidents have been further compounded by the increased use of personal devices for work purposes"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "DataSafe",
+    "relation": "published_study_revealing",
+    "value": "40% of remote workers using personal devices for professional tasks have no endpoint protection against cyber threats",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In an eye-opening study conducted by DataSafe, published on October 15, 2023, it was revealed that 40% of remote workers using personal devices for professional tasks have no endpoint protection against cyber threats."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "DataSafe",
+    "relation": "published_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "published on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Endpoint Protection Solutions",
+    "relation": "lack_increases_likelihood_of",
+    "value": "a successful cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This lack of protection significantly increases the likelihood of a successful cyber attack"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Endpoint Protection Solutions",
+    "relation": "could_compromise",
+    "value": "a company's cloudstored information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the potential to compromise a company's cloudstored information"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "cloud security protocols",
+    "relation": "enables_strong_defense_against",
+    "value": "a strong defense against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By implementing robust cloud security protocols, companies can build a strong defense against cyber threats."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alejandro Vasquez",
+    "relation": "job_title",
+    "value": "IT Security Manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT Security Manager Alejandro Vasquez from ProTech Solutions insists"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Alejandro Vasquez",
+    "relation": "affiliated_with",
+    "value": "ProTech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT Security Manager Alejandro Vasquez from ProTech Solutions insists"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alejandro Vasquez",
+    "relation": "stated_that",
+    "value": "The key to securing cloud environments for remote teams lies in comprehensive security protocols that include both technological measures and employee training.",
+    "time": null,
+    "speaker": "Alejandro Vasquez",
+    "verbatim": [
+     "The key to securing cloud environments for remote teams lies in comprehensive security protocols that include both technological measures and employee training."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "cloud security protocols",
+    "relation": "measures_form_foundation_of",
+    "value": "a strong cloud security strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The following measures form the foundation of a strong cloud security strategy"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Rigorous Access Controls",
+    "relation": "recommends_employing",
+    "value": "strict identity and access management policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To minimize unauthorized access, companies should employ strict identity and access management policies."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Rigorous Access Controls",
+    "relation": "aims_to_minimize",
+    "value": "unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To minimize unauthorized access"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rigorous Access Controls",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To minimize unauthorized access, companies should employ strict identity and access management policies."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rigorous Access Controls",
+    "relation": "includes",
+    "value": "implementing multi-factor authentication (MFA), strong password policies, and least privilege access controls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes implementing multi-factor authentication (MFA), strong password policies, and least privilege access controls"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Multi-factor authentication (MFA)",
+    "relation": "component_of",
+    "value": "Rigorous Access Controls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implementing multi-factor authentication (MFA)"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Rigorous Access Controls",
+    "relation": "ensures",
+    "value": "employees can only reach the data they need for their tasks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "least privilege access controls to ensure employees can only reach the data they need for their tasks"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Rigorous Access Controls",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "least privilege access controls to ensure employees can only reach the data they need for their tasks"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Encryption of Sensitive Data",
+    "relation": "adds",
+    "value": "an additional layer of security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encrypting data both in transit and at rest adds an additional layer of security"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Encryption of Sensitive Data",
+    "relation": "applied_to",
+    "value": "data both in transit and at rest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encrypting data both in transit and at rest"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Encryption of Sensitive Data",
+    "relation": "makes_nearly_impossible",
+    "value": "for hackers to decipher sensitive information even if they manage to breach cloud storage systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it nearly impossible for hackers to decipher sensitive information even if they manage to breach cloud storage systems"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Encryption of Sensitive Data",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adds an additional layer of security, making it nearly impossible for hackers to decipher sensitive information even if they manage to breach cloud storage systems"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Encryption of Sensitive Data",
+    "relation": "reduced_data_breaches_by",
+    "value": "45%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the use of encryption reduced data breaches by 45%"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Regular Security Audits and Compliance Checks",
+    "relation": "helps_uncover",
+    "value": "vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular security audits help in uncovering vulnerabilities and ensuring compliance with industry standards"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Regular Security Audits and Compliance Checks",
+    "relation": "ensures_compliance_with",
+    "value": "industry standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular security audits help in uncovering vulnerabilities and ensuring compliance with industry standards"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "example_of",
+    "value": "industry standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as the General Data Protection Regulation (GDPR) for companies dealing with European Union residents' data"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "applies_to",
+    "value": "companies dealing with European Union residents' data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the General Data Protection Regulation (GDPR) for companies dealing with European Union residents' data"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Health Insurance Portability and Accountability Act (HIPAA)",
+    "relation": "example_of",
+    "value": "industry standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Health Insurance Portability and Accountability Act (HIPAA) for healthcare information"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Health Insurance Portability and Accountability Act (HIPAA)",
+    "relation": "applies_to",
+    "value": "healthcare information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Health Insurance Portability and Accountability Act (HIPAA) for healthcare information"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Endpoint Protection Solutions",
+    "relation": "includes",
+    "value": "antivirus software, firewalls, and intrusion detection systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "endpoint protection solutions, such as antivirus software, firewalls, and intrusion detection systems"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Endpoint Protection Solutions",
+    "relation": "should_be_deployed_on",
+    "value": "all devices used for work, including personal devices under a BYOD policy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "should be deployed on all devices used for work, including personal devices under a BYOD policy"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Ongoing Security Training for Employees",
+    "relation": "can_help_increase",
+    "value": "awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ongoing cybersecurity training for employees can help increase awareness and reduce incidents caused by negligent behavior."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Ongoing Security Training for Employees",
+    "relation": "can_reduce",
+    "value": "incidents caused by negligent behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduce incidents caused by negligent behavior"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Ongoing Security Training for Employees",
+    "relation": "expected_to_result_in",
+    "value": "70% fewer security incidents than those without",
+    "time": "By January 2024",
+    "speaker": null,
+    "verbatim": [
+     "By January 2024, it is expected that companies with thorough training programs will experience 70% fewer security incidents than those without."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Secure Collaboration Tools",
+    "relation": "offer",
+    "value": "end-to-end encryption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Selecting secure cloud-based collaboration tools that offer end-to-end encryption and adhere to strict security standards"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Secure Collaboration Tools",
+    "relation": "adhere_to",
+    "value": "strict security standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Selecting secure cloud-based collaboration tools that offer end-to-end encryption and adhere to strict security standards"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Secure Collaboration Tools",
+    "relation": "crucial_for",
+    "value": "maintaining the integrity of company data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is crucial in maintaining the integrity of company data"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Backup and Disaster Recovery Plans",
+    "relation": "encouraged_to_implement",
+    "value": "automatic backups and comprehensive disaster recovery plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies are encouraged to implement automatic backups and comprehensive disaster recovery plans"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Backup and Disaster Recovery Plans",
+    "relation": "aims_to_minimize",
+    "value": "data loss in the event of a cyberattack or other disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to minimize data loss in the event of a cyberattack or other disasters"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Backup and Disaster Recovery Plans",
+    "relation": "in_order_to",
+    "value_ref": "c56",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "companies are encouraged to implement automatic backups and comprehensive disaster recovery plans to minimize data loss in the event of a cyberattack or other disasters"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "cloud security protocols",
+    "relation": "make_a_difference",
+    "value": "these measures make a difference",
+    "time": "Recent",
+    "speaker": null,
+    "verbatim": [
+     "Recent numbers indicate that these measures make a difference."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "CloudSecureTech",
+    "relation": "released_report_showing",
+    "value": "companies adopting a multi-layered security approach see a 60% reduction in successful cyberattacks",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 20, 2024, CloudSecureTech released a report showing that companies adopting a multi-layered security approach see a 60% reduction in successful cyberattacks"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Security Insights",
+    "relation": "stated_that",
+    "value": "Cyber criminals continuously evolve their tactics, so security strategies must evolve correspondingly.",
+    "time": null,
+    "speaker": "Security Insights",
+    "verbatim": [
+     "Cyber criminals continuously evolve their tactics, so security strategies must evolve correspondingly."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "artificial intelligence (AI) and machine learning",
+    "relation": "set_to_play_role_in",
+    "value": "detecting and responding to security incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "artificial intelligence (AI) and machine learning are set to play significant roles in detecting and responding to security incidents"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "artificial intelligence (AI) and machine learning",
+    "relation": "investment_status",
+    "value": "many companies already investing in these technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with many companies already investing in these technologies"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "cloud security protocols",
+    "relation": "could_lead_to",
+    "value": "data breaches with potentially severe consequences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies that remain complacent or fail to update their security measures could be leaving themselves open to data breaches with potentially severe consequences"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "an enduring reality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As remote work becomes an enduring reality"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "cloud security protocols",
+    "relation": "enables",
+    "value": "businesses can significantly mitigate the risks and protect their valuable data assets in the cloud",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses can significantly mitigate the risks and protect their valuable data assets in the cloud"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

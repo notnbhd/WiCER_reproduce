@@ -1,0 +1,708 @@
+{
+ "inventory": [
+  "Emma Jones",
+  "Michael Brown",
+  "Sarah Zhang",
+  "Jason Lopez",
+  "Laura Green",
+  "James O'Connor",
+  "Sofia Mendez",
+  "Federal Cybersecurity Agency",
+  "National Cyber Security Awareness Month",
+  "cybersecurity symposium",
+  "online security webinar",
+  "cyber-attack",
+  "cybersecurity",
+  "phishing",
+  "malware",
+  "ransomware",
+  "identity theft",
+  "social engineering",
+  "vishing (voice phishing)",
+  "data breaches",
+  "password manager",
+  "software updates",
+  "security patches",
+  "automatic updates",
+  "public Wi-Fi",
+  "Two-factor authentication (2FA)",
+  "Virtual Private Network (VPN)",
+  "3-2-1 backup strategy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "cyber-attack",
+    "relation": "occurs_every",
+    "value": "every 39 seconds",
+    "time": "September 2023",
+    "speaker": "reports",
+    "verbatim": [
+     "a cyber-attack occurring every 39 seconds according to reports from September 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "National Cyber Security Awareness Month",
+    "relation": "observed_in",
+    "value": "October",
+    "time": "October",
+    "speaker": null,
+    "verbatim": [
+     "As we lean into October's National Cyber Security Awareness Month"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "cybersecurity",
+    "relation": "described_as",
+    "value": "as essential as locking your doors at night",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity has become as essential as locking your doors at night"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "cybersecurity",
+    "relation": "awareness_importance",
+    "value": "at an all-time high",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of personal cybersecurity awareness is at an all-time high"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "cybersecurity",
+    "relation": "article_covers",
+    "value": "top 10 cybersecurity mistakes consumers often make",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the top 10 cybersecurity mistakes consumers often make"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emma Jones",
+    "relation": "occupation",
+    "value": "Cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Emma Jones"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emma Jones",
+    "relation": "spoke_at",
+    "value": "a conference",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Emma Jones, speaking at a conference on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emma Jones",
+    "relation": "cautioned_against",
+    "value": "posting too much personal data online",
+    "time": "October 3, 2023",
+    "speaker": "Emma Jones",
+    "verbatim": [
+     "cautioned against posting too much personal data online"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "identity theft",
+    "relation": "can_be_caused_by",
+    "value": "posting too much personal data online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can lead to identity theft or social engineering attacks"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "social engineering",
+    "relation": "can_be_caused_by",
+    "value": "posting too much personal data online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can lead to identity theft or social engineering attacks"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Tighten those privacy settings, and think twice before posting your full birthdate or the street where you grew up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tighten those privacy settings, and think twice before posting your full birthdate or the street where you grew up"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "cybersecurity",
+    "relation": "mistake_example",
+    "value": "Using '123456' as a Password",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mistake #2: Using '123456' as a Password"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cybersecurity",
+    "relation": "claims",
+    "value": "\"password\" and \"123456\" are easy to hack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"password\" and \"123456\" are easy to remember, but they're also easy to hack."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "cybersecurity",
+    "relation": "study_finding",
+    "value": "a staggering number of people still use painfully obvious passwords",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A study from October 15, 2023, showed that a staggering number of people still use painfully obvious passwords."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Create complex passwords with a mix of letters, numbers, and symbols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Create complex passwords with a mix of letters, numbers, and symbols."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "password manager",
+    "relation": "recommended_for",
+    "value": "generating and storing complex passwords",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "use a reputable password manager to generate and store them for you"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Brown",
+    "relation": "occupation",
+    "value": "Cybersecurity educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity educator Michael Brown"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Michael Brown",
+    "relation": "highlighted",
+    "value": "phishing attempts can lead to malware infections or data breaches",
+    "time": "September 19, 2023",
+    "speaker": "Michael Brown",
+    "verbatim": [
+     "in a workshop dated September 19, 2023, highlighted that phishing attempts can lead to malware infections or data breaches."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "phishing",
+    "relation": "can_lead_to",
+    "value": "malware infections",
+    "time": "September 19, 2023",
+    "speaker": "Michael Brown",
+    "verbatim": [
+     "phishing attempts can lead to malware infections or data breaches"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "phishing",
+    "relation": "can_lead_to",
+    "value": "data breaches",
+    "time": "September 19, 2023",
+    "speaker": "Michael Brown",
+    "verbatim": [
+     "phishing attempts can lead to malware infections or data breaches"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "cybersecurity",
+    "relation": "example_offer",
+    "value": "Congratulations! You've won an iPhone 12!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Congratulations! You've won an iPhone 12!\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Always verify the source before clicking on links, and hover over URLs to preview where they actually lead",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Always verify the source before clicking on links, and hover over URLs to preview where they actually lead."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "software updates",
+    "relation": "delayed_because",
+    "value": "we're too busy scrolling through memes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delaying software updates because we're too busy scrolling through memes"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "software updates",
+    "relation": "contain",
+    "value": "critical security patches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But those updates often contain critical security patches."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "cybersecurity symposium",
+    "relation": "held_on",
+    "value": "September 27, 2023",
+    "time": "September 27, 2023",
+    "speaker": null,
+    "verbatim": [
+     "At the recent cybersecurity symposium on September 27, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sarah Zhang",
+    "relation": "occupation",
+    "value": "tech analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech analyst Sarah Zhang emphasized"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sarah Zhang",
+    "relation": "emphasized",
+    "value": "neglecting updates leaves the door wide open for cybercriminals",
+    "time": "September 27, 2023",
+    "speaker": "Sarah Zhang",
+    "verbatim": [
+     "tech analyst Sarah Zhang emphasized that neglecting updates leaves the door wide open for cybercriminals"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "automatic updates",
+    "relation": "recommended_action",
+    "value": "Enable automatic updates on your devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enable automatic updates on your devices to ensure you're always running the latest, most secure versions of software."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "automatic updates",
+    "relation": "purpose",
+    "value": "ensure you're always running the latest, most secure versions of software",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure you're always running the latest, most secure versions of software"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "automatic updates",
+    "relation": "in_order_to",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enable automatic updates on your devices to ensure you're always running the latest, most secure versions of software."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Two-factor authentication (2FA)",
+    "relation": "described_as",
+    "value": "a double lock on your digital life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's like a double lock on your digital life"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Jason Lopez",
+    "relation": "occupation",
+    "value": "expert hacker-turnedconsultant",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "expert hacker-turnedconsultant, Jason Lopez"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "online security webinar",
+    "relation": "held_on",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "In an online security webinar dated October 12, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jason Lopez",
+    "relation": "warned",
+    "value": "a strong password alone isn't always enough",
+    "time": "October 12, 2023",
+    "speaker": "Jason Lopez",
+    "verbatim": [
+     "warned that a strong password alone isn't always enough"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Two-factor authentication (2FA)",
+    "relation": "recommended_action",
+    "value": "Always opt-in for 2FA on your accounts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Always opt-in for 2FA on your accounts."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Two-factor authentication (2FA)",
+    "relation": "can_make_difference",
+    "value": "between staying secure and getting hacked",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It can be the difference between staying secure and getting hacked."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "public Wi-Fi",
+    "relation": "described_as",
+    "value": "convenient but can be like a public bathroom for your data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public Wi-Fi is convenient but can be like a public bathroom for your data"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "public Wi-Fi",
+    "relation": "demonstrated",
+    "value": "how easily unsecured Wi-Fi can be exploited",
+    "time": "October 5, 2023",
+    "speaker": "activists",
+    "verbatim": [
+     "During National Cybersecurity Awareness events on October 5, 2023, activists demonstrated how easily unsecured Wi-Fi can be exploited."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "public Wi-Fi",
+    "relation": "recommended_action",
+    "value": "Avoid accessing sensitive information on public Wi-Fi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Avoid accessing sensitive information on public Wi-Fi."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Virtual Private Network (VPN)",
+    "relation": "purpose",
+    "value": "encrypt your data transfers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "use a Virtual Private Network (VPN) to encrypt your data transfers"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "ransomware",
+    "relation": "scenario",
+    "value": "your precious files are held hostage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a ransomware attack hits, and your precious files are held hostage"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Laura Green",
+    "relation": "occupation",
+    "value": "data recovery specialist",
+    "time": "September 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "data recovery specialist Laura Green was quoted saying"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Laura Green",
+    "relation": "said",
+    "value": "Regular backups are your safety net against cyberdisasters.",
+    "time": "September 29, 2023",
+    "speaker": "Laura Green",
+    "verbatim": [
+     "Regular backups are your safety net against cyberdisasters."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Back up your data regularly, using an external drive and/or a cloud service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Back up your data regularly, using an external drive and/or a cloud service."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "3-2-1 backup strategy",
+    "relation": "defined_as",
+    "value": "three total copies of your data, two local (on different devices), and one offsite",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "three total copies of your data, two local (on different devices), and one offsite"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "social engineering",
+    "relation": "described_as",
+    "value": "Scammers are skilled at impersonating legitimate institutions to extract personal info",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scammers are skilled at impersonating legitimate institutions to extract personal info."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "James O'Connor",
+    "relation": "victim_of",
+    "value": "a vishing (voice phishing) scheme",
+    "time": "Just last month",
+    "speaker": null,
+    "verbatim": [
+     "Just last month, James O'Connor, victim of a vishing (voice phishing) scheme, shared his story"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "James O'Connor",
+    "relation": "shared_story_about",
+    "value": "how a fake bank representative duped him into revealing sensitive details",
+    "time": "Just last month",
+    "speaker": "James O'Connor",
+    "verbatim": [
+     "shared his story about how a fake bank representative duped him into revealing sensitive details"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "cybersecurity",
+    "relation": "states",
+    "value": "Legitimate organizations won't ask for sensitive information via unsolicited calls or emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Legitimate organizations won't ask for sensitive information via unsolicited calls or emails."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "cybersecurity",
+    "relation": "recommended_action",
+    "value": "contact the organization directly through official channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contact the organization directly through official channels."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "cybersecurity",
+    "relation": "police_reported_case",
+    "value": "sensitive documents were stolen straight from a homeowner's desk",
+    "time": "September 22, 2023",
+    "speaker": "local police",
+    "verbatim": [
+     "On September 22, 2023, local police reported a case where sensitive documents were stolen straight from a homeowner's desk."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Sofia Mendez",
+    "relation": "occupation",
+    "value": "Digital guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital guru, Sofia Mendez, illustrates"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Sofia Mendez",
+    "relation": "illustrates",
+    "value": "unattended devices or documents are easy targets for thieves",
+    "time": null,
+    "speaker": "Sofia Mendez",
+    "verbatim": [
+     "illustrates that unattended devices or documents are easy targets for thieves"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Shred sensitive paperwork, and don\u2019t leave gadgets unattended in public spaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shred sensitive paperwork, and don\u2019t leave gadgets unattended in public spaces."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Use screen locks and encryption to secure your electronic devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Use screen locks and encryption to secure your electronic devices."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cybersecurity",
+    "relation": "described_as",
+    "value": "ever-evolving, with new risks emerging regularly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The cyber threat landscape is ever-evolving, with new risks emerging regularly."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Federal Cybersecurity Agency",
+    "relation": "released",
+    "value": "a bulletin detailing the latest scam impacting millions of consumers",
+    "time": "Last week",
+    "speaker": null,
+    "verbatim": [
+     "Last week, the Federal Cybersecurity Agency released a bulletin detailing the latest scam impacting millions of consumers."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "cybersecurity",
+    "relation": "smart_move",
+    "value": "Stay informed by following cybersecurity news, updates from official agencies, and attending community awareness events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stay informed by following cybersecurity news, updates from official agencies, and attending community awareness events."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "cybersecurity",
+    "relation": "described_as",
+    "value": "Knowledge is power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Knowledge is power when it comes to protecting yourself against the dark arts of the digital world."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "cybersecurity",
+    "relation": "should_be",
+    "value": "an integral part of everyone's daily routine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity should be an integral part of everyone's daily routine"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "cybersecurity",
+    "relation": "result",
+    "value": "consumers can greatly reduce their risk of becoming a statistic in the next crime report",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers can greatly reduce their risk of becoming a statistic in the next crime report"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

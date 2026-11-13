@@ -1,0 +1,468 @@
+{
+ "inventory": [
+  "Olden University",
+  "Dr. Laura James",
+  "City High School",
+  "Lexington, Kentucky",
+  "Cybersecurity Infrastructure Security Agency",
+  "Department of Education",
+  "nationwide webinar",
+  "Maverick Cyber Defense",
+  "Benjamin Locke",
+  "Texas",
+  "Texas Educational Cybersecurity Task Force",
+  "University of Midland",
+  "cyber insurance",
+  "phishing",
+  "malware",
+  "ransomware",
+  "distributed denial-of-service (DDoS) attacks",
+  "artificial intelligence and machine learning",
+  "cybersecurity education"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Olden University",
+    "relation": "suffered_cyber_attack_on",
+    "value": "sophisticated cyber attack",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 15, 2023, the prestigious Olden University became the latest victim of a sophisticated cyber attack"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Olden University",
+    "relation": "attack_resulted_in_theft_of",
+    "value": "sensitive personal data belonging to thousands of students and faculty members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in the theft of sensitive personal data belonging to thousands of students and faculty members"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Olden University",
+    "relation": "incident_prompted",
+    "value": "a newfound vigilance within the sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This incident has prompted a newfound vigilance within the sector"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Olden University",
+    "relation": "attack_entry_point",
+    "value": "a well-crafted phishing email",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a well-crafted phishing email was the entry point for the attackers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Olden University",
+    "relation": "malware_embedded_into",
+    "value": "institution's network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "subsequently embedded malware into the institution\u2019s network to access and exfiltrate data"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Olden University",
+    "relation": "results_in",
+    "value_ref": "c2",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sophisticated cyber attack, resulting in the theft of sensitive personal data belonging to thousands of students and faculty members"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Laura James",
+    "relation": "is",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Laura James, a cybersecurity expert,"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Laura James",
+    "relation": "observes",
+    "value": "educational institutions often lack the robust cybersecurity measures found in corporate environments, making them particularly vulnerable to attacks",
+    "time": null,
+    "speaker": "Dr. Laura James",
+    "verbatim": [
+     "educational institutions often lack the robust cybersecurity measures found in corporate environments, making them particularly vulnerable to attacks"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "phishing",
+    "relation": "listed_among_common_methods_of_cyber_attack",
+    "value": "common method of cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some of the most common methods include phishing, malware, ransomware, and distributed denial-of-service (DDoS) attacks"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "malware",
+    "relation": "listed_among_common_methods_of_cyber_attack",
+    "value": "common method of cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some of the most common methods include phishing, malware, ransomware, and distributed denial-of-service (DDoS) attacks"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "ransomware",
+    "relation": "listed_among_common_methods_of_cyber_attack",
+    "value": "common method of cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some of the most common methods include phishing, malware, ransomware, and distributed denial-of-service (DDoS) attacks"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "distributed denial-of-service (DDoS) attacks",
+    "relation": "listed_among_common_methods_of_cyber_attack",
+    "value": "common method of cyber attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "some of the most common methods include phishing, malware, ransomware, and distributed denial-of-service (DDoS) attacks"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "phishing",
+    "relation": "involves",
+    "value": "attackers disguising themselves as trustworthy entities to extract sensitive information from unsuspecting individuals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "During a phishing attack, for example, attackers will often disguise themselves as trustworthy entities to extract sensitive information from unsuspecting individuals"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "ransomware",
+    "relation": "involves",
+    "value": "encryption of an institution's data, with attackers demanding payment in exchange for the decryption key",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ransomware attacks, on the other hand, involve the encryption of an institution's data, with attackers demanding payment in exchange for the decryption key"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "City High School",
+    "relation": "located_in",
+    "value": "Lexington, Kentucky",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City High School in Lexington, Kentucky, reported"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Lexington, Kentucky",
+    "relation": "location_of",
+    "value": "City High School",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "City High School in Lexington, Kentucky, reported"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "City High School",
+    "relation": "reported_spending",
+    "value": "over $2 million recovering from a ransomware attack that had crippled their network systems for weeks",
+    "time": "October 3, 2023",
+    "speaker": "City High School",
+    "verbatim": [
+     "over $2 million recovering from a ransomware attack that had crippled their network systems for weeks"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "ransomware",
+    "relation": "crippled_network_systems_for",
+    "value": "weeks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a ransomware attack that had crippled their network systems for weeks"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "City High School",
+    "relation": "spent_recovering_from",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "over $2 million recovering from a ransomware attack that had crippled their network systems for weeks"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Cybersecurity Infrastructure Security Agency",
+    "relation": "partnered_with",
+    "value": "Department of Education",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, the Cybersecurity Infrastructure Security Agency (CISA) partnered with the Department of Education to hold a nationwide webinar attended by IT professionals from various institutions."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Department of Education",
+    "relation": "partnered_with",
+    "value": "Cybersecurity Infrastructure Security Agency",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "partnered with the Department of Education to hold a nationwide webinar"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "nationwide webinar",
+    "relation": "organized_by",
+    "value": "Cybersecurity Infrastructure Security Agency and Department of Education",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, the Cybersecurity Infrastructure Security Agency (CISA) partnered with the Department of Education to hold a nationwide webinar"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Cybersecurity Infrastructure Security Agency",
+    "relation": "in_order_to",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with the Department of Education to hold a nationwide webinar"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "nationwide webinar",
+    "relation": "attended_by",
+    "value": "IT professionals from various institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attended by IT professionals from various institutions"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "nationwide webinar",
+    "relation": "focus",
+    "value": "educating schools about implementing cybersecurity best practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The focus was on educating schools about implementing cybersecurity best practices."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maverick Cyber Defense",
+    "relation": "specializes_in",
+    "value": "educational cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maverick Cyber Defense, a firm specializing in educational cybersecurity"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maverick Cyber Defense",
+    "relation": "offers",
+    "value": "a comprehensive approach to threat detection and response",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solutions like those provided by Maverick Cyber Defense, a firm specializing in educational cybersecurity, offer a comprehensive approach to threat detection and response."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Benjamin Locke",
+    "relation": "is_CEO_of",
+    "value": "Maverick Cyber Defense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their CEO, Benjamin Locke, emphasizes"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Benjamin Locke",
+    "relation": "emphasizes",
+    "value": "working with academic institutions to develop tailored cybersecurity strategies can significantly diminish the likelihood of successful cyber attacks",
+    "time": null,
+    "speaker": "Benjamin Locke",
+    "verbatim": [
+     "working with academic institutions to develop tailored cybersecurity strategies can significantly diminish the likelihood of successful cyber attacks"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Texas",
+    "relation": "governor_announced_creation_of",
+    "value": "Texas Educational Cybersecurity Task Force (TECT)",
+    "time": "October 21, 2023",
+    "speaker": "the governor",
+    "verbatim": [
+     "Such is the case in Texas, where the governor announced the creation of the Texas Educational Cybersecurity Task Force (TECT) on October 21, 2023."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Texas Educational Cybersecurity Task Force",
+    "relation": "announced_creation_on",
+    "value": "October 21, 2023",
+    "time": "October 21, 2023",
+    "speaker": "the governor",
+    "verbatim": [
+     "the governor announced the creation of the Texas Educational Cybersecurity Task Force (TECT) on October 21, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Texas Educational Cybersecurity Task Force",
+    "relation": "mission",
+    "value": "to coordinate with schools across the state to enhance cyber protection measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The task force's mission is to coordinate with schools across the state to enhance cyber protection measures."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "cybersecurity education",
+    "relation": "shifted_to_include",
+    "value": "as a foundational element",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Curriculum development has shifted to include cybersecurity education as a foundational element"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "cybersecurity education",
+    "relation": "ensures",
+    "value": "students and staff understand the threats and how to mitigate them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring students and staff understand the threats and how to mitigate them"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "University of Midland",
+    "relation": "launched_course",
+    "value": "a new course teaching the technical aspects of cybersecurity",
+    "time": "this semester",
+    "speaker": null,
+    "verbatim": [
+     "At the University of Midland, a new course launched this semester teaches not only the technical aspects of cybersecurity but also emphasizes the ethical responsibilities associated with managing digital information."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "University of Midland",
+    "relation": "course_emphasizes",
+    "value": "the ethical responsibilities associated with managing digital information",
+    "time": "this semester",
+    "speaker": null,
+    "verbatim": [
+     "emphasizes the ethical responsibilities associated with managing digital information"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "cyber insurance",
+    "relation": "considered_by_institutions_as",
+    "value": "a means of financial protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many educational institutions are considering cyber insurance policies as a means of financial protection"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "cyber insurance",
+    "relation": "typically_covers",
+    "value": "expenses related to data breaches, such as legal fees, notification costs, and even the cost of public relations efforts to manage any potential reputational damage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These policies typically cover expenses related to data breaches, such as legal fees, notification costs, and even the cost of public relations efforts to manage any potential reputational damage."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "artificial intelligence and machine learning",
+    "relation": "holds_promise_for",
+    "value": "bolstering defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the integration of advanced security technologies, like artificial intelligence and machine learning, into cybersecurity strategies holds promise for bolstering defenses"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "artificial intelligence and machine learning",
+    "relation": "can_potentially_identify_and_neutralize",
+    "value": "threats before they manifest into full-scale attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These adaptive systems can potentially identify and neutralize threats before they manifest into full-scale attacks"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

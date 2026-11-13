@@ -1,0 +1,931 @@
+{
+ "inventory": [
+  "John Smith",
+  "Global Bank",
+  "General Data Protection Regulation",
+  "GrammLeach-Bliley Act",
+  "European Union",
+  "United States",
+  "Cybersecurity Framework",
+  "National Institute of Standards and Technology",
+  "Network and Information Systems (NIS) Directive",
+  "Maria Gonzales",
+  "Singapore",
+  "Monetary Authority of Singapore",
+  "Technology Risk Management (TRM) guidelines",
+  "Lee Hsien Ming",
+  "Brazil",
+  "South Africa",
+  "India",
+  "Emerging markets",
+  "prescriptive compliance",
+  "Financial Stability Board",
+  "Tom Bradley",
+  "Artificial intelligence",
+  "Machine learning",
+  "Sarah Johnson",
+  "Global Cybersecurity Summit for Financial Services",
+  "London",
+  "Jake Rogers",
+  "ransomware",
+  "quantum computing",
+  "Asia",
+  "financial sector"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "financial sector",
+    "relation": "arguably_one_of_most_targeted_by",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the financial sector is arguably one of the most targeted by cybercriminals"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "financial sector",
+    "relation": "frequent_targets_are",
+    "value": "banks, investment firms, and insurance companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "banks, investment firms, and insurance companies are frequent targets for sophisticated cyber-attacks"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "financial sector",
+    "relation": "regulatory_response",
+    "value": "a spate of regulations and cybersecurity frameworks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulatory authorities around the world have responded with a spate of regulations and cybersecurity frameworks"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "financial sector",
+    "relation": "purpose_of_regulatory_response",
+    "value": "to ensure these institutions can stand firm against potential breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure these institutions can stand firm against potential breaches"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "financial sector",
+    "relation": "in_order_to",
+    "value_ref": "c4",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regulatory authorities around the world have responded with a spate of regulations and cybersecurity frameworks to ensure these institutions can stand firm against potential breaches."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "financial sector",
+    "relation": "compliance_landscape_as_of",
+    "value": "complex but also marked by a need for continuous evolution",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, the compliance landscape is not only complex but also marked by a need for continuous evolution."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "General Data Protection Regulation",
+    "relation": "operates_in",
+    "value": "European Union",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From the General Data Protection Regulation (GDPR) in the European Union"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "General Data Protection Regulation",
+    "relation": "abbreviated_as",
+    "value": "GDPR",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "General Data Protection Regulation (GDPR)"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "GrammLeach-Bliley Act",
+    "relation": "operates_in",
+    "value": "United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to the GrammLeach-Bliley Act (GLBA) in the United States"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "GrammLeach-Bliley Act",
+    "relation": "abbreviated_as",
+    "value": "GLBA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GrammLeach-Bliley Act (GLBA)"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "financial sector",
+    "relation": "regulatory_measures_focus_on",
+    "value": "protecting consumer data, ensuring privacy, and maintaining trust in the financial system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulatory measures have focused on protecting consumer data, ensuring privacy, and maintaining trust in the financial system"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "financial sector",
+    "relation": "faces_challenge_of",
+    "value": "adhering to disparate regulations that often overlap or contradict each other",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "finance sector entities across the globe face the challenge of adhering to disparate regulations that often overlap or contradict each other"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "John Smith",
+    "relation": "job_title",
+    "value": "Chief Information Security Officer (CISO)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, the Chief Information Security Officer (CISO) of Global Bank"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John Smith",
+    "relation": "works_at",
+    "value": "Global Bank",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, the Chief Information Security Officer (CISO) of Global Bank"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Smith",
+    "relation": "said",
+    "value": "Juggling different regulatory requirements while maintaining business operations and ensuring robust cybersecurity measures can be daunting.",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "Juggling different regulatory requirements while maintaining business operations and ensuring robust cybersecurity measures can be daunting."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "John Smith",
+    "relation": "said",
+    "value": "One must keep abreast of changes happening across the globe.",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "One must keep abreast of changes happening across the globe."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Cybersecurity Framework",
+    "relation": "serves_as",
+    "value": "blueprints for organizations to build their cyber defense strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity frameworks which serve as blueprints for organizations to build their cyber defense strategies"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Cybersecurity Framework",
+    "relation": "originates_in",
+    "value": "United States",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the United States, the Cybersecurity Framework developed by the National Institute of Standards and Technology (NIST)"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Cybersecurity Framework",
+    "relation": "developed_by",
+    "value": "National Institute of Standards and Technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Cybersecurity Framework developed by the National Institute of Standards and Technology (NIST)"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "National Institute of Standards and Technology",
+    "relation": "abbreviated_as",
+    "value": "NIST",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "National Institute of Standards and Technology (NIST)"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Cybersecurity Framework",
+    "relation": "provides",
+    "value": "a policy framework of computer security guidance for how private sector organizations can assess and improve their ability to prevent, detect, and respond to cyber-attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides a policy framework of computer security guidance for how private sector organizations can assess and improve their ability to prevent, detect, and respond to cyber-attacks"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Cybersecurity Framework",
+    "relation": "described_as",
+    "value": "comprehensive and voluntary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's comprehensive and voluntary"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Cybersecurity Framework",
+    "relation": "increasingly_seen_as",
+    "value": "a necessity for financial institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "increasingly seen as a necessity for financial institutions"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Network and Information Systems (NIS) Directive",
+    "relation": "provides",
+    "value": "legal measures to boost the overall level of cybersecurity in the EU",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the EU's Network and Information Systems (NIS) Directive provides legal measures to boost the overall level of cybersecurity in the EU"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Network and Information Systems (NIS) Directive",
+    "relation": "mandates",
+    "value": "businesses in critical sectors, including finance, take appropriate security measures and report cyber incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mandating that businesses in critical sectors, including finance, take appropriate security measures and report cyber incidents"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Gonzales",
+    "relation": "job_title",
+    "value": "EU cybersecurity policy expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzales, an EU cybersecurity policy expert, notes"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria Gonzales",
+    "relation": "said",
+    "value": "The EU takes a more regulatory approach, and financial institutions often have no choice but to comply with the stringent measures to operate in the area.",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "The EU takes a more regulatory approach, and financial institutions often have no choice but to comply with the stringent measures to operate in the area."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Asia",
+    "relation": "cybersecurity_scene_is",
+    "value": "similarly active",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Moving to Asia, the cybersecurity scene is similarly active"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Singapore",
+    "relation": "located_in",
+    "value": "Asia",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Moving to Asia, the cybersecurity scene is similarly active with Singapore"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Singapore",
+    "relation": "sets_benchmark_through",
+    "value": "Monetary Authority of Singapore's (MAS) Technology Risk Management (TRM) guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Singapore setting a benchmark through the Monetary Authority of Singapore's (MAS) Technology Risk Management (TRM) guidelines"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Monetary Authority of Singapore",
+    "relation": "issues",
+    "value": "Technology Risk Management (TRM) guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Monetary Authority of Singapore's (MAS) Technology Risk Management (TRM) guidelines"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Monetary Authority of Singapore",
+    "relation": "abbreviated_as",
+    "value": "MAS",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Monetary Authority of Singapore's (MAS)"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Technology Risk Management (TRM) guidelines",
+    "relation": "must_be_complied_with_by",
+    "value": "finance sector organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which finance sector organizations must comply with"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Technology Risk Management (TRM) guidelines",
+    "relation": "designed_to",
+    "value": "help financial institutions establish a sound risk management framework, enhance system security, and safeguard sensitive data and transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These guidelines are designed to help financial institutions establish a sound risk management framework, enhance system security, and safeguard sensitive data and transactions."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Technology Risk Management (TRM) guidelines",
+    "relation": "abbreviated_as",
+    "value": "TRM",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technology Risk Management (TRM) guidelines"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Lee Hsien Ming",
+    "relation": "job_title",
+    "value": "Singaporean cyber expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As noted by Singaporean cyber expert Lee Hsien Ming"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lee Hsien Ming",
+    "relation": "said",
+    "value": "The TRM guidelines underscore Singapore\u2019s commitment to creating a resilient and progressive cyber ecosystem that can not only thwart cyber threats but also thrive under strict regulations.",
+    "time": null,
+    "speaker": "Lee Hsien Ming",
+    "verbatim": [
+     "The TRM guidelines underscore Singapore\u2019s commitment to creating a resilient and progressive cyber ecosystem that can not only thwart cyber threats but also thrive under strict regulations."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Emerging markets",
+    "relation": "often_seen_as",
+    "value": "the soft underbelly for cybercrime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emerging markets, often seen as the soft underbelly for cybercrime"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Emerging markets",
+    "relation": "stepping_up",
+    "value": "their regulatory game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are also stepping up their regulatory game"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Brazil",
+    "relation": "instituted",
+    "value": "their own financial sector cybersecurity regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Brazil, South Africa, and India have instituted their own financial sector cybersecurity regulations"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "South Africa",
+    "relation": "instituted",
+    "value": "their own financial sector cybersecurity regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Brazil, South Africa, and India have instituted their own financial sector cybersecurity regulations"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "India",
+    "relation": "instituted",
+    "value": "their own financial sector cybersecurity regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Brazil, South Africa, and India have instituted their own financial sector cybersecurity regulations"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Emerging markets",
+    "relation": "regulations_still_in",
+    "value": "the maturing stages compared to their Western and Asian counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "although these are still in the maturing stages compared to their Western and Asian counterparts"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emerging markets",
+    "relation": "regulations_must",
+    "value": "strike a delicate balance between stringent security measures and the encouragement of financial sector growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In these regions, regulations must strike a delicate balance between stringent security measures and the encouragement of financial sector growth."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "financial sector",
+    "relation": "unified_compliance_goal",
+    "value": "to ease the compliance burden for multinational financial institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The goal is to ease the compliance burden for multinational financial institutions"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "prescriptive compliance",
+    "relation": "defined_as",
+    "value": "following explicit directions to comply with a particular standard or framework",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which involves following explicit directions to comply with a particular standard or framework"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "prescriptive compliance",
+    "relation": "offered_as",
+    "value": "a potential answer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A potential answer lies in the concept of"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Financial Stability Board",
+    "relation": "described_as",
+    "value": "an international body that monitors and makes recommendations about the global financial system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Financial Stability Board (FSB), an international body that monitors and makes recommendations about the global financial system"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Financial Stability Board",
+    "relation": "abbreviated_as",
+    "value": "FSB",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Financial Stability Board (FSB)"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Financial Stability Board",
+    "relation": "has_been_pivotal_in",
+    "value": "suggesting a unified framework that aligns with high-level principles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been pivotal in suggesting a unified framework that aligns with high-level principles"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "financial sector",
+    "relation": "faces_difficulty_addressing",
+    "value": "the specifics that differ across legal jurisdictions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "addressing the specifics that differ across legal jurisdictions remains a difficult task"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tom Bradley",
+    "relation": "job_title",
+    "value": "Compliance expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Compliance expert, Tom Bradley, remarks"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Tom Bradley",
+    "relation": "said",
+    "value": "Achieving global alignment is complex as it involves reconciling different priorities, legal systems, and risk tolerances.",
+    "time": null,
+    "speaker": "Tom Bradley",
+    "verbatim": [
+     "Achieving global alignment is complex as it involves reconciling different priorities, legal systems, and risk tolerances."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Artificial intelligence",
+    "relation": "abbreviated_as",
+    "value": "AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial intelligence (AI)"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Machine learning",
+    "relation": "abbreviated_as",
+    "value": "ML",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "machine learning (ML)"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Artificial intelligence",
+    "relation": "emerged_as",
+    "value": "key players in the realm of compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial intelligence (AI) and machine learning (ML) technologies have emerged as key players in the realm of compliance."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Machine learning",
+    "relation": "emerged_as",
+    "value": "key players in the realm of compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial intelligence (AI) and machine learning (ML) technologies have emerged as key players in the realm of compliance."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Artificial intelligence",
+    "relation": "can_sift",
+    "value": "massive datasets to detect compliance issues and predict where breaches might occur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These technologies can sift through massive datasets to detect compliance issues and predict where breaches might occur."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Artificial intelligence",
+    "relation": "role_is_twofold",
+    "value": "ensuring compliance through automating the monitoring of regulatory changes, and also bolstering cybersecurity measures by recognizing and responding to threats in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring compliance through automating the monitoring of regulatory changes, and also bolstering cybersecurity measures by recognizing and responding to threats in real-time"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Sarah Johnson",
+    "relation": "job_title",
+    "value": "fintech advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, a fintech advisor, elaborates on the implications for the financial sector,"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "Leveraging technologies like AI not only propels financial services firms towards more secure operations but also streamlines compliance.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "Leveraging technologies like AI not only propels financial services firms towards more secure operations but also streamlines compliance."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "This can ultimately lead to cost savings and more focused strategic possibilities.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "This can ultimately lead to cost savings and more focused strategic possibilities."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Artificial intelligence",
+    "relation": "results_in",
+    "value_ref": "c62",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "Leveraging technologies like AI not only propels financial services firms towards more secure operations but also streamlines compliance. This can ultimately lead to cost savings and more focused strategic possibilities."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "ransomware",
+    "relation": "example_of_evolving_threat",
+    "value": "increasing sophistication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as the increasing sophistication of ransomware"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "quantum computing",
+    "relation": "security_concern",
+    "value": "security concerns around quantum computing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the security concerns around quantum computing"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Cybersecurity Framework",
+    "relation": "updated",
+    "value": "frequently updated to respond to new threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Frameworks and regulations are frequently updated to respond to new threats"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "financial sector",
+    "relation": "requires",
+    "value": "ongoing vigilance and investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This requires ongoing vigilance and investment from financial institutions."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "financial sector",
+    "relation": "implies_need_for",
+    "value": "a continuous, iterative process of assessing threats, adjusting controls, and ensuring compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this implies a need for a continuous, iterative process of assessing threats, adjusting controls, and ensuring compliance."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Cybersecurity Framework",
+    "relation": "offers",
+    "value": "guidance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity frameworks offer guidance"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Cybersecurity Framework",
+    "relation": "should_be",
+    "value": "adaptable and interpreted contextually based on specific risks faced by an institution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they need to be adaptable and interpreted contextually based on specific risks faced by an institution."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "financial sector",
+    "relation": "battle_fought_on",
+    "value": "an international scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial sector's battle against cyber threats is being fought on an international scale."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Global Cybersecurity Summit for Financial Services",
+    "relation": "held_in",
+    "value": "London",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In November 2023, experts from around the world gathered at the Global Cybersecurity Summit for Financial Services in London"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Global Cybersecurity Summit for Financial Services",
+    "relation": "purpose",
+    "value": "to discuss collaborative approaches to combating cybercrime",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "gathered at the Global Cybersecurity Summit for Financial Services in London to discuss collaborative approaches to combating cybercrime"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Global Cybersecurity Summit for Financial Services",
+    "relation": "key_takeaways",
+    "value": "the need for better public-private partnerships, information sharing, and a harmonized approach to regulatory compliance across jurisdictions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Key takeaways from the summit highlighted the need for better public-private partnerships, information sharing, and a harmonized approach to regulatory compliance across jurisdictions."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Jake Rogers",
+    "relation": "job_title",
+    "value": "cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Rogers, a cybersecurity analyst who spoke at the Summit"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Jake Rogers",
+    "relation": "spoke_at",
+    "value": "Global Cybersecurity Summit for Financial Services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jake Rogers, a cybersecurity analyst who spoke at the Summit"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Jake Rogers",
+    "relation": "underlined",
+    "value": "the role of collaboration",
+    "time": null,
+    "speaker": "Jake Rogers",
+    "verbatim": [
+     "Jake Rogers, a cybersecurity analyst who spoke at the Summit, underlined the role of collaboration"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Jake Rogers",
+    "relation": "said",
+    "value": "It's not just about adhering to regulations or implementing frameworks \u2014 it's about financial institutions worldwide working in concert with governments, regulators, and each other to create a united front against cybercrime.",
+    "time": null,
+    "speaker": "Jake Rogers",
+    "verbatim": [
+     "It's not just about adhering to regulations or implementing frameworks \u2014 it's about financial institutions worldwide working in concert with governments, regulators, and each other to create a united front against cybercrime."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "financial sector",
+    "relation": "pivotal_nexus",
+    "value": "the nexus of regulatory compliance and cybersecurity frameworks will continue to be pivotal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the nexus of regulatory compliance and cybersecurity frameworks will continue to be pivotal for the financial sector"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "financial sector",
+    "relation": "no_one_size_fits_all_strategy",
+    "value": "there is no one-size-fits-all strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While there is no one-size-fits-all strategy"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "financial sector",
+    "relation": "lynchpins_for",
+    "value": "a safer financial environment in the digital age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the continuous global dialogue, technological advancements, and shared knowledge are the lynchpins for a safer financial environment in the digital age."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

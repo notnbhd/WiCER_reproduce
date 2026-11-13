@@ -1,0 +1,635 @@
+{
+ "inventory": [
+  "Virtual Private Networks (VPNs)",
+  "remote work",
+  "COVID-19 pandemic",
+  "Emily Clark",
+  "Innovatech Corp",
+  "National Cyber Security Centre",
+  "Johnathan Reeves",
+  "Anna Petrova",
+  "GlobalTech Solutions",
+  "Next-generation VPNs",
+  "split tunneling",
+  "autoconnect functionalities",
+  "single sign-on (SSO)",
+  "biometric authentication",
+  "Mark Jacobsen",
+  "AI",
+  "256-bit encryption",
+  "no-logs policy",
+  "kill-switch capability",
+  "VPN usage policy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "one of the most significant transformations in the labor market",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "The rise of remote work has been one of the most significant transformations in the labor market in recent years."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "remote work",
+    "relation": "accelerated_by",
+    "value": "COVID-19 pandemic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The trend, dramatically accelerated by the COVID-19 pandemic, has now become a staple of modern business practices."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work",
+    "relation": "has_become",
+    "value": "a staple of modern business practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has now become a staple of modern business practices"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "emerged_as",
+    "value": "a critical component in this new dynamic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual Private Networks (VPNs) have emerged as a critical component in this new dynamic."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "remote work",
+    "relation": "invites",
+    "value": "a slew of cyber risks that demand more robust cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "embracing this paradigm invites a slew of cyber risks that demand more robust cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote work",
+    "relation": "sharp_increase_in_remote_employees",
+    "value": "a sharp increase in the number of employees working remotely",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, studies have continued to show a sharp increase in the number of employees working remotely."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "a flexible option that many workers and employers prefer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This evolution is not just a consequence of global health concerns, but also a flexible option that many workers and employers prefer."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "remote work",
+    "relation": "exposed_businesses_to",
+    "value": "heightened cyber risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this shift has also exposed businesses to heightened cyber risks."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "remote work",
+    "relation": "attack_surface_for_cyber_threats",
+    "value": "drastically expanded",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the attack surface for cyber threats has drastically expanded."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "remote work",
+    "relation": "mechanism_of",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With employees accessing company data from different networks, often personal and unsecured, the attack surface for cyber threats has drastically expanded."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "defined_as",
+    "value": "a technology that creates a secure, encrypted connection between a user's computer and a server operated by the VPN service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A VPN is a technology that creates a secure, encrypted connection between a user's computer and a server operated by the VPN service."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "helps_ensure",
+    "value": "data transmitted between the remote worker and the company's network remains private and secure from eavesdropping, cyber attacks, and other malicious activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tunnel helps ensure that data transmitted between the remote worker and the company's network remains private and secure from eavesdropping, cyber attacks, and other malicious activities."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "mechanism_of",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A VPN is a technology that creates a secure, encrypted connection between a user's computer and a server operated by the VPN service.",
+     "This tunnel helps ensure that data transmitted between the remote worker and the company's network remains private and secure from eavesdropping, cyber attacks, and other malicious activities."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emily Clark",
+    "relation": "job_title",
+    "value": "head of the IT department",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Clark, the head of the IT department at Innovatech Corp,"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emily Clark",
+    "relation": "works_at",
+    "value": "Innovatech Corp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Clark, the head of the IT department at Innovatech Corp,"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Emily Clark",
+    "relation": "stated",
+    "value": "In the era of widespread remote work, a VPN is not just an extra layer of security - it has become a necessity.",
+    "time": null,
+    "speaker": "Emily Clark",
+    "verbatim": [
+     "In the era of widespread remote work, a VPN is not just an extra layer of security - it has become a necessity."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Emily Clark",
+    "relation": "explains",
+    "value": "without a VPN, the sensitive data being transmitted is vulnerable to cyber threats, ranging from identity theft to corporate espionage",
+    "time": null,
+    "speaker": "Emily Clark",
+    "verbatim": [
+     "As she explains, without a VPN, the sensitive data being transmitted is vulnerable to cyber threats, ranging from identity theft to corporate espionage."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "National Cyber Security Centre",
+    "relation": "released",
+    "value": "current cybersecurity reports that paint a concerning picture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Current cybersecurity reports released by authorities like the National Cyber Security Centre paint a concerning picture."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "prime targets for cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making remote workers prime targets for cybercriminals"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Johnathan Reeves",
+    "relation": "job_title",
+    "value": "a leading cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Reeves, a leading cybersecurity consultant, notes,"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Johnathan Reeves",
+    "relation": "notes",
+    "value": "remote workers often feel they're out of sight and, therefore, out of the line of fire for cyber attacks; this complacency can lead to disastrous breaches",
+    "time": null,
+    "speaker": "Johnathan Reeves",
+    "verbatim": [
+     "workers often feel they're out of sight and, therefore, out of the line of fire for cyber attacks; this complacency can lead to disastrous breaches."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Johnathan Reeves",
+    "relation": "complacency_can_lead_to",
+    "value": "disastrous breaches",
+    "time": null,
+    "speaker": "Johnathan Reeves",
+    "verbatim": [
+     "this complacency can lead to disastrous breaches."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "implementation_involves",
+    "value": "a comprehensive process that starts with selecting the right VPN provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It involves a comprehensive process that starts with selecting the right VPN provider"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "implementation_goes_beyond",
+    "value": "merely asking employees to install a VPN client on their devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The implementation goes beyond merely asking employees to install a VPN client on their devices."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "256-bit encryption",
+    "relation": "is_security_feature_of",
+    "value": "VPN provider chosen by companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that offers robust security features such as 256-bit encryption, a no-logs policy, and kill-switch capability."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "no-logs policy",
+    "relation": "is_security_feature_of",
+    "value": "VPN provider chosen by companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that offers robust security features such as 256-bit encryption, a no-logs policy, and kill-switch capability."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "kill-switch capability",
+    "relation": "is_security_feature_of",
+    "value": "VPN provider chosen by companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that offers robust security features such as 256-bit encryption, a no-logs policy, and kill-switch capability."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "VPN usage policy",
+    "relation": "established_by",
+    "value": "companies, after choosing a provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After choosing a provider, companies must establish a clear VPN usage policy, detailing when and how to use the VPN."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "VPN usage policy",
+    "relation": "details",
+    "value": "when and how to use the VPN",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After choosing a provider, companies must establish a clear VPN usage policy, detailing when and how to use the VPN."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "remote work",
+    "relation": "training_ensures",
+    "value": "all employees understand the risks and best practices for safe remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Training sessions spearheaded by cybersecurity experts should be provided to ensure all employees understand the risks and best practices for safe remote work."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "choice_influenced_by",
+    "value": "the size of the workforce, the nature of the data handled, and compliance requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Considerations such as the size of the workforce, the nature of the data handled, and compliance requirements should all influence the choice of VPN solutions."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Anna Petrova",
+    "relation": "job_title",
+    "value": "CISO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Petrova, CISO at GlobalTech Solutions,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Anna Petrova",
+    "relation": "works_at",
+    "value": "GlobalTech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Petrova, CISO at GlobalTech Solutions,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Anna Petrova",
+    "relation": "emphasizes",
+    "value": "the importance of customized solutions",
+    "time": null,
+    "speaker": "Anna Petrova",
+    "verbatim": [
+     "emphasizes the importance of customized solutions:"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Anna Petrova",
+    "relation": "stated",
+    "value": "We can't expect a one-size-fits-all approach when it comes to VPNs. A tailormade solution that aligns with our specific organization's demands, and is scalable, is vital for effective cybersecurity in a remote work setup.",
+    "time": null,
+    "speaker": "Anna Petrova",
+    "verbatim": [
+     "We can't expect a one-size-fits-all approach when it comes to VPNs. A tailormade solution that aligns with our specific organization's demands, and is scalable, is vital for effective cybersecurity in a remote work setup."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Next-generation VPNs",
+    "relation": "capable_of",
+    "value": "addressing the unique demands of a modern remote workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Next-generation VPNs are now capable of addressing the unique demands of a modern remote workforce."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Next-generation VPNs",
+    "relation": "includes",
+    "value": "split tunneling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These include features like split tunneling, allowing access to public and private networks simultaneously, and autoconnect functionalities for seamless security."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Next-generation VPNs",
+    "relation": "includes",
+    "value": "autoconnect functionalities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These include features like split tunneling, allowing access to public and private networks simultaneously, and autoconnect functionalities for seamless security."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "split tunneling",
+    "relation": "allows",
+    "value": "access to public and private networks simultaneously",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "split tunneling, allowing access to public and private networks simultaneously"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "autoconnect functionalities",
+    "relation": "provides",
+    "value": "seamless security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "autoconnect functionalities for seamless security."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Next-generation VPNs",
+    "relation": "designed_to_be",
+    "value": "more user-friendly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "next-gen VPNs are designed to be more user-friendly, negating a lot of the complexity that can deter employees from using them correctly or consistently."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Next-generation VPNs",
+    "relation": "negates",
+    "value": "a lot of the complexity that can deter employees from using them correctly or consistently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "next-gen VPNs are designed to be more user-friendly, negating a lot of the complexity that can deter employees from using them correctly or consistently."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Next-generation VPNs",
+    "relation": "focus",
+    "value": "creating a solution where the end-user doesn't have to be a tech expert to maintain their cybersecurity stance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The focus is on creating a solution where the end-user doesn't have to be a tech expert to maintain their cybersecurity stance."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "requires_collaboration_between",
+    "value": "VPN providers and IT departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VPN providers and IT departments need to work hand in hand to create solutions that are both secure and easy to use."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "single sign-on (SSO)",
+    "relation": "enhances",
+    "value": "both security and convenience for remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in technologies like single sign-on (SSO) and biometric authentication to enhance both security and convenience for remote workers."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "biometric authentication",
+    "relation": "enhances",
+    "value": "both security and convenience for remote workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in technologies like single sign-on (SSO) and biometric authentication to enhance both security and convenience for remote workers."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "remote work",
+    "relation": "advocated_for",
+    "value": "more investment in cybersecurity infrastructure to cater to the remote work environment",
+    "time": null,
+    "speaker": "Industry leaders",
+    "verbatim": [
+     "Industry leaders have been advocating for more investment in cybersecurity infrastructure to cater to the remote work environment."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Mark Jacobsen",
+    "relation": "job_title",
+    "value": "tech innovator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech innovator Mark Jacobsen predicts that"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Mark Jacobsen",
+    "relation": "predicts",
+    "value": "the integration of AI with VPN technologies could significantly automate threat detection and response, making cybersecurity more proactive rather than reactive",
+    "time": "By the end of this decade",
+    "speaker": "Mark Jacobsen",
+    "verbatim": [
+     "By the end of this decade, the integration of AI with VPN technologies could significantly automate threat detection and response, making cybersecurity more proactive rather than reactive."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "AI",
+    "relation": "could_automate",
+    "value": "threat detection and response",
+    "time": "By the end of this decade",
+    "speaker": "Mark Jacobsen",
+    "verbatim": [
+     "the integration of AI with VPN technologies could significantly automate threat detection and response"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "AI",
+    "relation": "could_make_cybersecurity",
+    "value": "more proactive rather than reactive",
+    "time": "By the end of this decade",
+    "speaker": "Mark Jacobsen",
+    "verbatim": [
+     "making cybersecurity more proactive rather than reactive"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "AI",
+    "relation": "results_in",
+    "value_ref": "c51",
+    "time": "By the end of this decade",
+    "speaker": "Mark Jacobsen",
+    "verbatim": [
+     "could significantly automate threat detection and response, making cybersecurity more proactive rather than reactive"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "importance",
+    "value": "cannot be overstated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the role of VPNs in securing remote work cannot be overstated."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "businesses_should_also",
+    "value": "instill a culture of continuous cybersecurity education and adaptation among their workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's imperative that businesses not only adopt VPN technologies but also instill a culture of continuous cybersecurity education and adaptation among their workforce."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "stands_as_best_defense_against",
+    "value": "the threats lurking within the digital shadows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands as our best defense against the threats lurking within the digital shadows."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

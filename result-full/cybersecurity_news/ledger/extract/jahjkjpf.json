@@ -1,0 +1,988 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "TechTrends Daily",
+  "John Smith",
+  "SecurePathways Inc.",
+  "Aisha Khan",
+  "Dr. Luis Martinez",
+  "The Game of Work",
+  "ThinkSecure Corp",
+  "David Lee",
+  "The Great Remote Work Experiment",
+  "gamification",
+  "Virtual Private Networks (VPNs)",
+  "multifactor authentication",
+  "Security Stars",
+  "Human Firewall",
+  "digital nomadism",
+  "phishing",
+  "social engineering attacks",
+  "hackathons",
+  "remote work policy",
+  "pandemic",
+  "cyber threats"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work policy",
+    "relation": "share_of_companies_offering_remote_work",
+    "value": "60%",
+    "time": "As of October 19, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of October 19, 2023, a staggering 60% of companies offer some form of remote work."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "pandemic",
+    "relation": "aftermath_contains",
+    "value": "remote work continues its meteoric rise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work continues its meteoric rise in the aftermath of the pandemic"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work policy",
+    "relation": "demand_status",
+    "value": "a mainstay, no longer a trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The demand for a decentralised workforce is no longer a trend; it has become a mainstay."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote work policy",
+    "relation": "tension_between",
+    "value": "maintaining a flexible work environment and ensuring rigorous cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses today grapple with the tension between maintaining a flexible work environment and ensuring rigorous cybersecurity."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "cyber threats",
+    "relation": "looms_large",
+    "value": "looms large",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the spectre of cyber threats looms large"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "cyber threats",
+    "relation": "compels",
+    "value": "organizations to evolve rapidly in their approach to remote work policy development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compelling organizations to evolve rapidly in their approach to remote work policy development."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "cyber threats",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the spectre of cyber threats looms large, compelling organizations to evolve rapidly in their approach to remote work policy development."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "The Great Remote Work Experiment",
+    "relation": "began",
+    "value": "companies were catapulted into it",
+    "time": "Post-March 2023",
+    "speaker": null,
+    "verbatim": [
+     "companies were catapulted into what has been termed 'The Great Remote Work Experiment.'"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "The Great Remote Work Experiment",
+    "relation": "characterized_by",
+    "value": "little preparation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With little preparation, businesses transitioned to remote operations, relying heavily on digital communications and cloud services."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "The Great Remote Work Experiment",
+    "relation": "relied_on",
+    "value": "digital communications and cloud services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relying heavily on digital communications and cloud services."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Great Remote Work Experiment",
+    "relation": "underscored",
+    "value": "the need for robust cybersecurity strategies",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "This experiment underscored the need for robust cybersecurity strategies, as reported by cybersecurity expert Jane Doe in her latest commentary for 'TechTrends Daily.'"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jane Doe",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity expert Jane Doe in her latest commentary"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Jane Doe",
+    "relation": "published_commentary_for",
+    "value": "TechTrends Daily",
+    "time": "latest",
+    "speaker": null,
+    "verbatim": [
+     "in her latest commentary for 'TechTrends Daily.'"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "TechTrends Daily",
+    "relation": "published_commentary_by",
+    "value": "Jane Doe",
+    "time": "latest",
+    "speaker": null,
+    "verbatim": [
+     "in her latest commentary for 'TechTrends Daily.'"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "remote work policy",
+    "relation": "exposed",
+    "value": "vulnerabilities within corporate networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unwieldy rush to remote work, however, exposed vulnerabilities within corporate networks."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "remote work policy",
+    "relation": "employees_access_resources_from",
+    "value": "personal devices or unsecured networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees tapping into company resources from their personal devices or unsecured networks became the norm"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "cyber threats",
+    "relation": "access_point_for",
+    "value": "each remote setup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turning each remote setup into a potential access point for cyber threats."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "remote work policy",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees tapping into company resources from their personal devices or unsecured networks became the norm, turning each remote setup into a potential access point for cyber threats."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "gamification",
+    "relation": "defined_as",
+    "value": "the art of applying game-design elements to non-game contexts to foster engagement and learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the art of applying game-design elements to non-game contexts to foster engagement and learning."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "gamification",
+    "relation": "analogy_central",
+    "value": "the play of incentives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Central to the gaming analogy is the play of incentives."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "John Smith",
+    "relation": "position",
+    "value": "CTO of SecurePathways Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "security chiefs like John Smith, CTO of SecurePathways Inc.,"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "SecurePathways Inc.",
+    "relation": "has_cto",
+    "value": "John Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, CTO of SecurePathways Inc.,"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "gamification",
+    "relation": "spearheaded_by",
+    "value": "security chiefs like John Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by security chiefs like John Smith, CTO of SecurePathways Inc.,"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "gamification",
+    "relation": "used_for",
+    "value": "game-like cybersecurity training modules to embed best practices into their workforce\u2019s daily routine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "numerous businesses are now experimenting with game-like cybersecurity training modules to embed best practices into their workforce\u2019s daily routine."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "gamification",
+    "relation": "becoming_central_to",
+    "value": "remote work policy norms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These interactive experiences aren't just innovative; they are becoming central to remote work policy norms."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Aisha Khan",
+    "relation": "is_a",
+    "value": "cybersecurity specialist",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As cybersecurity specialist Aisha Khan noted in a webinar on September 15, 2023,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "gamification",
+    "relation": "bridges_gap_between",
+    "value": "knowledge and action",
+    "time": "September 15, 2023",
+    "speaker": "Aisha Khan",
+    "verbatim": [
+     "Gamification in security training bridges the gap between knowledge and action by incentivizing employees through reward systems, real-life simulations, and leaderboards."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "gamification",
+    "relation": "incentivizes_employees_through",
+    "value": "reward systems, real-life simulations, and leaderboards",
+    "time": "September 15, 2023",
+    "speaker": "Aisha Khan",
+    "verbatim": [
+     "by incentivizing employees through reward systems, real-life simulations, and leaderboards."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "gamification",
+    "relation": "transforms_learning_into",
+    "value": "an engaging experience",
+    "time": "September 15, 2023",
+    "speaker": "Aisha Khan",
+    "verbatim": [
+     "It transforms the often-dreary task of learning complex security protocols into an engaging experience."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "gamification",
+    "relation": "mechanism_of",
+    "value_ref": "c28",
+    "time": "September 15, 2023",
+    "speaker": "Aisha Khan",
+    "verbatim": [
+     "bridges the gap between knowledge and action by incentivizing employees through reward systems, real-life simulations, and leaderboards."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "remote work policy",
+    "relation": "analogy",
+    "value": "drafting a game plan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Developing a remote work policy is akin to drafting a game plan."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "remote work policy",
+    "relation": "should_be",
+    "value": "adaptable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It must be adaptable, considering various scenarios and offering clear directives to ensure the safety of the company's data assets."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "remote work policy",
+    "relation": "should_offer",
+    "value": "clear directives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering clear directives to ensure the safety of the company's data assets."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "remote work policy",
+    "relation": "ensures",
+    "value": "the safety of the company's data assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering clear directives to ensure the safety of the company's data assets."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "remote work policy",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering clear directives to ensure the safety of the company's data assets."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "remote work policy",
+    "relation": "should_emphasize",
+    "value": "the need for secure connections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emphasize the need for secure connections."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Virtual Private Networks (VPNs)",
+    "relation": "role",
+    "value": "shields that protect data from prying eyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual Private Networks (VPNs) and multifactor authentication are not just buzzwords; they are the shields that protect data from prying eyes."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "multifactor authentication",
+    "relation": "role",
+    "value": "shields that protect data from prying eyes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual Private Networks (VPNs) and multifactor authentication are not just buzzwords; they are the shields that protect data from prying eyes."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "remote work policy",
+    "relation": "should_outline",
+    "value": "strict guidelines for using company-approved VPNs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The policy should outline strict guidelines for using company-approved VPNs and mandate authentication processes."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "remote work policy",
+    "relation": "should_mandate",
+    "value": "authentication processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The policy should outline strict guidelines for using company-approved VPNs and mandate authentication processes."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "remote work policy",
+    "relation": "analogy",
+    "value": "upgrading gaming gear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maintaining up-to-date software can be likened to upgrading your gaming gear; you need the best to perform well."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "remote work policy",
+    "relation": "should_enforce",
+    "value": "regular system updates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Policies should enforce regular system updates to tackle vulnerabilities that could be exploited by cybercriminals."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "remote work policy",
+    "relation": "addresses",
+    "value": "vulnerabilities that could be exploited by cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to tackle vulnerabilities that could be exploited by cybercriminals."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "remote work policy",
+    "relation": "in_order_to",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Policies should enforce regular system updates to tackle vulnerabilities that could be exploited by cybercriminals."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "remote work policy",
+    "relation": "analogy",
+    "value": "swift and secure communication is akin to a lifeline",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the game of remote work, swift and secure communication is akin to a lifeline."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "remote work policy",
+    "relation": "should_establish",
+    "value": "approved channels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Establishing approved channels, whether it's for general communication or for reporting potential security threats, ensures information flows efficiently and securely."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "remote work policy",
+    "relation": "ensures",
+    "value": "information flows efficiently and securely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensures information flows efficiently and securely."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "remote work policy",
+    "relation": "results_in",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Establishing approved channels, whether it's for general communication or for reporting potential security threats, ensures information flows efficiently and securely."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Human Firewall",
+    "relation": "requires",
+    "value": "employees understand their role in cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A company's employees must understand their role in cybersecurity."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Human Firewall",
+    "relation": "trained_through",
+    "value": "engaging and continuous training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through engaging and continuous training, workers can be equipped with the necessary knowledge to recognize threats such as phishing or social engineering attacks."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "phishing",
+    "relation": "is_threat_workers_can_recognize",
+    "value": "a threat workers can be equipped to recognize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognize threats such as phishing or social engineering attacks."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "social engineering attacks",
+    "relation": "is_threat_workers_can_recognize",
+    "value": "a threat workers can be equipped to recognize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognize threats such as phishing or social engineering attacks."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Luis Martinez",
+    "relation": "is_a",
+    "value": "gamification guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As posited by gamification guru Dr. Luis Martinez in his recent bestseller"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Dr. Luis Martinez",
+    "relation": "wrote",
+    "value": "The Game of Work",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "in his recent bestseller, \"The Game of Work,\""
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "The Game of Work",
+    "relation": "is_a",
+    "value": "bestseller",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "in his recent bestseller, \"The Game of Work,\""
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Dr. Luis Martinez",
+    "relation": "posited",
+    "value": "employees respond more effectively to positive reinforcement",
+    "time": null,
+    "speaker": "Dr. Luis Martinez",
+    "verbatim": [
+     "employees respond more effectively to positive reinforcement."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "remote work policy",
+    "relation": "exception_to_positive_reinforcement_principle",
+    "value": "no exception",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work policies are no exception."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "remote work policy",
+    "relation": "fostered_by_rewarding_compliance",
+    "value": "a proactive cybersecurity culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By rewarding compliance and best practices, companies can foster a proactive cybersecurity culture."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Security Stars",
+    "relation": "recognized",
+    "value": "each quarter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the \u2018Security Stars\u2019 each quarter"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "remote work policy",
+    "relation": "could_include",
+    "value": "giving bonuses for impeccable cybersecurity track records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or giving bonuses for impeccable cybersecurity track records."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "remote work policy",
+    "relation": "strategy_includes",
+    "value": "encouraging employees to come up with innovative cybersecurity solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Encouraging employees to come up with innovative cybersecurity solutions is another strategy."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "hackathons",
+    "relation": "launched_in",
+    "value": "company-wide hackathons",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 2023 saw the launch of company-wide hackathons like the one organized by ThinkSecure Corp,"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "ThinkSecure Corp",
+    "relation": "organized",
+    "value": "hackathons",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "the one organized by ThinkSecure Corp"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "hackathons",
+    "relation": "participants",
+    "value": "employees from all departments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where employees from all departments teamed up to find security gaps and propose solutions."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "hackathons",
+    "relation": "purpose",
+    "value": "find security gaps and propose solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where employees from all departments teamed up to find security gaps and propose solutions."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "hackathons",
+    "relation": "improves",
+    "value": "the security posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This not only improves the security posture but engenders a sense of collective responsibility and engagement."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "hackathons",
+    "relation": "engenders",
+    "value": "a sense of collective responsibility and engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This not only improves the security posture but engenders a sense of collective responsibility and engagement."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "cyber threats",
+    "relation": "cybersecurity_evolves_as",
+    "value": "threats mature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity is not a one-time event but a dynamic process that evolves as threats mature."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "remote work policy",
+    "relation": "requires",
+    "value": "organizations keep abreast of the latest threat intelligence and integrate these insights into their ongoing policy development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizations must keep abreast of the latest threat intelligence and integrate these insights into their ongoing policy development."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "David Lee",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert David Lee, in an interview dated October 1, 2023,"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "David Lee",
+    "relation": "interview_date",
+    "value": "October 1, 2023",
+    "time": "October 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "in an interview dated October 1, 2023,"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "David Lee",
+    "relation": "emphasized",
+    "value": "continuous adaptation and a forward-looking stance to anticipate the maneuvers of cyber adversaries",
+    "time": "October 1, 2023",
+    "speaker": "David Lee",
+    "verbatim": [
+     "emphasised the need for \"continuous adaptation and a forward-looking stance to anticipate the maneuvers of cyber adversaries.\""
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "remote work policy",
+    "relation": "must_be_subject_to",
+    "value": "continuous feedback and refinement based on real-world experiences and employee input",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work policies must be subject to continuous feedback and refinement based on real-world experiences and employee input."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "remote work policy",
+    "relation": "critical_role_in_process",
+    "value": "an open dialogue between IT, security teams, and remote employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An open dialogue between IT, security teams, and remote employees plays a critical role in this process,"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "remote work policy",
+    "relation": "ensures",
+    "value": "policies remain relevant and practical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring policies remain relevant and practical."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "remote work policy",
+    "relation": "results_in",
+    "value_ref": "c75",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An open dialogue between IT, security teams, and remote employees plays a critical role in this process, ensuring policies remain relevant and practical."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "digital nomadism",
+    "relation": "goal_is",
+    "value": "paving the way for a secure form of digital nomadism",
+    "time": "As we look to the future",
+    "speaker": null,
+    "verbatim": [
+     "As we look to the future, the goal is clear: paving the way for a secure form of digital nomadism that doesn't reign in the flexibility or creativity of the modern workforce."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "digital nomadism",
+    "relation": "does_not_curb",
+    "value": "the flexibility or creativity of the modern workforce",
+    "time": "As we look to the future",
+    "speaker": null,
+    "verbatim": [
+     "paving the way for a secure form of digital nomadism that doesn't reign in the flexibility or creativity of the modern workforce."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "digital nomadism",
+    "relation": "requires_cybersecurity_practices_to_keep_pace_with",
+    "value": "technological changes and the shifting landscapes of how and where we work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity practices must keep pace, not only with technological changes but also with the shifting landscapes of how and where we work."
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "remote work policy",
+    "relation": "entails",
+    "value": "creating a responsive environment where security is seamlessly integrated into daily work habits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Building a resilient remote workforce entails creating a responsive environment where security is seamlessly integrated into daily work habits."
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "remote work policy",
+    "relation": "mindset",
+    "value": "each remote worker is an empowered guardian of their digital workspace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's about developing a mindset where each remote worker is an empowered guardian of their digital workspace."
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "remote work policy",
+    "relation": "becomes_less_about",
+    "value": "enforcing rules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafting an effective remote work policy becomes less about enforcing rules and more about nurturing a culture that naturally prioritizes cybersecurity."
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "remote work policy",
+    "relation": "becomes_more_about",
+    "value": "nurturing a culture that naturally prioritizes cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafting an effective remote work policy becomes less about enforcing rules and more about nurturing a culture that naturally prioritizes cybersecurity."
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "remote work policy",
+    "relation": "enabled_by",
+    "value": "collaboration and innovation, coupled with a little gaming fun",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through collaboration and innovation, coupled with a little gaming fun,"
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "remote work policy",
+    "relation": "mechanism_of",
+    "value_ref": "c83",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through collaboration and innovation, coupled with a little gaming fun, crafting an effective remote work policy becomes less about enforcing rules and more about nurturing a culture that naturally prioritizes cybersecurity."
+    ]
+   },
+   {
+    "id": "c86",
+    "entity": "remote work policy",
+    "relation": "described_as",
+    "value": "a high-stakes game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remains a high-stakes game\u2014one that modern businesses must play to win."
+    ]
+   },
+   {
+    "id": "c87",
+    "entity": "The Great Remote Work Experiment",
+    "relation": "inception_of",
+    "value": "this massive shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reflect on the inception of this massive shift."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

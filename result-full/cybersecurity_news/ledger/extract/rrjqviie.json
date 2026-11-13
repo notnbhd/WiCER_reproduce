@@ -1,0 +1,826 @@
+{
+ "inventory": [
+  "Maria Gonzalez",
+  "Robert Smith",
+  "SecureTech Innovations",
+  "CyberSafe Solutions",
+  "Owen Jacobs",
+  "Sara Burns",
+  "Zero Trust Architecture",
+  "Secure Access Service Edge (SASE)",
+  "Endpoint Detection and Response (EDR) solutions",
+  "CyberSecurity Summit",
+  "NetSec conference",
+  "cybersecurity insurance",
+  "biometric authentication",
+  "behavior-based security measures",
+  "endpoint security",
+  "remote work",
+  "cybersecurity industry",
+  "machine learning and artificial intelligence",
+  "comprehensive device management policies",
+  "traditional perimeter-based security measures",
+  "cyber attackers",
+  "the pandemic",
+  "global digital transformation",
+  "attack surface",
+  "office"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "remote work",
+    "relation": "has_evolved_into",
+    "value": "a permanent fixture in the business landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remote work has evolved from a temporary measure to a permanent fixture in the business landscape"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "global digital transformation",
+    "relation": "accelerated_by",
+    "value": "the pandemic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a global digital transformation accelerated by the pandemic"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "cybersecurity industry",
+    "relation": "at_forefront_of",
+    "value": "innovation to counter the challenges associated with protecting remote devices",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 25, 2023, the cybersecurity industry has been at the forefront of innovation"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "cyber attackers",
+    "relation": "has_opportunities_in",
+    "value": "a frontier replete with opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a frontier replete with opportunities for cyber attackers"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "attack surface",
+    "relation": "broadened_by",
+    "value": "the unprecedented shift to remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unprecedented shift to remote work has broadened the attack surface for organizations"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "endpoint security",
+    "relation": "creates_need_for",
+    "value": "an urgent need for robust endpoint security strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating an urgent need for robust endpoint security strategies"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "attack surface",
+    "relation": "results_in",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The unprecedented shift to remote work has broadened the attack surface for organizations, creating an urgent need for robust endpoint security strategies"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "office",
+    "relation": "definition_altered",
+    "value": "radically altered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the definition of 'office' has been radically altered"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "office",
+    "relation": "now_includes",
+    "value": "the kitchen tables, home offices, and coffee shops where remote employees connect to corporate networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the office now includes the kitchen tables, home offices, and coffee shops where remote employees connect to corporate networks"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "office",
+    "relation": "no_longer_limited_to",
+    "value": "the confines of a secured corporate building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's no longer just the confines of a secured corporate building"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "endpoint security",
+    "relation": "requires",
+    "value": "a fundamental change in how companies approach endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This evolution necessitates a fundamental change in how companies approach endpoint security"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "traditional perimeter-based security measures",
+    "relation": "no_longer",
+    "value": "adequate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional perimeter-based security measures are no longer adequate"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "cyber attackers",
+    "relation": "exploit",
+    "value": "vulnerabilities emerging from the use of personal devices and unsecured networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cyber attackers exploit vulnerabilities emerging from the use of personal devices and unsecured networks"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "traditional perimeter-based security measures",
+    "relation": "caused_by",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional perimeter-based security measures are no longer adequate, as cyber attackers exploit vulnerabilities emerging from the use of personal devices and unsecured networks"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "behavior-based security measures",
+    "relation": "is_significant_prediction_for",
+    "value": "the future of endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most significant predictions for the future of endpoint security lies in behaviorbased security measures"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Gonzalez",
+    "relation": "role",
+    "value": "a leading cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to cyber experts like Maria Gonzalez, a leading cybersecurity analyst"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Maria Gonzalez",
+    "relation": "interviewed_on",
+    "value": "October 12, 2023",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a leading cybersecurity analyst interviewed on October 12, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "behavior-based security measures",
+    "relation": "focuses_on",
+    "value": "the behavior of both users and devices",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "the shift will focus on the behavior of both users and devices"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "behavior-based security measures",
+    "relation": "will_become",
+    "value": "invaluable",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Security solutions that can adapt in real-time to how a device is being used, and potentially misused, will become invaluable."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "expected_to_play",
+    "value": "pivotal roles in this sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Machine learning and artificial intelligence are expected to play pivotal roles in this sector"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "offers",
+    "value": "dynamic risk assessments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering dynamic risk assessments and adapting protection measures accordingly"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "set_to_revolutionize",
+    "value": "endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proactive use of AI and machine learning algorithms is set to revolutionize endpoint security"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Robert Smith",
+    "relation": "position",
+    "value": "CTO of SecureTech Innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mr. Robert Smith, the CTO of SecureTech Innovations"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Robert Smith",
+    "relation": "spoke_at",
+    "value": "CyberSecurity Summit",
+    "time": "November 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "pointed out during the CyberSecurity Summit on November 3rd, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CyberSecurity Summit",
+    "relation": "held_on",
+    "value": "November 3rd, 2023",
+    "time": "November 3rd, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during the CyberSecurity Summit on November 3rd, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "endpoint security",
+    "relation": "will_leverage",
+    "value": "AI to spot irregularities and potential threats before they can cause harm",
+    "time": null,
+    "speaker": "Robert Smith",
+    "verbatim": [
+     "Tomorrow's endpoint security will leverage AI to spot irregularities and potential threats before they can cause harm."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "SecureTech Innovations",
+    "relation": "has_cto",
+    "value": "Robert Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mr. Robert Smith, the CTO of SecureTech Innovations"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "trained_to",
+    "value": "recognize baseline behaviors and react to deviations, signaling possible cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These systems are being trained to recognize baseline behaviors and react to deviations, signaling possible cyber threats"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "being_implemented_by",
+    "value": "Organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizations are already beginning to implement these AI-driven systems"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "provides",
+    "value": "a more robust security posture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide a more robust security posture"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "machine learning and artificial intelligence",
+    "relation": "in_order_to",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organizations are already beginning to implement these AI-driven systems to provide a more robust security posture"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Zero Trust Architecture",
+    "relation": "philosophy_is",
+    "value": "'never trust, always verify'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The philosophy of 'never trust, always verify' is becoming the mantra for secure remote work, embodied in the Zero Trust security model"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Zero Trust Architecture",
+    "relation": "treats_requests_as",
+    "value": "originating from an open network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "every request for access to resources is treated as if it originates from an open network"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Zero Trust Architecture",
+    "relation": "requires",
+    "value": "verification from anyone trying to access resources on the network, irrespective of where the request comes from",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "verification is required from anyone trying to access resources on the network, irrespective of where the request comes from"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Zero Trust Architecture",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "treated as if it originates from an open network. Therefore, verification is required"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Owen Jacobs",
+    "relation": "role",
+    "value": "a cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Owen Jacobs, a cybersecurity consultant interviewed on September 18, 2023, puts it"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Owen Jacobs",
+    "relation": "interviewed_on",
+    "value": "September 18, 2023",
+    "time": "September 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity consultant interviewed on September 18, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Zero Trust Architecture",
+    "relation": "is_mindset",
+    "value": "not just a technology but a mindset that needs to be ingrained within the company culture",
+    "time": null,
+    "speaker": "Owen Jacobs",
+    "verbatim": [
+     "Zero Trust is not just a technology but a mindset that needs to be ingrained within the company culture."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "remote work",
+    "relation": "places_greater_emphasis_on",
+    "value": "this culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proliferation of remote work places greater emphasis on this culture"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "remote work",
+    "relation": "requires",
+    "value": "resources need to be securely accessed from anywhere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resources need to be securely accessed from anywhere"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Endpoint Detection and Response (EDR) solutions",
+    "relation": "expected_to_become",
+    "value": "more sophisticated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Endpoint Detection and Response solutions are expected to become more sophisticated"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Endpoint Detection and Response (EDR) solutions",
+    "relation": "will_serve_as",
+    "value": "the central nervous system of endpoint security",
+    "time": "By 2024 and beyond",
+    "speaker": null,
+    "verbatim": [
+     "By 2024 and beyond, EDR solutions will likely serve as the central nervous system of endpoint security"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Endpoint Detection and Response (EDR) solutions",
+    "relation": "utilizes",
+    "value": "vast datasets to detect anomalies and automate responses to threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilizing vast datasets to detect anomalies and automate responses to threats"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Endpoint Detection and Response (EDR) solutions",
+    "relation": "will_minimize",
+    "value": "the damage caused by cyberattacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The capacity for real-time analysis and response will not only minimize the damage caused by cyberattacks"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Endpoint Detection and Response (EDR) solutions",
+    "relation": "will_vastly_reduce",
+    "value": "the time that IT staff must devote to dealing with the aftermath of breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also vastly reduce the time that IT staff must devote to dealing with the aftermath of breaches"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "comprehensive device management policies",
+    "relation": "crucial_component_of",
+    "value": "endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A crucial component of endpoint security is the development and enforcement of comprehensive device management policies"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "remote work",
+    "relation": "becoming",
+    "value": "the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With remote work becoming the norm"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "remote work",
+    "relation": "enables_introduction_of",
+    "value": "insecure devices into the corporate ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees could potentially introduce insecure devices into the corporate ecosystem"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "comprehensive device management policies",
+    "relation": "will_play_role_in",
+    "value": "minimizing this risk",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Comprehensible and strict device policies, along with regular training sessions, will play a critical role in minimizing this risk"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "CyberSafe Solutions",
+    "relation": "at_forefront_of",
+    "value": "creating such policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like CyberSafe Solutions are at the forefront of creating such policies"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "CyberSafe Solutions",
+    "relation": "provides",
+    "value": "guidelines that balance security with user convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing guidelines that balance security with user convenience"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Secure Access Service Edge (SASE)",
+    "relation": "defined_as",
+    "value": "the convergence of network and security services into a single, cloud-delivered service model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The convergence of network and security services into a single, cloud-delivered service model, known as Secure Access Service Edge (SASE)"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Secure Access Service Edge (SASE)",
+    "relation": "is_forecasted_to_be",
+    "value": "a game-changer in endpoint security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is forecasted to be a game-changer in endpoint security"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sara Burns",
+    "relation": "role",
+    "value": "industry leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As discussed by industry leader Sara Burns"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "NetSec conference",
+    "relation": "held_on",
+    "value": "December 10, 2023",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during the annual NetSec conference on December 10, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "NetSec conference",
+    "relation": "described_as",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "during the annual NetSec conference"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Secure Access Service Edge (SASE)",
+    "relation": "is",
+    "value": "not just an innovation but the evolution of network architecture",
+    "time": null,
+    "speaker": "Sara Burns",
+    "verbatim": [
+     "SASE is not just an innovation but the evolution of network architecture"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Secure Access Service Edge (SASE)",
+    "relation": "offers",
+    "value": "scalable, unified security capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It offers scalable, unified security capabilities"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Secure Access Service Edge (SASE)",
+    "relation": "aligned_with",
+    "value": "the requirements of a distributed workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that are perfectly aligned with the requirements of a distributed workforce"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "biometric authentication",
+    "relation": "predicted_to_become",
+    "value": "commonplace in protecting remote devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biometric authentication, once relegated to the domain of high-security applications, is predicted to become commonplace in protecting remote devices"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "biometric authentication",
+    "relation": "includes",
+    "value": "Fingerprint scanners, facial recognition, and behavioral biometrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "facial recognition, and even behavioral biometrics"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "biometric authentication",
+    "relation": "will_serve_as",
+    "value": "additional layers of security to prevent unauthorized access and enhance user identification protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "will serve as additional layers of security to prevent unauthorized access and enhance user identification protocols"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "biometric authentication",
+    "relation": "will_become",
+    "value": "standard practice in the coming years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of these technologies will likely become standard practice in the coming years"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "cybersecurity insurance",
+    "relation": "used_as",
+    "value": "a safety net",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations are increasingly turning to cybersecurity insurance as a safety net"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "cybersecurity insurance",
+    "relation": "mandates",
+    "value": "more stringent endpoint security measures as a prerequisite for coverage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "insurers are starting to mandate more stringent endpoint security measures as a prerequisite for coverage"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "endpoint security",
+    "relation": "anticipated_to_drive",
+    "value": "further innovation and adoption of advanced endpoint security solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift is anticipated to drive further innovation and adoption of advanced endpoint security solutions to meet insurance requirements and mitigate risks"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "cybersecurity insurance",
+    "relation": "results_in",
+    "value_ref": "c66",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "insurers are starting to mandate more stringent endpoint security measures as a prerequisite for coverage. This shift is anticipated to drive further innovation"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "office",
+    "relation": "work_performed_away_from",
+    "value": "traditional office settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with an increasing number of employees performing their duties away from traditional office settings"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "endpoint security",
+    "relation": "will_undergo",
+    "value": "transformation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the strategies deployed to secure endpoints will also undergo transformation"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "endpoint security",
+    "relation": "reflects",
+    "value": "an understanding that the threat landscape is not static",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reflects an understanding that the threat landscape is not static"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "endpoint security",
+    "relation": "will_be",
+    "value": "adaptable, intelligent, and deeply integrated into every facet of remote work infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "endpoint security is adaptable, intelligent, and deeply integrated into every facet of remote work infrastructure"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "remote work",
+    "relation": "brings_challenges",
+    "value": "challenges organizations must continuously adapt and evolve to address",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizations must continuously adapt and evolve to address the challenges brought about by the remote work revolution"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,837 @@
+{
+ "inventory": [
+  "remote work",
+  "phishing scams",
+  "global pandemic",
+  "FBI's Internet Crime Complaint Center",
+  "Dr. Lisa Chung",
+  "spear-phishing",
+  "whaling",
+  "vishing (voice phishing)",
+  "smishing (SMS phishing)",
+  "National Cybersecurity Alliance",
+  "Multifactor authentication (MFA)",
+  "Mark Rivera",
+  "Virtual Private Network (VPN)",
+  "CyberEdge Group",
+  "Jennifer Yoo",
+  "TechSafe",
+  "Ted Johnson",
+  "Biometric authentication methods",
+  "DigitalGuardian",
+  "Shieldbyte",
+  "Data Defense Council",
+  "Victor Nguyen",
+  "Sarah Gilbert",
+  "Phishing Incident Response Plan",
+  "secure workflow environment"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "phishing scams",
+    "relation": "has_seen",
+    "value": "considerable upsurge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the considerable upsurge in phishing scams, a trend that has emboldened cybercriminals ever since organizations switched to remote work"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "phishing scams",
+    "relation": "emboldened",
+    "value": "cybercriminals",
+    "time": "ever since organizations switched to remote work",
+    "speaker": null,
+    "verbatim": [
+     "a trend that has emboldened cybercriminals ever since organizations switched to remote work"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "global pandemic",
+    "relation": "fast_tracked",
+    "value": "digitization of the workplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The digitization of the workplace has been fast-tracked, thanks to the unforeseen circumstances brought about by the global pandemic."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "global pandemic",
+    "relation": "results_in",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to the unforeseen circumstances brought about by the global pandemic"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "phishing scams",
+    "relation": "situation_became",
+    "value": "dire",
+    "time": "as of October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The situation has become dire as of October 14, 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote work",
+    "relation": "more_susceptible_to",
+    "value": "these deceptive ploys",
+    "time": "as of October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "increased reports indicating that remote workers are more susceptible to these deceptive ploys"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "phishing scams",
+    "relation": "defined_as",
+    "value": "a cyberattack where a scammer masquerades as a trustworthy entity in digital communications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing is a cyberattack where a scammer masquerades as a trustworthy entity in digital communications"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "phishing scams",
+    "relation": "often_uses_as_spearhead_tactic",
+    "value": "email",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often times using email as their spearhead tactic"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "remote work",
+    "relation": "become_easier_targets_for",
+    "value": "such scams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "become easier targets for such scams"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "FBI's Internet Crime Complaint Center",
+    "relation": "reported_spike_in_phishing_incidents",
+    "value": "220% spike in reported phishing incidents",
+    "time": "since the widespread onset of remote work from February 2023",
+    "speaker": "FBI's Internet Crime Complaint Center",
+    "verbatim": [
+     "The FBI\u2019s Internet Crime Complaint Center indicated a 220% spike in reported phishing incidents since the widespread onset of remote work from February 2023."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "remote work",
+    "relation": "required_rapid_adaptation_by",
+    "value": "organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pace at which organizations had to adapt to remote work"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "remote work",
+    "relation": "resulted_in_untrained_employees",
+    "value": "many employees were not adequately trained to recognize the subtleties of phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pace at which organizations had to adapt to remote work meant that many employees were not adequately trained to recognize the subtleties of phishing attempts"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pace at which organizations had to adapt to remote work meant that many employees were not adequately trained"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Dr. Lisa Chung",
+    "relation": "occupation",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": "Dr. Lisa Chung",
+    "verbatim": [
+     "According to cybersecurity expert Dr. Lisa Chung"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Lisa Chung",
+    "relation": "said",
+    "value": "The rush to maintain operational capabilities has unfortunately made cutting corners on cybersecurity training a common practice.",
+    "time": null,
+    "speaker": "Dr. Lisa Chung",
+    "verbatim": [
+     "The rush to maintain operational capabilities has unfortunately made cutting corners on cybersecurity training a common practice."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "phishing scams",
+    "relation": "can_come_in",
+    "value": "various forms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams can come in various forms, each designed to trick remote employees in different ways."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "phishing scams",
+    "relation": "classic_form",
+    "value": "the deceptive email that mimics financial institutions or service providers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The classic is the deceptive email that mimics financial institutions or service providers."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "spear-phishing",
+    "relation": "targets",
+    "value": "specific individuals or organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spear-phishing target specific individuals or organizations"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "whaling",
+    "relation": "targets",
+    "value": "high-profile company executives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whaling goes after high-profile company executives"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "vishing (voice phishing)",
+    "relation": "exploits",
+    "value": "the use of phone calls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vishing (voice phishing) and smishing (SMS phishing) have also escalated, exploiting the use of phone calls and text messages."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "smishing (SMS phishing)",
+    "relation": "exploits",
+    "value": "the use of text messages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vishing (voice phishing) and smishing (SMS phishing) have also escalated, exploiting the use of phone calls and text messages."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "vishing (voice phishing)",
+    "relation": "has_escalated",
+    "value": "escalated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vishing (voice phishing) and smishing (SMS phishing) have also escalated"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "vishing (voice phishing)",
+    "relation": "described_as",
+    "value": "less expected mediums",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These are less expected mediums, catching remote workers off-guard."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "National Cybersecurity Alliance",
+    "relation": "reported_increase_in_vishing_attacks",
+    "value": "30%",
+    "time": "from May to September 2023",
+    "speaker": "National Cybersecurity Alliance",
+    "verbatim": [
+     "Statistics from the National Cybersecurity Alliance mark a substantial increase in vishing attacks by 30% from May to September 2023."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "vishing (voice phishing)",
+    "relation": "attack_increase",
+    "value": "30%",
+    "time": "from May to September 2023",
+    "speaker": "National Cybersecurity Alliance",
+    "verbatim": [
+     "Statistics from the National Cybersecurity Alliance mark a substantial increase in vishing attacks by 30% from May to September 2023."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "phishing scams",
+    "relation": "first_line_of_defense",
+    "value": "establishing strict email protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The first line of defense against phishing scams is establishing strict email protocols."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "phishing scams",
+    "relation": "recommended_training",
+    "value": "view unsolicited emails with skepticism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees should be trained to view unsolicited emails with skepticism"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Multifactor authentication (MFA)",
+    "relation": "recommended_for",
+    "value": "email access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Multifactor authentication (MFA) for email access is a must"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Multifactor authentication (MFA)",
+    "relation": "forms",
+    "value": "an extra layer of security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "forming an extra layer of security that can thwart attackers even if they manage to procure login credentials"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Multifactor authentication (MFA)",
+    "relation": "can_thwart",
+    "value": "attackers even if they manage to procure login credentials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can thwart attackers even if they manage to procure login credentials"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mark Rivera",
+    "relation": "occupation",
+    "value": "Cybersecurity specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity specialist Mark Rivera recommends"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Mark Rivera",
+    "relation": "recommends",
+    "value": "the use of email filters and verified antiphishing toolbars",
+    "time": null,
+    "speaker": "Mark Rivera",
+    "verbatim": [
+     "Cybersecurity specialist Mark Rivera recommends the use of email filters and verified antiphishing toolbars."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Mark Rivera",
+    "relation": "said",
+    "value": "These barriers significantly reduce the incidence of malicious emails reaching inboxes",
+    "time": null,
+    "speaker": "Mark Rivera",
+    "verbatim": [
+     "\u201cThese barriers significantly reduce the incidence of malicious emails reaching inboxes,\u201d Rivera explains."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Virtual Private Network (VPN)",
+    "relation": "is",
+    "value": "indispensable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A Virtual Private Network (VPN) is indispensable for creating an encrypted connection between remote employees and company resources."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Virtual Private Network (VPN)",
+    "relation": "creates",
+    "value": "an encrypted connection between remote employees and company resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating an encrypted connection between remote employees and company resources"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "CyberEdge Group",
+    "relation": "reported_increase_in_VPN_deployment",
+    "value": "47% increase across organizations",
+    "time": "since March 2023",
+    "speaker": "CyberEdge Group",
+    "verbatim": [
+     "Date-specific statistics from CyberEdge Group highlight a 47% increase in VPN deployment across organizations since March 2023."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Virtual Private Network (VPN)",
+    "relation": "deployment_increase",
+    "value": "47%",
+    "time": "since March 2023",
+    "speaker": "CyberEdge Group",
+    "verbatim": [
+     "Date-specific statistics from CyberEdge Group highlight a 47% increase in VPN deployment across organizations since March 2023."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "phishing scams",
+    "relation": "defense_measure",
+    "value": "ensure home routers are updated with the latest firmware and default passwords are changed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another key measure is to ensure home routers are updated with the latest firmware and default passwords are changed."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jennifer Yoo",
+    "relation": "occupation",
+    "value": "cybersecurity advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity advocate Jennifer Yoo suggests"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jennifer Yoo",
+    "relation": "suggests",
+    "value": "employees should use strong, unique passwords and consider a network firewall as an additional layer",
+    "time": null,
+    "speaker": "Jennifer Yoo",
+    "verbatim": [
+     "To prevent unauthorized access, employees should use strong, unique passwords and consider a network firewall as an additional layer."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "phishing scams",
+    "relation": "defense_cornerstone",
+    "value": "continuous education on cybersecurity practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Continuous education on cybersecurity practices is a cornerstone of defending against phishing."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "phishing scams",
+    "relation": "training_recommendation",
+    "value": "regular training sessions should be mandatory, simulating phishing scenarios",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular training sessions should be mandatory, simulating phishing scenarios to teach employees how to respond."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "TechSafe",
+    "relation": "launched_initiative_on",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The recent initiative by TechSafe, launched on November 1, 2023,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "TechSafe",
+    "relation": "showcases",
+    "value": "an interactive platform that helps train remote workers in identifying and reporting phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "showcases an interactive platform that helps train remote workers in identifying and reporting phishing attempts"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ted Johnson",
+    "relation": "position",
+    "value": "CEO of TechSafe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "states Ted Johnson, CEO of TechSafe"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Ted Johnson",
+    "relation": "said",
+    "value": "Building a culture of cybersecurity awareness is an ongoing process that pays dividends in the long run",
+    "time": null,
+    "speaker": "Ted Johnson",
+    "verbatim": [
+     "\u201cBuilding a culture of cybersecurity awareness is an ongoing process that pays dividends in the long run,\u201d states Ted Johnson, CEO of TechSafe."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Biometric authentication methods",
+    "relation": "examples",
+    "value": "fingerprint or facial recognition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biometric authentication methods like fingerprint or facial recognition improve security and are increasingly being adopted"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Biometric authentication methods",
+    "relation": "improve",
+    "value": "security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biometric authentication methods like fingerprint or facial recognition improve security and are increasingly being adopted"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Biometric authentication methods",
+    "relation": "increasingly_adopted",
+    "value": "increasingly being adopted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Biometric authentication methods like fingerprint or facial recognition improve security and are increasingly being adopted"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "DigitalGuardian",
+    "relation": "reported_uptick_in_biometric_adoption",
+    "value": "40% uptick in biometric adoption rates",
+    "time": "since starting the second quarter of 2023",
+    "speaker": "DigitalGuardian",
+    "verbatim": [
+     "as shown in a study by DigitalGuardian with a 40% uptick in biometric adoption rates since starting the second quarter of 2023."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Biometric authentication methods",
+    "relation": "adoption_uptick",
+    "value": "40%",
+    "time": "since starting the second quarter of 2023",
+    "speaker": "DigitalGuardian",
+    "verbatim": [
+     "as shown in a study by DigitalGuardian with a 40% uptick in biometric adoption rates since starting the second quarter of 2023."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "phishing scams",
+    "relation": "updates_include_patches_for",
+    "value": "security vulnerabilities that phishing attacks might exploit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These updates often include patches for security vulnerabilities that phishing attacks might exploit."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Shieldbyte",
+    "relation": "occupation",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A report by the cybersecurity firm Shieldbyte highlighted"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Shieldbyte",
+    "relation": "reported",
+    "value": "around 65% of remote workers neglect regular system updates",
+    "time": null,
+    "speaker": "Shieldbyte",
+    "verbatim": [
+     "A report by the cybersecurity firm Shieldbyte highlighted"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "remote work",
+    "relation": "neglect_regular_system_updates",
+    "value": "around 65%",
+    "time": null,
+    "speaker": "Shieldbyte",
+    "verbatim": [
+     "remote workers\u2014around 65%\u2014who neglect regular system updates"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "remote work",
+    "relation": "should_back_up_work_on",
+    "value": "secure, company-approved storage solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote workers should also make a habit of frequently backing up their work on secure, company-approved storage solutions."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "phishing scams",
+    "relation": "impact_on_operations_minimized_by_backups",
+    "value": "the impact on the company's operations is minimal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This practice ensures that, in an event where data is compromised through a phishing attack, the impact on the company's operations is minimal."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This practice ensures that, in an event where data is compromised through a phishing attack, the impact on the company's operations is minimal."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Data Defense Council",
+    "relation": "recommends",
+    "value": "weekly data backups, with daily backups for high-priority projects",
+    "time": "since September 2023",
+    "speaker": "Data Defense Council",
+    "verbatim": [
+     "As per the Data Defense Council, the recommendation since September 2023 has been for weekly data backups, with daily backups for high-priority projects."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "secure workflow environment",
+    "relation": "access_to_company_data",
+    "value": "compartmentalized and monitored",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Deploying a secure workflow environment, where access to company data is compartmentalized and monitored, diminishes the potential damage of phishing schemes."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "secure workflow environment",
+    "relation": "diminishes",
+    "value": "the potential damage of phishing schemes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "diminishes the potential damage of phishing schemes"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Multifactor authentication (MFA)",
+    "relation": "secures",
+    "value": "project management tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Project management tools that are secured with MFA and employ end-to-end encryption"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "secure workflow environment",
+    "relation": "keeps_sensitive_information_out_of_reach_for",
+    "value": "would-be attackers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "keep sensitive information out of reach for would-be attackers"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Victor Nguyen",
+    "relation": "occupation",
+    "value": "cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "advises cybersecurity consultant Victor Nguyen"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Victor Nguyen",
+    "relation": "advises",
+    "value": "we must assume a fortress mentality\u2014guarded, focused, and situationally aware",
+    "time": null,
+    "speaker": "Victor Nguyen",
+    "verbatim": [
+     "\u201cWhen dealing with project data, we must assume a fortress mentality\u2014guarded, focused, and situationally aware,\u201d advises cybersecurity consultant Victor Nguyen."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Phishing Incident Response Plan",
+    "relation": "recommended_for",
+    "value": "every organization with remote staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Every organization with remote staff should have a clear and concise incident response plan for phishing attempts."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Phishing Incident Response Plan",
+    "relation": "includes",
+    "value": "immediate measures to contain any breach, assess the scope of the impact, eliminate the threat, and strategies to prevent future occurrences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This plan includes immediate measures to contain any breach, assess the scope of the impact, eliminate the threat, and strategies to prevent future occurrences."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Sarah Gilbert",
+    "relation": "noted",
+    "value": "the creation of such a plan saw a rise in demand for cybersecurity experts",
+    "time": "December 3, 2023",
+    "speaker": "Sarah Gilbert",
+    "verbatim": [
+     "The creation of such a plan saw a rise in demand for cybersecurity experts, as noted by analyst Sarah Gilbert on December 3, 2023."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Sarah Gilbert",
+    "relation": "occupation",
+    "value": "analyst",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as noted by analyst Sarah Gilbert on December 3, 2023"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Phishing Incident Response Plan",
+    "relation": "results_in",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The creation of such a plan saw a rise in demand for cybersecurity experts"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "phishing scams",
+    "relation": "defense_strategies_ensure",
+    "value": "organizational data integrity and the privacy of remote employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Developing robust strategies against phishing is an imperative step ensuring both organizational data integrity and the privacy of remote employees."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "remote work",
+    "relation": "shifts_beyond",
+    "value": "traditional office boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the workplace continues its shift beyond traditional office boundaries"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "phishing scams",
+    "relation": "calls_for",
+    "value": "vigilance, education, and a proactive stance on cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "safeguarding our digital realms against phishing scams calls for vigilance, education, and a proactive stance on cybersecurity"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

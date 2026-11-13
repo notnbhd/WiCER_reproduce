@@ -1,0 +1,821 @@
+{
+ "inventory": [
+  "Jane Doe",
+  "TechSafe Inc.",
+  "The Global Cybersecurity Center",
+  "John Smith",
+  "Dr. Emily White",
+  "Cybersecurity Workforce Alliance",
+  "Michael Johnson",
+  "DigitalDefence",
+  "Sarah Thompson",
+  "SecureCorp",
+  "Larry Green",
+  "National Cybersecurity Association",
+  "phishing scams",
+  "remote work",
+  "the transition to widespread remote work",
+  "cybersecurity hygiene",
+  "spearphishing",
+  "vishing",
+  "a large finance corporation",
+  "virtual private networks (VPN)",
+  "multi-factor authentication (MFA)",
+  "artificial intelligence (AI)",
+  "machine learning (ML)",
+  "the home office",
+  "an ecosystem approach"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the transition to widespread remote work",
+    "relation": "began_after",
+    "value": "September 1, 2023",
+    "time": "post-September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the transition to widespread remote work post-September 1, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "phishing scams",
+    "relation": "showed_uptick_in",
+    "value": "phishing incidents targeting unsuspecting employees",
+    "time": "Since the transition to widespread remote work post-September 1, 2023",
+    "speaker": "cybersecurity experts",
+    "verbatim": [
+     "cybersecurity experts have sounded the alarm on an uptick in phishing incidents targeting unsuspecting employees"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "phishing scams",
+    "relation": "poses_challenge_to",
+    "value": "organizational cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "poses a significant challenge to organizational cybersecurity"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote work",
+    "relation": "has_become",
+    "value": "the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In a world where remote work has become the norm"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "The Global Cybersecurity Center",
+    "relation": "report_dated",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Reports from The Global Cybersecurity Center, dated October 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "phishing scams",
+    "relation": "increased_by",
+    "value": "50%",
+    "time": "October 2023",
+    "speaker": "The Global Cybersecurity Center",
+    "verbatim": [
+     "indicate a staggering 50% increase in phishing attacks"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jane Doe",
+    "relation": "works_at",
+    "value": "TechSafe Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a senior cybersecurity analyst at TechSafe Inc."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jane Doe",
+    "relation": "job_title",
+    "value": "senior cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Doe, a senior cybersecurity analyst at TechSafe Inc."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "the home office",
+    "relation": "lacks",
+    "value": "the robust cybersecurity measures found in corporate environments",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "The home office setting lacks the robust cybersecurity measures found in corporate environments."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "the home office",
+    "relation": "compared_to",
+    "value": "leaving your front door unlocked in a high-crime area",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "It's akin to leaving your front door unlocked in a high-crime area."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "remote work",
+    "relation": "prime_target_for",
+    "value": "phishing campaigns",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "remote workers have become the prime target for phishing campaigns"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "remote work",
+    "relation": "described_as",
+    "value": "the path of least resistance for cybercriminals",
+    "time": null,
+    "speaker": "Jane Doe",
+    "verbatim": [
+     "Cybercriminals are always looking for the path of least resistance, and right now, that's remote employees."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "phishing scams",
+    "relation": "evolved_from",
+    "value": "simple deceptive emails",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams have evolved from simple deceptive emails to complex social engineering tactics"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "phishing scams",
+    "relation": "evolved_to",
+    "value": "complex social engineering tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Phishing scams have evolved from simple deceptive emails to complex social engineering tactics"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "phishing scams",
+    "relation": "designed_to",
+    "value": "steal confidential information or infect systems with malware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to steal confidential information or infect systems with malware"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "John Smith",
+    "relation": "works_as",
+    "value": "an Independent IT Security Consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Smith, an Independent IT Security Consultant"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "John Smith",
+    "relation": "explains",
+    "value": "the modern phishing scam is a sophisticated operation that can encompass fake websites, targeted attempts (spearphishing), or even voice manipulation (vishing)",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "the modern phishing scam is a sophisticated operation that can encompass fake websites, targeted attempts (spearphishing), or even voice manipulation (vishing)"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "spearphishing",
+    "relation": "described_as",
+    "value": "targeted attempts",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "targeted attempts (spearphishing)"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "vishing",
+    "relation": "described_as",
+    "value": "voice manipulation",
+    "time": null,
+    "speaker": "John Smith",
+    "verbatim": [
+     "voice manipulation (vishing)"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "a large finance corporation",
+    "relation": "suffered",
+    "value": "a significant data breach",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 12, 2023, a large finance corporation suffered a significant data breach"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "spearphishing",
+    "relation": "victimized",
+    "value": "several employees",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "several employees fell victim to a spear-phishing attack that mimicked internal communication"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "spearphishing",
+    "relation": "mimicked",
+    "value": "internal communication",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a spear-phishing attack that mimicked internal communication"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "spearphishing",
+    "relation": "resulted_in",
+    "value": "leakage of sensitive client information",
+    "time": "December 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "leading to the leakage of sensitive client information"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "a large finance corporation",
+    "relation": "caused_by",
+    "value_ref": "c21",
+    "verbatim": [
+     "a large finance corporation suffered a significant data breach when several employees fell victim to a spear-phishing attack"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "phishing scams",
+    "relation": "success_lies_in",
+    "value": "exploiting human psychology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The success of phishing scams often lies in exploiting human psychology."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "remote work",
+    "relation": "common_issue_is",
+    "value": "isolation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With isolation being a common issue in remote work setups"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "phishing scams",
+    "relation": "mimic",
+    "value": "personal connections or urgent requests from superiors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "scams that mimic personal connections or urgent requests from superiors"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Dr. Emily White",
+    "relation": "job_title",
+    "value": "a psychologist specializing in workplace behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily White, a psychologist specializing in workplace behavior"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "remote work",
+    "relation": "can_lead_to",
+    "value": "a decrease in informal communications among colleagues",
+    "time": null,
+    "speaker": "Dr. Emily White",
+    "verbatim": [
+     "Remote work can lead",
+     "to a decrease in informal communications among colleagues"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "remote work",
+    "relation": "makes_requests_seem",
+    "value": "less odd",
+    "time": null,
+    "speaker": "Dr. Emily White",
+    "verbatim": [
+     "which in turn might make unusual requests via email or messages seem less odd"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "remote work",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "verbatim": [
+     "to a decrease in informal communications among colleagues, which in turn might make unusual requests via email or messages seem less odd"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "phishing scams",
+    "relation": "could_be_exposed_by",
+    "value": "a quick chat in a regular office",
+    "time": null,
+    "speaker": "Dr. Emily White",
+    "verbatim": [
+     "In a regular office, a quick chat could expose a scam"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "remote work",
+    "relation": "may_mean",
+    "value": "fewer opportunities to verify suspicious activities",
+    "time": null,
+    "speaker": "Dr. Emily White",
+    "verbatim": [
+     "remote workers might have fewer opportunities to verify suspicious activities"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "the transition to widespread remote work",
+    "relation": "businesses_struggled_with",
+    "value": "maintaining stringent cybersecurity training and policy enforcement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses have struggled to maintain stringent cybersecurity training and policy enforcement amid the shift to remote work."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Cybersecurity Workforce Alliance",
+    "relation": "conducted",
+    "value": "a survey",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "A survey conducted in January 2024 by the Cybersecurity Workforce Alliance"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Cybersecurity Workforce Alliance",
+    "relation": "revealed",
+    "value": "over 60% of companies admitted their cybersecurity training was not fully adapted for a remote work scenario",
+    "time": "January 2024",
+    "speaker": "Cybersecurity Workforce Alliance",
+    "verbatim": [
+     "revealed that over 60% of companies admitted their cybersecurity training was not fully adapted for a remote work scenario"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "phishing scams",
+    "relation": "training_gap_leaves_employees_ill_prepared_against",
+    "value": "sophisticated phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This training gap leaves employees ill-prepared to recognize and defend against sophisticated phishing attempts."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "the home office",
+    "relation": "replaces_corporate_security_with",
+    "value": "personal devices and home internet connections",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corporate firewalls, updated antivirus software, and secure networks often get replaced by personal devices and home internet connections"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "the home office",
+    "relation": "may_lack",
+    "value": "necessary security features",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which may lack necessary security features"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "virtual private networks (VPN)",
+    "relation": "being_implemented_to_mitigate",
+    "value": "these risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments have been scrambling to implement virtual private networks (VPN) and multi-factor authentication (MFA) to mitigate these risks"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "being_implemented_to_mitigate",
+    "value": "these risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "IT departments have been scrambling to implement virtual private networks (VPN) and multi-factor authentication (MFA) to mitigate these risks"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "virtual private networks (VPN)",
+    "relation": "implementation_status",
+    "value": "slow and fraught with challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the process has been slow and fraught with challenges"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "cybersecurity hygiene",
+    "relation": "has_become",
+    "value": "increasingly important",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of cybersecurity hygiene has become increasingly important."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "cybersecurity hygiene",
+    "relation": "includes_protocols",
+    "value": "regularly updating passwords, not using public Wi-Fi for work tasks, and securing personal routers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "maintaining strict protocols such as regularly updating passwords, not using public Wi-Fi for work tasks, and securing personal routers"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "cybersecurity hygiene",
+    "relation": "has_been_for_many_employees",
+    "value": "a steep learning curve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been a steep learning curve"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Michael Johnson",
+    "relation": "works_at",
+    "value": "DigitalDefence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Johnson, a cybersecurity expert at DigitalDefence"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Michael Johnson",
+    "relation": "job_title",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Johnson, a cybersecurity expert at DigitalDefence"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Michael Johnson",
+    "relation": "spearheaded",
+    "value": "a campaign to raise awareness about basic home-office cybersecurity practices",
+    "time": "November 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 2, 2023, Michael Johnson, a cybersecurity expert at DigitalDefence, spearheaded a campaign to raise awareness about basic home-office cybersecurity practices."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Michael Johnson",
+    "relation": "stated",
+    "value": "Protecting corporate assets starts with securing the individual remote workspace",
+    "time": null,
+    "speaker": "Michael Johnson",
+    "verbatim": [
+     "\"Protecting corporate assets starts with securing the individual remote workspace,\" Johnson highlights."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Michael Johnson",
+    "relation": "stated",
+    "value": "Even something as simple as changing the default password on your home router can significantly decrease the chances of a successful phishing attack.",
+    "time": null,
+    "speaker": "Michael Johnson",
+    "verbatim": [
+     "Even something as simple as changing the default password on your home router can significantly decrease the chances of a successful phishing attack."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "phishing scams",
+    "relation": "financial_repercussions_are",
+    "value": "monumental",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The financial repercussions of falling prey to phishing scams are monumental."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "phishing scams",
+    "relation": "costs_include",
+    "value": "operational disruption, reputation damage, and legal liabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cost of operational disruption, reputation damage, and legal liabilities can cripple an organization"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "phishing scams",
+    "relation": "can_cripple",
+    "value": "an organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cost of operational disruption, reputation damage, and legal liabilities can cripple an organization"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sarah Thompson",
+    "relation": "works_at",
+    "value": "SecureCorp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, CFO at SecureCorp"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sarah Thompson",
+    "relation": "job_title",
+    "value": "CFO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Thompson, CFO at SecureCorp"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "SecureCorp",
+    "relation": "reported_data_breach",
+    "value": "phishing-induced data breach",
+    "time": "February 8, 2024",
+    "speaker": null,
+    "verbatim": [
+     "a phishing-induced data breach reported on February 8, 2024"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "SecureCorp",
+    "relation": "market_value_dropped_by",
+    "value": "5%",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "market value drop by 5% following a phishing-induced data breach"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "SecureCorp",
+    "relation": "caused_by",
+    "value_ref": "c56",
+    "verbatim": [
+     "market value drop by 5% following a phishing-induced data breach"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Sarah Thompson",
+    "relation": "stated",
+    "value": "The financial loss was substantial, but the long-term impact on customer trust is immeasurable",
+    "time": null,
+    "speaker": "Sarah Thompson",
+    "verbatim": [
+     "The financial loss was substantial, but the long-term impact on customer trust is immeasurable,"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "phishing scams",
+    "relation": "requires",
+    "value": "a holistic approach involving a combination of training, policy, and technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tackling the rising threat of phishing scams requires a holistic approach involving a combination of training, policy, and technology."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "remote work",
+    "relation": "organizations_pivot_to",
+    "value": "remote-eccentric operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As organizations pivot to remote-eccentric operations"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "remote work",
+    "relation": "makes_imperative",
+    "value": "fostering a security-focused culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering a security-focused culture is imperative"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Larry Green",
+    "relation": "works_at",
+    "value": "National Cybersecurity Association",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larry Green, Director of Cybersecurity Initiatives at the National Cybersecurity Association"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Larry Green",
+    "relation": "job_title",
+    "value": "Director of Cybersecurity Initiatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larry Green, Director of Cybersecurity Initiatives at the National Cybersecurity Association"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Larry Green",
+    "relation": "suggests",
+    "value": "an ecosystem approach",
+    "time": null,
+    "speaker": "Larry Green",
+    "verbatim": [
+     "Larry Green, Director of Cybersecurity Initiatives at the National Cybersecurity Association, suggests an ecosystem approach"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "an ecosystem approach",
+    "relation": "consists_of",
+    "value": "employees, IT infrastructure, and organizational policies form a triad that continuously evolves to combat these threats",
+    "time": null,
+    "speaker": "Larry Green",
+    "verbatim": [
+     "employees, IT infrastructure, and organizational policies form a triad that continuously evolves to combat these threats."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "an ecosystem approach",
+    "relation": "creates",
+    "value": "a robust defense against the evolving tactics of cybercriminals",
+    "time": null,
+    "speaker": "Larry Green",
+    "verbatim": [
+     "Each element supports the others, creating a robust defense against the evolving tactics of cybercriminals."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "artificial intelligence (AI)",
+    "relation": "used_to_detect_and_prevent",
+    "value": "phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of artificial intelligence (AI) and machine learning (ML) technologies to detect and prevent phishing attempts offers a beacon of hope."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "machine learning (ML)",
+    "relation": "used_to_detect_and_prevent",
+    "value": "phishing attempts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of artificial intelligence (AI) and machine learning (ML) technologies to detect and prevent phishing attempts offers a beacon of hope."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "artificial intelligence (AI)",
+    "relation": "offers",
+    "value": "a beacon of hope",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers a beacon of hope"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "phishing scams",
+    "relation": "described_as",
+    "value": "a cat-and-mouse game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that cybersecurity remains a cat-and-mouse game"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "phishing scams",
+    "relation": "impact_is",
+    "value": "an unfolding narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the true extent of the impact of phishing on remote corporate security is an unfolding narrative"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

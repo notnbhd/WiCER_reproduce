@@ -1,0 +1,569 @@
+{
+ "inventory": [
+  "Dr. Ellen Miles",
+  "David Parkson",
+  "SecureTech Inc.",
+  "Global Cyber Security Council",
+  "National Institute of Standards and Technology (NIST)",
+  "QuantumSafe Tech",
+  "Quantum Security Alliance",
+  "Dr. Rajeev Singh",
+  "QuantumVault Inc.",
+  "Emily Chao",
+  "Professor Arnold Thompson",
+  "Institute for Cyber Studies",
+  "Cyber Innovation Summit",
+  "quantum hacking",
+  "quantum computers",
+  "qubits",
+  "public key encryption",
+  "Shor's algorithm",
+  "harvest now, decrypt later attacks",
+  "quantum-resistant algorithms",
+  "post-quantum cryptography"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "quantum hacking",
+    "relation": "threat_poised_to",
+    "value": "disrupt our entire cybersecurity infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a nebulous yet potent threat poised to disrupt our entire cybersecurity infrastructure"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "quantum computers",
+    "relation": "can_dismantle",
+    "value": "current encryption protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quantum computers boast the potential to dismantle current encryption protocols"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "quantum computers",
+    "relation": "leverages",
+    "value": "qubits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Quantum computers leverage qubits"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "qubits",
+    "relation": "operate_under",
+    "value": "the principles of superposition and entanglement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "operating under the principles of superposition and entanglement"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "quantum computers",
+    "relation": "can_process",
+    "value": "exponentially more information than their classical counterparts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allow them to process exponentially more information than their classical counterparts"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "quantum computers",
+    "relation": "can_unravel_information_in",
+    "value": "mere moments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Information that once took years to decipher could be unraveled in mere moments through quantum processing."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "qubits",
+    "relation": "enables",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Quantum computers leverage qubits, operating under the principles of superposition and entanglement, which allow them to process exponentially more information than their classical counterparts."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Ellen Miles",
+    "relation": "is",
+    "value": "a leading quantum computing expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Ellen Miles, a leading quantum computing expert"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Ellen Miles",
+    "relation": "delivered_keynote_at",
+    "value": "the annual Cyber Innovation Summit",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "On a balmy morning in October 2023, Dr. Ellen Miles, a leading quantum computing expert, painted a sobering picture during her keynote address at the annual Cyber Innovation Summit."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Cyber Innovation Summit",
+    "relation": "is",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the annual Cyber Innovation Summit"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Ellen Miles",
+    "relation": "stated",
+    "value": "Quantum hacking is not a distant myth; it's an approaching reality\u2014a Pandora\u2019s box of cyber threats.",
+    "time": "October 2023",
+    "speaker": "Dr. Ellen Miles",
+    "verbatim": [
+     "Quantum hacking is not a distant myth; it's an approaching reality\u2014a Pandora\u2019s box of cyber threats."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Dr. Ellen Miles",
+    "relation": "said",
+    "value": "We are in a race where the finish line is the safeguarding of our digital infrastructure against entities equipped with quantum capabilities",
+    "time": "October 2023",
+    "speaker": "Dr. Ellen Miles",
+    "verbatim": [
+     "We are in a race where the finish line is the safeguarding of our digital infrastructure against entities equipped with quantum capabilities,"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "public key encryption",
+    "relation": "is",
+    "value": "the bedrock of our current cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Public key encryption, the bedrock of our current cybersecurity, relies on the difficulty of factoring large prime numbers"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "public key encryption",
+    "relation": "relies_on",
+    "value": "the difficulty of factoring large prime numbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relies on the difficulty of factoring large prime numbers"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Shor's algorithm",
+    "relation": "is",
+    "value": "a quantum algorithm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quantum algorithms like Shor\u2019s algorithm"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Shor's algorithm",
+    "relation": "trivializes",
+    "value": "factoring large prime numbers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a task infeasible for conventional computers but trivialized by quantum algorithms like Shor\u2019s algorithm"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "public key encryption",
+    "relation": "undermined_by",
+    "value_ref": "c16",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "relies on the difficulty of factoring large prime numbers\u2014a task infeasible for conventional computers but trivialized by quantum algorithms like Shor\u2019s algorithm."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Global Cyber Security Council",
+    "relation": "warned_that",
+    "value": "existing encryption could be retroactively compromised",
+    "time": "November 15, 2023",
+    "speaker": "Global Cyber Security Council",
+    "verbatim": [
+     "In a report dated November 15, 2023, the Global Cyber Security Council warned that existing encryption could be retroactively compromised."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "harvest now, decrypt later attacks",
+    "relation": "defined_as",
+    "value": "cybercriminals store encrypted information to decrypt it with quantum computers once available",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where cybercriminals store encrypted information to decrypt it with quantum computers once available"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "harvest now, decrypt later attacks",
+    "relation": "necessitates",
+    "value": "preemptive action",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "necessitates preemptive action"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "quantum hacking",
+    "relation": "delays_attributed_to",
+    "value": "complacency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Current delays in addressing this quantum threat can be attributed partially to complacency."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "quantum-resistant algorithms",
+    "relation": "needs",
+    "value": "proportional urgency to develop quantum-resistant algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There needs to be proportional urgency to develop quantum-resistant algorithms"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "David Parkson",
+    "relation": "job_title",
+    "value": "Chief Information Security Officer (CISO)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Parkson, Chief Information Security Officer (CISO) at SecureTech Inc."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "David Parkson",
+    "relation": "works_at",
+    "value": "SecureTech Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Parkson, Chief Information Security Officer (CISO) at SecureTech Inc."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "David Parkson",
+    "relation": "said",
+    "value": "There seems to be a \u2018wait and see\u2019 attitude towards quantum hacking. It\u2019s a bit like waiting for the roof to collapse before fixing what you know to be weak foundations",
+    "time": "late September 2023",
+    "speaker": "David Parkson",
+    "verbatim": [
+     "There seems to be a \u2018wait and see\u2019 attitude towards quantum hacking. It\u2019s a bit like waiting for the roof to collapse before fixing what you know to be weak foundations,\u201d he said during an interview in late September 2023."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "National Institute of Standards and Technology (NIST)",
+    "relation": "has_commenced",
+    "value": "initiatives to standardize such cryptographic algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The National Institute of Standards and Technology (NIST) has commenced initiatives to standardize such cryptographic algorithms."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "quantum-resistant algorithms",
+    "relation": "commonly_referred_to_as",
+    "value": "post-quantum cryptography",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The search for quantum-resistant algorithms, commonly referred to as post-quantum cryptography"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "quantum-resistant algorithms",
+    "relation": "objective",
+    "value": "withstand quantum computer attacks without significantly compromising system performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The objective is not only to withstand quantum computer attacks but to do so without significantly compromising system performance."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "QuantumSafe Tech",
+    "relation": "is",
+    "value": "a tech giant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech giants such as QuantumSafe Tech announced their foray"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "QuantumSafe Tech",
+    "relation": "announced",
+    "value": "their foray into integrating hardware solutions that are inherently quantum-resistant",
+    "time": "December 1, 2023",
+    "speaker": "QuantumSafe Tech",
+    "verbatim": [
+     "on December 1, 2023, tech giants such as QuantumSafe Tech announced their foray into integrating hardware solutions that are inherently quantum-resistant."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "QuantumSafe Tech",
+    "relation": "utilizes",
+    "value": "lattice-based cryptographic approaches and advanced random number generation techniques",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing lattice-based cryptographic approaches and advanced random number generation techniques"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "QuantumSafe Tech",
+    "relation": "aims_to_overhaul_security_protocols_by",
+    "value": "the end of the next fiscal year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they aim to overhaul their security protocols by the end of the next fiscal year"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "quantum hacking",
+    "relation": "international_response_described_as",
+    "value": "fragmented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The international community's response to quantum hacking threats has been, to put it mildly, fragmented."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Quantum Security Alliance",
+    "relation": "hosted_meeting",
+    "value": "meeting",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "At the Quantum Security Alliance meeting in January 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Rajeev Singh",
+    "relation": "is",
+    "value": "a cybersecurity envoy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Rajeev Singh, a cybersecurity envoy"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Dr. Rajeev Singh",
+    "relation": "underscored",
+    "value": "the necessity for collaborative defense",
+    "time": "January 2024",
+    "speaker": "Dr. Rajeev Singh",
+    "verbatim": [
+     "Dr. Rajeev Singh, a cybersecurity envoy, underscored the necessity for collaborative defense"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Dr. Rajeev Singh",
+    "relation": "urged_nations_to",
+    "value": "consolidate their research and share defensive strategies",
+    "time": "January 2024",
+    "speaker": "Dr. Rajeev Singh",
+    "verbatim": [
+     "urging nations to consolidate their research and share defensive strategies"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Dr. Rajeev Singh",
+    "relation": "said",
+    "value": "If ever there was a time to unite for a common cyber cause, it is against the quantum hacking threat",
+    "time": null,
+    "speaker": "Dr. Rajeev Singh",
+    "verbatim": [
+     "If ever there was a time to unite for a common cyber cause, it is against the quantum hacking threat,\u201d he implored delegates."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "QuantumVault Inc.",
+    "relation": "is",
+    "value": "a startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Startups like QuantumVault Inc. have championed this proactive stance."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "QuantumVault Inc.",
+    "relation": "championed",
+    "value": "this proactive stance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Startups like QuantumVault Inc. have championed this proactive stance."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Chao",
+    "relation": "is_co_founder_of",
+    "value": "QuantumVault Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Co-founder Emily Chao"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Chao",
+    "relation": "stated",
+    "value": "We are committed to refining quantum-resistant solutions for today's digital fortress, ensuring security is not a privilege granted to a few but a right accessible to all.",
+    "time": "February 10, 2024",
+    "speaker": "Emily Chao",
+    "verbatim": [
+     "We are committed to refining quantum-resistant solutions for today's digital fortress, ensuring security is not a privilege granted to a few but a right accessible to all.\u201d"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "quantum computers",
+    "relation": "gives_rise_to",
+    "value": "new breeds of cyber professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A herculean technological leap such as quantum computing sires new breeds of cyber professionals"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Professor Arnold Thompson",
+    "relation": "affiliated_with",
+    "value": "Institute for Cyber Studies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Professor Arnold Thompson of the Institute for Cyber Studies"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "quantum computers",
+    "relation": "described_as",
+    "value": "double-edged",
+    "time": null,
+    "speaker": "Professor Arnold Thompson",
+    "verbatim": [
+     "I teach my students that quantum computing is double-edged,\u201d says Professor Arnold Thompson of the Institute for Cyber Studies."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Professor Arnold Thompson",
+    "relation": "said_demands",
+    "value": "an unprecedented level of cyber literacy",
+    "time": null,
+    "speaker": "Professor Arnold Thompson",
+    "verbatim": [
+     "It demands of them an unprecedented level of cyber literacy\u2014familiarizing themselves with quantum mechanics just as intimately as they know current security protocols."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "quantum hacking",
+    "relation": "threat_is",
+    "value": "both imminent and immense",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The alarm has sounded; the threat is both imminent and immense."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "quantum hacking",
+    "relation": "challenges",
+    "value": "our technology but our mentality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quantum hacking doesn't just challenge our technology but our mentality"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "quantum hacking",
+    "relation": "demands",
+    "value": "proactive safeguarding of invaluable digital assets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It demands proactive safeguarding of invaluable digital assets"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

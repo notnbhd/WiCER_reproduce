@@ -1,0 +1,907 @@
+{
+ "inventory": [
+  "Artificial Intelligence",
+  "Cybersecurity",
+  "Ransden School District",
+  "a prominent high school in Texas",
+  "Dr. Angela Torres",
+  "Cybersecurity in Education conference",
+  "Dallas",
+  "Michael Anderson",
+  "New York City school district",
+  "Family Educational Rights and Privacy Act (FERPA)",
+  "General Data Protection Regulation (GDPR)",
+  "Eastwood Academy",
+  "biometric authentication system",
+  "Dr. Jeremy Li",
+  "University of Michigan",
+  "AI-driven online platform",
+  "Machine learning algorithms",
+  "AIpowered security system",
+  "AI-based software",
+  "potential phishing scam",
+  "ransomware attack"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Cybersecurity",
+    "relation": "has_become",
+    "value": "a critical issue worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity has become a critical issue worldwide"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Cybersecurity",
+    "relation": "threatens",
+    "value": "educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "educational institutions are not exempt from the threats posed by hackers and cybercriminals"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Cybersecurity",
+    "relation": "driven_by",
+    "value": "an increasing number of devices and a growing reliance on technology for learning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With an increasing number of devices and a growing reliance on technology for learning"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Cybersecurity",
+    "relation": "schools_became",
+    "value": "prime targets for cyberattacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "schools have become prime targets for cyberattacks"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Cybersecurity",
+    "relation": "caused_by",
+    "value_ref": "c3",
+    "verbatim": [
+     "With an increasing number of devices and a growing reliance on technology for learning, schools have become prime targets for cyberattacks."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Cybersecurity",
+    "relation": "sparked",
+    "value": "significant concern among parents, educators, and administrators about how to protect students and school data from unauthorized access and breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has sparked significant concern among parents, educators, and administrators about how to protect students and school data from unauthorized access and breaches."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Artificial Intelligence",
+    "relation": "streamlining",
+    "value": "the fight against cyber threats within the education sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One technological advancement that is streamlining the fight against cyber threats within the education sector is Artificial Intelligence (AI)."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Artificial Intelligence",
+    "relation": "is_revolutionizing",
+    "value": "cybersecurity in schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "how AI is revolutionizing cybersecurity in schools"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Cybersecurity",
+    "relation": "noticeable_uptick_since",
+    "value": "in the number and sophistication of cyberattacks on educational institutions",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, there has been a noticeable uptick in the number and sophistication of cyberattacks on educational institutions."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Ransden School District",
+    "relation": "located_in",
+    "value": "Illinois",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Ransden School District in Illinois fell victim to a ransomware attack"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Ransden School District",
+    "relation": "victim_of",
+    "value": "a ransomware attack",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In November 2023, the Ransden School District in Illinois fell victim to a ransomware attack"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "ransomware attack",
+    "relation": "compromised",
+    "value": "the personal information of thousands of students and staff",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a ransomware attack that compromised the personal information of thousands of students and staff"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "a prominent high school in Texas",
+    "relation": "suffered",
+    "value": "a data breach that resulted in the theft of sensitive academic records",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "in early 2024, a prominent high school in Texas suffered a data breach that resulted in the theft of sensitive academic records"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cybersecurity",
+    "relation": "urgent_need",
+    "value": "for robust cybersecurity measures in schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These incidents highlight the urgent need for robust cybersecurity measures in schools."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Artificial Intelligence",
+    "relation": "refers_to",
+    "value": "the simulation of human intelligence in machines that are programmed to think and learn",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence refers to the simulation of human intelligence in machines that are programmed to think and learn"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Artificial Intelligence",
+    "relation": "processes_data",
+    "value": "enormous amounts of data much more efficiently than humans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI systems can process enormous amounts of data much more efficiently than humans"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Artificial Intelligence",
+    "relation": "can_identify",
+    "value": "patterns, detect anomalies, and predict potential threats before they materialize",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They can identify patterns, detect anomalies, and predict potential threats before they materialize."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "AIpowered security system",
+    "relation": "monitors",
+    "value": "network traffic in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an AIpowered security system can monitor network traffic in real-time and flag activities that deviate from the norm"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "AIpowered security system",
+    "relation": "flags",
+    "value": "activities that deviate from the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flag activities that deviate from the norm, suggesting a possible security breach."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "AIpowered security system",
+    "relation": "suggests",
+    "value": "a possible security breach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggesting a possible security breach"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Dr. Angela Torres",
+    "relation": "occupation",
+    "value": "a cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Angela Torres, a cybersecurity expert,"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Angela Torres",
+    "relation": "gave_keynote_at",
+    "value": "Cybersecurity in Education conference",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during her keynote speech at the Cybersecurity in Education conference in Dallas on December 7, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Dr. Angela Torres",
+    "relation": "emphasized",
+    "value": "the proactive capabilities of AI",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "emphasized the proactive capabilities of AI during her keynote speech"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Cybersecurity in Education conference",
+    "relation": "located_in",
+    "value": "Dallas",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Cybersecurity in Education conference in Dallas on December 7, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Dallas",
+    "relation": "hosted",
+    "value": "the Cybersecurity in Education conference",
+    "time": "December 7, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Cybersecurity in Education conference in Dallas on December 7, 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Dr. Angela Torres",
+    "relation": "explained",
+    "value": "traditional security measures are often reactive",
+    "time": null,
+    "speaker": "Dr. Angela Torres",
+    "verbatim": [
+     "She explained that traditional security measures are often reactive"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Angela Torres",
+    "relation": "described",
+    "value": "administrators and IT staff scramble to contain and mitigate a threat after it has already penetrated the system",
+    "time": null,
+    "speaker": "Dr. Angela Torres",
+    "verbatim": [
+     "administrators and IT staff scramble to contain and mitigate a threat after it has already penetrated the system"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Artificial Intelligence",
+    "relation": "offers",
+    "value": "a proactive approach",
+    "time": null,
+    "speaker": "Dr. Angela Torres",
+    "verbatim": [
+     "AI, however, offers a proactive approach."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Machine learning algorithms",
+    "relation": "is_subset_of",
+    "value": "AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Machine learning algorithms, a subset of AI,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Machine learning algorithms",
+    "relation": "can_learn",
+    "value": "learn from new cyber threats and adapt defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can continuously learn from new cyber threats and adapt defenses to prevent similar attacks in the future"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Machine learning algorithms",
+    "relation": "prevents",
+    "value": "similar attacks in the future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to prevent similar attacks in the future"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Machine learning algorithms",
+    "relation": "in_order_to",
+    "value_ref": "c31",
+    "verbatim": [
+     "adapt defenses to prevent similar attacks in the future"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Artificial Intelligence",
+    "relation": "excels_in",
+    "value": "threat detection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI excels in this area by continuously analyzing patterns and identifying suspicious activities."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Artificial Intelligence",
+    "relation": "method_is",
+    "value": "continuously analyzing patterns and identifying suspicious activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by continuously analyzing patterns and identifying suspicious activities"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Artificial Intelligence",
+    "relation": "mechanism_of",
+    "value_ref": "c33",
+    "verbatim": [
+     "AI excels in this area by continuously analyzing patterns and identifying suspicious activities."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Cybersecurity",
+    "relation": "is_essential_in",
+    "value": "combating cyberattacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Accurate threat detection is essential in combating cyberattacks."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Michael Anderson",
+    "relation": "position",
+    "value": "Chief Information Officer at a New York City school district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Anderson, Chief Information Officer at a New York City school district,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "New York City school district",
+    "relation": "employs",
+    "value": "Michael Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Anderson, Chief Information Officer at a New York City school district,"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Michael Anderson",
+    "relation": "implemented",
+    "value": "AI-based software",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "implemented AI-based software in March 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "AI-based software",
+    "relation": "thwarted",
+    "value": "a potential phishing scam aimed at stealing staff login credentials",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "managed to thwart a potential phishing scam aimed at stealing staff login credentials"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "potential phishing scam",
+    "relation": "aimed_at",
+    "value": "stealing staff login credentials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a potential phishing scam aimed at stealing staff login credentials"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Michael Anderson",
+    "relation": "said",
+    "value": "AI doesn't sleep",
+    "time": null,
+    "speaker": "Michael Anderson",
+    "verbatim": [
+     "\"AI doesn't sleep,\" said Anderson"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Michael Anderson",
+    "relation": "said",
+    "value": "it tracks anomalies even when the IT team is off-duty, ensuring round-the-clock security for our networks",
+    "time": null,
+    "speaker": "Michael Anderson",
+    "verbatim": [
+     "\"it tracks anomalies even when the IT team is off-duty, ensuring round-the-clock security for our networks.\""
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Artificial Intelligence",
+    "relation": "helps_maintain_compliance_with",
+    "value": "the Family Educational Rights and Privacy Act (FERPA) and the General Data Protection Regulation (GDPR)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI helps schools maintain compliance with regulations like the Family Educational Rights and Privacy Act (FERPA) and the General Data Protection Regulation (GDPR)"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Family Educational Rights and Privacy Act (FERPA)",
+    "relation": "is_a",
+    "value": "regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulations like the Family Educational Rights and Privacy Act (FERPA)"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "is_a",
+    "value": "regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the General Data Protection Regulation (GDPR)"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Artificial Intelligence",
+    "relation": "automatically_identifies_and_classifies",
+    "value": "sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by automatically identifying and classifying sensitive data"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Artificial Intelligence",
+    "relation": "ensures",
+    "value": "students' private information is handled appropriately and kept secure from unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It thus ensures that students' private information is handled appropriately and kept secure from unauthorized access."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Artificial Intelligence",
+    "relation": "mechanism_of",
+    "value_ref": "c48",
+    "verbatim": [
+     "by automatically identifying and classifying sensitive data. It thus ensures that students' private information is handled appropriately and kept secure from unauthorized access."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Cybersecurity",
+    "relation": "traditional_password_systems_are",
+    "value": "vulnerable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional passwordbased systems are vulnerable, as passwords can be shared, stolen, or cracked."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Cybersecurity",
+    "relation": "passwords_can_be",
+    "value": "shared, stolen, or cracked",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "passwords can be shared, stolen, or cracked"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Cybersecurity",
+    "relation": "caused_by",
+    "value_ref": "c51",
+    "verbatim": [
+     "Traditional passwordbased systems are vulnerable, as passwords can be shared, stolen, or cracked."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Artificial Intelligence",
+    "relation": "can_improve",
+    "value": "the effectiveness of authentication processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI can also improve the effectiveness of authentication processes."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Eastwood Academy",
+    "relation": "introduced",
+    "value": "a biometric authentication system, powered by AI",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 20, 2024, Eastwood Academy introduced a biometric authentication system, powered by AI"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "biometric authentication system",
+    "relation": "employs",
+    "value": "facial recognition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which employs facial recognition"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "biometric authentication system",
+    "relation": "ensures",
+    "value": "only authorized individuals can access the school's digital platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure that only authorized individuals can access the school's digital platforms"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "biometric authentication system",
+    "relation": "reduced",
+    "value": "the instances of unauthorized access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This addition has drastically reduced the instances of unauthorized access."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "biometric authentication system",
+    "relation": "results_in",
+    "value_ref": "c57",
+    "verbatim": [
+     "This addition has drastically reduced the instances of unauthorized access."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Cybersecurity",
+    "relation": "being_incorporated_into",
+    "value": "cybersecurity fundamentals into their curricula",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many schools are now incorporating cybersecurity fundamentals into their curricula"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Artificial Intelligence",
+    "relation": "provides",
+    "value": "personalized learning experiences to students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI systems can provide personalized learning experiences to students"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Artificial Intelligence",
+    "relation": "also_does",
+    "value": "educates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI doesn't just protect; it educates."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Dr. Jeremy Li",
+    "relation": "occupation",
+    "value": "a professor of cybersecurity at the University of Michigan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jeremy Li, a professor of cybersecurity at the University of Michigan,"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "University of Michigan",
+    "relation": "employs",
+    "value": "Dr. Jeremy Li",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Jeremy Li, a professor of cybersecurity at the University of Michigan,"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Dr. Jeremy Li",
+    "relation": "launched",
+    "value": "an AI-driven online platform that teaches students cybersecurity principles through interactive modules",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched an AI-driven online platform that teaches students cybersecurity principles through interactive modules"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "AI-driven online platform",
+    "relation": "teaches",
+    "value": "students cybersecurity principles through interactive modules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an AI-driven online platform that teaches students cybersecurity principles through interactive modules"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Artificial Intelligence",
+    "relation": "significantly_enhances",
+    "value": "cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While AI significantly enhances cybersecurity, it does not come without challenges."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Artificial Intelligence",
+    "relation": "raises_concerns_about",
+    "value": "the ethical use of AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns have been raised regarding the ethical use of AI"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Artificial Intelligence",
+    "relation": "raises_concern_about_potential_for",
+    "value": "AI-driven systems to make mistakes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the potential for AI-driven systems to make mistakes"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Artificial Intelligence",
+    "relation": "requires",
+    "value": "a substantial financial investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implementing AI solutions requires a substantial financial investment"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Artificial Intelligence",
+    "relation": "hurdle_for",
+    "value": "less affluent school districts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can be a hurdle for less affluent school districts"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Artificial Intelligence",
+    "relation": "results_in",
+    "value_ref": "c70",
+    "verbatim": [
+     "implementing AI solutions requires a substantial financial investment, which can be a hurdle for less affluent school districts"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Artificial Intelligence",
+    "relation": "challenge",
+    "value": "ensuring that the AI systems themselves are secured against cyberattacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another considerable challenge is ensuring that the AI systems themselves are secured against cyberattacks."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Artificial Intelligence",
+    "relation": "integration_is",
+    "value": "just the beginning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The integration of AI into cybersecurity measures within schools is just the beginning."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Artificial Intelligence",
+    "relation": "capabilities_will_evolve_toward",
+    "value": "offering robust protection against cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As technology evolves, so will the capabilities of AI in offering robust protection against cyber threats."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Cybersecurity",
+    "relation": "regular_updates_can_mitigate",
+    "value": "concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Regular updates from schools on their cybersecurity posture can mitigate concerns and provide reassurance about the security of students' data."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Cybersecurity",
+    "relation": "best_practices_include",
+    "value": "advocating for strong passwords and educating children about the importance of protecting personal information online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as advocating for strong passwords and educating children about the importance of protecting personal information online"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Artificial Intelligence",
+    "relation": "implementation_requires",
+    "value": "open lines of communication between parents and educators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Open lines of communication between parents and educators are essential for the effective implementation of AI in cybersecurity."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Artificial Intelligence",
+    "relation": "role_is",
+    "value": "promising and pivotal",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The role of AI in enhancing cybersecurity in schools is promising and pivotal."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "Artificial Intelligence",
+    "relation": "benefits_include",
+    "value": "proactive threat detection, improved authentication, regulatory compliance, and educational opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the benefits of AI, including proactive threat detection, improved authentication, regulatory compliance, and educational opportunities, present a strong case for its continued adoption."
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Artificial Intelligence",
+    "relation": "presents_strong_case_for",
+    "value": "its continued adoption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "present a strong case for its continued adoption"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Cybersecurity",
+    "relation": "calls_for",
+    "value": "equally adaptive and sophisticated measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The dynamic nature of cyber threats calls for equally adaptive and sophisticated measures"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}
