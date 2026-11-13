@@ -1,0 +1,831 @@
+{
+ "inventory": [
+  "John Walker",
+  "Maria Vargas",
+  "Robert Gomez",
+  "Elaine Zhao",
+  "Emma Thompson",
+  "James Peterson",
+  "Li Chen",
+  "Automation Forward",
+  "MechanoTech",
+  "PrintFusion",
+  "Global ManufactureTech",
+  "ProgTech",
+  "University of Innovation",
+  "Progressville",
+  "Innovation City",
+  "Techton",
+  "Tech for All",
+  "Industry 4.0",
+  "third industrial revolution",
+  "Artificial Intelligence (AI)",
+  "automation",
+  "robotics",
+  "upskilling",
+  "3D printing",
+  "nanotechnology",
+  "smart factories",
+  "skill gap",
+  "sustainability managers",
+  "AI ethics officers",
+  "future-proof manufacturing strategy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "automation",
+    "relation": "transforms",
+    "value": "manufacturing jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is being significantly transformed by the cutting-edge march of automation"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "third industrial revolution",
+    "relation": "introduced",
+    "value": "computers and automation into factories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which introduced computers and automation into factories"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "robotics",
+    "relation": "advent_of",
+    "value": "sophisticated robotics",
+    "time": "after September 2023",
+    "speaker": null,
+    "verbatim": [
+     "it's only after September 2023, with the advent of sophisticated robotics and Artificial Intelligence (AI)"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "advent_of",
+    "value": "sophisticated robotics and Artificial Intelligence (AI)",
+    "time": "after September 2023",
+    "speaker": null,
+    "verbatim": [
+     "it's only after September 2023, with the advent of sophisticated robotics and Artificial Intelligence (AI)"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "robotics",
+    "relation": "enables",
+    "value": "factories to operate smarter, faster, and more efficiently than ever before",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "robots with cognitive abilities are enabling factories to operate smarter, faster, and more efficiently than ever before"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Progressville",
+    "relation": "described_as",
+    "value": "fictional town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the fictional town of Progressville"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Progressville",
+    "relation": "contains_plant",
+    "value": "a recently overhauled car manufacturing plant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a recently overhauled car manufacturing plant exemplifies this shift"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "John Walker",
+    "relation": "job_title",
+    "value": "the plant's manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Walker, the plant's manager, describes the change"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "automation",
+    "relation": "enables",
+    "value": "production line to adjust on the fly to different car models",
+    "time": null,
+    "speaker": "John Walker",
+    "verbatim": [
+     "Using automated systems, our production line can adjust on the fly to different car models."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "robotics",
+    "relation": "equipped_with",
+    "value": "AI capabilities",
+    "time": null,
+    "speaker": "John Walker",
+    "verbatim": [
+     "Robots equipped with AI capabilities"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "robotics",
+    "relation": "analyzes_data_to_predict",
+    "value": "equipment failures before they happen",
+    "time": null,
+    "speaker": "John Walker",
+    "verbatim": [
+     "analyze data to predict equipment failures before they happen"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "robotics",
+    "relation": "reduces",
+    "value": "downtime",
+    "time": null,
+    "speaker": "John Walker",
+    "verbatim": [
+     "significantly reducing downtime"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "robotics",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": "John Walker",
+    "verbatim": [
+     "predict equipment failures before they happen, significantly reducing downtime"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Industry 4.0",
+    "relation": "also_known_as",
+    "value": "the fourth industrial revolution",
+    "time": null,
+    "speaker": "experts",
+    "verbatim": [
+     "what experts are calling the fourth industrial revolution or Industry 4.0"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Industry 4.0",
+    "relation": "adopted_by",
+    "value": "Walker's factory, one of many across the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Walker's factory is one from many across the globe that has made the leap into what experts are calling the fourth industrial revolution or Industry 4.0"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "smart factories",
+    "relation": "emblematic_of",
+    "value": "a paradigm shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the resulting 'smart factories' are emblematic of a paradigm shift"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "smart factories",
+    "relation": "results_from",
+    "value": "sensor technology and network connectivity converging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As sensor technology and network connectivity converge, the resulting 'smart factories'"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "automation",
+    "relation": "not_replacing",
+    "value": "humans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "automation isn't replacing humans"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "automation",
+    "relation": "repurposes",
+    "value": "human roles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's repurposing human roles"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maria Vargas",
+    "relation": "job_title",
+    "value": "a robotics engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Vargas, a robotics engineer and co-founder of Automation Forward, a consulting firm based in Innovation City"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Maria Vargas",
+    "relation": "co_founder_of",
+    "value": "Automation Forward",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Vargas, a robotics engineer and co-founder of Automation Forward, a consulting firm based in Innovation City"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Automation Forward",
+    "relation": "based_in",
+    "value": "Innovation City",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a consulting firm based in Innovation City"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Automation Forward",
+    "relation": "described_as",
+    "value": "a consulting firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Automation Forward, a consulting firm based in Innovation City"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maria Vargas",
+    "relation": "states",
+    "value": "isn't the end of manufacturing jobs, but their evolution",
+    "time": null,
+    "speaker": "Maria Vargas",
+    "verbatim": [
+     "What we're seeing isn't the end of manufacturing jobs, but their evolution."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Maria Vargas",
+    "relation": "says_workers_transitioning_from",
+    "value": "repetitive, strenuous tasks to roles that require sophisticated problem-solving and technical skills",
+    "time": null,
+    "speaker": "Maria Vargas",
+    "verbatim": [
+     "Workers are transitioning from repetitive, strenuous tasks to roles that require sophisticated problem-solving and technical skills."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Maria Vargas",
+    "relation": "leads",
+    "value": "training programs designed for the contemporary manufacturing landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vargas is among those leading the charge in training programs designed for the contemporary manufacturing landscape."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Maria Vargas",
+    "relation": "collaborating_with",
+    "value": "technical schools and community colleges",
+    "time": "Since late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "collaborating with technical schools and community colleges"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Maria Vargas",
+    "relation": "develops",
+    "value": "curriculums that address this shifting demand",
+    "time": "Since late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "to develop curriculums that address this shifting demand"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "upskilling",
+    "relation": "defined_as",
+    "value": "the process of teaching workers new competencies needed to manage and work alongside advanced machinery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a term that encapsulates the process of teaching workers new competencies needed to manage and work alongside advanced machinery"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "MechanoTech",
+    "relation": "setting_benchmark_for",
+    "value": "workforce development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One company setting the benchmark for workforce development is MechanoTech"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Robert Gomez",
+    "relation": "ceo_of",
+    "value": "MechanoTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MechanoTech, where CEO Robert Gomez has introduced an extensive skill enhancement program."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Robert Gomez",
+    "relation": "introduced",
+    "value": "an extensive skill enhancement program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO Robert Gomez has introduced an extensive skill enhancement program"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Robert Gomez",
+    "relation": "aims_to",
+    "value": "make our workforce future-ready",
+    "time": null,
+    "speaker": "Robert Gomez",
+    "verbatim": [
+     "Our aim is to make our workforce future-ready"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "MechanoTech",
+    "relation": "offers_training_in",
+    "value": "robotics programming, data analytics, and system maintenance",
+    "time": "Since October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since October 2023, MechanoTech has been offering its employees training in areas such as robotics programming, data analytics, and system maintenance"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "MechanoTech",
+    "relation": "describes_skills_as",
+    "value": "critical skills in a high-tech manufacturing setting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all critical skills in a high-tech manufacturing setting"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "3D printing",
+    "relation": "redefining",
+    "value": "what's possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technologies like 3D printing and nanotechnology redefining what's possible"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "nanotechnology",
+    "relation": "redefining",
+    "value": "what's possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "technologies like 3D printing and nanotechnology redefining what's possible"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Techton",
+    "relation": "described_as",
+    "value": "quaint city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the quaint city of Techton"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "PrintFusion",
+    "relation": "owns_factory_in",
+    "value": "Techton",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the quaint city of Techton, a factory owned by pioneer company PrintFusion is leading the charge with 3D printing"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "PrintFusion",
+    "relation": "described_as",
+    "value": "pioneer company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a factory owned by pioneer company PrintFusion"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "PrintFusion",
+    "relation": "leads_with",
+    "value": "3D printing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is leading the charge with 3D printing"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "PrintFusion",
+    "relation": "can_produce",
+    "value": "complex parts that would have been unthinkable a decade ago",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their facility can churn out complex parts that would have been unthinkable a decade ago"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Elaine Zhao",
+    "relation": "job_title",
+    "value": "head of PrintFusion's Research & Development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Elaine Zhao, head of PrintFusion's Research & Development, says"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "3D printing",
+    "relation": "revolutionizing",
+    "value": "not just how we make things, but what we make",
+    "time": null,
+    "speaker": "Elaine Zhao",
+    "verbatim": [
+     "3D printing is revolutionizing not just how we make things, but what we make"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "3D printing",
+    "relation": "limited_only_by",
+    "value": "our imagination",
+    "time": null,
+    "speaker": "Elaine Zhao",
+    "verbatim": [
+     "we are limited only by our imagination"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "nanotechnology",
+    "relation": "brings_forth",
+    "value": "materials with unparalleled properties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "nanotechnology is bringing forth materials with unparalleled properties"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "nanotechnology",
+    "relation": "property_of_materials",
+    "value": "lighter, stronger, and more adaptable than ever before",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "lighter, stronger, and more adaptable than ever before"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "3D printing",
+    "relation": "sets_precedent_for",
+    "value": "future economic development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's setting a precedent for future economic development"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "skill gap",
+    "relation": "aimed_to_bridge_by",
+    "value": "initiatives launched by local governments and non-profits",
+    "time": "since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Initiatives launched since late 2023 by local governments and non-profits aim to bridge the skill gap"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Emma Thompson",
+    "relation": "job_title",
+    "value": "Mayor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Emma Thompson of Progressville"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Emma Thompson",
+    "relation": "mayor_of",
+    "value": "Progressville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mayor Emma Thompson of Progressville is particularly active on this front"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tech for All",
+    "relation": "aims_to",
+    "value": "provide everyone with the opportunity to learn the skills needed in today's job market",
+    "time": null,
+    "speaker": "Emma Thompson",
+    "verbatim": [
+     "Our 'Tech for All' initiative aims to provide everyone with the opportunity to learn the skills needed in today's job market"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Tech for All",
+    "relation": "ensures_residents_are",
+    "value": "active participants in this technological revolution",
+    "time": null,
+    "speaker": "Emma Thompson",
+    "verbatim": [
+     "ensuring that our residents are not spectators but active participants in this technological revolution"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "James Peterson",
+    "relation": "job_title",
+    "value": "an economics professor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Peterson, an economics professor at the University of Innovation"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "James Peterson",
+    "relation": "works_at",
+    "value": "University of Innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "James Peterson, an economics professor at the University of Innovation"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "James Peterson",
+    "relation": "described_as",
+    "value": "industry leader",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "industry leaders like James Peterson"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "automation",
+    "relation": "seen_as",
+    "value": "an economic catalyst",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "Automation should be seen as an economic catalyst."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "automation",
+    "relation": "paves_way_for",
+    "value": "creating higher-value jobs and services",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "It paves the way for creating higher-value jobs and services"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "automation",
+    "relation": "leads_to",
+    "value": "a richer, more diverse economy",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "leading to a richer, more diverse economy"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "automation",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": "James Peterson",
+    "verbatim": [
+     "It paves the way for creating higher-value jobs and services, leading to a richer, more diverse economy"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "sustainability managers",
+    "relation": "emergence_underscores",
+    "value": "the dynamic nature of a technology-driven economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emergence of positions such as sustainability managers and AI ethics officers underscore the dynamic nature of a technology-driven economy"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "AI ethics officers",
+    "relation": "emergence_underscores",
+    "value": "the dynamic nature of a technology-driven economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emergence of positions such as sustainability managers and AI ethics officers underscore the dynamic nature of a technology-driven economy"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Li Chen",
+    "relation": "ceo_of",
+    "value": "Global ManufactureTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li Chen, CEO of Global ManufactureTech, envisions a world where"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "automation",
+    "relation": "collaborates_to_address",
+    "value": "global challenges like climate change and resource scarcity",
+    "time": null,
+    "speaker": "Li Chen",
+    "verbatim": [
+     "Automation and human ingenuity collaborate to address not just commercial needs but global challenges like climate change and resource scarcity"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "ProgTech",
+    "relation": "exhibits",
+    "value": "what a future-proof strategy looks like",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like ProgTech are exhibiting what a future-proof strategy looks like"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "future-proof manufacturing strategy",
+    "relation": "exhibited_by",
+    "value": "ProgTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like ProgTech are exhibiting what a future-proof strategy looks like"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "ProgTech",
+    "relation": "new_facility_powered_by",
+    "value": "renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With their new facility powered by renewable energy"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "ProgTech",
+    "relation": "equipped_with",
+    "value": "self-learning machines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipped with self-learning machines"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "ProgTech",
+    "relation": "setting_gold_standard_for",
+    "value": "sustainable and intelligent manufacturing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they are setting a gold standard for sustainable and intelligent manufacturing"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "ProgTech",
+    "relation": "unveiled_groundbreaking_design_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "The factory's groundbreaking design, which was unveiled in November 2023"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "ProgTech",
+    "relation": "features",
+    "value": "a modular setup allowing for quick reconfiguration to accommodate varying production requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "features a modular setup allowing for quick reconfiguration to accommodate varying production requirements"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "ProgTech",
+    "relation": "design_is_testament_to",
+    "value": "the agility that modern manufacturing necessitates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a testament to the agility that modern manufacturing necessitates"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,842 @@
+{
+ "inventory": [
+  "Maria Gonzalez",
+  "Thomas O'Connor",
+  "Lynn Smith",
+  "George Kostas",
+  "Patricia Evans",
+  "Alan and Julie Chen",
+  "Sophia Bernard",
+  "Jack Wallace",
+  "Traditional Banking Loans",
+  "Government Grants",
+  "Crowdfunding",
+  "Kickstarter",
+  "Indiegogo",
+  "Angel Investors",
+  "Venture Capital",
+  "Bootstrapping",
+  "Community Development Financial Institutions",
+  "Alternative Lenders",
+  "local community bank",
+  "local business networking event",
+  "tutoring center",
+  "craft distillery",
+  "art studio",
+  "patent-pending invention",
+  "tech startup",
+  "farm-to-table restaurant",
+  "mobile healthcare service",
+  "community radio station",
+  "local retiree community"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local retiree community",
+    "relation": "senior_founded_startups_uptick_since",
+    "value": "uptick in senior-founded startups",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, a notable uptick in senior-founded startups has become evident throughout our patchwork of neighborhoods"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Maria Gonzalez",
+    "relation": "age",
+    "value": "65",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, a 65-year-old former educator turned entrepreneur"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Maria Gonzalez",
+    "relation": "former_occupation",
+    "value": "educator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, a 65-year-old former educator turned entrepreneur"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Maria Gonzalez",
+    "relation": "inaugurated",
+    "value": "tutoring center",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "inaugurated her tutoring center in November 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "tutoring center",
+    "relation": "inaugurated_by",
+    "value": "Maria Gonzalez",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "inaugurated her tutoring center in November 2023"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Maria Gonzalez",
+    "relation": "received_loan_from",
+    "value": "local community bank",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the help of a modest loan from a local community bank"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local community bank",
+    "relation": "provided_modest_loan_to",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with the help of a modest loan from a local community bank"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Maria Gonzalez",
+    "relation": "enabled_by",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inaugurated her tutoring center in November 2023 with the help of a modest loan from a local community bank"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Maria Gonzalez",
+    "relation": "stated",
+    "value": "It was about leveraging my good credit history and the relationships I've built over the years with my bankers.",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "It was about leveraging my good credit history and the relationships I've built over the years with my bankers."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Traditional Banking Loans",
+    "relation": "described_as",
+    "value": "the path most traveled in the journey of business financing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The path most traveled in the journey of business financing is through traditional bank loans."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Traditional Banking Loans",
+    "relation": "offer",
+    "value": "the necessary capital with structured repayment plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "banks can offer the necessary capital with structured repayment plans that align with their envisioned flow of business revenue."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Government Grants",
+    "relation": "extended_by",
+    "value": "Local governments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local governments, understanding the economic ripples caused by fresh businesses, often extend support through various grants."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Thomas O'Connor",
+    "relation": "age",
+    "value": "62",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas O'Connor, a retired military veteran at 62"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Thomas O'Connor",
+    "relation": "former_occupation",
+    "value": "retired military veteran",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thomas O'Connor, a retired military veteran at 62"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Thomas O'Connor",
+    "relation": "secured",
+    "value": "a government grant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was intrepid in securing a government grant explicitly tailored for service members transitioning into business ownership"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Government Grants",
+    "relation": "tailored_for",
+    "value": "service members transitioning into business ownership",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a government grant explicitly tailored for service members transitioning into business ownership"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "craft distillery",
+    "relation": "awarded_funds_covering",
+    "value": "equipment costs",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "In January 2024, his craft distillery concept was awarded funds that covered equipment costs."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Thomas O'Connor",
+    "relation": "stated",
+    "value": "The grant not only supported my financial needs but also affirmed the worth of my idea,",
+    "time": null,
+    "speaker": "Thomas O'Connor",
+    "verbatim": [
+     "\"The grant not only supported my financial needs but also affirmed the worth of my idea,\" O'Connor shares"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Government Grants",
+    "relation": "provide",
+    "value": "monetary aid and moral support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "suggesting the dual benefit of monetary aid and moral support inherent to government grants."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Kickstarter",
+    "relation": "is_example_of",
+    "value": "crowdfunding website",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Websites like Kickstarter and Indiegogo have become springboards for local entrepreneurial dreams."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Indiegogo",
+    "relation": "is_example_of",
+    "value": "crowdfunding website",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Websites like Kickstarter and Indiegogo have become springboards for local entrepreneurial dreams."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Kickstarter",
+    "relation": "springboard_for",
+    "value": "local entrepreneurial dreams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Websites like Kickstarter and Indiegogo have become springboards for local entrepreneurial dreams."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Indiegogo",
+    "relation": "springboard_for",
+    "value": "local entrepreneurial dreams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Websites like Kickstarter and Indiegogo have become springboards for local entrepreneurial dreams."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Crowdfunding",
+    "relation": "described_as",
+    "value": "a more contemporary method of financing that aligns closely with the community-minded retiree",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A more contemporary method of financing that aligns closely with the community-minded retiree is crowdfunding."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lynn Smith",
+    "relation": "age",
+    "value": "60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lynn Smith, aged 60,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lynn Smith",
+    "relation": "launched_crowdfunding_campaign",
+    "value": "to open an art studio",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched a successful crowdfunding campaign in October 2023 to open an art studio"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lynn Smith",
+    "relation": "campaign_outcome",
+    "value": "successful",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched a successful crowdfunding campaign in October 2023 to open an art studio"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "art studio",
+    "relation": "funded_by_campaign_launched_by",
+    "value": "Lynn Smith",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched a successful crowdfunding campaign in October 2023 to open an art studio"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Lynn Smith",
+    "relation": "stated",
+    "value": "What's beautiful about crowdfunding is the early customer engagement; it's a pre-validation of your market.",
+    "time": null,
+    "speaker": "Lynn Smith",
+    "verbatim": [
+     "\"What's beautiful about crowdfunding is the early customer engagement; it's a pre-validation of your market.\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Crowdfunding",
+    "relation": "provides",
+    "value": "a secure financial backing based on shared belief in the entrepreneur's vision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the community's small threads of contributions amount to a secure financial backing based on shared belief in the entrepreneur's vision."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Angel Investors",
+    "relation": "defined_as",
+    "value": "individuals or groups interested in providing capital in exchange for equity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "angel investors\u2014individuals or groups interested in providing capital in exchange for equity"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Angel Investors",
+    "relation": "may_be_attracted_by",
+    "value": "retired entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "retired entrepreneurs might attract angel investors"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "George Kostas",
+    "relation": "age",
+    "value": "63",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Kostas, a 63-year-old with a patent-pending invention"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "George Kostas",
+    "relation": "has_invention",
+    "value": "patent-pending invention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George Kostas, a 63-year-old with a patent-pending invention"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "George Kostas",
+    "relation": "met_angel_investor_at",
+    "value": "local business networking event",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "serendipitously met an angel investor at a local business networking event in December 2023"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local business networking event",
+    "relation": "hosted_meeting_with",
+    "value": "George Kostas and an angel investor",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "serendipitously met an angel investor at a local business networking event in December 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "patent-pending invention",
+    "relation": "originally_sketched_on",
+    "value": "napkins over dinner conversations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His invention, originally sketched on napkins over dinner conversations,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "patent-pending invention",
+    "relation": "garnered",
+    "value": "a considerable investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "garnered a considerable investment"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "patent-pending invention",
+    "relation": "enabled",
+    "value": "flight to what might have otherwise been an earthbound aspiration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "garnered a considerable investment, giving flight to what might have otherwise been an earthbound aspiration"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Venture Capital",
+    "relation": "targets",
+    "value": "retirees who dream not just big, but colossal, and have the business models to match",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Venture capitalists (VCs) are for the retirees who dream not just big, but colossal, and have the business models to match."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Venture Capital",
+    "relation": "gives",
+    "value": "those with high-growth potential the rocket fuel needed to launch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VCs tend to give those with high-growth potential the rocket fuel needed to launch."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Patricia Evans",
+    "relation": "age",
+    "value": "61",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Patricia Evans, at 61, secured venture capital for her tech startup in February 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Patricia Evans",
+    "relation": "secured",
+    "value": "venture capital for her tech startup",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Patricia Evans, at 61, secured venture capital for her tech startup in February 2024"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "tech startup",
+    "relation": "received_venture_capital",
+    "value": "venture capital",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Patricia Evans, at 61, secured venture capital for her tech startup in February 2024"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Venture Capital",
+    "relation": "enabled",
+    "value": "a rapid scalability that would have been otherwise impossible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling a rapid scalability that would have been otherwise impossible"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Patricia Evans",
+    "relation": "results_in",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "secured venture capital for her tech startup in February 2024",
+     "enabling a rapid scalability that would have been otherwise impossible"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Patricia Evans",
+    "relation": "explains",
+    "value": "VCs bet on your future",
+    "time": null,
+    "speaker": "Patricia Evans",
+    "verbatim": [
+     "\"VCs bet on your future,\" Evans explains"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Patricia Evans",
+    "relation": "explains",
+    "value": "They invest in your potential to grow and generate sizeable returns.",
+    "time": null,
+    "speaker": "Patricia Evans",
+    "verbatim": [
+     "\"They invest in your potential to grow and generate sizeable returns.\""
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Bootstrapping",
+    "relation": "described_as",
+    "value": "a test of tenacity and resourcefulness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "self-funding or bootstrapping, a test of tenacity and resourcefulness."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bootstrapping",
+    "relation": "ensures",
+    "value": "complete control",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This route, while daunting, ensures complete control"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Bootstrapping",
+    "relation": "appeals_to",
+    "value": "those with a clear, unwavering vision and the means to single-handedly back it up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has a particular appeal for those with a clear, unwavering vision and the means to single-handedly back it up."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Alan and Julie Chen",
+    "relation": "age",
+    "value": "in their sixties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alan and Julie Chen, a reticent couple in their sixties"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Alan and Julie Chen",
+    "relation": "reinvested",
+    "value": "their life savings into a farm-to-table restaurant concept",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chose to reinvest their life savings into a farm-to-table restaurant concept"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "farm-to-table restaurant",
+    "relation": "funded_with",
+    "value": "their life savings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chose to reinvest their life savings into a farm-to-table restaurant concept"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Alan and Julie Chen",
+    "relation": "stated",
+    "value": "We're cautious, but confident,",
+    "time": null,
+    "speaker": "Alan",
+    "verbatim": [
+     "\"We're cautious, but confident,\" says Alan."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Alan and Julie Chen",
+    "relation": "stated",
+    "value": "Every decision is ours, and so is every success.",
+    "time": null,
+    "speaker": "Alan",
+    "verbatim": [
+     "\"Every decision is ours, and so is every success.\""
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Community Development Financial Institutions",
+    "relation": "are_often",
+    "value": "non-profits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These entities, often non-profits, aim to empower economically disadvantaged entrepreneurs."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Community Development Financial Institutions",
+    "relation": "aim_to",
+    "value": "empower economically disadvantaged entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These entities, often non-profits, aim to empower economically disadvantaged entrepreneurs."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Community Development Financial Institutions",
+    "relation": "offer",
+    "value": "an invaluable alternative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For those whose abilities to secure traditional loans or identify wealthy patrons are limited, Community Development Financial Institutions (CDFIs) offer an invaluable alternative."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Sophia Bernard",
+    "relation": "age",
+    "value": "68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Bernard, 68,"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Sophia Bernard",
+    "relation": "tapped_into",
+    "value": "a local CDFI to start her mobile healthcare service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tapped into a local CDFI to start her mobile healthcare service"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "mobile healthcare service",
+    "relation": "started_with_support_from",
+    "value": "a local CDFI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tapped into a local CDFI to start her mobile healthcare service"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Community Development Financial Institutions",
+    "relation": "provided",
+    "value": "not only capital but also guidance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The institution provided not only capital but also guidance."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sophia Bernard",
+    "relation": "stated",
+    "value": "It's like having a mentor who is invested in your success,",
+    "time": null,
+    "speaker": "Sophia Bernard",
+    "verbatim": [
+     "\"It's like having a mentor who is invested in your success,\" Sophia remarks."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Alternative Lenders",
+    "relation": "offer",
+    "value": "loans without the stringent criteria of conventional banks or the lengthy application processes of some grant programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alternative lenders like online financing companies can offer loans without the stringent criteria of conventional banks or the lengthy application processes of some grant programs."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Alternative Lenders",
+    "relation": "described_as",
+    "value": "online financing companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "alternative lenders like online financing companies can offer loans"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Alternative Lenders",
+    "relation": "have",
+    "value": "high-interest rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their high-interest rates are offset by their agility and accessibility"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Alternative Lenders",
+    "relation": "high_interest_rates_offset_by",
+    "value": "agility and accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their high-interest rates are offset by their agility and accessibility"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Jack Wallace",
+    "relation": "age",
+    "value": "64-year years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack Wallace, whose 64-year years haven't dampened his voice nor his zeal for establishing a community radio station."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Jack Wallace",
+    "relation": "seeks_to_establish",
+    "value": "a community radio station",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his zeal for establishing a community radio station"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "community radio station",
+    "relation": "being_established_by",
+    "value": "Jack Wallace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his zeal for establishing a community radio station"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Jack Wallace",
+    "relation": "stated",
+    "value": "Traditional funding paths didn't groove with my timeline,",
+    "time": null,
+    "speaker": "Jack Wallace",
+    "verbatim": [
+     "\"Traditional funding paths didn't groove with my timeline,\" Jack says"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Alternative Lenders",
+    "relation": "stated",
+    "value": "tuned into my frequency",
+    "time": null,
+    "speaker": "Jack Wallace",
+    "verbatim": [
+     "\"Alternative lenders tuned into my frequency.\""
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

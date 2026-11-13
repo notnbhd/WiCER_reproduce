@@ -1,0 +1,783 @@
+{
+ "inventory": [
+  "Emily Chen",
+  "Bake My Day",
+  "Oakwood district",
+  "locally sourced movement",
+  "local economic development workshops",
+  "Jack Sullivan",
+  "Sullivan's Smithy",
+  "city hall",
+  "Nia Rodriguez",
+  "Nia's Atelier",
+  "Abdullah Al-Karim",
+  "Code Canvas",
+  "internship programs",
+  "Alexis Taylor",
+  "Reel Revival"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Bake My Day",
+    "relation": "active_since",
+    "value": "September 4, 2023",
+    "time": "September 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 4, 2023, if you've strolled down the rejuvenated lanes of the Oakwood district"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Bake My Day",
+    "relation": "located_in",
+    "value": "Oakwood district",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "strolled down the rejuvenated lanes of the Oakwood district, you might have caught the scent of freshly baked bread wafting from 'Bake My Day'"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bake My Day",
+    "relation": "sells",
+    "value": "freshly baked bread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the scent of freshly baked bread wafting from 'Bake My Day'"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Oakwood district",
+    "relation": "described_as",
+    "value": "rejuvenated lanes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rejuvenated lanes of the Oakwood district"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emily Chen",
+    "relation": "former_occupation",
+    "value": "accountant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former accountant turned artisan baker"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emily Chen",
+    "relation": "occupation",
+    "value": "artisan baker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a former accountant turned artisan baker"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emily Chen",
+    "relation": "began_journey_in",
+    "value": "a small rented kitchen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily's journey began in a small rented kitchen"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Emily Chen",
+    "relation": "lacked",
+    "value": "initial capital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What Emily lacked in initial capital"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Chen",
+    "relation": "made_up_for_with",
+    "value": "ingenuity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she more than made up for with ingenuity"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emily Chen",
+    "relation": "used",
+    "value": "social media to tease the locals with photos of her sumptuous sourdough and tantalizing tarts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ingenuity\u2014using social media to tease the locals with photos of her sumptuous sourdough and tantalizing tarts"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emily Chen",
+    "relation": "faced_challenge",
+    "value": "the volatility of the food industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite facing the volatility of the food industry and the stiff competition"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Emily Chen",
+    "relation": "faced_challenge",
+    "value": "the stiff competition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite facing the volatility of the food industry and the stiff competition"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Emily Chen",
+    "relation": "bakery_has_risen_like",
+    "value": "her glorious bread loaves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily's bakery has risen like her glorious bread loaves."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emily Chen",
+    "relation": "attributes_success_to",
+    "value": "community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She attributes part of her success to community engagement"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emily Chen",
+    "relation": "hosts",
+    "value": "bake classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often hosting bake classes"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Emily Chen",
+    "relation": "evangelist_for",
+    "value": "the 'locally sourced' movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "being an evangelist for the 'locally sourced' movement"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Emily Chen",
+    "relation": "challenge_was",
+    "value": "to perfect recipes but also to understand the business landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily's challenge was not only to perfect recipes but also to understand the business landscape."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Emily Chen",
+    "relation": "attended",
+    "value": "local economic development workshops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as well as attending local economic development workshops"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Emily Chen",
+    "relation": "bakery_status",
+    "value": "not just surviving, but thriving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily has ensured her bakery is not just surviving, but thriving."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Emily Chen",
+    "relation": "mechanism_of",
+    "value_ref": "c19",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through trial and error, as well as attending local economic development workshops, Emily has ensured her bakery is not just surviving, but thriving."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jack Sullivan",
+    "relation": "owner_of",
+    "value": "Sullivan's Smithy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the story of Jack Sullivan, owner of 'Sullivan's Smithy' established November 12, 2023."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sullivan's Smithy",
+    "relation": "established_on",
+    "value": "November 12, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Sullivan's Smithy' established November 12, 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Jack Sullivan",
+    "relation": "former_occupation",
+    "value": "construction worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack, a former construction worker with a passion for metalwork"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Jack Sullivan",
+    "relation": "passion_for",
+    "value": "metalwork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack, a former construction worker with a passion for metalwork"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Jack Sullivan",
+    "relation": "practices",
+    "value": "blacksmithing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings the ancient craft of blacksmithing into modern times by melding traditional techniques with contemporary design"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Jack Sullivan",
+    "relation": "specializes_in",
+    "value": "custom metal fixtures and furniture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Specializing in custom metal fixtures and furniture"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jack Sullivan",
+    "relation": "carved_out_unique_space_amidst",
+    "value": "a sea of mass-produced alternatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack has carved out a unique space for his offerings amidst a sea of mass-produced alternatives."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jack Sullivan",
+    "relation": "faced_challenge",
+    "value": "navigating the intricate web of permits and regulations that govern small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the greatest challenges he faced was navigating the intricate web of permits and regulations that govern small businesses."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jack Sullivan",
+    "relation": "sought_advice_from",
+    "value": "fellow entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jack powered through by seeking advice from fellow entrepreneurs"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jack Sullivan",
+    "relation": "became_regular_at",
+    "value": "city hall meetings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "becoming a regular at city hall meetings"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Nia Rodriguez",
+    "relation": "labels_garments_as",
+    "value": "Made in our hometown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crafts garments that she proudly labels 'Made in our hometown.'"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Nia Rodriguez",
+    "relation": "works_in",
+    "value": "her workshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amidst the cacophony of machines in her workshop"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Nia's Atelier",
+    "relation": "opened_on",
+    "value": "December 17, 2023",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Opening 'Nia's Atelier' on December 17, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Nia Rodriguez",
+    "relation": "opened",
+    "value": "Nia's Atelier",
+    "time": "December 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Opening 'Nia's Atelier' on December 17, 2023"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Nia Rodriguez",
+    "relation": "renowned_for",
+    "value": "her sustainable fashion line",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she has quickly become renowned for her sustainable fashion line"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Nia Rodriguez",
+    "relation": "former_occupation",
+    "value": "designer for a large retail chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A former designer for a large retail chain"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Nia Rodriguez",
+    "relation": "motivation",
+    "value": "a more ethical approach to fashion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nia yearned for a more ethical approach to fashion"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Nia Rodriguez",
+    "relation": "designs_combine",
+    "value": "ecoconscious fabrics with timeless style",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her designs marry ecoconscious fabrics with timeless style"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Nia Rodriguez",
+    "relation": "appeals_to",
+    "value": "a demographic that is increasingly concerned about the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "appealing to a demographic that is increasingly concerned about the environment"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Nia Rodriguez",
+    "relation": "set_apart_from",
+    "value": "online giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's Nia's focus on quality and customer experience that has set her apart from online giants"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Nia Rodriguez",
+    "relation": "faced_challenge",
+    "value": "sourcing environmentally friendly materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Challenges abounded for Nia, from sourcing environmentally friendly materials"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Nia Rodriguez",
+    "relation": "faced_challenge",
+    "value": "competing with fast fashion prices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to competing with fast fashion prices"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Nia Rodriguez",
+    "relation": "runs",
+    "value": "workshops and fashion education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including workshops and fashion education"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Nia Rodriguez",
+    "relation": "approach",
+    "value": "a community-centered approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with dogged persistence and a community-centered approach"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Nia Rodriguez",
+    "relation": "built",
+    "value": "a strong local following",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nia has woven a strong local following."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Nia Rodriguez",
+    "relation": "caused_by",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with dogged persistence and a community-centered approach, including workshops and fashion education, Nia has woven a strong local following."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Abdullah Al-Karim",
+    "relation": "saw_need_for",
+    "value": "a local hub of innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tech wizard Abdullah Al-Karim saw a need for a local hub of innovation"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Abdullah Al-Karim",
+    "relation": "launched",
+    "value": "Code Canvas",
+    "time": "February 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "launched 'Code Canvas' on February 1, 2024"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Code Canvas",
+    "relation": "launched_on",
+    "value": "February 1, 2024",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched 'Code Canvas' on February 1, 2024"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Abdullah Al-Karim",
+    "relation": "vision",
+    "value": "to cultivate a space where tech enthusiasts and local businesses could collaborate on software solutions tailored to local needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abdullah's vision was to cultivate a space where tech enthusiasts and local businesses could collaborate on software solutions tailored to local needs."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Code Canvas",
+    "relation": "started_with",
+    "value": "only a handful of programmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Starting with only a handful of programmers"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Code Canvas",
+    "relation": "grew_into",
+    "value": "a significant player in the tech consultancy arena",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Code Canvas has grown into a significant player in the tech consultancy arena"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Code Canvas",
+    "relation": "drives",
+    "value": "digital transformation for local small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "driving digital transformation for local small businesses"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Abdullah Al-Karim",
+    "relation": "faced_challenge",
+    "value": "the lack of a robust local network of tech talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abdullah's most daunting hurdle was the lack of a robust local network of tech talent."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Abdullah Al-Karim",
+    "relation": "initiated",
+    "value": "partnerships with nearby universities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he initiated partnerships with nearby universities"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Abdullah Al-Karim",
+    "relation": "launched",
+    "value": "internship programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched internship programs to foster growth and skill development"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "internship programs",
+    "relation": "in_order_to",
+    "value": "foster growth and skill development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched internship programs to foster growth and skill development"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Abdullah Al-Karim",
+    "relation": "believes",
+    "value": "knowledge-sharing would elevate the entire local tech scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Understanding that knowledge-sharing would elevate the entire local tech scene"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Abdullah Al-Karim",
+    "relation": "organized",
+    "value": "community coding bootcamps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Abdullah also organized community coding bootcamps."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Reel Revival",
+    "relation": "reborn_on",
+    "value": "April 15, 2024",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Come April 15, 2024, and a dilapidated cinema on the brink of being forgotten was reborn as 'Reel Revival'"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Reel Revival",
+    "relation": "formerly",
+    "value": "a dilapidated cinema",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Come April 15, 2024, and a dilapidated cinema on the brink of being forgotten was reborn as 'Reel Revival'"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Alexis Taylor",
+    "relation": "described_as",
+    "value": "film buff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "film buff Alexis Taylor"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Alexis Taylor",
+    "relation": "saw_opportunity_to",
+    "value": "merge nostalgia with novelty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alexis saw an opportunity to merge nostalgia with novelty"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Alexis Taylor",
+    "relation": "turned_cinema_into",
+    "value": "a hub for independent and arthouse films",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by turning an old cinema into a hub for independent and arthouse films"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Alexis Taylor",
+    "relation": "faced_challenge",
+    "value": "giant multiplex chains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Facing the giant multiplex chains"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Alexis Taylor",
+    "relation": "faced_challenge",
+    "value": "securing funding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Securing funding was akin to a suspense thriller"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Reel Revival",
+    "relation": "brought_to_life_by",
+    "value": "community fundraisers and a grassroots social media campaign",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "community fundraisers and a grassroots social media campaign brought 'Reel Revival' to life."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Alexis Taylor",
+    "relation": "faced_challenge",
+    "value": "drawing audiences away from their home streaming services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The challenges of drawing audiences away from their home streaming services was no small feat."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Alexis Taylor",
+    "relation": "crafted",
+    "value": "unique viewing experiences combining screenings with director Q&As, themed food events, and even a small film memorabilia museum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To add value, Alexis crafted unique viewing experiences combining screenings with director Q&As, themed food events, and even a small film memorabilia museum."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,490 @@
+{
+ "inventory": [
+  "John Everyman",
+  "Superfoods Inc.",
+  "Quinoa\u2122",
+  "Scarlett Spinach",
+  "kale kleptocracy",
+  "Wendy Wheatless",
+  "Gluten-Not",
+  "Dr. Citrus Von Squeezeworth",
+  "Purge the Urge to Splurge",
+  "Madam Berry BeetBoost",
+  "Freddie Fitbit",
+  "CrossFitters",
+  "Helga Hyperthrust",
+  "Sir Meditatus Alot",
+  "Olga Organic",
+  "super-organic",
+  "Sandman Syndicate",
+  "Mr. Snoozemaster",
+  "Health-Conomy"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Health-Conomy",
+    "relation": "is",
+    "value": "bustling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The modern Health-Conomy is bustling"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Health-Conomy",
+    "relation": "observed_as",
+    "value": "a veritable renaissance\u2014or should we say detox cleanse",
+    "time": "as of September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as of September 1, 2023, we\u2019ve observed a veritable renaissance\u2014or should we say detox cleanse\u2014of this lucrative ecosystem"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Health-Conomy",
+    "relation": "described_as",
+    "value": "lucrative ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this lucrative ecosystem"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "John Everyman",
+    "relation": "is_ceo_of",
+    "value": "Superfoods Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Everyman, CEO of Superfoods Inc."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "John Everyman",
+    "relation": "claims",
+    "value": "consuming Quinoa\u2122 will help you find your third eye",
+    "time": null,
+    "speaker": "John Everyman",
+    "verbatim": [
+     "claims that consuming his brand\u2019s Quinoa\u2122 (with a trademark, because this ain't your grandma's quinoa) will help you find your third eye"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Superfoods Inc.",
+    "relation": "has_product",
+    "value": "Quinoa\u2122",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his brand\u2019s Quinoa\u2122"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Quinoa\u2122",
+    "relation": "has_property",
+    "value": "a trademark",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with a trademark"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "kale kleptocracy",
+    "relation": "led_by",
+    "value": "Scarlett Spinach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The kale kleptocracy, led by none other than the notorious Scarlett Spinach"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Scarlett Spinach",
+    "relation": "described_as",
+    "value": "notorious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the notorious Scarlett Spinach"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "kale kleptocracy",
+    "relation": "is_convincing_shoppers_that",
+    "value": "kale capes are the superhero attire you wear from the inside",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is manoevering to convince market shoppers that kale capes are the superhero attire you wear from the inside"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Wendy Wheatless",
+    "relation": "founder_of",
+    "value": "Gluten-Not",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wendy Wheatless, founder of Gluten-Not"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Gluten-Not",
+    "relation": "founded_by",
+    "value": "Wendy Wheatless",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founder of Gluten-Not"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Wendy Wheatless",
+    "relation": "says",
+    "value": "she won\u2019t rest until the air we breathe is devoid of gluten",
+    "time": null,
+    "speaker": "Wendy Wheatless",
+    "verbatim": [
+     "who says she won\u2019t rest until the air we breathe is devoid of gluten"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Gluten-Not",
+    "relation": "sells",
+    "value": "latest gluten-free air purifier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her brand's latest gluten-free air purifier"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Gluten-Not",
+    "relation": "product_comes_with",
+    "value": "free placebo effects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it comes with free placebo effects"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Citrus Von Squeezeworth",
+    "relation": "leads",
+    "value": "this pulpy parade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leading this pulpy parade is none other than Dr. Citrus Von Squeezeworth"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Dr. Citrus Von Squeezeworth",
+    "relation": "sells_juice_cleanse",
+    "value": "Purge the Urge to Splurge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose \"Purge the Urge to Splurge\" juice cleanse"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Purge the Urge to Splurge",
+    "relation": "involves",
+    "value": "ingesting nothing but murky green potions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "involves ingesting nothing but murky green potions for a fortnight"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Purge the Urge to Splurge",
+    "relation": "duration",
+    "value": "a fortnight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ingesting nothing but murky green potions for a fortnight"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Purge the Urge to Splurge",
+    "relation": "promises",
+    "value": "to detoxify your wallet at an unparalleled rate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The promise? To detoxify your wallet at an unparalleled rate."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Madam Berry BeetBoost",
+    "relation": "rival_of",
+    "value": "Dr. Citrus Von Squeezeworth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His rival, Madam Berry BeetBoost"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Madam Berry BeetBoost",
+    "relation": "claims",
+    "value": "her red concoction will awaken your ancestral plant-based spirit",
+    "time": null,
+    "speaker": "Madam Berry BeetBoost",
+    "verbatim": [
+     "claims her red concoction will awaken your ancestral plant-based spirit"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Madam Berry BeetBoost",
+    "relation": "price_of_bottle",
+    "value": "$12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a $12 bottle of mashed beets"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Freddie Fitbit",
+    "relation": "convinced_public_that",
+    "value": "exercise doesn\u2019t count unless every step is tracked, counted, and converted into a social media humble-brag",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Freddie Fitbit and his cronies have convinced the public that unless every step is tracked, counted, and converted into a social media humble-brag, the exercise doesn\u2019t count"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CrossFitters",
+    "relation": "led_by",
+    "value": "Helga Hyperthrust",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the cult of CrossFitters, led by the high priestess of pain herself, Helga Hyperthrust"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Helga Hyperthrust",
+    "relation": "described_as",
+    "value": "high priestess of pain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the high priestess of pain herself, Helga Hyperthrust"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Helga Hyperthrust",
+    "relation": "swears_by",
+    "value": "flipping tires as a path to enlightenment and bulging biceps",
+    "time": null,
+    "speaker": "Helga Hyperthrust",
+    "verbatim": [
+     "who swears by flipping tires as a path to enlightenment and bulging biceps"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sir Meditatus Alot",
+    "relation": "says",
+    "value": "You've not known peace until you've paid for it",
+    "time": null,
+    "speaker": "Sir Meditatus Alot",
+    "verbatim": [
+     "You've not known peace until you've paid for it, say the likes of serene Sir Meditatus Alot"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sir Meditatus Alot",
+    "relation": "described_as",
+    "value": "serene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serene Sir Meditatus Alot"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sir Meditatus Alot",
+    "relation": "sells",
+    "value": "meditation mats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His brand of meditation mats"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sir Meditatus Alot",
+    "relation": "sold_alongside",
+    "value": "Spotify playlists of whale cries and didgeridoo deep drops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sold alongside Spotify playlists of whale cries and didgeridoo deep drops"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sir Meditatus Alot",
+    "relation": "price",
+    "value": "four easy payments of $19.99",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for just four easy payments of $19.99"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sir Meditatus Alot",
+    "relation": "assures_consumers",
+    "value": "consumers can find nirvana",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "assure consumers that they too can find nirvana for just four easy payments of $19.99"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "super-organic",
+    "relation": "trend_status",
+    "value": "in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organic is out, super-organic is in"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "super-organic",
+    "relation": "described_as",
+    "value": "a lifestyle, not just a trend",
+    "time": null,
+    "speaker": "Olga Organic",
+    "verbatim": [
+     "super-organic is not just a trend, but a lifestyle"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Olga Organic",
+    "relation": "leader_of",
+    "value": "this growing garrison",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leaders of this growing garrison, such as Olga Organic"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sandman Syndicate",
+    "relation": "monopolizes",
+    "value": "one of our most precious resources: Zs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Sandman Syndicate is monopolizing one of our most precious resources: Zs"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sandman Syndicate",
+    "relation": "led_by",
+    "value": "Mr. Snoozemaster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by the enigmatic Mr. Snoozemaster, this group"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mr. Snoozemaster",
+    "relation": "described_as",
+    "value": "enigmatic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the enigmatic Mr. Snoozemaster"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sandman Syndicate",
+    "relation": "turned_into",
+    "value": "a fullblown luxury affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this group has turned the act of unconsciousness into a fullblown luxury affair"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sandman Syndicate",
+    "relation": "product_range",
+    "value": "spanning from climate-controlled pillowcases to mattresses that rock you into REM sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a product range spanning from climate-controlled pillowcases to mattresses that rock you into REM sleep"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sandman Syndicate",
+    "relation": "promises",
+    "value": "an end to insomnia\u2014and to financial stability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they promise an end to insomnia\u2014and to financial stability"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

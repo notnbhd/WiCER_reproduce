@@ -1,0 +1,894 @@
+{
+ "inventory": [
+  "Sophia Martin",
+  "Vintage Beans",
+  "Main and Elm",
+  "Alex Chung",
+  "Pop-Up Collaboratives",
+  "Re-Threaded Horizons",
+  "Lila Torres",
+  "Hops Haven",
+  "Leo Ramirez",
+  "Katie Ford",
+  "Jeremy Lin",
+  "SmartRepairs",
+  "Neighborhood Nourish",
+  "Andr\u00e9 Thompson",
+  "Mia Zhang",
+  "Peter Grant",
+  "Tales & Tomes",
+  "Rachel Kim",
+  "DIY Delight",
+  "Daniel Ortiz",
+  "HandyHub",
+  "CodeCrafters",
+  "Lydia Wells",
+  "BoardGame Brigade",
+  "Oliver and Emma Liu",
+  "gig economy",
+  "sharing economy model"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Vintage Beans",
+    "relation": "is",
+    "value": "caf\u00e9-cumantique store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a caf\u00e9-cumantique store that opened its doors on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Vintage Beans",
+    "relation": "opened_on",
+    "value": "October 3, 2023",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a caf\u00e9-cumantique store that opened its doors on October 3, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Vintage Beans",
+    "relation": "owned_by",
+    "value": "Sophia Martin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the corner of Main and Elm, you'll find Sophia Martin's \"Vintage Beans,\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Vintage Beans",
+    "relation": "located_on",
+    "value": "corner of Main and Elm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the corner of Main and Elm, you'll find Sophia Martin's \"Vintage Beans,\""
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Vintage Beans",
+    "relation": "serves",
+    "value": "coffee aficionados and antiques lovers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's where coffee aficionados and antiques lovers can both indulge in their passions."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sophia Martin",
+    "relation": "created",
+    "value": "a destination that's more than a sum of its parts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin has created a destination that's more than a sum of its parts."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sophia Martin",
+    "relation": "mechanism_of",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By targeting specific interests and blending them into one cohesive experience, Martin has created a destination that's more than a sum of its parts."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Pop-Up Collaboratives",
+    "relation": "launched_on",
+    "value": "November 12, 2023",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Pop-Up Collaboratives,\" launched on November 12, 2023, utilize vacant storefronts"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Pop-Up Collaboratives",
+    "relation": "utilizes",
+    "value": "vacant storefronts for temporary, dynamic business ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilize vacant storefronts for temporary, dynamic business ventures"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Pop-Up Collaboratives",
+    "relation": "contains",
+    "value": "several micro-businesses under one roof",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These pop-ups contain several micro-businesses under one roof, sharing overhead costs and benefiting from collective foot traffic."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Pop-Up Collaboratives",
+    "relation": "shares",
+    "value": "overhead costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contain several micro-businesses under one roof, sharing overhead costs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Pop-Up Collaboratives",
+    "relation": "benefits_from",
+    "value": "collective foot traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "benefiting from collective foot traffic"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "sharing economy model",
+    "relation": "is",
+    "value": "cost-effective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This sharing economy model is not only cost-effective but also creates a vibrant and varied shopping experience that attracts a wide array of customers."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "sharing economy model",
+    "relation": "creates",
+    "value": "a vibrant and varied shopping experience that attracts a wide array of customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creates a vibrant and varied shopping experience that attracts a wide array of customers"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Alex Chung",
+    "relation": "tackles",
+    "value": "the space issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our local entrepreneurs like Alex Chung have been tackling this issue head-on"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Re-Threaded Horizons",
+    "relation": "made_headlines_with",
+    "value": "its sustainable clothing line",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 22, 2023, a boutique known as \"Re-Threaded Horizons\" made headlines with its sustainable clothing line"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Re-Threaded Horizons",
+    "relation": "is",
+    "value": "boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a boutique known as \"Re-Threaded Horizons\" made headlines"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Re-Threaded Horizons",
+    "relation": "based_on",
+    "value": "upcycling pre-loved garments into highfashion pieces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which is based on upcycling pre-loved garments into highfashion pieces"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Re-Threaded Horizons",
+    "relation": "run_by",
+    "value": "Lila Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Run by fashionista and environmental advocate, Lila Torres, the shop has gained popularity"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Lila Torres",
+    "relation": "described_as",
+    "value": "fashionista and environmental advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Run by fashionista and environmental advocate, Lila Torres"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Re-Threaded Horizons",
+    "relation": "gained_popularity_among",
+    "value": "those who are eco-conscious and seeking unique wardrobe options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the shop has gained popularity among those who are eco-conscious and seeking unique wardrobe options"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Re-Threaded Horizons",
+    "relation": "underscores",
+    "value": "the growing demand for sustainable products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The success of this enterprise underscores the growing demand for sustainable products"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Hops Haven",
+    "relation": "is",
+    "value": "craft brewery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the craft brewery \"Hops Haven,\" founded by college friends turned business partners Leo Ramirez and Katie Ford."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Hops Haven",
+    "relation": "founded_by",
+    "value": "Leo Ramirez and Katie Ford",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by college friends turned business partners Leo Ramirez and Katie Ford"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Leo Ramirez",
+    "relation": "business_partner_of",
+    "value": "Katie Ford",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by college friends turned business partners Leo Ramirez and Katie Ford"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Katie Ford",
+    "relation": "business_partner_of",
+    "value": "Leo Ramirez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by college friends turned business partners Leo Ramirez and Katie Ford"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Leo Ramirez",
+    "relation": "was_college_friend_of",
+    "value": "Katie Ford",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by college friends turned business partners Leo Ramirez and Katie Ford"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Hops Haven",
+    "relation": "launched_on",
+    "value": "December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "They launched this spot on December 1, 2023, sourcing raw materials from local farmers."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Hops Haven",
+    "relation": "sources_from",
+    "value": "local farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sourcing raw materials from local farmers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Hops Haven",
+    "relation": "supports",
+    "value": "the local agricultural industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their model supports the local agricultural industry and reduces transportation costs, passing on savings to customers."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Hops Haven",
+    "relation": "reduces",
+    "value": "transportation costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their model supports the local agricultural industry and reduces transportation costs, passing on savings to customers."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Hops Haven",
+    "relation": "passes_on",
+    "value": "savings to customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduces transportation costs, passing on savings to customers"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Hops Haven",
+    "relation": "emphasizes",
+    "value": "the quality and community behind the product",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a win-win that also emphasizes the quality and community behind the product."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "SmartRepairs",
+    "relation": "owned_by",
+    "value": "Jeremy Lin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeremy Lin's \"SmartRepairs,\" an electronics repair shop that opened in January 2024"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "SmartRepairs",
+    "relation": "is",
+    "value": "electronics repair shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an electronics repair shop that opened in January 2024"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "SmartRepairs",
+    "relation": "opened_in",
+    "value": "January 2024",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "an electronics repair shop that opened in January 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "SmartRepairs",
+    "relation": "uses",
+    "value": "a proprietary diagnostic tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses a proprietary diagnostic tool that can quickly identify issues with a wide range of devices."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "SmartRepairs",
+    "relation": "identifies",
+    "value": "issues with a wide range of devices quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can quickly identify issues with a wide range of devices."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "SmartRepairs",
+    "relation": "allows",
+    "value": "quicker turnovers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tool allows for quicker turnovers"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "SmartRepairs",
+    "relation": "ensures",
+    "value": "customers spend less time waiting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that customers spend less time waiting and more time enjoying their tech."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "SmartRepairs",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This tool allows for quicker turnovers, ensuring that customers spend less time waiting and more time enjoying their tech."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Neighborhood Nourish",
+    "relation": "led_by",
+    "value": "Andr\u00e9 Thompson",
+    "time": "since October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The \"Neighborhood Nourish\" program, led by chef Andr\u00e9 Thompson since October 15, 2023, is an excellent representation of this idea."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Andr\u00e9 Thompson",
+    "relation": "is",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by chef Andr\u00e9 Thompson since October 15, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Neighborhood Nourish",
+    "relation": "involves",
+    "value": "multiple local restaurants that pool resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thompson's initiative involves multiple local restaurants that pool resources to offer community cooking classes, focusing on healthy, affordable meals."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Neighborhood Nourish",
+    "relation": "offers",
+    "value": "community cooking classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pool resources to offer community cooking classes, focusing on healthy, affordable meals"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Neighborhood Nourish",
+    "relation": "focuses_on",
+    "value": "healthy, affordable meals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer community cooking classes, focusing on healthy, affordable meals"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Neighborhood Nourish",
+    "relation": "fosters",
+    "value": "a robust support system within the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these businesses foster a robust support system within the community"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Neighborhood Nourish",
+    "relation": "mechanism_of",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By crossing competitive lines and working together to educate and engage with the locals, these businesses foster a robust support system within the community."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Tales & Tomes",
+    "relation": "owned_by",
+    "value": "Mia Zhang and Peter Grant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mia Zhang and Peter Grant showcased this with the surprising pivot of their bookstore, \"Tales & Tomes\"."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Tales & Tomes",
+    "relation": "is",
+    "value": "bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the surprising pivot of their bookstore, \"Tales & Tomes\"."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Tales & Tomes",
+    "relation": "initially_focused_on",
+    "value": "rare books",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initially focused on rare books"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tales & Tomes",
+    "relation": "expanded_offerings_to_include",
+    "value": "digital content subscriptions and virtual reality book experiences",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "they quickly expanded their offerings to include digital content subscriptions and virtual reality book experiences in November 2023."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Mia Zhang",
+    "relation": "recognized",
+    "value": "the changing landscape of the literary world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They recognized the changing landscape of the literary world and jumped at the opportunity to innovate."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Peter Grant",
+    "relation": "recognized",
+    "value": "the changing landscape of the literary world",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They recognized the changing landscape of the literary world and jumped at the opportunity to innovate."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "DIY Delight",
+    "relation": "debuted_on",
+    "value": "September 25, 2023",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Rachel Kim\u2019s \"DIY Delight,\" a crafting studio that made its grand entrance on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "DIY Delight",
+    "relation": "owned_by",
+    "value": "Rachel Kim",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Kim\u2019s \"DIY Delight,\""
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "DIY Delight",
+    "relation": "is",
+    "value": "crafting studio",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a crafting studio that made its grand entrance on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "DIY Delight",
+    "relation": "offers",
+    "value": "\"Instagrammable\" workshops and moments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capitalizes on this by offering \"Instagrammable\" workshops and moments."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Rachel Kim",
+    "relation": "uses",
+    "value": "social media to market her studio and help customers showcase their creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kim uses social media to not just market her studio but also to help customers showcase their creations"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "HandyHub",
+    "relation": "launched_by",
+    "value": "Daniel Ortiz",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched by Daniel Ortiz on October 22, 2023, \"HandyHub\" is a platform connecting clients with local craftsmen and artisans for custom home improvement projects."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "HandyHub",
+    "relation": "launched_on",
+    "value": "October 22, 2023",
+    "time": "October 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched by Daniel Ortiz on October 22, 2023"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "HandyHub",
+    "relation": "is",
+    "value": "a platform connecting clients with local craftsmen and artisans for custom home improvement projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"HandyHub\" is a platform connecting clients with local craftsmen and artisans for custom home improvement projects."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "HandyHub",
+    "relation": "stands_out_for",
+    "value": "empowering freelancers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "HandyHub stands out for empowering freelancers"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "HandyHub",
+    "relation": "offers",
+    "value": "a way to conveniently source local talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By offering a way to conveniently source local talent"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "HandyHub",
+    "relation": "mechanism_of",
+    "value_ref": "c63",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By offering a way to conveniently source local talent, HandyHub stands out for empowering freelancers"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "HandyHub",
+    "relation": "provides",
+    "value": "homeowners with a trusted resource for skilled work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing homeowners with a trusted resource for skilled work"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "gig economy",
+    "relation": "tapped_into_by",
+    "value": "businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses are tapping into the gig economy, offering flexibility and personalized services."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "CodeCrafters",
+    "relation": "created_by",
+    "value": "Lydia Wells",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"CodeCrafters,\" created by tech enthusiast Lydia Wells, is a coding bootcamp"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Lydia Wells",
+    "relation": "described_as",
+    "value": "tech enthusiast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "created by tech enthusiast Lydia Wells"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "CodeCrafters",
+    "relation": "is",
+    "value": "coding bootcamp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is a coding bootcamp that partners with local schools"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "CodeCrafters",
+    "relation": "partners_with",
+    "value": "local schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partners with local schools to offer after-school programs focused on computer science."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "CodeCrafters",
+    "relation": "offers",
+    "value": "after-school programs focused on computer science",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to offer after-school programs focused on computer science"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "CodeCrafters",
+    "relation": "began_in",
+    "value": "fall of 2023",
+    "time": "fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since its inception in the fall of 2023, the program has been closing the tech education gap"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "CodeCrafters",
+    "relation": "is_closing",
+    "value": "the tech education gap",
+    "time": "since fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since its inception in the fall of 2023, the program has been closing the tech education gap"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "CodeCrafters",
+    "relation": "provides",
+    "value": "a stream of eager young minds interested in the tech industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing the business with a stream of eager young minds interested in the tech industry"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "BoardGame Brigade",
+    "relation": "run_by",
+    "value": "Oliver and Emma Liu",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A prime example is \"BoardGame Brigade\" by Oliver and Emma Liu"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "BoardGame Brigade",
+    "relation": "described_as",
+    "value": "a place to play, meet, and engage with fellow board game enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which isn't just a store but a place to play, meet, and engage with fellow board game enthusiasts."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "BoardGame Brigade",
+    "relation": "offers",
+    "value": "a unique retail experience",
+    "time": "Since December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since December 2023, it's offered a unique retail experience that online shopping can't match\u2014the human connection."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

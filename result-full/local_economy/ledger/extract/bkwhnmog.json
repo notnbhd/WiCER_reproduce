@@ -1,0 +1,868 @@
+{
+ "inventory": [
+  "Greenfield",
+  "Greenfield Farmers' Market",
+  "James Thompson",
+  "Dr. Lisa Sanders",
+  "Marco Diaz",
+  "The Rustic Platter",
+  "Greenfield Community College",
+  "Sustainable Agriculture program",
+  "Sarah Nguyen",
+  "Evelyn Pierce",
+  "Michael Johnson",
+  "Rachel Lee",
+  "Miguel Rodriguez",
+  "Greenfield Greens",
+  "Harvest Haven Honey",
+  "Sofia Martin",
+  "local organic market",
+  "organic food",
+  "seasonal eating",
+  "locavore",
+  "rainwater harvesting",
+  "solar-powered greenhouses",
+  "composting"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Greenfield",
+    "relation": "is_a",
+    "value": "city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling city of Greenfield"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local organic market",
+    "relation": "shaping_local_economy_since",
+    "value": "September 2023",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "has been shaping the local economy and market trends since September 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Greenfield Farmers' Market",
+    "relation": "previously_was",
+    "value": "a modest affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "once a modest affair"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Greenfield Farmers' Market",
+    "relation": "operates",
+    "value": "every Sunday",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now thrives every Sunday"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Greenfield Farmers' Market",
+    "relation": "offers",
+    "value": "local produce, artisanal cheeses, and hand-crafted bread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "town residents eagerly fill their baskets with local produce, artisanal cheeses, and hand-crafted bread"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "James Thompson",
+    "relation": "former_occupation",
+    "value": "marketing executive",
+    "time": "until late 2023",
+    "speaker": null,
+    "verbatim": [
+     "A former marketing executive until late 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "James Thompson",
+    "relation": "decided_to_swap",
+    "value": "Excel sheets for seed packets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he decided to swap Excel sheets for seed packets"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "James Thompson",
+    "relation": "occupation",
+    "value": "local organic farmer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local organic farmer who finds joy in the tangible fruits of his labor"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "James Thompson",
+    "relation": "previous_work_experience",
+    "value": "20 years chasing quotas and deadlines",
+    "time": null,
+    "speaker": "James Thompson",
+    "verbatim": [
+     "I spent 20 years chasing quotas and deadlines."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "James Thompson",
+    "relation": "sells",
+    "value": "Organic red tomatoes, crispy lettuces, and aromatic green herbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Organic red tomatoes, crispy lettuces, and aromatic green herbs are amongst his proud offerings."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "organic food",
+    "relation": "demand_trend",
+    "value": "climbing steadily",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The demand for organic food has been climbing steadily"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "organic food",
+    "relation": "sales_increase",
+    "value": "15% year-over-year increase in sales within the local markets",
+    "time": "October 2023",
+    "speaker": "recent reports",
+    "verbatim": [
+     "recent reports from October 2023 suggesting a 15% year-over-year increase in sales within the local markets"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "organic food",
+    "relation": "driven_by",
+    "value": "scandals around food safety and the environmental impact of industrial agriculture",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "With scandals around food safety and the environmental impact of industrial agriculture in recent years"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "local organic market",
+    "relation": "is_sign_of",
+    "value": "consumer advocacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the pivot towards local and organic is a clear sign of consumer advocacy"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Dr. Lisa Sanders",
+    "relation": "occupation",
+    "value": "an economist and local food advocate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Lisa Sanders, an economist and local food advocate"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Dr. Lisa Sanders",
+    "relation": "has_observed",
+    "value": "the shift firsthand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has observed the shift firsthand"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Greenfield",
+    "relation": "market_status",
+    "value": "experiencing a renaissance",
+    "time": null,
+    "speaker": "Dr. Lisa Sanders",
+    "verbatim": [
+     "Markets like Greenfield are experiencing a renaissance."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Greenfield",
+    "relation": "residents_behavior",
+    "value": "not just buying food; they're investing in their community",
+    "time": null,
+    "speaker": "Dr. Lisa Sanders",
+    "verbatim": [
+     "People here are not just buying food; they're investing in their community."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Greenfield",
+    "relation": "community_discussions",
+    "value": "vibrant discussions amongst the locals, exchanging not just goods but stories and experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These sentiments are echoed in the vibrant discussions amongst the locals, exchanging not just goods but stories and experiences"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Marco Diaz",
+    "relation": "is_chef",
+    "value": "chef",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "chefs like Marco Diaz"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Marco Diaz",
+    "relation": "career",
+    "value": "20year career in fine dining",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "After a 20year career in fine dining"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Marco Diaz",
+    "relation": "returned_to",
+    "value": "his hometown",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Marco returned to his hometown in November 2023"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Marco Diaz",
+    "relation": "opened",
+    "value": "The Rustic Platter",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "opened 'The Rustic Platter\u2019 \u2013 a bistro"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Rustic Platter",
+    "relation": "is_a",
+    "value": "bistro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a bistro that highlights seasonal produce sourced directly from the local vendors like James"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "The Rustic Platter",
+    "relation": "highlights",
+    "value": "seasonal produce sourced directly from the local vendors like James",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a bistro that highlights seasonal produce sourced directly from the local vendors like James"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Greenfield Community College",
+    "relation": "launched",
+    "value": "Sustainable Agriculture program",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Greenfield Community College launched a Sustainable Agriculture program in December 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sustainable Agriculture program",
+    "relation": "purpose",
+    "value": "providing the community with the skills and knowledge to grow organic food and support local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing the community with the skills and knowledge to grow organic food and support local markets"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Sustainable Agriculture program",
+    "relation": "enrollment",
+    "value": "Over 150 students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Over 150 students have enrolled"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sustainable Agriculture program",
+    "relation": "indicates",
+    "value": "a significant interest in this flourishing sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indicating a significant interest in this flourishing sector"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Sarah Nguyen",
+    "relation": "is_one_of",
+    "value": "the students",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Nguyen, one of the students, sees this not just as an education but as a mission."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Sarah Nguyen",
+    "relation": "views_program_as",
+    "value": "a mission",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sees this not just as an education but as a mission."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sarah Nguyen",
+    "relation": "former_job",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Having left her job as a software developer"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sarah Nguyen",
+    "relation": "remarks",
+    "value": "There's a technology overload in our lives",
+    "time": null,
+    "speaker": "Sarah Nguyen",
+    "verbatim": [
+     "There's a technology overload in our lives; working with soil is grounding\u2014no pun intended."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sarah Nguyen",
+    "relation": "remarks",
+    "value": "working with soil is grounding",
+    "time": null,
+    "speaker": "Sarah Nguyen",
+    "verbatim": [
+     "There's a technology overload in our lives; working with soil is grounding\u2014no pun intended."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local organic market",
+    "relation": "catalyzed",
+    "value": "a behavioral change in the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also catalyzed a behavioral change in the community"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "seasonal eating",
+    "relation": "status",
+    "value": "no longer novel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of seasonal eating is no longer novel but has become the norm."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "seasonal eating",
+    "relation": "status",
+    "value": "the norm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The concept of seasonal eating is no longer novel but has become the norm."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "local organic market",
+    "relation": "dictates",
+    "value": "menus at home and in restaurants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The availability of produce at the local market dictates menus at home and in restaurants"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "local organic market",
+    "relation": "led_to",
+    "value": "a rediscovery of traditional recipes and the emergence of new culinary trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a rediscovery of traditional recipes and the emergence of new culinary trends."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "local organic market",
+    "relation": "is_responding_to",
+    "value": "consumers becoming more conscious of their carbon footprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As consumers become more conscious of their carbon footprint, the local organic market is responding."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Evelyn Pierce",
+    "relation": "transitioned_from",
+    "value": "a career in architecture to farming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Evelyn Pierce, who transitioned from a career in architecture to farming"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Evelyn Pierce",
+    "relation": "integrates",
+    "value": "sustainable practices such as rainwater harvesting, solar-powered greenhouses, and composting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrate sustainable practices such as rainwater harvesting, solar-powered greenhouses, and composting into their farming methods"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Evelyn Pierce",
+    "relation": "enhances",
+    "value": "both the land and profitability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enhancing both the land and profitability"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "rainwater harvesting",
+    "relation": "used_by",
+    "value": "farmers like Evelyn Pierce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "integrate sustainable practices such as rainwater harvesting"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "solar-powered greenhouses",
+    "relation": "used_by",
+    "value": "farmers like Evelyn Pierce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solar-powered greenhouses"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "composting",
+    "relation": "used_by",
+    "value": "farmers like Evelyn Pierce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and composting into their farming methods"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Evelyn Pierce",
+    "relation": "said",
+    "value": "The architecture was about creating spaces for people",
+    "time": null,
+    "speaker": "Evelyn Pierce",
+    "verbatim": [
+     "The architecture was about creating spaces for people; farming, for me, is about creating spaces for nature,\" said Evelyn"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Evelyn Pierce",
+    "relation": "said",
+    "value": "farming, for me, is about creating spaces for nature",
+    "time": null,
+    "speaker": "Evelyn Pierce",
+    "verbatim": [
+     "farming, for me, is about creating spaces for nature"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Evelyn Pierce",
+    "relation": "farm_once",
+    "value": "a mere blueprint on her drawing board",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her thriving farm that once was a mere blueprint on her drawing board"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Michael Johnson",
+    "relation": "former_occupation",
+    "value": "financial analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Johnson, a former financial analyst"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Michael Johnson",
+    "relation": "leveraged",
+    "value": "his business acumen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraged his business acumen"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Michael Johnson",
+    "relation": "set_up",
+    "value": "a fund that offers small loans to emerging market vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "set up a fund that offers small loans to emerging market vendors"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Rachel Lee",
+    "relation": "occupation",
+    "value": "dietitian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Rachel Lee"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Rachel Lee",
+    "relation": "hosts",
+    "value": "workshops emphasizing the connection between fresh, organic food and wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dietitians like Rachel Lee host workshops emphasizing the connection between fresh, organic food and"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "local organic market",
+    "relation": "became",
+    "value": "hubs for health awareness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These markets have become hubs for health awareness"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "local organic market",
+    "relation": "dispels_myth",
+    "value": "that convenience and fast food are the only feasible options for busy lifestyles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dispelling the myth that convenience and fast food are the only feasible options for busy lifestyles"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "locavore",
+    "relation": "spirit_sprouted_by",
+    "value": "school programs involving children in gardening projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "School programs involving children in gardening projects have led to the sprouting of a 'locavore' spirit among new generations."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Miguel Rodriguez",
+    "relation": "age",
+    "value": "12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "12-year-old Miguel Rodriguez"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Miguel Rodriguez",
+    "relation": "inspired_by",
+    "value": "his middle school's gardening club",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inspired by his middle school's gardening club"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Miguel Rodriguez",
+    "relation": "set_up",
+    "value": "a tiny vegetable stand at the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "set up a tiny vegetable stand at the market"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Greenfield Greens",
+    "relation": "brand_created_by",
+    "value": "local vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as 'Greenfield Greens' and 'Harvest Haven Honey,'"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Harvest Haven Honey",
+    "relation": "brand_created_by",
+    "value": "local vendors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as 'Greenfield Greens' and 'Harvest Haven Honey,'"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "local organic market",
+    "relation": "builds",
+    "value": "a loyal customer base that extends beyond the weekly market days",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "building a loyal customer base that extends beyond the weekly market days"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Sofia Martin",
+    "relation": "former_occupation",
+    "value": "brand strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entrepreneurs like Sofia Martin, a former brand strategist turned cheese artisan"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Sofia Martin",
+    "relation": "occupation",
+    "value": "cheese artisan",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "turned cheese artisan"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sofia Martin",
+    "relation": "found_niche",
+    "value": "a niche for her boutique dairy amid the burgeoning market space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found a niche for her boutique dairy amid the burgeoning market space"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sofia Martin",
+    "relation": "says",
+    "value": "about the story of our community, the grass the cows graze on, and the hands that craft each wheel",
+    "time": null,
+    "speaker": "Sofia Martin",
+    "verbatim": [
+     "My brand isn't just about cheese\u2014it's about the story of our community, the grass the cows graze on, and the hands that craft each wheel"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "local organic market",
+    "relation": "is_testament_to",
+    "value": "a community coming together to support a healthier lifestyle, environment, and economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a testament to a community coming together to support a healthier lifestyle, environment, and economy"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "local organic market",
+    "relation": "foundation",
+    "value": "The passion and dedication of individuals who've made significant career pivots",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The passion and dedication of individuals who've made significant career pivots to align with their values are the very foundation of this thriving market."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "local organic market",
+    "relation": "indicative_of",
+    "value": "a larger societal shift towards conscious consumerism and sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "indicative of a larger societal shift towards conscious consumerism and sustainable living"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Greenfield",
+    "relation": "trend_status",
+    "value": "a way of life that's steadily planting its roots deep within this community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this isn't just a passing trend but a way of life that's steadily planting its roots deep within this community"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Greenfield Community College",
+    "relation": "in_order_to",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched a Sustainable Agriculture program in December 2023, providing the community with the skills and knowledge to grow organic food and support local markets"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Miguel Rodriguez",
+    "relation": "results_in",
+    "value_ref": "c60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "inspired by his middle school's gardening club, set up a tiny vegetable stand at the market"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Michael Johnson",
+    "relation": "in_order_to",
+    "value_ref": "c52",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraged his business acumen to set up a fund that offers small loans to emerging market vendors"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "organic food",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With scandals around food safety and the environmental impact of industrial agriculture in recent years, the pivot towards local and organic is a clear sign of consumer advocacy."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "local organic market",
+    "relation": "results_in",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The availability of produce at the local market dictates menus at home and in restaurants, leading to a rediscovery of traditional recipes and the emergence of new culinary trends."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,814 @@
+{
+ "inventory": [
+  "Brewed Awakenings",
+  "Sarah Jennings",
+  "Jess",
+  "The Great Resignation",
+  "local Chamber of Commerce",
+  "community college",
+  "program where hospitality students can earn credit through internships",
+  "Instagram",
+  "TikTok",
+  "Instagram Stories",
+  "'day-in-the-life' series",
+  "'Help Wanted' sign",
+  "specialty coffee course",
+  "point-of-sale system",
+  "automated scheduling platform",
+  "minimum wage",
+  "apprentice programs",
+  "tax breaks",
+  "grants and training incentives",
+  "labor shortage",
+  "labor market",
+  "service and retail sectors",
+  "small businesses"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Brewed Awakenings",
+    "relation": "described_as",
+    "value": "a beloved coffee nook in our town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Brewed Awakenings,' a beloved coffee nook in our town"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Brewed Awakenings",
+    "relation": "described_as",
+    "value": "where every latte comes with a side of local gossip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where every latte comes with a side of local gossip"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Brewed Awakenings",
+    "relation": "has_facade",
+    "value": "freshly painted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the freshly painted facade of 'Brewed Awakenings,'"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sarah Jennings",
+    "relation": "is_owner_of",
+    "value": "Brewed Awakenings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, the owner"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "small businesses",
+    "relation": "faces",
+    "value": "labor shortages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a thorny issue that\u2019s been sprouting roots in the soil of small businesses \u2013 labor shortages"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Jennings",
+    "relation": "said_hiring_used_to_be",
+    "value": "an ad in the window brought a handful of eager applicants by the afternoon",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "It used to be an ad in the window, and you'd have a handful of eager applicants by the afternoon"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Jennings",
+    "relation": "said_hiring_now_is",
+    "value": "fishing in a pond that's been fished out",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "Now it's like you're fishing in a pond that's been fished out."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "small businesses",
+    "relation": "have_voiced",
+    "value": "the same concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small business owners across various sectors have been voicing the same concern."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "labor market",
+    "relation": "was",
+    "value": "ripe with candidates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The labor market, once ripe with candidates"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "labor market",
+    "relation": "has_become",
+    "value": "a competitive battleground",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become a competitive battleground"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "The Great Resignation",
+    "relation": "follows_period",
+    "value": "October 2021",
+    "time": "October 2021",
+    "speaker": null,
+    "verbatim": [
+     "In the wake of what's been coined \"The Great Resignation,\" following October 2021"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "The Great Resignation",
+    "relation": "led_to",
+    "value": "employees have reevaluated what they want from their work-life balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employees have reevaluated what they want from their work-life balance"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "The Great Resignation",
+    "relation": "led_to",
+    "value": "Many have left the workforce or pivoted to new sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many have left the workforce or pivoted to new sectors"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Great Resignation",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many have left the workforce or pivoted to new sectors, creating a vacuum that places like Sarah's are desperate to fill."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "labor shortage",
+    "relation": "vacuum_created",
+    "value": "a vacuum that places like Sarah's are desperate to fill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a vacuum that places like Sarah's are desperate to fill"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Jennings",
+    "relation": "says_not_just_wages",
+    "value": "It's not just about wages",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "It's not just about wages"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Jennings",
+    "relation": "has_raised",
+    "value": "wages",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I've raised those."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Sarah Jennings",
+    "relation": "says_issue_is",
+    "value": "genuine interest in the service industry or the shop-floor experience, which seems to be waning",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "It\u2019s about genuine interest in the service industry or the shop-floor experience, which seems to be waning."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "service and retail sectors",
+    "relation": "struggle_despite",
+    "value": "competitive compensation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "despite competitive compensation, the service and retail sectors are finding it increasingly difficult to attract and retain staff"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "service and retail sectors",
+    "relation": "find_difficult",
+    "value": "to attract and retain staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the service and retail sectors are finding it increasingly difficult to attract and retain staff"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "labor shortage",
+    "relation": "characterized_as",
+    "value": "cultural and generational, not merely financial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The crux of this problem isn't merely financial \u2013 it's cultural and generational."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Instagram",
+    "relation": "is_platform_where",
+    "value": "aesthetics rule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On platforms like Instagram and TikTok, where aesthetics rule"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "TikTok",
+    "relation": "is_platform_where",
+    "value": "aesthetics rule",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On platforms like Instagram and TikTok, where aesthetics rule"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sarah Jennings",
+    "relation": "spends_evenings",
+    "value": "scouring social media platforms",
+    "time": "evenings",
+    "speaker": null,
+    "verbatim": [
+     "Sarah now spends evenings scouring social media platforms, trying to entice potential employees."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sarah Jennings",
+    "relation": "purpose_of_scouring",
+    "value": "trying to entice potential employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah now spends evenings scouring social media platforms, trying to entice potential employees."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sarah Jennings",
+    "relation": "found_that",
+    "value": "selling the job is as critical as selling the product",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she's found that selling the job is as critical as selling the product."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "'Help Wanted' sign",
+    "relation": "no_longer_sufficed",
+    "value": "no longer sufficed for hiring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gone are the days when a 'Help Wanted' sign sufficed."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Jess",
+    "relation": "hired_as",
+    "value": "part-time social media assistant",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I hired a part-time social media assistant, Jess,"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Sarah Jennings",
+    "relation": "hired",
+    "value": "Jess",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I hired a part-time social media assistant, Jess,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Jess",
+    "relation": "takes_photos_for",
+    "value": "the caf\u00e9's Instagram",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a young woman artfully snapping photos for the caf\u00e9's Instagram"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jess",
+    "relation": "has_been",
+    "value": "invaluable",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "She\u2019s been invaluable."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Sarah Jennings",
+    "relation": "never_imagined",
+    "value": "having to become a marketer just to hire baristas",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I never imagined I'd have to become a marketer just to hire baristas."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jess",
+    "relation": "utilizes",
+    "value": "Instagram Stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jess, a digital native, has been utilizing Instagram Stories"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Jess",
+    "relation": "creates",
+    "value": "'day-in-the-life' series",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a 'day-in-the-life' series for potential candidates to envision working at the caf\u00e9"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "'day-in-the-life' series",
+    "relation": "purpose",
+    "value": "for potential candidates to envision working at the caf\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a 'day-in-the-life' series for potential candidates to envision working at the caf\u00e9"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Instagram Stories",
+    "relation": "accompanied_by",
+    "value": "engagement and a surge in followers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "But even with engagement and a surge in followers, the resumes trickle in at a crawl."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "labor shortage",
+    "relation": "resume_flow",
+    "value": "resumes trickle in at a crawl",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the resumes trickle in at a crawl"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sarah Jennings",
+    "relation": "active_in",
+    "value": "local Chamber of Commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She\u2019s been active in the local Chamber of Commerce, attending every networking event and workshop since the onset of the labor drought."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Sarah Jennings",
+    "relation": "attended",
+    "value": "every networking event and workshop",
+    "time": "since the onset of the labor drought",
+    "speaker": null,
+    "verbatim": [
+     "She\u2019s been active in the local Chamber of Commerce, attending every networking event and workshop since the onset of the labor drought."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "labor shortage",
+    "relation": "also_called",
+    "value": "labor drought",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "since the onset of the labor drought"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local Chamber of Commerce",
+    "relation": "events_became",
+    "value": "sanctuaries for exchanging resources and strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These events have become sanctuaries for exchanging resources and strategies."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sarah Jennings",
+    "relation": "reached_out_to",
+    "value": "community college",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I've also reached out to the community college"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "program where hospitality students can earn credit through internships",
+    "relation": "allows",
+    "value": "hospitality students can earn credit through internships",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "We set up a program where hospitality students can earn credit through internships here."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "program where hospitality students can earn credit through internships",
+    "relation": "described_as",
+    "value": "a win-win, but a slowbuilding process",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "It's a win-win, but it's a slowbuilding process."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sarah Jennings",
+    "relation": "pursuing",
+    "value": "upskilling her present team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another angle Sarah's tiringly pursuing is upskilling her present team."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sarah Jennings",
+    "relation": "has_become_mantra",
+    "value": "maximizing the potential of her current staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "then maximizing the potential of her current staff has become a mantra."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sarah Jennings",
+    "relation": "sent_to",
+    "value": "specialty coffee course",
+    "time": "Last month",
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "Last month, I sent two of my senior baristas to a specialty coffee course,"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "specialty coffee course",
+    "relation": "attended_by",
+    "value": "two of my senior baristas",
+    "time": "Last month",
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "Last month, I sent two of my senior baristas to a specialty coffee course,"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Sarah Jennings",
+    "relation": "says_investing_is",
+    "value": "something I can control",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "Investing in my people \u2013 that's something I can control."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "specialty coffee course",
+    "relation": "bolsters",
+    "value": "the skills of her employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These educational opportunities not only bolster the skills of her employees but also engender loyalty and can potentially create trainers within her own ranks."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "specialty coffee course",
+    "relation": "engenders",
+    "value": "loyalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These educational opportunities not only bolster the skills of her employees but also engender loyalty and can potentially create trainers within her own ranks."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "specialty coffee course",
+    "relation": "may_create",
+    "value": "trainers within her own ranks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These educational opportunities not only bolster the skills of her employees but also engender loyalty and can potentially create trainers within her own ranks."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Sarah Jennings",
+    "relation": "hopes_to_build",
+    "value": "a more resilient and self-sustaining workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she hopes to build a more resilient and self-sustaining workforce."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sarah Jennings",
+    "relation": "in_order_to",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another angle Sarah's tiringly pursuing is upskilling her present team.",
+     "In this manner, she hopes to build a more resilient and self-sustaining workforce."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "small businesses",
+    "relation": "frequently_discuss",
+    "value": "government intervention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In small business circles, there's frequent talk of government intervention"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Sarah Jennings",
+    "relation": "hopeful_for",
+    "value": "grants and training incentives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah keeps a close eye on new legislation, hopeful for grants and training incentives."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "grants and training incentives",
+    "relation": "hoped_for_by",
+    "value": "Sarah Jennings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah keeps a close eye on new legislation, hopeful for grants and training incentives."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Sarah Jennings",
+    "relation": "says_could_use",
+    "value": "more support, whether it's tax breaks or funding for apprentice programs",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "We could use more support, whether it\u2019s tax breaks or funding for apprentice programs"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "tax breaks",
+    "relation": "requested_by",
+    "value": "Sarah Jennings",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "We could use more support, whether it\u2019s tax breaks or funding for apprentice programs"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "apprentice programs",
+    "relation": "needs_funding",
+    "value": "funding",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "funding for apprentice programs"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "minimum wage",
+    "relation": "impact_described_as",
+    "value": "It helps, but it's not the silver bullet.",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "It helps, but it's not the silver bullet."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "labor shortage",
+    "relation": "described_as",
+    "value": "deeper, more complex than just numbers",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "The issues are deeper, more complex than just numbers."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Sarah Jennings",
+    "relation": "integrating",
+    "value": "more tech tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As a final resort, Sarah's been integrating more tech tools into her business."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "point-of-sale system",
+    "relation": "implemented_by",
+    "value": "Sarah Jennings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She's implemented a new point-of-sale system"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "automated scheduling platform",
+    "relation": "invested_in_by",
+    "value": "Sarah Jennings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invested in an automated scheduling platform to reduce administrative burdens for her and her team."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "automated scheduling platform",
+    "relation": "purpose",
+    "value": "to reduce administrative burdens for her and her team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "invested in an automated scheduling platform to reduce administrative burdens for her and her team."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sarah Jennings",
+    "relation": "says_trying_to_hire",
+    "value": "I'm trying to hire people at the same time I'm bringing in machines",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "I'm trying to hire people at the same time I'm bringing in machines to do some of their jobs."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Sarah Jennings",
+    "relation": "says_needs",
+    "value": "to keep the doors open",
+    "time": null,
+    "speaker": "Sarah Jennings",
+    "verbatim": [
+     "But I need to keep the doors open."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Sarah Jennings",
+    "relation": "faces",
+    "value": "a continuous cycle of training and adaptation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Sarah, this means a continuous cycle of training and adaptation"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "small businesses",
+    "relation": "experience_similar",
+    "value": "Sarah's plight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's playing out in small businesses everywhere"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Sarah Jennings",
+    "relation": "emphasizes",
+    "value": "importance of community involvement in addressing labor shortages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah emphasizes the importance of community involvement in addressing labor shortages."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

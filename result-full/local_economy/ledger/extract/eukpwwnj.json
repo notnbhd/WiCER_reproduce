@@ -1,0 +1,871 @@
+{
+ "inventory": [
+  "Jane Smith",
+  "Smith's Handcrafted Jewelry",
+  "Asheville",
+  "Mike Johnson",
+  "The Spice Route",
+  "Small Businesses",
+  "Google",
+  "Search Engine Optimization (SEO)",
+  "Active Social Media Engagement",
+  "A Robust, User-Friendly Website",
+  "Effective Digital Advertising",
+  "Google Ads",
+  "Facebook Ads",
+  "LinkedIn",
+  "TikTok",
+  "Google Analytics",
+  "Facebook Insights",
+  "Google's Keyword Planner",
+  "Buffer",
+  "Canva",
+  "comarketing",
+  "voice search optimization",
+  "artificial intelligence and machine learning",
+  "Data Analytics",
+  "e-commerce",
+  "Content is King"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small Businesses",
+    "relation": "faced_intensified_need",
+    "value": "intensified need to carve out a compelling digital identity",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, small businesses have faced an intensified need to carve out a compelling digital identity."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Small Businesses",
+    "relation": "faced_unique_challenges_from",
+    "value": "this shift toward digital dependency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For small businesses, this shift toward digital dependency has created a unique set of challenges."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small Businesses",
+    "relation": "challenged_by",
+    "value": "the daunting task of establishing a firm foothold online amidst a sea of competitors, both big and small",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses are challenged by the daunting task of establishing a firm foothold online amidst a sea of competitors, both big and small"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jane Smith",
+    "relation": "owner_of",
+    "value": "Smith's Handcrafted Jewelry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Smith, the owner of Smith's Handcrafted Jewelry"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Smith's Handcrafted Jewelry",
+    "relation": "described_as",
+    "value": "a quaint boutique in downtown Asheville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smith's Handcrafted Jewelry, a quaint boutique in downtown Asheville"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Smith's Handcrafted Jewelry",
+    "relation": "located_in",
+    "value": "Asheville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quaint boutique in downtown Asheville"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Smith's Handcrafted Jewelry",
+    "relation": "sales_plummeted",
+    "value": "sales plummeted",
+    "time": "In the fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "In the fall of 2023, sales plummeted"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Smith's Handcrafted Jewelry",
+    "relation": "competitors_drew_customers_away",
+    "value": "competitors with robust online platforms",
+    "time": "In the fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "competitors with robust online platforms drew away customers who increasingly favored the convenience of e-commerce"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Smith's Handcrafted Jewelry",
+    "relation": "caused_by",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sales plummeted as competitors with robust online platforms drew away customers"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "e-commerce",
+    "relation": "favored_by_customers_for",
+    "value": "convenience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customers who increasingly favored the convenience of e-commerce"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jane Smith",
+    "relation": "realized",
+    "value": "an online presence is not simply a luxury, but a necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "realized the hard way that an online presence is not simply a luxury, but a necessity"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mike Johnson",
+    "relation": "occupation",
+    "value": "local restaurateur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Johnson, a local restaurateur"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mike Johnson",
+    "relation": "began_to_notice",
+    "value": "a disturbing trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "began to notice a disturbing trend"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "The Spice Route",
+    "relation": "is_eatery_of",
+    "value": "Mike Johnson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His oncebustling eatery, The Spice Route"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "The Spice Route",
+    "relation": "experienced",
+    "value": "a decline in patronage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was seeing a decline in patronage"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mike Johnson",
+    "relation": "discovered",
+    "value": "his competitors were all over social media, enticing customers with mouth-watering images and engaging content",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnson discovered that his competitors were all over social media, enticing customers with mouth-watering images and engaging content"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Spice Route",
+    "relation": "online_presence",
+    "value": "barely simmering",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his restaurant's online presence was barely simmering"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "A Robust, User-Friendly Website",
+    "relation": "is_one_of_four_pillars",
+    "value": "the four pillars that support a successful online strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted website, active social media engagement, search engine optimization (SEO), and effective digital advertising are the four pillars that support a successful online strategy."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Active Social Media Engagement",
+    "relation": "is_one_of_four_pillars",
+    "value": "the four pillars that support a successful online strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted website, active social media engagement, search engine optimization (SEO), and effective digital advertising are the four pillars that support a successful online strategy."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "is_one_of_four_pillars",
+    "value": "the four pillars that support a successful online strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted website, active social media engagement, search engine optimization (SEO), and effective digital advertising are the four pillars that support a successful online strategy."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Effective Digital Advertising",
+    "relation": "is_one_of_four_pillars",
+    "value": "the four pillars that support a successful online strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A well-crafted website, active social media engagement, search engine optimization (SEO), and effective digital advertising are the four pillars that support a successful online strategy."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "A Robust, User-Friendly Website",
+    "relation": "serves_as",
+    "value": "the digital storefront for any business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A website serves as the digital storefront for any business."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "A Robust, User-Friendly Website",
+    "relation": "key_factors",
+    "value": "loading speed, mobile responsiveness, and easy navigation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Factors such as loading speed, mobile responsiveness, and easy navigation are non-negotiable in retaining potential customers' attention."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "A Robust, User-Friendly Website",
+    "relation": "should_mirror_and_provide",
+    "value": "the business's ethos and offerings and a seamless user experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It should not only mirror the business's ethos and offerings but also provide a seamless user experience."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Active Social Media Engagement",
+    "relation": "described_as",
+    "value": "the modern-day word-ofmouth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media channels are the modern-day word-ofmouth."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Active Social Media Engagement",
+    "relation": "can_create",
+    "value": "a sense of community and brand loyalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can create a sense of community and brand loyalty"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "improves",
+    "value": "the visibility of a business on search engines like Google",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SEO improves the visibility of a business on search engines like Google."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Google",
+    "relation": "is_example_of",
+    "value": "search engine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "search engines like Google"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "achieved_by",
+    "value": "using the right keywords, producing quality content, and optimizing website structure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using the right keywords, producing quality content, and optimizing website structure, a small business can rank higher in search results, capturing more organic traffic."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "enables",
+    "value": "a small business can rank higher in search results, capturing more organic traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small business can rank higher in search results, capturing more organic traffic"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "mechanism_of",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using the right keywords, producing quality content, and optimizing website structure, a small business can rank higher"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Effective Digital Advertising",
+    "relation": "traditional_advertising_status",
+    "value": "traditional forms of advertising lose their grip",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As traditional forms of advertising lose their grip, digital ad campaigns have become essential."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Effective Digital Advertising",
+    "relation": "has_become",
+    "value": "essential",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "digital ad campaigns have become essential"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Effective Digital Advertising",
+    "relation": "caused_by",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As traditional forms of advertising lose their grip, digital ad campaigns have become essential."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Google Ads",
+    "relation": "allows",
+    "value": "targeted campaigns to reach specific demographics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Platforms like Google Ads and Facebook Ads allow for targeted campaigns to reach specific demographics, leading to better conversion rates."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Facebook Ads",
+    "relation": "allows",
+    "value": "targeted campaigns to reach specific demographics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Platforms like Google Ads and Facebook Ads allow for targeted campaigns to reach specific demographics, leading to better conversion rates."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Effective Digital Advertising",
+    "relation": "leads_to",
+    "value": "better conversion rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to better conversion rates"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Google Ads",
+    "relation": "results_in",
+    "value_ref": "c37",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allow for targeted campaigns to reach specific demographics, leading to better conversion rates"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Small Businesses",
+    "relation": "must_tailor",
+    "value": "its digital marketing strategy to its unique audience, goals, and capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each small business must tailor its digital marketing strategy to its unique audience, goals, and capabilities."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jane Smith",
+    "relation": "realized",
+    "value": "a one-size-fits-all approach seldom succeeds in the digital domain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the key realizations for small business owners like Jane Smith and Mike Johnson is that a one-size-fits-all approach seldom succeeds in the digital domain."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Mike Johnson",
+    "relation": "realized",
+    "value": "a one-size-fits-all approach seldom succeeds in the digital domain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the key realizations for small business owners like Jane Smith and Mike Johnson is that a one-size-fits-all approach seldom succeeds in the digital domain."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Small Businesses",
+    "relation": "should_analyze_audience",
+    "value": "who the customers are, their behaviors, preferences, and pain points",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By analyzing who the customers are, their behaviors, preferences, and pain points, businesses can craft messages that resonate."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Small Businesses",
+    "relation": "should_have_goals",
+    "value": "clear, measurable goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "having clear, measurable goals helps in focusing efforts and resources strategically"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "LinkedIn",
+    "relation": "suitable_for",
+    "value": "a professional services firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a professional services firm may benefit more from LinkedIn than TikTok"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "TikTok",
+    "relation": "ideal_for",
+    "value": "a fashion retailer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "TikTok, which might be ideal for a fashion retailer"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Content is King",
+    "relation": "involves",
+    "value": "creating informative, compelling, and authentic content that adds value to the customer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A winning content strategy involves creating informative, compelling, and authentic content that adds value to the customer."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Content is King",
+    "relation": "includes_formats",
+    "value": "blog posts, videos, infographics, or podcasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Whether it's blog posts, videos, infographics, or podcasts"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Content is King",
+    "relation": "goal",
+    "value": "to engage and convert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the goal is to engage and convert"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Data Analytics",
+    "relation": "can_provide",
+    "value": "invaluable insights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "data analytics can provide invaluable insights"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Small Businesses",
+    "relation": "often_overlook",
+    "value": "this wealth of information due to a perceived complexity or lack of resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses often overlook this wealth of information due to a perceived complexity or lack of resources."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Data Analytics",
+    "relation": "simple_tools_can_help",
+    "value": "understand customer behaviors, measure the success of marketing efforts, and make informed decisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simple analytics tools can help businesses understand customer behaviors, measure the success of marketing efforts, and make informed decisions"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Google Analytics",
+    "relation": "implemented_by",
+    "value": "Jane Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "after implementing Google Analytics on her website, Jane Smith realized that most of her traffic was coming through organic search"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Jane Smith",
+    "relation": "realized",
+    "value": "most of her traffic was coming through organic search",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Smith realized that most of her traffic was coming through organic search"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jane Smith",
+    "relation": "decided_to_increase",
+    "value": "SEO efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "informing her decision to increase SEO efforts"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jane Smith",
+    "relation": "results_in",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organic search, informing her decision to increase SEO efforts"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Mike Johnson",
+    "relation": "employed",
+    "value": "Facebook Insights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Johnson employed Facebook Insights"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Mike Johnson",
+    "relation": "observed",
+    "value": "posts featuring his restaurant's behind-the-scenes stories generated the most engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "posts featuring his restaurant's behind-the-scenes stories generated the most engagement"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Mike Johnson",
+    "relation": "shifted_content_strategy",
+    "value": "a shift in his content strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "prompting a shift in his content strategy"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Mike Johnson",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "posts featuring his restaurant's behind-the-scenes stories generated the most engagement, prompting a shift in his content strategy"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Small Businesses",
+    "relation": "faces_hurdle",
+    "value": "the budget",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A significant hurdle for small businesses when it comes to digital marketing is the budget."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Small Businesses",
+    "relation": "can_make_strides_with",
+    "value": "numerous cost-effective solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "numerous cost-effective solutions can help in making significant strides online"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Google's Keyword Planner",
+    "relation": "free_tool_for",
+    "value": "SEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Free tools for SEO, social media scheduling, and graphic design, such as Google's Keyword Planner, Buffer, and Canva, respectively"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Buffer",
+    "relation": "free_tool_for",
+    "value": "social media scheduling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Free tools for SEO, social media scheduling, and graphic design, such as Google's Keyword Planner, Buffer, and Canva, respectively"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Canva",
+    "relation": "free_tool_for",
+    "value": "graphic design",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Free tools for SEO, social media scheduling, and graphic design, such as Google's Keyword Planner, Buffer, and Canva, respectively"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "comarketing",
+    "relation": "benefits",
+    "value": "expanded reach and shared costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where comarketing can expand reach and share costs"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Small Businesses",
+    "relation": "can_seek",
+    "value": "partnerships and collaborations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses can seek partnerships and collaborations"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "voice search optimization",
+    "relation": "is_trend",
+    "value": "a trend that could significantly impact SEO strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the importance of voice search optimization is a trend that could significantly impact SEO strategies"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "voice search optimization",
+    "relation": "related_to",
+    "value": "the rise of voice search",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the rise of voice search"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "artificial intelligence and machine learning",
+    "relation": "emerged_in",
+    "value": "digital advertising",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the emergence of artificial intelligence and machine learning in digital advertising"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "artificial intelligence and machine learning",
+    "relation": "allows",
+    "value": "more personalized and automated ad campaigns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can allow for more personalized and automated ad campaigns"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Small Businesses",
+    "relation": "must_stay_educated_and_adaptable",
+    "value": "staying educated and adaptable to these changes is crucial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For small business owners, staying educated and adaptable to these changes is crucial."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Small Businesses",
+    "relation": "can_help_navigate",
+    "value": "networking with other small business owners, attending digital marketing webinars, and seeking guidance from consultants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Networking with other small business owners, attending digital marketing webinars, and seeking guidance from consultants can help in navigating this digital era."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Small Businesses",
+    "relation": "challenges_are",
+    "value": "real, but they are not insurmountable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the challenges of establishing an online footprint and executing an effective digital marketing strategy are real, but they are not insurmountable."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Small Businesses",
+    "relation": "approach_centered_on",
+    "value": "understanding the digital landscape, aligning with business goals, leveraging data, managing resources smartly, and staying current with trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a thoughtful approach centered on understanding the digital landscape, aligning with business goals, leveraging data, managing resources smartly, and staying current with trends"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Small Businesses",
+    "relation": "can_conquer_and_thrive",
+    "value": "conquer their digital dilemmas but thrive in the digital marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses can not only conquer their digital dilemmas but thrive in the digital marketplace"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Small Businesses",
+    "relation": "first_step",
+    "value": "understanding the integral components of an online presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For small businesses, the first step is understanding the integral components of an online presence."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

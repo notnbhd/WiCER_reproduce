@@ -1,0 +1,762 @@
+{
+ "inventory": [
+  "Anna Rodriguez",
+  "Michael Chen",
+  "SecureTech",
+  "National Federation of Independent Business",
+  "Kelly Thompson",
+  "Stephanie Cruz",
+  "Amar Singh",
+  "Clara Bennett",
+  "James Kim",
+  "Rachel Warner",
+  "Laura Ortiz",
+  "Tom Nguyen",
+  "San Francisco",
+  "Houston",
+  "Raleigh",
+  "Portland",
+  "Austin",
+  "labor shortages",
+  "talent gap",
+  "talent acquisition",
+  "apprenticeship and internship programs",
+  "internal training programs",
+  "immigration reform",
+  "remote working arrangements",
+  "AI-based analysis",
+  "retraining and upskilling",
+  "pandemic",
+  "cybersecurity",
+  "Software as a Service (SaaS)"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "pandemic",
+    "relation": "impact",
+    "value": "far-reaching impacts; left small businesses in a challenging predicament",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The far-reaching impacts of the pandemic, coupled with the swift evolution of technology and consumer behavior, have left small businesses in a challenging predicament"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "labor shortages",
+    "relation": "described_as",
+    "value": "hardly new",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The phenomenon of labor shortages is hardly new"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "labor shortages",
+    "relation": "described_as",
+    "value": "current pervasiveness is unprecedented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its current pervasiveness is unprecedented"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "National Federation of Independent Business",
+    "relation": "reported",
+    "value": "approximately 49% of small businesses struggled with filling job positions",
+    "time": "In the first quarter post-September 2023",
+    "speaker": "National Federation of Independent Business",
+    "verbatim": [
+     "a report from the National Federation of Independent Business indicated that approximately 49% of small businesses struggled with filling job positions"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "National Federation of Independent Business",
+    "relation": "reported_trend",
+    "value": "steadily climbing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a statistic that's been steadily climbing"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Anna Rodriguez",
+    "relation": "runs",
+    "value": "a boutique digital marketing firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anna Rodriguez, who runs a boutique digital marketing firm based in San Francisco"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Anna Rodriguez",
+    "relation": "firm_based_in",
+    "value": "San Francisco",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a boutique digital marketing firm based in San Francisco"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "labor shortages",
+    "relation": "resulted_in",
+    "value": "delayed projects and overburdened existing staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the labor scarcity has translated into delayed projects and overburdened existing staff"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Anna Rodriguez",
+    "relation": "said",
+    "value": "The search for qualified digital marketers and content creators has never been so arduous",
+    "time": "October 15, 2023",
+    "speaker": "Anna Rodriguez",
+    "verbatim": [
+     "\"The search for qualified digital marketers and content creators has never been so arduous,\" Rodriguez noted in an interview on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Anna Rodriguez",
+    "relation": "said",
+    "value": "We are seeing a mismatch in the skills job-seekers have and the skills we need",
+    "time": null,
+    "speaker": "Anna Rodriguez",
+    "verbatim": [
+     "We are seeing a mismatch in the skills job-seekers have and the skills we need."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Anna Rodriguez",
+    "relation": "said",
+    "value": "There's a technological gap that we can't seem to bridge fast enough",
+    "time": null,
+    "speaker": "Anna Rodriguez",
+    "verbatim": [
+     "There's a technological gap that we can't seem to bridge fast enough."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "talent gap",
+    "relation": "is_element_of",
+    "value": "labor shortage issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A critical element of the labor shortage issue is the 'talent gap'."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "talent gap",
+    "relation": "context",
+    "value": "swift pace of technological advancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the swift pace of technological advancements"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "talent gap",
+    "relation": "caused_by",
+    "value": "education and training of potential employees, which is often misaligned with the market needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The problem lies in the education and training of potential employees, which is often misaligned with the market needs."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Michael Chen",
+    "relation": "is_ceo_of",
+    "value": "SecureTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Chen, the CEO of SecureTech"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "SecureTech",
+    "relation": "is_small_firm_specializing_in",
+    "value": "data protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small firm specializing in data protection"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Chen",
+    "relation": "said",
+    "value": "In the field of cybersecurity, for example, we see a significant disconnect",
+    "time": null,
+    "speaker": "Michael Chen",
+    "verbatim": [
+     "\"In the field of cybersecurity, for example, we see a significant disconnect,\" emphasizes Michael Chen"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Michael Chen",
+    "relation": "said",
+    "value": "There are countless programs out there, but they don't all equip students with the applied skills that can translate into immediate operational competence.",
+    "time": "November 12, 2023",
+    "speaker": "Michael Chen",
+    "verbatim": [
+     "On November 12, 2023, Chen pointed out, \"There are countless programs out there, but they don't all equip students with the applied skills that can translate into immediate operational competence.\""
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "talent acquisition",
+    "relation": "innovating",
+    "value": "small businesses are innovating their approaches to talent acquisition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses are innovating their approaches to talent acquisition"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "internal training programs",
+    "relation": "invested_in_by",
+    "value": "Rodriguez's marketing firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many, like Rodriguez's marketing firm, are investing in internal training"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "internal training programs",
+    "relation": "purpose",
+    "value": "upskill new hires quickly and efficiently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to upskill new hires quickly and efficiently."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "internal training programs",
+    "relation": "in_order_to",
+    "value_ref": "c21",
+    "verbatim": [
+     "Many, like Rodriguez's marketing firm, are investing in internal training",
+     "designed to upskill new hires quickly and efficiently."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "talent acquisition",
+    "relation": "approach",
+    "value": "Others are turning to more unconventional recruitment tactics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Others are turning to more unconventional recruitment tactics."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "apprenticeship and internship programs",
+    "relation": "serves_as",
+    "value": "a pipeline for fresh talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "apprenticeship and internship programs that serve as a pipeline for fresh talent"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Kelly Thompson",
+    "relation": "leads",
+    "value": "a specialty welding company in Houston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Kelly Thompson, who leads a specialty welding company in Houston"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Kelly Thompson",
+    "relation": "company_located_in",
+    "value": "Houston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a specialty welding company in Houston"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Kelly Thompson",
+    "relation": "initiated",
+    "value": "an apprenticeship program",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "initiated an apprenticeship program in early September 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Kelly Thompson",
+    "relation": "program_result",
+    "value": "has already shown promise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that has already shown promise"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Kelly Thompson",
+    "relation": "said",
+    "value": "Our apprenticeships have been a win-win",
+    "time": null,
+    "speaker": "Kelly Thompson",
+    "verbatim": [
+     "\"Our apprenticeships have been a win-win,\" Thompson said."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Kelly Thompson",
+    "relation": "said",
+    "value": "build a workforce that knows our equipment and processes from the ground up",
+    "time": null,
+    "speaker": "Kelly Thompson",
+    "verbatim": [
+     "We get to build a workforce that knows our equipment and processes from the ground up"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Kelly Thompson",
+    "relation": "said",
+    "value": "the apprentices earn while they learn, picking up certifications along the way",
+    "time": null,
+    "speaker": "Kelly Thompson",
+    "verbatim": [
+     "the apprentices earn while they learn, picking up certifications along the way."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Stephanie Cruz",
+    "relation": "job_title",
+    "value": "HR manager at a renewable energy startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Stephanie Cruz, HR manager at a renewable energy startup"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Stephanie Cruz",
+    "relation": "emphasized",
+    "value": "the need for tapping into diverse talent pools",
+    "time": "September 26, 2023",
+    "speaker": "Stephanie Cruz",
+    "verbatim": [
+     "emphasized during a webinar on September 26, 2023, the need for tapping into diverse talent pools"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Stephanie Cruz",
+    "relation": "said",
+    "value": "We've broadened our search beyond traditional job boards, reaching out to specialized schools, community programs, and even social media platforms to find candidates who may not be looking through the usual avenues",
+    "time": null,
+    "speaker": "Stephanie Cruz",
+    "verbatim": [
+     "\"We've broadened our search beyond traditional job boards, reaching out to specialized schools, community programs, and even social media platforms to find candidates who may not be looking through the usual avenues.\""
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Amar Singh",
+    "relation": "occupation",
+    "value": "restaurateur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amar Singh, a restaurateur"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Amar Singh",
+    "relation": "member_of",
+    "value": "a coalition advocating for immigration reform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is part of a coalition advocating for immigration reform"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "immigration reform",
+    "relation": "aims_to",
+    "value": "easing work visas restrictions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a coalition advocating for immigration reform aimed at easing work visas restrictions"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Amar Singh",
+    "relation": "said",
+    "value": "We have a global talent pool that could alleviate some of these shortages, particularly in the hospitality industry.",
+    "time": "October 8, 2023",
+    "speaker": "Amar Singh",
+    "verbatim": [
+     "On October 8, 2023, Singh shared, \"We have a global talent pool that could alleviate some of these shortages, particularly in the hospitality industry."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Amar Singh",
+    "relation": "said",
+    "value": "Policy changes that allow for quicker hiring of skilled immigrants could be a game-changer",
+    "time": "October 8, 2023",
+    "speaker": "Amar Singh",
+    "verbatim": [
+     "Policy changes that allow for quicker hiring of skilled immigrants could be a game-changer."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Clara Bennett",
+    "relation": "owner_of",
+    "value": "a biotech research company in Raleigh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Clara Bennett, owner of a biotech research company in Raleigh"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Clara Bennett",
+    "relation": "said",
+    "value": "We can't just compete on salary; we've made our work culture paramount",
+    "time": null,
+    "speaker": "Clara Bennett",
+    "verbatim": [
+     "We can't just compete on salary; we've made our work culture paramount"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Clara Bennett",
+    "relation": "said",
+    "value": "flexible schedules, continuous learning opportunities, and an inclusive environment are what keep our employees engaged",
+    "time": null,
+    "speaker": "Clara Bennett",
+    "verbatim": [
+     "flexible schedules, continuous learning opportunities, and an inclusive environment are what keep our employees engaged"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "James Kim",
+    "relation": "role",
+    "value": "co-founder of an electronics repair service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founder of an electronics repair service"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "James Kim",
+    "relation": "said",
+    "value": "By partnering with the local tech school, we can cultivate the specific skills our industry requires",
+    "time": null,
+    "speaker": "James Kim",
+    "verbatim": [
+     "By partnering with the local tech school, we can cultivate the specific skills our industry requires."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "James Kim",
+    "relation": "said",
+    "value": "It's an investment in the student, the school, and our company's future",
+    "time": null,
+    "speaker": "James Kim",
+    "verbatim": [
+     "It's an investment in the student, the school, and our company's future."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Rachel Warner",
+    "relation": "manages",
+    "value": "a mid-sized graphic design studio in Portland",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rachel Warner, who manages a mid-sized graphic design studio in Portland"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Rachel Warner",
+    "relation": "said",
+    "value": "We've set aside a budget specifically for ongoing training",
+    "time": null,
+    "speaker": "Rachel Warner",
+    "verbatim": [
+     "We've set aside a budget specifically for ongoing training."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Rachel Warner",
+    "relation": "said",
+    "value": "Our team members regularly attend workshops and certifications, ensuring they remain on the cutting edge",
+    "time": null,
+    "speaker": "Rachel Warner",
+    "verbatim": [
+     "Our team members regularly attend workshops and certifications, ensuring they remain on the cutting edge."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "retraining and upskilling",
+    "relation": "described_as",
+    "value": "what used to be considered supplemental training is now often a necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "what used to be considered supplemental training is now often a necessity"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "retraining and upskilling",
+    "relation": "context",
+    "value": "the pace at which changes are occurring in most industries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the pace at which changes are occurring in most industries"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "remote working arrangements",
+    "relation": "presents",
+    "value": "another dimension to the labor shortage landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of remote working arrangements presents another dimension to the labor shortage landscape."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "remote working arrangements",
+    "relation": "offered_by_small_businesses",
+    "value": "remote or hybrid work options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many small businesses are offering remote or hybrid work options"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "remote working arrangements",
+    "relation": "purpose",
+    "value": "to attract a broader pool of candidates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to attract a broader pool of candidates."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "remote working arrangements",
+    "relation": "in_order_to",
+    "value_ref": "c53",
+    "verbatim": [
+     "Many small businesses are offering remote or hybrid work options",
+     "to attract a broader pool of candidates."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Laura Ortiz",
+    "relation": "occupation",
+    "value": "an entrepreneur in the field of SaaS (Software as a Service)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Ortiz, an entrepreneur in the field of SaaS (Software as a Service)"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Laura Ortiz",
+    "relation": "said",
+    "value": "Offer remote positions can expand our search beyond geographical constraints, granting access to the best talent, regardless of where they live",
+    "time": null,
+    "speaker": "Laura Ortiz",
+    "verbatim": [
+     "Offer remote positions can expand our search beyond geographical constraints, granting access to the best talent, regardless of where they live."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Tom Nguyen",
+    "relation": "runs",
+    "value": "an IT services company in Austin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tom Nguyen, who runs an IT services company in Austin"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Tom Nguyen",
+    "relation": "said",
+    "value": "We've integrated AI-based analysis for our recruitment",
+    "time": null,
+    "speaker": "Tom Nguyen",
+    "verbatim": [
+     "We've integrated AI-based analysis for our recruitment."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "AI-based analysis",
+    "relation": "effect",
+    "value": "improves the quality of applicants and substantially reduces the time to hire",
+    "time": null,
+    "speaker": "Tom Nguyen",
+    "verbatim": [
+     "This not only improves the quality of applicants but substantially reduces the time to hire."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "talent acquisition",
+    "relation": "essential_for",
+    "value": "casting a wider net for potential hires",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "casting a wider net for potential hires"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "talent acquisition",
+    "relation": "partnering_with",
+    "value": "trade schools, colleges, and universities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Partnerships with trade schools, colleges, and universities are also proving beneficial."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "talent acquisition",
+    "relation": "purpose_of_partnerships",
+    "value": "helping shape curriculums and creating co-op opportunities that prepare students for the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By working closely with educational institutes, businesses are helping shape curriculums and creating co-op opportunities that prepare students for the workforce."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "talent acquisition",
+    "relation": "requires",
+    "value": "a multifaceted and proactive approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a multifaceted and proactive approach will be central to the success of small businesses"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "labor shortages",
+    "relation": "described_as",
+    "value": "skilled labor is a precious commodity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "skilled labor is a precious commodity"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "talent gap",
+    "relation": "described_as",
+    "value": "steps in a journey without a set endpoint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are steps in a journey without a set endpoint, but with the promise of steady progress through collective adaptation and foresight"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "labor shortages",
+    "relation": "described_as",
+    "value": "an ongoing narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The challenge of finding skilled labor in specialty small businesses is an ongoing narrative"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,502 @@
+{
+ "inventory": [
+  "Julianne Baxter",
+  "Baxter's Bakery",
+  "Springfield",
+  "gig economy",
+  "millennial workforce",
+  "Millennials",
+  "Gen Z",
+  "Craig Simon",
+  "Minneapolis",
+  "Rebecca Torres",
+  "chamber of commerce event",
+  "LinkedIn",
+  "Martha Jensen",
+  "Instagram",
+  "Facebook",
+  "TikTok",
+  "greater Seattle area",
+  "Zachary Li",
+  "Jeffrey Tan",
+  "Atlanta"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Julianne Baxter",
+    "relation": "owner_of",
+    "value": "Baxter's Bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Baxter, owner of Baxter's Bakery in downtown Springfield"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Baxter's Bakery",
+    "relation": "located_in",
+    "value": "downtown Springfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Baxter's Bakery in downtown Springfield"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Julianne Baxter",
+    "relation": "operated_family_business_for",
+    "value": "a decade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has operated her family business for a decade"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Julianne Baxter",
+    "relation": "has_never_seen",
+    "value": "a labor market like today's",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but has never seen a labor market like today's"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Julianne Baxter",
+    "relation": "says_competition_not_only_bakeries",
+    "value": "not just competing with other bakeries",
+    "time": null,
+    "speaker": "Julianne Baxter",
+    "verbatim": [
+     "We're not just competing with other bakeries,\" she explains."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Julianne Baxter",
+    "relation": "says_competing_with",
+    "value": "the freedom and flexibility that the gig economy offers, especially to younger workers",
+    "time": null,
+    "speaker": "Julianne Baxter",
+    "verbatim": [
+     "We're competing with the freedom and flexibility that the gig economy offers, especially to younger workers."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Julianne Baxter",
+    "relation": "feels",
+    "value": "the pressure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small business owners like Julianne Baxter are feeling the pressure"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "millennial workforce",
+    "relation": "influences",
+    "value": "labor market has morphed dramatically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The labor market has morphed dramatically, influenced by the millennial workforce and the burgeoning gig economy."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "gig economy",
+    "relation": "competes_with",
+    "value": "traditional small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with traditional small businesses on one side and the gig economy on the other."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Millennials",
+    "relation": "prioritizing",
+    "value": "jobs that provide worklife balance, personal fulfillment, and flexibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "millennials and even younger generations are prioritizing jobs that provide worklife balance, personal fulfillment, and flexibility"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Millennials",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This new norm has led to a talent acquisition tug-of-war, with traditional small businesses on one side and the gig economy on the other."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Craig Simon",
+    "relation": "based_in",
+    "value": "Minneapolis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Craig Simon, an HR consultant based in Minneapolis"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Craig Simon",
+    "relation": "occupation",
+    "value": "HR consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Craig Simon, an HR consultant based in Minneapolis"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Gen Z",
+    "relation": "views_job_as",
+    "value": "not just a paycheck",
+    "time": null,
+    "speaker": "Craig Simon",
+    "verbatim": [
+     "Millennials and Gen Z don't just see a job as a paycheck,"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Millennials",
+    "relation": "views_job_as",
+    "value": "an integral part of their identity and life plan",
+    "time": null,
+    "speaker": "Craig Simon",
+    "verbatim": [
+     "They see it as an integral part of their identity and life plan."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Craig Simon",
+    "relation": "says_critical",
+    "value": "employers highlight how a role at their company can fit into that plan",
+    "time": null,
+    "speaker": "Craig Simon",
+    "verbatim": [
+     "It's critical that employers highlight how a role at their company can fit into that plan."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Craig Simon",
+    "relation": "recommends",
+    "value": "wellness programs, financial planning assistance, or continued learning opportunities",
+    "time": null,
+    "speaker": "Craig Simon",
+    "verbatim": [
+     "Think wellness programs, financial planning assistance, or continued learning opportunities."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Craig Simon",
+    "relation": "says",
+    "value": "little tweaks in the benefits package can also go a long way",
+    "time": null,
+    "speaker": "Craig Simon",
+    "verbatim": [
+     "Little tweaks in the benefits package can also go a long way,"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Rebecca Torres",
+    "relation": "occupation",
+    "value": "local boutique owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rebecca Torres, a local boutique owner,"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Rebecca Torres",
+    "relation": "found_star_employee_at",
+    "value": "a community networking event",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 5, 2023, Rebecca Torres, a local boutique owner, found her star employee not through a job site, but at a community networking event."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Rebecca Torres",
+    "relation": "says",
+    "value": "You have to get creative",
+    "time": null,
+    "speaker": "Rebecca Torres",
+    "verbatim": [
+     "You have to get creative,\""
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Rebecca Torres",
+    "relation": "attended",
+    "value": "a chamber of commerce event",
+    "time": null,
+    "speaker": "Rebecca Torres",
+    "verbatim": [
+     "I attended a chamber of commerce event"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "chamber of commerce event",
+    "relation": "led_to_meeting",
+    "value": "someone who was perfect for my shop",
+    "time": null,
+    "speaker": "Rebecca Torres",
+    "verbatim": [
+     "I attended a chamber of commerce event and just happened to meet someone who was perfect for my shop."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Rebecca Torres",
+    "relation": "describes_meeting_as",
+    "value": "a fortuitous blend of casual conversation and realizing our professional needs and interests aligned",
+    "time": null,
+    "speaker": "Rebecca Torres",
+    "verbatim": [
+     "It was a fortuitous blend of casual conversation and realizing our professional needs and interests aligned."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "LinkedIn",
+    "relation": "is_digital_networking_platform",
+    "value": "aimed specifically at professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital networking platforms aimed specifically at professionals\u2014like LinkedIn\u2014continue to be valuable"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Millennials",
+    "relation": "craves",
+    "value": "face-to-face interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for the face-to-face interactions that millennials crave"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Instagram",
+    "relation": "used_for",
+    "value": "showcase company culture and broadcast hiring announcements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instagram stories, Facebook posts, and even TikTok videos can be used to showcase company culture and broadcast hiring announcements to a vast network of potential candidates."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Facebook",
+    "relation": "used_for",
+    "value": "showcase company culture and broadcast hiring announcements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instagram stories, Facebook posts, and even TikTok videos can be used to showcase company culture and broadcast hiring announcements to a vast network of potential candidates."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "TikTok",
+    "relation": "used_for",
+    "value": "showcase company culture and broadcast hiring announcements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Instagram stories, Facebook posts, and even TikTok videos can be used to showcase company culture and broadcast hiring announcements to a vast network of potential candidates."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Martha Jensen",
+    "relation": "occupation",
+    "value": "social media strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martha Jensen, a social media strategist working with several small businesses in the greater Seattle area,"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Martha Jensen",
+    "relation": "works_with_small_businesses_in",
+    "value": "the greater Seattle area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martha Jensen, a social media strategist working with several small businesses in the greater Seattle area,"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Martha Jensen",
+    "relation": "says_platforms_offer",
+    "value": "an authentic glimpse into your business's daily operations",
+    "time": null,
+    "speaker": "Martha Jensen",
+    "verbatim": [
+     "When utilized correctly, platforms like Instagram and TikTok offer an authentic glimpse into your business's daily operations,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Martha Jensen",
+    "relation": "says",
+    "value": "vibe and culture is incredibly important to millennial job seekers",
+    "time": null,
+    "speaker": "Martha Jensen",
+    "verbatim": [
+     "They can convey your company's vibe and culture which is incredibly important to millennial job seekers."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Zachary Li",
+    "relation": "occupation",
+    "value": "founder of a coding bootcamp",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Zachary Li, the founder of a coding bootcamp,"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Zachary Li",
+    "relation": "observes",
+    "value": "a rising interest in tech skills among all industry workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "observes a rising interest in tech skills among all industry workers"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Zachary Li",
+    "relation": "says",
+    "value": "Businesses that offer training, especially in digital and tech, become attractors",
+    "time": null,
+    "speaker": "Zachary Li",
+    "verbatim": [
+     "Businesses that offer training, especially in digital and tech, become attractors,\""
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Zachary Li",
+    "relation": "says",
+    "value": "pays dividends for both the employer and the employee",
+    "time": null,
+    "speaker": "Zachary Li",
+    "verbatim": [
+     "It's something that pays dividends for both the employer and the employee."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Jeffrey Tan",
+    "relation": "occupation",
+    "value": "small business advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeffrey Tan, a small business advisor in Atlanta,"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jeffrey Tan",
+    "relation": "based_in",
+    "value": "Atlanta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jeffrey Tan, a small business advisor in Atlanta,"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jeffrey Tan",
+    "relation": "says",
+    "value": "The 'one-size-fits-all' model of benefits packages is outdated",
+    "time": null,
+    "speaker": "Jeffrey Tan",
+    "verbatim": [
+     "The 'one-size-fits-all' model of benefits packages is outdated."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jeffrey Tan",
+    "relation": "says",
+    "value": "personalized perks can set your business apart",
+    "time": null,
+    "speaker": "Jeffrey Tan",
+    "verbatim": [
+     "In a labor market where candidates have the luxury to be picky, personalized perks can set your business apart."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Millennials",
+    "relation": "appealed_by",
+    "value": "ethical stances, commitment to sustainability, and community involvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A company's ethical stances, commitment to sustainability, and community involvement are aspects that can significantly appeal to millennial and Gen Z job seekers."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Gen Z",
+    "relation": "appealed_by",
+    "value": "ethical stances, commitment to sustainability, and community involvement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A company's ethical stances, commitment to sustainability, and community involvement are aspects that can significantly appeal to millennial and Gen Z job seekers."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

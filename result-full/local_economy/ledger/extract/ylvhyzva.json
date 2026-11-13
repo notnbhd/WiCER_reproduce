@@ -1,0 +1,805 @@
+{
+ "inventory": [
+  "Sarah Jennings",
+  "Bloom and Basket",
+  "Maria Gonzalez",
+  "Jim Chen",
+  "InnoRetail Ai",
+  "Meadowville Chamber of Commerce",
+  "Meadowville",
+  "Amazon",
+  "eBay",
+  "personalization algorithms",
+  "pilot program",
+  "local retailers",
+  "privacy",
+  "holiday season"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local retailers",
+    "relation": "leveraging",
+    "value": "advanced personalization algorithms",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, an increasing number of local retailers have been leveraging advanced personalization algorithms"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local retailers",
+    "relation": "used_for",
+    "value": "elevate shopping experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraging advanced personalization algorithms to elevate shopping experiences"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Bloom and Basket",
+    "relation": "is_a",
+    "value": "local florist and gift shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local florist and gift shop that opened in October 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Bloom and Basket",
+    "relation": "opened_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "a local florist and gift shop that opened in October 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Jennings",
+    "relation": "owner_of",
+    "value": "Bloom and Basket",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Jennings, owner of"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Jennings",
+    "relation": "adopted",
+    "value": "personalization technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has adopted personalization technology to keep up with the competitive landscape"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Jennings",
+    "relation": "adopted_to",
+    "value": "keep up with the competitive landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has adopted personalization technology to keep up with the competitive landscape"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Jennings",
+    "relation": "uses",
+    "value": "a system that tracks purchase history and customer preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By implementing a system that tracks purchase history and customer preferences"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Jennings",
+    "relation": "can_suggest",
+    "value": "personalized gift bundles and offers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah can suggest personalized gift bundles and offers"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Jennings",
+    "relation": "enables",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By implementing a system that tracks purchase history and customer preferences, Sarah can suggest personalized gift bundles and offers"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Meadowville",
+    "relation": "is_a",
+    "value": "a quaint town known for its community-centered commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quaint town known for its community-centered commerce"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Meadowville",
+    "relation": "location",
+    "value": "downtown Meadowville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the heart of downtown Meadowville"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "personalization algorithms",
+    "relation": "allows",
+    "value": "comprehensive analysis of shopper behavior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allows for comprehensive analysis of shopper behavior, enabling small businesses to make datadriven decisions"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "personalization algorithms",
+    "relation": "enables",
+    "value": "small businesses to make datadriven decisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling small businesses to make datadriven decisions"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "personalization algorithms",
+    "relation": "aims_to",
+    "value": "reclaim market share from the behemoths of online retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a calculative strike that aims to reclaim market share from the behemoths of online retail"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "personalization algorithms",
+    "relation": "began_in",
+    "value": "e-commerce well before its foray into local retail",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The proliferation of personalization algorithms in e-commerce began well before its foray into local retail"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Amazon",
+    "relation": "set_benchmark",
+    "value": "the benchmark",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Amazon and eBay have set the benchmark"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "eBay",
+    "relation": "set_benchmark",
+    "value": "the benchmark",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Amazon and eBay have set the benchmark"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Amazon",
+    "relation": "capitalizes_on",
+    "value": "machine learning and artificial intelligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Amazon and eBay have set the benchmark, capitalizing on machine learning and artificial intelligence"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "eBay",
+    "relation": "capitalizes_on",
+    "value": "machine learning and artificial intelligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Names like Amazon and eBay have set the benchmark, capitalizing on machine learning and artificial intelligence"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Amazon",
+    "relation": "curates",
+    "value": "shopping experiences that are both relevant and engaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to curate shopping experiences that are both relevant and engaging"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "eBay",
+    "relation": "curates",
+    "value": "shopping experiences that are both relevant and engaging",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to curate shopping experiences that are both relevant and engaging"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "personalization algorithms",
+    "relation": "analyze",
+    "value": "browsing history, purchase patterns, and even the amount of time spent looking at particular items",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These platforms use complex algorithms to analyze browsing history, purchase patterns, and even the amount of time spent looking at particular items"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "personalization algorithms",
+    "relation": "predict",
+    "value": "customers' next purchases",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to predict customers' next purchases and enhance their shopping journey"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "personalization algorithms",
+    "relation": "in_order_to",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to analyze browsing history, purchase patterns, and even the amount of time spent looking at particular items to predict customers' next purchases"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "local retailers",
+    "relation": "faces",
+    "value": "limitations in the volume of data they can procure and process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local retailers face limitations in the volume of data they can procure and process"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local retailers",
+    "relation": "gain",
+    "value": "qualitative data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "affords these small businesses with qualitative data"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local retailers",
+    "relation": "qualitative_data_stems_from",
+    "value": "face-to-face interactions and personalized service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "information that stems from face-to-face interactions and personalized service"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "pilot program",
+    "relation": "started_in",
+    "value": "September 2023",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "In September 2023, a pilot program co-sponsored by the Meadowville Chamber of Commerce and a tech startup, InnoRetail Ai, kicked off"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "pilot program",
+    "relation": "co_sponsored_by",
+    "value": "Meadowville Chamber of Commerce",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a pilot program co-sponsored by the Meadowville Chamber of Commerce"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "pilot program",
+    "relation": "co_sponsored_by",
+    "value": "InnoRetail Ai",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "co-sponsored by the Meadowville Chamber of Commerce and a tech startup, InnoRetail Ai"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "InnoRetail Ai",
+    "relation": "is_a",
+    "value": "tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tech startup, InnoRetail Ai"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "pilot program",
+    "relation": "offered",
+    "value": "a suite of tools to local merchants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It offered a suite of tools to local merchants"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "pilot program",
+    "relation": "tools_designed_to",
+    "value": "enhance customer interactions through predictive modeling and analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to enhance customer interactions through predictive modeling and analytics"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "pilot program",
+    "relation": "tools_previously_accessible_to",
+    "value": "larger enterprises",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tools once only accessible to larger enterprises"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Meadowville Chamber of Commerce",
+    "relation": "co_sponsored",
+    "value": "pilot program",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a pilot program co-sponsored by the Meadowville Chamber of Commerce"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "InnoRetail Ai",
+    "relation": "co_sponsored",
+    "value": "pilot program",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "a pilot program co-sponsored by the Meadowville Chamber of Commerce and a tech startup, InnoRetail Ai, kicked off"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "local retailers",
+    "relation": "offer",
+    "value": "a different kind of value",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Though smaller in data scale, these local shops offer a different kind of value"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Jim Chen",
+    "relation": "is_ceo_of",
+    "value": "InnoRetail Ai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jim Chen, CEO of InnoRetail Ai"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Jim Chen",
+    "relation": "said",
+    "value": "local retailers have the unique advantage of personal touch",
+    "time": null,
+    "speaker": "Jim Chen",
+    "verbatim": [
+     "Local retailers have the unique advantage of personal touch\u2014something that a shopping algorithm cannot generate independently."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Jim Chen",
+    "relation": "said",
+    "value": "something that a shopping algorithm cannot generate independently",
+    "time": null,
+    "speaker": "Jim Chen",
+    "verbatim": [
+     "Local retailers have the unique advantage of personal touch\u2014something that a shopping algorithm cannot generate independently."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Jim Chen",
+    "relation": "role",
+    "value": "to amplify that personal touch with data insights that local shops can act on",
+    "time": null,
+    "speaker": "Jim Chen",
+    "verbatim": [
+     "Our role is to amplify that personal touch with data insights that local shops can act on."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local retailers",
+    "relation": "have_edge_in",
+    "value": "the human connection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "At the heart of every local community is the human connection, and that's where local stores have the edge."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Maria Gonzalez",
+    "relation": "occupation",
+    "value": "local bookstore owner in Meadowville",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, a local bookstore owner in Meadowville"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Maria Gonzalez",
+    "relation": "uses",
+    "value": "personalization tools",
+    "time": "Since the beginning of November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the beginning of November 2023, she has used personalization tools"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Maria Gonzalez",
+    "relation": "purpose_of_tools",
+    "value": "to augment her knowledge of her customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "not to replace, but to augment her knowledge of her customers"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Maria Gonzalez",
+    "relation": "said",
+    "value": "I know most of my regulars by name",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "I know most of my regulars by name"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Maria Gonzalez",
+    "relation": "said",
+    "value": "The algorithm helps me remember specific titles that a customer might enjoy based on their past picks",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "The algorithm helps me remember specific titles that a customer might enjoy based on their past picks"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Maria Gonzalez",
+    "relation": "said",
+    "value": "It's the combination of human intuition and technology that keeps them coming back",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "It's the combination of human intuition and technology that keeps them coming back"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "local retailers",
+    "relation": "final_touch_from",
+    "value": "personal judgment and relationship a local retailer has with its customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the final touch comes down to the personal judgment and relationship a local retailer has with its customers"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "personalization algorithms",
+    "relation": "cannot_mimic",
+    "value": "the smile of a familiar face",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "No AI can mimic the smile of a familiar face"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "personalization algorithms",
+    "relation": "cannot_mimic",
+    "value": "the insight of a shopkeeper who knows a customer's preferences as well as they know their own inventory",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the insight of a shopkeeper who knows a customer's preferences as well as they know their own inventory"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Sarah Jennings",
+    "relation": "works_with",
+    "value": "personalization algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local shopkeepers like Sarah and Maria work in tandem with personalization algorithms"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Maria Gonzalez",
+    "relation": "works_with",
+    "value": "personalization algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local shopkeepers like Sarah and Maria work in tandem with personalization algorithms"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "personalization algorithms",
+    "relation": "used_as",
+    "value": "a springboard for deeper, more meaningful customer engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "using them as a springboard for deeper, more meaningful customer engagement"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "local retailers",
+    "relation": "goal",
+    "value": "nurturing a loyal customer base by making each individual feel uniquely understood and valued",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's about nurturing a loyal customer base by making each individual feel uniquely understood and valued"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "privacy",
+    "relation": "described_as",
+    "value": "one pressing concern",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One pressing concern is privacy."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "privacy",
+    "relation": "customer_wariness",
+    "value": "Customers are increasingly wary of how their data is collected and used",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Customers are increasingly wary of how their data is collected and used"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "local retailers",
+    "relation": "takes_approach",
+    "value": "a more transparent approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local retailers, cognizant of these apprehensions, often take a more transparent approach"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "local retailers",
+    "relation": "requests",
+    "value": "explicit consent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "requesting explicit consent"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "local retailers",
+    "relation": "explains",
+    "value": "the benefits of data sharing in building a more tailored shopping experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explaining the benefits of data sharing in building a more tailored shopping experience"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "local retailers",
+    "relation": "in_response_to",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Customers are increasingly wary of how their data is collected and used.",
+     "Local retailers, cognizant of these apprehensions, often take a more transparent approach"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "local retailers",
+    "relation": "must",
+    "value": "keep their strategies agile and their tools up to date",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local retailers must keep their strategies agile and their tools up to date"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "local retailers",
+    "relation": "requires",
+    "value": "investments not only in technology but also in employee training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This requires investments not only in technology but also in employee training"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "holiday season",
+    "relation": "approaches",
+    "value": "approaching",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the holiday season approaches"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "local retailers",
+    "relation": "prepare_to_welcome",
+    "value": "a surge of shoppers",
+    "time": "As the holiday season approaches",
+    "speaker": null,
+    "verbatim": [
+     "local retailers prepare to welcome a surge of shoppers"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "personalization algorithms",
+    "relation": "impact_expected",
+    "value": "to become even more pronounced",
+    "time": "As the holiday season approaches",
+    "speaker": null,
+    "verbatim": [
+     "the impact of personalization algorithms is expected to become even more pronounced"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Sarah Jennings",
+    "relation": "optimistic_that",
+    "value": "will not only increase sales but also create a sense of belonging and community amongst their customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retailers like Sarah and Maria are optimistic that their new-and-improved shopping experiences will not only increase sales but also create a sense of belonging and community amongst their customers"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Maria Gonzalez",
+    "relation": "optimistic_that",
+    "value": "will not only increase sales but also create a sense of belonging and community amongst their customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Retailers like Sarah and Maria are optimistic that their new-and-improved shopping experiences will not only increase sales but also create a sense of belonging and community amongst their customers"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "personalization algorithms",
+    "relation": "goal",
+    "value": "to use technology to enhance rather than replace the uniquely personal feel of shopping local",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the goal is clear: to use technology to enhance rather than replace the uniquely personal feel of shopping local"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "personalization algorithms",
+    "relation": "narrative_status",
+    "value": "still evolving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The narrative of personalization in local retail is still evolving"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

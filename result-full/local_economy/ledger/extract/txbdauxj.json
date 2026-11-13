@@ -1,0 +1,781 @@
+{
+ "inventory": [
+  "James Harrington",
+  "Mary Willows",
+  "The Pruned Rose",
+  "Jason Cartwright",
+  "Laura",
+  "Cartwright Creations",
+  "Sophia Alvarez",
+  "Essentials By Sophia",
+  "Alex Chen",
+  "Bean There, Done That",
+  "Instagram",
+  "Twitter",
+  "Ellie Thompson",
+  "Marcus Lee",
+  "TechTonic Solutions",
+  "Marketplace Collective",
+  "Nina Patel",
+  "Thomas Krieger",
+  "Kickstarter",
+  "Maria Lopez",
+  "La Tienda",
+  "Erika Johnson",
+  "Internet",
+  "global pandemic"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "James Harrington",
+    "relation": "described_as",
+    "value": "Octogenarian",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Octogenarian James Harrington recalls the era fondly."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "James Harrington",
+    "relation": "stated",
+    "value": "the shop was our home, and the customers were our neighbors",
+    "time": "September 15, 2023",
+    "speaker": "James Harrington",
+    "verbatim": [
+     "\u201cBack in my father\u2019s day, the shop was our home, and the customers were our neighbors. We survived on the quality of our goods and the trust we built,\u201d he shared on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "The Pruned Rose",
+    "relation": "is_a",
+    "value": "small salon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small salon that opened its doors in October 1986"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "The Pruned Rose",
+    "relation": "opened_in",
+    "value": "October 1986",
+    "time": "October 1986",
+    "speaker": null,
+    "verbatim": [
+     "a small salon that opened its doors in October 1986"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Mary Willows",
+    "relation": "owner_of",
+    "value": "The Pruned Rose",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses like Mary Willows\u2019 \"The Pruned Rose\""
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Mary Willows",
+    "relation": "salon_status",
+    "value": "still stands today, albeit renovated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mary, whose salon still stands today, albeit renovated, spoke of her initial challenges."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mary Willows",
+    "relation": "stated",
+    "value": "It was tough, getting people through the door.",
+    "time": "September 11, 2023",
+    "speaker": "Mary Willows",
+    "verbatim": [
+     "\u201cIt was tough, getting people through the door. But once they came, we made sure they left happier, more confident. That\u2019s how we built loyalty,\u201d she stated on September 11, 2023."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Mary Willows",
+    "relation": "made_customers_leave",
+    "value": "happier, more confident",
+    "time": null,
+    "speaker": "Mary Willows",
+    "verbatim": [
+     "we made sure they left happier, more confident."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mary Willows",
+    "relation": "built",
+    "value": "loyalty",
+    "time": null,
+    "speaker": "Mary Willows",
+    "verbatim": [
+     "That\u2019s how we built loyalty"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mary Willows",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": "Mary Willows",
+    "verbatim": [
+     "we made sure they left happier, more confident. That\u2019s how we built loyalty"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jason Cartwright",
+    "relation": "co_founded",
+    "value": "Cartwright Creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jason Cartwright and his sister Laura, who co-founded \"Cartwright Creations\", an early e-commerce site selling handmade crafts"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Laura",
+    "relation": "co_founded",
+    "value": "Cartwright Creations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jason Cartwright and his sister Laura, who co-founded \"Cartwright Creations\", an early e-commerce site selling handmade crafts"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Laura",
+    "relation": "sister_of",
+    "value": "Jason Cartwright",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jason Cartwright and his sister Laura"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cartwright Creations",
+    "relation": "is_a",
+    "value": "an early e-commerce site",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an early e-commerce site selling handmade crafts"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cartwright Creations",
+    "relation": "sells",
+    "value": "handmade crafts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an early e-commerce site selling handmade crafts"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Jason Cartwright",
+    "relation": "described_as",
+    "value": "pioneers in bringing our town\u2019s local market to the world stage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "were pioneers in bringing our town\u2019s local market to the world stage"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Cartwright Creations",
+    "relation": "started_in",
+    "value": "2003",
+    "time": "2003",
+    "speaker": "Jason Cartwright",
+    "verbatim": [
+     "When we started in 2003, e-commerce was a wild west."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Jason Cartwright",
+    "relation": "stated",
+    "value": "e-commerce was a wild west",
+    "time": "2003",
+    "speaker": "Jason Cartwright",
+    "verbatim": [
+     "When we started in 2003, e-commerce was a wild west."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Jason Cartwright",
+    "relation": "recounted_in_interview_on",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": "Jason Cartwright",
+    "verbatim": [
+     "Jason recounted during an interview on September 20, 2023."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sophia Alvarez",
+    "relation": "launched",
+    "value": "Essentials By Sophia",
+    "time": "October 1, 2019",
+    "speaker": null,
+    "verbatim": [
+     "Sophia Alvarez launched \"Essentials By Sophia\", a line of eco-friendly home products, on October 1, 2019."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Essentials By Sophia",
+    "relation": "launched_by",
+    "value": "Sophia Alvarez",
+    "time": "October 1, 2019",
+    "speaker": null,
+    "verbatim": [
+     "Sophia Alvarez launched \"Essentials By Sophia\", a line of eco-friendly home products, on October 1, 2019."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Essentials By Sophia",
+    "relation": "launched_on",
+    "value": "October 1, 2019",
+    "time": "October 1, 2019",
+    "speaker": null,
+    "verbatim": [
+     "Sophia Alvarez launched \"Essentials By Sophia\", a line of eco-friendly home products, on October 1, 2019."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Essentials By Sophia",
+    "relation": "is_a",
+    "value": "a line of eco-friendly home products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia Alvarez launched \"Essentials By Sophia\", a line of eco-friendly home products, on October 1, 2019."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Essentials By Sophia",
+    "relation": "faced_competition_from",
+    "value": "established online giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her brand faced stiff competition, not from the local market, but from established online giants."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sophia Alvarez",
+    "relation": "stated",
+    "value": "We had to find our niche",
+    "time": "September 30, 2023",
+    "speaker": "Sophia Alvarez",
+    "verbatim": [
+     "On September 30, 2023, Sophia reflected, \u201cWe had to find our niche."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Essentials By Sophia",
+    "relation": "sold",
+    "value": "our local story, our commitment to sustainability, and our community focus",
+    "time": "September 30, 2023",
+    "speaker": "Sophia Alvarez",
+    "verbatim": [
+     "we sold our local story, our commitment to sustainability, and our community focus."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alex Chen",
+    "relation": "owns",
+    "value": "Bean There, Done That",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Chen, whose artisanal coffee shop \"Bean There, Done That\" opens to lines of customers every morning"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Bean There, Done That",
+    "relation": "is_a",
+    "value": "artisanal coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose artisanal coffee shop \"Bean There, Done That\""
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Bean There, Done That",
+    "relation": "opens_to",
+    "value": "lines of customers every morning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opens to lines of customers every morning"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alex Chen",
+    "relation": "uses_platform",
+    "value": "Instagram",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harnesses the power of platforms like Instagram and Twitter to engage with his clientele."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alex Chen",
+    "relation": "uses_platform",
+    "value": "Twitter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "harnesses the power of platforms like Instagram and Twitter to engage with his clientele."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Alex Chen",
+    "relation": "stated",
+    "value": "I think of my social media as the modern-day version of the community bulletin board",
+    "time": "October 5, 2023",
+    "speaker": "Alex Chen",
+    "verbatim": [
+     "\u201cI think of my social media as the modern-day version of the community bulletin board."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Alex Chen",
+    "relation": "announces",
+    "value": "new blends, local events, and conversations about the future of coffee",
+    "time": "October 5, 2023",
+    "speaker": "Alex Chen",
+    "verbatim": [
+     "We announce new blends, we celebrate local events, and we even have conversations about the future of coffee"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Alex Chen",
+    "relation": "explained_on",
+    "value": "October 5, 2023",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Alex explained on October 5, 2023."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "global pandemic",
+    "relation": "outbreak_in",
+    "value": "2020",
+    "time": "2020",
+    "speaker": null,
+    "verbatim": [
+     "the outbreak of a global pandemic in 2020"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "global pandemic",
+    "relation": "effect",
+    "value": "Traditional business models were turned on their heads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional business models were turned on their heads as main street shops temporarily shuttered and the noise of daily commerce hushed."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "global pandemic",
+    "relation": "effect",
+    "value": "main street shops temporarily shuttered",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional business models were turned on their heads as main street shops temporarily shuttered and the noise of daily commerce hushed."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Ellie Thompson",
+    "relation": "stated",
+    "value": "It was survival mode",
+    "time": null,
+    "speaker": "Ellie Thompson",
+    "verbatim": [
+     "\u201cIt was survival mode,\u201d confessed restaurant owner Ellie Thompson"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Ellie Thompson",
+    "relation": "is_a",
+    "value": "restaurant owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "confessed restaurant owner Ellie Thompson"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Ellie Thompson",
+    "relation": "owns",
+    "value": "family-run eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family-run eatery faced an uncertain future."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Ellie Thompson",
+    "relation": "eatery_faced",
+    "value": "an uncertain future",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose family-run eatery faced an uncertain future."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Ellie Thompson",
+    "relation": "adapted_through",
+    "value": "creative solutions like meal kits and virtual cooking classes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through creative solutions like meal kits and virtual cooking classes, they adapted."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Ellie Thompson",
+    "relation": "reopened_doors_to",
+    "value": "a community eager to support them",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they were able to reopen their doors to a community eager to support them."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Ellie Thompson",
+    "relation": "results_in",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ellie\u2019s perseverance paid off, and they were able to reopen their doors"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "TechTonic Solutions",
+    "relation": "is_a",
+    "value": "innovative startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovative startups like Marcus Lee\u2019s \"TechTonic Solutions\""
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "TechTonic Solutions",
+    "relation": "owned_by",
+    "value": "Marcus Lee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovative startups like Marcus Lee\u2019s \"TechTonic Solutions\""
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "TechTonic Solutions",
+    "relation": "specializes_in",
+    "value": "renewable energy products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which specializes in renewable energy products"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Marcus Lee",
+    "relation": "emphasized",
+    "value": "There\u2019s no going back to old ways",
+    "time": "October 10, 2023",
+    "speaker": "Marcus Lee",
+    "verbatim": [
+     "\u201cThere\u2019s no going back to old ways."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Marcus Lee",
+    "relation": "stated",
+    "value": "We have to think about our impact, make alliances, and leverage technology to ensure we\u2019re setting up sustainable foundations",
+    "time": "October 10, 2023",
+    "speaker": "Marcus Lee",
+    "verbatim": [
+     "We have to think about our impact, make alliances, and leverage technology to ensure we\u2019re setting up sustainable foundations,"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Marketplace Collective",
+    "relation": "founded_by",
+    "value": "a group of local artists and makers",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "founded by a group of local artists and makers in March 2024"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Marketplace Collective",
+    "relation": "founded_in",
+    "value": "March 2024",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "founded by a group of local artists and makers in March 2024"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Marketplace Collective",
+    "relation": "hosts",
+    "value": "a buzzing hive of creative collaboration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosts a buzzing hive of creative collaboration."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Nina Patel",
+    "relation": "stated",
+    "value": "It\u2019s more than a space; it\u2019s a support system",
+    "time": "September 25, 2023",
+    "speaker": "Nina Patel",
+    "verbatim": [
+     "\u201cIt\u2019s more than a space; it\u2019s a support system,\u201d stated co-founder and ceramic artist Nina Patel on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Nina Patel",
+    "relation": "is_a",
+    "value": "co-founder and ceramic artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stated co-founder and ceramic artist Nina Patel on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Nina Patel",
+    "relation": "co_founder_of",
+    "value": "Marketplace Collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stated co-founder and ceramic artist Nina Patel"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Thomas Krieger",
+    "relation": "is_a",
+    "value": "financial advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Financial advisor Thomas Krieger, who works closely with start-ups"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Thomas Krieger",
+    "relation": "works_with",
+    "value": "start-ups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Financial advisor Thomas Krieger, who works closely with start-ups"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Thomas Krieger",
+    "relation": "stressed",
+    "value": "the importance of innovative funding strategies",
+    "time": "September 14, 2023",
+    "speaker": "Thomas Krieger",
+    "verbatim": [
+     "stressed the importance of innovative funding strategies in a workshop on September 14, 2023."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Thomas Krieger",
+    "relation": "stated",
+    "value": "Diversifying your funding sources is key",
+    "time": null,
+    "speaker": "Thomas Krieger",
+    "verbatim": [
+     "\u201cDiversifying your funding sources is key."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Kickstarter",
+    "relation": "mentioned_as_funding_option",
+    "value": "campaigns",
+    "time": null,
+    "speaker": "Thomas Krieger",
+    "verbatim": [
+     "From Kickstarter campaigns to local investment pools, the options are growing,\u201d he advised."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "La Tienda",
+    "relation": "is_a",
+    "value": "family-owned grocery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Lopez\u2019s family-owned grocery, \"La Tienda\""
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "La Tienda",
+    "relation": "owned_by",
+    "value": "Maria Lopez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Lopez\u2019s family-owned grocery, \"La Tienda\""
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "La Tienda",
+    "relation": "brings",
+    "value": "authentic flavors from her Mexican heritage to the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings authentic flavors from her Mexican heritage to the community"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Maria Lopez",
+    "relation": "heritage",
+    "value": "Mexican",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from her Mexican heritage"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Maria Lopez",
+    "relation": "stated",
+    "value": "It's about sharing a part of who we are.",
+    "time": "September 21, 2023",
+    "speaker": "Maria Lopez",
+    "verbatim": [
+     "During a cultural fair on September 21, 2023, Maria said, \u201cIt\u2019s not just about bringing something unique to the market. It's about sharing a part of who we are.\u201d"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Erika Johnson",
+    "relation": "took_over",
+    "value": "her father\u2019s bookstore",
+    "time": "July 2025",
+    "speaker": null,
+    "verbatim": [
+     "Erika Johnson, who took over her father\u2019s bookstore in July 2025, exemplifies this transition."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Erika Johnson",
+    "relation": "stated",
+    "value": "There\u2019s a huge responsibility in carrying forward a legacy while also making sure it evolves with the times",
+    "time": "September 10, 2023",
+    "speaker": "Erika Johnson",
+    "verbatim": [
+     "\u201cThere\u2019s a huge responsibility in carrying forward a legacy while also making sure it evolves with the times,\u201d Erika mentioned at a local business forum on September 10, 2023."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Internet",
+    "relation": "described_as",
+    "value": "digital gold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the promise of digital gold\u2014the Internet"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

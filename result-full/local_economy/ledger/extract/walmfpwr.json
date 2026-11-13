@@ -1,0 +1,601 @@
+{
+ "inventory": [
+  "Emily Zhang",
+  "Martin O'Reilly",
+  "Jasmine Patel",
+  "Mike Thomson",
+  "Karen Liu",
+  "Andrei Vasilescu",
+  "Samantha Greene",
+  "Small Business Association",
+  "Amazon",
+  "Alibaba",
+  "Urban Development Bill",
+  "COVID-19 pandemic",
+  "Facebook",
+  "digital marketing",
+  "Search Engine Optimization (SEO)",
+  "small businesses",
+  "larger corporations",
+  "online retailers",
+  "customer loyalty programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small Business Association",
+    "relation": "released_report",
+    "value": "report on a continued upsurge in the challenges faced by these entities",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a report released by the Small Business Association on October 3, 2023, indicate a continued upsurge in the challenges faced by these entities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Emily Zhang",
+    "relation": "occupation",
+    "value": "local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local business owner Emily Zhang"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Emily Zhang",
+    "relation": "stated",
+    "value": "We've had to completely rethink our business model",
+    "time": "October 15",
+    "speaker": "Emily Zhang",
+    "verbatim": [
+     "We've had to completely rethink our business model."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Urban Development Bill",
+    "relation": "proposed_on",
+    "value": "September 20, 2023",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the Urban Development Bill proposed on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Urban Development Bill",
+    "relation": "seen_as_benefiting",
+    "value": "major retailers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which was seen to unduly benefit major retailers at the expense of small business interests"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Martin O'Reilly",
+    "relation": "occupation",
+    "value": "policy analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin O'Reilly, a policy analyst"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Martin O'Reilly",
+    "relation": "stated",
+    "value": "danger of legislation being skewed by the interests of the few",
+    "time": null,
+    "speaker": "Martin O'Reilly",
+    "verbatim": [
+     "There's an ever-present danger of legislation being skewed by the interests of the few who have the most significant economic clout."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "COVID-19 pandemic",
+    "relation": "changed_shopping_behaviors",
+    "value": "shopping behaviors",
+    "time": "previous years",
+    "speaker": null,
+    "verbatim": [
+     "The COVID-19 pandemic, which swept the globe in previous years, irrevocably changed shopping behaviors"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "COVID-19 pandemic",
+    "relation": "catapulted_consumers_towards",
+    "value": "the convenience of digital marketplaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "catapulting consumers towards the convenience of digital marketplaces"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Amazon",
+    "relation": "set_standard_for",
+    "value": "convenience and price",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies such as Amazon and Alibaba have set the standard for convenience and price"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Alibaba",
+    "relation": "set_standard_for",
+    "value": "convenience and price",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies such as Amazon and Alibaba have set the standard for convenience and price"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jasmine Patel",
+    "relation": "occupation",
+    "value": "digital marketing analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "digital marketing analyst Jasmine Patel"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Jasmine Patel",
+    "relation": "conducted_study",
+    "value": "study",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "following her study conducted in late September 2023"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Jasmine Patel",
+    "relation": "stated",
+    "value": "The shift to online shopping was already happening, but the pandemic turbocharged that trend",
+    "time": null,
+    "speaker": "Jasmine Patel",
+    "verbatim": [
+     "The shift to online shopping was already happening, but the pandemic turbocharged that trend,"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "small businesses",
+    "relation": "must_build",
+    "value": "an online presence from scratch",
+    "time": null,
+    "speaker": "Jasmine Patel",
+    "verbatim": [
+     "Small businesses now have to build an online presence from scratch"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mike Thomson",
+    "relation": "occupation",
+    "value": "runs a local craft brewery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Thomson, who runs a local craft brewery"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mike Thomson",
+    "relation": "leveraged",
+    "value": "targeted Facebook ads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraged targeted Facebook ads to reach beer enthusiasts in his region"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mike Thomson",
+    "relation": "sales_uptick",
+    "value": "40% uptick in sales",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "seeing a 40% uptick in sales since initiating the campaign on September 25, 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mike Thomson",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "verbatim": [
+     "leveraged targeted Facebook ads to reach beer enthusiasts in his region, seeing a 40% uptick in sales"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Facebook",
+    "relation": "used_for",
+    "value": "targeted ads",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraged targeted Facebook ads"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Karen Liu",
+    "relation": "occupation",
+    "value": "small business consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Karen Liu, a small business consultant"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Karen Liu",
+    "relation": "advises",
+    "value": "integrate digital marketing into the very fabric of their business plan",
+    "time": null,
+    "speaker": "Karen Liu",
+    "verbatim": [
+     "integrate digital marketing into the very fabric of their business plan."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "digital marketing",
+    "relation": "described_as",
+    "value": "a continuous process that evolves with market trends and consumer behaviors",
+    "time": null,
+    "speaker": "Karen Liu",
+    "verbatim": [
+     "It's not a one-off project but a continuous process that evolves with market trends and consumer behaviors."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "digital marketing",
+    "relation": "described_as",
+    "value": "an indispensable tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many small businesses are turning to digital marketing as an indispensable tool in their arsenal"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "digital marketing",
+    "relation": "can_level",
+    "value": "the playing field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Effective digital marketing can level the playing field"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "digital marketing",
+    "relation": "enables",
+    "value": "smaller enterprises to punch above their weight and reach customers far beyond their geographic confines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing smaller enterprises to punch above their weight and reach customers far beyond their geographic confines"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Search Engine Optimization (SEO)",
+    "relation": "named_among_strategies",
+    "value": "one of the strategies businesses are employing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media advertising, email marketing, and Search Engine Optimization (SEO) are just a few of the strategies that businesses are employing."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "digital marketing",
+    "relation": "offers",
+    "value": "an unprecedented level of analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Today's digital marketing tools offer an unprecedented level of analytics"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "digital marketing",
+    "relation": "enables",
+    "value": "informed decisions based on real-time data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enabling small businesses to make informed decisions based on real-time data"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Andrei Vasilescu",
+    "relation": "occupation",
+    "value": "local boutique owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local boutique owner Andrei Vasilescu's"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Andrei Vasilescu",
+    "relation": "analyzed",
+    "value": "online sales data from the last quarter of 2023",
+    "time": "last quarter of 2023",
+    "speaker": "Andrei Vasilescu",
+    "verbatim": [
+     "By analyzing our online sales data from the last quarter of 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Andrei Vasilescu",
+    "relation": "identified_and_stocked",
+    "value": "best-selling items",
+    "time": null,
+    "speaker": "Andrei Vasilescu",
+    "verbatim": [
+     "we were able to identify and subsequently stock up on our best-selling items"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Andrei Vasilescu",
+    "relation": "stated_improvement",
+    "value": "customer retention rates significantly improved",
+    "time": null,
+    "speaker": "Andrei Vasilescu",
+    "verbatim": [
+     "which significantly improved our customer retention rates"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Andrei Vasilescu",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "verbatim": [
+     "introduce personalized marketing, which significantly improved our customer retention rates"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Andrei Vasilescu",
+    "relation": "enables",
+    "value_ref": "c32",
+    "verbatim": [
+     "By analyzing our online sales data from the last quarter of 2023, we were able to identify"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "small businesses",
+    "relation": "supported_by_consumers",
+    "value": "70% of consumers prefer to support local businesses",
+    "time": "November 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "A survey conducted on November 10, 2023, by local market researchers revealed that while 70% of consumers prefer to support local businesses"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "small businesses",
+    "relation": "consumer_convenience_and_price_influence",
+    "value": "convenience and price still significantly influence purchasing decisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "convenience and price still significantly influence their purchasing decisions"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Samantha Greene",
+    "relation": "transformed",
+    "value": "her family-owned bookstore into a hybrid of in-person and virtual book clubs",
+    "time": "amid the pandemic",
+    "speaker": null,
+    "verbatim": [
+     "Samantha Greene, who transformed her family-owned bookstore into a hybrid of in-person and virtual book clubs amid the pandemic"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Samantha Greene",
+    "relation": "interview_date",
+    "value": "September 12, 2023",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Greene shared in an interview on September 12, 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Samantha Greene",
+    "relation": "stated",
+    "value": "Our physical storefront was always our mainstay",
+    "time": "September 12, 2023",
+    "speaker": "Samantha Greene",
+    "verbatim": [
+     "Our physical storefront was always our mainstay, but we quickly realized that to survive, we couldn't rely on foot traffic alone"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Samantha Greene",
+    "relation": "offered",
+    "value": "virtual events and personalized book recommendations online",
+    "time": null,
+    "speaker": "Samantha Greene",
+    "verbatim": [
+     "By offering virtual events and personalized book recommendations online"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Samantha Greene",
+    "relation": "managed",
+    "value": "to not just survive but thrive in this new reality",
+    "time": null,
+    "speaker": "Samantha Greene",
+    "verbatim": [
+     "we managed to not just survive but thrive in this new reality."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Samantha Greene",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "verbatim": [
+     "By offering virtual events and personalized book recommendations online, we managed to not just survive but thrive in this new reality."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "larger corporations",
+    "relation": "brings",
+    "value": "jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "On the one hand, they bring jobs and may stimulate local infrastructure development."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "larger corporations",
+    "relation": "wields",
+    "value": "massive purchasing power",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corporations wield massive purchasing power"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "larger corporations",
+    "relation": "enables",
+    "value": "lower prices and more extensive marketing campaigns that small businesses simply cannot match",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing for lower prices and more extensive marketing campaigns that small businesses simply cannot match"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "larger corporations",
+    "relation": "enables",
+    "value_ref": "c45",
+    "verbatim": [
+     "Corporations wield massive purchasing power, allowing for lower prices"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "larger corporations",
+    "relation": "can_lead_to",
+    "value": "policies that favor economies of scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their influence in the legislative arena can lead to policies that favor economies of scale"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "larger corporations",
+    "relation": "launches",
+    "value": "extensive loyalty programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Larger corporations often have the resources to launch extensive loyalty programs"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "customer loyalty programs",
+    "relation": "offers",
+    "value": "discounts and benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering discounts and benefits that smaller businesses struggle to match"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "online retailers",
+    "relation": "competes_with",
+    "value": "small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they face stiff competition from larger corporations and online retailers"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "small businesses",
+    "relation": "faces",
+    "value": "a David versus Goliath struggle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses increasingly find themselves embroiled in a David versus Goliath struggle"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "small businesses",
+    "relation": "must_be",
+    "value": "nimble",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses must be nimble"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

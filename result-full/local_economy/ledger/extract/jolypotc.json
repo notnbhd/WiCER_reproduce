@@ -1,0 +1,620 @@
+{
+ "inventory": [
+  "Jane Smith",
+  "Smith's Sourdough",
+  "David Martinez",
+  "Martinez Handcrafted Furniture",
+  "Sophia Chen",
+  "The Green Corner",
+  "Mike Johnson",
+  "TechMedic",
+  "Alice Gomez",
+  "Farm-to-Table Eatery",
+  "Eric Tran",
+  "Laura Bell",
+  "Bell's Boutique",
+  "Tom Nguyen",
+  "Main Street",
+  "the digital divide",
+  "local sourcing"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Main Street",
+    "relation": "described_as",
+    "value": "a melting pot of business visions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the hustle of Main Street, we find a melting pot of business visions, each with its retail signs and service offerings."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jane Smith",
+    "relation": "interviewed_on",
+    "value": "September 10, 2023",
+    "time": "September 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 10, 2023, I sat down with Jane Smith, owner of Smith's Sourdough"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jane Smith",
+    "relation": "owner_of",
+    "value": "Smith's Sourdough",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Smith, owner of Smith's Sourdough"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Smith's Sourdough",
+    "relation": "is_a",
+    "value": "a local bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smith's Sourdough, a local bakery that has served the community for a decade"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Smith's Sourdough",
+    "relation": "served_community_for",
+    "value": "a decade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Smith's Sourdough, a local bakery that has served the community for a decade"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jane Smith",
+    "relation": "recounted",
+    "value": "the early days of her business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane recounted the early days of her business"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jane Smith",
+    "relation": "emphasized",
+    "value": "the benefits of being on a first-name basis with her customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasizing the benefits of being on a first-name basis with her customers"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jane Smith",
+    "relation": "said",
+    "value": "It's about the personal connection",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "\"It's about the personal connection,\" she explained."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jane Smith",
+    "relation": "said",
+    "value": "People come back because they know you, not just your products.",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "\"People come back because they know you, not just your products.\""
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jane Smith",
+    "relation": "identified_challenge",
+    "value": "the rising cost of ingredients and rent",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "Jane pointed to the rising cost of ingredients and rent as relentless challenges"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jane Smith",
+    "relation": "identified_challenge",
+    "value": "the difficulty in competing with the marketing budgets of national chains",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "as well as the difficulty in competing with the marketing budgets of national chains"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "David Martinez",
+    "relation": "operates",
+    "value": "Martinez Handcrafted Furniture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local entrepreneurs like David Martinez of Martinez Handcrafted Furniture"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "David Martinez",
+    "relation": "interviewed_on",
+    "value": "September 24, 2023",
+    "time": "September 24, 2023",
+    "speaker": null,
+    "verbatim": [
+     "David, in an interview on September 24, 2023, shared his experience."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "David Martinez",
+    "relation": "said",
+    "value": "I can't compete with big box stores on advertising spend",
+    "time": null,
+    "speaker": "David Martinez",
+    "verbatim": [
+     "\"I can't compete with big box stores on advertising spend,\" he admitted."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "David Martinez",
+    "relation": "said",
+    "value": "So I focus on word-of-mouth and crafting a narrative around my furniture that resonates locally.",
+    "time": null,
+    "speaker": "David Martinez",
+    "verbatim": [
+     "\"So I focus on word-of-mouth and crafting a narrative around my furniture that resonates locally.\""
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "David Martinez",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"I can't compete with big box stores on advertising spend,\" he admitted. \"So I focus on word-of-mouth"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sophia Chen",
+    "relation": "launched",
+    "value": "The Green Corner",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sophia Chen, who launched The Green Corner, a sustainable goods store, on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Green Corner",
+    "relation": "is_a",
+    "value": "a sustainable goods store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Green Corner, a sustainable goods store"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Green Corner",
+    "relation": "launched_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Green Corner, a sustainable goods store, on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sophia Chen",
+    "relation": "emphasized",
+    "value": "the role of creativity in managing financial constraints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasized the role of creativity in managing financial constraints"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sophia Chen",
+    "relation": "said",
+    "value": "Big companies can throw money at problems, but we have to think our way around them",
+    "time": null,
+    "speaker": "Sophia Chen",
+    "verbatim": [
+     "\"Big companies can throw money at problems, but we have to think our way around them,\" she said."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "The Green Corner",
+    "relation": "represents",
+    "value": "a new wave of local entrepreneurship that aligns closely with specific societal values",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sophia's enterprise represents a new wave of local entrepreneurship that aligns closely with specific societal values"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "The Green Corner",
+    "relation": "focuses_on",
+    "value": "sustainably-sourced products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By focusing on sustainably-sourced products and building a brand aligned with environmental consciousness"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "The Green Corner",
+    "relation": "taps_into",
+    "value": "a niche market segment that is both loyal and growing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she taps into a niche market segment that is both loyal and growing"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Mike Johnson",
+    "relation": "founded",
+    "value": "TechMedic",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mike Johnson, who founded TechMedic, a local electronics repair shop, in October 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "TechMedic",
+    "relation": "is_a",
+    "value": "a local electronics repair shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "TechMedic, a local electronics repair shop"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "TechMedic",
+    "relation": "founded_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Mike Johnson, who founded TechMedic, a local electronics repair shop, in October 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mike Johnson",
+    "relation": "explained",
+    "value": "how he leverages technology to stay ahead",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explained how he leverages technology to stay ahead."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mike Johnson",
+    "relation": "said",
+    "value": "We're on every possible social media platform, and we use digital tools for everything from booking appointments to inventory management",
+    "time": null,
+    "speaker": "Mike Johnson",
+    "verbatim": [
+     "\"We're on every possible social media platform, and we use digital tools for everything from booking appointments to inventory management,\" Mike shared."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mike Johnson",
+    "relation": "experience_highlights",
+    "value": "the steep learning curve and resource investment required",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also highlights the steep learning curve and resource investment required."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "the digital divide",
+    "relation": "affects",
+    "value": "local businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local businesses often grapple with the digital divide"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Alice Gomez",
+    "relation": "associated_with",
+    "value": "Farm-to-Table Eatery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alice Gomez of Farm-to-Table Eatery, which opened its doors on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Farm-to-Table Eatery",
+    "relation": "opened_on",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Alice Gomez of Farm-to-Table Eatery, which opened its doors on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Alice Gomez",
+    "relation": "emphasized",
+    "value": "the advantages and drawbacks of local sourcing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "emphasized the advantages and drawbacks of local sourcing."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Alice Gomez",
+    "relation": "said",
+    "value": "There's an unbeatable freshness to our ingredients because we source them locally",
+    "time": null,
+    "speaker": "Alice Gomez",
+    "verbatim": [
+     "\"There's an unbeatable freshness to our ingredients because we source them locally,\" Alice noted."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local sourcing",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "unbeatable freshness to our ingredients because we source them locally"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Alice Gomez",
+    "relation": "said",
+    "value": "But it's often a juggling act to ensure reliable supply without the expansive networks and purchasing power of larger global firms",
+    "time": null,
+    "speaker": "Alice Gomez",
+    "verbatim": [
+     "\"But it's often a juggling act to ensure reliable supply without the expansive networks and purchasing power of larger global firms.\""
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Alice Gomez",
+    "relation": "benefits_from",
+    "value": "the positive perception of locally-sourced products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While Alice benefits from the positive perception of locally-sourced products"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Alice Gomez",
+    "relation": "encounters",
+    "value": "the volatility and limitations inherent in a smaller, more localized supply chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she also encounters the volatility and limitations inherent in a smaller, more localized supply chain"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Eric Tran",
+    "relation": "runs",
+    "value": "a familyowned pharmacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eric Tran, who runs a familyowned pharmacy"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Eric Tran",
+    "relation": "interviewed_on",
+    "value": "December 5, 2023",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During our conversation on December 5, 2023, Eric Tran"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Eric Tran",
+    "relation": "conveyed",
+    "value": "the complications of navigating government regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "conveyed the complications of navigating government regulations."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Eric Tran",
+    "relation": "said",
+    "value": "As a small operation, it's tough to keep up with all the compliance requirements",
+    "time": null,
+    "speaker": "Eric Tran",
+    "verbatim": [
+     "\"As a small operation, it's tough to keep up with all the compliance requirements,\" Eric said."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Eric Tran",
+    "relation": "said",
+    "value": "It takes a significant portion of our time and resources, which could otherwise go into growing the business",
+    "time": null,
+    "speaker": "Eric Tran",
+    "verbatim": [
+     "\"It takes a significant portion of our time and resources, which could otherwise go into growing the business.\""
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Laura Bell",
+    "relation": "interviewed_on",
+    "value": "December 20, 2023",
+    "time": "December 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 20, 2023, I met with Laura Bell, founder of Bell's Boutique"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Laura Bell",
+    "relation": "founder_of",
+    "value": "Bell's Boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Bell, founder of Bell's Boutique"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Laura Bell",
+    "relation": "shared",
+    "value": "her financing journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who shared her financing journey"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Laura Bell",
+    "relation": "said",
+    "value": "Securing a business loan without the track record of a big corporation is a hurdle",
+    "time": null,
+    "speaker": "Laura Bell",
+    "verbatim": [
+     "\"Securing a business loan without the track record of a big corporation is a hurdle,\" Laura confirmed."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Laura Bell",
+    "relation": "said",
+    "value": "You have to get creative, from crowdfunding to community financing programs",
+    "time": null,
+    "speaker": "Laura Bell",
+    "verbatim": [
+     "\"You have to get creative, from crowdfunding to community financing programs.\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Tom Nguyen",
+    "relation": "operates",
+    "value": "a local bookshop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tom Nguyen, who operates a local bookshop established on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Tom Nguyen",
+    "relation": "bookshop_established_on",
+    "value": "September 22, 2023",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Tom Nguyen, who operates a local bookshop established on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Tom Nguyen",
+    "relation": "said",
+    "value": "We thrive on repeat business",
+    "time": null,
+    "speaker": "Tom Nguyen",
+    "verbatim": [
+     "\"We thrive on repeat business,\" Tom stated."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Tom Nguyen",
+    "relation": "said",
+    "value": "Our book recommendations, events, and the cozy atmosphere we've cultivated are all geared towards keeping our customers coming back",
+    "time": null,
+    "speaker": "Tom Nguyen",
+    "verbatim": [
+     "\"Our book recommendations, events, and the cozy atmosphere we've cultivated \u2013 they're all geared towards keeping our customers coming back."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Tom Nguyen",
+    "relation": "said",
+    "value": "It's how we hold our own against global online retailers",
+    "time": null,
+    "speaker": "Tom Nguyen",
+    "verbatim": [
+     "It's how we hold our own against global online retailers."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

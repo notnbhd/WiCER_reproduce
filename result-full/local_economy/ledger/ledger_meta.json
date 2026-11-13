@@ -1,0 +1,30 @@
+{
+  "topic": "local_economy",
+  "corpus_sha256": "92bf7e4fabd1003350cf80607d718a375467081460e86f8eb76c5bb542a5a022",
+  "n_documents": 214,
+  "n_claims": 14068,
+  "n_claims_before_merge": 14071,
+  "n_raw": 14076,
+  "n_rejected": 5,
+  "n_multispan": 111,
+  "n_relational": 634,
+  "rejection_rate": 0.0003552145495879511,
+  "n_contradictions": 170,
+  "inventory_size": 4919,
+  "n_canonical_entities": 4464,
+  "entity_collision_rate": 0.00022401433691756272,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "claude-haiku-5-5 effort=high": 134,
+    "anthropic/claude-haiku-5.5 effort=high": 80
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 268,
+    "input_tokens": 752816,
+    "output_tokens": 3194577,
+    "measured_cost_usd": 0.0
+  }
+}

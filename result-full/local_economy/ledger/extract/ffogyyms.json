@@ -1,0 +1,552 @@
+{
+ "inventory": [
+  "small businesses",
+  "local economy",
+  "Small Business Administration",
+  "Jillian Knox",
+  "Springfield",
+  "Benjamin Huerta",
+  "Phoenix",
+  "Susan Zhao",
+  "Shop Springfield First",
+  "chain store",
+  "Michael Anderson",
+  "Boulder",
+  "Linda Gregory",
+  "Rajiv Patel",
+  "microloan program",
+  "Springfield Entrepreneurs Collective",
+  "local governments",
+  "Green energy tax credits",
+  "mentorship programs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "small businesses",
+    "relation": "described_as",
+    "value": "the lifeblood of our communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these enterprises are indeed the lifeblood of our communities."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Small Business Administration",
+    "relation": "published_research",
+    "value": "firms with fewer than 100 employees have provided the bulk of job opportunities in the country",
+    "time": "September 5, 2023",
+    "speaker": "Small Business Administration",
+    "verbatim": [
+     "According to research published on September 5, 2023, by the Small Business Administration, firms with fewer than 100 employees have provided the bulk of job opportunities in the country"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small Business Administration",
+    "relation": "reports_share_of_new_jobs_created",
+    "value": "64%",
+    "time": "September 5, 2023",
+    "speaker": "Small Business Administration",
+    "verbatim": [
+     "accounting for a staggering 64% of new jobs created."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jillian Knox",
+    "relation": "is_a",
+    "value": "local grocer in Springfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jillian Knox, a local grocer in Springfield, shared,"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jillian Knox",
+    "relation": "employees_when_opened",
+    "value": "four employees",
+    "time": "last year",
+    "speaker": "Jillian Knox",
+    "verbatim": [
+     "When we opened our doors last year, we had four employees."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jillian Knox",
+    "relation": "employees_today",
+    "value": "20 individuals",
+    "time": null,
+    "speaker": "Jillian Knox",
+    "verbatim": [
+     "Today, we provide livelihoods for 20 individuals."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "small businesses",
+    "relation": "drive",
+    "value": "innovation and competition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Beyond employment, small businesses drive innovation and competition."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "small businesses",
+    "relation": "capability",
+    "value": "adapting quickly to market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are agile and capable of adapting quickly to market trends"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "small businesses",
+    "relation": "produce",
+    "value": "innovative products and services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which often results in innovative products and services."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "small businesses",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "verbatim": [
+     "adapting quickly to market trends, which often results in innovative products and services."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Benjamin Huerta",
+    "relation": "launched",
+    "value": "a range of biodegradable packaging materials",
+    "time": "October 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Benjamin Huerta, who on October 12, 2023, launched a range of biodegradable packaging materials from his small warehouse in Phoenix."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Benjamin Huerta",
+    "relation": "operates_warehouse_in",
+    "value": "Phoenix",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "from his small warehouse in Phoenix"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Benjamin Huerta",
+    "relation": "endeavor_caters_to",
+    "value": "the increasing demand for sustainable products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His endeavor caters to the increasing demand for sustainable products"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Benjamin Huerta",
+    "relation": "pushes_competitors_to",
+    "value": "consider eco-friendly alternatives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pushing larger competitors to consider eco-friendly alternatives."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "local economy",
+    "relation": "money_circulates_within",
+    "value": "the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Money spent at local businesses circulates within the community"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "local economy",
+    "relation": "retains_per_100_spent_locally",
+    "value": "$68",
+    "time": "November 2023",
+    "speaker": "Studies",
+    "verbatim": [
+     "Studies from November 2023 illustrate that for every $100 spent at a local business, approximately $68 stays in the local economy"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "chain store",
+    "relation": "retains_per_100_spent",
+    "value": "$43",
+    "time": "November 2023",
+    "speaker": "Studies",
+    "verbatim": [
+     "compared to only $43 when the same amount is spent at a chain store."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Susan Zhao",
+    "relation": "launched",
+    "value": "'Shop Springfield First'",
+    "time": "December 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Susan Zhao, who on December 10, 2023, launched an initiative called 'Shop Springfield First'."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Shop Springfield First",
+    "relation": "offers",
+    "value": "discounts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This campaign incentivizes residents to buy from local vendors by offering discounts"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Shop Springfield First",
+    "relation": "highlights",
+    "value": "the economic benefits of supporting local commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "highlighting the economic benefits of supporting local commerce."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Susan Zhao",
+    "relation": "stated",
+    "value": "When you shop locally, you're not just buying a product; you're investing in your community.",
+    "time": null,
+    "speaker": "Susan Zhao",
+    "verbatim": [
+     "When you shop locally, you're not just buying a product; you're investing in your community."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "small businesses",
+    "relation": "face",
+    "value": "significant barriers to entry and success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they face significant barriers to entry and success."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "small businesses",
+    "relation": "commonly_face",
+    "value": "High commercial rents, complex regulations, and limited access to capital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "High commercial rents, complex regulations, and limited access to capital are common challenges."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Michael Anderson",
+    "relation": "founded",
+    "value": "a tech startup in Boulder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Anderson, founder of a tech startup in Boulder, experienced this firsthand."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Michael Anderson",
+    "relation": "expressed_concerns_regarding",
+    "value": "the regulatory maze he had to navigate",
+    "time": "January 15, 2024",
+    "speaker": "Michael Anderson",
+    "verbatim": [
+     "On January 15, 2024, he expressed his concerns regarding the regulatory maze he had to navigate"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Anderson",
+    "relation": "stated",
+    "value": "It almost felt like the system was designed to discourage small entrepreneurs from getting off the ground.",
+    "time": "January 15, 2024",
+    "speaker": "Michael Anderson",
+    "verbatim": [
+     "It almost felt like the system was designed to discourage small entrepreneurs from getting off the ground."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "local governments",
+    "relation": "acknowledged",
+    "value": "the challenges facing small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The acknowledgment of these challenges by local governments has sparked a wave of policies aimed at supporting small businesses."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local governments",
+    "relation": "sparked",
+    "value": "a wave of policies aimed at supporting small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The acknowledgment of these challenges by local governments has sparked a wave of policies aimed at supporting small businesses."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "local governments",
+    "relation": "example_measures",
+    "value": "Tax incentives, simplified regulations, and access to affordable business education",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax incentives, simplified regulations, and access to affordable business education are examples of effective measures that can reduce barriers and foster success."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Linda Gregory",
+    "relation": "holds_office",
+    "value": "Mayor",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A recent policy introduced on February 20, 2024, by Mayor Linda Gregory"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Linda Gregory",
+    "relation": "introduced_policy",
+    "value": "a significant reduction in business license fees for startups in their first two years of operation",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "A recent policy introduced on February 20, 2024, by Mayor Linda Gregory, offers a significant reduction in business license fees for startups in their first two years of operation."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Linda Gregory",
+    "relation": "stated",
+    "value": "By reducing the initial costs, we're giving these fledgling businesses a chance to find their footing without the burden of hefty fees.",
+    "time": null,
+    "speaker": "Linda Gregory",
+    "verbatim": [
+     "By reducing the initial costs, we're giving these fledgling businesses a chance to find their footing without the burden of hefty fees."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Rajiv Patel",
+    "relation": "holds_office",
+    "value": "City Councilman",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "City Councilman Rajiv Patel, on March 3, 2024, spearheaded the creation of a microloan program for local businesses."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Rajiv Patel",
+    "relation": "spearheaded",
+    "value": "the creation of a microloan program for local businesses",
+    "time": "March 3, 2024",
+    "speaker": null,
+    "verbatim": [
+     "City Councilman Rajiv Patel, on March 3, 2024, spearheaded the creation of a microloan program for local businesses."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Rajiv Patel",
+    "relation": "in_order_to",
+    "value_ref": "c34",
+    "verbatim": [
+     "To address this gap, City Councilman Rajiv Patel, on March 3, 2024, spearheaded the creation of a microloan program for local businesses."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "microloan program",
+    "relation": "has_granted",
+    "value": "over $2 million in loans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This program has since granted over $2 million in loans"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "microloan program",
+    "relation": "provides",
+    "value": "businesses with the financial support needed to expand operations and create more jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing businesses with the financial support needed to expand operations and create more jobs."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Springfield Entrepreneurs Collective",
+    "relation": "established_on",
+    "value": "April 15, 2024",
+    "time": "April 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "established on April 15, 2024, which now hosts monthly gatherings"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Springfield Entrepreneurs Collective",
+    "relation": "hosts",
+    "value": "monthly gatherings allowing for the exchange of ideas, strategies, and solutions among local business owners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which now hosts monthly gatherings allowing for the exchange of ideas, strategies, and solutions among local business owners."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "mentorship programs",
+    "relation": "pair",
+    "value": "seasoned business owners with new entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes mentorship programs that pair seasoned business owners with new entrepreneurs"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local governments",
+    "relation": "can_recognize",
+    "value": "successful local businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local governments can cultivate an atmosphere that appreciates and champions entrepreneurship by recognizing successful local businesses"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "local governments",
+    "relation": "can_organize",
+    "value": "community awards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "organizing community awards, and sharing their stories."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green energy tax credits",
+    "relation": "aid_small_businesses_in_becoming",
+    "value": "economically viable and environmentally responsible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green energy tax credits and grants for sustainable innovations are ways in which local governments have been able to aid small businesses in becoming, not just economically viable, but also environmentally responsible."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local governments",
+    "relation": "aid_small_businesses_through",
+    "value": "Green energy tax credits and grants for sustainable innovations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green energy tax credits and grants for sustainable innovations are ways in which local governments have been able to aid small businesses in becoming, not just economically viable, but also environmentally responsible."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "small businesses",
+    "relation": "incentivized_to",
+    "value": "align with eco-friendly measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local policies that support sustainability practices not just incentivize small business owners to align with eco-friendly measures"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "small businesses",
+    "relation": "can_thrive_with",
+    "value": "continued support from consumers and effective policies from local governments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With continued support from consumers and effective policies from local governments, small businesses can thrive"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "small businesses",
+    "relation": "fuel",
+    "value": "local economies, creating jobs, and fostering a sense of community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fueling local economies, creating jobs, and fostering a sense of community."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "small businesses",
+    "relation": "navigate",
+    "value": "the uncertain waters of the global market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as these businesses navigate the uncertain waters of the global market."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

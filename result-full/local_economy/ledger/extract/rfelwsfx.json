@@ -1,0 +1,713 @@
+{
+ "inventory": [
+  "Sally Simpleton",
+  "Sally's Surprisingly Spicy Salsa",
+  "Mr. Pennypacker",
+  "The Money Tree",
+  "Bob Break-even",
+  "Bob's Break-even Bistro",
+  "Cash Flow Rapids",
+  "Harriet Highroller",
+  "Harriet's High-Stakes Hats",
+  "Joe Juggler",
+  "Bootstrapping",
+  "Lucy Ledger",
+  "Lucy's Handmade Widgets",
+  "Tom Trader",
+  "Barter Town",
+  "Crowdfunding",
+  "Wendy Wishes",
+  "Wendy's Wondrous Widgets",
+  "Penny pinching",
+  "Nicky Nickel-andDime",
+  "Summer Olympics",
+  "Cash flow"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Cash flow",
+    "relation": "is_king",
+    "value": "king",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where every penny is a prisoner and cash flow is king"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sally Simpleton",
+    "relation": "owner_of",
+    "value": "Sally\u2019s Surprisingly Spicy Salsa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sally Simpleton, owner of Sally\u2019s Surprisingly Spicy Salsa"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sally Simpleton",
+    "relation": "realized",
+    "value": "expansion was imperative",
+    "time": "a bright September morning",
+    "speaker": null,
+    "verbatim": [
+     "awoke to a revelation: expansion was imperative"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sally Simpleton",
+    "relation": "had_pockets_containing",
+    "value": "little more than fairy dust and expired coupons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her pockets jingled with little more than fairy dust and expired coupons"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sally Simpleton",
+    "relation": "sought_out",
+    "value": "Mr. Pennypacker",
+    "time": "on the 3rd of September",
+    "speaker": null,
+    "verbatim": [
+     "Sally sought out her friendly neighborhood banker, Mr. Pennypacker, on the 3rd of September"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sally Simpleton",
+    "relation": "dreams_larger_than",
+    "value": "her savings account",
+    "time": "on the 3rd of September",
+    "speaker": null,
+    "verbatim": [
+     "with dreams larger than her savings account"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Mr. Pennypacker",
+    "relation": "is_a",
+    "value": "friendly neighborhood banker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her friendly neighborhood banker, Mr. Pennypacker"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sally Simpleton",
+    "relation": "pitch_was",
+    "value": "as fiery as her salsa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sally's pitch was as fiery as her salsa"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Mr. Pennypacker",
+    "relation": "response_was",
+    "value": "colder than a penguin\u2019s picnic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the banker\u2019s response was colder than a penguin\u2019s picnic"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "The Money Tree",
+    "relation": "bears_fruit_only_for",
+    "value": "those with golden gloves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Money Tree, it seems, only bears fruit for those with golden gloves."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mr. Pennypacker",
+    "relation": "proclaimed",
+    "value": "Risk assessment!",
+    "time": null,
+    "speaker": "Mr. Pennypacker",
+    "verbatim": [
+     "\u201cRisk assessment!\u201d proclaimed Mr. Pennypacker"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mr. Pennypacker",
+    "relation": "tone_reminiscent_of",
+    "value": "a doomsday prophet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in a tone reminiscent of a doomsday prophet"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Cash Flow Rapids",
+    "relation": "navigated_by",
+    "value": "our valiant entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "our valiant entrepreneurs find themselves navigating the tumultuous Cash Flow Rapids"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Bob Break-even",
+    "relation": "owner_of",
+    "value": "Bob\u2019s Break-even Bistro",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Break-even, the owner of Bob\u2019s Break-even Bistro"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Bob Break-even",
+    "relation": "shared_odyssey",
+    "value": "his odyssey",
+    "time": "on the 7th of September",
+    "speaker": null,
+    "verbatim": [
+     "shared his odyssey on the 7th of September"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Bob Break-even",
+    "relation": "said",
+    "value": "There\u2019s nothing quite like the thrill of not knowing whether you can pay your suppliers or your electricity bill",
+    "time": null,
+    "speaker": "Bob Break-even",
+    "verbatim": [
+     "There\u2019s nothing quite like the thrill of not knowing whether you can pay your suppliers or your electricity bill"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Bob Break-even",
+    "relation": "gambled_fate_on",
+    "value": "the promise of a perfect souffl\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a man who had gambled his fate on the promise of a perfect souffl\u00e9"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Bob Break-even",
+    "relation": "management_approach",
+    "value": "wearing a blindfold and throwing darts at a board labeled \u201cBills To Pay This Month.\u201d",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His approach to management involves wearing a blindfold and throwing darts at a board labeled \u201cBills To Pay This Month.\u201d"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Bob Break-even",
+    "relation": "insists",
+    "value": "it adds an element of surprise to the mundane task of accounting and keeps the staff on their proverbial toes",
+    "time": null,
+    "speaker": "Bob Break-even",
+    "verbatim": [
+     "Bob insists it adds an element of surprise to the mundane task of accounting and keeps the staff on their proverbial toes."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Bob Break-even",
+    "relation": "methods_absent_from",
+    "value": "your average MBA textbook",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Such methods might not be in your average MBA textbook"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Harriet Highroller",
+    "relation": "affiliated_with",
+    "value": "Harriet\u2019s High-Stakes Hats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harriet Highroller of Harriet\u2019s High-Stakes Hats"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Harriet Highroller",
+    "relation": "held_press_conference",
+    "value": "where she displayed the latest in profit-disappearing hats",
+    "time": "On the 15th of September",
+    "speaker": null,
+    "verbatim": [
+     "On the 15th of September, Harriet Highroller of Harriet\u2019s High-Stakes Hats held a press conference where she displayed the latest in profit-disappearing hats."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Harriet Highroller",
+    "relation": "said",
+    "value": "It\u2019s all the rage",
+    "time": null,
+    "speaker": "Harriet Highroller",
+    "verbatim": [
+     "\u201cIt\u2019s all the rage,\u201d she quipped"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Harriet Highroller",
+    "relation": "said",
+    "value": "You turn the profits into inventory, staff lunches, and mysterious tax obligations, and voil\u00e0, they\u2019re gone!",
+    "time": null,
+    "speaker": "Harriet Highroller",
+    "verbatim": [
+     "You turn the profits into inventory, staff lunches, and mysterious tax obligations, and voil\u00e0, they\u2019re gone!"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Harriet Highroller",
+    "relation": "pulled",
+    "value": "a rabbit from a top hat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pulling a rabbit from a top hat"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Harriet Highroller",
+    "relation": "mastery_of",
+    "value": "vanishing money acts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Highroller's mastery of vanishing money acts is not unique in the small business circus."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Joe Juggler",
+    "relation": "is_a",
+    "value": "local grocer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Joe Juggler, a local grocer"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Joe Juggler",
+    "relation": "juggles",
+    "value": "cash flow juggling act",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been defying gravity with his cash flow juggling act"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Joe Juggler",
+    "relation": "said",
+    "value": "Sometimes you have to keep those oranges up in the air long enough to hope someone buys an actual orange",
+    "time": null,
+    "speaker": "Joe Juggler",
+    "verbatim": [
+     "Sometimes you have to keep those oranges up in the air long enough to hope someone buys an actual orange"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Joe Juggler",
+    "relation": "tossed",
+    "value": "an orange high enough to skim a passing cloud",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tossing an orange high enough to skim a passing cloud"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Joe Juggler",
+    "relation": "secret_is",
+    "value": "hoping that gravity forgets to do its job",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The secret, it turns out, is hoping that gravity forgets to do its job."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bootstrapping",
+    "relation": "defined_as",
+    "value": "a unique performance art where business owners tiptoe around financial pitfalls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a unique performance art where business owners tiptoe around financial pitfalls"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Bootstrapping",
+    "relation": "often_means",
+    "value": "the office decor tends to consist of vintage (read: falling apart) furniture and the latest in repurposed technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the office decor tends to consist of vintage (read: falling apart) furniture and the latest in repurposed technology"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lucy Ledger",
+    "relation": "is_a",
+    "value": "local bootstrapping ballerina",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy Ledger, a local bootstrapping ballerina"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lucy Ledger",
+    "relation": "proprietor_of",
+    "value": "Lucy\u2019s Handmade Widgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proprietor of Lucy\u2019s Handmade Widgets"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Lucy Ledger",
+    "relation": "shared_story",
+    "value": "her story",
+    "time": "October 5th",
+    "speaker": null,
+    "verbatim": [
+     "shared her story on October 5th"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Lucy Ledger",
+    "relation": "said",
+    "value": "I found this amazing piece of machinery",
+    "time": null,
+    "speaker": "Lucy Ledger",
+    "verbatim": [
+     "\u201cI found this amazing piece of machinery,\u201d she beamed"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Lucy Ledger",
+    "relation": "machinery_described_as",
+    "value": "slightly older than me, only crashes twice a day, and makes a noise like a catfight",
+    "time": null,
+    "speaker": "Lucy Ledger",
+    "verbatim": [
+     "It\u2019s slightly older than me, only crashes twice a day, and makes a noise like a catfight."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Lucy Ledger",
+    "relation": "said",
+    "value": "It\u2019s charming, really",
+    "time": null,
+    "speaker": "Lucy Ledger",
+    "verbatim": [
+     "It\u2019s charming, really."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Lucy's Handmade Widgets",
+    "relation": "described_as",
+    "value": "as resourceful as her budgeting skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy\u2019s widgets are as resourceful as her budgeting skills"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Lucy Ledger",
+    "relation": "budgeting_skills_include",
+    "value": "ritual dances around spreadsheets under the full moon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are said to include ritual dances around spreadsheets under the full moon"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Tom Trader",
+    "relation": "is_a",
+    "value": "a savvy small business mogul",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tom Trader, a savvy small business mogul"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Tom Trader",
+    "relation": "announced",
+    "value": "the opening of Barter Town",
+    "time": "on the 20th of September",
+    "speaker": null,
+    "verbatim": [
+     "announced on the 20th of September the opening of Barter Town"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Barter Town",
+    "relation": "described_as",
+    "value": "a place where businesses exchange goods instead of chasing elusive paper money",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a place where businesses exchange goods instead of chasing elusive paper money"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Tom Trader",
+    "relation": "said",
+    "value": "Why bother with the wild goose chase of liquidity when I can swap a goose for a massage?",
+    "time": null,
+    "speaker": "Tom Trader",
+    "verbatim": [
+     "\u201cWhy bother with the wild goose chase of liquidity when I can swap a goose for a massage?\u201d contemplated Tom"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Crowdfunding",
+    "relation": "described_as",
+    "value": "the modern spell to conjure capital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "crowdfunding has established itself as the modern spell to conjure capital"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Wendy Wishes",
+    "relation": "successfully_funded",
+    "value": "Wendy's Wondrous Widgets",
+    "time": "September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "who successfully funded Wendy's Wondrous Widgets on September 22nd"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Wendy Wishes",
+    "relation": "funded_through",
+    "value": "sheer online sorcery",
+    "time": "September 22nd",
+    "speaker": null,
+    "verbatim": [
+     "through sheer online sorcery"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Wendy Wishes",
+    "relation": "mechanism_of",
+    "value_ref": "c47",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "successfully funded Wendy's Wondrous Widgets on September 22nd through sheer online sorcery"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Wendy Wishes",
+    "relation": "said",
+    "value": "It\u2019s like throwing a digital wishing well party and inviting strangers to throw their coins in",
+    "time": null,
+    "speaker": "Wendy Wishes",
+    "verbatim": [
+     "\u201cIt\u2019s like throwing a digital wishing well party and inviting strangers to throw their coins in,\u201d explained Wendy Wishes"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Wendy Wishes",
+    "relation": "confides_secret_ingredients_include",
+    "value": "a pinch of pity, a dollop of dreams, and a spellbinding saga that could move even the toughest troll to tears",
+    "time": null,
+    "speaker": "Wendy Wishes",
+    "verbatim": [
+     "The secret ingredients to a successful campaign, Wendy confides, include a pinch of pity, a dollop of dreams, and a spellbinding saga that could move even the toughest troll to tears."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Penny pinching",
+    "relation": "described_as",
+    "value": "An Extreme Sport",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Penny Pinching: An Extreme Sport"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Penny pinching",
+    "relation": "considered_for",
+    "value": "the next Summer Olympics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "penny pinching will be considered for the next Summer Olympics"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Penny pinching",
+    "relation": "given_reason",
+    "value": "the extraordinary agility and creativity small business owners employ",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "given the extraordinary agility and creativity small business owners employ"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Penny pinching",
+    "relation": "caused_by",
+    "value_ref": "c54",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "penny pinching will be considered for the next Summer Olympics given the extraordinary agility and creativity small business owners employ"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Summer Olympics",
+    "relation": "considered_sport",
+    "value": "penny pinching",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "penny pinching will be considered for the next Summer Olympics"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "is_a",
+    "value": "the current penny pinching champion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nicky Nickel-andDime, the current penny pinching champion"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "once_provided",
+    "value": "an entire staff lunch for under ten dollars",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who once managed to provide an entire staff lunch for under ten dollars"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "believes",
+    "value": "it's only a matter of time before the sport takes the global stage",
+    "time": null,
+    "speaker": "Nicky Nickel-andDime",
+    "verbatim": [
+     "believes it's only a matter of time before the sport takes the global stage"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "said",
+    "value": "You have to be born with a sixth sense for savings",
+    "time": null,
+    "speaker": "Nicky Nickel-andDime",
+    "verbatim": [
+     "You have to be born with a sixth sense for savings"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "said",
+    "value": "Spotting a sale from a mile away, haggling with suppliers till they cry, and reusing paperclips like they're family heirlooms",
+    "time": null,
+    "speaker": "Nicky Nickel-andDime",
+    "verbatim": [
+     "Spotting a sale from a mile away, haggling with suppliers till they cry, and reusing paperclips like they're family heirlooms."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Nicky Nickel-andDime",
+    "relation": "action_while_boasting",
+    "value": "flipping a coupon like a ninja star",
+    "time": null,
+    "speaker": "Nicky Nickel-andDime",
+    "verbatim": [
+     "flipping a coupon like a ninja star"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

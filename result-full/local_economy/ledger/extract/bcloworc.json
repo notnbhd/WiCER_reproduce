@@ -1,0 +1,914 @@
+{
+ "inventory": [
+  "Jeremy Watson",
+  "Watson's Widgets",
+  "Anytown, USA",
+  "Sarah Kim",
+  "TechBiz Solutions",
+  "Elaine's Artisanal Chocolates",
+  "Elaine Gutierrez",
+  "Mark Liu",
+  "Liu's Laundromat",
+  "Dr. Emily Chen",
+  "Anytown Business University",
+  "Ned Johnson",
+  "QuickPrint Solutions",
+  "Maya Rodriguez",
+  "The Cozy Nook Bookstore",
+  "James and Patricia Bennett",
+  "Peter Grant",
+  "ShieldIT",
+  "Hannah's Healthy Eats",
+  "Hannah Lee",
+  "digital transformation",
+  "e-commerce",
+  "cloud computing",
+  "social media marketing",
+  "Instagram",
+  "Facebook",
+  "Twitter",
+  "digital payment systems",
+  "online ordering",
+  "customer relationship management software",
+  "cybersecurity",
+  "automated inventory system",
+  "the pandemic"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "digital transformation",
+    "relation": "impact_is",
+    "value": "inescapable",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the impact of digital transformation is inescapable."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jeremy Watson",
+    "relation": "owner_of",
+    "value": "Watson's Widgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Jeremy Watson, owner of 'Watson's Widgets', a small hardware store in Anytown, USA"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Watson's Widgets",
+    "relation": "described_as",
+    "value": "a small hardware store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Watson's Widgets', a small hardware store in Anytown, USA"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Watson's Widgets",
+    "relation": "located_in",
+    "value": "Anytown, USA",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Watson's Widgets', a small hardware store in Anytown, USA"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jeremy Watson",
+    "relation": "dilemma_is",
+    "value": "resource allocation, not ignorance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the dilemma of digitization is not one of ignorance but of resource allocation"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jeremy Watson",
+    "relation": "said",
+    "value": "I know that going digital is the future",
+    "time": null,
+    "speaker": "Jeremy Watson",
+    "verbatim": [
+     "I know that going digital is the future,"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jeremy Watson",
+    "relation": "said",
+    "value": "when you're running on tight margins, every decision is crucial",
+    "time": null,
+    "speaker": "Jeremy Watson",
+    "verbatim": [
+     "but when you're running on tight margins, every decision is crucial."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Kim",
+    "relation": "job_title",
+    "value": "consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a consultant with TechBiz Solutions, argues that"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Kim",
+    "relation": "works_for",
+    "value": "TechBiz Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a consultant with TechBiz Solutions"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Kim",
+    "relation": "argues",
+    "value": "small businesses should prioritize customer-facing technologies that streamline services and enhance the customer experience",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "small businesses should prioritize customer-facing technologies that streamline services and enhance the customer experience."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Kim",
+    "relation": "says_quickest_return_on_investment_from",
+    "value": "digital payment systems, online ordering, and customer relationship management software",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "investments in digital payment systems, online ordering, and customer relationship management software typically offer the quickest return on investment."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "digital payment systems",
+    "relation": "typically_offers",
+    "value": "the quickest return on investment",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "investments in digital payment systems, online ordering, and customer relationship management software typically offer the quickest return on investment"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "online ordering",
+    "relation": "typically_offers",
+    "value": "the quickest return on investment",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "investments in digital payment systems, online ordering, and customer relationship management software typically offer the quickest return on investment"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "customer relationship management software",
+    "relation": "typically_offers",
+    "value": "the quickest return on investment",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "investments in digital payment systems, online ordering, and customer relationship management software typically offer the quickest return on investment"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "e-commerce",
+    "relation": "share_of_small_businesses_relying_on_it",
+    "value": "60%",
+    "time": "As of October 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of October 2023, a staggering 60% of small businesses report a reliance on e-commerce platforms for a substantial portion of their revenues"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "e-commerce",
+    "relation": "increase_from",
+    "value": "pre-pandemic levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a notable increase from pre-pandemic levels"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "e-commerce",
+    "relation": "has_become",
+    "value": "a lifeline for many small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ecommerce has become a lifeline for many small businesses"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "e-commerce",
+    "relation": "increased_online_shopping_due_to",
+    "value": "the events of the past few years",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the events of the past few years prompting more consumers to shop online"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Elaine's Artisanal Chocolates",
+    "relation": "described_as",
+    "value": "a family-owned chocolatier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a family-owned chocolatier"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Elaine's Artisanal Chocolates",
+    "relation": "expanded_sales_channels_to_include",
+    "value": "an online store and partnering with delivery apps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "expanding its sales channels to include an online store and partnering with delivery apps"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Elaine's Artisanal Chocolates",
+    "relation": "sales_increase",
+    "value": "50%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a 50% increase in sales after expanding its sales channels to include an online store and partnering with delivery apps"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Elaine's Artisanal Chocolates",
+    "relation": "results_in",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a 50% increase in sales after expanding its sales channels to include an online store and partnering with delivery apps"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Elaine Gutierrez",
+    "relation": "role",
+    "value": "founder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the founder, attributes this growth to accessibility"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Elaine Gutierrez",
+    "relation": "attributes_growth_to",
+    "value": "accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attributes this growth to accessibility."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Elaine Gutierrez",
+    "relation": "said",
+    "value": "Technology has allowed my passion for chocolate to go from local to global",
+    "time": null,
+    "speaker": "Elaine Gutierrez",
+    "verbatim": [
+     "Technology has allowed my passion for chocolate to go from local to global,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Mark Liu",
+    "relation": "owner_of",
+    "value": "Liu's Laundromat",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "declares Mark Liu, owner of 'Liu's Laundromat'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mark Liu",
+    "relation": "said",
+    "value": "It's about understanding your customers better and making more informed choices",
+    "time": null,
+    "speaker": "Mark Liu",
+    "verbatim": [
+     "It's about understanding your customers better and making more informed choices,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mark Liu",
+    "relation": "utilizes",
+    "value": "simple analytics tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By utilizing simple analytics tools"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Mark Liu",
+    "relation": "adjusted",
+    "value": "business hours and staffing levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adjust his business hours and staffing levels more efficiently"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Liu's Laundromat",
+    "relation": "profitability_uptick",
+    "value": "a noticeable uptick in profitability",
+    "time": "since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "leading to a noticeable uptick in profitability since September 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Mark Liu",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By utilizing simple analytics tools, Liu has been able to adjust his business hours and staffing levels more efficiently, leading to a noticeable uptick in profitability since September 2023."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Dr. Emily Chen",
+    "relation": "professor_at",
+    "value": "Anytown Business University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Chen, a professor at the Anytown Business University"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Anytown Business University",
+    "relation": "employs",
+    "value": "Dr. Emily Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Emily Chen, a professor at the Anytown Business University"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Dr. Emily Chen",
+    "relation": "said",
+    "value": "There are a myriad of affordable analytics software specifically tailored for small businesses that can track everything from inventory to customer preferences",
+    "time": null,
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "There are a myriad of affordable analytics software specifically tailored for small businesses that can track everything from inventory to customer preferences,"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Dr. Emily Chen",
+    "relation": "encourages_students_to",
+    "value": "use these tools as a way to gain a competitive edge in the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She encourages her students to use these tools as a way to gain a competitive edge in the market."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "cloud computing",
+    "relation": "described_as",
+    "value": "the backbone upon which the fortitude of modern business infrastructure is built",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud computing has become the backbone upon which the fortitude of modern business infrastructure is built."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "cloud computing",
+    "relation": "benefits_small_businesses_through",
+    "value": "the scalability and efficiency of cloud services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small businesses, with limited resources for IT infrastructure, have been benefiting from the scalability and efficiency of cloud services."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "cloud computing",
+    "relation": "enables",
+    "value": "teams to collaborate in real-time from any location",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud-based tools enable teams to collaborate in real-time from any location"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "cloud computing",
+    "relation": "proved_particularly_essential_as",
+    "value": "remote work arrangements became commonplace",
+    "time": "after 2023",
+    "speaker": null,
+    "verbatim": [
+     "which proved particularly essential as remote work arrangements became commonplace after 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Ned Johnson",
+    "relation": "job_title",
+    "value": "IT manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ned Johnson, IT manager at 'QuickPrint Solutions'"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Ned Johnson",
+    "relation": "works_at",
+    "value": "QuickPrint Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ned Johnson, IT manager at 'QuickPrint Solutions'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Ned Johnson",
+    "relation": "transitioned_workflow_to",
+    "value": "the cloud",
+    "time": "during the pandemic",
+    "speaker": null,
+    "verbatim": [
+     "saw an opportunity during the pandemic to transition his company's entire workflow to the cloud."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Ned Johnson",
+    "relation": "said",
+    "value": "The shift was not without its hiccups",
+    "time": null,
+    "speaker": "Ned Johnson",
+    "verbatim": [
+     "The shift was not without its hiccups,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Ned Johnson",
+    "relation": "said",
+    "value": "our operations are smoother, and we've actually reduced costs on IT maintenance and upgrades",
+    "time": null,
+    "speaker": "Ned Johnson",
+    "verbatim": [
+     "but now, our operations are smoother, and we've actually reduced costs on IT maintenance and upgrades."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "QuickPrint Solutions",
+    "relation": "reduced_costs_on",
+    "value": "IT maintenance and upgrades",
+    "time": null,
+    "speaker": "Ned Johnson",
+    "verbatim": [
+     "we've actually reduced costs on IT maintenance and upgrades"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "social media marketing",
+    "relation": "enables",
+    "value": "brands to connect with their customers on a personal level",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media is where brands can connect with their customers on a personal level."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "social media marketing",
+    "relation": "benefits_small_businesses_through",
+    "value": "the authentic engagement that platforms like Instagram, Facebook, and Twitter can foster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the authentic engagement that platforms like Instagram, Facebook, and Twitter can foster"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Instagram",
+    "relation": "named_as_platform_for",
+    "value": "authentic engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "platforms like Instagram, Facebook, and Twitter can foster"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Facebook",
+    "relation": "named_as_platform_for",
+    "value": "authentic engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "platforms like Instagram, Facebook, and Twitter can foster"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Twitter",
+    "relation": "named_as_platform_for",
+    "value": "authentic engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "platforms like Instagram, Facebook, and Twitter can foster"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Maya Rodriguez",
+    "relation": "job_title",
+    "value": "social media strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maya Rodriguez, a social media strategist, recommends that"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Maya Rodriguez",
+    "relation": "recommends",
+    "value": "businesses harness the power of storytelling and community building through these platforms",
+    "time": null,
+    "speaker": "Maya Rodriguez",
+    "verbatim": [
+     "businesses harness the power of storytelling and community building through these platforms."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "The Cozy Nook Bookstore",
+    "relation": "owned_by",
+    "value": "James and Patricia Bennett",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'The Cozy Nook Bookstore', owned by James and Patricia Bennett"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "James and Patricia Bennett",
+    "relation": "owner_of",
+    "value": "The Cozy Nook Bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'The Cozy Nook Bookstore', owned by James and Patricia Bennett"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "The Cozy Nook Bookstore",
+    "relation": "exemplifies_success_through",
+    "value": "social media marketing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "exemplifies success through social media marketing"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "James and Patricia Bennett",
+    "relation": "shares_on_social_media",
+    "value": "book recommendations, store events, and personal stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By sharing book recommendations, store events, and",
+     "personal stories on their social media pages"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "James and Patricia Bennett",
+    "relation": "cultivated",
+    "value": "a loyal customer base that extends beyond their small town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Bennetts have cultivated a loyal customer base that extends beyond their small town"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "James and Patricia Bennett",
+    "relation": "results_in",
+    "value_ref": "c57",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By sharing book recommendations, store events, and",
+     "personal stories on their social media pages",
+     "the Bennetts have cultivated a loyal customer base that extends beyond their small town"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "James and Patricia Bennett",
+    "relation": "noticed",
+    "value": "a considerable increase in both foot traffic and online sales",
+    "time": "Since their strategy shift in late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since their strategy shift in late September 2023, they've noticed a considerable increase in both foot traffic and online sales."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "cybersecurity",
+    "relation": "escalated",
+    "value": "the security risks for small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The increased reliance on digital technologies has also escalated the security risks for small businesses."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "cybersecurity",
+    "relation": "no_longer_limited_to",
+    "value": "large corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyberattacks are no longer targeting just large corporations"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "cybersecurity",
+    "relation": "vulnerabilities_found_in",
+    "value": "smaller networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hackers are finding vulnerabilities in smaller networks as well"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "cybersecurity",
+    "relation": "is_paramount_in",
+    "value": "the strategy of any small business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The need for cybersecurity measures is now paramount in the strategy of any small business."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Peter Grant",
+    "relation": "job_title",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Peter Grant, the cybersecurity expert at ShieldIT, advises that"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Peter Grant",
+    "relation": "works_at",
+    "value": "ShieldIT",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Peter Grant, the cybersecurity expert at ShieldIT"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "ShieldIT",
+    "relation": "employs",
+    "value": "Peter Grant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Peter Grant, the cybersecurity expert at ShieldIT"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Peter Grant",
+    "relation": "advises",
+    "value": "preventing cyberattacks doesn't always require a vast budget",
+    "time": null,
+    "speaker": "Peter Grant",
+    "verbatim": [
+     "preventing cyberattacks doesn't always require a vast budget."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Peter Grant",
+    "relation": "suggests",
+    "value": "prioritizing employee training on security best practices, investing in basic security tools, and keeping software up-to-date",
+    "time": null,
+    "speaker": "Peter Grant",
+    "verbatim": [
+     "He suggests prioritizing employee training on security best practices, investing in basic security tools, and keeping software up-to-date to mitigate most risks."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Peter Grant",
+    "relation": "aims_to_mitigate",
+    "value": "most risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to mitigate most risks"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Peter Grant",
+    "relation": "in_order_to",
+    "value_ref": "c69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "keeping software up-to-date to mitigate most risks"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Hannah's Healthy Eats",
+    "relation": "described_as",
+    "value": "a local vegan caf\u00e9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Hannah's Healthy Eats', a local vegan caf\u00e9"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Hannah's Healthy Eats",
+    "relation": "introduced",
+    "value": "an automated inventory system",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced an automated inventory system in November 2023"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Hannah Lee",
+    "relation": "owner_of",
+    "value": "Hannah's Healthy Eats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which owner Hannah Lee says"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Hannah Lee",
+    "relation": "said",
+    "value": "revolutionized stock management",
+    "time": null,
+    "speaker": "Hannah Lee",
+    "verbatim": [
+     "revolutionized stock management."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "automated inventory system",
+    "relation": "provides",
+    "value": "real-time data on stock levels",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The system provides real-time data on stock levels, reducing waste and saving time on manual checks."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "automated inventory system",
+    "relation": "reduces",
+    "value": "waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing waste and saving time on manual checks"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "automated inventory system",
+    "relation": "results_in",
+    "value_ref": "c76",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The system provides real-time data on stock levels, reducing waste and saving time on manual checks."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "digital transformation",
+    "relation": "comes_with",
+    "value": "a set of challenges for small business owners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Technology and digital transformation do not come without their set of challenges for small business owners"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "digital transformation",
+    "relation": "described_as",
+    "value": "a fundamental shift in how businesses must operate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the digital movement is not just a fleeting trend but a fundamental shift in how businesses must operate"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

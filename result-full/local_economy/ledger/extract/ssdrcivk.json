@@ -1,0 +1,616 @@
+{
+ "inventory": [
+  "Melissa Carter",
+  "Caffeine Dreams",
+  "Know Your Customer days",
+  "customer relationship management (CRM) tools",
+  "John Abrams",
+  "Turning Pages",
+  "Live Storytelling Nights",
+  "Sarah Nguyen",
+  "Threads & Wishes",
+  "Lila",
+  "Tom Foster",
+  "Bark & Purr",
+  "points system",
+  "Jane Richardson",
+  "The Green Grocer",
+  "holiday meal for the homeless",
+  "shipping delays",
+  "Lisa Patel",
+  "Crafty Hands",
+  "Instagram",
+  "social media",
+  "post-pandemic economy",
+  "supply chain issues"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Melissa Carter",
+    "relation": "owner_of",
+    "value": "Caffeine Dreams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melissa Carter, owner of \"Caffeine Dreams,\" a coffee shop that opened in late 2023"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Caffeine Dreams",
+    "relation": "opened",
+    "value": "a coffee shop",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Caffeine Dreams,\" a coffee shop that opened in late 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Melissa Carter",
+    "relation": "states_success_is",
+    "value": "measured by the number of customers who utter 'See you tomorrow'",
+    "time": null,
+    "speaker": "Melissa Carter",
+    "verbatim": [
+     "\"Our success is measured not by the number of cups we sell but by the number of customers who utters, 'See you tomorrow'.\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Caffeine Dreams",
+    "relation": "has_become",
+    "value": "a neighborhood fixture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Caffeine Dreams has become a neighborhood fixture"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Melissa Carter",
+    "relation": "committed_to",
+    "value": "her customers' experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "for Melissa's commitment to her customers' experiences"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Know Your Customer days",
+    "relation": "have_power",
+    "value": "to transform commerce into connection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Know Your Customer\" days have the power to transform commerce into connection."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Caffeine Dreams",
+    "relation": "held_event",
+    "value": "first Know Your Customer event",
+    "time": "November 15",
+    "speaker": null,
+    "verbatim": [
+     "On November 15, Caffeine Dreams held its first such event."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Know Your Customer days",
+    "relation": "included",
+    "value": "tailored recommendations and personalized discounts based on past purchases and preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customers enjoyed tailored recommendations and personalized discounts based on their past purchases and preferences"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Melissa Carter",
+    "relation": "delved_into_data",
+    "value": "the data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Melissa and her team could delve deep into the data"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "customer relationship management (CRM) tools",
+    "relation": "enables",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By using customer relationship management (CRM) tools, Melissa and her team could delve deep into the data"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "customer relationship management (CRM) tools",
+    "relation": "results_in",
+    "value": "every patron felt seen and appreciated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring every patron felt seen and appreciated"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "John Abrams",
+    "relation": "owner_of",
+    "value": "Turning Pages",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Abrams, the owner of the local bookstore \"Turning Pages,\""
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "John Abrams",
+    "relation": "motivated_by",
+    "value": "today's consumers seek experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Understanding that today\u2019s consumers seek experiences, John initiated"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John Abrams",
+    "relation": "initiated",
+    "value": "monthly Live Storytelling Nights",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John initiated monthly \"Live Storytelling Nights,\" where local authors narrate and engage with their audience."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Live Storytelling Nights",
+    "relation": "featured",
+    "value": "local authors narrate and engage with their audience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where local authors narrate and engage with their audience"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Live Storytelling Nights",
+    "relation": "began_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since the inception of these events in October 2023"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Turning Pages",
+    "relation": "foot_traffic_increase",
+    "value": "30%",
+    "time": "Since the inception of these events in October 2023",
+    "speaker": null,
+    "verbatim": [
+     "\"Turning Pages\" has witnessed a staggering 30% increase in foot traffic"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Turning Pages",
+    "relation": "turned_into_regulars",
+    "value": "many first-time visitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has turned many first-time visitors into regulars"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sarah Nguyen",
+    "relation": "runs",
+    "value": "a boutique called Threads & Wishes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Nguyen, who runs a boutique called \"Threads & Wishes,\""
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sarah Nguyen",
+    "relation": "launched",
+    "value": "an app",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched an app in December 2023 that not only allows customers to shop online but offers a virtual styling service"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Nguyen",
+    "relation": "offers",
+    "value": "virtual styling service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers a virtual styling service"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Lila",
+    "relation": "is",
+    "value": "chatbot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The app has chatbot 'Lila' that learns"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lila",
+    "relation": "learns",
+    "value": "customer preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The app has chatbot 'Lila' that learns"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Lila",
+    "relation": "assists_with",
+    "value": "purchases both online and instore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "assists with purchases both online and instore"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sarah Nguyen",
+    "relation": "states_goal",
+    "value": "a seamless experience that begins in the virtual world and continues in the physical one",
+    "time": null,
+    "speaker": "Sarah Nguyen",
+    "verbatim": [
+     "\"It's about creating a seamless experience that begins in the virtual world and continues in the physical one,\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Tom Foster",
+    "relation": "owns",
+    "value": "Bark & Purr",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Bark & Purr,\" a pet supply store owned by Tom Foster,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Bark & Purr",
+    "relation": "is",
+    "value": "a pet supply store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Bark & Purr,\" a pet supply store owned by Tom Foster,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Bark & Purr",
+    "relation": "introduced",
+    "value": "a points system",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced a points system in September 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "points system",
+    "relation": "rewards",
+    "value": "purchases and community involvement, such as attending local pet events or contributing to charity drives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rewards not only purchases but also community involvement, such as attending local pet events or contributing to charity drives"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "points system",
+    "relation": "results_in",
+    "value": "loyalty aligns with the customers' values, cementing a deeper connection with the brand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thus, loyalty aligns with the customers' values, cementing a deeper connection with the brand."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Jane Richardson",
+    "relation": "operates",
+    "value": "The Green Grocer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Richardson, who operates \"The Green Grocer,\" a local organic produce shop,"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "The Green Grocer",
+    "relation": "is",
+    "value": "a local organic produce shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"The Green Grocer,\" a local organic produce shop,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Jane Richardson",
+    "relation": "partnered_with",
+    "value": "nearby schools to educate children on healthy eating habits",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "partnered with nearby schools to educate children on healthy eating habits"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "The Green Grocer",
+    "relation": "brought_families_into_store",
+    "value": "families into the store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This initiative brought families into the store, not just for groceries but as a place they trust and value beyond a traditional vendor."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Jane Richardson",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partnered with nearby schools to educate children on healthy eating habits",
+     "This initiative brought families into the store"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Caffeine Dreams",
+    "relation": "hosted",
+    "value": "a holiday meal for the homeless",
+    "time": "festive season",
+    "speaker": null,
+    "verbatim": [
+     "during the festive season, rather than the usual sale, \"Caffeine Dreams\" hosted a holiday meal for the homeless."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "holiday meal for the homeless",
+    "relation": "garnered",
+    "value": "local media attention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The event garnered local media attention"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "holiday meal for the homeless",
+    "relation": "bolstered",
+    "value": "the neighborhood's support for Melissa's coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bolstered the neighborhood's support for Melissa's coffee shop"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "holiday meal for the homeless",
+    "relation": "proves",
+    "value": "engagement sometimes means extending kindness and resources to those beyond your customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "proving that engagement sometimes means extending kindness and resources to those beyond your customer base"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "shipping delays",
+    "relation": "faced_by",
+    "value": "Threads & Wishes",
+    "time": "early January 2024",
+    "speaker": null,
+    "verbatim": [
+     "When \"Threads & Wishes\" faced shipping delays in early January 2024"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sarah Nguyen",
+    "relation": "contacted",
+    "value": "affected customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah took to personally contacting affected customers and offering them in-store vouchers along with sincere apologies"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sarah Nguyen",
+    "relation": "offered",
+    "value": "in-store vouchers along with sincere apologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering them in-store vouchers along with sincere apologies"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Threads & Wishes",
+    "relation": "turned_into",
+    "value": "an opportunity to showcase the business's commitment to customer satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This transparency and hands-on approach turned a potentially negative experience into an opportunity to showcase the business's commitment to customer satisfaction."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Turning Pages",
+    "relation": "practices",
+    "value": "handwritten thank-you notes, calling customers by their names, and remembering their preferences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Handwritten thank-you notes, calling customers by their names, and remembering their preferences are practices that \"Turning Pages\" has not abandoned in an age of emails and push notifications."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "John Abrams",
+    "relation": "believes",
+    "value": "small gestures remind customers they are valued beyond their wallets",
+    "time": null,
+    "speaker": "John Abrams",
+    "verbatim": [
+     "John believes it's these small gestures that remind customers they are valued beyond their wallets."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Lisa Patel",
+    "relation": "launched",
+    "value": "Crafty Hands",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Lisa Patel, who launched \"Crafty Hands,\" an art and craft supply store, in November 2023,"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Crafty Hands",
+    "relation": "is",
+    "value": "an art and craft supply store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Crafty Hands,\" an art and craft supply store"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Lisa Patel",
+    "relation": "leverages",
+    "value": "Instagram",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leverages Instagram to showcase customer creations made with her products"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Instagram",
+    "relation": "used_to_showcase",
+    "value": "customer creations made with her products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leverages Instagram to showcase customer creations made with her products"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Lisa Patel",
+    "relation": "fosters",
+    "value": "a sense of belonging to a creative community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also foster a sense of belonging to a creative community, encouraging further engagement."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "social media",
+    "relation": "is",
+    "value": "a relationship-building platform, not just a marketing tool",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Social media isn\u2019t just a marketing tool; it\u2019s a relationship-building platform."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "post-pandemic economy",
+    "relation": "requires",
+    "value": "adaptivity and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Navigating the post-pandemic economy, supply chain issues, and keeping up with technological advances require adaptivity and resilience."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "supply chain issues",
+    "relation": "requires",
+    "value": "adaptivity and resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Navigating the post-pandemic economy, supply chain issues, and keeping up with technological advances require adaptivity and resilience."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

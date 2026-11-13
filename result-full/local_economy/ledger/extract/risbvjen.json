@@ -1,0 +1,469 @@
+{
+ "inventory": [
+  "Johnathan Hardy",
+  "Hardy's Hardware",
+  "Small Business Association",
+  "Emily Nguyen",
+  "TechSolutions",
+  "Laura Schmidt",
+  "local Chamber of Commerce",
+  "Marcus Li",
+  "Geraldine Foster",
+  "Applicant Tracking Systems (ATS)",
+  "Alexander Burke",
+  "Global Talent Access Program",
+  "Sarah Kim",
+  "Thomas Richter",
+  "Millennials",
+  "Gen Z",
+  "labor shortage",
+  "skills gap",
+  "four-day workweeks",
+  "personal wellness stipends"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "labor shortage",
+    "relation": "escalated_in",
+    "value": "the post-pandemic economy",
+    "time": "past September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a burgeoning problem that has escalated in the post-pandemic economy"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "labor shortage",
+    "relation": "described_as",
+    "value": "a multifaceted issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a multifaceted issue that stems from various factors"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "labor shortage",
+    "relation": "caused_by",
+    "value": "various factors including changing workforce demographics, increased job competition from larger corporations, and a growing skills gap particularly in specialized fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a multifaceted issue that stems from various factors including changing workforce demographics, increased job competition from larger corporations, and a growing skills gap particularly in specialized fields."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "skills gap",
+    "relation": "particularly_in",
+    "value": "specialized fields",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a growing skills gap particularly in specialized fields"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Johnathan Hardy",
+    "relation": "owner_of",
+    "value": "Hardy's Hardware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Hardy, the owner of Hardy's Hardware"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Johnathan Hardy",
+    "relation": "described_situation_as",
+    "value": "trying to win a relay race when half your team is missing",
+    "time": null,
+    "speaker": "Johnathan Hardy",
+    "verbatim": [
+     "described the situation as \"trying to win a relay race when half your team is missing.\""
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Small Business Association",
+    "relation": "survey_found",
+    "value": "62% of small business owners cite staffing as their most pressing challenge",
+    "time": "On October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 10, 2023, a survey by the Small Business Association revealed that 62% of small business owners cite staffing as their most pressing challenge"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Small Business Association",
+    "relation": "ranked_staffing_above",
+    "value": "supply chain disruptions and inflation concerns",
+    "time": "On October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "surpassing supply chain disruptions and inflation concerns"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Emily Nguyen",
+    "relation": "role",
+    "value": "CEO of TechSolutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Nguyen, CEO of TechSolutions,"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emily Nguyen",
+    "relation": "stated",
+    "value": "Workers today are looking for more than just a paycheck; they want a sense of purpose and belonging.",
+    "time": "November 15, 2023",
+    "speaker": "Emily Nguyen",
+    "verbatim": [
+     "Workers today are looking for more than just a paycheck; they want a sense of purpose and belonging."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emily Nguyen",
+    "relation": "focuses_on",
+    "value": "providing continuous professional development and creating an inclusive environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nguyen's focus on providing continuous professional development and creating an inclusive environment"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "TechSolutions",
+    "relation": "described_as",
+    "value": "a small tech firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has made her small tech firm an outlier"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "TechSolutions",
+    "relation": "is_outlier_in",
+    "value": "an industry where giants typically overshadow smaller competitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has made her small tech firm an outlier in an industry where giants typically overshadow smaller competitors"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emily Nguyen",
+    "relation": "results_in",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nguyen's focus on providing continuous professional development and creating an inclusive environment has made her small tech firm an outlier"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Laura Schmidt",
+    "relation": "role",
+    "value": "talent acquisition consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Laura Schmidt, a talent acquisition consultant,"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Laura Schmidt",
+    "relation": "worked_with",
+    "value": "various startups to revamp their employee value proposition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has worked with various startups to revamp their employee value proposition"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Laura Schmidt",
+    "relation": "stated",
+    "value": "Small businesses need to highlight unique benefits that can compete with or outshine those offered by larger corporations.",
+    "time": null,
+    "speaker": "Laura Schmidt",
+    "verbatim": [
+     "Small businesses need to highlight unique benefits that can compete with or outshine those offered by larger corporations."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "four-day workweeks",
+    "relation": "experimented_with_by",
+    "value": "companies like Schmidt's clients",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, companies like Schmidt's clients have begun experimenting with four-day workweeks and personal wellness stipends."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "personal wellness stipends",
+    "relation": "experimented_with_by",
+    "value": "companies like Schmidt's clients",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, companies like Schmidt's clients have begun experimenting with four-day workweeks and personal wellness stipends."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "skills gap",
+    "relation": "made_imperative",
+    "value": "companies to invest in training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The skills gap has made it imperative for companies to invest in training programs."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "local Chamber of Commerce",
+    "relation": "brought_together",
+    "value": "smaller manufacturers",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "A recent effort by the local Chamber of Commerce, initiated in October 2023, has brought together smaller manufacturers"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "local Chamber of Commerce",
+    "relation": "provides",
+    "value": "apprenticeships aimed at closing the skills gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide apprenticeships aimed at closing the skills gap"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "local Chamber of Commerce",
+    "relation": "in_order_to",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has brought together smaller manufacturers to provide apprenticeships aimed at closing the skills gap"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Marcus Li",
+    "relation": "role",
+    "value": "a participating business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "explains Marcus Li, a participating business owner."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Marcus Li",
+    "relation": "stated",
+    "value": "We're essentially pooling our resources to create a skilled workforce that benefits us all,",
+    "time": null,
+    "speaker": "Marcus Li",
+    "verbatim": [
+     "We're essentially pooling our resources to create a skilled workforce that benefits us all,"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Applicant Tracking Systems (ATS)",
+    "relation": "can_help",
+    "value": "level the playing field when it comes to reaching out to potential candidates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Applicant Tracking Systems (ATS) and other recruitment software can help level the playing field when it comes to reaching out to potential candidates."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Geraldine Foster",
+    "relation": "role",
+    "value": "Head of HR at a local retail chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Geraldine Foster, Head of HR at a local retail chain,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Geraldine Foster",
+    "relation": "stated",
+    "value": "These tools not only save time but also allow us to access a wider talent pool that we previously couldn't reach.",
+    "time": null,
+    "speaker": "Geraldine Foster",
+    "verbatim": [
+     "These tools not only save time but also allow us to access a wider talent pool that we previously couldn't reach."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Alexander Burke",
+    "relation": "stated",
+    "value": "We've brought on several interns from the nearby college who have brought fresh ideas and energy into our operations,",
+    "time": "December 12, 2023",
+    "speaker": "Alexander Burke",
+    "verbatim": [
+     "We've brought on several interns from the nearby college who have brought fresh ideas and energy into our operations,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alexander Burke",
+    "relation": "role",
+    "value": "owner of an accounting firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alexander Burke, the owner of an accounting firm, on December 12, 2023."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Global Talent Access Program",
+    "relation": "launched_by",
+    "value": "the local government",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Initiatives like the local government's \"Global Talent Access Program,\" launched in September 2023,"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Global Talent Access Program",
+    "relation": "aims_to",
+    "value": "assist small businesses in navigating these waters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to assist small businesses in navigating these waters"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sarah Kim",
+    "relation": "role",
+    "value": "a restaurant owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a restaurant owner,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Sarah Kim",
+    "relation": "hired_best_chef_after",
+    "value": "a casual conversation at a chamber event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Kim, a restaurant owner, recounts how a casual conversation at a chamber event led to hiring her best chef to date."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Thomas Richter",
+    "relation": "stated",
+    "value": "It's about showing your employees that there is growth and potential right where they are,",
+    "time": "January 20, 2024",
+    "speaker": "Thomas Richter",
+    "verbatim": [
+     "\"It's about showing your employees that there is growth and potential right where they are,\""
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Thomas Richter",
+    "relation": "role",
+    "value": "a small business consultant",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "explains Thomas Richter, a small business consultant, on January 20, 2024."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Millennials",
+    "relation": "driven_by",
+    "value": "social responsibility, environmental concerns, and the desire for work-life integration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These groups are often driven by social responsibility, environmental concerns, and the desire for work-life integration."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Gen Z",
+    "relation": "driven_by",
+    "value": "social responsibility, environmental concerns, and the desire for work-life integration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These groups are often driven by social responsibility, environmental concerns, and the desire for work-life integration."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Millennials",
+    "relation": "rise_in_workforce_means",
+    "value": "businesses must align their values and working styles with those of younger generations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rise of Millennials and Gen Z in the workforce means that businesses must align their values and working styles with those of younger generations."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "labor shortage",
+    "relation": "described_as",
+    "value": "an ongoing process that requires flexibility, innovation, and a willingness to adapt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It is an ongoing process that requires flexibility, innovation, and a willingness to adapt."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

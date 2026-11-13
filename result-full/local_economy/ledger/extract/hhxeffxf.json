@@ -1,0 +1,681 @@
+{
+ "inventory": [
+  "Sweet Green",
+  "Sarah Gibson",
+  "Middleton",
+  "climate change",
+  "green certification",
+  "energy-efficient equipment",
+  "plant-based packaging",
+  "single-use plastics",
+  "green baking days",
+  "sustainability networks",
+  "local sustainable packaging producers"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Sweet Green",
+    "relation": "is_a",
+    "value": "a quaint bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Sweet Green\", a quaint bakery in the town of Middleton"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Sweet Green",
+    "relation": "located_in",
+    "value": "Middleton",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a quaint bakery in the town of Middleton"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Middleton",
+    "relation": "is_a",
+    "value": "a town",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the town of Middleton"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sweet Green",
+    "relation": "owned_by",
+    "value": "Sarah Gibson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Owned by Sarah Gibson"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sweet Green",
+    "relation": "overhauled",
+    "value": "its operations, from sourcing local ingredients to minimizing waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had recently taken on the challenge to overhaul its operations, from sourcing local ingredients to minimizing waste"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Gibson",
+    "relation": "said",
+    "value": "Being a part of this community meant that we were responsible for our environmental footprint",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"Being a part of this community meant that we were responsible for our environmental footprint,\" Sarah explained"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sweet Green",
+    "relation": "vision_firmly_involved",
+    "value": "embracing sustainability",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "Sweet Green\u2019s vision for the future firmly involved embracing sustainability."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Gibson",
+    "relation": "began_with",
+    "value": "a simple audit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah's journey began with a simple audit."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Gibson",
+    "relation": "examined",
+    "value": "every aspect of her business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She examined every aspect of her business, from the suppliers she engaged with to how her products were packaged."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sweet Green",
+    "relation": "collaborated_with",
+    "value": "nearby farmers for in-season products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborating with nearby farmers for in-season products"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sweet Green",
+    "relation": "reduced_emissions_associated_with",
+    "value": "transportation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduced emissions associated with transportation"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sweet Green",
+    "relation": "ensured",
+    "value": "freshness and quality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensured freshness and quality"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sweet Green",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborating with nearby farmers for in-season products not only reduced emissions associated with transportation"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Sarah Gibson",
+    "relation": "had_to_rethink",
+    "value": "our recipes at times",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"We had to rethink our recipes at times, working with what\u2019s available locally,\" said Sarah"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Gibson",
+    "relation": "said",
+    "value": "it's brought us closer to our customers who eagerly await our seasonal specialties",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "But, if anything, it's brought us closer to our customers who eagerly await our seasonal specialties."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sweet Green",
+    "relation": "implemented",
+    "value": "energy-efficient equipment",
+    "time": "mid-October",
+    "speaker": null,
+    "verbatim": [
+     "It was mid-October when \"Sweet Green\" implemented energy-efficient equipment"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "energy-efficient equipment",
+    "relation": "curtailed",
+    "value": "energy consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a move that not only curtailed energy consumption"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "energy-efficient equipment",
+    "relation": "brought_down",
+    "value": "operational costs in the long run",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also brought down",
+     "operational costs in the long run."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Sarah Gibson",
+    "relation": "described_investment_as",
+    "value": "a significant investment",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"Upfront, it was a significant investment,\" shared Sarah"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sarah Gibson",
+    "relation": "noticing_savings_on",
+    "value": "our energy bills",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "we are already noticing the savings on our energy bills."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sweet Green",
+    "relation": "customers_appreciate",
+    "value": "that their favorite bakery cares for the future",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "our customers appreciate the fact that their favorite bakery cares for the future."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "energy-efficient equipment",
+    "relation": "is_described_as",
+    "value": "a strategic business decision",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Energy efficiency isn't just an environmental choice; it's a strategic business decision."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sarah Gibson",
+    "relation": "faced",
+    "value": "finding a solution to the packaging problem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most complex hurdles Sarah faced was finding a solution to the packaging problem."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "single-use plastics",
+    "relation": "described_as",
+    "value": "the convenience choice for many small eateries and retail shops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Single-use plastics have long been the convenience choice for many small eateries and retail shops"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Sarah Gibson",
+    "relation": "described_as",
+    "value": "modern-day Gordian knot",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "Sarah described it as a \"modern-day Gordian knot.\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "plant-based packaging",
+    "relation": "had_affordability_issue",
+    "value": "affordability was an issue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovative compostable packaging options did exist, but affordability was an issue."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sarah Gibson",
+    "relation": "demonstrated",
+    "value": "negotiations and bulk purchases from local sustainable packaging producers eventually led to a cost-effective answer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah demonstrated how negotiations and bulk purchases from local sustainable packaging producers eventually led to a cost-effective answer."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "local sustainable packaging producers",
+    "relation": "led_to",
+    "value": "a cost-effective answer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "negotiations and bulk purchases from local sustainable packaging producers eventually led to a cost-effective answer."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "plant-based packaging",
+    "relation": "serves",
+    "value": "pastries",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "Our pastries are now served in plant-based packaging"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "plant-based packaging",
+    "relation": "compostable_by",
+    "value": "our customers can compost at home",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "that our customers can compost at home"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "plant-based packaging",
+    "relation": "has_been",
+    "value": "a big hit",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "which has been a big hit"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "single-use plastics",
+    "relation": "could_be_reduced_with",
+    "value": "persistence and creativity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with persistence and creativity, even small businesses could chip away at reducing plastic dependency."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Sweet Green",
+    "relation": "received",
+    "value": "green certification",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "November 3, 2023, stands as a hallmark day for \"Sweet Green\" as it received a green certification acknowledging its sustainable practices."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "green certification",
+    "relation": "acknowledges",
+    "value": "its sustainable practices",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "received a green certification acknowledging its sustainable practices."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Sweet Green",
+    "relation": "transformed",
+    "value": "its operation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The bakery had not only transformed its operation but cemented its reputation as an eco-conscious establishment."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sweet Green",
+    "relation": "cemented_reputation_as",
+    "value": "an eco-conscious establishment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cemented its reputation as an eco-conscious establishment."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "green certification",
+    "relation": "was",
+    "value": "rigorous",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"The certification process was rigorous,\" admits Sarah"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "green certification",
+    "relation": "forced",
+    "value": "us to look at areas we could still improve",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "but it forced us to look at areas we could still improve."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "green certification",
+    "relation": "resulted_in",
+    "value": "an inspiration and a marketing boon",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The end result was more than a plaque on the wall; it was an inspiration and a marketing boon."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sweet Green",
+    "relation": "uptick_in_business_from",
+    "value": "eco-aware consumers who prioritize spending where sustainability is valued",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "Sarah reports an uptick in business from eco-aware consumers who prioritize spending where sustainability is valued."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sarah Gibson",
+    "relation": "took_on_mantle_of_educating",
+    "value": "her customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah took on the mantle of educating her customers, highlighting the importance of eco-friendly practices in her shop."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Sweet Green",
+    "relation": "started",
+    "value": "workshops and green baking days",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"We started workshops and 'green baking days', inviting people to learn about how we make choices that protect our environment,\" she recounts"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "green baking days",
+    "relation": "purpose",
+    "value": "inviting people to learn about how we make choices that protect our environment",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "inviting people to learn about how we make choices that protect our environment"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Sweet Green",
+    "relation": "knowledge_dissemination_ensured",
+    "value": "customer buy-in and loyalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Knowledge dissemination turned out to be a gem in ensuring customer buy-in and loyalty."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Sarah Gibson",
+    "relation": "faced_obstacle",
+    "value": "adjusting the pricing to offset some of the higher costs associated with sustainable goods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most challenging obstacles was adjusting the pricing to offset some of the higher costs associated with sustainable goods."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Sarah Gibson",
+    "relation": "relied_on",
+    "value": "open communication",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This was where open communication came into play."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Sarah Gibson",
+    "relation": "talked_frankly_with_customers_about",
+    "value": "why our prices had to reflect the true cost of sustainable production",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"We talked frankly with our customers about why our prices had to reflect the true cost of sustainable production,\" mentioned Sarah"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Sweet Green",
+    "relation": "drew_more_people",
+    "value": "even more people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This transparency fostered understanding and, surprisingly, drew even more people into \"Sweet Green.\""
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "sustainability networks",
+    "relation": "joined_by",
+    "value": "many small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many were part of sustainability networks or local green-initiative groups"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Sarah Gibson",
+    "relation": "member_of",
+    "value": "sustainability networks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah was no exception"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Sarah Gibson",
+    "relation": "found_involvement_provided",
+    "value": "motivation, knowledge exchange, and support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she found that being involved in these collectives provided motivation, knowledge exchange, and support."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Sarah Gibson",
+    "relation": "said",
+    "value": "It's comforting and inspiring to see that we aren't alone in this",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"It's comforting and inspiring to see that we aren't alone in this,\" Sarah said."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "sustainability networks",
+    "relation": "acted_as",
+    "value": "a sounding board for ideas and a reminder of the collective impact these businesses had on the environment and local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The wider community of environmentally-conscious businesses acted as a sounding board for ideas and a reminder of the collective impact these businesses had on the environment and local economies."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Sarah Gibson",
+    "relation": "campaign_influenced",
+    "value": "neighboring businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The final and perhaps most satisfying outcome of Sarah's sustainability campaign was the influence it had on neighboring businesses."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Sweet Green",
+    "relation": "proved_catalyst_for",
+    "value": "change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Sweet Green's\" example proved to be a catalyst for change"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Middleton",
+    "relation": "adopting_eco_friendly_practices",
+    "value": "other small establishments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "other small establishments in Middleton started adopting eco-friendly practices."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Sarah Gibson",
+    "relation": "said",
+    "value": "When we demonstrate that sustainability is achievable and beneficial, it's amazing to see how quickly others follow suit",
+    "time": null,
+    "speaker": "Sarah Gibson",
+    "verbatim": [
+     "\"When we demonstrate that sustainability is achievable and beneficial, it's amazing to see how quickly others follow suit,\" shared Sarah"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "climate change",
+    "relation": "has_ushered_imperative_for_small_businesses",
+    "value": "to prioritize environmental responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The continuous drumbeat of climate change, coupled with consumer demand for green practices, has ushered an imperative for small businesses\u2014across all sectors\u2014to prioritize environmental responsibility."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "climate change",
+    "relation": "coupled_with",
+    "value": "consumer demand for green practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The continuous drumbeat of climate change, coupled with consumer demand for green practices,"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "climate change",
+    "relation": "results_in",
+    "value_ref": "c58",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The continuous drumbeat of climate change, coupled with consumer demand for green practices, has ushered an imperative"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

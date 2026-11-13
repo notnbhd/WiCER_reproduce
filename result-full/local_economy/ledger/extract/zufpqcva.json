@@ -1,0 +1,634 @@
+{
+ "inventory": [
+  "Jacob Martinez",
+  "Green Leaf Gardens",
+  "Mae Li",
+  "Circuit Core",
+  "Local Economic Development Agency",
+  "Eric Sanders",
+  "Maria Gonzalez",
+  "Bean There, Done That",
+  "Aaron Patel",
+  "Small Business Support Group",
+  "Alice Thompson",
+  "Small Business Administration",
+  "Jim Richards",
+  "Amanda Bell",
+  "Banks",
+  "crowdfunding platforms",
+  "peer-to-peer lending",
+  "online lenders",
+  "just-in-time inventory system",
+  "tax breaks"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jacob Martinez",
+    "relation": "owner_of",
+    "value": "Green Leaf Gardens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jacob Martinez, the owner of \u2018Green Leaf Gardens,\u2019 a local nursery in town"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Green Leaf Gardens",
+    "relation": "business_type",
+    "value": "local nursery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local nursery in town"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Jacob Martinez",
+    "relation": "said",
+    "value": "we need money to make money, but it seems like you need to have money already to be given more",
+    "time": null,
+    "speaker": "Jacob Martinez",
+    "verbatim": [
+     "The irony is, we need money to make money, but it seems like you need to have money already to be given more,"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Jacob Martinez",
+    "relation": "received",
+    "value": "a stack of declined loan applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "flips through a stack of declined loan applications"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Banks",
+    "relation": "tightened_lending_standards",
+    "value": "lending standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Banks have tightened lending standards"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Banks",
+    "relation": "tightening_reason",
+    "value": "economic uncertainties and mounting regulations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "partly due to economic uncertainties and mounting regulations"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Banks",
+    "relation": "results_in",
+    "value_ref": "c5",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Banks have tightened lending standards, partly due to economic uncertainties and mounting regulations."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Banks",
+    "relation": "demand",
+    "value": "extensive credit history and collateral",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Traditional financial institutions demand extensive credit history and collateral"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Green Leaf Gardens",
+    "relation": "difficulty_providing",
+    "value": "extensive credit history and collateral",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "particularly newcomers like 'Green Leaf Gardens,' find hard to provide"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jacob Martinez",
+    "relation": "has",
+    "value": "robust business plan and proven track record of steady sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite his robust business plan and a proven track record of steady sales"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Jacob Martinez",
+    "relation": "struggling_to",
+    "value": "secure the lifeline his business needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martinez is one of many struggling to jump through the necessary hoops to secure the lifeline his business needs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Local Economic Development Agency",
+    "relation": "released",
+    "value": "a study",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a study released on October 15, 2023, by the Local Economic Development Agency (LEDA)"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Local Economic Development Agency",
+    "relation": "revealed",
+    "value": "60% of small businesses cite cash flow management as their most significant stressor",
+    "time": "October 15, 2023",
+    "speaker": "Local Economic Development Agency",
+    "verbatim": [
+     "revealed that 60% of small businesses cite cash flow management as their most significant stressor, even more than customer acquisition."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Local Economic Development Agency",
+    "relation": "ranks_above",
+    "value": "customer acquisition",
+    "time": "October 15, 2023",
+    "speaker": "Local Economic Development Agency",
+    "verbatim": [
+     "even more than customer acquisition."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mae Li",
+    "relation": "owner_of",
+    "value": "Circuit Core",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For Mae Li, owner of \u2018Circuit Core\u2019, a boutique electronics parts supplier"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Circuit Core",
+    "relation": "business_type",
+    "value": "boutique electronics parts supplier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a boutique electronics parts supplier"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mae Li",
+    "relation": "cash_flow_cause",
+    "value": "the need to pay suppliers upfront combined with the delayed payments from her clients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need to pay suppliers upfront combined with the delayed payments from her clients leads to a precarious cash flow position."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mae Li",
+    "relation": "cash_flow_position",
+    "value": "precarious",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leads to a precarious cash flow position"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mae Li",
+    "relation": "results_in",
+    "value_ref": "c18",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the need to pay suppliers upfront combined with the delayed payments from her clients leads to a precarious cash flow position."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Mae Li",
+    "relation": "said",
+    "value": "There were weeks when I wasn\u2019t sure if I\u2019d be able to pay my employees on time",
+    "time": null,
+    "speaker": "Mae Li",
+    "verbatim": [
+     "There were weeks when I wasn\u2019t sure if I\u2019d be able to pay my employees on time,"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "crowdfunding platforms",
+    "relation": "used_by_small_businesses",
+    "value": "small businesses turning to crowdfunding platforms",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "A recent trend has seen small businesses turning to crowdfunding platforms, peer-to-peer lending, and online financial technology companies."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "peer-to-peer lending",
+    "relation": "used_by_small_businesses",
+    "value": "small businesses turning to peer-to-peer lending",
+    "time": "recent",
+    "speaker": null,
+    "verbatim": [
+     "A recent trend has seen small businesses turning to crowdfunding platforms, peer-to-peer lending, and online financial technology companies."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "crowdfunding platforms",
+    "relation": "offers",
+    "value": "more flexible repayment terms and do not require traditional collateral",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These avenues often offer more flexible repayment terms and do not require traditional collateral."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "peer-to-peer lending",
+    "relation": "offers",
+    "value": "more flexible repayment terms and do not require traditional collateral",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These avenues often offer more flexible repayment terms and do not require traditional collateral."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Eric Sanders",
+    "relation": "occupation",
+    "value": "financial advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Financial advisor Eric Sanders highlights a game-changer in the lending space."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "online lenders",
+    "relation": "securing_funds_uptick",
+    "value": "significant uptick in businesses successfully securing funds through online lenders",
+    "time": null,
+    "speaker": "Eric Sanders",
+    "verbatim": [
+     "We're seeing a significant uptick in businesses successfully securing funds through online lenders."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "online lenders",
+    "relation": "assess_risk",
+    "value": "assess risk differently, using innovative metrics like real-time sales data",
+    "time": null,
+    "speaker": "Eric Sanders",
+    "verbatim": [
+     "These platforms are willing to assess risk differently, often using innovative metrics like real-time sales data, to evaluate a company's creditworthiness,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Maria Gonzalez",
+    "relation": "affiliation",
+    "value": "Bean There, Done That",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez of 'Bean There, Done That,' a local coffee shop chain"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Bean There, Done That",
+    "relation": "business_type",
+    "value": "local coffee shop chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local coffee shop chain"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Maria Gonzalez",
+    "relation": "implemented",
+    "value": "just-in-time inventory system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implemented a just-in-time inventory system that greatly reduced her overhead costs."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "just-in-time inventory system",
+    "relation": "reduced",
+    "value": "overhead costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implemented a just-in-time inventory system that greatly reduced her overhead costs."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Maria Gonzalez",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "implemented a just-in-time inventory system that greatly reduced her overhead costs."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "just-in-time inventory system",
+    "relation": "aligns_orders_with",
+    "value": "sales patterns",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "By aligning our inventory orders more closely with our sales patterns, we've managed to cut down waste and save cash,"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "just-in-time inventory system",
+    "relation": "cut_waste_and_saved_cash",
+    "value": "cut down waste and save cash",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "By aligning our inventory orders more closely with our sales patterns, we've managed to cut down waste and save cash,"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "just-in-time inventory system",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "By aligning our inventory orders more closely with our sales patterns, we've managed to cut down waste and save cash,"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "just-in-time inventory system",
+    "relation": "can_free_up",
+    "value": "working capital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Techniques like these can free up working capital, allowing businesses to be more agile and stable financially."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Mae Li",
+    "relation": "uses",
+    "value": "cloudbased accounting tools to send automated invoice reminders to her clients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li uses cloudbased accounting tools to send automated invoice reminders to her clients"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Mae Li",
+    "relation": "reduces",
+    "value": "average time it takes to receive payments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reducing the average time it takes to receive payments."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Mae Li",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Li uses cloudbased accounting tools to send automated invoice reminders to her clients, reducing the average time it takes to receive payments."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Aaron Patel",
+    "relation": "occupation",
+    "value": "local tech consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Aaron Patel, a local tech consultant, advises small businesses on harnessing data"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Aaron Patel",
+    "relation": "advises",
+    "value": "analyzing sales trends and customer payment behaviors can predict cash flow issues before they occur",
+    "time": null,
+    "speaker": "Aaron Patel",
+    "verbatim": [
+     "By analyzing sales trends and customer payment behaviors, businesses can predict cash flow issues before they occur and take proactive measures."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Small Business Support Group",
+    "relation": "founded_by",
+    "value": "Alice Thompson",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Initiatives like the Small Business Support Group, founded by Alice Thompson on November 12, 2023,"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Alice Thompson",
+    "relation": "founded",
+    "value": "Small Business Support Group",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Small Business Support Group, founded by Alice Thompson on November 12, 2023,"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Small Business Support Group",
+    "relation": "creates",
+    "value": "forums for owners to exchange knowledge and strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "create forums for owners to exchange knowledge and strategies."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Alice Thompson",
+    "relation": "negotiates",
+    "value": "as a collective with suppliers for better terms",
+    "time": null,
+    "speaker": "Alice Thompson",
+    "verbatim": [
+     "negotiate as a collective with suppliers for better terms, and that has improved our individual cash flows significantly,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Alice Thompson",
+    "relation": "improved",
+    "value": "individual cash flows",
+    "time": null,
+    "speaker": "Alice Thompson",
+    "verbatim": [
+     "that has improved our individual cash flows significantly,"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Alice Thompson",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": "Alice Thompson",
+    "verbatim": [
+     "negotiate as a collective with suppliers for better terms, and that has improved our individual cash flows significantly,"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Small Business Administration",
+    "relation": "expanded",
+    "value": "guarantee programs and resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Small Business Administration (SBA) has progressively expanded its guarantee programs and resources"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Jim Richards",
+    "relation": "affiliation",
+    "value": "Small Business Administration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jim Richards of the SBA emphasizes"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Jim Richards",
+    "relation": "said",
+    "value": "Small businesses are the backbone of our economy, and we\u2019re devoted to supporting them with tools and guidance to manage their financial health.",
+    "time": null,
+    "speaker": "Jim Richards",
+    "verbatim": [
+     "Small businesses are the backbone of our economy, and we\u2019re devoted to supporting them with tools and guidance to manage their financial health."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "tax breaks",
+    "relation": "proposed_as",
+    "value": "tax incentives and grants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Proposed tax incentives and grants also offer a beacon of hope."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Amanda Bell",
+    "relation": "occupation",
+    "value": "local council member",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Bell, a local council member, is advocating for the adoption of tax breaks for businesses that reinvest in local economies."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Amanda Bell",
+    "relation": "advocates",
+    "value": "adoption of tax breaks for businesses that reinvest in local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Bell, a local council member, is advocating for the adoption of tax breaks for businesses that reinvest in local economies."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "tax breaks",
+    "relation": "targets",
+    "value": "businesses that reinvest in local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amanda Bell, a local council member, is advocating for the adoption of tax breaks for businesses that reinvest in local economies."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Amanda Bell",
+    "relation": "said",
+    "value": "Keeping money in the community is crucial, and we're exploring ways to lighten the tax burden on those who do",
+    "time": null,
+    "speaker": "Amanda Bell",
+    "verbatim": [
+     "Keeping money in the community is crucial, and we're exploring ways to lighten the tax burden on those who do,"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

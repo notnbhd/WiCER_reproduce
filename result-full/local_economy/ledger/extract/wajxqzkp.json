@@ -1,0 +1,855 @@
+{
+ "inventory": [
+  "Springfield",
+  "Main Street",
+  "E-commerce",
+  "Jennifer Hartley",
+  "Jenn's Jams and Jellies",
+  "David Thompson",
+  "Maria Gonzalez",
+  "Charles Watkins",
+  "Watkins Family Footwear",
+  "Emma Clarke",
+  "Clarke's Crafty Corner",
+  "Etsy",
+  "Shopify",
+  "Robert Yang",
+  "Jamie Faulkner",
+  "local retail",
+  "a global pandemic",
+  "town hall meeting",
+  "workshops on digital literacy and e-commerce tools",
+  "social media",
+  "local economies"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Main Street",
+    "relation": "located_in",
+    "value": "Springfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the once-bustling Main Street of Springfield"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local economies",
+    "relation": "affected_across",
+    "value": "the globe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "weaving through the fabric of local economies across the globe"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "E-commerce",
+    "relation": "dwarfs",
+    "value": "the traditional retail marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ecommerce has become the silent giant dwarfing the traditional retail marketplace"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "E-commerce",
+    "relation": "transforming",
+    "value": "consumer habits and reshaping the contours of business as we know it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its influence transforming consumer habits and reshaping the contours of business as we know it"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Jennifer Hartley",
+    "relation": "age",
+    "value": "60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 60-year-old owner of 'Jenn's Jams and Jellies,'"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jennifer Hartley",
+    "relation": "owner_of",
+    "value": "Jenn's Jams and Jellies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 60-year-old owner of 'Jenn's Jams and Jellies,'"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jennifer Hartley",
+    "relation": "products_were",
+    "value": "the toast of the town",
+    "time": "not too long ago",
+    "speaker": null,
+    "verbatim": [
+     "her products were the toast of the town"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jennifer Hartley",
+    "relation": "recalled",
+    "value": "the pleasure of meeting your customers face-to-face",
+    "time": null,
+    "speaker": "Jennifer Hartley",
+    "verbatim": [
+     "There was nothing like the pleasure of meeting your customers face-to-face"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jennifer Hartley",
+    "relation": "shop_is",
+    "value": "a warehouse",
+    "time": "today",
+    "speaker": "Jennifer Hartley",
+    "verbatim": [
+     "my little shop is a warehouse"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Jennifer Hartley",
+    "relation": "navigates_internet_to",
+    "value": "list her products online",
+    "time": "today",
+    "speaker": null,
+    "verbatim": [
+     "as Hartley navigates the internet to list her products online"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "E-commerce",
+    "relation": "appealed_to",
+    "value": "the masses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ease of online shopping appealed to the masses"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "David Thompson",
+    "relation": "description",
+    "value": "a recent college graduate with a penchant for analytics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "David Thompson, a recent college graduate with a penchant for analytics"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "E-commerce",
+    "relation": "advantage",
+    "value": "they're open 24/7 and reachable from anywhere",
+    "time": "late September 2023",
+    "speaker": "David Thompson",
+    "verbatim": [
+     "E-commerce platforms have this unique advantage\u2014 they're open 24/7 and reachable from anywhere."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "David Thompson",
+    "relation": "insights_echo",
+    "value": "a sentiment understood by consumers and businesses alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Thompson's insights echo a sentiment understood by consumers and businesses alike."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "local retail",
+    "relation": "battles_with",
+    "value": "the unparalleled convenience offered by e-commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local retail has been caught in a battle with a two-headed beast \u2013 the unparalleled convenience offered by e-commerce"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "a global pandemic",
+    "relation": "catalyzed",
+    "value": "society\u2019s pivot towards digital solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a global pandemic that catalyzed society\u2019s pivot towards digital solutions"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "E-commerce",
+    "relation": "scales_teetered_at_expense_of",
+    "value": "local storefronts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the scales have teetered at the expense of local storefronts"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Maria Gonzalez",
+    "relation": "role",
+    "value": "a Springfield city economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, a Springfield city economist"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Springfield",
+    "relation": "has_city_economist",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria Gonzalez, a Springfield city economist"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Maria Gonzalez",
+    "relation": "outlined_shift_during",
+    "value": "a town hall meeting",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "outlined this shift during a town hall meeting on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "town hall meeting",
+    "relation": "held_on",
+    "value": "September 15, 2023",
+    "time": "September 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a town hall meeting on September 15, 2023"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "local retail",
+    "relation": "faces",
+    "value": "reduced foot traffic and increased competition",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "local businesses face reduced foot traffic and increased competition"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "local retail",
+    "relation": "accompanied_by",
+    "value": "layoffs and shuttered shops",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "We can't ignore the accompanying layoffs and shuttered shops"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Maria Gonzalez",
+    "relation": "pointed_to",
+    "value": "the resilience and ingenuity of local entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gonzalez also pointed to the resilience and ingenuity of local entrepreneurs"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "local retail",
+    "relation": "harnessed",
+    "value": "e-commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The most astute amongst them have harnessed e-commerce themselves"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Charles Watkins",
+    "relation": "owner_of",
+    "value": "Watkins Family Footwear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charles Watkins, a third-generation owner of 'Watkins Family Footwear.'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Charles Watkins",
+    "relation": "generation",
+    "value": "third-generation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charles Watkins, a third-generation owner"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Charles Watkins",
+    "relation": "decision",
+    "value": "to list his inventory online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Watkins made the pivotal decision to list his inventory online"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Charles Watkins",
+    "relation": "faced_with",
+    "value": "declining in-store sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When faced with declining in-store sales"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Charles Watkins",
+    "relation": "caused_by",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "When faced with declining in-store sales, Watkins made the pivotal decision to list his inventory online"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Charles Watkins",
+    "relation": "reported_share_of_sales_online",
+    "value": "40% of his sales were generated through his e-commerce site",
+    "time": "September 2023",
+    "speaker": "Charles Watkins",
+    "verbatim": [
+     "By September 2023, he reported that 40% of his sales were generated through his e-commerce site."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Charles Watkins",
+    "relation": "said",
+    "value": "It's about adaptation",
+    "time": null,
+    "speaker": "Charles Watkins",
+    "verbatim": [
+     "It's about adaptation"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Charles Watkins",
+    "relation": "maintains_store_because",
+    "value": "it's part of this town's heritage",
+    "time": null,
+    "speaker": "Charles Watkins",
+    "verbatim": [
+     "We maintain our store because it's part of this town's heritage"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Charles Watkins",
+    "relation": "embraced_web_to",
+    "value": "stay relevant",
+    "time": null,
+    "speaker": "Charles Watkins",
+    "verbatim": [
+     "we've embraced the web to stay relevant"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Charles Watkins",
+    "relation": "integrated",
+    "value": "an online ordering system with in-store pickup options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He integrated an online ordering system with in-store pickup options"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Charles Watkins",
+    "relation": "uses_platform_to",
+    "value": "drive local foot traffic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cleverly using his e-commerce platform to drive local foot traffic"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "local retail",
+    "relation": "transitions_from",
+    "value": "competition to co-existence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the landscape of local retail transitions from one of competition to co-existence"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "local retail",
+    "relation": "embrace",
+    "value": "digital marketplaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As more local businesses like Watkins' embrace digital marketplaces"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "E-commerce",
+    "relation": "giants_provide",
+    "value": "infrastructure for small businesses to sell online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initiatives by e-commerce giants providing infrastructure for small businesses to sell online have burgeoned"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Emma Clarke",
+    "relation": "description",
+    "value": "a recent entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emma Clarke, a recent entrepreneur"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emma Clarke",
+    "relation": "owner_of",
+    "value": "Clarke's Crafty Corner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owner of 'Clarke's Crafty Corner'"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Etsy",
+    "relation": "gave_national_audience",
+    "value": "my handmade crafts a national audience",
+    "time": null,
+    "speaker": "Emma Clarke",
+    "verbatim": [
+     "Platforms like Etsy and Shopify gave my handmade crafts a national audience"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Shopify",
+    "relation": "gave_national_audience",
+    "value": "my handmade crafts a national audience",
+    "time": null,
+    "speaker": "Emma Clarke",
+    "verbatim": [
+     "Platforms like Etsy and Shopify gave my handmade crafts a national audience"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Emma Clarke",
+    "relation": "allowed_to_participate_in",
+    "value": "the local market scene",
+    "time": null,
+    "speaker": "Emma Clarke",
+    "verbatim": [
+     "while still allowing me to participate in the local market scene"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "workshops on digital literacy and e-commerce tools",
+    "relation": "offered_by",
+    "value": "Local governments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local governments, recognizing the intrinsic value of a diverse economy, have started offering workshops on digital literacy and e-commerce tools"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "workshops on digital literacy and e-commerce tools",
+    "relation": "started_offering",
+    "value": "started offering",
+    "time": "as of late 2023",
+    "speaker": null,
+    "verbatim": [
+     "have started offering workshops on digital literacy and e-commerce tools as of late 2023"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "workshops on digital literacy and e-commerce tools",
+    "relation": "recognition_of",
+    "value": "the intrinsic value of a diverse economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local governments, recognizing the intrinsic value of a diverse economy"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "workshops on digital literacy and e-commerce tools",
+    "relation": "aim_to",
+    "value": "stabilize, if not enhance, the local economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These initiatives aim to stabilize, if not enhance, the local economy"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "workshops on digital literacy and e-commerce tools",
+    "relation": "mechanism_of",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aim to stabilize, if not enhance, the local economy by broadening the reach of small businesses"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Main Street",
+    "relation": "spirit_endures_in",
+    "value": "the digital age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Main Street may no longer be the sole heart of retail, but its spirit endures in the digital age."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Robert Yang",
+    "relation": "description",
+    "value": "a retail analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Robert Yang, a retail analyst"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Robert Yang",
+    "relation": "tracking",
+    "value": "this delicate dance between physical and digital sales fronts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been tracking this delicate dance between physical and digital sales fronts"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "E-commerce",
+    "relation": "can_complement",
+    "value": "the local retail experience",
+    "time": null,
+    "speaker": "Robert Yang",
+    "verbatim": [
+     "A well-integrated e-commerce strategy can complement, not necessarily supplant, the local retail experience."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Robert Yang",
+    "relation": "said",
+    "value": "There's a synergy here",
+    "time": null,
+    "speaker": "Robert Yang",
+    "verbatim": [
+     "There's a synergy here"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "local retail",
+    "relation": "retailers_bridge",
+    "value": "online-offline gaps",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as retailers bridge online-offline gaps"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "local retail",
+    "relation": "interactive_websites_offer",
+    "value": "virtual tours of local shops",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offer virtual tours of local shops"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "social media",
+    "relation": "campaigns_highlight",
+    "value": "the stories behind the storefronts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social media campaigns highlight the stories behind the storefronts"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "local economies",
+    "relation": "learning_that",
+    "value": "in the world of e-commerce, personality and provenance carry currency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local economies are learning that in the world of e-commerce, personality and provenance carry currency."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Jamie Faulkner",
+    "relation": "description",
+    "value": "a local business owner turned social media influencer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jamie Faulkner, a local business owner turned social media influencer"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Jamie Faulkner",
+    "relation": "observed",
+    "value": "the potential for social platforms to serve as digital community squares",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "observed the potential for social platforms to serve as digital community squares"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "social media",
+    "relation": "is_about",
+    "value": "creating a space where locals and local businesses can connect in ways they might not in a store",
+    "time": "September 21, 2023",
+    "speaker": "Jamie Faulkner",
+    "verbatim": [
+     "Social media isn't just about reaching consumers; it's about creating a space where locals and local businesses can connect in ways they might not in a store."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "social media",
+    "relation": "not_just_about",
+    "value": "reaching consumers",
+    "time": "September 21, 2023",
+    "speaker": "Jamie Faulkner",
+    "verbatim": [
+     "Social media isn't just about reaching consumers"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "E-commerce",
+    "relation": "accused_of",
+    "value": "impersonality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ecommerce, often accused of impersonality, is finding a role in community-building"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "E-commerce",
+    "relation": "finding_role_in",
+    "value": "community-building",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ecommerce, often accused of impersonality, is finding a role in community-building"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "local retail",
+    "relation": "fostering",
+    "value": "a sense of belonging and communal support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local businesses are fostering a sense of belonging and communal support"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "local retail",
+    "relation": "extends_beyond",
+    "value": "geographical boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that can extend beyond geographical boundaries"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Main Street",
+    "relation": "still_stands",
+    "value": "quieter, maybe, but unbowed",
+    "time": "Today",
+    "speaker": null,
+    "verbatim": [
+     "Today, Main Street still stands \u2013 quieter, maybe, but unbowed"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Main Street",
+    "relation": "cobblestones_echoing_with",
+    "value": "a history of trade and tailoring",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its cobblestones echoing with a history of trade and tailoring"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "local retail",
+    "relation": "displays",
+    "value": "'We're Open' signs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Shops display \"We're Open\" signs with a subtle addendum"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "local retail",
+    "relation": "addendum",
+    "value": "Visit us online",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Visit us online."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "local retail",
+    "relation": "not_succumbing_to",
+    "value": "the goliath of e-commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local retail is not simply succumbing to the goliath of e-commerce."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "local retail",
+    "relation": "finding_voice",
+    "value": "a new voice in the chorus",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's finding a new voice in the chorus"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "local economies",
+    "relation": "new_era_of_opportunity",
+    "value": "a new era of opportunity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "heralds a new era of opportunity for local economies willing to traverse the bridge between brick-and-mortar to bytes and pixels."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "E-commerce",
+    "relation": "impact_on_local_retail",
+    "value": "an unfinished symphony",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The impact of e-commerce on local retail businesses remains an unfinished symphony"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "local retail",
+    "relation": "story_is",
+    "value": "far from over",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The story of local retail and e-commerce is far from over"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

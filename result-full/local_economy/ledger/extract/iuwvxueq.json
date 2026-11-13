@@ -1,0 +1,988 @@
+{
+ "inventory": [
+  "Sarah Blakely",
+  "John Grant",
+  "Timothy Rivera",
+  "Lauren Evans",
+  "Mallory Keaton",
+  "Alex Jensen",
+  "Samantha Wu",
+  "Derek Summers",
+  "a mid-sized marketing firm",
+  "a local tech startup",
+  "a leading e-commerce company",
+  "a popular coffee shop in the suburbs",
+  "a local software firm",
+  "remote work practices",
+  "remote work policies",
+  "the global pandemic",
+  "the early days of the pandemic",
+  "the post-pandemic world",
+  "digital infrastructure",
+  "high-speed internet",
+  "cloud services",
+  "project management tools",
+  "cybersecurity measures",
+  "secure remote access tools",
+  "the local economy",
+  "the job market",
+  "co-working spaces",
+  "coffee shops",
+  "the city",
+  "the suburbs",
+  "urban centers",
+  "less densely populated areas",
+  "rural areas",
+  "work-life balance",
+  "company culture",
+  "virtual happy hours",
+  "remote team-building exercises",
+  "the workplace",
+  "sustainability",
+  "greenhouse gas emissions",
+  "carbon footprint",
+  "the office",
+  "the hybrid model",
+  "employee feedback"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "the global pandemic",
+    "relation": "is_slowly_fading_into",
+    "value": "our collective past",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As the embers of the global pandemic slowly fade into our collective past"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "the job market",
+    "relation": "experienced_shift_toward",
+    "value": "widespread adoption and acclimatization to remote work practices",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Among the most significant shifts experienced in the local economy and job market is the widespread adoption and acclimatization to remote work practices."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "remote work practices",
+    "relation": "is_no_longer",
+    "value": "an accessory to modern business",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "remote work is no longer an accessory to modern business"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "remote work practices",
+    "relation": "has_become",
+    "value": "one of the main engines of modern business",
+    "time": "October 10, 2023",
+    "speaker": null,
+    "verbatim": [
+     "it has become one of its main engines."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "remote work practices",
+    "relation": "driven_by",
+    "value": "necessity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Driven by necessity but sustained by its myriad benefits"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "remote work practices",
+    "relation": "sustained_by",
+    "value": "its myriad benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Driven by necessity but sustained by its myriad benefits"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "the early days of the pandemic",
+    "relation": "caught_off_guard",
+    "value": "many companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The early days of the pandemic caught many companies off-guard."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Blakely",
+    "relation": "head_of",
+    "value": "a mid-sized marketing firm",
+    "time": "March 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sarah Blakely, the head of a mid-sized marketing firm in the city"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "a mid-sized marketing firm",
+    "relation": "located_in",
+    "value": "the city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mid-sized marketing firm in the city"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Blakely",
+    "relation": "sent_employees_home_for",
+    "value": "an indefinite foray into the world of remote work",
+    "time": "March 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "sending her employees home\u2014not for a short hiatus, but for an indefinite foray into the world of remote work"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Blakely",
+    "relation": "joined",
+    "value": "countless other business leaders in sending employees home",
+    "time": "March 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "joined countless other business leaders in sending her employees home"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Blakely",
+    "relation": "discovered",
+    "value": "her team was capable of maintaining productivity remotely",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah, like others, discovered that her team was not only capable of maintaining productivity remotely"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Sarah Blakely",
+    "relation": "reported_team_surpassed",
+    "value": "previous in-office performance metrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in many instances, they surpassed previous in-office performance metrics"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "John Grant",
+    "relation": "founder_of",
+    "value": "a local tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Grant, a local tech startup founder"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "John Grant",
+    "relation": "said",
+    "value": "When we offered our employees the freedom to shape their own workdays, it was like flipping a switch.",
+    "time": null,
+    "speaker": "John Grant",
+    "verbatim": [
+     "When we offered our employees the freedom to shape their own workdays, it was like flipping a switch."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "John Grant",
+    "relation": "said",
+    "value": "Creativity surged",
+    "time": null,
+    "speaker": "John Grant",
+    "verbatim": [
+     "Creativity surged, and our product development cycle actually accelerated."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "a local tech startup",
+    "relation": "product_development_cycle_accelerated",
+    "value": "product development cycle accelerated",
+    "time": null,
+    "speaker": "John Grant",
+    "verbatim": [
+     "our product development cycle actually accelerated."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "digital infrastructure",
+    "relation": "strengthening_necessitated_by",
+    "value": "the transition to remote work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The transition to remote work has necessitated the strengthening of digital infrastructure."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "high-speed internet",
+    "relation": "evolved_from",
+    "value": "a luxury",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Secure and reliable access to high-speed internet has evolved from a luxury to an essential utility, much like electricity or running water."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "high-speed internet",
+    "relation": "has_become",
+    "value": "an essential utility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Secure and reliable access to high-speed internet has evolved from a luxury to an essential utility, much like electricity or running water."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "cloud services",
+    "relation": "invested_in_heavily_by",
+    "value": "companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies are investing heavily in cloud services, project management tools, and cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "project management tools",
+    "relation": "invested_in_heavily_by",
+    "value": "companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies are investing heavily in cloud services, project management tools, and cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "cybersecurity measures",
+    "relation": "invested_in_heavily_by",
+    "value": "companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies are investing heavily in cloud services, project management tools, and cybersecurity measures"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "digital infrastructure",
+    "relation": "invested_in_to",
+    "value": "ensure that their virtual offices are as efficient as their physical ones",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to ensure that their virtual offices are as efficient as their physical ones"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Timothy Rivera",
+    "relation": "works_as_IT_manager_at",
+    "value": "a leading e-commerce company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Timothy Rivera, an IT manager at a leading e-commerce company"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "a leading e-commerce company",
+    "relation": "doubled_investment_in",
+    "value": "secure remote access tools",
+    "time": "September 4, 2023",
+    "speaker": "Timothy Rivera",
+    "verbatim": [
+     "mentioned on September 4, 2023, that his firm had doubled its investment in secure remote access tools."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "remote work practices",
+    "relation": "key_to_effectiveness_is",
+    "value": "making sure your team can collaborate and access resources as if they're sitting right next to each other\u2014even when they're not",
+    "time": null,
+    "speaker": "Timothy Rivera",
+    "verbatim": [
+     "The key to effective remote work practices is making sure your team can collaborate and access resources as if they're sitting right next to each other\u2014even when they're not."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "the local economy",
+    "relation": "renaissance_spurred_by",
+    "value": "the relativity of work location",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The relativity of work location has spurred a renaissance in local economies."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "coffee shops",
+    "relation": "outfitted_with",
+    "value": "robust Wi-Fi",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As coffee shops outfitted with robust Wi-Fi and co-working spaces proliferate to cater to remote professionals"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "co-working spaces",
+    "relation": "proliferate_to_cater_to",
+    "value": "remote professionals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As coffee shops outfitted with robust Wi-Fi and co-working spaces proliferate to cater to remote professionals"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "the local economy",
+    "relation": "shift_in",
+    "value": "spending patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there's been a marked shift in spending patterns."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "urban centers",
+    "relation": "commuting_avoided_by",
+    "value": "people staying local",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rather than commuting to urban centers"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "less densely populated areas",
+    "relation": "small_businesses_reaping_benefits",
+    "value": "the benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "small businesses in less densely populated areas are reaping the benefits."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "less densely populated areas",
+    "relation": "caused_by",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "rather than commuting to urban centers, small businesses in less densely populated areas are reaping the benefits."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lauren Evans",
+    "relation": "manages",
+    "value": "a popular coffee shop in the suburbs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lauren Evans, who manages a popular coffee shop in the suburbs"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Lauren Evans",
+    "relation": "said_coffee_shop_became",
+    "value": "a hotspot for remote workers",
+    "time": null,
+    "speaker": "Lauren Evans",
+    "verbatim": [
+     "We've become a hotspot for remote workers."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "a popular coffee shop in the suburbs",
+    "relation": "is_thriving",
+    "value": "thriving",
+    "time": null,
+    "speaker": "Lauren Evans",
+    "verbatim": [
+     "Our business is thriving because people come here for the ambiance and stay for hours"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "a popular coffee shop in the suburbs",
+    "relation": "attracts_people_who",
+    "value": "come here for the ambiance and stay for hours",
+    "time": null,
+    "speaker": "Lauren Evans",
+    "verbatim": [
+     "people come here for the ambiance and stay for hours"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "a popular coffee shop in the suburbs",
+    "relation": "caused_by",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": "Lauren Evans",
+    "verbatim": [
+     "Our business is thriving because people come here for the ambiance and stay for hours"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "the local economy",
+    "relation": "is_contributed_to_by",
+    "value": "people who stay for hours at the coffee shop",
+    "time": null,
+    "speaker": "Lauren Evans",
+    "verbatim": [
+     "stay for hours, contributing to the local economy."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "remote work practices",
+    "relation": "often_characterized_by",
+    "value": "an increased work-life balance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The allure of remote work is often characterized by an increased work-life balance"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "work-life balance",
+    "relation": "can_be",
+    "value": "elusive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but this equilibrium can be elusive."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "work-life balance",
+    "relation": "employees_expressed_joys_of",
+    "value": "zero commute and the ability to spend more time with family",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees have expressed both the joys of zero commute and the ability to spend more time with family"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "work-life balance",
+    "relation": "employees_expressed_challenges_of",
+    "value": "disconnecting from work and maintaining boundaries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as well as the challenges of disconnecting from work and maintaining boundaries."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Mallory Keaton",
+    "relation": "is",
+    "value": "a graphic designer who works from home",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "says Mallory Keaton, a graphic designer who works from home."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Mallory Keaton",
+    "relation": "said",
+    "value": "The flexibility to attend my daughter's soccer games is incredible",
+    "time": null,
+    "speaker": "Mallory Keaton",
+    "verbatim": [
+     "The flexibility to attend my daughter's soccer games is incredible,"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Mallory Keaton",
+    "relation": "said",
+    "value": "sometimes it's tough to turn off my laptop and stop working",
+    "time": null,
+    "speaker": "Mallory Keaton",
+    "verbatim": [
+     "But sometimes it's tough to turn off my laptop and stop working, knowing that my office is just in the next room."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "the office",
+    "relation": "is_located",
+    "value": "just in the next room",
+    "time": null,
+    "speaker": "Mallory Keaton",
+    "verbatim": [
+     "knowing that my office is just in the next room."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "company culture",
+    "relation": "is_paramount_in",
+    "value": "remote settings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Developing a healthy company culture is paramount in remote settings."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "company culture",
+    "relation": "requires_intentional_fostering_of",
+    "value": "connectivity and engagement among dispersed team members",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leaders must be intentional about fostering connectivity and engagement among dispersed team members."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "virtual happy hours",
+    "relation": "have_become_norm_for",
+    "value": "maintaining morale and camaraderie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual happy hours and remote team-building exercises have become the norm for maintaining morale and camaraderie."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "remote team-building exercises",
+    "relation": "have_become_norm_for",
+    "value": "maintaining morale and camaraderie",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Virtual happy hours and remote team-building exercises have become the norm for maintaining morale and camaraderie."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Alex Jensen",
+    "relation": "is_People_Operations_Director_at",
+    "value": "a local software firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alex Jensen, People Operations Director at a local software firm"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Alex Jensen",
+    "relation": "said_had_to_be_imaginative_with",
+    "value": "team engagement strategies",
+    "time": null,
+    "speaker": "Alex Jensen",
+    "verbatim": [
+     "We've had to be imaginative with our team engagement strategies."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Alex Jensen",
+    "relation": "cited_activities",
+    "value": "virtual escape rooms to online trivia nights",
+    "time": null,
+    "speaker": "Alex Jensen",
+    "verbatim": [
+     "From virtual escape rooms to online trivia nights, it's essential to keep everyone feeling like they're part of a community."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Alex Jensen",
+    "relation": "said_essential_to",
+    "value": "keep everyone feeling like they're part of a community",
+    "time": null,
+    "speaker": "Alex Jensen",
+    "verbatim": [
+     "it's essential to keep everyone feeling like they're part of a community."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "remote work practices",
+    "relation": "has_potential_to_democratize",
+    "value": "the workplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work has the potential to democratize the workplace by removing geographic barriers to employment."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "the workplace",
+    "relation": "democratized_by",
+    "value": "removing geographic barriers to employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Remote work has the potential to democratize the workplace by removing geographic barriers to employment."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "remote work practices",
+    "relation": "opens_up",
+    "value": "a wealth of opportunities for people who may not have been able to commute to an office",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This shift opens up a wealth of opportunities for people who may not have been able to commute to an office"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "rural areas",
+    "relation": "benefit_from_opportunities",
+    "value": "individuals living in rural areas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "including those with disabilities, caretakers, and individuals living in rural areas."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Samantha Wu",
+    "relation": "is",
+    "value": "a remote recruiter",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Wu, a remote recruiter, notes"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Samantha Wu",
+    "relation": "said_tapped_talent_pool_beyond",
+    "value": "our city limits",
+    "time": null,
+    "speaker": "Samantha Wu",
+    "verbatim": [
+     "We've been able to tap into a talent pool beyond our city limits."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Samantha Wu",
+    "relation": "said_enriched",
+    "value": "our workforce diversity",
+    "time": null,
+    "speaker": "Samantha Wu",
+    "verbatim": [
+     "This has not only enriched our workforce diversity"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Samantha Wu",
+    "relation": "said_brought_in",
+    "value": "fresh perspectives that are invaluable to our business's growth",
+    "time": null,
+    "speaker": "Samantha Wu",
+    "verbatim": [
+     "but has brought in fresh perspectives that are invaluable to our business's growth."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "remote work practices",
+    "relation": "has_positive_impact_on",
+    "value": "the environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "An often-overlooked benefit of remote work is its positive impact on the environment."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "greenhouse gas emissions",
+    "relation": "reduced_by",
+    "value": "reduced commuting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reduced commuting means fewer greenhouse gas emissions and a smaller carbon footprint."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "carbon footprint",
+    "relation": "reduced_by",
+    "value": "reduced commuting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Reduced commuting means fewer greenhouse gas emissions and a smaller carbon footprint."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "the office",
+    "relation": "seeing_reduced",
+    "value": "energy consumption and paper waste",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Businesses are also seeing reduced office energy consumption and paper waste"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "sustainability",
+    "relation": "contributes_to",
+    "value": "a greener planet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "contributing to a greener planet."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Derek Summers",
+    "relation": "is_occupation",
+    "value": "Eco-consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eco-consultant Derek Summers comments"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Derek Summers",
+    "relation": "said",
+    "value": "Companies going remote have unintentionally become environmental stewards.",
+    "time": null,
+    "speaker": "Derek Summers",
+    "verbatim": [
+     "Companies going remote have unintentionally become environmental stewards."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "sustainability",
+    "relation": "can_go_hand_in_hand_with",
+    "value": "cost savings",
+    "time": null,
+    "speaker": "Derek Summers",
+    "verbatim": [
+     "They're finding that sustainable practices can go hand in hand with cost savings."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "the office",
+    "relation": "gradual_return_foreseen_by",
+    "value": "some companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While some companies are foreseeing a gradual return to the office"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "the hybrid model",
+    "relation": "blends",
+    "value": "remote work with occasional in-person interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many others are envisaging a future that embraces a hybrid model, blending remote work with occasional in-person interactions."
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "the hybrid model",
+    "relation": "recognizes",
+    "value": "the unique benefits of both setups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach recognizes the unique benefits of both setups and aims to harness the strengths of each."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "the hybrid model",
+    "relation": "aims_to_harness",
+    "value": "the strengths of each",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach recognizes the unique benefits of both setups and aims to harness the strengths of each."
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "remote work policies",
+    "relation": "will_be_continuously_adapted_by",
+    "value": "businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses are expecting to continuously adapt their remote work policies, addressing challenges and embracing opportunities as they arise."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "employee feedback",
+    "relation": "will_be_vital_in",
+    "value": "this ongoing process of refining remote work practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employee feedback will be vital in this ongoing process of refining remote work practices."
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "the post-pandemic world",
+    "relation": "is_context_for",
+    "value": "the future of remote employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As we cast our eyes to the future of remote employment in a post-pandemic world"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "remote work practices",
+    "relation": "have_taken_root_and_are_blossoming_into",
+    "value": "long-term employment trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the changes brought on by necessity have taken root and are blossoming into long-term employment trends."
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "remote work practices",
+    "relation": "evolved_into",
+    "value": "a paradigm shift",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What started as a quick pivot has evolved into a paradigm shift"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "the local economy",
+    "relation": "is_altered_by",
+    "value": "how we work, connect, and contribute to our local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "altering how we work, connect, and contribute to our local economies."
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "the workplace",
+    "relation": "is_described_as",
+    "value": "a thing you do, not a place you go",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "carving out a future where work is not a place you go, but a thing you do"
+    ]
+   },
+   {
+    "id": "c84",
+    "entity": "remote work practices",
+    "relation": "led_by",
+    "value": "innovation and adaptability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with innovation and adaptability leading the way."
+    ]
+   },
+   {
+    "id": "c85",
+    "entity": "remote work practices",
+    "relation": "navigated_by",
+    "value": "businesses and employees alike",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses and employees alike are navigating this new norm"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

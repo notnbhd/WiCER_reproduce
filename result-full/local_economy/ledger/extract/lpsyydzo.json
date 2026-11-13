@@ -1,0 +1,782 @@
+{
+ "inventory": [
+  "Norway",
+  "Sweden",
+  "Finland",
+  "Scandinavian model",
+  "Karl Lundqvist",
+  "Eastern European countries",
+  "Hungary",
+  "Estonia",
+  "Zoltan Papp",
+  "Laffer Curve",
+  "Italy",
+  "Rome",
+  "Gemma Rossi",
+  "tax evasion",
+  "United States",
+  "Corporate Tax Cut",
+  "Singapore",
+  "France",
+  "Marie Dubois",
+  "Gini coefficient",
+  "International Monetary Fund",
+  "Australia",
+  "income distribution"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Norway",
+    "relation": "uses_tax_system",
+    "value": "progressive taxation system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Norway, Sweden, and Finland, often lauded for their high living standards and low income inequality, utilize a progressive taxation system"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Norway",
+    "relation": "lauded_for",
+    "value": "high living standards and low income inequality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often lauded for their high living standards and low income inequality"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sweden",
+    "relation": "uses_tax_system",
+    "value": "progressive taxation system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Norway, Sweden, and Finland, often lauded for their high living standards and low income inequality, utilize a progressive taxation system"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Sweden",
+    "relation": "lauded_for",
+    "value": "high living standards and low income inequality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often lauded for their high living standards and low income inequality"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Finland",
+    "relation": "uses_tax_system",
+    "value": "progressive taxation system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Countries like Norway, Sweden, and Finland, often lauded for their high living standards and low income inequality, utilize a progressive taxation system"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Finland",
+    "relation": "lauded_for",
+    "value": "high living standards and low income inequality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often lauded for their high living standards and low income inequality"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sweden",
+    "relation": "employs_tax_model",
+    "value": "a tax model where individuals earning above a certain threshold are subjected to state income tax on top of the basic municipal tax",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 2023, for example, Sweden employs a tax model where individuals earning above a certain threshold are subjected to state income tax on top of the basic municipal tax"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sweden",
+    "relation": "top_marginal_tax_rate",
+    "value": "close to 60%",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "leading to a top marginal tax rate close to 60%"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sweden",
+    "relation": "results_in",
+    "value_ref": "c8",
+    "time": "As of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "subjected to state income tax on top of the basic municipal tax, leading to a top marginal tax rate close to 60%"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Scandinavian model",
+    "relation": "taxes_individuals_at",
+    "value": "increasing rates as their income grows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In this framework, individuals are taxed at increasing rates as their income grows."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Karl Lundqvist",
+    "relation": "argues",
+    "value": "the Scandinavian model demonstrates that high taxation rates, when paired with extensive welfare provisions, do not necessarily impede economic growth",
+    "time": null,
+    "speaker": "Karl Lundqvist",
+    "verbatim": [
+     "Economists like Karl Lundqvist argue that the Scandinavian model demonstrates that high taxation rates, when paired with extensive welfare provisions, do not necessarily impede economic growth"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Karl Lundqvist",
+    "relation": "profession",
+    "value": "economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Economists like Karl Lundqvist"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Scandinavian model",
+    "relation": "demonstrates",
+    "value": "high taxation rates, when paired with extensive welfare provisions, do not necessarily impede economic growth",
+    "time": null,
+    "speaker": "Karl Lundqvist",
+    "verbatim": [
+     "the Scandinavian model demonstrates that high taxation rates, when paired with extensive welfare provisions, do not necessarily impede economic growth"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Scandinavian model",
+    "relation": "can_promote",
+    "value": "a more equitable income distribution, reducing the wealth gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such a system can promote a more equitable income distribution, reducing the wealth gap"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Eastern European countries",
+    "relation": "adopted",
+    "value": "flat tax systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "several Eastern European countries have adopted flat tax systems"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Eastern European countries",
+    "relation": "flat_tax_definition",
+    "value": "all taxpayers, regardless of income level, pay the same percentage of their income in taxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all taxpayers, regardless of income level, pay the same percentage of their income in taxes"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Hungary",
+    "relation": "uses_single_tax_rate",
+    "value": "a single tax rate for personal income",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nations like Hungary and Estonia have set the standard with a single tax rate for personal income"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Hungary",
+    "relation": "personal_income_tax_rate",
+    "value": "15%",
+    "time": "as of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "which currently stands at 15% and 20%, respectively, regardless of earnings as of September 2023"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Estonia",
+    "relation": "personal_income_tax_rate",
+    "value": "20%",
+    "time": "as of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "which currently stands at 15% and 20%, respectively, regardless of earnings as of September 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Zoltan Papp",
+    "relation": "position_held",
+    "value": "Hungarian Finance Minister",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hungarian Finance Minister Zoltan Papp"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Zoltan Papp",
+    "relation": "proclaims",
+    "value": "simplicity, transparency, and the encouragement of economic participation are the system\u2019s cornerstones",
+    "time": null,
+    "speaker": "Zoltan Papp",
+    "verbatim": [
+     "proclaim that simplicity, transparency, and the encouragement of economic participation are the system\u2019s"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Eastern European countries",
+    "relation": "benefits_overshadowed_by",
+    "value": "the undue burden placed on low-income earners and the potential for widened income disparities",
+    "time": null,
+    "speaker": "Critics",
+    "verbatim": [
+     "these benefits may be overshadowed by the undue burden placed on low-income earners and the potential for widened income disparities"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Italy",
+    "relation": "case_study_for",
+    "value": "examining the Laffer Curve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Italy has often been a case study for economists examining the Laffer Curve"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Laffer Curve",
+    "relation": "postulates",
+    "value": "there is an optimal tax rate that maximizes government revenue without discouraging the incentive to work or invest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which postulates that there is an optimal tax rate that maximizes government revenue without discouraging the incentive to work or invest"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Italy",
+    "relation": "plagued_by",
+    "value": "high tax rates historically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Italy, plagued by high tax rates historically"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Italy",
+    "relation": "struggled_with",
+    "value": "substantial tax evasion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has struggled with substantial tax evasion"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "tax evasion",
+    "relation": "skews",
+    "value": "income distribution figures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This has skewed income distribution figures"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "tax evasion",
+    "relation": "mechanism",
+    "value": "individuals and businesses failing to report total earnings effectively reduce their tax liability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as individuals and businesses failing to report total earnings effectively reduce their tax liability"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "tax evasion",
+    "relation": "results_in",
+    "value": "a disproportionate burden on honest taxpayers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leading to a disproportionate burden on honest taxpayers"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "tax evasion",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "individuals and businesses failing to report total earnings effectively reduce their tax liability, leading to a disproportionate burden on honest taxpayers"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Rome",
+    "relation": "reforms_announced_in",
+    "value": "recent reforms",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Recent reforms announced in Rome on September 10th, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Rome",
+    "relation": "reforms_aim_to",
+    "value": "combat this issue by reducing the top marginal tax rate and strengthening anti-evasion measures",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Recent reforms announced in Rome on September 10th, 2023, aim to combat this issue by reducing the top marginal tax rate and strengthening anti-evasion measures"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Italy",
+    "relation": "reform_reduces",
+    "value": "the top marginal tax rate",
+    "time": "September 10th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "by reducing the top marginal tax rate and strengthening anti-evasion measures"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Gemma Rossi",
+    "relation": "position_held",
+    "value": "Analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Analyst Gemma Rossi"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Gemma Rossi",
+    "relation": "explains",
+    "value": "by reducing the inclination to evade taxes and ensuring a fairer system of collection, Italy is seeking to foster a healthier income distribution while maintaining fiscal responsibility",
+    "time": null,
+    "speaker": "Gemma Rossi",
+    "verbatim": [
+     "Analyst Gemma Rossi explains that by reducing the inclination to evade taxes and ensuring a fairer system of collection, Italy is seeking to foster a healthier income distribution while maintaining fiscal responsibility"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Italy",
+    "relation": "seeks_to_foster",
+    "value": "a healthier income distribution while maintaining fiscal responsibility",
+    "time": null,
+    "speaker": "Gemma Rossi",
+    "verbatim": [
+     "Italy is seeking to foster a healthier income distribution while maintaining fiscal responsibility"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Italy",
+    "relation": "in_order_to",
+    "value_ref": "c36",
+    "time": null,
+    "speaker": "Gemma Rossi",
+    "verbatim": [
+     "by reducing the inclination to evade taxes and ensuring a fairer system of collection, Italy is seeking to foster a healthier income distribution"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "income distribution",
+    "relation": "not_solely_contingent_on",
+    "value": "personal income tax rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Income distribution is not solely contingent on personal income tax rates"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "income distribution",
+    "relation": "corporate_taxes_play_role_in",
+    "value": "a significant role",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "corporate taxes also play a significant role"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "income distribution",
+    "relation": "narrowed_or_widened_by",
+    "value": "taxation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sophisticated tool that can either narrow or widen the income gap among citizens"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "income distribution",
+    "relation": "exacerbated_by",
+    "value": "ineffective tax policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ineffective tax policies can exacerbate inequality"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "United States",
+    "relation": "underwent_overhaul",
+    "value": "a significant overhaul with the Corporate Tax Cut",
+    "time": "late 2022",
+    "speaker": null,
+    "verbatim": [
+     "The United States, for instance, underwent a significant overhaul with the Corporate Tax Cut introduced in late 2022"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Corporate Tax Cut",
+    "relation": "introduced_in",
+    "value": "late 2022",
+    "time": "late 2022",
+    "speaker": null,
+    "verbatim": [
+     "the Corporate Tax Cut introduced in late 2022"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Corporate Tax Cut",
+    "relation": "aimed_to",
+    "value": "bolster economic competitiveness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This measure aimed to bolster economic competitiveness"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Corporate Tax Cut",
+    "relation": "lowered_corporate_tax_rate_from",
+    "value": "28%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by lowering the corporate tax rate from 28% to 21%"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Corporate Tax Cut",
+    "relation": "lowered_corporate_tax_rate_to",
+    "value": "21%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by lowering the corporate tax rate from 28% to 21%"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Corporate Tax Cut",
+    "relation": "in_order_to",
+    "value_ref": "c44",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This measure aimed to bolster economic competitiveness by lowering the corporate tax rate from 28% to 21%"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Corporate Tax Cut",
+    "relation": "witnessed_investment_growth_in",
+    "value": "certain sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While certain sectors witnessed investment growth"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Corporate Tax Cut",
+    "relation": "benefits_not_filtered_down",
+    "value": "the benefits haven't filtered down as expected",
+    "time": null,
+    "speaker": "some economists",
+    "verbatim": [
+     "some economists argue that the benefits haven't filtered down as expected"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "United States",
+    "relation": "wage_growth",
+    "value": "stagnant for the middle class",
+    "time": null,
+    "speaker": "some economists",
+    "verbatim": [
+     "with wage growth remaining stagnant for the middle class"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Singapore",
+    "relation": "corporate_tax_rate_flat",
+    "value": "17%",
+    "time": "as of September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Singapore's corporate tax rate as of September 2023 remains at a flat 17%"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Singapore",
+    "relation": "ensures_income_redistribution_via",
+    "value": "a high level of government expenditure on public services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the nation ensures income redistribution via a high level of government expenditure on public services"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Singapore",
+    "relation": "uses",
+    "value": "a significant degree of economic intervention to support low-income workers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a significant degree of economic intervention to support low-income workers"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "income distribution",
+    "relation": "balanced_by",
+    "value": "well-targeted social policies funded by appropriate tax revenues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Well-targeted social policies funded by appropriate tax revenues can balance the scales of income inequality"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "France",
+    "relation": "lowered_gini_coefficient_via",
+    "value": "aggressive taxation and redistribution policies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aggressive taxation and redistribution policies have played a significant role in lowering the nation's Gini coefficient"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Gini coefficient",
+    "relation": "is_a",
+    "value": "a common measure of income inequality",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Gini coefficient\u2014a common measure of income inequality"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Marie Dubois",
+    "relation": "profession",
+    "value": "French economist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As outlined by French economist Marie Dubois"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "France",
+    "relation": "taxes_funneled_into",
+    "value": "extensive social programs, including education, healthcare, and unemployment benefits",
+    "time": null,
+    "speaker": "Marie Dubois",
+    "verbatim": [
+     "taxes collected are funneled into extensive",
+     "social programs, including education, healthcare, and unemployment benefits"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "France",
+    "relation": "underpins",
+    "value": "a robust social safety net that preserves a more balanced income distribution",
+    "time": null,
+    "speaker": "Marie Dubois",
+    "verbatim": [
+     "underpinning a robust social safety net that preserves a more balanced income distribution"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "France",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": "Marie Dubois",
+    "verbatim": [
+     "taxes collected are funneled into extensive",
+     "social programs, including education, healthcare, and unemployment benefits, underpinning a robust social safety net"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "International Monetary Fund",
+    "relation": "published_study",
+    "value": "a study",
+    "time": "September 15th, 2023",
+    "speaker": "International Monetary Fund",
+    "verbatim": [
+     "According to a study published on September 15th, 2023, by the International Monetary Fund"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Australia",
+    "relation": "adopts",
+    "value": "moderate progressive tax rates complemented by growth-friendly policies",
+    "time": null,
+    "speaker": "International Monetary Fund",
+    "verbatim": [
+     "such as Australia, strike a fine balance by adopting moderate progressive tax rates complemented by growth-friendly policies"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Australia",
+    "relation": "cited_as_example_of",
+    "value": "synergy between taxation, growth, and income distribution",
+    "time": null,
+    "speaker": "International Monetary Fund",
+    "verbatim": [
+     "economies that have managed to find a synergy between taxation, growth, and income distribution, such as Australia"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Italy",
+    "relation": "battle_against",
+    "value": "evasion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Italy's battle against evasion"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "United States",
+    "relation": "has_corporate_strategy",
+    "value": "corporate strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "America's corporate strategy"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "France",
+    "relation": "has_redistributive_efforts",
+    "value": "redistributive efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "France's redistributive efforts"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Scandinavian model",
+    "relation": "features",
+    "value": "progressive rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scandinavia's progressive rates"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Eastern European countries",
+    "relation": "features",
+    "value": "flat taxes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eastern Europe's flat taxes"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

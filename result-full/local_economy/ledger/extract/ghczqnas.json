@@ -1,0 +1,705 @@
+{
+ "inventory": [
+  "Sarah Johnson",
+  "Global Renewable Energy Agency",
+  "solar energy",
+  "wind energy",
+  "renewable energy",
+  "SunTech Power Inc.",
+  "Mark Thompson",
+  "California",
+  "WindWork Alliance",
+  "Edward Gustavson",
+  "Midwest",
+  "New Horizons Technical Institute",
+  "Emily Chang",
+  "green technology",
+  "U.S. government",
+  "Clean Energy Initiative",
+  "Henry Rodriguez",
+  "Equal Opportunity Energy Council",
+  "Texas",
+  "Arizona",
+  "Nevada",
+  "European nations",
+  "Asian countries",
+  "China",
+  "Google",
+  "Amazon",
+  "corporate social responsibility (CSR)",
+  "fossil fuel industry",
+  "green energy sector",
+  "offshore wind industry",
+  "solar panels"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "green energy sector",
+    "relation": "has_seen",
+    "value": "significant transformations",
+    "time": "in recent years",
+    "speaker": null,
+    "verbatim": [
+     "The landscape of the employment market has seen significant transformations in recent years, especially within the green energy sector."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "renewable energy",
+    "relation": "promises",
+    "value": "economic and employment opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the buzz around solar, wind, and other renewable energy sources is not merely about their environmental benefits but also about the economic and employment opportunities they promise"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "renewable energy",
+    "relation": "job_openings_surge",
+    "value": "an unprecedented surge in job openings",
+    "time": "Between September 2023 and February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Between September 2023 and February 2024, the renewable energy sector witnessed an unprecedented surge in job openings."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Global Renewable Energy Agency",
+    "relation": "reported_job_increase",
+    "value": "15%",
+    "time": "the same period in the previous year",
+    "speaker": "Global Renewable Energy Agency",
+    "verbatim": [
+     "the number of jobs within solar, wind, and other renewable sources increased by 15% compared to the same period in the previous year."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Johnson",
+    "relation": "job_title",
+    "value": "lead research analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, the agency's lead research analyst,"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Johnson",
+    "relation": "attributed_growth_to",
+    "value": "enhanced government policies, technological advancements, and a stronger commitment from corporations to reduce their carbon footprint",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "Sarah Johnson, the agency's lead research analyst, attributed this growth to enhanced government policies, technological advancements, and a stronger commitment from corporations to reduce their carbon footprint."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "solar energy",
+    "relation": "has_been",
+    "value": "a leading force in this employment trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solar energy, in particular, has been a leading force in this employment trend."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "solar panels",
+    "relation": "have_become",
+    "value": "significant job generators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The installation, manufacturing, and maintenance of solar panels have become significant job generators."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "SunTech Power Inc.",
+    "relation": "description",
+    "value": "one of the largest solar panel manufacturers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SunTech Power Inc., one of the largest solar panel manufacturers"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "SunTech Power Inc.",
+    "relation": "announced_opening_of",
+    "value": "a new production facility in California",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced the opening of a new production facility in California"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "SunTech Power Inc.",
+    "relation": "created_jobs",
+    "value": "over 2,000 jobs",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "creating over 2,000 jobs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "SunTech Power Inc.",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "verbatim": [
+     "announced the opening of a new production facility in California, creating over 2,000 jobs."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mark Thompson",
+    "relation": "job_title",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO Mark Thompson commented"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mark Thompson",
+    "relation": "said",
+    "value": "testament to SunTech's growth and to the robust future for solar power",
+    "time": null,
+    "speaker": "Mark Thompson",
+    "verbatim": [
+     "This expansion is not only a testament to SunTech's growth but also to the robust future for solar power and its potential to overhaul our job market."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "wind energy",
+    "relation": "contributes_to",
+    "value": "the green job market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Wind energy is not far behind in contributing to the green job market."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "offshore wind industry",
+    "relation": "poised_for",
+    "value": "expansion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the offshore wind industry poised for expansion"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "offshore wind industry",
+    "relation": "coastal_regions_benefited_from",
+    "value": "job creation in construction and ongoing operational support",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "coastal regions have benefited from job creation in construction and ongoing operational support."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "WindWork Alliance",
+    "relation": "is_a",
+    "value": "a conglomerate of wind energy companies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The WindWork Alliance, a conglomerate of wind energy companies"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "WindWork Alliance",
+    "relation": "reported",
+    "value": "a joint initiative launched in December 2023 to train and employ over 5,000 people in the Midwest",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "reported a joint initiative launched in December 2023 to train and employ over 5,000 people in the Midwest."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "WindWork Alliance",
+    "relation": "plans_to_train_and_employ",
+    "value": "over 5,000 people",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "to train and employ over 5,000 people in the Midwest"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "WindWork Alliance",
+    "relation": "initiative_location",
+    "value": "Midwest",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "train and employ over 5,000 people in the Midwest"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Edward Gustavson",
+    "relation": "job_title",
+    "value": "Alliance spokesperson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alliance spokesperson, Edward Gustavson."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Edward Gustavson",
+    "relation": "said",
+    "value": "The wind is a resource we\u2019re just beginning to tap into",
+    "time": null,
+    "speaker": "Edward Gustavson",
+    "verbatim": [
+     "The wind is a resource we\u2019re just beginning to tap into,"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Edward Gustavson",
+    "relation": "said",
+    "value": "It represents a source of both renewable energy and sustainable employment for generations to come",
+    "time": null,
+    "speaker": "Edward Gustavson",
+    "verbatim": [
+     "It represents a source of both renewable energy and sustainable employment for generations to come."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "green technology",
+    "relation": "has_training_programs",
+    "value": "specialized training programs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering specialized training programs in green technology."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "New Horizons Technical Institute",
+    "relation": "unveiled",
+    "value": "a curriculum centered around renewable energy technologies",
+    "time": "In October 2023",
+    "speaker": null,
+    "verbatim": [
+     "In October 2023, New Horizons Technical Institute unveiled a curriculum centered around renewable energy technologies, designed to equip students for this burgeoning field."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "New Horizons Technical Institute",
+    "relation": "curriculum_purpose",
+    "value": "to equip students for this burgeoning field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to equip students for this burgeoning field."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emily Chang",
+    "relation": "job_title",
+    "value": "Institute director",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Institute director Emily Chang stated,"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emily Chang",
+    "relation": "said",
+    "value": "providing hands-on experience in solar and wind energy applications to meet the industry's demand for skilled professionals",
+    "time": null,
+    "speaker": "Emily Chang",
+    "verbatim": [
+     "We\u2019re not just teaching theory; we're providing hands-on experience in solar and wind energy applications to meet the industry's demand for skilled professionals."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "green energy sector",
+    "relation": "bolstered_by",
+    "value": "incentives introduced by governments worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Governments worldwide have been introducing incentives to bolster the green energy sector."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "green energy sector",
+    "relation": "tax_credits_grants_subsidies_role",
+    "value": "a pivotal role in encouraging investments and, consequently, employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tax credits, grants, and subsidies have played a pivotal role in encouraging investments and, consequently, employment."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Clean Energy Initiative",
+    "relation": "announced_by",
+    "value": "U.S. government",
+    "time": "the fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "The Clean Energy Initiative, announced by the U.S. government in the fall of 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "U.S. government",
+    "relation": "announced",
+    "value": "Clean Energy Initiative",
+    "time": "the fall of 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced by the U.S. government in the fall of 2023"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Clean Energy Initiative",
+    "relation": "aimed_at",
+    "value": "investing $50 billion into renewable energy projects",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aimed at investing $50 billion into renewable energy projects."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Henry Rodriguez",
+    "relation": "job_title",
+    "value": "economic advisor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "opined economic advisor, Henry Rodriguez."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Henry Rodriguez",
+    "relation": "said",
+    "value": "These funds are expected to generate jobs that can sustain families and communities, especially in areas hit hard by industrial decline",
+    "time": null,
+    "speaker": "Henry Rodriguez",
+    "verbatim": [
+     "These funds are expected to generate jobs that can sustain families and communities, especially in areas hit hard by industrial decline"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Equal Opportunity Energy Council",
+    "relation": "reported",
+    "value": "an increase in minority representation and gender parity within green energy roles",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Reports from the Equal Opportunity Energy Council, dated February 2024, illustrated promising statistics indicating an increase in minority representation and gender parity within green energy roles."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "green energy sector",
+    "relation": "positioned_itself_as",
+    "value": "an industry committed to inclusivity",
+    "time": "in its nascent stages",
+    "speaker": null,
+    "verbatim": [
+     "The green energy sector, in its nascent stages, has positioned itself as an industry committed to inclusivity."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Texas",
+    "relation": "known_for",
+    "value": "its oil legacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Texas, known for its oil legacy"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Texas",
+    "relation": "turned_plains_into",
+    "value": "lucrative grounds for wind energy farms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has turned its windy plains into lucrative grounds for wind energy farms"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Texas",
+    "relation": "job_market",
+    "value": "job market boom",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consequently seeing a job market boom"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Texas",
+    "relation": "results_in",
+    "value_ref": "c41",
+    "verbatim": [
+     "has turned its windy plains into lucrative grounds for wind energy farms, consequently seeing a job market boom."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Arizona",
+    "relation": "solar_thriving",
+    "value": "solar thriving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solar has been thriving in states like Arizona and Nevada"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Nevada",
+    "relation": "solar_thriving",
+    "value": "solar thriving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solar has been thriving in states like Arizona and Nevada"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Arizona",
+    "relation": "sunshine_is",
+    "value": "abundant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where sunshine is abundant and state regulations are amenable to solar farm constructions."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Nevada",
+    "relation": "sunshine_is",
+    "value": "abundant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where sunshine is abundant and state regulations are amenable to solar farm constructions."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Arizona",
+    "relation": "regulations_amenable_to_solar_farm_construction",
+    "value": "state regulations are amenable to solar farm constructions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "state regulations are amenable to solar farm constructions."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Nevada",
+    "relation": "regulations_amenable_to_solar_farm_construction",
+    "value": "state regulations are amenable to solar farm constructions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "state regulations are amenable to solar farm constructions."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "European nations",
+    "relation": "historically_led",
+    "value": "renewable energy employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "European nations have historically taken the lead in renewable energy employment"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Asian countries",
+    "relation": "making_significant_strides",
+    "value": "significant strides",
+    "time": "the recent shift",
+    "speaker": null,
+    "verbatim": [
+     "the recent shift has seen Asian countries making significant strides."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "China",
+    "relation": "aggressively_expanding",
+    "value": "its solar manufacturing capability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "China, for instance, has been aggressively expanding its solar manufacturing capability"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "China",
+    "relation": "influenced",
+    "value": "job growth domestically and internationally",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which in turn has influenced job growth domestically and internationally."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "China",
+    "relation": "results_in",
+    "value_ref": "c52",
+    "verbatim": [
+     "China, for instance, has been aggressively expanding its solar manufacturing capability, which in turn has influenced job growth domestically and internationally."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "corporate social responsibility (CSR)",
+    "relation": "has_steered",
+    "value": "companies towards investing in clean energy solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Corporate social responsibility (CSR) has steered companies towards investing in clean energy solutions."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Google",
+    "relation": "pledged",
+    "value": "to power their operations with 100% renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Big players such as Google and Amazon have pledged to power their operations with 100% renewable energy"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Amazon",
+    "relation": "pledged",
+    "value": "to power their operations with 100% renewable energy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Big players such as Google and Amazon have pledged to power their operations with 100% renewable energy"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Google",
+    "relation": "paves_way_for",
+    "value": "more green jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a move that paves the way for more green jobs and sends a powerful message to shareholders and customers alike"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "fossil fuel industry",
+    "relation": "may_face",
+    "value": "downsizing",
+    "time": null,
+    "speaker": "Economists",
+    "verbatim": [
+     "Economists predict that while the fossil fuel industry may face downsizing"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "green energy sector",
+    "relation": "transition_bridged_by",
+    "value": "retraining programs",
+    "time": null,
+    "speaker": "Economists",
+    "verbatim": [
+     "retraining programs can help bridge the transition to greener energy professions."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "green energy sector",
+    "relation": "faces_challenges",
+    "value": "skill gaps and job displacements in traditional industries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "challenges such as skill gaps and job displacements in traditional industries exist."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "green energy sector",
+    "relation": "expected_to_grow",
+    "value": "the number of jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the industry evolves, the number of jobs is only expected to grow"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

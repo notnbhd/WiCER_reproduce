@@ -1,0 +1,712 @@
+{
+ "inventory": [
+  "Anthony Weaver",
+  "Inventive Hub",
+  "Idea-Investment program",
+  "Maria Gonzalez",
+  "Eco-Nest",
+  "Jackson O'Reilly",
+  "Heel the Sole",
+  "Lucy Nguyen",
+  "Artify",
+  "Chris Martin",
+  "DineMine",
+  "Samantha Doyle",
+  "Boutique Canvas",
+  "Jake Hardin",
+  "Makerspace Loft",
+  "Silicon Valley",
+  "Wall Street",
+  "circular economy",
+  "sharing economy",
+  "maker movement"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Silicon Valley",
+    "relation": "has",
+    "value": "tech giants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Silicon Valley's tech giants"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Wall Street",
+    "relation": "has",
+    "value": "financial juggernauts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the financial juggernauts of Wall Street"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Anthony Weaver",
+    "relation": "former_occupation",
+    "value": "tech consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthony Weaver, a former tech consultant,"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Anthony Weaver",
+    "relation": "launched",
+    "value": "Inventive Hub",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Anthony Weaver, a former tech consultant, launched the co-creative space 'Inventive Hub' on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Inventive Hub",
+    "relation": "located_in",
+    "value": "lively downtown area",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nestled in the lively downtown area, Inventive Hub redefines collaborative environments."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Anthony Weaver",
+    "relation": "envisioned",
+    "value": "a space where creatives from various industries\u2014graphic designers, software developers, artists, and writers\u2014could converge, share ideas, and innovate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthony envisioned a space where creatives from various industries\u2014graphic designers, software developers, artists, and writers\u2014could converge, share ideas, and innovate."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Anthony Weaver",
+    "relation": "noted",
+    "value": "the isolation freelance creatives often grapple with",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Anthony's epiphany came when he noted the isolation freelance creatives often grapple with."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Inventive Hub",
+    "relation": "described_as",
+    "value": "a desk or a Wi-Fi connection is not all it is about",
+    "time": null,
+    "speaker": "Anthony Weaver",
+    "verbatim": [
+     "Inventive Hub isn't just about providing a desk or a Wi-Fi connection"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Inventive Hub",
+    "relation": "operates_on",
+    "value": "subscription model",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Inventive Hub operates on a subscription model"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Inventive Hub",
+    "relation": "has_program",
+    "value": "Idea-Investment program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "what sets it apart is its 'Idea-Investment' program"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Idea-Investment program",
+    "relation": "helps_secure",
+    "value": "funding for successful projects in exchange for a small share of future profits or a stake in the intellectual property",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its 'Idea-Investment' program, which helps successful projects secure funding in exchange for a small share of future profits or a stake in the intellectual property"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Maria Gonzalez",
+    "relation": "launched",
+    "value": "Eco-Nest",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 1, 2023, Maria Gonzalez transformed her passion for the environment into a thriving business.",
+     "Her venture, 'Eco-Nest',"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Eco-Nest",
+    "relation": "business_model",
+    "value": "entirely predicated on sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced the community to a business model entirely predicated on sustainability"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eco-Nest",
+    "relation": "markets",
+    "value": "products ranging from biodegradable packaging to upcycled home decor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eco-Nest markets products ranging from biodegradable packaging to upcycled home decor"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Eco-Nest",
+    "relation": "supports",
+    "value": "a circular economy",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "Every product we sell supports a circular economy."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Maria Gonzalez",
+    "relation": "said",
+    "value": "We're about making a positive impact first and profits second.",
+    "time": null,
+    "speaker": "Maria Gonzalez",
+    "verbatim": [
+     "We're about making a positive impact first and profits second."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Eco-Nest",
+    "relation": "collaborates_with",
+    "value": "local artisans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eco-Nest collaborates with local artisans"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Eco-Nest",
+    "relation": "runs",
+    "value": "workshops on sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also runs workshops on sustainable living"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Eco-Nest",
+    "relation": "shows",
+    "value": "environmentalism can be economically viable and socially beneficial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Maria's business shows that environmentalism can be economically viable and socially beneficial."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Jackson O'Reilly",
+    "relation": "occupation",
+    "value": "third-generation cobbler",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jackson O'Reilly, a third-generation cobbler,"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Jackson O'Reilly",
+    "relation": "merged_business_with_technology",
+    "value": "family's shoe repair business with modern technology",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "When Jackson O'Reilly, a third-generation cobbler, merged his family's shoe repair business with modern technology on September 12, 2023, many were skeptical."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Jackson O'Reilly",
+    "relation": "met_with_reaction",
+    "value": "many were skeptical",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "many were skeptical"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Heel the Sole",
+    "relation": "is_revamped_store_of",
+    "value": "Jackson's revamped store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dubbed 'Heel the Sole', Jackson's revamped store"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Heel the Sole",
+    "relation": "brought_into_21st_century",
+    "value": "a century-old trade",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought a century-old trade into the 21st century."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Heel the Sole",
+    "relation": "app_enables",
+    "value": "scheduling repairs, tracking progress, and customizing services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Utilizing an app, customers can schedule repairs, track progress, and customize their services"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Heel the Sole",
+    "relation": "described_as",
+    "value": "an industry first",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an industry first."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Jackson O'Reilly",
+    "relation": "said",
+    "value": "Our ancestors would be proud; we're respecting the tradition while keeping pace with the times.",
+    "time": null,
+    "speaker": "Jackson O'Reilly",
+    "verbatim": [
+     "Our ancestors would be proud; we're respecting the tradition while keeping pace with the times."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Heel the Sole",
+    "relation": "business_increase",
+    "value": "50% increase in business",
+    "time": "within the first three months",
+    "speaker": null,
+    "verbatim": [
+     "'Heel the Sole' seeing a 50% increase in business within the first three months."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Jackson O'Reilly",
+    "relation": "results_in",
+    "value_ref": "c28",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His vision of integrating digital tools with traditional craftsmanship paid off, with 'Heel the Sole' seeing a 50% increase in business within the first three months."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Lucy Nguyen",
+    "relation": "occupation",
+    "value": "local artist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lucy Nguyen, a local artist who turned her creative acumen into the thriving 'Artify' on December 22, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lucy Nguyen",
+    "relation": "launched",
+    "value": "Artify",
+    "time": "December 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Lucy Nguyen, a local artist who turned her creative acumen into the thriving 'Artify' on December 22, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Artify",
+    "relation": "curates",
+    "value": "temporary art installations in cooperation with businesses like cafes, boutiques, and bookstores",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artify curates temporary art installations in cooperation with businesses like cafes, boutiques, and bookstores"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Artify",
+    "relation": "transforms",
+    "value": "ordinary spaces into unique cultural experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby transforming ordinary spaces into unique cultural experiences."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Artify",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artify curates temporary art installations in cooperation with businesses like cafes, boutiques, and bookstores, thereby transforming ordinary spaces into unique cultural experiences."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lucy Nguyen",
+    "relation": "said",
+    "value": "It's about making art accessible.",
+    "time": null,
+    "speaker": "Lucy Nguyen",
+    "verbatim": [
+     "\"It's about making art accessible,\" Lucy revealed."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Artify",
+    "relation": "increases",
+    "value": "foot traffic for businesses that see increased foot traffic due to installations, which becomes a win-win",
+    "time": null,
+    "speaker": "Lucy Nguyen",
+    "verbatim": [
+     "when these businesses see increased foot traffic due to our installations, it becomes a win-win."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Artify",
+    "relation": "links",
+    "value": "artists with businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By linking artists with businesses"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Artify",
+    "relation": "created",
+    "value": "a unique symbiosis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artify has created a unique symbiosis"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Artify",
+    "relation": "mechanism_of",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By linking artists with businesses, Artify has created a unique symbiosis"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Chris Martin",
+    "relation": "launched",
+    "value": "DineMine",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "With the launch of 'DineMine' on September 8, 2023, a platform that connects home chefs with diners looking for authentic, home-cooked meals, he disrupted the local food scene."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "DineMine",
+    "relation": "connects",
+    "value": "home chefs with diners looking for authentic, home-cooked meals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a platform that connects home chefs with diners looking for authentic, home-cooked meals"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Chris Martin",
+    "relation": "disrupted",
+    "value": "the local food scene",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he disrupted the local food scene."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "DineMine",
+    "relation": "pivots_away_from",
+    "value": "conventional dining experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The model pivots away from conventional dining experiences, offering a homely alternative."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Chris Martin",
+    "relation": "said",
+    "value": "We're recalibrating the dining equation by elevating home cooking to a gourmet experience",
+    "time": null,
+    "speaker": "Chris Martin",
+    "verbatim": [
+     "We're recalibrating the dining equation by elevating home cooking to a gourmet experience"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "DineMine",
+    "relation": "catalyzes",
+    "value": "a new income stream for domestic culinarians",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "DineMine not only catalyzes a new income stream for domestic culinarians"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "DineMine",
+    "relation": "fosters",
+    "value": "intercultural connections through food",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fosters intercultural connections through food."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "sharing economy",
+    "relation": "can_mesh_with",
+    "value": "culinary traditions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "culinary traditions can mesh seamlessly with the sharing economy"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Boutique Canvas",
+    "relation": "created_by",
+    "value": "Samantha Doyle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Doyle's 'Boutique Canvas' breathes new life into the local retail experience with hyper-personalization."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Boutique Canvas",
+    "relation": "launched_on",
+    "value": "October 2, 2023",
+    "time": "October 2, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Launched on October 2, 2023, Boutique Canvas offers customers personalized shopping experiences"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Boutique Canvas",
+    "relation": "offers",
+    "value": "personalized shopping experiences by blending data analytics with human touch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers customers personalized shopping experiences by blending data analytics with human touch"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Boutique Canvas",
+    "relation": "assigns",
+    "value": "personal shoppers who suggest items based on purchasing history, preferences, and even moods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "assigning personal shoppers who suggest items based on purchasing history, preferences, and even moods."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Samantha Doyle",
+    "relation": "said",
+    "value": "Boutique Canvas personalizes not just your clothes, but your shopping experience",
+    "time": null,
+    "speaker": "Samantha Doyle",
+    "verbatim": [
+     "\"Boutique Canvas personalizes not just your clothes, but your shopping experience,\" Samantha said excitedly."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Boutique Canvas",
+    "relation": "rivals",
+    "value": "the convenience of online shopping with the added value of human connection and an unparalleled personal touch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a novel retail avenue that rivals the convenience of online shopping with the added value of human connection and an unparalleled personal touch."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jake Hardin",
+    "relation": "occupation",
+    "value": "real estate developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "real estate developer Jake Hardin saw a gap in the market for specialized co-working environments."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jake Hardin",
+    "relation": "saw_gap_in",
+    "value": "the market for specialized co-working environments",
+    "time": "November 18, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Fast forward to November 18, 2023, when real estate developer Jake Hardin saw a gap in the market for specialized co-working environments."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jake Hardin",
+    "relation": "created",
+    "value": "Makerspace Loft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His creation, 'Makerspace Loft', offers not just desks and chairs"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Makerspace Loft",
+    "relation": "offers",
+    "value": "specialized equipment and tools for makers, crafters, and hardware startups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers not just desks and chairs but specialized equipment and tools for makers, crafters, and hardware startups"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Jake Hardin",
+    "relation": "said",
+    "value": "Imagine a world where a 3D printer is as accessible as a coffee maker",
+    "time": null,
+    "speaker": "Jake Hardin",
+    "verbatim": [
+     "\"Imagine a world where a 3D printer is as accessible as a coffee maker,\" Jake mused."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Makerspace Loft",
+    "relation": "provides",
+    "value": "resources for product development under one roof",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By providing the resources for product development under one roof"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Makerspace Loft",
+    "relation": "became",
+    "value": "a nurturing ground for innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Makerspace Loft has become a nurturing ground for innovation"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Makerspace Loft",
+    "relation": "mechanism_of",
+    "value_ref": "c60",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By providing the resources for product development under one roof, Makerspace Loft has become a nurturing ground for innovation"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "maker movement",
+    "relation": "has_hub",
+    "value": "Makerspace Loft",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a hub for the maker movement in our community."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

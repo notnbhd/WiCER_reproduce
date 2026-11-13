@@ -1,0 +1,866 @@
+{
+ "inventory": [
+  "Josephine Marek",
+  "GreenScoop",
+  "Ahmed Zahir",
+  "Beans of Joy",
+  "banks",
+  "Sasha Rodriguez",
+  "NatureGleam",
+  "Lin Chen",
+  "Techie Toys",
+  "local manufacturers",
+  "Natalie Fisher",
+  "Fresh Feast",
+  "Marcus Teng",
+  "Byte Builders",
+  "Denise Harper",
+  "EcoWear",
+  "Oliver Kim",
+  "Refill Revolution"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Josephine Marek",
+    "relation": "founder_of",
+    "value": "GreenScoop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Josephine Marek, the founder of \"GreenScoop,\" a sustainable packaging company"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "GreenScoop",
+    "relation": "is_a",
+    "value": "sustainable packaging company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"GreenScoop,\" a sustainable packaging company"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Josephine Marek",
+    "relation": "said",
+    "value": "Launching a business is like setting sail amidst a storm. You\u2019re never quite ready for the waves that hit you",
+    "time": null,
+    "speaker": "Josephine Marek",
+    "verbatim": [
+     "\"Launching a business is like setting sail amidst a storm. You\u2019re never quite ready for the waves that hit you,\" Marek says."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "GreenScoop",
+    "relation": "inception_motivated_by",
+    "value": "growing ecological concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GreenScoop's inception was a direct response to growing ecological concerns"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "GreenScoop",
+    "relation": "faced",
+    "value": "regulatory challenges and raw material scarcities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the path was cluttered with regulatory challenges and raw material scarcities that Marek hadn't anticipated"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Josephine Marek",
+    "relation": "did_not_anticipate",
+    "value": "regulatory challenges and raw material scarcities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the path was cluttered with regulatory challenges and raw material scarcities that Marek hadn't anticipated"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Ahmed Zahir",
+    "relation": "opened",
+    "value": "Beans of Joy",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Ahmed Zahir, who opened his quirky coffee shop, \"Beans of Joy,\" on October 20, 2023"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Beans of Joy",
+    "relation": "is_a",
+    "value": "quirky coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his quirky coffee shop, \"Beans of Joy,\""
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Beans of Joy",
+    "relation": "opened_on",
+    "value": "October 20, 2023",
+    "time": "October 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who opened his quirky coffee shop, \"Beans of Joy,\" on October 20, 2023"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "banks",
+    "relation": "were_hesitant_to_extend_credit_to",
+    "value": "a business they deemed unconventional",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The banks were hesitant to extend credit to a business they deemed unconventional"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Ahmed Zahir",
+    "relation": "faced",
+    "value": "gargantuan challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found himself wrestling with this gargantuan challenge"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Ahmed Zahir",
+    "relation": "turned_to",
+    "value": "the local community for support through crowdfunding",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he turned to the local community for support through crowdfunding"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Beans of Joy",
+    "relation": "crowdfunding_fueled_by",
+    "value": "social media",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The campaign, fueled by social media, raised sufficient capital"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Beans of Joy",
+    "relation": "raised",
+    "value": "sufficient capital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The campaign, fueled by social media, raised sufficient capital"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Ahmed Zahir",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "However, Zahir's resilience paid off as he turned to the local community for support through crowdfunding",
+     "The campaign, fueled by social media, raised sufficient capital"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Beans of Joy",
+    "relation": "became",
+    "value": "beloved neighborhood hotspot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "now \"Beans of Joy\" has become a beloved neighborhood hotspot"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sasha Rodriguez",
+    "relation": "launched",
+    "value": "NatureGleam",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sasha Rodriguez launched her line of organic cosmetics, \"NatureGleam,\" in November 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "NatureGleam",
+    "relation": "is_a",
+    "value": "line of organic cosmetics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her line of organic cosmetics, \"NatureGleam,\""
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "NatureGleam",
+    "relation": "launched_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sasha Rodriguez launched her line of organic cosmetics, \"NatureGleam,\" in November 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Sasha Rodriguez",
+    "relation": "market_was",
+    "value": "saturated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The market was saturated, to say the least"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sasha Rodriguez",
+    "relation": "grappled_with",
+    "value": "the immense challenge of making her brand stand out",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Rodriguez grappled with the immense challenge of making her brand stand out"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Sasha Rodriguez",
+    "relation": "said",
+    "value": "We knew our product was unique, but so was everyone else\u2019s",
+    "time": null,
+    "speaker": "Sasha Rodriguez",
+    "verbatim": [
+     "\"We knew our product was unique, but so was everyone else\u2019s,\" Rodriguez admits."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Sasha Rodriguez",
+    "relation": "turning_point",
+    "value": "focused on ultra-niche marketing strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The turning point came when she focused on ultra-niche marketing strategies"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Sasha Rodriguez",
+    "relation": "used",
+    "value": "storytelling to connect with an audience that shares her passion for sustainability and ethical beauty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilizing the powerful tool of storytelling to connect with an audience that shares her passion for sustainability and ethical beauty"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lin Chen",
+    "relation": "mastermind_of",
+    "value": "Techie Toys",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lin Chen, the mastermind behind \"Techie Toys,\""
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Lin Chen",
+    "relation": "launched",
+    "value": "line of educational robots for children",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "faced insurmountable production delays when launching his line of educational robots for children in December 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Lin Chen",
+    "relation": "faced",
+    "value": "insurmountable production delays",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "faced insurmountable production delays when launching his line of educational robots for children in December 2023"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Techie Toys",
+    "relation": "intended_release",
+    "value": "an exciting Christmas season release",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What was supposed to be an exciting Christmas season release turned into a logistical nightmare"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Techie Toys",
+    "relation": "became",
+    "value": "a logistical nightmare",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What was supposed to be an exciting Christmas season release turned into a logistical nightmare"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Lin Chen",
+    "relation": "credited_saviors",
+    "value": "Flexibility and quick thinking",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Flexibility and quick thinking were Chen's saviors"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lin Chen",
+    "relation": "turned_to",
+    "value": "local manufacturers to outsource some of the components",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he turned to local manufacturers to outsource some of the components"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "local manufacturers",
+    "relation": "were_turned_to_by",
+    "value": "Lin Chen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he turned to local manufacturers to outsource some of the components"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Lin Chen",
+    "relation": "salvaged",
+    "value": "his holiday sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "salvaging his holiday sales and protecting the Techie Toys brand's reputation"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Lin Chen",
+    "relation": "protected",
+    "value": "the Techie Toys brand's reputation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "salvaging his holiday sales and protecting the Techie Toys brand's reputation"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Lin Chen",
+    "relation": "in_order_to",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he turned to local manufacturers to outsource some of the components, salvaging his holiday sales"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Techie Toys",
+    "relation": "reputation_threatened_by",
+    "value": "disappointed customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "protecting the Techie Toys brand's reputation before it could be tarnished by disappointed customers"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Natalie Fisher",
+    "relation": "runs",
+    "value": "Fresh Feast",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natalie Fisher's journey with her health-food restaurant, \"Fresh Feast,\""
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Fresh Feast",
+    "relation": "is_a",
+    "value": "health-food restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her health-food restaurant, \"Fresh Feast,\""
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Fresh Feast",
+    "relation": "opened_in",
+    "value": "early September 2023",
+    "time": "early September 2023",
+    "speaker": null,
+    "verbatim": [
+     "After opening in early September 2023"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Natalie Fisher",
+    "relation": "encountered",
+    "value": "a revolving door of staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she encountered a revolving door of staff, each one a mismatch to the company's culture or lacking essential skills"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Natalie Fisher",
+    "relation": "staff_problem",
+    "value": "each one a mismatch to the company's culture or lacking essential skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "each one a mismatch to the company's culture or lacking essential skills"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Natalie Fisher",
+    "relation": "learned_through",
+    "value": "trial and error",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through trial and error, Fisher learned the irreplaceable value of investing in the right people"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Natalie Fisher",
+    "relation": "learned",
+    "value": "the irreplaceable value of investing in the right people",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through trial and error, Fisher learned the irreplaceable value of investing in the right people"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Natalie Fisher",
+    "relation": "began_offering",
+    "value": "workshops, team-building activities, and investing in her team's well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She began offering workshops, team-building activities, and investing in her team's well-being"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Natalie Fisher",
+    "relation": "cultivated",
+    "value": "a loyal and proficient staff",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach not only cultivated a loyal and proficient staff"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Natalie Fisher",
+    "relation": "fostered",
+    "value": "an environment that naturally attracted the right talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "but also fostered an environment that naturally attracted the right talent"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Natalie Fisher",
+    "relation": "results_in",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She began offering workshops, team-building activities, and investing in her team's well-being. This approach not only cultivated a loyal and proficient staff"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Byte Builders",
+    "relation": "is_a",
+    "value": "local app development firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Teng of \"Byte Builders,\" a local app development firm"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Marcus Teng",
+    "relation": "affiliated_with",
+    "value": "Byte Builders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marcus Teng of \"Byte Builders,\""
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Marcus Teng",
+    "relation": "faced",
+    "value": "significant resistance in adopting new technology trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "faced significant resistance in adopting new technology trends"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Marcus Teng",
+    "relation": "found_daunting",
+    "value": "the rapid pace at which digital marketing, ecommerce, and cybersecurity evolve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The rapid pace at which digital marketing, ecommerce, and cybersecurity evolve was daunting"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Marcus Teng",
+    "relation": "said",
+    "value": "It was like lighting a match in the wind",
+    "time": null,
+    "speaker": "Marcus Teng",
+    "verbatim": [
+     "\"It was like lighting a match in the wind,\" Teng describes."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Byte Builders",
+    "relation": "recognized",
+    "value": "the digital pivot as an opportunity rather than a hurdle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the digital pivot as an opportunity rather than a hurdle allowed \"Byte Builders\" to innovate"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Byte Builders",
+    "relation": "enabled",
+    "value": "to innovate, embrace remote work, and develop solutions for a globally connected client base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowed \"Byte Builders\" to innovate, embrace remote work, and develop solutions for a globally connected client base"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Byte Builders",
+    "relation": "enabled_by",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "recognizing the digital pivot as an opportunity rather than a hurdle allowed \"Byte Builders\" to innovate"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "EcoWear",
+    "relation": "is_a",
+    "value": "sustainable fashion brand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Denise Harper, of \"EcoWear,\" a sustainable fashion brand"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Denise Harper",
+    "relation": "affiliated_with",
+    "value": "EcoWear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Denise Harper, of \"EcoWear,\" a sustainable fashion brand"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Denise Harper",
+    "relation": "launched",
+    "value": "her online store",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched her online store amidst supply chain disruptions in October 2023"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Denise Harper",
+    "relation": "launched_amid",
+    "value": "supply chain disruptions",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched her online store amidst supply chain disruptions in October 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "EcoWear",
+    "relation": "caused",
+    "value": "significant customer service issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Initially, this caused significant customer service issues"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "EcoWear",
+    "relation": "customer_service_issues_included",
+    "value": "delays in shipping, mismatched orders, and other logistical slip-ups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "delays in shipping, mismatched orders, and other logistical slip-ups"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "EcoWear",
+    "relation": "caused_by",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched her online store amidst supply chain disruptions in October 2023",
+     "Initially, this caused significant customer service issues"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Denise Harper",
+    "relation": "viewed_failures_as",
+    "value": "a critical data point",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harper viewed each failure as a critical data point"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Denise Harper",
+    "relation": "led_to",
+    "value": "radical improvements in her business processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This introspection led to radical improvements in her business processes"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Denise Harper",
+    "relation": "caused_by",
+    "value_ref": "c63",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Harper viewed each failure as a critical data point",
+     "This introspection led to radical improvements in her business processes"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "EcoWear",
+    "relation": "earned_reputation_for",
+    "value": "outstanding customer service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "earning \"EcoWear\" a reputation for outstanding customer service that fueled its growth"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "EcoWear",
+    "relation": "reputation_fueled",
+    "value": "its growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "earning \"EcoWear\" a reputation for outstanding customer service that fueled its growth"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Oliver Kim",
+    "relation": "launched",
+    "value": "Refill Revolution",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "When Oliver Kim launched \"Refill Revolution,\" a zero-waste store, in late September 2023"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Refill Revolution",
+    "relation": "is_a",
+    "value": "zero-waste store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Refill Revolution,\" a zero-waste store"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Refill Revolution",
+    "relation": "launched_in",
+    "value": "late September 2023",
+    "time": "late September 2023",
+    "speaker": null,
+    "verbatim": [
+     "When Oliver Kim launched \"Refill Revolution,\" a zero-waste store, in late September 2023"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Oliver Kim",
+    "relation": "knew",
+    "value": "the importance of community engagement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "he knew the importance of community engagement"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Oliver Kim",
+    "relation": "hosted",
+    "value": "workshops on sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hosting workshops on sustainable living"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Oliver Kim",
+    "relation": "participated_in",
+    "value": "local fairs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "participating in local fairs"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Oliver Kim",
+    "relation": "collaborated_with",
+    "value": "other small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "collaborating with other small businesses"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Oliver Kim",
+    "relation": "helped_embed_store_into_community",
+    "value": "hosting workshops on sustainable living, participating in local fairs, and collaborating with other small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Hosting workshops on sustainable living, participating in local fairs, and collaborating with other small businesses helped him embed the store into the fabric of the community"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Oliver Kim",
+    "relation": "believes",
+    "value": "that the entrepreneurial journey is not just about facing your challenges but about upliftment and education within your sphere of influence",
+    "time": null,
+    "speaker": "Oliver Kim",
+    "verbatim": [
+     "Kim believes that the entrepreneurial journey is not just about facing your challenges but about upliftment and education within your sphere of influence"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

@@ -1,0 +1,628 @@
+{
+ "inventory": [
+  "George Papadopoulos",
+  "Ye Olde Greek Yogurt Emporium",
+  "Mildred \"Milly\" Sanders",
+  "Feline Good",
+  "Mrs. Whiskerson",
+  "Alfred \"Alfie\" Mckenzie",
+  "Donna \"The Risotto Maestro\" Giovannini",
+  "Burnt to a Crispini",
+  "Arnold \"Arnie\" Thompson",
+  "Eco-Friendly Everything",
+  "100% biodegradable shopping bags",
+  "Bob \"Just Bob\" Stevenson",
+  "Bob's Building Bonanza",
+  "Miami Vice"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "George Papadopoulos",
+    "relation": "owner_of",
+    "value": "Ye Olde Greek Yogurt Emporium",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the fearless owner of \"Ye Olde Greek Yogurt Emporium,\""
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Ye Olde Greek Yogurt Emporium",
+    "relation": "described_as",
+    "value": "a local business with aspirations as thick as its signature triple-strained dairy product",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local business with aspirations as thick as its signature triple-strained dairy product"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "George Papadopoulos",
+    "relation": "ordered",
+    "value": "enough containers to supply a small country",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He ordered enough containers to supply a small country"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "George Papadopoulos",
+    "relation": "advertised_with",
+    "value": "advertisements featuring jingles that still haunt the locals in their sleep",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "went about plastering the town with advertisements featuring jingles that still haunt the locals in their sleep"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "George Papadopoulos",
+    "relation": "decided_to",
+    "value": "take his yogurt to the masses",
+    "time": "On a sunny day",
+    "speaker": null,
+    "verbatim": [
+     "On a sunny day, George decided it was high time to take his yogurt to the masses."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "George Papadopoulos",
+    "relation": "living_room_looks_like",
+    "value": "the aftermath of a Tupperware party gone awry",
+    "time": "Fast forward to today",
+    "speaker": null,
+    "verbatim": [
+     "George\u2019s living room looks like the aftermath of a Tupperware party gone awry."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "George Papadopoulos",
+    "relation": "said",
+    "value": "I thought everyone would want a taste of Greece in their fridge, but it turns out they were just fine with the regular gloop.",
+    "time": null,
+    "speaker": "George Papadopoulos",
+    "verbatim": [
+     "I thought everyone would want a taste of Greece in their fridge, but it turns out they were just fine with the regular gloop."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "George Papadopoulos",
+    "relation": "stress_eating_benefited_from",
+    "value": "an endless supply of probiotics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His stress-eating has benefited from an endless supply of probiotics."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "George Papadopoulos",
+    "relation": "dairy_dreams_were",
+    "value": "a bit too cultured for the town's palate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "George's dairy dreams were a bit too cultured for the town's palate."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "owns",
+    "value": "Feline Good",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her cat caf\u00e9, \u201cFeline Good,\u201d needed a tech makeover"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "decided_that_cafe_needed",
+    "value": "a tech makeover",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decided that her cat caf\u00e9, \u201cFeline Good,\u201d needed a tech makeover"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Feline Good",
+    "relation": "replaced_analog_toys_with",
+    "value": "robots and virtual reality mouse chasers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Out went the analog cat toys; in marched the robots and virtual reality mouse chasers."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Feline Good",
+    "relation": "patrons_walked_into",
+    "value": "what looked like the set of a low-budget sci-fi flick",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, patrons walked into what looked like the set of a low-budget sci-fi flick"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Feline Good",
+    "relation": "felines_were_batting_at",
+    "value": "LED-infused gadgets",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "with felines nonchalantly batting at LED-infused gadgets"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "proclaimed",
+    "value": "We\u2019re in the future, darling",
+    "time": null,
+    "speaker": "Mildred \"Milly\" Sanders",
+    "verbatim": [
+     "\u201cWe\u2019re in the future, darling,\u201d Milly proclaimed"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mrs. Whiskerson",
+    "relation": "is_a",
+    "value": "tabby",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mrs. Whiskerson the tabby was not about to entertain the idea of a mechanical mouse"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mrs. Whiskerson",
+    "relation": "refused_to_entertain",
+    "value": "the idea of a mechanical mouse",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "was not about to entertain the idea of a mechanical mouse"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mrs. Whiskerson",
+    "relation": "defected_to",
+    "value": "the caf\u00e9 next door",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she promptly defected to the caf\u00e9 next door, taking half the clientele with her."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Mrs. Whiskerson",
+    "relation": "took_with_her",
+    "value": "half the clientele",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "taking half the clientele with her"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "needs_to_relearn",
+    "value": "knitting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sudden need to relearn knitting"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "has_to_calm",
+    "value": "a robot uprising",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Milly has a robot uprising to calm"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "cat_customers_prefer",
+    "value": "the simple pleasure of a woolen ball",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her cat customers apparently prefer the simple pleasure of a woolen ball"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Mildred \"Milly\" Sanders",
+    "relation": "caused_by",
+    "value_ref": "c22",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sudden need to relearn knitting, since her cat customers apparently prefer the simple pleasure of a woolen ball"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "decided_to_hold",
+    "value": "an extravagant fashion show on the streets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "decided it was high time the world got to experience his retro neon line of clothing through an extravagant fashion show on the streets."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "fashion_show_passersby_could_witness",
+    "value": "models strutting in ensembles",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 3, 2023, passersby could witness models strutting in ensembles"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Miami Vice",
+    "relation": "cast_made_to_seem_underdressed_by",
+    "value": "ensembles",
+    "time": "November 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "ensembles that would make the cast of 'Miami Vice' seem underdressed"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "reception_was",
+    "value": "as muted as a whisper in a hurricane",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alfie, gleaming with pride, didn't understand why the reception was as muted as a whisper in a hurricane."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "insisted",
+    "value": "Neon's the new black",
+    "time": null,
+    "speaker": "Alfred \"Alfie\" Mckenzie",
+    "verbatim": [
+     "\"Neon's the new black,\" he insisted"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "only_orders_received_from",
+    "value": "a confused group of tourists who thought it was street performance art",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the only orders he received were from a confused group of tourists who thought it was street performance art"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "fashion_line_doubles_as",
+    "value": "emergency road signage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "his fashion line now doubles curiously as emergency road signage"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Alfred \"Alfie\" Mckenzie",
+    "relation": "remains",
+    "value": "resolute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He remains resolute"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "occupation",
+    "value": "local bistro owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local bistro owner Donna \"The Risotto Maestro\" Giovannini"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "thought_scaling_up_meant",
+    "value": "quadrupling her kitchen staff overnight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thought scaling up meant quadrupling her kitchen staff overnight"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "kitchen_became",
+    "value": "less 'Iron Chef' and more 'Too Many Cooks'",
+    "time": "September 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 16, 2023, things got heated when her tiny kitchen became less 'Iron Chef' and more 'Too Many Cooks'."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "accidentally_created",
+    "value": "a new dish called 'Burnt to a Crispini'",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Donna accidentally created a new dish called 'Burnt to a Crispini.'"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Burnt to a Crispini",
+    "relation": "created_accidentally_by",
+    "value": "Donna",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Donna accidentally created a new dish called 'Burnt to a Crispini.'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "said",
+    "value": "If anything, I've taught the town the valuable lesson of always having a fire extinguisher handy.",
+    "time": null,
+    "speaker": "Donna \"The Risotto Maestro\" Giovannini",
+    "verbatim": [
+     "If anything, I've taught the town the valuable lesson of always having a fire extinguisher handy."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "regulars_were",
+    "value": "forgiving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her regulars were forgiving, because who doesn't enjoy a side of adrenaline with their dinner?"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Donna \"The Risotto Maestro\" Giovannini",
+    "relation": "because",
+    "value": "who doesn't enjoy a side of adrenaline with their dinner?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her regulars were forgiving, because who doesn't enjoy a side of adrenaline with their dinner?"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "runs",
+    "value": "Eco-Friendly Everything",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "who runs the \u201cEco-Friendly Everything\u201d store"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "invested_in",
+    "value": "100% biodegradable shopping bags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His passion for sustainability led him to invest in 100% biodegradable shopping bags."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "passion_for",
+    "value": "sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His passion for sustainability"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "results_in",
+    "value_ref": "c41",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His passion for sustainability led him to invest in 100% biodegradable shopping bags."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "100% biodegradable shopping bags",
+    "relation": "decomposed_at",
+    "value": "the most inopportune moments\u2014like when filled with groceries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bags demonstrated their commitment to decomposing at the most inopportune moments\u2014like when filled with groceries"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "was_often_found",
+    "value": "chasing rolling oranges down the street",
+    "time": "December 21, 2023",
+    "speaker": null,
+    "verbatim": [
+     "By December 21, 2023, Arnie was often found chasing rolling oranges down the street"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "quipped",
+    "value": "I guess the bags were a bit too eager to save the planet",
+    "time": null,
+    "speaker": "Arnold \"Arnie\" Thompson",
+    "verbatim": [
+     "\"I guess the bags were a bit too eager to save the planet,\" he quipped"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Arnold \"Arnie\" Thompson",
+    "relation": "customers_now_come_equipped_with",
+    "value": "their own, reallytruly-for-certain reusable bags",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His customers now come equipped with their own, reallytruly-for-certain reusable bags."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "owner_of",
+    "value": "Bob's Building Bonanza",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the owner of \"Bob's Building Bonanza\""
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "scaling_up_meant",
+    "value": "acquiring enough hardware to build a small fortress",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob's decision to scale up meant acquiring enough hardware to build a small fortress."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "unveiled",
+    "value": "his expanded store",
+    "time": "January 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On a chilly morning of January 10, 2024, he proudly unveiled his expanded store"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "store_walls_lined_with",
+    "value": "more tools than the belt of a superhero construction worker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "walls lined with more tools than the belt of a superhero construction worker."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "realized",
+    "value": "local demand for 4-in-1 multimix cement and left-handed screwdrivers wasn't quite as robust as he'd imagined",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob soon realized the local demand for 4-in-1 multimix cement and left-handed screwdrivers wasn't quite as robust as he'd imagined."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "remains",
+    "value": "unfazed",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Nevertheless, Bob remains unfazed"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "said",
+    "value": "I'm just ahead of the curve. One day, everyone will need an electric ladder.",
+    "time": null,
+    "speaker": "Bob \"Just Bob\" Stevenson",
+    "verbatim": [
+     "I'm just ahead of the curve. One day, everyone will need an electric ladder."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Bob \"Just Bob\" Stevenson",
+    "relation": "surplus_stock_used_by_local_kids_as",
+    "value": "part of their obstacle courses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local kids, meanwhile, have taken to using his surplus stock as part of their obstacle courses."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

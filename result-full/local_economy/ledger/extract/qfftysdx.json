@@ -1,0 +1,564 @@
+{
+ "inventory": [
+  "technology startups",
+  "local economies",
+  "Jane Smith",
+  "CyberSolutions",
+  "local governments",
+  "academic institutions",
+  "Economic Research Institute",
+  "local businesses",
+  "Michael Tan",
+  "GreenTech Analytics",
+  "Lisa Wu",
+  "community colleges and vocational schools",
+  "Midtown University",
+  "local development agencies and chambers of commerce",
+  "local infrastructure",
+  "local tech ecosystem"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "local economies",
+    "relation": "characterized_by",
+    "value": "energy that could light up entire cities",
+    "time": "In recent years",
+    "speaker": null,
+    "verbatim": [
+     "local economies have been buzzing with the kind of energy that could light up entire cities"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "local economies",
+    "relation": "energy_stems_from",
+    "value": "surge of technology startups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This vigor stems from the surge of technology startups that have nestled themselves into the hearts of communities"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "technology startups",
+    "relation": "brings",
+    "value": "innovation, jobs, and a dynamism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing with them innovation, jobs, and a dynamism that is infectious in its allure"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "technology startups",
+    "relation": "characterized_by",
+    "value": "fresh ideas and tech-driven solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These burgeoning businesses are characterized by their fresh ideas and tech-driven solutions"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "technology startups",
+    "relation": "aim_to",
+    "value": "disrupt traditional markets and establish new grounds in digital services, artificial intelligence, biotechnology, and more",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aiming to disrupt traditional markets and establish new grounds in digital services, artificial intelligence, biotechnology, and more"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "technology startups",
+    "relation": "observed_uptick_in",
+    "value": "creation and expansion of tech startups in various local economies",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, our observations point to a notable uptick in the creation and expansion of tech startups in various local economies"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local governments",
+    "relation": "provides",
+    "value": "tax incentives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "support from local governments in the form of tax incentives"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "academic institutions",
+    "relation": "produce",
+    "value": "talented graduates equipped with cutting-edge skills",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the presence of academic institutions that churn out talented graduates equipped with cutting-edge skills"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "technology startups",
+    "relation": "tend_to",
+    "value": "cluster",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "successful startups tend to cluster"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "technology startups",
+    "relation": "attracts",
+    "value": "further entrepreneurs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating a magnetic pull that attracts further entrepreneurs"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "technology startups",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "successful startups tend to cluster, creating a magnetic pull that attracts further entrepreneurs"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jane Smith",
+    "relation": "founder_of",
+    "value": "CyberSolutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jane Smith, the founder of CyberSolutions"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Jane Smith",
+    "relation": "shared_experience_of",
+    "value": "starting a cybersecurity firm in a once-sleepy town now bustling with tech ventures",
+    "time": "Just last October",
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "Just last October, Jane Smith, the founder of CyberSolutions, shared her experience of starting a cybersecurity firm in a once-sleepy town now bustling with tech ventures"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "CyberSolutions",
+    "relation": "is_a",
+    "value": "cybersecurity firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "starting a cybersecurity firm"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Jane Smith",
+    "relation": "credits",
+    "value": "\"spirit of solidarity\" among local entrepreneurs and the support from the community as vital components",
+    "time": null,
+    "speaker": "Jane Smith",
+    "verbatim": [
+     "She credits the \"spirit of solidarity\" among local entrepreneurs and the support from the community as vital components in her journey."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "local businesses",
+    "relation": "experience",
+    "value": "a surge in demand",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local businesses, from cafes to stationery suppliers, experience a surge in demand"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "local businesses",
+    "relation": "surge_in_demand_due_to",
+    "value": "increasing population of entrepreneurs and their employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "given the increasing population of entrepreneurs and their employees"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "local economies",
+    "relation": "real_estate_sees",
+    "value": "a new narrative, with both commercial and residential sectors expanding to accommodate the growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Real estate, too, sees a new narrative, with both commercial and residential sectors expanding to accommodate the growth"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Economic Research Institute",
+    "relation": "published_study",
+    "value": "study on tech startups' effect on local economic activity",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "In a study released in November 2023 by the Economic Research Institute"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "technology startups",
+    "relation": "directly_responsible_for",
+    "value": "a 2.5% increase in local economic activity in various sampled regions",
+    "time": "November 2023",
+    "speaker": "Economic Research Institute",
+    "verbatim": [
+     "tech startups were found to be directly responsible for a 2.5% increase in local economic activity in various sampled regions"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "technology startups",
+    "relation": "impact",
+    "value": "transformation of the local workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the most significant impacts of this startup wave is the transformation of the local workforce."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "technology startups",
+    "relation": "requires",
+    "value": "a variety of skills, not all of which are purely technical",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As these companies grow, they require a variety of skills, not all of which are purely technical."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "academic institutions",
+    "relation": "modifying_curriculums_and_offering",
+    "value": "specific courses to keep pace with the changing job market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This demand leads to educational institutions modifying curriculums and offering specific courses to keep pace with the changing job market."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "community colleges and vocational schools",
+    "relation": "enrollment_upsurge_in",
+    "value": "courses in digital marketing, data analytics, and machine learning",
+    "time": "December 2023",
+    "speaker": "A report",
+    "verbatim": [
+     "A report highlighted in December 2023 showed that community colleges and vocational schools have seen an upsurge in enrollment for courses in digital marketing, data analytics, and machine learning."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "technology startups",
+    "relation": "fostered",
+    "value": "a culture of continuous learning and adaptability that extends throughout the entire local workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The influx of tech startups has also fostered a culture of continuous learning and adaptability that extends throughout the entire local workforce."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Michael Tan",
+    "relation": "established",
+    "value": "GreenTech Analytics",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Michael Tan's incredible journey that led to the establishment of GreenTech Analytics in January 2024"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "GreenTech Analytics",
+    "relation": "established_in",
+    "value": "January 2024",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "the establishment of GreenTech Analytics in January 2024"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "GreenTech Analytics",
+    "relation": "uses",
+    "value": "artificial intelligence to optimize energy consumption for large facilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "His company, which uses artificial intelligence to optimize energy consumption for large facilities"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "GreenTech Analytics",
+    "relation": "started_in",
+    "value": "a small co-working space in his hometown",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "started in a small co-working space in his hometown"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "GreenTech Analytics",
+    "relation": "grew_into",
+    "value": "a multimillion-dollar enterprise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since grown into a multimillion-dollar enterprise"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "technology startups",
+    "relation": "faces_challenges",
+    "value": "Securing funding, navigating local regulations, and finding the right talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Securing funding, navigating local regulations, and finding the right talent can be daunting tasks for new entrants."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "technology startups",
+    "relation": "begin_to_scale",
+    "value": "scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as startups begin to scale"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "local infrastructure",
+    "relation": "may_be_strained",
+    "value": "strained",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local infrastructure may be strained, necessitating smart urban planning and investment in amenities"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "local infrastructure",
+    "relation": "caused_by",
+    "value_ref": "c32",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as startups begin to scale, local infrastructure may be strained"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "local infrastructure",
+    "relation": "requires",
+    "value": "smart urban planning and investment in amenities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "necessitating smart urban planning and investment in amenities"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Lisa Wu",
+    "relation": "founded",
+    "value": "an edtech company",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Lisa Wu, who founded an edtech company in February 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "technology startups",
+    "relation": "views_challenges_as",
+    "value": "opportunities to innovate and collaborate with local authorities and community groups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "see these challenges as opportunities to innovate and collaborate with local authorities and community groups"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "technology startups",
+    "relation": "young_entrepreneurs_increasingly_taking",
+    "value": "the leap into startup life",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Young entrepreneurs are increasingly taking the leap into startup life"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "local tech ecosystem",
+    "relation": "regular_features",
+    "value": "networking events, hackathons, and startup competitions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Networking events, hackathons, and startup competitions have become regular features in local calendars"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "academic institutions",
+    "relation": "offer",
+    "value": "incubators and accelerators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Universities have also bolstered their support structures, offering incubators and accelerators"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Midtown University",
+    "relation": "launched",
+    "value": "incubators and accelerators",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "much like the one launched at Midtown University in March 2024"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Midtown University",
+    "relation": "geared_towards",
+    "value": "nurturing student-led startups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "geared explicitly towards nurturing student-led startups"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "technology startups",
+    "relation": "sustainability_rests_on",
+    "value": "the cultivation of a supportive ecosystem",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The sustainability of this startup surge rests heavily on the cultivation of a supportive ecosystem."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local development agencies and chambers of commerce",
+    "relation": "play_pivotal_role_in",
+    "value": "maintaining momentum by providing resources, facilitating connections, and advocating for policies that benefit tech startups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Entities such as local development agencies and chambers of commerce play a pivotal role in maintaining momentum by providing resources, facilitating connections, and advocating for policies that benefit tech startups."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "local tech ecosystem",
+    "relation": "fostering_culture_can_lead_to",
+    "value": "a more robust, innovative, and resilient startup landscape",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering an entrepreneurial culture that embraces diversity and inclusion can lead to a more robust, innovative, and resilient startup landscape."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "technology startups",
+    "relation": "suggests_future",
+    "value": "a future where geographic boundaries become increasingly irrelevant to where businesses can thrive",
+    "time": "As we move forward into 2024",
+    "speaker": null,
+    "verbatim": [
+     "As we move forward into 2024, the intertwining of technology startups with local economies suggests a future where geographic boundaries become increasingly irrelevant to where businesses can thrive."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "local economies",
+    "relation": "decentralizes",
+    "value": "economic growth and empowers communities to craft their own narratives of success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The diffusion of tech innovation into smaller towns and cities decentralizes economic growth and empowers communities to craft their own narratives of success."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "local governments",
+    "relation": "calls_for",
+    "value": "adaptability, collaboration, and a forward-thinking mindset",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Navigating the changes presented by the surge of tech startups calls for adaptability, collaboration, and a forward-thinking mindset from all involved\u2014from local authorities to established businesses and aspiring entrepreneurs."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "local tech ecosystem",
+    "relation": "is_a",
+    "value": "a vibrant entity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local tech ecosystem is a vibrant entity"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

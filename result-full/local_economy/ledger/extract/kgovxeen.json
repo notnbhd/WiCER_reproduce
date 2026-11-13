@@ -1,0 +1,545 @@
+{
+ "inventory": [
+  "Maria Alvarez",
+  "Dolce Amanecer",
+  "Greenfield Acres",
+  "Johnathan Li",
+  "Tech Yes!",
+  "Yasmine Patel",
+  "The Hive Collective",
+  "Robert Ekhart",
+  "community-supported agriculture program",
+  "Sara Nguyen",
+  "Wrap Earth",
+  "circular economy principles",
+  "social capital",
+  "Charlie Vernon",
+  "Fit Together",
+  "Emily O'Sullivan",
+  "Heritage Hues",
+  "Alexis Thompson",
+  "SmartSittings"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Maria Alvarez",
+    "relation": "opened_bakery_on",
+    "value": "September 22, 2023",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "September 22, 2023, marked the day when Maria Alvarez opened the doors to her small bakery"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Dolce Amanecer",
+    "relation": "located_in",
+    "value": "Greenfield Acres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the heart of the suburban locale of Greenfield Acres"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Dolce Amanecer",
+    "relation": "is_a",
+    "value": "small bakery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her small bakery, \"Dolce Amanecer\""
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Greenfield Acres",
+    "relation": "is_a",
+    "value": "suburban locale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the suburban locale of Greenfield Acres"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Maria Alvarez",
+    "relation": "is_a",
+    "value": "first-generation entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A firstgeneration entrepreneur"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dolce Amanecer",
+    "relation": "provides",
+    "value": "fresh bread and pastries",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provide residents with fresh bread and pastries"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dolce Amanecer",
+    "relation": "created",
+    "value": "a central hub for gatherings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it has created a central hub for gatherings"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Johnathan Li",
+    "relation": "founded",
+    "value": "Tech Yes!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Johnathan Li, who founded \"Tech Yes!\", an after-school program"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Tech Yes!",
+    "relation": "is_a",
+    "value": "after-school program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an after-school program that brings technology access and education to underprivileged youth"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Tech Yes!",
+    "relation": "brings",
+    "value": "technology access and education to underprivileged youth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brings technology access and education to underprivileged youth"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Johnathan Li",
+    "relation": "fills_void_in",
+    "value": "the local educational system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "filling a void within the local educational system"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Johnathan Li",
+    "relation": "fosters",
+    "value": "a sense of purpose and gives back",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fosters a sense of purpose and gives back"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Johnathan Li",
+    "relation": "mechanism_of",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fosters a sense of purpose and gives back by filling a void within the local educational system"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Johnathan Li",
+    "relation": "equips",
+    "value": "the next generation with the tools for future economic participation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "equipping the next generation with the tools for future economic participation"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Yasmine Patel",
+    "relation": "runs",
+    "value": "The Hive Collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yasmine Patel, whose co-working space \"The Hive Collective,\" opened its doors on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "The Hive Collective",
+    "relation": "is_a",
+    "value": "co-working space",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "whose co-working space \"The Hive Collective,\""
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "The Hive Collective",
+    "relation": "opened_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "opened its doors on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "The Hive Collective",
+    "relation": "created",
+    "value": "jobs through direct employment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This communal workspace not only created jobs through direct employment"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "The Hive Collective",
+    "relation": "fostered",
+    "value": "an ecosystem where freelancers, startups, and small businesses could thrive",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostered an ecosystem where freelancers, startups, and small businesses could thrive"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Yasmine Patel",
+    "relation": "retains_talent_and_offers_resources",
+    "value": "within the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By retaining talent and offering resources within the community"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Yasmine Patel",
+    "relation": "helps_keep_financial_flow",
+    "value": "local",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Yasmine helps keep the financial flow local"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Yasmine Patel",
+    "relation": "mechanism_of",
+    "value_ref": "c21",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By retaining talent and offering resources within the community, Yasmine helps keep the financial flow local."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Robert Ekhart",
+    "relation": "launched",
+    "value": "a community-supported agriculture program",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "Robert Ekhart, who launched a community-supported agriculture program in November 2023"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "community-supported agriculture program",
+    "relation": "launched_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched a community-supported agriculture program in November 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Robert Ekhart",
+    "relation": "solidifies",
+    "value": "a supply chain that reinforces local producers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "solidify a supply chain that reinforces local producers"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Sara Nguyen",
+    "relation": "founded",
+    "value": "Wrap Earth",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "Through her eco-friendly packaging company, \"Wrap Earth\", which she founded in December 2023"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Wrap Earth",
+    "relation": "is_a",
+    "value": "eco-friendly packaging company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her eco-friendly packaging company, \"Wrap Earth\""
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Wrap Earth",
+    "relation": "product_line_prioritizes",
+    "value": "sustainability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought forward a product line that prioritizes sustainability"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Wrap Earth",
+    "relation": "business_model_focuses_on",
+    "value": "circular economy principles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her business model as well, which focuses on circular economy principles"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Charlie Vernon",
+    "relation": "owns",
+    "value": "Fit Together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charlie Vernon\u2019s neighborhood gym, \u201cFit Together\u201d, which opened on September 17, 2023"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Fit Together",
+    "relation": "opened_on",
+    "value": "September 17, 2023",
+    "time": "September 17, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Charlie Vernon\u2019s neighborhood gym, \u201cFit Together\u201d, which opened on September 17, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Charlie Vernon",
+    "relation": "hosts",
+    "value": "community wellness events",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charlie\u2019s regular hosting of community wellness events"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Fit Together",
+    "relation": "became_place_where",
+    "value": "local health professionals, nutritionists, and mental health advocates can engage with the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has turned the gym into a place where local health professionals, nutritionists, and mental health advocates can engage with the community"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Charlie Vernon",
+    "relation": "results_in",
+    "value_ref": "c33",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charlie\u2019s regular hosting of community wellness events has turned the gym into a place where local health professionals, nutritionists, and mental health advocates can engage with the community"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Charlie Vernon",
+    "relation": "builds",
+    "value": "a healthier, better-connected public sphere",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Charlie isn\u2019t just building bodies\u2014he's building a healthier, better-connected public sphere"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Emily O'Sullivan",
+    "relation": "opened",
+    "value": "Heritage Hues",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Emily O'Sullivan's \"Heritage Hues,\" an art supply store she opened in January 2024"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Heritage Hues",
+    "relation": "is_a",
+    "value": "art supply store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an art supply store she opened in January 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Heritage Hues",
+    "relation": "supplies",
+    "value": "materials for traditional art forms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By supplying materials specifically for traditional art forms"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Heritage Hues",
+    "relation": "hosts",
+    "value": "workshops led by local artisans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosting workshops led by local artisans"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Emily O'Sullivan",
+    "relation": "safeguards",
+    "value": "the knowledge and heritage of the region\u2019s artistic expressions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily safeguards the knowledge and heritage of the region\u2019s artistic expressions"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily O'Sullivan",
+    "relation": "mechanism_of",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By supplying materials specifically for traditional art forms and hosting workshops led by local artisans, Emily safeguards the knowledge and heritage of the region\u2019s artistic expressions."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Alexis Thompson",
+    "relation": "introduced",
+    "value": "SmartSittings",
+    "time": "February 2024",
+    "speaker": null,
+    "verbatim": [
+     "Alexis Thompson, who introduced her unique brand of tech-embedded furniture, \"SmartSittings\", in February 2024"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "SmartSittings",
+    "relation": "is_a",
+    "value": "tech-embedded furniture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "her unique brand of tech-embedded furniture, \"SmartSittings\""
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Alexis Thompson",
+    "relation": "has_been_speaking_at",
+    "value": "local schools about the intersection of technology and entrepreneurship",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since been actively speaking at local schools about the intersection of technology and entrepreneurship"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Alexis Thompson",
+    "relation": "story_encourages",
+    "value": "innovation, perseverance, and a daring to dream",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alexis's story is one that encourages innovation, perseverance, and a daring to dream"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "social capital",
+    "relation": "built_through",
+    "value": "events, sponsorships, and collaborations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through events, sponsorships, and collaborations, they create opportunities for residents to connect, thus building social capital"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "social capital",
+    "relation": "is_invaluable_in",
+    "value": "times of individual or collective need",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "building social capital that is invaluable in times of individual or collective need"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

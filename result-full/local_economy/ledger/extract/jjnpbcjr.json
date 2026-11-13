@@ -1,0 +1,727 @@
+{
+ "inventory": [
+  "John and Mary Anderson",
+  "Springfield",
+  "Dr. Alice Martin",
+  "Springfield University",
+  "Mike Greenburg",
+  "Greenburg Farms",
+  "Emily Johnson",
+  "Bob Thompson",
+  "Springfield Farmers' Market",
+  "local and organic food markets",
+  "organic produce",
+  "big supermarket chains",
+  "millennial generation",
+  "retail chains",
+  "farmers' markets",
+  "food education",
+  "NGOs",
+  "gardening programs",
+  "online platforms",
+  "digital payment systems",
+  "social media marketing",
+  "agriculture technology",
+  "pesticides",
+  "food miles",
+  "local food system"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "John and Mary Anderson",
+    "relation": "visited",
+    "value": "local farmer\u2019s market",
+    "time": "September 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "It was a crisp Saturday morning on September 9, 2023, when John and Mary Anderson of Springfield made their routine trip to the local farmer\u2019s market."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "John and Mary Anderson",
+    "relation": "resident_of",
+    "value": "Springfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John and Mary Anderson of Springfield"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "John and Mary Anderson",
+    "relation": "started_to_bypass",
+    "value": "the aisles of the big supermarket chains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They, like many others, have started to bypass the aisles of the big supermarket chains for the charm and freshness of local produce."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "farmers' markets",
+    "relation": "footfall_increase",
+    "value": "20%",
+    "time": "since the last quarter of 2022",
+    "speaker": null,
+    "verbatim": [
+     "Data shows that local farmers' markets have seen a 20% increase in footfall since the last quarter of 2022."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Dr. Alice Martin",
+    "relation": "occupation",
+    "value": "nutritionist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alice Martin, a nutritionist at Springfield University"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Dr. Alice Martin",
+    "relation": "employed_by",
+    "value": "Springfield University",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alice Martin, a nutritionist at Springfield University"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Alice Martin",
+    "relation": "stated",
+    "value": "The allure of local food isn't just about taste",
+    "time": null,
+    "speaker": "Dr. Alice Martin",
+    "verbatim": [
+     "\"The allure of local food isn't just about taste,\""
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Alice Martin",
+    "relation": "described_shift_as",
+    "value": "a conscious move towards sustainability and nourishment\u2014body and soul",
+    "time": null,
+    "speaker": "Dr. Alice Martin",
+    "verbatim": [
+     "It's a conscious move towards sustainability and nourishment\u2014body and soul."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Alice Martin",
+    "relation": "standing_amidst",
+    "value": "vibrant stalls adorned with organic fruits and vegetables",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "standing amidst the vibrant stalls adorned with organic fruits and vegetables"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Mike Greenburg",
+    "relation": "owner_of",
+    "value": "Greenburg Farms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Greenburg, owner of Greenburg Farms"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Mike Greenburg",
+    "relation": "organic_produce_sales",
+    "value": "skyrocketed",
+    "time": "since early 2023",
+    "speaker": null,
+    "verbatim": [
+     "has seen his organic produce sales skyrocket since early 2023"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mike Greenburg",
+    "relation": "stated",
+    "value": "People are more aware now.",
+    "time": null,
+    "speaker": "Mike Greenburg",
+    "verbatim": [
+     "People are more aware now."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mike Greenburg",
+    "relation": "stated",
+    "value": "They want to know where their food comes from, and they care about the environmental footprint",
+    "time": null,
+    "speaker": "Mike Greenburg",
+    "verbatim": [
+     "They want to know where their food comes from, and they care about the environmental footprint,"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Mike Greenburg",
+    "relation": "was_arranging",
+    "value": "crates of organic squash and kale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "while arranging crates of organic squash and kale"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "organic produce",
+    "relation": "was_considered",
+    "value": "a luxury",
+    "time": "once",
+    "speaker": null,
+    "verbatim": [
+     "Organic produce was once considered a luxury"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "organic produce",
+    "relation": "was_niche_market_for",
+    "value": "a selective crowd",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a niche market catered to a selective crowd."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "organic produce",
+    "relation": "notion_disproven",
+    "value": "that notion",
+    "time": "recent years",
+    "speaker": null,
+    "verbatim": [
+     "However, recent years have disproven that notion."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "organic produce",
+    "relation": "driven_by",
+    "value": "concerns over pesticides, food miles, and a marked desire for transparency regarding production and sourcing methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns over pesticides, food miles, and a marked desire for transparency regarding production and sourcing methods certainly play a part."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "pesticides",
+    "relation": "concern_driving",
+    "value": "the organic trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns over pesticides, food miles, and a marked desire for transparency regarding production and sourcing methods certainly play a part."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "food miles",
+    "relation": "concern_driving",
+    "value": "the organic trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Concerns over pesticides, food miles, and a marked desire for transparency regarding production and sourcing methods certainly play a part."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "big supermarket chains",
+    "relation": "dedicating_more_space_to",
+    "value": "organic products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Supermarkets have also taken note, dedicating more space to organic products to meet consumer demand."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "millennial generation",
+    "relation": "influence_on",
+    "value": "the resurgence of local and organic food markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's impossible to overlook the millennial generation's influence on the resurgence of local and organic food markets."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "millennial generation",
+    "relation": "becoming",
+    "value": "the main consumer force",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As they become the main consumer force"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "millennial generation",
+    "relation": "values_reshaping",
+    "value": "market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As they become the main consumer force, their values\u2014 sustainability, health, and localism\u2014are reshaping market trends."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Johnson",
+    "relation": "is_a",
+    "value": "millennial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Johnson, a millennial and a frequent visitor of local markets"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Johnson",
+    "relation": "frequent_visitor_of",
+    "value": "local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Johnson, a millennial and a frequent visitor of local markets"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Johnson",
+    "relation": "stated",
+    "value": "The connection to our food source is fundamental",
+    "time": null,
+    "speaker": "Emily Johnson",
+    "verbatim": [
+     "\"fundamental,\" Emily asserts."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emily Johnson",
+    "relation": "stated",
+    "value": "We want to diminish the anonymity of mass-produced food",
+    "time": null,
+    "speaker": "Emily Johnson",
+    "verbatim": [
+     "\"We want to diminish the anonymity of mass-produced food.\""
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "millennial generation",
+    "relation": "prioritize",
+    "value": "experiences and values over mere consumption",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "studies indicate millennials prioritize experiences and values over mere consumption."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "millennial generation",
+    "relation": "willing_to_pay",
+    "value": "a premium for goods that not only nourish them but also align with their ethical standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They are willing to pay a premium for goods that not only nourish them but also align with their ethical standards."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Bob Thompson",
+    "relation": "grows",
+    "value": "organic tomatoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Thompson, whose organic tomatoes are a sensation at the Springfield Farmers' Market."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Bob Thompson",
+    "relation": "example_of",
+    "value": "the newfound celebrity status of local farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A prime example is Bob Thompson"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Bob Thompson",
+    "relation": "stated_secret",
+    "value": "Just good, honest soil and a passion for what grows in it",
+    "time": null,
+    "speaker": "Bob Thompson",
+    "verbatim": [
+     "\"Just good, honest soil and a passion for what grows in it.\""
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Bob Thompson",
+    "relation": "story_is",
+    "value": "one among many",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob's story is one among many"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Springfield Farmers' Market",
+    "relation": "features",
+    "value": "Bob Thompson's organic tomatoes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bob Thompson, whose organic tomatoes are a sensation at the Springfield Farmers' Market."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "local and organic food markets",
+    "relation": "sparked_by",
+    "value": "sensory experiences and the yearning for a healthier lifestyle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's these sensory experiences and the yearning for a healthier lifestyle that have sparked a movement"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "local and organic food markets",
+    "relation": "is_a",
+    "value": "a shift towards local and organic food markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a movement\u2014a shift towards local and organic food markets."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "farmers' markets",
+    "relation": "reduces",
+    "value": "the supply chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By reducing the supply chain"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "farmers' markets",
+    "relation": "money_circulates_within",
+    "value": "the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "money spent at farmers' markets circulates within the community, strengthening local economies."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "farmers' markets",
+    "relation": "mechanism_of",
+    "value_ref": "c39",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By reducing the supply chain, money spent at farmers' markets circulates within the community"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "local and organic food markets",
+    "relation": "cents_retained_per_dollar",
+    "value": "67 cents",
+    "time": null,
+    "speaker": "a recent survey",
+    "verbatim": [
+     "According to a recent survey, for every dollar spent at a local food market, 67 cents stay in the local economy"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "retail chains",
+    "relation": "cents_retained_per_dollar",
+    "value": "34 cents",
+    "time": null,
+    "speaker": "a recent survey",
+    "verbatim": [
+     "compared to only 34 cents when spent in retail chains."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "local and organic food markets",
+    "relation": "creates",
+    "value": "jobs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the trend is creating jobs."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "local and organic food markets",
+    "relation": "ecosystem_is",
+    "value": "booming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the ecosystem around these markets is booming."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "local and organic food markets",
+    "relation": "not_restrained_by",
+    "value": "technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The local and organic market trend isn't restrained by technology; instead, it's bolstered by it."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "local and organic food markets",
+    "relation": "bolstered_by",
+    "value": "technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instead, it's bolstered by it."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "online platforms",
+    "relation": "connect_consumers_to_farmers",
+    "value": "consumers straight to farmers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Online platforms that connect consumers straight to farmers, digital payment systems, and social media marketing have all played their part in the rise of local markets."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "online platforms",
+    "relation": "played_part_in",
+    "value": "the rise of local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Online platforms that connect consumers straight to farmers, digital payment systems, and social media marketing have all played their part in the rise of local markets."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "digital payment systems",
+    "relation": "played_part_in",
+    "value": "the rise of local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Online platforms that connect consumers straight to farmers, digital payment systems, and social media marketing have all played their part in the rise of local markets."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "social media marketing",
+    "relation": "played_part_in",
+    "value": "the rise of local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Online platforms that connect consumers straight to farmers, digital payment systems, and social media marketing have all played their part in the rise of local markets."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "agriculture technology",
+    "relation": "helps_local_farmers",
+    "value": "grow more efficiently and sustainably",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "agriculture technology advancements are helping local farmers grow more efficiently and sustainably"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "agriculture technology",
+    "relation": "contributes_to",
+    "value": "the resilience of the local food system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which in turn contributes to the resilience of the local food system."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "food education",
+    "relation": "critical_to",
+    "value": "the longevity of the movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Food education is also critical to the longevity of the movement."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "gardening programs",
+    "relation": "implemented_by",
+    "value": "Schools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Schools have begun implementing gardening programs"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "NGOs",
+    "relation": "promoting",
+    "value": "food literacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "NGOs are promoting food literacy\u2014teaching about the sources of food, how it's grown, and the benefits of a local diet."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "food education",
+    "relation": "could_lead_to",
+    "value": "a permanent societal shift towards local and organic consumption habits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These initiatives sow seeds of awareness that could lead to a permanent societal shift towards local and organic consumption habits."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "local and organic food markets",
+    "relation": "not_just_places_of",
+    "value": "transaction but of interaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Markets aren't just places of transaction but of interaction."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "local and organic food markets",
+    "relation": "fosters",
+    "value": "community bonds",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They foster community bonds, becoming weekly social gathering points where stories and recipes are shared along with produce."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "local and organic food markets",
+    "relation": "is_not",
+    "value": "just a fleeting trend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the demand for local and organic food isn't just a fleeting trend"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "local and organic food markets",
+    "relation": "described_as",
+    "value": "a return to something intrinsically human",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's a return to something intrinsically human."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Springfield",
+    "relation": "home_of",
+    "value": "John and Mary Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John and Mary Anderson of Springfield"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Greenburg Farms",
+    "relation": "owned_by",
+    "value": "Mike Greenburg",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Greenburg, owner of Greenburg Farms"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Springfield University",
+    "relation": "employs",
+    "value": "Dr. Alice Martin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alice Martin, a nutritionist at Springfield University"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

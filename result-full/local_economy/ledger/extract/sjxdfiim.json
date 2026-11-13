@@ -1,0 +1,791 @@
+{
+ "inventory": [
+  "Natasha Richardson",
+  "Global Wellness Summit",
+  "VitaHealth",
+  "Michael Thompson",
+  "Pure Harmony",
+  "Chloe Martin",
+  "LifeSync",
+  "Rajesh Singh",
+  "TechHealth Solutions",
+  "MindMatters",
+  "Dr. Emily Stuart",
+  "David Weiss",
+  "Green Essence",
+  "Maria Gonzalez",
+  "Tomas Gonzalez",
+  "Champion Nutritionals",
+  "Dr. Anita Desai",
+  "Lumina Therapy",
+  "Christine Liu",
+  "EcoWell",
+  "Jessica Teng",
+  "nutraceuticals",
+  "organic and natural products"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Natasha Richardson",
+    "relation": "is_a",
+    "value": "a health trends analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Natasha Richardson, a health trends analyst"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Natasha Richardson",
+    "relation": "spoke_at",
+    "value": "Global Wellness Summit",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "best summarized by Natasha Richardson, a health trends analyst, at the recent Global Wellness Summit held on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Global Wellness Summit",
+    "relation": "held_on",
+    "value": "October 14, 2023",
+    "time": "October 14, 2023",
+    "speaker": null,
+    "verbatim": [
+     "the recent Global Wellness Summit held on October 14, 2023"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Natasha Richardson",
+    "relation": "noted",
+    "value": "People have moved from reactive health strategies to proactive wellness plans.",
+    "time": null,
+    "speaker": "Natasha Richardson",
+    "verbatim": [
+     "People have moved from reactive health strategies to proactive wellness plans."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "VitaHealth",
+    "relation": "described_as",
+    "value": "a household name",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VitaHealth, a household name thanks to its revolutionary approach to nutritional supplements and personalized health"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "VitaHealth",
+    "relation": "founded_by",
+    "value": "Michael Thompson",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Established by the charismatic entrepreneur Michael Thompson in January 2024"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Michael Thompson",
+    "relation": "is_a",
+    "value": "charismatic entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Established by the charismatic entrepreneur Michael Thompson"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "VitaHealth",
+    "relation": "uses_algorithm",
+    "value": "unique algorithm that tailors vitamins and minerals to individual needs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "its unique algorithm that tailors vitamins and minerals to individual needs, based on sophisticated AI analyses of a person's health data"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "VitaHealth",
+    "relation": "garnered",
+    "value": "admiration",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "VitaHealth has garnered admiration for its unique algorithm"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Pure Harmony",
+    "relation": "founded_by",
+    "value": "Chloe Martin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Pure Harmony, launched by former Olympic athlete Chloe Martin"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Chloe Martin",
+    "relation": "is_a",
+    "value": "former Olympic athlete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "former Olympic athlete Chloe Martin"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Pure Harmony",
+    "relation": "offers",
+    "value": "supplements and health snacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin's line of supplements and health snacks"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Pure Harmony",
+    "relation": "motivated_by",
+    "value": "lack of nutritional options tailored to the unique requirements of professional athletes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the lack of nutritional options tailored to the unique requirements of professional athletes"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Pure Harmony",
+    "relation": "became_synonymous_with",
+    "value": "elite performance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quickly became synonymous with elite performance"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Pure Harmony",
+    "relation": "found_broader_audience_among",
+    "value": "fitness enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has since found a broader audience among fitness enthusiasts"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "LifeSync",
+    "relation": "is_a",
+    "value": "tech-based wellness company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech-based wellness company, LifeSync"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "LifeSync",
+    "relation": "offers",
+    "value": "state-of-the-art wearable technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "is catching eyes with its state-of-the-art wearable technology"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "LifeSync",
+    "relation": "led_by",
+    "value": "Rajesh Singh",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by the tech visionary Rajesh Singh"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Rajesh Singh",
+    "relation": "is_a",
+    "value": "tech visionary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Led by the tech visionary Rajesh Singh"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "LifeSync",
+    "relation": "devices_track",
+    "value": "fitness metrics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "track fitness metrics but also offer actionable insights into stress management and mental wellness"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "LifeSync",
+    "relation": "devices_offer",
+    "value": "actionable insights into stress management and mental wellness",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "track fitness metrics but also offer actionable insights into stress management and mental wellness"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "TechHealth Solutions",
+    "relation": "reported",
+    "value": "180% increase in the use of personal health apps",
+    "time": "Since September 2023",
+    "speaker": "TechHealth Solutions",
+    "verbatim": [
+     "Since September 2023, according to the market analysis by TechHealth Solutions, there has been an explosive 180% increase in the use of personal health apps"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "TechHealth Solutions",
+    "relation": "suggests",
+    "value": "people are taking full control of their health journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which suggests people are taking full control of their health journey"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "MindMatters",
+    "relation": "introduced_on",
+    "value": "November 1, 2023",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced to the market on November 1, 2023"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "MindMatters",
+    "relation": "created_by",
+    "value": "Dr. Emily Stuart",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Created by neuroscientist Dr. Emily Stuart and tech entrepreneur David Weiss"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "MindMatters",
+    "relation": "created_by",
+    "value": "David Weiss",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Created by neuroscientist Dr. Emily Stuart and tech entrepreneur David Weiss"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Dr. Emily Stuart",
+    "relation": "is_a",
+    "value": "neuroscientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Created by neuroscientist Dr. Emily Stuart"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "David Weiss",
+    "relation": "is_a",
+    "value": "tech entrepreneur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech entrepreneur David Weiss"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "MindMatters",
+    "relation": "offers",
+    "value": "cognitivebehavioral therapy and personalized mindfulness sessions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers cognitivebehavioral therapy and personalized mindfulness sessions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "MindMatters",
+    "relation": "makes_accessible",
+    "value": "mental wellness support anywhere and anytime",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "effectively making mental wellness support accessible anywhere and anytime"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "MindMatters",
+    "relation": "results_in",
+    "value_ref": "c30",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers cognitivebehavioral therapy and personalized mindfulness sessions, effectively making mental wellness support accessible anywhere and anytime"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "organic and natural products",
+    "relation": "is_witnessing",
+    "value": "unparalleled growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the market for organic and natural products is witnessing unparalleled growth"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "organic and natural products",
+    "relation": "consumer_concern_about",
+    "value": "synthetic additives present in traditional offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "consumers harboring concerns about the synthetic additives present in traditional offerings"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "organic and natural products",
+    "relation": "forecast_to_drive",
+    "value": "billions in annual sales",
+    "time": "by late 2025",
+    "speaker": null,
+    "verbatim": [
+     "a surge in demand forecasted to drive billions in annual sales by late 2025"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "organic and natural products",
+    "relation": "surge_in_demand_fueled_by",
+    "value": "preference for clean, natural ingredients",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the preference for clean, natural ingredients has fueled a surge in demand"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Green Essence",
+    "relation": "founded_by",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company founded by siblings Maria and Tomas Gonzalez"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Green Essence",
+    "relation": "founded_by",
+    "value": "Tomas Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company founded by siblings Maria and Tomas Gonzalez"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Maria Gonzalez",
+    "relation": "sibling_of",
+    "value": "Tomas Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "siblings Maria and Tomas Gonzalez"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Tomas Gonzalez",
+    "relation": "sibling_of",
+    "value": "Maria Gonzalez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "siblings Maria and Tomas Gonzalez"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Green Essence",
+    "relation": "origin",
+    "value": "a small family farm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Born out of a small family farm"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Green Essence",
+    "relation": "evolved_into",
+    "value": "a leading provider of organic skincare and homeopathic remedies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green Essence has evolved into a leading provider of organic skincare and homeopathic remedies"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Green Essence",
+    "relation": "committed_to",
+    "value": "sustainable practices and community-based sourcing models",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their commitment to sustainable practices and community-based sourcing models"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Green Essence",
+    "relation": "earned",
+    "value": "a loyal customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has not only earned them a loyal customer base"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Green Essence",
+    "relation": "earned_by",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their commitment to sustainable practices and community-based sourcing models has not only earned them a loyal customer base"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Green Essence",
+    "relation": "set_standard",
+    "value": "a new standard for ethical production within the wellness industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has also set a new standard for ethical production within the wellness industry"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "nutraceuticals",
+    "relation": "defined_as",
+    "value": "nutrients derived from food sources and provide medical or health benefits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These products, which encompass nutrients derived from food sources and provide medical or health benefits"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "nutraceuticals",
+    "relation": "becoming",
+    "value": "a staple in preventative healthcare regimes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are quickly becoming a staple in preventative healthcare regimes"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "nutraceuticals",
+    "relation": "emergence_exemplifies",
+    "value": "the evolution of health markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emergence of nutraceuticals further exemplifies the evolution of health markets"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Champion Nutritionals",
+    "relation": "is_a",
+    "value": "a pioneer in the field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Champion Nutritionals, a pioneer in the field"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Champion Nutritionals",
+    "relation": "developed",
+    "value": "a range of nutraceuticals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has developed a range of nutraceuticals that promise to support everything from joint health to cognitive function"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Champion Nutritionals",
+    "relation": "promises_to_support",
+    "value": "everything from joint health to cognitive function",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promise to support everything from joint health to cognitive function"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Champion Nutritionals",
+    "relation": "rd_led_by",
+    "value": "Chief Scientist Dr. Anita Desai",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by Chief Scientist Dr. Anita Desai"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Dr. Anita Desai",
+    "relation": "is_a",
+    "value": "Chief Scientist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by Chief Scientist Dr. Anita Desai"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Champion Nutritionals",
+    "relation": "conducts",
+    "value": "aggressive research and development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their aggressive research and development, led by Chief Scientist Dr. Anita Desai"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Champion Nutritionals",
+    "relation": "allowed",
+    "value": "consistently innovate and stay ahead of market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have allowed them to consistently innovate and stay ahead of market trends"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Champion Nutritionals",
+    "relation": "enables",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their aggressive research and development, led by Chief Scientist Dr. Anita Desai, have allowed them to consistently innovate and stay ahead of market trends"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Lumina Therapy",
+    "relation": "specializes_in",
+    "value": "cutting-edge mental health products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company that specializes in cutting-edge mental health products"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Christine Liu",
+    "relation": "is_a",
+    "value": "clinical psychologist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christine Liu, a clinical psychologist and the CEO of Lumina Therapy"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Christine Liu",
+    "relation": "ceo_of",
+    "value": "Lumina Therapy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Christine Liu, a clinical psychologist and the CEO of Lumina Therapy"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Christine Liu",
+    "relation": "overseen",
+    "value": "development of their groundbreaking digital therapeutic platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has overseen the development of their groundbreaking digital therapeutic platform"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Lumina Therapy",
+    "relation": "provides",
+    "value": "personalized therapy modules",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The platform provides personalized therapy modules"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Lumina Therapy",
+    "relation": "adoption",
+    "value": "immense adoption since its launch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen immense adoption since its launch"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "EcoWell",
+    "relation": "known_for",
+    "value": "sustainable wellness products",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoWell, a company known for its sustainable wellness products"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "EcoWell",
+    "relation": "described_as",
+    "value": "a leader in this veil",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "stands out as a leader in this veil"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "EcoWell",
+    "relation": "led_by",
+    "value": "Jessica Teng",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under CEO Jessica Teng's leadership"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Jessica Teng",
+    "relation": "is_a",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Under CEO Jessica Teng's leadership"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "EcoWell",
+    "relation": "achieved",
+    "value": "remarkable success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoWell has achieved remarkable success"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "EcoWell",
+    "relation": "ensures",
+    "value": "all their products, from yoga mats to water bottles, are sustainably produced and packaged in eco-friendly materials",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that all their products, from yoga mats to water bottles, are sustainably produced and packaged in eco-friendly materials"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "EcoWell",
+    "relation": "achieved_by",
+    "value_ref": "c68",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoWell has achieved remarkable success by ensuring that all their products, from yoga mats to water bottles, are sustainably produced and packaged in eco-friendly materials"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

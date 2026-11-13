@@ -1,0 +1,907 @@
+{
+ "inventory": [
+  "digital identity verification",
+  "local markets",
+  "blockchain",
+  "Mary Smith",
+  "corner bakery",
+  "John Doe",
+  "farmer's market",
+  "Charleston",
+  "San Francisco",
+  "biometric authentication methods",
+  "facial recognition systems",
+  "fingerprint scanners",
+  "multi-factor authentication (MFA)",
+  "Riverdale Community Market",
+  "decentralized systems",
+  "Samantha Lee",
+  "Tech for Trade show",
+  "Las Vegas",
+  "zero-knowledge proofs",
+  "financial inclusion",
+  "The Inclusive Finance Initiative",
+  "Michael Torres",
+  "Midwest",
+  "New Orleans",
+  "Bali",
+  "artificial intelligence",
+  "SecureIDTech",
+  "Aiden Chen",
+  "Internet-of-Things (IoT) devices"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "corner bakery",
+    "relation": "located_in",
+    "value": "downtown Charleston",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the corner bakery owned by Mary Smith in downtown Charleston"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "corner bakery",
+    "relation": "owned_by",
+    "value": "Mary Smith",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the corner bakery owned by Mary Smith in downtown Charleston"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "farmer's market",
+    "relation": "operated_by",
+    "value": "John Doe",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling farmer\u2019s market operated by John Doe in San Francisco"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "farmer's market",
+    "relation": "located_in",
+    "value": "San Francisco",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the bustling farmer\u2019s market operated by John Doe in San Francisco"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "local markets",
+    "relation": "saw_shift_in",
+    "value": "the way transactions are validated",
+    "time": "After September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "After September 1, 2023, local markets saw an unprecedented shift in the way transactions are validated."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "local markets",
+    "relation": "have_become",
+    "value": "hotspots for digital transactions",
+    "time": "After September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "local businesses like the corner bakery owned by Mary Smith in downtown Charleston, or the bustling farmer\u2019s market operated by John Doe in San Francisco, have now become hotspots for digital transactions"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "local markets",
+    "relation": "physical_cash_status",
+    "value": "increasingly becoming a relic of the past",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With physical cash increasingly becoming a relic of the past"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "local markets",
+    "relation": "digital_currency_acceptance",
+    "value": "a common sight",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The use of smartphones, smart cards, and other digital devices has made the acceptance of digital currencies and tokens a common sight."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "digital identity verification",
+    "relation": "need_ushered_in_by",
+    "value": "a digital movement driven by both necessity and the pursuit of efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This digital movement, driven by both necessity and the pursuit of efficiency, has ushered in the need for robust identity verification processes."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "digital identity verification",
+    "relation": "fraud_risk_status",
+    "value": "at an all-time high",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the risk of fraud and identity theft at an all-time high"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "digital identity verification",
+    "relation": "stakes_for_securing_digital_transactions",
+    "value": "never been greater",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the stakes for securing these digital transactions have never been greater"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "digital identity verification",
+    "relation": "is",
+    "value": "complex",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital identity verification systems are complex, yet they stand on three foundational pillars"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "digital identity verification",
+    "relation": "rests_on_pillars",
+    "value": "security, privacy, and user accessibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they stand on three foundational pillars: security, privacy, and user accessibility"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "local markets",
+    "relation": "pillars_reinforced_by",
+    "value": "advancements in technology",
+    "time": "In recent months",
+    "speaker": null,
+    "verbatim": [
+     "In recent months, local markets have seen these pillars reinforced by advancements in technology."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "biometric authentication methods",
+    "relation": "is_one_of",
+    "value": "the key advancements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the key of these advancements is the implementation of biometric authentication methods."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "facial recognition systems",
+    "relation": "can_link_consumer_to",
+    "value": "their digital wallet",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Think of facial recognition systems that can link a consumer seamlessly to their digital wallet"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "fingerprint scanners",
+    "relation": "confirm_identity_of",
+    "value": "a purchaser\u2019s identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or fingerprint scanners at checkout counters to confirm a purchaser\u2019s identity"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "biometric authentication methods",
+    "relation": "enhance",
+    "value": "security",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These methods not only enhance security but also streamline the transaction process."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "biometric authentication methods",
+    "relation": "streamline",
+    "value": "the transaction process",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These methods not only enhance security but also streamline the transaction process."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "experimented_with_by",
+    "value": "local marketplaces",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local marketplaces are already experimenting with multi-factor authentication (MFA)"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "multi-factor authentication (MFA)",
+    "relation": "requires",
+    "value": "the consumer to present two or more verification factors to gain access to a system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which requires the consumer to present two or more verification factors to gain access to a"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Riverdale Community Market",
+    "relation": "incorporated_system_requiring",
+    "value": "a user to provide a password combined with a thumbprint before making a significant purchase",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, the Riverdale Community Market incorporated a system requiring a user to provide a password combined with a thumbprint before making a significant purchase"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Riverdale Community Market",
+    "relation": "reduced_fraudulent_transactions",
+    "value": "drastically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This added layer of security has drastically reduced fraudulent transactions"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Riverdale Community Market",
+    "relation": "increased_confidence_of",
+    "value": "both vendor and buyer confidence within the market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby increasing both vendor and buyer confidence within the market"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Riverdale Community Market",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This added layer of security has drastically reduced fraudulent transactions, thereby increasing both vendor and buyer confidence within the market."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "local markets",
+    "relation": "historically_involved",
+    "value": "handing over personal details to merchants, such as credit card information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local market transactions have historically involved handing over personal details to merchants, such as credit card information."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "blockchain",
+    "relation": "rise_is_changing",
+    "value": "the narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "However, with the rise of blockchain and decentralized technologies, the narrative is changing."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "decentralized systems",
+    "relation": "enable_verification_without_revealing",
+    "value": "unnecessary personal information",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through decentralized systems, digital identities could be verified without revealing unnecessary personal information."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Samantha Lee",
+    "relation": "unveiled",
+    "value": "a blockchain-based identity verification system",
+    "time": "November 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Samantha Lee, a passionate tech innovator, unveiled a blockchain-based identity verification system on November 20, 2023, at the annual Tech for Trade show in Las Vegas"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Samantha Lee",
+    "relation": "is_described_as",
+    "value": "a passionate tech innovator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Lee, a passionate tech innovator"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Tech for Trade show",
+    "relation": "located_in",
+    "value": "Las Vegas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at the annual Tech for Trade show in Las Vegas"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Tech for Trade show",
+    "relation": "is",
+    "value": "annual",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "at the annual Tech for Trade show"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Samantha Lee",
+    "relation": "platform_allows_shoppers",
+    "value": "to provide proof of identity without disclosing sensitive data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her platform allows shoppers to provide proof of identity without disclosing sensitive data, such as their social security number or home address."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Samantha Lee",
+    "relation": "sensitive_data_examples",
+    "value": "social security number or home address",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "such as their social security number or home address"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "zero-knowledge proofs",
+    "relation": "enable",
+    "value": "users to demonstrate they possess certain credentials without revealing the credentials themselves",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "novel cryptographic methods, like zero-knowledge proofs, enable users to demonstrate they possess certain credentials without revealing the credentials themselves."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "zero-knowledge proofs",
+    "relation": "is_a",
+    "value": "novel cryptographic methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "novel cryptographic methods, like zero-knowledge proofs"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "zero-knowledge proofs",
+    "relation": "enables_customer_to_confirm",
+    "value": "legal age to purchase alcohol without showing a photo ID",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a customer can confirm they are of legal age to purchase alcohol without showing a photo ID, thus maintaining their privacy."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "zero-knowledge proofs",
+    "relation": "maintains_privacy",
+    "value": "their privacy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thus maintaining their privacy"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "zero-knowledge proofs",
+    "relation": "results_in",
+    "value_ref": "c38",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "without showing a photo ID, thus maintaining their privacy"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "digital identity verification",
+    "relation": "plays_role_in",
+    "value": "financial inclusion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it also plays a pivotal role in financial inclusion"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "financial inclusion",
+    "relation": "affects",
+    "value": "underbanked individuals in local communities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many individuals in local communities are underbanked and can\u2019t access traditional banking services because they lack the necessary paper-based identification."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "financial inclusion",
+    "relation": "lack_access_to",
+    "value": "traditional banking services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can\u2019t access traditional banking services"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "financial inclusion",
+    "relation": "reason_for_exclusion",
+    "value": "they lack the necessary paper-based identification",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "because they lack the necessary paper-based identification"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "financial inclusion",
+    "relation": "caused_by",
+    "value_ref": "c43",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "can\u2019t access traditional banking services because they lack the necessary paper-based identification"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "digital identity verification",
+    "relation": "provides_solution",
+    "value": "a solution",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital identity systems provide a solution."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "digital identity verification",
+    "relation": "enables",
+    "value": "individuals to establish a verifiable digital identity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By enabling individuals to establish a verifiable digital identity"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "financial inclusion",
+    "relation": "gives_access_to",
+    "value": "the financial services they were previously excluded from",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they can gain access to the financial services they were previously excluded from."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "financial inclusion",
+    "relation": "has_potential_to_transform",
+    "value": "local economies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This inclusion has the potential to transform local economies by empowering a larger section of the community to participate in the market fully."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "financial inclusion",
+    "relation": "empowers",
+    "value": "a larger section of the community to participate in the market fully",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by empowering a larger section of the community to participate in the market fully"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "financial inclusion",
+    "relation": "mechanism_of",
+    "value_ref": "c48",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "transform local economies by empowering a larger section of the community to participate in the market fully"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "The Inclusive Finance Initiative",
+    "relation": "launched",
+    "value": "a pilot project in select local markets across the Midwest",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 5, 2023, The Inclusive Finance Initiative (IFI), led by pioneering fintech expert, Michael Torres, launched a pilot project in select local markets across the Midwest."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "The Inclusive Finance Initiative",
+    "relation": "led_by",
+    "value": "Michael Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by pioneering fintech expert, Michael Torres"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Michael Torres",
+    "relation": "is_described_as",
+    "value": "a pioneering fintech expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "led by pioneering fintech expert, Michael Torres"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Midwest",
+    "relation": "hosts_pilot_project",
+    "value": "select local markets",
+    "time": "December 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched a pilot project in select local markets across the Midwest"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "The Inclusive Finance Initiative",
+    "relation": "aims_to",
+    "value": "bridge the financial gap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The project aims to bridge the financial gap"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "The Inclusive Finance Initiative",
+    "relation": "provides",
+    "value": "secure, blockchain-based identity verification services tailored for those who have traditionally been left out of the financial system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by providing secure, blockchain-based identity verification services tailored for those who have traditionally been left out of the financial system."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "The Inclusive Finance Initiative",
+    "relation": "mechanism_of",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aims to bridge the financial gap by providing secure, blockchain-based identity verification services"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "local markets",
+    "relation": "adapt_implications",
+    "value": "the implications ripple across the global economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As local markets adapt to these technological advancements, the implications ripple across the global economy."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "digital identity verification",
+    "relation": "enables_engagement_in",
+    "value": "digital markets with far-reaching geographic footprints",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the increased security of digital identity verification, local consumers and merchants can engage in digital markets with far-reaching geographic footprints."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "local markets",
+    "relation": "opens_to",
+    "value": "a global customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This opens up local businesses to a global customer base"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "local markets",
+    "relation": "gives_consumers_access_to",
+    "value": "international markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "similarly gives consumers access to international markets"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "New Orleans",
+    "relation": "artisan_sells",
+    "value": "her handmade jewelry to a customer halfway across the world in Bali",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local artisan in New Orleans can sell her handmade jewelry to a customer halfway across the world in Bali"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Bali",
+    "relation": "receives_sale_from",
+    "value": "New Orleans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local artisan in New Orleans can sell her handmade jewelry to a customer halfway across the world in Bali"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "digital identity verification",
+    "relation": "facilitates",
+    "value": "the trade of handmade jewelry between New Orleans and Bali",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all facilitated by secure digital identity verification that underlines trust in online transactions."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "digital identity verification",
+    "relation": "underlines",
+    "value": "trust in online transactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "all facilitated by secure digital identity verification that underlines trust in online transactions."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "artificial intelligence",
+    "relation": "could_soon_revolutionize",
+    "value": "digital identity verification",
+    "time": "soon",
+    "speaker": null,
+    "verbatim": [
+     "Advancements in artificial intelligence could soon further revolutionize digital identity verification."
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "artificial intelligence",
+    "relation": "enables_systems_to",
+    "value": "analyze patterns in user behavior to detect and prevent potential fraud before it happens",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Imagine AI-powered systems that can analyze patterns in user behavior to detect and prevent potential fraud before it happens."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "SecureIDTech",
+    "relation": "founded_by",
+    "value": "artificial intelligence prodigy Aiden Chen",
+    "time": "February 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "SecureIDTech, founded by artificial intelligence prodigy Aiden Chen on February 10, 2024"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Aiden Chen",
+    "relation": "is_described_as",
+    "value": "artificial intelligence prodigy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founded by artificial intelligence prodigy Aiden Chen"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "SecureIDTech",
+    "relation": "at_forefront_of",
+    "value": "developing such predictive technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are at the forefront of developing such predictive technologies"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Internet-of-Things (IoT) devices",
+    "relation": "becoming",
+    "value": "increasingly prevalent in our daily lives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as Internet-of-Things (IoT) devices become increasingly prevalent in our daily lives"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "digital identity verification",
+    "relation": "will_likely_integrate_with",
+    "value": "Internet-of-Things (IoT) devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "digital identity verification will likely integrate with these devices to create seamless transaction experiences"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "digital identity verification",
+    "relation": "purpose_of_integration",
+    "value": "seamless transaction experiences",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to create seamless transaction experiences"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "digital identity verification",
+    "relation": "in_order_to",
+    "value_ref": "c73",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "digital identity verification will likely integrate with these devices to create seamless transaction experiences"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Internet-of-Things (IoT) devices",
+    "relation": "example",
+    "value": "your refrigerator could order groceries automatically",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "your refrigerator could order groceries automatically, communicating with local suppliers while ensuring secure identity verification throughout the process."
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "digital identity verification",
+    "relation": "bedrock_for",
+    "value": "secure, trust-filled transactions in local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a future where digital identity verification serves as the bedrock for secure, trust-filled transactions in local markets is one that is just beginning"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "digital identity verification",
+    "relation": "evolution_visualized_in",
+    "value": "local markets",
+    "time": "post-September 2023",
+    "speaker": null,
+    "verbatim": [
+     "visualizing the evolution and incorporation of digital identity verification in the local markets post-September 2023."
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "digital identity verification",
+    "relation": "has_potential_to",
+    "value": "significantly heighten security measures and bolster trust amongst consumers and merchants",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a process that has the potential to significantly heighten security measures and bolster trust amongst consumers and merchants alike"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "blockchain",
+    "relation": "increasing_incorporation_alongside",
+    "value": "other emerging technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the increasing incorporation of blockchain and other emerging technologies"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

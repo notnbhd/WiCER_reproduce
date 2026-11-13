@@ -1,0 +1,826 @@
+{
+ "inventory": [
+  "Jessica Townsend",
+  "Raj Patel",
+  "Townsend Textiles",
+  "Patel Hardware",
+  "Martin Liu",
+  "Liu's Brews",
+  "Better Together: Collaborative Strategies for Small Businesses",
+  "Lydia Gomez",
+  "The Green Fork",
+  "Grace Kim",
+  "Kim's Kouture",
+  "Theo Brown",
+  "Woodwork by Theo",
+  "Local First Festival",
+  "Locale Connect",
+  "Ellen Zhao",
+  "Alexa Diaz",
+  "Bloom Haven",
+  "Max Anderson",
+  "Tech Solutions",
+  "Keith Manning",
+  "local lending circle",
+  "Vanessa Young",
+  "Bound Together",
+  "Locals for Locals"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jessica Townsend",
+    "relation": "owner_of",
+    "value": "Townsend Textiles",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Townsend and Raj Patel, owners of neighboring businesses Townsend Textiles and Patel Hardware"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Raj Patel",
+    "relation": "owner_of",
+    "value": "Patel Hardware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Jessica Townsend and Raj Patel, owners of neighboring businesses Townsend Textiles and Patel Hardware"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Townsend Textiles",
+    "relation": "neighbor_of",
+    "value": "Patel Hardware",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "owners of neighboring businesses Townsend Textiles and Patel Hardware"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Townsend Textiles",
+    "relation": "is_a",
+    "value": "fabric store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This unlikely partnership between a fabric store and a hardware supplier"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Patel Hardware",
+    "relation": "is_a",
+    "value": "hardware supplier",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This unlikely partnership between a fabric store and a hardware supplier"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Jessica Townsend",
+    "relation": "decided_to_launch_joint_venture_with",
+    "value": "Raj Patel",
+    "time": "the 15th of September, 2023",
+    "speaker": null,
+    "verbatim": [
+     "decided to launch a joint venture on the 15th of September, 2023"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Jessica Townsend",
+    "relation": "partnership_initially_geared_towards",
+    "value": "complimenting each other's offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "initially geared towards complimenting each other's offerings"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Jessica Townsend",
+    "relation": "joint_venture_could_stand_as",
+    "value": "a paradigmatic model for other local businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "could stand as a paradigmatic model for other local businesses"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Jessica Townsend",
+    "relation": "said",
+    "value": "it's about leveraging our strengths and offering a combined service that neither of us could achieve alone",
+    "time": null,
+    "speaker": "Jessica Townsend",
+    "verbatim": [
+     "\"It's about leveraging our strengths,\" explained Townsend, \"and offering a combined service that neither of us could achieve alone.\""
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Raj Patel",
+    "relation": "combined_delivery_services_for",
+    "value": "cost reduction",
+    "time": null,
+    "speaker": "Raj Patel",
+    "verbatim": [
+     "We initially combined delivery services for cost reduction"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Raj Patel",
+    "relation": "said_initiative_has",
+    "value": "snowballed into a community-wide initiative",
+    "time": null,
+    "speaker": "Raj Patel",
+    "verbatim": [
+     "but it has snowballed into a community-wide initiative."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Jessica Townsend",
+    "relation": "spearheads",
+    "value": "this movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As entrepreneurs like Townsend and Patel spearhead this movement"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Raj Patel",
+    "relation": "spearheads",
+    "value": "this movement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As entrepreneurs like Townsend and Patel spearhead this movement"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Martin Liu",
+    "relation": "organized",
+    "value": "a workshop",
+    "time": "On November 8th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 8th, 2023, a workshop organized by local business owner Martin Liu, founder of Liu's Brews, attracted numerous entrepreneurs from the area."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Martin Liu",
+    "relation": "founder_of",
+    "value": "Liu's Brews",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Martin Liu, founder of Liu's Brews"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Martin Liu",
+    "relation": "is_a",
+    "value": "local business owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "local business owner Martin Liu"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Better Together: Collaborative Strategies for Small Businesses",
+    "relation": "organized_by",
+    "value": "Martin Liu",
+    "time": "On November 8th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "a workshop organized by local business owner Martin Liu"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Better Together: Collaborative Strategies for Small Businesses",
+    "relation": "attracted",
+    "value": "numerous entrepreneurs from the area",
+    "time": "On November 8th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "attracted numerous entrepreneurs from the area"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Better Together: Collaborative Strategies for Small Businesses",
+    "relation": "explores",
+    "value": "ways in which mutually beneficial partnerships can be established",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the workshop explores ways in which mutually beneficial partnerships can be established"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Lydia Gomez",
+    "relation": "owner_of",
+    "value": "The Green Fork",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Gomez, a participant and owner of The Green Fork, a local vegan restaurant"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "The Green Fork",
+    "relation": "is_a",
+    "value": "local vegan restaurant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Gomez, a participant and owner of The Green Fork, a local vegan restaurant"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Lydia Gomez",
+    "relation": "participant_in",
+    "value": "Better Together: Collaborative Strategies for Small Businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lydia Gomez, a participant and owner of The Green Fork"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Lydia Gomez",
+    "relation": "spoke_highly_of",
+    "value": "the workshop's impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "spoke highly of the workshop's impact"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Martin Liu",
+    "relation": "offered_insights_into",
+    "value": "synergies that could exist between our restaurant and other local suppliers",
+    "time": null,
+    "speaker": "Lydia Gomez",
+    "verbatim": [
+     "Martin offered insights into the synergies that could exist between our restaurant and other local suppliers"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Lydia Gomez",
+    "relation": "said",
+    "value": "this could be a game-changer for how we source our ingredients",
+    "time": null,
+    "speaker": "Lydia Gomez",
+    "verbatim": [
+     "this could be a game-changer for how we source our ingredients."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Local First Festival",
+    "relation": "came_to_life_in",
+    "value": "December 2023",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "An ambitious project that came to life in December 2023 is the 'Local First Festival'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Local First Festival",
+    "relation": "orchestrated_by",
+    "value": "a coalition of businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "orchestrated by a coalition of businesses led by Grace Kim's boutique, Kim's Kouture, and Theo Brown's handmade furniture store, 'Woodwork by Theo.'"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Grace Kim",
+    "relation": "led_coalition_for",
+    "value": "Local First Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a coalition of businesses led by Grace Kim's boutique, Kim's Kouture, and Theo Brown's handmade furniture store"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Theo Brown",
+    "relation": "led_coalition_for",
+    "value": "Local First Festival",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a coalition of businesses led by Grace Kim's boutique, Kim's Kouture, and Theo Brown's handmade furniture store"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Grace Kim",
+    "relation": "owner_of",
+    "value": "Kim's Kouture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grace Kim's boutique, Kim's Kouture"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Kim's Kouture",
+    "relation": "is_a",
+    "value": "boutique",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Grace Kim's boutique, Kim's Kouture"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Theo Brown",
+    "relation": "owner_of",
+    "value": "Woodwork by Theo",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Theo Brown's handmade furniture store, 'Woodwork by Theo.'"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Woodwork by Theo",
+    "relation": "is_a",
+    "value": "handmade furniture store",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Theo Brown's handmade furniture store, 'Woodwork by Theo.'"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Local First Festival",
+    "relation": "attracts",
+    "value": "larger foot traffic than any individual advertising effort",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they could create an event that would attract larger foot traffic than any individual advertising effort"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Local First Festival",
+    "relation": "enabled_by",
+    "value": "pooling marketing resources and engaging other local businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by pooling marketing resources and engaging other local businesses"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Local First Festival",
+    "relation": "mechanism_of",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by pooling marketing resources and engaging other local businesses, they could create an event that would attract larger foot traffic than any individual advertising effort"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Locale Connect",
+    "relation": "launched_on",
+    "value": "January 5th, 2024",
+    "time": "January 5th, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On January 5th, 2024, a group of these entrepreneurs launched an online platform called 'Locale Connect'"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Locale Connect",
+    "relation": "is_a",
+    "value": "online platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched an online platform called 'Locale Connect'"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Locale Connect",
+    "relation": "serves_as",
+    "value": "networking hub for the local business community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "serves as a networking hub for the local business community"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Locale Connect",
+    "relation": "described_as",
+    "value": "digital marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this digital marketplace not only facilitates easier interaction between businesses"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Locale Connect",
+    "relation": "facilitates",
+    "value": "easier interaction between businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this digital marketplace not only facilitates easier interaction between businesses"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Locale Connect",
+    "relation": "provides",
+    "value": "a unified front for local commerce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also provides a unified front for local commerce"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Ellen Zhao",
+    "relation": "engineered",
+    "value": "Locale Connect",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engineered by software developer Ellen Zhao"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Ellen Zhao",
+    "relation": "is_a",
+    "value": "software developer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engineered by software developer Ellen Zhao"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Ellen Zhao",
+    "relation": "said",
+    "value": "Locale Connect is about harnessing the power of technology to extend the reach of local businesses",
+    "time": null,
+    "speaker": "Ellen Zhao",
+    "verbatim": [
+     "Locale Connect is about harnessing the power of technology to extend the reach of local businesses."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Locale Connect",
+    "relation": "offers",
+    "value": "a directory",
+    "time": null,
+    "speaker": "Ellen Zhao",
+    "verbatim": [
+     "It offers a directory, resource sharing opportunities, and a space where collaborative ideas can flourish."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Locale Connect",
+    "relation": "offers",
+    "value": "resource sharing opportunities",
+    "time": null,
+    "speaker": "Ellen Zhao",
+    "verbatim": [
+     "It offers a directory, resource sharing opportunities, and a space where collaborative ideas can flourish."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Locale Connect",
+    "relation": "offers",
+    "value": "a space where collaborative ideas can flourish",
+    "time": null,
+    "speaker": "Ellen Zhao",
+    "verbatim": [
+     "It offers a directory, resource sharing opportunities, and a space where collaborative ideas can flourish."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Alexa Diaz",
+    "relation": "owner_of",
+    "value": "Bloom Haven",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alexa Diaz, owner of a local plant nursery called 'Bloom Haven,'"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Bloom Haven",
+    "relation": "is_a",
+    "value": "local plant nursery",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Alexa Diaz, owner of a local plant nursery called 'Bloom Haven,'"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Alexa Diaz",
+    "relation": "consulted_with",
+    "value": "Max Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "began consulting with Max Anderson of 'Tech Solutions' to implement automated irrigation and monitoring systems"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Max Anderson",
+    "relation": "works_at",
+    "value": "Tech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Max Anderson of 'Tech Solutions'"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Alexa Diaz",
+    "relation": "purpose_of_consulting",
+    "value": "implement automated irrigation and monitoring systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to implement automated irrigation and monitoring systems"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Alexa Diaz",
+    "relation": "in_order_to",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "began consulting with Max Anderson of 'Tech Solutions' to implement automated irrigation and monitoring systems"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Tech Solutions",
+    "relation": "integration_improved",
+    "value": "efficiency",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This integration of technology not only improved efficiency"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "local lending circle",
+    "relation": "introduced_by",
+    "value": "Keith Manning",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A novel local lending circle, introduced by finance expert Keith Manning, has been operational since the end of February 2024."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Keith Manning",
+    "relation": "is_a",
+    "value": "finance expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced by finance expert Keith Manning"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "local lending circle",
+    "relation": "operational_since",
+    "value": "the end of February 2024",
+    "time": "the end of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "has been operational since the end of February 2024"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "local lending circle",
+    "relation": "allows",
+    "value": "entrepreneurs to fund one another's projects through low-interest loans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "through low-interest loans, fostering an interdependent financial support system."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "local lending circle",
+    "relation": "fosters",
+    "value": "an interdependent financial support system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering an interdependent financial support system"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Keith Manning",
+    "relation": "said",
+    "value": "we're creating an economic microclimate that keeps capital circulating within our community",
+    "time": null,
+    "speaker": "Keith Manning",
+    "verbatim": [
+     "we're creating an economic microclimate that keeps capital circulating within our community"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "local lending circle",
+    "relation": "builds_on",
+    "value": "trust and a shared vision of communal prosperity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This system builds on trust and a shared vision of communal prosperity"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "local lending circle",
+    "relation": "constructs",
+    "value": "a resilient local economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "constructing a resilient local economy"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Locals for Locals",
+    "relation": "took_off_in",
+    "value": "March",
+    "time": "In March",
+    "speaker": null,
+    "verbatim": [
+     "In March, a wave of social initiatives under the banner 'Locals for Locals' took off."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Locals for Locals",
+    "relation": "spearheaded_by",
+    "value": "Vanessa Young",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by Vanessa Young"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Vanessa Young",
+    "relation": "owner_of",
+    "value": "Bound Together",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vanessa Young, the owner of a local bookstore, 'Bound Together,'"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Bound Together",
+    "relation": "is_a",
+    "value": "local bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vanessa Young, the owner of a local bookstore, 'Bound Together,'"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Locals for Locals",
+    "relation": "pooling_profits",
+    "value": "a percentage of their profits",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these businesses have started pooling a percentage of their profits to fund community projects such as park renovations, educational programs, and food drives"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Locals for Locals",
+    "relation": "funds",
+    "value": "community projects such as park renovations, educational programs, and food drives",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pooling a percentage of their profits to fund community projects such as park renovations, educational programs, and food drives"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Locals for Locals",
+    "relation": "in_order_to",
+    "value_ref": "c69",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pooling a percentage of their profits to fund community projects such as park renovations, educational programs, and food drives"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Locals for Locals",
+    "relation": "reinforced_role_as",
+    "value": "pillars of the community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach has reinforced the role of local businesses as pillars of the community"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Locals for Locals",
+    "relation": "engendered",
+    "value": "public support and loyalty",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "engendering public support and loyalty"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}
