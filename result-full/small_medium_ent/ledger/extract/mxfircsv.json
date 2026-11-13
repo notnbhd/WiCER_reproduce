@@ -1,0 +1,708 @@
+{
+ "inventory": [
+  "Silicon Valley",
+  "Johnny \"Jellybean\" Johnson",
+  "Eco-Edible Electronics",
+  "Sarah Snugglesoft",
+  "Pillowy Drive",
+  "Max Mocha",
+  "Caffeine-Fi",
+  "Pajama-nautics",
+  "Benny \"Bedhead\" Brumfield",
+  "Haptic Pajamas",
+  "Tina Treadmill",
+  "POWERcycle",
+  "Neil deGadget Tyson",
+  "Cosmic Calendar",
+  "Glocal Positioning System",
+  "Marco Polo IV",
+  "Clark \"Compass\" Cartograph"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Silicon Valley",
+    "relation": "hosts",
+    "value": "a hub of brainy and humorous tech startups",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there sits a hub bubbling with the most brainy and, coincidentally, humorous tech startups"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Silicon Valley",
+    "relation": "described_as",
+    "value": "a land where unicorns are as common as the cold",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a stone's throw away from the land where unicorns are as common as the cold"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "described_as",
+    "value": "a college dropout turned confectionery connoisseur",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a college dropout turned confectionery connoisseur, Johnny \"Jellybean\" Johnson"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "announced",
+    "value": "Eco-Edible Electronics",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On the misty morning of October 5, 2023, a college dropout turned confectionery connoisseur, Johnny \"Jellybean\" Johnson, announced his most bewildering invention yet: Eco-Edible Electronics."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "said",
+    "value": "Why fret over e-waste when you can simply snack on your smartphone post-upgrade?",
+    "time": null,
+    "speaker": "Johnny \"Jellybean\" Johnson",
+    "verbatim": [
+     "\"Why fret over e-waste when you can simply snack on your smartphone post-upgrade?\" quipped Johnson to a roomful of perplexed investors."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "prototypes_limited_to",
+    "value": "calculator chips and \"byte-sized\" memory sticks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Though his prototypes are limited to calculator chips and \"byte-sized\" memory sticks"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "aims_to",
+    "value": "see gamers chomping down on their candy-coated consoles",
+    "time": "2025",
+    "speaker": null,
+    "verbatim": [
+     "to see gamers chomping down on their candy-coated consoles by 2025"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Johnny \"Jellybean\" Johnson",
+    "relation": "described_as",
+    "value": "a modern-day Willy Wonka",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This genius, much in the line of a modern-day Willy Wonka"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Eco-Edible Electronics",
+    "relation": "announced_by",
+    "value": "Johnny \"Jellybean\" Johnson",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced his most bewildering invention yet: Eco-Edible Electronics"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Eco-Edible Electronics",
+    "relation": "described_as",
+    "value": "gadgets you can gobble up once they go obsolete",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "had somehow found the golden ticket to sustainability - gadgets you can gobble up once they go obsolete"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Pillowy Drive",
+    "relation": "launched_by",
+    "value": "Sarah Snugglesoft",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "we found ourselves at the launch of 'Pillowy Drive,' arguably the softest innovation in data storage convened by Sarah Snugglesoft"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Pillowy Drive",
+    "relation": "described_as",
+    "value": "arguably the softest innovation in data storage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "arguably the softest innovation in data storage convened by Sarah Snugglesoft"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Pillowy Drive",
+    "relation": "provides",
+    "value": "a restful nap and a backup for your 20,000 pet photos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provides both a restful nap and a backup for your 20,000 pet photos"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Pillowy Drive",
+    "relation": "could_hold",
+    "value": "the secrets to the next blockbuster screenplay",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a pillow that could potentially hold the secrets to the next blockbuster screenplay"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Sarah Snugglesoft",
+    "relation": "believes_in",
+    "value": "the warm embrace of a cuddly kitten, I mean, a cushion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Snugglesoft believes in the warm embrace of a cuddly kitten, I mean, a cushion"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Sarah Snugglesoft",
+    "relation": "said",
+    "value": "Data loss isn't heartbreaking if you can hug it out",
+    "time": null,
+    "speaker": "Sarah Snugglesoft",
+    "verbatim": [
+     "\"Data loss isn't heartbreaking if you can hug it out,\" declares Sarah"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Snugglesoft",
+    "relation": "clutched",
+    "value": "a pillow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as she proudly clutches a pillow"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Caffeine-Fi",
+    "relation": "invented_by",
+    "value": "Max Mocha",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Invented by java junkie and hobbyist inventor Max Mocha"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Caffeine-Fi",
+    "relation": "unveiled_on",
+    "value": "a jittery morning of December 1, 2023",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Unveiled on a jittery morning of December 1, 2023, the Caffeine-Fi router"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Caffeine-Fi",
+    "relation": "promised",
+    "value": "uninterrupted internet conditioned only by one's unyielding addiction to espresso",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "promised uninterrupted internet conditioned only by one's unyielding addiction to"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Caffeine-Fi",
+    "relation": "converts",
+    "value": "leftover morning brew into digital fuel",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "this revolutionary device turns your leftover morning brew into digital fuel"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Caffeine-Fi",
+    "relation": "questioned",
+    "value": "the longevity and practicality",
+    "time": null,
+    "speaker": "scientists",
+    "verbatim": [
+     "Though scientists are still questioning the longevity and practicality"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Caffeine-Fi",
+    "relation": "reception",
+    "value": "homes across the nation are slowly warming up to the concept of a router",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "homes across the nation are slowly warming up to the concept of a router that perks you up almost as much as your coffee does"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Max Mocha",
+    "relation": "described_as",
+    "value": "java junkie and hobbyist inventor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Invented by java junkie and hobbyist inventor Max Mocha"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Max Mocha",
+    "relation": "said",
+    "value": "It's recycling meets upcycling meets just...cycling",
+    "time": null,
+    "speaker": "Max Mocha",
+    "verbatim": [
+     "\"It's recycling meets upcycling meets just...cycling,\" explained Mocha"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Haptic Pajamas",
+    "relation": "also_called",
+    "value": "Haptijamas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Introducing 'Haptic Pajamas' or 'Haptijamas,'"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Haptic Pajamas",
+    "relation": "offers",
+    "value": "tactile feedback for online interactions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these state-of-the-art garments offer tactile feedback for online interactions"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Haptic Pajamas",
+    "relation": "signals",
+    "value": "a gentle buzz on the belly when accidentally muted",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Accidentally muted yourself during a key presentation? A gentle buzz on the belly."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Haptic Pajamas",
+    "relation": "signals",
+    "value": "a warm, fuzzy feeling all over when boss praised work",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Your boss praised your work? Enjoy a warm, fuzzy feeling all over."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Pajama-nautics",
+    "relation": "founded_by",
+    "value": "Benny \"Bedhead\" Brumfield",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Let's not sleep on Pajama-nautics, founded by the enterprising yet ever-drowsy Benny \"Bedhead\" Brumfield."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Benny \"Bedhead\" Brumfield",
+    "relation": "described_as",
+    "value": "enterprising yet ever-drowsy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enterprising yet ever-drowsy Benny \"Bedhead\" Brumfield"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Pajama-nautics",
+    "relation": "promises",
+    "value": "to change the way remote workers interact with their virtual meetings",
+    "time": "September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As of September 23, 2023, Brumfields\u2019s start-up promises to change the way remote workers interact with their virtual meetings."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Pajama-nautics",
+    "relation": "introduces",
+    "value": "Haptic Pajamas",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Introducing 'Haptic Pajamas' or 'Haptijamas,' these state-of-the-art garments"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Benny \"Bedhead\" Brumfield",
+    "relation": "idea_source",
+    "value": "his propensity to nod off during Zoom calls",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Benny\u2019s eureka moment came from his propensity to nod off during Zoom calls"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Benny \"Bedhead\" Brumfield",
+    "relation": "pioneering",
+    "value": "the convergence of comfort and connectivity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "today he stands (or rather, lies down) proud, pioneering the convergence of comfort and connectivity"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Tina Treadmill",
+    "relation": "created",
+    "value": "POWERcycle",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Meet Tina Treadmill and her electric brainchild: the 'POWERcycle.'"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Tina Treadmill",
+    "relation": "unveiled",
+    "value": "the device that transforms kinetic energy from your workout into usable electricity",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On the glimmering gym floors of January 20, 2024, Tina unveiled the device that transforms kinetic energy from your workout into usable electricity."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "POWERcycle",
+    "relation": "unveiled_on",
+    "value": "January 20, 2024",
+    "time": "January 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On the glimmering gym floors of January 20, 2024, Tina unveiled the device"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "POWERcycle",
+    "relation": "transforms",
+    "value": "kinetic energy from your workout into usable electricity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the device that transforms kinetic energy from your workout into usable electricity"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "POWERcycle",
+    "relation": "slogan",
+    "value": "Sweat for your Kilowatt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The POWERcycle's slogan, 'Sweat for your Kilowatt,' hit the market like a lightning bolt."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "POWERcycle",
+    "relation": "entered_market",
+    "value": "like a lightning bolt",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hit the market like a lightning bolt"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "POWERcycle",
+    "relation": "implies",
+    "value": "the more you lift, the less your electricity bill weighs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The more you lift, the less your electricity bill weighs."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "POWERcycle",
+    "relation": "used_for",
+    "value": "cooling homes and toasting bread",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Fitness aficionados are feverishly pumping iron, not just to swell their biceps but to cool their homes and toast their bread."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "Tina Treadmill",
+    "relation": "said",
+    "value": "Why waste watts when you're squatting for them?",
+    "time": null,
+    "speaker": "Tina Treadmill",
+    "verbatim": [
+     "Tina's pitch is straightforward: \"Why waste watts when you're squatting for them?\""
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "Neil deGadget Tyson",
+    "relation": "described_as",
+    "value": "astronomical aspirations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thanks to the astronomical aspirations of Neil deGadget Tyson"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Cosmic Calendar",
+    "relation": "about_to_make_obsolete",
+    "value": "the archival calendar hanging in your kitchen",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The archival calendar hanging in your kitchen is about to become a relic"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Neil deGadget Tyson",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The archival calendar hanging in your kitchen is about to become a relic, thanks to the astronomical aspirations of Neil deGadget Tyson"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Neil deGadget Tyson",
+    "relation": "unveiled",
+    "value": "a 'Cosmic Calendar'",
+    "time": "February 29, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On February 29, 2024 - yes, it was a leap year of sorts - Tyson unveiled a 'Cosmic Calendar' that harmonizes your schedule with the very movement of the cosmos."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Cosmic Calendar",
+    "relation": "unveiled_by",
+    "value": "Neil deGadget Tyson",
+    "time": "February 29, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Tyson unveiled a 'Cosmic Calendar'"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Cosmic Calendar",
+    "relation": "harmonizes",
+    "value": "your schedule with the very movement of the cosmos",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 'Cosmic Calendar' that harmonizes your schedule with the very movement of the cosmos"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Cosmic Calendar",
+    "relation": "represents",
+    "value": "each appointment as a constellation, deadlines as lunar phases, and the weekly overview as an elegant orbit around your personal life\u2019s sun",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Each appointment is a constellation, deadlines become lunar phases, and your weekly overview is an elegant orbit around your personal life\u2019s sun."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Cosmic Calendar",
+    "relation": "includes",
+    "value": "a horoscope feature",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With a horoscope feature to advise on which meetings to avoid or when to launch that groundbreaking project"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Cosmic Calendar",
+    "relation": "said",
+    "value": "You're not just late for that meeting, you're cosmically misaligned!",
+    "time": null,
+    "speaker": "Cosmic Calendar",
+    "verbatim": [
+     "could well be telling us, in a starry whisper, \"You're not just late for that meeting, you're cosmically misaligned!\""
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Glocal Positioning System",
+    "relation": "abbreviated_as",
+    "value": "GPS",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the 'Glocal Positioning System' (GPS)"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Glocal Positioning System",
+    "relation": "catchphrase",
+    "value": "Oh, the places you won't go when you've got no clue where you're at!",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "\"Oh, the places you won't go when you've got no clue where you're at!\" That was the cheeky catchphrase of the 'Glocal Positioning System' (GPS)"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Glocal Positioning System",
+    "relation": "created_by",
+    "value": "Marco Polo IV and Clark \"Compass\" Cartograph",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "dreamed up by the dynamic duo of wanderlust warriors, Marco Polo IV and Clark \"Compass\" Cartograph"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Glocal Positioning System",
+    "relation": "debuted",
+    "value": "the scene",
+    "time": "March 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On March 15, 2024, the GPS burst onto the scene"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Glocal Positioning System",
+    "relation": "promises",
+    "value": "hyper-local insights, right down to the pot holes in your path",
+    "time": "March 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "promising to provide hyper-local insights, right down to the pot holes in your path"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Glocal Positioning System",
+    "relation": "provides",
+    "value": "not just the distance to your destination",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their system provides not just the distance to your destination"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Glocal Positioning System",
+    "relation": "predicts",
+    "value": "how much local lingo you'll pick up as you turn left at the next artisanal coffee shop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "predicts how much local lingo you'll pick up as you turn left at the next artisanal coffee shop"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Marco Polo IV",
+    "relation": "described_as",
+    "value": "a wanderlust warrior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the dynamic duo of wanderlust warriors, Marco Polo IV"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Clark \"Compass\" Cartograph",
+    "relation": "described_as",
+    "value": "a wanderlust warrior",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the dynamic duo of wanderlust warriors, Marco Polo IV and Clark \"Compass\" Cartograph"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

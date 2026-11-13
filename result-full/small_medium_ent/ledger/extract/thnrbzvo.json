@@ -1,0 +1,949 @@
+{
+ "inventory": [
+  "Emilia Vargas",
+  "QuickMind",
+  "Raleigh, North Carolina",
+  "John Park",
+  "Isabella Chen",
+  "EcoWear",
+  "recycled fabric line",
+  "Derek Thompson",
+  "Optimove",
+  "Samantha Liu",
+  "LiveWell",
+  "Luke Martinez",
+  "GreenRoots",
+  "San Diego",
+  "Ava Lee",
+  "Miguel Santos",
+  "BattleQuest",
+  "Rachel Kim",
+  "Antoine Dubois",
+  "Bakers' Collective",
+  "Elijah Morris",
+  "Vintage Virtue",
+  "tech conference",
+  "product-market fit",
+  "vintage trend"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "QuickMind",
+    "relation": "founded_on",
+    "value": "January 15, 2024",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which was founded on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "QuickMind",
+    "relation": "located_in",
+    "value": "Raleigh, North Carolina",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Located in the bustling city of Raleigh, North Carolina"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "QuickMind",
+    "relation": "began_as",
+    "value": "a niche service for students struggling with mathematics",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QuickMind began as a niche service for students struggling with mathematics."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emilia Vargas",
+    "relation": "venture_of",
+    "value": "QuickMind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emilia Vargas and her ed-tech venture, QuickMind"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Raleigh, North Carolina",
+    "relation": "location_of",
+    "value": "QuickMind",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Located in the bustling city of Raleigh, North Carolina"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "tech conference",
+    "relation": "meeting_held_on",
+    "value": "April 18, 2024",
+    "time": "April 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "through a serendipitous meeting at a tech conference on April 18, 2024"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emilia Vargas",
+    "relation": "met",
+    "value": "John Park",
+    "time": "April 18, 2024",
+    "speaker": null,
+    "verbatim": [
+     "that Emilia met John Park, a venture capitalist interested in education technology"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "John Park",
+    "relation": "occupation",
+    "value": "venture capitalist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Park, a venture capitalist interested in education technology"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "John Park",
+    "relation": "interested_in",
+    "value": "education technology",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Park, a venture capitalist interested in education technology"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Emilia Vargas",
+    "relation": "received",
+    "value": "a significant investment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emilia walked away not just with a significant investment"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Emilia Vargas",
+    "relation": "received",
+    "value": "a wealth of contacts that John had accumulated over his years in the industry",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "also with a wealth of contacts that John had accumulated over his years in the industry"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "QuickMind",
+    "relation": "expanded_curriculum",
+    "value": "its curriculum",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QuickMind expanded its curriculum and scaled its operations nationally within a year"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "QuickMind",
+    "relation": "scaled_operations",
+    "value": "nationally within a year",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "QuickMind expanded its curriculum and scaled its operations nationally within a year"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Emilia Vargas",
+    "relation": "results_in",
+    "value_ref": "c12",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Leveraging these contacts, QuickMind expanded its curriculum"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Emilia Vargas",
+    "relation": "lesson_learned",
+    "value": "networking is not just about exchanging business cards but about weaving a support system that can open gates to untapped opportunities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Networking, as Emilia learned, is not just about exchanging business cards but about weaving a support system that can open gates to untapped opportunities."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Isabella Chen",
+    "relation": "founder_of",
+    "value": "EcoWear",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Isabella Chen, the founder of the sustainable fashion platform EcoWear"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "EcoWear",
+    "relation": "described_as",
+    "value": "sustainable fashion platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Isabella Chen, the founder of the sustainable fashion platform EcoWear"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "EcoWear",
+    "relation": "launched_on",
+    "value": "March 9, 2025",
+    "time": "March 9, 2025",
+    "speaker": null,
+    "verbatim": [
+     "Launching on March 9, 2025, EcoWear initially faced backlash"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "EcoWear",
+    "relation": "faced",
+    "value": "backlash for the pricing of their eco-friendly garments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoWear initially faced backlash for the pricing of their eco-friendly garments."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Isabella Chen",
+    "relation": "viewed_backlash_as",
+    "value": "constructive criticism",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Isabella took this as constructive criticism"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "EcoWear",
+    "relation": "introduced",
+    "value": "a recycled fabric line",
+    "time": "September 12, 2025",
+    "speaker": null,
+    "verbatim": [
+     "by September 12, 2025, they struck a balance between sustainability and affordability by introducing a recycled fabric line"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "recycled fabric line",
+    "relation": "purpose",
+    "value": "a balance between sustainability and affordability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they struck a balance between sustainability and affordability by introducing a recycled fabric line"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "recycled fabric line",
+    "relation": "resonated_with",
+    "value": "their environmentally conscious target demographic",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This collection resonated with their environmentally conscious target demographic"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "EcoWear",
+    "relation": "sales",
+    "value": "soared",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "and sales soared"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "recycled fabric line",
+    "relation": "results_in",
+    "value_ref": "c24",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This collection resonated with their environmentally conscious target demographic, and sales soared."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "EcoWear",
+    "relation": "demonstrated",
+    "value": "that vibrancy can flourish from the feedback of early adopters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EcoWear demonstrated that vibrancy can flourish from the feedback of early adopters"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "product-market fit",
+    "relation": "is",
+    "value": "a pivotal phase in scaling a business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fine-tuning the product-market fit is a pivotal phase in scaling a business"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Derek Thompson",
+    "relation": "described_as",
+    "value": "tech-whiz",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tech-whiz Derek Thompson"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Derek Thompson",
+    "relation": "founder_of",
+    "value": "Optimove",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the founder of the logistics start-up, Optimove, Derek realized"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Optimove",
+    "relation": "described_as",
+    "value": "logistics start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As the founder of the logistics start-up, Optimove, Derek realized"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Derek Thompson",
+    "relation": "realized",
+    "value": "his fleet of delivery vehicles could be managed more efficiently",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Derek realized that his fleet of delivery vehicles could be managed more efficiently."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Optimove",
+    "relation": "used",
+    "value": "a mixture of AI and data analytics",
+    "time": "September 30, 2025",
+    "speaker": null,
+    "verbatim": [
+     "By September 30, 2025, using a mixture of AI and data analytics, Optimove started"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Optimove",
+    "relation": "started",
+    "value": "predicting delivery routes for drivers",
+    "time": "September 30, 2025",
+    "speaker": null,
+    "verbatim": [
+     "predicting delivery routes for drivers."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Optimove",
+    "relation": "reduced",
+    "value": "delivery times by 30%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This reduced delivery times by 30% and increased customer satisfaction."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Optimove",
+    "relation": "increased",
+    "value": "customer satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This reduced delivery times by 30% and increased customer satisfaction."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Optimove",
+    "relation": "results_in",
+    "value_ref": "c34",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "predicting delivery routes for drivers.",
+     "This reduced delivery times by 30%"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Optimove",
+    "relation": "streamlined",
+    "value": "their own operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Optimove not only streamlined their own operations but also disrupted the entire logistics market."
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Optimove",
+    "relation": "disrupted",
+    "value": "the entire logistics market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Optimove not only streamlined their own operations but also disrupted the entire logistics market."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Samantha Liu",
+    "relation": "position",
+    "value": "CEO of the wellness app LiveWell",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Liu, the CEO of the wellness app LiveWell"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "LiveWell",
+    "relation": "described_as",
+    "value": "wellness app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha Liu, the CEO of the wellness app LiveWell"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Samantha Liu",
+    "relation": "spearheaded",
+    "value": "an initiative to prioritise employee well-being and open communication",
+    "time": "starting on February 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Samantha spearheaded an initiative to prioritise employee well-being and open communication starting on February 9, 2024."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Samantha Liu",
+    "relation": "initiative_manifested_in",
+    "value": "policies that promoted work-life balance, remote work flexibility, and transparent career progression",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it was manifested in policies that promoted work-life balance, remote work flexibility, and transparent career progression."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "LiveWell",
+    "relation": "attracted",
+    "value": "top talent",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This robust culture attracted top talent and fostered innovation within the company."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "LiveWell",
+    "relation": "fostered",
+    "value": "innovation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This robust culture attracted top talent and fostered innovation within the company."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "LiveWell",
+    "relation": "user_base",
+    "value": "expanded exponentially",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "LiveWell's user base expanded exponentially after researchers at the company developed a breakthrough feature that personalized wellness plans using AI."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "LiveWell",
+    "relation": "developed",
+    "value": "a breakthrough feature that personalized wellness plans using AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "researchers at the company developed a breakthrough feature that personalized wellness plans using AI."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Samantha Liu",
+    "relation": "proved",
+    "value": "an invaluable asset in scaling her start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Samantha's nurturing of a strong culture proved to be an invaluable asset in scaling her start-up."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Luke Martinez",
+    "relation": "launched",
+    "value": "GreenRoots",
+    "time": "October 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On October 4, 2024, in the coastal city of San Diego, Luke Martinez launched GreenRoots, an organic urban farm that sells directly to consumers."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "GreenRoots",
+    "relation": "launched_on",
+    "value": "October 4, 2024",
+    "time": "October 4, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On October 4, 2024, in the coastal city of San Diego, Luke Martinez launched GreenRoots"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "GreenRoots",
+    "relation": "launched_in",
+    "value": "San Diego",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the coastal city of San Diego"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "GreenRoots",
+    "relation": "described_as",
+    "value": "organic urban farm that sells directly to consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GreenRoots, an organic urban farm that sells directly to consumers"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "San Diego",
+    "relation": "described_as",
+    "value": "coastal city",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "in the coastal city of San Diego"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Luke Martinez",
+    "relation": "sought",
+    "value": "to strengthen his ties with his customers by creating a sense of community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luke sought to strengthen his ties with his customers by creating a sense of community."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Luke Martinez",
+    "relation": "initiated",
+    "value": "weekly farmer's markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "He initiated weekly farmer's markets"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Luke Martinez",
+    "relation": "hosted",
+    "value": "educational workshops on sustainable living",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "hosted educational workshops on sustainable living"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "GreenRoots",
+    "relation": "increased",
+    "value": "sales",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These engagements didn't just increase sales but also created a tribe of loyal GreenRoots advocates."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "GreenRoots",
+    "relation": "created",
+    "value": "a tribe of loyal GreenRoots advocates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These engagements didn't just increase sales but also created a tribe of loyal GreenRoots advocates."
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Luke Martinez",
+    "relation": "built",
+    "value": "a fortress of loyalty around his start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luke built a fortress of loyalty around his start-up"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Ava Lee",
+    "relation": "occupation",
+    "value": "gaming startup founder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gaming startup founders, Ava Lee and Miguel Santos"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Miguel Santos",
+    "relation": "occupation",
+    "value": "gaming startup founder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "gaming startup founders, Ava Lee and Miguel Santos"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Ava Lee",
+    "relation": "launched",
+    "value": "an aggressive marketing campaign for their flagship mobile game, BattleQuest",
+    "time": "May 17, 2025",
+    "speaker": null,
+    "verbatim": [
+     "On May 17, 2025, they launched an aggressive marketing campaign for their flagship mobile game, BattleQuest."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Miguel Santos",
+    "relation": "launched",
+    "value": "an aggressive marketing campaign for their flagship mobile game, BattleQuest",
+    "time": "May 17, 2025",
+    "speaker": null,
+    "verbatim": [
+     "On May 17, 2025, they launched an aggressive marketing campaign for their flagship mobile game, BattleQuest."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "BattleQuest",
+    "relation": "described_as",
+    "value": "flagship mobile game",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their flagship mobile game, BattleQuest"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "BattleQuest",
+    "relation": "user_base_grew",
+    "value": "from a modest ten thousand to over a million",
+    "time": "in just six months",
+    "speaker": null,
+    "verbatim": [
+     "BattleQuest's user base grew from a modest ten thousand to over a million in just six months"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "BattleQuest",
+    "relation": "used",
+    "value": "social media influencers, targeted ads, and a robust referral program",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Using social media influencers, targeted ads, and a robust referral program"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Ava Lee",
+    "relation": "illustrates_adage",
+    "value": "spend money to make money",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Solidifying the adage"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Ava Lee",
+    "relation": "calculated_risk_translated_into",
+    "value": "their start-up's explosive growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ava and Miguel's calculated risk in aggressive marketing translated into their start-up's explosive growth."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Bakers' Collective",
+    "relation": "described_as",
+    "value": "a platform that connects artisanal bakeries with local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Bakers' Collective, a platform that connects artisanal bakeries with local markets"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "Rachel Kim",
+    "relation": "brokered",
+    "value": "a partnership with a national grocery chain",
+    "time": "December 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "December 11, 2023, founders Rachel Kim and Antoine Dubois brokered a partnership with a national grocery chain."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "Antoine Dubois",
+    "relation": "brokered",
+    "value": "a partnership with a national grocery chain",
+    "time": "December 11, 2023",
+    "speaker": null,
+    "verbatim": [
+     "December 11, 2023, founders Rachel Kim and Antoine Dubois brokered a partnership with a national grocery chain."
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "Rachel Kim",
+    "relation": "founder_of",
+    "value": "Bakers' Collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founders Rachel Kim and Antoine Dubois"
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Antoine Dubois",
+    "relation": "founder_of",
+    "value": "Bakers' Collective",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "founders Rachel Kim and Antoine Dubois"
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Bakers' Collective",
+    "relation": "distributed_goods_on",
+    "value": "a national scale",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This alliance allowed the home-based bakeries under Bakers' Collective to distribute their goods on a national scale"
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "Bakers' Collective",
+    "relation": "capitalized_on",
+    "value": "an untapped market of home-baking enthusiasts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "capitalized on an untapped market of home-baking enthusiasts"
+    ]
+   },
+   {
+    "id": "c75",
+    "entity": "Rachel Kim",
+    "relation": "results_in",
+    "value_ref": "c73",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brokered a partnership with a national grocery chain.",
+     "This alliance allowed the home-based bakeries under Bakers' Collective to distribute their goods on a national scale"
+    ]
+   },
+   {
+    "id": "c76",
+    "entity": "Elijah Morris",
+    "relation": "position",
+    "value": "CEO of Vintage Virtue",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the CEO of Vintage Virtue, a second-hand clothing platform"
+    ]
+   },
+   {
+    "id": "c77",
+    "entity": "Vintage Virtue",
+    "relation": "described_as",
+    "value": "second-hand clothing platform",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as the CEO of Vintage Virtue, a second-hand clothing platform"
+    ]
+   },
+   {
+    "id": "c78",
+    "entity": "Elijah Morris",
+    "relation": "internalized_lesson",
+    "value": "The business landscape is never static",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The business landscape is never static, a lesson that Elijah Morris internalized"
+    ]
+   },
+   {
+    "id": "c79",
+    "entity": "vintage trend",
+    "relation": "escalated",
+    "value": "escalated",
+    "time": "2025",
+    "speaker": null,
+    "verbatim": [
+     "When the vintage trend escalated in 2025"
+    ]
+   },
+   {
+    "id": "c80",
+    "entity": "Vintage Virtue",
+    "relation": "shifted_focus_towards",
+    "value": "online sales",
+    "time": "2025",
+    "speaker": null,
+    "verbatim": [
+     "When the vintage trend escalated in 2025, Vintage Virtue shifted its focus towards online sales"
+    ]
+   },
+   {
+    "id": "c81",
+    "entity": "Vintage Virtue",
+    "relation": "utilized",
+    "value": "style algorithms to recommend personalized vintage clothing to their users",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "utilized style algorithms to recommend personalized vintage clothing to their users"
+    ]
+   },
+   {
+    "id": "c82",
+    "entity": "Vintage Virtue",
+    "relation": "rode_wave_of",
+    "value": "the growing vintage craze",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "instead rode the wave of the growing vintage craze to scale his start-up prodigiously"
+    ]
+   },
+   {
+    "id": "c83",
+    "entity": "Elijah Morris",
+    "relation": "evolving_business_model",
+    "value": "in lockstep with market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By staying in lockstep with market trends and evolving the business model accordingly"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

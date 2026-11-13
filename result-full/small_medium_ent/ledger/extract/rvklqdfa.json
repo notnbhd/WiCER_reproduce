@@ -1,0 +1,781 @@
+{
+ "inventory": [
+  "Dr. Emily Chen",
+  "Eileen Rodriguez",
+  "Kevin T. Marks",
+  "Mike Paterson",
+  "Sara J. White",
+  "Paul J. Thompson",
+  "Julie Anderson",
+  "Karen Anderson",
+  "TechSpective",
+  "Lighthouse Furnishings",
+  "artificial intelligence",
+  "small and medium-sized enterprises",
+  "Customer Relationship Management",
+  "predictive maintenance",
+  "AI-based financial management tools",
+  "AI ethics guidelines",
+  "AI ethics consultants",
+  "big corporations",
+  "data privacy and security",
+  "skills gap",
+  "biased algorithms",
+  "tech incubator",
+  "tech startups",
+  "universities"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "small and medium-sized enterprises",
+    "relation": "find_themselves_at",
+    "value": "a crossroad",
+    "time": "September 1st, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As we edge past September 1st, 2023, small and medium-sized enterprises (SMEs) find themselves at a crossroad"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "big corporations",
+    "relation": "have_been",
+    "value": "harbingers in adopting and developing AI",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While big corporations have been harbingers in adopting and developing AI"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "small and medium-sized enterprises",
+    "relation": "integrate_ai_to_achieve",
+    "value": "efficiency, innovation, and competitive edge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are increasingly taking the baton, integrating AI into their operations to achieve efficiency, innovation, and competitive edge"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "artificial intelligence",
+    "relation": "was_once",
+    "value": "the exclusive playground of large multinationals with deep pockets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI, once the exclusive playground of large multinationals with deep pockets"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "artificial intelligence",
+    "relation": "has_become",
+    "value": "more accessible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become more accessible due to decreasing costs and the rise of user-friendly AI platforms"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "artificial intelligence",
+    "relation": "accessibility_due_to",
+    "value": "decreasing costs and the rise of user-friendly AI platforms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has become more accessible due to decreasing costs and the rise of user-friendly AI platforms"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "artificial intelligence",
+    "relation": "caused_by",
+    "value_ref": "c6",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "more accessible due to decreasing costs"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Dr. Emily Chen",
+    "relation": "is_described_as",
+    "value": "industry analyst",
+    "time": "October 4th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As noted by industry analyst Dr. Emily Chen on October 4th, 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Emily Chen",
+    "relation": "stated",
+    "value": "AI is no longer a luxury but a necessity for SMEs striving to stay relevant in a rapidly transforming business landscape.",
+    "time": "October 4th, 2023",
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "AI is no longer a luxury but a necessity for SMEs striving to stay relevant in a rapidly transforming business landscape."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "artificial intelligence",
+    "relation": "is_no_longer",
+    "value": "a luxury but a necessity for SMEs",
+    "time": "October 4th, 2023",
+    "speaker": "Dr. Emily Chen",
+    "verbatim": [
+     "AI is no longer a luxury but a necessity for SMEs striving to stay relevant in a rapidly transforming business landscape."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "small and medium-sized enterprises",
+    "relation": "adopt_ai_to",
+    "value": "optimize operations, gain customer insights, and automate mundane tasks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as SMEs adopt AI to optimize operations, gain customer insights, and automate mundane tasks"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Eileen Rodriguez",
+    "relation": "is_a",
+    "value": "an SME operations manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Eileen Rodriguez, an SME operations manager"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Eileen Rodriguez",
+    "relation": "initiated_integration_process",
+    "value": "identifying repetitive tasks that AI could perform more efficiently",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "initiated her company's integration process in late 2023 by identifying repetitive tasks that AI could perform more efficiently"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Eileen Rodriguez",
+    "relation": "stated",
+    "value": "the real win is when you pair AI with human creativity and expertise",
+    "time": null,
+    "speaker": "Eileen Rodriguez",
+    "verbatim": [
+     "is when you pair AI with human creativity and expertise."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Eileen Rodriguez",
+    "relation": "stated_that",
+    "value": "where innovation truly blossoms",
+    "time": null,
+    "speaker": "Eileen Rodriguez",
+    "verbatim": [
+     "That's where innovation truly blossoms."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "small and medium-sized enterprises",
+    "relation": "integration_journey_begins_with",
+    "value": "understanding the nuances of AI technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For many SMEs, the integration journey begins with understanding the nuances of AI technologies"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "small and medium-sized enterprises",
+    "relation": "leverage_ai_in",
+    "value": "Customer Relationship Management (CRM)",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A key area where SMEs are leveraging AI is in the realm of Customer Relationship Management (CRM)."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Customer Relationship Management",
+    "relation": "enables_businesses_to",
+    "value": "personalize customer interactions, predict customer needs, and provide prompt service",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI-powered CRM systems enable businesses to personalize customer interactions, predict customer needs, and provide prompt service."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "TechSpective",
+    "relation": "is_a",
+    "value": "a tech think-tank",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As per a study conducted by a tech think-tank, TechSpective, on September 17th, 2023"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "TechSpective",
+    "relation": "conducted_study",
+    "value": "a study on SMEs utilizing AI in CRM",
+    "time": "September 17th, 2023",
+    "speaker": null,
+    "verbatim": [
+     "As per a study conducted by a tech think-tank, TechSpective, on September 17th, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "small and medium-sized enterprises",
+    "relation": "saw_increase_in_customer_satisfaction",
+    "value": "an average increase of 35% in customer satisfaction scores",
+    "time": "September 17th, 2023",
+    "speaker": "TechSpective",
+    "verbatim": [
+     "SMEs utilizing AI in CRM saw an average increase of 35% in customer satisfaction scores"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "small and medium-sized enterprises",
+    "relation": "marketing_departments_ride",
+    "value": "the AI wave",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Marketing departments in SMEs are also riding the AI wave"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "small and medium-sized enterprises",
+    "relation": "tailor_campaigns_using",
+    "value": "tailoring campaigns and content to customer behaviors and preferences mined by AI algorithms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tailoring campaigns and content to customer behaviors and preferences mined by AI algorithms"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Kevin T. Marks",
+    "relation": "is_a",
+    "value": "Digital marketing specialist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Digital marketing specialist, Kevin T. Marks,"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Kevin T. Marks",
+    "relation": "emphasizes",
+    "value": "AI's role in his strategies",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "emphasizes AI's role in his strategies from November 2023"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "artificial intelligence",
+    "relation": "helps_analyze",
+    "value": "big data in real-time, understanding what content works and doesn't, enabling us to make swift adjustments and improve ROI",
+    "time": "November 2023",
+    "speaker": "Kevin T. Marks",
+    "verbatim": [
+     "helps us analyze big data in real-time, understanding what content works and doesn't, enabling us to make swift adjustments and improve ROI."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Mike Paterson",
+    "relation": "is_a",
+    "value": "operations head at a mid-sized manufacturing company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Mike Paterson, operations head at a mid-sized manufacturing company"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Mike Paterson",
+    "relation": "introduced",
+    "value": "AI-driven predictive maintenance into their systems",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced AI-driven predictive maintenance into their systems in December 2023"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "predictive maintenance",
+    "relation": "led_to",
+    "value": "a 20% reduction in machine downtime",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "which led to a 20% reduction in machine downtime"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Mike Paterson",
+    "relation": "results_in",
+    "value_ref": "c29",
+    "time": "December 2023",
+    "speaker": null,
+    "verbatim": [
+     "introduced AI-driven predictive maintenance into their systems in December 2023, which led to a 20% reduction in machine downtime"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "artificial intelligence",
+    "relation": "predictive_analytics_help",
+    "value": "SMEs preemptively fix problems before they balloon into major issues",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI's predictive analytics help SMEs preemptively fix problems before they balloon into major issues."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "small and medium-sized enterprises",
+    "relation": "turn_to_ai_for",
+    "value": "more sophisticated financial management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are also turning to AI for more sophisticated financial management."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "artificial intelligence",
+    "relation": "can_predict",
+    "value": "cash flow patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI systems can effectively predict cash flow patterns, manage invoices, and even assist in making informed investment decisions."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "artificial intelligence",
+    "relation": "can_manage",
+    "value": "invoices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI systems can effectively predict cash flow patterns, manage invoices, and even assist in making informed investment decisions."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "artificial intelligence",
+    "relation": "can_assist_in",
+    "value": "making informed investment decisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI systems can effectively predict cash flow patterns, manage invoices, and even assist in making informed investment decisions."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Sara J. White",
+    "relation": "is_a",
+    "value": "the CFO of an emerging tech startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sara J. White, the CFO of an emerging tech startup"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Sara J. White",
+    "relation": "utilized",
+    "value": "AI-based financial management tools",
+    "time": "starting in early 2024",
+    "speaker": null,
+    "verbatim": [
+     "utilized AI-based financial management tools starting in early 2024"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Sara J. White",
+    "relation": "found",
+    "value": "AI's predictive analysis is indispensable for strategic planning in a volatile market",
+    "time": null,
+    "speaker": "Sara J. White",
+    "verbatim": [
+     "AI's predictive analysis is indispensable for strategic planning in a volatile market."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "artificial intelligence",
+    "relation": "is_indispensable_for",
+    "value": "strategic planning in a volatile market",
+    "time": null,
+    "speaker": "Sara J. White",
+    "verbatim": [
+     "AI's predictive analysis is indispensable for strategic planning in a volatile market."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "artificial intelligence",
+    "relation": "does_not_come_without",
+    "value": "its challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI integration in SME operations doesn't come without its challenges."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "data privacy and security",
+    "relation": "is_one_of",
+    "value": "the primary concerns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the primary concerns is data privacy and security"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "small and medium-sized enterprises",
+    "relation": "must_address_data_privacy_by",
+    "value": "adopting secure AI systems and protocols",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which SMEs must address by adopting secure AI systems and protocols."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "skills gap",
+    "relation": "exists_in",
+    "value": "the workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "there is often a skills gap in the workforce"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "small and medium-sized enterprises",
+    "relation": "must_invest_in",
+    "value": "AI education and training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must invest in AI education and training to upskill their employees"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "small and medium-sized enterprises",
+    "relation": "upskill",
+    "value": "their employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to upskill their employees, ensuring that their teams are equipped to interface with new technology"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "small and medium-sized enterprises",
+    "relation": "in_order_to",
+    "value_ref": "c45",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs must invest in AI education and training to upskill their employees"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "artificial intelligence",
+    "relation": "innovation_blossoms_in",
+    "value": "collaborative ecosystems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovation through AI often blossoms in collaborative ecosystems."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Paul J. Thompson",
+    "relation": "is_a",
+    "value": "CEO of a tech incubator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Paul J. Thompson, CEO of a tech incubator, says"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "artificial intelligence",
+    "relation": "thrives_on",
+    "value": "diverse input",
+    "time": null,
+    "speaker": "Paul J. Thompson",
+    "verbatim": [
+     "AI innovation thrives on diverse input."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "small and medium-sized enterprises",
+    "relation": "partner_with",
+    "value": "tech startups, universities, and even competitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many SMEs are partnering with tech startups, universities, and even competitors to pool AI knowledge and resources"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "small and medium-sized enterprises",
+    "relation": "partner_to_pool",
+    "value": "AI knowledge and resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many SMEs are partnering with tech startups, universities, and even competitors to pool AI knowledge and resources"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "artificial intelligence",
+    "relation": "ensures_fertile_ground_for",
+    "value": "AI-driven solutions to take root and grow",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring a fertile ground for AI-driven solutions to take root and grow"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "small and medium-sized enterprises",
+    "relation": "nudged_to_consider",
+    "value": "ethical aspects of AI deployment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The emerging narrative around AI also nudges SMEs to consider ethical aspects of AI deployment."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "biased algorithms",
+    "relation": "prompted_adoption_of",
+    "value": "AI ethics guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Issues surrounding biased algorithms and decision-making transparency have prompted businesses like Lighthouse Furnishings, co-owned by sisters Julie and Karen Anderson, to adopt AI ethics guidelines"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Lighthouse Furnishings",
+    "relation": "adopted",
+    "value": "AI ethics guidelines",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses like Lighthouse Furnishings, co-owned by sisters Julie and Karen Anderson, to adopt AI ethics guidelines"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Lighthouse Furnishings",
+    "relation": "co_owned_by",
+    "value": "sisters Julie and Karen Anderson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lighthouse Furnishings, co-owned by sisters Julie and Karen Anderson"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Julie Anderson",
+    "relation": "co_owns",
+    "value": "Lighthouse Furnishings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lighthouse Furnishings, co-owned by sisters Julie and Karen Anderson"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Karen Anderson",
+    "relation": "co_owns",
+    "value": "Lighthouse Furnishings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Lighthouse Furnishings, co-owned by sisters Julie and Karen Anderson"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Lighthouse Furnishings",
+    "relation": "working_with",
+    "value": "AI ethics consultants",
+    "time": "Since early 2024",
+    "speaker": null,
+    "verbatim": [
+     "Since early 2024, they have been working with AI ethics consultants"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Lighthouse Furnishings",
+    "relation": "ensure",
+    "value": "their AI applications uphold the company's values and public trust",
+    "time": "Since early 2024",
+    "speaker": null,
+    "verbatim": [
+     "to ensure their AI applications uphold the company's values and public trust"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Lighthouse Furnishings",
+    "relation": "in_order_to",
+    "value_ref": "c60",
+    "time": "Since early 2024",
+    "speaker": null,
+    "verbatim": [
+     "they have been working with AI ethics consultants to ensure their AI applications uphold the company's values and public trust"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "small and medium-sized enterprises",
+    "relation": "stand_to_benefit",
+    "value": "tremendously",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs that successfully integrate these technologies into their operations stand to benefit tremendously."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "artificial intelligence",
+    "relation": "is_described_as",
+    "value": "a powerful co-pilot",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI can be a powerful co-pilot, meant to enhance human ability, not replace it."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "artificial intelligence",
+    "relation": "meant_to",
+    "value": "enhance human ability, not replace it",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "AI can be a powerful co-pilot, meant to enhance human ability, not replace it."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "artificial intelligence",
+    "relation": "paving_the_way_for",
+    "value": "future innovations that promise to redefine the landscape in which they operate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the infusion of AI into SME operations is paving the way for future innovations that promise to redefine the landscape in which they operate."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "small and medium-sized enterprises",
+    "relation": "stand_on",
+    "value": "the front lines of a new era of business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs that embrace AI stand on the front lines of a new era of business"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "small and medium-sized enterprises",
+    "relation": "still_navigating",
+    "value": "integration challenges and ethical considerations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "While still navigating integration challenges and ethical considerations"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "artificial intelligence",
+    "relation": "enables",
+    "value": "from optimizing customer interactions to streamlining financial management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From optimizing customer interactions to streamlining financial management, the infusion of AI into SME operations"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

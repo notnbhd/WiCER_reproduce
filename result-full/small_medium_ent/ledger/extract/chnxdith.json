@@ -1,0 +1,486 @@
+{
+ "inventory": [
+  "Sarah Johnson",
+  "Johnson Consulting Inc.",
+  "Michael Thompson",
+  "Tech Solutions",
+  "Vanessa Lee",
+  "Rajiv Kapoor",
+  "Carlos Rodriguez",
+  "Emily Chen",
+  "Ayesha Patel",
+  "David Brown",
+  "Atlanta",
+  "San Francisco",
+  "Chicago",
+  "New York",
+  "SME Growth Summit",
+  "Tech for SME Workshop",
+  "Human Capital Expansion conference",
+  "International SME Forum",
+  "Customer Engagement Summit",
+  "SME Outsourcing Symposium",
+  "Service Excellence Conference",
+  "small and medium-sized enterprises (SMEs)",
+  "customer relationship management (CRM) systems",
+  "customer service blueprint"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "small and medium-sized enterprises (SMEs)",
+    "relation": "scaling_prospect",
+    "value": "often seem daunting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For small and medium-sized enterprises (SMEs), the prospect of scaling can often seem daunting."
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "small and medium-sized enterprises (SMEs)",
+    "relation": "faces_risk_of",
+    "value": "losing the personal touch that often defines the customer service and quality of an SME",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with it comes the risk of losing the personal touch that often defines the customer service and quality of an SME."
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Sarah Johnson",
+    "relation": "position",
+    "value": "CEO of Johnson Consulting Inc.",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, the CEO of Johnson Consulting Inc.,"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Johnson Consulting Inc.",
+    "relation": "chief_executive",
+    "value": "Sarah Johnson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, the CEO of Johnson Consulting Inc.,"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Sarah Johnson",
+    "relation": "emphasized_importance_of",
+    "value": "this first step (understanding current operational capacity)",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 5, 2023, Sarah Johnson, the CEO of Johnson Consulting Inc., emphasized the importance of this first step during the SME Growth Summit in Atlanta."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Sarah Johnson",
+    "relation": "spoke_at",
+    "value": "SME Growth Summit",
+    "time": "October 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "emphasized the importance of this first step during the SME Growth Summit in Atlanta."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "SME Growth Summit",
+    "relation": "located_in",
+    "value": "Atlanta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "during the SME Growth Summit in Atlanta."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "you first need to assess your existing resources, workflows, and the quality control measures you have in place",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "you first need to assess your existing resources, workflows, and the quality control measures you have in place."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "a framework for expanding without overstressing your operations",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "This will provide you with a framework for expanding without overstressing your operations."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Johnson",
+    "relation": "results_in",
+    "value_ref": "c9",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "you first need to assess your existing resources, workflows, and the quality control measures you have in place.",
+     "This will provide you with a framework for expanding without overstressing your operations."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "customer relationship management (CRM) systems",
+    "relation": "helps_manage",
+    "value": "larger customer bases without losing the personal touch",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "customer relationship management (CRM) systems can help manage larger customer bases without losing the personal touch."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Michael Thompson",
+    "relation": "founder_of",
+    "value": "Tech Solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, founder of Tech Solutions, points out the benefits."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Tech Solutions",
+    "relation": "founded_by",
+    "value": "Michael Thompson",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Michael Thompson, founder of Tech Solutions, points out the benefits."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Michael Thompson",
+    "relation": "spoke_at",
+    "value": "Tech for SME Workshop",
+    "time": "November 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "he said on November 16, 2023, at the Tech for SME Workshop in San Francisco."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Tech for SME Workshop",
+    "relation": "located_in",
+    "value": "San Francisco",
+    "time": "November 16, 2023",
+    "speaker": null,
+    "verbatim": [
+     "at the Tech for SME Workshop in San Francisco."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "Small businesses often resist technology, fearing it will depersonalize their service",
+    "time": "November 16, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "Small businesses often resist technology, fearing it will depersonalize their service."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Michael Thompson",
+    "relation": "said",
+    "value": "a wellimplemented CRM can do the opposite, ensuring that as the customer list grows, no one is forgotten",
+    "time": "November 16, 2023",
+    "speaker": "Michael Thompson",
+    "verbatim": [
+     "However, a wellimplemented CRM can do the opposite, ensuring that as the customer list grows, no one is forgotten"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Vanessa Lee",
+    "relation": "position",
+    "value": "leading SME strategist",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Vanessa Lee, a leading SME strategist, suggested"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Vanessa Lee",
+    "relation": "suggested",
+    "value": "depth is often more valuable than breadth when it comes to scaling",
+    "time": "September 10, 2023",
+    "speaker": "Vanessa Lee",
+    "verbatim": [
+     "depth is often more valuable than breadth when it comes to scaling."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Vanessa Lee",
+    "relation": "said",
+    "value": "By reinforcing your core offerings, you maintain a reputation for excellence",
+    "time": null,
+    "speaker": "Vanessa Lee",
+    "verbatim": [
+     "By reinforcing your core offerings, you maintain a reputation for excellence."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Rajiv Kapoor",
+    "relation": "position",
+    "value": "HR expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "HR expert Rajiv Kapoor on December 3, 2023, during the Human Capital Expansion conference in Chicago."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Rajiv Kapoor",
+    "relation": "spoke_at",
+    "value": "Human Capital Expansion conference",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "HR expert Rajiv Kapoor on December 3, 2023, during the Human Capital Expansion conference in Chicago."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Human Capital Expansion conference",
+    "relation": "located_in",
+    "value": "Chicago",
+    "time": "December 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "during the Human Capital Expansion conference in Chicago."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Rajiv Kapoor",
+    "relation": "said",
+    "value": "Too often, businesses focus on the numbers and forget about the people",
+    "time": "December 3, 2023",
+    "speaker": "Rajiv Kapoor",
+    "verbatim": [
+     "Too often, businesses focus on the numbers and forget about the people,"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Rajiv Kapoor",
+    "relation": "said",
+    "value": "Investing in your staff through training, hiring the right talent, and maintaining your company culture is essential for preserving quality and customer service",
+    "time": "December 3, 2023",
+    "speaker": "Rajiv Kapoor",
+    "verbatim": [
+     "Investing in your staff through training, hiring the right talent, and maintaining your company culture is essential for preserving quality and customer service."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Carlos Rodriguez",
+    "relation": "position",
+    "value": "process engineer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the words of process engineer Carlos Rodriguez, speaking at the International SME Forum on January 15, 2024,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Carlos Rodriguez",
+    "relation": "spoke_at",
+    "value": "International SME Forum",
+    "time": "January 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "speaking at the International SME Forum on January 15, 2024"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Carlos Rodriguez",
+    "relation": "said",
+    "value": "Your processes should be scalable. They ought to be designed so that they can be easily replicated as your business grows.",
+    "time": "January 15, 2024",
+    "speaker": "Carlos Rodriguez",
+    "verbatim": [
+     "Your processes should be scalable. They ought to be designed so that they can be easily replicated as your business grows."
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Emily Chen",
+    "relation": "position",
+    "value": "marketing guru",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to marketing guru Emily Chen, who spoke at the Customer Engagement Summit on February 22, 2024,"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Emily Chen",
+    "relation": "spoke_at",
+    "value": "Customer Engagement Summit",
+    "time": "February 22, 2024",
+    "speaker": null,
+    "verbatim": [
+     "who spoke at the Customer Engagement Summit on February 22, 2024"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Emily Chen",
+    "relation": "said",
+    "value": "Communication tools and social media platforms are a boon for growing SMEs",
+    "time": "February 22, 2024",
+    "speaker": "Emily Chen",
+    "verbatim": [
+     "Communication tools and social media platforms are a boon for growing SMEs."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Ayesha Patel",
+    "relation": "position",
+    "value": "business consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As business consultant Ayesha Patel pointed out at the SME Outsourcing Symposium on March 9, 2024,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Ayesha Patel",
+    "relation": "spoke_at",
+    "value": "SME Outsourcing Symposium",
+    "time": "March 9, 2024",
+    "speaker": null,
+    "verbatim": [
+     "at the SME Outsourcing Symposium on March 9, 2024"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "Ayesha Patel",
+    "relation": "said",
+    "value": "Outsourcing can be a strategic move that not only helps manage costs but also leverages the expertise of specialists to benefit your business",
+    "time": "March 9, 2024",
+    "speaker": "Ayesha Patel",
+    "verbatim": [
+     "Outsourcing can be a strategic move that not only helps manage costs but also leverages the expertise of specialists to benefit your business."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "small and medium-sized enterprises (SMEs)",
+    "relation": "should_consider_outsourcing",
+    "value": "non-core activities such as IT support, HR services, or accounting",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Consider outsourcing non-core activities such as IT support, HR services, or accounting to streamline operations."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "David Brown",
+    "relation": "position",
+    "value": "keynote speaker",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "keynote speaker David Brown highlighted the importance of scalable systems."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "David Brown",
+    "relation": "spoke_at",
+    "value": "Service Excellence Conference",
+    "time": "April 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "On April 28, 2024, during the Service Excellence Conference in New York, keynote speaker David Brown"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Service Excellence Conference",
+    "relation": "located_in",
+    "value": "New York",
+    "time": "April 28, 2024",
+    "speaker": null,
+    "verbatim": [
+     "during the Service Excellence Conference in New York"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "David Brown",
+    "relation": "said",
+    "value": "You need to create a customer service blueprint that is ingrained in your company culture and can be easily adopted by new team members",
+    "time": "April 28, 2024",
+    "speaker": "David Brown",
+    "verbatim": [
+     "You need to create a customer service blueprint that is ingrained in your company culture and can be easily adopted by new team members."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "customer service blueprint",
+    "relation": "ensures",
+    "value": "quality of service doesn't decline as the company grows",
+    "time": "April 28, 2024",
+    "speaker": "David Brown",
+    "verbatim": [
+     "This ensures that the quality of service doesn't decline as the company grows,"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "customer service blueprint",
+    "relation": "results_in",
+    "value_ref": "c40",
+    "time": null,
+    "speaker": "David Brown",
+    "verbatim": [
+     "You need to create a customer service blueprint that is ingrained in your company culture and can be easily adopted by new team members.",
+     "This ensures that the quality of service doesn't decline as the company grows,"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

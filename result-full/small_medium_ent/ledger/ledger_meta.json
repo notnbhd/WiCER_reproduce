@@ -1,0 +1,30 @@
+{
+  "topic": "small_medium_ent",
+  "corpus_sha256": "4f7d7518b81c10a69f5b712f0a06498e3b7c48423771db4e65d323049242023a",
+  "n_documents": 229,
+  "n_claims": 16016,
+  "n_claims_before_merge": 16028,
+  "n_raw": 16044,
+  "n_rejected": 16,
+  "n_multispan": 147,
+  "n_relational": 744,
+  "rejection_rate": 0.0009972575417601596,
+  "n_contradictions": 293,
+  "inventory_size": 5318,
+  "n_canonical_entities": 4828,
+  "entity_collision_rate": 0.0006213753106876554,
+  "embedding_canonicalization": false,
+  "extracted_with": {
+    "anthropic/claude-haiku-5.5 effort=high": 80,
+    "claude-haiku-5-5 effort=high": 149
+  },
+  "usage_this_run": {
+    "model": "claude-haiku-5-5",
+    "backend": "anthropic",
+    "effort": "high",
+    "calls": 188,
+    "input_tokens": 534682,
+    "output_tokens": 2397597,
+    "measured_cost_usd": 0.0
+  }
+}

@@ -1,0 +1,785 @@
+{
+ "inventory": [
+  "Dr. Clara Mendez",
+  "Emily Baker",
+  "Green Horizons",
+  "Social Impact Leaders Conference",
+  "James Monroe",
+  "Luis Fernandes",
+  "Enova",
+  "The Impact Alliance",
+  "Anita Gupta",
+  "Julian Torres",
+  "Global Social Business Summit of 2023",
+  "Social Return on Investment (SROI)",
+  "Logic Model",
+  "Theory of Change",
+  "Salesforce's Nonprofit Success Pack",
+  "Impact Management Project's suite",
+  "impact measurement",
+  "impact washing",
+  "social entrepreneurship",
+  "social ventures",
+  "impact investing",
+  "Artificial Intelligence (AI)",
+  "traditional businesses",
+  "SMEs"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "social entrepreneurship",
+    "relation": "prominence",
+    "value": "taken center stage",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social entrepreneurship has taken center stage"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "traditional businesses",
+    "relation": "focus",
+    "value": "profitability",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Unlike traditional businesses focused primarily on profitability"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "social ventures",
+    "relation": "founded_on",
+    "value": "the premise of creating positive change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social ventures are founded on the premise of creating positive change"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "impact measurement",
+    "relation": "role",
+    "value": "a crucial tool for legitimacy, improvement, and sustainability in the realm of social ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it is a crucial tool for legitimacy, improvement, and sustainability in the realm of social ventures"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "social ventures",
+    "relation": "faces_challenge",
+    "value": "unique challenges in quantifying their success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "pose unique challenges, especially in quantifying their success"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "social entrepreneurship",
+    "relation": "forums_discussed",
+    "value": "the importance of impact measurement",
+    "time": "Since September 23, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 23, 2023, social entrepreneurship forums have buzzed with discussions on the importance of impact measurement."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Dr. Clara Mendez",
+    "relation": "is_a",
+    "value": "industry expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "insights from industry experts like Dr. Clara Mendez"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "social entrepreneurship",
+    "relation": "caused_by",
+    "value_ref": "c7",
+    "verbatim": [
+     "These conversations were further ignited by the insights from industry experts like Dr. Clara Mendez."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Dr. Clara Mendez",
+    "relation": "stated",
+    "value": "Impact measurement is not merely about showcasing success; it's inherently about holding ourselves accountable to the communities we serve.",
+    "time": null,
+    "speaker": "Dr. Clara Mendez",
+    "verbatim": [
+     "Impact measurement is not merely about showcasing success; it's inherently about holding ourselves accountable to the communities we serve."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "impact measurement",
+    "relation": "defined_as",
+    "value": "the process of assessing the effects of an organization's actions\u2014both positive and negative\u2014on the community it targets as well as on the broader society",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Impact measurement refers to the process of assessing the effects of an organization's actions\u2014both positive and negative\u2014on the community it targets as well as on the broader society."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "impact measurement",
+    "relation": "involves",
+    "value": "setting relevant metrics, collecting data, and analyzing outcomes against set goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The process involves setting relevant metrics, collecting data, and analyzing outcomes against set goals."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "impact measurement",
+    "relation": "example",
+    "value": "an enterprise providing clean water solutions might measure the reduction in waterborne diseases in the target community",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an enterprise providing clean water solutions might measure the reduction in waterborne diseases in the target community"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "impact measurement",
+    "relation": "example",
+    "value": "the amount of time saved by individuals no longer needing to fetch water from distant sources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the amount of time saved by individuals no longer needing to fetch water from distant sources."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "traditional businesses",
+    "relation": "success_measured_by",
+    "value": "profitability, growth, and shareholder value",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For typical businesses, success is largely measured in profitability, growth, and shareholder value."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "social ventures",
+    "relation": "dual_focus",
+    "value": "achieving financial sustainability while maximally contributing to societal well-being",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social ventures operate with a dual focus: achieving financial sustainability while maximally contributing to societal well-being."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "traditional businesses",
+    "relation": "metrics_insufficient",
+    "value": "insufficient to capture their full range of goals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The traditional corporate metrics are therefore insufficient to capture their full range of goals."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "traditional businesses",
+    "relation": "caused_by",
+    "value_ref": "c14",
+    "verbatim": [
+     "For typical businesses, success is largely measured in profitability, growth, and shareholder value.",
+     "The traditional corporate metrics are therefore insufficient to capture their full range of goals."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "impact measurement",
+    "relation": "requires",
+    "value": "a customized approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Impact measurement in social entrepreneurship often requires a customized approach"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "impact measurement",
+    "relation": "addresses_questions",
+    "value": "What is the scale of social change? How many lives have been improved? Is the environment better off?",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "What is the scale of social change? How many lives have been improved? Is the environment better off?"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "impact measurement",
+    "relation": "limitation",
+    "value": "financial statements alone cannot answer these questions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These are questions that financial statements alone cannot answer."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Social Return on Investment (SROI)",
+    "relation": "quantifies",
+    "value": "in monetary terms the social and environmental value created by an organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an approach that tries to quantify in monetary terms the social and environmental value created by an organization."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "impact measurement",
+    "relation": "has_challenges",
+    "value": "challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it\u2019s not without its challenges"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Emily Baker",
+    "relation": "position",
+    "value": "CEO of Green Horizons",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily Baker, the CEO of Green Horizons"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "Green Horizons",
+    "relation": "is_a",
+    "value": "a social venture in sustainable agriculture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Green Horizons, a social venture in sustainable agriculture"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "Emily Baker",
+    "relation": "shared_experience_at",
+    "value": "Social Impact Leaders Conference",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, Emily Baker, the CEO of Green Horizons, a social venture in sustainable agriculture, shared her experience at the Social Impact Leaders Conference"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Baker",
+    "relation": "stated",
+    "value": "Finding the right indicators is just the start; collecting consistent and meaningful data can be a steep uphill climb.",
+    "time": "On October 15, 2023",
+    "speaker": "Emily Baker",
+    "verbatim": [
+     "Finding the right indicators is just the start; collecting consistent and meaningful data can be a steep uphill climb."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "SMEs",
+    "relation": "limited_resources",
+    "value": "limited resources often hamper comprehensive data collection and analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Limited resources often hamper comprehensive data collection and analysis in SMEs."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "impact measurement",
+    "relation": "social_outcomes_are",
+    "value": "often intangible or long term",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social outcomes like improved self-esteem or community cohesion are often intangible or long term"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "impact measurement",
+    "relation": "difficulty",
+    "value": "difficult to measure and attribute directly to an organization's actions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they can be difficult to measure and attribute directly to an organization's actions"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "impact measurement",
+    "relation": "caused_by",
+    "value_ref": "c28",
+    "verbatim": [
+     "because social outcomes like improved self-esteem or community cohesion are often intangible or long term, they can be difficult to measure and attribute directly to an organization's actions."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Logic Model",
+    "relation": "is_a",
+    "value": "a structured method",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Logic Model is a structured method that defines the relationships between resources, activities, outputs, and outcomes."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Logic Model",
+    "relation": "defines",
+    "value": "the relationships between resources, activities, outputs, and outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "defines the relationships between resources, activities, outputs, and outcomes"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Theory of Change",
+    "relation": "outlines",
+    "value": "how and why a desired change is expected as a result of specific interventions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the Theory of Change outlines how and why a desired change is expected as a result of specific interventions."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "social entrepreneurship",
+    "relation": "leverages",
+    "value": "software and digital platforms designed for impact assessment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tech-savvy social entrepreneurs are also leveraging software and digital platforms designed for impact assessment."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "Salesforce's Nonprofit Success Pack",
+    "relation": "offers",
+    "value": "streamlining data collection and analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like Salesforce's Nonprofit Success Pack or the Impact Management Project's suite offer a solution by streamlining data collection and analysis."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Impact Management Project's suite",
+    "relation": "offers",
+    "value": "streamlining data collection and analysis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Tools like Salesforce's Nonprofit Success Pack or the Impact Management Project's suite offer a solution by streamlining data collection and analysis."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "impact investing",
+    "relation": "gained_traction",
+    "value": "considerable traction",
+    "time": "In the past decade",
+    "speaker": null,
+    "verbatim": [
+     "In the past decade, impact investing has gained considerable traction"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "impact investing",
+    "relation": "funders_prefer",
+    "value": "transparent enterprises with credible impact measurement practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They prefer transparent enterprises with credible impact measurement practices."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "James Monroe",
+    "relation": "is_a",
+    "value": "a leading impact investor",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "by James Monroe, a leading impact investor"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "James Monroe",
+    "relation": "gave_discourse",
+    "value": "discourse",
+    "time": "November 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "According to a discourse held on November 1, 2023, by James Monroe"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "James Monroe",
+    "relation": "stated",
+    "value": "We look for social ventures that can demonstrate their impact succinctly; it's not just about being good but about effectively communicating the good you do.",
+    "time": "November 1, 2023",
+    "speaker": "James Monroe",
+    "verbatim": [
+     "We look for social ventures that can demonstrate their impact succinctly; it's not just about being good but about effectively communicating the good you do."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "impact measurement",
+    "relation": "helps",
+    "value": "attract and retain investors who are keen to see their funds yield tangible social benefits alongside financial returns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Impact measurement helps social ventures to attract and retain investors who are keen to see their funds yield tangible social benefits alongside financial returns."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "social ventures",
+    "relation": "forge",
+    "value": "a trust-based relationship with stakeholders",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "they also forge a trust-based relationship with stakeholders, showing accountability for funds received and actions taken."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "impact measurement",
+    "relation": "role",
+    "value": "informing the strategic direction of social ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One often overlooked aspect of impact measurement is its role in informing the strategic direction of social ventures."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "impact measurement",
+    "relation": "is_a",
+    "value": "a continuous feedback loop",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's a continuous feedback loop"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "impact measurement",
+    "relation": "can",
+    "value": "refine programs, redirect efforts, and scale successful initiatives effectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "refine programs, redirect efforts, and scale successful initiatives effectively"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Luis Fernandes",
+    "relation": "behind",
+    "value": "the renewable energy cooperative Enova",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Luis Fernandes, the man behind the renewable energy cooperative Enova"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Enova",
+    "relation": "is_a",
+    "value": "renewable energy cooperative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the renewable energy cooperative Enova"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Luis Fernandes",
+    "relation": "swears_by",
+    "value": "the transformative power of diligent impact measurement",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have come to swear by the transformative power of diligent impact measurement"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Luis Fernandes",
+    "relation": "stressed",
+    "value": "Impact measurement isn't just external reporting; it's an internal compass for steering projects toward greater efficacy.",
+    "time": "December 3, 2023",
+    "speaker": "Luis Fernandes",
+    "verbatim": [
+     "Impact measurement isn't just external reporting; it's an internal compass for steering projects toward greater efficacy."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "impact washing",
+    "relation": "defined_as",
+    "value": "where the purported social benefits are exaggerated or misrepresented",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "where the purported social benefits are exaggerated or misrepresented"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "impact measurement",
+    "relation": "role",
+    "value": "to validate claims and differentiate genuine social ventures from those that simply pay lip service to social impact",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Herein lies a critical role for impact measurement: to validate claims and differentiate genuine social ventures from those that simply pay lip service to social impact."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "The Impact Alliance",
+    "relation": "led_by",
+    "value": "veteran social entrepreneur Anita Gupta",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Impact Alliance, led by veteran social entrepreneur Anita Gupta"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Anita Gupta",
+    "relation": "leads",
+    "value": "The Impact Alliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The Impact Alliance, led by veteran social entrepreneur Anita Gupta"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "The Impact Alliance",
+    "relation": "advocates",
+    "value": "standardized certification processes that can provide an authentic stamp of impact to deserving social ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are advocating for standardized certification processes that can provide an authentic stamp of impact to deserving social ventures"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "The Impact Alliance",
+    "relation": "argues",
+    "value": "verifiable and transparent impact data should be a cornerstone for anyone claiming social entrepreneur status",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They argue that verifiable and transparent impact data should be a cornerstone for anyone claiming social entrepreneur status."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "impact measurement",
+    "relation": "changing",
+    "value": "swiftly changing",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the parameters and expectations of impact measurement are swiftly changing"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Artificial Intelligence (AI)",
+    "relation": "poised_to",
+    "value": "play a larger role in parsing complex datasets to detect nuanced changes in social outcomes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Artificial Intelligence (AI) and machine learning are poised to play a larger role in parsing complex datasets to detect nuanced changes in social outcomes."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "Julian Torres",
+    "relation": "shared_call_for",
+    "value": "more cross-sector collaboration",
+    "time": "Global Social Business Summit of 2023",
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "there's a call for more cross-sector collaboration, as shared by Julian Torres at the Global Social Business Summit of 2023"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Global Social Business Summit of 2023",
+    "relation": "venue_of_remarks_by",
+    "value": "Julian Torres",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "as shared by Julian Torres at the Global Social Business Summit of 2023"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Julian Torres",
+    "relation": "purpose_of_collaboration",
+    "value": "to establish universal benchmarks and measurement standards",
+    "time": null,
+    "speaker": "Julian Torres",
+    "verbatim": [
+     "to establish universal benchmarks and measurement standards."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Julian Torres",
+    "relation": "in_order_to",
+    "value_ref": "c61",
+    "verbatim": [
+     "there's a call for more cross-sector collaboration, as shared by Julian Torres at the Global Social Business Summit of 2023, to establish universal benchmarks and measurement standards."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "impact measurement",
+    "relation": "is",
+    "value": "more marathon than sprint",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The journey of impact measurement is more marathon than sprint"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "impact measurement",
+    "relation": "requires",
+    "value": "dedication and innovation at every step",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it requires dedication and innovation at every step."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "impact measurement",
+    "relation": "determines",
+    "value": "not just the credibility but also the very effectiveness of social ventures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Ensuring that this process is given its due diligence determines not just the credibility but also the very effectiveness of social ventures."
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "traditional businesses",
+    "relation": "can_rely_on",
+    "value": "the bottom line to tell their success stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "traditional businesses can often rely on the bottom line to tell their success stories"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "social entrepreneurship",
+    "relation": "must_navigate",
+    "value": "a more intricate narrative",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "social entrepreneurs must navigate a more intricate narrative"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "impact measurement",
+    "relation": "remains",
+    "value": "the most powerful author of those stories",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "remains the most powerful author of those stories"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "impact measurement",
+    "relation": "brings_to_light",
+    "value": "the true scope of change that these ventures achieve",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "bringing to light the true scope of change that these ventures achieve"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

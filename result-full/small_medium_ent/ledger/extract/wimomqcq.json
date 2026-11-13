@@ -1,0 +1,859 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises",
+  "Dr. Alice Martens",
+  "Roberta Clarkson",
+  "Michael Reynard",
+  "Jonathan Lee",
+  "Anna King",
+  "Kimberly Stone",
+  "Omar Sanchez",
+  "Liam Thompson",
+  "Diane Harper",
+  "large corporations",
+  "cybercriminals",
+  "medium-sized retailer",
+  "data breach",
+  "cybersecurity conference",
+  "workshop",
+  "cybersecurity",
+  "cyber-attacks",
+  "phishing attempts",
+  "password policies",
+  "password hygiene",
+  "multi-factor authentication",
+  "risk assessments",
+  "audits",
+  "cybersecurity policy",
+  "incident response plan",
+  "software updates",
+  "patches",
+  "cloud-based security services",
+  "managed firewalls",
+  "security monitoring",
+  "in-house security team",
+  "scalable security solutions",
+  "cloud storage",
+  "backups",
+  "cybersecurity culture"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "cybersecurity",
+    "relation": "has_become",
+    "value": "a critical concern for Small and Medium Enterprises (SMEs) worldwide",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cybersecurity has soared in importance, becoming a critical concern for Small and Medium Enterprises (SMEs) worldwide"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Small and Medium Enterprises",
+    "relation": "struggle_to_implement",
+    "value": "robust security measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many SMEs struggle to implement robust security measures"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small and Medium Enterprises",
+    "relation": "struggle_due_to",
+    "value": "resource constraints and a lack of specialized knowledge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "often due to resource constraints and a lack of specialized knowledge"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Small and Medium Enterprises",
+    "relation": "caused_by",
+    "value_ref": "c3",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "many SMEs struggle to implement robust security measures, often due to resource constraints and a lack of specialized knowledge"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "cyber-attacks",
+    "relation": "reports_continue_to",
+    "value": "flood in",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As reports of cyber-attacks continue to flood in"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "medium-sized retailer",
+    "relation": "fell_victim_to",
+    "value": "a severe data breach",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "one notable incident on September 8, 2023, where a medium-sized retailer fell victim to a severe data breach"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "data breach",
+    "relation": "severity",
+    "value": "severe",
+    "time": "September 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "fell victim to a severe data breach"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "cybersecurity conference",
+    "relation": "held_in",
+    "value": "October 2023",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity conference held in October 2023"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "cyber-attacks",
+    "relation": "share_targeting_small_businesses",
+    "value": "approximately 43%",
+    "time": null,
+    "speaker": "A panel of experts at the conference",
+    "verbatim": [
+     "uncovered that approximately 43% of cyber-attacks specifically target small businesses"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Dr. Alice Martens",
+    "relation": "is_a",
+    "value": "a cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Dr. Alice Martens, a cybersecurity analyst"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Dr. Alice Martens",
+    "relation": "included_on_panel",
+    "value": "panel of experts at the conference",
+    "time": "October 2023",
+    "speaker": null,
+    "verbatim": [
+     "A panel of experts at the conference, including notable figures like Dr. Alice Martens"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Small and Medium Enterprises",
+    "relation": "should_be",
+    "value": "vigilant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "one that underlines the importance of SMEs to be vigilant"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Small and Medium Enterprises",
+    "relation": "possess",
+    "value": "valuable data without robust security defenses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Generally, they possess valuable data without robust security defenses"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Small and Medium Enterprises",
+    "relation": "considered",
+    "value": "low-hanging fruit for cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which makes them low-hanging fruit for cybercriminals"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Small and Medium Enterprises",
+    "relation": "caused_by",
+    "value_ref": "c13",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Generally, they possess valuable data without robust security defenses, which makes them low-hanging fruit for cybercriminals"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Small and Medium Enterprises",
+    "relation": "have_fewer_resources_than",
+    "value": "large corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They often have fewer resources dedicated to cybersecurity compared to large corporations"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Small and Medium Enterprises",
+    "relation": "considered",
+    "value": "easy targets for quick exploitations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "therefore may be considered easy targets for quick exploitations"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Small and Medium Enterprises",
+    "relation": "results_in",
+    "value_ref": "c17",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They often have fewer resources dedicated to cybersecurity compared to large corporations and therefore may be considered easy targets for quick exploitations."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Small and Medium Enterprises",
+    "relation": "first_step_is",
+    "value": "create cybersecurity awareness among all employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "One of the first steps in securing an SME is to create cybersecurity awareness among all employees."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Roberta Clarkson",
+    "relation": "is_a",
+    "value": "cybersecurity consultant",
+    "time": "September 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 12, 2023, cybersecurity consultant Roberta Clarkson shared an enlightening perspective"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Roberta Clarkson",
+    "relation": "stated",
+    "value": "Awareness is the frontline defense against most cyber intrusions.",
+    "time": "September 12, 2023",
+    "speaker": "Roberta Clarkson",
+    "verbatim": [
+     "Awareness is the frontline defense against most cyber intrusions."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "phishing attempts",
+    "relation": "should_be_recognized_through",
+    "value": "employee training",
+    "time": null,
+    "speaker": "Roberta Clarkson",
+    "verbatim": [
+     "Employees should be trained to recognize phishing attempts"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "password policies",
+    "relation": "importance_to_understand",
+    "value": "strong password policies",
+    "time": null,
+    "speaker": "Roberta Clarkson",
+    "verbatim": [
+     "understand the importance of strong password policies"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "cybersecurity",
+    "relation": "threats_to_be_aware_of",
+    "value": "the latest cybersecurity threats",
+    "time": null,
+    "speaker": "Roberta Clarkson",
+    "verbatim": [
+     "be aware of the latest cybersecurity threats"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "cybersecurity culture",
+    "relation": "essential_to_cultivate",
+    "value": "a culture of security within the company where cybersecurity is everyone's responsibility",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's essential to cultivate a culture of security within the company where cybersecurity is everyone's responsibility."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "cybersecurity culture",
+    "relation": "involves",
+    "value": "regular training and refreshers, clear communication of policies, and fostering an environment where potential threats can be reported and discussed openly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This involves regular training and refreshers, clear communication of policies, and fostering an environment where potential threats can be reported and discussed openly."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Small and Medium Enterprises",
+    "relation": "should_regularly_conduct",
+    "value": "risk assessments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs should regularly conduct risk assessments to identify potential vulnerabilities within their systems"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "risk assessments",
+    "relation": "used_to_identify",
+    "value": "potential vulnerabilities within their systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs should regularly conduct risk assessments to identify potential vulnerabilities within their systems"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Michael Reynard",
+    "relation": "is_a",
+    "value": "IT auditor",
+    "time": "November 4, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 4, 2023, IT auditor Michael Reynard stated"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "audits",
+    "relation": "can_reveal",
+    "value": "risks that might have been overlooked",
+    "time": "November 4, 2023",
+    "speaker": "Michael Reynard",
+    "verbatim": [
+     "Routine audits can reveal risks that might have been"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "audits",
+    "relation": "help_businesses",
+    "value": "prioritize their cybersecurity investments",
+    "time": "November 4, 2023",
+    "speaker": "Michael Reynard",
+    "verbatim": [
+     "help businesses prioritize their cybersecurity investments"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Small and Medium Enterprises",
+    "relation": "should_engage",
+    "value": "professionals who can provide an outsider's perspective on your systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Engage with professionals who can provide an outsider's perspective on your systems"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "cybersecurity policy",
+    "relation": "serves_as",
+    "value": "a backbone for any SME looking to safeguard their data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A clear and concise cybersecurity policy serves as a backbone for any SME looking to safeguard their data."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "cybersecurity policy",
+    "relation": "should_consider",
+    "value": "both internal and external threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's vital to consider both internal and external threats"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "cybersecurity policy",
+    "relation": "should_define",
+    "value": "procedures for daily operations, incident response, and recovery plans",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to define procedures for daily operations, incident response, and recovery plans"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Jonathan Lee",
+    "relation": "is_a",
+    "value": "cyber law expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cyber law expert, Jonathan Lee, whom we interviewed on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Jonathan Lee",
+    "relation": "interviewed_on",
+    "value": "October 15, 2023",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "whom we interviewed on October 15, 2023"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "cybersecurity policy",
+    "relation": "only_as_good_as",
+    "value": "their implementation",
+    "time": null,
+    "speaker": "Jonathan Lee",
+    "verbatim": [
+     "Policies are only as good as their implementation."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "cybersecurity",
+    "relation": "essential_for_maintaining",
+    "value": "Regular reviews, updates to reflect new threats, and consistent enforcement",
+    "time": null,
+    "speaker": "Jonathan Lee",
+    "verbatim": [
+     "Regular reviews, updates to reflect new threats, and consistent enforcement are essential to maintaining a secure business environment."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Small and Medium Enterprises",
+    "relation": "faces",
+    "value": "tight budgets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Despite tight budgets"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Small and Medium Enterprises",
+    "relation": "cannot_afford",
+    "value": "to skimp on investing in appropriate cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in appropriate cybersecurity measures is not something SMEs can afford to skimp on"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "cybersecurity",
+    "relation": "solutions_designed_for",
+    "value": "smaller businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "There are cost-effective solutions specifically designed for smaller businesses."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Anna King",
+    "relation": "is_a",
+    "value": "cybersecurity software developer",
+    "time": "September 22, 2023",
+    "speaker": null,
+    "verbatim": [
+     "as cybersecurity software developer Anna King pointed out on September 22, 2023"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "scalable security solutions",
+    "relation": "offer",
+    "value": "strong protection without the complexity or cost associated with enterprise-level tools",
+    "time": "September 22, 2023",
+    "speaker": "Anna King",
+    "verbatim": [
+     "There are scalable security solutions available that offer strong protection without the complexity or cost associated with enterprise-level tools."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "cloud-based security services",
+    "relation": "can_provide",
+    "value": "strong foundational protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Options like cloud-based security services, managed firewalls, and regular software updates can provide strong foundational protection."
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "managed firewalls",
+    "relation": "can_provide",
+    "value": "strong foundational protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Options like cloud-based security services, managed firewalls, and regular software updates can provide strong foundational protection."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "software updates",
+    "relation": "can_provide",
+    "value": "strong foundational protection",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Options like cloud-based security services, managed firewalls, and regular software updates can provide strong foundational protection."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "security monitoring",
+    "relation": "can_be",
+    "value": "a cost-effective alternative to an in-house security team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's also beneficial to use services that offer security monitoring, which can be a cost-effective alternative to an in-house security team."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Kimberly Stone",
+    "relation": "is_a",
+    "value": "data protection specialist",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Kimberly Stone, a data protection specialist, emphasized on September 20, 2023"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "password hygiene",
+    "relation": "significance_emphasized",
+    "value": "the significance of 'password hygiene'",
+    "time": "September 20, 2023",
+    "speaker": "Kimberly Stone",
+    "verbatim": [
+     "emphasized on September 20, 2023, the significance of 'password hygiene'"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "password hygiene",
+    "relation": "includes",
+    "value": "using strong, unique passwords for different accounts and employing multi-factor authentication where possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This includes using strong, unique passwords for different accounts and employing multi-factor authentication where possible."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "multi-factor authentication",
+    "relation": "should_be_employed",
+    "value": "where possible",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employing multi-factor authentication where possible"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "cybersecurity",
+    "relation": "good_practices_include",
+    "value": "being cautious with email attachments and links, using secure networks, and being careful with the data employees choose to share and store on their work devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "good practices also mean being cautious with email attachments and links, using secure networks, and being careful with the data employees choose to share and store on their work devices."
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "data breach",
+    "relation": "cannot_be",
+    "value": "entirely eliminated",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the potential for a security breach can never be entirely eliminated"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "incident response plan",
+    "relation": "is",
+    "value": "crucial",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Having an incident response plan in place is crucial."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Omar Sanchez",
+    "relation": "is_a",
+    "value": "incident responder",
+    "time": "October 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "incident responder Omar Sanchez highlighted that"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "workshop",
+    "relation": "held_on",
+    "value": "October 29, 2023",
+    "time": "October 29, 2023",
+    "speaker": null,
+    "verbatim": [
+     "During a workshop on October 29, 2023"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "incident response plan",
+    "relation": "can_limit",
+    "value": "damage and reduce recovery time and costs",
+    "time": "October 29, 2023",
+    "speaker": "Omar Sanchez",
+    "verbatim": [
+     "A welldefined incident response plan can limit damage and reduce recovery time and costs."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "incident response plan",
+    "relation": "should_include",
+    "value": "clear guidelines on how to identify an incident, whom to notify, how to contain the breach, and the subsequent steps to recover and learn from the event",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The plan should include clear guidelines on how to identify an incident, whom to notify, how to contain the breach, and the subsequent steps to recover and learn from the event."
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Liam Thompson",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity expert Liam Thompson urged on December 1, 2023"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "software updates",
+    "relation": "simple_yet_effective_defense_against",
+    "value": "many forms of cyber-attacks",
+    "time": "December 1, 2023",
+    "speaker": "Liam Thompson",
+    "verbatim": [
+     "Keeping software up to date is a simple yet effective defense against many forms of cyber-attacks."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "patches",
+    "relation": "include",
+    "value": "patches for security vulnerabilities that have been discovered since the last update",
+    "time": "December 1, 2023",
+    "speaker": "Liam Thompson",
+    "verbatim": [
+     "Many of these updates include patches for security vulnerabilities that have been discovered since the last update."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "software updates",
+    "relation": "can_thwart",
+    "value": "attacks that exploit outdated software vulnerabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Scheduling regular updates and maintenance can thwart attacks that exploit outdated software vulnerabilities."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "software updates",
+    "relation": "ensures",
+    "value": "your business is benefiting from the latest security technologies available",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It also ensures that your business is benefiting from the latest security technologies available."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "backups",
+    "relation": "should_be",
+    "value": "part of any business's routine",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Backing up data should be part of any business's routine"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "backups",
+    "relation": "safeguards_against",
+    "value": "cyber-attacks and physical disasters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "safeguarding against not only cyber-attacks but also physical disasters"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "cloud storage",
+    "relation": "offers",
+    "value": "an affordable and effective means of doing so",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud storage offers an affordable and effective means of doing so."
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Diane Harper",
+    "relation": "is_a",
+    "value": "cloud storage expert",
+    "time": "September 30, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Diane Harper, a cloud storage expert, recommended on September 30, 2023"
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "backups",
+    "relation": "recommended_that",
+    "value": "performed regularly, and tested to ensure that data recovery is possible in an emergency",
+    "time": "September 30, 2023",
+    "speaker": "Diane Harper",
+    "verbatim": [
+     "Backups be performed regularly, and tested to ensure that data recovery is possible in an emergency."
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "cybersecurity culture",
+    "relation": "can_empower",
+    "value": "employees and reinforce the importance of safeguarding data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "cultivating a company-wide cybersecurity culture can empower employees and reinforce the importance of safeguarding data"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "cybersecurity culture",
+    "relation": "means",
+    "value": "going beyond the technical aspects and creating an ethos where security is ingrained in every aspect of the business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This means going beyond the technical aspects and creating an ethos where security is ingrained in every aspect of the business."
+    ]
+   },
+   {
+    "id": "c72",
+    "entity": "Small and Medium Enterprises",
+    "relation": "can_fortify",
+    "value": "their defenses against the everevolving threats that lurk in the digital shadows",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By combining knowledge with action, SMEs can fortify their defenses against the everevolving threats that lurk in the digital shadows."
+    ]
+   },
+   {
+    "id": "c73",
+    "entity": "Small and Medium Enterprises",
+    "relation": "can_stand_strong",
+    "value": "in the face of cybersecurity challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the right approach, tools, and mindset, Small and Medium Enterprises can stand strong in the face of cybersecurity challenges."
+    ]
+   },
+   {
+    "id": "c74",
+    "entity": "cybersecurity",
+    "relation": "is_investment_in",
+    "value": "the future, the security, and the resilience of businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "It's an investment in the future, the security, and the resilience of businesses that have become the cornerstone of the global economy."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

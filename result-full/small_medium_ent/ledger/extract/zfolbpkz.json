@@ -1,0 +1,804 @@
+{
+ "inventory": [
+  "CloudSavvy",
+  "Emily Tsui",
+  "TrendSetters",
+  "Marcus Lee",
+  "GreenGrill",
+  "Aiden Park",
+  "MedInnovate",
+  "Sarah Kim",
+  "RelateMate",
+  "Jordan Hayes",
+  "EduSmart",
+  "Sophia Alvarez",
+  "SaaS summit",
+  "regulatory bodies"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "CloudSavvy",
+    "relation": "described_as",
+    "value": "tech start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a tech start-up named CloudSavvy"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "CloudSavvy",
+    "relation": "known_for",
+    "value": "innovative cloud storage solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "known for its innovative cloud storage solutions"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "CloudSavvy",
+    "relation": "reached_milestone",
+    "value": "one million users",
+    "time": "On October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On October 15, 2023, a tech start-up named CloudSavvy \u2014 known for its innovative cloud storage solutions \u2014 reached a milestone of one million users."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Emily Tsui",
+    "relation": "co_founder_of",
+    "value": "CloudSavvy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The co-founder, Emily Tsui"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Emily Tsui",
+    "relation": "attributed_growth_to",
+    "value": "a relentless focus on data-driven decision-making",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "attributed this rapid expansion to a relentless focus on data-driven decision-making"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Emily Tsui",
+    "relation": "said",
+    "value": "From day one, we've been obsessive about tracking every metric possible, from user onboarding times to daily active users",
+    "time": null,
+    "speaker": "Emily Tsui",
+    "verbatim": [
+     "From day one, we've been obsessive about tracking every metric possible, from user onboarding times to daily active users"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Emily Tsui",
+    "relation": "shared_at",
+    "value": "a recent tech conference",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Emily shared at a recent tech conference"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "CloudSavvy",
+    "relation": "approach_allowed",
+    "value": "the team to identify growth bottlenecks and pivot their strategies quickly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CloudSavvy's approach allowed the team to identify growth bottlenecks and pivot their strategies quickly"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "CloudSavvy",
+    "relation": "used",
+    "value": "cohort analysis to refine their user experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They used cohort analysis to refine their user experience"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "CloudSavvy",
+    "relation": "increased_customer_retention_by",
+    "value": "45%",
+    "time": "within six months",
+    "speaker": null,
+    "verbatim": [
+     "a 45% increase in customer retention within six months"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "CloudSavvy",
+    "relation": "results_in",
+    "value_ref": "c10",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They used cohort analysis to refine their user experience, leading to a 45% increase in customer retention within six months"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "CloudSavvy",
+    "relation": "tweaked_marketing_strategies_to",
+    "value": "target specific segments",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CloudSavvy tweaked its marketing strategies to target specific segments"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "CloudSavvy",
+    "relation": "tailored_solutions_increased",
+    "value": "conversion rates",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering tailored solutions which significantly increased conversion rates"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "TrendSetters",
+    "relation": "described_as",
+    "value": "an apparel start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an apparel start-up named TrendSetters, co-founded by Marcus Lee"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "TrendSetters",
+    "relation": "co_founded_by",
+    "value": "Marcus Lee",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "co-founded by Marcus Lee"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Marcus Lee",
+    "relation": "co_founder_of",
+    "value": "TrendSetters",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "co-founded by Marcus Lee"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "TrendSetters",
+    "relation": "carved_out_market_share_through",
+    "value": "adopting an omnichannel strategy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "carved out a significant market share through adopting an omnichannel strategy"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Marcus Lee",
+    "relation": "explained",
+    "value": "how TrendSetters found an edge",
+    "time": "On December 9, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On December 9, 2023, Marcus explained how TrendSetters found an edge"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "Marcus Lee",
+    "relation": "said",
+    "value": "We recognized that our customers wanted a seamless shopping experience, whether they were on a phone, laptop, or in a brick-and-mortar store.",
+    "time": null,
+    "speaker": "Marcus Lee",
+    "verbatim": [
+     "We recognized that our customers wanted a seamless shopping experience, whether they were on a phone, laptop, or in a brick-and-mortar store."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "TrendSetters",
+    "relation": "integrated_online_and_offline_assets_to",
+    "value": "create a unified customer journey",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "TrendSetters' strategy involved integrating their online and offline assets to create a unified customer journey"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "TrendSetters",
+    "relation": "personalized_in_store_experiences_using",
+    "value": "online data",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They personalized in-store experiences using online data"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "TrendSetters",
+    "relation": "enticed_online_shoppers_with",
+    "value": "in-store pick-up options and exclusive deals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enticing online shoppers with in-store pick-up options and exclusive deals"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "TrendSetters",
+    "relation": "increased_overall_sales_by",
+    "value": "30%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a 30% increase in overall sales"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "TrendSetters",
+    "relation": "results_included",
+    "value": "a more loyal customer base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a more loyal customer base embracing the interconnected shopping experience"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "GreenGrill",
+    "relation": "described_as",
+    "value": "a plant-based meat alternative producer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a plant-based meat alternative producer"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "GreenGrill",
+    "relation": "founded_in",
+    "value": "early 2024",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "since its founding in early 2024"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "GreenGrill",
+    "relation": "popularity_soared",
+    "value": "popularity soared",
+    "time": "since its founding in early 2024",
+    "speaker": null,
+    "verbatim": [
+     "has seen its popularity soar since its founding in early 2024"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Aiden Park",
+    "relation": "co_founder_of",
+    "value": "GreenGrill",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Co-founder Aiden Park noted"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "Aiden Park",
+    "relation": "said",
+    "value": "You can't just copy and paste a growth strategy; you need to understand regional tastes and dietary habits.",
+    "time": null,
+    "speaker": "Aiden Park",
+    "verbatim": [
+     "You can't just copy and paste a growth strategy; you need to understand regional tastes and dietary habits."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "GreenGrill",
+    "relation": "growth_fuelled_by",
+    "value": "a strategic expansion into local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "GreenGrill's growth was fuelled by a strategic expansion into local markets"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "GreenGrill",
+    "relation": "adapted_product_offerings_to",
+    "value": "suit regional palettes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "adapting their product offerings to suit regional palettes"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "GreenGrill",
+    "relation": "formed_partnerships_with",
+    "value": "local restaurants and food chains",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The company formed partnerships with local restaurants and food chains"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "GreenGrill",
+    "relation": "offered_partners",
+    "value": "customized plant-based solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering them customized plant-based solutions"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "GreenGrill",
+    "relation": "community_marketing_resonated_with",
+    "value": "consumers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "investing in community-based marketing schemes resonated with consumers"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "GreenGrill",
+    "relation": "stocked_in",
+    "value": "over 2,000 locations nationwide",
+    "time": "as of September 2025",
+    "speaker": null,
+    "verbatim": [
+     "GreenGrill's products being stocked in over 2,000 locations nationwide as of September 2025"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "GreenGrill",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A hands-on approach with these partnerships and investing in community-based marketing schemes resonated with consumers, leading to GreenGrill's products being stocked in over 2,000 locations nationwide as of September 2025"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "MedInnovate",
+    "relation": "spearheads",
+    "value": "AI-driven diagnostic tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a company spearheading AI-driven diagnostic tools"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "MedInnovate",
+    "relation": "found_success_by",
+    "value": "intertwining innovation with stringent regulatory compliance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "found success by intertwining innovation with stringent regulatory compliance"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "MedInnovate",
+    "relation": "platform_used_by",
+    "value": "over 500 healthcare institutions",
+    "time": "As of January 2026",
+    "speaker": null,
+    "verbatim": [
+     "As of January 2026, MedInnovate's diagnostic platform is used by over 500 healthcare institutions"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Sarah Kim",
+    "relation": "position",
+    "value": "Chief Regulatory Officer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Chief Regulatory Officer Sarah Kim"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Sarah Kim",
+    "relation": "said",
+    "value": "Regulatory compliance isn't a roadblock; it's a quality standard that we embrace to build trust with our users.",
+    "time": null,
+    "speaker": "Sarah Kim",
+    "verbatim": [
+     "Regulatory compliance isn't a roadblock; it's a quality standard that we embrace to build trust with our users."
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "MedInnovate",
+    "relation": "mitigated",
+    "value": "risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By ensuring regulatory compliance, MedInnovate not only mitigated risks"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "MedInnovate",
+    "relation": "leveraged_regulatory_compliance_as",
+    "value": "a market differentiator",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "leveraged it as a market differentiator"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "MedInnovate",
+    "relation": "results_in",
+    "value_ref": "c42",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By ensuring regulatory compliance, MedInnovate not only mitigated risks"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "MedInnovate",
+    "relation": "worked_closely_with",
+    "value": "regulatory bodies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their team worked closely with regulatory bodies"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "MedInnovate",
+    "relation": "aligned_product_development_with",
+    "value": "safety standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "aligning their product development with safety standards"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "MedInnovate",
+    "relation": "bolstered",
+    "value": "their reputation and catalyzed growth",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a move that bolstered their reputation and catalyzed growth"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "regulatory bodies",
+    "relation": "worked_closely_with",
+    "value": "MedInnovate",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their team worked closely with regulatory bodies"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "RelateMate",
+    "relation": "described_as",
+    "value": "a CRM solution provider",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a CRM solution provider like RelateMate"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "RelateMate",
+    "relation": "growth_was_about",
+    "value": "being customer-centric",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "growth was about being customer-centric"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "RelateMate",
+    "relation": "invested_heavily_in",
+    "value": "customer success",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "They heavily invested in customer success"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "RelateMate",
+    "relation": "continuously_refined",
+    "value": "offerings based on feedback",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "continuously refining their offerings based on feedback"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "SaaS summit",
+    "relation": "held_on",
+    "value": "February 20, 2024",
+    "time": "February 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "During a SaaS summit on February 20, 2024"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jordan Hayes",
+    "relation": "position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO Jordan Hayes highlighted"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Jordan Hayes",
+    "relation": "highlighted",
+    "value": "Our dedication to customer success shaped our product road map.",
+    "time": "February 20, 2024",
+    "speaker": "Jordan Hayes",
+    "verbatim": [
+     "Our dedication to customer success shaped our product road map."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Jordan Hayes",
+    "relation": "said",
+    "value": "We made the changes our users wanted, and that's what propelled our explosive growth.",
+    "time": null,
+    "speaker": "Jordan Hayes",
+    "verbatim": [
+     "We made the changes our users wanted, and that's what propelled our explosive growth."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "RelateMate",
+    "relation": "expansion_hinged_on",
+    "value": "an iterative model of product development",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "RelateMate's expansion hinged on an iterative model of product development"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "RelateMate",
+    "relation": "release_cycles",
+    "value": "monthly",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "with monthly release cycles incorporating client feedback"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "RelateMate",
+    "relation": "approach_led_to",
+    "value": "high customer satisfaction",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This approach led to high customer satisfaction"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "RelateMate",
+    "relation": "results_in",
+    "value_ref": "c59",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "RelateMate's expansion hinged on an iterative model of product development, with monthly release cycles incorporating client feedback. This approach led to high customer satisfaction"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "RelateMate",
+    "relation": "ensured",
+    "value": "solutions consistently met market demands",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensured that RelateMate's solutions consistently met market demands"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "EduSmart",
+    "relation": "described_as",
+    "value": "a start-up",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a start-up called EduSmart"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "EduSmart",
+    "relation": "achieved_significant_growth_by",
+    "value": "forging strategic partnerships with educational institutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "achieved significant growth by forging strategic partnerships with educational institutions"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "EduSmart",
+    "relation": "collaborated_with",
+    "value": "universities and online educators",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By collaborating with universities and online educators"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "EduSmart",
+    "relation": "expanded",
+    "value": "its digital learning platform's reach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EduSmart expanded its digital learning platform's reach"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Sophia Alvarez",
+    "relation": "position",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The CEO, Sophia Alvarez"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Sophia Alvarez",
+    "relation": "emphasized_in_interview",
+    "value": "emphasized during an interview",
+    "time": "March 2024",
+    "speaker": null,
+    "verbatim": [
+     "emphasized during an interview in March 2024"
+    ]
+   },
+   {
+    "id": "c68",
+    "entity": "Sophia Alvarez",
+    "relation": "said",
+    "value": "Our collaboration with academic institutions helped us to deliver relevant content and gain credibility among learners and educators alike.",
+    "time": "March 2024",
+    "speaker": "Sophia Alvarez",
+    "verbatim": [
+     "helped us to deliver relevant content and gain credibility among learners and educators alike."
+    ]
+   },
+   {
+    "id": "c69",
+    "entity": "EduSmart",
+    "relation": "partnerships_broadened",
+    "value": "EduSmart's content offerings",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These partnerships not only broadened EduSmart's content offerings"
+    ]
+   },
+   {
+    "id": "c70",
+    "entity": "EduSmart",
+    "relation": "partnerships_provided",
+    "value": "a direct channel to a growing market discerning learners",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "provided a direct channel to a growing market discerning learners"
+    ]
+   },
+   {
+    "id": "c71",
+    "entity": "EduSmart",
+    "relation": "maximized_impact_through",
+    "value": "co-branding and shared marketing efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Through co-branding and shared marketing efforts, EduSmart and its academic partners were able to maximize their impact in the education space"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

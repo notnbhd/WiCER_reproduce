@@ -1,0 +1,771 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises (SMEs)",
+  "Cybercriminals",
+  "Janson & Co.",
+  "Melissa Thompson",
+  "SecureIt AI",
+  "Dr. Linda Estrada",
+  "CyberSavvy Workforce",
+  "Hector Rivera",
+  "The National Cybersecurity Center (NCC)",
+  "DataSafe Insure",
+  "CloudGuardian",
+  "secure access service edge (SASE)",
+  "zero-trust network access (ZTNA)",
+  "Managed Security Service Providers (MSSPs)",
+  "General Data Protection Regulation (GDPR)",
+  "Payment Card Industry Data Security Standard (PCI DSS)",
+  "cyber insurance",
+  "artificial intelligence (AI)",
+  "machine learning (ML)",
+  "blockchain technology",
+  "cybersecurity policies",
+  "the recent pandemic",
+  "flexible work arrangements",
+  "ransomware attack",
+  "phishing attempts"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "requires",
+    "value": "robust cybersecurity measures",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the necessity for robust cybersecurity measures, particularly for Small and Medium Enterprises (SMEs)"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Cybercriminals",
+    "relation": "targets",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybercriminals are increasingly targeting SMEs"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Cybercriminals",
+    "relation": "targets_because_of",
+    "value": "limited resources for cybersecurity compared to larger corporations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "due to their often limited resources for cybersecurity compared to larger corporations"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "safeguarded_against",
+    "value": "prevalent online threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "breakthrough cybersecurity advances are bridging the gap to safeguard SMEs against prevalent online threats"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Janson & Co.",
+    "relation": "is_a",
+    "value": "a mid-sized retailer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a mid-sized retailer"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Janson & Co.",
+    "relation": "was_victim_of",
+    "value": "a sophisticated ransomware attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "became the victim of a sophisticated ransomware attack resulting in substantial financial loss and critical data breaches"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Janson & Co.",
+    "relation": "suffered",
+    "value": "substantial financial loss and critical data breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "resulting in substantial financial loss and critical data breaches"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "ransomware attack",
+    "relation": "resulted_in",
+    "value": "substantial financial loss and critical data breaches",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a sophisticated ransomware attack resulting in substantial financial loss and critical data breaches"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "targeted_by",
+    "value": "a surge in targeted cyberattacks",
+    "time": "Since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 1, 2023, the cybersecurity community has seen a surge in targeted cyberattacks on SMEs"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "face_vulnerabilities",
+    "value": "vulnerabilities in the digital age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Attacks like these have cast a spotlight on the vulnerabilities SMEs face in the digital age"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Melissa Thompson",
+    "relation": "is_a",
+    "value": "a renowned cybersecurity analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As Melissa Thompson, a renowned cybersecurity analyst, points out"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Melissa Thompson",
+    "relation": "states",
+    "value": "SMEs are mistakenly under the impression that their size makes them less of a target",
+    "time": null,
+    "speaker": "Melissa Thompson",
+    "verbatim": [
+     "SMEs are mistakenly under the impression that their size makes them less of a target."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Melissa Thompson",
+    "relation": "states",
+    "value": "the opposite is true",
+    "time": null,
+    "speaker": "Melissa Thompson",
+    "verbatim": [
+     "However, the opposite is true."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Melissa Thompson",
+    "relation": "states",
+    "value": "Limited cybersecurity budgets, lower levels of preparedness, and the lack of dedicated IT staff make them appealing targets for cybercriminals",
+    "time": null,
+    "speaker": "Melissa Thompson",
+    "verbatim": [
+     "Limited cybersecurity budgets, lower levels of preparedness, and the lack of dedicated IT staff make them appealing targets for cybercriminals."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "artificial intelligence (AI)",
+    "relation": "leveraged_by",
+    "value": "cybersecurity tools tailored for SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tools leverage artificial intelligence (AI), machine learning (ML), and blockchain technology"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "machine learning (ML)",
+    "relation": "leveraged_by",
+    "value": "cybersecurity tools tailored for SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tools leverage artificial intelligence (AI), machine learning (ML), and blockchain technology"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "blockchain technology",
+    "relation": "leveraged_by",
+    "value": "cybersecurity tools tailored for SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These tools leverage artificial intelligence (AI), machine learning (ML), and blockchain technology"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "receives",
+    "value": "enterprise-level security at a fraction of the cost",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to provide enterprise-level security at a fraction of the cost"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "SecureIt AI",
+    "relation": "is_a",
+    "value": "a cybersecurity startup",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity startup founded in November 2023 by Dr. Linda Estrada"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "SecureIt AI",
+    "relation": "founded_in",
+    "value": "November 2023",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity startup founded in November 2023 by Dr. Linda Estrada"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "SecureIt AI",
+    "relation": "founded_by",
+    "value": "Dr. Linda Estrada",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity startup founded in November 2023 by Dr. Linda Estrada"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "Dr. Linda Estrada",
+    "relation": "founded",
+    "value": "SecureIt AI",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "a cybersecurity startup founded in November 2023 by Dr. Linda Estrada"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "SecureIt AI",
+    "relation": "introduced",
+    "value": "an AI-driven platform that enables SMEs to detect and respond to threats in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "introduced an AI-driven platform that enables SMEs to detect and respond to threats in real-time"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "SecureIt AI",
+    "relation": "uses",
+    "value": "behavioral analytics to learn the normal patterns of behavior within an SME's network",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Her platform uses behavioral analytics to learn the normal patterns of behavior within an SME's network"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "SecureIt AI",
+    "relation": "flags",
+    "value": "any anomaly that might suggest a cyber-attack",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "quickly flags any anomaly that might suggest a cyber-attack"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "flexible work arrangements",
+    "relation": "widened",
+    "value": "the threat landscape",
+    "time": "especially since the recent pandemic",
+    "speaker": null,
+    "verbatim": [
+     "The rise of flexible work arrangements, especially since the recent pandemic, has widened the threat landscape"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "flexible work arrangements",
+    "relation": "made_crucial",
+    "value": "employee training",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making employee training crucial"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "flexible work arrangements",
+    "relation": "results_in",
+    "value_ref": "c27",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has widened the threat landscape, making employee training crucial"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "the recent pandemic",
+    "relation": "associated_with",
+    "value": "rise of flexible work arrangements",
+    "time": "the recent pandemic",
+    "speaker": null,
+    "verbatim": [
+     "The rise of flexible work arrangements, especially since the recent pandemic"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "CyberSavvy Workforce",
+    "relation": "launched_on",
+    "value": "December 15, 2023",
+    "time": "December 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "launched on December 15, 2023, aims to train"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "CyberSavvy Workforce",
+    "relation": "aims_to",
+    "value": "train SME employees in cybersecurity best practices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SME employees in cybersecurity best practices"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "CyberSavvy Workforce",
+    "relation": "spearheaded_by",
+    "value": "Hector Rivera",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by cybersecurity expert Hector Rivera"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "Hector Rivera",
+    "relation": "is_a",
+    "value": "cybersecurity expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Spearheaded by cybersecurity expert Hector Rivera"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "CyberSavvy Workforce",
+    "relation": "provides",
+    "value": "easy-to-digest educational resources",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the program provides easy-to-digest educational resources to help employees identify phishing attempts"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "phishing attempts",
+    "relation": "to_be_identified_by",
+    "value": "employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "help employees identify phishing attempts"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "cybersecurity policies",
+    "relation": "sets_standard",
+    "value": "the standard for cybersecurity practices within an organization",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A policy sets the standard for cybersecurity practices within an organization"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "cybersecurity policies",
+    "relation": "crucial_for",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "creating and implementing strategic cybersecurity policies is equally crucial for SMEs"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "The National Cybersecurity Center (NCC)",
+    "relation": "curated",
+    "value": "a set of guidelines that SMEs can adopt and customize according to their specific needs",
+    "time": "As of January 2024",
+    "speaker": null,
+    "verbatim": [
+     "The National Cybersecurity Center (NCC) has curated a set of guidelines that SMEs can adopt and customize according to their specific needs"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "cybersecurity policies",
+    "relation": "reduces_risk_of",
+    "value": "cyber threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Enforcing such policies can drastically reduce the risk of cyber threats"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "cybersecurity policies",
+    "relation": "protects_businesses_from",
+    "value": "legal repercussions following a breach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compliance with these can often protect businesses from legal repercussions following a breach"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "cyber insurance",
+    "relation": "is_a",
+    "value": "specialized insurance",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This specialized insurance serves as a safety net"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "cyber insurance",
+    "relation": "mitigates",
+    "value": "financial risks associated with cyber incidents",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "mitigating financial risks associated with cyber incidents"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "DataSafe Insure",
+    "relation": "offers",
+    "value": "affordable cyber insurance packages aimed specifically at SMEs",
+    "time": "In recent times",
+    "speaker": null,
+    "verbatim": [
+     "have started offering affordable cyber insurance packages aimed specifically at SMEs"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "cyber insurance",
+    "relation": "packages_provide_access_to",
+    "value": "professional cyber incident response teams in the wake of a breach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "come with the added benefit of providing access to professional cyber incident response teams in the wake of a breach"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "cyber insurance",
+    "relation": "incident_response_affordable_only_to",
+    "value": "larger organizations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a service typically affordable only to larger organizations"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "benefit_from_cloud_computing",
+    "value": "cost-effective, scalable, and flexible software and storage options",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering cost-effective, scalable, and flexible software and storage options"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "reliance_on_cloud_poses",
+    "value": "unique cybersecurity challenges",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the reliance on cloud services also poses unique cybersecurity challenges"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "CloudGuardian",
+    "relation": "offers",
+    "value": "advanced threat detection mechanisms, including secure access service edge (SASE) and zero-trust network access (ZTNA) models",
+    "time": "As of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "have begun to offer advanced threat detection mechanisms, including secure access service edge (SASE) and zero-trust network access (ZTNA) models"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "CloudGuardian",
+    "relation": "is_a",
+    "value": "major cloud service provider",
+    "time": "As of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "major cloud service providers like"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "CloudGuardian",
+    "relation": "ensures",
+    "value": "only authenticated and authorized users can access an SME's cloud infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that only authenticated and authorized users can access an SME's cloud infrastructure"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "secure access service edge (SASE)",
+    "relation": "offered_by",
+    "value": "CloudGuardian",
+    "time": "As of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "including secure access service edge (SASE) and zero-trust network access (ZTNA) models"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "zero-trust network access (ZTNA)",
+    "relation": "offered_by",
+    "value": "CloudGuardian",
+    "time": "As of February 2024",
+    "speaker": null,
+    "verbatim": [
+     "including secure access service edge (SASE) and zero-trust network access (ZTNA) models"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Managed Security Service Providers (MSSPs)",
+    "relation": "offer",
+    "value": "outsourced monitoring and management of security devices and systems",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MSSPs offer outsourced monitoring and management of security devices and systems"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Managed Security Service Providers (MSSPs)",
+    "relation": "provides",
+    "value": "expertise that SMEs would not otherwise have access to",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing expertise that SMEs would not otherwise have access to"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "in_house_team_not_financially_viable",
+    "value": "maintaining an in-house cybersecurity team",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For many SMEs, maintaining an in-house cybersecurity team is not financially viable"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "Managed Security Service Providers (MSSPs)",
+    "relation": "is_solution_to",
+    "value_ref": "c55",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For many SMEs, maintaining an in-house cybersecurity team is not financially viable. This is where Managed Security Service Providers (MSSPs) come into play."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Managed Security Service Providers (MSSPs)",
+    "relation": "partnered_with",
+    "value": "SMEs for continuous security oversight",
+    "time": "Since late 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since late 2023, a rising trend among SMEs is to partner with MSSPs for continuous security oversight"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Managed Security Service Providers (MSSPs)",
+    "relation": "enabled",
+    "value": "SMEs to enjoy the same level of cybersecurity vigilance that historically only large enterprises could afford",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This collaboration has enabled SMEs to enjoy the same level of cybersecurity vigilance that historically only large enterprises could afford"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "General Data Protection Regulation (GDPR)",
+    "relation": "applies_to",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are often subject to various industry regulations and standards, such as the General Data Protection Regulation (GDPR)"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Payment Card Industry Data Security Standard (PCI DSS)",
+    "relation": "applies_to",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "or the Payment Card Industry Data Security Standard (PCI DSS)"
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "subject_to",
+    "value": "various industry regulations and standards",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are often subject to various industry regulations and standards"
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "compliance_can_prevent",
+    "value": "steep penalties",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "compliance ensures certain levels of security are met and can prevent steep penalties"
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "faces_onerous_task",
+    "value": "keeping up with regulatory requirements",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Keeping up with these regulatory requirements can be an onerous task"
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "helped_by",
+    "value": "automated compliance solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity advances now include automated compliance solutions that help SMEs ensure they are meeting legal and regulatory standards"
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "regulatory_adherence_made_less_cumbersome_by",
+    "value": "innovations in compliance software",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Innovations in compliance software have drastically simplified these processes, making regulatory adherence less cumbersome for SMEs"
+    ]
+   },
+   {
+    "id": "c66",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "can_stay_ahead_of",
+    "value": "cybercriminals",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs can stay ahead of cybercriminals"
+    ]
+   },
+   {
+    "id": "c67",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "contribute_to",
+    "value": "creating a safer digital space for all",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs not only protect their own interests but also contribute to the broader effort of creating a safer digital space for all"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

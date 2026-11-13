@@ -1,0 +1,476 @@
+{
+ "inventory": [
+  "small and medium enterprises (SMEs)",
+  "big data",
+  "Jason Clarke",
+  "InnoTech Solutions",
+  "DataScope SME",
+  "Sarah Gomez",
+  "The Sweet Spot Bakery",
+  "CRM systems",
+  "Tools & More",
+  "Mark Peterson",
+  "DressFit",
+  "PrognosiTech",
+  "Emily Nguyen",
+  "the city council",
+  "TechAdopt Grant",
+  "Local SMEs Tech Hub"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Jason Clarke",
+    "relation": "predicts",
+    "value": "at least 60% of SMEs will have some form of big data analytics tool in their workflow",
+    "time": "by the end of 2024",
+    "speaker": "Jason Clarke",
+    "verbatim": [
+     "by the end of 2024, at least 60% of SMEs will have some form of big data analytics tool in their workflow"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Jason Clarke",
+    "relation": "described_as",
+    "value": "Industry expert",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Industry expert Jason Clarke predicts"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "InnoTech Solutions",
+    "relation": "described_as",
+    "value": "Local software development company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local software development company, InnoTech Solutions"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "InnoTech Solutions",
+    "relation": "unveiled_product",
+    "value": "DataScope SME",
+    "time": "October 3, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Local software development company, InnoTech Solutions, unveiled their latest product on October 3, 2023, named DataScope SME"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "DataScope SME",
+    "relation": "designed_for",
+    "value": "the data analysis needs of small businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "designed to cater specifically to the data analysis needs of small businesses"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "DataScope SME",
+    "relation": "helps_business_owners",
+    "value": "understand buying patterns, improve inventory management, and predict future market trends",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "This platform has been crucial in helping business owners understand buying patterns, improve inventory management, and predict future market trends."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Sarah Gomez",
+    "relation": "position_held",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Gomez, the CEO of The Sweet Spot Bakery"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "The Sweet Spot Bakery",
+    "relation": "ceo",
+    "value": "Sarah Gomez",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Gomez, the CEO of The Sweet Spot Bakery"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "Sarah Gomez",
+    "relation": "uses",
+    "value": "a CRM system to tailor her marketing efforts",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Gomez, the CEO of The Sweet Spot Bakery, leverages a CRM system to tailor her marketing efforts."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Sarah Gomez",
+    "relation": "launched",
+    "value": "a targeted campaign",
+    "time": "November 12, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On November 12, 2023, she launched a targeted campaign"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Sarah Gomez",
+    "relation": "campaign_resulted_in",
+    "value": "a 30% increase in customer retention",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched a targeted campaign that resulted in a 30% increase in customer retention"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Sarah Gomez",
+    "relation": "results_in",
+    "value_ref": "c11",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "launched a targeted campaign that resulted in a 30% increase in customer retention"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Tools & More",
+    "relation": "described_as",
+    "value": "Local hardware store chain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Local hardware store chain, Tools & More,"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Tools & More",
+    "relation": "reported",
+    "value": "implementing an AI forecasting tool reduced their overstock by 20%",
+    "time": "December 5, 2023",
+    "speaker": "Tools & More",
+    "verbatim": [
+     "Tools & More, reported on December 5, 2023, that implementing an AI forecasting tool reduced their overstock by 20%."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Tools & More",
+    "relation": "reduced_overstock_by",
+    "value": "20%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "reduced their overstock by 20%"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mark Peterson",
+    "relation": "position_held",
+    "value": "operations manager",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their operations manager, Mark Peterson, indicates"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Mark Peterson",
+    "relation": "employed_by",
+    "value": "Tools & More",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their operations manager, Mark Peterson, indicates"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "Mark Peterson",
+    "relation": "states",
+    "value": "technology has enabled us to have just-in-time inventory, cutting costs, and reducing waste",
+    "time": null,
+    "speaker": "Mark Peterson",
+    "verbatim": [
+     "technology has enabled us to have just-in-time inventory, cutting costs, and reducing waste."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "big data",
+    "relation": "enables",
+    "value": "businesses to create more personalized experiences that resonate with individual customers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Big data enables businesses to create more personalized experiences that resonate with individual customers."
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "DressFit",
+    "relation": "described_as",
+    "value": "local clothing retailer",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a local clothing retailer, DressFit"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "DressFit",
+    "relation": "introduced",
+    "value": "a personalized shopping assistant online",
+    "time": "September 20, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 20, 2023, a local clothing retailer, DressFit, introduced a personalized shopping assistant online"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "DressFit",
+    "relation": "increased",
+    "value": "average order value by 15%",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "increasing their average order value by 15%"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "PrognosiTech",
+    "relation": "released_on",
+    "value": "October 28, 2023",
+    "time": "October 28, 2023",
+    "speaker": null,
+    "verbatim": [
+     "tools like PrognosiTech, released on October 28, 2023,"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "PrognosiTech",
+    "relation": "accessible_to",
+    "value": "even the smallest of firms",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "tools like PrognosiTech, released on October 28, 2023, have become accessible to even the smallest of firms"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "PrognosiTech",
+    "relation": "enables",
+    "value": "informed decisions on stock levels, pricing strategies, and market entry or exit times",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "allowing them to make informed decisions on stock levels, pricing strategies, and market entry or exit times."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Emily Nguyen",
+    "relation": "described_as",
+    "value": "Cybersecurity consultant",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity consultant Emily Nguyen, who hosted a seminar for local businesses on November 15, 2023,"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Emily Nguyen",
+    "relation": "hosted",
+    "value": "a seminar for local businesses",
+    "time": "November 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Cybersecurity consultant Emily Nguyen, who hosted a seminar for local businesses on November 15, 2023,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Emily Nguyen",
+    "relation": "stresses",
+    "value": "having a layered security approach to safeguard against potential cyber attacks",
+    "time": null,
+    "speaker": "Emily Nguyen",
+    "verbatim": [
+     "having a layered security approach to safeguard against potential cyber attacks"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "the city council",
+    "relation": "announced",
+    "value": "TechAdopt Grant",
+    "time": "September 25, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On September 25, 2023, the city council announced the \"TechAdopt Grant,\""
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "TechAdopt Grant",
+    "relation": "provides_funding_for",
+    "value": "local SMEs to adopt technology solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing funding for local SMEs to adopt technology solutions"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Local SMEs Tech Hub",
+    "relation": "established_on",
+    "value": "December 8, 2023",
+    "time": "December 8, 2023",
+    "speaker": null,
+    "verbatim": [
+     "The establishment of the Local SMEs Tech Hub on December 8, 2023"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Local SMEs Tech Hub",
+    "relation": "fosters",
+    "value": "an environment where businesses can collaborate on technology procurement and data analysis strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "fostering an environment where businesses can collaborate on technology procurement and data analysis strategies."
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "results_in",
+    "value": "shared learning and resource pooling",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Networking between SMEs has resulted in shared learning and resource pooling"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "faces",
+    "value": "challenges, including the skills gap and resource limitations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs face challenges, including the skills gap and resource limitations."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "turned_to",
+    "value": "local educational institutions and e-learning platforms to upskill their workforce",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "businesses have turned to local educational institutions and e-learning platforms to upskill their workforce."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "harness_big_data_to",
+    "value": "spur growth, enhance customer experiences, and optimize operations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs can harness the power of big data to spur growth, enhance customer experiences, and optimize operations."
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "thrive_in",
+    "value": "bustling local markets",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "In the bustling local markets where small and medium enterprises (SMEs) thrive"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "big data",
+    "relation": "rose_in",
+    "value": "a significant rise in SME operations",
+    "time": "the last quarter of 2023",
+    "speaker": null,
+    "verbatim": [
+     "The integration of big data into SME operations has seen a significant rise, especially evident within the last quarter of 2023."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "CRM systems",
+    "relation": "enables",
+    "value": "SMEs to track and analyze customer behavior, preferences, and feedback on an almost real-time basis",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the advent of advanced CRM systems, SMEs can now track and analyze customer behavior, preferences, and feedback on an almost real-time basis."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "small and medium enterprises (SMEs)",
+    "relation": "focus_for",
+    "value": "tapping into the ever-growing data stream more effectively",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "As we head into 2024, the focus for SMEs will be on tapping into the ever-growing data stream more effectively"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "big data",
+    "relation": "accessible_to",
+    "value": "even the most localized businesses",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "ensuring that even the most localized businesses can access and benefit from big data."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}

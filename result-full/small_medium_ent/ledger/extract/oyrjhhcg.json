@@ -1,0 +1,591 @@
+{
+ "inventory": [
+  "Maria Gonzales",
+  "CraftyCanvas",
+  "Santiago, Chile",
+  "Europe",
+  "SpiceBlend",
+  "Cochin, India",
+  "North America",
+  "Aarush Patel",
+  "Silicon Valley tech roundtable",
+  "Sarah Johnson",
+  "QuickCode",
+  "Johannesburg, South Africa",
+  "EcoWrap",
+  "Ethan Wallace",
+  "CleanOceans",
+  "Norway",
+  "Australia",
+  "Lucy Campbell",
+  "VegiHealth",
+  "UK",
+  "TrendTech",
+  "Denmark",
+  "U.S.",
+  "Asia",
+  "John Miller",
+  "HealthTech",
+  "Amber Yuan",
+  "LanguageLeap",
+  "Beijing, China",
+  "Brazil",
+  "Mandarin"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Maria Gonzales",
+    "relation": "position",
+    "value": "CEO of CraftyCanvas",
+    "time": "10th September, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On 10th September, 2023, Maria Gonzales, the CEO of 'CraftyCanvas,'"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "CraftyCanvas",
+    "relation": "business_type",
+    "value": "small handcrafted home d\u00e9cor business",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small handcrafted home d\u00e9cor business based in Santiago, Chile"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "CraftyCanvas",
+    "relation": "based_in",
+    "value": "Santiago, Chile",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a small handcrafted home d\u00e9cor business based in Santiago, Chile"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Maria Gonzales",
+    "relation": "struck_deal_to_reach_market",
+    "value": "Europe",
+    "time": "10th September, 2023",
+    "speaker": null,
+    "verbatim": [
+     "struck a deal that would get her products to Europe"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Maria Gonzales",
+    "relation": "said",
+    "value": "The dream was always to take our rich Chilean heritage global.",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "The dream was always to take our rich Chilean heritage global."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Maria Gonzales",
+    "relation": "said",
+    "value": "But the dream is easy; it\u2019s the taking that's hard.",
+    "time": null,
+    "speaker": "Maria Gonzales",
+    "verbatim": [
+     "But the dream is easy; it\u2019s the taking that's hard."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "Maria Gonzales",
+    "relation": "faced_challenges",
+    "value": "language barriers to understanding the European market nuances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "From language barriers to understanding the European market nuances, Maria had her work cut out."
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "SpiceBlend",
+    "relation": "business_type",
+    "value": "boutique spice company",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a boutique spice company from Cochin, India"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "SpiceBlend",
+    "relation": "based_in",
+    "value": "Cochin, India",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a boutique spice company from Cochin, India"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "SpiceBlend",
+    "relation": "announced_launch_in",
+    "value": "North America",
+    "time": "2nd December, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced its official launch in North America."
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Aarush Patel",
+    "relation": "founder_of",
+    "value": "SpiceBlend",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The founder, Aarush Patel, knew"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Aarush Patel",
+    "relation": "believed",
+    "value": "Indian spices were globally popular",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "knew that while Indian spices were globally popular, standing out would require a unique proposition."
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Aarush Patel",
+    "relation": "believed",
+    "value": "standing out would require a unique proposition",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "standing out would require a unique proposition."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "SpiceBlend",
+    "relation": "created_blends_that",
+    "value": "appealed to the international palate yet retained the essence of Indian flavors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SpiceBlend created blends that appealed to the international palate yet retained the essence of Indian flavors."
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Aarush Patel",
+    "relation": "results_in",
+    "value_ref": "c14",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "standing out would require a unique proposition.",
+     "Thus, SpiceBlend created blends that appealed"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Silicon Valley tech roundtable",
+    "relation": "praised",
+    "value": "the role of digital transformation in SME expansions",
+    "time": "15th November, 2023",
+    "speaker": null,
+    "verbatim": [
+     "On 15th November, 2023, a tech roundtable in Silicon Valley praised the role of digital transformation in SME expansions."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Sarah Johnson",
+    "relation": "position",
+    "value": "CTO of QuickCode",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Sarah Johnson, CTO of 'QuickCode', a web development SME based in Johannesburg, South Africa"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "QuickCode",
+    "relation": "business_type",
+    "value": "web development SME",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a web development SME based in Johannesburg, South Africa"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "QuickCode",
+    "relation": "based_in",
+    "value": "Johannesburg, South Africa",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a web development SME based in Johannesburg, South Africa"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "QuickCode",
+    "relation": "enabled_global_reach_via",
+    "value": "cloud technology",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "illustrated how cloud technology enabled their services to reach clients on a global scale without the need for a physical presence."
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "Sarah Johnson",
+    "relation": "said",
+    "value": "Technology makes David as capable as Goliath in today\u2019s business landscape.",
+    "time": null,
+    "speaker": "Sarah Johnson",
+    "verbatim": [
+     "Technology makes David as capable as Goliath in today\u2019s business landscape."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "EcoWrap",
+    "relation": "business_type",
+    "value": "Australian SME specializing in sustainable packaging solutions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an Australian SME specializing in sustainable packaging solutions"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "EcoWrap",
+    "relation": "announced_partnership_with",
+    "value": "CleanOceans",
+    "time": "22nd October, 2023",
+    "speaker": null,
+    "verbatim": [
+     "announced a partnership with 'CleanOceans', a non-profit in Norway."
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "CleanOceans",
+    "relation": "business_type",
+    "value": "non-profit",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a non-profit in Norway."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CleanOceans",
+    "relation": "based_in",
+    "value": "Norway",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a non-profit in Norway"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Ethan Wallace",
+    "relation": "position",
+    "value": "CEO of EcoWrap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO of EcoWrap, Ethan Wallace, highlighted"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Ethan Wallace",
+    "relation": "said",
+    "value": "This partnership doesn\u2019t just give us access to a new market; it aligns us with a global movement which multiplies our reach.",
+    "time": null,
+    "speaker": "Ethan Wallace",
+    "verbatim": [
+     "This partnership doesn\u2019t just give us access to a new market; it aligns us with a global movement which multiplies our reach."
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Lucy Campbell",
+    "relation": "position",
+    "value": "founder of VegiHealth",
+    "time": "1st October, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Lucy Campbell, the founder of 'VegiHealth', a UK-based SME in the natural supplements sector"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "VegiHealth",
+    "relation": "based_in",
+    "value": "UK",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a UK-based SME in the natural supplements sector"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "VegiHealth",
+    "relation": "business_type",
+    "value": "SME in the natural supplements sector",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a UK-based SME in the natural supplements sector"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Lucy Campbell",
+    "relation": "spoke_at",
+    "value": "a conference on the complexities of international health regulations",
+    "time": "1st October, 2023",
+    "speaker": null,
+    "verbatim": [
+     "spoke at a conference on the complexities of international health regulations."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Lucy Campbell",
+    "relation": "said",
+    "value": "Each market comes with its own set of rules. You have to be adaptable and compliant to thrive,",
+    "time": null,
+    "speaker": "Lucy Campbell",
+    "verbatim": [
+     "Each market comes with its own set of rules. You have to be adaptable and compliant to thrive,"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "TrendTech",
+    "relation": "business_type",
+    "value": "Danish app development SME",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a Danish app development SME"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "TrendTech",
+    "relation": "secured",
+    "value": "an international development grant",
+    "time": "5th January, 2024",
+    "speaker": null,
+    "verbatim": [
+     "secured an international development grant, catapulting its services into the U.S. and Asian markets."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "TrendTech",
+    "relation": "expanded_into",
+    "value": "U.S. and Asian markets",
+    "time": "5th January, 2024",
+    "speaker": null,
+    "verbatim": [
+     "catapulting its services into the U.S. and Asian markets."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "TrendTech",
+    "relation": "results_in",
+    "value_ref": "c35",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "secured an international development grant, catapulting"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "John Miller",
+    "relation": "position",
+    "value": "owner of HealthTech",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Miller, the owner of 'HealthTech', an SME that faced a setback in its European expansion"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "HealthTech",
+    "relation": "faced_setback_in",
+    "value": "European expansion",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an SME that faced a setback in its European expansion"
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "John Miller",
+    "relation": "said",
+    "value": "We thought we knew the market. We did not. The key is to learn and pivot.",
+    "time": null,
+    "speaker": "John Miller",
+    "verbatim": [
+     "We thought we knew the market. We did not. The key is to learn and pivot."
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "HealthTech",
+    "relation": "had_rocky_start",
+    "value": "rocky start",
+    "time": "2023",
+    "speaker": null,
+    "verbatim": [
+     "After a rocky start in 2023"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "HealthTech",
+    "relation": "revisited_strategy",
+    "value": "revisited their strategy, adjusted their approach",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "HealthTech revisited their strategy, adjusted their approach"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "HealthTech",
+    "relation": "found_footing_in",
+    "value": "European market",
+    "time": "mid-2024",
+    "speaker": null,
+    "verbatim": [
+     "by mid-2024, found their footing in the European market."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Amber Yuan",
+    "relation": "position",
+    "value": "founder of LanguageLeap",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Amber Yuan, founder of 'LanguageLeap', an SME from Beijing, China that specializes in language learning applications"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "LanguageLeap",
+    "relation": "based_in",
+    "value": "Beijing, China",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an SME from Beijing, China that specializes in language learning applications"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "LanguageLeap",
+    "relation": "specializes_in",
+    "value": "language learning applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "an SME from Beijing, China that specializes in language learning applications"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "Amber Yuan",
+    "relation": "launched_app_in",
+    "value": "Brazil",
+    "time": "15th September 2023",
+    "speaker": null,
+    "verbatim": [
+     "broke ground when she launched her app in Brazil on 15th September 2023."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "Amber Yuan",
+    "relation": "realized",
+    "value": "the cultural synergy between learning languages and embracing cultural nuances",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "She realized the cultural synergy between learning languages and embracing cultural nuances."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Amber Yuan",
+    "relation": "incorporated",
+    "value": "local cultural elements into her app",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating local cultural elements into her app"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Amber Yuan",
+    "relation": "appealed_to",
+    "value": "a Brazilian audience eager to learn Mandarin",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "she appealed to a Brazilian audience eager to learn Mandarin."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "Amber Yuan",
+    "relation": "results_in",
+    "value_ref": "c49",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "By incorporating local cultural elements into her app, she appealed to a Brazilian audience eager to learn Mandarin."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

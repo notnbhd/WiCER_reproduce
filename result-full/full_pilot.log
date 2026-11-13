@@ -1,0 +1,161 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+== FULL corpus local_economy (04:31:42)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+local_economy              docs=214 qa=1070 words= 209907 dropped_unanswerable=   0 sha=92bf7e4fabd1
+seeded 80 cached extractions
+local_economy              claims=14068 rejected=0.0% multispan=111 relational=634 contradictions=170 collisions=0.0%
+
+extractor usage: {'model': 'claude-haiku-5-5', 'backend': 'anthropic', 'effort': 'high', 'calls': 268, 'input_tokens': 752816, 'output_tokens': 3194577, 'measured_cost_usd': 0.0}
+== FULL corpus cybersecurity_news (04:54:12)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+cybersecurity_news         docs=192 qa= 960 words= 185953 dropped_unanswerable=   0 sha=72a4b02876c8
+seeded 80 cached extractions
+cybersecurity_news         claims=11823 rejected=0.0% multispan=118 relational=542 contradictions=233 collisions=0.3%
+
+extractor usage: {'model': 'claude-haiku-5-5', 'backend': 'anthropic', 'effort': 'high', 'calls': 224, 'input_tokens': 650130, 'output_tokens': 2809753, 'measured_cost_usd': 0.0}
+== FULL corpus small_medium_ent (05:14:16)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+small_medium_ent           docs=229 qa=1145 words= 223910 dropped_unanswerable=   0 sha=4f7d7518b81c
+seeded 80 cached extractions
+Traceback (most recent call last):
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_exceptions.py", line 13, in map_exceptions
+    yield
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/http11.py", line 197, in _receive_event
+    event = self._h11_state.next_event()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/h11/_connection.py", line 481, in next_event
+    event = self._extract_next_receive_event()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/h11/_connection.py", line 431, in _extract_next_receive_event
+    event = self._reader.read_eof()
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/h11/_readers.py", line 207, in read_eof
+    raise RemoteProtocolError(
+h11._util.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_transports/default.py", line 98, in map_httpcore_exceptions
+    yield
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_transports/default.py", line 124, in __iter__
+    yield from self._httpcore_stream
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/connection_pool.py", line 426, in __iter__
+    for chunk in iterator:
+                 ^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/http11.py", line 320, in __iter__
+    raise exc
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/http11.py", line 312, in __iter__
+    for chunk in iterator:
+                 ^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/http11.py", line 188, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_sync/http11.py", line 196, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpcore2/_exceptions.py", line 17, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore2.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/WiCER/tact/run.py", line 264, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/root/WiCER/tact/run.py", line 125, in main
+    led = build_ledger(profile, topic, extractor, workers=args.workers, similar=similar)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/tact/ledger.py", line 475, in build_ledger
+    extractions = list(pool.map(one, documents))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/tact/ledger.py", line 470, in one
+    out = extractor.extract(doc)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/tact/ledger.py", line 365, in extract
+    raw = self.ask((PROMPT_DIR / "claims.md").read_text().format(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/tact/llm.py", line 77, in ask
+    return parse_json(self._call(prompt))
+                      ^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/tact/llm.py", line 101, in _call
+    msg = stream.get_final_message()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 98, in get_final_message
+    self.until_done()
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 125, in until_done
+    consume_sync_iterator(self)
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_utils/_streams.py", line 6, in consume_sync_iterator
+    for _ in iterator:
+             ^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 72, in __iter__
+    for item in self._iterator:
+                ^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/lib/streaming/_messages.py", line 133, in __stream__
+    for sse_event in self._raw_stream:
+                     ^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_streaming.py", line 49, in __iter__
+    for item in self._iterator:
+                ^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_streaming.py", line 71, in __stream__
+    for sse in iterator:
+               ^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_streaming.py", line 53, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_streaming.py", line 394, in iter_bytes
+    for chunk in self._iter_chunks(iterator):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_streaming.py", line 405, in _iter_chunks
+    for chunk in iterator:
+                 ^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_models.py", line 892, in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ^^^^^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_models.py", line 947, in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_client.py", line 143, in __iter__
+    yield from self._stream
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_transports/default.py", line 123, in __iter__
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/.uv/python_install/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/httpx2/_transports/default.py", line 115, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx2.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+FULL_FAILED extract small_medium_ent try 1
+small_medium_ent           claims=16016 rejected=0.1% multispan=147 relational=744 contradictions=293 collisions=0.1%
+
+extractor usage: {'model': 'claude-haiku-5-5', 'backend': 'anthropic', 'effort': 'high', 'calls': 188, 'input_tokens': 534682, 'output_tokens': 2397597, 'measured_cost_usd': 0.0}
+== FULL_LEDGERS_DONE (05:43:12)
+== FULL run local_economy start (07:20:13)
+== FULL run local_economy ok (08:52:40)
+== FULL run cybersecurity_news start (08:52:40)
+FULL_FAILED run cybersecurity_news try 1
+  File "/root/WiCER/.venv/lib/python3.12/site-packages/anthropic/_base_client.py", line 1208, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.InternalServerError: credential validation failed
+== FULL run cybersecurity_news ok (10:23:41)
+== FULL run small_medium_ent start (10:23:41)
+== FULL run small_medium_ent ok (12:00:45)
+== FULL_ALL_DONE (12:00:45)

@@ -1,0 +1,749 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises",
+  "Timothy Green",
+  "TechnoProgress Institute",
+  "digital divide",
+  "Baker Design Studio",
+  "Mary Baker",
+  "cybersecurity",
+  "skill gap",
+  "John Doe",
+  "Doe\u2019s Organic Market",
+  "Sophia Rodriguez",
+  "Glimmer Gems",
+  "cost of technology integration",
+  "resistance to change",
+  "Vintage Reads",
+  "Crafty Hands Workshop",
+  "Emily Thompson",
+  "TechBoost",
+  "SkillForward",
+  "Fresh Farm Box",
+  "Jack Liu",
+  "e-commerce",
+  "cloud computing",
+  "Cloud4SMEs",
+  "BeSpoke Tailoring"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Timothy Green",
+    "relation": "is_a",
+    "value": "economic analyst",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As reported by Timothy Green, an economic analyst from TechnoProgress Institute"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "Timothy Green",
+    "relation": "affiliated_with",
+    "value": "TechnoProgress Institute",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "As reported by Timothy Green, an economic analyst from TechnoProgress Institute"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small and Medium Enterprises",
+    "relation": "labored_by_costs_and_complexities",
+    "value": "Nearly 65%",
+    "time": null,
+    "speaker": "Timothy Green",
+    "verbatim": [
+     "Nearly 65% of SMEs find themselves labored by the costs and complexities associated with modern technology integration."
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Small and Medium Enterprises",
+    "relation": "thrived_on",
+    "value": "their agility and personalized customer relations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Small and Medium Enterprises have historically thrived on their agility and personalized customer relations."
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Small and Medium Enterprises",
+    "relation": "noticeable_shift_in_landscape",
+    "value": "a noticeable shift in the landscape",
+    "time": "since September 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "since September 1, 2023, there has been a noticeable shift in the landscape."
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "digital divide",
+    "relation": "refers_to",
+    "value": "the gap between enterprises that have access to modern digital tools and technologies and those that don\u2019t",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The so-called 'digital divide' refers to the gap between enterprises that have access to modern digital tools and technologies and those that don\u2019t."
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "digital divide",
+    "relation": "widens_for",
+    "value": "numerous SMEs, especially in developing regions or less tech-centric sectors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For numerous SMEs, especially in developing regions or less tech-centric sectors, the divide widens"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "digital divide",
+    "relation": "widens_as",
+    "value": "cutting-edge solutions become more standardized in the marketplace",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the divide widens as cutting-edge solutions become more standardized in the marketplace."
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "cybersecurity",
+    "relation": "companion_of_digitalization",
+    "value": "cybersecurity risks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The urgency to digitalize comes with an unwelcome companion \u2014 cybersecurity risks."
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Baker Design Studio",
+    "relation": "is_a",
+    "value": "boutique interior design firm",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs like 'Baker Design Studio,' a boutique interior design firm,"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Baker Design Studio",
+    "relation": "targeted_by",
+    "value": "a cyberattack",
+    "time": "October 15, 2023",
+    "speaker": null,
+    "verbatim": [
+     "they were the target of a cyberattack on October 15, 2023."
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Mary Baker",
+    "relation": "role",
+    "value": "owner",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The owner, Mary Baker, recounts,"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Mary Baker",
+    "relation": "reported_attack_compromised",
+    "value": "our client data",
+    "time": null,
+    "speaker": "Mary Baker",
+    "verbatim": [
+     "The attack compromised our client data and disrupted operations for weeks, leading to a significant loss in revenue and trust."
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Baker Design Studio",
+    "relation": "operations_disrupted_for",
+    "value": "weeks",
+    "time": null,
+    "speaker": "Mary Baker",
+    "verbatim": [
+     "The attack compromised our client data and disrupted operations for weeks"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Baker Design Studio",
+    "relation": "suffered_loss",
+    "value": "a significant loss in revenue and trust",
+    "time": null,
+    "speaker": "Mary Baker",
+    "verbatim": [
+     "leading to a significant loss in revenue and trust."
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Mary Baker",
+    "relation": "results_in",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": "Mary Baker",
+    "verbatim": [
+     "The attack compromised our client data and disrupted operations for weeks, leading to a significant loss in revenue and trust."
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "cybersecurity",
+    "relation": "unpreparedness_due_to",
+    "value": "a lack of resources to invest in robust cybersecurity infrastructure",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Many SMEs are unprepared for such threats due to a lack of resources to invest in robust cybersecurity infrastructure."
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "skill gap",
+    "relation": "exists_within",
+    "value": "their workforce when it comes to employing new technologies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are also grappling with the skill gap that exists within their workforce when it comes to employing new technologies."
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "John Doe",
+    "relation": "ceo_of",
+    "value": "Doe\u2019s Organic Market",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "John Doe, the CEO of 'Doe\u2019s Organic Market' which opened its second outlet on November 5, 2023,"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "Doe\u2019s Organic Market",
+    "relation": "opened_second_outlet",
+    "value": "second outlet",
+    "time": "November 5, 2023",
+    "speaker": null,
+    "verbatim": [
+     "which opened its second outlet on November 5, 2023"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "John Doe",
+    "relation": "says_biggest_hurdle",
+    "value": "Finding employees who are adept in the latest e-commerce platforms and digital marketing strategies is our biggest hurdle right now",
+    "time": null,
+    "speaker": "John Doe",
+    "verbatim": [
+     "Finding employees who are adept in the latest e-commerce platforms and digital marketing strategies is our biggest hurdle right now."
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "skill gap",
+    "relation": "requires_training",
+    "value": "Employees need to be trained to harness these new tools effectively",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees need to be trained to harness these new tools effectively"
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "skill gap",
+    "relation": "training_is",
+    "value": "a costly and time-consuming affair",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which can be a costly"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "skill gap",
+    "relation": "employees_bearing_brunt_of",
+    "value": "their daily responsibilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "especially when they're already bearing the brunt of their daily responsibilities."
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "cost of technology integration",
+    "relation": "is_a",
+    "value": "a prominent challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another prominent challenge is the cost of technology integration."
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "cost of technology integration",
+    "relation": "budget_for_digital_upgrades_is",
+    "value": "alarming",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "For many SMEs, the budget required for digital upgrades is alarming."
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Sophia Rodriguez",
+    "relation": "launched",
+    "value": "Glimmer Gems",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "Sophia Rodriguez, who launched her jewelry e-store 'Glimmer Gems' on December 1, 2023,"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "Glimmer Gems",
+    "relation": "is_a",
+    "value": "jewelry e-store",
+    "time": "December 1, 2023",
+    "speaker": null,
+    "verbatim": [
+     "who launched her jewelry e-store 'Glimmer Gems' on December 1, 2023,"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "cost of technology integration",
+    "relation": "initial_quotes_were",
+    "value": "beyond our financial capacity as a startup",
+    "time": null,
+    "speaker": "Sophia Rodriguez",
+    "verbatim": [
+     "The initial quotes for setting up a fully integrated digital business platform were beyond our financial capacity as a startup."
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "Small and Medium Enterprises",
+    "relation": "economies_of_scale_not_in_favor",
+    "value": "economies of scale are not usually in favor of SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The economies of scale are not usually in favor of SMEs, making it harder for them to compete with larger businesses that can afford to invest in superior technology without a significant financial strain."
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "Small and Medium Enterprises",
+    "relation": "harder_to_compete_with",
+    "value": "larger businesses that can afford to invest in superior technology without a significant financial strain",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "making it harder for them to compete with larger businesses that can afford to invest in superior technology without a significant financial strain."
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "Small and Medium Enterprises",
+    "relation": "results_in",
+    "value_ref": "c31",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The economies of scale are not usually in favor of SMEs, making it harder for them to compete with larger businesses"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "resistance to change",
+    "relation": "is_a",
+    "value": "a subtle but potent challenge",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "A subtle but potent challenge is the innate resistance to change that can pervade an SME's culture."
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "resistance to change",
+    "relation": "pervades",
+    "value": "an SME's culture",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the innate resistance to change that can pervade an SME's culture."
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "resistance to change",
+    "relation": "manifests_as",
+    "value": "employees and management alike may feel comfortable with the status quo and show reluctance towards adopting new systems and processes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Employees and management alike may feel comfortable with the status quo and show reluctance towards adopting new systems and processes."
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Vintage Reads",
+    "relation": "is_a",
+    "value": "a small independent bookstore",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "'Vintage Reads', a small independent bookstore that embraced an online sales model in early 2024,"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "Vintage Reads",
+    "relation": "embraced",
+    "value": "an online sales model",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "a small independent bookstore that embraced an online sales model in early 2024,"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "Vintage Reads",
+    "relation": "experienced",
+    "value": "initial resistance from staff accustomed to traditional sales methods",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "experienced initial resistance from staff accustomed to traditional sales methods."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "Crafty Hands Workshop",
+    "relation": "transitioned_to",
+    "value": "an online craft tutorial platform",
+    "time": "February 2, 2024",
+    "speaker": null,
+    "verbatim": [
+     "which successfully transitioned to an online craft tutorial platform on February 2, 2024"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Small and Medium Enterprises",
+    "relation": "demonstrated_that_partnerships_can_alleviate",
+    "value": "the pain points of going digital",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have demonstrated that strategic partnerships can alleviate the pain points of going digital."
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "Emily Thompson",
+    "relation": "role",
+    "value": "CEO",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CEO Emily Thompson shares,"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "Emily Thompson",
+    "relation": "says_partnering_was",
+    "value": "a game-changer",
+    "time": null,
+    "speaker": "Emily Thompson",
+    "verbatim": [
+     "Partnering with tech firms that offer scalable and affordable digital solutions tailored for SMEs like ours was a game-changer."
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Small and Medium Enterprises",
+    "relation": "plays_crucial_role_in",
+    "value": "the economy",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing the crucial role SMEs play in the economy, governments worldwide are stepping up."
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "TechBoost",
+    "relation": "is_a",
+    "value": "a government initiative",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "'TechBoost', a government initiative started on March 1, 2024, offers grants and technical support to SMEs aiming to enhance their digital presence."
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "TechBoost",
+    "relation": "started_on",
+    "value": "March 1, 2024",
+    "time": "March 1, 2024",
+    "speaker": null,
+    "verbatim": [
+     "'TechBoost', a government initiative started on March 1, 2024,"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "TechBoost",
+    "relation": "offers",
+    "value": "grants and technical support to SMEs aiming to enhance their digital presence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers grants and technical support to SMEs aiming to enhance their digital presence."
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "skill gap",
+    "relation": "tackled_by",
+    "value": "specialized training programs designed specifically for SME employees",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "To tackle the skill gap, various educational platforms and institutions have initiated specialized training programs designed specifically for SME employees."
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "SkillForward",
+    "relation": "launched_on",
+    "value": "April 10, 2024",
+    "time": "April 10, 2024",
+    "speaker": null,
+    "verbatim": [
+     "as seen with 'SkillForward', launched on April 10, 2024."
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "SkillForward",
+    "relation": "assists_employees_in_acquiring",
+    "value": "the skills necessary to navigate and maximize the benefits of new digital tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "These programs assist employees in acquiring the skills necessary to navigate and maximize the benefits of new digital tools, as seen with 'SkillForward', launched on April 10, 2024."
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "e-commerce",
+    "relation": "offered_smes",
+    "value": "a lifeline in this digital age",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "E-commerce has offered SMEs a lifeline in this digital age."
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "Fresh Farm Box",
+    "relation": "launched_on",
+    "value": "May 5, 2024",
+    "time": "May 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Small businesses like the newly launched 'Fresh Farm Box' on May 5, 2024, harness the power of digital platforms to reach wider markets and streamline operations."
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "Fresh Farm Box",
+    "relation": "harnesses_digital_platforms_to",
+    "value": "reach wider markets and streamline operations",
+    "time": "May 5, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Small businesses like the newly launched 'Fresh Farm Box' on May 5, 2024, harness the power of digital platforms to reach wider markets and streamline operations."
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Jack Liu",
+    "relation": "role",
+    "value": "Co-founder",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Co-founder Jack Liu says,"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "Jack Liu",
+    "relation": "says_online_sales_shift_boosted_revenue",
+    "value": "the shift to online sales has not only boosted our revenue but also allowed us to understand customer behavior more effectively through data analytics",
+    "time": null,
+    "speaker": "Jack Liu",
+    "verbatim": [
+     "The shift to online sales has not only boosted our revenue but also allowed us to understand customer behavior more effectively through data analytics."
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "cloud computing",
+    "relation": "provides_smes_access_to",
+    "value": "storage, software, and processing power on-par with larger competitors",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud computing services provide SMEs with access to storage, software, and processing power on-par with larger competitors but without the substantial upfront costs."
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "cloud computing",
+    "relation": "without",
+    "value": "the substantial upfront costs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cloud computing services provide SMEs with access to storage, software, and processing power on-par with larger competitors but without the substantial upfront costs."
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "Cloud4SMEs",
+    "relation": "started_offering",
+    "value": "tailored cloud solutions",
+    "time": "June 15, 2024",
+    "speaker": null,
+    "verbatim": [
+     "Services like 'Cloud4SMEs', which started offering tailored cloud solutions on June 15, 2024,"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Cloud4SMEs",
+    "relation": "is_invaluable_for",
+    "value": "businesses that want to pay for only what they use, scaling up and down as necessary",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "are becoming invaluable for businesses that want to pay for only what they use, scaling up and down as necessary."
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "BeSpoke Tailoring",
+    "relation": "adopted",
+    "value": "a 3D virtual fitting tool",
+    "time": "July 20, 2024",
+    "speaker": null,
+    "verbatim": [
+     "'BeSpoke Tailoring', which adopted a 3D virtual fitting tool on July 20, 2024,"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "BeSpoke Tailoring",
+    "relation": "represents",
+    "value": "a perfect example of how SMEs can employ technology to deliver personalized and innovative services",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "represents a perfect example of how SMEs can employ technology to deliver personalized and innovative services."
+    ]
+   },
+   {
+    "id": "c61",
+    "entity": "Small and Medium Enterprises",
+    "relation": "compelled_to",
+    "value": "either adapt or face obsolescence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs are compelled to either adapt or face obsolescence."
+    ]
+   },
+   {
+    "id": "c62",
+    "entity": "Small and Medium Enterprises",
+    "relation": "aim_to_remain",
+    "value": "competitive in this relentless business environment",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "that aim to remain competitive in this relentless business environment."
+    ]
+   },
+   {
+    "id": "c63",
+    "entity": "Small and Medium Enterprises",
+    "relation": "opportunity_to",
+    "value": "enhance customer experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offers SMEs an opportunity to enhance customer experience."
+    ]
+   },
+   {
+    "id": "c64",
+    "entity": "Small and Medium Enterprises",
+    "relation": "future_defined_by",
+    "value": "Partnerships, government support, and a willingness to embrace change",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Partnerships, government support, and a willingness to embrace change are pivotal elements that will define the future of SMEs in a digital-centric economy."
+    ]
+   },
+   {
+    "id": "c65",
+    "entity": "Small and Medium Enterprises",
+    "relation": "digitalization_shaped_by",
+    "value": "customer expectations",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "the drive towards digitalization is convincingly shaped by customer expectations."
+    ]
+   }
+  ]
+ },
+ "extracted_with": "claude-haiku-5-5 effort=high"
+}

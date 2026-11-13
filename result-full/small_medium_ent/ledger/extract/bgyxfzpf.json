@@ -1,0 +1,695 @@
+{
+ "inventory": [
+  "Small and Medium Enterprises (SMEs)",
+  "Endpoint Detection and Response (EDR) Systems",
+  "CyberGuard360",
+  "Anna Schmidt",
+  "Cloud Access Security Brokers (CASBs)",
+  "NetProtect",
+  "Automated Compliance Tools",
+  "CompliSpace",
+  "GDPR",
+  "CCPA",
+  "Next-Generation Firewalls (NGFWs)",
+  "FireNet",
+  "AI-Based Phishing Detection",
+  "SpearGuard",
+  "Mobile Device Management (MDM)",
+  "BYOD (Bring Your Own Device) policies",
+  "SecureByod Inc.",
+  "Security Information and Event Management (SIEM)",
+  "AnalytiqLog",
+  "Blockchain for Data Integrity",
+  "BlockSecure",
+  "Passwordless Authentication",
+  "KeylessTech",
+  "Cybersecurity Awareness Training",
+  "CyberTeach",
+  "cyber threats"
+ ],
+ "raw": {
+  "claims": [
+   {
+    "id": "c1",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "relies_on_digital_technologies_for",
+    "value": "operations and data management",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "these organizations are increasingly relying on digital technologies for their operations and data management"
+    ]
+   },
+   {
+    "id": "c2",
+    "entity": "cyber threats",
+    "relation": "target",
+    "value": "businesses of all sizes",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With the rise in cyber threats targeting businesses of all sizes"
+    ]
+   },
+   {
+    "id": "c3",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "should_equip_themselves_with",
+    "value": "the latest cybersecurity tools and strategies",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "it's crucial for SMEs to equip themselves with the latest cybersecurity tools and strategies"
+    ]
+   },
+   {
+    "id": "c4",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "should_know_about",
+    "value": "the top 10 innovative cybersecurity tools",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "we've compiled a list of the top 10 innovative cybersecurity tools that every SME should know about"
+    ]
+   },
+   {
+    "id": "c5",
+    "entity": "Endpoint Detection and Response (EDR) Systems",
+    "relation": "has_been_game_changer_for",
+    "value": "SMEs",
+    "time": "Since September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Since September 2023, the implementation of Endpoint Detection and Response (EDR) systems has been a game changer for SMEs"
+    ]
+   },
+   {
+    "id": "c6",
+    "entity": "Endpoint Detection and Response (EDR) Systems",
+    "relation": "provide",
+    "value": "continuous monitoring and response to advanced threats",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "EDR systems provide continuous monitoring and response to advanced threats"
+    ]
+   },
+   {
+    "id": "c7",
+    "entity": "CyberGuard360",
+    "relation": "has_seen",
+    "value": "a spike in its client base",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a spike in its client base following the launch of its AI-powered response system"
+    ]
+   },
+   {
+    "id": "c8",
+    "entity": "CyberGuard360",
+    "relation": "launched",
+    "value": "AI-powered response system",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "following the launch of its AI-powered response system"
+    ]
+   },
+   {
+    "id": "c9",
+    "entity": "CyberGuard360",
+    "relation": "caused_by",
+    "value_ref": "c8",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has seen a spike in its client base following the launch of its AI-powered response system"
+    ]
+   },
+   {
+    "id": "c10",
+    "entity": "Anna Schmidt",
+    "relation": "is_CTO_of",
+    "value": "CyberGuard360",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "According to Anna Schmidt, the company's CTO"
+    ]
+   },
+   {
+    "id": "c11",
+    "entity": "Endpoint Detection and Response (EDR) Systems",
+    "relation": "identifies",
+    "value": "anomalies",
+    "time": null,
+    "speaker": "Anna Schmidt",
+    "verbatim": [
+     "Our EDR system not just identifies anomalies"
+    ]
+   },
+   {
+    "id": "c12",
+    "entity": "Endpoint Detection and Response (EDR) Systems",
+    "relation": "automates",
+    "value": "containment procedures",
+    "time": null,
+    "speaker": "Anna Schmidt",
+    "verbatim": [
+     "but also automates containment procedures"
+    ]
+   },
+   {
+    "id": "c13",
+    "entity": "Endpoint Detection and Response (EDR) Systems",
+    "relation": "enables_SMEs_to_swiftly_neutralize_threats",
+    "value": "even with limited IT resources",
+    "time": null,
+    "speaker": "Anna Schmidt",
+    "verbatim": [
+     "ensuring SMEs can swiftly neutralize threats even with limited IT resources"
+    ]
+   },
+   {
+    "id": "c14",
+    "entity": "Cloud Access Security Brokers (CASBs)",
+    "relation": "are",
+    "value": "security policy enforcement points that sit between cloud service users and cloud applications",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "CASBs are security policy enforcement points that sit between cloud service users and cloud applications to monitor all activity and enforce security policies"
+    ]
+   },
+   {
+    "id": "c15",
+    "entity": "Cloud Access Security Brokers (CASBs)",
+    "relation": "monitor",
+    "value": "all activity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to monitor all activity and enforce security policies"
+    ]
+   },
+   {
+    "id": "c16",
+    "entity": "Cloud Access Security Brokers (CASBs)",
+    "relation": "in_order_to",
+    "value_ref": "c15",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "sit between cloud service users and cloud applications to monitor all activity"
+    ]
+   },
+   {
+    "id": "c17",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "increasingly_depend_on",
+    "value": "Cloud Access Security Brokers",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Another level of security SMEs have been increasingly depending on is Cloud Access Security Brokers"
+    ]
+   },
+   {
+    "id": "c18",
+    "entity": "NetProtect",
+    "relation": "introduced",
+    "value": "CASB solution",
+    "time": "early 2024",
+    "speaker": null,
+    "verbatim": [
+     "NetProtect's CASB solution, introduced in early 2024"
+    ]
+   },
+   {
+    "id": "c19",
+    "entity": "NetProtect",
+    "relation": "well_received_for",
+    "value": "its userfriendly interface and comprehensive monitoring capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been well received for its userfriendly interface and comprehensive monitoring capabilities"
+    ]
+   },
+   {
+    "id": "c20",
+    "entity": "CompliSpace",
+    "relation": "released",
+    "value": "new automated platform",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "made headlines in late 2023 when it released its new automated platform"
+    ]
+   },
+   {
+    "id": "c21",
+    "entity": "CompliSpace",
+    "relation": "simplifies_compliance_with",
+    "value": "regulations like GDPR, CCPA, and more",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "simplifies the process of staying compliant with regulations like GDPR, CCPA, and more"
+    ]
+   },
+   {
+    "id": "c22",
+    "entity": "CompliSpace",
+    "relation": "clients_report",
+    "value": "significant time and cost savings on compliance activities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Their clients report significant time and cost savings on compliance activities."
+    ]
+   },
+   {
+    "id": "c23",
+    "entity": "Automated Compliance Tools",
+    "relation": "have_become_a_necessity_for",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Automated Compliance Tools have become a necessity for SMEs"
+    ]
+   },
+   {
+    "id": "c24",
+    "entity": "GDPR",
+    "relation": "is_regulation",
+    "value": "data protection regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulations like GDPR, CCPA, and more"
+    ]
+   },
+   {
+    "id": "c25",
+    "entity": "CCPA",
+    "relation": "is_regulation",
+    "value": "data protection regulation",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "regulations like GDPR, CCPA, and more"
+    ]
+   },
+   {
+    "id": "c26",
+    "entity": "Next-Generation Firewalls (NGFWs)",
+    "relation": "are_now_essential_for",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "NGFWs are now essential for SMEs"
+    ]
+   },
+   {
+    "id": "c27",
+    "entity": "Next-Generation Firewalls (NGFWs)",
+    "relation": "provide_capabilities",
+    "value": "application awareness, integrated intrusion prevention, and clouddelivered threat intelligence",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "providing them with capabilities beyond traditional firewalls, such as application awareness, integrated intrusion prevention, and clouddelivered threat intelligence"
+    ]
+   },
+   {
+    "id": "c28",
+    "entity": "FireNet",
+    "relation": "redefined_standard_for",
+    "value": "SME cybersecurity",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Companies like FireNet have redefined the standard for SME"
+    ]
+   },
+   {
+    "id": "c29",
+    "entity": "FireNet",
+    "relation": "offers",
+    "value": "plug-and-play NGFW devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "their plug-and-play NGFW devices"
+    ]
+   },
+   {
+    "id": "c30",
+    "entity": "FireNet",
+    "relation": "designed_for",
+    "value": "SMEs without the need for extensive IT expertise",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which are specifically designed for SMEs without the need for extensive IT expertise"
+    ]
+   },
+   {
+    "id": "c31",
+    "entity": "AI-Based Phishing Detection",
+    "relation": "have_been_pivotal_in_protecting",
+    "value": "SMEs from ever more sophisticated email-based attacks",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "have been pivotal in protecting SMEs from ever more sophisticated email-based attacks"
+    ]
+   },
+   {
+    "id": "c32",
+    "entity": "SpearGuard",
+    "relation": "released",
+    "value": "AI platform",
+    "time": "November 2023",
+    "speaker": null,
+    "verbatim": [
+     "SpearGuard's AI platform, released in November 2023"
+    ]
+   },
+   {
+    "id": "c33",
+    "entity": "SpearGuard",
+    "relation": "analyzes",
+    "value": "communication patterns",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "analyzes communication patterns to detect and quarantine phishing emails before they reach the inbox"
+    ]
+   },
+   {
+    "id": "c34",
+    "entity": "SpearGuard",
+    "relation": "detects_and_quarantines",
+    "value": "phishing emails before they reach the inbox",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "to detect and quarantine phishing emails before they reach the inbox"
+    ]
+   },
+   {
+    "id": "c35",
+    "entity": "SpearGuard",
+    "relation": "hailed_for",
+    "value": "the ability to learn and adapt to new phishing tactics in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "has been hailed for the ability to learn and adapt to new phishing tactics in real-time"
+    ]
+   },
+   {
+    "id": "c36",
+    "entity": "Mobile Device Management (MDM)",
+    "relation": "is_critical_for",
+    "value": "SMEs to ensure security protocols are maintained across all employee devices",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "MDM is critical for SMEs to ensure security protocols are maintained across all employee devices"
+    ]
+   },
+   {
+    "id": "c37",
+    "entity": "BYOD (Bring Your Own Device) policies",
+    "relation": "increased",
+    "value": "an increase",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "With an increase in BYOD (Bring Your Own Device) policies"
+    ]
+   },
+   {
+    "id": "c38",
+    "entity": "SecureByod Inc.",
+    "relation": "is_new_player_in",
+    "value": "the MDM field",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "a new player in the MDM field, SecureByod Inc."
+    ]
+   },
+   {
+    "id": "c39",
+    "entity": "SecureByod Inc.",
+    "relation": "made_waves_with",
+    "value": "its user-centric design that simplified device enrollment and policy application without invading privacy",
+    "time": "mid-2023",
+    "speaker": null,
+    "verbatim": [
+     "made waves with its user-centric design that simplified device enrollment and policy application without invading privacy"
+    ]
+   },
+   {
+    "id": "c40",
+    "entity": "Security Information and Event Management (SIEM)",
+    "relation": "incorporates",
+    "value": "advanced machine learning algorithms to identify abnormalities in real-time",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "incorporating advanced machine learning algorithms to identify abnormalities in real-time"
+    ]
+   },
+   {
+    "id": "c41",
+    "entity": "AnalytiqLog",
+    "relation": "launched",
+    "value": "next-gen SIEM service",
+    "time": "September 2023",
+    "speaker": null,
+    "verbatim": [
+     "Tech firm, AnalytiqLog, launched its next-gen SIEM service in September 2023"
+    ]
+   },
+   {
+    "id": "c42",
+    "entity": "AnalytiqLog",
+    "relation": "amalgamates",
+    "value": "artificial intelligence with big data capabilities",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "which amalgamates artificial intelligence with big data capabilities to give SMEs enterprise-level security oversight"
+    ]
+   },
+   {
+    "id": "c43",
+    "entity": "Blockchain for Data Integrity",
+    "relation": "has_been_gradually_embraced_by",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "The application of blockchain technology to ensure data integrity has been gradually embraced by SMEs"
+    ]
+   },
+   {
+    "id": "c44",
+    "entity": "BlockSecure",
+    "relation": "founded",
+    "value": "a startup",
+    "time": "late 2023",
+    "speaker": null,
+    "verbatim": [
+     "BlockSecure, a startup founded in late 2023"
+    ]
+   },
+   {
+    "id": "c45",
+    "entity": "BlockSecure",
+    "relation": "brought_to_market",
+    "value": "a blockchain solution that enables SMEs to secure their critical data against tampering and revisions",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "brought to market a blockchain solution that enables SMEs to secure their critical data against tampering and revisions"
+    ]
+   },
+   {
+    "id": "c46",
+    "entity": "BlockSecure",
+    "relation": "guarantees",
+    "value": "the legitimacy and traceability of their digital records",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "thereby guaranteeing the legitimacy and traceability of their digital records"
+    ]
+   },
+   {
+    "id": "c47",
+    "entity": "BlockSecure",
+    "relation": "results_in",
+    "value_ref": "c46",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "enables SMEs to secure their critical data against tampering and revisions, thereby guaranteeing"
+    ]
+   },
+   {
+    "id": "c48",
+    "entity": "Passwordless Authentication",
+    "relation": "are_becoming_a_reality_for",
+    "value": "SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Passwordless Authentication systems are becoming a reality for SMEs"
+    ]
+   },
+   {
+    "id": "c49",
+    "entity": "Passwordless Authentication",
+    "relation": "increases_security_by",
+    "value": "eliminating the weakest link in the security chain - passwords",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "increasing security by eliminating the weakest link in the security chain - passwords"
+    ]
+   },
+   {
+    "id": "c50",
+    "entity": "KeylessTech",
+    "relation": "unveiled",
+    "value": "its biometric authentication system",
+    "time": "2024",
+    "speaker": null,
+    "verbatim": [
+     "Digital identity company, KeylessTech, unveiled its biometric authentication system in 2024"
+    ]
+   },
+   {
+    "id": "c51",
+    "entity": "KeylessTech",
+    "relation": "uses",
+    "value": "facial recognition and fingerprint scanning to grant access",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "uses facial recognition and fingerprint scanning to grant access"
+    ]
+   },
+   {
+    "id": "c52",
+    "entity": "KeylessTech",
+    "relation": "offers",
+    "value": "a streamlined and secure login experience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "offering a streamlined and secure login experience"
+    ]
+   },
+   {
+    "id": "c53",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "have_vulnerability",
+    "value": "human error",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "human error continues to be a significant vulnerability for SMEs"
+    ]
+   },
+   {
+    "id": "c54",
+    "entity": "CyberTeach",
+    "relation": "rolled_out",
+    "value": "interactive cybersecurity awareness programs tailored for SMEs",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "elearning platforms like CyberTeach have rolled out interactive cybersecurity awareness programs tailored for SMEs"
+    ]
+   },
+   {
+    "id": "c55",
+    "entity": "CyberTeach",
+    "relation": "caused_by",
+    "value_ref": "c53",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Recognizing this, elearning platforms like CyberTeach have rolled out"
+    ]
+   },
+   {
+    "id": "c56",
+    "entity": "CyberTeach",
+    "relation": "training_began",
+    "value": "cutting-edge training",
+    "time": "January 2024",
+    "speaker": null,
+    "verbatim": [
+     "Their cutting-edge training, which began in January 2024"
+    ]
+   },
+   {
+    "id": "c57",
+    "entity": "CyberTeach",
+    "relation": "employs",
+    "value": "gamification to engage employees in real-world scenarios",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "employs gamification to engage employees in real-world scenarios"
+    ]
+   },
+   {
+    "id": "c58",
+    "entity": "Cybersecurity Awareness Training",
+    "relation": "significantly_improves",
+    "value": "cybersecurity across teams",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "significantly improving cybersecurity across teams"
+    ]
+   },
+   {
+    "id": "c59",
+    "entity": "cyber threats",
+    "relation": "are",
+    "value": "constantly evolving",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "Cyber threats are constantly evolving"
+    ]
+   },
+   {
+    "id": "c60",
+    "entity": "Small and Medium Enterprises (SMEs)",
+    "relation": "can_bolster",
+    "value": "their cyber resilience",
+    "time": null,
+    "speaker": null,
+    "verbatim": [
+     "SMEs can significantly bolster their cyber resilience"
+    ]
+   }
+  ]
+ },
+ "extracted_with": "anthropic/claude-haiku-5.5 effort=high"
+}
