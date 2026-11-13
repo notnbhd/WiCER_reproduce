@@ -1,0 +1,20 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (01:04:22)
+ledger: 5178 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha 4c61ef158c7a -- matches
+
+[1m== reader[0m  (01:04:22)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== doc reader on paged_bare[0m  (01:04:23)
+local_economy              paged_bare_reader_doc: 829 cuts in 45,683 tokens, answered 400, scored 400
+
+[1m== doc oracle on paged_bare[0m  (01:11:39)
+local_economy              paged_bare_oracle_doc: 829 cuts in 45,683 tokens, answered 400, scored 400
+
+[1m== doc reader on paged_desc[0m  (01:16:54)
+local_economy              paged_desc_reader_doc: 744 cuts in 44,909 tokens, answered 400, scored 400
+
+[1m== DOC_DONE[0m  (01:24:18)
