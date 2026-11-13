@@ -182,3 +182,16 @@ def test_manifest_records_which_rule_built_it(profile, tmp_path):
     manifest = json.loads((tmp_path / "s" / "manifest.json").read_text())
     assert manifest["doc_selection"] == "shortest"
     assert "shortest" in manifest["subsample_rule"]
+
+
+def test_the_full_profile_keeps_every_document_in_its_own_directory(tmp_path):
+    from dataclasses import replace
+
+    from wicer_core.config import get_profile
+
+    full = get_profile("full")
+    assert full.corpus.data_dir != get_profile("paper").corpus.data_dir
+    df = _frame(n_docs=23, n_qa=6, length_of=lambda d: 10 + d)
+    corpus = _build_from_frame(replace(full, corpus=replace(full.corpus, data_dir=str(tmp_path))),
+                               "company_policies", df, tmp_path / "full")
+    assert len(corpus.documents) == 23 and len(corpus.qa) == 23 * 5

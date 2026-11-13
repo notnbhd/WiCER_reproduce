@@ -595,16 +595,26 @@ def render_topic(
     rho: float,
     count_tokens: Callable[[str], int],
     ratio: float | None = None,
+    budget_tokens: int | None = None,
     style: str = "typed",
     select: str = "roundrobin",
     stubs: str = "none",
 ) -> RenderResult:
-    """Render a topic's ledger to a wiki the benchmark runner can serve."""
+    """Render a topic's ledger to a wiki the benchmark runner can serve.
+
+    ``budget_tokens`` fixes B in reader tokens instead of as a share of the
+    source: a corpus larger than the window needs a context sized to the
+    window, whatever the corpus.
+    """
+    if ratio is not None and budget_tokens is not None:
+        raise ValueError("give ratio or budget_tokens, not both")
     ledger = load_ledger(profile, topic)
     if ledger is None:
         raise FileNotFoundError(f"no ledger for {topic!r}: run `python -m tact.run extract` first")
     corpus = load_topic(profile, topic)
     check_corpus(ledger, corpus)
+    if budget_tokens is not None:
+        ratio = budget_tokens / count_tokens(format_documents(list(corpus.documents)))
     ratio = profile.wicer.ratio if ratio is None else ratio
     if style == "verbatim":
         res = fill_verbatim(ledger.claims, corpus.documents, ratio=ratio, rho=rho,

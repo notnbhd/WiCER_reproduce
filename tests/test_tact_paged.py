@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import json
 
-from wicer_core.corpus import Document, QAPair, load_topic
+import pytest
+
+from wicer_core.corpus import Document, QAPair, format_documents, load_topic
 from wicer_core.reader import Generation, build_user_prompt
 from wicer_core.records import answers_path, read_jsonl, scores_path
 from tact import run
@@ -341,3 +343,25 @@ def test_limit_pages_only_the_first_questions(profile, topic):
               "--stubs", "bare"], profile=profile)
     assert run.main(["page", *argv, "--wiki", "paged", "--limit", "5"], profile=profile) == 0
     assert len(read_jsonl(pages_path(profile, topic, "paged_reader"))) == 5
+
+
+# -- a corpus larger than the window -------------------------------------------------------
+
+
+def test_full_profile_results_go_to_their_own_directory():
+    from tact import get_profile
+
+    assert get_profile("full").results_dir == "result-full"
+    assert get_profile("paper").results_dir == "result-tact"
+
+
+def test_render_can_fix_the_budget_in_tokens(profile, topic):
+    build_ledger(profile, topic, Extractor(profile.compiler, backend="fake"))
+    source = words(format_documents(load_topic(profile, topic).documents))
+    res = render_topic(profile, topic, name="fixed", rho=0.0, count_tokens=words,
+                       style="verbatim", stubs="bare", budget_tokens=source // 3)
+    assert abs(res.meta["target_tokens"] - source // 3) <= 1
+    assert res.meta["actual_tokens"] <= res.meta["target_tokens"]
+    with pytest.raises(ValueError):
+        render_topic(profile, topic, name="x", rho=0.0, count_tokens=words, ratio=0.5,
+                     budget_tokens=100)

@@ -186,6 +186,16 @@ class Profile:
 
 PROFILES: dict[str, Profile] = {
     "paper": Profile(name="paper"),
+    # Every document of a topic (137-233; 107K-298K reader tokens), not the
+    # shortest 80: the corpus no longer fits the 96K window, so full context
+    # is impossible and a context has to choose what to keep -- the setting
+    # the paged cache is for.  Its own corpus and results directories, so the
+    # 80-document corpora and their ledgers are never overwritten.
+    "full": Profile(
+        name="full",
+        corpus=CorpusConfig(n_docs_per_topic=10_000, data_dir="data/repliqa_full"),
+        results_dir="results-full",
+    ),
     "smoke": Profile(
         name="smoke",
         reader=ReaderConfig(

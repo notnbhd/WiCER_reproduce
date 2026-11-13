@@ -19,6 +19,8 @@ from wicer_core.config import Profile
 from wicer_core.config import get_profile as _wicer_profile
 
 RESULTS_DIR = "result-tact"
+# The full-topic profile's TACT results sit beside, not inside, result-tact/.
+FULL_RESULTS_DIR = "result-full"
 
 
 def get_profile(name: str | None = None) -> Profile:
@@ -33,4 +35,6 @@ def get_profile(name: str | None = None) -> Profile:
         return profile
     if profile.results_dir == "results":
         return replace(profile, results_dir=RESULTS_DIR)
+    if profile.results_dir == "results-full":
+        return replace(profile, results_dir=FULL_RESULTS_DIR)
     return replace(profile, results_dir=f"{profile.results_dir}/tact")
