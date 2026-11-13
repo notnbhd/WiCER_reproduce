@@ -1,0 +1,24 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (00:09:29)
+ledger: 5178 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha 4c61ef158c7a -- matches
+
+[1m== reader[0m  (00:09:29)
+
+[1m== starting llama-server[0m  (00:09:29)
+profile=paper  model=models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf  n_ctx=98304  kv=q8_0/q8_0  ngl=99
+llama-server --model models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf --ctx-size 98304 --cache-type-k q8_0 --cache-type-v q8_0 --n-gpu-layers 99 --host 127.0.0.1 --port 8080 --parallel 1 --cont-batching --metrics --flash-attn on
+started pid=7143  log=/root/WiCER/results/server/llama-server-paper.log
+waiting for /health.. ok
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== render[0m  (00:09:31)
+local_economy              paged_bare: 45,667/45,813 tokens (ratio 49.8%) coverage=56.0%  cuts=829 stub_tokens=5,803
+local_economy              paged_desc: 44,893/45,813 tokens (ratio 49.0%) coverage=46.9%  cuts=744 stub_tokens=11,268
+
+[1m== smoke[0m  (00:09:36)
+local_economy              smoke_bare: 829 cuts in 45,683 tokens, answered 20, scored 20
+local_economy              smoke_desc: 744 cuts in 44,909 tokens, answered 20, scored 20
+
+[1m== SMOKE_DONE[0m  (00:12:51)

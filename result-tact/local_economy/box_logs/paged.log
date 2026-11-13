@@ -1,0 +1,43 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (00:19:57)
+ledger: 5178 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80}
+corpus: 80 docs, sha 4c61ef158c7a -- matches
+
+[1m== reader[0m  (00:19:58)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+
+[1m== rendering[0m  (00:19:58)
+local_economy              paged_none: 45,798/45,813 tokens (ratio 50.0%) coverage=64.2% 
+local_economy              paged_bare: 45,667/45,813 tokens (ratio 49.8%) coverage=56.0%  cuts=829 stub_tokens=5,803
+local_economy              paged_desc: 44,893/45,813 tokens (ratio 49.0%) coverage=46.9%  cuts=744 stub_tokens=11,268
+
+[1m== ordinary prompt on paged_none[0m  (00:20:05)
+local_economy              paged_none: scored 400 (resumed 0)
+
+[1m== ordinary prompt on paged_bare[0m  (00:25:39)
+local_economy              paged_bare: scored 400 (resumed 0)
+
+[1m== ordinary prompt on paged_desc[0m  (00:31:01)
+local_economy              paged_desc: scored 400 (resumed 0)
+
+[1m== oracle fetch on paged_bare[0m  (00:36:12)
+local_economy              paged_bare_oracle: 829 cuts in 45,683 tokens, answered 400, scored 400
+
+[1m== oracle fetch on paged_desc[0m  (00:41:26)
+local_economy              paged_desc_oracle: 744 cuts in 44,909 tokens, answered 400, scored 400
+
+[1m== reader fetch on paged_bare[0m  (00:46:22)
+local_economy              paged_bare_reader: 829 cuts in 45,683 tokens, answered 400, scored 400
+
+[1m== reader fetch on paged_desc[0m  (00:52:22)
+local_economy              paged_desc_reader: 744 cuts in 44,909 tokens, answered 400, scored 400
+
+Done. From the laptop:
+
+  WICER_RESULTS_DIR=result-tact scripts/pull_results.sh [user@]host[:port]
+  uv run python -m tact.run compare --topic local_economy
+
+The reader is still running (pid in results/server/llama-server-paper.pid).
+Kill it when you are done.
