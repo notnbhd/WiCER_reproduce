@@ -1,0 +1,11 @@
+judge: claude-haiku-5-5 via anthropic; compiler: claude-haiku-5-5 via anthropic
+
+[1m== ledger and corpus[0m  (13:34:20)
+ledger: 16016 claims, extracted with {'anthropic/claude-haiku-5.5 effort=high': 80, 'claude-haiku-5-5 effort=high': 149}
+corpus: 229 docs, sha 4f7d7518b81c -- matches
+
+[1m== reader[0m  (13:34:20)
+reader already up at 127.0.0.1:8080 -- leaving it alone
+reader OK: models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf
+small_medium_ent           paged_index_b88: 87,998/88,000 tokens (ratio 30.5%) coverage=34.8%  cuts=1853 stub_tokens=9,342
+small_medium_ent           paged_index_b88_reader_doc: 1853 cuts in 88,014 tokens, answered 1145, scored 1145
