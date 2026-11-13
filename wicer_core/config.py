@@ -20,6 +20,12 @@ from dataclasses import dataclass, field, asdict, replace
 from pathlib import Path
 from typing import Any
 
+# The SDK retries 429s and 5xx with backoff, twice by default.  Two is too few
+# when the judge's threads share the organization's concurrent-request limit
+# with an extraction (a 17-topic sweep lost a topic's judging to one 429,
+# 2026-11-14), and a dead run costs far more than a slow call.
+ANTHROPIC_MAX_RETRIES = int(os.environ.get("WICER_ANTHROPIC_MAX_RETRIES", "8"))
+
 from wicer_core import env
 
 REPO_ROOT = Path(__file__).resolve().parent.parent

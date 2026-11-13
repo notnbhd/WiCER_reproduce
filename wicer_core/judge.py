@@ -27,7 +27,7 @@ from dataclasses import dataclass, asdict, replace
 from pathlib import Path
 from typing import Any, Iterable, Sequence
 
-from wicer_core.config import JudgeConfig, resolve
+from wicer_core.config import JudgeConfig, resolve, ANTHROPIC_MAX_RETRIES
 
 # Appendix B, verbatim.  The '--' double hyphens are the paper's.
 JUDGE_SYSTEM_PROMPT = """You are an expert evaluator comparing a generated answer against a gold-standard answer.
@@ -104,7 +104,7 @@ class Judge:
         if self._client is None:
             import anthropic
 
-            self._client = anthropic.Anthropic()
+            self._client = anthropic.Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
         return self._client
 
     @property

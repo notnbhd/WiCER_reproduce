@@ -20,7 +20,7 @@ from typing import Any, Sequence
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from wicer_core.config import WicerConfig
+from wicer_core.config import WicerConfig, ANTHROPIC_MAX_RETRIES
 from wicer_core.corpus import Document, QAPair
 from wicer.compile import PROMPT_DIR, PreservedFact
 
@@ -59,7 +59,7 @@ class Diagnoser:
         if self._client is None:
             import anthropic
 
-            self._client = anthropic.Anthropic()
+            self._client = anthropic.Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
         return self._client
 
     @property

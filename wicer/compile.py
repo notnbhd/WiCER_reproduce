@@ -32,6 +32,7 @@ from typing import Any, Callable, Sequence
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from wicer_core.config import (
+    ANTHROPIC_MAX_RETRIES,
     TOPICS,
     CompilerConfig,
     Profile,
@@ -152,7 +153,7 @@ class Compiler:
         if self._client is None:
             import anthropic
 
-            self._client = anthropic.Anthropic()
+            self._client = anthropic.Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
         return self._client
 
     @property

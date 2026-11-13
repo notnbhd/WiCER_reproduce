@@ -11,6 +11,8 @@ import json
 import os
 from typing import Any
 
+from wicer_core.config import ANTHROPIC_MAX_RETRIES
+
 _TRUNCATED = frozenset({"length", "max_tokens"})
 
 
@@ -60,7 +62,7 @@ class JsonLLM:
         if self._client is None:
             import anthropic
 
-            self._client = anthropic.Anthropic()
+            self._client = anthropic.Anthropic(max_retries=ANTHROPIC_MAX_RETRIES)
         return self._client
 
     @property
