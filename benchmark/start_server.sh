@@ -86,6 +86,14 @@ ARGS=(
   --metrics
 )
 [[ "$FLASH_ATTN" == "1" ]] && ARGS+=(--flash-attn on)
+# Newer builds keep evicted prompt states in host RAM (--cache-ram, 8 GB by
+# default) and restore them on a prefix match.  With q8_0 KV and flash
+# attention (commit 5676dfb, RTX 4090, 2026-11-14) the first switch between
+# two cached contexts corrupts the KV: every later reply is "!!!!..." and
+# scores 1.  Contexts here are re-primed anyway, so turn it off.
+if llama-server --help 2>&1 | grep -q -- '--cache-ram'; then
+  ARGS+=(--cache-ram 0)
+fi
 [[ ${#EXTRA[@]} -gt 0 ]] && ARGS+=("${EXTRA[@]}")
 
 echo "profile=$PROFILE  model=$MODEL_PATH  n_ctx=$N_CTX  kv=$CACHE_K/$CACHE_V  ngl=$NGL"
